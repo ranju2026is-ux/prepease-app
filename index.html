@@ -35,37 +35,34 @@
             border-color: rgba(67, 56, 202, 0.3);
         }
 
-        /* ANKI FLIP CARD STYLES */
-        .anki-card {
-            perspective: 1000px;
-            height: 480px;
-            width: 100%;
-            max-width: 500px;
-            margin: 0 auto;
+        /* MODERN FLASHCARD STYLES */
+        .flashcard-container {
+            @apply w-full max-w-2xl mx-auto space-y-6;
         }
-        .anki-card-inner {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-            transform-style: preserve-3d;
+        
+        .flashcard {
+            @apply bg-white border-2 border-slate-100 rounded-[3rem] p-8 md:p-12 transition-all duration-300 shadow-sm relative overflow-hidden;
         }
-        .anki-card.flipped .anki-card-inner {
-            transform: rotateY(180deg);
+
+        .flashcard-answer {
+            max-height: 0;
+            opacity: 0;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            overflow: hidden;
         }
-        .anki-card-front, .anki-card-back {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            backface-visibility: hidden;
-            @apply flex flex-col items-center justify-center rounded-[3.5rem] p-10 border-8 border-white shadow-2xl;
+
+        .flashcard.revealed .flashcard-answer {
+            max-height: 500px;
+            opacity: 1;
+            @apply mt-8 pt-8 border-t border-slate-100;
         }
-        .anki-card-front {
-            @apply bg-white border-indigo-50;
+
+        .reveal-btn {
+            @apply mt-8 px-8 py-3 bg-indigo-600 text-white font-bold rounded-2xl shadow-lg shadow-indigo-100 hover:bg-indigo-700 transition-all active:scale-95 text-sm uppercase tracking-widest;
         }
-        .anki-card-back {
-            @apply bg-indigo-600 text-white border-indigo-500;
-            transform: rotateY(180deg);
+
+        .flashcard.revealed .reveal-btn {
+            @apply bg-slate-100 text-slate-400 shadow-none pointer-events-none;
         }
 
         /* LOGO ANIMATION - P in BOX */
@@ -108,7 +105,6 @@
                 <div class="relative flex items-center justify-center logo-box">
                     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="40" height="40" rx="10" fill="#4338ca"/>
-                        <!-- Minimalist P in Box -->
                         <path d="M15 28V12H21.5C24.5376 12 27 14.4624 27 17.5C27 20.5376 24.5376 23 21.5 23H15" stroke="white" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                 </div>
@@ -180,13 +176,12 @@
             userName: '',
             intendedView: null,
             intendedParams: {},
-            currentType: null, // 'grammar' or 'vocabulary'
+            currentType: null,
             currentTopic: null,
             currentLevel: null
         };
 
         // --- SPA ROUTING & ABSOLUTE PATH HELPER ---
-        // Ensures the base path is correct whether on root or GitHub Pages subfolder
         const getBaseDir = () => {
             const path = window.location.pathname;
             return path.substring(0, path.lastIndexOf('/') + 1);
@@ -203,7 +198,6 @@
             window.history.pushState(state, '', newURL);
         };
 
-        // Handle browser Back/Forward/Refresh deep-links
         window.onpopstate = (event) => {
             if (event.state) {
                 Object.assign(state, event.state);
@@ -277,7 +271,7 @@
                 case 'english-selection': shell.innerHTML = renderEnglishSelection(); break;
                 case 'topics-grid': shell.innerHTML = renderTopicsGrid(); break;
                 case 'levels-grid': shell.innerHTML = renderLevelsGrid(); break;
-                case 'content-view': shell.innerHTML = renderContentView(); loadAnkiContent(); break;
+                case 'content-view': shell.innerHTML = renderContentView(); loadFlashcards(); break;
                 case 'exams-pyq': shell.innerHTML = renderExamsPYQ(); break;
                 case 'doubts': shell.innerHTML = renderDoubts(); break;
             }
@@ -376,7 +370,7 @@
                         ${Array.from({length: 10}, (_, i) => i + 1).map(lv => `
                             <div onclick="navigateTo('content-view', { currentLevel: ${lv} })" 
                                  class="p-10 border-2 border-slate-100 rounded-[2.5rem] text-center hover:border-indigo-600 hover:shadow-2xl transition-all cursor-pointer group bg-white shadow-sm">
-                                <span class="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-2 block group-hover:text-indigo-600">Phase</span>
+                                <span class="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-2 block group-hover:text-indigo-600">Level</span>
                                 <span class="text-4xl font-black text-slate-900">${lv}</span>
                             </div>
                         `).join('')}
@@ -394,68 +388,68 @@
             `;
         }
 
-        // --- OPTIMIZED FETCH ENGINE ---
-        async function loadAnkiContent() {
+        // --- FETCH & FLASHCARD ENGINE ---
+        async function loadFlashcards() {
             const container = document.getElementById('content-container');
-            container.innerHTML = `<div class="flex flex-col items-center justify-center py-24"><div class="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mb-4"></div><p class="text-slate-400 text-[10px] font-bold animate-pulse uppercase tracking-widest">Syncing Data...</p></div>`;
+            container.innerHTML = `<div class="flex flex-col items-center justify-center py-24"><div class="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mb-4"></div><p class="text-slate-400 text-[10px] font-bold animate-pulse uppercase tracking-widest">Syncing Records...</p></div>`;
             
-            // CONSTRUCT ABSOLUTE URL relative to site base
-            // Expected: domain.com/repo/content/general-english/{type}/{topic}/level{n}.json
+            // CONSTRUCT ABSOLUTE URL
             const relPath = `content/general-english/${state.currentType}/${state.currentTopic}/level${state.currentLevel}.json`;
             const absoluteURL = new URL(relPath, window.location.origin + getBaseDir()).href;
 
             try {
                 const response = await fetch(absoluteURL);
                 if (!response.ok) throw new Error(`${response.status}`);
-                const notes = await response.json();
-                renderAnkiCards(notes);
+                const data = await response.json();
+                renderFlashcards(data);
             } catch (err) {
                 container.innerHTML = `
                     <div class="text-center py-20 bg-white border border-slate-200 rounded-[3rem] shadow-sm">
                         <div class="text-5xl mb-6">📂</div>
                         <h3 class="text-xl font-bold text-slate-900 mb-2 tracking-tight">Milestone Offline</h3>
-                        <p class="text-slate-500 mb-4 text-sm max-w-xs mx-auto font-medium">Attempted absolute fetch to:</p>
-                        <code class="bg-slate-100 p-2 rounded text-indigo-600 mb-8 block text-xs overflow-x-auto mx-4 font-bold border border-indigo-50">${absoluteURL}</code>
-                        <p class="text-slate-400 text-xs mb-8">Status: ${err.message}. Please verify the folder structure in your repository.</p>
+                        <p class="text-slate-500 mb-4 text-sm max-w-xs mx-auto font-medium leading-relaxed">Attempted absolute fetch to:</p>
+                        <code class="bg-slate-100 p-3 rounded-xl text-indigo-600 mb-8 block text-xs overflow-x-auto mx-4 font-bold border border-indigo-50">${absoluteURL}</code>
+                        <p class="text-slate-400 text-xs mb-8 italic">Verify your repository folder structure matches: content/general-english/${state.currentType}/${state.currentTopic}/level${state.currentLevel}.json</p>
                         <button onclick="navigateTo('levels-grid')" class="px-10 py-3 bg-indigo-600 text-white font-bold rounded-xl shadow-lg active:scale-95 transition-all">Back to Grid</button>
                     </div>
                 `;
             }
         }
 
-        function renderAnkiCards(notes) {
+        function renderFlashcards(notes) {
             const container = document.getElementById('content-container');
             let html = `
                 <div class="mb-16 text-center">
-                    <span class="px-4 py-1 bg-indigo-50 text-indigo-700 text-[10px] font-black rounded-full uppercase tracking-widest mb-4 inline-block">Active Recall Mastery</span>
+                    <span class="px-4 py-1 bg-indigo-50 text-indigo-700 text-[10px] font-black rounded-full uppercase tracking-widest mb-4 inline-block">Flashcard Mastery</span>
                     <h2 class="text-5xl font-black text-slate-900 tracking-tighter capitalize">${state.currentTopic} - Phase ${state.currentLevel}</h2>
-                    <p class="text-slate-400 text-sm mt-4 uppercase tracking-tighter font-bold">Tap card to verify your mapping</p>
+                    <p class="text-slate-400 text-sm mt-4 uppercase tracking-tighter font-bold leading-relaxed">Recall the mapping and reveal the bilingual meaning</p>
                 </div>
-                <div class="flex flex-col gap-12 items-center">
+                <div class="flashcard-container">
             `;
 
-            notes.forEach(item => {
+            notes.forEach((item, index) => {
                 const synonyms = (item.meaning_english || "").replace(/_/g, ', ');
                 const kannada = item.meaning_kannada || "";
                 
                 html += `
-                    <div class="anki-card" onclick="this.classList.toggle('flipped')">
-                        <div class="anki-card-inner">
-                            <!-- FRONT -->
-                            <div class="anki-card-front">
-                                <span class="text-7xl mb-8">${item.emoji || '📗'}</span>
-                                <h3 class="text-5xl font-black text-slate-900 tracking-tighter">${item.word}</h3>
-                                <p class="mt-12 text-slate-300 font-bold text-[10px] uppercase tracking-[0.3em]">Think synonyms & flip</p>
-                            </div>
-                            <!-- BACK -->
-                            <div class="anki-card-back">
-                                <p class="text-emerald-300 font-black text-xs uppercase tracking-widest mb-6 border-b border-emerald-300/30 pb-2">Bilingual Match</p>
-                                <h3 class="text-5xl font-bold mb-4 font-kannada">${kannada}</h3>
-                                <div class="h-px w-20 bg-white/20 mb-8"></div>
-                                <div class="text-center px-4">
-                                    <p class="text-3xl font-bold text-white mb-2 leading-tight">${synonyms}</p>
+                    <div class="flashcard" id="card-${index}">
+                        <div class="flex flex-col items-center text-center">
+                            <span class="text-6xl mb-6 drop-shadow-md">${item.emoji || '📗'}</span>
+                            <h3 class="text-4xl font-black text-slate-900 tracking-tighter">${item.word}</h3>
+                            
+                            <button class="reveal-btn" onclick="revealCard(${index})">Reveal Meaning</button>
+                            
+                            <div class="flashcard-answer w-full">
+                                <div class="space-y-4">
+                                    <div class="flex flex-col items-center">
+                                        <p class="text-[10px] font-black text-emerald-600 uppercase tracking-widest mb-2">Kannada Meaning</p>
+                                        <p class="text-4xl font-bold text-slate-900 font-kannada">${kannada}</p>
+                                    </div>
+                                    <div class="pt-4 flex flex-col items-center border-t border-slate-50">
+                                        <p class="text-[10px] font-black text-indigo-400 uppercase tracking-widest mb-2">English Synonyms</p>
+                                        <p class="text-2xl font-medium text-indigo-900 leading-tight">${synonyms}</p>
+                                    </div>
                                 </div>
-                                <span class="mt-12 px-8 py-2 bg-white/10 rounded-full text-[10px] font-black uppercase tracking-widest">Mastered ➜</span>
                             </div>
                         </div>
                     </div>
@@ -464,8 +458,8 @@
 
             html += `
                 <div class="p-16 bg-slate-900 rounded-[4rem] text-white text-center shadow-2xl mt-12 relative overflow-hidden group w-full">
-                    <h3 class="text-4xl font-black mb-4 tracking-tight">Phase Mastered!</h3>
-                    <p class="text-slate-400 mb-10 text-lg font-medium">You have visualized all ${notes.length} concepts in Level ${state.currentLevel}.</p>
+                    <h3 class="text-3xl font-black mb-4 tracking-tight">Phase Mastered!</h3>
+                    <p class="text-slate-400 mb-10 text-base font-medium leading-relaxed">You have visualized all ${notes.length} concepts in Level ${state.currentLevel}.</p>
                     <button onclick="navigateTo('levels-grid')" class="px-12 py-5 bg-white text-slate-900 font-black rounded-2xl shadow-xl hover:bg-slate-50 transition-all uppercase tracking-widest text-xs">Unlock Next Phase</button>
                     <div class="absolute -right-10 -bottom-10 text-white opacity-[0.03] text-9xl font-black rotate-12 group-hover:scale-110 transition-transform uppercase">LEVEL ${state.currentLevel}</div>
                 </div>
@@ -473,8 +467,14 @@
             container.innerHTML = html;
         }
 
+        function revealCard(index) {
+            const card = document.getElementById(`card-${index}`);
+            if (card) {
+                card.classList.add('revealed');
+            }
+        }
+
         function renderExamsPYQ() {
-            const isKarnataka = state.currentCategory === 'karnataka';
             return `<div class="max-w-7xl mx-auto px-6 py-20 view-transition text-center"><button onclick="navigateTo('home')" class="text-slate-400 font-bold mb-8 flex items-center justify-center gap-2 hover:text-indigo-600 transition-colors mx-auto uppercase text-xs tracking-widest">← Dashboard</button><h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-12 capitalize">${state.currentCategory} Regional Hub</h2><div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left"><div class="premium-card flex justify-between items-center group"><div><h3 class="text-2xl font-bold text-slate-900 mb-1 tracking-tight font-bold">Official Archives 2024</h3><p class="text-[10px] font-bold text-emerald-600 uppercase tracking-widest">Verified Solution</p></div><div class="w-14 h-14 bg-slate-50 border border-slate-100 rounded-2xl flex items-center justify-center group-hover:bg-indigo-600 group-hover:text-white transition-all"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div></div></div></div>`;
         }
 
