@@ -185,6 +185,43 @@
             currentLevel: null
         };
 
+        // --- SPA ROUTING & ABSOLUTE PATH HELPER ---
+        // Ensures the base path is correct whether on root or GitHub Pages subfolder
+        const getBaseDir = () => {
+            const path = window.location.pathname;
+            return path.substring(0, path.lastIndexOf('/') + 1);
+        };
+
+        const updateURL = () => {
+            const params = new URLSearchParams();
+            if (state.view) params.set('v', state.view);
+            if (state.currentType) params.set('type', state.currentType);
+            if (state.currentTopic) params.set('topic', state.currentTopic);
+            if (state.currentLevel) params.set('lv', state.currentLevel);
+            
+            const newURL = `${window.location.origin}${window.location.pathname}?${params.toString()}`;
+            window.history.pushState(state, '', newURL);
+        };
+
+        // Handle browser Back/Forward/Refresh deep-links
+        window.onpopstate = (event) => {
+            if (event.state) {
+                Object.assign(state, event.state);
+                render();
+            } else {
+                initFromURL();
+            }
+        };
+
+        const initFromURL = () => {
+            const params = new URLSearchParams(window.location.search);
+            if (params.has('v')) state.view = params.get('v');
+            if (params.has('type')) state.currentType = params.get('type');
+            if (params.has('topic')) state.currentTopic = params.get('topic');
+            if (params.has('lv')) state.currentLevel = params.get('lv');
+            render();
+        };
+
         // --- NAVIGATION ---
         function navigateTo(view, params = {}) {
             const protectedViews = ['english-selection', 'topics-grid', 'levels-grid', 'content-view'];
@@ -196,6 +233,7 @@
                 state.view = view;
             }
             Object.assign(state, params);
+            updateURL();
             render();
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
@@ -224,7 +262,7 @@
                 authStatus.innerHTML = `
                     <div class="flex items-center gap-3">
                         <span class="text-sm font-bold text-indigo-700">Hi, ${state.userName.split(' ')[0]}</span>
-                        <button onclick="logout()" class="w-8 h-8 bg-indigo-50 text-indigo-600 rounded-full flex items-center justify-center border border-indigo-100 hover:bg-red-50 hover:text-red-500 transition-colors">
+                        <button onclick="logout()" class="w-10 h-10 bg-indigo-50 text-indigo-600 rounded-full flex items-center justify-center border border-indigo-100 hover:bg-red-50 hover:text-red-500 transition-colors">
                             <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"/></svg>
                         </button>
                     </div>
@@ -356,17 +394,19 @@
             `;
         }
 
-        // --- FETCH ENGINE ---
+        // --- OPTIMIZED FETCH ENGINE ---
         async function loadAnkiContent() {
             const container = document.getElementById('content-container');
             container.innerHTML = `<div class="flex flex-col items-center justify-center py-24"><div class="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mb-4"></div><p class="text-slate-400 text-[10px] font-bold animate-pulse uppercase tracking-widest">Syncing Data...</p></div>`;
             
-            // EXACT PATH ALIGNMENT: content/general-english/[category]/[topic]/level[n].json
-            const path = `./content/general-english/${state.currentType}/${state.currentTopic}/level${state.currentLevel}.json`;
+            // CONSTRUCT ABSOLUTE URL relative to site base
+            // Expected: domain.com/repo/content/general-english/{type}/{topic}/level{n}.json
+            const relPath = `content/general-english/${state.currentType}/${state.currentTopic}/level${state.currentLevel}.json`;
+            const absoluteURL = new URL(relPath, window.location.origin + getBaseDir()).href;
 
             try {
-                const response = await fetch(path);
-                if (!response.ok) throw new Error("404");
+                const response = await fetch(absoluteURL);
+                if (!response.ok) throw new Error(`${response.status}`);
                 const notes = await response.json();
                 renderAnkiCards(notes);
             } catch (err) {
@@ -374,9 +414,9 @@
                     <div class="text-center py-20 bg-white border border-slate-200 rounded-[3rem] shadow-sm">
                         <div class="text-5xl mb-6">📂</div>
                         <h3 class="text-xl font-bold text-slate-900 mb-2 tracking-tight">Milestone Offline</h3>
-                        <p class="text-slate-500 mb-4 text-sm max-w-xs mx-auto font-medium">I am looking for your file at this exact location:</p>
-                        <code class="bg-slate-100 p-2 rounded text-indigo-600 mb-8 block text-xs overflow-x-auto mx-4 font-bold border border-indigo-50">${path}</code>
-                        <p class="text-slate-400 text-xs mb-8">Please ensure the <b>content</b> folder is at the root of your repository.</p>
+                        <p class="text-slate-500 mb-4 text-sm max-w-xs mx-auto font-medium">Attempted absolute fetch to:</p>
+                        <code class="bg-slate-100 p-2 rounded text-indigo-600 mb-8 block text-xs overflow-x-auto mx-4 font-bold border border-indigo-50">${absoluteURL}</code>
+                        <p class="text-slate-400 text-xs mb-8">Status: ${err.message}. Please verify the folder structure in your repository.</p>
                         <button onclick="navigateTo('levels-grid')" class="px-10 py-3 bg-indigo-600 text-white font-bold rounded-xl shadow-lg active:scale-95 transition-all">Back to Grid</button>
                     </div>
                 `;
@@ -395,7 +435,6 @@
             `;
 
             notes.forEach(item => {
-                // Formatting Synonyms from JSON
                 const synonyms = (item.meaning_english || "").replace(/_/g, ', ');
                 const kannada = item.meaning_kannada || "";
                 
@@ -456,7 +495,7 @@
             }, 500);
         }, 5000);
 
-        document.addEventListener('DOMContentLoaded', render);
+        document.addEventListener('DOMContentLoaded', initFromURL);
     </script>
 </body>
 </html>
