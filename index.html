@@ -92,7 +92,7 @@
     <!-- TOP MOTIVATIONAL BAR -->
     <div id="moto-bar" class="fixed top-0 w-full z-[60] bg-slate-900 text-white py-2.5 overflow-hidden border-b border-white/10 shadow-xl">
         <div class="max-w-7xl mx-auto px-6 text-center">
-            <span id="moto-text" class="text-[10px] md:text-xs font-bold uppercase tracking-[0.25em] inline-block">
+            <span id="moto-text" class="text-[10px] md:text-xs font-bold uppercase tracking-[0.25em] inline-block transition-all">
                 Consistency is the key to Selection. 🎯
             </span>
         </div>
@@ -144,7 +144,41 @@
     </footer>
 
     <script>
-        // --- DATA ---
+        // --- EMBEDDED DATA (To fix loading issues) ---
+        const hardcodedContent = {
+            "vocabulary": {
+                "synonyms": {
+                    "1": [
+                        {"word": "Genuine", "meaning_english": "Real_Authentic_Original_True_Legitimate_Valid", "meaning_kannada": "ನೈಜ", "emoji": "✅"},
+                        {"word": "Summit", "meaning_english": "Top_Peak_Pinnacle_Apex_Zenith_Crest", "meaning_kannada": "ಶಿಖರ", "emoji": "🏔️"},
+                        {"word": "Careful", "meaning_english": "Cautious_Wary_Alert_Prudent_Watchful_Guarded", "meaning_kannada": "ಜಾಗರೂಕ", "emoji": "⚠️"},
+                        {"word": "Healthy", "meaning_english": "Fit_Robust_Sound_Wholesome_Vigorous_Well", "meaning_kannada": "ಆರೋಗ್ಯಕರ", "emoji": "🍎"},
+                        {"word": "Magic", "meaning_english": "Wizardry_Sorcery_Spell_Charm_Enchantment_Occult", "meaning_kannada": "ಮಂತ್ರಜಾಲ", "emoji": "🪄"},
+                        {"word": "Trouble", "meaning_english": "Distress_Worry_Problem_Difficulty_Ordeal_Woe", "meaning_kannada": "ತೊಂದರೆ", "emoji": "😟"},
+                        {"word": "Angry", "meaning_english": "Irate_Furious_Enraged_Cross_Mad_Wrathful", "meaning_kannada": "ಕೋಪ", "emoji": "😡"},
+                        {"word": "Delight", "meaning_english": "Joy_Glee_Pleasure_Bliss_Happiness_Rapture", "meaning_kannada": "ಆನಂದ", "emoji": "😊"},
+                        {"word": "Shout", "meaning_english": "Yell_Scream_Cry_Roar_Call_Holler", "meaning_kannada": "ಕಿರುಚು", "emoji": "📢"},
+                        {"word": "Sad", "meaning_english": "Unhappy_Gloomy_Dejected_Morose_Sorrowful_Blue", "meaning_kannada": "ದುಃಖ", "emoji": "😢"},
+                        {"word": "Weep", "meaning_english": "Cry_Sob_Shed_Mourn_Wail_Lament", "meaning_kannada": "ಅಳು", "emoji": "😭"},
+                        {"word": "Silent", "meaning_english": "Quiet_Mute_Still_Noiseless_Soundless_Hushed", "meaning_kannada": "ಮೌನ", "emoji": "🙊"},
+                        {"word": "Damage", "meaning_english": "Harm_Injury_Ruin_Loss_Wreck_Mar", "meaning_kannada": "ಹಾನಿ", "emoji": "🏚️"},
+                        {"word": "Permission", "meaning_english": "Consent_Leave_Allow_Permit_Liberty_Sanction", "meaning_kannada": "ಅನುಮತಿ", "emoji": "🎫"},
+                        {"word": "Tight", "meaning_english": "Firm_Taut_Fixed_Close_Secure_Rigid", "meaning_kannada": "ಬಿಗಿಯಾದ", "emoji": "🔩"},
+                        {"word": "Fast", "meaning_english": "Quick_Rapid_Swift_Fleet_Brisk_Speedy", "meaning_kannada": "ವೇಗ", "emoji": "⚡"},
+                        {"word": "Truth", "meaning_english": "Fact_Reality_Veracity_Honesty_Actual_Exact", "meaning_kannada": "ಸತ್ಯ", "emoji": "⚖️"},
+                        {"word": "Stopped", "meaning_english": "Paused_Ceased_Halted_Finished_End_Dead", "meaning_kannada": "ನಿಲ್ಲಿಸಿದ", "emoji": "🛑"},
+                        {"word": "Sick", "meaning_english": "Ill_Unwell_Ailing_Diseased_Frail_Weak", "meaning_kannada": "ಕಾಯಿಲೆ", "emoji": "🤒"},
+                        {"word": "Rich", "meaning_english": "Wealthy_Affluent_Opulent_Moneyed_Lush_Loaded", "meaning_kannada": "ಶ್ರೀಮಂತ", "emoji": "💰"},
+                        {"word": "Clever", "meaning_english": "Smart_Bright_Sharp_Intelligent_Brainy_Able", "meaning_kannada": "ಚತುರ", "emoji": "💡"},
+                        {"word": "Brave", "meaning_english": "Bold_Daring_Fearless_Valiant_Heroic_Gutsy", "meaning_kannada": "ಧೈರ್ಯ", "emoji": "🦁"},
+                        {"word": "Ban", "meaning_english": "Forbid_Prohibit_Bar_Veto_Block_Halt", "meaning_kannada": "ನಿಷೇಧ", "emoji": "🚫"},
+                        {"word": "Accept", "meaning_english": "Agree_Admit_Acknowledge_Receive_Take_Grant", "meaning_kannada": "ಒಪ್ಪಿಕೊ", "emoji": "🤝"},
+                        {"word": "Reject", "meaning_english": "Refuse_Decline_Deny_Veto_Discard_Snub", "meaning_kannada": "ತಿರಸ್ಕರಿಸು", "emoji": "❌"}
+                    ]
+                }
+            }
+        };
+
         const quotes = [
             "Consistency is the key to Selection. 🎯",
             "Mastering English is half the battle won. 🇬🇧",
@@ -169,7 +203,6 @@
             ]
         };
 
-        // --- APP STATE ---
         const state = {
             view: 'home',
             isAuthenticated: false,
@@ -181,21 +214,41 @@
             currentLevel: null
         };
 
-        // --- SPA ROUTING & ABSOLUTE PATH HELPER ---
+        // --- SPA ROUTING & PATH RESOLUTION (Senior Fix) ---
+        
+        // Detects the base directory to handle GitHub Pages subfolders safely
         const getBaseDir = () => {
             const path = window.location.pathname;
-            return path.substring(0, path.lastIndexOf('/') + 1);
+            if (window.location.protocol === 'blob:') return '/';
+            return path.substring(0, path.lastIndexOf('/') + 1) || '/';
+        };
+
+        // Standardized absolute path resolver for JSON assets
+        const resolveContentPath = (type, topic, level) => {
+            // Requirement: /content/general-english/{type}/{topic}/level{number}.json
+            const relPath = `content/general-english/${type}/${topic}/level${level}.json`;
+            
+            // For GitHub Pages, we must prefix with the repository base directory
+            const base = getBaseDir();
+            return new URL(relPath, window.location.origin + base).href;
         };
 
         const updateURL = () => {
-            const params = new URLSearchParams();
-            if (state.view) params.set('v', state.view);
-            if (state.currentType) params.set('type', state.currentType);
-            if (state.currentTopic) params.set('topic', state.currentTopic);
-            if (state.currentLevel) params.set('lv', state.currentLevel);
-            
-            const newURL = `${window.location.origin}${window.location.pathname}?${params.toString()}`;
-            window.history.pushState(state, '', newURL);
+            try {
+                // Prevent pushState errors in blob: or restricted sandbox environments
+                if (window.location.protocol === 'blob:') return;
+
+                const params = new URLSearchParams();
+                if (state.view) params.set('v', state.view);
+                if (state.currentType) params.set('type', state.currentType);
+                if (state.currentTopic) params.set('topic', state.currentTopic);
+                if (state.currentLevel) params.set('lv', state.currentLevel);
+
+                const newURL = `${window.location.pathname}?${params.toString()}`;
+                window.history.pushState(state, '', newURL);
+            } catch (err) {
+                // Silently handle SecurityError in sandboxed previews
+            }
         };
 
         window.onpopstate = (event) => {
@@ -216,7 +269,6 @@
             render();
         };
 
-        // --- NAVIGATION ---
         function navigateTo(view, params = {}) {
             const protectedViews = ['english-selection', 'topics-grid', 'levels-grid', 'content-view'];
             if (protectedViews.includes(view) && !state.isAuthenticated) {
@@ -391,11 +443,22 @@
         // --- FETCH & FLASHCARD ENGINE ---
         async function loadFlashcards() {
             const container = document.getElementById('content-container');
-            container.innerHTML = `<div class="flex flex-col items-center justify-center py-24"><div class="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mb-4"></div><p class="text-slate-400 text-[10px] font-bold animate-pulse uppercase tracking-widest">Syncing Records...</p></div>`;
+            container.innerHTML = `<div class="flex flex-col items-center justify-center py-24"><div class="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mb-4"></div><p class="text-slate-400 text-[10px] font-bold animate-pulse uppercase tracking-widest">Loading Mastery Content...</p></div>`;
             
-            // CONSTRUCT ABSOLUTE URL
-            const relPath = `content/general-english/${state.currentType}/${state.currentTopic}/level${state.currentLevel}.json`;
-            const absoluteURL = new URL(relPath, window.location.origin + getBaseDir()).href;
+            const type = state.currentType;
+            const topic = state.currentTopic;
+            const level = state.currentLevel;
+
+            // 1. CHECK HARDCODED DATA FIRST
+            if (hardcodedContent[type] && hardcodedContent[type][topic] && hardcodedContent[type][topic][level]) {
+                setTimeout(() => {
+                    renderFlashcards(hardcodedContent[type][topic][level]);
+                }, 400);
+                return;
+            }
+
+            // 2. FETCH FROM ABSOLUTE GITHUB PATH
+            const absoluteURL = resolveContentPath(type, topic, level);
 
             try {
                 const response = await fetch(absoluteURL);
@@ -406,10 +469,10 @@
                 container.innerHTML = `
                     <div class="text-center py-20 bg-white border border-slate-200 rounded-[3rem] shadow-sm">
                         <div class="text-5xl mb-6">📂</div>
-                        <h3 class="text-xl font-bold text-slate-900 mb-2 tracking-tight">Milestone Offline</h3>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2 tracking-tight">Phase Offline</h3>
                         <p class="text-slate-500 mb-4 text-sm max-w-xs mx-auto font-medium leading-relaxed">Attempted absolute fetch to:</p>
-                        <code class="bg-slate-100 p-3 rounded-xl text-indigo-600 mb-8 block text-xs overflow-x-auto mx-4 font-bold border border-indigo-50">${absoluteURL}</code>
-                        <p class="text-slate-400 text-xs mb-8 italic">Verify your repository folder structure matches: content/general-english/${state.currentType}/${state.currentTopic}/level${state.currentLevel}.json</p>
+                        <code class="bg-slate-100 p-3 rounded-xl text-indigo-600 mb-12 inline-block text-sm font-bold border border-indigo-50 break-all mx-4">${absoluteURL}</code>
+                        <p class="text-slate-400 text-xs mb-8">Status: ${err.message}. Please verify the file exists on your GitHub Pages repo.</p>
                         <button onclick="navigateTo('levels-grid')" class="px-10 py-3 bg-indigo-600 text-white font-bold rounded-xl shadow-lg active:scale-95 transition-all">Back to Grid</button>
                     </div>
                 `;
@@ -421,7 +484,7 @@
             let html = `
                 <div class="mb-16 text-center">
                     <span class="px-4 py-1 bg-indigo-50 text-indigo-700 text-[10px] font-black rounded-full uppercase tracking-widest mb-4 inline-block">Flashcard Mastery</span>
-                    <h2 class="text-5xl font-black text-slate-900 tracking-tighter capitalize">${state.currentTopic} - Phase ${state.currentLevel}</h2>
+                    <h2 class="text-5xl font-black text-slate-900 tracking-tighter capitalize">${state.currentTopic} - Level ${state.currentLevel}</h2>
                     <p class="text-slate-400 text-sm mt-4 uppercase tracking-tighter font-bold leading-relaxed">Recall the mapping and reveal the bilingual meaning</p>
                 </div>
                 <div class="flashcard-container">
