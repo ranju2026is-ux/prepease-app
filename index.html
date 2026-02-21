@@ -210,7 +210,7 @@
             currentTopicTitle: '',
             progress: {},
             leaderboard: [],
-            authMode: 'login' // 'login' or 'signup'
+            authMode: 'login' 
         };
 
         // --- SPA ROUTING & HELPERS ---
@@ -280,15 +280,16 @@
         async function loadUserData() {
             if (!auth.currentUser) return;
             
-            // 1. Load Profile (Name)
+            // 1. Load Profile (Name) - Rule 1 (Private Path)
             const profileRef = doc(db, 'artifacts', appId, 'users', auth.currentUser.uid, 'profile', 'info');
             const profileSnap = await getDoc(profileRef);
             if (profileSnap.exists()) {
                 state.userName = profileSnap.data().name || 'Aspirant';
                 state.isAuthenticated = true;
+                render();
             }
 
-            // 2. Load Progress
+            // 2. Load Progress - Rule 1 (Private Path)
             const progressRef = collection(db, 'artifacts', appId, 'users', auth.currentUser.uid, 'progress');
             onSnapshot(progressRef, (snapshot) => {
                 const updatedProgress = {};
@@ -299,10 +300,12 @@
         }
 
         async function loadLeaderboard() {
+            // Rule 1 (Public Path)
             const leaderboardRef = collection(db, 'artifacts', appId, 'public', 'data', 'leaderboard');
             onSnapshot(leaderboardRef, (snapshot) => {
                 const list = [];
                 snapshot.forEach(doc => list.push({ id: doc.id, ...doc.data() }));
+                // Rule 2 (In-memory sorting)
                 state.leaderboard = list.sort((a, b) => b.points - a.points).slice(0, 5);
                 if (state.view === 'home') render();
             }, (error) => console.error("Leaderboard error:", error));
@@ -587,8 +590,8 @@
             try {
                 const response = await fetch(absoluteURL);
                 if (!response.ok) throw new Error(`${response.status}`);
-                const questions = await response.json();
-                renderTest(questions);
+                const data = await response.json();
+                renderTest(data);
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             } catch (err) {
                 showErrorState(container, absoluteURL, err.message);
@@ -808,13 +811,12 @@
                 if (isSignUp) {
                     const name = document.getElementById('name-input').value;
                     const cred = await createUserWithEmailAndPassword(auth, email, password);
-                    // Save profile info immediately
+                    // Rule 1 (Private Path) - save profile
                     const profileRef = doc(db, 'artifacts', appId, 'users', cred.user.uid, 'profile', 'info');
                     await setDoc(profileRef, { name: name, email: email, joinedAt: new Date().toISOString() });
                     state.userName = name;
                 } else {
                     await signInWithEmailAndPassword(auth, email, password);
-                    // Name will be loaded via loadUserData() called from the observer
                 }
                 
                 state.isAuthenticated = true;
