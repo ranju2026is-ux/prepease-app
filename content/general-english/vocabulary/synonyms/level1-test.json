@@ -1,74 +1,107 @@
 [
   {
-    "question": "Choose the synonym of 'Genuine'",
+    "type": "direct",
+    "question": "Choose the synonym of 'Genuine'.",
     "options": ["Fake", "Real", "Weak", "Silent"],
     "answer": "Real",
-    "explanation": "'Genuine' means real or authentic. Therefore, 'Real' is the correct synonym."
+    "explanation": "'Genuine' means authentic or real."
   },
   {
-    "question": "Choose the synonym of 'Summit'",
-    "options": ["Bottom", "Peak", "River", "Plain"],
+    "type": "direct",
+    "question": "Choose the synonym of 'Summit'.",
+    "options": ["Bottom", "Peak", "Valley", "River"],
     "answer": "Peak",
-    "explanation": "'Summit' refers to the highest point of something, especially a mountain. 'Peak' has the same meaning."
+    "explanation": "'Summit' refers to the highest point; 'Peak' has the same meaning."
   },
   {
-    "question": "Choose the synonym of 'Careful'",
-    "options": ["Careless", "Cautious", "Lazy", "Reckless"],
+    "type": "contextual",
+    "question": "He gave a genuine apology. What is the closest meaning of 'genuine' in this sentence?",
+    "options": ["False", "Sincere", "Weak", "Forced"],
+    "answer": "Sincere",
+    "explanation": "In context, 'genuine apology' means sincere and heartfelt apology."
+  },
+  {
+    "type": "fill_blank",
+    "question": "She was very ______ about checking her answers. (Synonym of Careful)",
+    "options": ["Lazy", "Cautious", "Rude", "Angry"],
     "answer": "Cautious",
-    "explanation": "'Careful' means acting with attention and caution. 'Cautious' is the correct synonym."
+    "explanation": "'Careful' means cautious or attentive."
   },
   {
-    "question": "Choose the synonym of 'Healthy'",
-    "options": ["Weak", "Fit", "Ill", "Poor"],
+    "type": "direct",
+    "question": "Choose the synonym of 'Healthy'.",
+    "options": ["Weak", "Fit", "Ill", "Fragile"],
     "answer": "Fit",
-    "explanation": "'Healthy' means physically strong and well. 'Fit' matches this meaning."
+    "explanation": "'Healthy' means physically strong or fit."
   },
   {
-    "question": "Choose the synonym of 'Magic'",
-    "options": ["Science", "Reality", "Wizardry", "Truth"],
-    "answer": "Wizardry",
-    "explanation": "'Magic' refers to supernatural power or sorcery. 'Wizardry' is a synonym."
-  },
-  {
-    "question": "Choose the synonym of 'Trouble'",
-    "options": ["Peace", "Problem", "Joy", "Comfort"],
+    "type": "closest_meaning",
+    "question": "Which word is closest in meaning to 'Trouble'?",
+    "options": ["Peace", "Problem", "Comfort", "Success"],
     "answer": "Problem",
-    "explanation": "'Trouble' means difficulty or problem. Therefore, 'Problem' is correct."
+    "explanation": "'Trouble' means difficulty or problem."
   },
   {
-    "question": "Choose the synonym of 'Angry'",
-    "options": ["Happy", "Calm", "Furious", "Gentle"],
+    "type": "highlighted",
+    "question": "The child began to weep loudly. What is the synonym of 'weep'?",
+    "options": ["Laugh", "Cry", "Smile", "Shout"],
+    "answer": "Cry",
+    "explanation": "'Weep' means to cry."
+  },
+  {
+    "type": "direct",
+    "question": "Choose the synonym of 'Angry'.",
+    "options": ["Calm", "Happy", "Furious", "Kind"],
     "answer": "Furious",
-    "explanation": "'Angry' means feeling strong displeasure. 'Furious' expresses intense anger."
+    "explanation": "'Angry' means feeling strong displeasure; 'Furious' is intense anger."
   },
   {
-    "question": "Choose the synonym of 'Delight'",
-    "options": ["Sorrow", "Joy", "Pain", "Fear"],
-    "answer": "Joy",
-    "explanation": "'Delight' means great pleasure or happiness. 'Joy' is the correct synonym."
+    "type": "not_synonym",
+    "question": "Which of the following is NOT a synonym of 'Fast'?",
+    "options": ["Swift", "Rapid", "Quick", "Slow"],
+    "answer": "Slow",
+    "explanation": "'Fast' means quick or rapid. 'Slow' is the opposite."
   },
   {
-    "question": "Choose the synonym of 'Fast'",
-    "options": ["Slow", "Swift", "Weak", "Late"],
-    "answer": "Swift",
-    "explanation": "'Fast' means moving quickly. 'Swift' has the same meaning."
-  },
-  {
-    "question": "Choose the synonym of 'Truth'",
-    "options": ["Lie", "Error", "Fact", "Doubt"],
-    "answer": "Fact",
-    "explanation": "'Truth' means something that is real or factual. 'Fact' is the synonym."
-  },
-  {
-    "question": "Choose the synonym of 'Brave'",
-    "options": ["Coward", "Fearful", "Bold", "Shy"],
+    "type": "usage",
+    "question": "Select the word that can replace 'Brave' in the sentence: The brave soldier fought fearlessly.",
+    "options": ["Cowardly", "Bold", "Shy", "Timid"],
     "answer": "Bold",
-    "explanation": "'Brave' means showing courage. 'Bold' carries the same meaning."
+    "explanation": "'Brave' means courageous; 'Bold' has similar meaning."
   },
   {
-    "question": "Choose the synonym of 'Reject'",
-    "options": ["Accept", "Refuse", "Agree", "Support"],
-    "answer": "Refuse",
-    "explanation": "'Reject' means to refuse or decline something. Therefore, 'Refuse' is correct."
+    "type": "direct",
+    "question": "Choose the synonym of 'Truth'.",
+    "options": ["Lie", "Fact", "Doubt", "Error"],
+    "answer": "Fact",
+    "explanation": "'Truth' refers to something that is real or factual."
+  },
+  {
+    "type": "contextual",
+    "question": "He rejected the proposal immediately. What does 'rejected' mean?",
+    "options": ["Accepted", "Refused", "Approved", "Supported"],
+    "answer": "Refused",
+    "explanation": "'Rejected' means refused or declined."
+  },
+  {
+    "type": "direct",
+    "question": "Choose the synonym of 'Silent'.",
+    "options": ["Noisy", "Quiet", "Loud", "Active"],
+    "answer": "Quiet",
+    "explanation": "'Silent' means making no sound; 'Quiet' is similar."
+  },
+  {
+    "type": "one_word",
+    "question": "Select the synonym of 'Rich'.",
+    "options": ["Poor", "Wealthy", "Needy", "Weak"],
+    "answer": "Wealthy",
+    "explanation": "'Rich' means having a lot of money; 'Wealthy' is a synonym."
+  },
+  {
+    "type": "direct",
+    "question": "Choose the synonym of 'Clever'.",
+    "options": ["Dull", "Intelligent", "Lazy", "Slow"],
+    "answer": "Intelligent",
+    "explanation": "'Clever' means smart or intelligent."
   }
 ]
