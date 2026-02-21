@@ -145,20 +145,6 @@
 
     <script>
         // --- DATA & STATE ---
-        const hardcodedContent = {
-            "vocabulary": {
-                "synonyms": {
-                    "1": [
-                        {"word": "Genuine", "meaning_english": "Real_Authentic_Original_True_Legitimate_Valid", "meaning_kannada": "ನೈಜ", "emoji": "✅"},
-                        {"word": "Summit", "meaning_english": "Top_Peak_Pinnacle_Apex_Zenith_Crest", "meaning_kannada": "ಶಿಖರ", "emoji": "🏔️"},
-                        {"word": "Careful", "meaning_english": "Cautious_Wary_Alert_Prudent_Watchful_Guarded", "meaning_kannada": "ಜಾಗರೂಕ", "emoji": "⚠️"},
-                        {"word": "Healthy", "meaning_english": "Fit_Robust_Sound_Wholesome_Vigorous_Well", "meaning_kannada": "ಆರೋಗ್ಯಕರ", "emoji": "🍎"},
-                        {"word": "Magic", "meaning_english": "Wizardry_Sorcery_Spell_Charm_Enchantment_Occult", "meaning_kannada": "ಮಂತ್ರಜಾಲ", "emoji": "🪄"}
-                    ]
-                }
-            }
-        };
-
         const quotes = [
             "Consistency is the key to Selection. 🎯",
             "Mastering English is half the battle won. 🇬🇧",
@@ -210,6 +196,7 @@
             return path.substring(0, path.lastIndexOf('/') + 1) || '/';
         };
 
+        // Standardized absolute path resolver for content files
         const getDynamicPath = (type, topic, level, isTest = false) => {
             const base = getBaseDir();
             const suffix = isTest ? `-test.json` : `.json`;
@@ -403,13 +390,8 @@
             container.innerHTML = `<div class="flex flex-col items-center justify-center py-24"><div class="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mb-4"></div><p class="text-slate-400 text-[10px] font-bold animate-pulse uppercase tracking-widest">Fetching Study Material...</p></div>`;
             
             const { currentType: type, currentTopic: topic, currentLevel: level } = state;
-
-            if (hardcodedContent[type]?.[topic]?.[level]) {
-                setTimeout(() => renderFlashcards(hardcodedContent[type][topic][level]), 400);
-                return;
-            }
-
             const absoluteURL = getDynamicPath(type, topic, level, false);
+
             try {
                 const response = await fetch(absoluteURL);
                 if (!response.ok) throw new Error(`${response.status}`);
@@ -474,7 +456,6 @@
                     </div>`;
             });
             
-            // Mastery Transition UI (Requirement 2 & 5 with Quote)
             html += `
                 <div class="p-16 bg-slate-900 rounded-[4rem] text-white text-center shadow-2xl mt-12 relative overflow-hidden group w-full">
                     <div class="relative z-10">
@@ -494,54 +475,111 @@
 
         function renderTest(questions) {
             const container = document.getElementById('content-container');
-            let html = `
+            container.innerHTML = `
                 <div class="mb-12 view-transition">
                     <button onclick="loadContent()" class="text-slate-400 font-bold flex items-center gap-2 hover:text-indigo-600 transition-colors mb-8 uppercase text-[10px] tracking-widest">← Back to Notes</button>
                     <span class="px-4 py-1 bg-emerald-50 text-emerald-700 text-[10px] font-black rounded-full uppercase tracking-widest mb-4 inline-block">Interactive Assessment</span>
                     <h2 class="text-4xl font-black text-slate-900 tracking-tighter capitalize">${state.currentTopic} Quiz - Level ${state.currentLevel}</h2>
                 </div>
-                <div class="space-y-8">`;
+                <div id="quiz-list" class="space-y-6"></div>
+            `;
 
-            questions.forEach((q, qIdx) => {
-                html += `
-                    <div class="bg-white border-2 border-slate-100 rounded-[2.5rem] p-8 md:p-10 shadow-sm">
-                        <div class="flex items-start gap-4 mb-6">
-                            <span class="w-8 h-8 rounded-full bg-slate-900 text-white flex items-center justify-center text-xs font-bold shrink-0">${qIdx + 1}</span>
-                            <p class="text-xl font-bold text-slate-800 leading-tight pt-1">${q.question}</p>
-                        </div>
-                        <div class="grid grid-cols-1 gap-3">
-                            ${q.options.map((opt) => `
-                                <button onclick="checkAnswer(this, '${opt}', '${q.answer}')" 
-                                        class="text-left px-6 py-4 border-2 border-slate-50 rounded-2xl font-semibold text-slate-600 hover:border-indigo-100 hover:bg-slate-50 transition-all">
-                                    ${opt}
-                                </button>
-                            `).join('')}
-                        </div>
-                    </div>`;
+            const quizList = document.getElementById('quiz-list');
+
+            questions.forEach((q, index) => {
+                const div = document.createElement("div");
+                div.className = "bg-white p-8 md:p-10 border-2 border-slate-100 rounded-[2.5rem] shadow-sm";
+
+                div.innerHTML = `
+                    <div class="flex items-start gap-4 mb-6">
+                        <span class="w-8 h-8 rounded-full bg-slate-900 text-white flex items-center justify-center text-xs font-bold shrink-0">${index + 1}</span>
+                        <p class="text-xl font-bold text-slate-800 leading-tight pt-1">${q.question}</p>
+                    </div>
+                    <div class="space-y-3">
+                        ${q.options.map(option => `
+                            <label class="flex items-center gap-4 px-6 py-4 border-2 border-slate-50 rounded-2xl font-semibold text-slate-600 hover:bg-slate-50 cursor-pointer transition-all has-[:checked]:border-indigo-600 has-[:checked]:bg-indigo-50 has-[:checked]:text-indigo-900">
+                                <input type="radio" name="q${index}" value="${option}" class="w-4 h-4 accent-indigo-600">
+                                <span class="text-base">${option}</span>
+                            </label>
+                        `).join("")}
+                    </div>
+                `;
+                quizList.appendChild(div);
             });
 
-            html += `
-                <div class="text-center pt-12">
-                    <button onclick="navigateTo('levels-grid')" class="text-slate-400 font-bold uppercase text-xs tracking-widest hover:text-indigo-600">Finish & Return to Roadmap</button>
-                </div>
-            </div>`;
-            container.innerHTML = html;
+            const submitBtn = document.createElement("button");
+            submitBtn.innerText = "Submit Test Result";
+            submitBtn.className = "w-full py-6 bg-indigo-600 text-white font-black rounded-[2rem] shadow-2xl shadow-indigo-200 hover:bg-indigo-700 active:scale-95 transition-all uppercase tracking-widest text-sm mt-10 mb-20";
+            submitBtn.onclick = () => submitTest(questions);
+
+            quizList.appendChild(submitBtn);
         }
 
-        function checkAnswer(btn, selected, correct) {
-            const parent = btn.parentElement;
-            const buttons = parent.querySelectorAll('button');
-            buttons.forEach(b => {
-                b.disabled = true;
-                if (b.innerText.trim() === correct.trim()) {
-                    b.classList.remove('border-slate-50', 'text-slate-600');
-                    b.classList.add('border-emerald-500', 'bg-emerald-50', 'text-emerald-700');
+        function submitTest(questions) {
+            let score = 0;
+            let resultHTML = "";
+
+            questions.forEach((q, index) => {
+                const selected = document.querySelector(`input[name="q${index}"]:checked`);
+                const isCorrect = selected && selected.value.trim() === q.answer.trim();
+
+                if (isCorrect) {
+                    score++;
+                } else {
+                    resultHTML += `
+                        <div class="bg-red-50 p-8 rounded-[2.5rem] mb-6 border border-red-100">
+                            <div class="flex items-center gap-3 mb-4">
+                                <span class="w-8 h-8 rounded-full bg-red-500 text-white flex items-center justify-center text-xs font-bold">!</span>
+                                <p class="text-lg font-bold text-red-900 tracking-tight">Question ${index + 1} Review</p>
+                            </div>
+                            <p class="text-slate-700 font-medium mb-4 italic">"${q.question}"</p>
+                            <div class="space-y-2">
+                                <p class="text-sm text-red-600 font-bold uppercase tracking-widest">Your Choice: <span class="text-slate-900">${selected ? selected.value : 'No selection'}</span></p>
+                                <p class="text-sm text-emerald-600 font-bold uppercase tracking-widest">Correct Answer: <span class="text-slate-900">${q.answer}</span></p>
+                            </div>
+                            <div class="mt-6 pt-6 border-t border-red-200/50">
+                                <p class="text-xs font-black text-red-400 uppercase tracking-widest mb-2">Expert Explanation</p>
+                                <p class="text-red-900/80 font-medium leading-relaxed">${q.explanation || 'Master this concept by reviewing the synonyms mapping again.'}</p>
+                            </div>
+                        </div>
+                    `;
                 }
             });
-            if (selected.trim() !== correct.trim()) {
-                btn.classList.remove('border-slate-50', 'text-slate-600');
-                btn.classList.add('border-red-500', 'bg-red-50', 'text-red-700');
-            }
+
+            const container = document.getElementById("content-container");
+            container.innerHTML = `
+                <div class="view-transition">
+                    <div class="bg-white border-2 border-slate-100 p-12 rounded-[3rem] shadow-sm text-center mb-10">
+                        <div class="inline-block w-24 h-24 rounded-full bg-indigo-50 flex items-center justify-center mb-6 mx-auto">
+                            <span class="text-4xl">${score === questions.length ? '👑' : '🎯'}</span>
+                        </div>
+                        <h2 class="text-4xl font-black text-slate-900 mb-2 tracking-tighter">Mission Results</h2>
+                        <p class="text-slate-400 font-bold uppercase tracking-[0.2em] mb-8 text-xs">Aspirant Scoreboard</p>
+                        
+                        <div class="flex justify-center items-baseline gap-2 mb-10">
+                            <span class="text-7xl font-black text-indigo-600 leading-none">${score}</span>
+                            <span class="text-2xl font-bold text-slate-300">/ ${questions.length}</span>
+                        </div>
+                        
+                        <p class="text-slate-500 font-medium max-w-sm mx-auto mb-8">
+                            ${score === questions.length ? 'Flawless execution! You have mastered this level completely.' : 'Solid effort. Review the missed concepts below to achieve 100% accuracy.'}
+                        </p>
+                        
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                            <button onclick="loadContent()" class="px-10 py-4 bg-slate-900 text-white font-bold rounded-2xl hover:bg-slate-800 transition-all uppercase tracking-widest text-xs">Review Lessons</button>
+                            <button onclick="navigateTo('levels-grid')" class="px-10 py-4 border-2 border-slate-200 text-slate-600 font-bold rounded-2xl hover:bg-slate-50 transition-all uppercase tracking-widest text-xs">Next Level</button>
+                        </div>
+                    </div>
+                    
+                    ${resultHTML ? `
+                        <div class="mb-20">
+                            <h3 class="text-xl font-black text-slate-900 mb-8 tracking-tight px-4 uppercase tracking-[0.1em]">Detailed Analysis</h3>
+                            ${resultHTML}
+                        </div>
+                    ` : ''}
+                </div>
+            `;
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
         function showErrorState(container, url, error) {
