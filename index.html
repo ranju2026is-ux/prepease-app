@@ -1,139 +1,593 @@
-/**
- * REPLACEMENT LOGIC FOR DYNAMIC CONTENT & TESTING
- * Focus: content/general-english/{section}/{topic}/level{level}.json
- */
-
-// 1. Updated Path Resolver to support both Notes and Tests
-const getDynamicPath = (type, topic, level, isTest = false) => {
-    const base = getBaseDir(); // Uses your existing getBaseDir function
-    const suffix = isTest ? `-test.json` : `.json`;
-    const relPath = `content/general-english/${type}/${topic}/level${level}${suffix}`;
-    return new URL(relPath, window.location.origin + base).href;
-};
-
-// 2. Updated loadContent (replaces loadFlashcards)
-async function loadContent() {
-    const container = document.getElementById('content-container');
-    container.innerHTML = `<div class="flex flex-col items-center justify-center py-24"><div class="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mb-4"></div><p class="text-slate-400 text-[10px] font-bold animate-pulse uppercase tracking-widest">Fetching Study Material...</p></div>`;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrepEase | Karnataka & SSC Mastery Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
-    const { currentType: type, currentTopic: topic, currentLevel: level } = state;
-    const absoluteURL = getDynamicPath(type, topic, level, false);
-
-    try {
-        const response = await fetch(absoluteURL);
-        if (!response.ok) throw new Error(`File not found: ${response.status}`);
-        const data = await response.json();
-        
-        // Render the notes (flashcards)
-        renderFlashcards(data);
-
-        // Add "Start Test" Button at the bottom of the container
-        const testSection = document.createElement('div');
-        testSection.className = "mt-12 pt-12 border-t border-slate-100 text-center";
-        testSection.innerHTML = `
-            <div class="inline-block p-1 bg-indigo-50 rounded-2xl mb-4">
-                <span class="px-4 py-1 text-[10px] font-black text-indigo-600 uppercase tracking-widest">Knowledge Check</span>
-            </div>
-            <h3 class="text-2xl font-black text-slate-900 mb-6">Ready to test your memory?</h3>
-            <button onclick="loadTest()" class="px-12 py-5 bg-indigo-600 text-white font-black rounded-2xl shadow-xl shadow-indigo-100 hover:bg-indigo-700 hover:-translate-y-1 active:scale-95 transition-all uppercase tracking-widest text-xs">
-                Start Level ${level} Test
-            </button>
-        `;
-        container.appendChild(testSection);
-
-    } catch (err) {
-        showErrorState(container, absoluteURL, err.message);
-    }
-}
-
-// 3. New loadTest() function
-async function loadTest() {
-    const container = document.getElementById('content-container');
-    container.innerHTML = `<div class="flex flex-col items-center justify-center py-24"><div class="animate-spin rounded-full h-12 w-12 border-b-2 border-emerald-500 mb-4"></div><p class="text-slate-400 text-[10px] font-bold animate-pulse uppercase tracking-widest">Loading Interactive Test...</p></div>`;
-    
-    const { currentType: type, currentTopic: topic, currentLevel: level } = state;
-    const absoluteURL = getDynamicPath(type, topic, level, true);
-
-    try {
-        const response = await fetch(absoluteURL);
-        if (!response.ok) throw new Error(`Test file not found: ${response.status}`);
-        const questions = await response.json();
-        renderTest(questions);
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    } catch (err) {
-        showErrorState(container, absoluteURL, err.message);
-    }
-}
-
-// 4. New renderTest() function
-function renderTest(questions) {
-    const container = document.getElementById('content-container');
-    let html = `
-        <div class="mb-12 view-transition">
-            <button onclick="loadContent()" class="text-slate-400 font-bold flex items-center gap-2 hover:text-indigo-600 transition-colors mb-8 uppercase text-[10px] tracking-widest">← Back to Notes</button>
-            <span class="px-4 py-1 bg-emerald-50 text-emerald-700 text-[10px] font-black rounded-full uppercase tracking-widest mb-4 inline-block">Interactive Assessment</span>
-            <h2 class="text-4xl font-black text-slate-900 tracking-tighter capitalize">${state.currentTopic} Quiz - Level ${state.currentLevel}</h2>
-        </div>
-        <div class="space-y-8">
-    `;
-
-    questions.forEach((q, qIdx) => {
-        html += `
-            <div class="bg-white border-2 border-slate-100 rounded-[2.5rem] p-8 md:p-10 shadow-sm">
-                <div class="flex items-start gap-4 mb-6">
-                    <span class="w-8 h-8 rounded-full bg-slate-900 text-white flex items-center justify-center text-xs font-bold shrink-0">${qIdx + 1}</span>
-                    <p class="text-xl font-bold text-slate-800 leading-tight pt-1">${q.question}</p>
-                </div>
-                <div class="grid grid-cols-1 gap-3">
-                    ${q.options.map((opt, oIdx) => `
-                        <button onclick="checkAnswer(this, '${opt}', '${q.answer}')" 
-                                class="text-left px-6 py-4 border-2 border-slate-50 rounded-2xl font-semibold text-slate-600 hover:border-indigo-100 hover:bg-slate-50 transition-all">
-                            ${opt}
-                        </button>
-                    `).join('')}
-                </div>
-            </div>
-        `;
-    });
-
-    html += `
-        <div class="text-center pt-12">
-            <button onclick="navigateTo('levels-grid')" class="text-slate-400 font-bold uppercase text-xs tracking-widest hover:text-indigo-600">Finish & Return to Roadmap</button>
-        </div>
-    </div>`;
-    
-    container.innerHTML = html;
-}
-
-// Helper: Simple answer validation UI
-function checkAnswer(btn, selected, correct) {
-    const parent = btn.parentElement;
-    const buttons = parent.querySelectorAll('button');
-    
-    buttons.forEach(b => {
-        b.disabled = true;
-        if (b.innerText.trim() === correct.trim()) {
-            b.classList.remove('border-slate-50', 'text-slate-600');
-            b.classList.add('border-emerald-500', 'bg-emerald-50', 'text-emerald-700');
+    <style>
+        :root { scroll-behavior: smooth; }
+        body { 
+            font-family: 'Plus Jakarta Sans', sans-serif; 
+            background-color: #f8fafc; 
+            color: #0f172a; 
+            overflow-x: hidden; 
         }
-    });
+        
+        .hero-gradient {
+            background: radial-gradient(circle at 100% 0%, rgba(67, 56, 202, 0.08) 0%, transparent 50%),
+                        radial-gradient(circle at 0% 100%, rgba(16, 185, 129, 0.05) 0%, transparent 50%);
+            background-color: #ffffff;
+        }
 
-    if (selected.trim() !== correct.trim()) {
-        btn.classList.remove('border-slate-50', 'text-slate-600');
-        btn.classList.add('border-red-500', 'bg-red-50', 'text-red-700');
-    }
-}
+        .premium-card {
+            @apply bg-white border border-slate-200 rounded-[2.5rem] p-8 transition-all duration-500 cursor-pointer;
+            box-shadow: 0 4px 12px -2px rgba(15, 23, 42, 0.03);
+        }
 
-// Helper: Standardized Error UI
-function showErrorState(container, url, error) {
-    container.innerHTML = `
-        <div class="text-center py-20 bg-white border border-slate-200 rounded-[3rem] shadow-sm px-6">
-            <div class="text-5xl mb-6">📂</div>
-            <h3 class="text-xl font-bold text-slate-900 mb-2">Resource Missing</h3>
-            <p class="text-slate-500 mb-4 text-sm font-medium">We couldn't find the requested file at:</p>
-            <code class="bg-slate-50 p-3 rounded-xl text-indigo-600 mb-8 block text-[10px] font-bold border border-indigo-50 break-all">${url}</code>
-            <p class="text-slate-400 text-[10px] mb-8 uppercase font-bold tracking-widest">Verify the file exists in your repository subfolder</p>
-            <button onclick="navigateTo('levels-grid')" class="px-10 py-4 bg-slate-900 text-white font-bold rounded-xl shadow-lg active:scale-95 transition-all text-xs uppercase tracking-widest">Back to Grid</button>
+        .premium-card:hover {
+            @apply -translate-y-2;
+            box-shadow: 0 20px 30px -10px rgba(67, 56, 202, 0.12);
+            border-color: rgba(67, 56, 202, 0.3);
+        }
+
+        /* MODERN FLASHCARD STYLES */
+        .flashcard-container {
+            @apply w-full max-w-2xl mx-auto space-y-6;
+        }
+        
+        .flashcard {
+            @apply bg-white border-2 border-slate-100 rounded-[3rem] p-8 md:p-12 transition-all duration-300 shadow-sm relative overflow-hidden;
+        }
+
+        .flashcard-answer {
+            max-height: 0;
+            opacity: 0;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            overflow: hidden;
+        }
+
+        .flashcard.revealed .flashcard-answer {
+            max-height: 500px;
+            opacity: 1;
+            @apply mt-8 pt-8 border-t border-slate-100;
+        }
+
+        .reveal-btn {
+            @apply mt-8 px-8 py-3 bg-indigo-600 text-white font-bold rounded-2xl shadow-lg shadow-indigo-100 hover:bg-indigo-700 transition-all active:scale-95 text-sm uppercase tracking-widest;
+        }
+
+        .flashcard.revealed .reveal-btn {
+            @apply bg-slate-100 text-slate-400 shadow-none pointer-events-none;
+        }
+
+        /* LOGO ANIMATION - P in BOX */
+        @keyframes box-pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        .logo-box { animation: box-pulse 4s ease-in-out infinite; }
+
+        /* VIEW TRANSITIONS */
+        .view-transition { animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
+        .fade-out { opacity: 0; transform: translateY(-10px); transition: all 0.5s ease; }
+        .fade-in { opacity: 1; transform: translateY(0); transition: all 0.5s ease; }
+
+        .font-kannada { line-height: 1.6; }
+        input:focus { outline: none; border-color: #4338ca; }
+        
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f5f9; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+    </style>
+</head>
+<body>
+
+    <!-- TOP MOTIVATIONAL BAR -->
+    <div id="moto-bar" class="fixed top-0 w-full z-[60] bg-slate-900 text-white py-2.5 overflow-hidden border-b border-white/10 shadow-xl">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <span id="moto-text" class="text-[10px] md:text-xs font-bold uppercase tracking-[0.25em] inline-block transition-all">
+                Consistency is the key to Selection. 🎯
+            </span>
         </div>
-    `;
-}
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav class="fixed top-[44px] w-full z-50 bg-white/80 backdrop-blur-xl border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+            <div class="flex items-center gap-4 group cursor-pointer" onclick="navigateTo('home')">
+                <div class="relative flex items-center justify-center logo-box">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="40" height="40" rx="10" fill="#4338ca"/>
+                        <path d="M15 28V12H21.5C24.5376 12 27 14.4624 27 17.5C27 20.5376 24.5376 23 21.5 23H15" stroke="white" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="flex flex-col leading-none text-left">
+                    <span class="text-xl font-black tracking-tighter text-slate-900 group-hover:text-indigo-600 transition-colors uppercase">PrepEase</span>
+                    <span class="text-[9px] font-bold text-emerald-600 uppercase tracking-[0.2em]">Mastery Academy</span>
+                </div>
+            </div>
+            
+            <div id="nav-links" class="hidden md:flex items-center gap-8">
+                <button onclick="navigateTo('home')" class="text-sm font-semibold text-slate-600 hover:text-indigo-700 transition-colors">Dashboard</button>
+                <button onclick="navigateTo('doubts')" class="text-sm font-semibold text-slate-600 hover:text-indigo-700 transition-colors">Support</button>
+                <div class="h-4 w-px bg-slate-200"></div>
+                <div id="auth-status"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN APP CONTAINER -->
+    <main id="app-shell" class="pt-[124px] min-h-screen">
+        <!-- Views -->
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="py-16 bg-white border-t border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8 text-center md:text-left">
+            <div>
+                <span class="text-lg font-black tracking-tighter text-slate-900 uppercase font-bold">PrepEase Mastery</span>
+                <p class="text-slate-400 text-xs mt-2 max-w-xs leading-relaxed">Personalized study roadmap for KPSC & SSC aspirants.</p>
+            </div>
+            <div class="flex gap-8">
+                <a href="#" class="text-slate-500 hover:text-indigo-600 font-bold text-[10px] uppercase tracking-widest transition-colors">LinkedIn</a>
+                <a href="#" class="text-slate-500 hover:text-indigo-600 font-bold text-[10px] uppercase tracking-widest transition-colors">Instagram</a>
+                <a href="#" class="text-slate-500 hover:text-indigo-600 font-bold text-[10px] uppercase tracking-widest transition-colors">Community</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // --- DATA & STATE ---
+        const hardcodedContent = {
+            "vocabulary": {
+                "synonyms": {
+                    "1": [
+                        {"word": "Genuine", "meaning_english": "Real_Authentic_Original_True_Legitimate_Valid", "meaning_kannada": "ನೈಜ", "emoji": "✅"},
+                        {"word": "Summit", "meaning_english": "Top_Peak_Pinnacle_Apex_Zenith_Crest", "meaning_kannada": "ಶಿಖರ", "emoji": "🏔️"},
+                        {"word": "Careful", "meaning_english": "Cautious_Wary_Alert_Prudent_Watchful_Guarded", "meaning_kannada": "ಜಾಗರೂಕ", "emoji": "⚠️"},
+                        {"word": "Healthy", "meaning_english": "Fit_Robust_Sound_Wholesome_Vigorous_Well", "meaning_kannada": "ಆರೋಗ್ಯಕರ", "emoji": "🍎"},
+                        {"word": "Magic", "meaning_english": "Wizardry_Sorcery_Spell_Charm_Enchantment_Occult", "meaning_kannada": "ಮಂತ್ರಜಾಲ", "emoji": "🪄"}
+                    ]
+                }
+            }
+        };
+
+        const quotes = [
+            "Consistency is the key to Selection. 🎯",
+            "Mastering English is half the battle won. 🇬🇧",
+            "KPSC Excellence begins with everyday habits. 🏛️",
+            "Hard work today, Officer rank tomorrow. 🇮🇳",
+            "Focus on the mission, not the competition. ⚔️"
+        ];
+
+        const testMotivationalQuotes = [
+            "Mistakes are proof that you are trying. Let's crush this test!",
+            "Knowledge is power. Testing that knowledge is mastery.",
+            "Believe you can and you're halfway there. Start the quiz!",
+            "Your future self will thank you for this practice session.",
+            "One step closer to your dream rank. Prove your learning!"
+        ];
+        
+        const topicsData = {
+            grammar: [
+                { id: 'nouns', title: 'Nouns & Case', icon: '🔡' },
+                { id: 'tenses', title: 'Tense Mastery', icon: '⏳' },
+                { id: 'articles', title: 'Articles', icon: '🅰️' },
+                { id: 'prepositions', title: 'Prepositions', icon: '📍' },
+                { id: 'subject-verb', title: 'Subject-Verb Agreement', icon: '⚖️' }
+            ],
+            vocabulary: [
+                { id: 'synonyms', title: 'Synonyms', icon: '📖' },
+                { id: 'antonyms', title: 'Antonyms', icon: '🌓' },
+                { id: 'substitution', title: 'One Word Substitution', icon: '1️⃣' },
+                { id: 'idioms', title: 'Idioms & Phrases', icon: '🎭' }
+            ]
+        };
+
+        const state = {
+            view: 'home',
+            isAuthenticated: false,
+            userName: '',
+            intendedView: null,
+            intendedParams: {},
+            currentType: null,
+            currentTopic: null,
+            currentLevel: null,
+            currentTopicTitle: ''
+        };
+
+        // --- SPA ROUTING & HELPERS ---
+        const getBaseDir = () => {
+            const path = window.location.pathname;
+            if (window.location.protocol === 'blob:') return '/';
+            return path.substring(0, path.lastIndexOf('/') + 1) || '/';
+        };
+
+        const getDynamicPath = (type, topic, level, isTest = false) => {
+            const base = getBaseDir();
+            const suffix = isTest ? `-test.json` : `.json`;
+            const relPath = `content/general-english/${type}/${topic}/level${level}${suffix}`;
+            return new URL(relPath, window.location.origin + base).href;
+        };
+
+        const updateURL = () => {
+            try {
+                if (window.location.protocol === 'blob:') return;
+                const params = new URLSearchParams();
+                if (state.view) params.set('v', state.view);
+                if (state.currentType) params.set('type', state.currentType);
+                if (state.currentTopic) params.set('topic', state.currentTopic);
+                if (state.currentLevel) params.set('lv', state.currentLevel);
+
+                const newURL = `${window.location.pathname}?${params.toString()}`;
+                window.history.pushState(state, '', newURL);
+            } catch (err) {}
+        };
+
+        window.onpopstate = (event) => {
+            if (event.state) {
+                Object.assign(state, event.state);
+                render();
+            } else {
+                initFromURL();
+            }
+        };
+
+        const initFromURL = () => {
+            const params = new URLSearchParams(window.location.search);
+            if (params.has('v')) state.view = params.get('v');
+            if (params.has('type')) state.currentType = params.get('type');
+            if (params.has('topic')) state.currentTopic = params.get('topic');
+            if (params.has('lv')) state.currentLevel = params.get('lv');
+            render();
+        };
+
+        function navigateTo(view, params = {}) {
+            const protectedViews = ['english-selection', 'topics-grid', 'levels-grid', 'content-view'];
+            if (protectedViews.includes(view) && !state.isAuthenticated) {
+                state.intendedView = view;
+                state.intendedParams = params;
+                state.view = 'login';
+            } else {
+                state.view = view;
+            }
+            Object.assign(state, params);
+            updateURL();
+            render();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function render() {
+            const shell = document.getElementById('app-shell');
+            const authStatus = document.getElementById('auth-status');
+            
+            if (state.isAuthenticated) {
+                authStatus.innerHTML = `
+                    <div class="flex items-center gap-3">
+                        <span class="text-sm font-bold text-indigo-700">Hi, ${state.userName.split(' ')[0]}</span>
+                        <button onclick="logout()" class="w-10 h-10 bg-indigo-50 text-indigo-600 rounded-full flex items-center justify-center border border-indigo-100 hover:bg-red-50 hover:text-red-500 transition-colors">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"/></svg>
+                        </button>
+                    </div>
+                `;
+            } else {
+                authStatus.innerHTML = `<button onclick="navigateTo('login')" class="px-6 py-2.5 text-xs font-bold bg-indigo-600 text-white rounded-full transition-all">Sign In</button>`;
+            }
+
+            switch(state.view) {
+                case 'home': shell.innerHTML = renderHome(); break;
+                case 'login': shell.innerHTML = renderLogin(); break;
+                case 'english-selection': shell.innerHTML = renderEnglishSelection(); break;
+                case 'topics-grid': shell.innerHTML = renderTopicsGrid(); break;
+                case 'levels-grid': shell.innerHTML = renderLevelsGrid(); break;
+                case 'content-view': shell.innerHTML = renderContentView(); loadContent(); break;
+                case 'exams-pyq': shell.innerHTML = renderExamsPYQ(); break;
+                case 'doubts': shell.innerHTML = renderDoubts(); break;
+            }
+        }
+
+        // --- TEMPLATES ---
+        function renderHome() {
+            return `
+                <div class="hero-gradient pt-16 pb-32 px-6 view-transition text-center">
+                    <div class="max-w-7xl mx-auto">
+                        <span class="inline-block px-4 py-1.5 bg-indigo-50 text-indigo-700 text-[10px] font-black rounded-full mb-6 border border-indigo-100 uppercase tracking-widest">KPSC & SSC Official roadmap 2026</span>
+                        <h1 class="text-5xl md:text-7xl font-black text-slate-900 tracking-tighter mb-6 leading-[1.1]">
+                            ${state.isAuthenticated ? `Hello, <span class="text-indigo-600">${state.userName.split(' ')[0]}!</span><br>Mission Selection starts now.` : `Secure Your <span class="text-indigo-600 italic">Officer Rank.</span>`}
+                        </h1>
+                        <p class="text-lg text-slate-500 max-w-2xl mx-auto mb-16 font-medium leading-relaxed">Official study paths for FDA, SDA and SSC. Master general English levels 1-10.</p>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+                            <div onclick="navigateTo('english-selection')" class="premium-card group">
+                                <div class="w-14 h-14 bg-indigo-50 text-indigo-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:bg-indigo-600 group-hover:text-white transition-all">🇬🇧</div>
+                                <h3 class="text-2xl font-bold mb-2 tracking-tight">General English</h3>
+                                <p class="text-slate-500 text-sm mb-6 leading-relaxed">Levels 1-10 Grammar & Vocabulary mastery roadmap.</p>
+                                <span class="text-indigo-600 text-xs font-bold uppercase tracking-widest">Mastery Hub ➜</span>
+                            </div>
+                            <div onclick="navigateTo('exams-pyq', { currentCategory: 'karnataka' })" class="premium-card group">
+                                <div class="w-14 h-14 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:bg-emerald-600 group-hover:text-white transition-all">🏛️</div>
+                                <h3 class="text-2xl font-bold mb-2 tracking-tight">KPSC Selection</h3>
+                                <p class="text-slate-500 text-sm mb-6">Archives for FDA, SDA and PSI recruitment.</p>
+                                <span class="text-emerald-600 text-xs font-bold uppercase tracking-widest">PYQ Bank Sync ➜</span>
+                            </div>
+                            <div onclick="navigateTo('exams-pyq', { currentCategory: 'ssc' })" class="premium-card group">
+                                <div class="w-14 h-14 bg-amber-50 text-amber-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:bg-amber-600 group-hover:text-white transition-all">⚔️</div>
+                                <h3 class="text-2xl font-bold mb-2 tracking-tight">SSC Central Hub</h3>
+                                <p class="text-slate-500 text-sm mb-6">CGL and CHSL focused archives and PYQ practice.</p>
+                                <span class="text-amber-600 text-xs font-bold uppercase tracking-widest">Tier 1 & 2 Roadmap ➜</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>`;
+        }
+
+        function renderLogin() {
+            return `<div class="max-w-md mx-auto px-6 py-24 view-transition text-center"><h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-2">Welcome Aspirant</h2><p class="text-slate-500 mb-10 font-medium">Please enter your name to proceed.</p><form onsubmit="handleLogin(event)" class="bg-white border border-slate-200 p-10 rounded-[3rem] shadow-sm text-left"><label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3">Your Name</label><input id="name-input" type="text" placeholder="Aspirant Name" class="w-full px-5 py-4 bg-slate-50 border-2 border-slate-100 rounded-2xl font-bold mb-6 focus:bg-white transition-all" required><button type="submit" class="w-full py-4 bg-indigo-600 text-white font-bold rounded-2xl shadow-xl active:scale-95 transition-all">Start Mastery</button></form></div>`;
+        }
+
+        function renderEnglishSelection() {
+            return `
+                <div class="max-w-7xl mx-auto px-6 py-20 view-transition text-center">
+                    <button onclick="navigateTo('home')" class="text-slate-400 font-bold mb-8 flex items-center justify-center gap-2 hover:text-indigo-600 transition-colors mx-auto uppercase text-xs tracking-widest">← Dashboard</button>
+                    <h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-12">Choose Study Track</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 text-left">
+                        <div onclick="navigateTo('topics-grid', { currentType: 'grammar' })" class="premium-card hover:border-indigo-600 group">
+                            <span class="px-3 py-1 bg-indigo-50 text-indigo-700 text-[9px] font-black rounded-full uppercase tracking-widest mb-6 inline-block">Rule Based</span>
+                            <h3 class="text-3xl font-black mb-4 tracking-tight">English Grammar</h3>
+                            <p class="text-slate-500 mb-8 leading-relaxed">Conceptual rules, practice and exceptions for KPSC/SSC exams.</p>
+                            <span class="text-indigo-600 font-bold text-sm uppercase tracking-widest">Open Roadmap ➜</span>
+                        </div>
+                        <div onclick="navigateTo('topics-grid', { currentType: 'vocabulary' })" class="premium-card hover:border-emerald-500 group">
+                            <span class="px-3 py-1 bg-emerald-50 text-emerald-700 text-[9px] font-black rounded-full uppercase tracking-widest mb-6 inline-block">Memory Based</span>
+                            <h3 class="text-3xl font-black mb-4 tracking-tight">Vocabulary Hub</h3>
+                            <p class="text-slate-500 mb-8 leading-relaxed">Synonyms, Antonyms and Idioms with interactive recall technology.</p>
+                            <span class="text-emerald-600 font-bold text-sm uppercase tracking-widest">Open Roadmap ➜</span>
+                        </div>
+                    </div>
+                </div>`;
+        }
+
+        function renderTopicsGrid() {
+            const topics = topicsData[state.currentType];
+            return `
+                <div class="max-w-7xl mx-auto px-6 py-20 view-transition text-center">
+                    <button onclick="navigateTo('english-selection')" class="text-slate-400 font-bold mb-8 flex items-center justify-center gap-2 hover:text-indigo-600 transition-colors mx-auto uppercase text-xs tracking-widest">← Category</button>
+                    <h2 class="text-4xl font-black text-slate-900 tracking-tighter capitalize mb-12">${state.currentType} Roadmap</h2>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
+                        ${topics.map(t => `
+                            <div onclick="navigateTo('levels-grid', { currentTopic: '${t.id}', currentTopicTitle: '${t.title}' })" class="premium-card p-10 group">
+                                <div class="text-5xl mb-8 group-hover:scale-125 transition-transform duration-500">${t.icon}</div>
+                                <h3 class="text-xl font-bold text-slate-900 mb-4 tracking-tight">${t.title}</h3>
+                                <p class="text-[9px] font-bold text-slate-400 uppercase tracking-widest">Phase 1-10 Active</p>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>`;
+        }
+
+        function renderLevelsGrid() {
+            return `
+                <div class="max-w-7xl mx-auto px-6 py-20 view-transition text-center">
+                    <button onclick="navigateTo('topics-grid')" class="text-slate-400 font-bold mb-8 flex items-center justify-center gap-2 hover:text-indigo-600 transition-colors mx-auto uppercase text-xs tracking-widest">← ${state.currentTopicTitle}</button>
+                    <h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-16">${state.currentTopicTitle} Phases</h2>
+                    <div class="grid grid-cols-2 md:grid-cols-5 gap-6">
+                        ${Array.from({length: 10}, (_, i) => i + 1).map(lv => `
+                            <div onclick="navigateTo('content-view', { currentLevel: ${lv} })" 
+                                 class="p-10 border-2 border-slate-100 rounded-[2.5rem] text-center hover:border-indigo-600 hover:shadow-2xl transition-all cursor-pointer group bg-white shadow-sm">
+                                <span class="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-2 block group-hover:text-indigo-600">Level</span>
+                                <span class="text-4xl font-black text-slate-900">${lv}</span>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>`;
+        }
+
+        function renderContentView() {
+            return `
+                <div class="max-w-4xl mx-auto px-6 py-20 view-transition">
+                    <button onclick="navigateTo('levels-grid')" class="text-slate-400 font-bold flex items-center gap-2 hover:text-indigo-600 transition-colors mb-12 uppercase text-xs tracking-widest">← All Levels</button>
+                    <div id="content-container"></div>
+                </div>`;
+        }
+
+        // --- DYNAMIC CONTENT & TEST LOGIC ---
+
+        async function loadContent() {
+            const container = document.getElementById('content-container');
+            container.innerHTML = `<div class="flex flex-col items-center justify-center py-24"><div class="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600 mb-4"></div><p class="text-slate-400 text-[10px] font-bold animate-pulse uppercase tracking-widest">Fetching Study Material...</p></div>`;
+            
+            const { currentType: type, currentTopic: topic, currentLevel: level } = state;
+
+            if (hardcodedContent[type]?.[topic]?.[level]) {
+                setTimeout(() => renderFlashcards(hardcodedContent[type][topic][level]), 400);
+                return;
+            }
+
+            const absoluteURL = getDynamicPath(type, topic, level, false);
+            try {
+                const response = await fetch(absoluteURL);
+                if (!response.ok) throw new Error(`${response.status}`);
+                const data = await response.json();
+                renderFlashcards(data);
+            } catch (err) {
+                showErrorState(container, absoluteURL, err.message);
+            }
+        }
+
+        async function loadTest() {
+            const container = document.getElementById('content-container');
+            container.innerHTML = `<div class="flex flex-col items-center justify-center py-24"><div class="animate-spin rounded-full h-12 w-12 border-b-2 border-emerald-500 mb-4"></div><p class="text-slate-400 text-[10px] font-bold animate-pulse uppercase tracking-widest">Loading Interactive Test...</p></div>`;
+            
+            const { currentType: type, currentTopic: topic, currentLevel: level } = state;
+            const absoluteURL = getDynamicPath(type, topic, level, true);
+
+            try {
+                const response = await fetch(absoluteURL);
+                if (!response.ok) throw new Error(`${response.status}`);
+                const questions = await response.json();
+                renderTest(questions);
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            } catch (err) {
+                showErrorState(container, absoluteURL, err.message);
+            }
+        }
+
+        function renderFlashcards(notes) {
+            const container = document.getElementById('content-container');
+            const randomQuote = testMotivationalQuotes[Math.floor(Math.random() * testMotivationalQuotes.length)];
+            
+            let html = `
+                <div class="mb-16 text-center">
+                    <span class="px-4 py-1 bg-indigo-50 text-indigo-700 text-[10px] font-black rounded-full uppercase tracking-widest mb-4 inline-block">Flashcard Mastery</span>
+                    <h2 class="text-5xl font-black text-slate-900 tracking-tighter capitalize">${state.currentTopic} - Level ${state.currentLevel}</h2>
+                    <p class="text-slate-400 text-sm mt-4 uppercase tracking-tighter font-bold leading-relaxed">Recall the mapping and reveal the bilingual meaning</p>
+                </div>
+                <div class="flashcard-container">`;
+
+            notes.forEach((item, index) => {
+                const synonyms = (item.meaning_english || "").replace(/_/g, ', ');
+                html += `
+                    <div class="flashcard" id="card-${index}">
+                        <div class="flex flex-col items-center text-center">
+                            <span class="text-6xl mb-6 drop-shadow-md">${item.emoji || '📗'}</span>
+                            <h3 class="text-4xl font-black text-slate-900 tracking-tighter">${item.word}</h3>
+                            <button class="reveal-btn" onclick="revealCard(${index})">Reveal Meaning</button>
+                            <div class="flashcard-answer w-full">
+                                <div class="space-y-4">
+                                    <div class="flex flex-col items-center">
+                                        <p class="text-[10px] font-black text-emerald-600 uppercase tracking-widest mb-2">Kannada Meaning</p>
+                                        <p class="text-4xl font-bold text-slate-900 font-kannada">${item.meaning_kannada || ""}</p>
+                                    </div>
+                                    <div class="pt-4 flex flex-col items-center border-t border-slate-50">
+                                        <p class="text-[10px] font-black text-indigo-400 uppercase tracking-widest mb-2">English Context</p>
+                                        <p class="text-2xl font-medium text-indigo-900 leading-tight">${synonyms}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>`;
+            });
+            
+            // Mastery Transition UI (Requirement 2 & 5 with Quote)
+            html += `
+                <div class="p-16 bg-slate-900 rounded-[4rem] text-white text-center shadow-2xl mt-12 relative overflow-hidden group w-full">
+                    <div class="relative z-10">
+                        <h3 class="text-3xl font-black mb-4 tracking-tight">Phase Mastered!</h3>
+                        <p class="text-emerald-400 mb-8 text-lg font-bold italic leading-relaxed">"${randomQuote}"</p>
+                        <p class="text-slate-400 mb-10 text-sm font-medium leading-relaxed uppercase tracking-widest">Ready to check your retention?</p>
+                        <button onclick="loadTest()" class="px-12 py-5 bg-white text-slate-900 font-black rounded-2xl shadow-xl hover:bg-slate-50 transition-all uppercase tracking-widest text-xs active:scale-95">
+                            Start Level ${state.currentLevel} Test
+                        </button>
+                    </div>
+                    <div class="absolute -right-10 -bottom-10 text-white opacity-[0.03] text-9xl font-black rotate-12 group-hover:scale-110 transition-transform uppercase">QUIZ</div>
+                </div>
+            </div>`;
+            
+            container.innerHTML = html;
+        }
+
+        function renderTest(questions) {
+            const container = document.getElementById('content-container');
+            let html = `
+                <div class="mb-12 view-transition">
+                    <button onclick="loadContent()" class="text-slate-400 font-bold flex items-center gap-2 hover:text-indigo-600 transition-colors mb-8 uppercase text-[10px] tracking-widest">← Back to Notes</button>
+                    <span class="px-4 py-1 bg-emerald-50 text-emerald-700 text-[10px] font-black rounded-full uppercase tracking-widest mb-4 inline-block">Interactive Assessment</span>
+                    <h2 class="text-4xl font-black text-slate-900 tracking-tighter capitalize">${state.currentTopic} Quiz - Level ${state.currentLevel}</h2>
+                </div>
+                <div class="space-y-8">`;
+
+            questions.forEach((q, qIdx) => {
+                html += `
+                    <div class="bg-white border-2 border-slate-100 rounded-[2.5rem] p-8 md:p-10 shadow-sm">
+                        <div class="flex items-start gap-4 mb-6">
+                            <span class="w-8 h-8 rounded-full bg-slate-900 text-white flex items-center justify-center text-xs font-bold shrink-0">${qIdx + 1}</span>
+                            <p class="text-xl font-bold text-slate-800 leading-tight pt-1">${q.question}</p>
+                        </div>
+                        <div class="grid grid-cols-1 gap-3">
+                            ${q.options.map((opt) => `
+                                <button onclick="checkAnswer(this, '${opt}', '${q.answer}')" 
+                                        class="text-left px-6 py-4 border-2 border-slate-50 rounded-2xl font-semibold text-slate-600 hover:border-indigo-100 hover:bg-slate-50 transition-all">
+                                    ${opt}
+                                </button>
+                            `).join('')}
+                        </div>
+                    </div>`;
+            });
+
+            html += `
+                <div class="text-center pt-12">
+                    <button onclick="navigateTo('levels-grid')" class="text-slate-400 font-bold uppercase text-xs tracking-widest hover:text-indigo-600">Finish & Return to Roadmap</button>
+                </div>
+            </div>`;
+            container.innerHTML = html;
+        }
+
+        function checkAnswer(btn, selected, correct) {
+            const parent = btn.parentElement;
+            const buttons = parent.querySelectorAll('button');
+            buttons.forEach(b => {
+                b.disabled = true;
+                if (b.innerText.trim() === correct.trim()) {
+                    b.classList.remove('border-slate-50', 'text-slate-600');
+                    b.classList.add('border-emerald-500', 'bg-emerald-50', 'text-emerald-700');
+                }
+            });
+            if (selected.trim() !== correct.trim()) {
+                btn.classList.remove('border-slate-50', 'text-slate-600');
+                btn.classList.add('border-red-500', 'bg-red-50', 'text-red-700');
+            }
+        }
+
+        function showErrorState(container, url, error) {
+            container.innerHTML = `
+                <div class="text-center py-20 bg-white border border-slate-200 rounded-[3rem] shadow-sm px-6">
+                    <div class="text-5xl mb-6">📂</div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2 tracking-tight">Phase Offline</h3>
+                    <p class="text-slate-500 mb-4 text-sm font-medium">Attempted fetch to:</p>
+                    <code class="bg-slate-50 p-3 rounded-xl text-indigo-600 mb-8 block text-[10px] font-bold border border-indigo-50 break-all">${url}</code>
+                    <p class="text-slate-400 text-xs mb-8">Status: ${error}. Verify content is uploaded to GitHub.</p>
+                    <button onclick="navigateTo('levels-grid')" class="px-10 py-3 bg-indigo-600 text-white font-bold rounded-xl shadow-lg active:scale-95 transition-all">Back to Grid</button>
+                </div>`;
+        }
+
+        function revealCard(index) {
+            const card = document.getElementById(`card-${index}`);
+            if (card) card.classList.add('revealed');
+        }
+
+        function logout() { state.isAuthenticated = false; state.userName = ''; navigateTo('home'); }
+        function handleLogin(event) {
+            event.preventDefault();
+            const name = document.getElementById('name-input').value;
+            if (name.trim().length < 2) return;
+            state.userName = name;
+            state.isAuthenticated = true;
+            navigateTo(state.intendedView || 'home', state.intendedParams);
+            state.intendedView = null;
+        }
+
+        function renderExamsPYQ() { return `<div class="max-w-7xl mx-auto px-6 py-20 view-transition text-center"><button onclick="navigateTo('home')" class="text-slate-400 font-bold mb-8 flex items-center justify-center gap-2 hover:text-indigo-600 transition-colors mx-auto uppercase text-xs tracking-widest">← Dashboard</button><h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-12 capitalize">${state.currentCategory} Regional Hub</h2><div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left"><div class="premium-card flex justify-between items-center group"><div><h3 class="text-2xl font-bold text-slate-900 mb-1 tracking-tight">Official Archives 2024</h3><p class="text-[10px] font-bold text-emerald-600 uppercase tracking-widest">Verified Solution</p></div><div class="w-14 h-14 bg-slate-50 border border-slate-100 rounded-2xl flex items-center justify-center group-hover:bg-indigo-600 group-hover:text-white transition-all"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div></div></div></div>`; }
+        function renderDoubts() { return `<div class="max-w-3xl mx-auto px-6 py-20 text-center view-transition"><div class="w-24 h-24 bg-emerald-50 text-emerald-600 rounded-[2.5rem] flex items-center justify-center text-4xl mx-auto mb-8 shadow-sm">💡</div><h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-12">Clear Doubts</h2><div class="bg-white border border-slate-200 p-12 rounded-[3rem] shadow-sm text-left"><div class="mb-8 font-bold"><p class="text-xs uppercase tracking-widest text-slate-400 mb-2">Telegram Academy</p><p class="text-2xl text-indigo-700">@PrepEase_Official</p></div><div class="font-bold"><p class="text-xs uppercase tracking-widest text-slate-400 mb-2">Email Helpdesk</p><p class="text-2xl text-slate-900">help@prepease.com</p></div></div><button onclick="navigateTo('home')" class="mt-12 py-5 px-10 bg-indigo-600 text-white font-bold rounded-[2rem] hover:bg-indigo-700 shadow-xl transition-all uppercase tracking-widest text-xs">Return to mission</button></div>`; }
+
+        let quoteIndex = 0;
+        setInterval(() => {
+            const el = document.getElementById('moto-text');
+            if (!el) return;
+            el.className = "text-[10px] md:text-xs font-bold uppercase tracking-[0.25em] inline-block fade-out";
+            setTimeout(() => {
+                quoteIndex = (quoteIndex + 1) % quotes.length;
+                el.innerText = quotes[quoteIndex];
+                el.className = "text-[10px] md:text-xs font-bold uppercase tracking-[0.25em] inline-block fade-in";
+            }, 500);
+        }, 5000);
+
+        document.addEventListener('DOMContentLoaded', initFromURL);
+    </script>
+</body>
+</html>
