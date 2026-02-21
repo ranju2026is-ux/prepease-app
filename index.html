@@ -193,25 +193,26 @@
         
         /**
          * Robust Base Directory Resolver for GitHub Pages
-         * Ensures we target the repo root even inside deep subfolders
          */
         const getBaseDir = () => {
             const path = window.location.pathname;
-            // If the URL ends in a slash or we're at root, the base is the full path
-            // Otherwise, we strip the filename (like index.html)
             const base = path.substring(0, path.lastIndexOf('/') + 1) || '/';
             return base;
         };
 
         /**
          * Standardized Dynamic Path Resolver
-         * Forces values to lowercase to avoid Case-Sensitivity issues on GitHub
+         * Updated to match user requirements:
+         * Content: level-{number}.json
+         * Test: level{number}-test.json
          */
         const getDynamicPath = (type, topic, level, isTest = false) => {
             const base = getBaseDir();
-            const suffix = isTest ? `-test.json` : `.json`;
-            // Requirement: content/general-english/{type}/{topic}/level{number}.json
-            const relPath = `content/general-english/${type.toLowerCase()}/${topic.toLowerCase()}/level${level}${suffix}`;
+            // User requirement: 
+            // Content path: content/general-english/vocabulary/synonyms/level-1.json
+            // Test path: content/general-english/vocabulary/synonyms/level1-test.json
+            const fileName = isTest ? `level${level}-test.json` : `level-${level}.json`;
+            const relPath = `content/general-english/${type.toLowerCase()}/${topic.toLowerCase()}/${fileName}`;
             
             // Build absolute URL
             const finalURL = new URL(relPath, window.location.origin + base).href;
@@ -610,7 +611,8 @@
                          <ul class="text-[10px] text-amber-700 space-y-1 list-disc pl-4">
                              <li>Is the folder named <b>vocabulary</b> (lowercase)?</li>
                              <li>Is the folder named <b>synonyms</b> (lowercase)?</li>
-                             <li>Is the file named <b>level1.json</b> (lowercase)?</li>
+                             <li>Is the file named <b>level-1.json</b> (hyphen before number)?</li>
+                             <li>Is the test file named <b>level1-test.json</b> (no hyphen before number)?</li>
                              <li>Did you push the <b>content</b> folder to GitHub?</li>
                          </ul>
                     </div>
