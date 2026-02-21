@@ -1,0 +1,107 @@
+[
+  {
+    "type": "direct",
+    "question": "Choose the synonym of 'Abandon'.",
+    "options": ["Collect", "Leave", "Build", "Repair"],
+    "answer": "Leave",
+    "explanation": "'Abandon' means to leave or give up something completely."
+  },
+  {
+    "type": "direct",
+    "question": "Choose the synonym of 'Abundant'.",
+    "options": ["Scarce", "Plentiful", "Rare", "Limited"],
+    "answer": "Plentiful",
+    "explanation": "'Abundant' means existing in large quantity; 'Plentiful' matches this meaning."
+  },
+  {
+    "type": "contextual",
+    "question": "The data provided in the report is accurate. What does 'accurate' mean?",
+    "options": ["Incorrect", "Exact", "Doubtful", "Confusing"],
+    "answer": "Exact",
+    "explanation": "'Accurate' means correct or exact."
+  },
+  {
+    "type": "fill_blank",
+    "question": "She was ______ to start her new job. (Synonym of Eager)",
+    "options": ["Reluctant", "Keen", "Lazy", "Afraid"],
+    "answer": "Keen",
+    "explanation": "'Eager' means keen or enthusiastic."
+  },
+  {
+    "type": "closest_meaning",
+    "question": "Which word is closest in meaning to 'Artificial'?",
+    "options": ["Natural", "Fake", "Pure", "Real"],
+    "answer": "Fake",
+    "explanation": "'Artificial' means not natural; it is man-made or fake."
+  },
+  {
+    "type": "direct",
+    "question": "Choose the synonym of 'Brief'.",
+    "options": ["Long", "Short", "Endless", "Huge"],
+    "answer": "Short",
+    "explanation": "'Brief' means short in duration or length."
+  },
+  {
+    "type": "usage",
+    "question": "Select the word that can replace 'Calm' in the sentence: She remained calm during the crisis.",
+    "options": ["Nervous", "Peaceful", "Angry", "Confused"],
+    "answer": "Peaceful",
+    "explanation": "'Calm' means peaceful and composed."
+  },
+  {
+    "type": "not_synonym",
+    "question": "Which of the following is NOT a synonym of 'Danger'?",
+    "options": ["Risk", "Threat", "Safety", "Hazard"],
+    "answer": "Safety",
+    "explanation": "'Danger' means risk or threat. 'Safety' is the opposite."
+  },
+  {
+    "type": "direct",
+    "question": "Choose the synonym of 'Essential'.",
+    "options": ["Optional", "Vital", "Extra", "Unnecessary"],
+    "answer": "Vital",
+    "explanation": "'Essential' means very important or necessary; 'Vital' is the correct synonym."
+  },
+  {
+    "type": "contextual",
+    "question": "The company plans to expand its operations next year. What does 'expand' mean?",
+    "options": ["Reduce", "Grow", "Stop", "Limit"],
+    "answer": "Grow",
+    "explanation": "'Expand' means to grow or increase in size."
+  },
+  {
+    "type": "direct",
+    "question": "Choose the synonym of 'Frequent'.",
+    "options": ["Rare", "Regular", "Unusual", "Scarce"],
+    "answer": "Regular",
+    "explanation": "'Frequent' means happening often or regularly."
+  },
+  {
+    "type": "usage",
+    "question": "Select the synonym of 'Generous'.",
+    "options": ["Selfish", "Kind", "Cruel", "Harsh"],
+    "answer": "Kind",
+    "explanation": "'Generous' means kind and willing to give."
+  },
+  {
+    "type": "direct",
+    "question": "Choose the synonym of 'Hostile'.",
+    "options": ["Friendly", "Aggressive", "Gentle", "Calm"],
+    "answer": "Aggressive",
+    "explanation": "'Hostile' means unfriendly or aggressive."
+  },
+  {
+    "type": "fill_blank",
+    "question": "Water is ______ for survival. (Synonym of Essential)",
+    "options": ["Optional", "Vital", "Temporary", "Minor"],
+    "answer": "Vital",
+    "explanation": "'Essential' means necessary or vital."
+  },
+  {
+    "type": "closest_meaning",
+    "question": "Which word is closest in meaning to 'Admire'?",
+    "options": ["Hate", "Respect", "Ignore", "Avoid"],
+    "answer": "Respect",
+    "explanation": "'Admire' means to respect or appreciate someone."
+  }
+]
