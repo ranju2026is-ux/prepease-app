@@ -494,8 +494,8 @@
                                     class="p-10 border-2 ${isDone ? 'border-emerald-500 bg-emerald-50/30' : 'border-slate-100 bg-white'} rounded-[2.5rem] text-center hover:border-indigo-600 hover:shadow-2xl transition-all cursor-pointer group shadow-sm relative overflow-hidden">
                                     
                                     ${isDone ? `
-                                        <div class="absolute top-4 right-4 text-emerald-600 font-black text-[10px] bg-emerald-100 px-2 py-0.5 rounded-full flex items-center gap-1">
-                                            <svg width="10" height="10" fill="currentColor" viewBox="0 0 24 24"><path d="M21 7L9 19L3.5 13.5L4.91 12.09L9 16.17L19.59 5.59L21 7Z"/></svg>
+                                        <div class="absolute top-4 right-4 text-emerald-600 font-black text-[10px] bg-emerald-100 px-2 py-0.5 rounded-full flex items-center gap-1 shadow-sm border border-emerald-200">
+                                            <svg width="10" height="10" fill="none" stroke="currentColor" stroke-width="4" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>
                                             DONE
                                         </div>
                                     ` : ''}
@@ -759,12 +759,10 @@
             
             if (name.trim().length < 2) return;
 
-            // Visual feedback
             loginBtn.innerText = "Connecting to Hub...";
             loginBtn.disabled = true;
 
             try {
-                // Ensure authentication attempts don't block the UI forever
                 await signInAnonymously(auth);
                 state.userName = name;
                 state.isAuthenticated = true;
@@ -772,7 +770,6 @@
                 state.intendedView = null;
             } catch (error) {
                 console.error("Firebase Auth Error:", error);
-                // Fail-soft: allow entry even if Firebase fails, so user isn't "stuck"
                 state.userName = name;
                 state.isAuthenticated = true;
                 navigateTo(state.intendedView || 'home', state.intendedParams);
@@ -781,7 +778,25 @@
         }
 
         window.renderExamsPYQ = function() { return `<div class="max-w-7xl mx-auto px-6 py-20 view-transition text-center"><button onclick="navigateTo('home')" class="text-slate-400 font-bold mb-8 flex items-center justify-center gap-2 hover:text-indigo-600 transition-colors mx-auto uppercase text-xs tracking-widest">← Dashboard</button><h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-12 capitalize">${state.currentCategory} Regional Hub</h2><div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left"><div class="premium-card flex justify-between items-center group"><div><h3 class="text-2xl font-bold text-slate-900 mb-1 tracking-tight">Official Archives 2024</h3><p class="text-[10px] font-bold text-emerald-600 uppercase tracking-widest">Verified Solution</p></div><div class="w-14 h-14 bg-slate-50 border border-slate-100 rounded-2xl flex items-center justify-center group-hover:bg-indigo-600 group-hover:text-white transition-all"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div></div></div></div>`; };
-        window.renderDoubts = function() { return `<div class="max-w-3xl mx-auto px-6 py-20 text-center view-transition"><div class="w-24 h-24 bg-emerald-50 text-emerald-600 rounded-[2.5rem] flex items-center justify-center text-4xl mx-auto mb-8 shadow-sm">💡</div><h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-12">Clear Doubts</h2><div class="bg-white border border-slate-200 p-12 rounded-[3rem] shadow-sm text-left"><div class="mb-8 font-bold"><p class="text-xs uppercase tracking-widest text-slate-400 mb-2">Telegram Academy</p><p class="text-2xl text-indigo-700">https://t.me/prepeaseengl</p></div><div class="font-bold"><p class="text-xs uppercase tracking-widest text-slate-400 mb-2">Email Helpdesk</p><p class="text-2xl text-slate-900">help@prepease.com</p></div></div><button onclick="navigateTo('home')" class="mt-12 py-5 px-10 bg-indigo-600 text-white font-bold rounded-[2rem] hover:bg-indigo-700 shadow-xl transition-all uppercase tracking-widest text-xs">Return to mission</button></div>`; };
+        
+        window.renderDoubts = function() { 
+            return `
+                <div class="max-w-3xl mx-auto px-6 py-20 text-center view-transition">
+                    <div class="w-24 h-24 bg-emerald-50 text-emerald-600 rounded-[2.5rem] flex items-center justify-center text-4xl mx-auto mb-8 shadow-sm">💡</div>
+                    <h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-12">Clear Doubts</h2>
+                    <div class="bg-white border border-slate-200 p-12 rounded-[3rem] shadow-sm text-left">
+                        <div class="mb-8 font-bold">
+                            <p class="text-xs uppercase tracking-widest text-slate-400 mb-2">Telegram Academy</p>
+                            <a href="https://t.me/prepeaseengl" target="_blank" class="text-2xl text-indigo-700 hover:underline">@prepeaseengl</a>
+                        </div>
+                        <div class="font-bold">
+                            <p class="text-xs uppercase tracking-widest text-slate-400 mb-2">Email Helpdesk</p>
+                            <p class="text-2xl text-slate-900">help@prepease.com</p>
+                        </div>
+                    </div>
+                    <button onclick="navigateTo('home')" class="mt-12 py-5 px-10 bg-indigo-600 text-white font-bold rounded-[2rem] hover:bg-indigo-700 shadow-xl transition-all uppercase tracking-widest text-xs">Return to mission</button>
+                </div>`; 
+        };
 
         // --- AUTH OBSERVER ---
         onAuthStateChanged(auth, (user) => {
@@ -822,4 +837,3 @@
     </script>
 </body>
 </html>
-
