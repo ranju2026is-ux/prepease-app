@@ -434,7 +434,7 @@
         }
 
         function renderLogin() {
-            return `<div class="max-w-md mx-auto px-6 py-24 view-transition text-center"><h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-2">Welcome Aspirant</h2><p class="text-slate-500 mb-10 font-medium">Please enter your name to proceed.</p><form id="login-form" class="bg-white border border-slate-200 p-10 rounded-[3rem] shadow-sm text-left"><label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3">Your Name</label><input id="name-input" type="text" placeholder="Aspirant Name" class="w-full px-5 py-4 bg-slate-50 border-2 border-slate-100 rounded-2xl font-bold mb-6 focus:bg-white transition-all" required><button type="submit" class="w-full py-4 bg-indigo-600 text-white font-bold rounded-2xl shadow-xl active:scale-95 transition-all">Start Mastery</button></form></div>`;
+            return `<div class="max-w-md mx-auto px-6 py-24 view-transition text-center"><h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-2">Welcome Aspirant</h2><p class="text-slate-500 mb-10 font-medium">Please enter your name to proceed.</p><form id="login-form" class="bg-white border border-slate-200 p-10 rounded-[3rem] shadow-sm text-left"><label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3">Your Name</label><input id="name-input" type="text" placeholder="Aspirant Name" class="w-full px-5 py-4 bg-slate-50 border-2 border-slate-100 rounded-2xl font-bold mb-6 focus:bg-white transition-all" required><button type="submit" id="login-btn" class="w-full py-4 bg-indigo-600 text-white font-bold rounded-2xl shadow-xl active:scale-95 transition-all">Start Mastery</button></form></div>`;
         }
 
         function renderEnglishSelection() {
@@ -753,15 +753,31 @@
         
         async function handleLogin(event) {
             event.preventDefault();
-            const name = document.getElementById('name-input').value;
+            const nameInput = document.getElementById('name-input');
+            const loginBtn = document.getElementById('login-btn');
+            const name = nameInput.value;
+            
             if (name.trim().length < 2) return;
-            state.userName = name;
-            state.isAuthenticated = true;
 
-            await signInAnonymously(auth);
+            // Visual feedback
+            loginBtn.innerText = "Connecting to Hub...";
+            loginBtn.disabled = true;
 
-            navigateTo(state.intendedView || 'home', state.intendedParams);
-            state.intendedView = null;
+            try {
+                // Ensure authentication attempts don't block the UI forever
+                await signInAnonymously(auth);
+                state.userName = name;
+                state.isAuthenticated = true;
+                navigateTo(state.intendedView || 'home', state.intendedParams);
+                state.intendedView = null;
+            } catch (error) {
+                console.error("Firebase Auth Error:", error);
+                // Fail-soft: allow entry even if Firebase fails, so user isn't "stuck"
+                state.userName = name;
+                state.isAuthenticated = true;
+                navigateTo(state.intendedView || 'home', state.intendedParams);
+                state.intendedView = null;
+            }
         }
 
         window.renderExamsPYQ = function() { return `<div class="max-w-7xl mx-auto px-6 py-20 view-transition text-center"><button onclick="navigateTo('home')" class="text-slate-400 font-bold mb-8 flex items-center justify-center gap-2 hover:text-indigo-600 transition-colors mx-auto uppercase text-xs tracking-widest">← Dashboard</button><h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-12 capitalize">${state.currentCategory} Regional Hub</h2><div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left"><div class="premium-card flex justify-between items-center group"><div><h3 class="text-2xl font-bold text-slate-900 mb-1 tracking-tight">Official Archives 2024</h3><p class="text-[10px] font-bold text-emerald-600 uppercase tracking-widest">Verified Solution</p></div><div class="w-14 h-14 bg-slate-50 border border-slate-100 rounded-2xl flex items-center justify-center group-hover:bg-indigo-600 group-hover:text-white transition-all"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div></div></div></div>`; };
