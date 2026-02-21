@@ -1,1 +1,74 @@
-
+[
+  {
+    "question": "Choose the synonym of 'Genuine'",
+    "options": ["Fake", "Real", "Weak", "Silent"],
+    "answer": "Real",
+    "explanation": "'Genuine' means real or authentic. Therefore, 'Real' is the correct synonym."
+  },
+  {
+    "question": "Choose the synonym of 'Summit'",
+    "options": ["Bottom", "Peak", "River", "Plain"],
+    "answer": "Peak",
+    "explanation": "'Summit' refers to the highest point of something, especially a mountain. 'Peak' has the same meaning."
+  },
+  {
+    "question": "Choose the synonym of 'Careful'",
+    "options": ["Careless", "Cautious", "Lazy", "Reckless"],
+    "answer": "Cautious",
+    "explanation": "'Careful' means acting with attention and caution. 'Cautious' is the correct synonym."
+  },
+  {
+    "question": "Choose the synonym of 'Healthy'",
+    "options": ["Weak", "Fit", "Ill", "Poor"],
+    "answer": "Fit",
+    "explanation": "'Healthy' means physically strong and well. 'Fit' matches this meaning."
+  },
+  {
+    "question": "Choose the synonym of 'Magic'",
+    "options": ["Science", "Reality", "Wizardry", "Truth"],
+    "answer": "Wizardry",
+    "explanation": "'Magic' refers to supernatural power or sorcery. 'Wizardry' is a synonym."
+  },
+  {
+    "question": "Choose the synonym of 'Trouble'",
+    "options": ["Peace", "Problem", "Joy", "Comfort"],
+    "answer": "Problem",
+    "explanation": "'Trouble' means difficulty or problem. Therefore, 'Problem' is correct."
+  },
+  {
+    "question": "Choose the synonym of 'Angry'",
+    "options": ["Happy", "Calm", "Furious", "Gentle"],
+    "answer": "Furious",
+    "explanation": "'Angry' means feeling strong displeasure. 'Furious' expresses intense anger."
+  },
+  {
+    "question": "Choose the synonym of 'Delight'",
+    "options": ["Sorrow", "Joy", "Pain", "Fear"],
+    "answer": "Joy",
+    "explanation": "'Delight' means great pleasure or happiness. 'Joy' is the correct synonym."
+  },
+  {
+    "question": "Choose the synonym of 'Fast'",
+    "options": ["Slow", "Swift", "Weak", "Late"],
+    "answer": "Swift",
+    "explanation": "'Fast' means moving quickly. 'Swift' has the same meaning."
+  },
+  {
+    "question": "Choose the synonym of 'Truth'",
+    "options": ["Lie", "Error", "Fact", "Doubt"],
+    "answer": "Fact",
+    "explanation": "'Truth' means something that is real or factual. 'Fact' is the synonym."
+  },
+  {
+    "question": "Choose the synonym of 'Brave'",
+    "options": ["Coward", "Fearful", "Bold", "Shy"],
+    "answer": "Bold",
+    "explanation": "'Brave' means showing courage. 'Bold' carries the same meaning."
+  },
+  {
+    "question": "Choose the synonym of 'Reject'",
+    "options": ["Accept", "Refuse", "Agree", "Support"],
+    "answer": "Refuse",
+    "explanation": "'Reject' means to refuse or decline something. Therefore, 'Refuse' is correct."
+  }
+]
