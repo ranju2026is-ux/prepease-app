@@ -37,11 +37,11 @@
 
         /* MODERN FLASHCARD STYLES */
         .flashcard-container {
-            @apply w-full max-w-2xl mx-auto space-y-6;
+            @apply w-full max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6;
         }
         
         .flashcard {
-            @apply bg-white border-2 border-slate-100 rounded-[3rem] p-8 md:p-12 transition-all duration-300 shadow-sm relative overflow-hidden;
+            @apply bg-white border-2 border-slate-100 rounded-[2.5rem] p-8 transition-all duration-300 shadow-sm relative overflow-hidden flex flex-col items-center text-center;
         }
 
         .flashcard-answer {
@@ -51,14 +51,18 @@
             overflow: hidden;
         }
 
+        .flashcard.revealed {
+            @apply border-indigo-200 bg-indigo-50/20;
+        }
+
         .flashcard.revealed .flashcard-answer {
             max-height: 500px;
             opacity: 1;
-            @apply mt-8 pt-8 border-t border-slate-100;
+            @apply mt-6 pt-6 border-t border-slate-100 w-full;
         }
 
         .reveal-btn {
-            @apply mt-8 px-8 py-3 bg-indigo-600 text-white font-bold rounded-2xl shadow-lg shadow-indigo-100 hover:bg-indigo-700 transition-all active:scale-95 text-sm uppercase tracking-widest;
+            @apply mt-6 px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl shadow-lg shadow-indigo-100 hover:bg-indigo-700 transition-all active:scale-95 text-[10px] uppercase tracking-widest;
         }
 
         .flashcard.revealed .reveal-btn {
@@ -146,7 +150,7 @@
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
         import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
-        import { getFirestore, doc, setDoc, getDoc, collection, onSnapshot, query } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
+        import { getFirestore, doc, setDoc, getDoc, collection, onSnapshot, query, deleteDoc } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
 
         // --- FIREBASE INIT ---
         const firebaseConfig = {
@@ -210,6 +214,7 @@
             currentTopicTitle: '',
             progress: {},
             leaderboard: [],
+            mistakes: [], // Requirement: Mistakes Book data
             authMode: 'login',
             totalPoints: 0,
             totalCoins: 0
@@ -263,7 +268,7 @@
         };
 
         window.navigateTo = function(view, params = {}) {
-            const protectedViews = ['english-selection', 'topics-grid', 'levels-grid', 'content-view'];
+            const protectedViews = ['english-selection', 'topics-grid', 'levels-grid', 'content-view', 'mistakes-book'];
             if (protectedViews.includes(view) && !state.isAuthenticated) {
                 state.intendedView = view;
                 state.intendedParams = params;
@@ -291,6 +296,7 @@
                 }
             } catch (e) { console.error("Profile load fail:", e); }
 
+            // Load Progress
             const progressRef = collection(db, 'artifacts', appId, 'users', auth.currentUser.uid, 'progress');
             onSnapshot(progressRef, (snapshot) => {
                 const updatedProgress = {};
@@ -307,6 +313,15 @@
                 state.totalCoins = coins;
                 render(); 
             }, (error) => console.error("Progress stream error:", error));
+
+            // Load Mistakes Book - Requirement 2
+            const mistakesRef = collection(db, 'artifacts', appId, 'users', auth.currentUser.uid, 'mistakes');
+            onSnapshot(mistakesRef, (snapshot) => {
+                const mistakes = [];
+                snapshot.forEach(doc => mistakes.push({ id: doc.id, ...doc.data() }));
+                state.mistakes = mistakes;
+                if (state.view === 'mistakes-book') render();
+            });
         }
 
         async function loadLeaderboard() {
@@ -319,20 +334,30 @@
             }, (error) => console.error("Leaderboard error:", error));
         }
 
-        async function saveResultToCloud(score, total, points, coins) {
+        async function saveResultToCloud(score, total, points, coins, mistakesFound = []) {
             if (!auth.currentUser) return;
             const progressId = `${state.currentType}_${state.currentTopic}_${state.currentLevel}`;
             const docRef = doc(db, 'artifacts', appId, 'users', auth.currentUser.uid, 'progress', progressId);
             
             try {
-                // Save level specific progress
                 await setDoc(docRef, {
                     score, total, points, coins,
                     completedAt: new Date().toISOString(),
                     type: state.currentType, topic: state.currentTopic, level: state.currentLevel
                 });
 
-                // Update Public Leaderboard
+                // Save Mistakes to "Mistakes Book" - Requirement 2
+                for (const m of mistakesFound) {
+                    const mId = btoa(m.question).substring(0, 20); // Create stable ID based on question
+                    const mRef = doc(db, 'artifacts', appId, 'users', auth.currentUser.uid, 'mistakes', mId);
+                    await setDoc(mRef, {
+                        ...m,
+                        topic: state.currentTopic,
+                        level: state.currentLevel,
+                        recordedAt: new Date().toISOString()
+                    });
+                }
+
                 const leaderboardRef = doc(db, 'artifacts', appId, 'public', 'data', 'leaderboard', auth.currentUser.uid);
                 await setDoc(leaderboardRef, {
                     name: state.userName,
@@ -344,6 +369,12 @@
 
             } catch (error) { console.error("Error saving progress:", error); }
         }
+
+        window.removeMistake = async function(id) {
+            if (!auth.currentUser) return;
+            const mRef = doc(db, 'artifacts', appId, 'users', auth.currentUser.uid, 'mistakes', id);
+            await deleteDoc(mRef);
+        };
 
         // --- CORE RENDERER ---
         function render() {
@@ -370,6 +401,7 @@
                 case 'topics-grid': shell.innerHTML = renderTopicsGrid(); break;
                 case 'levels-grid': shell.innerHTML = renderLevelsGrid(); break;
                 case 'content-view': shell.innerHTML = renderContentView(); loadContent(); break;
+                case 'mistakes-book': shell.innerHTML = renderMistakesBook(); break;
                 case 'exams-pyq': shell.innerHTML = renderExamsPYQ(); break;
                 case 'doubts': shell.innerHTML = renderDoubts(); break;
             }
@@ -391,38 +423,55 @@
                         <p class="text-lg text-slate-500 max-w-2xl mx-auto mb-16 font-medium leading-relaxed">Official study paths for FDA, SDA and SSC. Master general English levels 1-10.</p>
                         
                         ${state.isAuthenticated ? `
-                            <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 mb-20">
+                            <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 mb-20">
+                                <!-- Progress Card -->
                                 <div class="bg-white p-8 rounded-[3rem] border border-slate-100 shadow-sm text-left">
                                     <div class="flex justify-between items-center mb-6">
-                                        <h4 class="text-xs font-black text-slate-400 uppercase tracking-widest">Mastery Progress</h4>
-                                        <span class="text-indigo-600 font-black">${percent}% Complete</span>
+                                        <h4 class="text-xs font-black text-slate-400 uppercase tracking-widest">Mastery Status</h4>
+                                        <span class="text-indigo-600 font-black">${percent}% Done</span>
                                     </div>
                                     <div class="w-full h-3 bg-slate-50 rounded-full overflow-hidden mb-8">
                                         <div class="h-full bg-indigo-600 transition-all duration-1000" style="width: ${percent}%"></div>
                                     </div>
-                                    <div class="grid grid-cols-3 gap-4">
-                                        <div><p class="text-xl font-black text-slate-900">${doneCount}</p><p class="text-[9px] text-slate-400 font-bold uppercase">Levels</p></div>
-                                        <div><p class="text-xl font-black text-emerald-600">${state.totalPoints}</p><p class="text-[9px] text-slate-400 font-bold uppercase">Points</p></div>
-                                        <div><p class="text-xl font-black text-amber-500">🪙 ${state.totalCoins}</p><p class="text-[9px] text-slate-400 font-bold uppercase">Coins</p></div>
+                                    <div class="grid grid-cols-2 gap-4">
+                                        <div class="bg-slate-50 p-4 rounded-3xl">
+                                            <p class="text-xs text-slate-400 font-bold uppercase mb-1">Points</p>
+                                            <p class="text-2xl font-black text-emerald-600">${state.totalPoints}</p>
+                                        </div>
+                                        <div class="bg-slate-50 p-4 rounded-3xl">
+                                            <p class="text-xs text-slate-400 font-bold uppercase mb-1">Coins</p>
+                                            <p class="text-2xl font-black text-amber-500">🪙 ${state.totalCoins}</p>
+                                        </div>
                                     </div>
                                 </div>
+                                
+                                <!-- Mistakes Book Card - Requirement 2 -->
+                                <div onclick="navigateTo('mistakes-book')" class="premium-card bg-indigo-600 border-none group relative overflow-hidden flex flex-col justify-center">
+                                    <div class="relative z-10 text-left">
+                                        <span class="w-12 h-12 bg-white/20 text-white rounded-2xl flex items-center justify-center text-2xl mb-6">📖</span>
+                                        <h3 class="text-2xl font-black text-white mb-2 tracking-tight">Mistakes Book</h3>
+                                        <p class="text-indigo-100 text-sm mb-4">You have ${state.mistakes.length} concepts to review from previous tests.</p>
+                                        <span class="text-white text-xs font-bold uppercase tracking-widest bg-white/10 px-4 py-2 rounded-full inline-block group-hover:bg-white group-hover:text-indigo-600 transition-all">Open Records ➜</span>
+                                    </div>
+                                    <div class="absolute -right-6 -bottom-6 text-white/5 text-9xl font-black rotate-12">BOOK</div>
+                                </div>
+
+                                <!-- Leaderboard Small -->
                                 <div class="bg-slate-900 p-8 rounded-[3rem] text-white text-left overflow-hidden relative">
-                                    <h4 class="text-xs font-black text-indigo-300 uppercase tracking-widest mb-6">Top Aspirants</h4>
+                                    <h4 class="text-xs font-black text-indigo-300 uppercase tracking-widest mb-6">Global Ranking</h4>
                                     <div class="space-y-4">
                                         ${state.leaderboard.length > 0 ? state.leaderboard.map((u, i) => `
                                             <div class="flex items-center justify-between">
                                                 <div class="flex items-center gap-3">
                                                     <span class="text-[10px] font-bold text-slate-500">#${i+1}</span>
-                                                    <span class="text-sm font-bold truncate max-w-[120px]">${u.name}</span>
+                                                    <span class="text-sm font-bold truncate max-w-[100px]">${u.name} ${u.id === auth.currentUser?.uid ? '(You)' : ''}</span>
                                                 </div>
-                                                <div class="flex items-center gap-3">
-                                                    <span class="text-amber-400 font-black text-[10px]">🪙 ${u.coins || 0}</span>
+                                                <div class="flex items-center gap-2">
                                                     <span class="text-indigo-400 font-black text-xs">${u.points} PTS</span>
                                                 </div>
                                             </div>
                                         `).join('') : '<p class="text-slate-500 text-xs italic">Competing for the top spot...</p>'}
                                     </div>
-                                    <div class="absolute -right-4 -bottom-4 text-white/5 text-6xl font-black rotate-12 uppercase">Rank</div>
                                 </div>
                             </div>
                         ` : ''}
@@ -449,6 +498,52 @@
                         </div>
                     </div>
                 </div>`;
+        }
+
+        // Mistakes Book View - Requirement 2
+        function renderMistakesBook() {
+            return `
+                <div class="max-w-5xl mx-auto px-6 py-20 view-transition">
+                    <button onclick="navigateTo('home')" class="text-slate-400 font-bold mb-8 flex items-center gap-2 hover:text-indigo-600 transition-colors uppercase text-xs tracking-widest">← Dashboard</button>
+                    <div class="mb-12">
+                        <span class="px-4 py-1 bg-rose-50 text-rose-700 text-[10px] font-black rounded-full uppercase tracking-widest mb-4 inline-block border border-rose-100">Critical Review</span>
+                        <h2 class="text-5xl font-black text-slate-900 tracking-tighter capitalize">Mistakes Book</h2>
+                        <p class="text-slate-500 mt-4 max-w-xl">Every question you missed in your tests is automatically saved here. Review them until they become second nature.</p>
+                    </div>
+
+                    <div class="space-y-6">
+                        ${state.mistakes.length === 0 ? `
+                            <div class="bg-white p-16 rounded-[3rem] text-center border-2 border-dashed border-slate-200">
+                                <p class="text-slate-400 font-bold">Your Mistakes Book is empty! Excellent accuracy, Aspirant. 🎯</p>
+                            </div>
+                        ` : state.mistakes.map(m => `
+                            <div class="bg-white border border-slate-200 rounded-[2.5rem] p-8 md:p-10 shadow-sm group">
+                                <div class="flex justify-between items-start mb-6">
+                                    <div class="flex items-center gap-3">
+                                        <span class="px-3 py-1 bg-slate-100 text-slate-500 rounded-full text-[9px] font-black uppercase tracking-widest">${m.topic} - Lv ${m.level}</span>
+                                    </div>
+                                    <button onclick="removeMistake('${m.id}')" class="text-slate-300 hover:text-emerald-500 transition-colors text-[10px] font-bold uppercase tracking-widest">✓ Got it now</button>
+                                </div>
+                                <h3 class="text-xl font-bold text-slate-800 mb-6 leading-relaxed">Q: ${m.question}</h3>
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+                                    <div class="bg-rose-50 p-4 rounded-2xl border border-rose-100">
+                                        <p class="text-[9px] font-black text-rose-500 uppercase mb-1">Your Choice</p>
+                                        <p class="text-sm font-bold text-rose-900">${m.userAnswer || 'Not answered'}</p>
+                                    </div>
+                                    <div class="bg-emerald-50 p-4 rounded-2xl border border-emerald-100">
+                                        <p class="text-[9px] font-black text-emerald-600 uppercase mb-1">Correct Answer</p>
+                                        <p class="text-sm font-bold text-emerald-900">${m.answer}</p>
+                                    </div>
+                                </div>
+                                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                                    <p class="text-[10px] font-black text-indigo-500 uppercase tracking-widest mb-2">Bilingual Explanation</p>
+                                    <p class="text-slate-600 font-medium leading-relaxed italic">${m.explanation}</p>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
         }
 
         function renderLogin() {
@@ -540,11 +635,9 @@
                         ${Array.from({length: 10}, (_, i) => i + 1).map(lv => {
                             const progressId = `${state.currentType}_${state.currentTopic}_${lv}`;
                             const isDone = state.progress[progressId];
-                            const score = isDone ? isDone.score : 0;
-                            const total = isDone ? isDone.total : 0;
 
                             return `
-                                <div onclick="navigateTo('content-view', { currentLevel: ${lv} })" 
+                                <div onclick="handleLevelClick(${lv}, '${progressId}')" 
                                     class="p-10 border-2 ${isDone ? 'border-emerald-500 bg-emerald-50/30' : 'border-slate-100 bg-white'} rounded-[2.5rem] text-center hover:border-indigo-600 hover:shadow-2xl transition-all cursor-pointer group shadow-sm relative overflow-hidden">
                                     
                                     ${isDone ? `
@@ -557,9 +650,7 @@
                                     <span class="text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-2 block group-hover:text-indigo-600">Level</span>
                                     <span class="text-4xl font-black text-slate-900">${lv}</span>
                                     
-                                    ${isDone ? `
-                                        <p class="mt-4 text-[10px] font-black text-slate-400 uppercase tracking-widest">Coins: ${isDone.coins || 0}</p>
-                                    ` : ''}
+                                    ${isDone ? `<p class="mt-4 text-[9px] font-black text-emerald-600 uppercase tracking-widest">Reattempt Available</p>` : ''}
                                 </div>
                             `;
                         }).join('')}
@@ -567,9 +658,42 @@
                 </div>`;
         }
 
+        // Reattempt Logic - Requirement 1
+        window.handleLevelClick = function(lv, progressId) {
+            const isDone = state.progress[progressId];
+            if (isDone) {
+                const container = document.getElementById('app-shell');
+                container.innerHTML = `
+                    <div class="max-w-xl mx-auto py-32 px-6 text-center view-transition">
+                        <div class="bg-white border-2 border-emerald-100 p-12 rounded-[3.5rem] shadow-xl">
+                            <span class="w-16 h-16 bg-emerald-50 text-emerald-600 rounded-full flex items-center justify-center text-3xl mb-8 mx-auto">🏆</span>
+                            <h2 class="text-3xl font-black text-slate-900 mb-2">Level ${lv} Mastered</h2>
+                            <p class="text-slate-400 font-bold uppercase tracking-widest text-[10px] mb-8">Previous Score: ${isDone.score}/${isDone.total}</p>
+                            
+                            <div class="space-y-4">
+                                <button onclick="navigateTo('content-view', { currentLevel: ${lv} })" class="w-full py-5 bg-indigo-600 text-white font-black rounded-2xl shadow-xl shadow-indigo-100 transition-all uppercase tracking-widest text-xs">Review Lessons Only</button>
+                                <button onclick="loadTestExplicitly(${lv})" class="w-full py-5 border-2 border-slate-100 text-slate-600 font-black rounded-2xl hover:bg-slate-50 transition-all uppercase tracking-widest text-xs">Reattempt Quiz</button>
+                                <button onclick="navigateTo('levels-grid')" class="w-full py-2 text-slate-300 font-bold uppercase tracking-widest text-[10px] mt-4">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            } else {
+                navigateTo('content-view', { currentLevel: lv });
+            }
+        };
+
+        window.loadTestExplicitly = function(lv) {
+            state.currentLevel = lv;
+            state.view = 'content-view';
+            render();
+            loadTest();
+        };
+
+        // Redesigned Card Layout - Requirement 3
         function renderContentView() {
             return `
-                <div class="max-w-4xl mx-auto px-6 py-20 view-transition">
+                <div class="max-w-6xl mx-auto px-6 py-20 view-transition">
                     <button onclick="navigateTo('levels-grid')" class="text-slate-400 font-bold flex items-center gap-2 hover:text-indigo-600 transition-colors mb-12 uppercase text-xs tracking-widest">← All Levels</button>
                     <div id="content-container"></div>
                 </div>`;
@@ -617,31 +741,32 @@
             const randomQuote = testMotivationalQuotes[Math.floor(Math.random() * testMotivationalQuotes.length)];
             
             let html = `
-                <div class="mb-16 text-center">
-                    <span class="px-4 py-1 bg-indigo-50 text-indigo-700 text-[10px] font-black rounded-full uppercase tracking-widest mb-4 inline-block">Flashcard Mastery</span>
+                <div class="mb-16 text-left">
+                    <span class="px-4 py-1 bg-indigo-50 text-indigo-700 text-[10px] font-black rounded-full uppercase tracking-widest mb-4 inline-block border border-indigo-100">Bilingual Learning Phase</span>
                     <h2 class="text-5xl font-black text-slate-900 tracking-tighter capitalize">${state.currentTopic} - Level ${state.currentLevel}</h2>
-                    <p class="text-slate-400 text-sm mt-4 uppercase tracking-tighter font-bold leading-relaxed">Recall the mapping and reveal the bilingual meaning</p>
+                    <p class="text-slate-400 text-sm mt-4 font-bold max-w-xl">Deepen your mastery with our bilingual recall technology. Reveal the Kannada meanings and English contexts to solidify memory.</p>
                 </div>
                 <div class="flashcard-container">`;
 
             notes.forEach((item, index) => {
                 const synonyms = (item.meaning_english || "").replace(/_/g, ', ');
                 html += `
-                    <div class="flashcard" id="card-${index}">
-                        <div class="flex flex-col items-center text-center">
-                            <span class="text-6xl mb-6 drop-shadow-md">${item.emoji || '📗'}</span>
-                            <h3 class="text-4xl font-black text-slate-900 tracking-tighter">${item.word}</h3>
-                            <button class="reveal-btn" onclick="revealCard(${index})">Reveal Meaning</button>
-                            <div class="flashcard-answer w-full">
-                                <div class="space-y-4">
-                                    <div class="flex flex-col items-center">
-                                        <p class="text-[10px] font-black text-emerald-600 uppercase tracking-widest mb-2">Kannada Meaning</p>
-                                        <p class="text-4xl font-bold text-slate-900 font-kannada">${item.meaning_kannada || ""}</p>
-                                    </div>
-                                    <div class="pt-4 flex flex-col items-center border-t border-slate-50">
-                                        <p class="text-[10px] font-black text-indigo-400 uppercase tracking-widest mb-2">English Context</p>
-                                        <p class="text-2xl font-medium text-indigo-900 leading-tight">${synonyms}</p>
-                                    </div>
+                    <div class="flashcard group" id="card-${index}">
+                        <div class="w-16 h-16 bg-slate-50 rounded-full flex items-center justify-center text-3xl mb-6 border border-slate-100 group-hover:scale-110 transition-transform">${item.emoji || '📗'}</div>
+                        <h3 class="text-3xl font-black text-slate-900 tracking-tighter mb-2">${item.word}</h3>
+                        <p class="text-[9px] font-bold text-slate-300 uppercase tracking-widest">Active Recall Entry</p>
+                        
+                        <button class="reveal-btn" onclick="revealCard(${index})">Reveal Translation</button>
+                        
+                        <div class="flashcard-answer">
+                            <div class="space-y-6">
+                                <div class="p-4 bg-emerald-50 rounded-2xl border border-emerald-100">
+                                    <p class="text-[8px] font-black text-emerald-600 uppercase tracking-widest mb-1">Kannada Meaning</p>
+                                    <p class="text-2xl font-bold text-slate-900 font-kannada">${item.meaning_kannada || ""}</p>
+                                </div>
+                                <div class="p-4 bg-indigo-50 rounded-2xl border border-indigo-100">
+                                    <p class="text-[8px] font-black text-indigo-600 uppercase tracking-widest mb-1">English Context</p>
+                                    <p class="text-base font-bold text-indigo-900 leading-tight">${synonyms}</p>
                                 </div>
                             </div>
                         </div>
@@ -649,7 +774,7 @@
             });
             
             html += `
-                <div class="p-16 bg-slate-900 rounded-[4rem] text-white text-center shadow-2xl mt-12 relative overflow-hidden group w-full">
+                <div class="col-span-full p-16 bg-slate-900 rounded-[4rem] text-white text-center shadow-2xl mt-12 relative overflow-hidden group w-full">
                     <div class="relative z-10">
                         <h3 class="text-3xl font-black mb-4 tracking-tight">Phase Mastered!</h3>
                         <p class="text-emerald-400 mb-8 text-lg font-bold italic leading-relaxed">"${randomQuote}"</p>
@@ -670,7 +795,7 @@
             container.innerHTML = `
                 <div class="mb-12 view-transition">
                     <button onclick="loadContent()" class="text-slate-400 font-bold flex items-center gap-2 hover:text-indigo-600 transition-colors mb-8 uppercase text-[10px] tracking-widest">← Back to Notes</button>
-                    <span class="px-4 py-1 bg-emerald-50 text-emerald-700 text-[10px] font-black rounded-full uppercase tracking-widest mb-4 inline-block">Interactive Assessment</span>
+                    <span class="px-4 py-1 bg-emerald-50 text-emerald-700 text-[10px] font-black rounded-full uppercase tracking-widest mb-4 inline-block border border-emerald-100">Accuracy Assessment</span>
                     <h2 class="text-4xl font-black text-slate-900 tracking-tighter capitalize">${state.currentTopic} Quiz - Level ${state.currentLevel}</h2>
                 </div>
                 <div id="quiz-list" class="space-y-6"></div>
@@ -712,6 +837,7 @@
             let wrongCount = 0;
             let unattemptedCount = 0;
             let resultHTML = "";
+            let mistakesFound = [];
 
             questions.forEach((q, index) => {
                 const selected = document.querySelector(`input[name="q${index}"]:checked`);
@@ -732,6 +858,13 @@
                         bgColor = "bg-rose-50 border-rose-100";
                         statusText = "Wrong Answer";
                         statusColor = "text-rose-500";
+                        // Prepare for Mistakes Book
+                        mistakesFound.push({
+                            question: q.question,
+                            userAnswer: selected.value,
+                            answer: q.answer,
+                            explanation: q.explanation
+                        });
                     }
                 } else {
                     unattemptedCount++;
@@ -767,15 +900,12 @@
                 `;
             });
 
-            // Engagement Logic:
-            // 1 Correct = +1 Coin
-            // 4 Wrong = -1 Coin
-            const coinsEarned = score; // 1 coin per correct
-            const coinsDeducted = Math.floor(wrongCount / 4); // 1 coin lost per 4 errors
+            const coinsEarned = score; 
+            const coinsDeducted = Math.floor(wrongCount / 4); 
             const levelNetCoins = coinsEarned - coinsDeducted;
-            const pointsEarned = score * 10; // Keep points as primary rank metric
+            const pointsEarned = score * 10;
 
-            await saveResultToCloud(score, questions.length, pointsEarned, levelNetCoins);
+            await saveResultToCloud(score, questions.length, pointsEarned, levelNetCoins, mistakesFound);
 
             const container = document.getElementById("content-container");
             container.innerHTML = `
@@ -784,7 +914,7 @@
                         <div class="flex justify-center gap-6 mb-8">
                             <div class="text-center">
                                 <p class="text-3xl font-black text-emerald-600">🪙 +${coinsEarned}</p>
-                                <p class="text-[9px] font-black text-slate-400 uppercase tracking-widest">From Accuracy</p>
+                                <p class="text-[9px] font-black text-slate-400 uppercase tracking-widest">Accuracy Gains</p>
                             </div>
                             <div class="w-px h-10 bg-slate-100 self-center"></div>
                             <div class="text-center">
@@ -793,7 +923,7 @@
                             </div>
                         </div>
                         
-                        <h2 class="text-4xl font-black text-slate-900 mb-2 tracking-tighter">Level Analysis</h2>
+                        <h2 class="text-4xl font-black text-slate-900 mb-2 tracking-tighter">Performance Analysis</h2>
                         <div class="flex justify-center items-baseline gap-2 mb-10">
                             <span class="text-7xl font-black text-indigo-600 leading-none">${score}</span>
                             <span class="text-2xl font-bold text-slate-300">/ ${questions.length}</span>
@@ -806,13 +936,13 @@
                         </div>
                         
                         <div class="flex flex-col sm:flex-row gap-4 justify-center relative z-10">
-                            <button onclick="loadContent()" class="px-10 py-4 bg-slate-900 text-white font-bold rounded-2xl hover:bg-slate-800 transition-all uppercase tracking-widest text-xs">Review Lesson</button>
-                            <button onclick="navigateTo('levels-grid')" class="px-10 py-4 border-2 border-slate-200 text-slate-600 font-bold rounded-2xl hover:bg-slate-50 transition-all uppercase tracking-widest text-xs">Next Phase</button>
+                            <button onclick="loadContent()" class="px-10 py-4 bg-slate-900 text-white font-bold rounded-2xl hover:bg-slate-800 transition-all uppercase tracking-widest text-xs">Return to Lessons</button>
+                            <button onclick="navigateTo('levels-grid')" class="px-10 py-4 border-2 border-slate-200 text-slate-600 font-bold rounded-2xl hover:bg-slate-50 transition-all uppercase tracking-widest text-xs">Selection Roadmap</button>
                         </div>
                     </div>
                     
                     <div class="mb-20">
-                        <h3 class="text-xl font-black text-slate-900 mb-8 tracking-tight px-4 uppercase tracking-[0.1em]">Bilingual Performance Review</h3>
+                        <h3 class="text-xl font-black text-slate-900 mb-8 tracking-tight px-4 uppercase tracking-[0.1em]">Detailed Mastery Review</h3>
                         ${resultHTML}
                     </div>
                 </div>
@@ -828,16 +958,6 @@
                     <p class="text-slate-500 mb-4 text-sm font-medium">Attempted fetch to:</p>
                     <code class="bg-slate-50 p-3 rounded-xl text-indigo-600 mb-8 block text-[10px] font-bold border border-indigo-50 break-all">${url}</code>
                     <p class="text-slate-400 text-xs mb-8">Status: ${error}. Verify content is uploaded to GitHub.</p>
-                    <div class="bg-amber-50 p-4 rounded-xl border border-amber-100 text-left mb-8">
-                         <p class="text-amber-800 font-bold text-xs uppercase mb-2">Checklist to fix 404:</p>
-                         <ul class="text-[10px] text-amber-700 space-y-1 list-disc pl-4">
-                             <li>Is the folder named <b>vocabulary</b> (lowercase)?</li>
-                             <li>Is the folder named <b>synonyms</b> (lowercase)?</li>
-                             <li>Is the file named <b>level-1.json</b> (hyphen before number)?</li>
-                             <li>Is the test file named <b>level1-test.json</b> (no hyphen before number)?</li>
-                             <li>Did you push the <b>content</b> folder to GitHub?</li>
-                         </ul>
-                    </div>
                     <button onclick="navigateTo('levels-grid')" class="px-10 py-3 bg-indigo-600 text-white font-bold rounded-xl shadow-lg active:scale-95 transition-all">Back to Grid</button>
                 </div>`;
         }
@@ -854,6 +974,7 @@
             state.progress = {};
             state.totalPoints = 0;
             state.totalCoins = 0;
+            state.mistakes = [];
             navigateTo('home'); 
         };
         
@@ -925,6 +1046,7 @@
                 state.isAuthenticated = false;
                 state.userName = '';
                 state.progress = {};
+                state.mistakes = [];
                 render();
             }
         });
