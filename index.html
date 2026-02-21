@@ -36,10 +36,18 @@
         }
 
         /* ANKI CARD FLIP */
+        .anki-card {
+            perspective: 1000px;
+            height: 480px;
+            width: 100%;
+        }
         .anki-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
             transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
             transform-style: preserve-3d;
-            height: 450px;
         }
         .anki-card.flipped .anki-card-inner {
             transform: rotateY(180deg);
@@ -49,14 +57,17 @@
             width: 100%;
             height: 100%;
             backface-visibility: hidden;
-            @apply rounded-[3rem] border-2 p-10 flex flex-col justify-center items-center text-center;
+            @apply rounded-[3.5rem] border-2 p-10 flex flex-col justify-center items-center;
         }
-        .anki-front { @apply border-slate-100 bg-white; }
-        .anki-back { @apply border-indigo-100 bg-indigo-50 rotateY(180deg); transform: rotateY(180deg); }
+        .anki-front { @apply border-slate-100 bg-white shadow-xl shadow-slate-100/50; }
+        .anki-back { 
+            @apply border-indigo-100 bg-indigo-50 shadow-2xl shadow-indigo-100/50;
+            transform: rotateY(180deg);
+        }
 
         /* DRAWER NAVIGATION */
         #drawer {
-            @apply fixed top-0 right-0 h-full w-[320px] bg-white z-[100] shadow-2xl transition-transform duration-500 translate-x-full border-l border-slate-100;
+            @apply fixed top-0 right-0 h-full w-[340px] bg-white z-[100] shadow-2xl transition-transform duration-500 translate-x-full border-l border-slate-100;
         }
         #drawer.open { @apply translate-x-0; }
         .drawer-overlay {
@@ -65,53 +76,77 @@
         .drawer-overlay.open { @apply opacity-100 pointer-events-auto backdrop-blur-sm; }
 
         .font-kannada { line-height: 1.6; }
-        input:focus, textarea:focus { outline: none; border-color: #4338ca; }
         
+        .progress-container {
+            @apply w-full bg-slate-100 h-2 rounded-full overflow-hidden mb-2;
+        }
+        .progress-fill {
+            @apply bg-indigo-600 h-full transition-all duration-1000;
+        }
+
+        @keyframes box-pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        .logo-box { animation: box-pulse 4s ease-in-out infinite; }
+
+        .view-transition { animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+
         .graph-bar { transition: height 1s ease-out; }
     </style>
 </head>
 <body>
 
-    <!-- SIDE DRAWER MENU (Requirement: 3 Dots Menu) -->
+    <!-- SIDE DRAWER MENU (Requirement: Basic Details, Progress, Mistakes, Contact) -->
     <div id="drawer-overlay" class="drawer-overlay" onclick="toggleDrawer()"></div>
     <aside id="drawer">
-        <div class="p-8 h-full flex flex-col">
-            <div class="flex justify-between items-center mb-10">
-                <h3 class="text-xs font-black text-slate-400 uppercase tracking-widest">Aspirant Panel</h3>
+        <div class="p-8 h-full flex flex-col overflow-y-auto">
+            <div class="flex justify-between items-center mb-8">
+                <h3 class="text-xs font-black text-slate-400 uppercase tracking-widest">Aspirant Profile</h3>
                 <button onclick="toggleDrawer()" class="p-2 hover:bg-slate-50 rounded-full">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6L6 18M6 6l12 12"/></svg>
                 </button>
             </div>
 
-            <div id="drawer-profile" class="mb-10 text-center p-6 bg-slate-50 rounded-[2rem] border border-slate-100">
-                <div class="w-16 h-16 bg-indigo-600 text-white rounded-full flex items-center justify-center text-2xl font-black mx-auto mb-4" id="drawer-avatar">?</div>
-                <h4 id="drawer-name" class="font-bold text-slate-900">Guest Aspirant</h4>
-                <p id="drawer-rank" class="text-[10px] font-black text-indigo-600 uppercase tracking-widest mt-1">Level 0</p>
-            </div>
-
-            <nav class="space-y-4 flex-1">
-                <button onclick="navigateTo('home'); toggleDrawer();" class="w-full flex items-center gap-4 p-4 hover:bg-indigo-50 rounded-2xl transition-all group">
-                    <span class="text-xl group-hover:scale-125 transition-transform">🏠</span>
-                    <span class="font-bold text-sm text-slate-600 group-hover:text-indigo-700">Mission Dashboard</span>
-                </button>
-                <button onclick="navigateTo('mistakes-book'); toggleDrawer();" class="w-full flex items-center gap-4 p-4 hover:bg-rose-50 rounded-2xl transition-all group">
-                    <span class="text-xl group-hover:scale-125 transition-transform">📓</span>
-                    <span class="font-bold text-sm text-slate-600 group-hover:text-rose-700">Mistakes Book</span>
-                </button>
-                <button onclick="navigateTo('doubts'); toggleDrawer();" class="w-full flex items-center gap-4 p-4 hover:bg-emerald-50 rounded-2xl transition-all group">
-                    <span class="text-xl group-hover:scale-125 transition-transform">💬</span>
-                    <span class="font-bold text-sm text-slate-600 group-hover:text-emerald-700">Support Hub</span>
-                </button>
-                <div class="h-px bg-slate-100 my-4"></div>
-                <div class="p-4">
-                    <p class="text-[9px] font-black text-slate-400 uppercase tracking-widest mb-4">Quick Stats</p>
-                    <div id="drawer-mini-graph" class="flex items-end gap-1.5 h-12">
-                        <!-- Tiny bars for recent activity -->
+            <!-- Profile & Graph -->
+            <div class="mb-8 p-6 bg-slate-50 rounded-[2.5rem] border border-slate-100 text-center">
+                <div class="w-20 h-20 bg-indigo-600 text-white rounded-full flex items-center justify-center text-3xl font-black mx-auto mb-4 shadow-lg shadow-indigo-100" id="drawer-avatar">?</div>
+                <h4 id="drawer-name" class="font-bold text-lg text-slate-900 leading-tight">Guest</h4>
+                <p id="drawer-rank" class="text-[10px] font-black text-indigo-600 uppercase tracking-widest mt-1 mb-6">Mastery Level 0</p>
+                
+                <div class="text-left mb-6">
+                    <div class="flex justify-between text-[9px] font-black uppercase text-slate-400 mb-2">
+                        <span>Overall Progress</span>
+                        <span id="drawer-percent">0%</span>
+                    </div>
+                    <div class="progress-container">
+                        <div id="drawer-progress-fill" class="progress-fill" style="width: 0%"></div>
                     </div>
                 </div>
+
+                <p class="text-[9px] font-black text-slate-400 uppercase tracking-widest text-left mb-3">Learning Velocity</p>
+                <div id="drawer-velocity" class="flex items-end gap-1.5 h-10">
+                    <!-- Velocity Bars -->
+                </div>
+            </div>
+
+            <nav class="space-y-2 flex-1">
+                <button onclick="navigateTo('home'); toggleDrawer();" class="w-full flex items-center gap-4 p-4 hover:bg-indigo-50 rounded-2xl transition-all group text-left">
+                    <span class="text-xl">🏠</span>
+                    <span class="font-bold text-sm text-slate-600 group-hover:text-indigo-700">Dashboard</span>
+                </button>
+                <button onclick="navigateTo('mistakes-book'); toggleDrawer();" class="w-full flex items-center gap-4 p-4 hover:bg-rose-50 rounded-2xl transition-all group text-left">
+                    <span class="text-xl">📓</span>
+                    <span class="font-bold text-sm text-slate-600 group-hover:text-rose-700">Mistakes Book</span>
+                </button>
+                <button onclick="navigateTo('doubts'); toggleDrawer();" class="w-full flex items-center gap-4 p-4 hover:bg-emerald-50 rounded-2xl transition-all group text-left">
+                    <span class="text-xl">💬</span>
+                    <span class="font-bold text-sm text-slate-600 group-hover:text-emerald-700">Contact Support</span>
+                </button>
             </nav>
 
-            <button onclick="handleLogout()" class="w-full py-4 text-xs font-black text-rose-500 uppercase tracking-widest border-2 border-rose-50 rounded-2xl hover:bg-rose-50 transition-all">Sign Out</button>
+            <button onclick="handleLogout()" class="w-full py-4 text-xs font-black text-rose-500 uppercase tracking-widest border-2 border-rose-50 rounded-2xl hover:bg-rose-50 transition-all mt-6">Sign Out</button>
         </div>
     </aside>
 
@@ -122,15 +157,12 @@
                 <div class="relative flex items-center justify-center logo-box">
                     <svg width="36" height="36" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="10" fill="#4338ca"/><path d="M15 28V12H21.5C24.5376 12 27 14.4624 27 17.5C27 20.5376 24.5376 23 21.5 23H15" stroke="white" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </div>
-                <span class="text-lg font-black tracking-tighter uppercase">PrepEase</span>
+                <span class="text-lg font-black tracking-tighter uppercase hidden sm:block">PrepEase</span>
             </div>
             
-            <div class="flex items-center gap-4">
-                <div id="notif-badge" class="hidden relative cursor-pointer" onclick="navigateTo('doubts')">
-                    <span class="absolute -top-1 -right-1 w-2.5 h-2.5 bg-rose-500 rounded-full border-2 border-white animate-pulse"></span>
-                    <span class="text-xl">🔔</span>
-                </div>
-                <button onclick="toggleDrawer()" class="p-3 hover:bg-slate-50 rounded-2xl transition-all">
+            <div class="flex items-center gap-3">
+                <button onclick="toggleDrawer()" class="p-3 hover:bg-slate-50 rounded-2xl transition-all flex items-center gap-2">
+                    <span class="text-[10px] font-black uppercase text-slate-400 mr-2 tracking-widest hidden md:block">Aspirant Menu</span>
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/></svg>
                 </button>
             </div>
@@ -171,7 +203,6 @@
             userId: null,
             progress: {},
             mistakes: [],
-            queries: [],
             totalPoints: 0,
             totalCoins: 0,
             authMode: 'login',
@@ -192,16 +223,20 @@
             ]
         };
 
-        // --- UI HELPERS ---
+        const quotes = [
+            "Consistency is the key to Selection. 🎯",
+            "Mastering English is half the battle won. 🇬🇧",
+            "Focus on the mission, not the competition. ⚔️"
+        ];
+
+        // --- NAVIGATION & DRAWER ---
         window.toggleDrawer = () => {
-            const drawer = document.getElementById('drawer');
-            const overlay = document.getElementById('drawer-overlay');
-            drawer.classList.toggle('open');
-            overlay.classList.toggle('open');
+            document.getElementById('drawer').classList.toggle('open');
+            document.getElementById('drawer-overlay').classList.toggle('open');
         };
 
         window.navigateTo = (view, params = {}) => {
-            const protectedViews = ['english-selection', 'topics-grid', 'levels-grid', 'content-view', 'mistakes-book', 'doubts'];
+            const protectedViews = ['english-selection', 'topics-grid', 'levels-grid', 'content-view', 'mistakes-book', 'doubts', 'exams-pyq'];
             if (protectedViews.includes(view) && !state.isAuthenticated) {
                 state.view = 'login';
             } else {
@@ -212,10 +247,9 @@
             window.scrollTo({ top: 0, behavior: 'smooth' });
         };
 
-        function getMasteryRank(points) {
-            if (points < 500) return { title: 'Junior Aspirant', icon: '🌱' };
-            if (points < 2000) return { title: 'Selection Warrior', icon: '⚔️' };
-            return { title: 'Officer Probationer', icon: '🏛️' };
+        function getBaseDir() {
+            const path = window.location.pathname;
+            return path.substring(0, path.lastIndexOf('/') + 1) || '/';
         }
 
         // --- FIREBASE DATA FLOW ---
@@ -223,18 +257,18 @@
             if (!auth.currentUser) return;
             state.userId = auth.currentUser.uid;
 
-            // Profile
+            // Profile info
             const profileRef = doc(db, 'artifacts', appId, 'users', state.userId, 'profile', 'info');
             const profileSnap = await getDoc(profileRef);
             if (profileSnap.exists()) {
                 state.userName = profileSnap.data().name;
                 state.isAuthenticated = true;
+                updateDrawerUI();
             }
 
-            // Progress & Stats
+            // Progress Snapshot
             onSnapshot(collection(db, 'artifacts', appId, 'users', state.userId, 'progress'), (snap) => {
-                state.progress = {};
-                state.totalPoints = 0; state.totalCoins = 0;
+                state.progress = {}; state.totalPoints = 0; state.totalCoins = 0;
                 snap.forEach(doc => {
                     const d = doc.data();
                     state.progress[doc.id] = d;
@@ -242,51 +276,44 @@
                     state.totalCoins += (d.coins || 0);
                 });
                 updateDrawerUI();
-                render();
-            });
-
-            // Mistakes Book (Anki Style)
-            onSnapshot(collection(db, 'artifacts', appId, 'users', state.userId, 'mistakes'), (snap) => {
-                state.mistakes = [];
-                snap.forEach(doc => state.mistakes.push({ id: doc.id, ...doc.data() }));
                 if (state.view === 'home') render();
             });
 
-            // Doubts & Notifications
-            onSnapshot(collection(db, 'artifacts', appId, 'users', state.userId, 'queries'), (snap) => {
-                state.queries = [];
-                let hasUnread = false;
-                snap.forEach(doc => {
-                    const d = doc.data();
-                    state.queries.push({ id: doc.id, ...d });
-                    if (d.reply && !d.read) hasUnread = true;
-                });
-                document.getElementById('notif-badge').classList.toggle('hidden', !hasUnread);
-                if (state.view === 'doubts') render();
+            // Mistakes Snapshot (Anki Shuffled)
+            onSnapshot(collection(db, 'artifacts', appId, 'users', state.userId, 'mistakes'), (snap) => {
+                state.mistakes = [];
+                snap.forEach(doc => state.mistakes.push({ id: doc.id, ...doc.data() }));
+                state.mistakes = state.mistakes.sort(() => Math.random() - 0.5);
+                if (state.view === 'home' || state.view === 'mistakes-book') render();
             });
         }
 
         function updateDrawerUI() {
             const nameEl = document.getElementById('drawer-name');
-            const rankEl = document.getElementById('drawer-rank');
             const avatarEl = document.getElementById('drawer-avatar');
-            const graphEl = document.getElementById('drawer-mini-graph');
+            const fillEl = document.getElementById('drawer-progress-fill');
+            const pctEl = document.getElementById('drawer-percent');
+            const velocityEl = document.getElementById('drawer-velocity');
 
             if (state.userName) {
                 nameEl.innerText = state.userName;
                 avatarEl.innerText = state.userName[0].toUpperCase();
-                const rank = getMasteryRank(state.totalPoints);
-                rankEl.innerText = `${rank.icon} ${rank.title}`;
+                
+                const totalLevels = 10 * (topicsData.grammar.length + topicsData.vocabulary.length);
+                const doneCount = Object.keys(state.progress).length;
+                const percent = Math.round((doneCount / totalLevels) * 100);
+                
+                fillEl.style.width = `${percent}%`;
+                pctEl.innerText = `${percent}%`;
 
-                // Mini velocity bars
-                const stats = Object.values(state.progress).sort((a,b) => new Date(b.completedAt) - new Date(a.completedAt)).slice(0, 7);
-                graphEl.innerHTML = stats.map(s => `
+                const recent = Object.values(state.progress).sort((a,b) => new Date(b.completedAt) - new Date(a.completedAt)).slice(0, 7);
+                velocityEl.innerHTML = recent.map(s => `
                     <div class="flex-1 bg-indigo-600 rounded-sm" style="height: ${(s.score/s.total)*100}%"></div>
                 `).join('');
             }
         }
 
-        // --- RENDER LOGIC ---
+        // --- RENDER VIEWS ---
         function render() {
             const shell = document.getElementById('app-shell');
             switch(state.view) {
@@ -297,62 +324,74 @@
                 case 'english-selection': shell.innerHTML = renderEnglishSelection(); break;
                 case 'topics-grid': shell.innerHTML = renderTopicsGrid(); break;
                 case 'levels-grid': shell.innerHTML = renderLevelsGrid(); break;
-                case 'content-view': shell.innerHTML = renderContentView(); loadContent(); break;
+                case 'exams-pyq': shell.innerHTML = renderExamsPYQ(); break;
+                case 'content-view': shell.innerHTML = `<div id="content-container" class="max-w-6xl mx-auto px-6 py-20"></div>`; loadContent(); break;
             }
         }
 
         function renderHome() {
+            const rank = (p) => p < 500 ? '🌱 Junior Aspirant' : p < 2000 ? '⚔️ Warrior' : '🏛️ Officer';
             return `
                 <div class="hero-gradient p-10 view-transition">
                     <div class="max-w-7xl mx-auto">
                         <div class="mb-12">
-                            <h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-4">Mission Dashboard</h2>
+                            <h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-8 leading-tight">Selection <span class="text-indigo-600">Dashboard</span></h2>
                             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                                <div class="bg-indigo-600 p-8 rounded-[2.5rem] text-white flex flex-col justify-between">
-                                    <p class="text-[10px] font-black uppercase tracking-widest opacity-60">Mastery Score</p>
+                                <div class="bg-indigo-600 p-8 rounded-[3rem] text-white shadow-2xl shadow-indigo-200">
+                                    <p class="text-[10px] font-black uppercase tracking-widest opacity-60 text-white/50">Total Mastery</p>
                                     <p class="text-5xl font-black my-4">${state.totalPoints}</p>
                                     <div class="flex gap-4">
-                                        <div class="bg-white/10 px-3 py-1.5 rounded-xl text-[10px] font-bold">🪙 ${state.totalCoins} Coins</div>
-                                        <div class="bg-white/10 px-3 py-1.5 rounded-xl text-[10px] font-bold">🎯 Rank: ${getMasteryRank(state.totalPoints).title}</div>
+                                        <div class="bg-white/10 px-3 py-1.5 rounded-xl text-[10px] font-bold uppercase tracking-widest">🪙 ${state.totalCoins} Coins</div>
+                                        <div class="bg-white/10 px-3 py-1.5 rounded-xl text-[10px] font-bold uppercase tracking-widest">${rank(state.totalPoints)}</div>
                                     </div>
                                 </div>
-                                <div onclick="navigateTo('mistakes-book')" class="bg-white border-2 border-rose-100 p-8 rounded-[2.5rem] flex flex-col justify-between cursor-pointer hover:shadow-xl transition-all">
-                                    <p class="text-[10px] font-black uppercase tracking-widest text-rose-400">Errors to Resolve</p>
+                                <div onclick="navigateTo('mistakes-book')" class="bg-white border border-slate-100 p-8 rounded-[3rem] shadow-sm hover:shadow-xl transition-all cursor-pointer">
+                                    <p class="text-[10px] font-black uppercase tracking-widest text-rose-400">Errors Book</p>
                                     <p class="text-5xl font-black my-4 text-slate-900">${state.mistakes.length}</p>
                                     <span class="text-rose-500 text-xs font-bold uppercase tracking-widest">Anki Session ➜</span>
                                 </div>
-                                <div onclick="navigateTo('doubts')" class="bg-white border-2 border-emerald-100 p-8 rounded-[2.5rem] flex flex-col justify-between cursor-pointer hover:shadow-xl transition-all">
+                                <div onclick="navigateTo('doubts')" class="bg-white border border-slate-100 p-8 rounded-[3rem] shadow-sm hover:shadow-xl transition-all cursor-pointer">
                                     <p class="text-[10px] font-black uppercase tracking-widest text-emerald-500">Mentorship</p>
-                                    <p class="text-xs font-medium text-slate-500 my-4 leading-relaxed">Have a doubt? Post your query directly to your mentor.</p>
-                                    <span class="text-emerald-600 text-xs font-bold uppercase tracking-widest">Support Hub ➜</span>
+                                    <p class="text-xs font-medium text-slate-500 my-4 leading-relaxed italic">"Doubt is the start of wisdom." Message our mentors.</p>
+                                    <span class="text-emerald-600 text-xs font-bold uppercase tracking-widest">Mentor Sync ➜</span>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                            <div onclick="navigateTo('english-selection')" class="premium-card bg-white group">
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                            <div onclick="navigateTo('english-selection')" class="premium-card group">
                                 <div class="w-14 h-14 bg-indigo-50 text-indigo-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:bg-indigo-600 group-hover:text-white transition-all">🇬🇧</div>
-                                <h3 class="text-2xl font-bold text-slate-900 mb-2">General English</h3>
-                                <p class="text-slate-500 text-sm mb-6">Complete roadmap for SSC & KPSC English mastery.</p>
+                                <h3 class="text-xl font-bold text-slate-900 mb-2 font-bold">General English</h3>
+                                <p class="text-slate-500 text-xs leading-relaxed">Levels 1-10 comprehensive curriculum.</p>
                             </div>
-                            <div onclick="navigateTo('mistakes-book')" class="premium-card bg-white group">
+                            <div onclick="navigateTo('mistakes-book')" class="premium-card group">
                                 <div class="w-14 h-14 bg-rose-50 text-rose-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:bg-rose-600 group-hover:text-white transition-all">📓</div>
-                                <h3 class="text-2xl font-bold text-slate-900 mb-2">Mistakes Book</h3>
-                                <p class="text-slate-500 text-sm mb-6">Anki-based smart revision system for your errors.</p>
+                                <h3 class="text-xl font-bold text-slate-900 mb-2 font-bold">Mistakes Book</h3>
+                                <p class="text-slate-500 text-xs leading-relaxed">Spaced repetition for your personal logic errors.</p>
+                            </div>
+                            <div onclick="navigateTo('exams-pyq', { currentCategory: 'karnataka' })" class="premium-card group">
+                                <div class="w-14 h-14 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:bg-emerald-600 group-hover:text-white transition-all">🏛️</div>
+                                <h3 class="text-xl font-bold text-slate-900 mb-2 font-bold">KPSC Selection</h3>
+                                <p class="text-slate-500 text-xs leading-relaxed">Archives for FDA, SDA and PSI exams.</p>
+                            </div>
+                            <div onclick="navigateTo('exams-pyq', { currentCategory: 'ssc' })" class="premium-card group">
+                                <div class="w-14 h-14 bg-amber-50 text-amber-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:bg-amber-600 group-hover:text-white transition-all">⚔️</div>
+                                <h3 class="text-xl font-bold text-slate-900 mb-2 font-bold">SSC Central</h3>
+                                <p class="text-slate-500 text-xs leading-relaxed">CGL, CHSL and MTS recruitment track.</p>
                             </div>
                         </div>
                     </div>
                 </div>`;
         }
 
-        // --- ANKI MISTAKES LOGIC (Requirement: Shuffling, Mastery count 5) ---
+        // --- ANKI MISTAKES LOGIC ---
         function renderMistakesBook() {
             if (state.mistakes.length === 0) {
                 return `<div class="max-w-xl mx-auto py-40 text-center view-transition">
-                    <div class="text-6xl mb-6">✨</div>
-                    <h3 class="text-2xl font-black text-slate-900 mb-2">Clean Slate!</h3>
-                    <p class="text-slate-500 mb-10">Your mistakes book is empty. All errors mastered.</p>
-                    <button onclick="navigateTo('home')" class="px-10 py-4 bg-indigo-600 text-white font-bold rounded-2xl">Return Home</button>
+                    <div class="text-6xl mb-6 text-indigo-600">💎</div>
+                    <h3 class="text-2xl font-black text-slate-900 mb-2">Error Log Mastered</h3>
+                    <p class="text-slate-500 mb-10">You have zero recorded mistakes. Keep the accuracy high!</p>
+                    <button onclick="navigateTo('home')" class="px-10 py-4 bg-indigo-600 text-white font-bold rounded-2xl shadow-xl">Return to Dashboard</button>
                 </div>`;
             }
 
@@ -362,141 +401,91 @@
             return `
                 <div class="max-w-2xl mx-auto py-20 px-6 view-transition">
                     <div class="flex justify-between items-center mb-10">
-                        <h2 class="text-xl font-black text-slate-900 uppercase tracking-tighter">Mistakes Anki Deck</h2>
-                        <span class="text-[10px] font-black bg-slate-900 text-white px-3 py-1 rounded-full">${state.currentAnkiIndex + 1} / ${state.mistakes.length}</span>
+                        <h2 class="text-xl font-black text-slate-900 uppercase tracking-widest">Error Anki Session</h2>
+                        <span class="text-[10px] font-black bg-slate-900 text-white px-4 py-1.5 rounded-full">Entry ${state.currentAnkiIndex + 1} / ${state.mistakes.length}</span>
                     </div>
 
                     <div class="anki-card ${flippedClass} cursor-pointer" onclick="flipAnki()">
                         <div class="anki-card-inner">
-                            <!-- FRONT: Question -->
-                            <div class="anki-front shadow-xl shadow-slate-100">
-                                <span class="px-3 py-1 bg-rose-50 text-rose-600 rounded-full text-[9px] font-black uppercase mb-8">Recall Required</span>
+                            <div class="anki-front">
+                                <span class="px-3 py-1 bg-rose-50 text-rose-600 rounded-full text-[9px] font-black uppercase mb-8">Active Recall Required</span>
                                 <h3 class="text-2xl font-bold text-slate-900 leading-relaxed">"${current.question}"</h3>
-                                <p class="mt-10 text-slate-300 text-[10px] font-bold uppercase tracking-widest animate-pulse">Click to Reveal Solution</p>
+                                <p class="mt-12 text-slate-300 text-[10px] font-black uppercase tracking-widest animate-pulse italic">Click card to reveal solution</p>
                             </div>
-                            <!-- BACK: Explanation -->
-                            <div class="anki-back shadow-2xl shadow-indigo-100">
-                                <p class="text-[9px] font-black text-indigo-400 uppercase tracking-widest mb-4">Mastery Explanation</p>
-                                <div class="bg-white/60 p-6 rounded-3xl mb-6 w-full border border-indigo-100/50">
+                            <div class="anki-back">
+                                <p class="text-[9px] font-black text-indigo-400 uppercase tracking-widest mb-6">Mastery Insight</p>
+                                <div class="bg-white/60 p-6 rounded-[2.5rem] mb-6 w-full border border-indigo-100">
                                     <p class="text-xs font-black text-emerald-600 uppercase mb-2">Correct Answer</p>
-                                    <p class="text-xl font-bold text-slate-900 font-kannada">${current.answer}</p>
+                                    <p class="text-2xl font-bold text-slate-900 font-kannada">${current.answer}</p>
                                 </div>
-                                <p class="text-sm text-indigo-900 font-medium leading-relaxed italic">"${current.explanation || 'Master this mapping to improve selection probability.'}"</p>
+                                <p class="text-sm text-indigo-900 font-medium leading-relaxed italic">"${current.explanation || 'Master this logic to build precision.'}"</p>
                                 
                                 <div class="mt-10 flex gap-4 w-full" onclick="event.stopPropagation()">
-                                    <button onclick="ankiResult(false)" class="flex-1 py-4 bg-rose-500 text-white font-black rounded-2xl text-[10px] uppercase shadow-lg shadow-rose-200 transition-all active:scale-95">Still Unsure</button>
-                                    <button onclick="ankiResult(true)" class="flex-1 py-4 bg-emerald-500 text-white font-black rounded-2xl text-[10px] uppercase shadow-lg shadow-emerald-200 transition-all active:scale-95">Got it!</button>
+                                    <button onclick="resolveAnki(false)" class="flex-1 py-4 bg-rose-500 text-white font-black rounded-2xl text-[10px] uppercase">Review Again</button>
+                                    <button onclick="resolveAnki(true)" class="flex-1 py-4 bg-emerald-500 text-white font-black rounded-2xl text-[10px] uppercase">Got it!</button>
                                 </div>
-                                <p class="mt-4 text-[9px] font-black text-slate-400 uppercase tracking-widest">Mastery Level: ${current.masteryCount || 0}/5</p>
+                                <p class="mt-4 text-[9px] font-black text-slate-400 uppercase tracking-widest">Mastery Count: ${current.masteryCount || 0}/5</p>
                             </div>
                         </div>
                     </div>
-
-                    <p class="text-center mt-12 text-slate-400 text-xs font-medium">Answer correctly 5 times to permanently remove an error from this book.</p>
-                </div>
-            `;
+                </div>`;
         }
 
-        window.flipAnki = () => {
-            state.isAnkiFlipped = true;
-            render();
-        };
+        window.flipAnki = () => { state.isAnkiFlipped = true; render(); };
 
-        window.ankiResult = async (correct) => {
+        window.resolveAnki = async (correct) => {
             const current = state.mistakes[state.currentAnkiIndex];
             const mRef = doc(db, 'artifacts', appId, 'users', state.userId, 'mistakes', current.id);
-            
             if (correct) {
-                const newCount = (current.masteryCount || 0) + 1;
-                if (newCount >= 5) {
-                    await deleteDoc(mRef);
-                } else {
-                    await updateDoc(mRef, { masteryCount: newCount });
-                }
+                const count = (current.masteryCount || 0) + 1;
+                if (count >= 5) await deleteDoc(mRef);
+                else await updateDoc(mRef, { masteryCount: count });
             } else {
                 await updateDoc(mRef, { masteryCount: 0 }); // Reset on fail
             }
-
             state.isAnkiFlipped = false;
             state.currentAnkiIndex = (state.currentAnkiIndex + 1) % state.mistakes.length;
             render();
         };
 
-        // --- SUPPORT HUB (Requirement: Internal queries, notifications) ---
+        // --- SIMPLIFIED DOUBTS (WhatsApp Link) ---
         function renderDoubts() {
             return `
-                <div class="max-w-4xl mx-auto py-16 px-6 view-transition">
-                    <h2 class="text-3xl font-black text-slate-900 tracking-tighter mb-10">Support Hub</h2>
+                <div class="max-w-4xl mx-auto py-24 px-6 text-center view-transition">
+                    <div class="w-24 h-24 bg-emerald-50 text-emerald-600 rounded-[2.5rem] flex items-center justify-center text-4xl mx-auto mb-10 shadow-lg shadow-emerald-100">💡</div>
+                    <h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-4">Mentor Support Hub</h2>
+                    <p class="text-slate-500 mb-16 max-w-xl mx-auto font-medium leading-relaxed">Direct mentor access for FDA, SDA and SSC aspirants. Submit your question below.</p>
                     
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
-                        <div class="space-y-6">
-                            <h3 class="text-xs font-black text-slate-400 uppercase tracking-widest">New Query</h3>
-                            <div class="bg-white p-8 rounded-[2.5rem] border border-slate-100 shadow-sm">
-                                <textarea id="query-text" placeholder="Explain your doubt here..." class="w-full h-32 bg-slate-50 border-2 border-slate-50 p-6 rounded-3xl font-medium mb-6 resize-none transition-all"></textarea>
-                                <button onclick="sendQuery()" id="query-btn" class="w-full py-4 bg-indigo-600 text-white font-black rounded-2xl shadow-xl uppercase tracking-widest text-[10px]">Submit Query</button>
-                            </div>
-                        </div>
-
-                        <div class="space-y-6">
-                            <h3 class="text-xs font-black text-slate-400 uppercase tracking-widest">Notification History</h3>
-                            <div class="space-y-4">
-                                ${state.queries.length === 0 ? `<p class="text-slate-400 italic text-xs">No notifications yet.</p>` : 
-                                  state.queries.sort((a,b) => new Date(b.sentAt) - new Date(a.sentAt)).map(q => `
-                                    <div class="bg-white p-6 rounded-3xl border ${q.reply && !q.read ? 'border-emerald-200 bg-emerald-50/20' : 'border-slate-100'} shadow-sm">
-                                        <p class="text-[10px] font-black text-slate-400 uppercase mb-2">${new Date(q.sentAt).toLocaleDateString()}</p>
-                                        <p class="text-xs font-bold text-slate-800 mb-4 truncate italic">"${q.text}"</p>
-                                        ${q.reply ? `
-                                            <div class="p-4 bg-white border border-emerald-100 rounded-2xl">
-                                                <p class="text-[8px] font-black text-emerald-600 uppercase mb-1">Mentor Reply</p>
-                                                <p class="text-xs text-slate-600 font-medium leading-relaxed">${q.reply}</p>
-                                            </div>
-                                        ` : `
-                                            <div class="flex items-center gap-2 text-indigo-400 text-[10px] font-black uppercase">
-                                                <span class="w-1.5 h-1.5 bg-indigo-600 rounded-full animate-pulse"></span>
-                                                Awaiting Response
-                                            </div>
-                                        `}
-                                    </div>
-                                `).join('')}
-                            </div>
-                        </div>
+                    <div class="bg-white border border-slate-100 p-10 rounded-[3.5rem] shadow-sm max-w-2xl mx-auto text-left">
+                        <h4 class="text-xs font-black text-slate-400 uppercase tracking-widest mb-6">New Inquiry</h4>
+                        <textarea id="query-text" placeholder="Explain the specific grammar rule or word synonym logic you need help with..." class="w-full h-40 bg-slate-50 border-2 border-slate-50 p-6 rounded-3xl font-medium mb-8 resize-none focus:bg-white transition-all"></textarea>
+                        <button onclick="askDoubtOnWA()" class="w-full py-5 bg-emerald-600 text-white font-black rounded-2xl shadow-xl uppercase tracking-widest text-[10px]">Launch WhatsApp Sync</button>
                     </div>
-                </div>
-            `;
+
+                    <button onclick="navigateTo('home')" class="mt-20 py-5 px-10 bg-slate-900 text-white font-black rounded-[2rem] hover:bg-slate-800 transition-all uppercase tracking-widest text-[10px]">Return to mission</button>
+                </div>`;
         }
 
-        window.sendQuery = async () => {
-            const text = document.getElementById('query-text').value;
-            if (!text.trim()) return;
-            
-            const btn = document.getElementById('query-btn');
-            btn.disabled = true; btn.innerText = "Transmitting...";
-
-            try {
-                await addDoc(collection(db, 'artifacts', appId, 'users', state.userId, 'queries'), {
-                    text: text,
-                    sentAt: new Date().toISOString(),
-                    read: false,
-                    reply: null
-                });
-                document.getElementById('query-text').value = '';
-                alert("Query received by mentors. Check notifications for a reply.");
-            } catch (e) { console.error(e); }
-            
-            btn.disabled = false; btn.innerText = "Submit Query";
+        window.askDoubtOnWA = function() {
+            const input = document.getElementById('query-text');
+            const userMsg = input.value.trim();
+            const name = state.userName || 'Aspirant';
+            const text = encodeURIComponent(`Mastery Hub Support Inquiry\nAspirant: ${name}\n\nDoubt: ${userMsg || "I need clarification on my English curriculum studies."}`);
+            window.open(`https://wa.me/918088165696?text=${text}`, '_blank');
+            input.value = '';
         };
 
-        // --- AUTH & MISC ---
+        // --- AUTH & LOGIN ---
         function renderLogin() {
             const isLogin = state.authMode === 'login';
-            return `<div class="max-w-md mx-auto py-24 px-6 view-transition text-center">
-                <h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-10">${isLogin ? 'Mission Login' : 'Enroll Now'}</h2>
-                <form id="login-form" class="bg-white border border-slate-200 p-10 rounded-[3rem] text-left">
-                    ${!isLogin ? `<label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">Display Name</label><input id="name-input" type="text" class="w-full px-5 py-4 bg-slate-50 rounded-2xl font-bold mb-6" required>` : ''}
-                    <label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">Username</label><input id="username-input" type="text" class="w-full px-5 py-4 bg-slate-50 rounded-2xl font-bold mb-6" required>
-                    <label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">Password</label><input id="password-input" type="password" class="w-full px-5 py-4 bg-slate-50 rounded-2xl font-bold mb-8" required>
-                    <button type="submit" id="login-btn" class="w-full py-4 bg-indigo-600 text-white font-black rounded-2xl shadow-xl uppercase text-xs">${isLogin ? 'Enter Hub' : 'Enroll'}</button>
-                    <button type="button" onclick="state.authMode = '${isLogin ? 'signup' : 'login'}'; render();" class="mt-6 w-full text-indigo-600 font-bold text-xs hover:underline">${isLogin ? 'New Aspirant? Create ID' : 'Already have ID? Login'}</button>
+            return `<div class="max-w-md mx-auto py-32 px-6 view-transition text-center">
+                <h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-10">${isLogin ? 'Mission Login' : 'Join Academy'}</h2>
+                <form id="login-form" class="bg-white border border-slate-200 p-10 rounded-[3rem] shadow-sm text-left">
+                    ${!isLogin ? `<label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3">Full Name</label><input id="name-input" type="text" placeholder="John Doe" class="w-full px-5 py-4 bg-slate-50 border-2 border-slate-50 rounded-2xl font-bold mb-6 focus:bg-white" required>` : ''}
+                    <label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3">Aspirant ID (Username)</label><input id="username-input" type="text" placeholder="username" class="w-full px-5 py-4 bg-slate-50 border-2 border-slate-50 rounded-2xl font-bold mb-6 focus:bg-white" required>
+                    <label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3">Mastery Password</label><input id="password-input" type="password" placeholder="••••••••" class="w-full px-5 py-4 bg-slate-50 border-2 border-slate-50 rounded-2xl font-bold mb-10 focus:bg-white" required>
+                    <button type="submit" id="login-btn" class="w-full py-5 bg-indigo-600 text-white font-black rounded-2xl shadow-xl uppercase text-xs">Enter Hub</button>
+                    <button type="button" onclick="state.authMode = '${isLogin ? 'signup' : 'login'}'; render();" class="mt-8 w-full text-indigo-600 font-bold text-xs hover:underline">${isLogin ? "New Aspirant? Create ID" : "Already have ID? Log In"}</button>
                 </form>
             </div>`;
         }
@@ -507,61 +496,179 @@
             const passIn = document.getElementById('password-input').value;
             const isSignUp = state.authMode === 'signup';
             const email = `${userIn.toLowerCase()}@prepease.internal`;
-
             try {
                 if (isSignUp) {
                     const name = document.getElementById('name-input').value;
                     const res = await createUserWithEmailAndPassword(auth, email, passIn);
                     await setDoc(doc(db, 'artifacts', appId, 'users', res.user.uid, 'profile', 'info'), { name, joinedAt: new Date().toISOString() });
-                } else {
-                    await signInWithEmailAndPassword(auth, email, passIn);
-                }
+                } else { await signInWithEmailAndPassword(auth, email, passIn); }
                 navigateTo('home');
-            } catch (e) { alert(e.message); }
+            } catch (e) { alert("Authorization Denied."); }
         }
 
         window.handleLogout = async () => { await signOut(auth); state.isAuthenticated = false; navigateTo('home'); };
 
-        // Rest of navigation (English Select, Topics, Levels, Content) logic remains consistent with earlier successful implementations...
-        // [Omitting repeated static HTML templates for brevity, but they are fully functional in the bundle]
+        // --- CONTENT HELPERS ---
+        function renderEnglishSelection() {
+            return `<div class="max-w-7xl mx-auto px-6 py-20 view-transition text-center">
+                <button onclick="navigateTo('home')" class="text-slate-400 font-bold mb-8 flex items-center justify-center gap-2 hover:text-indigo-600 transition-colors mx-auto uppercase text-xs tracking-widest">← Dashboard</button>
+                <h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-12">English <span class="text-indigo-600">Track</span></h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-10 text-left">
+                    <div onclick="navigateTo('topics-grid', { currentType: 'grammar' })" class="premium-card group">
+                        <span class="px-3 py-1 bg-indigo-50 text-indigo-700 text-[9px] font-black rounded-full uppercase tracking-widest mb-6 inline-block border border-indigo-100">Rule Logic</span>
+                        <h3 class="text-3xl font-black mb-4 tracking-tight">English Grammar</h3>
+                        <p class="text-slate-500 mb-8 leading-relaxed">Systematic mastery of grammatical foundations for SSC & KPSC.</p>
+                        <span class="text-indigo-600 font-bold text-sm uppercase tracking-widest">Open Units ➜</span>
+                    </div>
+                    <div onclick="navigateTo('topics-grid', { currentType: 'vocabulary' })" class="premium-card group">
+                        <span class="px-3 py-1 bg-emerald-50 text-emerald-700 text-[9px] font-black rounded-full uppercase tracking-widest mb-6 inline-block border border-emerald-100">Bilingual Recall</span>
+                        <h3 class="text-3xl font-black mb-4 tracking-tight">Vocabulary Hub</h3>
+                        <p class="text-slate-500 mb-8 leading-relaxed">Bilingual mappings for high-frequency synonyms and idioms.</p>
+                        <span class="text-emerald-600 font-bold text-sm uppercase tracking-widest">Open Units ➜</span>
+                    </div>
+                </div>
+            </div>`;
+        }
 
-        window.loadContent = async function() {
+        function renderTopicsGrid() {
+            const topics = topicsData[state.currentType];
+            return `<div class="max-w-7xl mx-auto px-6 py-20 view-transition text-center">
+                <button onclick="navigateTo('english-selection')" class="text-slate-400 font-bold mb-8 flex items-center justify-center gap-2 hover:text-indigo-600 transition-colors mx-auto uppercase text-xs tracking-widest">← Back</button>
+                <h2 class="text-4xl font-black text-slate-900 tracking-tighter capitalize mb-12">${state.currentType} Mastery</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
+                    ${topics.map(t => `
+                        <div onclick="navigateTo('levels-grid', { currentTopic: '${t.id}', currentTopicTitle: '${t.title}' })" class="premium-card p-10 group">
+                            <div class="text-5xl mb-8 group-hover:scale-125 transition-all duration-500">${t.icon}</div>
+                            <h3 class="text-xl font-bold text-slate-900 mb-4 tracking-tight font-bold">${t.title}</h3>
+                            <p class="text-[9px] font-bold text-slate-400 uppercase tracking-widest">Phases 1-10 Active</p>
+                        </div>
+                    `).join('')}
+                </div>
+            </div>`;
+        }
+
+        function renderLevelsGrid() {
+            return `<div class="max-w-7xl mx-auto px-6 py-20 view-transition text-center">
+                <button onclick="navigateTo('topics-grid')" class="text-slate-400 font-bold mb-8 flex items-center justify-center gap-2 hover:text-indigo-600 transition-colors mx-auto uppercase text-xs tracking-widest">← Back</button>
+                <h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-16">${state.currentTopicTitle} Phases</h2>
+                <div class="grid grid-cols-2 md:grid-cols-5 gap-6">
+                    ${Array.from({length: 10}, (_, i) => i + 1).map(lv => {
+                        const progressId = `${state.currentType}_${state.currentTopic}_${lv}`;
+                        const isDone = state.progress[progressId];
+                        return `<div onclick="navigateTo('content-view', { currentLevel: ${lv} })" 
+                            class="p-10 border-2 ${isDone ? 'border-emerald-500 bg-emerald-50/30' : 'border-slate-100 bg-white'} rounded-[3rem] text-center hover:border-indigo-600 transition-all cursor-pointer group shadow-sm relative">
+                            ${isDone ? `<span class="absolute top-4 right-4 text-emerald-600 text-[8px] font-black bg-emerald-100 px-2 py-0.5 rounded-full uppercase">DONE</span>` : ''}
+                            <span class="text-4xl font-black text-slate-900">${lv}</span>
+                        </div>`;
+                    }).join('')}
+                </div>
+            </div>`;
+        }
+
+        function renderExamsPYQ() {
+            return `<div class="max-w-7xl mx-auto px-6 py-20 view-transition text-center">
+                <button onclick="navigateTo('home')" class="text-slate-400 font-bold mb-8 flex items-center justify-center gap-2 hover:text-indigo-600 transition-colors mx-auto uppercase text-xs tracking-widest">← Dashboard</button>
+                <h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-12 capitalize">${state.currentCategory} Regional Hub</h2>
+                <div class="bg-white border border-slate-100 p-20 rounded-[4rem] text-center shadow-sm">
+                    <div class="text-6xl mb-6 text-slate-200">📂</div>
+                    <p class="text-slate-400 font-black uppercase tracking-widest text-xs italic">Archives for ${state.currentCategory} coming soon.</p>
+                </div>
+            </div>`;
+        }
+
+        window.loadContent = async () => {
             const container = document.getElementById('content-container');
             const { currentType: type, currentTopic: topic, currentLevel: level } = state;
-            const relPath = `content/general-english/${type}/${topic}/level-${level}.json`;
-            const url = new URL(relPath, window.location.origin + getBaseDir()).href;
+            const url = new URL(`content/general-english/${type}/${topic}/level-${level}.json`, window.location.origin + getBaseDir()).href;
+            container.innerHTML = `<div class="py-20 text-center animate-pulse text-slate-400 font-black uppercase text-xs">Opening Mastery File...</div>`;
             try {
                 const res = await fetch(url);
                 const data = await res.json();
                 renderCards(data);
-            } catch (e) { container.innerHTML = `<p class="text-slate-400">Resource Offline: ${url}</p>`; }
+            } catch (e) {
+                container.innerHTML = `<div class="text-center p-20 bg-white rounded-[3rem] border border-slate-100"><div class="text-5xl mb-6 text-slate-200">📁</div><h3 class="font-bold text-xl mb-4">Phase Offline</h3><code class="text-[10px] bg-slate-50 p-2 rounded block break-all text-indigo-600 mb-6">${url}</code><button onclick="navigateTo('levels-grid')" class="px-8 py-3 bg-indigo-600 text-white font-bold rounded-2xl uppercase text-[10px]">Back to grid</button></div>`;
+            }
         };
 
         function renderCards(data) {
             const container = document.getElementById('content-container');
             container.innerHTML = `
-                <h2 class="text-4xl font-black text-slate-900 mb-12">Level ${state.currentLevel} Cards</h2>
+                <div class="mb-12 text-center lg:text-left">
+                    <h2 class="text-4xl font-black text-slate-900 tracking-tighter">Phase ${state.currentLevel} <span class="text-indigo-600">Case Cards</span></h2>
+                </div>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     ${data.map((item, i) => `
-                        <div class="bg-white p-8 rounded-[2.5rem] border-2 border-slate-50 text-center shadow-sm">
-                            <div class="text-4xl mb-4">${item.emoji || '📗'}</div>
-                            <h3 class="text-2xl font-black text-slate-900 mb-2">${item.word}</h3>
-                            <div class="mt-4 pt-4 border-t border-slate-50">
-                                <p class="text-xl font-bold text-slate-800 font-kannada">${item.meaning_kannada}</p>
-                                <p class="text-sm text-slate-400 mt-2 italic">${item.meaning_english}</p>
+                        <div class="bg-white p-8 rounded-[3.5rem] border-2 border-slate-50 hover:border-indigo-100 transition-all text-center group">
+                            <div class="text-5xl mb-6 group-hover:scale-110 transition-transform">${item.emoji || '📗'}</div>
+                            <h3 class="text-3xl font-black text-slate-900 tracking-tighter mb-6 font-bold font-bold">${item.word}</h3>
+                            <div class="pt-6 border-t border-slate-50">
+                                <p class="text-2xl font-bold text-slate-800 font-kannada">${item.meaning_kannada}</p>
+                                <p class="text-sm text-slate-400 mt-2 font-medium">${item.meaning_english}</p>
                             </div>
                         </div>
                     `).join('')}
-                    <div class="col-span-full mt-10"><button onclick="loadQuiz()" class="w-full py-6 bg-indigo-600 text-white font-black rounded-3xl shadow-xl uppercase">Start Quiz Assessment</button></div>
+                    <div class="col-span-full mt-10"><button onclick="loadQuiz()" class="w-full py-8 bg-indigo-600 text-white font-black rounded-[3rem] shadow-2xl uppercase text-xs tracking-widest">Start Level Assessment</button></div>
                 </div>`;
         }
 
+        window.loadQuiz = async () => {
+            const container = document.getElementById('content-container');
+            const { currentType: type, currentTopic: topic, currentLevel: level } = state;
+            const url = new URL(`content/general-english/${type}/${topic}/level${level}-test.json`, window.location.origin + getBaseDir()).href;
+            try {
+                const res = await fetch(url);
+                const questions = await res.json();
+                renderQuiz(questions);
+            } catch (e) { alert("Test file missing from GitHub."); }
+        };
+
+        function renderQuiz(questions) {
+            const container = document.getElementById('content-container');
+            container.innerHTML = `<h2 class="text-3xl font-black mb-10">${state.currentTopicTitle} - Assessment</h2><div id="quiz-list" class="space-y-6"></div>`;
+            const list = document.getElementById('quiz-list');
+            questions.forEach((q, i) => {
+                const div = document.createElement('div');
+                div.className = "bg-white p-8 rounded-[3.5rem] border-2 border-slate-100 shadow-sm";
+                div.innerHTML = `<p class="text-lg font-bold mb-6">#${i+1} ${q.question}</p><div class="grid grid-cols-1 gap-3">${q.options.map(o => `<label class="flex items-center gap-4 px-6 py-4 border-2 border-slate-50 rounded-[2rem] cursor-pointer hover:bg-slate-50 has-[:checked]:border-indigo-600 transition-all"><input type="radio" name="q${i}" value="${o}" class="accent-indigo-600"><span>${o}</span></label>`).join('')}</div>`;
+                list.appendChild(div);
+            });
+            const btn = document.createElement('button');
+            btn.className = "w-full py-6 bg-indigo-600 text-white font-black rounded-[3rem] shadow-xl uppercase mt-8";
+            btn.innerText = "Submit Intelligence";
+            btn.onclick = () => submitTest(questions);
+            list.appendChild(btn);
+        }
+
+        async function submitTest(questions) {
+            let score = 0, wrong = 0, mistakes = [];
+            questions.forEach((q, i) => {
+                const sel = document.querySelector(`input[name="q${i}"]:checked`);
+                if (sel && sel.value.trim() === q.answer.trim()) score++;
+                else { 
+                    wrong++; 
+                    mistakes.push({ question: q.question, answer: q.answer, explanation: q.explanation, userAnswer: sel ? sel.value : 'No selection' });
+                }
+            });
+            const points = score * 10, coins = score - Math.floor(wrong/4);
+            await saveResultToCloud(score, questions.length, points, coins, mistakes);
+            navigateTo('home');
+        }
+
+        async function saveResultToCloud(score, total, points, coins, mistakes) {
+            if (!auth.currentUser) return;
+            const progressId = `${state.currentType}_${state.currentTopic}_${state.currentLevel}`;
+            await setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'progress', progressId), { score, total, points, coins, completedAt: new Date().toISOString(), type: state.currentType, topic: state.currentTopic, level: state.currentLevel });
+            for (const m of mistakes) {
+                const mId = btoa(m.question).substring(0, 20);
+                await setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'mistakes', mId), { ...m, type: state.currentType, topic: state.currentTopic, level: state.currentLevel, masteryCount: 0 });
+            }
+            await setDoc(doc(db, 'artifacts', appId, 'public', 'data', 'leaderboard', state.userId), { name: state.userName, points: state.totalPoints + points, lastActive: new Date().toISOString() }, { merge: true });
+        }
+
         // --- SYSTEM INIT ---
-        onAuthStateChanged(auth, (user) => { if (user) loadUserData(); else render(); });
-        document.addEventListener('DOMContentLoaded', () => {
-            render();
-            document.addEventListener('submit', (e) => { if (e.target.id === 'login-form') handleLogin(e); });
-        });
+        onAuthStateChanged(auth, (user) => { if (user) loadUserData(); else { state.isAuthenticated = false; render(); } });
+        document.addEventListener('DOMContentLoaded', () => { render(); document.addEventListener('submit', (e) => { if (e.target.id === 'login-form') handleLogin(e); }); });
+        let qi = 0; setInterval(() => { const el = document.getElementById('moto-text'); if (!el) return; qi = (qi + 1) % quotes.length; el.innerText = quotes[qi]; }, 5000);
     </script>
 </body>
 </html>
