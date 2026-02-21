@@ -145,7 +145,7 @@
 
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
-        import { getAuth, signInWithCustomToken, signInAnonymously, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
+        import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
         import { getFirestore, doc, setDoc, getDoc, collection, onSnapshot, query } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
 
         // --- FIREBASE INIT ---
@@ -208,8 +208,9 @@
             currentTopic: null,
             currentLevel: null,
             currentTopicTitle: '',
-            progress: {}, // Stores completed level results
-            leaderboard: []
+            progress: {},
+            leaderboard: [],
+            authMode: 'login' // 'login' or 'signup'
         };
 
         // --- SPA ROUTING & HELPERS ---
@@ -276,15 +277,22 @@
 
         // --- CLOUD STORAGE LOGIC ---
         
-        async function loadUserProgress() {
+        async function loadUserData() {
             if (!auth.currentUser) return;
-            const progressRef = collection(db, 'artifacts', appId, 'users', auth.currentUser.uid, 'progress');
             
+            // 1. Load Profile (Name)
+            const profileRef = doc(db, 'artifacts', appId, 'users', auth.currentUser.uid, 'profile', 'info');
+            const profileSnap = await getDoc(profileRef);
+            if (profileSnap.exists()) {
+                state.userName = profileSnap.data().name || 'Aspirant';
+                state.isAuthenticated = true;
+            }
+
+            // 2. Load Progress
+            const progressRef = collection(db, 'artifacts', appId, 'users', auth.currentUser.uid, 'progress');
             onSnapshot(progressRef, (snapshot) => {
                 const updatedProgress = {};
-                snapshot.forEach(doc => {
-                    updatedProgress[doc.id] = doc.data();
-                });
+                snapshot.forEach(doc => { updatedProgress[doc.id] = doc.data(); });
                 state.progress = updatedProgress;
                 render(); 
             }, (error) => console.error("Progress stream error:", error));
@@ -292,7 +300,6 @@
 
         async function loadLeaderboard() {
             const leaderboardRef = collection(db, 'artifacts', appId, 'public', 'data', 'leaderboard');
-            
             onSnapshot(leaderboardRef, (snapshot) => {
                 const list = [];
                 snapshot.forEach(doc => list.push({ id: doc.id, ...doc.data() }));
@@ -308,26 +315,20 @@
             
             try {
                 await setDoc(docRef, {
-                    score: score,
-                    total: total,
+                    score: score, total: total,
                     completedAt: new Date().toISOString(),
-                    type: state.currentType,
-                    topic: state.currentTopic,
-                    level: state.currentLevel
+                    type: state.currentType, topic: state.currentTopic, level: state.currentLevel
                 });
 
                 const totalPoints = Object.values(state.progress).reduce((acc, curr) => acc + curr.score, 0) + score;
                 const leaderboardRef = doc(db, 'artifacts', appId, 'public', 'data', 'leaderboard', auth.currentUser.uid);
                 await setDoc(leaderboardRef, {
-                    name: state.userName,
-                    points: totalPoints,
+                    name: state.userName, points: totalPoints,
                     levelsDone: Object.keys(state.progress).length + 1,
                     lastActive: new Date().toISOString()
                 }, { merge: true });
 
-            } catch (error) {
-                console.error("Error saving progress:", error);
-            }
+            } catch (error) { console.error("Error saving progress:", error); }
         }
 
         // --- CORE RENDERER ---
@@ -339,7 +340,7 @@
                 authStatus.innerHTML = `
                     <div class="flex items-center gap-3">
                         <span class="text-sm font-bold text-indigo-700">Hi, ${state.userName.split(' ')[0]}</span>
-                        <button onclick="logout()" class="w-10 h-10 bg-indigo-50 text-indigo-600 rounded-full flex items-center justify-center border border-indigo-100 hover:bg-red-50 hover:text-red-500 transition-colors">
+                        <button onclick="handleLogout()" class="w-10 h-10 bg-indigo-50 text-indigo-600 rounded-full flex items-center justify-center border border-indigo-100 hover:bg-red-50 hover:text-red-500 transition-colors">
                             <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"/></svg>
                         </button>
                     </div>
@@ -434,8 +435,44 @@
         }
 
         function renderLogin() {
-            return `<div class="max-w-md mx-auto px-6 py-24 view-transition text-center"><h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-2">Welcome Aspirant</h2><p class="text-slate-500 mb-10 font-medium">Please enter your name to proceed.</p><form id="login-form" class="bg-white border border-slate-200 p-10 rounded-[3rem] shadow-sm text-left"><label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3">Your Name</label><input id="name-input" type="text" placeholder="Aspirant Name" class="w-full px-5 py-4 bg-slate-50 border-2 border-slate-100 rounded-2xl font-bold mb-6 focus:bg-white transition-all" required><button type="submit" id="login-btn" class="w-full py-4 bg-indigo-600 text-white font-bold rounded-2xl shadow-xl active:scale-95 transition-all">Start Mastery</button></form></div>`;
+            const isLogin = state.authMode === 'login';
+            return `
+                <div class="max-w-md mx-auto px-6 py-24 view-transition text-center">
+                    <h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-2">${isLogin ? 'Welcome Back' : 'Join the Mission'}</h2>
+                    <p class="text-slate-500 mb-10 font-medium">${isLogin ? 'Login to sync your mastery across devices.' : 'Create an account to track your progress.'}</p>
+                    
+                    <form id="login-form" class="bg-white border border-slate-200 p-10 rounded-[3rem] shadow-sm text-left">
+                        ${!isLogin ? `
+                            <label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3">Full Name</label>
+                            <input id="name-input" type="text" placeholder="John Doe" class="w-full px-5 py-4 bg-slate-50 border-2 border-slate-100 rounded-2xl font-bold mb-6 focus:bg-white transition-all" required>
+                        ` : ''}
+                        
+                        <label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3">Aspirant Email</label>
+                        <input id="email-input" type="email" placeholder="aspirant@exam.com" class="w-full px-5 py-4 bg-slate-50 border-2 border-slate-100 rounded-2xl font-bold mb-6 focus:bg-white transition-all" required>
+                        
+                        <label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3">Secure Password</label>
+                        <input id="password-input" type="password" placeholder="••••••••" class="w-full px-5 py-4 bg-slate-50 border-2 border-slate-100 rounded-2xl font-bold mb-8 focus:bg-white transition-all" required>
+                        
+                        <button type="submit" id="login-btn" class="w-full py-4 bg-indigo-600 text-white font-black rounded-2xl shadow-xl active:scale-95 transition-all uppercase tracking-widest text-xs">
+                            ${isLogin ? 'Login to Hub' : 'Create Academy Account'}
+                        </button>
+
+                        <div class="mt-8 text-center">
+                            <p class="text-slate-400 text-xs font-bold">
+                                ${isLogin ? "Don't have an account?" : "Already an aspirant?"}
+                                <button type="button" onclick="toggleAuthMode()" class="text-indigo-600 hover:underline ml-1">
+                                    ${isLogin ? 'Sign Up' : 'Log In'}
+                                </button>
+                            </p>
+                        </div>
+                    </form>
+                </div>`;
         }
+
+        window.toggleAuthMode = function() {
+            state.authMode = state.authMode === 'login' ? 'signup' : 'login';
+            render();
+        };
 
         function renderEnglishSelection() {
             return `
@@ -749,31 +786,45 @@
             if (card) card.classList.add('revealed');
         };
 
-        window.logout = function() { state.isAuthenticated = false; state.userName = ''; navigateTo('home'); };
+        window.handleLogout = async function() { 
+            await signOut(auth);
+            state.isAuthenticated = false; 
+            state.userName = ''; 
+            state.progress = {};
+            navigateTo('home'); 
+        };
         
         async function handleLogin(event) {
             event.preventDefault();
-            const nameInput = document.getElementById('name-input');
+            const email = document.getElementById('email-input').value;
+            const password = document.getElementById('password-input').value;
             const loginBtn = document.getElementById('login-btn');
-            const name = nameInput.value;
+            const isSignUp = state.authMode === 'signup';
             
-            if (name.trim().length < 2) return;
-
-            loginBtn.innerText = "Connecting to Hub...";
+            loginBtn.innerText = "Processing Aspirant...";
             loginBtn.disabled = true;
 
             try {
-                await signInAnonymously(auth);
-                state.userName = name;
+                if (isSignUp) {
+                    const name = document.getElementById('name-input').value;
+                    const cred = await createUserWithEmailAndPassword(auth, email, password);
+                    // Save profile info immediately
+                    const profileRef = doc(db, 'artifacts', appId, 'users', cred.user.uid, 'profile', 'info');
+                    await setDoc(profileRef, { name: name, email: email, joinedAt: new Date().toISOString() });
+                    state.userName = name;
+                } else {
+                    await signInWithEmailAndPassword(auth, email, password);
+                    // Name will be loaded via loadUserData() called from the observer
+                }
+                
                 state.isAuthenticated = true;
                 navigateTo(state.intendedView || 'home', state.intendedParams);
                 state.intendedView = null;
             } catch (error) {
-                console.error("Firebase Auth Error:", error);
-                state.userName = name;
-                state.isAuthenticated = true;
-                navigateTo(state.intendedView || 'home', state.intendedParams);
-                state.intendedView = null;
+                console.error("Auth Error:", error);
+                alert("Auth Failed: " + error.message);
+                loginBtn.innerText = isSignUp ? 'Create Academy Account' : 'Login to Hub';
+                loginBtn.disabled = false;
             }
         }
 
@@ -799,11 +850,16 @@
         };
 
         // --- AUTH OBSERVER ---
-        onAuthStateChanged(auth, (user) => {
+        onAuthStateChanged(auth, async (user) => {
             if (user) {
                 state.userId = user.uid;
-                loadUserProgress();
+                await loadUserData();
                 loadLeaderboard();
+            } else {
+                state.isAuthenticated = false;
+                state.userName = '';
+                state.progress = {};
+                render();
             }
         });
 
