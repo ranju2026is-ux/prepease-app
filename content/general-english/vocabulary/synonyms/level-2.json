@@ -1,0 +1,107 @@
+[
+  {
+    "no": 1,
+    "word": "Abandon",
+    "meaning_english": "Leave_Desert_Quit_Relinquish_Forsake_GiveUp | Example: He decided to abandon the project.",
+    "meaning_kannada": "ತ್ಯಜಿಸು",
+    "emoji": "🚪"
+  },
+  {
+    "no": 2,
+    "word": "Abundant",
+    "meaning_english": "Plentiful_Adequate_Ample_Profuse_Plenty_Overflowing | Example: The region has abundant resources.",
+    "meaning_kannada": "ಸಮೃದ್ಧ",
+    "emoji": "🌾"
+  },
+  {
+    "no": 3,
+    "word": "Accurate",
+    "meaning_english": "Exact_Precise_Correct_Perfect_True_Definite | Example: The report is accurate.",
+    "meaning_kannada": "ಖಚಿತ",
+    "emoji": "🎯"
+  },
+  {
+    "no": 4,
+    "word": "Admire",
+    "meaning_english": "Respect_Esteem_Appreciate_Praise_Value_Regard | Example: I admire her courage.",
+    "meaning_kannada": "ಪ್ರಶಂಸಿಸು",
+    "emoji": "👏"
+  },
+  {
+    "no": 5,
+    "word": "Anxious",
+    "meaning_english": "Worried_Nervous_Eager_Apprehensive_Tense_Restless | Example: She felt anxious before the exam.",
+    "meaning_kannada": "ಆತಂಕಿತ",
+    "emoji": "😰"
+  },
+  {
+    "no": 6,
+    "word": "Artificial",
+    "meaning_english": "Fake_Imitation_Synthetic_ManMade_Unnatural_False | Example: The flowers look artificial.",
+    "meaning_kannada": "ಕೃತಕ",
+    "emoji": "🤖"
+  },
+  {
+    "no": 7,
+    "word": "Brief",
+    "meaning_english": "Short_Concise_Succinct_Compact_Temporary_Limited | Example: He gave a brief speech.",
+    "meaning_kannada": "ಸಂಕ್ಷಿಪ್ತ",
+    "emoji": "⏳"
+  },
+  {
+    "no": 8,
+    "word": "Calm",
+    "meaning_english": "Peaceful_Quiet_Serene_Still_Composed_Tranquil | Example: The sea is calm today.",
+    "meaning_kannada": "ಶಾಂತ",
+    "emoji": "🌊"
+  },
+  {
+    "no": 9,
+    "word": "Danger",
+    "meaning_english": "Risk_Threat_Hazard_Peril_Jeopardy_Menace | Example: Smoking is a danger to health.",
+    "meaning_kannada": "ಅಪಾಯ",
+    "emoji": "⚠️"
+  },
+  {
+    "no": 10,
+    "word": "Eager",
+    "meaning_english": "Keen_Enthusiastic_Interested_Excited_Willing_Ready | Example: She is eager to learn.",
+    "meaning_kannada": "ಉತ್ಸುಕ",
+    "emoji": "🔥"
+  },
+  {
+    "no": 11,
+    "word": "Essential",
+    "meaning_english": "Important_Necessary_Vital_Crucial_Indispensable_Key | Example: Water is essential for life.",
+    "meaning_kannada": "ಅತ್ಯಾವಶ್ಯಕ",
+    "emoji": "🔑"
+  },
+  {
+    "no": 12,
+    "word": "Expand",
+    "meaning_english": "Grow_Extend_Enlarge_Increase_Spread_Develop | Example: The company plans to expand.",
+    "meaning_kannada": "ವಿಸ್ತರಿಸು",
+    "emoji": "📈"
+  },
+  {
+    "no": 13,
+    "word": "Frequent",
+    "meaning_english": "Common_Regular_Repeated_Constant_Often_Usual | Example: He makes frequent visits.",
+    "meaning_kannada": "ಸಾಮಾನ್ಯ / ನಿರಂತರ",
+    "emoji": "🔄"
+  },
+  {
+    "no": 14,
+    "word": "Generous",
+    "meaning_english": "Kind_Liberal_Charitable_Benevolent_Unselfish_Bighearted | Example: She is very generous.",
+    "meaning_kannada": "ಉದಾರ",
+    "emoji": "🎁"
+  },
+  {
+    "no": 15,
+    "word": "Hostile",
+    "meaning_english": "Unfriendly_Aggressive_Opposed_Antagonistic_Bitter_Adverse | Example: The crowd became hostile.",
+    "meaning_kannada": "ಶತ್ರುತ್ವಪೂರ್ಣ",
+    "emoji": "⚔️"
+  }
+]
