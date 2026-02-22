@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Choose the synonym for 'Abate':",
+    "options": ["Increase", "Subside", "Grow", "Expand"],
+    "answer": "Subside",
+    "explanation": "Abate means to reduce or decrease."
+  },
+  {
+    "question": "Choose the synonym for 'Abolish':",
+    "options": ["Continue", "Repeal", "Support", "Maintain"],
+    "answer": "Repeal",
+    "explanation": "Abolish means to officially end or repeal."
+  },
+  {
+    "question": "Choose the synonym for 'Abstain':",
+    "options": ["Participate", "Refrain", "Encourage", "Accept"],
+    "answer": "Refrain",
+    "explanation": "Abstain means to hold back or refrain."
+  },
+  {
+    "question": "Choose the synonym for 'Acute':",
+    "options": ["Mild", "Severe", "Soft", "Dull"],
+    "answer": "Severe",
+    "explanation": "Acute means very intense or severe."
+  },
+  {
+    "question": "Choose the synonym for 'Adverse':",
+    "options": ["Favorable", "Harmful", "Pleasant", "Helpful"],
+    "answer": "Harmful",
+    "explanation": "Adverse means unfavorable or harmful."
+  },
+  {
+    "question": "Choose the synonym for 'Amiable':",
+    "options": ["Friendly", "Angry", "Rude", "Hostile"],
+    "answer": "Friendly",
+    "explanation": "Amiable means friendly and pleasant."
+  },
+  {
+    "question": "Choose the synonym for 'Apprehend':",
+    "options": ["Ignore", "Understand", "Forget", "Avoid"],
+    "answer": "Understand",
+    "explanation": "Apprehend means to grasp or understand."
+  },
+  {
+    "question": "Choose the synonym for 'Audacious':",
+    "options": ["Timid", "Bold", "Fearful", "Shy"],
+    "answer": "Bold",
+    "explanation": "Audacious means daring and bold."
+  },
+  {
+    "question": "Choose the synonym for 'Baffle':",
+    "options": ["Explain", "Confuse", "Clarify", "Assist"],
+    "answer": "Confuse",
+    "explanation": "Baffle means to confuse."
+  },
+  {
+    "question": "Choose the synonym for 'Cajole':",
+    "options": ["Force", "Coax", "Punish", "Reject"],
+    "answer": "Coax",
+    "explanation": "Cajole means to persuade gently."
+  },
+  {
+    "question": "Choose the synonym for 'Conceal':",
+    "options": ["Reveal", "Hide", "Expose", "Display"],
+    "answer": "Hide",
+    "explanation": "Conceal means to hide."
+  },
+  {
+    "question": "Choose the synonym for 'Concur':",
+    "options": ["Disagree", "Agree", "Oppose", "Argue"],
+    "answer": "Agree",
+    "explanation": "Concur means to agree."
+  },
+  {
+    "question": "Choose the synonym for 'Curb':",
+    "options": ["Encourage", "Restrain", "Allow", "Promote"],
+    "answer": "Restrain",
+    "explanation": "Curb means to control or restrain."
+  },
+  {
+    "question": "Choose the synonym for 'Deceive':",
+    "options": ["Cheat", "Assist", "Help", "Support"],
+    "answer": "Cheat",
+    "explanation": "Deceive means to mislead."
+  },
+  {
+    "question": "Choose the synonym for 'Defy':",
+    "options": ["Obey", "Resist", "Submit", "Follow"],
+    "answer": "Resist",
+    "explanation": "Defy means to resist boldly."
+  },
+  {
+    "question": "Choose the synonym for 'Deter':",
+    "options": ["Encourage", "Prevent", "Support", "Allow"],
+    "answer": "Prevent",
+    "explanation": "Deter means to discourage or prevent."
+  },
+  {
+    "question": "Choose the synonym for 'Dwindle':",
+    "options": ["Grow", "Shrink", "Expand", "Multiply"],
+    "answer": "Shrink",
+    "explanation": "Dwindle means to decrease gradually."
+  },
+  {
+    "question": "Choose the synonym for 'Elicit':",
+    "options": ["Suppress", "Extract", "Hide", "Cover"],
+    "answer": "Extract",
+    "explanation": "Elicit means to draw out."
+  },
+  {
+    "question": "Choose the synonym for 'Endeavor':",
+    "options": ["Failure", "Attempt", "Rest", "Stop"],
+    "answer": "Attempt",
+    "explanation": "Endeavor means an effort or attempt."
+  },
+  {
+    "question": "Choose the synonym for 'Foster':",
+    "options": ["Discourage", "Promote", "Block", "Stop"],
+    "answer": "Promote",
+    "explanation": "Foster means to encourage growth."
+  },
+  {
+    "question": "Choose the synonym for 'Frugal':",
+    "options": ["Wasteful", "Thrifty", "Rich", "Generous"],
+    "answer": "Thrifty",
+    "explanation": "Frugal means economical."
+  },
+  {
+    "question": "Choose the synonym for 'Hinder':",
+    "options": ["Help", "Obstruct", "Support", "Aid"],
+    "answer": "Obstruct",
+    "explanation": "Hinder means to block or obstruct."
+  },
+  {
+    "question": "Choose the synonym for 'Impair':",
+    "options": ["Improve", "Damage", "Strengthen", "Repair"],
+    "answer": "Damage",
+    "explanation": "Impair means to weaken."
+  },
+  {
+    "question": "Choose the synonym for 'Lucid':",
+    "options": ["Confusing", "Clear", "Dark", "Hidden"],
+    "answer": "Clear",
+    "explanation": "Lucid means clear and understandable."
+  },
+  {
+    "question": "Choose the synonym for 'Vigilant':",
+    "options": ["Careless", "Alert", "Lazy", "Unaware"],
+    "answer": "Alert",
+    "explanation": "Vigilant means watchful and alert."
+  }
+]
