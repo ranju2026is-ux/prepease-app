@@ -452,7 +452,7 @@
                 </div>`;
         }
 
-        // --- CONTENT & EVENT LISTENERS ---
+        // --- CONTENT & ASSESSMENT SYSTEM ---
         window.loadContent = async () => {
             const container = document.getElementById('content-container');
             const { currentType: type, currentTopic: topic, currentLevel: level } = state;
@@ -472,10 +472,90 @@
             container.innerHTML = `<div class="mb-12 text-center lg:text-left"><h2 class="text-4xl font-black text-slate-900 tracking-tighter">Phase ${state.currentLevel} <span class="text-indigo-600">Case Cards</span></h2></div><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">${data.map((item, i) => `<div class="bg-white p-10 rounded-[3.5rem] border-2 border-slate-50 hover:border-indigo-100 transition-all text-center group shadow-sm flex flex-col items-center overflow-hidden"><div class="text-5xl mb-8 group-hover:scale-110 transition-transform">${item.emoji || '📗'}</div><h3 class="text-3xl font-black text-slate-900 tracking-tighter mb-8 break-word-custom w-full">${item.word}</h3><div class="pt-6 border-t border-slate-50 w-full"><p class="text-2xl font-bold text-slate-800 font-kannada leading-tight break-word-custom">${item.meaning_kannada}</p><p class="text-sm text-slate-400 mt-3 font-medium leading-relaxed italic break-word-custom">${item.meaning_english}</p></div></div>`).join('')}<div class="col-span-full mt-10"><button onclick="loadQuiz()" class="w-full py-8 bg-indigo-600 text-white font-black rounded-[3rem] shadow-2xl uppercase text-xs tracking-widest active:scale-95 transition-all">Launch Assessment</button></div></div>`;
         }
 
-        // Navigation placeholders
+        window.loadQuiz = async () => {
+            const container = document.getElementById('content-container');
+            const { currentType: type, currentTopic: topic, currentLevel: level } = state;
+            // Standardized path naming: hyphenated level and test
+            const url = new URL(`content/general-english/${type}/${topic}/level-${level}-test.json`, window.location.origin + getBaseDir()).href;
+            try {
+                const res = await fetch(url);
+                if (!res.ok) throw new Error("File not found");
+                const questions = await res.json();
+                renderQuiz(questions);
+            } catch (e) { 
+                console.error("Test load failed:", e);
+                alert("Assessment file missing or path incorrect: " + url); 
+            }
+        };
+        window.loadQuiz = window.loadQuiz;
+
+        function renderQuiz(questions) {
+            const container = document.getElementById('content-container');
+            container.innerHTML = `<h2 class="text-3xl font-black mb-10">Assessment Phase</h2><div id="quiz-list" class="space-y-6"></div>`;
+            const list = document.getElementById('quiz-list');
+            questions.forEach((q, i) => {
+                const div = document.createElement('div');
+                div.className = "bg-white p-10 rounded-[3.5rem] border-2 border-slate-100 shadow-sm";
+                div.innerHTML = `<p class="text-lg font-bold mb-8">#${i+1} ${q.question}</p><div class="grid grid-cols-1 md:grid-cols-2 gap-3">${q.options.map(o => `<label class="flex items-center gap-4 px-8 py-5 border-2 border-slate-50 rounded-[2rem] cursor-pointer hover:bg-slate-50 has-[:checked]:border-indigo-600 has-[:checked]:bg-indigo-50 transition-all"><input type="radio" name="q${i}" value="${o}" class="accent-indigo-600 w-5 h-5"><span>${o}</span></label>`).join('')}</div>`;
+                list.appendChild(div);
+            });
+            const btn = document.createElement('button');
+            btn.className = "w-full py-8 bg-indigo-600 text-white font-black rounded-[3rem] shadow-xl uppercase mt-8";
+            btn.innerText = "Synchronize Results";
+            btn.onclick = () => submitTest(questions);
+            list.appendChild(btn);
+        }
+
+        window.submitTest = async function(questions) {
+            let score = 0, wrong = 0, mistakesFound = [], resultHTML = "";
+            questions.forEach((q, i) => {
+                const sel = document.querySelector(`input[name="q${i}"]:checked`);
+                const isCorrect = sel && sel.value.trim() === q.answer.trim();
+                if (isCorrect) score++; else {
+                    wrong++;
+                    mistakesFound.push({ question: q.question, answer: q.answer, options: q.options, explanation: q.explanation, userAnswer: sel ? sel.value : 'No selection' });
+                }
+                const bgColor = isCorrect ? 'bg-emerald-50 border-emerald-100' : 'bg-rose-50 border-rose-100';
+                resultHTML += `<div class="${bgColor} p-8 rounded-[2.5rem] mb-6 border transition-all"><div class="flex items-center justify-between mb-4"><span class="w-8 h-8 rounded-full bg-white flex items-center justify-center text-xs font-bold text-slate-400">#${i + 1}</span><p class="text-[10px] font-black uppercase ${isCorrect ? 'text-emerald-600' : 'text-rose-500'}">${isCorrect ? 'Correct' : 'Incorrect'}</p></div><p class="text-slate-800 font-bold mb-4">${q.question}</p><div class="grid grid-cols-2 gap-4"><div class="bg-white/60 p-4 rounded-xl"><p class="text-[8px] font-black opacity-60 uppercase mb-1">Your Choice</p><p class="text-sm font-bold">${sel ? sel.value : 'None'}</p></div><div class="bg-emerald-500/10 p-4 rounded-xl"><p class="text-[8px] font-black text-emerald-600 uppercase mb-1">Correct Answer</p><p class="text-sm font-bold text-emerald-700">${q.answer}</p></div></div><p class="mt-4 text-xs italic text-slate-500">${q.explanation || ''}</p></div>`;
+            });
+            const points = score * 10 + (score === questions.length ? 50 : 0);
+            const coins = score - Math.floor(wrong/4);
+            await saveResultToCloud(score, questions.length, points, coins, mistakesFound);
+            renderResultsView(score, questions.length, points, coins, resultHTML);
+        };
+
+        function renderResultsView(score, total, pts, coins, html) {
+            const container = document.getElementById('content-container');
+            container.innerHTML = `<div class="view-transition"><div class="bg-white border-2 border-slate-100 p-16 rounded-[4rem] shadow-sm text-center mb-10 relative overflow-hidden"><div class="flex justify-center gap-10 mb-10"><div class="text-center"><p class="text-4xl font-black text-emerald-600">🪙 +${score}</p><p class="text-[10px] font-black text-slate-400 uppercase tracking-widest">Coins</p></div><div class="w-px h-12 bg-slate-100 self-center"></div><div class="text-center"><p class="text-4xl font-black text-indigo-600">PTS ${pts}</p><p class="text-[10px] font-black text-slate-400 uppercase tracking-widest">Points</p></div></div><h2 class="text-5xl font-black text-slate-900 mb-4 tracking-tighter">Level Analysis</h2><div class="flex justify-center items-baseline gap-2 mb-12"><span class="text-[6rem] font-black text-indigo-600 leading-none">${score}</span><span class="text-3xl font-bold text-slate-300">/ ${total}</span></div><div class="flex flex-col sm:flex-row gap-6 justify-center"><button onclick="navigateTo('home')" class="px-12 py-5 bg-slate-900 text-white font-black rounded-2xl hover:bg-slate-800 transition-all uppercase tracking-widest text-[10px]">Return Dashboard</button></div></div><h3 class="text-2xl font-black text-slate-900 mb-10 px-4 uppercase tracking-[0.1em]">Mastery Review Log</h3>${html}</div>`;
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        async function saveResultToCloud(score, total, points, coins, mistakes) {
+            if (!auth.currentUser) return;
+            const progressId = `${state.currentType}_${state.currentTopic}_${state.currentLevel}`;
+            await setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'progress', progressId), { score, total, points, coins, completedAt: new Date().toISOString(), type: state.currentType, topic: state.currentTopic, level: state.currentLevel });
+            for (const m of mistakes) {
+                const mId = btoa(m.question).substring(0, 20);
+                await setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'mistakes', mId), { ...m, type: state.currentType, topic: state.currentTopic, level: state.currentLevel, masteryCount: 0 });
+            }
+            await setDoc(doc(db, 'artifacts', appId, 'public', 'data', 'leaderboard', state.userId), { name: state.userName, points: state.totalPoints + points, lastActive: new Date().toISOString() }, { merge: true });
+        }
+
+        // --- TRACK NAVIGATION ---
         function renderEnglishSelection() { return `<div class="max-w-7xl mx-auto px-6 py-20 view-transition text-center"><button onclick="navigateTo('home')" class="text-slate-400 font-bold mb-8 flex items-center justify-center gap-2 hover:text-indigo-600 transition-colors mx-auto uppercase text-xs tracking-widest">← Dashboard</button><h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-12">English <span class="text-indigo-600">Track</span></h2><div class="grid grid-cols-1 md:grid-cols-2 gap-10 text-left"><div onclick="navigateTo('topics-grid', { currentType: 'grammar' })" class="premium-card group border-indigo-50"><span class="px-3 py-1 bg-indigo-50 text-indigo-700 text-[9px] font-black rounded-full uppercase tracking-widest mb-6 inline-block border border-indigo-100">Rule Foundations</span><h3 class="text-3xl font-black mb-4 tracking-tight">English Grammar</h3><p class="text-slate-500 mb-8 leading-relaxed">Master Foundations.</p><span class="text-indigo-600 font-bold text-sm uppercase tracking-widest">Open Unit ➜</span></div><div onclick="navigateTo('topics-grid', { currentType: 'vocabulary' })" class="premium-card group border-emerald-50"><span class="px-3 py-1 bg-emerald-50 text-emerald-700 text-[9px] font-black rounded-full uppercase tracking-widest mb-6 inline-block border border-emerald-100">Recall Case</span><h3 class="text-3xl font-black mb-4 tracking-tight">Vocabulary Hub</h3><p class="text-slate-500 mb-8 leading-relaxed">Recall mappings.</p><span class="text-emerald-600 font-bold text-sm uppercase tracking-widest">Open Unit ➜</span></div></div></div>`; }
         function renderTopicsGrid() { const topics = topicsData[state.currentType] || []; return `<div class="max-w-7xl mx-auto px-6 py-20 view-transition text-center"><button onclick="navigateTo('english-selection')" class="text-slate-400 font-bold mb-8 flex items-center justify-center gap-2 hover:text-indigo-600 transition-colors mx-auto uppercase text-xs tracking-widest">← Back</button><h2 class="text-4xl font-black text-slate-900 tracking-tighter capitalize mb-12">${state.currentType} Mastery</h2><div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-left">${topics.map(t => `<div onclick="navigateTo('levels-grid', { currentTopic: '${t.id}', currentTopicTitle: '${t.title}' })" class="premium-card p-10 group shadow-sm"><div class="text-5xl mb-8 group-hover:scale-125 transition-all duration-500">${t.icon}</div><h3 class="text-xl font-bold text-slate-900 mb-4 tracking-tight">${t.title}</h3><p class="text-[9px] font-bold text-slate-400 uppercase tracking-widest">Integrated Phase</p></div>`).join('')}</div></div>`; }
-        function renderLevelsGrid() { return `<div class="max-w-7xl mx-auto px-6 py-20 view-transition text-center"><button onclick="navigateTo('topics-grid')" class="text-slate-400 font-bold mb-8 flex items-center justify-center gap-2 hover:text-indigo-600 transition-colors mx-auto uppercase text-xs tracking-widest">← Back</button><h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-16 font-bold">${state.currentTopicTitle} Phases</h2><div class="grid grid-cols-2 md:grid-cols-5 gap-6">${Array.from({length: 10}, (_, i) => i + 1).map(lv => { const progressId = `${state.currentType}_${state.currentTopic}_${lv}`; const isDone = state.progress[progressId]; return `<div onclick="navigateTo('content-view', { currentLevel: ${lv} })" class="p-10 border-2 ${isDone ? 'border-emerald-500 bg-emerald-50/30' : 'border-slate-100 bg-white'} rounded-[3rem] text-center hover:border-indigo-600 transition-all cursor-pointer group shadow-sm relative">${isDone ? `<span class="absolute top-4 right-4 text-emerald-600 text-[8px] font-black bg-emerald-100 px-2 py-0.5 rounded-full uppercase border border-emerald-200">DONE</span>` : ''}<span class="text-4xl font-black text-slate-900">${lv}</span></div>`; }).join('')}</div></div>`; }
+        function renderLevelsGrid() { return `<div class="max-w-7xl mx-auto px-6 py-20 view-transition text-center"><button onclick="navigateTo('topics-grid')" class="text-slate-400 font-bold mb-8 flex items-center justify-center gap-2 hover:text-indigo-600 transition-colors mx-auto uppercase text-xs tracking-widest">← Back</button><h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-16 font-bold">${state.currentTopicTitle} Phases</h2><div class="grid grid-cols-2 md:grid-cols-5 gap-6">${Array.from({length: 10}, (_, i) => i + 1).map(lv => { const progressId = `${state.currentType}_${state.currentTopic}_${lv}`; const isDone = state.progress[progressId]; return `<div onclick="handleLevelSelection(${lv}, '${progressId}')" class="p-10 border-2 ${isDone ? 'border-emerald-500 bg-emerald-50/30' : 'border-slate-100 bg-white'} rounded-[3rem] text-center hover:border-indigo-600 transition-all cursor-pointer group shadow-sm relative">${isDone ? `<span class="absolute top-4 right-4 text-emerald-600 text-[8px] font-black bg-emerald-100 px-2 py-0.5 rounded-full uppercase border border-emerald-200">DONE</span>` : ''}<span class="text-4xl font-black text-slate-900">${lv}</span></div>`; }).join('')}</div></div>`; }
+        
+        window.handleLevelSelection = (lv, progressId) => { 
+            const isDone = state.progress[progressId]; 
+            if (isDone) { 
+                const shell = document.getElementById('app-shell'); 
+                shell.innerHTML = `<div class="max-w-xl mx-auto py-32 px-6 text-center view-transition"><div class="bg-white border-2 border-emerald-100 p-12 rounded-[3.5rem] shadow-xl"><span class="w-16 h-16 bg-emerald-50 text-emerald-600 rounded-full flex items-center justify-center text-3xl mb-8 mx-auto">🏆</span><h2 class="text-3xl font-black text-slate-900 mb-2">Phase ${lv} Complete</h2><p class="text-slate-400 font-bold uppercase tracking-widest text-[10px] mb-8">Performance: ${isDone.score}/${isDone.total}</p><div class="space-y-4"><button onclick="navigateTo('content-view', { currentLevel: ${lv} })" class="w-full py-5 bg-indigo-600 text-white font-black rounded-2xl shadow-xl uppercase tracking-widest text-xs">Review Lessons</button><button onclick="state.currentLevel = ${lv}; state.view = 'content-view'; render(); loadQuiz();" class="w-full py-5 border-2 border-slate-100 text-slate-600 font-black rounded-2xl hover:bg-slate-50 transition-all uppercase tracking-widest text-xs">Reattempt Quiz</button><button onclick="navigateTo('levels-grid')" class="w-full py-2 text-slate-300 font-bold uppercase tracking-widest text-[10px] mt-4">Close Hub</button></div></div></div>`; 
+            } else { 
+                navigateTo('content-view', { currentLevel: lv }); 
+            } 
+        };
+
         function renderExamsPYQ() { return `<div class="max-w-7xl mx-auto px-6 py-20 view-transition text-center"><button onclick="navigateTo('home')" class="text-slate-400 font-bold mb-8 flex items-center justify-center gap-2 hover:text-indigo-600 transition-colors mx-auto uppercase text-xs tracking-widest">← Dashboard</button><h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-12 capitalize">${state.currentCategory} Regional Hub</h2><div class="bg-white border border-slate-100 p-20 rounded-[4rem] text-center shadow-sm"><div class="text-6xl mb-6 text-slate-200">📂</div><p class="text-slate-400 font-black uppercase tracking-widest text-xs italic">Archives coming soon.</p></div></div>`; }
         function renderDoubts() { return `<div class="max-w-4xl mx-auto py-24 px-6 text-center view-transition"><div class="w-24 h-24 bg-emerald-50 text-emerald-600 rounded-[2.5rem] flex items-center justify-center text-4xl mx-auto mb-10 shadow-lg shadow-emerald-100">💬</div><h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-4 leading-tight">Private Logic Sync</h2><p class="text-slate-500 mb-16 max-w-xl mx-auto font-medium leading-relaxed italic">Submit doubt for WhatsApp Sync.</p><div class="bg-white border border-slate-100 p-10 rounded-[4rem] shadow-sm max-w-2xl mx-auto text-left relative overflow-hidden"><textarea id="query-text" placeholder="Explain rule doubt..." class="w-full h-40 bg-slate-50 border-2 border-slate-50 p-8 rounded-[2rem] font-medium mb-8 resize-none outline-none focus:bg-white transition-all"></textarea><button onclick="askDoubtOnWA()" class="w-full py-6 bg-emerald-600 text-white font-black rounded-3xl shadow-xl uppercase tracking-widest text-[11px] hover:bg-emerald-700 transition-all">Sync via WhatsApp</button></div><button onclick="navigateTo('home')" class="mt-20 py-5 px-10 bg-slate-900 text-white font-black rounded-[2rem] hover:bg-slate-800 transition-all uppercase tracking-widest text-[10px]">Return Dashboard</button></div>`; }
 
