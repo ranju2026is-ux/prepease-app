@@ -1,0 +1,32 @@
+[
+  {
+    "question": "Choose the synonym for 'Abstruse':",
+    "options": ["Clear", "Obscure", "Simple", "Plain"],
+    "answer": "Obscure",
+    "explanation": "Abstruse means difficult to understand."
+  },
+  {
+    "question": "Choose the synonym for 'Accolade':",
+    "options": ["Criticism", "Praise", "Blame", "Punishment"],
+    "answer": "Praise",
+    "explanation": "Accolade means praise or honor."
+  },
+  {
+    "question": "Choose the synonym for 'Acrimony':",
+    "options": ["Kindness", "Bitterness", "Joy", "Peace"],
+    "answer": "Bitterness",
+    "explanation": "Acrimony refers to harshness or bitterness."
+  },
+  {
+    "question": "Choose the synonym for 'Apathy':",
+    "options": ["Interest", "Concern", "Indifference", "Care"],
+    "answer": "Indifference",
+    "explanation": "Apathy means lack of interest."
+  },
+  {
+    "question": "Choose the synonym for 'Belligerent':",
+    "options": ["Calm", "Aggressive", "Peaceful", "Quiet"],
+    "answer": "Aggressive",
+    "explanation": "Belligerent means hostile or aggressive."
+  }
+]
