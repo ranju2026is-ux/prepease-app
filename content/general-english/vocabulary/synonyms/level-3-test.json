@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Choose the synonym for 'Adept':",
+    "options": ["Clumsy", "Skilled", "Careless", "Weak"],
+    "answer": "Skilled",
+    "explanation": "Adept means highly skilled or proficient."
+  },
+  {
+    "question": "Choose the synonym for 'Adversity':",
+    "options": ["Comfort", "Hardship", "Pleasure", "Luxury"],
+    "answer": "Hardship",
+    "explanation": "Adversity refers to difficulty or misfortune."
+  },
+  {
+    "question": "Choose the synonym for 'Alleviate':",
+    "options": ["Increase", "Relieve", "Ignore", "Worsen"],
+    "answer": "Relieve",
+    "explanation": "Alleviate means to make something less severe."
+  },
+  {
+    "question": "Choose the synonym for 'Ambiguous':",
+    "options": ["Clear", "Vague", "Simple", "Exact"],
+    "answer": "Vague",
+    "explanation": "Ambiguous means unclear or having multiple meanings."
+  },
+  {
+    "question": "Choose the synonym for 'Ample':",
+    "options": ["Scarce", "Plentiful", "Rare", "Limited"],
+    "answer": "Plentiful",
+    "explanation": "Ample means more than enough."
+  },
+  {
+    "question": "Choose the synonym for 'Arduous':",
+    "options": ["Easy", "Tough", "Pleasant", "Light"],
+    "answer": "Tough",
+    "explanation": "Arduous means very difficult and tiring."
+  },
+  {
+    "question": "Choose the synonym for 'Assert':",
+    "options": ["Whisper", "Declare", "Hide", "Deny"],
+    "answer": "Declare",
+    "explanation": "Assert means to state confidently."
+  },
+  {
+    "question": "Choose the synonym for 'Benevolent':",
+    "options": ["Cruel", "Kind", "Selfish", "Harsh"],
+    "answer": "Kind",
+    "explanation": "Benevolent means kind and generous."
+  },
+  {
+    "question": "Choose the synonym for 'Candid':",
+    "options": ["Dishonest", "Frank", "Secretive", "Silent"],
+    "answer": "Frank",
+    "explanation": "Candid means honest and straightforward."
+  },
+  {
+    "question": "Choose the synonym for 'Coherent':",
+    "options": ["Logical", "Confused", "Broken", "Random"],
+    "answer": "Logical",
+    "explanation": "Coherent means clear and well organized."
+  },
+  {
+    "question": "Choose the synonym for 'Diligent':",
+    "options": ["Lazy", "Industrious", "Careless", "Irregular"],
+    "answer": "Industrious",
+    "explanation": "Diligent means hardworking and careful."
+  },
+  {
+    "question": "Choose the synonym for 'Elaborate':",
+    "options": ["Brief", "Thorough", "Short", "Tiny"],
+    "answer": "Thorough",
+    "explanation": "Elaborate means detailed and comprehensive."
+  },
+  {
+    "question": "Choose the synonym for 'Emphasize':",
+    "options": ["Ignore", "Stress", "Forget", "Remove"],
+    "answer": "Stress",
+    "explanation": "Emphasize means to give importance to something."
+  },
+  {
+    "question": "Choose the synonym for 'Erroneous':",
+    "options": ["Accurate", "False", "Perfect", "Right"],
+    "answer": "False",
+    "explanation": "Erroneous means incorrect or wrong."
+  },
+  {
+    "question": "Choose the synonym for 'Feasible':",
+    "options": ["Impossible", "Viable", "Unlikely", "Imaginary"],
+    "answer": "Viable",
+    "explanation": "Feasible means capable of being done."
+  },
+  {
+    "question": "Choose the synonym for 'Fragile':",
+    "options": ["Strong", "Delicate", "Hard", "Firm"],
+    "answer": "Delicate",
+    "explanation": "Fragile means easily broken."
+  },
+  {
+    "question": "Choose the synonym for 'Imminent':",
+    "options": ["Distant", "Impending", "Past", "Late"],
+    "answer": "Impending",
+    "explanation": "Imminent means about to happen soon."
+  },
+  {
+    "question": "Choose the synonym for 'Inevitable':",
+    "options": ["Avoidable", "Certain", "Optional", "Rare"],
+    "answer": "Certain",
+    "explanation": "Inevitable means unavoidable."
+  },
+  {
+    "question": "Choose the synonym for 'Meticulous':",
+    "options": ["Careless", "Precise", "Rough", "Lazy"],
+    "answer": "Precise",
+    "explanation": "Meticulous means very careful and exact."
+  },
+  {
+    "question": "Choose the synonym for 'Obsolete':",
+    "options": ["Modern", "Outdated", "New", "Fresh"],
+    "answer": "Outdated",
+    "explanation": "Obsolete means no longer in use."
+  }
+]
