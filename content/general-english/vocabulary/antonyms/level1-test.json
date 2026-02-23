@@ -1,184 +1,92 @@
 [
   {
-    "question": "Choose the ANTONYM for 'Abundant':",
-    "options": ["Plenty", "Scarce", "Rich", "Full"],
+    "question": "Choose the correct Antonym for 'Abundant':",
+    "options": ["Plenty", "Scarce", "Bountiful", "Heavy"],
     "answer": "Scarce",
-    "type": "direct"
+    "explanation": "Abundant means having a lot of something; Scarce means there is very little of it."
   },
   {
-    "question": "Choose the ANTONYM for 'Barren':",
-    "options": ["Dry", "Empty", "Fertile", "Useless"],
-    "answer": "Fertile",
-    "type": "direct"
-  },
-  {
-    "question": "Fill in the blank: The desert is usually hot and dry, but the oasis is ____ and cool.",
-    "options": ["Lush", "Barren", "Arid", "Sandy"],
-    "answer": "Lush",
-    "type": "context",
-    "explanation": "Lush (abundant growth) is a contextual antonym for barren/dry."
-  },
-  {
-    "question": "What is the opposite of 'Genuine'?",
-    "options": ["Real", "Pure", "Fake", "Honest"],
-    "answer": "Fake",
-    "type": "direct"
-  },
-  {
-    "question": "Find the opposite of the underlined word: This glass is very <u>fragile</u>.",
-    "options": ["Weak", "Sturdy", "Broken", "Thin"],
-    "answer": "Sturdy",
-    "type": "sentence"
-  },
-  {
-    "question": "Select the antonym for 'Bold':",
-    "options": ["Brave", "Timid", "Strong", "Loud"],
-    "answer": "Timid",
-    "type": "direct"
-  },
-  {
-    "question": "Antonym for 'Deep':",
-    "options": ["Bottomless", "Shallow", "Dark", "Wide"],
-    "answer": "Shallow",
-    "type": "direct"
-  },
-  {
-    "question": "Sentence Completion: Attendance at the morning meeting is ____, not optional.",
-    "options": ["Compulsory", "Free", "Voluntary", "Extra"],
-    "answer": "Compulsory",
-    "type": "context"
-  },
-  {
-    "question": "What is the opposite of 'Entrance'?",
-    "options": ["Opening", "Exit", "Gate", "Doorway"],
-    "answer": "Exit",
-    "type": "direct"
-  },
-  {
-    "question": "Choose the ANTONYM for 'Permanent':",
-    "options": ["Lasting", "Fixed", "Temporary", "Constant"],
-    "answer": "Temporary",
-    "type": "direct"
-  },
-  {
-    "question": "Opposite of 'Rapid':",
-    "options": ["Fast", "Swift", "Slow", "Quick"],
-    "answer": "Slow",
-    "type": "direct"
-  },
-  {
-    "question": "Find the antonym: He is an <u>optimist</u> even in bad times.",
-    "options": ["Pessimist", "Dreamer", "Helper", "Believer"],
-    "answer": "Pessimist",
-    "type": "sentence"
-  },
-  {
-    "question": "Antonym for 'Victory':",
-    "options": ["Success", "Win", "Defeat", "Triumph"],
-    "answer": "Defeat",
-    "type": "direct"
-  },
-  {
-    "question": "Opposite of 'Arrogant':",
-    "options": ["Proud", "Humble", "Mean", "Rude"],
-    "answer": "Humble",
-    "type": "direct"
-  },
-  {
-    "question": "Fill in the blank: The train's ____ was delayed by two hours.",
-    "options": ["Arrival", "Departure", "Journey", "Stop"],
-    "answer": "Arrival",
-    "type": "context",
-    "explanation": "Contextually, if a train is coming in, we talk about its arrival."
-  },
-  {
-    "question": "Choose the antonym for 'Flexible':",
-    "options": ["Soft", "Rigid", "Bendy", "Elastic"],
-    "answer": "Rigid",
-    "type": "direct"
-  },
-  {
-    "question": "Select the opposite of 'Ancient':",
-    "options": ["Old", "Antique", "Modern", "Classic"],
+    "question": "What is the opposite of 'Ancient'?",
+    "options": ["Historical", "Old", "Antique", "Modern"],
     "answer": "Modern",
-    "type": "direct"
+    "explanation": "Ancient refers to the very distant past, while Modern refers to the present time."
   },
   {
-    "question": "What is the opposite of 'Innocent'?",
-    "options": ["Pure", "Guilty", "Honest", "Childish"],
-    "answer": "Guilty",
-    "type": "direct"
+    "question": "Find the antonym of the underlined word: The king was known to be <u>arrogant</u>.",
+    "options": ["Proud", "Humble", "Cruel", "Haughty"],
+    "answer": "Humble",
+    "explanation": "Arrogant means having too much pride; Humble means being modest and respectful."
   },
   {
-    "question": "Antonym for 'Maximum':",
-    "options": ["Peak", "Greatest", "Minimum", "Total"],
-    "answer": "Minimum",
-    "type": "direct"
+    "question": "Fill in the blank with the opposite of 'Bold': He was too ____ to speak in front of the crowd.",
+    "options": ["Brave", "Daring", "Timid", "Strong"],
+    "answer": "Timid",
+    "explanation": "Bold means brave; Timid means shy or easily frightened."
   },
   {
-    "question": "Sentence Antonym: The surface was very <u>rough</u>.",
-    "options": ["Hard", "Smooth", "Stone", "Dry"],
-    "answer": "Smooth",
-    "type": "sentence"
+    "question": "Identify the opposite of 'Bright':",
+    "options": ["Dull", "Shiny", "Radiant", "Vivid"],
+    "answer": "Dull",
+    "explanation": "Bright means full of light or intelligent; Dull means dim or lacking interest."
   },
   {
-    "question": "Opposite of 'Expand':",
-    "options": ["Grow", "Contract", "Stretch", "Build"],
+    "question": "Choose the correct antonym for 'Deep':",
+    "options": ["Low", "Bottomless", "Shallow", "Wide"],
+    "answer": "Shallow",
+    "explanation": "Deep means extending far down; Shallow means of little depth."
+  },
+  {
+    "question": "Sentence Context: The balloon will <u>expand</u> when filled with air, but it will ____ when the air is released.",
+    "options": ["Grow", "Contract", "Stretch", "Rise"],
     "answer": "Contract",
-    "type": "direct"
+    "explanation": "To expand is to get larger; to contract is to become smaller."
   },
   {
-    "question": "What is the antonym for 'Halt'?",
+    "question": "What is the opposite of 'Flexible'?",
+    "options": ["Soft", "Elastic", "Rigid", "Bendy"],
+    "answer": "Rigid",
+    "explanation": "Flexible means easy to bend; Rigid means stiff and unyielding."
+  },
+  {
+    "question": "Select the antonym for 'Genuine':",
+    "options": ["Authentic", "Real", "Fake", "Actual"],
+    "answer": "Fake",
+    "explanation": "Genuine means the real thing; Fake means an imitation or counterfeit."
+  },
+  {
+    "question": "Opposite of 'Halt':",
     "options": ["Stop", "Wait", "Proceed", "Pause"],
     "answer": "Proceed",
-    "type": "direct"
+    "explanation": "Halt means to stop; Proceed means to move forward or continue."
   },
   {
-    "question": "Choose the opposite: <u>Ignorance</u> is not bliss when it comes to laws.",
-    "options": ["Knowledge", "Unawareness", "Laziness", "Stupidity"],
-    "answer": "Knowledge",
-    "type": "sentence"
+    "question": "Find the opposite of the underlined word: The jury found the man <u>innocent</u>.",
+    "options": ["Pure", "Guilty", "Clear", "Safe"],
+    "answer": "Guilty",
+    "explanation": "Innocent means not responsible for a crime; Guilty means responsible for it."
   },
   {
-    "question": "Opposite of 'Benevolent':",
-    "options": ["Kind", "Helpful", "Malevolent", "Generous"],
-    "answer": "Malevolent",
-    "type": "direct"
-  },
-  {
-    "question": "Fill in: Can you ____ me your pen? (Opposite of borrow)",
-    "options": ["Lend", "Take", "Keep", "Buy"],
+    "question": "Fill in the blank: I will ____ you my book if you promise not to borrow anyone else's.",
+    "options": ["Lend", "Keep", "Take", "Lost"],
     "answer": "Lend",
-    "type": "context"
+    "explanation": "Lend is the opposite of borrow (giving vs. taking for a short time)."
   },
   {
-    "question": "Antonym for 'Distant':",
-    "options": ["Far", "Near", "Away", "Remote"],
-    "answer": "Near",
-    "type": "direct"
+    "question": "What is the Antonym of 'Permanent'?",
+    "options": ["Fixed", "Stable", "Lasting", "Temporary"],
+    "answer": "Temporary",
+    "explanation": "Permanent means lasting forever; Temporary means for a short time only."
   },
   {
-    "question": "Opposite of 'Giant':",
-    "options": ["Huge", "Large", "Dwarf", "Mammoth"],
-    "answer": "Dwarf",
-    "type": "direct"
+    "question": "Identify the opposite of 'Rough':",
+    "options": ["Coarse", "Smooth", "Bumpy", "Hard"],
+    "answer": "Smooth",
+    "explanation": "Rough surfaces are uneven; Smooth surfaces are flat and regular."
   },
   {
-    "question": "Select the antonym for 'Bright':",
-    "options": ["Shiny", "Dull", "Vivid", "Glow"],
-    "answer": "Dull",
-    "type": "direct"
-  },
-  {
-    "question": "What is the opposite of 'Domestic'?",
-    "options": ["Home", "Wild", "Local", "Pet"],
-    "answer": "Wild",
-    "type": "direct"
-  },
-  {
-    "question": "Antonym for 'Cruel':",
-    "options": ["Mean", "Kind", "Wicked", "Evil"],
-    "answer": "Kind",
-    "type": "direct"
+    "question": "Choose the correct antonym for 'Victory':",
+    "options": ["Triumph", "Win", "Defeat", "Success"],
+    "answer": "Defeat",
+    "explanation": "Victory is winning; Defeat is losing a battle or contest."
   }
 ]
