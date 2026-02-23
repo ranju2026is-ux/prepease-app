@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Synonym for 'Alacrity':",
+    "options": ["Slowness", "Eagerness", "Boredom", "Fear"],
+    "answer": "Eagerness",
+    "explanation": "Alacrity means promptness and cheerful readiness."
+  },
+  {
+    "question": "Synonym for 'Anomalous':",
+    "options": ["Standard", "Common", "Peculiar", "Usual"],
+    "answer": "Peculiar",
+    "explanation": "Anomalous means deviating from what is normal or standard."
+  },
+  {
+    "question": "Synonym for 'Assuage':",
+    "options": ["Irritate", "Relieve", "Worsen", "Inflame"],
+    "answer": "Relieve",
+    "explanation": "Assuage means to make an unpleasant feeling less intense."
+  },
+  {
+    "question": "Synonym for 'Castigate':",
+    "options": ["Praise", "Scold", "Reward", "Invite"],
+    "answer": "Scold",
+    "explanation": "Castigate means to reprimand or punish severely."
+  },
+  {
+    "question": "Synonym for 'Enervate':",
+    "options": ["Energize", "Exhaust", "Strengthen", "Refresh"],
+    "answer": "Exhaust",
+    "explanation": "Enervate means to drain energy from someone."
+  },
+  {
+    "question": "Synonym for 'Ephemeral':",
+    "options": ["Long-lasting", "Permanent", "Transient", "Eternal"],
+    "answer": "Transient",
+    "explanation": "Ephemeral refers to something lasting a very short time."
+  },
+  {
+    "question": "Synonym for 'Equivocal':",
+    "options": ["Certain", "Ambiguous", "Clear", "Direct"],
+    "answer": "Ambiguous",
+    "explanation": "Equivocal means open to more than one interpretation."
+  },
+  {
+    "question": "Synonym for 'Fastidious':",
+    "options": ["Careless", "Slovenly", "Scrupulous", "Easy-going"],
+    "answer": "Scrupulous",
+    "explanation": "Fastidious means being very attentive to detail and accuracy."
+  },
+  {
+    "question": "Synonym for 'Incipient':",
+    "options": ["Finished", "Developing", "Old", "Final"],
+    "answer": "Developing",
+    "explanation": "Incipient means in an initial or beginning stage."
+  },
+  {
+    "question": "Synonym for 'Laconic':",
+    "options": ["Wordy", "Verbose", "Succinct", "Chatty"],
+    "answer": "Succinct",
+    "explanation": "Laconic means using very few words."
+  },
+  {
+    "question": "Synonym for 'Loquacious':",
+    "options": ["Quiet", "Garrulous", "Silent", "Shy"],
+    "answer": "Garrulous",
+    "explanation": "Loquacious and Garrulous both mean very talkative."
+  },
+  {
+    "question": "Synonym for 'Magnanimous':",
+    "options": ["Selfish", "Benevolent", "Mean", "Cruel"],
+    "answer": "Benevolent",
+    "explanation": "Magnanimous means being generous or forgiving."
+  },
+  {
+    "question": "Synonym for 'Mollify':",
+    "options": ["Aggravate", "Pacify", "Enrage", "Provoke"],
+    "answer": "Pacify",
+    "explanation": "Mollify means to appease the anger or anxiety of someone."
+  },
+  {
+    "question": "Synonym for 'Obdurate':",
+    "options": ["Stubborn", "Flexible", "Yielding", "Submissive"],
+    "answer": "Stubborn",
+    "explanation": "Obdurate means refusing to change one's opinion."
+  },
+  {
+    "question": "Synonym for 'Pervasive':",
+    "options": ["Rare", "Ubiquitous", "Limited", "Scarce"],
+    "answer": "Ubiquitous",
+    "explanation": "Pervasive means spreading widely throughout an area."
+  },
+  {
+    "question": "Synonym for 'Prevaricate':",
+    "options": ["Honest", "Direct", "Equivocate", "Confirm"],
+    "answer": "Equivocate",
+    "explanation": "Prevaricate means to speak evasively to avoid the truth."
+  },
+  {
+    "question": "Synonym for 'Pusillanimous':",
+    "options": ["Brave", "Cowardly", "Strong", "Daring"],
+    "answer": "Cowardly",
+    "explanation": "Pusillanimous describes a lack of courage."
+  },
+  {
+    "question": "Synonym for 'Reticent':",
+    "options": ["Talkative", "Reserved", "Outgoing", "Loud"],
+    "answer": "Reserved",
+    "explanation": "Reticent means not revealing one's thoughts readily."
+  },
+  {
+    "question": "Synonym for 'Sanguine':",
+    "options": ["Depressed", "Pessimistic", "Optimistic", "Sad"],
+    "answer": "Optimistic",
+    "explanation": "Sanguine means being positive, especially in tough times."
+  },
+  {
+    "question": "Synonym for 'Vacillate':",
+    "options": ["Decide", "Waver", "Stay", "Arrive"],
+    "answer": "Waver",
+    "explanation": "Vacillate means to waver between different opinions."
+  },
+  {
+    "question": "Synonym for 'Ameliorate':",
+    "options": ["Worsen", "Harm", "Improve", "Damage"],
+    "answer": "Improve",
+    "explanation": "Ameliorate means to make something bad better."
+  },
+  {
+    "question": "Synonym for 'Cogent':",
+    "options": ["Weak", "Convincing", "Vague", "Confusing"],
+    "answer": "Convincing",
+    "explanation": "Cogent means clear, logical, and persuasive."
+  },
+  {
+    "question": "Synonym for 'Dormant':",
+    "options": ["Active", "Latent", "Busy", "Loud"],
+    "answer": "Latent",
+    "explanation": "Dormant means temporarily inactive or sleeping."
+  },
+  {
+    "question": "Synonym for 'Exculpate':",
+    "options": ["Accuse", "Blame", "Vindicate", "Convict"],
+    "answer": "Vindicate",
+    "explanation": "Exculpate means to declare that someone is not guilty."
+  },
+  {
+    "question": "Synonym for 'Garrulous':",
+    "options": ["Silent", "Talkative", "Quiet", "Reticent"],
+    "answer": "Talkative",
+    "explanation": "Garrulous means excessively talkative."
+  },
+  {
+    "question": "Synonym for 'Impecunious':",
+    "options": ["Wealthy", "Rich", "Penniless", "Affluent"],
+    "answer": "Penniless",
+    "explanation": "Impecunious means having little or no money."
+  },
+  {
+    "question": "Synonym for 'Inundate':",
+    "options": ["Dry", "Overwhelm", "Underwhelm", "Empty"],
+    "answer": "Overwhelm",
+    "explanation": "Inundate means to flood or overwhelm with things."
+  },
+  {
+    "question": "Synonym for 'Mitigate':",
+    "options": ["Increase", "Alleviate", "Enhance", "Extend"],
+    "answer": "Alleviate",
+    "explanation": "Mitigate means to make something less severe."
+  },
+  {
+    "question": "Synonym for 'Paucity':",
+    "options": ["Abundance", "Plenty", "Scarcity", "Surplus"],
+    "answer": "Scarcity",
+    "explanation": "Paucity refers to a small or insufficient quantity."
+  },
+  {
+    "question": "Synonym for 'Venerate':",
+    "options": ["Despise", "Dislike", "Revere", "Scorn"],
+    "answer": "Revere",
+    "explanation": "Venerate means to regard with great respect."
+  }
+]
