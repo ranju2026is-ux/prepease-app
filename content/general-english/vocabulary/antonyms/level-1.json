@@ -1,92 +1,92 @@
 [
   {
-    "question": "Identify the Antonym of 'Abundant':",
-    "options": ["Plenty", "Scarce", "Rich", "Bountiful"],
-    "answer": "Scarce",
-    "explanation": "Abundant means existing in large quantities; Scarce means insufficient or rare."
+    "word": "Abundant",
+    "meaning_kannada": "ಹೇರಳ (ತುಂಬಾ ಹೆಚ್ಚು)",
+    "meaning_english": "Opposite: Scarce / Meager",
+    "emoji": "🍎"
   },
   {
-    "question": "What is the opposite of 'Ancient'?",
-    "options": ["Old", "Antique", "Modern", "Classic"],
-    "answer": "Modern",
-    "explanation": "Ancient refers to the distant past; Modern refers to present or recent times."
+    "word": "Ancient",
+    "meaning_kannada": "ಪ್ರಾಚೀನ (ಹಳೆಯದು)",
+    "meaning_english": "Opposite: Modern / New",
+    "emoji": "🏛️"
   },
   {
-    "question": "Choose the correct antonym for 'Arrogant':",
-    "options": ["Proud", "Humble", "Haughty", "Rude"],
-    "answer": "Humble",
-    "explanation": "Arrogant means having an exaggerated sense of self-importance; Humble means modest."
+    "word": "Arrogant",
+    "meaning_kannada": "ಅಹಂಕಾರಿ",
+    "meaning_english": "Opposite: Humble / Modest",
+    "emoji": "😤"
   },
   {
-    "question": "What is the opposite of 'Bold'?",
-    "options": ["Brave", "Fearless", "Timid", "Daring"],
-    "answer": "Timid",
-    "explanation": "Bold means showing ability to take risks; Timid means showing a lack of courage."
+    "word": "Bold",
+    "meaning_kannada": "ಧೈರ್ಯಶಾಲಿ",
+    "meaning_english": "Opposite: Timid / Cowardly",
+    "emoji": "🦁"
   },
   {
-    "question": "Identify the Antonym of 'Bright':",
-    "options": ["Glowing", "Dull", "Vivid", "Radiant"],
-    "answer": "Dull",
-    "explanation": "Bright means full of light or clever; Dull means lacking interest or light."
+    "word": "Bright",
+    "meaning_kannada": "ಪ್ರಕಾಶಮಾನ",
+    "meaning_english": "Opposite: Dull / Dim",
+    "emoji": "💡"
   },
   {
-    "question": "What is the opposite of 'Deep'?",
-    "options": ["Bottomless", "Shallow", "Low", "Dark"],
-    "answer": "Shallow",
-    "explanation": "Deep means extending far down from the surface; Shallow means of little depth."
+    "word": "Deep",
+    "meaning_kannada": "ಆಳವಾದ",
+    "meaning_english": "Opposite: Shallow",
+    "emoji": "🌊"
   },
   {
-    "question": "Choose the correct antonym for 'Expand'?",
-    "options": ["Contract", "Grow", "Stretch", "Increase"],
-    "answer": "Contract",
-    "explanation": "Expand means to become larger; Contract means to become smaller."
+    "word": "Expand",
+    "meaning_kannada": "ವಿಸ್ತರಿಸು",
+    "meaning_english": "Opposite: Contract / Shrink",
+    "emoji": "🎈"
   },
   {
-    "question": "What is the opposite of 'Flexible'?",
-    "options": ["Elastic", "Pliable", "Rigid", "Soft"],
-    "answer": "Rigid",
-    "explanation": "Flexible means able to bend easily; Rigid means unable to bend or be forced out of shape."
+    "word": "Flexible",
+    "meaning_kannada": "ನಮ್ಯ (ಬಾಗುವಂತಹ)",
+    "meaning_english": "Opposite: Rigid / Stiff",
+    "emoji": "➰"
   },
   {
-    "question": "Identify the Antonym of 'Genuine':",
-    "options": ["Real", "Authentic", "Fake", "Actual"],
-    "answer": "Fake",
-    "explanation": "Genuine means truly what something is said to be; Fake means not genuine or a counterfeit."
+    "word": "Genuine",
+    "meaning_kannada": "ಅಸಲಿ (ನೈಜ)",
+    "meaning_english": "Opposite: Fake / Spurious",
+    "emoji": "✅"
   },
   {
-    "question": "What is the opposite of 'Halt'?",
-    "options": ["Stop", "Pause", "Proceed", "Wait"],
-    "answer": "Proceed",
-    "explanation": "Halt means to bring to an abrupt stop; Proceed means to begin or continue a course of action."
+    "word": "Halt",
+    "meaning_kannada": "ನಿಲ್ಲಿಸು",
+    "meaning_english": "Opposite: Proceed / Continue",
+    "emoji": "🛑"
   },
   {
-    "question": "Choose the correct antonym for 'Innocent':",
-    "options": ["Pure", "Guilty", "Blameless", "Clear"],
-    "answer": "Guilty",
-    "explanation": "Innocent means not guilty of a crime; Guilty means responsible for a specified wrongdoing."
+    "word": "Innocent",
+    "meaning_kannada": "ನಿರಪರಾಧಿ",
+    "meaning_english": "Opposite: Guilty",
+    "emoji": "👶"
   },
   {
-    "question": "What is the opposite of 'Lend'?",
-    "options": ["Give", "Borrow", "Offer", "Grant"],
-    "answer": "Borrow",
-    "explanation": "Lend means to grant use of something; Borrow means to take and use something with the intention of returning it."
+    "word": "Lend",
+    "meaning_kannada": "ಸಾಲ ನೀಡು",
+    "meaning_english": "Opposite: Borrow",
+    "emoji": "💰"
   },
   {
-    "question": "Identify the Antonym of 'Permanent':",
-    "options": ["Lasting", "Stable", "Temporary", "Fixed"],
-    "answer": "Temporary",
-    "explanation": "Permanent means lasting indefinitely; Temporary means lasting for only a limited period of time."
+    "word": "Permanent",
+    "meaning_kannada": "ಕಾಯಂ (ಶಾಶ್ವತ)",
+    "meaning_english": "Opposite: Temporary",
+    "emoji": "🏛️"
   },
   {
-    "question": "What is the opposite of 'Rough'?",
-    "options": ["Coarse", "Smooth", "Bumpy", "Uneven"],
-    "answer": "Smooth",
-    "explanation": "Rough means having an uneven surface; Smooth means having an even and regular surface."
+    "word": "Rough",
+    "meaning_kannada": "ಒರಟು",
+    "meaning_english": "Opposite: Smooth / Polished",
+    "emoji": "🧱"
   },
   {
-    "question": "Choose the correct antonym for 'Victory':",
-    "options": ["Success", "Triumph", "Defeat", "Win"],
-    "answer": "Defeat",
-    "explanation": "Victory means an act of defeating an enemy; Defeat means an instance of losing a contest."
+    "word": "Victory",
+    "meaning_kannada": "ವಿಜಯ (ಗೆಲುವು)",
+    "meaning_english": "Opposite: Defeat / Loss",
+    "emoji": "🏆"
   }
 ]
