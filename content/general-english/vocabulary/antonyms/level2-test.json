@@ -1,123 +1,122 @@
 [
   {
-    "question": "Choose the ANTONYM for 'Adversity':",
-    "options": ["Calamity", "Prosperity", "Misfortune", "Hardship"],
+    "question": "Choose the correct Antonym for 'Adversity':",
+    "options": ["Misfortune", "Prosperity", "Calamity", "Hardship"],
     "answer": "Prosperity",
-    "type": "direct"
+    "explanation": "Adversity means difficult times; Prosperity means state of being successful and flourishing."
+  },
+  {
+    "question": "Identify the opposite of the underlined word: The volcano has been <u>dormant</u> for years.",
+    "options": ["Passive", "Active", "Quiet", "Asleep"],
+    "answer": "Active",
+    "explanation": "Dormant means temporarily inactive; Active means showing movement or energy."
   },
   {
     "question": "What is the opposite of 'Amateur'?",
-    "options": ["Professional", "Beginner", "Novice", "Learner"],
+    "options": ["Novice", "Learner", "Professional", "Beginner"],
     "answer": "Professional",
-    "type": "direct"
+    "explanation": "An amateur does something for hobby; a professional does it as a career or for high skill."
   },
   {
-    "question": "Fill in the blank: The witness was ____ after the real thief confessed.",
-    "options": ["Convicted", "Acquitted", "Arrested", "Blamed"],
-    "answer": "Acquitted",
-    "type": "context",
-    "explanation": "To be acquitted is to be declared innocent; its opposite is convicted."
+    "question": "Fill in the blank with the Antonym of 'Conceal': The investigation will ____ the truth soon.",
+    "options": ["Hide", "Reveal", "Cover", "Mask"],
+    "answer": "Reveal",
+    "explanation": "Conceal means to hide; Reveal means to make something known."
   },
   {
-    "question": "Antonym for 'Ambiguous':",
-    "options": ["Vague", "Dull", "Lucid", "Strange"],
-    "answer": "Lucid",
-    "type": "direct"
-  },
-  {
-    "question": "Find the opposite of the underlined word: The evidence provided was <u>authentic</u>.",
-    "options": ["Real", "Spurious", "True", "Original"],
-    "answer": "Spurious",
-    "type": "sentence"
-  },
-  {
-    "question": "Select the antonym for 'Ample':",
-    "options": ["Enough", "Meager", "Plentiful", "Large"],
+    "question": "Select the Antonym for 'Ample':",
+    "options": ["Plentiful", "Meager", "Large", "Enough"],
     "answer": "Meager",
-    "type": "direct"
+    "explanation": "Ample means more than enough; Meager means lacking in quantity or quality."
+  },
+  {
+    "question": "Sentence Context: Light can pass through glass because it is transparent, but it cannot pass through wood because wood is ____.",
+    "options": ["Clear", "Pellucid", "Opaque", "Glassy"],
+    "answer": "Opaque",
+    "explanation": "Transparent allows light to pass; Opaque does not."
+  },
+  {
+    "question": "Choose the correct Antonym for 'Acquitted':",
+    "options": ["Released", "Convicted", "Freed", "Absolved"],
+    "answer": "Convicted",
+    "explanation": "To be acquitted is to be found innocent; to be convicted is to be found guilty."
   },
   {
     "question": "What is the opposite of 'Ascend'?",
-    "options": ["Climb", "Rise", "Descend", "Grow"],
+    "options": ["Climb", "Rise", "Descend", "Scale"],
     "answer": "Descend",
-    "type": "direct"
+    "explanation": "Ascend means to go up; Descend means to go down."
   },
   {
-    "question": "Antonym for 'Cautious':",
-    "options": ["Careful", "Reckless", "Safe", "Prudent"],
+    "question": "Find the Antonym of the underlined word: The document was proved to be <u>authentic</u>.",
+    "options": ["Real", "Spurious", "Genuine", "Official"],
+    "answer": "Spurious",
+    "explanation": "Authentic means real; Spurious means fake or false."
+  },
+  {
+    "question": "Fill in the blank with the opposite of 'Cautious': Driving at 120 km/h in a narrow lane is ____.",
+    "options": ["Careful", "Prudent", "Reckless", "Wary"],
     "answer": "Reckless",
-    "type": "direct"
+    "explanation": "Cautious means taking care; Reckless means acting without thinking of danger."
   },
   {
-    "question": "Sentence Completion: Instead of trying to ____ the truth, you should reveal it.",
-    "options": ["Show", "Conceal", "Tell", "Expose"],
-    "answer": "Conceal",
-    "type": "context"
-  },
-  {
-    "question": "Choose the ANTONYM for 'Discord':",
-    "options": ["Harmony", "Noise", "Conflict", "Battle"],
+    "question": "Identify the opposite of 'Discord':",
+    "options": ["Harmony", "Conflict", "Battle", "Strife"],
     "answer": "Harmony",
-    "type": "direct"
+    "explanation": "Discord is disagreement between people; Harmony is agreement or peace."
   },
   {
-    "question": "What is the opposite of 'Dormant'?",
-    "options": ["Sleeping", "Active", "Hidden", "Latent"],
-    "answer": "Active",
-    "type": "direct"
+    "question": "Choose the correct Antonym for 'Enormous':",
+    "options": ["Huge", "Immense", "Puny", "Mammoth"],
+    "answer": "Puny",
+    "explanation": "Enormous means very large; Puny means small and weak."
   },
   {
-    "question": "Select the antonym for 'Enormous':",
-    "options": ["Huge", "Giant", "Tiny", "Large"],
-    "answer": "Tiny",
-    "type": "direct"
-  },
-  {
-    "question": "Opposite of 'Exodus' (mass departure):",
-    "options": ["Influx", "Exit", "Vacation", "Journey"],
+    "question": "What is the opposite of 'Exodus'?",
+    "options": ["Departure", "Influx", "Exit", "Migration"],
     "answer": "Influx",
-    "type": "direct"
+    "explanation": "Exodus is a mass departure; Influx is a mass arrival."
   },
   {
-    "question": "Antonym for 'Frugal':",
+    "question": "Identify the Antonym of 'Frugal':",
     "options": ["Economical", "Extravagant", "Cheap", "Careful"],
     "answer": "Extravagant",
-    "type": "direct"
+    "explanation": "Frugal means simple and plain (saving money); Extravagant means spending too much."
   },
   {
-    "question": "Find the antonym: The judge declared that the man was <u>guilty</u>.",
-    "options": ["Criminal", "Innocent", "Bad", "Cruel"],
-    "answer": "Innocent",
-    "type": "sentence"
+    "question": "Find the opposite of the underlined word: His attitude towards the new neighbors was <u>hostile</u>.",
+    "options": ["Unfriendly", "Amiable", "Mean", "Harsh"],
+    "answer": "Amiable",
+    "explanation": "Hostile means unfriendly; Amiable means friendly and pleasant."
   },
   {
-    "question": "Choose the antonym for 'Hostile':",
-    "options": ["Aggressive", "Mean", "Friendly", "Hateful"],
-    "answer": "Friendly",
-    "type": "direct"
-  },
-  {
-    "question": "Antonym for 'Ignite':",
-    "options": ["Burn", "Extinguish", "Light", "Start"],
+    "question": "What is the opposite of 'Ignite'?",
+    "options": ["Burn", "Extinguish", "Kindle", "Fire"],
     "answer": "Extinguish",
-    "type": "direct"
+    "explanation": "Ignite means to catch fire; Extinguish means to put out a fire."
   },
   {
-    "question": "What is the opposite of 'Opaque'?",
-    "options": ["Transparent", "Solid", "Dark", "Cloudy"],
-    "answer": "Transparent",
-    "type": "direct"
+    "question": "Choose the correct Antonym for 'Precise':",
+    "options": ["Exact", "Vague", "Accurate", "Specific"],
+    "answer": "Vague",
+    "explanation": "Precise means exact and clear; Vague means uncertain or unclear."
   },
   {
-    "question": "Sentence Antonym: His instructions were <u>vague</u> and confusing.",
-    "options": ["Unclear", "Precise", "Long", "Simple"],
-    "answer": "Precise",
-    "type": "sentence"
+    "question": "Identify the Antonym of 'Relinquish':",
+    "options": ["Give up", "Retain", "Abandon", "Surrender"],
+    "answer": "Retain",
+    "explanation": "Relinquish means to give up; Retain means to keep possession of."
   },
   {
-    "question": "What is the opposite of 'Affirm'?",
-    "options": ["Accept", "Deny", "Confirm", "Agree"],
-    "answer": "Deny",
-    "type": "direct"
+    "question": "Sentence Context: The instructions were so ____ that nobody knew what to do next.",
+    "options": ["Definite", "Vague", "Clear", "Precise"],
+    "answer": "Vague",
+    "explanation": "Vague is the antonym of clear/precise, fitting the context of confusion."
+  },
+  {
+    "question": "What is the Antonym of 'Ambiguous'?",
+    "options": ["Obscure", "Unclear", "Lucid", "Puzzling"],
+    "answer": "Lucid",
+    "explanation": "Ambiguous means having double meaning; Lucid means expressed clearly and easy to understand."
   }
 ]
