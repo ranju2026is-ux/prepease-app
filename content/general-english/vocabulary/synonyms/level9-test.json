@@ -1,0 +1,124 @@
+[
+  {
+    "question": "What is the synonym of 'Abeyance'?",
+    "options": ["Continuation", "Suspension", "Action", "Rigidity"],
+    "answer": "Suspension",
+    "type": "synonym"
+  },
+  {
+    "question": "Find the ANTONYM for 'Nadir':",
+    "options": ["Bottom", "Zenith", "Base", "Lull"],
+    "answer": "Zenith",
+    "type": "antonym",
+    "explanation": "Nadir is the lowest point, Zenith is the highest."
+  },
+  {
+    "question": "Spot the ERROR: The politician (A) used blandishments (B) to (C) obfuscate the truth (D). No error (E).",
+    "options": ["A", "B", "C", "D", "E"],
+    "answer": "E",
+    "type": "error_detection"
+  },
+  {
+    "question": "Choose the word for 'Relating to or dependent on charity':",
+    "options": ["Eleemosynary", "Lugubrious", "Quiescent", "Jejune"],
+    "answer": "Eleemosynary",
+    "type": "meaning"
+  },
+  {
+    "question": "Which of these is the correct spelling?",
+    "options": ["Tergiversation", "Tergiversasion", "Tergiversationn", "Turgiversation"],
+    "answer": "Tergiversation",
+    "type": "spelling"
+  },
+  {
+    "question": "Fill in the blank: After the war, the country enjoyed a ____ period of peace.",
+    "options": ["Lugubrious", "Halcyon", "Vituperative", "Churlish"],
+    "answer": "Halcyon",
+    "type": "sentence_completion"
+  },
+  {
+    "question": "Identify the SYNONYM for 'Imbroglio':",
+    "options": ["Harmony", "Complication", "Agreement", "Solution"],
+    "answer": "Complication",
+    "type": "synonym"
+  },
+  {
+    "question": "Choose the correct spelling for a word meaning 'to dry out':",
+    "options": ["Dessicate", "Desiccate", "Desicate", "Dessiccate"],
+    "answer": "Desiccate",
+    "type": "spelling",
+    "explanation": "Desiccate has one 's' and two 'c's."
+  },
+  {
+    "question": "Meaning of 'Vituperative':",
+    "options": ["Praised", "Abusive", "Silent", "Enthusiastic"],
+    "answer": "Abusive",
+    "type": "meaning"
+  },
+  {
+    "question": "Antonym for 'Quiescent':",
+    "options": ["Dormant", "Active", "Still", "Inert"],
+    "answer": "Active",
+    "type": "antonym"
+  },
+  {
+    "question": "Synonym for 'Mendicant':",
+    "options": ["Beggar", "Merchant", "Soldier", "Noble"],
+    "answer": "Beggar",
+    "type": "synonym"
+  },
+  {
+    "question": "Sentence Completion: The teacher's ____ response to the student's question was uncalled for.",
+    "options": ["Salubrious", "Churlish", "Halcyon", "Zenith"],
+    "answer": "Churlish",
+    "type": "sentence_completion"
+  },
+  {
+    "question": "Find the error: Neither (A) the doctor (B) nor the nurse (C) could palliate his pain (D). No Error (E).",
+    "options": ["A", "B", "C", "D", "E"],
+    "answer": "E",
+    "type": "error_detection"
+  },
+  {
+    "question": "What is the synonym for 'Jejune'?",
+    "options": ["Exciting", "Childish", "Mature", "Intense"],
+    "answer": "Childish",
+    "type": "synonym"
+  },
+  {
+    "question": "Antonym for 'Redoubtable':",
+    "options": ["Fearsome", "Insignificant", "Mighty", "Tough"],
+    "answer": "Insignificant",
+    "type": "antonym"
+  },
+  {
+    "question": "Choose the word that means 'to instigate or stir up trouble':",
+    "options": ["Foment", "Palliate", "Abjure", "Wary"],
+    "answer": "Foment",
+    "type": "one_word"
+  },
+  {
+    "question": "Correct Spelling Check:",
+    "options": ["Xenophobic", "Zenophobic", "Xenofobic", "Zenofobic"],
+    "answer": "Xenophobic",
+    "type": "spelling"
+  },
+  {
+    "question": "Meaning of 'Lugubrious':",
+    "options": ["Happy", "Sad", "Fast", "Green"],
+    "answer": "Sad",
+    "type": "meaning"
+  },
+  {
+    "question": "Fill in the blank: The company reached the ____ of its success in 2022.",
+    "options": ["Nadir", "Zenith", "Abeyance", "Imbroglio"],
+    "answer": "Zenith",
+    "type": "context"
+  },
+  {
+    "question": "Synonym for 'Obfuscate':",
+    "options": ["Clarify", "Confuse", "Simplify", "Explain"],
+    "answer": "Confuse",
+    "type": "synonym"
+  }
+]
