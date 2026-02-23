@@ -1,0 +1,303 @@
+[
+  {
+    "question": "Choose the correct spelling for a word meaning 'the resumption of harmonious relations':",
+    "options": ["Rapprochement", "Raprochment", "Rapproachment", "Raproachment"],
+    "answer": "Rapprochement",
+    "type": "spelling"
+  },
+  {
+    "question": "What is the SYNONYM of 'Mellifluous'?",
+    "options": ["Harsh", "Dulcet", "Noisy", "Bitter"],
+    "answer": "Dulcet",
+    "type": "synonym"
+  },
+  {
+    "question": "Antonym for 'Pusillanimous':",
+    "options": ["Timid", "Cowardly", "Valiant", "Fearful"],
+    "answer": "Valiant",
+    "type": "antonym"
+  },
+  {
+    "question": "Fill in the blank: The dictator's ____ over the smaller nations was total and crushing.",
+    "options": ["Hegemony", "Clemency", "Ennui", "Kitsch"],
+    "answer": "Hegemony",
+    "type": "sentence_completion"
+  },
+  {
+    "question": "Spot the ERROR: The noissome (A) fumes from (B) the factory (C) made everyone ill (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "A",
+    "type": "error_detection",
+    "explanation": "Correct spelling is 'Noisome' (single 's')."
+  },
+  {
+    "question": "Meaning of 'Zeitgeist':",
+    "options": ["Ghost of a person", "Spirit of the times", "A type of machine", "A military rank"],
+    "answer": "Spirit of the times",
+    "type": "meaning"
+  },
+  {
+    "question": "Which word is an antonym for 'Sanguine'?",
+    "options": ["Optimistic", "Pessimistic", "Cheerful", "Confident"],
+    "answer": "Pessimistic",
+    "type": "antonym"
+  },
+  {
+    "question": "Synonym for 'Truculent':",
+    "options": ["Peaceful", "Belligerent", "Gentle", "Kind"],
+    "answer": "Belligerent",
+    "type": "synonym"
+  },
+  {
+    "question": "One Word Substitution: 'A person who renounces their religious or political beliefs':",
+    "options": ["Apostate", "Venerable", "Zealot", "Atheist"],
+    "answer": "Apostate",
+    "type": "one_word"
+  },
+  {
+    "question": "Fill in the blank: The old professor was ____ for his immense knowledge and kindness.",
+    "options": ["Venerable", "Invidious", "Nefarious", "Desultory"],
+    "answer": "Venerable",
+    "type": "context"
+  },
+  {
+    "question": "Meaning of 'Ennui':",
+    "options": ["Excitement", "Boredom", "Energy", "Speed"],
+    "answer": "Boredom",
+    "type": "meaning"
+  },
+  {
+    "question": "Choose the SYNONYM for 'Bucolic':",
+    "options": ["Urban", "Pastoral", "Modern", "Crowded"],
+    "answer": "Pastoral",
+    "type": "synonym"
+  },
+  {
+    "question": "Correct the Spelling:",
+    "options": ["Crepuscular", "Crepussular", "Crepuskular", "Crepusculer"],
+    "answer": "Crepuscular",
+    "type": "spelling"
+  },
+  {
+    "question": "Fill in the blank: His ____ behavior at the party made everyone uncomfortable.",
+    "options": ["Unctuous", "Equanimity", "Fecund", "Germane"],
+    "answer": "Unctuous",
+    "type": "sentence_completion"
+  },
+  {
+    "question": "Synonym for 'Opprobrium':",
+    "options": ["Praise", "Ignominy", "Success", "Honor"],
+    "answer": "Ignominy",
+    "type": "synonym"
+  },
+  {
+    "question": "Antonym for 'Limpid':",
+    "options": ["Transparent", "Clear", "Turbid", "Lucid"],
+    "answer": "Turbid",
+    "type": "antonym"
+  },
+  {
+    "question": "Meaning of 'Hubris':",
+    "options": ["Humility", "Arrogance", "Intelligence", "Strength"],
+    "answer": "Arrogance",
+    "type": "meaning"
+  },
+  {
+    "question": "Synonym for 'Munificent':",
+    "options": ["Stingy", "Generous", "Small", "Greedy"],
+    "answer": "Generous",
+    "type": "synonym"
+  },
+  {
+    "question": "Find the error: The lawyer's (A) argument was not (B) germaine (C) to the case (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "type": "error_detection"
+  },
+  {
+    "question": "Fill in the blank: The ____ of the bells announced the end of an era.",
+    "options": ["Knell", "Kitsch", "Anathema", "Winsome"],
+    "answer": "Knell",
+    "type": "context"
+  },
+  {
+    "question": "Synonym for 'Abstruse':",
+    "options": ["Simple", "Recondite", "Obvious", "Clear"],
+    "answer": "Recondite",
+    "type": "synonym"
+  },
+  {
+    "question": "Antonym for 'Obdurate':",
+    "options": ["Stubborn", "Flexible", "Adamant", "Inflexible"],
+    "answer": "Flexible",
+    "type": "antonym"
+  },
+  {
+    "question": "Which word describes art that is 'gaudy and in poor taste'?",
+    "options": ["Bellwether", "Kitsch", "Zenith", "Nadir"],
+    "answer": "Kitsch",
+    "type": "meaning"
+  },
+  {
+    "question": "Meaning of 'Clemency':",
+    "options": ["Punishment", "Mercy", "Anger", "Justice"],
+    "answer": "Mercy",
+    "type": "meaning"
+  },
+  {
+    "question": "Synonym for 'Desultory':",
+    "options": ["Systematic", "Haphazard", "Organized", "Planned"],
+    "answer": "Haphazard",
+    "type": "synonym"
+  },
+  {
+    "question": "Fill in the blank: She maintained her ____ even during the chaotic crisis.",
+    "options": ["Equanimity", "Hubris", "Opprobrium", "Yoke"],
+    "answer": "Equanimity",
+    "type": "sentence_completion"
+  },
+  {
+    "question": "Antonym for 'Fecund':",
+    "options": ["Fertile", "Sterile", "Productive", "Rich"],
+    "answer": "Sterile",
+    "type": "antonym"
+  },
+  {
+    "question": "Synonym for 'Germane':",
+    "options": ["Irrelevant", "Pertinent", "Foreign", "Useless"],
+    "answer": "Pertinent",
+    "type": "synonym"
+  },
+  {
+    "question": "Correct the Spelling:",
+    "options": ["Incipient", "Inssipient", "Incipiant", "Inscipient"],
+    "answer": "Incipient",
+    "type": "spelling"
+  },
+  {
+    "question": "Meaning of 'Lilliputian':",
+    "options": ["Giant", "Tiny", "Strong", "Fast"],
+    "answer": "Tiny",
+    "type": "meaning"
+  },
+  {
+    "question": "Fill in the blank: The criminal's ____ deeds shocked the entire community.",
+    "options": ["Nefarious", "Winsome", "Jocular", "Limpid"],
+    "answer": "Nefarious",
+    "type": "context"
+  },
+  {
+    "question": "Synonym for 'Quixotic':",
+    "options": ["Practical", "Idealistic", "Realistic", "Logical"],
+    "answer": "Idealistic",
+    "type": "synonym"
+  },
+  {
+    "question": "Antonym for 'Rancor':",
+    "options": ["Hatred", "Amity", "Malice", "Spite"],
+    "answer": "Amity",
+    "type": "antonym"
+  },
+  {
+    "question": "Which word refers to 'an indicator of a future trend'?",
+    "options": ["Bellwether", "Apostate", "Gourmand", "Knell"],
+    "answer": "Bellwether",
+    "type": "meaning"
+  },
+  {
+    "question": "Fill in the blank: His ____ fear of heights kept him from climbing the mountain.",
+    "options": ["Visceral", "Lilliputian", "Winsome", "Fecund"],
+    "answer": "Visceral",
+    "type": "sentence_completion"
+  },
+  {
+    "question": "Synonym for 'Wheedle':",
+    "options": ["Force", "Cajole", "Demand", "Ignore"],
+    "answer": "Cajole",
+    "type": "synonym"
+  },
+  {
+    "question": "Correct the Spelling:",
+    "options": ["Seditious", "Sedittious", "Sedicious", "Sedetious"],
+    "answer": "Seditious",
+    "type": "spelling"
+  },
+  {
+    "question": "Meaning of 'Winsome':",
+    "options": ["Aggressive", "Charming", "Dull", "Sad"],
+    "answer": "Charming",
+    "type": "meaning"
+  },
+  {
+    "question": "Antonym for 'Ubiquitous':",
+    "options": ["Pervasive", "Rare", "Common", "Universal"],
+    "answer": "Rare",
+    "type": "antonym"
+  },
+  {
+    "question": "Fill in the blank: Poverty is an ____ to a civilized society.",
+    "options": ["Anathema", "Rapprochement", "Equanimity", "Clemency"],
+    "answer": "Anathema",
+    "type": "context"
+  },
+  {
+    "question": "Synonym for 'Fulminate':",
+    "options": ["Support", "Denounce", "Quiet", "Approve"],
+    "answer": "Denounce",
+    "type": "synonym"
+  },
+  {
+    "question": "Meaning of 'Gourmand':",
+    "options": ["Athlete", "Glutton", "Doctor", "Teacher"],
+    "answer": "Glutton",
+    "type": "meaning"
+  },
+  {
+    "question": "Identify the misspelled word:",
+    "options": ["Demur", "Invidious", "Pusillanimouss", "Querulous"],
+    "answer": "Pusillanimouss",
+    "type": "spelling"
+  },
+  {
+    "question": "One Word Substitution: 'Relating to twilight':",
+    "options": ["Crepuscular", "Limpid", "Fecund", "Noisome"],
+    "answer": "Crepuscular",
+    "type": "one_word"
+  },
+  {
+    "question": "Synonym for 'Tenuous':",
+    "options": ["Strong", "Fragile", "Thick", "Solid"],
+    "answer": "Fragile",
+    "type": "synonym"
+  },
+  {
+    "question": "Antonym for 'Venerable':",
+    "options": ["Respected", "Disreputable", "Old", "Esteemed"],
+    "answer": "Disreputable",
+    "type": "antonym"
+  },
+  {
+    "question": "Fill in the blank: The people lived under the ____ of a cruel regime for decades.",
+    "options": ["Yoke", "Hubris", "Ennui", "Kitsch"],
+    "answer": "Yoke",
+    "type": "sentence_completion"
+  },
+  {
+    "question": "Meaning of 'Zealot':",
+    "options": ["Lazy person", "Fanatic", "Liar", "Messenger"],
+    "answer": "Fanatic",
+    "type": "meaning"
+  },
+  {
+    "question": "Synonym for 'Palliative':",
+    "options": ["Aggravating", "Soothing", "Harmful", "Useless"],
+    "answer": "Soothing",
+    "type": "synonym"
+  },
+  {
+    "question": "Antonym for 'Invidious':",
+    "options": ["Unpleasant", "Fair", "Awkward", "Harmful"],
+    "answer": "Fair",
+    "type": "antonym"
+  }
+]
