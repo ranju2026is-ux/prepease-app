@@ -1,0 +1,103 @@
+[
+  {
+    "question": "Find the SYNONYM for 'Bellicose':",
+    "options": ["Peaceful", "Pugnacious", "Quiet", "Friendly"],
+    "answer": "Pugnacious",
+    "type": "synonym",
+    "explanation": "Both words describe a person eager to fight."
+  },
+  {
+    "question": "Choose the ANTONYM for 'Gregarious':",
+    "options": ["Sociable", "Introverted", "Friendly", "Convivial"],
+    "answer": "Introverted",
+    "type": "antonym",
+    "explanation": "Gregarious means social, while introverted means reserved or shy."
+  },
+  {
+    "question": "Spot the MISSPELT word:",
+    "options": ["Cacophony", "Ubiquitous", "Mendacious", "Iconoclastt"],
+    "answer": "Iconoclastt",
+    "type": "spelling",
+    "explanation": "The correct spelling is 'Iconoclast'."
+  },
+  {
+    "question": "Fill in the blank: The dictator gave a long ____ against his enemies.",
+    "options": ["Harangue", "Paucity", "Paradigm", "Abstemious"],
+    "answer": "Harangue",
+    "type": "fill_in_the_blank",
+    "explanation": "A harangue is a lengthy, aggressive speech."
+  },
+  {
+    "question": "Find the SYNONYM for 'Obsequious':",
+    "options": ["Arrogant", "Servile", "Honest", "Stubborn"],
+    "answer": "Servile",
+    "explanation": "Obsequious means being overly submissive or fawning."
+  },
+  {
+    "question": "Choose the correct spelling:",
+    "options": ["Acquiescence", "Acquiesence", "Aqueiscence", "Acquiescencee"],
+    "answer": "Acquiescence",
+    "type": "spelling",
+    "explanation": "Acquiescence (meaning silent agreement) is a common exam word."
+  },
+  {
+    "question": "Antonym for 'Ephemeral':",
+    "options": ["Transient", "Fleeting", "Eternal", "Brief"],
+    "answer": "Eternal",
+    "type": "antonym",
+    "explanation": "Ephemeral means short-lived; Eternal means lasting forever."
+  },
+  {
+    "question": "Error Detection: He is an (A) incorrigible liar (B) who cannot (C) be reformed (D). No Error (E).",
+    "options": ["A", "B", "C", "D", "E"],
+    "answer": "E",
+    "type": "error_detection",
+    "explanation": "The sentence is grammatically correct."
+  },
+  {
+    "question": "Synonym for 'Taciturn':",
+    "options": ["Garrulous", "Reticent", "Loquacious", "Talkative"],
+    "answer": "Reticent",
+    "type": "synonym",
+    "explanation": "Both refer to people who don't speak much."
+  },
+  {
+    "question": "Choose the word with the correct meaning for 'Subterfuge':",
+    "options": ["Honesty", "Chicanery", "Openness", "Bravery"],
+    "answer": "Chicanery",
+    "type": "meaning",
+    "explanation": "Both words refer to trickery or deceit."
+  },
+  {
+    "question": "Antonym for 'Venerable':",
+    "options": ["Respected", "Despicable", "Old", "Wise"],
+    "answer": "Despicable",
+    "type": "antonym",
+    "explanation": "Venerable is worthy of respect; Despicable is worthy of hatred."
+  },
+  {
+    "question": "Find the misspelled word:",
+    "options": ["Nefarious", "Fastidious", "Prevarricate", "Vacillate"],
+    "answer": "Prevarricate",
+    "type": "spelling",
+    "explanation": "Correct spelling is 'Prevaricate' (single 'r')."
+  },
+  {
+    "question": "Fill in the blank: There is a ____ of evidence to prove him guilty.",
+    "options": ["Paucity", "Abundance", "Ubiquitous", "Zealous"],
+    "answer": "Paucity",
+    "explanation": "Paucity means a shortage or lack."
+  },
+  {
+    "question": "Synonym for 'Lethargic':",
+    "options": ["Energetic", "Torpid", "Active", "Brisk"],
+    "answer": "Torpid",
+    "explanation": "Lethargic and Torpid both mean sluggish or lazy."
+  },
+  {
+    "question": "Sentence Completion: The ____ of the busy market was overwhelming.",
+    "options": ["Cacophony", "Quiescent", "Abstemious", "Reticent"],
+    "answer": "Cacophony",
+    "explanation": "Cacophony refers to a loud, harsh mixture of sounds."
+  }
+]
