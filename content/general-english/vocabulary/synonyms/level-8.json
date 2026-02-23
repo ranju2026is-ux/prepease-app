@@ -1,0 +1,302 @@
+[
+  {
+    "word": "Abnegation",
+    "meaning_kannada": "ತ್ಯಾಗ / ನಿರಾಕರಣೆ",
+    "meaning_english": "The act of renouncing or rejecting something. Synonyms: Renunciation, Self-denial, Refusal, Abandonment, Surrender.",
+    "emoji": "🚫"
+  },
+  {
+    "word": "Anachronism",
+    "meaning_kannada": "ಕಾಲದೋಷ / ಹಳತಾದ",
+    "meaning_english": "Something out of its proper time. Synonyms: Misplacement, Solecism, Archaism, Incongruity, Post-dating.",
+    "emoji": "⏳"
+  },
+  {
+    "word": "Ascetic",
+    "meaning_kannada": "ತಪಸ್ವಿ / ಸಂಯಮದ",
+    "meaning_english": "Characterized by severe self-discipline and abstention. Synonyms: Austere, Hermit-like, Abstemious, Puritanical, Reclusive.",
+    "emoji": "🧘"
+  },
+  {
+    "word": "Banal",
+    "meaning_kannada": "ಸಾಧಾರಣ / ನೀರಸ",
+    "meaning_english": "So lacking in originality as to be obvious and boring. Synonyms: Trite, Hackneyed, Cliche, Commonplace, Humdrum.",
+    "emoji": "🥱"
+  },
+  {
+    "word": "Capitulate",
+    "meaning_kannada": "ಶರಣಾಗು",
+    "meaning_english": "Cease to resist an opponent or an unwelcome demand. Synonyms: Surrender, Yield, Succumb, Concede, Bow.",
+    "emoji": "🏳️"
+  },
+  {
+    "word": "Convivial",
+    "meaning_kannada": "ಸೌಹಾರ್ದಯುತ / ಹರ್ಷಚಿತ್ತ",
+    "meaning_english": "Friendly, lively, and enjoyable. Synonyms: Sociable, Genial, Affable, Amiable, Festive.",
+    "emoji": "🥳"
+  },
+  {
+    "word": "Demagogue",
+    "meaning_kannada": "ಜನಪ್ರಿಯ ನಾಯಕ (ದುರುದ್ದೇಶದ)",
+    "meaning_english": "A political leader who seeks support by appealing to popular desires. Synonyms: Agitator, Firebrand, Rabble-rouser, Inciter.",
+    "emoji": "🗣️"
+  },
+  {
+    "word": "Desultory",
+    "meaning_kannada": "ಅವ್ಯವಸ್ಥಿತ",
+    "meaning_english": "Lacking a plan, purpose, or enthusiasm. Synonyms: Aimless, Rambling, Haphazard, Erratic, Disconnected.",
+    "emoji": "🌀"
+  },
+  {
+    "word": "Diaphanous",
+    "meaning_kannada": "ಪಾರದರ್ಶಕ",
+    "meaning_english": "Light, delicate, and translucent. Synonyms: Sheer, Gauzy, Transparent, Flimsy, Gossamer.",
+    "emoji": "💎"
+  },
+  {
+    "word": "Effrontery",
+    "meaning_kannada": "ದುಸ್ಸಾಹಸ / ಸೊಕ್ಕು",
+    "meaning_english": "Insolent or impertinent behavior. Synonyms: Impudence, Audacity, Temerity, Gall, Cheek.",
+    "emoji": "😤"
+  },
+  {
+    "word": "Egregious",
+    "meaning_kannada": "ಅತಿ ಕೆಟ್ಟ",
+    "meaning_english": "Outstandingly bad; shocking. Synonyms: Atrocious, Horrific, Appalling, Flagrant, Gross.",
+    "emoji": "🚫"
+  },
+  {
+    "word": "Equanimity",
+    "meaning_kannada": "ಸ್ಥಿತಪ್ರಜ್ಞತೆ / ಸಮಚಿತ್ತ",
+    "meaning_english": "Mental calmness and composure, especially in a difficult situation. Synonyms: Composure, Calm, Serenity, Placidness, Poise.",
+    "emoji": "⚖️"
+  },
+  {
+    "word": "Evanescent",
+    "meaning_kannada": "ಅಲ್ಪಕಾಲಿಕ",
+    "meaning_english": "Soon passing out of sight, memory, or existence. Synonyms: Vanishing, Fading, Fugitive, Short-lived, Perishable.",
+    "emoji": "🌬️"
+  },
+  {
+    "word": "Exigent",
+    "meaning_kannada": "ತುರ್ತು / ಕಠಿಣ",
+    "meaning_english": "Pressing; demanding. Synonyms: Urgent, Crucial, Imperative, Acute, Taxing.",
+    "emoji": "🚨"
+  },
+  {
+    "word": "Fatuous",
+    "meaning_kannada": "ಮೂರ್ಖತನದ",
+    "meaning_english": "Silly and pointless. Synonyms: Foolish, Inane, Asinine, Vacuous, Ludicrous.",
+    "emoji": "🥴"
+  },
+  {
+    "word": "Gainsay",
+    "meaning_kannada": "ವಿರೋಧಿಸು / ನಿರಾಕರಿಸು",
+    "meaning_english": "Deny or contradict a fact or statement. Synonyms: Deny, Dispute, Repudiate, Contravene, Oppose.",
+    "emoji": "🙅"
+  },
+  {
+    "word": "Hapless",
+    "meaning_kannada": "ದುರದೃಷ್ಟಕರ",
+    "meaning_english": "Unfortunate. Synonyms: Unlucky, Ill-fated, Wretched, Cursed, Miserable.",
+    "emoji": "📉"
+  },
+  {
+    "word": "Inchoate",
+    "meaning_kannada": "ಅಪೂರ್ಣ / ಆರಂಭಿಕ",
+    "meaning_english": "Just begun and so not fully formed or developed. Synonyms: Nascent, Embryonic, Rudimentary, Amorphous, Formless.",
+    "emoji": "🥚"
+  },
+  {
+    "word": "Invective",
+    "meaning_kannada": "ನಿಂದೆ / ಬೈಗುಳ",
+    "meaning_english": "Insulting, abusive, or highly critical language. Synonyms: Abuse, Vituperation, Expletives, Denunciation, Vilification.",
+    "emoji": "🤬"
+  },
+  {
+    "word": "Knave",
+    "meaning_kannada": "ವಂಚಕ / ಕುತಂತ್ರಿ",
+    "meaning_english": "A dishonest or unscrupulous man. Synonyms: Scoundrel, Rogue, Villain, Rascal, Cheat.",
+    "emoji": "👺"
+  },
+  {
+    "word": "Languid",
+    "meaning_kannada": "ನಿತ್ರಾಣ / ಆಲಸ್ಯ",
+    "meaning_english": "Displaying or having a disinclination for physical exertion. Synonyms: Listless, Lethargic, Sluggish, Weak, Faint.",
+    "emoji": "🥀"
+  },
+  {
+    "word": "Maudlin",
+    "meaning_kannada": "ಅತೀವ ಭಾವುಕ",
+    "meaning_english": "Self-pitying or tearfully sentimental. Synonyms: Emotional, Weepy, Mushy, Over-sentimental.",
+    "emoji": "🥺"
+  },
+  {
+    "word": "Neophyte",
+    "meaning_kannada": "ನವಶಿಷ್ಯ / ಕಲಿಯುವವ",
+    "meaning_english": "A person who is new to a subject or skill. Synonyms: Beginner, Novice, Tyro, Learner, Rookie.",
+    "emoji": "🐣"
+  },
+  {
+    "word": "Onerous",
+    "meaning_kannada": "ಕಷ್ಟಕರ / ಹೊರೆ",
+    "meaning_english": "Involving a great deal of effort, trouble, or difficulty. Synonyms: Burdensome, Heavy, Taxing, Arduous, Strenuous.",
+    "emoji": "🏋️"
+  },
+  {
+    "word": "Pellucid",
+    "meaning_kannada": "ಸ್ಪಷ್ಟ / ಪಾರದರ್ಶಕ",
+    "meaning_english": "Translucently clear. Synonyms: Transparent, Crystal clear, Coherent, Lucid, Intelligible.",
+    "emoji": "💧"
+  },
+  {
+    "word": "Querulous",
+    "meaning_kannada": "ಗೊಣಗುವ / ದೂರು ನೀಡುವ",
+    "meaning_english": "Complaining in a rather petulant or whining manner. Synonyms: Whiny, Grumbling, Fretful, Captious, Irritable.",
+    "emoji": "😒"
+  },
+  {
+    "word": "Recondite",
+    "meaning_kannada": "ಗೂಢ / ಅಸ್ಪಷ್ಟ",
+    "meaning_english": "Little known; abstruse. Synonyms: Obscure, Complex, Esoteric, Profound, Deep.",
+    "emoji": "📜"
+  },
+  {
+    "word": "Salubrious",
+    "meaning_kannada": "ಆರೋಗ್ಯಕರ",
+    "meaning_english": "Health-giving; healthy. Synonyms: Wholesome, Beneficial, Salutary, Nutritious.",
+    "emoji": "🍏"
+  },
+  {
+    "word": "Tenuous",
+    "meaning_kannada": "ಸೂಕ್ಷ್ಮ / ದುರ್ಬಲ",
+    "meaning_english": "Very weak or slight. Synonyms: Fragile, Flimsy, Shaky, Insubstantial, Thin.",
+    "emoji": "🧵"
+  },
+  {
+    "word": "Upbraid",
+    "meaning_kannada": "ತರಾಟೆಗೆ ತೆಗೆದುಕೊ / ನಿಂದಿಸು",
+    "meaning_english": "Find fault with someone; scold. Synonyms: Reprimand, Rebuke, Admonish, Castigate, Scold.",
+    "emoji": "📣"
+  },
+  {
+    "word": "Vicissitude",
+    "meaning_kannada": "ಏರಿಳಿತಗಳು / ಬದಲಾವಣೆಗಳು",
+    "meaning_english": "A change of circumstances or fortune. Synonyms: Alteration, Mutation, Shift, Fluctuation, Ups and downs.",
+    "emoji": "📈"
+  },
+  {
+    "word": "Wizened",
+    "meaning_kannada": "ಸುಕ್ಕುಗಟ್ಟಿದ",
+    "meaning_english": "Shriveled or wrinkled with age. Synonyms: Wrinkled, Gnarled, Dried up, Shrunken.",
+    "emoji": "🍂"
+  },
+  {
+    "word": "Abhorrence",
+    "meaning_kannada": "ಅಸಹ್ಯ",
+    "meaning_english": "A feeling of repulsion; disgusted loathing. Synonyms: Hatred, Loathing, Detestation, Enmity.",
+    "emoji": "🤮"
+  },
+  {
+    "word": "Beguile",
+    "meaning_kannada": "ಮೋಹಿಸು / ವಂಚಿಸು",
+    "meaning_english": "Charm or enchant someone, sometimes in a deceptive way. Synonyms: Charm, Entice, Bewitch, Deceive.",
+    "emoji": "✨"
+  },
+  {
+    "word": "Circumspect",
+    "meaning_kannada": "ಜಾಗರೂಕ",
+    "meaning_english": "Wary and unwilling to take risks. Synonyms: Cautious, Wary, Prudent, Guarded, Vigilant.",
+    "emoji": "🔍"
+  },
+  {
+    "word": "Dormant",
+    "meaning_kannada": "ಸುಪ್ತ / ವಿಶ್ರಾಂತ",
+    "meaning_english": "Inactive or inoperative. Synonyms: Latent, Passive, Quiescent, Idle.",
+    "emoji": "💤"
+  },
+  {
+    "word": "Enervate",
+    "meaning_kannada": "ಶಕ್ತಿಗುಂದಿಸು",
+    "meaning_english": "Cause someone to feel drained of energy. Synonyms: Exhaust, Fatigue, Weaken, Devitalize.",
+    "emoji": "🔋"
+  },
+  {
+    "word": "Fastidious",
+    "meaning_kannada": "ನಿಖರ / ಅತಿ ಜಾಗರೂಕ",
+    "meaning_english": "Very attentive to detail and accuracy. Synonyms: Scrupulous, Meticulous, Fussy, Punctilious.",
+    "emoji": "🧼"
+  },
+  {
+    "word": "Gregarious",
+    "meaning_kannada": "ಸಾಮಾಜಿಕ / ಬೆರೆಯುವ",
+    "meaning_english": "Fond of company; sociable. Synonyms: Sociable, Companionable, Convivial.",
+    "emoji": "👫"
+  },
+  {
+    "word": "Histrionic",
+    "meaning_kannada": "ನಾಟಕೀಯ",
+    "meaning_english": "Overly theatrical or melodramatic in character or style. Synonyms: Dramatic, Melodramatic, Affected, Theatrical.",
+    "emoji": "🎭"
+  },
+  {
+    "word": "Inexorable",
+    "meaning_kannada": "ಅಚಲ / ಬದಲಿಸಲಾಗದ",
+    "meaning_english": "Impossible to stop or prevent. Synonyms: Relentless, Unstoppable, Persistent, Inevitable.",
+    "emoji": "⛓️"
+  },
+  {
+    "word": "Jocund",
+    "meaning_kannada": "ಆನಂದದಾಯಕ",
+    "meaning_english": "Cheerful and lighthearted. Synonyms: Cheerful, Merry, Glad, Jolly.",
+    "emoji": "🌞"
+  },
+  {
+    "word": "Lurid",
+    "meaning_kannada": "ಭಯಾನಕ / ಅತಿರಂಜಿತ",
+    "meaning_english": "Very vivid in color, especially so as to create an unpleasantly harsh or unnatural effect. Synonyms: Sensational, Gory, Shocking, Vivid.",
+    "emoji": "🩸"
+  },
+  {
+    "word": "Malinger",
+    "meaning_kannada": "ಕೆಲಸದಿಂದ ತಪ್ಪಿಸಿಕೊಳ್ಳಲು ಕಾಯಿಲೆಯ ನೆಪ ಹೇಳು",
+    "meaning_english": "Exaggerate or feign illness in order to escape duty or work. Synonyms: Shirk, Idle, Dodge.",
+    "emoji": "🤒"
+  },
+  {
+    "word": "Nugatory",
+    "meaning_kannada": "ನಿಷ್ಪ್ರಯೋಜಕ",
+    "meaning_english": "Of no value or importance. Synonyms: Worthless, Useless, Vain, Futile.",
+    "emoji": "🗑️"
+  },
+  {
+    "word": "Obviate",
+    "meaning_kannada": "ತಡೆಗಟ್ಟು / ನಿವಾರಿಸು",
+    "meaning_english": "Remove a need or difficulty. Synonyms: Preclude, Prevent, Eliminate, Avoid.",
+    "emoji": "🛡️"
+  },
+  {
+    "word": "Perfidy",
+    "meaning_kannada": "ದ್ರೋಹ",
+    "meaning_english": "Deceitfulness; untrustworthiness. Synonyms: Treachery, Duplicity, Betrayal, Infidelity.",
+    "emoji": "🔪"
+  },
+  {
+    "word": "Quixotic",
+    "meaning_kannada": "ಅವಾಸ್ತವಿಕ / ಭಾವನಾತ್ಮಕ",
+    "meaning_english": "Exceedingly idealistic; unrealistic and impractical. Synonyms: Idealistic, Romantic, Visionary, Impractical.",
+    "emoji": "🎠"
+  },
+  {
+    "word": "Rancor",
+    "meaning_kannada": "ದ್ವೇಷ",
+    "meaning_english": "Bitterness or resentfulness, especially when long-standing. Synonyms: Bitterness, Spite, Hate, Resentment.",
+    "emoji": "🔥"
+  },
+  {
+    "word": "Sycophant",
+    "meaning_kannada": "ಚಮಚಾಗಿರಿ ಮಾಡುವವ",
+    "meaning_english": "A person who acts obsequiously toward someone important. Synonyms: Flatterer, Toady, Lackey.",
+    "emoji": "🤝"
+  }
+]
