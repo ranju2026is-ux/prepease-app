@@ -1,0 +1,156 @@
+[
+  {
+    "question": "Synonym for 'Abnegation':",
+    "options": ["Assertion", "Renunciation", "Acceptance", "Indulgence"],
+    "answer": "Renunciation",
+    "type": "synonym",
+    "explanation": "Abnegation involves giving up or rejecting a right or belief."
+  },
+  {
+    "question": "Antonym for 'Ascetic':",
+    "options": ["Austere", "Hedonistic", "Puritanical", "Abstemious"],
+    "answer": "Hedonistic",
+    "type": "antonym",
+    "explanation": "Ascetic means self-denial; Hedonistic means seeking pleasure."
+  },
+  {
+    "question": "Correct the Spelling:",
+    "options": ["Equanimety", "Equanimity", "Equanimmity", "Equanamity"],
+    "answer": "Equanimity",
+    "type": "spelling"
+  },
+  {
+    "question": "Choose the word for 'Fear of being out of date or in the wrong time period':",
+    "options": ["Anachronism", "Evanescent", "Exigent", "Inchoate"],
+    "answer": "Anachronism",
+    "type": "one_word"
+  },
+  {
+    "question": "Fill in the blank: The speaker's ____ tone was meant to stir the angry crowd into a riot.",
+    "options": ["Demagogic", "Pellucid", "Jocund", "Wizened"],
+    "answer": "Demagogic",
+    "type": "sentence_completion"
+  },
+  {
+    "question": "Identify the SYNONYM for 'Effrontery':",
+    "options": ["Modesty", "Audacity", "Shyness", "Courtesy"],
+    "answer": "Audacity",
+    "type": "synonym"
+  },
+  {
+    "question": "Find the error: The manager (A) was forced to (B) capitulate to (C) the workers demands (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "type": "error_detection",
+    "explanation": "Workers' (Possessive plural) needs an apostrophe after 's'."
+  },
+  {
+    "question": "Antonym for 'Banal':",
+    "options": ["Trite", "Original", "Common", "Mundane"],
+    "answer": "Original",
+    "type": "antonym"
+  },
+  {
+    "question": "Synonym for 'Desultory':",
+    "options": ["Methodical", "Haphazard", "Systematic", "Focused"],
+    "answer": "Haphazard",
+    "type": "synonym"
+  },
+  {
+    "question": "Spell Check: Which one is correct?",
+    "options": ["Vicissitude", "Vicisitude", "Vicissitidue", "Vissicitude"],
+    "answer": "Vicissitude",
+    "type": "spelling"
+  },
+  {
+    "question": "Meaning of 'Malinger':",
+    "options": ["To work hard", "To fake illness", "To help others", "To travel"],
+    "answer": "To fake illness",
+    "type": "meaning"
+  },
+  {
+    "question": "Fill in: The ____ cloth allowed light to pass through easily.",
+    "options": ["Diaphanous", "Onerous", "Recondite", "Querulous"],
+    "answer": "Diaphanous",
+    "type": "context"
+  },
+  {
+    "question": "Synonym for 'Invective':",
+    "options": ["Praise", "Vituperation", "Politeness", "Award"],
+    "answer": "Vituperation",
+    "type": "synonym"
+  },
+  {
+    "question": "Antonym for 'Neophyte':",
+    "options": ["Novice", "Expert", "Tyro", "Learner"],
+    "answer": "Expert",
+    "type": "antonym"
+  },
+  {
+    "question": "Choose the correctly spelt word:",
+    "options": ["Perfidy", "Perfiddie", "Perfidey", "Parfidy"],
+    "answer": "Perfidy",
+    "type": "spelling"
+  },
+  {
+    "question": "Meaning of 'Quixotic':",
+    "options": ["Practical", "Unrealistic", "Violent", "Fast"],
+    "answer": "Unrealistic",
+    "type": "meaning"
+  },
+  {
+    "question": "Synonym for 'Upbraid':",
+    "options": ["Scold", "Applaud", "Ignore", "Welcome"],
+    "answer": "Scold",
+    "type": "synonym"
+  },
+  {
+    "question": "Antonym for 'Languid':",
+    "options": ["Sluggish", "Energetic", "Lazy", "Weak"],
+    "answer": "Energetic",
+    "type": "antonym"
+  },
+  {
+    "question": "Fill in: The ____ problem was so complex that only a few experts understood it.",
+    "options": ["Recondite", "Banal", "Hapless", "Jocund"],
+    "answer": "Recondite",
+    "type": "sentence_completion"
+  },
+  {
+    "question": "Synonym for 'Onerous':",
+    "options": ["Easy", "Burdensome", "Light", "Simple"],
+    "answer": "Burdensome",
+    "type": "synonym"
+  },
+  {
+    "question": "Identify the misspelled word:",
+    "options": ["Circumspect", "Fastidious", "Egregious", "Histrionick"],
+    "answer": "Histrionick",
+    "type": "spelling",
+    "explanation": "Correct spelling is 'Histrionic' (no 'k')."
+  },
+  {
+    "question": "Antonym for 'Querulous':",
+    "options": ["Whiny", "Contented", "Petulant", "Irritable"],
+    "answer": "Contented",
+    "type": "antonym"
+  },
+  {
+    "question": "Synonym for 'Pellucid':",
+    "options": ["Cloudy", "Clear", "Vague", "Muddy"],
+    "answer": "Clear",
+    "type": "synonym"
+  },
+  {
+    "question": "Fill in: His ____ manners made him the most popular person at the party.",
+    "options": ["Convivial", "Inchoate", "Lurid", "Nugatory"],
+    "answer": "Convivial",
+    "type": "context"
+  },
+  {
+    "question": "Synonym for 'Gainsay':",
+    "options": ["Confirm", "Deny", "Support", "Accept"],
+    "answer": "Deny",
+    "type": "synonym"
+  }
+]
