@@ -1,142 +1,122 @@
 [
   {
     "word": "Acquitted",
-    "meaning_kannada": "ದೋಷಮುಕ್ತ",
-    "antonym_kannada": "ದೋಷಿ ಎಂದು ನಿರ್ಧರಿಸು",
-    "antonym_english": "Convicted. Synonyms for antonym: Found guilty, Condemned, Sentenced.",
+    "meaning_kannada": "ದೋಷಮುಕ್ತ (ನಿರ್ದೋಷಿ ಎಂದು ಬಿಡುಗಡೆ)",
+    "meaning_english": "Opposite: Convicted",
     "emoji": "⚖️"
   },
   {
     "word": "Adversity",
-    "meaning_kannada": "ದುರದೃಷ್ಟ / ಆಪತ್ತು",
-    "antonym_kannada": "ಸೌಭಾಗ್ಯ / ಸಮೃದ್ಧಿ",
-    "antonym_english": "Prosperity. Synonyms for antonym: Fortune, Success, Affluence.",
+    "meaning_kannada": "ದುರದೃಷ್ಟ (ಕಷ್ಟಕಾಲ)",
+    "meaning_english": "Opposite: Prosperity",
     "emoji": "🌪️"
   },
   {
-    "word": "Affirm",
-    "meaning_kannada": "ದೃಢೀಕರಿಸು",
-    "antonym_kannada": "ನಿರಾಕರಿಸು",
-    "antonym_english": "Deny. Synonyms for antonym: Refute, Contradict, Disavow.",
-    "emoji": "🗣️"
-  },
-  {
     "word": "Amateur",
-    "meaning_kannada": "ಹವ್ಯಾಸಿ",
-    "antonym_kannada": "ವೃತ್ತಿಪರ",
-    "antonym_english": "Professional. Synonyms for antonym: Expert, Specialist, Master.",
+    "meaning_kannada": "ಹವ್ಯಾಸಿ (ಅನನುಭವಿ)",
+    "meaning_english": "Opposite: Professional",
     "emoji": "🎨"
   },
   {
     "word": "Ambiguous",
-    "meaning_kannada": "ಅಸ್ಪಷ್ಟ",
-    "antonym_kannada": "ಸ್ಪಷ್ಟ",
-    "antonym_english": "Lucid. Synonyms for antonym: Clear, Explicit, Evident.",
+    "meaning_kannada": "ಅಸ್ಪಷ್ಟ (ಗೊಂದಲಮಯ)",
+    "meaning_english": "Opposite: Clear / Lucid",
     "emoji": "🌫️"
   },
   {
     "word": "Ample",
-    "meaning_kannada": "ಸಾಕಷ್ಟು / ಹೇರಳ",
-    "antonym_kannada": "ಅಲ್ಪ / ಕೊರತೆ",
-    "antonym_english": "Meager. Synonyms for antonym: Scanty, Insufficient, Sparse.",
+    "meaning_kannada": "ಸಾಕಷ್ಟು (ಹೇರಳ)",
+    "meaning_english": "Opposite: Meager / Scanty",
     "emoji": "🍎"
   },
   {
     "word": "Ascend",
-    "meaning_kannada": "ಏರು",
-    "antonym_kannada": "ಇಳಿ",
-    "antonym_english": "Descend. Synonyms for antonym: Drop, Fall, Sink.",
+    "meaning_kannada": "ಏರು (ಮೇಲಕ್ಕೆ ಹೋಗು)",
+    "meaning_english": "Opposite: Descend",
     "emoji": "🧗"
   },
   {
     "word": "Authentic",
-    "meaning_kannada": "ಅಧಿಕೃತ / ನೈಜ",
-    "antonym_kannada": "ನಕಲಿ",
-    "antonym_english": "Spurious. Synonyms for antonym: Fake, Counterfeit, False.",
+    "meaning_kannada": "ಅಧಿಕೃತ (ನೈಜ)",
+    "meaning_english": "Opposite: Spurious / Fake",
     "emoji": "📜"
   },
   {
     "word": "Cautious",
-    "meaning_kannada": "ಜಾಗರೂಕ",
-    "antonym_kannada": "ಬೇಜವಾಬ್ದಾರಿ",
-    "antonym_english": "Reckless. Synonyms for antonym: Careless, Rash, Impulsive.",
+    "meaning_kannada": "ಜಾಗರೂಕ (ಎಚ್ಚರಿಕೆಯ)",
+    "meaning_english": "Opposite: Reckless / Rash",
     "emoji": "⚠️"
   },
   {
     "word": "Conceal",
-    "meaning_kannada": "ಮುಚ್ಚಿಡು",
-    "antonym_kannada": "ಬಹಿರಂಗಪಡಿಸು",
-    "antonym_english": "Reveal. Synonyms for antonym: Disclose, Expose, Show.",
+    "meaning_kannada": "ಮುಚ್ಚಿಡು (ಗೌಪ್ಯವಾಗಿಡು)",
+    "meaning_english": "Opposite: Reveal / Expose",
     "emoji": "🙈"
   },
   {
     "word": "Discord",
-    "meaning_kannada": "ಅಸಮಾಧಾನ / ಕಲಹ",
-    "antonym_kannada": "ಸಾಮರಸ್ಯ / ಐಕ್ಯತೆ",
-    "antonym_english": "Harmony. Synonyms for antonym: Accord, Agreement, Unity.",
+    "meaning_kannada": "ಅಸಮಾಧಾನ (ಕಲಹ)",
+    "meaning_english": "Opposite: Harmony / Accord",
     "emoji": "🎸"
   },
   {
     "word": "Dormant",
-    "meaning_kannada": "ಸುಪ್ತ / ನಿಷ್ಕ್ರಿಯ",
-    "antonym_kannada": "ಸಕ್ರಿಯ",
-    "antonym_english": "Active. Synonyms for antonym: Energetic, Operative, Busy.",
+    "meaning_kannada": "ಸುಪ್ತ (ನಿಷ್ಕ್ರಿಯ)",
+    "meaning_english": "Opposite: Active",
     "emoji": "💤"
   },
   {
     "word": "Enormous",
-    "meaning_kannada": "ಬೃಹತ್",
-    "antonym_kannada": "ಅತಿ ಸಣ್ಣ",
-    "antonym_english": "Tiny. Synonyms for antonym: Minute, Small, Puny.",
+    "meaning_kannada": "ಬೃಹತ್ (ಬಹಳ ದೊಡ್ಡದು)",
+    "meaning_english": "Opposite: Tiny / Puny",
     "emoji": "🐘"
   },
   {
     "word": "Exodus",
-    "meaning_kannada": "ನಿರ್ಗಮನ (ಗುಂಪಿನಲ್ಲಿ)",
-    "antonym_kannada": "ಆಗಮನ",
-    "antonym_english": "Influx. Synonyms for antonym: Arrival, Inundation, Entry.",
+    "meaning_kannada": "ನಿರ್ಗಮನ (ಸಮೂಹ ನಿರ್ಗಮನ)",
+    "meaning_english": "Opposite: Influx / Arrival",
     "emoji": "🚶‍♂️"
   },
   {
     "word": "Frugal",
     "meaning_kannada": "ಮಿತವ್ಯಯಿ",
-    "antonym_kannada": "ದುಂದುವೆಚ್ಚ ಮಾಡುವವ",
-    "antonym_english": "Extravagant. Synonyms for antonym: Wasteful, Lavish, Spendthrift.",
+    "meaning_english": "Opposite: Extravagant",
     "emoji": "💰"
   },
   {
-    "word": "Guilty",
-    "meaning_kannada": "ಅಪರಾಧಿ",
-    "antonym_kannada": "ನಿರಪರಾಧಿ",
-    "antonym_english": "Innocent. Synonyms for antonym: Blameless, Pure, Faultless.",
-    "emoji": "👨‍ೋ"
-  },
-  {
     "word": "Hostile",
-    "meaning_kannada": "ಹಗೆತನದ",
-    "antonym_kannada": "ಸ್ನೇಹಪರ",
-    "antonym_english": "Friendly. Synonyms for antonym: Amiable, Cordial, Amiable.",
+    "meaning_kannada": "ಹಗೆತನದ (ಶತ್ರುತ್ವದ)",
+    "meaning_english": "Opposite: Friendly / Amiable",
     "emoji": "⚔️"
   },
   {
     "word": "Ignite",
     "meaning_kannada": "ಬೆಂಕಿ ಹಚ್ಚು",
-    "antonym_kannada": "ಬೆಂಕಿ ಆರಿಸು",
-    "antonym_english": "Extinguish. Synonyms for antonym: Quench, Put out, Douse.",
+    "meaning_english": "Opposite: Extinguish",
     "emoji": "🔥"
   },
   {
     "word": "Opaque",
     "meaning_kannada": "ಅಪಾರದರ್ಶಕ",
-    "antonym_kannada": "ಪಾರದರ್ಶಕ",
-    "antonym_english": "Transparent. Synonyms for antonym: Clear, See-through, Pellucid.",
+    "meaning_english": "Opposite: Transparent",
     "emoji": "🧱"
+  },
+  {
+    "word": "Precise",
+    "meaning_kannada": "ನಿಖರ (ಖಚಿತ)",
+    "meaning_english": "Opposite: Vague / Inaccurate",
+    "emoji": "🎯"
+  },
+  {
+    "word": "Relinquish",
+    "meaning_kannada": "ಪರಿತ್ಯಜಿಸು (ಬಿಟ್ಟುಕೊಡು)",
+    "meaning_english": "Opposite: Retain / Keep",
+    "emoji": "👐"
   },
   {
     "word": "Vague",
     "meaning_kannada": "ಅಸ್ಪಷ್ಟ",
-    "antonym_kannada": "ನಿಖರ / ಸ್ಪಷ್ಟ",
-    "antonym_english": "Precise. Synonyms for antonym: Clear, Definite, Specific.",
+    "meaning_english": "Opposite: Definite / Clear",
     "emoji": "🌫️"
   }
 ]
