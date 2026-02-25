@@ -1,122 +1,182 @@
 [
   {
-    "question": "Choose the correct Antonym for 'Adversity':",
-    "options": ["Misfortune", "Prosperity", "Calamity", "Hardship"],
-    "answer": "Prosperity",
-    "explanation": "Adversity means difficult times; Prosperity means state of being successful and flourishing."
+    "question": "What is the antonym of the word 'Benevolent'?",
+    "options": ["Kind", "Malevolent", "Generous", "Compassionate"],
+    "answer": "Malevolent",
+    "explanation": "Benevolent means kind and well-meaning, while Malevolent means wishing to do evil to others."
   },
   {
-    "question": "Identify the opposite of the underlined word: The volcano has been <u>dormant</u> for years.",
-    "options": ["Passive", "Active", "Quiet", "Asleep"],
-    "answer": "Active",
-    "explanation": "Dormant means temporarily inactive; Active means showing movement or energy."
+    "question": "Choose the correct antonym for 'Arrogant':",
+    "options": ["Proud", "Haughty", "Humble", "Egotistical"],
+    "answer": "Humble",
+    "explanation": "Arrogant implies an exaggerated sense of self-importance; Humble means having a modest view of one's importance."
   },
   {
-    "question": "What is the opposite of 'Amateur'?",
-    "options": ["Novice", "Learner", "Professional", "Beginner"],
-    "answer": "Professional",
-    "explanation": "An amateur does something for hobby; a professional does it as a career or for high skill."
-  },
-  {
-    "question": "Fill in the blank with the Antonym of 'Conceal': The investigation will ____ the truth soon.",
-    "options": ["Hide", "Reveal", "Cover", "Mask"],
-    "answer": "Reveal",
-    "explanation": "Conceal means to hide; Reveal means to make something known."
-  },
-  {
-    "question": "Select the Antonym for 'Ample':",
-    "options": ["Plentiful", "Meager", "Large", "Enough"],
-    "answer": "Meager",
-    "explanation": "Ample means more than enough; Meager means lacking in quantity or quality."
-  },
-  {
-    "question": "Sentence Context: Light can pass through glass because it is transparent, but it cannot pass through wood because wood is ____.",
-    "options": ["Clear", "Pellucid", "Opaque", "Glassy"],
-    "answer": "Opaque",
-    "explanation": "Transparent allows light to pass; Opaque does not."
-  },
-  {
-    "question": "Choose the correct Antonym for 'Acquitted':",
-    "options": ["Released", "Convicted", "Freed", "Absolved"],
-    "answer": "Convicted",
-    "explanation": "To be acquitted is to be found innocent; to be convicted is to be found guilty."
-  },
-  {
-    "question": "What is the opposite of 'Ascend'?",
-    "options": ["Climb", "Rise", "Descend", "Scale"],
-    "answer": "Descend",
-    "explanation": "Ascend means to go up; Descend means to go down."
-  },
-  {
-    "question": "Find the Antonym of the underlined word: The document was proved to be <u>authentic</u>.",
-    "options": ["Real", "Spurious", "Genuine", "Official"],
-    "answer": "Spurious",
-    "explanation": "Authentic means real; Spurious means fake or false."
-  },
-  {
-    "question": "Fill in the blank with the opposite of 'Cautious': Driving at 120 km/h in a narrow lane is ____.",
-    "options": ["Careful", "Prudent", "Reckless", "Wary"],
+    "question": "The driver was 'Cautious' due to the fog. Select the opposite of the underlined word.",
+    "options": ["Prudent", "Watchful", "Reckless", "Vigilant"],
     "answer": "Reckless",
-    "explanation": "Cautious means taking care; Reckless means acting without thinking of danger."
+    "explanation": "Cautious means being careful; Reckless means acting without thinking about the danger."
   },
   {
-    "question": "Identify the opposite of 'Discord':",
-    "options": ["Harmony", "Conflict", "Battle", "Strife"],
-    "answer": "Harmony",
-    "explanation": "Discord is disagreement between people; Harmony is agreement or peace."
+    "question": "Find the antonym of 'Abundance':",
+    "options": ["Plenty", "Scarcity", "Profusion", "Surplus"],
+    "answer": "Scarcity",
+    "explanation": "Abundance means a large quantity; Scarcity means being in short supply."
   },
   {
-    "question": "Choose the correct Antonym for 'Enormous':",
-    "options": ["Huge", "Immense", "Puny", "Mammoth"],
-    "answer": "Puny",
-    "explanation": "Enormous means very large; Puny means small and weak."
+    "question": "An 'Optimist' always looks at the brighter side. What is the antonym?",
+    "options": ["Hopeful", "Confident", "Pessimist", "Cheerful"],
+    "answer": "Pessimist",
+    "explanation": "Optimist is a person who is hopeful; Pessimist is a person who expects the worst."
   },
   {
-    "question": "What is the opposite of 'Exodus'?",
-    "options": ["Departure", "Influx", "Exit", "Migration"],
-    "answer": "Influx",
-    "explanation": "Exodus is a mass departure; Influx is a mass arrival."
+    "question": "The materials used were 'Flexible'. Choose the antonym:",
+    "options": ["Rigid", "Elastic", "Pliant", "Yielding"],
+    "answer": "Rigid",
+    "explanation": "Flexible means able to bend; Rigid means stiff and unable to bend."
   },
   {
-    "question": "Identify the Antonym of 'Frugal':",
-    "options": ["Economical", "Extravagant", "Cheap", "Careful"],
-    "answer": "Extravagant",
-    "explanation": "Frugal means simple and plain (saving money); Extravagant means spending too much."
+    "question": "Identify the antonym for 'Transparent':",
+    "options": ["Clear", "Lucid", "Opaque", "Crystalline"],
+    "answer": "Opaque",
+    "explanation": "Transparent objects allow light through; Opaque objects do not."
   },
   {
-    "question": "Find the opposite of the underlined word: His attitude towards the new neighbors was <u>hostile</u>.",
-    "options": ["Unfriendly", "Amiable", "Mean", "Harsh"],
+    "question": "Is the leather 'Artificial' or real? Select the antonym of 'Artificial':",
+    "options": ["Synthetic", "Natural", "Man-made", "Bogus"],
+    "answer": "Natural",
+    "explanation": "Artificial means made by humans; Natural means existing in or caused by nature."
+  },
+  {
+    "question": "We have 'Ample' time to complete the task. Choose the antonym:",
+    "options": ["Abundant", "Meagre", "Sufficient", "Copious"],
+    "answer": "Meagre",
+    "explanation": "Ample means more than enough; Meagre means lacking in quantity or quality."
+  },
+  {
+    "question": "Choose the antonym for 'Distant':",
+    "options": ["Remote", "Adjacent", "Isolated", "Faraway"],
+    "answer": "Adjacent",
+    "explanation": "Distant means far away; Adjacent means next to or very near something."
+  },
+  {
+    "question": "The waves were 'Gigantic'. What is the antonym?",
+    "options": ["Immense", "Colossal", "Tiny", "Mammoth"],
+    "answer": "Tiny",
+    "explanation": "Gigantic means huge; Tiny means very small."
+  },
+  {
+    "question": "Find the word opposite in meaning to 'Harmony':",
+    "options": ["Discord", "Peace", "Unity", "Concord"],
+    "answer": "Discord",
+    "explanation": "Harmony is agreement; Discord is disagreement or lack of harmony."
+  },
+  {
+    "question": "Choose the antonym for 'Victory':",
+    "options": ["Triumph", "Defeat", "Success", "Conquest"],
+    "answer": "Defeat",
+    "explanation": "Victory is winning; Defeat is being beaten in a contest."
+  },
+  {
+    "question": "Honesty is a great 'Virtue'. Choose the antonym:",
+    "options": ["Vice", "Merit", "Morality", "Goodness"],
+    "answer": "Vice",
+    "explanation": "Virtue is good moral behavior; Vice is wicked or immoral behavior."
+  },
+  {
+    "question": "His instructions were 'Vague'. Choose the antonym:",
+    "options": ["Ambiguous", "Precise", "Unclear", "Fuzzy"],
+    "answer": "Precise",
+    "explanation": "Vague means unclear; Precise means exact and clear."
+  },
+  {
+    "question": "The patient's condition is 'Stable'. Select the antonym:",
+    "options": ["Steady", "Unsteady", "Constant", "Durable"],
+    "answer": "Unsteady",
+    "explanation": "Stable means not likely to change; Unsteady means liable to fall or shake."
+  },
+  {
+    "question": "The winter was 'Severe'. Choose the antonym:",
+    "options": ["Harsh", "Mild", "Intense", "Rigorous"],
+    "answer": "Mild",
+    "explanation": "Severe means very intense or harsh; Mild means not strong or harsh."
+  },
+  {
+    "question": "The surface was 'Rough'. Choose the antonym:",
+    "options": ["Coarse", "Smooth", "Rugged", "Uneven"],
+    "answer": "Smooth",
+    "explanation": "Rough means uneven; Smooth means having an even surface."
+  },
+  {
+    "question": "The 'Rapid' growth of the city surprised many. Choose the antonym:",
+    "options": ["Swift", "Sluggish", "Fast", "Quick"],
+    "answer": "Sluggish",
+    "explanation": "Rapid means fast; Sluggish means moving or reacting more slowly than normal."
+  },
+  {
+    "question": "The strength of a nation lies in its 'Unity'. Choose the antonym:",
+    "options": ["Solidarity", "Oneness", "Division", "Union"],
+    "answer": "Division",
+    "explanation": "Unity is being joined as one; Division is being separated into parts."
+  },
+  {
+    "question": "Handling chemicals can be 'Hazardous'. Choose the antonym:",
+    "options": ["Perilous", "Safe", "Risky", "Precarious"],
+    "answer": "Safe",
+    "explanation": "Hazardous means dangerous; Safe means not exposed to danger."
+  },
+  {
+    "question": "The author remains 'Obscure'. Choose the antonym:",
+    "options": ["Famous", "Hidden", "Unknown", "Vague"],
+    "answer": "Famous",
+    "explanation": "Obscure means not well known; Famous means known by many people."
+  },
+  {
+    "question": "Helmet use is 'Mandatory'. Choose the antonym:",
+    "options": ["Compulsory", "Optional", "Required", "Obligatory"],
+    "answer": "Optional",
+    "explanation": "Mandatory means required; Optional means left to one's choice."
+  },
+  {
+    "question": "They were met with a 'Hostile' crowd. Choose the antonym:",
+    "options": ["Amiable", "Antagonistic", "Unfriendly", "Belligerent"],
     "answer": "Amiable",
     "explanation": "Hostile means unfriendly; Amiable means friendly and pleasant."
   },
   {
-    "question": "What is the opposite of 'Ignite'?",
-    "options": ["Burn", "Extinguish", "Kindle", "Fire"],
-    "answer": "Extinguish",
-    "explanation": "Ignite means to catch fire; Extinguish means to put out a fire."
+    "question": "Glass is 'Fragile'. Choose the antonym:",
+    "options": ["Brittle", "Robust", "Delicate", "Weak"],
+    "answer": "Robust",
+    "explanation": "Fragile means easily broken; Robust means strong and healthy."
   },
   {
-    "question": "Choose the correct Antonym for 'Precise':",
-    "options": ["Exact", "Vague", "Accurate", "Specific"],
-    "answer": "Vague",
-    "explanation": "Precise means exact and clear; Vague means uncertain or unclear."
+    "question": "She leads a 'Frugal' lifestyle. Choose the antonym:",
+    "options": ["Thrifty", "Extravagant", "Economical", "Stingy"],
+    "answer": "Extravagant",
+    "explanation": "Frugal means sparing with money; Extravagant means spending more than is necessary."
   },
   {
-    "question": "Identify the Antonym of 'Relinquish':",
-    "options": ["Give up", "Retain", "Abandon", "Surrender"],
-    "answer": "Retain",
-    "explanation": "Relinquish means to give up; Retain means to keep possession of."
+    "question": "The building is 'Enormous'. Choose the antonym:",
+    "options": ["Gigantic", "Vast", "Tiny", "Massive"],
+    "answer": "Tiny",
+    "explanation": "Enormous means very large; Tiny means very small."
   },
   {
-    "question": "Sentence Context: The instructions were so ____ that nobody knew what to do next.",
-    "options": ["Definite", "Vague", "Clear", "Precise"],
-    "answer": "Vague",
-    "explanation": "Vague is the antonym of clear/precise, fitting the context of confusion."
+    "question": "We need a 'Dynamic' leader. Choose the antonym:",
+    "options": ["Active", "Static", "Energetic", "Vibrant"],
+    "answer": "Static",
+    "explanation": "Dynamic means full of change and energy; Static means lacking in change or movement."
   },
   {
-    "question": "What is the Antonym of 'Ambiguous'?",
-    "options": ["Obscure", "Unclear", "Lucid", "Puzzling"],
-    "answer": "Lucid",
-    "explanation": "Ambiguous means having double meaning; Lucid means expressed clearly and easy to understand."
+    "question": "He fell into 'Despair' after the loss. Choose the antonym:",
+    "options": ["Hopelessness", "Misery", "Hope", "Gloom"],
+    "answer": "Hope",
+    "explanation": "Despair is the absence of hope; Hope is a feeling of expectation."
+  },
+  {
+    "question": "The soldier showed great 'Courage'. Choose the antonym:",
+    "options": ["Bravery", "Valour", "Cowardice", "Daring"],
+    "answer": "Cowardice",
+    "explanation": "Courage is bravery; Cowardice is a lack of bravery."
   }
 ]
