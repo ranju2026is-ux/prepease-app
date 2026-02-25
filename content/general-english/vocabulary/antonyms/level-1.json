@@ -1,92 +1,122 @@
 [
   {
-    "word": "Abundant",
-    "meaning_kannada": "ಹೇರಳ (ತುಂಬಾ ಹೆಚ್ಚು)",
-    "meaning_english": "Opposite: Scarce / Meager",
-    "emoji": "🍎"
+    "word": "Industrious",
+    "meaning_kannada": "ಪರಿಶ್ರಮಿ (ಕಷ್ಟಪಟ್ಟು ಕೆಲಸ ಮಾಡುವ)",
+    "meaning_english": "Hardworking and diligent. Synonyms: Diligent, Assiduous, Sedulous, Laborious.",
+    "emoji": "🐝"
   },
   {
-    "word": "Ancient",
-    "meaning_kannada": "ಪ್ರಾಚೀನ (ಹಳೆಯದು)",
-    "meaning_english": "Opposite: Modern / New",
-    "emoji": "🏛️"
+    "word": "Concise",
+    "meaning_kannada": "ಸಂಕ್ಷಿಪ್ತ (ಕಡಿಮೆ ಪದಗಳಲ್ಲಿ)",
+    "meaning_english": "Giving a lot of information clearly and in a few words. Synonyms: Succinct, Brief, Pithy, Terse.",
+    "emoji": "📏"
   },
   {
-    "word": "Arrogant",
-    "meaning_kannada": "ಅಹಂಕಾರಿ",
-    "meaning_english": "Opposite: Humble / Modest",
-    "emoji": "😤"
+    "word": "Terminate",
+    "meaning_kannada": "ಕೊನೆಗೊಳಿಸು",
+    "meaning_english": "To bring to an end. Synonyms: Cease, Conclude, Finish, Abort.",
+    "emoji": "🛑"
   },
   {
-    "word": "Bold",
-    "meaning_kannada": "ಧೈರ್ಯಶಾಲಿ",
-    "meaning_english": "Opposite: Timid / Cowardly",
-    "emoji": "🦁"
+    "word": "Superior",
+    "meaning_kannada": "ಉನ್ನತ ಅಥವಾ ಮೇಲಾದ",
+    "meaning_english": "Higher in rank, status, or quality. Synonyms: Elite, Prime, Paramount, Superlative.",
+    "emoji": "🏆"
   },
   {
-    "word": "Bright",
-    "meaning_kannada": "ಪ್ರಕಾಶಮಾನ",
-    "meaning_english": "Opposite: Dull / Dim",
+    "word": "Luminous",
+    "meaning_kannada": "ಪ್ರಕಾಶಮಾನವಾದ",
+    "meaning_english": "Full of or shedding light; bright or shining. Synonyms: Radiant, Resplendent, Lustrous, Beaming.",
     "emoji": "💡"
   },
   {
-    "word": "Deep",
-    "meaning_kannada": "ಆಳವಾದ",
-    "meaning_english": "Opposite: Shallow",
-    "emoji": "🌊"
+    "word": "Dull",
+    "meaning_kannada": "ಮಂದವಾದ ಅಥವಾ ನೀರಸ",
+    "meaning_english": "Lacking interest or brightness. Synonyms: Drab, Lacklustre, Somber, Tedious.",
+    "emoji": "🌫️"
   },
   {
-    "word": "Expand",
-    "meaning_kannada": "ವಿಸ್ತರಿಸು",
-    "meaning_english": "Opposite: Contract / Shrink",
-    "emoji": "🎈"
+    "word": "Begin",
+    "meaning_kannada": "ಪ್ರಾರಂಭಿಸು",
+    "meaning_english": "To start doing something. Synonyms: Commence, Initiate, Inaugurate, Launch.",
+    "emoji": "🏁"
   },
   {
-    "word": "Flexible",
-    "meaning_kannada": "ನಮ್ಯ (ಬಾಗುವಂತಹ)",
-    "meaning_english": "Opposite: Rigid / Stiff",
-    "emoji": "➰"
+    "word": "Serious",
+    "meaning_kannada": "ಗಂಭೀರ",
+    "meaning_english": "Demanding religious thought or care. Synonyms: Solemn, Severe, Earnest, Grave.",
+    "emoji": "🧐"
   },
   {
-    "word": "Genuine",
-    "meaning_kannada": "ಅಸಲಿ (ನೈಜ)",
-    "meaning_english": "Opposite: Fake / Spurious",
-    "emoji": "✅"
+    "word": "Assail",
+    "meaning_kannada": "ದಾಳಿ ಮಾಡು",
+    "meaning_english": "To make a concerted or violent attack on. Synonyms: Attack, Assault, Beset, Charge.",
+    "emoji": "⚔️"
   },
   {
-    "word": "Halt",
-    "meaning_kannada": "ನಿಲ್ಲಿಸು",
-    "meaning_english": "Opposite: Proceed / Continue",
-    "emoji": "🛑"
+    "word": "Perceive",
+    "meaning_kannada": "ಗ್ರಹಿಸು ಅಥವಾ ಗಮನಿಸು",
+    "meaning_english": "Become aware or conscious of something. Synonyms: Discern, Notice, Distinguish, Recognize.",
+    "emoji": "👁️"
+  },
+  {
+    "word": "Wane",
+    "meaning_kannada": "ಕ್ಷೀಣಿಸು",
+    "meaning_english": "Decrease in vigor, power, or extent; become weaker. Synonyms: Decline, Diminish, Ebb, Dwindle.",
+    "emoji": "📉"
+  },
+  {
+    "word": "Amateur",
+    "meaning_kannada": "ಹವ್ಯಾಸಿ",
+    "meaning_english": "A person who engages in a pursuit on an unpaid basis. Synonyms: Novice, Layman, Neophyte, Dilettante.",
+    "emoji": "🎨"
+  },
+  {
+    "word": "Apathetic",
+    "meaning_kannada": "ನಿರಾಸಕ್ತಿ",
+    "meaning_english": "Showing or feeling no interest, enthusiasm, or concern. Synonyms: Indifferent, Unconcerned, Passive, Lukewarm.",
+    "emoji": "😐"
+  },
+  {
+    "word": "Assiduous",
+    "meaning_kannada": "ಪರಿಶ್ರಮದ",
+    "meaning_english": "Showing great care and perseverance. Synonyms: Meticulous, Thorough, Attentive, Persevering.",
+    "emoji": "🧗"
+  },
+  {
+    "word": "Radiant",
+    "meaning_kannada": "ದೀಪ್ತಿಮಂತ",
+    "meaning_english": "Sending out light; shining or glowing brightly. Synonyms: Effulgent, Brilliant, Incandescent, Vivid.",
+    "emoji": "☀️"
   },
   {
     "word": "Innocent",
     "meaning_kannada": "ನಿರಪರಾಧಿ",
-    "meaning_english": "Opposite: Guilty",
-    "emoji": "👶"
+    "meaning_english": "Not guilty of a crime or offense. Synonyms: Guiltless, Blameless, Impeccable, Virtuous.",
+    "emoji": "😇"
   },
   {
-    "word": "Lend",
-    "meaning_kannada": "ಸಾಲ ನೀಡು",
-    "meaning_english": "Opposite: Borrow",
-    "emoji": "💰"
+    "word": "Clamour",
+    "meaning_kannada": "ಗದ್ದಲ",
+    "meaning_english": "A loud and confused noise. Synonyms: Uproar, Tumult, Din, Hubbub.",
+    "emoji": "📢"
   },
   {
-    "word": "Permanent",
-    "meaning_kannada": "ಕಾಯಂ (ಶಾಶ್ವತ)",
-    "meaning_english": "Opposite: Temporary",
-    "emoji": "🏛️"
+    "word": "Calamity",
+    "meaning_kannada": "ವಿಪತ್ತು",
+    "meaning_english": "An event causing great and often sudden damage. Synonyms: Catastrophe, Disaster, Adversity, Mishap.",
+    "emoji": "🌋"
   },
   {
-    "word": "Rough",
-    "meaning_kannada": "ಒರಟು",
-    "meaning_english": "Opposite: Smooth / Polished",
-    "emoji": "🧱"
+    "word": "Curiosity",
+    "meaning_kannada": "ಕುತೂಹಲ",
+    "meaning_english": "A strong desire to know or learn something. Synonyms: Inquisitiveness, Interest, Eagerness, Scrutiny.",
+    "emoji": "🔍"
   },
   {
-    "word": "Victory",
-    "meaning_kannada": "ವಿಜಯ (ಗೆಲುವು)",
-    "meaning_english": "Opposite: Defeat / Loss",
-    "emoji": "🏆"
+    "word": "Emphasis",
+    "meaning_kannada": "ಒತ್ತು ನೀಡುವುದು",
+    "meaning_english": "Special importance or prominence given to something. Synonyms: Stress, Weight, Priority, Significance.",
+    "emoji": "📌"
   }
 ]
