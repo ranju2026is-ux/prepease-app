@@ -1,0 +1,212 @@
+[
+  {
+    "question": "Choose the antonym for 'Benevolent':",
+    "options": ["Compassionate", "Malevolent", "Generous", "Kind"],
+    "answer": "Malevolent",
+    "explanation": "Benevolent means kind and well-meaning, while Malevolent means wishing to do evil."
+  },
+  {
+    "question": "What is the opposite of 'Arrogant'?",
+    "options": ["Haughty", "Conceited", "Humble", "Proud"],
+    "answer": "Humble",
+    "explanation": "Arrogant is characterized by pride; Humble reflects modesty."
+  },
+  {
+    "question": "Find the antonym for 'Cautious':",
+    "options": ["Vigilant", "Prudent", "Reckless", "Wary"],
+    "answer": "Reckless",
+    "explanation": "Cautious means being careful; Reckless means acting without care for consequences."
+  },
+  {
+    "question": "Select the antonym for 'Abundance':",
+    "options": ["Scarcity", "Plenitude", "Surplus", "Profusion"],
+    "answer": "Scarcity",
+    "explanation": "Abundance is a large quantity; Scarcity is a shortage."
+  },
+  {
+    "question": "Choose the antonym for 'Optimist':",
+    "options": ["Believer", "Pessimist", "Idealist", "Dreamer"],
+    "answer": "Pessimist",
+    "explanation": "An Optimist sees the positive; a Pessimist expects the worst."
+  },
+  {
+    "question": "The rod was 'Flexible'. Choose the antonym:",
+    "options": ["Pliable", "Rigid", "Supple", "Elastic"],
+    "answer": "Rigid",
+    "explanation": "Flexible means easy to bend; Rigid means stiff."
+  },
+  {
+    "question": "Identify the antonym for 'Transparent':",
+    "options": ["Clear", "Lucid", "Opaque", "Crystalline"],
+    "answer": "Opaque",
+    "explanation": "Transparent allows light to pass; Opaque does not."
+  },
+  {
+    "question": "What is the opposite of 'Artificial'?",
+    "options": ["Synthetic", "Natural", "Bogus", "Sham"],
+    "answer": "Natural",
+    "explanation": "Artificial is man-made; Natural occurs in nature."
+  },
+  {
+    "question": "Choose the antonym for 'Ample':",
+    "options": ["Meagre", "Sufficient", "Plentiful", "Copious"],
+    "answer": "Meagre",
+    "explanation": "Ample means more than enough; Meagre means very small or inadequate."
+  },
+  {
+    "question": "Select the antonym for 'Distant':",
+    "options": ["Remote", "Faraway", "Adjacent", "Isolated"],
+    "answer": "Adjacent",
+    "explanation": "Distant means far away; Adjacent means next to."
+  },
+  {
+    "question": "Choose the antonym for 'Gigantic':",
+    "options": ["Colossal", "Tiny", "Mammoth", "Immense"],
+    "answer": "Tiny",
+    "explanation": "Gigantic is huge; Tiny is very small."
+  },
+  {
+    "question": "What is the opposite of 'Harmony'?",
+    "options": ["Concord", "Discord", "Peace", "Unity"],
+    "answer": "Discord",
+    "explanation": "Harmony is agreement; Discord is conflict."
+  },
+  {
+    "question": "Find the antonym for 'Victory':",
+    "options": ["Triumph", "Success", "Defeat", "Conquest"],
+    "answer": "Defeat",
+    "explanation": "Victory is winning; Defeat is losing."
+  },
+  {
+    "question": "Select the antonym for 'Virtue':",
+    "options": ["Vice", "Merit", "Morality", "Goodness"],
+    "answer": "Vice",
+    "explanation": "Virtue is moral excellence; Vice is moral failure."
+  },
+  {
+    "question": "Choose the antonym for 'Vague':",
+    "options": ["Ambiguous", "Hazy", "Clear", "Obscure"],
+    "answer": "Clear",
+    "explanation": "Vague is unclear; Clear is easily understood."
+  },
+  {
+    "question": "Find the antonym for 'Stable':",
+    "options": ["Steady", "Firm", "Volatile", "Constant"],
+    "answer": "Volatile",
+    "explanation": "Stable is fixed/steady; Volatile is likely to change suddenly."
+  },
+  {
+    "question": "Choose the antonym for 'Severe':",
+    "options": ["Harsh", "Mild", "Rigorous", "Strict"],
+    "answer": "Mild",
+    "explanation": "Severe is intense or harsh; Mild is gentle."
+  },
+  {
+    "question": "Identify the antonym for 'Rough':",
+    "options": ["Coarse", "Smooth", "Rugged", "Uneven"],
+    "answer": "Smooth",
+    "explanation": "Rough is uneven; Smooth is an even surface."
+  },
+  {
+    "question": "What is the antonym for 'Rapid'?",
+    "options": ["Swift", "Quick", "Sluggish", "Fast"],
+    "answer": "Sluggish",
+    "explanation": "Rapid is fast; Sluggish is very slow."
+  },
+  {
+    "question": "Choose the antonym for 'Unity':",
+    "options": ["Oneness", "Division", "Union", "Solidarity"],
+    "answer": "Division",
+    "explanation": "Unity is being one; Division is being split."
+  },
+  {
+    "question": "Find the antonym for 'Hazardous':",
+    "options": ["Perilous", "Risky", "Safe", "Dangerous"],
+    "answer": "Safe",
+    "explanation": "Hazardous means dangerous; Safe means free from danger."
+  },
+  {
+    "question": "Identify the antonym for 'Obscure':",
+    "options": ["Famous", "Hidden", "Unknown", "Vague"],
+    "answer": "Famous",
+    "explanation": "Obscure means not well-known; Famous means widely known."
+  },
+  {
+    "question": "Choose the antonym for 'Mandatory':",
+    "options": ["Compulsory", "Optional", "Required", "Binding"],
+    "answer": "Optional",
+    "explanation": "Mandatory is required; Optional is by choice."
+  },
+  {
+    "question": "Select the antonym for 'Hostile':",
+    "options": ["Amiable", "Belligerent", "Aggressive", "Unfriendly"],
+    "answer": "Amiable",
+    "explanation": "Hostile is unfriendly; Amiable is friendly."
+  },
+  {
+    "question": "Choose the antonym for 'Fragile':",
+    "options": ["Delicate", "Brittle", "Robust", "Weak"],
+    "answer": "Robust",
+    "explanation": "Fragile is easily broken; Robust is strong and sturdy."
+  },
+  {
+    "question": "What is the opposite of 'Frugal'?",
+    "options": ["Thrifty", "Extravagant", "Economical", "Sparing"],
+    "answer": "Extravagant",
+    "explanation": "Frugal is being careful with money; Extravagant is wasteful."
+  },
+  {
+    "question": "Identify the antonym for 'Enormous':",
+    "options": ["Vast", "Gigantic", "Tiny", "Massive"],
+    "answer": "Tiny",
+    "explanation": "Enormous is very large; Tiny is very small."
+  },
+  {
+    "question": "Choose the antonym for 'Dynamic':",
+    "options": ["Active", "Energetic", "Static", "Vibrant"],
+    "answer": "Static",
+    "explanation": "Dynamic involves change/activity; Static is stationary/unchanging."
+  },
+  {
+    "question": "Select the antonym for 'Despair':",
+    "options": ["Misery", "Hope", "Gloom", "Sorrow"],
+    "answer": "Hope",
+    "explanation": "Despair is loss of hope; Hope is the presence of it."
+  },
+  {
+    "question": "What is the antonym for 'Courage'?",
+    "options": ["Bravery", "Valour", "Cowardice", "Daring"],
+    "answer": "Cowardice",
+    "explanation": "Courage is bravery; Cowardice is lack of it."
+  },
+  {
+    "question": "Find the antonym for 'Exodus':",
+    "options": ["Departure", "Influx", "Exit", "Withdrawal"],
+    "answer": "Influx",
+    "explanation": "Exodus is a mass departure; Influx is a mass arrival."
+  },
+  {
+    "question": "Select the antonym for 'Lethargic':",
+    "options": ["Sluggish", "Energetic", "Apathetic", "Idle"],
+    "answer": "Energetic",
+    "explanation": "Lethargic is slow and lazy; Energetic is full of power."
+  },
+  {
+    "question": "Choose the antonym for 'Nadir':",
+    "options": ["Base", "Zenith", "Bottom", "Floor"],
+    "answer": "Zenith",
+    "explanation": "Nadir is the lowest point; Zenith is the highest point."
+  },
+  {
+    "question": "Identify the antonym for 'Placid':",
+    "options": ["Calm", "Serene", "Turbulent", "Tranquil"],
+    "answer": "Turbulent",
+    "explanation": "Placid means calm; Turbulent means violent or disordered."
+  },
+  {
+    "question": "Choose the antonym for 'Vigilant':",
+    "options": ["Watchful", "Negligent", "Attentive", "Wary"],
+    "answer": "Negligent",
+    "explanation": "Vigilant is being watchful; Negligent is being careless."
+  }
+]
