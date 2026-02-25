@@ -1,92 +1,122 @@
 [
   {
-    "question": "Choose the correct Antonym for 'Abundant':",
-    "options": ["Plenty", "Scarce", "Bountiful", "Heavy"],
-    "answer": "Scarce",
-    "explanation": "Abundant means having a lot of something; Scarce means there is very little of it."
+    "question": "Which of the following is the most appropriate synonym for 'Industrious'?",
+    "options": ["Indolent", "Lethargic", "Diligent", "Sluggish"],
+    "answer": "Diligent",
+    "explanation": "Industrious and Diligent both mean hardworking and showing great care in one's work."
   },
   {
-    "question": "What is the opposite of 'Ancient'?",
-    "options": ["Historical", "Old", "Antique", "Modern"],
-    "answer": "Modern",
-    "explanation": "Ancient refers to the very distant past, while Modern refers to the present time."
+    "question": "The editor asked the reporter to make the report more 'Concise' to fit the page limit. What does 'Concise' mean?",
+    "options": ["Redundant", "Succinct", "Wordy", "Extended"],
+    "answer": "Succinct",
+    "explanation": "Concise and Succinct both refer to something expressed in few words without unnecessary detail."
   },
   {
-    "question": "Find the antonym of the underlined word: The king was known to be <u>arrogant</u>.",
-    "options": ["Proud", "Humble", "Cruel", "Haughty"],
-    "answer": "Humble",
-    "explanation": "Arrogant means having too much pride; Humble means being modest and respectful."
+    "question": "Choose the word that is closest in meaning to 'Terminate':",
+    "options": ["Commence", "Initiate", "Cease", "Prolong"],
+    "answer": "Cease",
+    "explanation": "Terminate and Cease both mean to bring something to an end or stop."
   },
   {
-    "question": "Fill in the blank with the opposite of 'Bold': He was too ____ to speak in front of the crowd.",
-    "options": ["Brave", "Daring", "Timid", "Strong"],
-    "answer": "Timid",
-    "explanation": "Bold means brave; Timid means shy or easily frightened."
+    "question": "Select the synonym for 'Superior' as used in competitive rankings:",
+    "options": ["Paramount", "Inferior", "Mediocre", "Substandard"],
+    "answer": "Paramount",
+    "explanation": "Superior and Paramount indicate being higher in rank, quality, or importance."
   },
   {
-    "question": "Identify the opposite of 'Bright':",
-    "options": ["Dull", "Shiny", "Radiant", "Vivid"],
-    "answer": "Dull",
-    "explanation": "Bright means full of light or intelligent; Dull means dim or lacking interest."
+    "question": "Choose the synonym for 'Luminous':",
+    "options": ["Radiant", "Opaque", "Gloomy", "Shadowy"],
+    "answer": "Radiant",
+    "explanation": "Luminous and Radiant both describe something that emits light or is very bright."
   },
   {
-    "question": "Choose the correct antonym for 'Deep':",
-    "options": ["Low", "Bottomless", "Shallow", "Wide"],
-    "answer": "Shallow",
-    "explanation": "Deep means extending far down; Shallow means of little depth."
+    "question": "Select the word that is a synonym for 'Dull':",
+    "options": ["Vibrant", "Lacklustre", "Intense", "Lively"],
+    "answer": "Lacklustre",
+    "explanation": "Dull and Lacklustre both mean lacking brightness, interest, or vitality."
   },
   {
-    "question": "Sentence Context: The balloon will <u>expand</u> when filled with air, but it will ____ when the air is released.",
-    "options": ["Grow", "Contract", "Stretch", "Rise"],
-    "answer": "Contract",
-    "explanation": "To expand is to get larger; to contract is to become smaller."
+    "question": "Identify the synonym for 'Begin':",
+    "options": ["Commence", "Terminate", "Finish", "Conclude"],
+    "answer": "Commence",
+    "explanation": "Begin and Commence are formal terms for starting an action or process."
   },
   {
-    "question": "What is the opposite of 'Flexible'?",
-    "options": ["Soft", "Elastic", "Rigid", "Bendy"],
-    "answer": "Rigid",
-    "explanation": "Flexible means easy to bend; Rigid means stiff and unyielding."
+    "question": "Which of these is a synonym for 'Serious' in a formal or grave context?",
+    "options": ["Frivolous", "Solemn", "Trivial", "Jocose"],
+    "answer": "Solemn",
+    "explanation": "Serious and Solemn both imply a sense of gravity, dignity, or sincerity."
   },
   {
-    "question": "Select the antonym for 'Genuine':",
-    "options": ["Authentic", "Real", "Fake", "Actual"],
-    "answer": "Fake",
-    "explanation": "Genuine means the real thing; Fake means an imitation or counterfeit."
+    "question": "Identify the synonym for 'Assail':",
+    "options": ["Protect", "Assault", "Shield", "Defend"],
+    "answer": "Assault",
+    "explanation": "Assail and Assault both mean to make a violent or concerted attack."
   },
   {
-    "question": "Opposite of 'Halt':",
-    "options": ["Stop", "Wait", "Proceed", "Pause"],
-    "answer": "Proceed",
-    "explanation": "Halt means to stop; Proceed means to move forward or continue."
+    "question": "Which word is a synonym for 'Perceive'?",
+    "options": ["Overlook", "Discern", "Ignore", "Disregard"],
+    "answer": "Discern",
+    "explanation": "Perceive and Discern mean to recognize or become aware of something through the senses."
   },
   {
-    "question": "Find the opposite of the underlined word: The jury found the man <u>innocent</u>.",
-    "options": ["Pure", "Guilty", "Clear", "Safe"],
-    "answer": "Guilty",
-    "explanation": "Innocent means not responsible for a crime; Guilty means responsible for it."
+    "question": "Choose the synonym for 'Wane':",
+    "options": ["Dwindle", "Expand", "Increase", "Flourish"],
+    "answer": "Dwindle",
+    "explanation": "Wane and Dwindle both mean to decrease in size, strength, or intensity."
   },
   {
-    "question": "Fill in the blank: I will ____ you my book if you promise not to borrow anyone else's.",
-    "options": ["Lend", "Keep", "Take", "Lost"],
-    "answer": "Lend",
-    "explanation": "Lend is the opposite of borrow (giving vs. taking for a short time)."
+    "question": "Select the synonym for 'Amateur':",
+    "options": ["Professional", "Novice", "Veteran", "Expert"],
+    "answer": "Novice",
+    "explanation": "Amateur and Novice refer to someone who is new to or lacks professional experience in a field."
   },
   {
-    "question": "What is the Antonym of 'Permanent'?",
-    "options": ["Fixed", "Stable", "Lasting", "Temporary"],
-    "answer": "Temporary",
-    "explanation": "Permanent means lasting forever; Temporary means for a short time only."
+    "question": "What is the synonym for 'Apathetic'?",
+    "options": ["Zealous", "Indifferent", "Passionate", "Eager"],
+    "answer": "Indifferent",
+    "explanation": "Apathetic and Indifferent describe a lack of feeling, interest, or concern."
   },
   {
-    "question": "Identify the opposite of 'Rough':",
-    "options": ["Coarse", "Smooth", "Bumpy", "Hard"],
-    "answer": "Smooth",
-    "explanation": "Rough surfaces are uneven; Smooth surfaces are flat and regular."
+    "question": "Identify the synonym for 'Assiduous':",
+    "options": ["Meticulous", "Negligent", "Careless", "Remiss"],
+    "answer": "Meticulous",
+    "explanation": "Assiduous and Meticulous both mean showing great care, attention, and effort."
   },
   {
-    "question": "Choose the correct antonym for 'Victory':",
-    "options": ["Triumph", "Win", "Defeat", "Success"],
-    "answer": "Defeat",
-    "explanation": "Victory is winning; Defeat is losing a battle or contest."
+    "question": "Choose the word that means the same as 'Radiant':",
+    "options": ["Effulgent", "Dull", "Somber", "Faded"],
+    "answer": "Effulgent",
+    "explanation": "Radiant and Effulgent both mean shining brightly or being brilliant."
+  },
+  {
+    "question": "Which of these is a synonym for 'Innocent'?",
+    "options": ["Culpable", "Guiltless", "Malevolent", "Corrupt"],
+    "answer": "Guiltless",
+    "explanation": "Innocent and Guiltless mean free from any legal or moral wrong."
+  },
+  {
+    "question": "Identify the synonym for 'Clamour':",
+    "options": ["Silence", "Hubbub", "Quiet", "Stillness"],
+    "answer": "Hubbub",
+    "explanation": "Clamour and Hubbub both refer to a loud, confused noise or uproar."
+  },
+  {
+    "question": "Choose the synonym for 'Calamity':",
+    "options": ["Catastrophe", "Blessing", "Windfall", "Fortune"],
+    "answer": "Catastrophe",
+    "explanation": "Calamity and Catastrophe both refer to a sudden event causing great damage or distress."
+  },
+  {
+    "question": "Select the synonym for 'Curiosity':",
+    "options": ["Disinterest", "Inquisitiveness", "Apathy", "Indifference"],
+    "answer": "Inquisitiveness",
+    "explanation": "Curiosity and Inquisitiveness represent a strong desire to know or learn things."
+  },
+  {
+    "question": "Which word is a synonym for 'Emphasis'?",
+    "options": ["Stress", "Omission", "Neglect", "Triviality"],
+    "answer": "Stress",
+    "explanation": "Emphasis and Stress both mean special importance or prominence given to something."
   }
 ]
