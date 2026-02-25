@@ -1,122 +1,182 @@
 [
   {
-    "word": "Acquitted",
-    "meaning_kannada": "ದೋಷಮುಕ್ತ (ನಿರ್ದೋಷಿ ಎಂದು ಬಿಡುಗಡೆ)",
-    "meaning_english": "Opposite: Convicted",
-    "emoji": "⚖️"
+    "word": "Benevolent",
+    "meaning_kannada": "ಪರೋಪಕಾರಿ ಅಥವಾ ದಯಾಳು",
+    "meaning_english": "Well-meaning and kindly. Antonyms: Malevolent, Miserly, Cruel, Selfish.",
+    "emoji": "😇"
   },
   {
-    "word": "Adversity",
-    "meaning_kannada": "ದುರದೃಷ್ಟ (ಕಷ್ಟಕಾಲ)",
-    "meaning_english": "Opposite: Prosperity",
-    "emoji": "🌪️"
-  },
-  {
-    "word": "Amateur",
-    "meaning_kannada": "ಹವ್ಯಾಸಿ (ಅನನುಭವಿ)",
-    "meaning_english": "Opposite: Professional",
-    "emoji": "🎨"
-  },
-  {
-    "word": "Ambiguous",
-    "meaning_kannada": "ಅಸ್ಪಷ್ಟ (ಗೊಂದಲಮಯ)",
-    "meaning_english": "Opposite: Clear / Lucid",
-    "emoji": "🌫️"
-  },
-  {
-    "word": "Ample",
-    "meaning_kannada": "ಸಾಕಷ್ಟು (ಹೇರಳ)",
-    "meaning_english": "Opposite: Meager / Scanty",
-    "emoji": "🍎"
-  },
-  {
-    "word": "Ascend",
-    "meaning_kannada": "ಏರು (ಮೇಲಕ್ಕೆ ಹೋಗು)",
-    "meaning_english": "Opposite: Descend",
-    "emoji": "🧗"
-  },
-  {
-    "word": "Authentic",
-    "meaning_kannada": "ಅಧಿಕೃತ (ನೈಜ)",
-    "meaning_english": "Opposite: Spurious / Fake",
-    "emoji": "📜"
+    "word": "Arrogant",
+    "meaning_kannada": "ಅಹಂಕಾರಿ",
+    "meaning_english": "Having an exaggerated sense of one's own importance. Antonyms: Humble, Modest, Meek, Diffident.",
+    "emoji": "😤"
   },
   {
     "word": "Cautious",
-    "meaning_kannada": "ಜಾಗರೂಕ (ಎಚ್ಚರಿಕೆಯ)",
-    "meaning_english": "Opposite: Reckless / Rash",
+    "meaning_kannada": "ಎಚ್ಚರಿಕೆಯ",
+    "meaning_english": "Careful to avoid potential problems or dangers. Antonyms: Reckless, Rash, Impetuous, Heedless.",
     "emoji": "⚠️"
   },
   {
-    "word": "Conceal",
-    "meaning_kannada": "ಮುಚ್ಚಿಡು (ಗೌಪ್ಯವಾಗಿಡು)",
-    "meaning_english": "Opposite: Reveal / Expose",
-    "emoji": "🙈"
+    "word": "Abundance",
+    "meaning_kannada": "ಸಮೃದ್ಧಿ",
+    "meaning_english": "A very large quantity of something. Antonyms: Scarcity, Dearth, Paucity, Shortage.",
+    "emoji": "🌾"
   },
   {
-    "word": "Discord",
-    "meaning_kannada": "ಅಸಮಾಧಾನ (ಕಲಹ)",
-    "meaning_english": "Opposite: Harmony / Accord",
-    "emoji": "🎸"
+    "word": "Optimist",
+    "meaning_kannada": "ಆಶಾವಾದಿ",
+    "meaning_english": "A person who tends to be hopeful and confident. Antonyms: Pessimist, Cynic, Doomsayer, Gloomy.",
+    "emoji": "🌅"
   },
   {
-    "word": "Dormant",
-    "meaning_kannada": "ಸುಪ್ತ (ನಿಷ್ಕ್ರಿಯ)",
-    "meaning_english": "Opposite: Active",
-    "emoji": "💤"
+    "word": "Flexible",
+    "meaning_kannada": "ನಮ್ಯ ಅಥವಾ ಬಾಗುವ",
+    "meaning_english": "Capable of bending easily without breaking. Antonyms: Rigid, Stiff, Adamant, Inflexible.",
+    "emoji": "🤸"
   },
   {
-    "word": "Enormous",
-    "meaning_kannada": "ಬೃಹತ್ (ಬಹಳ ದೊಡ್ಡದು)",
-    "meaning_english": "Opposite: Tiny / Puny",
+    "word": "Transparent",
+    "meaning_kannada": "ಪಾರದರ್ಶಕ",
+    "meaning_english": "Allowing light to pass through so that objects behind can be distinctly seen. Antonyms: Opaque, Cloudy, Obscure, Hazy.",
+    "emoji": "💎"
+  },
+  {
+    "word": "Artificial",
+    "meaning_kannada": "ಕೃತಕ",
+    "meaning_english": "Made or produced by human beings rather than occurring naturally. Antonyms: Natural, Genuine, Authentic, Real.",
+    "emoji": "🤖"
+  },
+  {
+    "word": "Ample",
+    "meaning_kannada": "ಸಾಕಷ್ಟು",
+    "meaning_english": "Enough or more than enough; plentiful. Antonyms: Meagre, Scant, Insufficient, Sparse.",
+    "emoji": "🍎"
+  },
+  {
+    "word": "Distant",
+    "meaning_kannada": "ದೂರದ",
+    "meaning_english": "Far away in space or time. Antonyms: Adjacent, Near, Close, Proximate.",
+    "emoji": "🔭"
+  },
+  {
+    "word": "Gigantic",
+    "meaning_kannada": "ಬೃಹತ್",
+    "meaning_english": "Of very great size or substance; huge. Antonyms: Tiny, Minute, Dwarf, Puny.",
     "emoji": "🐘"
   },
   {
-    "word": "Exodus",
-    "meaning_kannada": "ನಿರ್ಗಮನ (ಸಮೂಹ ನಿರ್ಗಮನ)",
-    "meaning_english": "Opposite: Influx / Arrival",
-    "emoji": "🚶‍♂️"
+    "word": "Harmony",
+    "meaning_kannada": "ಸಾಮರಸ್ಯ",
+    "meaning_english": "The state of being in agreement or concord. Antonyms: Discord, Conflict, Strife, Friction.",
+    "emoji": "🤝"
   },
   {
-    "word": "Frugal",
-    "meaning_kannada": "ಮಿತವ್ಯಯಿ",
-    "meaning_english": "Opposite: Extravagant",
-    "emoji": "💰"
+    "word": "Victory",
+    "meaning_kannada": "ವಿಜಯ",
+    "meaning_english": "An act of defeating an enemy or opponent. Antonyms: Defeat, Failure, Loss, Debacle.",
+    "emoji": "✌️"
   },
   {
-    "word": "Hostile",
-    "meaning_kannada": "ಹಗೆತನದ (ಶತ್ರುತ್ವದ)",
-    "meaning_english": "Opposite: Friendly / Amiable",
-    "emoji": "⚔️"
-  },
-  {
-    "word": "Ignite",
-    "meaning_kannada": "ಬೆಂಕಿ ಹಚ್ಚು",
-    "meaning_english": "Opposite: Extinguish",
-    "emoji": "🔥"
-  },
-  {
-    "word": "Opaque",
-    "meaning_kannada": "ಅಪಾರದರ್ಶಕ",
-    "meaning_english": "Opposite: Transparent",
-    "emoji": "🧱"
-  },
-  {
-    "word": "Precise",
-    "meaning_kannada": "ನಿಖರ (ಖಚಿತ)",
-    "meaning_english": "Opposite: Vague / Inaccurate",
-    "emoji": "🎯"
-  },
-  {
-    "word": "Relinquish",
-    "meaning_kannada": "ಪರಿತ್ಯಜಿಸು (ಬಿಟ್ಟುಕೊಡು)",
-    "meaning_english": "Opposite: Retain / Keep",
-    "emoji": "👐"
+    "word": "Virtue",
+    "meaning_kannada": "ಸದ್ಗುಣ",
+    "meaning_english": "Behavior showing high moral standards. Antonyms: Vice, Wickedness, Immorality, Sin.",
+    "emoji": "⚖️"
   },
   {
     "word": "Vague",
     "meaning_kannada": "ಅಸ್ಪಷ್ಟ",
-    "meaning_english": "Opposite: Definite / Clear",
+    "meaning_english": "Uncertain, indefinite, or unclear character or meaning. Antonyms: Clear, Precise, Definite, Explicit.",
     "emoji": "🌫️"
+  },
+  {
+    "word": "Stable",
+    "meaning_kannada": "ಸ್ಥಿರ",
+    "meaning_english": "Not likely to change or fail; firmly established. Antonyms: Unsteady, Volatile, Shaky, Precarious.",
+    "emoji": "⚓"
+  },
+  {
+    "word": "Severe",
+    "meaning_kannada": "ತೀವ್ರ ಅಥವಾ ಕಠಿಣ",
+    "meaning_english": "Intense, strict, or harsh. Antonyms: Mild, Gentle, Lenient, Moderate.",
+    "emoji": "⛈️"
+  },
+  {
+    "word": "Rough",
+    "meaning_kannada": "ಒರಟು",
+    "meaning_english": "Having an uneven or irregular surface. Antonyms: Smooth, Sleek, Polished, Level.",
+    "emoji": "🪵"
+  },
+  {
+    "word": "Rapid",
+    "meaning_kannada": "ವೇಗವಾದ",
+    "meaning_english": "Happening in a short time or at a great speed. Antonyms: Sluggish, Slow, Tardy, Leisurely.",
+    "emoji": "⚡"
+  },
+  {
+    "word": "Unity",
+    "meaning_kannada": "ಏಕತೆ",
+    "meaning_english": "The state of being united or joined as a whole. Antonyms: Division, Separation, Discord, Fragmentation.",
+    "emoji": "🧩"
+  },
+  {
+    "word": "Hazardous",
+    "meaning_kannada": "ಅಪಾಯಕಾರಿ",
+    "meaning_english": "Risky; dangerous. Antonyms: Safe, Secure, Harmless, Protected.",
+    "emoji": "☣️"
+  },
+  {
+    "word": "Obscure",
+    "meaning_kannada": "ಅಸ್ಪಷ್ಟ ಅಥವಾ ಅಪ್ರಸಿದ್ಧ",
+    "meaning_english": "Not discovered or known about; uncertain. Antonyms: Famous, Notorious, Apparent, Obvious.",
+    "emoji": "🌑"
+  },
+  {
+    "word": "Mandatory",
+    "meaning_kannada": "ಕಡ್ಡಾಯ",
+    "meaning_english": "Required by law or rules; compulsory. Antonyms: Optional, Voluntary, Discretionary, Arbitrary.",
+    "emoji": "📜"
+  },
+  {
+    "word": "Hostile",
+    "meaning_kannada": "ವಿರೋಧಿ ಅಥವಾ ಹಗೆತನದ",
+    "meaning_english": "Showing or feeling opposition or dislike; unfriendly. Antonyms: Amiable, Friendly, Cordial, Gentle.",
+    "emoji": "😠"
+  },
+  {
+    "word": "Fragile",
+    "meaning_kannada": "ದುರ್ಬಲ ಅಥವಾ ಬೇಗ ಒಡೆಯುವ",
+    "meaning_english": "Easily broken or damaged. Antonyms: Sturdy, Robust, Tough, Durable.",
+    "emoji": "🍷"
+  },
+  {
+    "word": "Frugal",
+    "meaning_kannada": "ಕಡಿಮೆ ಖರ್ಚು ಮಾಡುವ",
+    "meaning_english": "Sparing or economical as regards money or food. Antonyms: Extravagant, Lavish, Wasteful, Prodigal.",
+    "emoji": "💰"
+  },
+  {
+    "word": "Enormous",
+    "meaning_kannada": "ಅತಿದೊಡ್ಡ",
+    "meaning_english": "Very large in size, quantity, or extent. Antonyms: Tiny, Minute, Small, Negligible.",
+    "emoji": "🐳"
+  },
+  {
+    "word": "Dynamic",
+    "meaning_kannada": "ಗತಿಶೀಲ",
+    "meaning_english": "Characterized by constant change, activity, or progress. Antonyms: Static, Dormant, Fixed, Inert.",
+    "emoji": "🏃"
+  },
+  {
+    "word": "Despair",
+    "meaning_kannada": "ನಿರಾಶೆ",
+    "meaning_english": "The complete loss or absence of hope. Antonyms: Hope, Optimism, Cheer, Confidence.",
+    "emoji": "😞"
+  },
+  {
+    "word": "Courage",
+    "meaning_kannada": "ಧೈರ್ಯ",
+    "meaning_english": "The ability to do something that frightens one. Antonyms: Cowardice, Fear, Timidity, Meekness.",
+    "emoji": "🦁"
   }
 ]
