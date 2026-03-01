@@ -1,0 +1,302 @@
+[
+  {
+    "question": "What is the Antonym of 'Alacrity'?",
+    "options": ["Promptness", "Reluctance", "Celerity", "Avidity"],
+    "answer": "Reluctance",
+    "explanation": "Alacrity is cheerful readiness; Reluctance is unwillingness to do something."
+  },
+  {
+    "question": "Choose the opposite of the underlined word: The result was <u>anomalous</u> given the previous data.",
+    "options": ["Bizarre", "Peculiar", "Typical", "Inconsistent"],
+    "answer": "Typical",
+    "explanation": "Anomalous means deviating from the norm; Typical means following the standard pattern."
+  },
+  {
+    "question": "Identify the Antonym for 'Ascetic':",
+    "options": ["Austere", "Hedonistic", "Monastic", "Puritanical"],
+    "answer": "Hedonistic",
+    "explanation": "Ascetic is a life of self-denial; Hedonistic is a life devoted to seeking pleasure."
+  },
+  {
+    "question": "What is the opposite of 'Assiduous'?",
+    "options": ["Diligent", "Sedulous", "Indolent", "Attentive"],
+    "answer": "Indolent",
+    "explanation": "Assiduous means showing great care and effort; Indolent means wanting to avoid activity or lazy."
+  },
+  {
+    "question": "Sentence Context: Her smile <u>belied</u> her true feelings of grief.",
+    "options": ["Revealed", "Contradicted", "Masked", "Concealed"],
+    "answer": "Revealed",
+    "explanation": "Belie means to give a false impression; Reveal means to make the truth known."
+  },
+  {
+    "question": "Find the Antonym for 'Boisterous':",
+    "options": ["Rowdy", "Clamorous", "Serene", "Vociferous"],
+    "answer": "Serene",
+    "explanation": "Boisterous is noisy and energetic; Serene is calm and peaceful."
+  },
+  {
+    "question": "What is the opposite of 'Cacophony'?",
+    "options": ["Discord", "Euphony", "Dissonance", "Noise"],
+    "answer": "Euphony",
+    "explanation": "Cacophony is a harsh mixture of sounds; Euphony is a pleasing, sweet sound."
+  },
+  {
+    "question": "Identify the Antonym for 'Castigate':",
+    "options": ["Chastise", "Extol", "Reprimand", "Rebuke"],
+    "answer": "Extol",
+    "explanation": "Castigate is to scold severely; Extol is to praise highly."
+  },
+  {
+    "question": "Choose the opposite: He was <u>chary</u> of investing in the volatile market.",
+    "options": ["Cautious", "Reckless", "Wary", "Circumspect"],
+    "answer": "Reckless",
+    "explanation": "Chary is being cautious or reluctant; Reckless is acting without care for consequences."
+  },
+  {
+    "question": "What is the Antonym of 'Cogent'?",
+    "options": ["Convincing", "Unpersuasive", "Lucid", "Compelling"],
+    "answer": "Unpersuasive",
+    "explanation": "Cogent means clear and convincing; Unpersuasive means not capable of convincing."
+  },
+  {
+    "question": "Find the Antonym for 'Dastardly':",
+    "options": ["Wicked", "Gallant", "Cruel", "Heinous"],
+    "answer": "Gallant",
+    "explanation": "Dastardly means wicked and cowardly; Gallant means brave and noble."
+  },
+  {
+    "question": "Identify the opposite of 'Deference':",
+    "options": ["Respect", "Contempt", "Homage", "Submission"],
+    "answer": "Contempt",
+    "explanation": "Deference is polite respect; Contempt is the feeling that something is worthless or deserving scorn."
+  },
+  {
+    "question": "Choose the Antonym for 'Desultory':",
+    "options": ["Random", "Methodical", "Aimless", "Haphazard"],
+    "answer": "Methodical",
+    "explanation": "Desultory is lacking a plan or purpose; Methodical is systematic and orderly."
+  },
+  {
+    "question": "What is the opposite of 'Diaphanous'?",
+    "options": ["Sheer", "Gauzy", "Opaque", "Translucent"],
+    "answer": "Opaque",
+    "explanation": "Diaphanous is light and translucent; Opaque is not able to be seen through."
+  },
+  {
+    "question": "Find the Antonym for 'Diffident':",
+    "options": ["Bashful", "Assertive", "Timid", "Meek"],
+    "answer": "Assertive",
+    "explanation": "Diffident is shy due to lack of confidence; Assertive is having a confident personality."
+  },
+  {
+    "question": "Opposite of 'Enervate' is:",
+    "options": ["Weaken", "Invigorate", "Debilitate", "Fatigue"],
+    "answer": "Invigorate",
+    "explanation": "Enervate is to drain energy; Invigorate is to give strength and energy."
+  },
+  {
+    "question": "What is the Antonym of 'Ephemeral'?",
+    "options": ["Transient", "Fleeting", "Perpetual", "Momentary"],
+    "answer": "Perpetual",
+    "explanation": "Ephemeral is short-lived; Perpetual is never-ending or changing."
+  },
+  {
+    "question": "Identify the opposite: Maintaining <u>equanimity</u> during a crisis is vital.",
+    "options": ["Composure", "Agitation", "Serenity", "Placidity"],
+    "answer": "Agitation",
+    "explanation": "Equanimity is calmness; Agitation is a state of anxiety or nervous excitement."
+  },
+  {
+    "question": "Find the Antonym for 'Erudite':",
+    "options": ["Scholarly", "Ignorant", "Learned", "Literate"],
+    "answer": "Ignorant",
+    "explanation": "Erudite is having great knowledge; Ignorant is lacking knowledge."
+  },
+  {
+    "question": "What is the opposite of 'Esoteric'?",
+    "options": ["Abstruse", "Obscure", "Commonplace", "Arcane"],
+    "answer": "Commonplace",
+    "explanation": "Esoteric is understood by few; Commonplace is ordinary and known by everyone."
+  },
+  {
+    "question": "Choose the Antonym for 'Exculpate':",
+    "options": ["Acquit", "Vindicate", "Incriminate", "Absolve"],
+    "answer": "Incriminate",
+    "explanation": "Exculpate is to clear from blame; Incriminate is to make someone appear guilty."
+  },
+  {
+    "question": "Opposite of 'Fastidious' is:",
+    "options": ["Meticulous", "Lax", "Punctilious", "Scrupulous"],
+    "answer": "Lax",
+    "explanation": "Fastidious is being very attentive to detail; Lax is being careless or not strict."
+  },
+  {
+    "question": "What is the Antonym of 'Fatuous'?",
+    "options": ["Asinine", "Inane", "Sensible", "Silly"],
+    "answer": "Sensible",
+    "explanation": "Fatuous is silly and pointless; Sensible is practical and wise."
+  },
+  {
+    "question": "Identify the opposite of 'Garrulous':",
+    "options": ["Talkative", "Loquacious", "Taciturn", "Voluble"],
+    "answer": "Taciturn",
+    "explanation": "Garrulous is excessively talkative; Taciturn is reserved or saying very little."
+  },
+  {
+    "question": "Find the Antonym for 'Harangue':",
+    "options": ["Tirade", "Panegyric", "Lecture", "Rant"],
+    "answer": "Panegyric",
+    "explanation": "Harangue is an aggressive, critical speech; Panegyric is a speech or text in high praise."
+  },
+  {
+    "question": "What is the opposite of 'Iconoclast'?",
+    "options": ["Dissenter", "Conformist", "Heretic", "Maverick"],
+    "answer": "Conformist",
+    "explanation": "Iconoclast attacks established beliefs; Conformist follows traditional standards."
+  },
+  {
+    "question": "Choose the Antonym for 'Impecunious':",
+    "options": ["Penniless", "Destitute", "Affluent", "Indigent"],
+    "answer": "Affluent",
+    "explanation": "Impecunious is having little money; Affluent is wealthy."
+  },
+  {
+    "question": "Sentence Context: The plan is still in its <u>incipient</u> stage.",
+    "options": ["Initial", "Nascent", "Mature", "Developing"],
+    "answer": "Mature",
+    "explanation": "Incipient is the beginning stage; Mature is fully developed."
+  },
+  {
+    "question": "Identify the opposite of 'Incorrigible':",
+    "options": ["Habitual", "Reformable", "Incurable", "Hardened"],
+    "answer": "Reformable",
+    "explanation": "Incorrigible cannot be changed or improved; Reformable can be corrected."
+  },
+  {
+    "question": "What is the Antonym of 'Insipid'?",
+    "options": ["Bland", "Vapid", "Piquant", "Dull"],
+    "answer": "Piquant",
+    "explanation": "Insipid is lacking flavor or interest; Piquant is pleasantly sharp or exciting."
+  },
+  {
+    "question": "Find the Antonym for 'Loquacious':",
+    "options": ["Verbose", "Laconic", "Garrulous", "Chatty"],
+    "answer": "Laconic",
+    "explanation": "Loquacious means talkative; Laconic means using very few words."
+  },
+  {
+    "question": "Opposite of 'Magnanimous' is:",
+    "options": ["Altruistic", "Vindictive", "Generous", "Benevolent"],
+    "answer": "Vindictive",
+    "explanation": "Magnanimous is forgiving; Vindictive is having a strong desire for revenge."
+  },
+  {
+    "question": "What is the Antonym of 'Mendacious'?",
+    "options": ["Deceitful", "Veracious", "False", "Lying"],
+    "answer": "Veracious",
+    "explanation": "Mendacious is being untruthful; Veracious is speaking or representing the truth."
+  },
+  {
+    "question": "Identify the opposite of 'Meticulous':",
+    "options": ["Precise", "Scrupulous", "Negligent", "Detailed"],
+    "answer": "Negligent",
+    "explanation": "Meticulous is showing great attention to detail; Negligent is failing to take proper care."
+  },
+  {
+    "question": "What is the opposite of 'Nadir'?",
+    "options": ["Bottom", "Zenith", "Base", "Floor"],
+    "answer": "Zenith",
+    "explanation": "Nadir is the lowest point; Zenith is the highest point."
+  },
+  {
+    "question": "Choose the Antonym for 'Obsequious'?",
+    "options": ["Servile", "Fawning", "Assertive", "Submissive"],
+    "answer": "Assertive",
+    "explanation": "Obsequious is being overly obedient; Assertive is being confident and direct."
+  },
+  {
+    "question": "Opposite of 'Onerous' is:",
+    "options": ["Burdensome", "Arduous", "Effortless", "Taxing"],
+    "answer": "Effortless",
+    "explanation": "Onerous is difficult and burdensome; Effortless is requiring no effort."
+  },
+  {
+    "question": "Identify the Antonym for 'Paucity':",
+    "options": ["Scarcity", "Dearth", "Surfeit", "Shortage"],
+    "answer": "Surfeit",
+    "explanation": "Paucity is a small or insufficient amount; Surfeit is an excessive amount."
+  },
+  {
+    "question": "What is the Antonym of 'Perfidious'?",
+    "options": ["Treacherous", "Faithful", "Deceitful", "Disloyal"],
+    "answer": "Faithful",
+    "explanation": "Perfidious is untrustworthy; Faithful is remaining loyal and steadfast."
+  },
+  {
+    "question": "Sentence Context: His approach to the problem was <u>pragmatic</u>.",
+    "options": ["Realistic", "Practical", "Idealistic", "Sensible"],
+    "answer": "Idealistic",
+    "explanation": "Pragmatic is being realistic/practical; Idealistic is pursuing unrealistically high goals."
+  },
+  {
+    "question": "Find the Antonym for 'Quixotic':",
+    "options": ["Visionary", "Pragmatic", "Utopian", "Idealistic"],
+    "answer": "Pragmatic",
+    "explanation": "Quixotic is exceedingly idealistic and unrealistic; Pragmatic is practical."
+  },
+  {
+    "question": "Opposite of 'Reticent' is:",
+    "options": ["Reserved", "Silent", "Communicative", "Shy"],
+    "answer": "Communicative",
+    "explanation": "Reticent is not revealing thoughts; Communicative is being open and talkative."
+  },
+  {
+    "question": "Identify the Antonym of 'Salubrious'?",
+    "options": ["Healthy", "Wholesome", "Noxious", "Beneficial"],
+    "answer": "Noxious",
+    "explanation": "Salubrious is health-giving; Noxious is harmful or poisonous."
+  },
+  {
+    "question": "What is the Antonym of 'Soporific'?",
+    "options": ["Sedative", "Stimulating", "Somnolent", "Drowsy"],
+    "answer": "Stimulating",
+    "explanation": "Soporific induces sleep; Stimulating encourages activity or alertness."
+  },
+  {
+    "question": "Choose the opposite: His <u>supercilious</u> attitude alienated his colleagues.",
+    "options": ["Arrogant", "Haughty", "Humble", "Disdainful"],
+    "answer": "Humble",
+    "explanation": "Supercilious is behaving as if superior; Humble is having a modest view of one's importance."
+  },
+  {
+    "question": "Find the Antonym for 'Taciturn':",
+    "options": ["Quiet", "Reticent", "Loquacious", "Silent"],
+    "answer": "Loquacious",
+    "explanation": "Taciturn is saying very little; Loquacious is talking a great deal."
+  },
+  {
+    "question": "What is the Antonym of 'Unerring'?",
+    "options": ["Faultless", "Infallible", "Fallible", "Perfect"],
+    "answer": "Fallible",
+    "explanation": "Unerring is always right; Fallible is capable of making mistakes."
+  },
+  {
+    "question": "Identify the opposite of 'Vituperation'?",
+    "options": ["Abuse", "Invective", "Adulation", "Scolding"],
+    "answer": "Adulation",
+    "explanation": "Vituperation is bitter abuse; Adulation is excessive praise/flattery."
+  },
+  {
+    "question": "Opposite of 'Wary' is:",
+    "options": ["Circumspect", "Cautious", "Reckless", "Prudent"],
+    "answer": "Reckless",
+    "explanation": "Wary is showing caution; Reckless is acting without care for danger."
+  },
+  {
+    "question": "What is the Antonym of 'Zenith'?",
+    "options": ["Peak", "Summit", "Nadir", "Apex"],
+    "answer": "Nadir",
+    "explanation": "Zenith is the highest point; Nadir is the lowest point."
+  }
+]
