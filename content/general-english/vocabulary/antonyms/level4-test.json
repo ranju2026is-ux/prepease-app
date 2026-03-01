@@ -1,0 +1,212 @@
+[
+  {
+    "question": "What is the Antonym of 'Abstain'?",
+    "options": ["Avoid", "Refrain", "Indulge", "Quit"],
+    "answer": "Indulge",
+    "explanation": "Abstain means to restrain oneself; Indulge means to allow oneself to enjoy something."
+  },
+  {
+    "question": "Choose the opposite of 'Admonish':",
+    "options": ["Scold", "Praise", "Warn", "Chide"],
+    "answer": "Praise",
+    "explanation": "Admonish is to warn or scold; Praise is to express warm approval."
+  },
+  {
+    "question": "Find the Antonym for 'Ameliorate':",
+    "options": ["Better", "Worsen", "Heal", "Improve"],
+    "answer": "Worsen",
+    "explanation": "Ameliorate means to make better; Worsen (or Deteriorate) means to make worse."
+  },
+  {
+    "question": "Opposite of 'Animosity' is:",
+    "options": ["Hostility", "Hatred", "Amity", "Anger"],
+    "answer": "Amity",
+    "explanation": "Animosity is hostility; Amity is a friendly relationship."
+  },
+  {
+    "question": "What is the Antonym of 'Apathy'?",
+    "options": ["Indifference", "Zeal", "Lethargy", "Boredom"],
+    "answer": "Zeal",
+    "explanation": "Apathy is lack of interest; Zeal is great energy or enthusiasm."
+  },
+  {
+    "question": "Choose the correct Antonym for 'Archaic':",
+    "options": ["Ancient", "Modern", "Antique", "Old"],
+    "answer": "Modern",
+    "explanation": "Archaic is very old-fashioned; Modern is relating to the present."
+  },
+  {
+    "question": "Identify the opposite of 'Assuage':",
+    "options": ["Relieve", "Soften", "Exasperate", "Calm"],
+    "answer": "Exasperate",
+    "explanation": "Assuage is to make a feeling less intense; Exasperate is to intensely irritate."
+  },
+  {
+    "question": "Find the Antonym of 'Audacious':",
+    "options": ["Bold", "Daring", "Meek", "Fearless"],
+    "answer": "Meek",
+    "explanation": "Audacious is surprisingly bold; Meek is quiet, gentle, and easily imposed on."
+  },
+  {
+    "question": "Antonym for 'Belligerent':",
+    "options": ["Aggressive", "Hostile", "Peaceful", "Warlike"],
+    "answer": "Peaceful",
+    "explanation": "Belligerent is hostile; Peaceful is seeking or at peace."
+  },
+  {
+    "question": "Opposite of 'Chide':",
+    "options": ["Scold", "Commend", "Rebuke", "Reprimand"],
+    "answer": "Commend",
+    "explanation": "Chide is to scold; Commend is to praise formally."
+  },
+  {
+    "question": "What is the Antonym of 'Cognizant'?",
+    "options": ["Aware", "Ignorant", "Conscious", "Knowledgeable"],
+    "answer": "Ignorant",
+    "explanation": "Cognizant is being aware; Ignorant is lacking knowledge."
+  },
+  {
+    "question": "Choose the opposite of 'Complacent':",
+    "options": ["Satisfied", "Humble", "Smug", "Content"],
+    "answer": "Humble",
+    "explanation": "Complacent is being self-satisfied; Humble is having a modest estimate of oneself."
+  },
+  {
+    "question": "Find the Antonym for 'Conspicuous':",
+    "options": ["Obvious", "Visible", "Obscure", "Clear"],
+    "answer": "Obscure",
+    "explanation": "Conspicuous is clearly visible; Obscure is hidden or not easily seen."
+  },
+  {
+    "question": "Opposite of 'Curtail':",
+    "options": ["Shorten", "Prolong", "Reduce", "Limit"],
+    "answer": "Prolong",
+    "explanation": "Curtail is to reduce; Prolong is to extend the duration."
+  },
+  {
+    "question": "Antonym for 'Defer':",
+    "options": ["Postpone", "Delay", "Hasten", "Hold"],
+    "answer": "Hasten",
+    "explanation": "Defer is to put off; Hasten is to move or act more quickly."
+  },
+  {
+    "question": "What is the Antonym of 'Despair'?",
+    "options": ["Gloom", "Misery", "Optimism", "Hopelessness"],
+    "answer": "Optimism",
+    "explanation": "Despair is complete loss of hope; Optimism is hopefulness about the future."
+  },
+  {
+    "question": "Identify the opposite of 'Docile':",
+    "options": ["Compliant", "Gentle", "Unruly", "Submissive"],
+    "answer": "Unruly",
+    "explanation": "Docile is ready to accept control; Unruly is disorderly and disruptive."
+  },
+  {
+    "question": "Choose the Antonym for 'Elated':",
+    "options": ["Joyful", "Thrilled", "Miserable", "Happy"],
+    "answer": "Miserable",
+    "explanation": "Elated is ecstatically happy; Miserable is wretchedly unhappy."
+  },
+  {
+    "question": "Find the Antonym of 'Enigma':",
+    "options": ["Mystery", "Puzzle", "Clarity", "Secret"],
+    "answer": "Clarity",
+    "explanation": "Enigma is something mysterious; Clarity is the quality of being easy to understand."
+  },
+  {
+    "question": "Opposite of 'Exodus' is:",
+    "options": ["Departure", "Exit", "Influx", "Flight"],
+    "answer": "Influx",
+    "explanation": "Exodus is a mass departure; Influx is a mass arrival."
+  },
+  {
+    "question": "Antonym for 'Fervent':",
+    "options": ["Passionate", "Apathetic", "Eager", "Intense"],
+    "answer": "Apathetic",
+    "explanation": "Fervent is having passionate intensity; Apathetic is showing no interest."
+  },
+  {
+    "question": "What is the Antonym of 'Gullible'?",
+    "options": ["Trusting", "Skeptical", "Naïve", "Innocent"],
+    "answer": "Skeptical",
+    "explanation": "Gullible is being easily persuaded; Skeptical is not easily convinced."
+  },
+  {
+    "question": "Identify the opposite of 'Hinder':",
+    "options": ["Obstruct", "Block", "Facilitate", "Stop"],
+    "answer": "Facilitate",
+    "explanation": "Hinder is to create difficulties; Facilitate is to make an action easy or easier."
+  },
+  {
+    "question": "Antonym for 'Implicit':",
+    "options": ["Suggested", "Explicit", "Indirect", "Hidden"],
+    "answer": "Explicit",
+    "explanation": "Implicit is suggested but not stated; Explicit is stated clearly and in detail."
+  },
+  {
+    "question": "What is the Antonym of 'Indict'?",
+    "options": ["Accuse", "Charge", "Exonerate", "Blame"],
+    "answer": "Exonerate",
+    "explanation": "Indict is to formally accuse; Exonerate is to absolve from blame."
+  },
+  {
+    "question": "Choose the opposite of 'Innate':",
+    "options": ["Natural", "Inherited", "Acquired", "Inborn"],
+    "answer": "Acquired",
+    "explanation": "Innate is inborn/natural; Acquired is developed through experience."
+  },
+  {
+    "question": "Find the Antonym of 'Loathe':",
+    "options": ["Hate", "Detest", "Adore", "Dislike"],
+    "answer": "Adore",
+    "explanation": "Loathe is to feel intense dislike; Adore is to love and respect deeply."
+  },
+  {
+    "question": "Opposite of 'Mitigate':",
+    "options": ["Alleviate", "Intensify", "Lessen", "Soothe"],
+    "answer": "Intensify",
+    "explanation": "Mitigate is to make less severe; Intensify is to make more severe."
+  },
+  {
+    "question": "Antonym for 'Obscure':",
+    "options": ["Hidden", "Lucid", "Vague", "Dark"],
+    "answer": "Lucid",
+    "explanation": "Obscure is uncertain/unclear; Lucid is expressed clearly."
+  },
+  {
+    "question": "What is the Antonym of 'Prudent'?",
+    "options": ["Wise", "Careful", "Rash", "Thrifty"],
+    "answer": "Rash",
+    "explanation": "Prudent is acting with care; Rash (or Reckless) is acting without thought for consequences."
+  },
+  {
+    "question": "Identify the opposite of 'Robust'?",
+    "options": ["Sturdy", "Frail", "Strong", "Vigorous"],
+    "answer": "Frail",
+    "explanation": "Robust is strong/vigorous; Frail is weak and delicate."
+  },
+  {
+    "question": "Choose the Antonym for 'Sluggish':",
+    "options": ["Slow", "Lazy", "Brisk", "Inactive"],
+    "answer": "Brisk",
+    "explanation": "Sluggish is slow-moving; Brisk is active and fast."
+  },
+  {
+    "question": "Find the Antonym of 'Trivial':",
+    "options": ["Minor", "Small", "Significant", "Frivolous"],
+    "answer": "Significant",
+    "explanation": "Trivial is of little importance; Significant is great or worthy of attention."
+  },
+  {
+    "question": "Opposite of 'Uniform' is:",
+    "options": ["Consistent", "Diverse", "Same", "Standard"],
+    "answer": "Diverse",
+    "explanation": "Uniform is remaining the same; Diverse is showing variety."
+  },
+  {
+    "question": "Antonym for 'Venerate':",
+    "options": ["Revere", "Respect", "Despise", "Honor"],
+    "answer": "Despise",
+    "explanation": "Venerate is to respect deeply; Despise is to feel contempt."
+  }
+]
