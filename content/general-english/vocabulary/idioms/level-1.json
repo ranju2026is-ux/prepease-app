@@ -1,17 +1,92 @@
 [
-  { "idiom": "A piece of cake", "meaning_kannada": "ಅತ್ಯಂತ ಸುಲಭವಾದ ಕೆಲಸ", "meaning_english": "Something that is very easy to understand or do.", "emoji": "🍰" },
-  { "idiom": "Beat around the bush", "meaning_kannada": "ನೇರ ವಿಷಯಕ್ಕೆ ಬಾರದೆ ಸುತ್ತಿ ಬಳಸಿ ಮಾತನಾಡುವುದು", "meaning_english": "To avoid the main topic or not speak directly about an issue.", "emoji": "🌳" },
-  { "idiom": "Give a cold shoulder", "meaning_kannada": "ನಿರ್ಲಕ್ಷಿಸು ಅಥವಾ ಉಪೇಕ್ಷಿಸು", "meaning_english": "To intentionally ignore someone or treat them in an unfriendly way.", "emoji": "🧊" },
-  { "idiom": "A blessing in disguise", "meaning_kannada": "ಸಂಕಷ್ಟದ ರೂಪದಲ್ಲಿ ಬಂದ ಅದೃಷ್ಟ", "meaning_english": "An apparent misfortune that eventually has good results.", "emoji": "🎭" },
-  { "idiom": "Bury the hatchet", "meaning_kannada": "ಹಳೆ ವೈಷಮ್ಯ ಮರೆತು ರಾಜಿ ಮಾಡಿಕೊಳ್ಳುವುದು", "meaning_english": "To end a conflict and become friendly again.", "emoji": "🪓" },
-  { "idiom": "Once in a blue moon", "meaning_kannada": "ಅತಿ ಅಪರೂಪವಾಗಿ ಸಂಭವಿಸುವುದು", "meaning_english": "Something that happens very rarely.", "emoji": "🌕" },
-  { "idiom": "Under the weather", "meaning_kannada": "ಆರೋಗ್ಯ ಸರಿಯಿಲ್ಲದಿರುವುದು", "meaning_english": "Feeling slightly ill or not well.", "emoji": "🤒" },
-  { "idiom": "Spill the beans", "meaning_kannada": "ರಹಸ್ಯವನ್ನು ಹೊರಹಾಕು", "meaning_english": "To reveal secret information.", "emoji": "🫘" },
-  { "idiom": "A red-letter day", "meaning_kannada": "ಅತ್ಯಂತ ಪ್ರಮುಖ ಅಥವಾ ಸ್ಮರಣೀಯ ದಿನ", "meaning_english": "A very important or significant day.", "emoji": "🗓️" },
-  { "idiom": "Through thick and thin", "meaning_kannada": "ಎಲ್ಲಾ ಕಷ್ಟ-ಸುಖಗಳಲ್ಲೂ ಜೊತೆಯಾಗಿರುವುದು", "meaning_english": "Under all conditions, no matter how difficult they are.", "emoji": "🛣️" },
-  { "idiom": "Take it with a grain of salt", "meaning_kannada": "ಸಂಪೂರ್ಣವಾಗಿ ನಂಬದಿರುವುದು ಅಥವಾ ಸಂಶಯದಿಂದ ನೋಡುವುದು", "meaning_english": "To not take something too seriously or believe it completely.", "emoji": "🧂" },
-  { "idiom": "Wild goose chase", "meaning_kannada": "ನಿಷ್ಪ್ರಯೋಜಕ ಅಥವಾ ವ್ಯರ್ಥ ಪ್ರಯತ್ನ", "meaning_english": "A hopeless search or a foolish, unprofitable adventure.", "emoji": "🦢" },
-  { "idiom": "In a nutshell", "meaning_kannada": "ಸಂಕ್ಷಿಪ್ತವಾಗಿ ಹೇಳುವುದಾದರೆ", "meaning_english": "Briefly and concisely.", "emoji": "🥜" },
-  { "idiom": "To hit the nail on the head", "meaning_kannada": "ನಿಖರವಾಗಿ ಸರಿಯಾದದ್ದನ್ನೇ ಹೇಳುವುದು ಅಥವಾ ಮಾಡುವುದು", "meaning_english": "To do or say something exactly right.", "emoji": "🔨" },
-  { "idiom": "Add fuel to the fire", "meaning_kannada": "ಪರಿಸ್ಥಿತಿಯನ್ನು ಮತ್ತಷ್ಟು ಉಲ್ಬಣಗೊಳಿಸುವುದು", "meaning_english": "To make a bad situation even worse.", "emoji": "🔥" }
+  {
+    "word": "A piece of cake",
+    "meaning_kannada": "ಅತ್ಯಂತ ಸುಲಭವಾದ ಕೆಲಸ (Ati sulabhavada kelasa)",
+    "meaning_english": "Something that is very easy to understand or do.",
+    "emoji": "🍰"
+  },
+  {
+    "word": "Beat around the bush",
+    "meaning_kannada": "ನೇರ ವಿಷಯಕ್ಕೆ ಬಾರದೆ ಸುತ್ತಿ ಬಳಸಿ ಮಾತನಾಡುವುದು (Nera vishayakke barade sutti balasi matanaduvudu)",
+    "meaning_english": "To avoid the main topic or not speak directly about an issue.",
+    "emoji": "🌳"
+  },
+  {
+    "word": "Give a cold shoulder",
+    "meaning_kannada": "ನಿರ್ಲಕ್ಷಿಸು ಅಥವಾ ಉಪೇಕ್ಷಿಸು (Nirlakshisu athava upekshisu)",
+    "meaning_english": "To intentionally ignore someone or treat them in an unfriendly way.",
+    "emoji": "🧊"
+  },
+  {
+    "word": "A blessing in disguise",
+    "meaning_kannada": "ಸಂಕಷ್ಟದ ರೂಪದಲ್ಲಿ ಬಂದ ಅದೃಷ್ಟ (Sankashtada rupadalli banda adrushta)",
+    "meaning_english": "An apparent misfortune that eventually has good results.",
+    "emoji": "🎭"
+  },
+  {
+    "word": "Bury the hatchet",
+    "meaning_kannada": "ಹಳೆ ವೈಷಮ್ಯ ಮರೆತು ರಾಜಿ ಮಾಡಿಕೊಳ್ಳುವುದು (Hale vaishamya maretu raji madikolluvudu)",
+    "meaning_english": "To end a conflict and become friendly again.",
+    "emoji": "🪓"
+  },
+  {
+    "word": "Once in a blue moon",
+    "meaning_kannada": "ಅತಿ ಅಪರೂಪವಾಗಿ ಸಂಭವಿಸುವುದು (Ati aparupavagi sambhavisuvudu)",
+    "meaning_english": "Something that happens very rarely.",
+    "emoji": "🌕"
+  },
+  {
+    "word": "Under the weather",
+    "meaning_kannada": "ಆರೋಗ್ಯ ಸರಿಯಿಲ್ಲದಿರುವುದು (Arogya sariyilladiruvudu)",
+    "meaning_english": "Feeling slightly ill or not well.",
+    "emoji": "🤒"
+  },
+  {
+    "word": "Spill the beans",
+    "meaning_kannada": "ರಹಸ್ಯವನ್ನು ಹೊರಹಾಕು (Rahasyavannu horahaku)",
+    "meaning_english": "To reveal secret information.",
+    "emoji": "🫘"
+  },
+  {
+    "word": "A red-letter day",
+    "meaning_kannada": "ಅತ್ಯಂತ ಪ್ರಮುಖ ಅಥವಾ ಸ್ಮರಣೀಯ ದಿನ (Atyanta pramukha athava smaraniya dina)",
+    "meaning_english": "A very important or significant day.",
+    "emoji": "🗓️"
+  },
+  {
+    "word": "Through thick and thin",
+    "meaning_kannada": "ಎಲ್ಲಾ ಕಷ್ಟ-ಸುಖಗಳಲ್ಲೂ ಜೊತೆಯಾಗಿರುವುದು (Ella kashta-sukhagalallu joteyagiruvudu)",
+    "meaning_english": "Under all conditions, no matter how difficult they are.",
+    "emoji": "🛣️"
+  },
+  {
+    "word": "Take it with a grain of salt",
+    "meaning_kannada": "ಸಂಪೂರ್ಣವಾಗಿ ನಂಬದಿರುವುದು ಅಥವಾ ಸಂಶಯದಿಂದ ನೋಡುವುದು (Sampurnavagi nambadiruvudu athava samshayadinda noduvudu)",
+    "meaning_english": "To not take something too seriously or believe it completely.",
+    "emoji": "🧂"
+  },
+  {
+    "word": "Wild goose chase",
+    "meaning_kannada": "ನಿಷ್ಪ್ರಯೋಜಕ ಅಥವಾ ವ್ಯರ್ಥ ಪ್ರಯತ್ನ (Nishprayojaka athava vyartha prayatna)",
+    "meaning_english": "A hopeless search or a foolish, unprofitable adventure.",
+    "emoji": "🦢"
+  },
+  {
+    "word": "In a nutshell",
+    "meaning_kannada": "ಸಂಕ್ಷಿಪ್ತವಾಗಿ ಹೇಳುವುದಾದರೆ (Sankshiptavagi heluvudadare)",
+    "meaning_english": "Briefly and concisely.",
+    "emoji": "🥜"
+  },
+  {
+    "word": "To hit the nail on the head",
+    "meaning_kannada": "ನಿಖರವಾಗಿ ಸರಿಯಾದದ್ದನ್ನೇ ಹೇಳುವುದು ಅಥವಾ ಮಾಡುವುದು (Nikharavagi sariyadaddanne heluvudu athava maduvudu)",
+    "meaning_english": "To do or say something exactly right.",
+    "emoji": "🔨"
+  },
+  {
+    "word": "Add fuel to the fire",
+    "meaning_kannada": "ಪರಿಸ್ಥಿತಿಯನ್ನು ಮತ್ತಷ್ಟು ಉಲ್ಬಣಗೊಳಿಸುವುದು (Paristhitiyannu mattashtu ulbanagolisuvudu)",
+    "meaning_english": "To make a bad situation even worse.",
+    "emoji": "🔥"
+  }
 ]
