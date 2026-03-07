@@ -1,27 +1,152 @@
 [
-  { "idiom": "A damp squib", "meaning_kannada": "ನಿರೀಕ್ಷಿತ ಮಟ್ಟದಲ್ಲಿ ಯಶಸ್ವಿಯಾಗದ ವಿಷಯ (ನಿರಾಶಾದಾಯಕ)", "meaning_english": "Meaning: A situation or event which is much less impressive than expected. Opposite: Grand Success, Sensation", "emoji": "🧨" },
-  { "idiom": "Caught a Tartar", "meaning_kannada": "ತನಗಿಂತ ಬಲಿಷ್ಠ ಅಥವಾ ತೊಂದರೆ ನೀಡುವ ವ್ಯಕ್ತಿಯನ್ನು ಎದುರಿಸುವುದು", "meaning_english": "Meaning: To deal with a person who is unexpectedly troublesome or powerful. Opposite: Easy prey, Weak opponent", "emoji": "🤺" },
-  { "idiom": "Apple of discord", "meaning_kannada": "ಜಗಳಕ್ಕೆ ಕಾರಣವಾದ ವಸ್ತು ಅಥವಾ ವಿಷಯ", "meaning_english": "Meaning: A cause of dispute or quarrel. Opposite: Olive branch, Peace pipe", "emoji": "🍎" },
-  { "idiom": "Go down in flames", "meaning_kannada": "ಸಂಪೂರ್ಣವಾಗಿ ಅಥವಾ ನಾಟಕೀಯವಾಗಿ ವಿಫಲವಾಗುವುದು", "meaning_english": "Meaning: To fail spectacularly or end suddenly and completely. Opposite: Succeed brilliantly, Flourish", "emoji": "🔥" },
-  { "idiom": "A mare's nest", "meaning_kannada": "ಸುಳ್ಳು ಶೋಧನೆ ಅಥವಾ ಗೊಂದಲದ ಸ್ಥಿತಿ", "meaning_english": "Meaning: A false invention or a complex and confusing situation. Opposite: Clear fact, Simple truth", "emoji": "🐴" },
-  { "idiom": "Run into rough weather", "meaning_kannada": "ಕಷ್ಟದ ಸಮಯ ಅಥವಾ ತೊಂದರೆಗಳನ್ನು ಎದುರಿಸುವುದು", "meaning_english": "Meaning: To experience difficulties or problems. Opposite: Smooth sailing, Easy times", "emoji": "⛈️" },
-  { "idiom": "Pocket an insult", "meaning_kannada": "ಅಪಮಾನವನ್ನು ಮೌನವಾಗಿ ಸಹಿಸಿಕೊಳ್ಳುವುದು", "meaning_english": "Meaning: To receive an insult without showing resentment. Opposite: Retaliate, Protest", "emoji": "🤐" },
-  { "idiom": "A dime a dozen", "meaning_kannada": "ತುಂಬಾ ಸಾಮಾನ್ಯ ಮತ್ತು ಸುಲಭವಾಗಿ ಸಿಗುವಂತಹುದು", "meaning_english": "Meaning: Anything that is very common and easy to get. Opposite: Rare, Unique, Precious", "emoji": "🪙" },
-  { "idiom": "Queer the pitch", "meaning_kannada": "ಯಾರದ್ದಾದರೂ ಯೋಜನೆ ಅಥವಾ ಕೆಲಸವನ್ನು ಹಾಳು ಮಾಡುವುದು", "meaning_english": "Meaning: To spoil someone's chances or plans. Opposite: Help out, Facilitate", "emoji": "📉" },
-  { "idiom": "Cast iron stomach", "meaning_kannada": "ಯಾವುದನ್ನಾದರೂ ಜೀರ್ಣಿಸಿಕೊಳ್ಳುವ ಶಕ್ತಿ ಇರುವ ವ್ಯಕ್ತಿ", "meaning_english": "Meaning: Someone who can eat anything without getting sick. Opposite: Weak stomach, Picky eater", "emoji": "🥘" },
-  { "idiom": "A chip on your shoulder", "meaning_kannada": "ಹಳೆಯ ಘಟನೆಗಳ ಬಗ್ಗೆ ಅಸಮಾಧಾನ ಇಟ್ಟುಕೊಂಡಿರುವುದು", "meaning_english": "Meaning: Being upset for something that happened in the past. Opposite: Forgiving, Carefree", "emoji": "🗯️" },
-  { "idiom": "Don't look a gift horse in the mouth", "meaning_kannada": "ಉಚಿತವಾಗಿ ಬಂದ ವಸ್ತುವಿನಲ್ಲಿ ತಪ್ಪು ಹುಡುಕಬೇಡಿ", "meaning_english": "Meaning: Don't find fault with something that has been received as a gift. Opposite: Be critical of favors", "emoji": "🐴" },
-  { "idiom": "Between the cup and the lips", "meaning_kannada": "ಗೆಲುವಿನ ಹಂತದಲ್ಲಿದ್ದರೂ ಕೈ ತಪ್ಪುವ ಸಾಧ್ಯತೆ", "meaning_english": "Meaning: On the point of achievement but not yet certain. Opposite: A done deal, Guaranteed", "emoji": "☕" },
-  { "idiom": "A toss-up", "meaning_kannada": "ಫಲಿತಾಂಶ ನಿಖರವಾಗಿ ತಿಳಿಯದ ಅನಿಶ್ಚಿತ ಸ್ಥಿತಿ", "meaning_english": "Meaning: A result that is still unclear and can go either way. Opposite: Certainty, Sure thing", "emoji": "🪙" },
-  { "idiom": "To kill two birds with one stone", "meaning_kannada": "ಒಂದೇ ಪ್ರಯತ್ನದಲ್ಲಿ ಎರಡು ಕೆಲಸ ಸಾಧಿಸುವುದು", "meaning_english": "Meaning: To achieve two aims at once with a single action. Opposite: Waste effort", "emoji": "🎯" },
-  { "idiom": "On thin ice", "meaning_kannada": "ಅಪಾಯಕಾರಿ ಪರಿಸ್ಥಿತಿಯಲ್ಲಿರುವುದು", "meaning_english": "Meaning: In a precarious or risky position. Opposite: Safe ground, Secure position", "emoji": "🧊" },
-  { "idiom": "By the skin of one's teeth", "meaning_kannada": "ಕಿರಿದಾದ ಅಂತರದಲ್ಲಿ ಪಾರಾಗುವುದು", "meaning_english": "Meaning: By a very narrow margin. Opposite: By a wide margin, Easily", "emoji": "🦷" },
-  { "idiom": "Nail in the coffin", "meaning_kannada": "ಸಂಪೂರ್ಣ ಸೋಲಿಗೆ ಕಾರಣವಾಗುವ ಕೊನೆಯ ಘಟನೆ", "meaning_english": "Meaning: The final act or event that brings about total failure. Opposite: Saving grace, Lifeline", "emoji": "⚰️" },
-  { "idiom": "Chip off the old block", "meaning_kannada": "ತಂದೆ-ತಾಯಿಯ ಗುಣಗಳನ್ನು ಹೊಂದಿರುವ ವ್ಯಕ್ತಿ", "meaning_english": "Meaning: Someone who has similar traits to their parents. Opposite: Black sheep, Complete opposite", "emoji": "🧱" },
-  { "idiom": "Bread and butter", "meaning_kannada": "ಪ್ರಮುಖ ಆದಾಯದ ಮೂಲ", "meaning_english": "Meaning: The main source of income or livelihood. Opposite: Hobby, Side project", "emoji": "🍞" },
-  { "idiom": "Run helter-skelter", "meaning_kannada": "ಗಲಿಬಿಲಿಯಿಂದ ಅಸ್ತವ್ಯಸ್ತವಾಗಿ ಓಡುವುದು", "meaning_english": "Meaning: In a carelessly hurried or disorderly manner. Opposite: Orderly, Organized", "emoji": "🏃‍♂️" },
-  { "idiom": "Donkey's years", "meaning_kannada": "ಬಹಳ ದೀರ್ಘ ಕಾಲ", "meaning_english": "Meaning: A very long time. Opposite: A split second, Momentarily", "emoji": "⏳" },
-  { "idiom": "A different kettle of fish", "meaning_kannada": "ಸಂಪೂರ್ಣವಾಗಿ ಭಿನ್ನವಾದ ಸ್ಥಿತಿ", "meaning_english": "Meaning: A situation that is completely different. Opposite: More of the same", "emoji": "🐟" },
-  { "idiom": "Bob's your uncle", "meaning_kannada": "ಕೆಲಸ ಸುಲಭವಾಗಿ ಮುಗಿಯಿತು ಎಂದರ್ಥ", "meaning_english": "Meaning: A phrase used to say that something is completed easily. Opposite: Complex process", "emoji": "👌" },
-  { "idiom": "Bronx cheer", "meaning_kannada": "ವ್ಯಂಗ್ಯದ ಪ್ರೋತ್ಸಾಹ (ಅಣಕ)", "meaning_english": "Meaning: To cheer sarcastically or show disapproval. Opposite: Standing ovation, Applause", "emoji": "👎" }
+  {
+    "word": "A damp squib",
+    "meaning_kannada": "ನಿರೀಕ್ಷಿತ ಮಟ್ಟದಲ್ಲಿ ಯಶಸ್ವಿಯಾಗದ ವಿಷಯ (Nireekshita mattadalli yashasviyagada vishaya)",
+    "meaning_english": "A situation or event which is much less impressive than expected.",
+    "emoji": "🧨"
+  },
+  {
+    "word": "Caught a Tartar",
+    "meaning_kannada": "ಬಲಿಷ್ಠ ಎದುರಾಳಿಯನ್ನು ಎದುರಿಸುವುದು (Balishtha eduraliyannu edurisuvudu)",
+    "meaning_english": "To deal with a person who is unexpectedly troublesome or powerful.",
+    "emoji": "🤺"
+  },
+  {
+    "word": "Apple of discord",
+    "meaning_kannada": "ಜಗಳಕ್ಕೆ ಕಾರಣವಾದ ವಿಷಯ (Jagalakke karanavada vishaya)",
+    "meaning_english": "A cause of dispute or quarrel.",
+    "emoji": "🍎"
+  },
+  {
+    "word": "Go down in flames",
+    "meaning_kannada": "ಸಂಪೂರ್ಣವಾಗಿ ವಿಫಲವಾಗುವುದು (Sampurnavagi viphalavaguvudu)",
+    "meaning_english": "To fail spectacularly or end suddenly and completely.",
+    "emoji": "🔥"
+  },
+  {
+    "word": "A mare's nest",
+    "meaning_kannada": "ಸುಳ್ಳು ಶೋಧನೆ ಅಥವಾ ಗೊಂದಲದ ಸ್ಥಿತಿ (Sullu shodhane athava gondalada sthiti)",
+    "meaning_english": "A false invention or a complex and confusing situation.",
+    "emoji": "🐴"
+  },
+  {
+    "word": "Run into rough weather",
+    "meaning_kannada": "ಕಷ್ಟದ ಸಮಯ ಎದುರಿಸುವುದು (Kashtada samaya edurisuvudu)",
+    "meaning_english": "To experience difficulties or problems.",
+    "emoji": "⛈️"
+  },
+  {
+    "word": "Pocket an insult",
+    "meaning_kannada": "ಅಪಮಾನವನ್ನು ಮೌನವಾಗಿ ಸಹಿಸಿಕೊಳ್ಳುವುದು (Apamanavannu maunavagi sahisikolluvudu)",
+    "meaning_english": "To receive an insult without showing resentment.",
+    "emoji": "🤐"
+  },
+  {
+    "word": "A dime a dozen",
+    "meaning_kannada": "ತುಂಬಾ ಸಾಮಾನ್ಯವಾದದ್ದು (Tumba samanyavadaddu)",
+    "meaning_english": "Anything that is very common and easy to get.",
+    "emoji": "🪙"
+  },
+  {
+    "word": "Queer the pitch",
+    "meaning_kannada": "ಯೋಜನೆಯನ್ನು ಹಾಳು ಮಾಡುವುದು (Yojaneyannu halu maduvudu)",
+    "meaning_english": "To spoil someone's chances or plans.",
+    "emoji": "📉"
+  },
+  {
+    "word": "Cast iron stomach",
+    "meaning_kannada": "ಜೀರ್ಣಿಸಿಕೊಳ್ಳುವ ಶಕ್ತಿ ಇರುವ ವ್ಯಕ್ತಿ (Jeernisikolluva shakti iruva vyakti)",
+    "meaning_english": "Someone who can eat anything without getting sick.",
+    "emoji": "🥘"
+  },
+  {
+    "word": "A chip on your shoulder",
+    "meaning_kannada": "ಹಳೆಯ ಘಟನೆಗಳ ಬಗ್ಗೆ ಅಸಮಾಧಾನ (Haleya ghatanehala bagge asamadana)",
+    "meaning_english": "Being upset for something that happened in the past.",
+    "emoji": "🗯️"
+  },
+  {
+    "word": "Don't look a gift horse in the mouth",
+    "meaning_kannada": "ಉಚಿತವಾಗಿ ಬಂದದ್ದರಲ್ಲಿ ತಪ್ಪು ಹುಡುಕಬೇಡಿ (Uchitavagi bandaddaralli tappu hudukabedi)",
+    "meaning_english": "Don't find fault with something that has been received as a gift.",
+    "emoji": "🐴"
+  },
+  {
+    "word": "Between the cup and the lips",
+    "meaning_kannada": "ಗೆಲುವಿನ ಹಂತದಲ್ಲಿ ಕೈತಪ್ಪುವುದು (Geluvina hantadalli kaitappuvudu)",
+    "meaning_english": "On the point of achievement but not yet certain.",
+    "emoji": "☕"
+  },
+  {
+    "word": "A toss-up",
+    "meaning_kannada": "ಅನಿಶ್ಚಿತ ಸ್ಥಿತಿ (Anishchita sthiti)",
+    "meaning_english": "A result that is still unclear and can go either way.",
+    "emoji": "🪙"
+  },
+  {
+    "word": "To kill two birds with one stone",
+    "meaning_kannada": "ಒಂದೇ ಏಟಿಗೆ ಎರಡು ಹಕ್ಕಿ (Onde etige eradu hakki)",
+    "meaning_english": "To achieve two aims at once with a single action.",
+    "emoji": "🎯"
+  },
+  {
+    "word": "On thin ice",
+    "meaning_kannada": "ಅಪಾಯಕಾರಿ ಪರಿಸ್ಥಿತಿ (Upayakari paristhiti)",
+    "meaning_english": "In a precarious or risky position.",
+    "emoji": "🧊"
+  },
+  {
+    "word": "By the skin of one's teeth",
+    "meaning_kannada": "ಕಿರಿದಾದ ಅಂತರದಲ್ಲಿ ಪಾರು (Kiridada antaradalli paru)",
+    "meaning_english": "By a very narrow margin.",
+    "emoji": "🦷"
+  },
+  {
+    "word": "Nail in the coffin",
+    "meaning_kannada": "ಸೋಲಿಗೆ ಕಾರಣವಾಗುವ ಕೊನೆಯ ಘಟನೆ (Solige karanavaguva koneya ghatane)",
+    "meaning_english": "The final act or event that brings about total failure.",
+    "emoji": "⚰️"
+  },
+  {
+    "word": "Chip off the old block",
+    "meaning_kannada": "ತಂದೆ-ತಾಯಿಯಂತೆಯೇ ಗುಣವುಳ್ಳವನು (Tande-tayiyanteye gunavullavanu)",
+    "meaning_english": "Someone who has similar traits to their parents.",
+    "emoji": "🧱"
+  },
+  {
+    "word": "Bread and butter",
+    "meaning_kannada": "ಜೀವನೋಪಾಯದ ಮೂಲ (Jeevanopayada mula)",
+    "meaning_english": "The main source of income or livelihood.",
+    "emoji": "🍞"
+  },
+  {
+    "word": "Run helter-skelter",
+    "meaning_kannada": "ಗಲಿಬಿಲಿಯಿಂದ ಓಡುವುದು (Galibiliyinda oduvudu)",
+    "meaning_english": "In a carelessly hurried or disorderly manner.",
+    "emoji": "🏃‍♂️"
+  },
+  {
+    "word": "Donkey's years",
+    "meaning_kannada": "ಬಹಳ ದೀರ್ಘ ಕಾಲ (Bahala deergha kala)",
+    "meaning_english": "A very long time.",
+    "emoji": "⏳"
+  },
+  {
+    "word": "A different kettle of fish",
+    "meaning_kannada": "ಸಂಪೂರ್ಣವಾಗಿ ಭಿನ್ನವಾದ ಸ್ಥಿತಿ (Sampurnavagi bhinnavada sthiti)",
+    "meaning_english": "A situation that is completely different.",
+    "emoji": "🐟"
+  },
+  {
+    "word": "Bob's your uncle",
+    "meaning_kannada": "ಕೆಲಸ ಸುಲಭವಾಗಿ ಮುಗಿಯಿತು (Kelasa sulabhavagi mugiyitu)",
+    "meaning_english": "Used to say that something is completed easily or all set.",
+    "emoji": "👌"
+  },
+  {
+    "word": "Bronx cheer",
+    "meaning_kannada": "ವ್ಯಂಗ್ಯದ ಪ್ರೋತ್ಸಾಹ (Vyangyada protsaha)",
+    "meaning_english": "To cheer sarcastically or show disapproval.",
+    "emoji": "👎"
+  }
 ]
