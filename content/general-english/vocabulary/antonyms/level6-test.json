@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the Antonym of 'Cupidity'?",
+    "options": ["Avarice", "Largesse", "Greed", "Rapacity"],
+    "answer": "Largesse",
+    "explanation": "Cupidity is greed for money; Largesse is generosity in bestowing money or gifts."
+  },
+  {
+    "question": "Identify the opposite of the underlined word: Her <u>ebullient</u> personality filled the room.",
+    "options": ["Vivacious", "Exuberant", "Listless", "Radiant"],
+    "answer": "Listless",
+    "explanation": "Ebullient means full of energy; Listless means lacking energy or enthusiasm."
+  },
+  {
+    "question": "Find the Antonym for 'Pellucid':",
+    "options": ["Crystalline", "Murky", "Transparent", "Limpid"],
+    "answer": "Murky",
+    "explanation": "Pellucid means crystal clear; Murky means dark, thick, or dirty."
+  },
+  {
+    "question": "Opposite of 'Obdurate' is:",
+    "options": ["Inflexible", "Adamant", "Amenable", "Callous"],
+    "answer": "Amenable",
+    "explanation": "Obdurate means stubborn; Amenable means open and responsive to suggestion."
+  },
+  {
+    "question": "What is the Antonym of 'Sycophant'?",
+    "options": ["Toady", "Flatterer", "Detractor", "Lackey"],
+    "answer": "Detractor",
+    "explanation": "A sycophant is a 'yes-man' or flatterer; a detractor is someone who criticizes or disparages."
+  },
+  {
+    "question": "Sentence Context: The law fell into <u>desuetude</u> over the centuries.",
+    "options": ["Prevalence", "Disuse", "Neglect", "Abeyance"],
+    "answer": "Prevalence",
+    "explanation": "Desuetude means a state of disuse; Prevalence means the state of being widespread or in use."
+  },
+  {
+    "question": "Choose the opposite of 'Munificent':",
+    "options": ["Bountiful", "Parsimonious", "Liberal", "Charitable"],
+    "answer": "Parsimonious",
+    "explanation": "Munificent means very generous; Parsimonious means very unwilling to spend money."
+  },
+  {
+    "question": "What is the Antonym of 'Pusillanimous'?",
+    "options": ["Valorous", "Timid", "Craven", "Fearful"],
+    "answer": "Valorous",
+    "explanation": "Pusillanimous means cowardly; Valorous means showing great courage."
+  },
+  {
+    "question": "Identify the opposite of 'Recondite'?",
+    "options": ["Abstruse", "Arcane", "Manifest", "Profound"],
+    "answer": "Manifest",
+    "explanation": "Recondite means little known or hidden; Manifest means clear or obvious to the eye."
+  },
+  {
+    "question": "Antonym for 'Vituperative':",
+    "options": ["Abusive", "Scurrilous", "Laudatory", "Invective"],
+    "answer": "Laudatory",
+    "explanation": "Vituperative is bitter and abusive; Laudatory is expressing praise."
+  }
+]
