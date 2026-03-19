@@ -67,7 +67,6 @@
             border-color: rgba(67, 56, 202, 0.3);
         }
 
-        /* FIXED CARD FLIP CSS */
         .anki-card { perspective: 1000px; height: 480px; width: 100%; max-width: 500px; margin: 0 auto; cursor: pointer; }
         .anki-card-inner {
             position: relative;
@@ -79,20 +78,12 @@
         .anki-card.flipped .anki-card-inner { transform: rotateY(180deg); }
         .anki-front, .anki-back {
             position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
+            top: 0; left: 0; width: 100%; height: 100%;
             backface-visibility: hidden;
             -webkit-backface-visibility: hidden;
-            border-radius: 3.5rem;
-            border-width: 2px;
-            padding: 2.5rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
+            border-radius: 3.5rem; border-width: 2px;
+            padding: 2.5rem; display: flex; flex-direction: column;
+            justify-content: center; align-items: center; text-align: center;
         }
         .anki-front { border-color: #f1f5f9; background-color: white; box-shadow: 0 10px 30px rgba(0,0,0,0.05); z-index: 2; transform: rotateY(0deg); }
         .anki-back { border-color: #e0e7ff; background-color: #eef2ff; transform: rotateY(180deg); box-shadow: 0 10px 30px rgba(67, 56, 202, 0.1); z-index: 1; }
@@ -104,7 +95,6 @@
         @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
         .break-word-custom { overflow-wrap: anywhere; word-break: break-word; hyphens: auto; }
 
-        /* QUIZ FEEDBACK STYLES */
         .option-correct { border-color: #10b981 !important; background-color: #ecfdf5 !important; color: #065f46 !important; border-width: 3px !important; }
         .option-wrong { border-color: #ef4444 !important; background-color: #fef2f2 !important; color: #991b1b !important; border-width: 3px !important; }
         .explanation-box { animation: slideIn 0.4s ease-out; }
@@ -130,8 +120,7 @@
     </nav>
 
     <main id="app-shell" class="pt-[120px] min-h-screen">
-        <!-- Views load here -->
-    </main>
+        </main>
 
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
@@ -200,6 +189,41 @@
             ]
         };
 
+        const mts2023Shifts = [
+            "02-May Shift 1", "02-May Shift 2", "02-May Shift 3",
+            "03-May Shift 1", "03-May Shift 2", "03-May Shift 3",
+            "04-May Shift 1", "04-May Shift 2", "04-May Shift 3",
+            "08-May Shift 1", "08-May Shift 2", "08-May Shift 3",
+            "09-May Shift 1", "09-May Shift 2", "09-May Shift 3",
+            "10-May Shift 1", "10-May Shift 2", "10-May Shift 3",
+            "11-May Shift 1", "11-May Shift 2", "11-May Shift 3",
+            "12-May Shift 1", "12-May Shift 2", "12-May Shift 3",
+            "15-May Shift 1", "15-May Shift 2", "15-May Shift 3",
+            "16-May Shift 1", "16-May Shift 2", "16-May Shift 3",
+            "17-May Shift 1", "17-May Shift 2", "17-May Shift 3",
+            "18-May Shift 1", "18-May Shift 2", "18-May Shift 3",
+            "19-May Shift 1", "19-May Shift 2", "19-May Shift 3",
+            "13-Jun Shift 1", "13-Jun Shift 2", "13-Jun Shift 3",
+            "14-Jun Shift 1", "14-Jun Shift 2", "14-Jun Shift 3",
+            "15-Jun Shift 1", "15-Jun Shift 2", "15-Jun Shift 3",
+            "16-Jun Shift 1", "16-Jun Shift 2", "16-Jun Shift 3",
+            "19-Jun Shift 1", "19-Jun Shift 2", "19-Jun Shift 3",
+            "20-Jun Shift 1", "20-Jun Shift 2", "20-Jun Shift 3"
+        ];
+
+        const cgl2023Shifts = [
+            "14 July Shift-1", "14 July Shift-2", "14 July Shift-3", "14 July Shift-4",
+            "17 July Shift-1", "17 July Shift-2", "17 July Shift-3", "17 July Shift-4",
+            "18 July Shift-1", "18 July Shift-2", "18 July Shift-3", "18 July Shift-4",
+            "19 July Shift-1", "19 July Shift-2", "19 July Shift-3", "19 July Shift-4",
+            "20 July Shift-1", "20 July Shift-2", "20 July Shift-3", "20 July Shift-4",
+            "21 July Shift-1", "21 July Shift-2", "21 July Shift-3", "21 July Shift-4",
+            "24 July Shift-1", "24 July Shift-2", "24 July Shift-3", "24 July Shift-4",
+            "25 July Shift-1", "25 July Shift-2", "25 July Shift-3", "25 July Shift-4",
+            "26 July Shift-1", "26 July Shift-2", "26 July Shift-3", "26 July Shift-4",
+            "27 July Shift-1", "27 July Shift-2", "27 July Shift-3"
+        ];
+
         // --- NAVIGATION & HISTORY ---
         window.navigateTo = (view, params = {}, fromPopState = false) => {
             const protectedViews = ['english-selection', 'topics-grid', 'levels-grid', 'content-view', 'mistakes-book', 'doubts', 'exams-pyq'];
@@ -231,41 +255,11 @@
 
         if (!history.state) history.replaceState({ view: 'home', params: {} }, '', "");
 
-        window.handleLogout = async () => { 
-            await signOut(auth); 
-            state.isAuthenticated = false; 
-            state.userName = '';
-            state.userId = null;
-            navigateTo('home'); 
-        };
-
-        async function handleAuth(e) {
-            e.preventDefault();
-            const userIn = document.getElementById('username-input').value;
-            const passIn = document.getElementById('password-input').value;
-            const isSignUp = state.authMode === 'signup';
-            const email = `${userIn.toLowerCase()}@prepease.internal`;
-            const btn = e.target.querySelector('button[type="submit"]');
-            btn.disabled = true;
-            btn.innerText = isSignUp ? "Creating Profile..." : "Authorizing...";
-            try {
-                if (isSignUp) {
-                    const fullName = document.getElementById('name-input').value;
-                    const res = await createUserWithEmailAndPassword(auth, email, passIn);
-                    await setDoc(doc(db, 'artifacts', appId, 'users', res.user.uid, 'profile', 'info'), { 
-                        name: fullName, username: userIn, joinedAt: new Date().toISOString() 
-                    });
-                    state.userName = fullName;
-                } else {
-                    await signInWithEmailAndPassword(auth, email, passIn);
-                }
-                navigateTo('home');
-            } catch (err) { 
-                alert(isSignUp ? "Signup Failed: Username ID might be taken." : "Access Denied: Check Username/Password."); 
-                btn.disabled = false;
-                btn.innerText = isSignUp ? "Create Account" : "Authorize";
-            }
-        }
+        // --- AUTH & DATA ---
+        onAuthStateChanged(auth, (user) => { 
+            if (user) loadUserData(); 
+            else { state.isAuthenticated = false; render(); } 
+        });
 
         async function loadUserData() {
             if (!auth.currentUser) return;
@@ -277,14 +271,13 @@
                 render();
             }
             onSnapshot(collection(db, 'artifacts', appId, 'users', state.userId, 'progress'), (snap) => {
-                state.progress = {}; state.totalPoints = 0; state.totalCoins = 0;
+                state.progress = {}; state.totalPoints = 0;
                 snap.forEach(doc => {
                     const d = doc.data();
                     state.progress[doc.id] = d;
                     state.totalPoints += (d.points || 0);
-                    state.totalCoins += (d.coins || 0);
                 });
-                if (state.view === 'home' || state.view === 'levels-grid') render();
+                render();
             });
             onSnapshot(collection(db, 'artifacts', appId, 'users', state.userId, 'mistakes'), (snap) => {
                 state.mistakes = [];
@@ -293,6 +286,7 @@
             });
         }
 
+        // --- RENDER SYSTEM ---
         function render() {
             const shell = document.getElementById('app-shell');
             const authBtn = document.getElementById('auth-header-btn');
@@ -312,42 +306,276 @@
                 case 'topics-grid': shell.innerHTML = renderTopicsGrid(); break;
                 case 'levels-grid': shell.innerHTML = renderLevelsGrid(); break;
                 case 'exams-pyq': shell.innerHTML = renderExamsPYQ(); break;
-                case 'content-view': shell.innerHTML = `<div id="content-container" class="max-w-6xl mx-auto px-6 py-10"></div>`; loadContent(); break;
+                case 'content-view': 
+                    shell.innerHTML = `<div id="content-container" class="max-w-6xl mx-auto px-6 py-10"></div>`; 
+                    if (state.isSSC) {
+                        loadQuiz(); // Direct to test for SSC
+                    } else {
+                        loadContent(); 
+                    }
+                    break;
             }
         }
         window.render = render;
 
-        // --- MISTAKES BOOK ---
-        function renderMistakesBook() {
-            if (state.mistakes.length === 0) {
-                return `<div class="max-w-xl mx-auto py-40 text-center view-transition">
-                    <div class="text-6xl mb-6">💎</div><h3 class="font-black text-2xl text-slate-900 mb-2 uppercase tracking-tight">Zero Errors</h3>
-                    <button onclick="history.back()" class="px-12 py-5 bg-indigo-600 text-white font-black rounded-3xl shadow-xl uppercase text-xs font-bold">Go Back</button>
+        // --- CONTENT LOADER ---
+        window.loadContent = async () => {
+            const container = document.getElementById('content-container');
+            const { currentType: type, currentTopic: topic, currentLevel: level } = state;
+            container.innerHTML = `<button onclick="history.back()" class="text-slate-400 font-bold mb-8 flex items-center gap-2 uppercase text-xs">← Back</button><div class="py-20 text-center animate-pulse text-slate-400 uppercase text-xs">Opening Content...</div>`;
+            const url = `./content/general-english/${type}/${topic}/level-${level}.json`;
+            try {
+                const res = await fetch(url);
+                if (!res.ok) throw new Error("404");
+                window.activeStudyData = await res.json();
+                renderStudyCardUI();
+            } catch (e) {
+                container.innerHTML = `<div class="text-center p-20 font-bold">Content not found.</div>`;
+            }
+        };
+
+        function renderStudyCardUI() {
+            const container = document.getElementById('content-container');
+            const data = window.activeStudyData;
+            const item = data[state.currentStudyIndex];
+            const flipped = state.currentStudyFlipped ? 'flipped' : '';
+
+            container.innerHTML = `
+                <button onclick="history.back()" class="text-slate-400 font-bold mb-8 flex items-center gap-2 hover:text-indigo-600 transition-colors uppercase text-xs tracking-widest font-bold">← Back</button>
+                <div class="mb-10 flex justify-between items-center font-bold">
+                    <h2 class="text-2xl font-black text-slate-900 tracking-tighter font-bold">Phase ${state.currentLevel}</h2>
+                    <span class="text-[10px] font-black bg-slate-100 px-4 py-1.5 rounded-full font-bold">${state.currentStudyIndex + 1} / ${data.length}</span>
+                </div>
+                <div class="anki-card ${flipped}" id="study-card-flip-target">
+                    <div class="anki-card-inner">
+                        <div class="anki-front font-bold">
+                            <div class="text-7xl mb-8 font-bold">${item.emoji || '📗'}</div>
+                            <h3 class="text-2xl font-black text-slate-900 tracking-tighter break-word-custom text-center font-bold">${item.word}</h3>
+                            <p class="mt-12 text-[10px] text-slate-300 uppercase tracking-widest font-bold">Tap to reveal meaning</p>
+                        </div>
+                        <div class="anki-back font-bold">
+                            <p class="text-3xl font-bold text-slate-800 font-kannada leading-tight text-center mb-6 font-bold">${item.meaning_kannada}</p>
+                            <p class="text-lg text-slate-500 font-medium leading-relaxed italic text-center font-bold">${item.meaning_english}</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-[500px] mx-auto mt-10 grid grid-cols-2 gap-4 font-bold">
+                    <button onclick="changeStudyCard(-1)" class="py-5 bg-white border-2 border-slate-100 rounded-[2rem] font-bold text-slate-600 disabled:opacity-30" ${state.currentStudyIndex === 0 ? 'disabled' : ''}>← Previous</button>
+                    ${state.currentStudyIndex === data.length - 1 ? 
+                        `<button onclick="loadQuiz()" class="py-5 bg-indigo-600 text-white rounded-[2rem] font-black uppercase text-xs shadow-xl shadow-indigo-100 font-bold">Start Test 🚀</button>` :
+                        `<button onclick="changeStudyCard(1)" class="py-5 bg-white border-2 border-slate-100 rounded-[2rem] font-bold text-slate-900 hover:border-indigo-600 transition-all font-bold">Next →</button>`
+                    }
+                </div>
+            `;
+            document.getElementById('study-card-flip-target').onclick = () => {
+                state.currentStudyFlipped = !state.currentStudyFlipped;
+                renderStudyCardUI();
+            };
+        }
+
+        window.changeStudyCard = (dir) => {
+            state.currentStudyIndex += dir;
+            state.currentStudyFlipped = false;
+            renderStudyCardUI();
+        };
+
+        // --- ASSESSMENT ENGINE ---
+        window.loadQuiz = async () => {
+            const { currentType: type, currentTopic: topic, currentLevel: level, isSSC: ssc, currentShift: shift, currentExam: exam } = state;
+            const container = document.getElementById('content-container');
+            container.innerHTML = `<button onclick="history.back()" class="text-slate-400 font-bold mb-8 flex items-center gap-2 uppercase text-xs">← Back</button><div class="py-20 text-center animate-pulse text-indigo-400 font-bold uppercase text-xs">Loading Assessment...</div>`;
+
+            let url = "";
+            if (ssc) {
+                const examPath = exam === 'SSC MTS 2023' ? 'mts2023' : 'cgl2023';
+                url = `./content/ssc/${examPath}/shift-${shift}-test.json`;
+            } else {
+                url = `./content/general-english/${type}/${topic}/level-${level}-test.json`;
+            }
+
+            try {
+                const res = await fetch(url);
+                if (res.ok) {
+                    window.activeQuestionsData = await res.json();
+                    state.currentQuizIndex = 0;
+                    state.currentQuizAnswers = {};
+                    renderQuizUI();
+                } else throw new Error();
+            } catch (e) {
+                container.innerHTML = `<button onclick="history.back()" class="text-slate-400 font-bold mb-8 flex items-center gap-2 uppercase text-xs">← Back</button><div class="text-center p-20 font-bold">Assessment file not found.</div>`;
+            }
+        };
+
+        function renderQuizUI() {
+            const container = document.getElementById('content-container');
+            const questions = window.activeQuestionsData;
+            const q = questions[state.currentQuizIndex];
+            const answerRecord = state.currentQuizAnswers[state.currentQuizIndex];
+
+            container.innerHTML = `
+                <button onclick="history.back()" class="text-slate-400 font-bold mb-8 flex items-center gap-2 hover:text-indigo-600 transition-colors uppercase text-xs tracking-widest font-bold font-bold">← Back</button>
+                <div class="mb-10 flex justify-between items-center font-bold">
+                    <h2 class="text-2xl font-black text-slate-900 font-bold font-bold font-bold">Assessment</h2>
+                    <span class="text-[10px] font-black bg-slate-900 text-white px-4 py-1.5 rounded-full font-bold">${state.currentQuizIndex + 1} / ${questions.length}</span>
+                </div>
+
+                <div class="bg-white p-10 rounded-[3.5rem] border-2 border-slate-100 shadow-sm relative mb-10 font-bold">
+                    <p class="text-xl font-bold mb-10 text-slate-800 leading-relaxed font-bold">${q.question}</p>
+                    <div class="grid grid-cols-1 gap-4 font-bold">
+                        ${q.options.map((o) => {
+                            const isSelected = answerRecord?.selected === o.trim();
+                            const isCorrect = o.trim() === q.answer.trim();
+                            let classes = "flex items-center gap-4 px-8 py-5 border-2 border-slate-50 rounded-[2rem] cursor-pointer transition-all font-bold";
+                            if (answerRecord) {
+                                if (isCorrect) classes += " option-correct";
+                                else if (isSelected) classes += " option-wrong";
+                                classes += " pointer-events-none opacity-80";
+                            } else {
+                                classes += " hover:bg-slate-50";
+                            }
+                            return `
+                                <label class="${classes}">
+                                    <input type="radio" name="q" value="${o.trim()}" 
+                                           ${isSelected ? 'checked' : ''} 
+                                           onchange="handleInstantFeedback(${state.currentQuizIndex}, '${o.trim()}', '${q.answer.trim()}')"
+                                           class="accent-indigo-600 w-5 h-5 font-bold">
+                                    <span class="font-bold">${o}</span>
+                                </label>
+                            `;
+                        }).join('')}
+                    </div>
+
+                    ${answerRecord ? `
+                        <div class="mt-10 p-8 rounded-[2.5rem] ${answerRecord.isCorrect ? 'bg-emerald-50 text-emerald-800 border border-emerald-100' : 'bg-rose-50 text-rose-800 border border-rose-100'} explanation-box font-bold">
+                             <p class="font-black text-[11px] uppercase tracking-[0.1em] mb-3 text-slate-400">Mastery Insight</p>
+                             <p class="text-base font-medium leading-relaxed font-bold">${q.explanation || 'The correct answer is: ' + q.answer}</p>
+                        </div>
+                    ` : ''}
+                </div>
+
+                <div class="grid grid-cols-2 gap-4 font-bold">
+                    <button onclick="changeQuizQuestion(-1)" class="py-5 bg-white border-2 border-slate-100 rounded-[2rem] font-bold text-slate-600 disabled:opacity-30" ${state.currentQuizIndex === 0 ? 'disabled' : ''}>← Previous</button>
+                    ${state.currentQuizIndex === questions.length - 1 ? 
+                        `<button onclick="submitFinalResults()" class="py-5 bg-indigo-600 text-white rounded-[2rem] font-black uppercase text-xs shadow-xl shadow-indigo-100 font-bold">Finish 🎯</button>` :
+                        `<button onclick="changeQuizQuestion(1)" class="py-5 bg-white border-2 border-slate-100 rounded-[2rem] font-bold text-slate-900 hover:border-indigo-600 transition-all font-bold">Next →</button>`
+                    }
+                </div>
+            `;
+        }
+
+        window.handleInstantFeedback = function(qIndex, selected, correct) {
+            state.currentQuizAnswers[qIndex] = { selected, isCorrect: selected === correct };
+            renderQuizUI();
+        };
+
+        window.changeQuizQuestion = (dir) => { state.currentQuizIndex += dir; renderQuizUI(); };
+
+        window.submitFinalResults = async function() {
+            const questions = window.activeQuestionsData;
+            let score = 0, mistakesFound = [];
+
+            questions.forEach((q, i) => {
+                const record = state.currentQuizAnswers[i];
+                if (record && record.isCorrect) score++;
+                else mistakesFound.push({ question: q.question, answer: q.answer, options: q.options, explanation: q.explanation || `Correct answer: ${q.answer}` });
+            });
+
+            await saveResultToCloud(score, questions.length, score * 10, score, mistakesFound);
+            const shell = document.getElementById('app-shell');
+            shell.innerHTML = `<div class="max-w-xl mx-auto py-20 px-6 text-center view-transition font-bold"><div class="bg-white border-2 border-indigo-100 p-16 rounded-[4rem] shadow-xl font-bold"><p class="text-7xl mb-6">🏆</p><h2 class="text-4xl font-black text-slate-900 mb-4 tracking-tighter">Analysis Complete</h2><p class="text-7xl font-black text-indigo-600 mb-8">${score} / ${questions.length}</p><button onclick="navigateTo('home')" class="w-full py-5 bg-slate-900 text-white font-black rounded-2xl uppercase tracking-widest text-xs">Return Dashboard</button></div></div>`;
+        };
+
+        async function saveResultToCloud(score, total, points, coins, mistakes) {
+            if (!auth.currentUser) return;
+            const progressId = state.isSSC ? `${state.currentExam}_${state.currentShift}` : `${state.currentType}_${state.currentTopic}_${state.currentLevel}`;
+            await setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'progress', progressId), { score, total, points, coins, completedAt: new Date().toISOString() });
+            for (const m of mistakes) {
+                const mId = btoa(m.question.substring(0, 30)).substring(0, 20);
+                await setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'mistakes', mId), { ...m, masteryCount: 0 }, { merge: true });
+            }
+            await setDoc(doc(db, 'artifacts', appId, 'public', 'data', 'leaderboard', state.userId), { name: state.userName, points: (state.totalPoints || 0) + points }, { merge: true });
+        }
+
+        // --- VIEWS ---
+        function renderHome() {
+            const rank = (p) => p < 500 ? '🌱 Junior' : p < 2000 ? '⚔️ Warrior' : '🏛️ Officer';
+            return `<div class="hero-gradient p-10 view-transition font-bold"><div class="max-w-7xl mx-auto"><div class="mb-12 font-bold"><h2 class="text-6xl font-black text-slate-900 tracking-tighter mb-4 leading-tight">Hello, <span class="text-indigo-600">${state.userName || 'Aspirant'}!</span></h2></div><div class="mb-12 font-bold"><div class="bg-indigo-600 p-12 rounded-[3.5rem] text-white shadow-2xl shadow-indigo-200 flex flex-col md:flex-row justify-between items-center gap-8 font-bold"><div class="text-center md:text-left font-bold"><p class="text-[10px] font-black uppercase tracking-widest opacity-60 mb-2 font-bold">Progress</p><p class="text-7xl font-black leading-none font-bold">${state.totalPoints || 0}</p><p class="text-sm font-bold opacity-80 mt-2 uppercase tracking-tighter font-bold">Mastery Points</p></div><div class="flex gap-6 font-bold"><div class="bg-white/10 p-6 rounded-3xl text-center border border-white/5 font-bold"><p class="text-2xl font-black font-bold">🪙 ${state.totalCoins || 0}</p><p class="text-[9px] font-black uppercase opacity-60 mt-1 font-bold">Coins</p></div><div class="bg-white/10 p-6 rounded-3xl text-center border border-white/5 font-bold"><p class="text-2xl font-black font-bold">${rank(state.totalPoints)}</p><p class="text-[9px] font-black uppercase opacity-60 mt-1 font-bold">Status</p></div></div></div></div><div class="mb-16 font-bold"><h3 class="text-xs font-black text-slate-400 uppercase tracking-[0.2em] mb-8 font-bold">Curriculum Units</h3><div class="grid grid-cols-1 md:grid-cols-3 gap-6 font-bold"><div onclick="navigateTo('english-selection')" class="premium-card group font-bold"><div class="w-14 h-14 bg-indigo-50 text-indigo-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:bg-indigo-600 group-hover:text-white transition-all font-bold">🇬🇧</div><h3 class="text-xl font-bold text-slate-900 mb-2 font-bold">General English</h3><p class="text-slate-500 text-xs font-bold">Topic-wise Roadmap.</p></div><div onclick="navigateTo('exams-pyq', { currentCategory: 'ssc' })" class="premium-card group font-bold"><div class="w-14 h-14 bg-amber-50 text-amber-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:bg-amber-600 group-hover:text-white transition-all font-bold">⚔️</div><h3 class="text-xl font-bold text-slate-900 mb-2 font-bold">SSC Central</h3><p class="text-slate-500 text-xs font-bold">SSC CGL & MTS 2023.</p></div><div onclick="navigateTo('mistakes-book')" class="premium-card group font-bold font-bold"><div class="w-14 h-14 bg-rose-50 text-rose-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:bg-rose-600 group-hover:text-white transition-all font-bold">📓</div><h3 class="text-xl font-bold text-slate-900 mb-2 font-bold">Mistakes Book</h3><p class="text-slate-500 text-xs font-bold">${state.mistakes.length} errors.</p></div></div></div></div></div>`;
+        }
+
+        function renderEnglishSelection() { return `<div class="max-w-7xl mx-auto px-6 py-10 text-left view-transition font-bold"><button onclick="history.back()" class="text-slate-400 font-bold mb-8 flex items-center gap-2 hover:text-indigo-600 transition-colors uppercase text-xs tracking-widest font-bold">← Back</button><h2 class="text-4xl font-black mb-12 font-bold">English <span class="text-indigo-600 font-bold">Track</span></h2><div class="grid grid-cols-1 md:grid-cols-2 gap-10 text-left font-bold"><div onclick="navigateTo('topics-grid', { currentType: 'grammar' })" class="premium-card group font-bold"><span>Foundations</span><h3 class="text-3xl font-black mb-4">Grammar</h3><p class="mb-8">Rule-based units.</p><span class="font-bold">Open Unit ➜</span></div><div onclick="navigateTo('topics-grid', { currentType: 'vocabulary' })" class="premium-card group font-bold"><span>Mappings</span><h3 class="text-3xl font-black mb-4">Vocabulary</h3><p class="mb-8">Memory-based units.</p><span class="font-bold">Open Unit ➜</span></div></div></div>`; }
+        function renderTopicsGrid() { const topics = topicsData[state.currentType] || []; return `<div class="max-w-7xl mx-auto px-6 py-10 text-left view-transition font-bold"><button onclick="history.back()" class="text-slate-400 font-bold mb-8 flex items-center gap-2 hover:text-indigo-600 transition-colors uppercase text-xs tracking-widest font-bold">← Back</button><h2 class="text-4xl font-black capitalize mb-12 font-bold">${state.currentType} Mastery</h2><div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-left font-bold">${topics.map(t => `<div onclick="navigateTo('levels-grid', { currentTopic: '${t.id}', currentTopicTitle: '${t.title}', isSSC: false })" class="premium-card p-10 group font-bold font-bold"><div class="text-5xl mb-8 font-bold">${t.icon}</div><h3 class="text-xl font-bold mb-4 font-bold font-bold">${t.title}</h3><p class="text-[9px] opacity-60 uppercase font-bold">Integrated Phase</p></div>`).join('')}</div></div>`; }
+        function renderLevelsGrid() { return `<div class="max-w-7xl mx-auto px-6 py-10 text-left view-transition font-bold"><button onclick="history.back()" class="text-slate-400 font-bold mb-8 flex items-center gap-2 hover:text-indigo-600 transition-colors uppercase text-xs tracking-widest font-bold">← Back</button><h2 class="text-4xl font-black mb-16 font-bold">${state.currentTopicTitle} Phases</h2><div class="grid grid-cols-2 md:grid-cols-5 gap-6 font-bold">${Array.from({length: 10}, (_, i) => i + 1).map(lv => { const progressId = `${state.currentType}_${state.currentTopic}_${lv}`; const isDone = state.progress[progressId]; return `<div onclick="handleLevelSelection(${lv}, '${progressId}')" class="p-10 border-2 ${isDone ? 'border-emerald-500 bg-emerald-50/30' : 'border-slate-100 bg-white'} rounded-[3rem] text-center hover:border-indigo-600 transition-all cursor-pointer relative font-bold">${isDone ? `<span class="absolute top-4 right-4 text-emerald-600 text-[8px] bg-emerald-100 px-2 rounded-full uppercase border border-emerald-200 font-bold">DONE</span>` : ''}<span class="text-4xl font-bold font-bold">${lv}</span></div>`; }).join('')}</div></div>`; }
+
+        function renderExamsPYQ() { 
+            if (state.currentCategory === 'ssc') {
+                if (state.currentExam === 'SSC MTS 2023') {
+                    return renderShiftGrid('SSC MTS 2023', mts2023Shifts);
+                } else if (state.currentExam === 'SSC CGL 2023') {
+                    return renderShiftGrid('SSC CGL 2023', cgl2023Shifts);
+                }
+                return `
+                <div class="max-w-7xl mx-auto px-6 py-10 text-left view-transition font-bold">
+                    <button onclick="navigateTo('home')" class="text-slate-400 font-bold mb-8 flex items-center gap-2 hover:text-indigo-600 transition-colors uppercase text-xs tracking-widest font-bold">← Dashboard</button>
+                    <h2 class="text-4xl font-black mb-12 capitalize font-bold">SSC Archives</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div onclick="navigateTo('exams-pyq', { currentExam: 'SSC CGL 2023' })" class="premium-card group font-bold">
+                            <h3 class="text-2xl font-black mb-4">SSC CGL 2023</h3>
+                            <p class="text-slate-500 mb-6">Total 39 shifts with full English explanations.</p>
+                            <span class="text-indigo-600 font-bold uppercase text-xs tracking-widest">Explore Archive ➜</span>
+                        </div>
+                        <div onclick="navigateTo('exams-pyq', { currentExam: 'SSC MTS 2023' })" class="premium-card group font-bold">
+                            <h3 class="text-2xl font-black mb-4">SSC MTS 2023</h3>
+                            <p class="text-slate-500 mb-6">Total 57 shifts with full English explanations.</p>
+                            <span class="text-indigo-600 font-bold uppercase text-xs tracking-widest">Explore Archive ➜</span>
+                        </div>
+                    </div>
                 </div>`;
             }
+            return `<div class="max-w-7xl mx-auto px-6 py-10 text-left font-bold">Coming Soon</div>`; 
+        }
+
+        function renderShiftGrid(examName, shifts) {
+            return `
+            <div class="max-w-7xl mx-auto px-6 py-10 text-left view-transition font-bold">
+                <button onclick="navigateTo('exams-pyq', { currentExam: null })" class="text-slate-400 font-bold mb-8 flex items-center gap-2 hover:text-indigo-600 transition-colors uppercase text-xs tracking-widest font-bold">← Exams</button>
+                <h2 class="text-4xl font-black mb-12 capitalize font-bold">${examName} Shifts</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                    ${shifts.map((shift, idx) => {
+                        const isDone = state.progress[`${examName}_${idx}`];
+                        return `<div onclick="navigateTo('content-view', { isSSC: true, currentShift: ${idx}, currentExam: '${examName}' })" class="premium-card p-6 flex justify-between items-center ${isDone ? 'border-emerald-200 bg-emerald-50' : ''}">
+                            <h4 class="font-bold">${shift}</h4>
+                            <span class="text-xl">⚔️</span>
+                        </div>`;
+                    }).join('')}
+                </div>
+            </div>`;
+        }
+
+        function renderMistakesBook() {
+            if (state.mistakes.length === 0) return `<div class="max-w-xl mx-auto py-40 text-center view-transition"><div class="text-6xl mb-6">💎</div><h3 class="font-black text-2xl">Zero Errors</h3><button onclick="history.back()" class="px-12 py-5 bg-indigo-600 text-white font-black rounded-3xl shadow-xl uppercase text-xs">Go Back</button></div>`;
             const current = state.mistakes[state.currentAnkiIndex];
             const flippedClass = state.isAnkiFlipped ? 'flipped' : '';
             return `
             <div class="max-w-3xl mx-auto py-10 px-6 view-transition">
                 <button onclick="history.back()" class="text-slate-400 font-bold mb-8 flex items-center gap-2 hover:text-indigo-600 transition-colors uppercase text-xs tracking-widest">← Back</button>
                 <div class="flex justify-between items-center mb-10">
-                    <h2 class="text-xl font-black text-slate-900 uppercase tracking-widest font-bold">Mastery Deck</h2>
+                    <h2 class="text-xl font-black uppercase tracking-widest">Mastery Deck</h2>
                     <span class="text-[10px] font-black bg-slate-900 text-white px-4 py-1.5 rounded-full font-bold">${state.currentAnkiIndex + 1} / ${state.mistakes.length}</span>
                 </div>
                 <div class="anki-card ${flippedClass}" onclick="state.isAnkiFlipped = !state.isAnkiFlipped; render();">
                     <div class="anki-card-inner">
                         <div class="anki-front">
-                            <span class="px-4 py-1.5 bg-rose-50 text-rose-600 rounded-full text-[9px] font-black uppercase mb-8 border border-rose-100 font-bold">Recall Case</span>
-                            <h3 class="text-xl font-bold text-slate-900 leading-relaxed mb-10 italic break-word-custom font-bold">"${current.question}"</h3>
+                            <span class="px-4 py-1.5 bg-rose-50 text-rose-600 rounded-full text-[9px] font-black uppercase mb-8 border border-rose-100">Recall Case</span>
+                            <h3 class="text-xl font-bold italic break-word-custom">"${current.question}"</h3>
                             <p class="text-[10px] text-slate-300 uppercase tracking-widest">Tap to reveal logic</p>
                         </div>
                         <div class="anki-back" onclick="event.stopPropagation();">
-                            <p class="text-[9px] font-black text-indigo-400 uppercase tracking-widest mb-6 font-bold">Mentor Analysis</p>
-                            <div class="bg-white/60 p-8 rounded-[2.5rem] mb-6 w-full border border-indigo-100 font-bold"><p class="text-xl font-bold text-slate-900 leading-tight break-word-custom">${current.answer}</p></div>
+                            <p class="text-[9px] font-black text-indigo-400 uppercase tracking-widest mb-6">Mentor Analysis</p>
+                            <div class="bg-white/60 p-8 rounded-[2.5rem] mb-6 w-full border border-indigo-100"><p class="text-xl font-bold leading-tight break-word-custom">${current.answer}</p></div>
                             <p class="text-sm text-indigo-900 font-medium leading-relaxed italic break-word-custom">"${current.explanation || 'Master this rule.'}"</p>
                             <div class="mt-10 flex gap-4">
-                                <button onclick="resolveAnki(true)" class="flex-1 py-4 bg-emerald-600 text-white font-black rounded-2xl text-[10px] uppercase shadow-lg font-bold">Got it ✅</button>
-                                <button onclick="resolveAnki(false)" class="flex-1 py-4 bg-rose-600 text-white font-black rounded-2xl text-[10px] uppercase shadow-lg font-bold">Still hard ❌</button>
+                                <button onclick="resolveAnki(true)" class="flex-1 py-4 bg-emerald-600 text-white font-black rounded-2xl text-[10px] uppercase shadow-lg">Got it ✅</button>
+                                <button onclick="resolveAnki(false)" class="flex-1 py-4 bg-rose-600 text-white font-black rounded-2xl text-[10px] uppercase shadow-lg">Still hard ❌</button>
                             </div>
                         </div>
                     </div>
@@ -369,249 +597,20 @@
             render();
         };
 
-        // --- STUDY CARDS LOGIC ---
-        window.loadContent = async () => {
-            const container = document.getElementById('content-container');
-            const { currentType: type, currentTopic: topic, currentLevel: level } = state;
-            
-            container.innerHTML = `<button onclick="history.back()" class="text-slate-400 font-bold mb-8 flex items-center gap-2 uppercase text-xs font-bold">← Back</button><div class="py-20 text-center animate-pulse text-slate-400 uppercase text-xs font-bold">Opening Lesson...</div>`;
-            
-            const patterns = [`level-${level}.json`, `level${level}.json` ];
-            let data = null;
-
-            for (const pattern of patterns) {
-                try {
-                    const res = await fetch(`./content/general-english/${type}/${topic}/${pattern}`);
-                    if (res.ok) { data = await res.json(); break; }
-                } catch (e) {}
-            }
-            
-            if (data) {
-                window.activeStudyData = data;
-                renderStudyCardUI();
-            } else {
-                container.innerHTML = `<button onclick="history.back()" class="text-slate-400 font-bold mb-8 flex items-center gap-2 uppercase text-xs font-bold">← Back</button><div class="text-center p-20 bg-white rounded-[3rem] border-2 border-slate-100 font-bold"><div class="text-5xl mb-6 font-bold">📁</div><h3 class="font-bold text-xl">Phase Offline</h3></div>`;
-            }
-        };
-
-        function renderStudyCardUI() {
-            const container = document.getElementById('content-container');
-            const data = window.activeStudyData;
-            const item = data[state.currentStudyIndex];
-            const flipped = state.currentStudyFlipped ? 'flipped' : '';
-
-            container.innerHTML = `
-                <button onclick="history.back()" class="text-slate-400 font-bold mb-8 flex items-center gap-2 hover:text-indigo-600 transition-colors uppercase text-xs tracking-widest font-bold">← Back</button>
-                <div class="mb-10 flex justify-between items-center font-bold">
-                    <h2 class="text-2xl font-black text-slate-900 tracking-tighter font-bold">Phase ${state.currentLevel} <span class="text-indigo-600 font-bold">Case Study</span></h2>
-                    <span class="text-[10px] font-black bg-slate-100 px-4 py-1.5 rounded-full font-bold">${state.currentStudyIndex + 1} / ${data.length}</span>
-                </div>
-                
-                <div class="anki-card ${flipped}" id="study-card-flip-target">
-                    <div class="anki-card-inner">
-                        <div class="anki-front font-bold">
-                            <div class="text-7xl mb-8 font-bold">${item.emoji || '📗'}</div>
-                            <h3 class="text-3xl font-black text-slate-900 tracking-tighter break-word-custom text-center font-bold">${item.word}</h3>
-                            <p class="mt-12 text-[10px] text-slate-300 uppercase tracking-widest font-bold">Tap to reveal meaning</p>
-                        </div>
-                        <div class="anki-back font-bold">
-                            <p class="text-3xl font-bold text-slate-800 font-kannada leading-tight text-center mb-6 font-bold">${item.meaning_kannada}</p>
-                            <p class="text-lg text-slate-500 font-medium leading-relaxed italic text-center font-bold">${item.meaning_english}</p>
-                            <p class="mt-12 text-[10px] text-indigo-300 uppercase tracking-widest font-bold">Tap to hide</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="max-w-[500px] mx-auto mt-10 grid grid-cols-2 gap-4 font-bold">
-                    <button onclick="changeStudyCard(-1)" class="py-5 bg-white border-2 border-slate-100 rounded-[2rem] font-bold text-slate-600 hover:bg-slate-50 disabled:opacity-30" ${state.currentStudyIndex === 0 ? 'disabled' : ''}>← Previous</button>
-                    ${state.currentStudyIndex === data.length - 1 ? 
-                        `<button onclick="loadQuiz()" class="py-5 bg-indigo-600 text-white rounded-[2rem] font-black uppercase text-xs shadow-xl shadow-indigo-100">Start Test 🚀</button>` :
-                        `<button onclick="changeStudyCard(1)" class="py-5 bg-white border-2 border-slate-100 rounded-[2rem] font-bold text-slate-900 hover:border-indigo-600 transition-all">Next Word →</button>`
-                    }
-                </div>
-            `;
-
-            document.getElementById('study-card-flip-target').onclick = () => {
-                state.currentStudyFlipped = !state.currentStudyFlipped;
-                renderStudyCardUI();
-            };
-        }
-
-        window.changeStudyCard = (dir) => {
-            state.currentStudyIndex += dir;
-            state.currentStudyFlipped = false;
-            renderStudyCardUI();
-        };
-
-        // --- ASSESSMENT ENGINE ---
-        window.loadQuiz = async () => {
-            const { currentType: type, currentTopic: topic, currentLevel: level } = state;
-            const container = document.getElementById('content-container');
-            container.innerHTML = `<button onclick="history.back()" class="text-slate-400 font-bold mb-8 flex items-center gap-2 uppercase text-xs font-bold">← Back</button><div class="py-20 text-center animate-pulse text-indigo-400 font-bold uppercase text-xs">Loading Assessment...</div>`;
-
-            const patterns = [`level-${level}-test.json`, `level${level}-test.json` ];
-            let questions = null;
-
-            for (const pattern of patterns) {
-                try {
-                    const res = await fetch(`./content/general-english/${type}/${topic}/${pattern}`);
-                    if (res.ok) { questions = await res.json(); break; }
-                } catch (e) {}
-            }
-
-            if (questions) {
-                window.activeQuestionsData = questions;
-                state.currentQuizIndex = 0;
-                state.currentQuizAnswers = {};
-                renderQuizUI();
-            } else {
-                container.innerHTML = `<div class="text-center p-20 font-bold">Assessment file not found.</div>`;
-            }
-        };
-
-        function renderQuizUI() {
-            const container = document.getElementById('content-container');
-            const questions = window.activeQuestionsData;
-            const q = questions[state.currentQuizIndex];
-            const answerRecord = state.currentQuizAnswers[state.currentQuizIndex];
-
-            container.innerHTML = `
-                <button onclick="history.back()" class="text-slate-400 font-bold mb-8 flex items-center gap-2 hover:text-indigo-600 transition-colors uppercase text-xs tracking-widest font-bold">← Back</button>
-                <div class="mb-10 flex justify-between items-center font-bold">
-                    <h2 class="text-2xl font-black text-slate-900 font-bold">Assessment Phase</h2>
-                    <span class="text-[10px] font-black bg-slate-900 text-white px-4 py-1.5 rounded-full font-bold">${state.currentQuizIndex + 1} / ${questions.length}</span>
-                </div>
-
-                <div class="bg-white p-10 rounded-[3.5rem] border-2 border-slate-100 shadow-sm relative mb-10 font-bold">
-                    <p class="text-xl font-bold mb-10 text-slate-800 leading-relaxed font-bold">${q.question}</p>
-                    <div class="grid grid-cols-1 gap-4 font-bold">
-                        ${q.options.map((o) => {
-                            const isSelected = answerRecord?.selected === o.trim();
-                            const isCorrect = o.trim() === q.answer.trim();
-                            let classes = "flex items-center gap-4 px-8 py-5 border-2 border-slate-50 rounded-[2rem] cursor-pointer transition-all font-bold";
-                            if (answerRecord) {
-                                if (isCorrect) classes += " option-correct";
-                                else if (isSelected) classes += " option-wrong";
-                                classes += " pointer-events-none opacity-80";
-                            } else {
-                                classes += " hover:bg-slate-50";
-                            }
-
-                            return `
-                                <label class="${classes}">
-                                    <input type="radio" name="q" value="${o.trim()}" 
-                                           ${isSelected ? 'checked' : ''} 
-                                           onchange="handleInstantFeedback(${state.currentQuizIndex}, '${o.trim()}', '${q.answer.trim()}')"
-                                           class="accent-indigo-600 w-5 h-5 font-bold">
-                                    <span class="font-bold">${o}</span>
-                                </label>
-                            `;
-                        }).join('')}
-                    </div>
-
-                    ${answerRecord ? `
-                        <div class="mt-10 p-8 rounded-[2.5rem] ${answerRecord.isCorrect ? 'bg-emerald-50 text-emerald-800 border border-emerald-100' : 'bg-rose-50 text-rose-800 border border-rose-100'} explanation-box font-bold">
-                             <div class="flex items-center gap-2 mb-3 font-bold">
-                                <span class="text-xs font-black uppercase tracking-widest">${answerRecord.isCorrect ? '✅ Correct Answer' : '❌ Incorrect Selection'}</span>
-                             </div>
-                             <p class="font-black text-[11px] uppercase tracking-[0.1em] mb-3 text-slate-400 font-bold">Mastery Insight & Meanings</p>
-                             <p class="text-base font-medium leading-relaxed font-bold">${q.explanation || 'The correct answer is: ' + q.answer}</p>
-                        </div>
-                    ` : ''}
-                </div>
-
-                <div class="grid grid-cols-2 gap-4 font-bold">
-                    <button onclick="changeQuizQuestion(-1)" class="py-5 bg-white border-2 border-slate-100 rounded-[2rem] font-bold text-slate-600 disabled:opacity-30 font-bold" ${state.currentQuizIndex === 0 ? 'disabled' : ''}>← Previous</button>
-                    ${state.currentQuizIndex === questions.length - 1 ? 
-                        `<button onclick="submitFinalResults()" class="py-5 bg-indigo-600 text-white rounded-[2rem] font-black uppercase text-xs shadow-xl shadow-indigo-100">Finish Session 🎯</button>` :
-                        `<button onclick="changeQuizQuestion(1)" class="py-5 bg-white border-2 border-slate-100 rounded-[2rem] font-bold text-slate-900 hover:border-indigo-600 transition-all">Next Question →</button>`
-                    }
-                </div>
-            `;
-        }
-
-        window.handleInstantFeedback = function(qIndex, selected, correct) {
-            state.currentQuizAnswers[qIndex] = { selected, isCorrect: selected === correct };
-            renderQuizUI();
-        };
-
-        window.changeQuizQuestion = (dir) => {
-            state.currentQuizIndex += dir;
-            renderQuizUI();
-        };
-
-        window.submitFinalResults = async function() {
-            const questions = window.activeQuestionsData;
-            let score = 0, mistakesFound = [];
-
-            questions.forEach((q, i) => {
-                const record = state.currentQuizAnswers[i];
-                if (record && record.isCorrect) score++;
-                else mistakesFound.push({ question: q.question, answer: q.answer, options: q.options, explanation: q.explanation || `Correct answer: ${q.answer}` });
-            });
-
-            await saveResultToCloud(score, questions.length, score * 10, score, mistakesFound);
-            
-            const shell = document.getElementById('app-shell');
-            shell.innerHTML = `<div class="max-w-xl mx-auto py-20 px-6 text-center view-transition font-bold"><div class="bg-white border-2 border-indigo-100 p-16 rounded-[4rem] shadow-xl font-bold"><p class="text-7xl mb-6">🏆</p><h2 class="text-4xl font-black text-slate-900 mb-4 tracking-tighter">Analysis Complete</h2><p class="text-7xl font-black text-indigo-600 mb-8">${score} / ${questions.length}</p><button onclick="navigateTo('home')" class="w-full py-5 bg-slate-900 text-white font-black rounded-2xl uppercase tracking-widest text-xs">Return Dashboard</button></div></div>`;
-        };
-
-        async function saveResultToCloud(score, total, points, coins, mistakes) {
-            if (!auth.currentUser) return;
-            const progressId = `${state.currentType}_${state.currentTopic}_${state.currentLevel}`;
-            await setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'progress', progressId), { score, total, points, coins, completedAt: new Date().toISOString(), type: state.currentType, topic: state.currentTopic, level: state.currentLevel });
-            for (const m of mistakes) {
-                const mId = btoa(m.question.substring(0, 30)).substring(0, 20);
-                await setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'mistakes', mId), { ...m, masteryCount: 0 }, { merge: true });
-            }
-            await setDoc(doc(db, 'artifacts', appId, 'public', 'data', 'leaderboard', state.userId), { name: state.userName, points: (state.totalPoints || 0) + points }, { merge: true });
-        }
-
-        // --- VIEWS ---
         window.handleLevelSelection = (lv, progressId) => { 
             const isDone = state.progress[progressId]; 
             if (isDone) { 
                 const shell = document.getElementById('app-shell'); 
-                shell.innerHTML = `<div class="max-w-xl mx-auto py-10 px-6 text-left view-transition font-bold font-bold"><button onclick="history.back()" class="text-slate-400 font-bold mb-8 flex items-center gap-2 hover:text-indigo-600 transition-colors uppercase text-xs tracking-widest font-bold">← Back</button><div class="bg-white border-2 border-emerald-100 p-12 rounded-[3.5rem] shadow-xl text-center font-bold"><span class="w-16 h-16 bg-emerald-50 text-emerald-600 rounded-full flex items-center justify-center text-3xl mb-8 mx-auto font-bold">🏆</span><h2 class="text-3xl font-black text-slate-900 mb-2 font-bold">Phase ${lv} Complete</h2><p class="text-slate-400 font-bold uppercase tracking-widest text-[10px] mb-8 font-bold">Performance: ${isDone.score}/${isDone.total}</p><div class="space-y-4 font-bold"><button onclick="navigateTo('content-view', { currentLevel: ${lv} })" class="w-full py-5 bg-indigo-600 text-white font-black rounded-2xl shadow-xl uppercase tracking-widest text-xs font-bold">Review Lessons</button><button onclick="state.currentLevel = ${lv}; state.view = 'content-view'; render(); loadQuiz();" class="w-full py-5 border-2 border-slate-100 text-slate-600 font-black rounded-2xl hover:bg-slate-50 transition-all uppercase tracking-widest text-xs font-bold">Reattempt Quiz</button></div></div></div>`; 
-            } else navigateTo('content-view', { currentLevel: lv }); 
+                shell.innerHTML = `<div class="max-w-xl mx-auto py-10 px-6 text-left view-transition font-bold"><button onclick="history.back()" class="text-slate-400 font-bold mb-8 flex items-center gap-2 hover:text-indigo-600 transition-colors uppercase text-xs tracking-widest">← Back</button><div class="bg-white border-2 border-emerald-100 p-12 rounded-[3.5rem] shadow-xl text-center"><span class="w-16 h-16 bg-emerald-50 text-emerald-600 rounded-full flex items-center justify-center text-3xl mb-8 mx-auto font-bold font-bold">🏆</span><h2 class="text-3xl font-black text-slate-900 mb-2 font-bold">Phase ${lv} Complete</h2><p class="text-slate-400 font-bold uppercase tracking-widest text-[10px] mb-8 font-bold">Performance: ${isDone.score}/${isDone.total}</p><div class="space-y-4"><button onclick="navigateTo('content-view', { currentLevel: ${lv}, isSSC: false })" class="w-full py-5 bg-indigo-600 text-white font-black rounded-2xl shadow-xl uppercase tracking-widest text-xs font-bold">Review Lessons</button><button onclick="state.currentLevel = ${lv}; state.isSSC = false; state.view = 'content-view'; render(); loadQuiz();" class="w-full py-5 border-2 border-slate-100 text-slate-600 font-black rounded-2xl hover:bg-slate-50 transition-all uppercase tracking-widest text-xs font-bold">Reattempt Quiz</button></div></div></div>`; 
+            } else navigateTo('content-view', { currentLevel: lv, isSSC: false }); 
         };
 
-        function renderHome() {
-            const rank = (p) => p < 500 ? '🌱 Junior' : p < 2000 ? '⚔️ Warrior' : '🏛️ Officer';
-            return `<div class="hero-gradient p-10 view-transition font-bold"><div class="max-w-7xl mx-auto"><div class="mb-12 font-bold"><h2 class="text-6xl font-black text-slate-900 tracking-tighter mb-4 leading-tight font-bold">Hello, <span class="text-indigo-600 font-bold">${state.userName || 'Aspirant'}!</span></h2></div><div class="mb-12 font-bold"><div class="bg-indigo-600 p-12 rounded-[3.5rem] text-white shadow-2xl shadow-indigo-200 flex flex-col md:flex-row justify-between items-center gap-8 font-bold"><div class="text-center md:text-left font-bold"><p class="text-[10px] font-black uppercase tracking-widest opacity-60 mb-2 font-bold">Progress</p><p class="text-7xl font-black leading-none font-bold">${state.totalPoints || 0}</p><p class="text-sm font-bold opacity-80 mt-2 uppercase tracking-tighter font-bold">Mastery Points</p></div><div class="flex gap-6 font-bold"><div class="bg-white/10 p-6 rounded-3xl text-center border border-white/5 font-bold"><p class="text-2xl font-black font-bold">🪙 ${state.totalCoins || 0}</p><p class="text-[9px] font-black uppercase opacity-60 mt-1 font-bold">Coins</p></div><div class="bg-white/10 p-6 rounded-3xl text-center border border-white/5 font-bold"><p class="text-2xl font-black font-bold">${rank(state.totalPoints)}</p><p class="text-[9px] font-black uppercase opacity-60 mt-1 font-bold">Status</p></div></div></div></div><div class="mb-16 font-bold"><h3 class="text-xs font-black text-slate-400 uppercase tracking-[0.2em] mb-8 font-bold">Curriculum Units</h3><div class="grid grid-cols-1 md:grid-cols-3 gap-6 font-bold"><div onclick="navigateTo('english-selection')" class="premium-card group font-bold"><div class="w-14 h-14 bg-indigo-50 text-indigo-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:bg-indigo-600 group-hover:text-white transition-all font-bold">🇬🇧</div><h3 class="text-xl font-bold text-slate-900 mb-2 font-bold">General English</h3><p class="text-slate-500 text-xs font-bold">Levels 1-10 roadmap.</p></div><div onclick="navigateTo('mistakes-book')" class="premium-card group font-bold font-bold"><div class="w-14 h-14 bg-rose-50 text-rose-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:bg-rose-600 group-hover:text-white transition-all font-bold">📓</div><h3 class="text-xl font-bold text-slate-900 mb-2 font-bold">Mistakes Book</h3><p class="text-slate-500 text-xs font-bold">${state.mistakes.length} errors.</p></div><div onclick="navigateTo('doubts')" class="premium-card group font-bold font-bold"><div class="w-14 h-14 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center text-3xl mb-6 group-hover:bg-emerald-600 group-hover:text-white transition-all font-bold">💬</div><h3 class="text-xl font-bold text-slate-900 mb-2 font-bold">Support Hub</h3><p class="text-slate-500 text-xs font-bold">Direct sync.</p></div></div></div></div></div>`;
+        function renderLogin() {
+            const isLogin = state.authMode === 'login';
+            return `<div class="max-w-md mx-auto py-32 px-6 view-transition text-center font-bold"><h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-10 font-bold">${isLogin ? 'Mission Login' : 'Enroll Academy'}</h2><form id="auth-form" class="bg-white border border-slate-200 p-10 rounded-[3rem] shadow-sm text-left font-bold">${!isLogin ? `<label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3 font-bold font-bold">Full Name</label><input id="name-input" type="text" placeholder="Name" class="w-full px-5 py-4 bg-slate-50 border-2 border-slate-50 rounded-2xl font-bold mb-6 outline-none focus:border-indigo-600 transition-all font-bold" required>` : ''}<label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3 font-bold font-bold">Username ID</label><input id="username-input" type="text" placeholder="ID" class="w-full px-5 py-4 bg-slate-50 border-2 border-slate-50 rounded-2xl font-bold mb-6 outline-none focus:border-indigo-600 transition-all font-bold" required><label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3 font-bold font-bold">Password</label><input id="password-input" type="password" placeholder="••••••••" class="w-full px-5 py-4 bg-slate-50 border-2 border-slate-50 rounded-2xl font-bold mb-10 outline-none focus:border-indigo-600 transition-all font-bold font-bold" required><button type="submit" class="w-full py-5 bg-indigo-600 text-white font-black rounded-2xl shadow-xl uppercase text-xs font-bold font-bold">Authorize</button><button type="button" onclick="state.authMode = '${isLogin ? 'signup' : 'login'}'; render();" class="mt-8 w-full text-indigo-600 font-bold text-xs hover:underline font-bold font-bold">${isLogin ? "New? Create ID" : "Login Now"}</button></form></div>`;
         }
 
-        function renderLogin() { return `<div class="max-w-md mx-auto py-32 px-6 view-transition text-center font-bold"><h2 class="text-4xl font-black text-slate-900 tracking-tighter mb-10 font-bold">Mission Login</h2><form id="auth-form" class="bg-white border border-slate-200 p-10 rounded-[3rem] shadow-sm text-left font-bold">${state.authMode === 'signup' ? `<label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3 font-bold">Full Name</label><input id="name-input" type="text" placeholder="Name" class="w-full px-5 py-4 bg-slate-50 border-2 border-slate-50 rounded-2xl font-bold mb-6 outline-none focus:border-indigo-600 transition-all font-bold" required>` : ''}<label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3 font-bold">Username ID</label><input id="username-input" type="text" placeholder="ID" class="w-full px-5 py-4 bg-slate-50 border-2 border-slate-50 rounded-2xl font-bold mb-6 outline-none focus:border-indigo-600 transition-all font-bold" required><label class="block text-[10px] font-black text-slate-400 uppercase tracking-widest mb-3 font-bold">Password</label><input id="password-input" type="password" placeholder="••••••••" class="w-full px-5 py-4 bg-slate-50 border-2 border-slate-50 rounded-2xl font-bold mb-10 outline-none focus:border-indigo-600 transition-all font-bold" required><button type="submit" class="w-full py-5 bg-indigo-600 text-white font-black rounded-2xl shadow-xl uppercase text-xs font-bold">Authorize</button><button type="button" onclick="state.authMode = '${state.authMode === 'login' ? 'signup' : 'login'}'; render();" class="mt-8 w-full text-indigo-600 font-bold text-xs hover:underline font-bold">${state.authMode === 'login' ? "New? Create ID" : "Login Now"}</button></form></div>`; }
-        function renderEnglishSelection() { return `<div class="max-w-7xl mx-auto px-6 py-10 text-left view-transition font-bold">
-            <button onclick="history.back()" class="text-slate-400 font-bold mb-8 flex items-center gap-2 hover:text-indigo-600 transition-colors uppercase text-xs tracking-widest font-bold">← Back</button>
-            <h2 class="text-4xl font-black mb-12 font-bold">English <span class="text-indigo-600 font-bold">Track</span></h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 text-left font-bold">
-                <div onclick="navigateTo('topics-grid', { currentType: 'grammar' })" class="premium-card group font-bold"><span>Rule Foundations</span><h3 class="text-3xl font-black mb-4 font-bold">Grammar</h3><p class="mb-8 font-bold">Master Foundations.</p><span class="font-bold">Open Unit ➜</span></div>
-                <div onclick="navigateTo('topics-grid', { currentType: 'vocabulary' })" class="premium-card group font-bold"><span>Recall Case</span><h3 class="text-3xl font-black mb-4 font-bold">Vocabulary</h3><p class="mb-8 font-bold">Recall mappings.</p><span class="font-bold">Open Unit ➜</span></div>
-            </div>
-        </div>`; }
-        function renderTopicsGrid() { const topics = topicsData[state.currentType] || []; return `<div class="max-w-7xl mx-auto px-6 py-10 text-left view-transition font-bold">
-            <button onclick="history.back()" class="text-slate-400 font-bold mb-8 flex items-center gap-2 hover:text-indigo-600 transition-colors uppercase text-xs tracking-widest font-bold">← Back</button>
-            <h2 class="text-4xl font-black capitalize mb-12 font-bold">${state.currentType} Mastery</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 text-left font-bold">
-                ${topics.map(t => `<div onclick="navigateTo('levels-grid', { currentTopic: '${t.id}', currentTopicTitle: '${t.title}' })" class="premium-card p-10 group font-bold"><div class="text-5xl mb-8 font-bold">${t.icon}</div><h3 class="text-xl font-bold mb-4 font-bold">${t.title}</h3><p class="text-[9px] opacity-60 uppercase font-bold">Integrated Phase</p></div>`).join('')}
-            </div>
-        </div>`; }
-        function renderLevelsGrid() { return `<div class="max-w-7xl mx-auto px-6 py-10 text-left view-transition font-bold">
-            <button onclick="history.back()" class="text-slate-400 font-bold mb-8 flex items-center gap-2 hover:text-indigo-600 transition-colors uppercase text-xs tracking-widest font-bold">← Back</button>
-            <h2 class="text-4xl font-black mb-16 font-bold">${state.currentTopicTitle} Phases</h2>
-            <div class="grid grid-cols-2 md:grid-cols-5 gap-6 font-bold">
-                ${Array.from({length: 10}, (_, i) => i + 1).map(lv => { const progressId = `${state.currentType}_${state.currentTopic}_${lv}`; const isDone = state.progress[progressId]; return `<div onclick="handleLevelSelection(${lv}, '${progressId}')" class="p-10 border-2 ${isDone ? 'border-emerald-500 bg-emerald-50/30' : 'border-slate-100 bg-white'} rounded-[3rem] text-center hover:border-indigo-600 transition-all cursor-pointer relative font-bold">${isDone ? `<span class="absolute top-4 right-4 text-emerald-600 text-[8px] bg-emerald-100 px-2 rounded-full uppercase border border-emerald-200 font-bold">DONE</span>` : ''}<span class="text-4xl font-bold font-bold">${lv}</span></div>`; }).join('')}
-            </div>
-        </div>`; }
-
-        function renderExamsPYQ() { return `<div class="max-w-7xl mx-auto px-6 py-10 text-left font-bold">Coming Soon</div>`; }
-        function renderDoubts() { return `<div class="max-w-4xl mx-auto py-10 px-6 text-left view-transition font-bold">Contact Support</div>`; }
-
-        onAuthStateChanged(auth, (user) => { 
-            if (user) loadUserData(); 
-            else { state.isAuthenticated = false; render(); } 
-        });
+        window.handleLogout = async () => { await signOut(auth); navigateTo('login'); };
 
         document.addEventListener('DOMContentLoaded', () => { 
             render(); 
@@ -620,14 +619,12 @@
             }); 
         });
 
-        let fqi = 0;
         setInterval(() => {
             const el = document.getElementById('floating-quote');
             if (!el) return;
             el.style.opacity = '0';
             setTimeout(() => {
-                fqi = (fqi + 1) % floatingQuotes.length;
-                el.innerText = floatingQuotes[fqi];
+                el.innerText = floatingQuotes[Math.floor(Math.random()*floatingQuotes.length)];
                 el.style.opacity = '1';
             }, 500);
         }, 6000);
