@@ -1,32 +1,182 @@
 [
-  { "question": "Q.1 Government by the wealthy people.", "options": ["Democracy", "Plutocracy", "Oligarchy", "Autocracy"], "answer": "Plutocracy" },
-  { "question": "Q.2 The scientific study of birds.", "options": ["Entomology", "Anthropology", "Ornithology", "Etymology"], "answer": "Ornithology" },
-  { "question": "Q.3 A place where bees are kept.", "options": ["Aviary", "Apiary", "Archives", "Arsenal"], "answer": "Apiary" },
-  { "question": "Q.4 One who is able to use both hands with equal skill.", "options": ["Amphibian", "Ambidextrous", "Anonymous", "Ambiguous"], "answer": "Ambidextrous" },
-  { "question": "Q.5 Government by state officials rather than elected representatives.", "options": ["Bureaucracy", "Aristocracy", "Theocracy", "Monarchy"], "answer": "Bureaucracy" },
-  { "question": "Q.6 A place where government records and historical documents are kept.", "options": ["Mint", "Archives", "Asylum", "Kennel"], "answer": "Archives" },
-  { "question": "Q.7 The study of the origin of words.", "options": ["Entomology", "Etymology", "Anthropology", "Archaeology"], "answer": "Etymology" },
-  { "question": "Q.8 A state of disorder due to absence of government.", "options": ["Anarchy", "Democracy", "Oligarchy", "Monarchy"], "answer": "Anarchy" },
-  { "question": "Q.9 A place where coins are manufactured.", "options": ["Arsenal", "Archives", "Mint", "Cemetery"], "answer": "Mint" },
-  { "question": "Q.10 Animals which live both on land and in water.", "options": ["Mammals", "Amphibians", "Reptiles", "Centenarians"], "answer": "Amphibians" },
-  { "question": "Q.11 Government by one person with absolute power.", "options": ["Oligarchy", "Autocracy", "Democracy", "Plutocracy"], "answer": "Autocracy" },
-  { "question": "Q.12 The scientific study of insects.", "options": ["Ornithology", "Entomology", "Anthropology", "Archaeology"], "answer": "Entomology" },
-  { "question": "Q.13 A large cage or enclosure for keeping birds.", "options": ["Apiary", "Aviary", "Kennel", "Orphanage"], "answer": "Aviary" },
-  { "question": "Q.14 The sequence of steps and movements in dance.", "options": ["Calligraphy", "Cartography", "Choreography", "Photography"], "answer": "Choreography" },
-  { "question": "Q.15 Government by the nobles.", "options": ["Aristocracy", "Theocracy", "Gerontocracy", "Monarchy"], "answer": "Aristocracy" },
-  { "question": "Q.16 A place where weapons and ammunition are stored.", "options": ["Mint", "Arsenal", "Archives", "Cemetery"], "answer": "Arsenal" },
-  { "question": "Q.17 A letter which does not bear the name of its writer.", "options": ["Anonymous", "Illegible", "Inaudible", "Inedible"], "answer": "Anonymous" },
-  { "question": "Q.18 The science or practice of drawing maps.", "options": ["Calligraphy", "Cartography", "Etymology", "Anthropology"], "answer": "Cartography" },
-  { "question": "Q.19 Government ruled by old people.", "options": ["Plutocracy", "Gerontocracy", "Oligarchy", "Theocracy"], "answer": "Gerontocracy" },
-  { "question": "Q.20 An institution for the care of people who are mentally ill.", "options": ["Orphanage", "Asylum", "Kennel", "Archives"], "answer": "Asylum" },
-  { "question": "Q.21 The study of human history through excavation of sites.", "options": ["Anthropology", "Archaeology", "Entomology", "Ornithology"], "answer": "Archaeology" },
-  { "question": "Q.22 Government by religious leaders.", "options": ["Democracy", "Theocracy", "Autocracy", "Aristocracy"], "answer": "Theocracy" },
-  { "question": "Q.23 A large burial ground.", "options": ["Kennel", "Cemetery", "Aviary", "Apiary"], "answer": "Cemetery" },
-  { "question": "Q.24 The art of producing decorative handwriting.", "options": ["Cartography", "Calligraphy", "Choreography", "Archaeology"], "answer": "Calligraphy" },
-  { "question": "Q.25 Government by a king or queen.", "options": ["Monarchy", "Oligarchy", "Anarchy", "Democracy"], "answer": "Monarchy" },
-  { "question": "Q.26 A home for children whose parents are dead.", "options": ["Asylum", "Orphanage", "Archives", "Kennel"], "answer": "Orphanage" },
-  { "question": "Q.27 The study of human societies and cultures.", "options": ["Archaeology", "Anthropology", "Etymology", "Entomology"], "answer": "Anthropology" },
-  { "question": "Q.28 Government by a small group of powerful people.", "options": ["Autocracy", "Oligarchy", "Aristocracy", "Theocracy"], "answer": "Oligarchy" },
-  { "question": "Q.29 A small shelter for a dog.", "options": ["Stable", "Kennel", "Aviary", "Apiary"], "answer": "Kennel" },
-  { "question": "Q.30 Government by the people.", "options": ["Monarchy", "Democracy", "Aristocracy", "Plutocracy"], "answer": "Democracy" }
+  {
+    "question": "Q.1 Government by the wealthy people.",
+    "options": ["Democracy", "Plutocracy", "Oligarchy", "Autocracy"],
+    "answer": "Plutocracy",
+    "explanation": "Plutocracy (plutos=wealth) is rule by the rich. Democracy is rule by the people; Oligarchy is rule by a small powerful group; Autocracy is rule by one person with absolute power."
+  },
+  {
+    "question": "Q.2 The scientific study of birds.",
+    "options": ["Entomology", "Anthropology", "Ornithology", "Etymology"],
+    "answer": "Ornithology",
+    "explanation": "Ornithology (ornitho=bird) is the study of birds. Entomology is the study of insects; Anthropology is the study of human development; Etymology is the study of word origins."
+  },
+  {
+    "question": "Q.3 A place where bees are kept.",
+    "options": ["Aviary", "Apiary", "Archives", "Arsenal"],
+    "answer": "Apiary",
+    "explanation": "Apiary (apis=bee) is for bees. Aviary (avis=bird) is for birds; Archives are for historical records; Arsenal is for storing weapons."
+  },
+  {
+    "question": "Q.4 One who is able to use both hands with equal skill.",
+    "options": ["Amphibian", "Ambidextrous", "Anonymous", "Ambiguous"],
+    "answer": "Ambidextrous",
+    "explanation": "Ambidextrous (ambi=both + dexter=right/skillful) can use both hands. Amphibian lives on land and water; Anonymous is an unknown name; Ambiguous has a double meaning."
+  },
+  {
+    "question": "Q.5 Government by state officials rather than elected representatives.",
+    "options": ["Bureaucracy", "Aristocracy", "Theocracy", "Monarchy"],
+    "answer": "Bureaucracy",
+    "explanation": "Bureaucracy is rule by officials. Aristocracy is rule by nobles; Theocracy is rule by religious leaders; Monarchy is rule by a king/queen."
+  },
+  {
+    "question": "Q.6 A place where government records and historical documents are kept.",
+    "options": ["Mint", "Archives", "Asylum", "Kennel"],
+    "answer": "Archives",
+    "explanation": "Archives store historical records. Mint is where coins are made; Asylum is for the mentally ill; Kennel is a shelter for dogs."
+  },
+  {
+    "question": "Q.7 The study of the origin of words.",
+    "options": ["Entomology", "Etymology", "Anthropology", "Archaeology"],
+    "answer": "Etymology",
+    "explanation": "Etymology (etymon=true sense) is word origin study. Entomology is insects; Anthropology is human societies; Archaeology is study through excavation."
+  },
+  {
+    "question": "Q.8 A state of disorder due to absence of government.",
+    "options": ["Anarchy", "Democracy", "Oligarchy", "Monarchy"],
+    "answer": "Anarchy",
+    "explanation": "Anarchy (an=without + archy=rule) is lawlessness. Democracy is people's rule; Oligarchy is a small group's rule; Monarchy is a king's rule."
+  },
+  {
+    "question": "Q.9 A place where coins are manufactured.",
+    "options": ["Arsenal", "Archives", "Mint", "Cemetery"],
+    "answer": "Mint",
+    "explanation": "Mint is where money/coins are produced. Arsenal is for weapons; Archives for records; Cemetery is a burial ground."
+  },
+  {
+    "question": "Q.10 Animals which live both on land and in water.",
+    "options": ["Mammals", "Amphibians", "Reptiles", "Centenarians"],
+    "answer": "Amphibians",
+    "explanation": "Amphibians (amphi=both + bios=life) live on both land/water. Mammals nurse young; Reptiles have scaly skin; Centenarians are 100 years old."
+  },
+  {
+    "question": "Q.11 Government by one person with absolute power.",
+    "options": ["Oligarchy", "Autocracy", "Democracy", "Plutocracy"],
+    "answer": "Autocracy",
+    "explanation": "Autocracy (auto=self) is rule by one person. Oligarchy is rule by a few; Democracy is people's rule; Plutocracy is wealthy people's rule."
+  },
+  {
+    "question": "Q.12 The scientific study of insects.",
+    "options": ["Ornithology", "Entomology", "Anthropology", "Archaeology"],
+    "answer": "Entomology",
+    "explanation": "Entomology is the study of insects. Ornithology is birds; Anthropology is human cultures; Archaeology is excavation study."
+  },
+  {
+    "question": "Q.13 A large cage or enclosure for keeping birds.",
+    "options": ["Apiary", "Aviary", "Kennel", "Orphanage"],
+    "answer": "Aviary",
+    "explanation": "Aviary is for birds. Apiary is for bees; Kennel is for dogs; Orphanage is for children without parents."
+  },
+  {
+    "question": "Q.14 The sequence of steps and movements in dance.",
+    "options": ["Calligraphy", "Cartography", "Choreography", "Photography"],
+    "answer": "Choreography",
+    "explanation": "Choreography is dance composition. Calligraphy is beautiful writing; Cartography is map-making; Photography is taking photos."
+  },
+  {
+    "question": "Q.15 Government by the nobles.",
+    "options": ["Aristocracy", "Theocracy", "Gerontocracy", "Monarchy"],
+    "answer": "Aristocracy",
+    "explanation": "Aristocracy is rule by the highest social class. Theocracy is religious rule; Gerontocracy is rule by the elderly; Monarchy is royal rule."
+  },
+  {
+    "question": "Q.16 A place where weapons and ammunition are stored.",
+    "options": ["Mint", "Arsenal", "Archives", "Cemetery"],
+    "answer": "Arsenal",
+    "explanation": "Arsenal is a storage for weapons. Mint is for coins; Archives for records; Cemetery for the dead."
+  },
+  {
+    "question": "Q.17 A letter which does not bear the name of its writer.",
+    "options": ["Anonymous", "Illegible", "Inaudible", "Inedible"],
+    "answer": "Anonymous",
+    "explanation": "Anonymous (an=without + onyma=name) has no author. Illegible cannot be read; Inaudible cannot be heard; Inedible cannot be eaten."
+  },
+  {
+    "question": "Q.18 The science or practice of drawing maps.",
+    "options": ["Calligraphy", "Cartography", "Etymology", "Anthropology"],
+    "answer": "Cartography",
+    "explanation": "Cartography (carte=map) is the practice of drawing maps. Calligraphy is handwriting art; Etymology is word origin; Anthropology is human study."
+  },
+  {
+    "question": "Q.19 Government ruled by old people.",
+    "options": ["Plutocracy", "Gerontocracy", "Oligarchy", "Theocracy"],
+    "answer": "Gerontocracy",
+    "explanation": "Gerontocracy (geron=old man) is rule by the elderly. Plutocracy is rich rule; Oligarchy is rule by a few; Theocracy is religious rule."
+  },
+  {
+    "question": "Q.20 An institution for the care of people who are mentally ill.",
+    "options": ["Orphanage", "Asylum", "Kennel", "Archives"],
+    "answer": "Asylum",
+    "explanation": "Asylum is a hospital for mental health. Orphanage is for parentless children; Kennel is for dogs; Archives for records."
+  },
+  {
+    "question": "Q.21 The study of human history through excavation of sites.",
+    "options": ["Anthropology", "Archaeology", "Entomology", "Ornithology"],
+    "answer": "Archaeology",
+    "explanation": "Archaeology is the study of the past through physical remains. Anthropology is culture study; Entomology is insects; Ornithology is birds."
+  },
+  {
+    "question": "Q.22 Government by religious leaders.",
+    "options": ["Democracy", "Theocracy", "Autocracy", "Aristocracy"],
+    "answer": "Theocracy",
+    "explanation": "Theocracy (theo=god) is rule by religious law. Democracy is people's rule; Autocracy is one-person rule; Aristocracy is noble rule."
+  },
+  {
+    "question": "Q.23 A large burial ground.",
+    "options": ["Kennel", "Cemetery", "Aviary", "Apiary"],
+    "answer": "Cemetery",
+    "explanation": "Cemetery is a place where the dead are buried. Kennel is for dogs; Aviary is for birds; Apiary is for bees."
+  },
+  {
+    "question": "Q.24 The art of producing decorative handwriting.",
+    "options": ["Cartography", "Calligraphy", "Choreography", "Archaeology"],
+    "answer": "Calligraphy",
+    "explanation": "Calligraphy (kalli=beauty + graphein=write) is beautiful handwriting. Cartography is maps; Choreography is dance; Archaeology is excavations."
+  },
+  {
+    "question": "Q.25 Government by a king or queen.",
+    "options": ["Monarchy", "Oligarchy", "Anarchy", "Democracy"],
+    "answer": "Monarchy",
+    "explanation": "Monarchy is rule by a single royal. Oligarchy is rule by a few; Anarchy is no rule; Democracy is people's rule."
+  },
+  {
+    "question": "Q.26 A home for children whose parents are dead.",
+    "options": ["Asylum", "Orphanage", "Archives", "Kennel"],
+    "answer": "Orphanage",
+    "explanation": "Orphanage is a residence for orphans. Asylum is for the mentally ill; Archives for records; Kennel for dogs."
+  },
+  {
+    "question": "Q.27 The study of human societies and cultures.",
+    "options": ["Archaeology", "Anthropology", "Etymology", "Entomology"],
+    "answer": "Anthropology",
+    "explanation": "Anthropology (anthropos=human) is the study of human development/societies. Archaeology is physical remains; Etymology is words; Entomology is insects."
+  },
+  {
+    "question": "Q.28 Government by a small group of powerful people.",
+    "options": ["Autocracy", "Oligarchy", "Aristocracy", "Theocracy"],
+    "answer": "Oligarchy",
+    "explanation": "Oligarchy (oligos=few) is rule by a few. Autocracy is rule by one; Aristocracy is noble rule; Theocracy is religious rule."
+  },
+  {
+    "question": "Q.29 A small shelter for a dog.",
+    "options": ["Stable", "Kennel", "Aviary", "Apiary"],
+    "answer": "Kennel",
+    "explanation": "Kennel is a small house for a dog. Stable is for horses; Aviary for birds; Apiary for bees."
+  },
+  {
+    "question": "Q.30 Government by the people.",
+    "options": ["Monarchy", "Democracy", "Aristocracy", "Plutocracy"],
+    "answer": "Democracy",
+    "explanation": "Democracy (demos=people) is the system of rule by the citizens. Monarchy is king/queen rule; Aristocracy is noble rule; Plutocracy is rich rule."
+  }
 ]
