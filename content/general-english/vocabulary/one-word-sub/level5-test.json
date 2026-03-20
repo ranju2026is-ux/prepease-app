@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Q.1 An extreme or irrational fear of heights.",
+    "options": ["Agoraphobia", "Acrophobia", "Claustrophobia", "Hydrophobia"],
+    "answer": "Acrophobia",
+    "explanation": "Acrophobia (acro=high) is fear of heights. Agoraphobia is fear of open spaces; Claustrophobia is fear of small spaces; Hydrophobia is fear of water."
+  },
+  {
+    "question": "Q.2 A collection of dried plant specimens.",
+    "options": ["Arboretum", "Herbarium", "Portfolio", "Larder"],
+    "answer": "Herbarium",
+    "explanation": "Herbarium is for dried plants. Arboretum is for living trees; Portfolio is a work collection; Larder is for food storage."
+  },
+  {
+    "question": "Q.3 An obsessive desire to set fire to things.",
+    "options": ["Kleptomania", "Bibliomania", "Pyromania", "Dipsomania"],
+    "answer": "Pyromania",
+    "explanation": "Pyromania (pyro=fire) is the urge to set fire. Kleptomania is the urge to steal; Bibliomania is for books; Dipsomania is for alcohol."
+  },
+  {
+    "question": "Q.4 A solution or remedy for all diseases.",
+    "options": ["Panacea", "Inimitable", "Portfolio", "Scullery"],
+    "answer": "Panacea",
+    "explanation": "Panacea is a cure-all. Inimitable cannot be copied; Portfolio is a case for papers; Scullery is a dish-washing room."
+  },
+  {
+    "question": "Q.5 Trees that shed their leaves annually.",
+    "options": ["Fauna", "Flora", "Deciduous", "Arboretum"],
+    "answer": "Deciduous",
+    "explanation": "Deciduous trees lose leaves yearly. Fauna is animal life; Flora is plant life; Arboretum is a tree garden."
+  },
+  {
+    "question": "Q.6 Fear of being enclosed in a small, confined space.",
+    "options": ["Claustrophobia", "Acrophobia", "Aerophobia", "Zoophobia"],
+    "answer": "Claustrophobia",
+    "explanation": "Claustrophobia is fear of small spaces. Acrophobia is heights; Aerophobia is air/flying; Zoophobia is animals."
+  },
+  {
+    "question": "Q.7 A recurrent urge to steal without economic motive.",
+    "options": ["Pyromania", "Dipsomania", "Kleptomania", "Bibliomania"],
+    "answer": "Kleptomania",
+    "explanation": "Kleptomania is the urge to steal. Pyromania is fire; Dipsomania is alcohol; Bibliomania is books."
+  },
+  {
+    "question": "Q.8 A wild animal's well-hidden resting place.",
+    "options": ["Hutch", "Lair / Den", "Stable", "Kennel"],
+    "answer": "Lair / Den",
+    "explanation": "Lair/Den is for wild animals. Hutch is for rabbits; Stable for horses; Kennel for dogs."
+  },
+  {
+    "question": "Q.9 Fear of water.",
+    "options": ["Hydrophobia", "Pyrophobia", "Zoophobia", "Aerophobia"],
+    "answer": "Hydrophobia",
+    "explanation": "Hydrophobia (hydro=water) is fear of water. Pyrophobia is fire; Zoophobia is animals; Aerophobia is air."
+  },
+  {
+    "question": "Q.10 A room or large cupboard for storing food.",
+    "options": ["Scullery", "Larder", "Wardrobe", "Archives"],
+    "answer": "Larder",
+    "explanation": "Larder is for food. Scullery is for washing dishes; Wardrobe is for clothes; Archives are for records."
+  },
+  {
+    "question": "Q.11 A passionate enthusiasm for collecting books.",
+    "options": ["Bibliomania", "Kleptomania", "Dipsomania", "Pyromania"],
+    "answer": "Bibliomania",
+    "explanation": "Bibliomania (biblio=book) is for books. Kleptomania is stealing; Dipsomania is alcohol; Pyromania is fire."
+  },
+  {
+    "question": "Q.12 Impossible to harm or damage.",
+    "options": ["Invulnerable", "Insoluble", "Inimitable", "Infallible"],
+    "answer": "Invulnerable",
+    "explanation": "Invulnerable cannot be harmed. Insoluble cannot be dissolved; Inimitable cannot be copied; Infallible cannot make mistakes."
+  },
+  {
+    "question": "Q.13 A glass tank where fish or aquatic plants are kept.",
+    "options": ["Reservoir", "Aquarium", "Apiary", "Aviary"],
+    "answer": "Aquarium",
+    "explanation": "Aquarium is for fish. Reservoir is a large water supply lake; Apiary is for bees; Aviary is for birds."
+  },
+  {
+    "question": "Q.14 A botanical garden devoted to trees.",
+    "options": ["Herbarium", "Arboretum", "Granary", "Hangar"],
+    "answer": "Arboretum",
+    "explanation": "Arboretum (arbor=tree) is a tree garden. Herbarium is for dried plants; Granary stores grain; Hangar houses planes."
+  },
+  {
+    "question": "Q.15 So good or unusual as to be impossible to copy.",
+    "options": ["Inimitable", "Invulnerable", "Insoluble", "Inevitable"],
+    "answer": "Inimitable",
+    "explanation": "Inimitable cannot be imitated. Invulnerable cannot be harmed; Insoluble cannot be solved; Inevitable cannot be avoided."
+  },
+  {
+    "question": "Q.16 Fear of open spaces or crowded places.",
+    "options": ["Agoraphobia", "Acrophobia", "Claustrophobia", "Pyrophobia"],
+    "answer": "Agoraphobia",
+    "explanation": "Agoraphobia is fear of public/open spaces. Acrophobia is heights; Claustrophobia is small spaces; Pyrophobia is fire."
+  },
+  {
+    "question": "Q.17 An uncontrollable craving for alcoholic liquors.",
+    "options": ["Kleptomania", "Dipsomania", "Bibliomania", "Pyromania"],
+    "answer": "Dipsomania",
+    "explanation": "Dipsomania is craving for alcohol. Kleptomania is stealing; Bibliomania is books; Pyromania is fire."
+  },
+  {
+    "question": "Q.18 A hiding place for ammunition, food, or treasures.",
+    "options": ["Caché", "Arsenal", "Archives", "Mint"],
+    "answer": "Caché",
+    "explanation": "Caché is a secret hiding place. Arsenal stores weapons; Archives store records; Mint makes coins."
+  },
+  {
+    "question": "Q.19 The animals of a particular region.",
+    "options": ["Flora", "Fauna", "Deciduous", "Amphibians"],
+    "answer": "Fauna",
+    "explanation": "Fauna refers to animals. Flora refers to plants; Deciduous is trees that shed leaves; Amphibians live on land and water."
+  },
+  {
+    "question": "Q.20 A box or cage for keeping rabbits.",
+    "options": ["Kennel", "Hutch", "Stable", "Apiary"],
+    "answer": "Hutch",
+    "explanation": "Hutch is for rabbits. Kennel is for dogs; Stable is for horses; Apiary is for bees."
+  },
+  {
+    "question": "Q.21 Fear of animals.",
+    "options": ["Zoophobia", "Hydrophobia", "Pyrophobia", "Aerophobia"],
+    "answer": "Zoophobia",
+    "explanation": "Zoophobia (zoo=animal) is fear of animals. Hydrophobia is water; Pyrophobia is fire; Aerophobia is air."
+  },
+  {
+    "question": "Q.22 A large tall cupboard for storing clothes.",
+    "options": ["Larder", "Wardrobe", "Scullery", "Dormitory"],
+    "answer": "Wardrobe",
+    "explanation": "Wardrobe is for clothes. Larder is for food; Scullery is for washing; Dormitory is for sleeping."
+  },
+  {
+    "question": "Q.23 Impossible to solve or dissolve.",
+    "options": ["Insoluble", "Invisible", "Inaudible", "Inedible"],
+    "answer": "Insoluble",
+    "explanation": "Insoluble cannot be solved/dissolved. Invisible cannot be seen; Inaudible cannot be heard; Inedible cannot be eaten."
+  },
+  {
+    "question": "Q.24 A small room at the back of a house used for washing dishes.",
+    "options": ["Larder", "Scullery", "Dormitory", "Sanatorium"],
+    "answer": "Scullery",
+    "explanation": "Scullery is for washing dishes. Larder is for food; Dormitory is for sleeping; Sanatorium is a health station."
+  },
+  {
+    "question": "Q.25 Fear of fire.",
+    "options": ["Pyrophobia", "Hydrophobia", "Zoophobia", "Acrophobia"],
+    "answer": "Pyrophobia",
+    "explanation": "Pyrophobia (pyro=fire) is fear of fire. Hydrophobia is water; Zoophobia is animals; Acrophobia is heights."
+  },
+  {
+    "question": "Q.26 A large natural or artificial lake used as water supply.",
+    "options": ["Aquarium", "Reservoir", "Aviary", "Archives"],
+    "answer": "Reservoir",
+    "explanation": "Reservoir is a water supply lake. Aquarium is for fish; Aviary is for birds; Archives are for records."
+  },
+  {
+    "question": "Q.27 A thin flat case for loose papers or work collection.",
+    "options": ["Wardrobe", "Portfolio", "Larder", "Archives"],
+    "answer": "Portfolio",
+    "explanation": "Portfolio is a work collection. Wardrobe is for clothes; Larder for food; Archives for records."
+  },
+  {
+    "question": "Q.28 The plants of a particular region.",
+    "options": ["Fauna", "Flora", "Deciduous", "Herbarium"],
+    "answer": "Flora",
+    "explanation": "Flora refers to plants. Fauna refers to animals; Deciduous is leaf-shedding; Herbarium is dried plants."
+  },
+  {
+    "question": "Q.29 A part of a city occupied by a minority group.",
+    "options": ["Asylum", "Ghetto", "Sanatorium", "Dormitory"],
+    "answer": "Ghetto",
+    "explanation": "Ghetto is a minority neighborhood. Asylum is for the ill; Sanatorium for chronic care; Dormitory is for sleeping."
+  },
+  {
+    "question": "Q.30 Fear of air or drafts of air.",
+    "options": ["Aerophobia", "Hydrophobia", "Acrophobia", "Zoophobia"],
+    "answer": "Aerophobia",
+    "explanation": "Aerophobia (aero=air) is fear of air/flying. Hydrophobia is water; Acrophobia is heights; Zoophobia is animals."
+  }
+]
