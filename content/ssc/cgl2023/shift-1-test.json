@@ -1,0 +1,277 @@
+[
+  {
+    "question": "Q.1 Select the grammatically correct sentence.",
+    "options": [
+      "The participants of the competition is waiting for their turn curiously.",
+      "The participants of the competition are waiting for their turn curiously.",
+      "The participants of the competition has been waiting for their turn curiously.",
+      "A participants of the competition is waiting for their turn curiously."
+    ],
+    "answer": "The participants of the competition are waiting for their turn curiously.",
+    "explanation": "Mastery Insight: 👥 The subject is 'participants' (Plural), so we must use the plural verb 'are'. \n1. **Is waiting**: Incorrect singular verb. \n2. **Are waiting**: Correct plural verb agreement (ಭಾಗವಹಿಸುವವರು ಕಾಯುತ್ತಿದ್ದಾರೆ) - ✅. \n3. **Has been**: Incorrect singular verb. \n4. **A participants**: Incorrect use of singular article 'A' with a plural noun."
+  },
+  {
+    "question": "Q.2 Select the most appropriate synonym of the given word. \n\n **Zealous**",
+    "options": [
+      "Indifferent",
+      "Enthusiastic",
+      "Apathetic",
+      "Detached"
+    ],
+    "answer": "Enthusiastic",
+    "explanation": "Mastery Insight: 🔥 **Zealous** means showing great energy or enthusiasm in pursuit of a cause or objective (ಉತ್ಸಾಹಭರಿತ/ಆಸಕ್ತಿಯುಳ್ಳ). \n1. Indifferent: Having no particular interest or sympathy (ಉದಾಸೀನ). \n2. Enthusiastic: Showing intense and eager enjoyment (ಉತ್ಸಾಹವುಳ್ಳ) - ✅ Synonym. \n3. Apathetic: Showing or feeling no interest (ಆಸಕ್ತಿಯಿಲ್ಲದ). \n4. Detached: Separate or disconnected (ಅಲಿಪ್ತ)."
+  },
+  {
+    "question": "Q.3 Select the option that can be used as a one-word substitute for the given group of words. \n\n **A thing fit to eat.**",
+    "options": [
+      "Digestible",
+      "Eligible",
+      "Curable",
+      "Edible"
+    ],
+    "answer": "Edible",
+    "explanation": "Mastery Insight: 🍎 Something safe or fit to be eaten is called **Edible** (ತಿನ್ನಲು ಯೋಗ್ಯವಾದ). \n1. Digestible: Easy to digest in the stomach (ಜೀರ್ಣವಾಗುವಂತಹ). \n2. Eligible: Having the right to do or obtain something (ಅರ್ಹತೆವುಳ್ಳ). \n3. Curable: Able to be cured, usually a disease (ಗುಣಪಡಿಸಬಹುದಾದ). \n4. Edible: Fit for eating - ✅."
+  },
+  {
+    "question": "Q.4 Select the most appropriate ANTONYM of the underlined word in the given sentence. \n\n Henry is so **servile** that other people take advantage of him.",
+    "options": [
+      "Sheepish",
+      "Arrogant",
+      "Bickering",
+      "Cunning"
+    ],
+    "answer": "Arrogant",
+    "explanation": "Mastery Insight: 🙇‍♂️ **Servile** means having or showing an excessive willingness to serve or please others (ವಿಧೇಯ/ಗುಲಾಮಗಿರಿಯ). \n1. Sheepish: Showing embarrassment from shame (ನಾಚಿಕೆ ಸ್ವಭಾವದ). \n2. Arrogant: Having an exaggerated sense of one's own importance (ಅಹಂಕಾರಿ) - ✅ Antonym. \n3. Bickering: Arguing about petty matters (ಜಗಳವಾಡುವುದು). \n4. Cunning: Skill in achieving ends by deceit (ಕುತಂತ್ರ)."
+  },
+  {
+    "question": "Q.5 Select the most appropriate meaning of the underlined idiom in the given sentence. \n\n Pooja tried to explain the problem, but soon she **tied herself up in knots.**",
+    "options": [
+      "Won’t modify an opinion or agree to even small changes that another person wants",
+      "Become very confused when you are trying to explain something",
+      "Make no progress in an argument or discussion",
+      "Be forced to explain your actions and (probably) punished"
+    ],
+    "answer": "Become very confused when you are trying to explain something",
+    "explanation": "Mastery Insight: 😵 To **tie oneself in knots** means to become very confused or anxious when trying to explain a situation (ವಿವರಿಸುವಾಗ ಗೊಂದಲಕ್ಕೀಡಾಗುವುದು). ✅"
+  },
+  {
+    "question": "Q.6 Select the most appropriate option to fill in the blank. \n\n She is _________ a peacock in the blue satin saree.",
+    "options": [
+      "beautiful like",
+      "so beautiful as",
+      "as beautiful as",
+      "very beautiful as"
+    ],
+    "answer": "as beautiful as",
+    "explanation": "Mastery Insight: 🦚 The structure **'as + adjective + as'** is used to make comparisons between two things that are equal (ನವಿಲಿನಷ್ಟೇ ಸುಂದರ). ✅"
+  },
+  {
+    "question": "Q.7 Select the correct spelling of the underline word. \n\n They denied having any **associasion** with the terrorists.",
+    "options": [
+      "asociation",
+      "assosiation",
+      "association",
+      "asocciation"
+    ],
+    "answer": "association",
+    "explanation": "Mastery Insight: ✍️ The correct spelling is **Association** (ಸಂಬಂಧ/ಸಂಘಟನೆ). It is derived from 'associate' and uses double 's'. ✅"
+  },
+  {
+    "question": "Q.8 Select the most appropriate meaning of the given idiom. \n\n **Lily-livered**",
+    "options": [
+      "Not brave",
+      "Brave",
+      "Naughty",
+      "Comical"
+    ],
+    "answer": "Not brave",
+    "explanation": "Mastery Insight: 😨 **Lily-livered** is an old-fashioned idiom meaning cowardly or lacking courage (ಹೇಡಿ/ಧೈರ್ಯವಿಲ್ಲದ). ✅"
+  },
+  {
+    "question": "Q.9 Select the most appropriate option that can substitute the underlined segment in the given sentence. \n\n We must remember that what we teach our children is what we **inculcate** in them.",
+    "options": [
+      "import",
+      "inspire",
+      "instil",
+      "endanger"
+    ],
+    "answer": "instil",
+    "explanation": "Mastery Insight: 🧠 **Inculcate** means to instill an idea, attitude, or habit by persistent instruction (ಮನದಟ್ಟು ಮಾಡು/ತುಂಬು). \n1. Import: To bring in from abroad (ಆಮದು). \n2. Inspire: To fill someone with the urge to do something (ಪ್ರೇರೇಪಿಸು). \n3. Instil: To gradually but firmly establish an idea (ಮೂಡಿಸು/ತುಂಬು) - ✅ Synonym. \n4. Endanger: To put someone at risk (ಅಪಾಯಕ್ಕೆ ಸಿಲುಕಿಸು)."
+  },
+  {
+    "question": "Q.10 The following sentence has been split into four segments. Identify the segment that contains an error. \n\n **Neetu have been** / waiting for me / since 10 o’clock / in the morning.",
+    "options": [
+      "since 10 o’clock",
+      "Neetu have been",
+      "in the morning",
+      "waiting for me"
+    ],
+    "answer": "Neetu have been",
+    "explanation": "Mastery Insight: ❌ Error: 'Neetu' is a singular subject. In Present Perfect Continuous tense, a singular subject takes **'has been'**, not 'have been'. Correct: 'Neetu has been'. ⏳"
+  },
+  {
+    "question": "Q.11 Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph. \n\n A. The top band is made of saffron, which symbolises power and courage. \n B. The constituent assembly adopted our national flag, Tiranga, which means tricolour, on 22 July 1947. \n C. As a symbol of nationalism and freedom, it is fashioned from khadi, which is domestically spun Indian cotton. \n D. It features three horizontal stripes that are all the same width.",
+    "options": [
+      "BCDA",
+      "CBAD",
+      "CBDA",
+      "BDCA"
+    ],
+    "answer": "BDCA",
+    "explanation": "Mastery Insight: 🇮🇳 B (Introduction) -> D (General structure/stripes) -> C (Material/Khadi) -> A (Specific top color). Sequence: BDCA. ✅"
+  },
+  {
+    "question": "Q.12 Select the option that expresses the given sentence in passive voice. \n\n **The company's board of directors will announce the financial results at the annual meeting tomorrow.**",
+    "options": [
+      "The financial results will be announced by the company's board of directors at the annual meeting tomorrow.",
+      "The company's board of directors announced the financial results at the annual meeting tomorrow.",
+      "The financial results are being announced by the company's board of directors at the annual meeting tomorrow.",
+      "The financial results will have been announced by the company's board of directors at the annual meeting tomorrow."
+    ],
+    "answer": "The financial results will be announced by the company's board of directors at the annual meeting tomorrow.",
+    "explanation": "Mastery Insight: 📢 For Future Indefinite tense ('will + verb'), the passive structure is **'will be + V3'**. 'Will announce' becomes 'will be announced'. ✅"
+  },
+  {
+    "question": "Q.13 Select the most appropriate ANTONYM of the underlined word. \n\n Her dog can climb **under** the fence.",
+    "options": [
+      "Beneath",
+      "Over",
+      "Sink",
+      "Behind"
+    ],
+    "answer": "Over",
+    "explanation": "Mastery Insight: 🐕 **Under** refers to being below something (ಕೆಳಗೆ). Its opposite is **Over** (ಮೇಲೆ). \n1. Beneath: Synonym of under (ಕೆಳಗೆ). \n2. Over: Above or across the top (ಮೇಲೆ) - ✅ Antonym. \n3. Sink: To go down below the surface (ಮುಳುಗು). \n4. Behind: At the back of (ಹಿಂದೆ)."
+  },
+  {
+    "question": "Q.14 Select the option that expresses the given sentence in passive voice. \n\n **He won’t receive any better choice than this from anywhere.**",
+    "options": [
+      "Any better choice shouldn’t be received by him than this from anywhere.",
+      "Any better choice won’t be received by him than this from anywhere.",
+      "Any better choice wouldn’t have received by him than this from anywhere.",
+      "Any better choice won’t have been be received by him than this from anywhere."
+    ],
+    "answer": "Any better choice won’t be received by him than this from anywhere.",
+    "explanation": "Mastery Insight: 🚫 'Won't receive' is the negative of 'will receive'. Passive form: **'won't be + received'**. ✅"
+  },
+  {
+    "question": "Q.15 Select the most appropriate option that can substitute the underlined word in the given sentence. \n\n **She had an ability to persuade others.**",
+    "options": [
+      "outrage",
+      "halt",
+      "suppress",
+      "impress"
+    ],
+    "answer": "impress",
+    "explanation": "Mastery Insight: 🤝 **Persuade** means to convince someone (ಒಪ್ಪಿಸು). \n1. Outrage: Intense anger (ಆಕ್ರೋಶ). \n2. Halt: To stop (ನಿಲ್ಲಿಸು). \n3. Suppress: To forcibly stop or put down (ಹತ್ತಿಕ್ಕಲು). \n4. Impress: To make someone feel admiration (ಪ್ರಭಾವ ಬೀರು) - ✅ Most appropriate fit here."
+  },
+  {
+    "question": "Q.16 Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph. \n\n A. He repeated the experiment, increasing the amount until he had weighed up to a thousand pounds. \n B. During the spring of 1717, the iron foundries in a remote district were often visited by a thin, middle-aged man with a notebook. \n C. Three cauldrons were next prepared under his directions. \n D. He would weigh out two pounds of iron, have them heated till they were red-hot and then weigh them again.",
+    "options": [
+      "ABDC",
+      "CABD",
+      "BCAD",
+      "BDAC"
+    ],
+    "answer": "BDAC",
+    "explanation": "Mastery Insight: 🧪 B (Introduces the man) -> D (Explains the first experiment) -> A (Repetition/Increase) -> C (Next step). Sequence: BDAC. ✅"
+  },
+  {
+    "question": "Q.17 Select the INCORRECTLY spelt word in the given sentence. \n\n **The village beggars, no longer ill at ease in the gathering of gliterring dignitaries, sat in their assigned rows and joked with vegetarian Brahmin apprentices.**",
+    "options": [
+      "gliterring",
+      "assigned",
+      "apprentices",
+      "beggars"
+    ],
+    "answer": "gliterring",
+    "explanation": "Mastery Insight: ✨ Incorrect spelling: **gliterring**. Correct spelling: **Glittering** (ಮಿಂಚುವ/ಹೊಳೆಯುವ). It requires double 't'. ✅"
+  },
+  {
+    "question": "Q.18 Select the most appropriate synonym of the given word. \n\n **Feeble**",
+    "options": [
+      "Weak",
+      "Strong",
+      "Unheedful",
+      "Baneful"
+    ],
+    "answer": "Weak",
+    "explanation": "Mastery Insight: 🥨 **Feeble** means lacking physical strength, especially as a result of age or illness (ದುರ್ಬಲ/ಬಲಹೀನ). \n1. Weak: Lacking power (ಬಲಹೀನ) - ✅ Synonym. \n2. Strong: Powerful (ಬಲವಾದ). \n3. Unheedful: Not paying attention (ಗಮನಿಸದ). \n4. Baneful: Harmful or destructive (ಹಾನಿಕಾರಕ)."
+  },
+  {
+    "question": "Q.19 Sentences of a paragraph are given below in jumbled order. Arrange the sentences in the correct order to form a meaningful and coherent paragraph. \n\n A. In Bihar and Central India, in particular, every district had smelters that used local deposits of ore to produce iron which was widely used for the manufacture of implements and tools of daily use. \n B. The smelting was done by men while women worked on the bellows, pumping air that kept the charcoal burning. \n C. But iron smelting in India was extremely common till the end of the nineteenth century. \n D. Production of Wootz steel required a highly specialised technique of refining iron.",
+    "options": [
+      "ACDB",
+      "CBDA",
+      "DCAB",
+      "BCDA"
+    ],
+    "answer": "DCAB",
+    "explanation": "Mastery Insight: 🛠️ D (Specific Steel) -> C (General background) -> A (Geographical details) -> B (Work process). Sequence: DCAB. ✅"
+  },
+  {
+    "question": "Q.20 Select the most appropriate homonym to fill in the blank. \n\n **The hunter dogs followed the hyena’s ________.**",
+    "options": [
+      "scent",
+      "sense",
+      "cense",
+      "cents"
+    ],
+    "answer": "scent",
+    "explanation": "Mastery Insight: 👃 **Scent** refers to a distinctive smell, which is what dogs follow (ವಾಸನೆ). \n1. Scent: Smell - ✅. \n2. Sense: A faculty of perception (ಪ್ರಜ್ಞೆ). \n3. Cense: To perfume with incense. \n4. Cents: Monetary units (ನಾಣ್ಯಗಳು)."
+  },
+  {
+    "question": "In the following passage some words have been deleted. Fill in the blanks with the help of the alternatives given.\n\n Human life is (1) _______ a unique blessing, which in turn depends on the (2) _______ of the Self. He who is not aware of the Self can neither have peace nor can he foster peaceful coexistence. We have to link our soul with God and body with the physical world for substance.\n\n Q.21 Select the most appropriate option to fill in blank no. 1.",
+    "options": [
+      "considering",
+      "to consider",
+      "consider",
+      "considered"
+    ],
+    "answer": "considered",
+    "explanation": "Mastery Insight: 🌟 The passive structure **'is + V3'** is required here. 'Life is considered' (ಪರಿಗಣಿಸಲಾಗಿದೆ) means people think of life as a blessing. ✅"
+  },
+  {
+    "question": "Human life is (1) considered a unique blessing, which in turn depends on the (2) _______ of the Self. He who is not aware of the Self can neither have peace nor can he foster peaceful coexistence. We have to link our soul with God and body with the physical world for substance.\n\n Q.22 Select the most appropriate option to fill in blank no. 2.",
+    "options": [
+      "aware",
+      "known",
+      "awareness",
+      "witness"
+    ],
+    "answer": "awareness",
+    "explanation": "Mastery Insight: 💡 The sentence requires a noun after 'the'. **Awareness** (ಜಾಗೃತಿ/ಅರಿವು) is the noun form of 'aware'. ✅"
+  },
+  {
+    "question": "(3) _______ the formless God is invisible to the naked eye, our mind often wanders wherever it goes. (4) _______ , we are unable to develop any love for the Divine. And religion like the white light of heavens (5) _______ multi-coloured fragmentations by the prisms of men and loses its gravity.\n\n Q.23 Select the most appropriate option to fill in blank no. 3.",
+    "options": [
+      "For",
+      "Since",
+      "From",
+      "As per"
+    ],
+    "answer": "Since",
+    "explanation": "Mastery Insight: ⛓️ **Since** (ಇರುವುದರಿಂದ) is used here as a conjunction meaning 'because' or 'due to the fact that'. ✅"
+  },
+  {
+    "question": "(3) Since the formless God is invisible to the naked eye, our mind often wanders wherever it goes. (4) _______ , we are unable to develop any love for the Divine. And religion like the white light of heavens (5) _______ multi-coloured fragmentations by the prisms of men and loses its gravity.\n\n Q.24 Select the most appropriate option to fill in blank no. 4.",
+    "options": [
+      "As a reaction",
+      "Causing",
+      "As a result",
+      "As a reason"
+    ],
+    "answer": "As a result",
+    "explanation": "Mastery Insight: 📈 **As a result** (ಇದರ ಪರಿಣಾಮವಾಗಿ) is used to introduce the consequence of the mind wandering mentioned previously. ✅"
+  },
+  {
+    "question": "And religion like the white light of heavens (5) _______ multi-coloured fragmentations by the prisms of men and loses its gravity. Instead of uniting, it becomes a major dividing force.\n\n Q.25 Select the most appropriate option to fill in blank no. 5.",
+    "options": [
+      "breaks to",
+      "breaks into",
+      "break into",
+      "break from"
+    ],
+    "answer": "breaks into",
+    "explanation": "Mastery Insight: 🧱 'Religion' is a singular subject, so it needs **'breaks'**. **'Breaks into'** is the phrasal verb meaning to divide into parts (ಭಾಗಗಳಾಗಿ ಒಡೆಯುತ್ತದೆ). ✅"
+  }
+]
