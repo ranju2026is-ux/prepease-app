@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Q.1 A person appointed by two parties to settle a dispute.",
+    "options": ["Ambassador", "Arbitrator", "Alumnus", "Volunteer"],
+    "answer": "Arbitrator",
+    "explanation": "Arbitrator is a neutral party to solve disputes. Ambassador is a country representative; Alumnus is a former student; Volunteer works for free."
+  },
+  {
+    "question": "Q.2 An instrument used for measuring atmospheric pressure.",
+    "options": ["Chronometer", "Hygrometer", "Barometer", "Seismograph"],
+    "answer": "Barometer",
+    "explanation": "Barometer measures pressure. Chronometer is for time; Hygrometer for humidity; Seismograph for earthquakes."
+  },
+  {
+    "question": "Q.3 A building where threshed grain is stored.",
+    "options": ["Dormitory", "Granary", "Hangar", "Stable"],
+    "answer": "Granary",
+    "explanation": "Granary stores grain. Dormitory is for sleeping; Hangar houses aircraft; Stable is for horses."
+  },
+  {
+    "question": "Q.4 Awarded or occurring after the death of the person.",
+    "options": ["Posthumous", "Obituary", "Martyr", "Novice"],
+    "answer": "Posthumous",
+    "explanation": "Posthumous relates to after death. Obituary is a death notice; Martyr dies for a cause; Novice is a beginner."
+  },
+  {
+    "question": "Q.5 One who does something for pleasure and not as a profession.",
+    "options": ["Linguist", "Amateur", "Narcissist", "Usurer"],
+    "answer": "Amateur",
+    "explanation": "Amateur works for joy/hobby. Linguist knows many languages; Narcissist loves themselves; Usurer lends money at high interest."
+  },
+  {
+    "question": "Q.6 The practice of taking someone else's work or ideas and passing them off as one's own.",
+    "options": ["Plagiarism", "Monologue", "Obituary", "Toxicology"],
+    "answer": "Plagiarism",
+    "explanation": "Plagiarism is literary theft. Monologue is a single person's speech; Obituary is death news; Toxicology is study of poisons."
+  },
+  {
+    "question": "Q.7 A person who freely offers to take part in an enterprise or undertake a task.",
+    "options": ["Martyr", "Volunteer", "Novice", "Pedestrian"],
+    "answer": "Volunteer",
+    "explanation": "Volunteer offers free service. Martyr dies for a noble cause; Novice is a beginner; Pedestrian is a person walking."
+  },
+  {
+    "question": "Q.8 An instrument for detecting and recording earthquakes.",
+    "options": ["Barometer", "Hygrometer", "Seismograph", "Chronometer"],
+    "answer": "Seismograph",
+    "explanation": "Seismograph records earthquakes. Barometer is for pressure; Hygrometer for humidity; Chronometer for time."
+  },
+  {
+    "question": "Q.9 A person skilled in foreign languages.",
+    "options": ["Linguist", "Ambassador", "Amateur", "Novice"],
+    "answer": "Linguist",
+    "explanation": "Linguist is a language expert. Ambassador is a diplomat; Amateur is a hobbyist; Novice is a beginner."
+  },
+  {
+    "question": "Q.10 A person who has an excessive interest in themselves.",
+    "options": ["Narcissist", "Misanthrope", "Pacifist", "Egoist"],
+    "answer": "Narcissist",
+    "explanation": "Narcissist admires themselves excessively. Misanthrope hates people; Pacifist avoids war; Egoist is selfish."
+  },
+  {
+    "question": "Q.11 A large bedroom with a number of beds for a number of people.",
+    "options": ["Stable", "Granary", "Dormitory", "Sanatorium"],
+    "answer": "Dormitory",
+    "explanation": "Dormitory is a shared sleeping room. Stable is for horses; Granary for grain; Sanatorium is a health resort/hospital."
+  },
+  {
+    "question": "Q.12 A person walking rather than travelling in a vehicle.",
+    "options": ["Volunteer", "Pedestrian", "Novice", "Martyr"],
+    "answer": "Pedestrian",
+    "explanation": "Pedestrian is a walker. Volunteer works for free; Novice is inexperienced; Martyr dies for a cause."
+  },
+  {
+    "question": "Q.13 An instrument for measuring the humidity of the air.",
+    "options": ["Hygrometer", "Barometer", "Chronometer", "Seismograph"],
+    "answer": "Hygrometer",
+    "explanation": "Hygrometer measures humidity. Barometer measures pressure; Chronometer measures time; Seismograph measures earthquakes."
+  },
+  {
+    "question": "Q.14 A notice of death, especially in a newspaper.",
+    "options": ["Posthumous", "Obituary", "Monologue", "Toxicology"],
+    "answer": "Obituary",
+    "explanation": "Obituary is a death announcement. Posthumous is after death; Monologue is a solo speech; Toxicology is the study of poisons."
+  },
+  {
+    "question": "Q.15 A large building used for housing aircraft.",
+    "options": ["Granary", "Hangar", "Stable", "Dormitory"],
+    "answer": "Hangar",
+    "explanation": "Hangar houses aircraft. Granary houses grain; Stable houses horses; Dormitory is for sleeping."
+  },
+  {
+    "question": "Q.16 One who dies for a noble cause.",
+    "options": ["Martyr", "Novice", "Narcissist", "Pacifist"],
+    "answer": "Martyr",
+    "explanation": "Martyr dies for beliefs. Novice is a beginner; Narcissist loves self; Pacifist hates war."
+  },
+  {
+    "question": "Q.17 An animal or person that eats both plant and animal origin.",
+    "options": ["Cannibal", "Omnivorous", "Mercenary", "Ascetic"],
+    "answer": "Omnivorous",
+    "explanation": "Omnivorous eats everything. Cannibal eats humans; Mercenary works for money; Ascetic avoids pleasure."
+  },
+  {
+    "question": "Q.18 A person new to and inexperienced in a job.",
+    "options": ["Veteran", "Novice", "Linguist", "Amateur"],
+    "answer": "Novice",
+    "explanation": "Novice is a beginner. Veteran is experienced; Linguist knows languages; Amateur is a hobbyist."
+  },
+  {
+    "question": "Q.19 An establishment for medical treatment of chronic illness.",
+    "options": ["Asylum", "Sanatorium", "Archives", "Arsenal"],
+    "answer": "Sanatorium",
+    "explanation": "Sanatorium is for long-term recovery. Asylum is for mental health; Archives for records; Arsenal for weapons."
+  },
+  {
+    "question": "Q.20 A long speech by one actor in a play.",
+    "options": ["Extempore", "Monologue", "Obituary", "Plagiarism"],
+    "answer": "Monologue",
+    "explanation": "Monologue is a solo speech. Extempore is unprepared; Obituary is a death notice; Plagiarism is copying work."
+  },
+  {
+    "question": "Q.21 A former student of a particular school or college.",
+    "options": ["Volunteer", "Alumnus", "Novice", "Amateur"],
+    "answer": "Alumnus",
+    "explanation": "Alumnus is a former student. Volunteer works for free; Novice is a beginner; Amateur is a hobbyist."
+  },
+  {
+    "question": "Q.22 A diplomatic representative sent by one country to another.",
+    "options": ["Arbitrator", "Ambassador", "Usurer", "Linguist"],
+    "answer": "Ambassador",
+    "explanation": "Ambassador represents a country. Arbitrator settles disputes; Usurer lends money at high rates; Linguist is a language expert."
+  },
+  {
+    "question": "Q.23 A person who lends money at unreasonably high rates of interest.",
+    "options": ["Insolvent", "Usurer", "Mercenary", "Egoist"],
+    "answer": "Usurer",
+    "explanation": "Usurer charges high interest. Insolvent cannot pay debts; Mercenary works only for profit; Egoist is self-centered."
+  },
+  {
+    "question": "Q.24 A person who dislikes humankind and avoids human society.",
+    "options": ["Misanthrope", "Philanthropist", "Pacifist", "Optimist"],
+    "answer": "Misanthrope",
+    "explanation": "Misanthrope hates people. Philanthropist loves people; Pacifist hates war; Optimist is positive."
+  },
+  {
+    "question": "Q.25 An instrument for measuring time accurately at sea.",
+    "options": ["Barometer", "Chronometer", "Hygrometer", "Seismograph"],
+    "answer": "Chronometer",
+    "explanation": "Chronometer is a precise clock for sea navigation. Barometer is for pressure; Hygrometer for humidity; Seismograph for earthquakes."
+  },
+  {
+    "question": "Q.26 The branch of science concerned with poisons.",
+    "options": ["Anthropology", "Toxicology", "Etymology", "Archaeology"],
+    "answer": "Toxicology",
+    "explanation": "Toxicology is the study of poisons. Anthropology is human study; Etymology is word study; Archaeology is history through excavation."
+  },
+  {
+    "question": "Q.27 A person who believes that war and violence are unjustifiable.",
+    "options": ["Martyr", "Pacifist", "Pessimist", "Fatalist"],
+    "answer": "Pacifist",
+    "explanation": "Pacifist believes in peace. Martyr dies for a cause; Pessimist looks at the dark side; Fatalist believes in fate."
+  },
+  {
+    "question": "Q.28 A building set apart for keeping horses.",
+    "options": ["Kennel", "Stable", "Hangar", "Granary"],
+    "answer": "Stable",
+    "explanation": "Stable is for horses. Kennel is for dogs; Hangar is for planes; Granary is for grain."
+  },
+  {
+    "question": "Q.29 A person who has an excessive admiration for themselves.",
+    "options": ["Narcissist", "Egoist", "Theist", "Atheist"],
+    "answer": "Narcissist",
+    "explanation": "Narcissist admires themselves. Egoist is selfish; Theist believes in God; Atheist does not."
+  },
+  {
+    "question": "Q.30 One who dies for the sake of one's country or a cause.",
+    "options": ["Martyr", "Volunteer", "Novice", "Veteran"],
+    "answer": "Martyr",
+    "explanation": "Martyr dies for a cause. Volunteer offers free work; Novice is a beginner; Veteran is experienced."
+  }
+]
