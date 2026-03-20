@@ -1,32 +1,182 @@
 [
-  { "question": "Q.1 A person who does not believe in the existence of God.", "options": ["Theist", "Atheist", "Fatalist", "Optimist"], "answer": "Atheist" },
-  { "question": "Q.2 Handwriting which is difficult or impossible to read.", "options": ["Inaudible", "Inedible", "Illegible", "Inevitable"], "answer": "Illegible" },
-  { "question": "Q.3 A speech delivered without any previous preparation.", "options": ["Maiden", "Extempore", "Debate", "Lecture"], "answer": "Extempore" },
-  { "question": "Q.4 A person who is unable to pay his debts.", "options": ["Solvent", "Mercenary", "Insolvent", "Egoist"], "answer": "Insolvent" },
-  { "question": "Q.5 One who loves mankind and works for their welfare.", "options": ["Misanthrope", "Philanthropist", "Atheist", "Fastidious"], "answer": "Philanthropist" },
-  { "question": "Q.6 One who is present everywhere.", "options": ["Omniscient", "Omnipotent", "Omnipresent", "Optimist"], "answer": "Omnipresent" },
-  { "question": "Q.7 Something that is certain to happen and cannot be avoided.", "options": ["Invisible", "Infallible", "Inevitable", "Inaudible"], "answer": "Inevitable" },
-  { "question": "Q.8 One who is very difficult to please.", "options": ["Gullible", "Fastidious", "Egoist", "Fatalist"], "answer": "Fastidious" },
-  { "question": "Q.9 A person who has reached the age of 100 years.", "options": ["Octogenarian", "Septuagenarian", "Centenarian", "Veteran"], "answer": "Centenarian" },
-  { "question": "Q.10 One who eats human flesh.", "options": ["Herbivorous", "Carnivorous", "Cannibal", "Omnivorous"], "answer": "Cannibal" },
-  { "question": "Q.11 A post held without receiving any salary.", "options": ["Voluntary", "Honorary", "Mercenary", "Charity"], "answer": "Honorary" },
-  { "question": "Q.12 A person who looks at the dark side of things.", "options": ["Optimist", "Pessimist", "Theist", "Egoist"], "answer": "Pessimist" },
-  { "question": "Q.13 One who knows everything.", "options": ["Omniscient", "Omnipotent", "Omnipresent", "Scholar"], "answer": "Omniscient" },
-  { "question": "Q.14 A person who leaves his own country to settle in another.", "options": ["Immigrant", "Emigrant", "Tourist", "Nomad"], "answer": "Emigrant" },
-  { "question": "Q.15 Something which catches fire easily.", "options": ["Inedible", "Inaudible", "Inflammable", "Invisible"], "answer": "Inflammable" },
-  { "question": "Q.16 One who is easily deceived or tricked.", "options": ["Fastidious", "Gullible", "Optimist", "Pessimist"], "answer": "Gullible" },
-  { "question": "Q.17 Persons living at the same time.", "options": ["Ancestors", "Contemporaries", "Colleagues", "Peerage"], "answer": "Contemporaries" },
-  { "question": "Q.18 One who does something only for money.", "options": ["Mercenary", "Volunteer", "Philanthropist", "Egoist"], "answer": "Mercenary" },
-  { "question": "Q.19 A sound that cannot be heard.", "options": ["Inaudible", "Infallible", "Illegible", "Invisible"], "answer": "Inaudible" },
-  { "question": "Q.20 A person who is all-powerful.", "options": ["Omniscient", "Omnipotent", "Omnipresent", "Mighty"], "answer": "Omnipotent" },
-  { "question": "Q.21 One who hates mankind.", "options": ["Misanthrope", "Philanthropist", "Optimist", "Fatalist"], "answer": "Misanthrope" },
-  { "question": "Q.22 A person who believes that all events are predetermined by fate.", "options": ["Theist", "Atheist", "Fatalist", "Pessimist"], "answer": "Fatalist" },
-  { "question": "Q.23 Something that cannot be seen.", "options": ["Invisible", "Inaudible", "Inedible", "Illegible"], "answer": "Invisible" },
-  { "question": "Q.24 One who believes in God.", "options": ["Theist", "Atheist", "Pessimist", "Fatalist"], "answer": "Theist" },
-  { "question": "Q.25 A person who thinks only of himself.", "options": ["Altruist", "Egoist", "Optimist", "Gullible"], "answer": "Egoist" },
-  { "question": "Q.26 Something not fit to be eaten.", "options": ["Delicious", "Inedible", "Inaudible", "Invisible"], "answer": "Inedible" },
-  { "question": "Q.27 A person who regards the whole world as his country.", "options": ["Cosmopolitan", "Patriot", "Nationalist", "Citizen"], "answer": "Cosmopolitan" },
-  { "question": "Q.28 One who never makes a mistake.", "options": ["Infallible", "Inaudible", "Invisible", "Inevitable"], "answer": "Infallible" },
-  { "question": "Q.29 A person who comes to a foreign country to settle there.", "options": ["Emigrant", "Immigrant", "Tourist", "Expat"], "answer": "Immigrant" },
-  { "question": "Q.30 A person who looks at the bright side of things.", "options": ["Optimist", "Pessimist", "Theist", "Atheist"], "answer": "Optimist" }
+  {
+    "question": "Q.1 A person who does not believe in the existence of God.",
+    "options": ["Theist", "Atheist", "Fatalist", "Optimist"],
+    "answer": "Atheist",
+    "explanation": "Atheist (a=without + theo=god) is someone who lacks belief in God. Theist believes in God; Fatalist believes in fate; Optimist looks at the bright side."
+  },
+  {
+    "question": "Q.2 Handwriting which is difficult or impossible to read.",
+    "options": ["Inaudible", "Inedible", "Illegible", "Inevitable"],
+    "answer": "Illegible",
+    "explanation": "Illegible refers to bad handwriting. Inaudible cannot be heard; Inedible cannot be eaten; Inevitable cannot be avoided."
+  },
+  {
+    "question": "Q.3 A speech delivered without any previous preparation.",
+    "options": ["Maiden", "Extempore", "Debate", "Lecture"],
+    "answer": "Extempore",
+    "explanation": "Extempore is a speech given without planning. Maiden is a first-time speech; Debate is an argument; Lecture is a prepared talk."
+  },
+  {
+    "question": "Q.4 A person who is unable to pay his debts.",
+    "options": ["Solvent", "Mercenary", "Insolvent", "Egoist"],
+    "answer": "Insolvent",
+    "explanation": "Insolvent is someone who has no money to pay debts. Solvent can pay debts; Mercenary works only for money; Egoist is self-centered."
+  },
+  {
+    "question": "Q.5 One who loves mankind and works for their welfare.",
+    "options": ["Misanthrope", "Philanthropist", "Atheist", "Fastidious"],
+    "answer": "Philanthropist",
+    "explanation": "Philanthropist (phil=love + anthropos=human) helps others. Misanthrope hates humans; Atheist denies God; Fastidious is hard to please."
+  },
+  {
+    "question": "Q.6 One who is present everywhere.",
+    "options": ["Omniscient", "Omnipotent", "Omnipresent", "Optimist"],
+    "answer": "Omnipresent",
+    "explanation": "Omnipresent (omni=all) is being everywhere at once. Omniscient knows all; Omnipotent is all-powerful; Optimist is positive."
+  },
+  {
+    "question": "Q.7 Something that is certain to happen and cannot be avoided.",
+    "options": ["Invisible", "Infallible", "Inevitable", "Inaudible"],
+    "answer": "Inevitable",
+    "explanation": "Inevitable is something that must happen. Invisible cannot be seen; Infallible never fails; Inaudible cannot be heard."
+  },
+  {
+    "question": "Q.8 One who is very difficult to please.",
+    "options": ["Gullible", "Fastidious", "Egoist", "Fatalist"],
+    "answer": "Fastidious",
+    "explanation": "Fastidious is very concerned with accuracy and detail. Gullible is easily fooled; Egoist thinks only of self; Fatalist believes in fate."
+  },
+  {
+    "question": "Q.9 A person who has reached the age of 100 years.",
+    "options": ["Octogenarian", "Septuagenarian", "Centenarian", "Veteran"],
+    "answer": "Centenarian",
+    "explanation": "Centenarian (cent=100) is 100 years old. Octogenarian is 80; Septuagenarian is 70; Veteran is someone with long experience."
+  },
+  {
+    "question": "Q.10 One who eats human flesh.",
+    "options": ["Herbivorous", "Carnivorous", "Cannibal", "Omnivorous"],
+    "answer": "Cannibal",
+    "explanation": "Cannibal eats its own species (humans). Herbivorous eats plants; Carnivorous eats meat; Omnivorous eats both."
+  },
+  {
+    "question": "Q.11 A post held without receiving any salary.",
+    "options": ["Voluntary", "Honorary", "Mercenary", "Charity"],
+    "answer": "Honorary",
+    "explanation": "Honorary is a title or role without pay. Voluntary is by choice; Mercenary is for money only; Charity is giving to the needy."
+  },
+  {
+    "question": "Q.12 A person who looks at the dark side of things.",
+    "options": ["Optimist", "Pessimist", "Theist", "Egoist"],
+    "answer": "Pessimist",
+    "explanation": "Pessimist expects the worst. Optimist expects the best; Theist believes in God; Egoist is self-absorbed."
+  },
+  {
+    "question": "Q.13 One who knows everything.",
+    "options": ["Omniscient", "Omnipotent", "Omnipresent", "Scholar"],
+    "answer": "Omniscient",
+    "explanation": "Omniscient (omni=all + scientia=knowledge) is all-knowing. Omnipotent is all-powerful; Omnipresent is everywhere; Scholar is a learned person."
+  },
+  {
+    "question": "Q.14 A person who leaves his own country to settle in another.",
+    "options": ["Immigrant", "Emigrant", "Tourist", "Nomad"],
+    "answer": "Emigrant",
+    "explanation": "Emigrant (e=exit) leaves a country. Immigrant (i=in) enters a country; Tourist is a visitor; Nomad has no fixed home."
+  },
+  {
+    "question": "Q.15 Something which catches fire easily.",
+    "options": ["Inedible", "Inaudible", "Inflammable", "Invisible"],
+    "answer": "Inflammable",
+    "explanation": "Inflammable (or flammable) burns easily. Inedible is not for eating; Inaudible cannot be heard; Invisible cannot be seen."
+  },
+  {
+    "question": "Q.16 One who is easily deceived or tricked.",
+    "options": ["Fastidious", "Gullible", "Optimist", "Pessimist"],
+    "answer": "Gullible",
+    "explanation": "Gullible is easily persuaded to believe something. Fastidious is picky; Optimist/Pessimist refer to outlook on life."
+  },
+  {
+    "question": "Q.17 Persons living at the same time.",
+    "options": ["Ancestors", "Contemporaries", "Colleagues", "Peerage"],
+    "answer": "Contemporaries",
+    "explanation": "Contemporaries live during the same period. Ancestors are from the past; Colleagues work together; Peerage refers to nobility."
+  },
+  {
+    "question": "Q.18 One who does something only for money.",
+    "options": ["Mercenary", "Volunteer", "Philanthropist", "Egoist"],
+    "answer": "Mercenary",
+    "explanation": "Mercenary is motivated only by profit. Volunteer works for free; Philanthropist donates; Egoist is selfish."
+  },
+  {
+    "question": "Q.19 A sound that cannot be heard.",
+    "options": ["Inaudible", "Infallible", "Illegible", "Invisible"],
+    "answer": "Inaudible",
+    "explanation": "Inaudible (in=not + audire=hear) is too quiet to hear. Infallible makes no mistakes; Illegible is unreadable; Invisible is unseeable."
+  },
+  {
+    "question": "Q.20 A person who is all-powerful.",
+    "options": ["Omniscient", "Omnipotent", "Omnipresent", "Mighty"],
+    "answer": "Omnipotent",
+    "explanation": "Omnipotent (omni=all + potens=power) has unlimited power. Omniscient knows all; Omnipresent is everywhere; Mighty is just strong."
+  },
+  {
+    "question": "Q.21 One who hates mankind.",
+    "options": ["Misanthrope", "Philanthropist", "Optimist", "Fatalist"],
+    "answer": "Misanthrope",
+    "explanation": "Misanthrope (miso=hate) dislikes people. Philanthropist loves people; Optimist is positive; Fatalist believes in destiny."
+  },
+  {
+    "question": "Q.22 A person who believes that all events are predetermined by fate.",
+    "options": ["Theist", "Atheist", "Fatalist", "Pessimist"],
+    "answer": "Fatalist",
+    "explanation": "Fatalist believes everything is fated. Theist/Atheist refer to God; Pessimist is a negative thinker."
+  },
+  {
+    "question": "Q.23 Something that cannot be seen.",
+    "options": ["Invisible", "Inaudible", "Inedible", "Illegible"],
+    "answer": "Invisible",
+    "explanation": "Invisible is not visible to the eye. Inaudible relates to hearing; Inedible to eating; Illegible to reading."
+  },
+  {
+    "question": "Q.24 One who believes in God.",
+    "options": ["Theist", "Atheist", "Pessimist", "Fatalist"],
+    "answer": "Theist",
+    "explanation": "Theist (theo=god) believes in God. Atheist does not; Pessimist is negative; Fatalist believes in fate."
+  },
+  {
+    "question": "Q.25 A person who thinks only of himself.",
+    "options": ["Altruist", "Egoist", "Optimist", "Gullible"],
+    "answer": "Egoist",
+    "explanation": "Egoist is self-centered. Altruist is selfless; Optimist is positive; Gullible is easily tricked."
+  },
+  {
+    "question": "Q.26 Something not fit to be eaten.",
+    "options": ["Delicious", "Inedible", "Inaudible", "Invisible"],
+    "answer": "Inedible",
+    "explanation": "Inedible is not safe or good to eat. Delicious is tasty; Inaudible is quiet; Invisible is unseeable."
+  },
+  {
+    "question": "Q.27 A person who regards the whole world as his country.",
+    "options": ["Cosmopolitan", "Patriot", "Nationalist", "Citizen"],
+    "answer": "Cosmopolitan",
+    "explanation": "Cosmopolitan is a 'citizen of the world'. Patriot/Nationalist love their specific country; Citizen is a legal member of a state."
+  },
+  {
+    "question": "Q.28 One who never makes a mistake.",
+    "options": ["Infallible", "Inaudible", "Invisible", "Inevitable"],
+    "answer": "Infallible",
+    "explanation": "Infallible (in=not + fallere=deceive/fail) is incapable of error. Inaudible/Invisible/Inevitable relate to sound/sight/fate."
+  },
+  {
+    "question": "Q.29 A person who comes to a foreign country to settle there.",
+    "options": ["Emigrant", "Immigrant", "Tourist", "Expat"],
+    "answer": "Immigrant",
+    "explanation": "Immigrant moves INTO a new country. Emigrant moves OUT OF their country; Tourist is a visitor; Expat lives abroad."
+  },
+  {
+    "question": "Q.30 A person who looks at the bright side of things.",
+    "options": ["Optimist", "Pessimist", "Theist", "Atheist"],
+    "answer": "Optimist",
+    "explanation": "Optimist is hopeful and confident. Pessimist is the opposite; Theist/Atheist refer to religious belief."
+  }
 ]
