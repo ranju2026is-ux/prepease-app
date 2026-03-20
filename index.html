@@ -67,7 +67,8 @@
             border-color: rgba(67, 56, 202, 0.3);
         }
 
-        .anki-card { perspective: 1000px; min-height: 520px; width: 100%; max-width: 550px; margin: 0 auto; cursor: pointer; }
+        /* ANKI CARD Challenge STYLES - INCREASED MAX WIDTH */
+        .anki-card { perspective: 1000px; min-height: 550px; width: 100%; max-width: 850px; margin: 0 auto; cursor: pointer; }
         .anki-card-inner {
             position: relative;
             width: 100%;
@@ -82,7 +83,7 @@
             backface-visibility: hidden;
             -webkit-backface-visibility: hidden;
             border-radius: 3.5rem; border-width: 2px;
-            padding: 2rem; display: flex; flex-direction: column;
+            padding: 2.5rem; display: flex; flex-direction: column;
             justify-content: flex-start; align-items: stretch;
         }
         .anki-front { border-color: #f1f5f9; background-color: white; box-shadow: 0 10px 30px rgba(0,0,0,0.05); z-index: 2; transform: rotateY(0deg); overflow-y: auto; }
@@ -153,7 +154,7 @@
             authMode: 'login',
             currentAnkiIndex: 0,
             isAnkiFlipped: false,
-            ankiSelection: null, // Tracks local selection in mistakes book
+            ankiSelection: null,
             currentStudyIndex: 0,
             currentStudyFlipped: false,
             currentQuizIndex: 0,
@@ -428,6 +429,7 @@
                 renderStudyCardUI();
             };
         }
+        window.renderStudyCardUI = renderStudyCardUI;
 
         window.changeStudyCard = (dir) => {
             state.currentStudyIndex += dir;
@@ -505,6 +507,7 @@
                 </div>
             `;
         }
+        window.renderQuizUI = renderQuizUI;
 
         window.handleInstantFeedback = function(qIndex, selected, correct) {
             state.currentQuizAnswers[qIndex] = { selected, isCorrect: selected === correct };
@@ -549,7 +552,7 @@
             const flippedClass = state.isAnkiFlipped ? 'flipped' : '';
             
             return `
-            <div class="max-w-3xl mx-auto py-10 px-6 view-transition">
+            <div class="max-w-5xl mx-auto py-10 px-6 view-transition">
                 <button onclick="history.back()" class="text-slate-400 font-bold mb-8 flex items-center gap-2 hover:text-indigo-600 transition-colors uppercase text-xs tracking-widest font-bold">← Back</button>
                 <div class="flex justify-between items-center mb-10">
                     <h2 class="text-xl font-black uppercase tracking-widest">Mastery Deck</h2>
@@ -559,7 +562,7 @@
                     <div class="anki-card-inner">
                         <div class="anki-front">
                             <span class="px-4 py-1.5 bg-rose-50 text-rose-600 rounded-full text-[9px] font-black uppercase mb-4 border border-rose-100 self-start">Case Challenge</span>
-                            <h3 class="text-lg font-bold text-slate-800 leading-snug mb-6">${current.question}</h3>
+                            <h3 class="text-xl font-bold text-slate-800 leading-snug mb-6">${current.question}</h3>
                             
                             <div class="grid grid-cols-1 gap-3">
                                 ${current.options ? current.options.map(o => {
@@ -586,7 +589,7 @@
                         <div class="anki-back" onclick="event.stopPropagation();">
                             <p class="text-[9px] font-black text-indigo-400 uppercase tracking-widest mb-6">Mastery Insight</p>
                             <div class="bg-white/60 p-6 rounded-[2rem] border border-indigo-100 mb-6 flex-grow overflow-y-auto">
-                                <p class="text-sm text-indigo-900 font-medium leading-relaxed">${current.explanation || 'Correct Answer: ' + current.answer}</p>
+                                <p class="text-lg text-indigo-900 font-medium leading-relaxed">${current.explanation || 'Correct Answer: ' + current.answer}</p>
                             </div>
                             <div class="mt-4 flex gap-4">
                                 <button onclick="resolveAnki(true)" class="flex-1 py-4 bg-emerald-600 text-white font-black rounded-2xl text-[10px] uppercase shadow-lg">Got it right ✅</button>
@@ -686,6 +689,14 @@
                 </div>
             </div>`;
         }
+
+        window.handleLevelSelection = (lv, progressId) => { 
+            const isDone = state.progress[progressId]; 
+            if (isDone) { 
+                const shell = document.getElementById('app-shell'); 
+                shell.innerHTML = `<div class="max-w-xl mx-auto py-10 px-6 text-left view-transition font-bold font-bold font-bold"><button onclick="history.back()" class="text-slate-400 font-bold mb-8 flex items-center gap-2 hover:text-indigo-600 transition-colors uppercase text-xs tracking-widest font-bold">← Back</button><div class="bg-white border-2 border-emerald-100 p-12 rounded-[3.5rem] shadow-xl text-center font-bold"><span class="w-16 h-16 bg-emerald-50 text-emerald-600 rounded-full flex items-center justify-center text-3xl mb-8 mx-auto font-bold font-bold">🏆</span><h2 class="text-3xl font-black text-slate-900 mb-2 font-bold">Phase ${lv} Complete</h2><p class="text-slate-400 font-bold uppercase tracking-widest text-[10px] mb-8 font-bold">Performance: ${isDone.score}/${isDone.total}</p><div class="space-y-4 font-bold"><button onclick="navigateTo('content-view', { currentLevel: ${lv}, isSSC: false, isKarnataka: false })" class="w-full py-5 bg-indigo-600 text-white font-black rounded-2xl shadow-xl uppercase tracking-widest text-xs font-bold">Review Lessons</button><button onclick="state.currentLevel = ${lv}; state.isSSC = false; state.isKarnataka = false; state.view = 'content-view'; render(); loadQuiz();" class="w-full py-5 border-2 border-slate-100 text-slate-600 font-black rounded-2xl hover:bg-slate-50 transition-all uppercase tracking-widest text-xs font-bold">Reattempt Quiz</button></div></div></div>`; 
+            } else navigateTo('content-view', { currentLevel: lv, isSSC: false, isKarnataka: false }); 
+        };
 
         function renderLogin() {
             const isLogin = state.authMode === 'login';
