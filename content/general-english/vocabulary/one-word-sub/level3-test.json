@@ -1,32 +1,182 @@
 [
-  { "question": "Q.1 The killing of a king.", "options": ["Homicide", "Regicide", "Patricide", "Genocide"], "answer": "Regicide" },
-  { "question": "Q.2 A person who walks in their sleep.", "options": ["Somniloquist", "Somnambulist", "Truant", "Stoic"], "answer": "Somnambulist" },
-  { "question": "Q.3 One who never drinks alcohol.", "options": ["Epicure", "Ascetic", "Teetotaller", "Gourmet"], "answer": "Teetotaller" },
-  { "question": "Q.4 The practice of having more than one husband at a time.", "options": ["Polygamy", "Polyandry", "Bigamy", "Monogamy"], "answer": "Polyandry" },
-  { "question": "Q.5 A person who collects coins.", "options": ["Philatelist", "Numismatist", "Connoisseur", "Mercenary"], "answer": "Numismatist" },
-  { "question": "Q.6 The killing of one's own mother.", "options": ["Patricide", "Matricide", "Fratricide", "Sororicide"], "answer": "Matricide" },
-  { "question": "Q.7 A person indifferent to pleasure or pain.", "options": ["Stoic", "Epicure", "Ascetic", "Egoist"], "answer": "Stoic" },
-  { "question": "Q.8 A student who stays away from school without permission.", "options": ["Truant", "Somnambulist", "Mercenary", "Ascetic"], "answer": "Truant" },
-  { "question": "Q.9 The killing of an infant.", "options": ["Homicide", "Uxoricide", "Infanticide", "Regicide"], "answer": "Infanticide" },
-  { "question": "Q.10 A critical judge of any art or food.", "options": ["Philatelist", "Connoisseur", "Gourmet", "Numismatist"], "answer": "Connoisseur" },
-  { "question": "Q.11 The practice of marrying only one person at a time.", "options": ["Bigamy", "Polygamy", "Monogamy", "Polyandry"], "answer": "Monogamy" },
-  { "question": "Q.12 Too powerful to be defeated.", "options": ["Invincible", "Infallible", "Inevitable", "Incorrigible"], "answer": "Invincible" },
-  { "question": "Q.13 One who collects postage stamps.", "options": ["Numismatist", "Philatelist", "Epicure", "Truant"], "answer": "Philatelist" },
-  { "question": "Q.14 The killing of one's own brother.", "options": ["Sororicide", "Fratricide", "Matricide", "Patricide"], "answer": "Fratricide" },
-  { "question": "Q.15 A person who hates marriage.", "options": ["Misanthrope", "Misogamist", "Ascetic", "Stoic"], "answer": "Misogamist" },
-  { "question": "Q.16 Impossible to repair.", "options": ["Incorrigible", "Illegible", "Irreparable", "Inaudible"], "answer": "Irreparable" },
-  { "question": "Q.17 The killing of one's own wife.", "options": ["Regicide", "Uxoricide", "Homicide", "Infanticide"], "answer": "Uxoricide" },
-  { "question": "Q.18 One who talks in their sleep.", "options": ["Somniloquist", "Somnambulist", "Teetotaller", "Truant"], "answer": "Somniloquist" },
-  { "question": "Q.19 A person who leads a strictly simple life avoiding pleasures.", "options": ["Epicure", "Ascetic", "Gourmet", "Stoic"], "answer": "Ascetic" },
-  { "question": "Q.20 The killing of one's own father.", "options": ["Matricide", "Patricide", "Regicide", "Genocide"], "answer": "Patricide" },
-  { "question": "Q.21 The deliberate killing of a large ethnic group.", "options": ["Homicide", "Genocide", "Infanticide", "Uxoricide"], "answer": "Genocide" },
-  { "question": "Q.22 A connoisseur of good food.", "options": ["Epicure", "Gourmet", "Stoic", "Teetotaller"], "answer": "Gourmet" },
-  { "question": "Q.23 The offense of marrying someone while already married.", "options": ["Monogamy", "Bigamy", "Polygamy", "Polyandry"], "answer": "Bigamy" },
-  { "question": "Q.24 Someone who cannot be reformed.", "options": ["Invincible", "Incorrigible", "Infallible", "Inevitable"], "answer": "Incorrigible" },
-  { "question": "Q.25 The killing of one's own sister.", "options": ["Fratricide", "Sororicide", "Uxoricide", "Matricide"], "answer": "Sororicide" },
-  { "question": "Q.26 Abstinence from marriage for religious reasons.", "options": ["Celibacy", "Monogamy", "Bigamy", "Polygamy"], "answer": "Celibacy" },
-  { "question": "Q.27 The killing of a human by another.", "options": ["Regicide", "Homicide", "Genocide", "Patricide"], "answer": "Homicide" },
-  { "question": "Q.28 A person taking pleasure in fine food and drink.", "options": ["Epicure", "Teetotaller", "Ascetic", "Stoic"], "answer": "Epicure" },
-  { "question": "Q.29 Concerned with money over ethics.", "options": ["Philanthropist", "Mercenary", "Egoist", "Optimist"], "answer": "Mercenary" },
-  { "question": "Q.30 Practice of having more than one wife at a time.", "options": ["Monogamy", "Polygamy", "Polyandry", "Bigamy"], "answer": "Polygamy" }
+  {
+    "question": "Q.1 The killing of a king.",
+    "options": ["Homicide", "Regicide", "Patricide", "Genocide"],
+    "answer": "Regicide",
+    "explanation": "Regicide is the killing of a king. Homicide is killing any human; Patricide is killing one's father; Genocide is the mass killing of an ethnic group."
+  },
+  {
+    "question": "Q.2 A person who walks in their sleep.",
+    "options": ["Somniloquist", "Somnambulist", "Truant", "Stoic"],
+    "answer": "Somnambulist",
+    "explanation": "Somnambulist (somnus=sleep + ambulare=walk) walks in sleep. Somniloquist talks in sleep; Truant skips school; Stoic is indifferent to pain."
+  },
+  {
+    "question": "Q.3 One who never drinks alcohol.",
+    "options": ["Epicure", "Ascetic", "Teetotaller", "Gourmet"],
+    "answer": "Teetotaller",
+    "explanation": "Teetotaller completely abstains from alcohol. Epicure/Gourmet enjoy fine food; Ascetic leads a strictly simple life avoiding all pleasures."
+  },
+  {
+    "question": "Q.4 The practice of having more than one husband at a time.",
+    "options": ["Polygamy", "Polyandry", "Bigamy", "Monogamy"],
+    "answer": "Polyandry",
+    "explanation": "Polyandry (poly=many + andros=man) is having multiple husbands. Polygamy is multiple spouses; Bigamy is two marriages; Monogamy is one marriage."
+  },
+  {
+    "question": "Q.5 A person who collects coins.",
+    "options": ["Philatelist", "Numismatist", "Connoisseur", "Mercenary"],
+    "answer": "Numismatist",
+    "explanation": "Numismatist collects coins. Philatelist collects stamps; Connoisseur is an expert judge of art/food; Mercenary works only for money."
+  },
+  {
+    "question": "Q.6 The killing of one's own mother.",
+    "options": ["Patricide", "Matricide", "Fratricide", "Sororicide"],
+    "answer": "Matricide",
+    "explanation": "Matricide (matri=mother + cide=kill) is killing one's mother. Patricide is father; Fratricide is brother; Sororicide is sister."
+  },
+  {
+    "question": "Q.7 A person indifferent to pleasure or pain.",
+    "options": ["Stoic", "Epicure", "Ascetic", "Egoist"],
+    "answer": "Stoic",
+    "explanation": "Stoic remains calm regardless of pain or pleasure. Epicure enjoys food; Ascetic avoids comfort for discipline; Egoist is self-centered."
+  },
+  {
+    "question": "Q.8 A student who stays away from school without permission.",
+    "options": ["Truant", "Somnambulist", "Mercenary", "Ascetic"],
+    "answer": "Truant",
+    "explanation": "Truant is a student who skips school. Somnambulist is a sleepwalker; Mercenary is money-driven; Ascetic is a hermit/monk-like person."
+  },
+  {
+    "question": "Q.9 The killing of an infant.",
+    "options": ["Homicide", "Uxoricide", "Infanticide", "Regicide"],
+    "answer": "Infanticide",
+    "explanation": "Infanticide is killing a baby. Homicide is any human; Uxoricide is killing one's wife; Regicide is killing a king."
+  },
+  {
+    "question": "Q.10 A critical judge of any art or food.",
+    "options": ["Philatelist", "Connoisseur", "Gourmet", "Numismatist"],
+    "answer": "Connoisseur",
+    "explanation": "Connoisseur is an expert in arts/taste. Philatelist=stamps; Gourmet=food lover; Numismatist=coins."
+  },
+  {
+    "question": "Q.11 The practice of marrying only one person at a time.",
+    "options": ["Bigamy", "Polygamy", "Monogamy", "Polyandry"],
+    "answer": "Monogamy",
+    "explanation": "Monogamy (mono=one) is one marriage. Bigamy=two; Polygamy=multiple wives/spouses; Polyandry=multiple husbands."
+  },
+  {
+    "question": "Q.12 Too powerful to be defeated.",
+    "options": ["Invincible", "Infallible", "Inevitable", "Incorrigible"],
+    "answer": "Invincible",
+    "explanation": "Invincible cannot be defeated. Infallible never makes mistakes; Inevitable cannot be avoided; Incorrigible cannot be corrected."
+  },
+  {
+    "question": "Q.13 One who collects postage stamps.",
+    "options": ["Numismatist", "Philatelist", "Epicure", "Truant"],
+    "answer": "Philatelist",
+    "explanation": "Philatelist collects stamps. Numismatist collects coins; Epicure loves fine dining; Truant skips classes."
+  },
+  {
+    "question": "Q.14 The killing of one's own brother.",
+    "options": ["Sororicide", "Fratricide", "Matricide", "Patricide"],
+    "answer": "Fratricide",
+    "explanation": "Fratricide (frater=brother) is killing a brother. Sororicide=sister; Matricide=mother; Patricide=father."
+  },
+  {
+    "question": "Q.15 A person who hates marriage.",
+    "options": ["Misanthrope", "Misogamist", "Ascetic", "Stoic"],
+    "answer": "Misogamist",
+    "explanation": "Misogamist (miso=hate + gamos=marriage) hates marriage. Misanthrope hates mankind; Ascetic avoids pleasure; Stoic is indifferent to pain."
+  },
+  {
+    "question": "Q.16 Impossible to repair.",
+    "options": ["Incorrigible", "Illegible", "Irreparable", "Inaudible"],
+    "answer": "Irreparable",
+    "explanation": "Irreparable cannot be fixed. Incorrigible cannot be reformed; Illegible cannot be read; Inaudible cannot be heard."
+  },
+  {
+    "question": "Q.17 The killing of one's own wife.",
+    "options": ["Regicide", "Uxoricide", "Homicide", "Infanticide"],
+    "answer": "Uxoricide",
+    "explanation": "Uxoricide (uxor=wife) is killing one's wife. Regicide=king; Homicide=human; Infanticide=infant."
+  },
+  {
+    "question": "Q.18 One who talks in their sleep.",
+    "options": ["Somniloquist", "Somnambulist", "Teetotaller", "Truant"],
+    "answer": "Somniloquist",
+    "explanation": "Somniloquist talks in sleep. Somnambulist walks in sleep; Teetotaller avoids alcohol; Truant avoids school."
+  },
+  {
+    "question": "Q.19 A person who leads a strictly simple life avoiding pleasures.",
+    "options": ["Epicure", "Ascetic", "Gourmet", "Stoic"],
+    "answer": "Ascetic",
+    "explanation": "Ascetic lives without luxury for discipline. Epicure/Gourmet enjoy fine food; Stoic is calm during pain."
+  },
+  {
+    "question": "Q.20 The killing of one's own father.",
+    "options": ["Matricide", "Patricide", "Regicide", "Genocide"],
+    "answer": "Patricide",
+    "explanation": "Patricide (patri=father) is killing a father. Matricide=mother; Regicide=king; Genocide=ethnic group."
+  },
+  {
+    "question": "Q.21 The deliberate killing of a large ethnic group.",
+    "options": ["Homicide", "Genocide", "Infanticide", "Uxoricide"],
+    "answer": "Genocide",
+    "explanation": "Genocide (genos=race) is mass race killing. Homicide=one person; Infanticide=baby; Uxoricide=wife."
+  },
+  {
+    "question": "Q.22 A connoisseur of good food.",
+    "options": ["Epicure", "Gourmet", "Stoic", "Teetotaller"],
+    "answer": "Gourmet",
+    "explanation": "Gourmet is an expert in high-quality food. Epicure also enjoys food; Stoic is emotionless; Teetotaller avoids alcohol."
+  },
+  {
+    "question": "Q.23 The offense of marrying someone while already married.",
+    "options": ["Monogamy", "Bigamy", "Polygamy", "Polyandry"],
+    "answer": "Bigamy",
+    "explanation": "Bigamy is a second illegal marriage. Monogamy=one; Polygamy=multiple wives; Polyandry=multiple husbands."
+  },
+  {
+    "question": "Q.24 Someone who cannot be reformed.",
+    "options": ["Invincible", "Incorrigible", "Infallible", "Inevitable"],
+    "answer": "Incorrigible",
+    "explanation": "Incorrigible (in=not + corrigere=correct) cannot be improved. Invincible=undefeatable; Infallible=error-free; Inevitable=unavoidable."
+  },
+  {
+    "question": "Q.25 The killing of one's own sister.",
+    "options": ["Fratricide", "Sororicide", "Uxoricide", "Matricide"],
+    "answer": "Sororicide",
+    "explanation": "Sororicide (soror=sister) is killing a sister. Fratricide=brother; Uxoricide=wife; Matricide=mother."
+  },
+  {
+    "question": "Q.26 Abstinence from marriage for religious reasons.",
+    "options": ["Celibacy", "Monogamy", "Bigamy", "Polygamy"],
+    "answer": "Celibacy",
+    "explanation": "Celibacy is remaining unmarried/chaste for religion. Monogamy/Bigamy/Polygamy are states of being married."
+  },
+  {
+    "question": "Q.27 The killing of a human by another.",
+    "options": ["Regicide", "Homicide", "Genocide", "Patricide"],
+    "answer": "Homicide",
+    "explanation": "Homicide is the general term for killing a human. Regicide=king; Genocide=race; Patricide=father."
+  },
+  {
+    "question": "Q.28 A person taking pleasure in fine food and drink.",
+    "options": ["Epicure", "Teetotaller", "Ascetic", "Stoic"],
+    "answer": "Epicure",
+    "explanation": "Epicure is someone who loves luxury in food. Teetotaller avoids alcohol; Ascetic avoids pleasure; Stoic is indifferent to pain."
+  },
+  {
+    "word": "Q.29 Concerned with money over ethics.",
+    "options": ["Philanthropist", "Mercenary", "Egoist", "Optimist"],
+    "answer": "Mercenary",
+    "explanation": "Mercenary is driven purely by profit. Philanthropist loves humans/donates; Egoist is self-centered; Optimist is positive."
+  },
+  {
+    "question": "Q.30 Practice of having more than one wife at a time.",
+    "options": ["Monogamy", "Polygamy", "Polyandry", "Bigamy"],
+    "answer": "Polygamy",
+    "explanation": "Polygamy is the general term for multiple spouses (usually wives). Monogamy=one; Polyandry=multiple husbands; Bigamy=two marriages."
+  }
 ]
