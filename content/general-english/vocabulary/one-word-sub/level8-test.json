@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Q.1 A medical practitioner specializing in children and their diseases.",
+    "options": ["Pediatrician", "Cardiologist", "Dermatologist", "Neurologist"],
+    "answer": "Pediatrician",
+    "explanation": "Pediatrician (pedia=child) specializes in kids.\nCardiologist (cardio=heart) is for heart.\nDermatologist (derma=skin) is for skin.\nNeurologist (neuro=nerve) is for nerves."
+  },
+  {
+    "question": "Q.2 The scientific study of grasses.",
+    "options": ["Agrostology", "Meteorology", "Theology", "Paleontology"],
+    "answer": "Agrostology",
+    "explanation": "Agrostology is the study of grasses.\nMeteorology is study of weather.\nTheology is study of religion.\nPaleontology is study of fossils."
+  },
+  {
+    "question": "Q.3 A person who compiles dictionaries.",
+    "options": ["Lexicographer", "Polyglot", "Bibliophile", "Graphology"],
+    "answer": "Lexicographer",
+    "explanation": "Lexicographer makes dictionaries.\nPolyglot speaks many languages.\nBibliophile loves books.\nGraphology is handwriting study."
+  },
+  {
+    "question": "Q.4 A payment given for professional services rendered nominally without charge.",
+    "options": ["Honorarium", "Salary", "Honorary", "Mercenary"],
+    "answer": "Honorarium",
+    "explanation": "Honorarium is the payment itself.\nSalary is fixed pay.\nHonorary is a title without pay.\nMercenary is working only for money."
+  },
+  {
+    "question": "Q.5 The supposed prediction of a person's future from palm lines.",
+    "options": ["Chiromancy", "Iconography", "Graphology", "Etymology"],
+    "answer": "Chiromancy",
+    "explanation": "Chiromancy is palm reading.\nIconography is study of symbols/images.\nGraphology is handwriting analysis.\nEtymology is word origin study."
+  },
+  {
+    "question": "Q.6 A person who dislikes or is prejudiced against women.",
+    "options": ["Misogynist", "Misanthrope", "Altruist", "Bigot"],
+    "answer": "Misogynist",
+    "explanation": "Misogynist hates women.\nMisanthrope hates all people.\nAltruist is unselfish.\nBigot is an intolerant person."
+  },
+  {
+    "question": "Q.7 An imagined place in which everything is perfect.",
+    "options": ["Utopia", "Asylum", "Ghetto", "Sanatorium"],
+    "answer": "Utopia",
+    "explanation": "Utopia is a perfect world.\nAsylum is for mental health/shelter.\nGhetto is a slum area.\nSanatorium is for chronic illness treatment."
+  },
+  {
+    "question": "Q.8 The study of the nature of God and religious belief.",
+    "options": ["Theology", "Psychology", "Anthropology", "Archaeology"],
+    "answer": "Theology",
+    "explanation": "Theology (theo=God) is study of religion.\nPsychology is study of mind.\nAnthropology is study of humans.\nArchaeology is study of past via remains."
+  },
+  {
+    "question": "Q.9 A person who knows and uses several languages.",
+    "options": ["Polyglot", "Linguist", "Amateur", "Lexicographer"],
+    "answer": "Polyglot",
+    "explanation": "Polyglot speaks many languages.\nLinguist is a student of language science.\nAmateur is a non-professional.\nLexicographer makes dictionaries."
+  },
+  {
+    "question": "Q.10 A person who acts obsequiously toward someone important to gain advantage.",
+    "options": ["Sycophant", "Altruist", "Idiosyncrasy", "Glutton"],
+    "answer": "Sycophant",
+    "explanation": "Sycophant is a flatterer.\nAltruist is unselfish.\nIdiosyncrasy is a personal quirk.\nGlutton is an over-eater."
+  }
+]
