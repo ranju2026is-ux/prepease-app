@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>PrepEase | Multi-Platform Mastery Hub</title>
+    <title>PrepEase | Karnataka State Aspirants Hub</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +16,9 @@
             background-color: #f8fafc; 
             color: #0f172a; 
             overflow-x: hidden;
-            height: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
         }
         
         .hero-gradient {
@@ -52,21 +54,22 @@
         .premium-card {
             background-color: white;
             border: 1px solid #e2e8f0;
-            border-radius: 1.5rem;
-            padding: 1.25rem;
-            transition: all 0.4s ease;
+            border-radius: 1.25rem;
+            padding: 1rem;
+            transition: all 0.3s ease;
             cursor: pointer;
             box-shadow: 0 2px 8px -2px rgba(15, 23, 42, 0.03);
         }
 
-        /* DYNAMIC HEIGHT CARDS TO PREVENT SCROLLING */
+        /* ONE-SCREEN CARD OPTIMIZATION */
         .anki-card { 
             perspective: 1000px; 
-            height: calc(100vh - 180px); 
-            max-height: 700px;
+            flex-grow: 1;
+            height: 100%;
             width: 100%; 
             max-width: 900px; 
             margin: 0 auto; 
+            position: relative;
         }
         
         .anki-card-inner {
@@ -84,17 +87,16 @@
             top: 0; left: 0; width: 100%; height: 100%;
             backface-visibility: hidden;
             -webkit-backface-visibility: hidden;
-            border-radius: 2rem; border-width: 2px;
-            padding: 1.5rem; 
+            border-radius: 1.5rem; border-width: 2px;
+            padding: 1.25rem; 
             display: flex; flex-direction: column;
-            overflow-y: auto;
-            scrollbar-width: thin;
+            overflow: hidden;
         }
         
-        @media (min-width: 768px) {
-            .anki-front, .anki-back { padding: 2.5rem; }
-            .quote-bar { height: 40px; }
-            .quote-text { font-size: 10px; }
+        .content-scroll-area {
+            overflow-y: auto;
+            flex-grow: 1;
+            padding-right: 4px;
         }
 
         .anki-front { border-color: #f1f5f9; background-color: white; box-shadow: 0 10px 30px rgba(0,0,0,0.05); z-index: 2; transform: rotateY(0deg); }
@@ -103,35 +105,40 @@
         .option-correct { border-color: #10b981 !important; background-color: #ecfdf5 !important; color: #065f46 !important; border-width: 2px !important; }
         .option-wrong { border-color: #ef4444 !important; background-color: #fef2f2 !important; color: #991b1b !important; border-width: 2px !important; }
         
-        .view-transition { animation: fadeInUp 0.5s ease-out forwards; }
-        @keyframes fadeInUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        .view-transition { animation: fadeInUp 0.4s ease-out forwards; }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
         
         .break-word-custom { overflow-wrap: anywhere; word-break: break-word; }
 
-        /* CBT NAV MOBILE OPTIMIZATION */
-        .cbt-grid { display: flex; flex-direction: column; height: 100%; }
-        @media (min-width: 1024px) { .cbt-grid { flex-direction: row; } }
+        /* Hide scrollbars for a cleaner look while keeping functionality */
+        .content-scroll-area::-webkit-scrollbar { width: 4px; }
+        .content-scroll-area::-webkit-scrollbar-thumb { background: #e2e8f0; border-radius: 10px; }
+
+        @media (max-width: 640px) {
+            .anki-front, .anki-back { padding: 1rem; }
+            h2.text-6xl { font-size: 2.25rem; }
+        }
     </style>
 </head>
-<body class="flex flex-col">
+<body class="flex flex-col h-full">
 
     <div class="quote-bar">
         <span id="floating-quote" class="quote-text">Stay Disciplined. Excellence is a daily habit. 🎯</span>
     </div>
 
-    <nav class="fixed top-8 md:top-10 w-full z-50 bg-white/80 backdrop-blur-xl border-b border-slate-100">
-        <div class="max-w-7xl mx-auto px-4 md:px-6 h-16 md:h-20 flex justify-between items-center">
-            <div class="flex items-center gap-3 group cursor-pointer" onclick="navigateTo('home')">
-                <div class="relative flex items-center justify-center logo-box scale-90 md:scale-100">
+    <nav class="fixed top-8 w-full z-50 bg-white/80 backdrop-blur-xl border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 h-14 flex justify-between items-center">
+            <div class="flex items-center gap-2 group cursor-pointer" onclick="navigateTo('home')">
+                <div class="relative flex items-center justify-center logo-box scale-75 md:scale-90">
                     <svg width="32" height="32" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="10" fill="#4338ca"/><path d="M15 28V12H21.5C24.5376 12 27 14.4624 27 17.5C27 20.5376 24.5376 23 21.5 23H15" stroke="white" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </div>
-                <span class="text-lg md:text-xl font-bold tracking-tighter uppercase">PrepEase</span>
+                <span class="text-lg font-bold tracking-tighter uppercase">PrepEase</span>
             </div>
             <div id="auth-header-btn"></div>
         </div>
     </nav>
 
-    <main id="app-shell" class="pt-[90px] md:pt-[120px] flex-grow w-full max-w-7xl mx-auto"></main>
+    <main id="app-shell" class="pt-[70px] flex-grow flex flex-col w-full max-w-7xl mx-auto overflow-hidden"></main>
 
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
@@ -165,24 +172,20 @@
             currentAnkiIndex: 0,
             isAnkiFlipped: false,
             ankiSelection: null,
-            neetQuestions: [],
-            neetAnswers: Array(200).fill(null),
-            neetStatus: Array(200).fill('not-visited'),
-            neetCurrentSection: 0,
-            neetCurrentQ: 0,
-            neetTimeLeft: 45 * 60,
-            neetTimerInterval: null
+            currentStudyIndex: 0,
+            currentStudyFlipped: false,
+            currentQuizIndex: 0,
+            currentQuizAnswers: {} 
         };
         window.state = state;
 
         const floatingQuotes = [
             "Believe in your potential. 🎯",
             "Aspirant to Officer: Keep moving. 🏛️",
-            "Consistency is the key to success. 🏆",
+            "Consistency is key. 🏆",
             "Every mistake is a lesson. 📚"
         ];
 
-        // Topics definitions
         const topicsData = {
             grammar: [
                 { id: 'nouns', title: 'Nouns', icon: '🔡' },
@@ -205,7 +208,7 @@
 
         // --- NAVIGATION ---
         window.navigateTo = (view, params = {}, fromPopState = false) => {
-            const protectedViews = ['english-selection', 'topics-grid', 'levels-grid', 'content-view', 'mistakes-book', 'exams-pyq', 'neet-pg-cbt'];
+            const protectedViews = ['english-selection', 'topics-grid', 'levels-grid', 'content-view', 'mistakes-book', 'exams-pyq'];
             if (protectedViews.includes(view) && !state.isAuthenticated) {
                 state.view = 'login';
             } else {
@@ -219,12 +222,9 @@
                 state.currentQuizAnswers = {};
             }
 
-            if (view !== 'neet-pg-cbt' && state.neetTimerInterval) clearInterval(state.neetTimerInterval);
-
             Object.assign(state, params);
             if (!fromPopState) history.pushState({ view, params: JSON.parse(JSON.stringify(params)) }, '', "");
             render();
-            window.scrollTo(0, 0);
         };
 
         window.addEventListener('popstate', (e) => {
@@ -236,6 +236,7 @@
         window.handleAuth = async () => {
             const userIn = document.getElementById('username-input').value;
             const passIn = document.getElementById('password-input').value;
+            if (!userIn || !passIn) return;
             const email = `${userIn.toLowerCase()}@prepease.internal`;
             try {
                 if (state.authMode === 'signup') {
@@ -247,14 +248,12 @@
                 }
                 state.isAuthenticated = true;
                 navigateTo('home');
-            } catch (err) { alert("Authentication Failed: Check credentials"); }
+            } catch (err) { alert("Authentication Failed"); }
         };
 
         onAuthStateChanged(auth, (user) => { 
-            if (user) {
-                state.userId = user.uid;
-                loadUserData();
-            } else { state.isAuthenticated = false; render(); }
+            if (user) { state.userId = user.uid; loadUserData(); } 
+            else { state.isAuthenticated = false; render(); }
         });
 
         async function loadUserData() {
@@ -285,9 +284,9 @@
             const authBtn = document.getElementById('auth-header-btn');
             
             if (state.isAuthenticated) {
-                authBtn.innerHTML = `<button onclick="signOut(auth)" class="text-[10px] md:text-xs font-bold uppercase tracking-widest text-rose-500">Sign Out</button>`;
+                authBtn.innerHTML = `<button onclick="signOut(auth)" class="text-[10px] font-bold uppercase text-rose-500">Sign Out</button>`;
             } else {
-                authBtn.innerHTML = `<button onclick="navigateTo('login')" class="text-[10px] md:text-xs font-bold uppercase tracking-widest text-indigo-600">Join Now</button>`;
+                authBtn.innerHTML = `<button onclick="navigateTo('login')" class="text-[10px] font-bold uppercase text-indigo-600">Join Now</button>`;
             }
             
             if (!state.isAuthenticated && state.view !== 'login') state.view = 'login';
@@ -296,13 +295,12 @@
                 case 'home': shell.innerHTML = renderHome(); break;
                 case 'login': shell.innerHTML = renderLogin(); break;
                 case 'mistakes-book': shell.innerHTML = renderMistakesBook(); break;
-                case 'neet-pg-cbt': shell.innerHTML = renderNeetCBT(); initNeetCBT(); break;
                 case 'english-selection': shell.innerHTML = renderEnglishSelection(); break;
                 case 'topics-grid': shell.innerHTML = renderTopicsGrid(); break;
                 case 'levels-grid': shell.innerHTML = renderLevelsGrid(); break;
                 case 'exams-pyq': shell.innerHTML = renderExamsPYQ(); break;
                 case 'content-view': 
-                    shell.innerHTML = `<div id="content-container" class="px-4 py-4 md:py-8 h-full"></div>`; 
+                    shell.innerHTML = `<div id="content-container" class="flex-grow flex flex-col p-2 overflow-hidden h-full"></div>`; 
                     if (state.isSSC || state.isKarnataka) loadQuiz(); else loadContent();
                     break;
             }
@@ -311,30 +309,35 @@
         function renderHome() {
             const rank = (p) => p < 500 ? '🌱 Junior' : p < 2000 ? '⚔️ Warrior' : '🏛️ Officer';
             return `
-            <div class="hero-gradient p-4 md:p-10 view-transition font-bold h-full">
+            <div class="hero-gradient p-4 view-transition font-bold h-full overflow-y-auto">
                 <div class="max-w-7xl mx-auto">
-                    <h2 class="text-3xl md:text-5xl font-black text-slate-900 tracking-tighter mb-6">Hello, <span class="text-indigo-600">${state.userName || 'Aspirant'}!</span></h2>
-                    <div class="mb-8">
-                        <div class="bg-indigo-600 p-6 md:p-10 rounded-[2rem] text-white shadow-xl flex flex-col md:flex-row justify-between items-center gap-4">
-                            <div class="text-center md:text-left"><p class="text-[10px] uppercase opacity-70 mb-1">Total Points</p><p class="text-5xl md:text-6xl font-black">${state.totalPoints || 0}</p></div>
-                            <div class="bg-white/10 px-6 py-2 rounded-full text-center border border-white/20"><p class="text-sm font-bold uppercase tracking-widest">${rank(state.totalPoints)}</p></div>
+                    <h2 class="text-3xl font-black text-slate-900 tracking-tighter mb-4">Hello, <span class="text-indigo-600">${state.userName || 'Aspirant'}!</span></h2>
+                    <div class="mb-6">
+                        <div class="bg-indigo-600 p-6 rounded-[1.5rem] text-white shadow-lg flex flex-col md:flex-row justify-between items-center gap-4">
+                            <div class="text-center md:text-left"><p class="text-[8px] uppercase opacity-70 mb-0.5">Total Points</p><p class="text-4xl md:text-6xl font-black">${state.totalPoints || 0}</p></div>
+                            <div class="bg-white/10 px-4 py-1.5 rounded-full border border-white/20"><p class="text-xs font-bold uppercase">${rank(state.totalPoints)}</p></div>
                         </div>
                     </div>
-                    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6 mb-12">
-                        <div onclick="navigateTo('neet-pg-cbt')" class="premium-card bg-blue-900 text-white border-none p-4"><span class="text-2xl">🩺</span><h3 class="text-sm md:text-lg font-bold mt-2 leading-tight">NEET PG CBT</h3></div>
-                        <div onclick="navigateTo('english-selection')" class="premium-card p-4"><span class="text-2xl">🇬🇧</span><h3 class="text-sm md:text-lg font-bold mt-2 leading-tight">English</h3></div>
-                        <div onclick="navigateTo('exams-pyq', { currentCategory: 'ssc' })" class="premium-card p-4"><span class="text-2xl">⚔️</span><h3 class="text-sm md:text-lg font-bold mt-2 leading-tight">SSC</h3></div>
-                        <div onclick="navigateTo('exams-pyq', { currentCategory: 'karnataka' })" class="premium-card p-4"><span class="text-2xl">🏛️</span><h3 class="text-sm md:text-lg font-bold mt-2 leading-tight">KA Hub</h3></div>
+                    <div class="grid grid-cols-2 lg:grid-cols-3 gap-3 mb-6">
+                        <div onclick="navigateTo('english-selection')" class="premium-card flex flex-col items-center justify-center text-center">
+                            <span class="text-2xl mb-1">🇬🇧</span><h3 class="text-sm font-bold leading-tight">General English</h3>
+                        </div>
+                        <div onclick="navigateTo('exams-pyq', { currentCategory: 'ssc' })" class="premium-card flex flex-col items-center justify-center text-center">
+                            <span class="text-2xl mb-1">⚔️</span><h3 class="text-sm font-bold leading-tight">SSC PYQs</h3>
+                        </div>
+                        <div onclick="navigateTo('exams-pyq', { currentCategory: 'karnataka' })" class="premium-card flex flex-col items-center justify-center text-center">
+                            <span class="text-2xl mb-1">🏛️</span><h3 class="text-sm font-bold leading-tight">KA Hub</h3>
+                        </div>
                     </div>
-                    <div onclick="navigateTo('mistakes-book')" class="premium-card border-rose-100 bg-rose-50/50 flex justify-between items-center p-5">
-                        <div><p class="text-[10px] uppercase text-rose-500 font-bold mb-1">Retention</p><h3 class="text-xl font-bold">Mistakes Book</h3></div>
-                        <div class="bg-white px-4 py-1 rounded-full text-rose-600 text-xs font-black shadow-sm">${state.mistakes.length}</div>
+                    <div onclick="navigateTo('mistakes-book')" class="premium-card border-rose-100 bg-rose-50/50 flex justify-between items-center p-4">
+                        <div><p class="text-[8px] uppercase text-rose-500 font-bold">Retention</p><h3 class="text-lg font-bold">Mistakes Book</h3></div>
+                        <div class="bg-white px-3 py-0.5 rounded-full text-rose-600 text-[10px] font-black shadow-sm">${state.mistakes.length}</div>
                     </div>
                 </div>
             </div>`;
         }
 
-        // --- MISTAKES BOOK (AUTO-FLIP & FULL-SCREEN OPTIMIZED) ---
+        // --- MISTAKES BOOK (ONE-SCREEN OPTIMIZED) ---
         window.handleAnkiChoice = (selected) => {
             if (state.ankiSelection) return;
             state.ankiSelection = selected;
@@ -343,22 +346,24 @@
         };
 
         function renderMistakesBook() {
-            if (state.mistakes.length === 0) return `<div class="p-20 text-center font-bold">No Mistakes! 💎<br><button onclick="navigateTo('home')" class="mt-4 bg-indigo-600 text-white px-8 py-3 rounded-xl">Home</button></div>`;
+            if (state.mistakes.length === 0) return `<div class="p-10 text-center font-bold h-full flex flex-col justify-center">No Mistakes! 💎<br><button onclick="navigateTo('home')" class="mt-4 bg-indigo-600 text-white px-8 py-3 rounded-xl mx-auto">Home</button></div>`;
             const current = state.mistakes[state.currentAnkiIndex];
             const flipped = state.isAnkiFlipped ? 'flipped' : '';
             return `
-            <div class="px-4 py-4 md:py-8 view-transition flex flex-col h-full overflow-hidden">
-                <button onclick="history.back()" class="text-slate-400 font-bold mb-4 text-xs">← BACK</button>
+            <div class="px-2 py-2 flex flex-col h-full overflow-hidden view-transition">
+                <div class="flex justify-between items-center mb-2">
+                    <button onclick="history.back()" class="text-slate-400 font-bold text-[10px]">← BACK</button>
+                    <span class="text-[9px] font-black text-indigo-500 uppercase">${state.currentAnkiIndex + 1} / ${state.mistakes.length}</span>
+                </div>
                 <div class="anki-card ${flipped}">
                     <div class="anki-card-inner">
                         <div class="anki-front">
-                            <span class="text-[10px] font-black text-indigo-500 mb-2 uppercase">${state.currentAnkiIndex + 1} / ${state.mistakes.length}</span>
-                            <h3 class="text-lg md:text-2xl font-bold text-slate-800 mb-6 leading-tight">${current.question}</h3>
-                            <div class="flex flex-col gap-2 md:gap-3 flex-grow overflow-y-auto">
+                            <h3 class="text-base md:text-xl font-bold text-slate-800 mb-3 leading-tight">${current.question}</h3>
+                            <div class="content-scroll-area flex flex-col gap-2">
                                 ${current.options.map(o => {
                                     const isCorrect = o.trim() === current.answer.trim();
                                     const isSel = state.ankiSelection === o.trim();
-                                    let cls = "p-3 md:p-4 border-2 rounded-xl md:rounded-2xl font-semibold text-sm md:text-base transition-all ";
+                                    let cls = "p-2.5 md:p-4 border-2 rounded-xl font-semibold text-xs md:text-base transition-all ";
                                     if(state.ankiSelection) {
                                         if(isCorrect) cls += "option-correct";
                                         else if(isSel) cls += "option-wrong";
@@ -368,13 +373,13 @@
                             </div>
                         </div>
                         <div class="anki-back">
-                            <h3 class="text-indigo-400 uppercase text-[10px] font-black mb-4 tracking-widest">Mastery Insight</h3>
-                            <div class="bg-white/60 p-4 md:p-8 rounded-[2rem] border border-indigo-100 flex-grow overflow-y-auto mb-6">
-                                <p class="text-sm md:text-lg leading-relaxed text-slate-800">${current.explanation || 'Answer: ' + current.answer}</p>
+                            <h3 class="text-indigo-400 uppercase text-[9px] font-black mb-2 tracking-widest text-center">Insight</h3>
+                            <div class="bg-white/60 p-3 md:p-6 rounded-xl border border-indigo-100 flex-grow overflow-y-auto mb-3">
+                                <p class="text-xs md:text-lg leading-relaxed text-slate-800">${current.explanation || 'Answer: ' + current.answer}</p>
                             </div>
-                            <div class="flex gap-4">
-                                <button onclick="resolveAnki(true)" class="flex-1 py-3 md:py-4 bg-emerald-600 text-white rounded-xl text-xs font-bold uppercase">Got it ✅</button>
-                                <button onclick="resolveAnki(false)" class="flex-1 py-3 md:py-4 bg-rose-600 text-white rounded-xl text-xs font-bold uppercase">Hard ❌</button>
+                            <div class="flex gap-2">
+                                <button onclick="resolveAnki(true)" class="flex-1 py-2.5 bg-emerald-600 text-white rounded-lg text-[10px] font-bold uppercase">Mastered</button>
+                                <button onclick="resolveAnki(false)" class="flex-1 py-2.5 bg-rose-600 text-white rounded-lg text-[10px] font-bold uppercase">Hard</button>
                             </div>
                         </div>
                     </div>
@@ -394,13 +399,20 @@
             render();
         };
 
-        // --- COMMON CONTENT HANDLERS ---
+        // --- CONTENT HELPERS ---
         window.loadContent = async () => {
             const { currentType: type, currentTopic: topic, currentLevel: level } = state;
             const container = document.getElementById('content-container');
-            const res = await fetch(`./content/general-english/${type}/${topic}/level-${level}.json`);
-            if(res.ok) { window.activeStudyData = await res.json(); renderStudyCardUI(); }
-            else container.innerHTML = "Offline Content";
+            const patterns = [`level-${level}.json`, `level${level}.json` ];
+            let data = null;
+            for (const p of patterns) {
+                try {
+                    const res = await fetch(`./content/general-english/${type}/${topic}/${p}`);
+                    if (res.ok) { data = await res.json(); break; }
+                } catch(e) {}
+            }
+            if(data) { window.activeStudyData = data; renderStudyCardUI(); }
+            else container.innerHTML = `<div class="p-10 text-center">Offline Content</div>`;
         };
 
         function renderStudyCardUI() {
@@ -408,24 +420,26 @@
             const item = data[state.currentStudyIndex];
             const container = document.getElementById('content-container');
             container.innerHTML = `
-                <div class="anki-card ${state.currentStudyFlipped ? 'flipped' : ''}" onclick="state.currentStudyFlipped = !state.currentStudyFlipped; renderStudyCardUI();">
-                    <div class="anki-card-inner">
-                        <div class="anki-front flex flex-col items-center justify-center text-center">
-                            <div class="text-6xl md:text-8xl mb-6">${item.emoji || '📗'}</div>
-                            <h3 class="text-2xl md:text-5xl font-black tracking-tighter">${item.word}</h3>
-                        </div>
-                        <div class="anki-back flex flex-col items-center justify-center text-center">
-                            <p class="text-2xl md:text-4xl font-bold font-kannada mb-4 text-indigo-700">${item.meaning_kannada}</p>
-                            <p class="text-sm md:text-xl italic text-slate-500 max-w-xs">${item.meaning_english}</p>
+                <div class="flex-grow flex flex-col h-full overflow-hidden">
+                    <div class="anki-card ${state.currentStudyFlipped ? 'flipped' : ''}" onclick="state.currentStudyFlipped = !state.currentStudyFlipped; renderStudyCardUI();">
+                        <div class="anki-card-inner">
+                            <div class="anki-front flex flex-col items-center justify-center text-center">
+                                <div class="text-5xl md:text-8xl mb-4">${item.emoji || '📗'}</div>
+                                <h3 class="text-xl md:text-4xl font-black tracking-tighter">${item.word}</h3>
+                            </div>
+                            <div class="anki-back flex flex-col items-center justify-center text-center">
+                                <p class="text-xl md:text-3xl font-bold font-kannada mb-2 text-indigo-700">${item.meaning_kannada}</p>
+                                <p class="text-xs md:text-lg italic text-slate-500 max-w-xs">${item.meaning_english}</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="max-w-md mx-auto mt-6 md:mt-10 flex gap-4">
-                    <button onclick="state.currentStudyIndex--; renderStudyCardUI();" class="flex-1 p-3 md:p-5 bg-white border-2 rounded-2xl font-bold" ${state.currentStudyIndex === 0 ? 'disabled' : ''}>Prev</button>
-                    ${state.currentStudyIndex === data.length - 1 ? 
-                        `<button onclick="loadQuiz()" class="flex-1 p-3 md:p-5 bg-indigo-600 text-white rounded-2xl font-bold">Quiz 🚀</button>` :
-                        `<button onclick="state.currentStudyIndex++; renderStudyCardUI();" class="flex-1 p-3 md:p-5 bg-indigo-600 text-white rounded-2xl font-bold">Next</button>`
-                    }
+                    <div class="mt-4 flex gap-2">
+                        <button onclick="state.currentStudyIndex--; renderStudyCardUI();" class="flex-1 p-2.5 bg-white border-2 rounded-xl font-bold text-xs" ${state.currentStudyIndex === 0 ? 'disabled' : ''}>Prev</button>
+                        ${state.currentStudyIndex === data.length - 1 ? 
+                            `<button onclick="loadQuiz()" class="flex-1 p-2.5 bg-indigo-600 text-white rounded-xl font-bold text-xs">Quiz 🚀</button>` :
+                            `<button onclick="state.currentStudyIndex++; renderStudyCardUI();" class="flex-1 p-2.5 bg-indigo-600 text-white rounded-xl font-bold text-xs">Next</button>`
+                        }
+                    </div>
                 </div>
             `;
         }
@@ -444,62 +458,76 @@
             const ans = state.currentQuizAnswers[state.currentQuizIndex];
             const container = document.getElementById('content-container');
             container.innerHTML = `
-                <div class="bg-white p-6 md:p-10 rounded-[2.5rem] border shadow-sm flex flex-col h-full overflow-hidden">
-                    <div class="flex justify-between items-center mb-6">
-                        <span class="text-xs font-bold text-slate-400">Q${state.currentQuizIndex + 1}</span>
-                        <span class="text-xs bg-slate-100 px-2 py-1 rounded">25 total</span>
+                <div class="bg-white p-4 md:p-6 rounded-2xl border shadow-sm flex flex-col h-full overflow-hidden">
+                    <div class="flex justify-between items-center mb-2">
+                        <span class="text-[9px] font-bold text-slate-400">Q${state.currentQuizIndex + 1} / ${window.activeQuestionsData.length}</span>
+                        <button onclick="history.back()" class="text-[9px] font-bold text-rose-400">EXIT</button>
                     </div>
-                    <p class="text-lg md:text-xl font-bold mb-6 text-slate-800 leading-tight">${q.question}</p>
-                    <div class="flex flex-col gap-2 md:gap-3 flex-grow overflow-y-auto pr-1">
-                        ${q.options.map(o => `<div onclick="handleInstantFeedback(${state.currentQuizIndex}, '${o.trim()}', '${q.answer.trim()}')" class="p-3 md:p-4 border-2 rounded-xl md:rounded-2xl cursor-pointer text-sm font-semibold ${ans?.selected === o.trim() ? (o.trim() === q.answer.trim() ? 'option-correct' : 'option-wrong') : 'border-slate-100 hover:bg-slate-50'}">${o}</div>`).join('')}
+                    <p class="text-sm md:text-xl font-bold mb-3 text-slate-800 leading-tight">${q.question}</p>
+                    <div class="content-scroll-area flex flex-col gap-2">
+                        ${q.options.map(o => `<div onclick="handleInstantFeedback(${state.currentQuizIndex}, '${o.trim()}', '${q.answer.trim()}')" class="p-2.5 md:p-4 border-2 rounded-xl cursor-pointer text-xs font-semibold ${ans?.selected === o.trim() ? (o.trim() === q.answer.trim() ? 'option-correct' : 'option-wrong') : 'border-slate-100 hover:bg-slate-50'}">${o}</div>`).join('')}
                     </div>
-                    ${ans ? `<div class="mt-4 p-4 bg-slate-50 rounded-xl text-xs leading-relaxed max-h-32 overflow-y-auto">${q.explanation}</div>` : ''}
-                    <button onclick="state.currentQuizIndex++; renderQuizUI();" class="mt-6 w-full p-4 bg-indigo-600 text-white rounded-xl font-bold" ${state.currentQuizIndex === window.activeQuestionsData.length-1 ? 'style="display:none"' : ''}>Next Question</button>
-                    ${state.currentQuizIndex === window.activeQuestionsData.length-1 ? `<button onclick="submitFinalResults()" class="mt-6 w-full p-4 bg-emerald-600 text-white rounded-xl font-bold">Submit Test</button>` : ''}
+                    ${ans ? `<div class="mt-2 p-2.5 bg-slate-50 rounded-lg text-[10px] leading-tight max-h-24 overflow-y-auto">${q.explanation}</div>` : ''}
+                    <div class="mt-3 flex gap-2">
+                        ${state.currentQuizIndex === window.activeQuestionsData.length-1 ? 
+                            `<button onclick="submitFinalResults()" class="flex-grow p-3 bg-emerald-600 text-white rounded-xl font-bold text-xs">Submit Test</button>` :
+                            `<button onclick="state.currentQuizIndex++; renderQuizUI();" class="flex-grow p-3 bg-indigo-600 text-white rounded-xl font-bold text-xs" ${!ans ? 'disabled style="opacity:0.5"' : ''}>Next Question</button>`
+                        }
+                    </div>
                 </div>
             `;
         }
         window.handleInstantFeedback = (idx, sel, cor) => { state.currentQuizAnswers[idx] = {selected: sel, isCorrect: sel === cor}; renderQuizUI(); };
 
-        // --- OTHER VIEWS ---
+        async function submitFinalResults() {
+            const questions = window.activeQuestionsData;
+            let score = 0, mistakesFound = [];
+            questions.forEach((q, i) => {
+                const record = state.currentQuizAnswers[i];
+                if (record && record.isCorrect) score++;
+                else mistakesFound.push({ question: q.question, answer: q.answer, options: q.options, explanation: q.explanation });
+            });
+            const shell = document.getElementById('app-shell');
+            shell.innerHTML = `<div class="p-10 text-center flex flex-col justify-center h-full">
+                <h2 class="text-3xl font-black mb-4">Complete!</h2>
+                <p class="text-5xl font-black text-indigo-600 mb-8">${score} / ${questions.length}</p>
+                <button onclick="navigateTo('home')" class="p-4 bg-slate-900 text-white rounded-xl w-full max-w-xs mx-auto font-bold uppercase">Return Home</button>
+            </div>`;
+        }
+
+        // --- NAVIGATION VIEWS ---
         function renderLogin() {
             const isLogin = state.authMode === 'login';
-            return `<div class="p-6 md:p-20 flex flex-col items-center"><h2 class="text-3xl font-black mb-8">${isLogin ? 'Mission Login' : 'Enroll Academy'}</h2><div class="bg-white p-8 rounded-[2rem] shadow-sm w-full max-w-md">${!isLogin ? `<input id="name-input" placeholder="Full Name" class="w-full p-4 bg-slate-50 rounded-xl mb-4">` : ''}<input id="username-input" placeholder="ID" class="w-full p-4 bg-slate-50 rounded-xl mb-4"><input id="password-input" type="password" placeholder="Password" class="w-full p-4 bg-slate-50 rounded-xl mb-8"><button onclick="handleAuth()" class="w-full p-4 bg-indigo-600 text-white rounded-xl font-bold">Authorize</button><button onclick="state.authMode='${isLogin?'signup':'login'}';render();" class="mt-4 text-xs text-indigo-500 w-full text-center">${isLogin?'No ID? Create':'Login Now'}</button></div></div>`;
+            return `<div class="p-4 md:p-10 flex flex-col items-center justify-center h-full h-full overflow-y-auto"><h2 class="text-3xl font-black mb-6">${isLogin ? 'Login' : 'Signup'}</h2><div class="bg-white p-6 rounded-2xl shadow-sm w-full max-w-sm">${!isLogin ? `<input id="name-input" placeholder="Full Name" class="w-full p-3.5 bg-slate-50 rounded-xl mb-3 text-sm">` : ''}<input id="username-input" placeholder="Username" class="w-full p-3.5 bg-slate-50 rounded-xl mb-3 text-sm"><input id="password-input" type="password" placeholder="Password" class="w-full p-3.5 bg-slate-50 rounded-xl mb-6 text-sm"><button onclick="handleAuth()" class="w-full p-3.5 bg-indigo-600 text-white rounded-xl font-bold uppercase tracking-widest text-xs">Authorize</button><button onclick="state.authMode='${isLogin?'signup':'login'}';render();" class="mt-4 text-[10px] text-indigo-500 w-full text-center">${isLogin?'Create new account':'Already have an account? Login'}</button></div></div>`;
         }
 
         function renderEnglishSelection() {
-            return `<div class="p-4 md:p-10 flex flex-col h-full"><button onclick="navigateTo('home')" class="text-xs font-bold text-slate-400 mb-6 uppercase">← Back</button><h2 class="text-4xl font-black mb-10">English Tracks</h2><div class="grid grid-cols-1 md:grid-cols-2 gap-6"><div onclick="navigateTo('topics-grid', {currentType:'grammar'})" class="premium-card h-40 flex flex-col justify-center"><span>Foundations</span><h3 class="text-3xl font-bold">Grammar</h3></div><div onclick="navigateTo('topics-grid', {currentType:'vocabulary'})" class="premium-card h-40 flex flex-col justify-center"><span>Mappings</span><h3 class="text-3xl font-bold">Vocabulary</h3></div></div></div>`;
+            return `<div class="p-4 flex flex-col h-full"><button onclick="navigateTo('home')" class="text-[10px] font-bold text-slate-400 mb-4 uppercase">← Back</button><h2 class="text-3xl font-black mb-6">English Tracks</h2><div class="grid grid-cols-1 gap-4 overflow-y-auto"><div onclick="navigateTo('topics-grid', {currentType:'grammar'})" class="premium-card h-24 flex items-center justify-between px-6"><div><p class="text-[9px] text-indigo-500 uppercase font-bold">Foundation</p><h3 class="text-xl font-bold">Grammar</h3></div><span class="text-2xl">🔡</span></div><div onclick="navigateTo('topics-grid', {currentType:'vocabulary'})" class="premium-card h-24 flex items-center justify-between px-6"><div><p class="text-[9px] text-indigo-500 uppercase font-bold">Mappings</p><h3 class="text-xl font-bold">Vocabulary</h3></div><span class="text-2xl">📖</span></div></div></div>`;
         }
 
         function renderTopicsGrid() {
             const topics = topicsData[state.currentType] || [];
-            return `<div class="p-4 md:p-10"><button onclick="navigateTo('english-selection')" class="text-xs font-bold text-slate-400 mb-6 uppercase">← Back</button><h2 class="text-4xl font-black mb-10 capitalize">${state.currentType}</h2><div class="grid grid-cols-2 md:grid-cols-3 gap-4">${topics.map(t => `<div onclick="navigateTo('levels-grid', {currentTopic:'${t.id}', currentTopicTitle:'${t.title}'})" class="premium-card text-center flex flex-col items-center"><span class="text-4xl mb-2">${t.icon}</span><h3 class="font-bold">${t.title}</h3></div>`).join('')}</div></div>`;
+            return `<div class="p-4 h-full flex flex-col"><button onclick="navigateTo('english-selection')" class="text-[10px] font-bold text-slate-400 mb-4 uppercase">← Back</button><h2 class="text-3xl font-black mb-6 capitalize">${state.currentType}</h2><div class="grid grid-cols-2 gap-3 overflow-y-auto">${topics.map(t => `<div onclick="navigateTo('levels-grid', {currentTopic:'${t.id}', currentTopicTitle:'${t.title}'})" class="premium-card text-center flex flex-col items-center py-6"><span class="text-3xl mb-1">${t.icon}</span><h3 class="text-xs font-bold">${t.title}</h3></div>`).join('')}</div></div>`;
         }
 
         function renderLevelsGrid() {
-            return `<div class="p-4 md:p-10"><button onclick="history.back()" class="text-xs font-bold text-slate-400 mb-6 uppercase">← Back</button><h2 class="text-4xl font-black mb-10">${state.currentTopicTitle}</h2><div class="grid grid-cols-4 md:grid-cols-5 gap-3">${[1,2,3,4,5,6,7,8,9,10].map(lv => `<div onclick="navigateTo('content-view', {currentLevel:${lv}, isSSC:false, isKarnataka:false})" class="h-20 border-2 rounded-2xl flex items-center justify-center font-bold text-2xl hover:border-indigo-500 transition-all">${lv}</div>`).join('')}</div></div>`;
+            return `<div class="p-4 h-full flex flex-col"><button onclick="history.back()" class="text-[10px] font-bold text-slate-400 mb-4 uppercase">← Back</button><h2 class="text-3xl font-black mb-6">${state.currentTopicTitle}</h2><div class="grid grid-cols-4 gap-3 overflow-y-auto">${[1,2,3,4,5,6,7,8,9,10].map(lv => `<div onclick="navigateTo('content-view', {currentLevel:${lv}, isSSC:false, isKarnataka:false})" class="h-14 border-2 rounded-xl flex items-center justify-center font-bold text-lg hover:border-indigo-500 transition-all">${lv}</div>`).join('')}</div></div>`;
         }
 
         function renderExamsPYQ() {
             if(state.currentCategory === 'ssc') {
                 if(state.currentExam) return renderShiftGrid(state.currentExam, state.currentExam === 'SSC MTS 2023' ? mts2023Shifts : cgl2023Shifts, true, false);
-                return `<div class="p-4 md:p-10"><button onclick="navigateTo('home')" class="text-xs font-bold text-slate-400 mb-6 uppercase">← Back</button><h2 class="text-4xl font-black mb-10">SSC PYQs</h2><div class="grid gap-4"><div onclick="navigateTo('exams-pyq', {currentExam:'SSC CGL 2023'})" class="premium-card h-32 flex flex-col justify-center"><h3 class="text-2xl font-bold">SSC CGL 2023</h3></div><div onclick="navigateTo('exams-pyq', {currentExam:'SSC MTS 2023'})" class="premium-card h-32 flex flex-col justify-center"><h3 class="text-2xl font-bold">SSC MTS 2023</h3></div></div></div>`;
+                return `<div class="p-4 h-full flex flex-col"><button onclick="navigateTo('home')" class="text-[10px] font-bold text-slate-400 mb-4 uppercase">← Back</button><h2 class="text-3xl font-black mb-6">SSC Papers</h2><div class="grid gap-3"><div onclick="navigateTo('exams-pyq', {currentExam:'SSC CGL 2023'})" class="premium-card py-6 flex items-center justify-between px-6"><h3 class="text-lg font-bold">SSC CGL 2023</h3><span>⚔️</span></div><div onclick="navigateTo('exams-pyq', {currentExam:'SSC MTS 2023'})" class="premium-card py-6 flex items-center justify-between px-6"><h3 class="text-lg font-bold">SSC MTS 2023</h3><span>⚔️</span></div></div></div>`;
             }
             if(state.currentCategory === 'karnataka') {
                 if(state.currentExamId) return renderShiftGrid(state.currentExam, karnatakaExams.find(e => e.id === state.currentExamId).papers, false, true);
-                return `<div class="p-4 md:p-10"><button onclick="navigateTo('home')" class="text-xs font-bold text-slate-400 mb-6 uppercase">← Back</button><h2 class="text-4xl font-black mb-10 text-emerald-600">Karnataka Hub</h2><div class="grid gap-4">${karnatakaExams.map(e => `<div onclick="navigateTo('exams-pyq', {currentExamId:'${e.id}', currentExam:'${e.title}'})" class="premium-card h-32 flex flex-col justify-center"><h3 class="text-2xl font-bold">${e.title}</h3></div>`).join('')}</div></div>`;
+                return `<div class="p-4 h-full flex flex-col"><button onclick="navigateTo('home')" class="text-[10px] font-bold text-slate-400 mb-4 uppercase">← Back</button><h2 class="text-3xl font-black mb-6 text-emerald-600">Karnataka Hub</h2><div class="grid gap-3 overflow-y-auto">${karnatakaExams.map(e => `<div onclick="navigateTo('exams-pyq', {currentExamId:'${e.id}', currentExam:'${e.title}'})" class="premium-card py-6 flex items-center justify-between px-6"><h3 class="text-lg font-bold">${e.title}</h3><span>🏛️</span></div>`).join('')}</div></div>`;
             }
         }
 
         function renderShiftGrid(name, shifts, ssc, ka) {
-            return `<div class="p-4 md:p-10"><button onclick="navigateTo('exams-pyq', {currentExam:null, currentExamId:null})" class="text-xs font-bold text-slate-400 mb-6 uppercase">← Back</button><h2 class="text-2xl md:text-4xl font-black mb-8">${name}</h2><div class="grid grid-cols-1 md:grid-cols-2 gap-3 h-full overflow-y-auto">${shifts.map((s, idx) => `<div onclick="navigateTo('content-view', {isSSC:${ssc}, isKarnataka:${ka}, currentShift:${idx}, currentExam:'${name}'})" class="p-5 border-2 rounded-2xl font-bold flex justify-between items-center">${s} <span>⚔️</span></div>`).join('')}</div></div>`;
+            return `<div class="p-4 h-full flex flex-col"><button onclick="navigateTo('exams-pyq', {currentExam:null, currentExamId:null})" class="text-[10px] font-bold text-slate-400 mb-4 uppercase">← Back</button><h2 class="text-xl font-black mb-6">${name}</h2><div class="grid grid-cols-1 gap-2 flex-grow overflow-y-auto">${shifts.map((s, idx) => `<div onclick="navigateTo('content-view', {isSSC:${ssc}, isKarnataka:${ka}, currentShift:${idx}, currentExam:'${name}'})" class="p-3.5 border rounded-xl font-bold flex justify-between items-center text-xs">${s} <span>→</span></div>`).join('')}</div></div>`;
         }
-
-        function renderNeetCBT() {
-            return `<div class="fixed inset-0 bg-white z-[200] flex flex-col items-center justify-center p-10"><div class="max-w-md text-center"><span class="text-6xl mb-6 block">🩺</span><h2 class="text-3xl font-black mb-4">NEET PG CBT MODE</h2><p class="mb-8 text-slate-500">Practice 200 questions in simulated mode. Negative marking enabled.</p><button onclick="navigateTo('home')" class="p-4 bg-rose-500 text-white rounded-xl w-full">Exit Simulator</button></div></div>`;
-        }
-
-        function initNeetCBT() {}
 
         document.addEventListener('DOMContentLoaded', () => { render(); });
         
@@ -510,7 +538,7 @@
                 setTimeout(() => {
                     el.innerText = floatingQuotes[Math.floor(Math.random()*floatingQuotes.length)];
                     el.style.opacity = '1';
-                }, 500);
+                }, 400);
             }
         }, 8000);
     </script>
