@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Q.1 The practice of restraining oneself from indulging in something, typically alcohol.",
+    "options": ["Abstinence", "Celibacy", "Electorate", "Reciprocity"],
+    "answer": "Abstinence",
+    "explanation": "Abstinence is general self-restraint.\nCelibacy is specifically avoiding marriage/sex for religion.\nElectorate is the body of voters.\nReciprocity is mutual exchange for benefit."
+  },
+  {
+    "question": "Q.2 An award or privilege granted as a special honor or acknowledgment of merit.",
+    "options": ["Accolade", "Amnesty", "Axiom", "Protagonist"],
+    "answer": "Accolade",
+    "explanation": "Accolade is an honor or award.\nAmnesty is a political pardon.\nAxiom is a self-evident truth.\nProtagonist is the main character in a story."
+  },
+  {
+    "question": "Q.3 An official pardon for people who have been convicted of political offenses.",
+    "options": ["Amnesty", "Accolade", "Verdict", "Indictment"],
+    "answer": "Amnesty",
+    "explanation": "Amnesty is a general pardon for political crimes.\nAccolade is an award.\nVerdict is a final court decision.\nIndictment is a formal charge."
+  },
+  {
+    "question": "Q.4 A state of disorder due to absence or non-recognition of authority.",
+    "options": ["Anarchy", "Ostracize", "Sacrilege", "Conscription"],
+    "answer": "Anarchy",
+    "explanation": "Anarchy is a lawless state without government.\nOstracize is to exclude from society.\nSacrilege is misuse of sacred things.\nConscription is forced military service."
+  },
+  {
+    "question": "Q.5 A statement or proposition regarded as being established and self-evidently true.",
+    "options": ["Axiom", "Jargon", "Obituary", "Amnesty"],
+    "answer": "Axiom",
+    "explanation": "Axiom is an established truth requiring no proof.\nJargon is professional terminology.\nObituary is a notice of death.\nAmnesty is a general pardon."
+  },
+  {
+    "question": "Q.6 The act or offence of speaking sacrilegiously about God or sacred things.",
+    "options": ["Blasphemy", "Sacrilege", "Heresy", "Plagiarism"],
+    "answer": "Blasphemy",
+    "explanation": "Blasphemy is insulting speech against God.\nSacrilege is physical misuse of sacred objects.\nHeresy is opinion against religious doctrine.\nPlagiarism is stealing someone's ideas."
+  },
+  {
+    "question": "Q.7 Abstinence from marriage and sexual relations, typically for religious reasons.",
+    "options": ["Celibacy", "Abstinence", "Misanthrope", "Teetotaller"],
+    "answer": "Celibacy",
+    "explanation": "Celibacy is remaining unmarried/chaste for religion.\nAbstinence is general self-restraint.\nMisanthrope is a hater of mankind.\nTeetotaller is someone who avoids alcohol."
+  },
+  {
+    "question": "Q.8 To link things together in a chain or series.",
+    "options": ["Concatenate", "Reciprocity", "Versatile", "Inimitable"],
+    "answer": "Concatenate",
+    "explanation": "Concatenate means to link in a series.\nReciprocity is mutual exchange.\nVersatile means multi-talented.\nInimitable cannot be copied."
+  },
+  {
+    "question": "Q.9 Compulsory enlistment for state service, typically into the armed forces.",
+    "options": ["Conscription", "Concatenate", "Exodus", "Quorum"],
+    "answer": "Conscription",
+    "explanation": "Conscription is forced military service.\nConcatenate is linking in a series.\nExodus is a mass departure.\nQuorum is the minimum attendance."
+  },
+  {
+    "question": "Q.10 All the people in a country or area who are entitled to vote in an election.",
+    "options": ["Electorate", "Jury", "Clique", "Protagonist"],
+    "answer": "Electorate",
+    "explanation": "Electorate refers to the total voting population.\nJury is a group of legal judges/citizens.\nClique is a small exclusive group.\nProtagonist is a leading character."
+  },
+  {
+    "question": "Q.11 A person devoted to sensual enjoyment, especially fine food and drink.",
+    "options": ["Epicurean", "Fastidious", "Narcissist", "Parvenu"],
+    "answer": "Epicurean",
+    "explanation": "Epicurean loves luxury and fine dining.\nFastidious is very picky/detailed.\nNarcissist admires themselves excessively.\nParvenu is a newly rich person."
+  },
+  {
+    "question": "Q.12 Very attentive to and concerned about accuracy and detail; hard to please.",
+    "options": ["Fastidious", "Garrulous", "Versatile", "Fast"],
+    "answer": "Fastidious",
+    "explanation": "Fastidious is a picky/detailed person.\nGarrulous talks too much.\nVersatile is multi-talented.\nFast is just quick."
+  },
+  {
+    "question": "Q.13 Excessively talkative, especially on trivial matters.",
+    "options": ["Garrulous", "Fastidious", "Inimitable", "Ubiquitous"],
+    "answer": "Garrulous",
+    "explanation": "Garrulous means very talkative.\nFastidious is hard to please.\nInimitable is unique/cannot be copied.\nUbiquitous is found everywhere."
+  },
+  {
+    "question": "Q.14 A person who attacks settled beliefs or traditional institutions.",
+    "options": ["Iconoclast", "Misanthrope", "Chauvinist", "Narcissist"],
+    "answer": "Iconoclast",
+    "explanation": "Iconoclast breaks traditions.\nMisanthrope hates humans.\nChauvinist has blind group loyalty.\nNarcissist admires themselves too much."
+  },
+  {
+    "question": "Q.15 So good or unusual as to be impossible to copy.",
+    "options": ["Inimitable", "Incorrigible", "Insoluble", "Invisible"],
+    "answer": "Inimitable",
+    "explanation": "Inimitable cannot be copied.\nIncorrigible cannot be improved.\nInsoluble cannot be solved/dissolved.\nInvisible cannot be seen."
+  },
+  {
+    "question": "Q.16 Special words used by a profession that are difficult for others to understand.",
+    "options": ["Jargon", "Blasphemy", "Axiom", "Plagiarism"],
+    "answer": "Jargon",
+    "explanation": "Jargon is technical professional language.\nBlasphemy is insulting God.\nAxiom is an accepted truth.\nPlagiarism is literary theft."
+  },
+  {
+    "question": "Q.17 A person who dislikes humankind and avoids human society.",
+    "options": ["Misanthrope", "Iconoclast", "Narcissist", "Philatelist"],
+    "answer": "Misanthrope",
+    "explanation": "Misanthrope hates people.\nIconoclast attacks traditional beliefs.\nNarcissist is obsessed with self.\nPhilatelist collects stamps."
+  },
+  {
+    "question": "Q.18 A person who has an excessive interest in or admiration of themselves.",
+    "options": ["Narcissist", "Egoism", "Parvenu", "Epicurean"],
+    "answer": "Narcissist",
+    "explanation": "Narcissist admires their own self/beauty.\nEgoism is the theory of self-interest.\nParvenu is a person who recently became rich.\nEpicurean loves sensory pleasures."
+  },
+  {
+    "question": "Q.19 A notice of a death, typically including a brief biography.",
+    "options": ["Obituary", "Epitaph", "Amnesty", "Accolade"],
+    "answer": "Obituary",
+    "explanation": "Obituary is a newspaper death notice.\nEpitaph is an inscription on a tomb.\nAmnesty is a political pardon.\nAccolade is an award."
+  },
+  {
+    "question": "Q.20 To exclude someone from a society or group.",
+    "options": ["Ostracize", "Plagiarism", "Anarchy", "Reciprocity"],
+    "answer": "Ostracize",
+    "explanation": "Ostracize is to boycott or exclude someone.\nPlagiarism is stealing work.\nAnarchy is lack of government.\nReciprocity is mutual exchange."
+  },
+  {
+    "question": "Q.21 A person of obscure origin who has suddenly gained wealth.",
+    "options": ["Parvenu", "Upstart", "Narcissist", "Epicurean"],
+    "answer": "Parvenu",
+    "explanation": "Parvenu is a person who recently gained status/wealth.\nUpstart is a similar term (often used arrogantly).\nNarcissist loves self.\nEpicurean loves luxury."
+  },
+  {
+    "question": "Q.22 A person who collects or studies postage stamps.",
+    "options": ["Philatelist", "Numismatist", "Lexicographer", "Bibliophile"],
+    "answer": "Philatelist",
+    "explanation": "Philatelist collects stamps.\nNumismatist collects coins.\nLexicographer compiles dictionaries.\nBibliophile loves books."
+  },
+  {
+    "question": "Q.23 The practice of taking someone else's work or ideas and passing them off as one's own.",
+    "options": ["Plagiarism", "Copyright", "Blasphemy", "Jargon"],
+    "answer": "Plagiarism",
+    "explanation": "Plagiarism is stealing creative work.\nCopyright is legal protection for work.\nBlasphemy is insulting God.\nJargon is professional language."
+  },
+  {
+    "question": "Q.24 The leading character or one of the major characters in a drama or movie.",
+    "options": ["Protagonist", "Imposter", "Fugitive", "Iconoclast"],
+    "answer": "Protagonist",
+    "explanation": "Protagonist is the hero/main character.\nImposter is a deceiver.\nFugitive is a runaway from justice.\nIconoclast breaks traditions."
+  },
+  {
+    "question": "Q.25 The practice of exchanging things with others for mutual benefit.",
+    "options": ["Reciprocity", "Concatenate", "Plagiarism", "Abstinence"],
+    "answer": "Reciprocity",
+    "explanation": "Reciprocity is mutual give-and-take.\nConcatenate is linking in a series.\nPlagiarism is literary theft.\nAbstinence is self-restraint."
+  },
+  {
+    "question": "Q.26 Violation or misuse of what is regarded as sacred.",
+    "options": ["Sacrilege", "Blasphemy", "Axiom", "Heresy"],
+    "answer": "Sacrilege",
+    "explanation": "Sacrilege is misusing sacred objects.\nBlasphemy is speaking against God.\nAxiom is an accepted truth.\nHeresy is opinion against religion."
+  },
+  {
+    "question": "Q.27 A person who walks in their sleep.",
+    "options": ["Somnambulist", "Teetotaller", "Misanthrope", "Philatelist"],
+    "answer": "Somnambulist",
+    "explanation": "Somnambulist is a sleepwalker.\nTeetotaller avoids alcohol.\nMisanthrope hates humans.\nPhilatelist collects stamps."
+  },
+  {
+    "question": "Q.28 A person who never drinks alcohol.",
+    "options": ["Teetotaller", "Epicurean", "Ascetic", "Glutton"],
+    "answer": "Teetotaller",
+    "explanation": "Teetotaller stays away from alcohol.\nEpicurean enjoys food and drink.\nAscetic lives a simple life for religion.\nGlutton eats too much."
+  },
+  {
+    "question": "Q.30 Present, appearing, or found everywhere.",
+    "options": ["Ubiquitous", "Omnipotent", "Ephemeral", "Obsolete"],
+    "answer": "Ubiquitous",
+    "explanation": "Ubiquitous means found everywhere.\nOmnipotent means all-powerful.\nEphemeral means short-lived.\nObsolete means out of date."
+  },
+  {
+    "question": "Q.30 Able to adapt or be adapted to many different functions.",
+    "options": ["Versatile", "Inimitable", "Ubiquitous", "Fastidious"],
+    "answer": "Versatile",
+    "explanation": "Versatile means multi-purpose or multi-talented.\nInimitable cannot be copied.\nUbiquitous is found everywhere.\nFastidious is very picky."
+  }
+]
