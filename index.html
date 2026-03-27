@@ -15,7 +15,7 @@
             font-family: 'Plus Jakarta Sans', sans-serif; 
             background-color: #f8fafc; 
             color: #0f172a; 
-            overflow: hidden;
+            overflow-x: hidden;
             height: 100vh;
             width: 100vw;
             display: flex;
@@ -135,7 +135,7 @@
         }
     </style>
 </head>
-<body>
+<body class="h-full">
 
     <div class="quote-bar">
         <span id="floating-quote" class="quote-text">Stay Disciplined. Excellence is a daily habit. 🎯</span>
@@ -143,7 +143,7 @@
 
     <nav>
         <div class="w-full max-w-7xl mx-auto flex justify-between items-center">
-            <div class="flex items-center gap-2 cursor-pointer" onclick="navigateTo('home')">
+            <div class="flex items-center gap-2 cursor-pointer" onclick="window.navigateTo('home')">
                 <svg width="28" height="28" viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="10" fill="#4338ca"/><path d="M15 28V12H21.5C24.5376 12 27 14.4624 27 17.5C27 20.5376 24.5376 23 21.5 23H15" stroke="white" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 <span class="text-lg font-bold tracking-tighter uppercase">PrepEase</span>
             </div>
@@ -220,7 +220,7 @@
             { id: 'psi', title: 'Police PSI', papers: ['2024 Shift-1', '2021 Paper'] }
         ];
 
-        // --- GLOBAL WRAPPERS ---
+        // --- NAVIGATION ---
         window.navigateTo = (view, params = {}, fromPopState = false) => {
             const protectedViews = ['english-selection', 'topics-grid', 'levels-grid', 'content-view', 'mistakes-book', 'exams-pyq'];
             if (protectedViews.includes(view) && !state.isAuthenticated) {
@@ -236,19 +236,35 @@
                 state.currentQuizAnswers = {};
             }
 
+            if (view === 'mistakes-book') {
+                state.currentAnkiIndex = 0;
+                state.isAnkiFlipped = false;
+                state.ankiSelection = null;
+            }
+
             Object.assign(state, params);
             if (!fromPopState) history.pushState({ view, params: JSON.parse(JSON.stringify(params)) }, '', "");
             render();
             document.body.style.overflow = (view === 'content-view' || view === 'mistakes-book') ? 'hidden' : 'auto';
         };
 
+        window.addEventListener('popstate', (event) => {
+            if (event.state) window.navigateTo(event.state.view, event.state.params, true);
+            else window.navigateTo('home', {}, true);
+        });
+
+        // --- AUTH & DATA ---
         window.handleAuth = async () => {
             const userIn = document.getElementById('username-input').value.trim();
             const passIn = document.getElementById('password-input').value;
-            if (!userIn || !passIn) return;
+            if (!userIn || !passIn) {
+                alert("Please fill in all fields.");
+                return;
+            }
+            const isSignUp = state.authMode === 'signup';
             const email = `${userIn.toLowerCase()}@prepease.internal`;
             try {
-                if (state.authMode === 'signup') {
+                if (isSignUp) {
                     const fullName = document.getElementById('name-input').value;
                     const res = await createUserWithEmailAndPassword(auth, email, passIn);
                     await setDoc(doc(db, 'artifacts', appId, 'users', res.user.uid, 'profile', 'info'), { name: fullName, username: userIn });
@@ -256,7 +272,12 @@
                 } else {
                     await signInWithEmailAndPassword(auth, email, passIn);
                 }
-            } catch (err) { alert("Access Denied or Connection Error"); }
+                state.isAuthenticated = true;
+                window.navigateTo('home');
+            } catch (err) { 
+                console.error(err);
+                alert("Authentication Failed: Check credentials or network."); 
+            }
         };
 
         window.handleLogout = async () => {
@@ -266,15 +287,20 @@
         };
 
         onAuthStateChanged(auth, (user) => { 
-            if (user) { state.userId = user.uid; loadUserData(); } 
-            else { state.isAuthenticated = false; render(); }
+            if (user) { 
+                state.userId = user.uid; 
+                state.isAuthenticated = true;
+                loadUserData(); 
+            } else { 
+                state.isAuthenticated = false; 
+                render(); 
+            }
         });
 
         async function loadUserData() {
             const profileSnap = await getDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'profile', 'info'));
             if (profileSnap.exists()) {
                 state.userName = profileSnap.data().name;
-                state.isAuthenticated = true;
             }
             onSnapshot(collection(db, 'artifacts', appId, 'users', state.userId, 'progress'), (snap) => {
                 state.progress = {}; state.totalPoints = 0;
@@ -296,11 +322,13 @@
             const shell = document.getElementById('app-shell');
             const authBtn = document.getElementById('auth-header-btn');
             if (!shell) return;
+
             if (state.isAuthenticated) {
-                authBtn.innerHTML = `<button onclick="handleLogout()" class="text-[10px] font-bold text-rose-500 uppercase">Sign Out</button>`;
+                authBtn.innerHTML = `<button onclick="window.handleLogout()" class="text-[10px] font-bold text-rose-500 uppercase">Sign Out</button>`;
             } else {
-                authBtn.innerHTML = `<button onclick="navigateTo('login')" class="text-[10px] font-bold text-indigo-600 uppercase">Login</button>`;
+                authBtn.innerHTML = `<button onclick="window.navigateTo('login')" class="text-[10px] font-bold text-indigo-600 uppercase">Login</button>`;
             }
+            
             if (!state.isAuthenticated && state.view !== 'login') state.view = 'login';
 
             switch(state.view) {
@@ -329,16 +357,16 @@
                         <div class="bg-white/10 px-3 py-1 rounded-full border border-white/20"><p class="text-xs uppercase">${rank(state.totalPoints)}</p></div>
                     </div>
                     <div class="grid grid-cols-2 gap-3 mb-6">
-                        <div onclick="navigateTo('english-selection')" class="premium-card flex flex-col items-center justify-center text-center">
+                        <div onclick="window.navigateTo('english-selection')" class="premium-card flex flex-col items-center justify-center text-center">
                             <span class="text-2xl mb-1">🇬🇧</span><h3 class="text-xs font-bold">English Track</h3>
                         </div>
-                        <div onclick="navigateTo('exams-pyq', { currentCategory: 'ssc' })" class="premium-card flex flex-col items-center justify-center text-center">
+                        <div onclick="window.navigateTo('exams-pyq', { currentCategory: 'ssc' })" class="premium-card flex flex-col items-center justify-center text-center">
                             <span class="text-2xl mb-1">⚔️</span><h3 class="text-xs font-bold">SSC PYQs</h3>
                         </div>
-                        <div onclick="navigateTo('exams-pyq', { currentCategory: 'karnataka' })" class="premium-card flex flex-col items-center justify-center text-center">
+                        <div onclick="window.navigateTo('exams-pyq', { currentCategory: 'karnataka' })" class="premium-card flex flex-col items-center justify-center text-center">
                             <span class="text-2xl mb-1">🏛️</span><h3 class="text-xs font-bold">KA Hub</h3>
                         </div>
-                        <div onclick="navigateTo('mistakes-book')" class="premium-card border-rose-100 bg-rose-50/50 flex flex-col items-center justify-center text-center">
+                        <div onclick="window.navigateTo('mistakes-book')" class="premium-card border-rose-100 bg-rose-50/50 flex flex-col items-center justify-center text-center">
                             <span class="text-2xl mb-1">📓</span><h3 class="text-xs font-bold">Mistakes Book (${state.mistakes.length})</h3>
                         </div>
                     </div>
@@ -372,7 +400,7 @@
             const container = document.getElementById('content-container');
             container.innerHTML = `
                 <div class="one-screen-container">
-                    <div class="anki-card ${state.currentStudyFlipped ? 'flipped' : ''}" onclick="state.currentStudyFlipped = !state.currentStudyFlipped; renderStudyCardUI();">
+                    <div class="anki-card ${state.currentStudyFlipped ? 'flipped' : ''}" onclick="state.currentStudyFlipped = !state.currentStudyFlipped; window.renderStudyCardUI();">
                         <div class="anki-card-inner">
                             <div class="anki-front flex flex-col items-center justify-center text-center">
                                 <div class="text-6xl mb-6">${item.emoji || '📗'}</div>
@@ -385,10 +413,10 @@
                         </div>
                     </div>
                     <div class="mt-3 flex gap-2">
-                        <button onclick="state.currentStudyIndex--; renderStudyCardUI();" class="flex-1 py-3 bg-white border-2 rounded-xl font-bold text-xs" ${state.currentStudyIndex === 0 ? 'disabled' : ''}>Prev</button>
+                        <button onclick="state.currentStudyIndex--; window.renderStudyCardUI();" class="flex-1 py-3 bg-white border-2 rounded-xl font-bold text-xs" ${state.currentStudyIndex === 0 ? 'disabled' : ''}>Prev</button>
                         ${state.currentStudyIndex === data.length - 1 ? 
                             `<button onclick="loadQuiz()" class="flex-1 py-3 bg-indigo-600 text-white rounded-xl font-bold text-xs">Quiz 🚀</button>` :
-                            `<button onclick="state.currentStudyIndex++; renderStudyCardUI();" class="flex-1 py-3 bg-indigo-600 text-white rounded-xl font-bold text-xs">Next</button>`
+                            `<button onclick="state.currentStudyIndex++; window.renderStudyCardUI();" class="flex-1 py-3 bg-indigo-600 text-white rounded-xl font-bold text-xs">Next</button>`
                         }
                     </div>
                 </div>
@@ -405,7 +433,7 @@
                 if(res.ok) data = await res.json();
              } else {
                 data = await smartFetch(`./content/general-english/${type}/${topic}`, `${level}-test`);
-                if(!data) data = await smartFetch(`./content/general-english/${type}/${topic}`, `${level}test`); // Try without hyphen
+                if(!data) data = await smartFetch(`./content/general-english/${type}/${topic}`, `${level}test`);
              }
              
              if(data) { window.activeQuestionsData = data; state.currentQuizIndex = 0; renderQuizUI(); }
@@ -425,23 +453,26 @@
                     <div class="scrollable-content">
                         <p class="text-sm font-bold mb-3 text-slate-800 leading-tight">${q.question}</p>
                         <div class="flex flex-col gap-2">
-                            ${q.options.map(o => `<div onclick="handleInstantFeedback(${state.currentQuizIndex}, '${o.trim()}', '${q.answer.trim()}')" class="p-3 border-2 rounded-xl text-xs font-semibold ${ans?.selected === o.trim() ? (o.trim() === q.answer.trim() ? 'option-correct' : 'option-wrong') : 'border-slate-100 bg-slate-50/50'}">${o}</div>`).join('')}
+                            ${q.options.map(o => `<div onclick="window.handleInstantFeedback(${state.currentQuizIndex}, '${o.trim()}', '${q.answer.trim()}')" class="p-3 border-2 rounded-xl text-xs font-semibold ${ans?.selected === o.trim() ? (o.trim() === q.answer.trim() ? 'option-correct' : 'option-wrong') : 'border-slate-100 bg-slate-50/50'}">${o}</div>`).join('')}
                         </div>
                         ${ans ? `<div class="mt-3 p-3 bg-slate-50 border-l-4 border-indigo-500 rounded text-[10px] leading-relaxed">${q.explanation}</div>` : ''}
                     </div>
                     <div class="mt-auto pt-2 flex gap-2">
                         ${state.currentQuizIndex === window.activeQuestionsData.length - 1 ? 
-                            `<button onclick="submitFinalResults()" class="flex-grow py-3 bg-emerald-600 text-white rounded-xl font-bold text-xs uppercase">Finish</button>` :
-                            `<button onclick="state.currentQuizIndex++; renderQuizUI();" class="flex-grow py-3 bg-indigo-600 text-white rounded-xl font-bold text-xs uppercase" ${!ans ? 'disabled style="opacity:0.5"' : ''}>Next</button>`
+                            `<button onclick="window.submitFinalResults()" class="flex-grow py-3 bg-emerald-600 text-white rounded-xl font-bold text-xs uppercase">Finish</button>` :
+                            `<button onclick="state.currentQuizIndex++; window.renderQuizUI();" class="flex-grow py-3 bg-indigo-600 text-white rounded-xl font-bold text-xs uppercase" ${!ans ? 'disabled style="opacity:0.5"' : ''}>Next</button>`
                         }
                     </div>
                 </div>
             `;
         }
 
-        window.handleInstantFeedback = (idx, sel, cor) => { state.currentQuizAnswers[idx] = {selected: sel, isCorrect: sel === cor}; window.renderQuizUI(); };
+        window.handleInstantFeedback = (idx, sel, cor) => { 
+            state.currentQuizAnswers[idx] = {selected: sel, isCorrect: sel === cor}; 
+            window.renderQuizUI(); 
+        };
 
-        async function submitFinalResults() {
+        window.submitFinalResults = async () => {
             const questions = window.activeQuestionsData;
             let score = 0, mistakes = [];
             questions.forEach((q, i) => {
@@ -453,7 +484,7 @@
             shell.innerHTML = `<div class="h-full flex flex-col justify-center items-center p-6 text-center">
                 <h2 class="text-3xl font-black mb-2">Complete!</h2>
                 <p class="text-5xl font-black text-indigo-600 mb-6">${score} / ${questions.length}</p>
-                <button onclick="navigateTo('home')" class="w-full max-w-xs py-4 bg-slate-900 text-white rounded-xl font-bold uppercase">Return</button>
+                <button onclick="window.navigateTo('home')" class="w-full max-w-xs py-4 bg-slate-900 text-white rounded-xl font-bold uppercase">Return</button>
             </div>`;
         }
 
@@ -488,12 +519,12 @@
                         <div class="anki-front">
                             <h3 class="text-base font-bold mb-3">${current.question}</h3>
                             <div class="scrollable-content flex flex-col gap-2">
-                                ${current.options ? current.options.map(o => `<div onclick="handleAnkiChoice('${o.trim()}')" class="p-3 border-2 rounded-xl text-xs font-semibold ${state.ankiSelection === o.trim() ? (o.trim() === current.answer.trim() ? 'option-correct':'option-wrong'):'border-slate-100'}">${o}</div>`).join('') : ''}
+                                ${current.options ? current.options.map(o => `<div onclick="window.handleAnkiChoice('${o.trim()}')" class="p-3 border-2 rounded-xl text-xs font-semibold ${state.ankiSelection === o.trim() ? (o.trim() === current.answer.trim() ? 'option-correct':'option-wrong'):'border-slate-100'}">${o}</div>`).join('') : ''}
                             </div>
                         </div>
                         <div class="anki-back">
                             <div class="scrollable-content p-4"><p class="text-sm">${current.explanation}</p></div>
-                            <div class="flex gap-2"><button onclick="resolveAnki(true)" class="flex-1 py-3 bg-emerald-600 text-white rounded-lg">Mastered</button><button onclick="resolveAnki(false)" class="flex-1 py-3 bg-rose-600 text-white rounded-lg">Hard</button></div>
+                            <div class="flex gap-2"><button onclick="window.resolveAnki(true)" class="flex-1 py-3 bg-emerald-600 text-white rounded-lg">Mastered</button><button onclick="window.resolveAnki(false)" class="flex-1 py-3 bg-rose-600 text-white rounded-lg">Hard</button></div>
                         </div>
                     </div>
                 </div>
@@ -503,37 +534,48 @@
         // --- VIEWS ---
         function renderLogin() {
             const isLogin = state.authMode === 'login';
-            return `<div class="p-6 h-full flex flex-col items-center justify-center"><h2 class="text-2xl font-black mb-6">${isLogin ? 'Login' : 'Signup'}</h2><div class="bg-white p-6 rounded-2xl shadow-sm w-full max-w-sm">${!isLogin ? `<input id="name-input" placeholder="Full Name" class="w-full p-4 bg-slate-50 rounded-xl mb-3 text-sm">` : ''}<input id="username-input" placeholder="Username" class="w-full p-4 bg-slate-50 rounded-xl mb-3 text-sm"><input id="password-input" type="password" placeholder="Password" class="w-full p-4 bg-slate-50 rounded-xl mb-6 text-sm"><button onclick="handleAuth()" class="w-full p-4 bg-indigo-600 text-white rounded-xl font-bold uppercase text-xs">GO</button><button onclick="state.authMode='${isLogin?'signup':'login'}';render();" class="mt-4 text-[10px] text-indigo-500 w-full text-center">${isLogin?'Signup':'Login'}</button></div></div>`;
+            return `
+            <div class="p-6 h-full flex flex-col items-center justify-center">
+                <h2 class="text-2xl font-black mb-6">${isLogin ? 'Login' : 'Signup'}</h2>
+                <div class="bg-white p-6 rounded-2xl shadow-sm w-full max-w-sm">
+                    ${!isLogin ? `<input id="name-input" placeholder="Full Name" class="w-full p-4 bg-slate-50 rounded-xl mb-3 text-sm">` : ''}
+                    <input id="username-input" placeholder="Username" class="w-full p-4 bg-slate-50 rounded-xl mb-3 text-sm">
+                    <input id="password-input" type="password" placeholder="Password" class="w-full p-4 bg-slate-50 rounded-xl mb-6 text-sm">
+                    <button onclick="window.handleAuth()" class="w-full p-4 bg-indigo-600 text-white rounded-xl font-bold uppercase text-xs">GO</button>
+                    <button onclick="window.state.authMode='${isLogin?'signup':'login'}'; window.render();" class="mt-4 text-[10px] text-indigo-500 w-full text-center">${isLogin?'Signup':'Login'}</button>
+                </div>
+            </div>`;
         }
 
         function renderEnglishSelection() {
-            return `<div class="p-4 h-full flex flex-col"><button onclick="navigateTo('home')" class="text-[10px] font-bold text-slate-400 mb-4">← BACK</button><h2 class="text-2xl font-black mb-6">Tracks</h2><div class="grid gap-3"><div onclick="navigateTo('topics-grid', {currentType:'grammar'})" class="premium-card flex justify-between items-center"><div><h3 class="text-lg font-bold">Grammar</h3></div><span>🔡</span></div><div onclick="navigateTo('topics-grid', {currentType:'vocabulary'})" class="premium-card flex justify-between items-center"><div><h3 class="text-lg font-bold">Vocabulary</h3></div><span>📖</span></div></div></div>`;
+            return `<div class="p-4 h-full flex flex-col"><button onclick="window.navigateTo('home')" class="text-[10px] font-bold text-slate-400 mb-4">← BACK</button><h2 class="text-2xl font-black mb-6">Tracks</h2><div class="grid gap-3"><div onclick="window.navigateTo('topics-grid', {currentType:'grammar'})" class="premium-card flex justify-between items-center"><div><h3 class="text-lg font-bold">Grammar</h3></div><span>🔡</span></div><div onclick="window.navigateTo('topics-grid', {currentType:'vocabulary'})" class="premium-card flex justify-between items-center"><div><h3 class="text-lg font-bold">Vocabulary</h3></div><span>📖</span></div></div></div>`;
         }
 
         function renderTopicsGrid() {
             const topics = topicsData[state.currentType] || [];
-            return `<div class="p-4 h-full flex flex-col"><button onclick="navigateTo('english-selection')" class="text-[10px] font-bold text-slate-400 mb-4">← BACK</button><h2 class="text-2xl font-black mb-6 capitalize">${state.currentType}</h2><div class="grid grid-cols-2 gap-3">${topics.map(t => `<div onclick="navigateTo('levels-grid', {currentTopic:'${t.id}', currentTopicTitle:'${t.title}'})" class="premium-card text-center py-6"><span class="text-3xl mb-1">${t.icon}</span><h3 class="text-xs font-bold">${t.title}</h3></div>`).join('')}</div></div>`;
+            return `<div class="p-4 h-full flex flex-col"><button onclick="window.navigateTo('english-selection')" class="text-[10px] font-bold text-slate-400 mb-4">← BACK</button><h2 class="text-2xl font-black mb-6 capitalize">${state.currentType}</h2><div class="grid grid-cols-2 gap-3">${topics.map(t => `<div onclick="window.navigateTo('levels-grid', {currentTopic:'${t.id}', currentTopicTitle:'${t.title}'})" class="premium-card text-center py-6"><span class="text-3xl mb-1">${t.icon}</span><h3 class="text-xs font-bold">${t.title}</h3></div>`).join('')}</div></div>`;
         }
 
         function renderLevelsGrid() {
-            return `<div class="p-4 h-full flex flex-col"><button onclick="history.back()" class="text-[10px] font-bold text-slate-400 mb-4">← BACK</button><h2 class="text-2xl font-black mb-6">${state.currentTopicTitle}</h2><div class="grid grid-cols-4 gap-3">${[1,2,3,4,5,6,7,8,9,10].map(lv => `<div onclick="navigateTo('content-view', {currentLevel:${lv}, isSSC:false, isKarnataka:false})" class="h-14 border-2 rounded-xl flex items-center justify-center font-bold text-lg">${lv}</div>`).join('')}</div></div>`;
+            return `<div class="p-4 h-full flex flex-col"><button onclick="history.back()" class="text-[10px] font-bold text-slate-400 mb-4">← BACK</button><h2 class="text-2xl font-black mb-6">${state.currentTopicTitle}</h2><div class="grid grid-cols-4 gap-3">${[1,2,3,4,5,6,7,8,9,10].map(lv => `<div onclick="window.navigateTo('content-view', {currentLevel:${lv}, isSSC:false, isKarnataka:false})" class="h-14 border-2 rounded-xl flex items-center justify-center font-bold text-lg">${lv}</div>`).join('')}</div></div>`;
         }
 
         function renderExamsPYQ() {
             if(state.currentCategory === 'ssc') {
                 if(state.currentExam) return renderShiftGrid(state.currentExam, state.currentExam === 'SSC MTS 2023' ? mts2023Shifts : cgl2023Shifts, true, false);
-                return `<div class="p-4 h-full flex flex-col"><button onclick="navigateTo('home')" class="text-[10px] font-bold text-slate-400 mb-4">← BACK</button><h2 class="text-3xl font-black mb-6">SSC</h2><div class="grid gap-3"><div onclick="navigateTo('exams-pyq', {currentExam:'SSC CGL 2023'})" class="premium-card py-6 flex justify-between items-center px-6"><h3>CGL 2023</h3><span>⚔️</span></div><div onclick="navigateTo('exams-pyq', {currentExam:'SSC MTS 2023'})" class="premium-card py-6 flex justify-between items-center px-6"><h3>MTS 2023</h3><span>⚔️</span></div></div></div>`;
+                return `<div class="p-4 h-full flex flex-col"><button onclick="window.navigateTo('home')" class="text-[10px] font-bold text-slate-400 mb-4">← BACK</button><h2 class="text-3xl font-black mb-6">SSC</h2><div class="grid gap-3"><div onclick="window.navigateTo('exams-pyq', {currentExam:'SSC CGL 2023'})" class="premium-card py-6 flex justify-between items-center px-6"><h3>CGL 2023</h3><span>⚔️</span></div><div onclick="window.navigateTo('exams-pyq', {currentExam:'SSC MTS 2023'})" class="premium-card py-6 flex justify-between items-center px-6"><h3>MTS 2023</h3><span>⚔️</span></div></div></div>`;
             }
             if(state.currentCategory === 'karnataka') {
                 if(state.currentExamId) return renderShiftGrid(state.currentExam, karnatakaExams.find(e => e.id === state.currentExamId).papers, false, true);
-                return `<div class="p-4 h-full flex flex-col"><button onclick="navigateTo('home')" class="text-[10px] font-bold text-slate-400 mb-4">← BACK</button><h2 class="text-3xl font-black mb-6">KA Hub</h2><div class="grid gap-3">${karnatakaExams.map(e => `<div onclick="navigateTo('exams-pyq', {currentExamId:'${e.id}', currentExam:'${e.title}'})" class="premium-card py-6 px-6"><h3>${e.title}</h3></div>`).join('')}</div></div>`;
+                return `<div class="p-4 h-full flex flex-col"><button onclick="window.navigateTo('home')" class="text-[10px] font-bold text-slate-400 mb-4">← BACK</button><h2 class="text-3xl font-black mb-6 text-emerald-600">Karnataka Hub</h2><div class="grid gap-3">${karnatakaExams.map(e => `<div onclick="window.navigateTo('exams-pyq', {currentExamId:'${e.id}', currentExam:'${e.title}'})" class="premium-card py-6 px-6"><h3>${e.title}</h3></div>`).join('')}</div></div>`;
             }
         }
 
         function renderShiftGrid(name, shifts, ssc, ka) {
-            return `<div class="p-4 h-full flex flex-col"><button onclick="navigateTo('exams-pyq', {currentExam:null, currentExamId:null})" class="text-[10px] font-bold text-slate-400 mb-4">← BACK</button><h2 class="text-xl font-black mb-6">${name}</h2><div class="grid gap-2 overflow-y-auto">${shifts.map((s, idx) => `<div onclick="navigateTo('content-view', {isSSC:${ssc}, isKarnataka:${ka}, currentShift:${idx}, currentExam:'${name}'})" class="p-4 border rounded-xl font-bold flex justify-between items-center text-xs">${s} <span>→</span></div>`).join('')}</div></div>`;
+            return `<div class="p-4 h-full flex flex-col"><button onclick="window.navigateTo('exams-pyq', {currentExam:null, currentExamId:null})" class="text-[10px] font-bold text-slate-400 mb-4">← BACK</button><h2 class="text-xl font-black mb-6">${name}</h2><div class="grid gap-2 overflow-y-auto">${shifts.map((s, idx) => `<div onclick="window.navigateTo('content-view', {isSSC:${ssc}, isKarnataka:${ka}, currentShift:${idx}, currentExam:'${name}'})" class="p-4 border rounded-xl font-bold flex justify-between items-center text-xs">${s} <span>→</span></div>`).join('')}</div></div>`;
         }
 
+        window.render = render;
         window.addEventListener('load', render);
     </script>
 </body>
