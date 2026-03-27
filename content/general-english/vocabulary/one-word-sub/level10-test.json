@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Q.1 A period when normal government is suspended, especially between successive reigns.",
+    "options": ["Interregnum", "Ad hoc", "Status quo", "Amnesty"],
+    "answer": "Interregnum",
+    "explanation": "Interregnum is the gap between rulers.\nAd hoc is for a specific purpose.\nStatus quo is the current state.\nAmnesty is a pardon."
+  },
+  {
+    "question": "Q.2 A solution or remedy for all difficulties or diseases.",
+    "options": ["Panacea", "Antidote", "Vaccine", "Placebo"],
+    "answer": "Panacea",
+    "explanation": "Panacea is a cure-all.\nAntidote neutralizes poison.\nVaccine prevents disease.\nPlacebo is a harmless pill."
+  },
+  {
+    "question": "Q.3 A person who can endure pain or hardship without showing their feelings or complaining.",
+    "options": ["Stoic", "Ascetic", "Hedonist", "Epicure"],
+    "answer": "Stoic",
+    "explanation": "Stoic is indifferent to pain/pleasure.\nAscetic avoids all pleasures.\nHedonist seeks only pleasure.\nEpicure enjoys fine food."
+  },
+  {
+    "question": "Q.4 Lasting for a very short time.",
+    "options": ["Ephemeral", "Eternal", "Perpetual", "Endless"],
+    "answer": "Ephemeral",
+    "explanation": "Ephemeral is short-lived.\nEternal lasts forever.\nPerpetual is never-ending."
+  },
+  {
+    "question": "Q.5 To officially declare someone not guilty of a crime or wrongdoing.",
+    "options": ["Exonerate", "Extradite", "Incriminate", "Convict"],
+    "answer": "Exonerate",
+    "explanation": "Exonerate clears blame.\nExtradite sends a criminal abroad.\nIncriminate makes one look guilty.\nConvict declares one guilty."
+  },
+  {
+    "question": "Q.6 A thing belonging to a period other than that in which it exists.",
+    "options": ["Anachronism", "Archive", "Antique", "Legacy"],
+    "answer": "Anachronism",
+    "explanation": "Anachronism is a chronological error.\nArchive stores records.\nAntique is an old object.\nLegacy is an inheritance."
+  },
+  {
+    "question": "Q.7 The existing state of affairs, especially regarding social or political issues.",
+    "options": ["Status quo", "Interregnum", "Quorum", "Mala fide"],
+    "answer": "Status quo",
+    "explanation": "Status quo means keeping things as they are.\nInterregnum is a gap in power.\nQuorum is minimum attendance.\nMala fide means bad faith."
+  },
+  {
+    "question": "Q.8 Dislike of or prejudice against people from other countries.",
+    "options": ["Xenophobia", "Acrophobia", "Hydrophobia", "Zoophobia"],
+    "answer": "Xenophobia",
+    "explanation": "Xenophobia is hatred of foreigners.\nAcrophobia is fear of heights.\nHydrophobia is fear of water.\nZoophobia is fear of animals."
+  },
+  {
+    "question": "Q.9 A fictitious name, especially one used by an author.",
+    "options": ["Pseudonym", "Incognito", "Alias", "Epitaph"],
+    "answer": "Pseudonym",
+    "explanation": "Pseudonym is a pen name.\nIncognito means hidden identity.\nAlias is a false name.\nEpitaph is on a tombstone."
+  },
+  {
+    "question": "Q.10 A student who stays away from school without leave or explanation.",
+    "options": ["Truant", "Novice", "Veteran", "Itinerant"],
+    "answer": "Truant",
+    "explanation": "Truant skips school.\nNovice is a beginner.\nVeteran is experienced.\nItinerant travels for work."
+  },
+  {
+    "question": "Q.11 A harsh, discordant mixture of sounds.",
+    "options": ["Cacophony", "Elocution", "Monologue", "Rhetoric"],
+    "answer": "Cacophony",
+    "explanation": "Cacophony is unpleasant noise.\nElocution is clear speech.\nMonologue is a solo speech.\nRhetoric is persuasive speech."
+  },
+  {
+    "question": "Q.12 A person displaying aggressive or exaggerated patriotism or group loyalty.",
+    "options": ["Chauvinist", "Iconoclast", "Misanthrope", "Philanthropist"],
+    "answer": "Chauvinist",
+    "explanation": "Chauvinist is a blind loyalist.\nIconoclast breaks traditions.\nMisanthrope hates humans.\nPhilanthropist loves humans."
+  },
+  {
+    "question": "Q.13 A person who cultivates an area of interest without real commitment or knowledge.",
+    "options": ["Dilettante", "Connoisseur", "Gourmand", "Linguist"],
+    "answer": "Dilettante",
+    "explanation": "Dilettante is a superficial hobbyist.\nConnoisseur is an expert judge.\nGourmand is a glutton.\nLinguist knows languages."
+  },
+  {
+    "question": "Q.14 The skill of clear and expressive speech, especially of distinct pronunciation.",
+    "options": ["Elocution", "Ambiguous", "Obsolete", "Pseudonym"],
+    "answer": "Elocution",
+    "explanation": "Elocution is the art of public speaking.\nAmbiguous is unclear.\nObsolete is out of date.\nPseudonym is a fake name."
+  },
+  {
+    "question": "Q.15 A phrase or form of words written in memory of a person who has died, especially on a tombstone.",
+    "options": ["Epitaph", "Obituary", "Monologue", "Archives"],
+    "answer": "Epitaph",
+    "explanation": "Epitaph is on a tomb.\nObituary is a death notice.\nMonologue is a solo speech.\nArchives are records."
+  },
+  {
+    "question": "Q.16 A person who enjoys eating and often eats too much.",
+    "options": ["Gourmand", "Hedonist", "Epicure", "Teetotaller"],
+    "answer": "Gourmand",
+    "explanation": "Gourmand is a glutton.\nHedonist seeks pleasure.\nEpicure enjoys luxury.\nTeetotaller avoids alcohol."
+  },
+  {
+    "question": "Q.17 A person who believes that the pursuit of pleasure is the most important thing in life.",
+    "options": ["Hedonist", "Stoic", "Ascetic", "Fastidious"],
+    "answer": "Hedonist",
+    "explanation": "Hedonist lives for pleasure.\nStoic is indifferent to pain.\nAscetic is self-denying.\nFastidious is picky."
+  },
+  {
+    "question": "Q.18 A person who is abnormally anxious about their health.",
+    "options": ["Hypochondriac", "Narcissist", "Misanthrope", "Egoist"],
+    "answer": "Hypochondriac",
+    "explanation": "Hypochondriac worries about illness.\nNarcissist admires self.\nMisanthrope hates people.\nEgoist is selfish."
+  },
+  {
+    "question": "Q.19 Having one's true identity concealed.",
+    "options": ["Incognito", "Anonymous", "Omnipresent", "Invisible"],
+    "answer": "Incognito",
+    "explanation": "Incognito is a hidden identity.\nAnonymous has no name.\nOmnipresent is everywhere.\nInvisible cannot be seen."
+  },
+  {
+    "question": "Q.20 A person who travels from place to place, typically for work.",
+    "options": ["Itinerant", "Truant", "Fugitive", "Imposter"],
+    "answer": "Itinerant",
+    "explanation": "Itinerant is a traveling worker.\nTruant skips school.\nFugitive runs from law.\nImposter is a fraud."
+  },
+  {
+    "question": "Q.21 The most important work of an artist, writer, or composer.",
+    "options": ["Magnum Opus", "Portfolio", "Manuscript", "Script"],
+    "answer": "Magnum Opus",
+    "explanation": "Magnum Opus is a masterpiece.\nPortfolio is a work collection.\nManuscript is hand-written.\nScript is a text for a play."
+  },
+  {
+    "question": "Q.22 Carried out in bad faith; dishonest intent.",
+    "options": ["Mala fide", "Bona fide", "Ad hoc", "Status quo"],
+    "answer": "Mala fide",
+    "explanation": "Mala fide means bad faith.\nBona fide means good faith.\nAd hoc is for a purpose.\nStatus quo is the current state."
+  },
+  {
+    "question": "Q.23 No longer produced or used; out of date.",
+    "options": ["Obsolete", "Contemporary", "Ancient", "Modern"],
+    "answer": "Obsolete",
+    "explanation": "Obsolete is out of style/use.\nContemporary is current.\nAncient is very old.\nModern is current."
+  },
+  {
+    "question": "Q.24 A relationship that is purely spiritual and not physical.",
+    "options": ["Platonic", "Romantic", "Domestic", "Consanguinity"],
+    "answer": "Platonic",
+    "explanation": "Platonic is non-physical.\nRomantic involves love.\nDomestic involves home.\nConsanguinity is blood relation."
+  },
+  {
+    "question": "Q.25 The minimum number of members that must be present to make a meeting's proceedings valid.",
+    "options": ["Quorum", "Agenda", "Minutes", "Consensus"],
+    "answer": "Quorum",
+    "explanation": "Quorum is required attendance.\nAgenda is a list of items.\nMinutes are meeting notes.\nConsensus is general agreement."
+  },
+  {
+    "question": "Q.26 A person who lends money at unreasonably high rates of interest.",
+    "options": ["Usurer", "Insolvent", "Mercenary", "Pauper"],
+    "answer": "Usurer",
+    "explanation": "Usurer charges high interest.\nInsolvent cannot pay debts.\nMercenary works for money.\nPauper is a poor person."
+  },
+  {
+    "question": "Q.27 A decision on an issue of fact in a civil or criminal case.",
+    "options": ["Verdict", "Indictment", "Accusation", "Plea"],
+    "answer": "Verdict",
+    "explanation": "Verdict is a final judgment.\nIndictment is a formal charge.\nAccusation is a claim of guilt.\nPlea is an answer to a charge."
+  },
+  {
+    "question": "Q.28 A nation or person engaged in war or conflict.",
+    "options": ["Belligerent", "Pacifist", "Chauvinist", "Martyr"],
+    "answer": "Belligerent",
+    "explanation": "Belligerent is warring.\nPacifist believes in peace.\nChauvinist is a blind loyalist.\nMartyr dies for a cause."
+  },
+  {
+    "question": "Q.29 The scientific study of animals.",
+    "options": ["Zoology", "Botany", "Anthropology", "Entomology"],
+    "answer": "Zoology",
+    "explanation": "Zoology is animal study.\nBotany is plant study.\nAnthropology is human study.\nEntomology is insect study."
+  },
+  {
+    "question": "Q.30 A sentence or statement that has a double meaning.",
+    "options": ["Ambiguous", "Explicit", "Infallible", "Inevitable"],
+    "answer": "Ambiguous",
+    "explanation": "Ambiguous is unclear.\nExplicit is clear.\nInfallible makes no mistakes.\nInevitable must happen."
+  }
+]
