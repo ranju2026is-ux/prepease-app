@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Q.1 The school, college, or university that one once attended.",
+    "options": ["Ad hoc", "Alma Mater", "Interregnum", "Status quo"],
+    "answer": "Alma Mater",
+    "explanation": "Alma Mater is the institution you graduated from.\nAd hoc means created for a specific, temporary purpose.\nInterregnum is a gap between two successive governments/reigns.\nStatus quo is the existing state of affairs."
+  },
+  {
+    "question": "Q.2 Words written on a tomb in memory of the person buried there.",
+    "options": ["Epitaph", "Pseudonym", "Anecdote", "Caricature"],
+    "answer": "Epitaph",
+    "explanation": "Epitaph is an inscription on a tombstone.\nPseudonym is a fake name used by an author (pen name).\nAnecdote is a short, interesting story about a real event.\nCaricature is a picture that exaggerates a person's features for comedy."
+  },
+  {
+    "question": "Q.3 A fictitious name, especially one used by an author.",
+    "options": ["Incognito", "Pseudonym", "Alma Mater", "Chauvinist"],
+    "answer": "Pseudonym",
+    "explanation": "Pseudonym (pseudo=false, onyma=name) is a writer's pen name.\nIncognito refers to having one's true identity concealed while traveling.\nAlma Mater is one's former school.\nChauvinist is someone with exaggerated or aggressive patriotism."
+  },
+  {
+    "question": "Q.4 A person who travels from place to place.",
+    "options": ["Itinerant", "Hedonist", "Iconoclast", "Belligerent"],
+    "answer": "Itinerant",
+    "explanation": "Itinerant is a person who travels from place to place, usually for work.\nHedonist believes that pleasure is the most important thing in life.\nIconoclast attacks settled beliefs or traditional institutions.\nBelligerent is a person or nation engaged in war."
+  },
+  {
+    "question": "Q.5 To officially absolve someone from blame or a charge.",
+    "options": ["Exonerate", "Extradite", "Expose", "Execute"],
+    "answer": "Exonerate",
+    "explanation": "Exonerate means to officially declare someone not guilty.\nExtradite is to hand over a criminal to the country where the crime occurred.\nExpose is to reveal something hidden.\nExecute is to carry out a death sentence or a plan."
+  },
+  {
+    "question": "Q.6 A sentence or statement that has a double meaning.",
+    "options": ["Obsolete", "Ambiguous", "Anachronism", "Amnesia"],
+    "answer": "Ambiguous",
+    "explanation": "Ambiguous means open to more than one interpretation (unclear).\nObsolete is something no longer produced or used (out of date).\nAnachronism is something out of its proper chronological time.\nAmnesia is a medical condition involving loss of memory."
+  },
+  {
+    "question": "Q.7 A person who believes that the pursuit of pleasure is the most important thing.",
+    "options": ["Hypochondriac", "Hedonist", "Gourmand", "Versatile"],
+    "answer": "Hedonist",
+    "explanation": "Hedonist seeks sensory pleasure above all else.\nHypochondriac is someone abnormally anxious about their health.\nGourmand is a person who enjoys eating and often eats too much.\nVersatile describes someone able to adapt to many different functions."
+  },
+  {
+    "question": "Q.8 No longer produced or used; out of date.",
+    "options": ["Ad hoc", "Obsolete", "De facto", "Platonic"],
+    "answer": "Obsolete",
+    "explanation": "Obsolete refers to outdated technology or ideas.\nAd hoc means created for a specific purpose only.\nDe facto means existing in fact, whether legally recognized or not.\nPlatonic refers to a relationship that is spiritual and not physical."
+  },
+  {
+    "question": "Q.9 A short, interesting story about a real person or event.",
+    "options": ["Anecdote", "Monologue", "Elocution", "Cacophony"],
+    "answer": "Anecdote",
+    "explanation": "Anecdote is a brief account of a real incident.\nMonologue is a long speech by one person in a play.\nElocution is the skill of clear and expressive speech.\nCacophony is a harsh, discordant mixture of sounds."
+  },
+  {
+    "question": "Q.10 Partial or total loss of memory.",
+    "options": ["Amnesia", "Anachronism", "Ambiguous", "Xenophobia"],
+    "answer": "Amnesia",
+    "explanation": "Amnesia is the medical term for memory loss.\nAnachronism is an error in time sequence.\nAmbiguous is having a double meaning.\nXenophobia is a dislike of or prejudice against people from other countries."
+  },
+  {
+    "question": "Q.11 One who attacks settled beliefs or institutions.",
+    "options": ["Iconoclast", "Chauvinist", "Belligerent", "Itinerant"],
+    "answer": "Iconoclast",
+    "explanation": "Iconoclast challenges traditional ideas or rules.\nChauvinist is a person with exaggerated group loyalty or patriotism.\nBelligerent is someone engaged in a conflict or war.\nItinerant is a person who travels from place to place."
+  },
+  {
+    "question": "Q.12 Harsh, discordant mixture of sounds.",
+    "options": ["Elocution", "Cacophony", "Monologue", "Anecdote"],
+    "answer": "Cacophony",
+    "explanation": "Cacophony refers to unpleasant, jarring noises.\nElocution is the art of clear public speaking.\nMonologue is a solo speech in drama.\nAnecdote is a short real-life story."
+  },
+  {
+    "question": "Q.13 A relationship that is purely spiritual and not physical.",
+    "options": ["Platonic", "Incognito", "Itinerant", "Versatile"],
+    "answer": "Platonic",
+    "explanation": "Platonic is a non-sexual, purely spiritual friendship.\nIncognito means having one's true identity concealed.\nItinerant refers to a traveler.\nVersatile means able to perform many different tasks."
+  },
+  {
+    "question": "Q.14 A picture of a person with exaggerated features for comic effect.",
+    "options": ["Caricature", "Epitaph", "Anecdote", "Pseudonym"],
+    "answer": "Caricature",
+    "explanation": "Caricature is a comic or satirical drawing of a person.\nEpitaph is an inscription on a tomb.\nAnecdote is a short story.\nPseudonym is a fictitious name."
+  },
+  {
+    "question": "Q.15 A period between two successive reigns.",
+    "options": ["Ad hoc", "Interregnum", "Status quo", "De facto"],
+    "answer": "Interregnum",
+    "explanation": "Interregnum is the gap when normal government is suspended between rulers.\nAd hoc means temporary for a specific purpose.\nStatus quo is the current state of things.\nDe facto means in reality, though perhaps not legally."
+  },
+  {
+    "question": "Q.16 One who is engaged in war or conflict.",
+    "options": ["Belligerent", "Pacifist", "Chauvinist", "Martyr"],
+    "answer": "Belligerent",
+    "explanation": "Belligerent is an aggressive or warring party.\nPacifist believes that war and violence are unjustifiable.\nChauvinist is a person with exaggerated patriotism.\nMartyr is someone who dies for a noble cause."
+  },
+  {
+    "question": "Q.17 One who is abnormally anxious about their health.",
+    "options": ["Gourmand", "Hypochondriac", "Hedonist", "Itinerant"],
+    "answer": "Hypochondriac",
+    "explanation": "Hypochondriac constantly worries about having an undiagnosed illness.\nGourmand is a glutton (eats too much).\nHedonist lives for pleasure.\nItinerant travels from place to place."
+  },
+  {
+    "question": "Q.18 Dislike of or prejudice against people from other countries.",
+    "options": ["Xenophobia", "Amnesia", "Agoraphobia", "Acrophobia"],
+    "answer": "Xenophobia",
+    "explanation": "Xenophobia (xeno=stranger/foreign) is hatred of foreigners.\nAmnesia is memory loss.\nAgoraphobia is fear of open or crowded spaces.\nAcrophobia is fear of heights."
+  },
+  {
+    "question": "Q.19 Done for a particular purpose only.",
+    "options": ["Ad hoc", "Alma Mater", "Status quo", "Mala fide"],
+    "answer": "Ad hoc",
+    "explanation": "Ad hoc is a temporary solution for a specific problem.\nAlma Mater is one's former school.\nStatus quo is the existing state.\nMala fide means carried out in bad faith (dishonest)."
+  },
+  {
+    "question": "Q.20 In fact, whether by right or not.",
+    "options": ["De facto", "Bon voyage", "Ad hoc", "Incognito"],
+    "answer": "De facto",
+    "explanation": "De facto describes something that is true in practice (e.g., a de facto leader).\nBon voyage is a wish for a good journey.\nAd hoc is for a specific purpose.\nIncognito is with a hidden identity."
+  },
+  {
+    "question": "Q.21 Having one's true identity concealed.",
+    "options": ["Incognito", "Pseudonym", "Alma Mater", "De facto"],
+    "answer": "Incognito",
+    "explanation": "Incognito is an adjective describing a secret identity.\nPseudonym is the fake name itself.\nAlma Mater is an old school.\nDe facto means in reality."
+  },
+  {
+    "question": "Q.22 Something out of its proper time.",
+    "options": ["Anachronism", "Ambiguous", "Obsolete", "Amnesia"],
+    "answer": "Anachronism",
+    "explanation": "Anachronism is a chronological error (e.g., a wristwatch in a movie about Ancient Rome).\nAmbiguous has double meanings.\nObsolete is no longer used.\nAmnesia is memory loss."
+  },
+  {
+    "question": "Q.23 The skill of clear and expressive speech.",
+    "options": ["Elocution", "Cacophony", "Anecdote", "Monologue"],
+    "answer": "Elocution",
+    "explanation": "Elocution is the art of distinct pronunciation and delivery.\nCacophony is harsh noise.\nAnecdote is a real-life story.\nMonologue is a solo speech."
+  },
+  {
+    "question": "Q.24 One who enjoys eating and often eats too much.",
+    "options": ["Gourmand", "Hedonist", "Hypochondriac", "Versatile"],
+    "answer": "Gourmand",
+    "explanation": "Gourmand is a person who takes great pleasure in food (glutton).\nHedonist pursues pleasure generally.\nHypochondriac worries about health.\nVersatile is multi-talented."
+  },
+  {
+    "question": "Q.25 Able to adapt to many different functions.",
+    "options": ["Versatile", "Platonic", "Itinerant", "Incognito"],
+    "answer": "Versatile",
+    "explanation": "Versatile means flexible or having many skills.\nPlatonic is spiritual/non-physical.\nItinerant is a traveler.\nIncognito is hidden identity."
+  },
+  {
+    "question": "Q.26 Carried out in bad faith.",
+    "options": ["Mala fide", "De facto", "Ad hoc", "Status quo"],
+    "answer": "Mala fide",
+    "explanation": "Mala fide (Latin for 'bad faith') means with intent to deceive.\nDe facto is in practice.\nAd hoc is for a specific purpose.\nStatus quo is the current state."
+  },
+  {
+    "question": "Q.27 To hand over an accused person to another state.",
+    "options": ["Extradite", "Exonerate", "Execute", "Export"],
+    "answer": "Extradite",
+    "explanation": "Extradite is the legal process of transferring a criminal.\nExonerate is to clear from blame.\nExecute is to carry out a task or death sentence.\nExport is to send goods abroad."
+  },
+  {
+    "question": "Q.28 The existing state of affairs.",
+    "options": ["Status quo", "Ad hoc", "Bon voyage", "Interregnum"],
+    "answer": "Status quo",
+    "explanation": "Status quo is keeping things as they are.\nAd hoc is temporary/specific.\nBon voyage is a farewell wish.\nInterregnum is a gap between reigns."
+  },
+  {
+    "question": "Q.29 Express good wishes for a journey.",
+    "options": ["Bon voyage", "Alma Mater", "Epitaph", "Elocution"],
+    "answer": "Bon voyage",
+    "explanation": "Bon voyage is used to say 'have a good trip'.\nAlma Mater is your former school.\nEpitaph is a tomb inscription.\nElocution is speech delivery."
+  },
+  {
+    "question": "Q.30 A person displaying exaggerated patriotic loyalty.",
+    "options": ["Chauvinist", "Iconoclast", "Belligerent", "Itinerant"],
+    "answer": "Chauvinist",
+    "explanation": "Chauvinist is a person with biased/blind loyalty to their group/nation.\nIconoclast attacks beliefs.\nBelligerent is warring.\nItinerant is a traveler."
+  }
+]
