@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Q.1 A written statement confirmed by oath for use as evidence in court.",
+    "options": ["Affidavit", "Injunction", "Indictment", "Verdict"],
+    "answer": "Affidavit",
+    "explanation": "Affidavit is a legal written oath.\nInjunction is a court order to stop an action.\nIndictment is a formal charge of a crime.\nVerdict is the final decision in a case."
+  },
+  {
+    "question": "Q.2 Theft or misappropriation of funds placed in one's trust.",
+    "options": ["Larceny", "Embezzlement", "Treason", "Nepotism"],
+    "answer": "Embezzlement",
+    "explanation": "Embezzlement is stealing money you were supposed to manage.\nLarceny is general theft of personal property.\nTreason is betraying one's country.\nNepotism is favoring relatives in jobs."
+  },
+  {
+    "question": "Q.3 An official pardon for people who have been convicted of political offenses.",
+    "options": ["Amnesty", "Adjudicate", "Quorum", "Plebiscite"],
+    "answer": "Amnesty",
+    "explanation": "Amnesty is a general pardon for political crimes.\nAdjudicate means to act as a judge in a dispute.\nQuorum is the minimum members needed for a meeting.\nPlebiscite is a direct vote of all people on a question."
+  },
+  {
+    "question": "Q.4 The practice among those with power of favoring relatives or friends.",
+    "options": ["Diplomacy", "Nepotism", "Consanguinity", "Bureaucracy"],
+    "answer": "Nepotism",
+    "explanation": "Nepotism is giving jobs/favors to family members.\nDiplomacy is managing international relations.\nConsanguinity is being related by blood.\nBureaucracy is a government run by officials."
+  },
+  {
+    "question": "Q.5 The offense of willfully telling an untruth in a court after taking an oath.",
+    "options": ["Perjury", "Libel", "Slander", "Indictment"],
+    "answer": "Perjury",
+    "explanation": "Perjury is lying in court.\nLibel is damaging a reputation in writing.\nSlander is damaging a reputation by speaking.\nIndictment is a formal legal accusation."
+  },
+  {
+    "question": "Q.6 A mass departure of people.",
+    "options": ["Exodus", "Immigration", "Emigration", "Interregnum"],
+    "answer": "Exodus",
+    "explanation": "Exodus is a large-scale departure.\nImmigration is moving into a new country.\nEmigration is leaving one's own country.\nInterregnum is a gap between two governments."
+  },
+  {
+    "question": "Q.7 The official power to make legal decisions and judgments.",
+    "options": ["Jurisdiction", "Adjudicate", "Indictment", "Verdict"],
+    "answer": "Jurisdiction",
+    "explanation": "Jurisdiction is the legal area or power of a court.\nAdjudicate is the act of judging.\nIndictment is a formal charge.\nVerdict is the final judgment."
+  },
+  {
+    "question": "Q.8 A person who brings a case against another in a court of law.",
+    "options": ["Plaintiff", "Bigot", "Arbitrator", "Linguist"],
+    "answer": "Plaintiff",
+    "explanation": "Plaintiff is the one who sues.\nBigot is a narrow-minded person.\nArbitrator is a neutral person solving a dispute.\nLinguist is an expert in languages."
+  },
+  {
+    "question": "Q.9 A published false statement that is damaging to a person's reputation.",
+    "options": ["Slander", "Libel", "Affidavit", "Perjury"],
+    "answer": "Libel",
+    "explanation": "Libel is written defamation.\nSlander is spoken defamation.\nAffidavit is a written oath.\nPerjury is lying under oath."
+  },
+  {
+    "question": "Q.10 The minimum number of members of an assembly that must be present to make its proceedings valid.",
+    "options": ["Quorum", "Unanimous", "Consanguinity", "Bureaucracy"],
+    "answer": "Quorum",
+    "explanation": "Quorum is the required minimum attendance.\nUnanimous is when everyone agrees.\nConsanguinity is blood relationship.\nBureaucracy is government by officials."
+  },
+  {
+    "question": "Q.11 The crime of betraying one's country.",
+    "options": ["Treason", "Homicide", "Fratricide", "Embezzlement"],
+    "answer": "Treason",
+    "explanation": "Treason is acting against your nation.\nHomicide is killing a person.\nFratricide is killing a brother.\nEmbezzlement is financial theft of trust."
+  },
+  {
+    "question": "Q.12 A decision on an issue of fact in a civil or criminal case.",
+    "options": ["Verdict", "Indictment", "Injunction", "Affidavit"],
+    "answer": "Verdict",
+    "explanation": "Verdict is the final court decision.\nIndictment is the formal accusation.\nInjunction is a court warning/order.\nAffidavit is a written oath."
+  },
+  {
+    "question": "Q.13 A charge of misconduct made against the holder of a public office.",
+    "options": ["Impeachment", "Referendum", "Plebiscite", "Indictment"],
+    "answer": "Impeachment",
+    "explanation": "Impeachment is for high officials like Presidents.\nReferendum is a public vote on a law.\nPlebiscite is a vote on an important public question.\nIndictment is a general formal charge."
+  },
+  {
+    "question": "Q.14 A large and important work of art, music, or literature.",
+    "options": ["Magnum Opus", "Archives", "Portfolio", "Manuscript"],
+    "answer": "Magnum Opus",
+    "explanation": "Magnum Opus is an artist's masterpiece.\nArchives are historical records.\nPortfolio is a collection of work.\nManuscript is a hand-written book."
+  },
+  {
+    "question": "Q.15 Easily persuaded to believe something; credulous.",
+    "options": ["Gullible", "Bigot", "Teetotaller", "Ascetic"],
+    "answer": "Gullible",
+    "explanation": "Gullible is a naive/easily fooled person.\nBigot is a prejudiced person.\nTeetotaller avoids alcohol.\nAscetic lives a simple life for religion."
+  },
+  {
+    "question": "Q.16 An authoritative warning or order from a court to do or not do something.",
+    "options": ["Injunction", "Verdict", "Indictment", "Jurisdiction"],
+    "answer": "Injunction",
+    "explanation": "Injunction is a 'stay order' or warning.\nVerdict is the decision.\nIndictment is the accusation.\nJurisdiction is the court's power area."
+  },
+  {
+    "question": "Q.17 The profession or skill of managing international relations.",
+    "options": ["Diplomacy", "Bureaucracy", "Nepotism", "Jurisdiction"],
+    "answer": "Diplomacy",
+    "explanation": "Diplomacy is international relationship management.\nBureaucracy is government by officials.\nNepotism is favoritism to family.\nJurisdiction is legal power area."
+  },
+  {
+    "question": "Q.18 Theft of personal property.",
+    "options": ["Larceny", "Embezzlement", "Treason", "Indictment"],
+    "answer": "Larceny",
+    "explanation": "Larceny is basic theft of property.\nEmbezzlement is theft of trust money.\nTreason is betraying the country.\nIndictment is a court charge."
+  },
+  {
+    "question": "Q.19 A person who is obstinately or unreasonably attached to a belief.",
+    "options": ["Bigot", "Plaintiff", "Arbitrator", "Volunteer"],
+    "answer": "Bigot",
+    "explanation": "Bigot is an intolerant person.\nPlaintiff is the one who sues.\nArbitrator solves disputes.\nVolunteer works for free."
+  },
+  {
+    "question": "Q.20 A general vote by the electorate on a single political question referred for a direct decision.",
+    "options": ["Referendum", "Quorum", "Impeachment", "Exodus"],
+    "answer": "Referendum",
+    "explanation": "Referendum is a vote for a specific law.\nQuorum is attendance requirement.\nImpeachment is removing an official.\nExodus is a mass departure."
+  },
+  {
+    "question": "Q.21 The killing of one person by another.",
+    "options": ["Homicide", "Regicide", "Fratricide", "Infanticide"],
+    "answer": "Homicide",
+    "explanation": "Homicide is any human killing.\nRegicide is killing a king.\nFratricide is killing a brother.\nInfanticide is killing a baby."
+  },
+  {
+    "question": "Q.22 A system of government in which most decisions are taken by state officials.",
+    "options": ["Bureaucracy", "Diplomacy", "Autocracy", "Democracy"],
+    "answer": "Bureaucracy",
+    "explanation": "Bureaucracy involves state officials.\nDiplomacy involves international relations.\nAutocracy involves one ruler.\nDemocracy involves people's rule."
+  },
+  {
+    "question": "Q.23 The fact of being descended from the same ancestor.",
+    "options": ["Consanguinity", "Nepotism", "Affidavit", "Amnesty"],
+    "answer": "Consanguinity",
+    "explanation": "Consanguinity is related by birth.\nNepotism is favoritism to family.\nAffidavit is a legal oath.\nAmnesty is a political pardon."
+  },
+  {
+    "question": "Q.24 A formal charge or accusation of a serious crime.",
+    "options": ["Indictment", "Injunction", "Verdict", "Slander"],
+    "answer": "Indictment",
+    "explanation": "Indictment is the start of a serious legal case.\nInjunction is a stop order.\nVerdict is the final result.\nSlander is spoken defamation."
+  },
+  {
+    "question": "Q.25 A false spoken statement damaging to a person's reputation.",
+    "options": ["Slander", "Libel", "Perjury", "Affidavit"],
+    "answer": "Slander",
+    "explanation": "Slander is spoken defamation.\nLibel is written defamation.\nPerjury is lying in court.\nAffidavit is a legal document."
+  },
+  {
+    "question": "Q.26 A decision or vote held by everyone involved.",
+    "options": ["Unanimous", "Quorum", "Exodus", "Bigot"],
+    "answer": "Unanimous",
+    "explanation": "Unanimous means 100% agreement.\nQuorum is minimum attendance.\nExodus is mass leaving.\nBigot is a narrow-minded person."
+  },
+  {
+    "question": "Q.27 To make a formal judgment on a disputed matter.",
+    "options": ["Adjudicate", "Amnesty", "Homicide", "Impeachment"],
+    "answer": "Adjudicate",
+    "explanation": "Adjudicate is the act of a judge deciding.\nAmnesty is a pardon.\nHomicide is killing.\nImpeachment is charging an official."
+  },
+  {
+    "question": "Q.28 The direct vote of all the members of an electorate on an important public question.",
+    "options": ["Plebiscite", "Referendum", "Quorum", "Diplomacy"],
+    "answer": "Plebiscite",
+    "explanation": "Plebiscite is a vote by the people (like for independence).\nReferendum is usually for a specific law.\nQuorum is attendance requirement.\nDiplomacy is international relations."
+  },
+  {
+    "question": "Q.29 Within the jurisdiction of a court.",
+    "options": ["Cognizable", "Injunction", "Verdict", "Consanguinity"],
+    "answer": "Cognizable",
+    "explanation": "Cognizable means a court can legally hear it.\nInjunction is an order.\nVerdict is the result.\nConsanguinity is blood relation."
+  },
+  {
+    "question": "Q.30 The killing of one's brother or sister.",
+    "options": ["Fratricide", "Patricide", "Matricide", "Sororicide"],
+    "answer": "Fratricide",
+    "explanation": "Fratricide is for a brother/sister.\nPatricide is for a father.\nMatricide is for a mother.\nSororicide is for a sister."
+  }
+]
