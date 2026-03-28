@@ -1,152 +1,302 @@
 [
   {
-    "question": "Group 1: Identify the opposite of the 'Physical/Material' words: 'Noetic' (mental) and 'Sartorial' (clothing-related).",
-    "options": ["Bodily & Unstyled", "Intellectual & Fashionable", "Abstract & Tailored", "Cerebral & Chic"],
-    "answer": "Bodily & Unstyled",
-    "explanation": "Noetic (mind) vs Bodily (physical). Sartorial (dress/style) vs Unstyled (natural/unadorned)."
+    "question": "What is the SYNONYM of 'Alimentary'?",
+    "options": ["Poisonous", "Nourishing", "Fragmentary", "Non-nutritive"],
+    "answer": "Nourishing",
+    "explanation": "• **Nourishing**: Relating to sustenance or food. (Related: Alimentary, Sustaining). 🍎\n• **Non-nutritive**: Providing no nourishment. (Antonym). 🚫"
   },
   {
-    "question": "Group 2: Which words are the antonyms for 'Brobdingnagian' (huge) and 'Lilliputian' (tiny)?",
-    "options": ["Lilliputian & Brobdingnagian", "Colossal & Minute", "Gigantic & Microscopic", "Titanic & Small"],
-    "answer": "Lilliputian & Brobdingnagian",
-    "explanation": "These two Level 8 words are direct opposites of each other (Huge vs. Tiny)."
+    "question": "Which word describes 'coarsely abusive language'?",
+    "options": ["Panegyric", "Billingsgate", "Doxology", "Eulogy"],
+    "answer": "Billingsgate",
+    "explanation": "• **Billingsgate**: Coarsely abusive or foul language. (Related: Invective, Vituperation). 🤬\n• **Panegyric**: A public speech or published text in praise of someone. (Antonym). 📜"
   },
   {
-    "question": "Group 3: Choose the antonyms for 'Eleemosynary' (charitable) and 'Sybarite' (luxury-lover).",
-    "options": ["Mercenary & Ascetic", "Generous & Spartan", "Philanthropic & Hermit", "Greedy & Hedonist"],
-    "answer": "Mercenary & Ascetic",
-    "explanation": "Eleemosynary (charity) vs Mercenary (for profit). Sybarite (luxury) vs Ascetic (self-denial)."
+    "question": "Find the word that means 'wild and riotous behavior':",
+    "options": ["Sedate", "Placid", "Corybantic", "Orderly"],
+    "answer": "Corybantic",
+    "explanation": "• **Corybantic**: Wild; frenzied. (Related: Riotous, Unrestrained). 🕺\n• **Sedate**: Calm, dignified, and unhurried. (Antonym). 🧘"
   },
   {
-    "question": "Group 4: Match the opposites for 'Mellifluous' (sweet sound) and 'Billingsgate' (foul language).",
-    "options": ["Cacophonous & Panegyric", "Euphonious & Abuse", "Dulcet & Invective", "Harmonious & Slander"],
-    "answer": "Cacophonous & Panegyric",
-    "explanation": "Mellifluous vs Cacophonous (harsh noise). Billingsgate (abuse) vs Panegyric (high praise)."
+    "question": "A 'Demiurge' is a being responsible for:",
+    "options": ["Destroying the world", "Creating the universe", "Preaching a sermon", "Healing the sick"],
+    "answer": "Creating the universe",
+    "explanation": "• **Creating the universe**: A deity or creative power. (Related: Architect, Creator). 🌌\n• **Destroying the world**: Related to an Annihilator. (Antonym). 💥"
   },
   {
-    "question": "Group 5: What are the antonyms for 'Zenith' (top) and 'Nadir' (bottom)?",
-    "options": ["Nadir & Zenith", "Apex & Base", "Summit & Floor", "Peak & Abyss"],
-    "answer": "Nadir & Zenith",
-    "explanation": "Zenith (highest point) vs Nadir (lowest point). They are reciprocal antonyms."
+    "question": "What is the ANTONYM of 'Eleemosynary'?",
+    "options": ["Charitable", "Benevolent", "Mercenary", "Philanthropic"],
+    "answer": "Mercenary",
+    "explanation": "• **Mercenary**: Primarily concerned with making money at the expense of ethics. (Antonym). 💰\n• **Charitable**: Relating to the assistance of those in need. (Synonym). 🤝"
   },
   {
-    "question": "Group 6: If 'Inchoate' means unformed and 'Nascent' means emerging, their opposites are:",
-    "options": ["Mature & Withering", "Initial & Dying", "Amorphous & Fading", "Developed & Growing"],
-    "answer": "Mature & Withering",
-    "explanation": "Inchoate vs Mature (fully formed). Nascent (beginning) vs Withering (ending/dying)."
+    "question": "To 'flash like lightning' is to ____:",
+    "options": ["Fulgurate", "Extinguish", "Quench", "Dull"],
+    "answer": "Fulgurate",
+    "explanation": "• **Fulgurate**: To emit flashes of light. (Related: Sparkle, Glitter). ⚡\n• **Extinguish**: To put out or quench a fire/light. (Antonym). 🧯"
   },
   {
-    "question": "Group 7: Identify the opposites of 'Ratiocination' (logic) and 'Thaumaturgy' (miracles).",
-    "options": ["Intuition & Science", "Reason & Magic", "Thinking & Wonder", "Logic & Fact"],
-    "answer": "Intuition & Science",
-    "explanation": "Ratiocination (calculated logic) vs Intuition. Thaumaturgy (magic) vs Science (natural law)."
+    "question": "Which field of study deals with the 'theory of knowledge'?",
+    "options": ["Numismatics", "Gnosiology", "Hagiography", "Zoology"],
+    "answer": "Gnosiology",
+    "explanation": "• **Gnosiology**: The philosophic theory of knowledge. (Related: Epistemology). 🧠\n• **Numismatics**: The study or collection of coins. 🪙"
   },
   {
-    "question": "Group 8: Find the opposites for 'Winsome' (charming) and 'Churlish' (rude).",
-    "options": ["Repulsive & Polite", "Attractive & Civil", "Sweet & Surly", "Cheerful & Gruff"],
-    "answer": "Repulsive & Polite",
-    "explanation": "Winsome (appealing) vs Repulsive. Churlish (boorish) vs Polite (civil)."
+    "question": "What does a 'Heliolater' worship?",
+    "options": ["The Moon", "The Sun", "Idols", "Ancient Saints"],
+    "answer": "The Sun",
+    "explanation": "• **The Sun**: Heliolatry is the worship of the sun. (Related: Solar worship). ☀️\n• **Moon**: Related to Selenolatry. 🌙"
   },
   {
-    "question": "Group 9: Which pair contains the antonyms for 'Velleity' (weak wish) and 'Abeyance' (suspension)?",
-    "options": ["Determination & Continuation", "Indecision & Pause", "Hesitation & Activity", "Willpower & Dormancy"],
-    "answer": "Determination & Continuation",
-    "explanation": "Velleity (no action) vs Determination. Abeyance (temporary stop) vs Continuation."
+    "question": "Something that is 'just begun and not fully formed' is:",
+    "options": ["Mature", "Finished", "Inchoate", "Developed"],
+    "answer": "Inchoate",
+    "explanation": "• **Inchoate**: Just begun and so not fully formed. (Related: Nascent, Embryonic). 🐣\n• **Mature**: Fully developed physically or mentally. (Antonym). 🌳"
   },
   {
-    "question": "Group 10: Match the opposites: 'Mendacious' (lying) and 'Unctuous' (fake/oily).",
-    "options": ["Veracious & Blunt", "Deceitful & Sincere", "Honest & Fawning", "Truthful & Sycophantic"],
-    "answer": "Veracious & Blunt",
-    "explanation": "Mendacious vs Veracious (truthful). Unctuous (insincere) vs Blunt (direct/honest)."
+    "question": "A person who is 'naive, simplistic, or uninteresting' is:",
+    "options": ["Sophisticated", "Jejune", "Profound", "Intelligent"],
+    "answer": "Jejune",
+    "explanation": "• **Jejune**: Simplistic and superficial. (Related: Insipid, Dull). 🌾\n• **Sophisticated**: Having a great deal of experience and worldly knowledge. (Antonym). 🤵"
   },
   {
-    "question": "Group 11: Find the antonyms for 'Piacular' (atoning) and 'Recreant' (unfaithful/coward).",
-    "options": ["Impenitent & Loyal", "Remorseful & Gallant", "Expiatory & Brave", "Sinful & Faithful"],
-    "answer": "Impenitent & Loyal",
-    "explanation": "Piacular (making amends) vs Impenitent (no regret). Recreant vs Loyal."
+    "question": "Something 'relating to religious preaching' is described as:",
+    "options": ["Secular", "Kerygmatic", "Profane", "Lay"],
+    "answer": "Kerygmatic",
+    "explanation": "• **Kerygmatic**: Relating to the preaching of the gospel. (Related: Evangelistic). 📜\n• **Secular**: Not connected with religious or spiritual matters. (Antonym). 🏢"
   },
   {
-    "question": "Group 12: Identify the opposites for 'Gallimaufry' (jumble) and 'Logomachy' (word-war).",
-    "options": ["Order & Agreement", "Medley & Concord", "Uniformity & Debate", "System & Dispute"],
-    "answer": "Order & Agreement",
-    "explanation": "Gallimaufry (mess) vs Order. Logomachy (argument over words) vs Agreement."
+    "question": "What is the SYNONYM of 'Lilliputian'?",
+    "options": ["Gigantic", "Tiny", "Colossal", "Enormous"],
+    "answer": "Tiny",
+    "explanation": "• **Tiny**: Extremely small. (Related: Minuscule). 🐜\n• **Gigantic**: Of very great size or substance. (Antonym). 🦕"
   },
   {
-    "question": "Group 13: What are the antonyms for 'Alimentary' (nourishing) and 'Fulgurate' (flash like lightning)?",
-    "options": ["Inanition & Extinguish", "Food & Darken", "Nutrition & Quench", "Starvation & Glow"],
-    "answer": "Inanition & Extinguish",
-    "explanation": "Alimentary vs Inanition (lack of food). Fulgurate (flash) vs Extinguish (put out light)."
+    "question": "A 'Mountebank' is a person who:",
+    "options": ["Tells the truth", "Deceives others", "Heals people", "Studies stars"],
+    "answer": "Deceives others",
+    "explanation": "• **Deceives others**: A person who tricks others out of money. (Related: Charlatan, Fraud). 👺\n• **Heals people**: A genuine doctor or physician. (Antonym). 🩺"
   },
   {
-    "question": "Group 14: Choose the opposites for 'Quiescent' (still) and 'Corybantic' (wild/riotous).",
-    "options": ["Active & Sedate", "Restless & Calm", "Animated & Placid", "Vibrant & Orderly"],
-    "answer": "Active & Sedate",
-    "explanation": "Quiescent (inactive) vs Active. Corybantic (wild) vs Sedate (calm/composed)."
+    "question": "Which word relates to 'mental activity or the intellect'?",
+    "options": ["Physical", "Noetic", "Sensual", "Bodily"],
+    "answer": "Noetic",
+    "explanation": "• **Noetic**: Relating to mental activity or the intellect. (Related: Intellectual, Rational). 📖\n• **Physical**: Relating to the body as opposed to the mind. (Antonym). 💪"
   },
   {
-    "question": "Group 15: Identify the opposites of 'Hagiography' (idealized bio) and 'Jeremiad' (mournful complaint).",
-    "options": ["Obloquy & Paean", "Biography & Eulogy", "Criticism & Rejoicing", "Defamation & Celebration"],
-    "answer": "Obloquy & Paean",
-    "explanation": "Hagiography (excessive praise) vs Obloquy (criticism). Jeremiad (complaint) vs Paean (song of triumph)."
+    "question": "What is the meaning of 'Omphalos'?",
+    "options": ["Periphery", "Central point", "Edge", "Boundary"],
+    "answer": "Central point",
+    "explanation": "• **Central point**: The hub or navel of something. (Related: Focus, Center). 🎯\n• **Periphery**: The outer limits or edge of an area. (Antonym). ⭕"
   },
   {
-    "question": "Group 16: What is the opposite of 'Omphalos' (center) and 'Idiosyncrasy' (unique trait)?",
-    "options": ["Periphery & Normality", "Hub & Commonality", "Edge & Generality", "Boundary & Standard"],
-    "answer": "Periphery & Normality",
-    "explanation": "Omphalos (center) vs Periphery (edge). Idiosyncrasy (quirk) vs Normality."
+    "question": "An act 'intended to make expiation or atonement' is:",
+    "options": ["Piacular", "Sinful", "Blameworthy", "Unrepentant"],
+    "answer": "Piacular",
+    "explanation": "• **Piacular**: Making expiation; atoning. (Related: Expiatory, Repentant). 🙏\n• **Impenitent**: Not feeling shame or regret about one's sins. (Antonym). 👺"
   },
   {
-    "question": "Group 17: Find the antonyms for 'Demiurge' (creator) and 'Ylem' (primordial matter).",
-    "options": ["Destroyer & Void", "Creature & Result", "Annihilator & Conclusion", "Maker & End-product"],
-    "answer": "Destroyer & Void",
-    "explanation": "Demiurge (creator) vs Destroyer. Ylem (the 'stuff' of the beginning) vs Void (nothingness)."
+    "question": "What is 'Quiddity'?",
+    "options": ["Superficiality", "Exterior appearance", "Inherent essence", "Outer layer"],
+    "answer": "Inherent essence",
+    "explanation": "• **Inherent essence**: The real nature of a thing. (Related: Core, Essence). 🧪\n• **Appearance**: The way that someone or something looks. (Antonym). 🎭"
   },
   {
-    "question": "Group 18: Match the opposites for 'Kerygmatic' (religious preaching) and 'Doxology' (hymn of praise).",
-    "options": ["Secular & Anathema", "Sacred & Blasphemy", "Profane & Curse", "Lay & Denunciation"],
-    "answer": "Secular & Anathema",
-    "explanation": "Kerygmatic (religious) vs Secular. Doxology (praise to God) vs Anathema (a formal curse)."
+    "question": "The process of 'exact thinking or logical reasoning' is:",
+    "options": ["Guesswork", "Ratiocination", "Intuition", "Instinct"],
+    "answer": "Ratiocination",
+    "explanation": "• **Ratiocination**: The process of exact thinking. (Related: Logic, Reason). 🧩\n• **Intuition**: The ability to understand something instinctively. (Antonym). ✨"
   },
   {
-    "question": "Group 19: Identify the opposites for 'Wunderkind' (prodigy) and 'Abecedarian' (beginner).",
-    "options": ["Mediocrity & Professional", "Genius & Expert", "Dunce & Sophisticated", "Amateur & Advanced"],
-    "answer": "Mediocrity & Professional",
-    "explanation": "Wunderkind (exceptional child) vs Mediocrity. Abecedarian (novice) vs Professional/Expert."
+    "question": "Something 'relating to tailoring or clothes' is:",
+    "options": ["Sartorial", "Natural", "Unstyled", "Homespun"],
+    "answer": "Sartorial",
+    "explanation": "• **Sartorial**: Relating to tailoring, clothes, or style of dress. (Related: Tailored). 🧵\n• **Unstyled**: Not having a particular style or design. (Antonym). 👕"
   },
   {
-    "question": "Group 20: Choose the antonyms for 'Gnosiology' (theory of knowledge) and 'Clairvoyant' (far-seeing).",
-    "options": ["Nescience & Myopic", "Ignorance & Blind", "Illiteracy & Unseeing", "Folly & Ignorant"],
-    "answer": "Nescience & Myopic",
-    "explanation": "Gnosiology (knowledge) vs Nescience (lack of knowledge). Clairvoyant (seeing beyond) vs Myopic (near-sighted/blind)."
+    "question": "What does 'Thaumaturgy' involve?",
+    "options": ["Scientific research", "Working of miracles", "Manual labor", "Writing books"],
+    "answer": "Working of miracles",
+    "explanation": "• **Working of miracles**: The performance of miracles or magic. (Related: Wonder-working). 🪄\n• **Science**: The systematic study of the physical world. (Antonym). 🔬"
   },
   {
-    "question": "Group 21: Find the antonyms for 'Eudaemonic' (happiness-producing) and 'Jejune' (simplistic/dry).",
-    "options": ["Dolorous & Profound", "Miserable & Sophisticated", "Sorrowful & Complex", "Sad & Interesting"],
-    "answer": "Dolorous & Profound",
-    "explanation": "Eudaemonic (happy) vs Dolorous (full of sorrow). Jejune (simple/dry) vs Profound."
+    "question": "What is an 'Ucalegon'?",
+    "options": ["A safe neighbor", "A distant stranger", "A neighbor whose house is on fire", "A protector"],
+    "answer": "A neighbor whose house is on fire",
+    "explanation": "• **Neighbor in trouble**: A neighbor whose house is burning. (Literal origin from Virgil). 🏠\n• **Safe neighbor**: A neighbor not in danger. (Antonym). 🏘️"
   },
   {
-    "question": "Group 22: Match the opposites: 'Quiddity' (essence) and 'Fustian' (pompous talk).",
-    "options": ["Exterior & Simple", "Appearance & Plain", "Superficiality & Direct", "Surface & Concise"],
-    "answer": "Exterior & Simple",
-    "explanation": "Quiddity (inner essence) vs Exterior. Fustian (pompous) vs Simple."
+    "question": "A 'wish not strong enough to lead to action' is a:",
+    "options": ["Resolve", "Velleity", "Willpower", "Determination"],
+    "answer": "Velleity",
+    "explanation": "• **Velleity**: A slight wish or tendency. (Related: Inclination). 💭\n• **Resolve**: Firm determination to do something. (Antonym). 💪"
   },
   {
-    "question": "Group 23: Identify the opposite of 'Xanthic' (yellow) and 'Numismatic' (coin-related).",
-    "options": ["Cyanic & Non-monetary", "Melanic & Intangible", "Colorless & Spiritual", "Blue & Physical"],
-    "answer": "Cyanic & Non-monetary",
-    "explanation": "Xanthic (yellow) vs Cyanic (blue). Numismatic (coins) vs Non-monetary."
+    "question": "What is a 'Wunderkind'?",
+    "options": ["Late bloomer", "Amateur", "Child prodigy", "Mediocrity"],
+    "answer": "Child prodigy",
+    "explanation": "• **Child prodigy**: A person who achieves great success at a young age. (Related: Genius). 🎻\n• **Late bloomer**: A person whose talents are not visible until later in life. (Antonym). 🐢"
   },
   {
-    "question": "Group 24: What are the antonyms for 'Vituperative' (abusive) and 'Obloquy' (public shame)?",
-    "options": ["Laudatory & Honor", "Complimentary & Praise", "Praising & Commendation", "Adulatory & Adulation"],
-    "answer": "Laudatory & Honor",
-    "explanation": "Vituperative (abusive) vs Laudatory (praising). Obloquy (shame) vs Honor."
+    "question": "What color is something described as 'Xanthic'?",
+    "options": ["Blue", "Yellow", "Red", "Colorless"],
+    "answer": "Yellow",
+    "explanation": "• **Yellow**: Having a yellowish color. (Related: Golden, Saffron). 💛\n• **Cyanic**: Relating to a blue color. 💙"
   },
   {
-    "question": "Group 25: Final Match - Antonyms for 'Kismet' (fate) and 'Ziggurat' (tower/high point).",
-    "options": ["Free-will & Abyss", "Choice & Pit", "Design & Trench", "Accident & Flatland"],
-    "answer": "Free-will & Abyss",
-    "explanation": "Kismet (destiny) vs Free-will. Ziggurat (high tower) vs Abyss (bottomless pit)."
+    "question": "What is 'Ylem'?",
+    "options": ["Void", "Primordial matter", "Final product", "End result"],
+    "answer": "Primordial matter",
+    "explanation": "• **Primordial matter**: The basic substance from which elements were formed. (Related: Protyle). 🌌\n• **Void**: A completely empty space. (Antonym). 🕳️"
+  },
+  {
+    "question": "A 'Ziggurat' is a type of:",
+    "options": ["Deep pit", "Stepped tower", "Flat land", "Trench"],
+    "answer": "Stepped tower",
+    "explanation": "• **Stepped tower**: A rectangular stepped tower in ancient Mesopotamia. (Related: Temple). 🏛️\n• **Abyss**: A deep or seemingly bottomless chasm. (Antonym). 🌑"
+  },
+  {
+    "question": "An 'Abecedarian' is primarily a:",
+    "options": ["Expert", "Beginner", "Professional", "Sophisticated person"],
+    "answer": "Beginner",
+    "explanation": "• **Beginner**: A person who is just learning the basics of a subject. (Related: Novice, Tyro). 🔤\n• **Expert**: A person who has a comprehensive knowledge of a field. (Antonym). 🎓"
+  },
+  {
+    "question": "Find the word meaning 'gigantic':",
+    "options": ["Microscopic", "Brobdingnagian", "Lilliputian", "Minute"],
+    "answer": "Brobdingnagian",
+    "explanation": "• **Brobdingnagian**: Huge; immense. (Opposite: Lilliputian). 🦕\n• **Microscopic**: So small as to be visible only with a microscope. (Antonym). 🔬"
+  },
+  {
+    "question": "A 'Clairvoyant' person claims to have:",
+    "options": ["Blindness", "Powers beyond natural vision", "Ignorance", "Myopia"],
+    "answer": "Powers beyond natural vision",
+    "explanation": "• **Seeing the future**: Perceiving events in the future. (Related: Psychic). 🔮\n• **Ignorant**: Lacking knowledge or awareness. (Antonym). 🌑"
+  },
+  {
+    "question": "What is a 'Doxology'?",
+    "options": ["A curse", "A hymn of praise to God", "Blasphemy", "Anathema"],
+    "answer": "A hymn of praise to God",
+    "explanation": "• **Hymn of praise**: A short hymn of praises to God in various Christian services. (Related: Gloria). 🎶\n• **Anathema**: Something or someone that one vehemently dislikes; a curse. (Antonym). 🚫"
+  },
+  {
+    "question": "Something 'conducive to happiness' is:",
+    "options": [" Dolorous", "Miserable", "Eudaemonic", "Depressing"],
+    "answer": "Eudaemonic",
+    "explanation": "• **Eudaemonic**: Pertaining to happiness. (Related: Blissful). 😊\n• **Dolorous**: Feeling or expressing great sorrow or distress. (Antonym). 😢"
+  },
+  {
+    "question": "What is 'Fustian' language?",
+    "options": ["Direct", "Concise", "Pompous and pretentious", "Simple"],
+    "answer": "Pompous and pretentious",
+    "explanation": "• **Pompous language**: Pretentious speech or writing. (Related: Bombastic). 🖋️\n• **Concise**: Giving a lot of information clearly and in a few words. (Antonym). 📏"
+  },
+  {
+    "question": "A 'Gallimaufry' is a:",
+    "options": ["Confused jumble", "Uniform system", "Orderly mass", "Pure substance"],
+    "answer": "Confused jumble",
+    "explanation": "• **Confused jumble**: A confused medley or mixture. (Related: Hodgepodge). 🍲\n• **Order**: The arrangement of people or things in relation to each other. (Antonym). 🗄️"
+  },
+  {
+    "question": "A biography that 'idealizes its subject' is a:",
+    "options": ["Defamation", "Realistic biography", "Hagiography", "Obloquy"],
+    "answer": "Hagiography",
+    "explanation": "• **Idealized biography**: Adulatory writing about a person. (Related: Saint's life). ✍️\n• **Realistic biography**: A truthful account of a life. (Antonym). 📖"
+  },
+  {
+    "question": "A characteristic 'peculiar to an individual' is a/an:",
+    "options": ["Idiosyncrasy", "Normality", "Commonality", "Generality"],
+    "answer": "Idiosyncrasy",
+    "explanation": "• **Individual quirk**: A behavioral characteristic unique to an individual. (Related: Peculiarity). 🌀\n• **Normality**: The condition of being normal; common state. (Antonym). ✅"
+  },
+  {
+    "question": "What is a 'Jeremiad'?",
+    "options": ["A celebration", "A long mournful complaint", "A eulogy", "A celebration"],
+    "answer": "A long mournful complaint",
+    "explanation": "• **Mournful complaint**: A long list of woes. (Related: Lamentation). 📜\n• ** Celebration**: The action of marking one's pleasure at an event. (Antonym). 🎉"
+  },
+  {
+    "question": "The word 'Kismet' refers to:",
+    "options": ["Free will", "Destiny or fate", "Choice", "Design"],
+    "answer": "Destiny or fate",
+    "explanation": "• **Fate**: Destiny or fortune. (Related: Providence). 🎲\n• **Free will**: The power of acting without the constraint of fate. (Antonym). 🗽"
+  },
+  {
+    "question": "What is 'Logomachy'?",
+    "options": ["Agreement", "Argument about words", "Silence", "Conciliation"],
+    "answer": "Argument about words",
+    "explanation": "• **Word fight**: A dispute over words or meanings. (Related: Verbal dispute). 🗣️\n• **Agreement**: The state of being in accord. (Antonym). 🤝"
+  },
+  {
+    "question": "A 'Mellifluous' voice sounds:",
+    "options": ["Discordant", "Sweet and smooth", "Harsh", "Cacophonous"],
+    "answer": "Sweet and smooth",
+    "explanation": "• **Sweet voice**: Pleasingly smooth and musical. (Related: Dulcet). 🍯\n• **Discordant**: Harsh and jarring because of a lack of harmony. (Antonym). 🔊"
+  },
+  {
+    "question": "Which field is 'Numismatic' related to?",
+    "options": ["Stars", "Coins and currency", "Spiritualism", "Animals"],
+    "answer": "Coins and currency",
+    "explanation": "• **Coins**: Relating to or consisting of coins or medals. (Related: Currency). 🪙\n• **Intangible**: Unable to be touched; not having physical presence. (Antonym). ☁️"
+  },
+  {
+    "question": "What does 'Obloquy' mean?",
+    "options": ["Honor", "Public criticism or abuse", "Praise", "Adulation"],
+    "answer": "Public criticism or abuse",
+    "explanation": "• **Public disgrace**: Strong verbal abuse. (Related: Infamy, Disgrace). 🔨\n• **Honor**: High respect; great esteem. (Antonym). 🎖️"
+  },
+  {
+    "question": "A 'Pusillanimous' person is:",
+    "options": ["Bold", "Dauntless", "Lacking courage", "Intrepid"],
+    "answer": "Lacking courage",
+    "explanation": "• **Cowardly**: Showing a lack of resolution. (Related: Timid). 🐭\n• **Courageous**: Not deterred by danger or pain; brave. (Antonym). 🦁"
+  },
+  {
+    "question": "What is the meaning of 'Quiescent'?",
+    "options": ["Vibrant", "Animated", "Quiet and at rest", "Active"],
+    "answer": "Quiet and at rest",
+    "explanation": "• **At rest**: In a state of dormancy. (Related: Passive, Latent). 🤫\n• **Active**: Engaging in physically energetic pursuits. (Antonym). 🏃"
+  },
+  {
+    "question": "A 'Recreant' person is:",
+    "options": ["Loyal", "Faithful", "Cowardly or unfaithful", "Gallant"],
+    "answer": "Cowardly or unfaithful",
+    "explanation": "• **Cowardly**: Deserting one's duty or cause. (Related: Traitorous). 🗡️\n• **Faithful**: Remaining loyal and steadfast. (Antonym). 💍"
+  },
+  {
+    "question": "A person fond of 'sensuous luxury' is a:",
+    "options": ["Ascetic", "Sybarite", "Spartan", "Hermit"],
+    "answer": "Sybarite",
+    "explanation": "• **Luxury-loving**: A self-indulgent person. (Related: Voluptuary). 🍇\n• **Ascetic**: A person who practices severe self-discipline. (Antonym). 🧘"
+  },
+  {
+    "question": "What does it mean to 'Tergiversate'?",
+    "options": ["To decide firmly", "To remain steadfast", "To change opinions repeatedly", "To persist"],
+    "answer": "To change opinions repeatedly",
+    "explanation": "• **Changing sides**: To be evasive or shift attitudes. (Related: Equivocate). 🔄\n• **Commit**: To pledge or bind oneself to a certain course. (Antonym). ⚓"
+  },
+  {
+    "question": "An 'Unctuous' person is:",
+    "options": ["Blunt", "Honest", "Excessively flattering", "Genuine"],
+    "answer": "Excessively flattering",
+    "explanation": "• **Oily flattery**: Ingratiatingly oily. (Related: Smarmy). 🧼\n• **Sincere**: Free from pretense or deceit. (Antonym). ❤️"
+  },
+  {
+    "question": "What is 'Vituperative' language?",
+    "options": ["Praising", "Complimentary", "Bitter and abusive", "Laudatory"],
+    "answer": "Bitter and abusive",
+    "explanation": "• **Abusive speech**: Characterized by bitter censure. (Related: Scathing). 🤬\n• **Complimentary**: Expressing a compliment; praising. (Antonym). 👏"
+  },
+  {
+    "question": "Which word describes someone 'sweetly innocent and charming'?",
+    "options": ["Winsome", "Repulsive", "Surly", "Gloomy"],
+    "answer": "Winsome",
+    "explanation": "• **Charming**: Appealing in appearance or character. (Related: Engaging). 😊\n• **Repulsive**: Arousing intense distaste or disgust. (Antonym). 🤮"
+  },
+  {
+    "question": "What is the SYNONYM of 'Zenith'?",
+    "options": ["Nadir", "Bottom", "Highest point", "Floor"],
+    "answer": "Highest point",
+    "explanation": "• **Highest point**: The time at which something is most successful. (Related: Peak, Apex). 🏔️\n• **Nadir**: The lowest point in the fortunes of a person. (Antonym). 📉"
   }
 ]
