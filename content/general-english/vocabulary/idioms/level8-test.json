@@ -1,32 +1,182 @@
 [
-  { "question": "Q.1 A **'dark horse'** in a contest is:", "options": ["A black animal", "An unexpected winner", "A slow runner", "A famous person"], "answer": "An unexpected winner" },
-  { "question": "Q.2 To **'show the white feather'** means to show:", "options": ["Bravery", "Cowardice", "Peace", "Anger"], "answer": "Cowardice" },
-  { "question": "Q.3 A **'litmus test'** is a:", "options": ["Chemical tool", "Decisive test for truth", "School exam", "Eye test"], "answer": "Decisive test for truth" },
-  { "question": "Q.4 To **'cut a rug'** means to:", "options": ["Clean the house", "Dance impressive way", "Destroy property", "Be lazy"], "answer": "Dance impressive way" },
-  { "question": "Q.5 **'Cooking the books'** refers to:", "options": ["Preparing a meal", "Falsifying financial records", "Writing a novel", "Reading"], "answer": "Falsifying financial records" },
-  { "question": "Q.6 A **'gala day'** is a day of:", "options": ["Hard work", "Celebration", "Sadness", "Rain"], "answer": "Celebration" },
-  { "question": "Q.7 To **'beat a dead horse'** is to:", "options": ["Hunt", "Waste energy on a settled issue", "Be cruel", "Win a race"], "answer": "Waste energy on a settled issue" },
-  { "question": "Q.8 A **'red herring'** is something that:", "options": ["Is a delicious fish", "Misleads/Distracts from the main issue", "Is very important", "Is red in color"], "answer": "Misleads/Distracts from the main issue" },
-  { "question": "Q.9 To **'gild the lily'** means to:", "options": ["Plant flowers", "Try to improve something already perfect", "Paint a picture", "Be wealthy"], "answer": "Try to improve something already perfect" },
-  { "question": "Q.10 To **'jump the gun'** means to:", "options": ["Shoot a weapon", "Do something before the right time", "Start a fight", "Win a race"], "answer": "Do something before the right time" },
-  { "question": "Q.11 A **'pipe dream'** is an:", "options": ["Easy goal", "Unattainable hope or plan", "A nightmare", "Plumbing issue"], "answer": "Unattainable hope or plan" },
-  { "question": "Q.12 **'Playing second fiddle'** means:", "options": ["Playing music", "Taking a subordinate role", "Being the leader", "Failing a test"], "answer": "Taking a subordinate role" },
-  { "question": "Q.13 To **'steal someone's thunder'** is to:", "options": ["Cause a storm", "Take the praise away from someone else", "Help a friend", "Be loud"], "answer": "Take the praise away from someone else" },
-  { "question": "Q.14 A **'hard nut to crack'** is a:", "options": ["Strong snack", "Very difficult problem to solve", "Bad person", "Fast runner"], "answer": "Very difficult problem to solve" },
-  { "question": "Q.15 To **'leave no stone unturned'** means to:", "options": ["Clean a road", "Try every possible way", "Build a wall", "Find a treasure"], "answer": "Try every possible way" },
-  { "question": "Q.16 **'Reading the riot act'** means:", "options": ["Reading a story", "Giving a strong warning", "Being funny", "Studying law"], "answer": "Giving a strong warning" },
-  { "question": "Q.17 A **'left-handed compliment'** is an:", "options": ["Extra gift", "Insult disguised as praise", "Helpful advice", "High praise"], "answer": "Insult disguised as praise" },
-  { "question": "Q.18 To **'tilt at windmills'** is to:", "options": ["Be a farmer", "Fight imaginary enemies", "Be very strong", "Travel far"], "answer": "Fight imaginary enemies" },
-  { "question": "Q.19 To **'go the whole hog'** means to do something:", "options": ["Partially", "Thoroughly/Completely", "Slowly", "With animals"], "answer": "Thoroughly/Completely" },
-  { "question": "Q.20 A **'man of straw'** is a person of:", "options": ["Great wealth", "Weak character", "High intelligence", "Strong muscles"], "answer": "Weak character" },
-  { "question": "Q.21 To **'keep something at bay'** is to:", "options": ["Go fishing", "Prevent something from causing problems", "Sail a boat", "Store goods"], "answer": "Prevent something from causing problems" },
-  { "question": "Q.22 **'Burning bridges'** means:", "options": ["Setting fire", "Destroying a path back", "Building a new road", "Traveling"], "answer": "Destroying a path back" },
-  { "question": "Q.23 To **'get the axe'** means to:", "options": ["Buy a tool", "Lose one's job", "Be a carpenter", "Win a prize"], "answer": "Lose one's job" },
-  { "question": "Q.24 To **'sit tight'** means to:", "options": ["Sit on a small chair", "Wait patiently/Take no action", "Be very active", "Run away"], "answer": "Wait patiently/Take no action" },
-  { "question": "Q.25 A **'cold fish'** is someone who:", "options": ["Loves swimming", "Shows no emotion/unfriendly", "Is very funny", "Is always sick"], "answer": "Shows no emotion/unfriendly" },
-  { "question": "Q.26 To **'bite the dust'** means to:", "options": ["Clean the floor", "Fail or die", "Be hungry", "Win a race"], "answer": "Fail or die" },
-  { "question": "Q.27 To **'chew the cud'** means to:", "options": ["Eat like a cow", "Ponder or meditate deeply", "Waste time", "Talk loudly"], "answer": "Ponder or meditate deeply" },
-  { "question": "Q.28 To **'draw a blank'** means to:", "options": ["Paint a picture", "Fail to remember/get no response", "Be successful", "Write a letter"], "answer": "Fail to remember/get no response" },
-  { "question": "Q.29 To **'flog a dead horse'** is to:", "options": ["Ride a horse", "Waste time on an impossible task", "Be a vet", "Start a race"], "answer": "Waste time on an impossible task" },
-  { "question": "Q.30 To **'turn a deaf ear'** means to:", "options": ["Listen carefully", "Ignore what is said", "Have a hearing aid", "Be very quiet"], "answer": "Ignore what is said" }
+  {
+    "question": "Choose the most appropriate meaning of the given idiom:\n**A dark horse**",
+    "options": ["A black animal", "An unexpected winner", "A slow runner", "A famous person"],
+    "answer": "An unexpected winner",
+    "explanation": "• **Unexpected winner**: A candidate or competitor about whom little is known but who unexpectedly wins. (Related: Underdog). 🐎\n• **Famous person**: A well-known public figure. (Related: Household name). 🌟"
+  },
+  {
+    "question": "Identify the meaning of the idiom:\n**To show the white feather**",
+    "options": ["To act bravely", "To show cowardice", "To make peace", "To express anger"],
+    "answer": "To show cowardice",
+    "explanation": "• **Show cowardice**: This refers to showing signs of fear or being a coward. (Related: Lily-livered). 🐔\n• **Make peace**: To end a disagreement. (Related: Olive branch). 🕊️"
+  },
+  {
+    "question": "Select the option that best explains the idiom:\n**A litmus test**",
+    "options": ["A chemical experiment", "A decisive test for truth or quality", "A final school exam", "An examination of vision"],
+    "answer": "A decisive test for truth or quality",
+    "explanation": "• **Decisive test**: A critical factor that provides a definitive indication of the nature or quality of something. (Related: Acid test). 🧪⚖️\n• **School exam**: A formal test of knowledge. (Related: Finals). 📝"
+  },
+  {
+    "question": "What is the meaning of the underlined idiom?\nHe really knows how to **cut a rug** on the dance floor.",
+    "options": ["To clean the house", "To dance in an impressive way", "To destroy furniture", "To be lazy and idle"],
+    "answer": "To dance in an impressive way",
+    "explanation": "• **Dance impressively**: To dance very well or skillfully. (Related: Trip the light fantastic). 💃🕺\n• **Be lazy**: To avoid work or activity. (Related: Couch potato). 🛋️"
+  },
+  {
+    "question": "Identify the meaning of the idiom:\n**Cooking the books**",
+    "options": ["Preparing a special meal", "Falsifying financial records", "Writing a successful novel", "Developing a reading habit"],
+    "answer": "Falsifying financial records",
+    "explanation": "• **Falsifying records**: Dishonestly changing financial figures to misrepresent a company's profits. (Related: Fraud). 📊🔥\n• **Preparing a meal**: The act of cooking food. (Literal meaning). 🍳"
+  },
+  {
+    "question": "A **'gala day'** is best described as a day of:",
+    "options": ["Exhausting hard work", "Festivity and celebration", "Mourning and sadness", "Heavy rain and storms"],
+    "answer": "Festivity and celebration",
+    "explanation": "• **Celebration**: A day marked by special events, performances, or happiness. (Related: Red-letter day). 🎉🥳\n• **Hard work**: A period of great effort. (Related: Laborious). 👷"
+  },
+  {
+    "question": "To **'beat a dead horse'** implies that you are:",
+    "options": ["Hunting wild animals", "Wasting energy on a settled issue", "Being cruel to pets", "Winning a difficult race"],
+    "answer": "Wasting energy on a settled issue",
+    "explanation": "• **Waste energy**: To continue to focus on a topic or issue that has already been resolved or cannot be changed. (Related: Flogging a dead horse). 🐎🚫\n• **Winning a race**: Achieving victory. (Related: Carry the day). 🏆"
+  },
+  {
+    "question": "Which of the following describes a **'red herring'**?",
+    "options": ["A delicious seafood dish", "Something that misleads or distracts", "An extremely important detail", "An object that is red in color"],
+    "answer": "Something that misleads or distracts",
+    "explanation": "• **Distraction**: A clue or information that is intended to be misleading or distracting from the main problem. (Related: Smoke screen). 🐟💨\n• **Important detail**: A crucial piece of info. (Antonym: Trivia). 📌"
+  },
+  {
+    "question": "What does it mean **'To gild the lily'**?",
+    "options": ["To plant new flowers", "To try to improve something already perfect", "To paint a beautiful picture", "To become very wealthy"],
+    "answer": "To try to improve something already perfect",
+    "explanation": "• **Over-improve**: To add unnecessary ornamentation to something that is already beautiful or sufficient. (Related: Overdo). ✨🌸\n• **Wealthy**: Having a lot of money. (Related: Well-to-do). 💰"
+  },
+  {
+    "question": "Identify the meaning of the idiom:\n**To jump the gun**",
+    "options": ["To shoot a weapon", "To do something before the right time", "To start a physical fight", "To win a race easily"],
+    "answer": "To do something before the right time",
+    "explanation": "• **Act too early**: To start something before the appropriate or planned time. (Related: Premature). 🔫🏃\n• **Win a race**: To be the fastest competitor. (Related: First place). 🏁"
+  },
+  {
+    "question": "Select the most appropriate explanation for:\n**A pipe dream**",
+    "options": ["An easy and realistic goal", "An unattainable hope or plan", "A recurring nightmare", "A serious plumbing issue"],
+    "answer": "An unattainable hope or plan",
+    "explanation": "• **Unattainable hope**: A fantastic but vain hope that is unlikely to ever happen. (Related: Chasing rainbows). ☁️💭\n• **Realistic goal**: An achievable objective. (Antonym). 🎯"
+  },
+  {
+    "question": "What is the meaning of the idiom **'Playing second fiddle'**?",
+    "options": ["Playing a musical instrument", "Taking a subordinate role", "Being the primary leader", "Failing a difficult test"],
+    "answer": "Taking a subordinate role",
+    "explanation": "• **Subordinate role**: To be in a less important position than someone else. (Related: Underling). 🎻🥈\n• **Primary leader**: The person in charge. (Antonym: Boss). 👑"
+  },
+  {
+    "question": "Identify the meaning of the idiom:\n**To steal someone's thunder**",
+    "options": ["To cause a sudden storm", "To take the praise away from someone else", "To help a friend in need", "To be extremely loud"],
+    "answer": "To take the praise away from someone else",
+    "explanation": "• **Take praise**: To do what someone else was going to do before they do it, or to take the credit they deserved. (Related: Upstage). 🌩️🎭\n• **Help a friend**: To support someone. (Related: Lend a hand). 🤝"
+  },
+  {
+    "question": "A **'hard nut to crack'** refers to:",
+    "options": ["A very strong snack", "A very difficult problem to solve", "A person with bad manners", "A fast and efficient runner"],
+    "answer": "A very difficult problem to solve",
+    "explanation": "• **Difficult problem**: A situation or person that is very difficult to deal with or understand. (Related: Tough task). 🥜🔨\n• **Strong snack**: Food that is hard to chew. (Literal meaning). 🥨"
+  },
+  {
+    "question": "Select the meaning of the idiom:\n**To leave no stone unturned**",
+    "options": ["To clean a dusty road", "To try every possible way to succeed", "To build a strong stone wall", "To find hidden treasure"],
+    "answer": "To try every possible way to succeed",
+    "explanation": "• **Every possible way**: To make every possible effort to achieve something or find something. (Related: Exhaustive). 🪨🔍\n• **Find treasure**: Discovering wealth. (Related: Strike gold). 💎"
+  },
+  {
+    "question": "Identify the most appropriate meaning of the underlined idiom:\nThe manager had to **read the riot act** to the team for their poor performance.",
+    "options": ["To read a story aloud", "To give a strong warning", "To be very funny and witty", "To study law and order"],
+    "answer": "To give a strong warning",
+    "explanation": "• **Strong warning**: To reprimand someone severely with the threat of punishment. (Related: Scold, Reprimand). 📖📢\n• **Funny**: Causing laughter. (Related: Hilarious). 😂"
+  },
+  {
+    "question": "What is a **'left-handed compliment'**?",
+    "options": ["An extra gift", "An insult disguised as praise", "Helpful and sincere advice", "Extremely high praise"],
+    "answer": "An insult disguised as praise",
+    "explanation": "• **Disguised insult**: A remark that seems to be a compliment but is actually critical or rude. (Related: Backhanded compliment). ✋🤔\n• **High praise**: Strong approval. (Antonym: Opprobrium). 🏆"
+  },
+  {
+    "question": "Select the meaning of the given idiom:\n**To tilt at windmills**",
+    "options": ["To be a successful farmer", "To fight imaginary enemies", "To be physically very strong", "To travel to distant places"],
+    "answer": "Fight imaginary enemies",
+    "explanation": "• **Imaginary enemies**: Attacking perceived enemies that are actually not real or harmful. (Related: Quixotic). 🌬️⚔️\n• **Travel far**: Long-distance journeying. (Related: Globetrotting). ✈️"
+  },
+  {
+    "question": "What does it mean **'To go the whole hog'**?",
+    "options": ["To do something partially", "To do something thoroughly or completely", "To do something very slowly", "To work with farm animals"],
+    "answer": "To do something thoroughly or completely",
+    "explanation": "• **Thoroughly**: To do something as completely as possible or without limits. (Related: All out). 🐖✅\n• **Slowly**: At a low speed. (Related: At a snail's pace). 🐢"
+  },
+  {
+    "question": "Identify the meaning of the idiom:\n**A man of straw**",
+    "options": ["A person of great wealth", "A person of weak character", "A person of high intelligence", "A person with strong muscles"],
+    "answer": "A person of weak character",
+    "explanation": "• **Weak character**: A person who has no real substance or whose character is weak and easily defeated. (Related: Figurehead). 🌾🚶\n• **Wealthy**: Having much money. (Related: Affluent). 💰"
+  },
+  {
+    "question": "Select the most appropriate meaning of:\n**To keep something at bay**",
+    "options": ["To go fishing", "To prevent something from causing problems", "To sail a boat", "To store goods"],
+    "answer": "To prevent something from causing problems",
+    "explanation": "• **Prevent problems**: To control something and prevent it from causing you problems or harm. (Related: Ward off). 🌊🚫\n• **Sail a boat**: Navigating a vessel. (Related: Cruising). ⛵"
+  },
+  {
+    "question": "Choose the correct meaning of the idiom:\n**Burning bridges**",
+    "options": ["Setting fire to property", "Destroying a path to return", "Building a new road", "Traveling to new lands"],
+    "answer": "Destroying a path to return",
+    "explanation": "• **Destroy path back**: To act in a way that you cannot go back to a previous situation or relationship. (Related: Point of no return). 🌉🔥\n• **Build new road**: Creating opportunities. (Related: Pave the way). 🛣️"
+  },
+  {
+    "question": "In a professional context, what does it mean **'To get the axe'**?",
+    "options": ["To buy a new tool", "To lose one's job", "To become a carpenter", "To win a major prize"],
+    "answer": "To lose one's job",
+    "explanation": "• **Lose job**: To be dismissed or fired from employment. (Related: Get the sack). 🪓💼\n• **Win a prize**: Receiving an award. (Antonym). 🥇"
+  },
+  {
+    "question": "Identify the meaning of the idiom:\n**To sit tight**",
+    "options": ["To sit on a small chair", "To wait patiently or take no action", "To be very physically active", "To run away from a scene"],
+    "answer": "To wait patiently or take no action",
+    "explanation": "• **Wait patiently**: To stay in the same situation or place and not do anything yet. (Related: Hold fire). 🧘‍♂️⏳\n• **Active**: Engaging in movement. (Antonym). 🏃"
+  },
+  {
+    "question": "How would you describe **'a cold fish'**?",
+    "options": ["Someone who loves swimming", "Someone who shows no emotion", "Someone who is very funny", "Someone who is always sick"],
+    "answer": "Someone who shows no emotion",
+    "explanation": "• **No emotion**: A person who is unfriendly and does not express feelings. (Related: Stolid, Aloof). ❄️🐟\n• **Funny**: Amusing or humorous. (Antonym: Jocund). 😂"
+  },
+  {
+    "question": "Select the meaning of the idiom:\n**To bite the dust**",
+    "options": ["To clean the floor", "To fail or to die", "To be very hungry", "To win a race"],
+    "answer": "To fail or to die",
+    "explanation": "• **Fail or die**: To end in failure, or to pass away. (Related: Kick the bucket). 💀🏜️\n• **Win a race**: Achieving victory. (Antonym). 🏆"
+  },
+  {
+    "question": "To **'chew the cud'** means to:",
+    "options": ["Eat like a cow", "Ponder or meditate deeply", "Waste time", "Talk loudly"],
+    "answer": "Ponder or meditate deeply",
+    "explanation": "• **Ponder deeply**: To think slowly and carefully about something. (Related: Ruminate, Meditate). 🧠🐄\n• **Talk loudly**: Speaking with volume. (Related: Vociferate). 📢"
+  },
+  {
+    "question": "Identify the meaning of the idiom:\n**To draw a blank**",
+    "options": ["To paint a picture", "To fail to remember or get no response", "To be very successful", "To write a letter"],
+    "answer": "To fail to remember or get no response",
+    "explanation": "• **Fail to remember**: To be unable to find information or a memory, or to get no results. (Related: Mind goes blank). 🧠⚪\n• **Successful**: Achieving a goal. (Antonym). 📈"
+  },
+  {
+    "question": "Which of the following is the meaning of **'To flog a dead horse'**?",
+    "options": ["To ride a horse", "To waste time on an impossible task", "To be a veterinarian", "To start a race"],
+    "answer": "To waste time on an impossible task",
+    "explanation": "• **Waste time**: To continue to put effort into something that has no chance of succeeding. (Related: Beat a dead horse). 🐎🚫\n• **Ride a horse**: Equestrian activity. (Literal meaning). 🏇"
+  },
+  {
+    "question": "Finally, what does it mean **'To turn a deaf ear'**?",
+    "options": ["To listen carefully", "To ignore what is said", "To have a hearing aid", "To be very quiet"],
+    "answer": "To ignore what is said",
+    "explanation": "• **Ignore**: To refuse to listen to what someone is saying. (Related: Disregard). 👂🚫\n• **Listen carefully**: Paying close attention. (Antonym: All ears). 🔊"
+  }
 ]
