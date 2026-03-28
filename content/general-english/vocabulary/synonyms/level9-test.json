@@ -1,122 +1,302 @@
 [
   {
-    "question": "What is the synonym of 'Abeyance'?",
+    "question": "What is the SYNONYM of 'Abeyance'?",
     "options": ["Continuation", "Suspension", "Action", "Rigidity"],
     "answer": "Suspension",
-    "explanation": "• **Suspension**: A state of temporary disuse or inactivity. (Related: Dormancy, Latency). ⏸️\n• **Continuation**: The action of carrying on or resuming. (Related: Perpetuation, Prolonging). ➡️\n• **Action**: The process of doing something to achieve a purpose. (Related: Execution, Vitality). 🏃\n• **Rigidity**: Inability to be bent or be forced out of shape. (Related: Stiffness, Inflexibility). 📏"
+    "explanation": "• **Suspension**: A state of temporary disuse or inactivity. (Related: Dormancy, Latency). ⏸️\n• **Continuation**: The action of carrying on or resuming. (Antonym). ➡️\n• **Action**: The process of doing something. 🏃\n• **Rigidity**: Inability to be bent or forced out of shape. 📏"
   },
   {
-    "question": "Find the ANTONYM for 'Nadir':",
-    "options": ["Bottom", "Zenith", "Base", "Lull"],
-    "answer": "Zenith",
-    "explanation": "• **Zenith**: The highest point reached by an object or success. (Related: Peak, Apex, Pinnacle). 🏔️\n• **Nadir**: The lowest point in the fortunes of a person or organization. (Related: Rock-bottom). 📉\n• **Bottom**: The lowest part of something. (Related: Base, Underside). ⏝\n• **Lull**: A temporary interval of quiet or lack of activity. (Related: Pause, Respite). 🔇"
-  },
-  {
-    "question": "Spot the ERROR: The politician (A) used blandishments (B) to (C) obfuscate the truth (D). No error (E).",
-    "options": ["A", "B", "C", "D", "E"],
-    "answer": "E",
-    "explanation": "• **No error**: The sentence is grammatically and contextually correct. ✅\n• **Blandishments**: Flattery intended to persuade someone to do something. (Related: Cajolery, Wheedling). 🍬\n• **Obfuscate**: To render obscure, unclear, or unintelligible. (Related: Confuse, Befog). 🌫️\n• **Truth**: The quality or state of being true. (Related: Veracity, Fact). ⚖️"
-  },
-  {
-    "question": "Choose the word for 'Relating to or dependent on charity':",
-    "options": ["Eleemosynary", "Lugubrious", "Quiescent", "Jejune"],
-    "answer": "Eleemosynary",
-    "explanation": "• **Eleemosynary**: Relating to or dependent on charity; charitable. (Related: Philanthropic, Beneficent). 🤲\n• **Lugubrious**: Looking or sounding sad and dismal. (Related: Mournful, Gloomy). 😢\n• **Quiescent**: In a state or period of inactivity or dormancy. (Related: Idle, Passive). 💤\n• **Jejune**: Naive, simplistic, and superficial; or dry and uninteresting. (Related: Childish, Insipid). 👶"
-  },
-  {
-    "question": "Which of these is the correct spelling?",
-    "options": ["Tergiversation", "Tergiversasion", "Tergiversationn", "Turgiversation"],
-    "answer": "Tergiversation",
-    "explanation": "• **Tergiversation**: Correct spelling. It means evasion of straightforward action or clear-cut statement. (Related: Equivocation). 🌀\n• **Tergiversasion**: Incorrect; 'tion' is the correct suffix. ❌\n• **Tergiversationn**: Incorrect; ends with a single 'n'. ❌\n• **Turgiversation**: Incorrect; uses 'u' instead of 'e' in the first syllable. ❌"
-  },
-  {
-    "question": "Fill in the blank: After the war, the country enjoyed a ____ period of peace.",
-    "options": ["Lugubrious", "Halcyon", "Vituperative", "Churlish"],
-    "answer": "Halcyon",
-    "explanation": "• **Halcyon**: Denoting a period of time in the past that was idyllically happy and peaceful. (Related: Serene, Tranquil). 🕊️\n• **Lugubrious**: Looking or sounding sad and dismal. (Related: Doleful, Woeful). ⚰️\n• **Vituperative**: Bitter and abusive. (Related: Scurrilous, Insulting). 🗣️\n• **Churlish**: Rude in a mean-spirited and surly way. (Related: Ill-mannered, Discourteous). 👺"
-  },
-  {
-    "question": "Identify the SYNONYM for 'Imbroglio':",
-    "options": ["Harmony", "Complication", "Agreement", "Solution"],
-    "answer": "Complication",
-    "explanation": "• **Complication**: An extremely confused, complicated, or embarrassing situation. (Related: Imbroglio, Entanglement). 🕸️\n• **Harmony**: The state of being in agreement or concord. (Related: Unity, Peace). 🤝\n• **Agreement**: Harmony or accordance in opinion or feeling. (Related: Concord, Settlement). ✅\n• **Solution**: A means of solving a problem or dealing with a difficult situation. (Related: Resolution, Answer). 💡"
+    "question": "Find the word that means 'a flattering statement used to persuade':",
+    "options": ["Vituperative", "Blandishment", "Umbrage", "Knell"],
+    "answer": "Blandishment",
+    "explanation": "• **Blandishment**: Flattery intended to persuade someone. (Related: Cajolery, Coaxing). 🍬\n• **Vituperative**: Bitter and abusive language. 🤬\n• **Umbrage**: Offense or annoyance. 😒\n• **Knell**: The sound of a bell for a funeral. 🔔"
   },
   {
     "question": "Choose the correct spelling for a word meaning 'to dry out':",
     "options": ["Dessicate", "Desiccate", "Desicate", "Dessiccate"],
     "answer": "Desiccate",
-    "explanation": "• **Desiccate**: Correct spelling (one 's' and two 'c's). (Related: Dehydrate, Parched). 🌵\n• **Dessicate**: Incorrect; used double 's'. ❌\n• **Desicate**: Incorrect; missing one 'c'. ❌\n• **Dessiccate**: Incorrect; too many 's' letters. ❌"
+    "explanation": "• **Desiccate**: Correct spelling (one 's', two 'c's). (Related: Dehydrate, Parch). 🌵\n• **Dessicate**: Incorrect spelling (double 's'). ❌"
   },
   {
-    "question": "Meaning of 'Vituperative':",
-    "options": ["Praised", "Abusive", "Silent", "Enthusiastic"],
-    "answer": "Abusive",
-    "explanation": "• **Abusive**: Using or containing harsh, insulting, or coarse language. (Related: Vituperative, Scathing). 🤬\n• **Praised**: Express warm approval or admiration of. (Related: Lauded, Extolled). 👏\n• **Silent**: Not making or accompanied by any sound. (Related: Mute, Taciturn). 🤫\n• **Enthusiastic**: Having or showing intense and eager enjoyment. (Related: Zealous, Eager). 🤩"
+    "question": "What is the meaning of 'Eleemosynary'?",
+    "options": ["Relating to charity", "Relating to war", "Relating to sleep", "Relating to greed"],
+    "answer": "Relating to charity",
+    "explanation": "• **Relating to charity**: Charitable or philanthropic. (Related: Benevolent). 🤝\n• **War**: Related to Bellicose. ⚔️\n• **Sleep**: Related to Somnolent or Jejune (dullness). 😴"
   },
   {
-    "question": "Antonym for 'Quiescent':",
-    "options": ["Dormant", "Active", "Still", "Inert"],
-    "answer": "Active",
-    "explanation": "• **Active**: Engaging or ready to engage in physically energetic pursuits. (Related: Animated, Dynamic). 🏃\n• **Quiescent**: In a state of inactivity or dormancy. (Related: Quiet, Latent). 💤\n• **Dormant**: Having normal physical functions suspended or slowed down. (Related: Asleep, Hibernating). 🐻\n• **Still**: Not moving or making a sound. (Related: Motionless, Static). 🧘"
+    "question": "An ANTONYM for 'Churlish' would be:",
+    "options": ["Boorish", "Sullen", "Courteous", "Oafish"],
+    "answer": "Courteous",
+    "explanation": "• **Courteous**: Polite, respectful, or considerate in manner. (Antonym). 😊\n• **Churlish**: Rude in a mean-spirited way. (Synonyms: Boorish, Oafish). 😠"
   },
   {
-    "question": "Synonym for 'Mendicant':",
-    "options": ["Beggar", "Merchant", "Soldier", "Noble"],
-    "answer": "Beggar",
-    "explanation": "• **Beggar**: A person, typically a homeless one, who lives by asking for money. (Related: Mendicant, Pauper). 🤲\n• **Merchant**: A person or company involved in wholesale trade. (Related: Trader, Vendor). ⚖️\n• **Soldier**: A person who serves in an army. (Related: Warrior, Combatant). 🪖\n• **Noble**: Belonging to a hereditary class with high social or political status. (Related: Aristocrat, Peer). 👑"
-  },
-  {
-    "question": "Sentence Completion: The teacher's ____ response to the student's question was uncalled for.",
-    "options": ["Salubrious", "Churlish", "Halcyon", "Zenith"],
-    "answer": "Churlish",
-    "explanation": "• **Churlish**: Rude in a mean-spirited and surly way. (Related: Boorish, Loutish). 🗯️\n• **Salubrious**: Health-giving; healthy. (Related: Beneficial, Wholesome). 🍏\n• **Halcyon**: Peaceful, calm, and happy. (Related: Tranquil, Idyllic). 🕊️\n• **Zenith**: The highest point or culmination. (Related: Peak, Apex). 🏔️"
-  },
-  {
-    "question": "Find the error: Neither (A) the doctor (B) nor the nurse (C) could palliate his pain (D). No Error (E).",
-    "options": ["A", "B", "C", "D", "E"],
-    "answer": "E",
-    "explanation": "• **No Error**: The grammar 'Neither...nor' is correctly used with a singular verb or modal. ✅\n• **Doctor**: A qualified practitioner of medicine. (Related: Physician). 🩺\n• **Palliate**: Make a disease or its symptoms less severe or unpleasant without removing the cause. (Related: Alleviate, Soothe). 💊\n• **Nurse**: A person trained to care for the sick. (Related: Caregiver). 🏥"
-  },
-  {
-    "question": "What is the synonym for 'Jejune'?",
-    "options": ["Exciting", "Childish", "Mature", "Intense"],
-    "answer": "Childish",
-    "explanation": "• **Childish**: Silly and immature. (Related: Jejune, Puerile, Juvenile). 👶\n• **Exciting**: Causing great enthusiasm and eagerness. (Related: Thrilling, Stimulating). 🔥\n• **Mature**: Having reached an advanced stage of mental or physical development. (Related: Grown-up, Adult). 👴\n• **Intense**: Of extreme force, degree, or strength. (Related: Fierce, Severe). ⚡"
-  },
-  {
-    "question": "Antonym for 'Redoubtable':",
-    "options": ["Fearsome", "Insignificant", "Mighty", "Tough"],
-    "answer": "Insignificant",
-    "explanation": "• **Insignificant**: Too small or unimportant to be worth consideration. (Related: Trivial, Paltry). 🤏\n• **Redoubtable**: Formidable, especially as an opponent. (Related: Fearsome, Daunting). 👺\n• **Fearsome**: Frightening, especially in appearance. (Related: Formidable, Terrifying). 👹\n• **Mighty**: Possessing great and impressive power or strength. (Related: Powerful, Strong). 💪"
-  },
-  {
-    "question": "Choose the word that means 'to instigate or stir up trouble':",
-    "options": ["Foment", "Palliate", "Abjure", "Wary"],
+    "question": "Identify the word that means 'to instigate or stir up trouble':",
+    "options": ["Palliate", "Abjure", "Foment", "Quiescent"],
     "answer": "Foment",
-    "explanation": "• **Foment**: Instigate or stir up an undesirable or violent sentiment or course of action. (Related: Incite, Provoke). 🔥\n• **Palliate**: To make something (like pain) less severe. (Related: Mitigate, Assuage). 🩹\n• **Abjure**: Solemnly renounce a belief, cause, or claim. (Related: Relinquish, Reject). ❌\n• **Wary**: Feeling or showing caution about possible dangers. (Related: Cautious, Circumspect). ⚠️"
+    "explanation": "• **Foment**: To instigate or stir up an undesirable sentiment. (Related: Incite, Provoke). 🔥\n• **Palliate**: To make symptoms less severe without removing the cause. 💊\n• **Abjure**: To solemnly renounce a belief. 👋"
   },
   {
-    "question": "Correct Spelling Check:",
-    "options": ["Xenophobic", "Zenophobic", "Xenofobic", "Zenofobic"],
-    "answer": "Xenophobic",
-    "explanation": "• **Xenophobic**: Correct spelling. (Greek root 'xenos' - stranger/foreign). (Related: Intolerant, Prejudiced). 🚫\n• **Zenophobic**: Incorrect; uses 'Z' instead of 'X'. ❌\n• **Xenofobic**: Incorrect; uses 'f' instead of 'ph'. ❌\n• **Zenofobic**: Incorrect; both first and middle letters are wrong. ❌"
+    "question": "Fill in the blank: The politician refused to ____ the facts despite the evidence.",
+    "options": ["Gainsay", "Vacillate", "Harangue", "Juxtapose"],
+    "answer": "Gainsay",
+    "explanation": "• **Gainsay**: To deny or contradict a fact. (Related: Dispute). 🚫\n• **Vacillate**: To waver between different opinions. ⚖️\n• **Juxtapose**: To place things side-by-side for contrast. ⚖️"
   },
   {
-    "question": "Meaning of 'Lugubrious':",
-    "options": ["Happy", "Sad", "Fast", "Green"],
-    "answer": "Sad",
-    "explanation": "• **Sad**: Feeling or showing sorrow; unhappy. (Related: Lugubrious, Melancholy, Gloomy). 😢\n• **Happy**: Feeling or showing pleasure or contentment. (Related: Joyful, Elated). 😊\n• **Fast**: Moving at high speed. (Related: Swift, Quick). 🏃\n• **Green**: Of the color between blue and yellow in the spectrum. (Related: Verdant). 🍏"
+    "question": "Which word describes a 'peaceful and happy period in the past'?",
+    "options": ["Imbroglio", "Halcyon", "Welter", "Nadir"],
+    "answer": "Halcyon",
+    "explanation": "• **Halcyon**: Idyllically happy and peaceful. (Related: Serene, Tranquil). 🌊\n• **Imbroglio**: A confused or complicated situation. 🧶\n• **Nadir**: The lowest point of fortunes. 📉"
   },
   {
-    "question": "Fill in the blank: The company reached the ____ of its success in 2022.",
-    "options": ["Nadir", "Zenith", "Abeyance", "Imbroglio"],
+    "question": "What is the SYNONYM of 'Imbroglio'?",
+    "options": ["Agreement", "Complication", "Solution", "Harmony"],
+    "answer": "Complication",
+    "explanation": "• **Complication**: An extremely confused or embarrassing situation. (Related: Entanglement). 🕸️\n• **Solution**: A means of solving a problem. 💡"
+  },
+  {
+    "question": "Identify the word meaning 'naive, simplistic, or dry and uninteresting':",
+    "options": ["Zenith", "Jejune", "Salubrious", "Redoubtable"],
+    "answer": "Jejune",
+    "explanation": "• **Jejune**: Naive, simplistic, or uninteresting. (Related: Dull, Insipid). 😴\n• **Salubrious**: Health-giving or wholesome. 🍎\n• **Zenith**: The highest point of success. ⛰️"
+  },
+  {
+    "question": "The sound of a bell rung for a funeral is a/an:",
+    "options": ["Accolade", "Knell", "Harangue", "Blandishment"],
+    "answer": "Knell",
+    "explanation": "• **Knell**: Sound of a funeral bell; a sign of the end of something. (Related: Toll). 🔔\n• **Accolade**: An award or privilege granted as an honor. 🏆"
+  },
+  {
+    "question": "Someone who 'looks or sounds very sad and dismal' is:",
+    "options": ["Sanguine", "Jocund", "Lugubrious", "Ebullient"],
+    "answer": "Lugubrious",
+    "explanation": "• **Lugubrious**: Looking or sounding sad and dismal. (Related: Mournful, Gloomy). 😢\n• **Sanguine**: Optimistic or positive. ☀️\n• **Ebullient**: Cheerful and full of energy. 🔥"
+  },
+  {
+    "question": "What is a 'Mendicant'?",
+    "options": ["A merchant", "A beggar", "A soldier", "A king"],
+    "answer": "A beggar",
+    "explanation": "• **A beggar**: A person who lives by asking for money. (Related: Pauper). 🧘‍♂️\n• **Merchant**: A person involved in trade. ⚖️"
+  },
+  {
+    "question": "Find the ANTONYM for 'Nadir':",
+    "options": ["Bottom", "Zenith", "Base", "Depression"],
     "answer": "Zenith",
-    "explanation": "• **Zenith**: The time at which something is most powerful or successful. (Related: Peak, Apex). 🏔️\n• **Nadir**: The lowest point in the fortunes of a person or organization. (Related: All-time low). 📉\n• **Abeyance**: A state of temporary disuse or suspension. (Related: Dormancy). ⏸️\n• **Imbroglio**: An extremely confused, complicated, or embarrassing situation. (Related: Mess, Tangled web). 🕸️"
+    "explanation": "• **Zenith**: The highest point reached by an object or success. (Antonym). ⛰️\n• **Nadir**: The lowest point in fortunes. 📉"
   },
   {
-    "question": "Synonym for 'Obfuscate':",
-    "options": ["Clarify", "Confuse", "Simplify", "Explain"],
-    "answer": "Confuse",
-    "explanation": "• **Confuse**: Make someone bewildered or perplexed. (Related: Obfuscate, Bewilder). 😵‍💫\n• **Clarify**: Make a statement or situation less confused and more comprehensible. (Related: Elucidate). 💡\n• **Simplify**: Make something simpler or easier to do or understand. (Related: Streamline). 🔧\n• **Explain**: Make something clear to someone by describing it in more detail. (Related: Elucidate, Clarify). 🗣️"
+    "question": "To 'render obscure, unclear, or unintelligible' is to:",
+    "options": ["Obfuscate", "Delineate", "Vindicate", "Explicate"],
+    "answer": "Obfuscate",
+    "explanation": "• **Obfuscate**: To make something unclear. (Related: Confuse, Blur). 🌫️\n• **Delineate**: To describe or portray precisely. 🖋️"
+  },
+  {
+    "question": "Which word means 'to make a disease less severe without removing the cause'?",
+    "options": ["Foment", "Exacerbate", " Palliate", "Enervate"],
+    "answer": " Palliate",
+    "explanation": "• **Palliate**: To alleviate or soothe symptoms. (Related: Alleviate, Mitigate). 💊\n• **Exacerbate**: To make a problem worse. 📈"
+  },
+  {
+    "question": "A state of 'inactivity or dormancy' is called:",
+    "options": ["Quiescent", "Ubiquitous", "Incessant", "Pervasive"],
+    "answer": "Quiescent",
+    "explanation": "• **Quiescent**: In a state of inactivity. (Related: Idle, Latent). 💤\n• **Ubiquitous**: Found everywhere. 🌍"
+  },
+  {
+    "question": "A 'formidable opponent who causes fear' is described as:",
+    "options": ["Languid", "Redoubtable", "Fatuous", "Malleable"],
+    "answer": "Redoubtable",
+    "explanation": "• **Redoubtable**: Formidable, especially as an opponent. (Related: Fearsome, Mighty). 🦁\n• **Languid**: Displaying disinclination for physical effort. 🐢"
+  },
+  {
+    "question": "What is the SYNONYM of 'Salubrious'?",
+    "options": ["Unhealthy", "Wholesome", "Noxious", "Toxic"],
+    "answer": "Wholesome",
+    "explanation": "• **Wholesome**: Conducive to health or well-being. (Related: Salutary). 🍎\n• **Noxious**: Harmful, poisonous, or very unpleasant. (Antonym). ☢️"
+  },
+  {
+    "question": "Evasion of straightforward action or clear-cut statement is:",
+    "options": ["Deference", "Tergiversation", "Perfidy", "Reciprocity"],
+    "answer": "Tergiversation",
+    "explanation": "• **Tergiversation**: Evasion of action or equivocation. (Related: Evasion). 🔄\n• **Deference**: Humble submission and respect. 🙇"
+  },
+  {
+    "question": "Choose the correct spelling for a word meaning 'fear of foreigners':",
+    "options": ["Zenophobic", "Xenophobic", "Xenofobic", "Zenofobic"],
+    "answer": "Xenophobic",
+    "explanation": "• **Xenophobic**: Correct spelling (starts with 'X'). (Related: Intolerant). 🚫"
+  },
+  {
+    "question": "What does 'Yoke' symbolize in a metaphorical sense?",
+    "options": ["Freedom", "Bondage/Oppression", "Victory", "Intelligence"],
+    "answer": "Bondage/Oppression",
+    "explanation": "• **Bondage/Oppression**: A burden or tie that restricts freedom. (Related: Tie). ⛓️\n• **Freedom**: The power or right to act. (Antonym). 🗽"
+  },
+  {
+    "question": "To 'solemnly renounce a belief' is to:",
+    "options": ["Abjure", "Harangue", "Zealot", "Sanguine"],
+    "answer": "Abjure",
+    "explanation": "• **Abjure**: Renounce a belief or claim. (Related: Relinquish). 👋\n• **Zealot**: A person who is fanatical in pursuit of ideals. 🚩"
+  },
+  {
+    "question": "Something 'trite, hackneyed, and boring' is:",
+    "options": ["Inchoate", "Banal", "Quixotic", "Halcyon"],
+    "answer": "Banal",
+    "explanation": "• **Banal**: Lacking originality; boring. (Related: Cliche). 🥱\n• **Quixotic**: Exceedingly idealistic and impractical. 🎠"
+  },
+  {
+    "question": "Which word describes a 'mercurial, unpredictable' personality?",
+    "options": ["Taciturn", "Capricious", "Stoic", "Persistent"],
+    "answer": "Capricious",
+    "explanation": "• **Capricious**: Given to sudden changes of mood. (Related: Fickle, Volatile). 🎭\n• **Taciturn**: Reserved or saying little. 😶"
+  },
+  {
+    "question": "Humble submission and respect is known as:",
+    "options": ["Umbrage", "Deference", "Effrontery", "Acrimony"],
+    "answer": "Deference",
+    "explanation": "• **Deference**: Humble submission and respect. (Related: Homage, Reverence). 🙇\n• **Effrontery**: Insolent or impertinent behavior. 😤"
+  },
+  {
+    "question": "What does 'Enervate' mean?",
+    "options": ["To energize", "To weaken", "To inspire", "To repair"],
+    "answer": "To weaken",
+    "explanation": "• **To weaken**: Cause someone to feel drained of energy. (Related: Exhaust, Fatigue). 🔋\n• **Energize**: Give vitality and enthusiasm to. (Antonym). ⚡"
+  },
+  {
+    "question": "A 'silly and pointless' idea is:",
+    "options": ["Fatuous", "Pragmatic", "Tenacious", "Diligence"],
+    "answer": "Fatuous",
+    "explanation": "• **Fatuous**: Silly and pointless. (Related: Inane, Foolish). 🤡\n• **Pragmatic**: Dealing with things sensibly and realistically. 🧠"
+  },
+  {
+    "question": "A person who is 'excessively talkative' is:",
+    "options": ["Reticent", "Taciturn", "Garrulous", "Languid"],
+    "answer": "Garrulous",
+    "explanation": "• **Garrulous**: Excessively talkative. (Related: Loquacious). 🗣️\n• **Reticent**: Not revealing thoughts readily. 🤐"
+  },
+  {
+    "question": "A 'lengthy and aggressive speech' is called a/an:",
+    "options": ["Harangue", "Aphorism", "Elegy", "Dialogue"],
+    "answer": "Harangue",
+    "explanation": "• **Harangue**: A lengthy and aggressive speech. (Related: Tirade). 🎤\n• **Elegy**: A poem of serious reflection, typically a lament for the dead. 🕯️"
+  },
+  {
+    "question": "Something 'just begun and not fully formed' is:",
+    "options": ["Obsolete", "Inchoate", "Zenith", "Abstemious"],
+    "answer": "Inchoate",
+    "explanation": "• **Inchoate**: Just begun; rudimentary. (Related: Nascent). 🥚\n• **Obsolete**: Outdated; no longer produced. 📻"
+  },
+  {
+    "question": "To 'place things side-by-side for contrast' is to:",
+    "options": ["Juxtapose", "Foment", "Obviate", "Malinger"],
+    "answer": "Juxtapose",
+    "explanation": "• **Juxtapose**: Place side-by-side for contrasting effect. (Related: Collate). ⚖️\n• **Obviate**: Remove a need or difficulty. 🛡️"
+  },
+  {
+    "question": "Someone showing 'disinclination for physical effort' is:",
+    "options": ["Zealous", "Languid", "Adept", "Diligent"],
+    "answer": "Languid",
+    "explanation": "• **Languid**: Sluggish or listless. (Related: Lethargic). 🐢\n• **Zealous**: Showing great energy for a cause. ⚡"
+  },
+  {
+    "question": "A material that is 'pliable and can be shaped' is:",
+    "options": ["Rigid", "Malleable", "Inexorable", "Tenuous"],
+    "answer": "Malleable",
+    "explanation": "• **Malleable**: Able to be pressed out of shape without breaking. (Related: Pliable). 🔨\n• **Rigid**: Unable to bend or be forced out of shape. (Antonym). 🧊"
+  },
+  {
+    "question": "A 'beginner or rookie' is a/an:",
+    "options": ["Veteran", "Neophyte", "Mendicant", "Iconoclast"],
+    "answer": "Neophyte",
+    "explanation": "• **Neophyte**: A person new to a subject or skill. (Related: Novice, Tyro). 🐣\n• **Veteran**: A person with long experience. (Antonym). 🎖️"
+  },
+  {
+    "question": "A 'burdensome and difficult task' is:",
+    "options": ["Facile", "Onerous", "Salubrious", "Xenial"],
+    "answer": "Onerous",
+    "explanation": "• **Onerous**: Involving a great deal of effort; burdensome. (Related: Arduous). 🏋️\n• **Facile**: Appearing comprehensive by ignoring complexities; easy. (Antonym). 🟢"
+  },
+  {
+    "question": "Something 'found everywhere or widespread' is:",
+    "options": ["Scarce", "Pervasive", "Unique", "Quiescent"],
+    "answer": "Pervasive",
+    "explanation": "• **Pervasive**: Spreading widely throughout an area. (Related: Ubiquitous). 🌐\n• **Scarce**: Insufficient for the demand. (Antonym). 💎"
+  },
+  {
+    "question": "An 'unrealistic and exceedingly idealistic' person is:",
+    "options": ["Pragmatic", "Quixotic", "Wary", "Adept"],
+    "answer": "Quixotic",
+    "explanation": "• **Quixotic**: Exceedingly idealistic; impractical. (Related: Visionary). 🎠\n• **Pragmatic**: Realistic and sensible. 🧠"
+  },
+  {
+    "question": "Someone who is 'reserved and withdrawn' is:",
+    "options": ["Garrulous", "Reticent", "Ebullient", "Convivial"],
+    "answer": "Reticent",
+    "explanation": "• **Reticent**: Not revealing thoughts or feelings readily. (Related: Reserved). 🤐\n• **Garrulous**: Excessively talkative. 🗣️"
+  },
+  {
+    "question": "What is the SYNONYM of 'Sanguine'?",
+    "options": ["Pessimistic", "Optimistic", "Doubtful", "Melancholy"],
+    "answer": "Optimistic",
+    "explanation": "• **Optimistic**: Hopeful and confident about the future. (Related: Sanguine, Buoyant). ☀️\n• **Pessimistic**: Tending to see the worst aspect of things. (Antonym). 📉"
+  },
+  {
+    "question": "A person who 'says very little' is:",
+    "options": ["Taciturn", "Loquacious", "Garrulous", "Verbose"],
+    "answer": "Taciturn",
+    "explanation": "• **Taciturn**: Reserved or uncommunicative in speech. (Related: Quiet, Laconic). 😶\n• **Loquacious**: Tending to talk a great deal. (Antonym). 🗣️"
+  },
+  {
+    "question": "Something 'present everywhere' is:",
+    "options": ["Rare", "Ubiquitous", "Isolated", "Limited"],
+    "answer": "Ubiquitous",
+    "explanation": "• **Ubiquitous**: Present, appearing, or found everywhere. (Related: Omnipresent). 🌍\n• **Rare**: Not occurring very often. (Antonym). 💎"
+  },
+  {
+    "question": "To 'waver between different opinions or be indecisive' is to:",
+    "options": ["Vacillate", "Vindicate", "Abjure", "Foment"],
+    "answer": "Vacillate",
+    "explanation": "• **Vacillate**: Alternate or waver between different opinions. (Related: Waver, Dither). ⚖️\n• **Vindicate**: Clear of blame. ⚖️"
+  },
+  {
+    "question": "A 'cautious and vigilant' person is:",
+    "options": ["Rash", "Wary", "Heedless", "Audacious"],
+    "answer": "Wary",
+    "explanation": "• **Wary**: Feeling or showing caution about possible dangers. (Related: Circumspect). 🔍\n• **Rash**: Acting without careful consideration. (Antonym). 🏃‍♂️"
+  },
+  {
+    "question": "Which word relates to 'hospitality for guests from other lands'?",
+    "options": ["Xenophobic", "Xenial", "Bucolic", "Jejune"],
+    "answer": "Xenial",
+    "explanation": "• **Xenial**: Relating to institutionalized hospitality. (Related: Welcoming). 🏡\n• **Xenophobic**: Prejudice against people from other countries. (Antonym). 🚫"
+  },
+  {
+    "question": "A 'fanatical and uncompromising' person is a/an:",
+    "options": ["Apathetic", "Zealot", "Mendicant", "Neophyte"],
+    "answer": "Zealot",
+    "explanation": "• **Zealot**: A person fanatical in pursuit of ideals. (Related: Radical). 🚩\n• **Apathetic**: Showing or feeling no interest. 😐"
+  },
+  {
+    "question": "What is 'Paucity'?",
+    "options": ["Abundance", "Paucity", "Surplus", "Inundation"],
+    "answer": "Paucity",
+    "explanation": "• **Paucity**: Smallness of number or quantity; scarcity. (Related: Lack, Dearth). 🤏\n• **Abundance**: A very large quantity. (Antonym). 💰"
+  },
+  {
+    "question": "To 'overwhelm with things or people' is to:",
+    "options": ["Obviate", "Inundate", "Abnegation", "Anachronism"],
+    "answer": "Inundate",
+    "explanation": "• **Inundate**: Overwhelm with things/people; flood. (Related: Swamp). 🌊\n• **Obviate**: Remove a need or difficulty. 🛡️"
+  },
+  {
+    "question": "A 'dishonest or unscrupulous man' is a:",
+    "options": ["Knave", "Sycophant", "Neophyte", "Altruist"],
+    "answer": "Knave",
+    "explanation": "• **Knave**: A dishonest or unscrupulous man. (Related: Rogue). 👺\n• **Sycophant**: A person who acts submissively to gain favor. 🤝"
+  },
+  {
+    "question": "Deceitfulness and untrustworthiness is called:",
+    "options": ["Perfidy", "Allegiance", "Fidelity", "Honor"],
+    "answer": "Perfidy",
+    "explanation": "• **Perfidy**: Deceitfulness; untrustworthiness. (Related: Treachery). 🔪\n• **Allegiance**: Loyalty or commitment of a subordinate. (Antonym). 🫡"
   }
 ]
