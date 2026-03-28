@@ -1,156 +1,302 @@
 [
   {
-    "question": "Synonym for 'Abnegation':",
-    "options": ["Assertion", "Renunciation", "Acceptance", "Indulgence"],
+    "question": "What is the SYNONYM of 'Abnegation'?",
+    "options": ["Indulgence", "Renunciation", "Assertion", "Acceptance"],
     "answer": "Renunciation",
-    "type": "synonym",
-    "explanation": "Abnegation involves giving up or rejecting a right or belief."
+    "explanation": "• **Renunciation**: The formal rejection of a belief, claim, or course of action. (Related: Abnegation, Self-denial). 🚫\n• **Indulgence**: Allowing oneself to enjoy a particular pleasure. (Antonym). 🍦"
   },
   {
-    "question": "Antonym for 'Ascetic':",
-    "options": ["Austere", "Hedonistic", "Puritanical", "Abstemious"],
-    "answer": "Hedonistic",
-    "type": "antonym",
-    "explanation": "Ascetic means self-denial; Hedonistic means seeking pleasure."
-  },
-  {
-    "question": "Correct the Spelling:",
-    "options": ["Equanimety", "Equanimity", "Equanimmity", "Equanamity"],
-    "answer": "Equanimity",
-    "type": "spelling"
-  },
-  {
-    "question": "Choose the word for 'Fear of being out of date or in the wrong time period':",
-    "options": ["Anachronism", "Evanescent", "Exigent", "Inchoate"],
+    "question": "Identify the word that means 'something out of its proper time':",
+    "options": ["Chronology", "Anachronism", "Archaic", "Contemporary"],
     "answer": "Anachronism",
-    "type": "one_word"
+    "explanation": "• **Anachronism**: An error in chronology; a person or thing that is chronologically out of place. (Related: Misplacement). ⏳\n• **Contemporary**: Living or occurring at the same time. (Related: Modern). 📱"
   },
   {
-    "question": "Fill in the blank: The speaker's ____ tone was meant to stir the angry crowd into a riot.",
-    "options": ["Demagogic", "Pellucid", "Jocund", "Wizened"],
-    "answer": "Demagogic",
-    "type": "sentence_completion"
+    "question": "Find the ANTONYM for 'Ascetic':",
+    "options": ["Austere", "Hermit-like", "Sybaritic", "Puritanical"],
+    "answer": "Sybaritic",
+    "explanation": "• **Sybaritic**: Fond of sensuous luxury or pleasure. (Antonym of Ascetic). 🏰\n• **Austere**: Severe or strict in manner or appearance. (Synonym). 🧘"
   },
   {
-    "question": "Identify the SYNONYM for 'Effrontery':",
-    "options": ["Modesty", "Audacity", "Shyness", "Courtesy"],
-    "answer": "Audacity",
-    "type": "synonym"
+    "question": "Choose the word that best describes a 'trite or hackneyed' remark:",
+    "options": ["Banal", "Original", "Profound", "Eloquent"],
+    "answer": "Banal",
+    "explanation": "• **Banal**: Lacking originality; obvious and boring. (Related: Cliche, Humdrum). 🥱\n• **Profound**: Showing great knowledge or insight. (Antonym). 🧠"
   },
   {
-    "question": "Find the error: The manager (A) was forced to (B) capitulate to (C) the workers demands (D).",
-    "options": ["A", "B", "C", "D"],
-    "answer": "D",
-    "type": "error_detection",
-    "explanation": "Workers' (Possessive plural) needs an apostrophe after 's'."
+    "question": "Fill in the blank: After a week of siege, the rebels decided to ____ to the government forces.",
+    "options": ["Capitulate", "Foment", "Upbraid", "Gainsay"],
+    "answer": "Capitulate",
+    "explanation": "• **Capitulate**: To surrender or cease resisting an opponent. (Related: Yield, Succumb). 🏳️\n• **Gainsay**: To deny or contradict. (Related: Oppose). 🙅"
   },
   {
-    "question": "Antonym for 'Banal':",
-    "options": ["Trite", "Original", "Common", "Mundane"],
-    "answer": "Original",
-    "type": "antonym"
+    "question": "What is the meaning of 'Convivial'?",
+    "options": ["Hostile", "Sociable", "Melancholy", "Reclusive"],
+    "answer": "Sociable",
+    "explanation": "• **Sociable**: Fond of company; friendly and lively. (Related: Convivial, Genial). 🥳\n• **Reclusive**: Avoiding the company of other people; solitary. (Antonym). 🏚️"
   },
   {
-    "question": "Synonym for 'Desultory':",
+    "question": "A political leader who appeals to popular desires rather than using rational argument is a/an:",
+    "options": ["Diplomat", "Demagogue", "Apostate", "Venerable"],
+    "answer": "Demagogue",
+    "explanation": "• **Demagogue**: A rabble-rouser who gains power by exploiting emotions. (Related: Agitator). 🗣️\n• **Apostate**: A person who renounces a religious or political belief. 🚪"
+  },
+  {
+    "question": "Find the SYNONYM for 'Desultory':",
     "options": ["Methodical", "Haphazard", "Systematic", "Focused"],
     "answer": "Haphazard",
-    "type": "synonym"
+    "explanation": "• **Haphazard**: Lacking any obvious principle of organization. (Related: Desultory, Erratic). 🌀\n• **Methodical**: Done according to a systematic or established form. (Antonym). 📏"
   },
   {
-    "question": "Spell Check: Which one is correct?",
-    "options": ["Vicissitude", "Vicisitude", "Vicissitidue", "Vissicitude"],
-    "answer": "Vicissitude",
-    "type": "spelling"
-  },
-  {
-    "question": "Meaning of 'Malinger':",
-    "options": ["To work hard", "To fake illness", "To help others", "To travel"],
-    "answer": "To fake illness",
-    "type": "meaning"
-  },
-  {
-    "question": "Fill in: The ____ cloth allowed light to pass through easily.",
-    "options": ["Diaphanous", "Onerous", "Recondite", "Querulous"],
+    "question": "Which word describes a fabric that is 'light, delicate, and translucent'?",
+    "options": ["Opaque", "Diaphanous", "Visceral", "Onerous"],
     "answer": "Diaphanous",
-    "type": "context"
+    "explanation": "• **Diaphanous**: (especially of fabric) light, delicate, and translucent. (Related: Gossamer). 💎\n• **Opaque**: Not able to be seen through; not transparent. (Antonym). 🧱"
   },
   {
-    "question": "Synonym for 'Invective':",
-    "options": ["Praise", "Vituperation", "Politeness", "Award"],
-    "answer": "Vituperation",
-    "type": "synonym"
+    "question": "What is the ANTONYM of 'Effrontery'?",
+    "options": ["Audacity", "Temerity", "Meekness", "Impudence"],
+    "answer": "Meekness",
+    "explanation": "• **Meekness**: The quality of being quiet, gentle, and easily imposed on. (Antonym). 🙏\n• **Audacity**: A willingness to take bold risks or rude behavior. (Synonym). 😤"
   },
   {
-    "question": "Antonym for 'Neophyte':",
-    "options": ["Novice", "Expert", "Tyro", "Learner"],
-    "answer": "Expert",
-    "type": "antonym"
+    "question": "Identify the word for 'outstandingly bad or shocking':",
+    "options": ["Egregious", "Salubrious", "Pellucid", "Inchoate"],
+    "answer": "Egregious",
+    "explanation": "• **Egregious**: Outstandingly bad; shocking. (Related: Atrocious, Flagrant). 🚫\n• **Salubrious**: Health-giving; healthy. (Antonym). 🍏"
   },
   {
-    "question": "Choose the correctly spelt word:",
-    "options": ["Perfidy", "Perfiddie", "Perfidey", "Parfidy"],
+    "question": "Sentence Completion: Even in the middle of the crisis, the captain maintained her ____.",
+    "options": ["Rancor", "Equanimity", "Perfidy", "Invective"],
+    "answer": "Equanimity",
+    "explanation": "• **Equanimity**: Mental calmness, especially in a difficult situation. (Related: Composure, Poise). ⚖️\n• **Rancor**: Bitterness or resentfulness. (Related: Hatred). 🔥"
+  },
+  {
+    "question": "Something that is 'vanishing or short-lived' is described as:",
+    "options": ["Perpetual", "Evanescent", "Inexorable", "Ubiquitous"],
+    "answer": "Evanescent",
+    "explanation": "• **Evanescent**: Soon passing out of sight, memory, or existence. (Related: Fugitive, Fading). 🌬️\n• **Perpetual**: Never ending or changing. (Antonym). ♾️"
+  },
+  {
+    "question": "What is the SYNONYM of 'Exigent'?",
+    "options": ["Trivial", "Urgent", "Indifferent", "Leisured"],
+    "answer": "Urgent",
+    "explanation": "• **Urgent**: Requiring immediate action or attention. (Related: Exigent, Imperative). 🚨\n• **Trivial**: Of little value or importance. (Antonym). 🤏"
+  },
+  {
+    "question": "Meaning of 'Fatuous':",
+    "options": ["Intelligent", "Silly", "Serious", "Heavy"],
+    "answer": "Silly",
+    "explanation": "• **Silly**: Pointless and foolish. (Related: Fatuous, Inane). 🥴\n• **Serious**: Demanding character, thought, or consideration. (Antonym). 🧐"
+  },
+  {
+    "question": "Identify the word that means 'to deny or contradict':",
+    "options": ["Gainsay", "Venerate", "Foment", "Wheedle"],
+    "answer": "Gainsay",
+    "explanation": "• **Gainsay**: To deny or contradict a fact or statement. (Related: Dispute, Repudiate). 🙅\n• **Venerate**: Regard with great respect; revere. (Antonym). 👴"
+  },
+  {
+    "question": "A person who is 'unlucky and miserable' is often called:",
+    "options": ["Jocund", "Hapless", "Gregarious", "Winsome"],
+    "answer": "Hapless",
+    "explanation": "• **Hapless**: (especially of a person) unfortunate. (Related: Ill-fated, Wretched). 📉\n• **Winsome**: Attractive or appealing in appearance or character. (Antonym). 😊"
+  },
+  {
+    "question": "What is the SYNONYM for 'Inchoate'?",
+    "options": ["Mature", "Rudimentary", "Finished", "Polished"],
+    "answer": "Rudimentary",
+    "explanation": "• **Rudimentary**: Involving or limited to basic principles; undeveloped. (Related: Inchoate, Nascent). 🥚\n• **Mature**: Fully developed in body or mind. (Antonym). 🌳"
+  },
+  {
+    "question": "Fill in the blank: The critic’s review was full of harsh ____ against the director.",
+    "options": ["Accolades", "Invective", "Equanimity", "Blandishments"],
+    "answer": "Invective",
+    "explanation": "• **Invective**: Insulting, abusive, or highly critical language. (Related: Vituperation, Denunciation). 🤬\n• **Accolades**: An award or privilege granted as a special honor. (Antonym). 🏆"
+  },
+  {
+    "question": "Identify the word for 'a dishonest or unscrupulous man':",
+    "options": ["Neophyte", "Sycophant", "Knave", "Altruist"],
+    "answer": "Knave",
+    "explanation": "• **Knave**: A dishonest or unscrupulous man. (Related: Rogue, Scoundrel). 👺\n• **Altruist**: A person who unselfishly helps others. (Antonym). 🤝"
+  },
+  {
+    "question": "Someone who is 'listless and lethargic' is:",
+    "options": ["Languid", "Truculent", "Bellicose", "Exigent"],
+    "answer": "Languid",
+    "explanation": "• **Languid**: Displaying or having a disinclination for physical exertion. (Related: Sluggish, Weak). 🥀\n• **Truculent**: Eager or quick to argue or fight. (Antonym). ⚔️"
+  },
+  {
+    "question": "What is the meaning of 'Maudlin'?",
+    "options": ["Cheerful", "Tearfully sentimental", "Cruel", "Practical"],
+    "answer": "Tearfully sentimental",
+    "explanation": "• **Tearfully sentimental**: Self-pitying or tearfully sentimental. (Related: Maudlin, Mushy). 🥺\n• **Practical**: Concerned with the actual doing of something rather than with theory. (Antonym). 🛠️"
+  },
+  {
+    "question": "A 'beginner or novice' in a field is a/an:",
+    "options": ["Veteran", "Neophyte", "Expert", "Connoisseur"],
+    "answer": "Neophyte",
+    "explanation": "• **Neophyte**: A person who is new to a subject, skill, or belief. (Related: Tyro, Rookie). 🐣\n• **Veteran**: A person who has had long experience in a particular field. (Antonym). 🎖️"
+  },
+  {
+    "question": "Identify the word for 'burdensome or difficult':",
+    "options": ["Onerous", "Limpid", "Fecund", "Facile"],
+    "answer": "Onerous",
+    "explanation": "• **Onerous**: (of a task or duty) involving an amount of effort that is oppressively burdensome. (Related: Arduous). 🏋️\n• **Facile**: (especially of a theory or argument) appearing neat and comprehensive only by ignoring the true complexities. (Related: Easy). 🟢"
+  },
+  {
+    "question": "What is the SYNONYM of 'Pellucid'?",
+    "options": ["Turbid", "Crystal clear", "Opaque", "Ambiguous"],
+    "answer": "Crystal clear",
+    "explanation": "• **Crystal clear**: Translucently clear. (Related: Pellucid, Lucid). 💧\n• **Turbid**: (of a liquid) cloudy, opaque, or thick with suspended matter. (Antonym). ☕"
+  },
+  {
+    "question": "A person who is 'complaining in a whining manner' is:",
+    "options": ["Jocund", "Querulous", "Stolid", "Placid"],
+    "answer": "Querulous",
+    "explanation": "• **Querulous**: Complaining in a petulant or whining manner. (Related: Whiny, Fretful). 😒\n• **Placid**: Not easily upset or excited. (Antonym). 🌊"
+  },
+  {
+    "question": "Identify the meaning of 'Recondite':",
+    "options": ["Obvious", "Abstruse/Little known", "Banal", "Transparent"],
+    "answer": "Abstruse/Little known",
+    "explanation": "• **Abstruse**: (of a subject or knowledge) little known; obscure. (Related: Recondite, Esoteric). 📜\n• **Obvious**: Easily perceived or understood; self-evident. (Antonym). 💡"
+  },
+  {
+    "question": "Find the word meaning 'health-giving or wholesome':",
+    "options": ["Noisome", "Salubrious", "Lurid", "Nefarious"],
+    "answer": "Salubrious",
+    "explanation": "• **Salubrious**: Health-giving; healthy. (Related: Beneficial, Wholesome). 🍏\n• **Noisome**: Having an extremely offensive smell. (Antonym). 🤢"
+  },
+  {
+    "question": "What is the SYNONYM for 'Tenuous'?",
+    "options": ["Substantial", "Fragile", "Robust", "Sturdy"],
+    "answer": "Fragile",
+    "explanation": "• **Fragile**: Very weak or slight. (Related: Tenuous, Flimsy). 🧵\n• **Substantial**: Of considerable importance, size, or worth. (Antonym). 🧱"
+  },
+  {
+    "question": "Identify the word for 'to scold or find fault with someone':",
+    "options": ["Extol", "Upbraid", "Wheedle", "Cajole"],
+    "answer": "Upbraid",
+    "explanation": "• **Upbraid**: Find fault with someone; scold. (Related: Reprimand, Rebuke). 📣\n• **Extol**: Praise enthusiastically. (Antonym). 👏"
+  },
+  {
+    "question": "Meaning of 'Vicissitude':",
+    "options": ["Stability", "Ups and downs", "Continuity", "Action"],
+    "answer": "Ups and downs",
+    "explanation": "• **Ups and downs**: A change of circumstances or fortune, typically one that is unwelcome. (Related: Fluctuation). 📈\n• **Stability**: The state of being stable. (Antonym). ⚓"
+  },
+  {
+    "question": "A person who is 'shriveled or wrinkled with age' is:",
+    "options": ["Juvenile", "Wizened", "Verdant", "Bucolic"],
+    "answer": "Wizened",
+    "explanation": "• **Wizened**: Shriveled or wrinkled with age. (Related: Gnarled). 🍂\n• **Verdant**: (of countryside) green with grass or other rich vegetation. (Related: Green). 🌳"
+  },
+  {
+    "question": "Identify the word that means 'a feeling of repulsion or disgusted loathing':",
+    "options": ["Adoration", "Abhorrence", "Affection", "Amity"],
+    "answer": "Abhorrence",
+    "explanation": "• **Abhorrence**: A feeling of repulsion; disgusted loathing. (Related: Detestation). 🤮\n• **Adoration**: Deep love and respect. (Antonym). ❤️"
+  },
+  {
+    "question": "To 'charm or enchant someone in a deceptive way' is to:",
+    "options": ["Beguile", "Gainsay", "Upbraid", "Palliate"],
+    "answer": "Beguile",
+    "explanation": "• **Beguile**: Charm or enchant someone, sometimes in a deceptive way. (Related: Bewitch). ✨\n• **Palliate**: Make a disease or its symptoms less severe. (Related: Soothe). 🩹"
+  },
+  {
+    "question": "What is the SYNONYM for 'Circumspect'?",
+    "options": ["Rash", "Cautious", "Audacious", "Heedless"],
+    "answer": "Cautious",
+    "explanation": "• **Cautious**: Wary and unwilling to take risks. (Related: Circumspect, Prudent). 🔍\n• **Rash**: Displaying or proceeding from a lack of careful consideration. (Antonym). 🏃‍♂️"
+  },
+  {
+    "question": "A volcano that is 'inactive' is often described as:",
+    "options": ["Volatile", "Dormant", "Exigent", "Inexorable"],
+    "answer": "Dormant",
+    "explanation": "• **Dormant**: Having normal physical functions suspended or slowed down. (Related: Quiescent, Latent). 💤\n• **Volatile**: Liable to change rapidly and unexpectedly. (Antonym). 🧨"
+  },
+  {
+    "question": "Which word means 'to cause someone to feel drained of energy'?",
+    "options": ["Invigorate", "Enervate", "Galvanize", "Stimulate"],
+    "answer": "Enervate",
+    "explanation": "• **Enervate**: Cause someone to feel drained of energy or vitality; weaken. (Related: Exhaust). 🔋\n• **Invigorate**: Give strength or energy to. (Antonym). 🏃‍♀️"
+  },
+  {
+    "question": "A person who is 'very attentive to detail and accuracy' is:",
+    "options": ["Fastidious", "Slovenly", "Lax", "Negligent"],
+    "answer": "Fastidious",
+    "explanation": "• **Fastidious**: Very attentive to and concerned about accuracy and detail. (Related: Meticulous). 🧼\n• **Slovenly**: (especially of a person or their appearance) untidy and dirty. (Antonym). 🗑️"
+  },
+  {
+    "question": "Identify the meaning of 'Gregarious':",
+    "options": ["Solitary", "Sociable", "Aloof", "Hostile"],
+    "answer": "Sociable",
+    "explanation": "• **Sociable**: Fond of company; sociable. (Related: Gregarious, Convivial). 👫\n• **Aloof**: Not friendly or forthcoming; cool and distant. (Antonym). 🧊"
+  },
+  {
+    "question": "Overly theatrical or melodramatic behavior is described as:",
+    "options": ["Histrionic", "Subtle", "Stoic", "Banal"],
+    "answer": "Histrionic",
+    "explanation": "• **Histrionic**: Overly theatrical or melodramatic in character or style. (Related: Affected). 🎭\n• **Subtle**: So delicate or precise as to be difficult to analyze or describe. (Antonym). 🌫️"
+  },
+  {
+    "question": "What is the SYNONYM of 'Inexorable'?",
+    "options": ["Flexible", "Relentless", "Yielding", "Merciful"],
+    "answer": "Relentless",
+    "explanation": "• **Relentless**: Impossible to stop or prevent. (Related: Inexorable, Persistent). ⛓️\n• **Flexible**: Ready and able to change or adapt to different circumstances. (Antonym). 🤸"
+  },
+  {
+    "question": "A person who is 'cheerful and lighthearted' is:",
+    "options": ["Jocund", "Lugubrious", "Saturnine", "Morose"],
+    "answer": "Jocund",
+    "explanation": "• **Jocund**: Cheerful and lighthearted. (Related: Merry, Jolly). 🌞\n• **Morose**: Sullen and ill-tempered. (Antonym). ☁️"
+  },
+  {
+    "question": "Something that is 'harsh, vivid, or shocking' in color or detail is:",
+    "options": ["Limpid", "Lurid", "Pellucid", "Drab"],
+    "answer": "Lurid",
+    "explanation": "• **Lurid**: Very vivid in color; sensational or shocking. (Related: Gory). 🩸\n• **Drab**: Lacking brightness or interest; uninterestingly dull. (Antonym). 🌫️"
+  },
+  {
+    "question": "A student who 'feigns illness to skip school' is said to:",
+    "options": ["Upbraid", "Malinger", "Foment", "Capitulate"],
+    "answer": "Malinger",
+    "explanation": "• **Malinger**: Exaggerate or feign illness in order to escape duty or work. (Related: Shirk). 🤒\n• **Capitulate**: Surrender or cease resisting. (Related: Yield). 🏳️"
+  },
+  {
+    "question": "Find the word for 'something of no value or importance':",
+    "options": ["Nugatory", "Vital", "Crucial", "Momentous"],
+    "answer": "Nugatory",
+    "explanation": "• **Nugatory**: Of no value or importance. (Related: Worthless, Futile). 🗑️\n• **Momentous**: (of a decision, event, or change) of great importance or significance. (Antonym). 🌍"
+  },
+  {
+    "question": "Identify the meaning of 'Obviate':",
+    "options": ["Necessitate", "Remove the need for/Prevent", "Encourage", "Incite"],
+    "answer": "Remove the need for/Prevent",
+    "explanation": "• **Remove the need for**: To anticipate and prevent or eliminate. (Related: Preclude). 🛡️\n• **Necessitate**: Make (something) necessary as a result or consequence. (Antonym). 🛠️"
+  },
+  {
+    "question": "Treachery and untrustworthiness is described as:",
+    "options": ["Perfidy", "Fidelity", "Allegiance", "Honor"],
     "answer": "Perfidy",
-    "type": "spelling"
+    "explanation": "• **Perfidy**: Deceitfulness; untrustworthiness. (Related: Treachery, Betrayal). 🔪\n• **Fidelity**: Faithfulness to a person, cause, or belief. (Antonym). 💍"
   },
   {
-    "question": "Meaning of 'Quixotic':",
-    "options": ["Practical", "Unrealistic", "Violent", "Fast"],
-    "answer": "Unrealistic",
-    "type": "meaning"
+    "question": "A project that is 'idealistic but impractical' is:",
+    "options": ["Quixotic", "Pragmatic", "Feasible", "Lucrative"],
+    "answer": "Quixotic",
+    "explanation": "• **Quixotic**: Exceedingly idealistic; unrealistic and impractical. (Related: Visionary). 🎠\n• **Pragmatic**: Dealing with things sensibly and realistically. (Antonym). 🧠"
   },
   {
-    "question": "Synonym for 'Upbraid':",
-    "options": ["Scold", "Applaud", "Ignore", "Welcome"],
-    "answer": "Scold",
-    "type": "synonym"
+    "question": "What is the SYNONYM for 'Rancor'?",
+    "options": ["Benevolence", "Bitterness", "Amity", "Harmony"],
+    "answer": "Bitterness",
+    "explanation": "• **Bitterness**: Bitterness or resentfulness, especially long-standing. (Related: Rancor, Spite). 🔥\n• **Benevolence**: The quality of being well meaning; kindness. (Antonym). 🌸"
   },
   {
-    "question": "Antonym for 'Languid':",
-    "options": ["Sluggish", "Energetic", "Lazy", "Weak"],
-    "answer": "Energetic",
-    "type": "antonym"
-  },
-  {
-    "question": "Fill in: The ____ problem was so complex that only a few experts understood it.",
-    "options": ["Recondite", "Banal", "Hapless", "Jocund"],
-    "answer": "Recondite",
-    "type": "sentence_completion"
-  },
-  {
-    "question": "Synonym for 'Onerous':",
-    "options": ["Easy", "Burdensome", "Light", "Simple"],
-    "answer": "Burdensome",
-    "type": "synonym"
-  },
-  {
-    "question": "Identify the misspelled word:",
-    "options": ["Circumspect", "Fastidious", "Egregious", "Histrionick"],
-    "answer": "Histrionick",
-    "type": "spelling",
-    "explanation": "Correct spelling is 'Histrionic' (no 'k')."
-  },
-  {
-    "question": "Antonym for 'Querulous':",
-    "options": ["Whiny", "Contented", "Petulant", "Irritable"],
-    "answer": "Contented",
-    "type": "antonym"
-  },
-  {
-    "question": "Synonym for 'Pellucid':",
-    "options": ["Cloudy", "Clear", "Vague", "Muddy"],
-    "answer": "Clear",
-    "type": "synonym"
-  },
-  {
-    "question": "Fill in: His ____ manners made him the most popular person at the party.",
-    "options": ["Convivial", "Inchoate", "Lurid", "Nugatory"],
-    "answer": "Convivial",
-    "type": "context"
-  },
-  {
-    "question": "Synonym for 'Gainsay':",
-    "options": ["Confirm", "Deny", "Support", "Accept"],
-    "answer": "Deny",
-    "type": "synonym"
+    "question": "Identify the word for a 'flatterer who acts submissively to gain favor':",
+    "options": ["Sycophant", "Iconoclast", "Bellwether", "Demagogue"],
+    "answer": "Sycophant",
+    "explanation": "• **Sycophant**: A person who acts obsequiously toward someone important. (Related: Toady, Lackey). 🤝\n• **Iconoclast**: A person who attacks settled beliefs or institutions. 🔨"
   }
 ]
