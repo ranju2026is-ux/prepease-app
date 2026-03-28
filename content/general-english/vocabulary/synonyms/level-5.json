@@ -1,182 +1,182 @@
 [
   {
-    "word": "Abstruse",
-    "meaning_kannada": "ಅಗೋಚರ",
-    "meaning_english": "Difficult to understand. Synonyms: Obscure, Complex, Vague, Cryptic.",
-    "emoji": "🧩"
+    "question": "What is the SYNONYM of 'Abstruse'?",
+    "options": ["Simple", "Obscure", "Clear", "Obvious"],
+    "answer": "Obscure",
+    "explanation": "• **Obscure**: Difficult to understand or not clearly expressed. (Related: Abstruse, Cryptic). 🧩\n• **Simple**: Easily understood or done. (Antonym). ✅"
   },
   {
-    "word": "Accolade",
-    "meaning_kannada": "ಪ್ರಶಂಸೆ",
-    "meaning_english": "An award or praise. Synonyms: Praise, Honor, Tribute, Recognition.",
-    "emoji": "🏆"
+    "question": "Choose the word that means 'an award or praise':",
+    "options": ["Acrimony", "Accolade", "Debacle", "Fallacy"],
+    "answer": "Accolade",
+    "explanation": "• **Accolade**: An award or privilege granted as a special honor. (Related: Recognition, Tribute). 🏆\n• **Acrimony**: Bitterness or ill feeling. (Related: Resentment). 🔥"
   },
   {
-    "word": "Acrimony",
-    "meaning_kannada": "ಕಟುವಾದ ಮನೋಭಾವ",
-    "meaning_english": "Bitterness in speech or behavior. Synonyms: Bitterness, Resentment, Hostility, Harshness.",
-    "emoji": "🔥"
+    "question": "What is the ANTONYM of 'Acrimony'?",
+    "options": ["Hostility", "Bitterness", "Benevolence", "Harshness"],
+    "answer": "Benevolence",
+    "explanation": "• **Benevolence**: The quality of being well-meaning; kindness. (Antonym). ❤️\n• **Hostility**: Unfriendly or opposition; state of being bitter. (Synonym). ⚔️"
   },
   {
-    "word": "Adept",
-    "meaning_kannada": "ನಿಪುಣ",
-    "meaning_english": "Highly skilled. Synonyms: Proficient, Expert, Skilled, Competent.",
-    "emoji": "🎯"
+    "question": "Fill in the blank: The surgeon was highly ____ at performing complex heart operations.",
+    "options": ["Adept", "Apathy", "Obsolete", "Spurious"],
+    "answer": "Adept",
+    "explanation": "• **Adept**: Very skilled or proficient at something. (Related: Expert, Competent). 🎯\n• **Apathy**: Lack of interest, enthusiasm, or concern. 😐"
   },
   {
-    "word": "Apathy",
-    "meaning_kannada": "ಉದಾಸೀನತೆ",
-    "meaning_english": "Lack of interest or concern. Synonyms: Indifference, Unconcern, Passivity, Detachment.",
-    "emoji": "😐"
+    "question": "Which word describes a 'lack of interest or concern'?",
+    "options": ["Tenacious", "Apathy", "Diligent", "Elated"],
+    "answer": "Apathy",
+    "explanation": "• **Apathy**: Lack of concern or interest. (Related: Indifference, Passivity). 😐\n• **Diligent**: Having or showing care and conscientiousness in one's work. 🐝"
   },
   {
-    "word": "Belligerent",
-    "meaning_kannada": "ಯುದ್ಧಪ್ರಿಯ",
-    "meaning_english": "Aggressive and hostile. Synonyms: Aggressive, Hostile, Combative, Quarrelsome.",
-    "emoji": "⚔️"
+    "question": "What is the SYNONYM of 'Belligerent'?",
+    "options": ["Peaceful", "Hostile", "Kind", "Gentle"],
+    "answer": "Hostile",
+    "explanation": "• **Hostile**: Showing or feeling opposition or dislike; unfriendly. (Related: Belligerent, Combative). ⚔️\n• **Peaceful**: Free from disturbance; tranquil. (Antonym). 🕊️"
   },
   {
-    "word": "Capricious",
-    "meaning_kannada": "ಚಂಚಲ",
-    "meaning_english": "Given to sudden changes. Synonyms: Fickle, Unpredictable, Impulsive, Whimsical.",
-    "emoji": "🎭"
+    "question": "A person who is 'unpredictable and prone to sudden changes' is:",
+    "options": ["Pragmatic", "Capricious", "Tenacious", "Meticulous"],
+    "answer": "Capricious",
+    "explanation": "• **Capricious**: Given to sudden and unaccountable changes of mood or behavior. (Related: Fickle, Whimsical). 🎭\n• **Pragmatic**: Dealing with things sensibly and realistically. 🧠"
   },
   {
-    "word": "Clandestine",
-    "meaning_kannada": "ರಹಸ್ಯ",
-    "meaning_english": "Kept secret. Synonyms: Secret, Hidden, Covert, Concealed.",
-    "emoji": "🕵️"
+    "question": "Something that is 'kept secret' or 'covert' is described as:",
+    "options": ["Clandestine", "Egregious", "Obvious", "Incessant"],
+    "answer": "Clandestine",
+    "explanation": "• **Clandestine**: Kept secret or done secretively. (Related: Hidden, Covert). 🕵️\n• **Egregious**: Outstandingly bad; shocking. 🚫"
   },
   {
-    "word": "Conundrum",
-    "meaning_kannada": "ಗೊಂದಲ ಪ್ರಶ್ನೆ",
-    "meaning_english": "A difficult problem. Synonyms: Puzzle, Riddle, Dilemma, Enigma.",
-    "emoji": "❓"
+    "question": "What is a 'difficult problem' or a 'riddle' called?",
+    "options": ["Accolade", "Conundrum", "Vindicate", "Fortuitous"],
+    "answer": "Conundrum",
+    "explanation": "• **Conundrum**: A confusing and difficult problem or question. (Related: Enigma, Puzzle). ❓\n• **Accolade**: An award or expression of praise. 🏆"
   },
   {
-    "word": "Debacle",
-    "meaning_kannada": "ಭಾರೀ ವಿಫಲತೆ",
-    "meaning_english": "A complete failure. Synonyms: Failure, Collapse, Disaster, Fiasco.",
-    "emoji": "💥"
+    "question": "What is the meaning of 'Debacle'?",
+    "options": ["Success", "Victory", "Complete failure", "Achievement"],
+    "answer": "Complete failure",
+    "explanation": "• **Complete failure**: A sudden and ignominious failure. (Related: Fiasco, Disaster). 💥\n• **Victory**: An act of defeating an enemy or opponent in a battle or contest. (Antonym). 🥇"
   },
   {
-    "word": "Deride",
-    "meaning_kannada": "ಉಪಹಾಸ ಮಾಡು",
-    "meaning_english": "To mock or ridicule. Synonyms: Mock, Ridicule, Scoff, Taunt.",
-    "emoji": "😏"
+    "question": "To 'mock or ridicule' someone is to:",
+    "options": ["Deride", "Vindicate", "Scrutinize", "Adept"],
+    "answer": "Deride",
+    "explanation": "• **Deride**: Express contempt for; ridicule. (Related: Scoff, Taunt). 😏\n• **Vindicate**: Clear someone of blame or suspicion. ⚖️"
   },
   {
-    "word": "Diligent",
-    "meaning_kannada": "ಪರಿಶ್ರಮಿ",
-    "meaning_english": "Hardworking. Synonyms: Industrious, Assiduous, Persistent, Careful.",
-    "emoji": "🐝"
+    "question": "Find the SYNONYM for 'Diligent':",
+    "options": ["Lazy", "Industrious", "Careless", "Apathetic"],
+    "answer": "Industrious",
+    "explanation": "• **Industrious**: Diligent and hardworking. (Related: Assiduous, Persistent). 🐝\n• **Lazy**: Unwilling to work or use energy. (Antonym). 🦥"
   },
   {
-    "word": "Egregious",
-    "meaning_kannada": "ಅತಿಯಾದ ಕೆಟ್ಟ",
-    "meaning_english": "Outstandingly bad. Synonyms: Shocking, Appalling, Atrocious, Terrible.",
-    "emoji": "🚫"
+    "question": "Something that is 'outstandingly bad' is:",
+    "options": ["Impeccable", "Egregious", "Elated", "Meticulous"],
+    "answer": "Egregious",
+    "explanation": "• **Egregious**: Outstandingly bad; shocking. (Related: Appalling, Atrocious). 🚫\n• **Impeccable**: In accordance with the highest standards; faultless. (Antonym). ✨"
   },
   {
-    "word": "Elated",
-    "meaning_kannada": "ಆನಂದಿತ",
-    "meaning_english": "Very happy. Synonyms: Joyful, Delighted, Thrilled, Ecstatic.",
-    "emoji": "😊"
+    "question": "What is the meaning of 'Elated'?",
+    "options": ["Sad", "Bored", "Very happy", "Angry"],
+    "answer": "Very happy",
+    "explanation": "• **Very happy**: In high spirits; exultant. (Related: Joyful, Ecstatic). 😊\n• **Sad**: Feeling or showing sorrow; unhappy. (Antonym). 😢"
   },
   {
-    "word": "Enigma",
-    "meaning_kannada": "ರಹಸ್ಯ",
-    "meaning_english": "Something mysterious. Synonyms: Mystery, Puzzle, Riddle, Paradox.",
-    "emoji": "🔍"
+    "question": "Something 'mysterious' that is hard to explain is a/an:",
+    "options": ["Enigma", "Accolade", "Fallacy", "Spurious"],
+    "answer": "Enigma",
+    "explanation": "• **Enigma**: A person or thing that is mysterious or difficult to understand. (Related: Mystery, Paradox). 🔍\n• **Fallacy**: A mistaken belief, especially one based on unsound arguments. ❌"
   },
   {
-    "word": "Exacerbate",
-    "meaning_kannada": "ಹೆಚ್ಚಿಸು",
-    "meaning_english": "To make worse. Synonyms: Worsen, Aggravate, Intensify, Heighten.",
-    "emoji": "📈"
+    "question": "What does 'Exacerbate' mean?",
+    "options": ["To improve", "To make worse", "To ignore", "To simplify"],
+    "answer": "To make worse",
+    "explanation": "• **To make worse**: Make (a problem, bad situation, or negative feeling) worse. (Related: Aggravate, Worsen). 📈\n• **To improve**: Make or become better. (Antonym). ✅"
   },
   {
-    "word": "Fallacy",
-    "meaning_kannada": "ತಪ್ಪು ಕಲ್ಪನೆ",
-    "meaning_english": "A mistaken belief. Synonyms: Misconception, Error, Illusion, Delusion.",
-    "emoji": "❌"
+    "question": "A 'mistaken belief' is known as a:",
+    "options": ["Fact", "Fallacy", "Vindication", "Accolade"],
+    "answer": "Fallacy",
+    "explanation": "• **Fallacy**: A failure in reasoning which renders an argument invalid. (Related: Misconception, Error). ❌\n• **Fact**: A thing that is known or proved to be true. (Antonym). 📖"
   },
   {
-    "word": "Fortuitous",
-    "meaning_kannada": "ಅಕಸ್ಮಿಕ",
-    "meaning_english": "Happening by chance. Synonyms: Accidental, Incidental, Unplanned, Unexpected.",
-    "emoji": "🎲"
+    "question": "Something that 'happens by chance' is:",
+    "options": ["Planned", "Fortuitous", "Inevitable", "Incessant"],
+    "answer": "Fortuitous",
+    "explanation": "• **Fortuitous**: Happening by a lucky chance; fortunate. (Related: Accidental, Unplanned). 🎲\n• **Planned**: Decided on and arranged in advance. (Antonym). 📅"
   },
   {
-    "word": "Garrulous",
-    "meaning_kannada": "ಹೆಚ್ಚು ಮಾತನಾಡುವ",
-    "meaning_english": "Talkative. Synonyms: Talkative, Loquacious, Verbose, Chatty.",
-    "emoji": "🗣️"
+    "question": "A person who is 'excessively talkative' is:",
+    "options": ["Silent", "Garrulous", "Quiet", "Reticent"],
+    "answer": "Garrulous",
+    "explanation": "• **Garrulous**: Excessively talkative, especially on trivial matters. (Related: loquacious, Chatty). 🗣️\n• **Silent**: Not making or accompanied by any sound. (Antonym). 🤫"
   },
   {
-    "word": "Imminent",
-    "meaning_kannada": "ಸಮೀಪಿಸುತ್ತಿರುವ",
-    "meaning_english": "About to happen. Synonyms: Impending, Approaching, Forthcoming, Near.",
-    "emoji": "⏳"
+    "question": "Something that is 'about to happen' is:",
+    "options": ["Distant", "Imminent", "Past", "Unlikely"],
+    "answer": "Imminent",
+    "explanation": "• **Imminent**: About to happen. (Related: Impending, Approaching). ⏳\n• **Distant**: Far away in space or time. (Antonym). 🗺️"
   },
   {
-    "word": "Impeccable",
-    "meaning_kannada": "ದೋಷರಹಿತ",
-    "meaning_english": "Flawless. Synonyms: Perfect, Faultless, Spotless, Immaculate.",
-    "emoji": "✨"
+    "question": "What is the SYNONYM of 'Impeccable'?",
+    "options": ["Flawed", "Flawless", "Dirty", "Broken"],
+    "answer": "Flawless",
+    "explanation": "• **Flawless**: Without any imperfections or defects. (Related: Perfect, Immaculate). ✨\n• **Flawed**: Having or characterized by a fundamental weakness or imperfection. (Antonym). ❌"
   },
   {
-    "word": "Incessant",
-    "meaning_kannada": "ನಿರಂತರ",
-    "meaning_english": "Continuing without pause. Synonyms: Constant, Unending, Continuous, Relentless.",
-    "emoji": "🔁"
+    "question": "Something that 'continues without pause' is:",
+    "options": ["Incessant", "Brief", "Sporadic", "Occasional"],
+    "answer": "Incessant",
+    "explanation": "• **Incessant**: (of something regarded as unpleasant) continuing without pause or interruption. (Related: Constant, Relentless). 🔁\n• **Brief**: Lasting a short time. (Antonym). ⏱️"
   },
   {
-    "word": "Meticulous",
-    "meaning_kannada": "ಜಾಗರೂಕ",
-    "meaning_english": "Very careful. Synonyms: Precise, Thorough, Careful, Exact.",
-    "emoji": "📏"
+    "question": "A person who is 'very careful and precise' is:",
+    "options": ["Careless", "Meticulous", "Slovenly", "Hasty"],
+    "answer": "Meticulous",
+    "explanation": "• **Meticulous**: Showing great attention to detail; very careful and precise. (Related: Exact, Thorough). 📏\n• **Careless**: Not giving sufficient attention or thought to avoiding harm or errors. (Antonym). 💨"
   },
   {
-    "word": "Obsolete",
-    "meaning_kannada": "ಹಳತಾದ",
-    "meaning_english": "Outdated. Synonyms: Archaic, Outdated, Deprecated, Old-fashioned.",
-    "emoji": "📻"
+    "question": "Something 'outdated' and 'no longer used' is:",
+    "options": ["Modern", "Obsolete", "Current", "New"],
+    "answer": "Obsolete",
+    "explanation": "• **Obsolete**: No longer produced or used; out of date. (Related: Archaic, Old-fashioned). 📻\n• **Modern**: Relating to the present or recent times as opposed to the remote past. (Antonym). 📱"
   },
   {
-    "word": "Pragmatic",
-    "meaning_kannada": "ಪ್ರಾಯೋಗಿಕ",
-    "meaning_english": "Practical. Synonyms: Practical, Realistic, Sensible, Logical.",
-    "emoji": "🧠"
+    "question": "A 'practical and realistic' person is:",
+    "options": ["Idealistic", "Pragmatic", "Whimsical", "Capricious"],
+    "answer": "Pragmatic",
+    "explanation": "• **Pragmatic**: Dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations. (Related: Sensible). 🧠\n• **Idealistic**: Characterized by idealism; unrealistically aiming for perfection. (Antonym). 🎠"
   },
   {
-    "word": "Resilient",
-    "meaning_kannada": "ಸ್ಥೈರ್ಯಶೀಲ",
-    "meaning_english": "Able to recover quickly. Synonyms: Strong, Flexible, Tough, Hardy.",
-    "emoji": "🌿"
+    "question": "What does 'Resilient' mean?",
+    "options": ["Weak", "Able to recover quickly", "Fragile", "Rigid"],
+    "answer": "Able to recover quickly",
+    "explanation": "• **Able to recover quickly**: (of a person or animal) able to withstand or recover quickly from difficult conditions. (Related: Strong, Flexible). 🌿\n• **Weak**: Lacking the power to perform physically demanding tasks; lacking strength. (Antonym). 🥀"
   },
   {
-    "word": "Scrutinize",
-    "meaning_kannada": "ಜಾಗರೂಕವಾಗಿ ಪರಿಶೀಲಿಸು",
-    "meaning_english": "To examine closely. Synonyms: Examine, Inspect, Analyze, Investigate.",
-    "emoji": "🔎"
+    "question": "To 'examine something closely' is to:",
+    "options": ["Ignore", "Scrutinize", "Glance", "Overlook"],
+    "answer": "Scrutinize",
+    "explanation": "• **Scrutinize**: Examine or inspect closely and thoroughly. (Related: Inspect, Analyze). 🔎\n• **Ignore**: Refuse to take notice of or acknowledge; disregard intentionally. (Antonym). 🙈"
   },
   {
-    "word": "Spurious",
-    "meaning_kannada": "ನಕಲಿ",
-    "meaning_english": "False or fake. Synonyms: Fake, False, Fraudulent, Counterfeit.",
-    "emoji": "🎭"
+    "question": "Something 'false or fake' is described as:",
+    "options": ["Genuine", "Spurious", "Authentic", "Valid"],
+    "answer": "Spurious",
+    "explanation": "• **Spurious**: Not being what it purports to be; false or fake. (Related: Counterfeit, Fraudulent). 🎭\n• **Genuine**: Truly what something is said to be; authentic. (Antonym). ✅"
   },
   {
-    "word": "Tenacious",
-    "meaning_kannada": "ದೃಢನಿಶ್ಚಯ",
-    "meaning_english": "Persistent. Synonyms: Persistent, Determined, Resolute, Firm.",
-    "emoji": "💪"
+    "question": "What is the SYNONYM of 'Tenacious'?",
+    "options": ["Persistent", "Weak", "Irresolute", "Surrendering"],
+    "answer": "Persistent",
+    "explanation": "• **Persistent**: Tending to keep a firm hold of something; clinging or adhering closely. (Related: Determined, Firm). 💪\n• **Irresolute**: Showing or feeling hesitancy; uncertain. (Antonym). ❓"
   },
   {
-    "word": "Vindicate",
-    "meaning_kannada": "ನ್ಯಾಯ ಸಾಧಿಸು",
-    "meaning_english": "To clear from blame. Synonyms: Justify, Defend, Exonerate, Acquit.",
-    "emoji": "⚖️"
+    "question": "To 'clear someone from blame' is to:",
+    "options": ["Accuse", "Vindicate", "Indict", "Blame"],
+    "answer": "Vindicate",
+    "explanation": "• **Vindicate**: Clear (someone) of blame or suspicion. (Related: Justify, Exonerate). ⚖️\n• **Accuse**: Charge (someone) with an offense or crime. (Antonym). 👈"
   }
 ]
