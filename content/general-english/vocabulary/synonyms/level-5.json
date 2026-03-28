@@ -1,182 +1,182 @@
 [
-  {
-    "word": "Abstruse",
-    "meaning_kannada": "ಅಗೋಚರ",
-    "meaning_english": "Difficult to understand. Synonyms: Obscure, Complex, Vague, Cryptic.",
-    "emoji": "🧩"
-  },
-  {
-    "word": "Accolade",
-    "meaning_kannada": "ಪ್ರಶಂಸೆ",
-    "meaning_english": "An award or praise. Synonyms: Praise, Honor, Tribute, Recognition.",
-    "emoji": "🏆"
-  },
-  {
-    "word": "Acrimony",
-    "meaning_kannada": "ಕಟುವಾದ ಮನೋಭಾವ",
-    "meaning_english": "Bitterness in speech or behavior. Synonyms: Bitterness, Resentment, Hostility, Harshness.",
-    "emoji": "🔥"
-  },
-  {
-    "word": "Adept",
-    "meaning_kannada": "ನಿಪುಣ",
-    "meaning_english": "Highly skilled. Synonyms: Proficient, Expert, Skilled, Competent.",
-    "emoji": "🎯"
-  },
-  {
-    "word": "Apathy",
-    "meaning_kannada": "ಉದಾಸೀನತೆ",
-    "meaning_english": "Lack of interest or concern. Synonyms: Indifference, Unconcern, Passivity, Detachment.",
-    "emoji": "😐"
-  },
-  {
-    "word": "Belligerent",
-    "meaning_kannada": "ಯುದ್ಧಪ್ರಿಯ",
-    "meaning_english": "Aggressive and hostile. Synonyms: Aggressive, Hostile, Combative, Quarrelsome.",
-    "emoji": "⚔️"
-  },
-  {
-    "word": "Capricious",
-    "meaning_kannada": "ಚಂಚಲ",
-    "meaning_english": "Given to sudden changes. Synonyms: Fickle, Unpredictable, Impulsive, Whimsical.",
-    "emoji": "🎭"
-  },
-  {
-    "word": "Clandestine",
-    "meaning_kannada": "ರಹಸ್ಯ",
-    "meaning_english": "Kept secret. Synonyms: Secret, Hidden, Covert, Concealed.",
-    "emoji": "🕵️"
-  },
-  {
-    "word": "Conundrum",
-    "meaning_kannada": "ಗೊಂದಲ ಪ್ರಶ್ನೆ",
-    "meaning_english": "A difficult problem. Synonyms: Puzzle, Riddle, Dilemma, Enigma.",
-    "emoji": "❓"
-  },
-  {
-    "word": "Debacle",
-    "meaning_kannada": "ಭಾರೀ ವಿಫಲತೆ",
-    "meaning_english": "A complete failure. Synonyms: Failure, Collapse, Disaster, Fiasco.",
-    "emoji": "💥"
-  },
-  {
-    "word": "Deride",
-    "meaning_kannada": "ಉಪಹಾಸ ಮಾಡು",
-    "meaning_english": "To mock or ridicule. Synonyms: Mock, Ridicule, Scoff, Taunt.",
-    "emoji": "😏"
-  },
-  {
-    "word": "Diligent",
-    "meaning_kannada": "ಪರಿಶ್ರಮಿ",
-    "meaning_english": "Hardworking. Synonyms: Industrious, Assiduous, Persistent, Careful.",
-    "emoji": "🐝"
-  },
-  {
-    "word": "Egregious",
-    "meaning_kannada": "ಅತಿಯಾದ ಕೆಟ್ಟ",
-    "meaning_english": "Outstandingly bad. Synonyms: Shocking, Appalling, Atrocious, Terrible.",
-    "emoji": "🚫"
-  },
-  {
-    "word": "Elated",
-    "meaning_kannada": "ಆನಂದಿತ",
-    "meaning_english": "Very happy. Synonyms: Joyful, Delighted, Thrilled, Ecstatic.",
-    "emoji": "😊"
-  },
-  {
-    "word": "Enigma",
-    "meaning_kannada": "ರಹಸ್ಯ",
-    "meaning_english": "Something mysterious. Synonyms: Mystery, Puzzle, Riddle, Paradox.",
-    "emoji": "🔍"
-  },
-  {
-    "word": "Exacerbate",
-    "meaning_kannada": "ಹೆಚ್ಚಿಸು",
-    "meaning_english": "To make worse. Synonyms: Worsen, Aggravate, Intensify, Heighten.",
-    "emoji": "📈"
-  },
-  {
-    "word": "Fallacy",
-    "meaning_kannada": "ತಪ್ಪು ಕಲ್ಪನೆ",
-    "meaning_english": "A mistaken belief. Synonyms: Misconception, Error, Illusion, Delusion.",
-    "emoji": "❌"
-  },
-  {
-    "word": "Fortuitous",
-    "meaning_kannada": "ಅಕಸ್ಮಿಕ",
-    "meaning_english": "Happening by chance. Synonyms: Accidental, Incidental, Unplanned, Unexpected.",
-    "emoji": "🎲"
-  },
-  {
-    "word": "Garrulous",
-    "meaning_kannada": "ಹೆಚ್ಚು ಮಾತನಾಡುವ",
-    "meaning_english": "Talkative. Synonyms: Talkative, Loquacious, Verbose, Chatty.",
-    "emoji": "🗣️"
-  },
-  {
-    "word": "Imminent",
-    "meaning_kannada": "ಸಮೀಪಿಸುತ್ತಿರುವ",
-    "meaning_english": "About to happen. Synonyms: Impending, Approaching, Forthcoming, Near.",
-    "emoji": "⏳"
-  },
-  {
-    "word": "Impeccable",
-    "meaning_kannada": "ದೋಷರಹಿತ",
-    "meaning_english": "Flawless. Synonyms: Perfect, Faultless, Spotless, Immaculate.",
-    "emoji": "✨"
-  },
-  {
-    "word": "Incessant",
-    "meaning_kannada": "ನಿರಂತರ",
-    "meaning_english": "Continuing without pause. Synonyms: Constant, Unending, Continuous, Relentless.",
-    "emoji": "🔁"
-  },
-  {
-    "word": "Meticulous",
-    "meaning_kannada": "ಜಾಗರೂಕ",
-    "meaning_english": "Very careful. Synonyms: Precise, Thorough, Careful, Exact.",
-    "emoji": "📏"
-  },
-  {
-    "word": "Obsolete",
-    "meaning_kannada": "ಹಳತಾದ",
-    "meaning_english": "Outdated. Synonyms: Archaic, Outdated, Deprecated, Old-fashioned.",
-    "emoji": "📻"
-  },
-  {
-    "word": "Pragmatic",
-    "meaning_kannada": "ಪ್ರಾಯೋಗಿಕ",
-    "meaning_english": "Practical. Synonyms: Practical, Realistic, Sensible, Logical.",
-    "emoji": "🧠"
-  },
-  {
-    "word": "Resilient",
-    "meaning_kannada": "ಸ್ಥೈರ್ಯಶೀಲ",
-    "meaning_english": "Able to recover quickly. Synonyms: Strong, Flexible, Tough, Hardy.",
-    "emoji": "🌿"
-  },
-  {
-    "word": "Scrutinize",
-    "meaning_kannada": "ಜಾಗರೂಕವಾಗಿ ಪರಿಶೀಲಿಸು",
-    "meaning_english": "To examine closely. Synonyms: Examine, Inspect, Analyze, Investigate.",
-    "emoji": "🔎"
-  },
-  {
-    "word": "Spurious",
-    "meaning_kannada": "ನಕಲಿ",
-    "meaning_english": "False or fake. Synonyms: Fake, False, Fraudulent, Counterfeit.",
-    "emoji": "🎭"
-  },
-  {
-    "word": "Tenacious",
-    "meaning_kannada": "ದೃಢನಿಶ್ಚಯ",
-    "meaning_english": "Persistent. Synonyms: Persistnt, Determined, Resolute, Firm.",
-    "emoji": "💪"
-  },
-  {
-    "word": "Vindicate",
-    "meaning_kannada": "ನ್ಯಾಯ ಸಾಧಿಸು",
-    "meaning_english": "To clear from blame. Synonyms: Justify, Defend, Exonerate, Acquit.",
-    "emoji": "⚖️"
-  }
+  {
+    "word": "Abstruse",
+    "meaning_kannada": "ಅಗೋಚರ",
+    "meaning_english": "Difficult to understand. Synonyms: Obscure, Complex, Vague, Cryptic.",
+    "emoji": "🧩"
+  },
+  {
+    "word": "Accolade",
+    "meaning_kannada": "ಪ್ರಶಂಸೆ",
+    "meaning_english": "An award or praise. Synonyms: Praise, Honor, Tribute, Recognition.",
+    "emoji": "🏆"
+  },
+  {
+    "word": "Acrimony",
+    "meaning_kannada": "ಕಟುವಾದ ಮನೋಭಾವ",
+    "meaning_english": "Bitterness in speech or behavior. Synonyms: Bitterness, Resentment, Hostility, Harshness.",
+    "emoji": "🔥"
+  },
+  {
+    "word": "Adept",
+    "meaning_kannada": "ನಿಪುಣ",
+    "meaning_english": "Highly skilled. Synonyms: Proficient, Expert, Skilled, Competent.",
+    "emoji": "🎯"
+  },
+  {
+    "word": "Apathy",
+    "meaning_kannada": "ಉದಾಸೀನತೆ",
+    "meaning_english": "Lack of interest or concern. Synonyms: Indifference, Unconcern, Passivity, Detachment.",
+    "emoji": "😐"
+  },
+  {
+    "word": "Belligerent",
+    "meaning_kannada": "ಯುದ್ಧಪ್ರಿಯ",
+    "meaning_english": "Aggressive and hostile. Synonyms: Aggressive, Hostile, Combative, Quarrelsome.",
+    "emoji": "⚔️"
+  },
+  {
+    "word": "Capricious",
+    "meaning_kannada": "ಚಂಚಲ",
+    "meaning_english": "Given to sudden changes. Synonyms: Fickle, Unpredictable, Impulsive, Whimsical.",
+    "emoji": "🎭"
+  },
+  {
+    "word": "Clandestine",
+    "meaning_kannada": "ರಹಸ್ಯ",
+    "meaning_english": "Kept secret. Synonyms: Secret, Hidden, Covert, Concealed.",
+    "emoji": "🕵️"
+  },
+  {
+    "word": "Conundrum",
+    "meaning_kannada": "ಗೊಂದಲ ಪ್ರಶ್ನೆ",
+    "meaning_english": "A difficult problem. Synonyms: Puzzle, Riddle, Dilemma, Enigma.",
+    "emoji": "❓"
+  },
+  {
+    "word": "Debacle",
+    "meaning_kannada": "ಭಾರೀ ವಿಫಲತೆ",
+    "meaning_english": "A complete failure. Synonyms: Failure, Collapse, Disaster, Fiasco.",
+    "emoji": "💥"
+  },
+  {
+    "word": "Deride",
+    "meaning_kannada": "ಉಪಹಾಸ ಮಾಡು",
+    "meaning_english": "To mock or ridicule. Synonyms: Mock, Ridicule, Scoff, Taunt.",
+    "emoji": "😏"
+  },
+  {
+    "word": "Diligent",
+    "meaning_kannada": "ಪರಿಶ್ರಮಿ",
+    "meaning_english": "Hardworking. Synonyms: Industrious, Assiduous, Persistent, Careful.",
+    "emoji": "🐝"
+  },
+  {
+    "word": "Egregious",
+    "meaning_kannada": "ಅತಿಯಾದ ಕೆಟ್ಟ",
+    "meaning_english": "Outstandingly bad. Synonyms: Shocking, Appalling, Atrocious, Terrible.",
+    "emoji": "🚫"
+  },
+  {
+    "word": "Elated",
+    "meaning_kannada": "ಆನಂದಿತ",
+    "meaning_english": "Very happy. Synonyms: Joyful, Delighted, Thrilled, Ecstatic.",
+    "emoji": "😊"
+  },
+  {
+    "word": "Enigma",
+    "meaning_kannada": "ರಹಸ್ಯ",
+    "meaning_english": "Something mysterious. Synonyms: Mystery, Puzzle, Riddle, Paradox.",
+    "emoji": "🔍"
+  },
+  {
+    "word": "Exacerbate",
+    "meaning_kannada": "ಹೆಚ್ಚಿಸು",
+    "meaning_english": "To make worse. Synonyms: Worsen, Aggravate, Intensify, Heighten.",
+    "emoji": "📈"
+  },
+  {
+    "word": "Fallacy",
+    "meaning_kannada": "ತಪ್ಪು ಕಲ್ಪನೆ",
+    "meaning_english": "A mistaken belief. Synonyms: Misconception, Error, Illusion, Delusion.",
+    "emoji": "❌"
+  },
+  {
+    "word": "Fortuitous",
+    "meaning_kannada": "ಅಕಸ್ಮಿಕ",
+    "meaning_english": "Happening by chance. Synonyms: Accidental, Incidental, Unplanned, Unexpected.",
+    "emoji": "🎲"
+  },
+  {
+    "word": "Garrulous",
+    "meaning_kannada": "ಹೆಚ್ಚು ಮಾತನಾಡುವ",
+    "meaning_english": "Talkative. Synonyms: Talkative, Loquacious, Verbose, Chatty.",
+    "emoji": "🗣️"
+  },
+  {
+    "word": "Imminent",
+    "meaning_kannada": "ಸಮೀಪಿಸುತ್ತಿರುವ",
+    "meaning_english": "About to happen. Synonyms: Impending, Approaching, Forthcoming, Near.",
+    "emoji": "⏳"
+  },
+  {
+    "word": "Impeccable",
+    "meaning_kannada": "ದೋಷರಹಿತ",
+    "meaning_english": "Flawless. Synonyms: Perfect, Faultless, Spotless, Immaculate.",
+    "emoji": "✨"
+  },
+  {
+    "word": "Incessant",
+    "meaning_kannada": "ನಿರಂತರ",
+    "meaning_english": "Continuing without pause. Synonyms: Constant, Unending, Continuous, Relentless.",
+    "emoji": "🔁"
+  },
+  {
+    "word": "Meticulous",
+    "meaning_kannada": "ಜಾಗರೂಕ",
+    "meaning_english": "Very careful. Synonyms: Precise, Thorough, Careful, Exact.",
+    "emoji": "📏"
+  },
+  {
+    "word": "Obsolete",
+    "meaning_kannada": "ಹಳತಾದ",
+    "meaning_english": "Outdated. Synonyms: Archaic, Outdated, Deprecated, Old-fashioned.",
+    "emoji": "📻"
+  },
+  {
+    "word": "Pragmatic",
+    "meaning_kannada": "ಪ್ರಾಯೋಗಿಕ",
+    "meaning_english": "Practical. Synonyms: Practical, Realistic, Sensible, Logical.",
+    "emoji": "🧠"
+  },
+  {
+    "word": "Resilient",
+    "meaning_kannada": "ಸ್ಥೈರ್ಯಶೀಲ",
+    "meaning_english": "Able to recover quickly. Synonyms: Strong, Flexible, Tough, Hardy.",
+    "emoji": "🌿"
+  },
+  {
+    "word": "Scrutinize",
+    "meaning_kannada": "ಜಾಗರೂಕವಾಗಿ ಪರಿಶೀಲಿಸು",
+    "meaning_english": "To examine closely. Synonyms: Examine, Inspect, Analyze, Investigate.",
+    "emoji": "🔎"
+  },
+  {
+    "word": "Spurious",
+    "meaning_kannada": "ನಕಲಿ",
+    "meaning_english": "False or fake. Synonyms: Fake, False, Fraudulent, Counterfeit.",
+    "emoji": "🎭"
+  },
+  {
+    "word": "Tenacious",
+    "meaning_kannada": "ದೃಢನಿಶ್ಚಯ",
+    "meaning_english": "Persistent. Synonyms: Persistent, Determined, Resolute, Firm.",
+    "emoji": "💪"
+  },
+  {
+    "word": "Vindicate",
+    "meaning_kannada": "ನ್ಯಾಯ ಸಾಧಿಸು",
+    "meaning_english": "To clear from blame. Synonyms: Justify, Defend, Exonerate, Acquit.",
+    "emoji": "⚖️"
+  }
 ]
