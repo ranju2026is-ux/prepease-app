@@ -69,6 +69,20 @@
         .anki-back { transform: rotateY(180deg); border-color: #e0e7ff; background-color: #eef2ff; }
         .anki-front { border-color: #f1f5f9; box-shadow: 0 4px 12px rgba(0,0,0,0.03); }
 
+        /* Vocabulary Single Page Style */
+        .vocab-single-page {
+            border-color: #f1f5f9;
+            background-color: white;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+            border-radius: 1.5rem;
+            border-width: 2px;
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            text-align: center;
+        }
+
         .scroll-content {
             overflow-y: auto;
             flex: 1;
@@ -93,8 +107,20 @@
         .font-kannada { line-height: 1.6; }
 
         @media (min-width: 768px) {
-            .anki-front, .anki-back { padding: 2rem; }
+            .anki-front, .anki-back, .vocab-single-page { padding: 2rem; }
         }
+
+        .swipe-indicator {
+            animation: bounce-x 2s infinite;
+        }
+        @keyframes bounce-x {
+            0%, 100% { transform: translateX(0); }
+            50% { transform: translateX(10px); }
+        }
+
+        .break-word-custom { overflow-wrap: anywhere; word-break: break-word; }
+        .view-transition { animation: fadeIn 0.3s ease-out; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
     </style>
 </head>
 <body class="hero-gradient">
@@ -385,29 +411,81 @@
             }
         }
 
+        // Swipe Gesture Handling
+        let touchstartX = 0;
+        let touchendX = 0;
+
+        window.handleTouchStart = (e) => {
+            touchstartX = e.changedTouches[0].screenX;
+        };
+
+        window.handleTouchEnd = (e) => {
+            touchendX = e.changedTouches[0].screenX;
+            handleGesture();
+        };
+
+        function handleGesture() {
+            if (touchendX < touchstartX - 50) {
+                // Swiped Left - Next
+                if (state.currentStudyIndex < window.activeStudyData.length - 1) {
+                    state.currentStudyIndex++;
+                    window.renderStudyCardUI();
+                } else {
+                    window.loadQuiz();
+                }
+            }
+            if (touchendX > touchstartX + 50) {
+                // Swiped Right - Previous
+                if (state.currentStudyIndex > 0) {
+                    state.currentStudyIndex--;
+                    window.renderStudyCardUI();
+                }
+            }
+        }
+
         window.renderStudyCardUI = () => {
             const item = window.activeStudyData[state.currentStudyIndex];
-            const flipped = state.currentStudyFlipped ? 'flipped' : '';
-            document.getElementById('content-container').innerHTML = `
-                <div class="anki-card ${flipped}" onclick="window.state.currentStudyFlipped = !window.state.currentStudyFlipped; window.renderStudyCardUI();">
-                    <div class="anki-card-inner">
-                        <div class="anki-front items-center justify-center text-center">
-                            <span class="text-6xl mb-4">${item.emoji || '📗'}</span>
-                            <h3 class="text-3xl font-black break-word-custom">${item.word}</h3>
-                            <p class="mt-8 text-[10px] uppercase text-slate-300">Reveal Meaning</p>
+            const container = document.getElementById('content-container');
+            container.innerHTML = `
+                <div class="flex-grow flex flex-col h-full overflow-hidden" 
+                     ontouchstart="window.handleTouchStart(event)" 
+                     ontouchend="window.handleTouchEnd(event)">
+                    
+                    <div class="vocab-single-page view-transition">
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-[10px] font-black bg-indigo-50 text-indigo-600 px-3 py-1 rounded-full uppercase">Review Mode</span>
+                            <span class="text-[10px] font-black text-slate-400">${state.currentStudyIndex + 1} / ${window.activeStudyData.length}</span>
                         </div>
-                        <div class="anki-back items-center justify-center text-center">
-                            <p class="text-2xl font-bold text-indigo-700 mb-4 font-kannada">${item.meaning_kannada}</p>
-                            <p class="text-lg italic text-slate-600">${item.meaning_english}</p>
+                        
+                        <div class="scroll-content">
+                            <div class="text-7xl mb-6">${item.emoji || '📗'}</div>
+                            <h3 class="text-4xl font-black text-slate-900 mb-8 break-word-custom">${item.word}</h3>
+                            
+                            <div class="space-y-6 text-left">
+                                <div class="bg-slate-50 p-4 rounded-2xl border border-slate-100">
+                                    <p class="text-[9px] font-bold text-slate-400 uppercase mb-2">Kannada Meaning</p>
+                                    <p class="text-2xl font-bold text-indigo-900 font-kannada">${item.meaning_kannada}</p>
+                                </div>
+                                
+                                <div class="bg-indigo-50/50 p-4 rounded-2xl border border-indigo-100">
+                                    <p class="text-[9px] font-bold text-indigo-400 uppercase mb-2">English Explanation / Opposite</p>
+                                    <p class="text-lg font-medium text-indigo-900 italic leading-relaxed">${item.meaning_english}</p>
+                                </div>
+                            </div>
+                            
+                            <div class="mt-8 flex items-center justify-center gap-2 text-slate-300">
+                                <span class="text-[9px] font-bold uppercase tracking-widest swipe-indicator">← Swipe for More →</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="flex gap-2 mt-3 h-14">
-                    <button onclick="window.state.currentStudyIndex--; window.renderStudyCardUI();" class="flex-1 bg-white border-2 rounded-xl font-bold" ${state.currentStudyIndex === 0 ? 'disabled opacity-30' : ''}>PREV</button>
-                    ${state.currentStudyIndex === window.activeStudyData.length - 1 ? 
-                        `<button onclick="window.loadQuiz()" class="flex-1 bg-indigo-600 text-white rounded-xl font-bold">QUIZ 🚀</button>` :
-                        `<button onclick="window.state.currentStudyIndex++; window.renderStudyCardUI();" class="flex-1 bg-indigo-600 text-white rounded-xl font-bold">NEXT</button>`
-                    }
+
+                    <div class="flex gap-2 mt-3 h-14">
+                        <button onclick="window.state.currentStudyIndex--; window.renderStudyCardUI();" class="flex-1 bg-white border-2 rounded-xl font-bold" ${state.currentStudyIndex === 0 ? 'disabled opacity-30' : ''}>PREV</button>
+                        ${state.currentStudyIndex === window.activeStudyData.length - 1 ? 
+                            `<button onclick="window.loadQuiz()" class="flex-1 bg-indigo-600 text-white rounded-xl font-bold">START QUIZ 🚀</button>` :
+                            `<button onclick="window.state.currentStudyIndex++; window.renderStudyCardUI();" class="flex-1 bg-indigo-600 text-white rounded-xl font-bold">NEXT</button>`
+                        }
+                    </div>
                 </div>`;
         };
 
@@ -436,7 +514,7 @@
                 </div>`;
         };
 
-        window.handleChoice = (sel, cor) => { state.currentQuizAnswers[state.currentQuizIndex] = {selected: sel, isCorrect: sel === cor}; window.renderQuizUI(); };
+        window.handleChoice = (sel, cor) => { state.currentQuizAnswers[state.currentQuizIndex] = {selected: sel, isCorrect: sel === cor}; renderQuizUI(); };
 
         window.finishQuiz = async () => {
             const questions = window.activeQuestionsData;
@@ -456,15 +534,6 @@
             }
             window.navigateTo('home');
         };
-
-        window.loadQuiz = async () => {
-             const { isSSC, isKarnataka, currentShift, currentExam, currentExamId } = state;
-             let folder = isSSC ? (currentExam === 'SSC MTS 2023' ? 'mts2023' : 'cgl2023') : currentExamId;
-             let path = isSSC ? `./content/ssc/${folder}` : `./content/karnataka/${folder}`;
-             
-             let data = await multiPathFetch([`${path}/shift-${currentShift}-test.json`, `${path}/shift${currentShift}-test.json`]);
-             if(data) { window.activeQuestionsData = data; state.currentQuizIndex = 0; state.currentQuizAnswers = {}; window.renderQuizUI(); }
-        }
 
         window.handleAnkiChoice = (selected) => {
             if (state.ankiSelection) return;
@@ -494,7 +563,7 @@
                     <div class="anki-card-inner">
                         <div class="anki-front">
                             <div class="flex justify-between items-center mb-2">
-                                <p class="text-[9px] font-bold text-emerald-500 uppercase">RECALL REVIEW</p>
+                                <p class="text-[9px] font-bold text-emerald-500 uppercase">MASTERY CHALLENGE</p>
                                 <span class="text-[9px] font-black text-slate-400">${state.currentAnkiIndex + 1} / ${state.mistakes.length}</span>
                             </div>
                             <div class="scroll-content">
@@ -584,18 +653,8 @@
                 </div></div>`;
         }
 
+        window.render = render;
         window.addEventListener('load', render);
-        
-        setInterval(() => {
-            const el = document.getElementById('floating-quote');
-            if (el) {
-                el.style.opacity = '0';
-                setTimeout(() => {
-                    el.innerText = floatingQuotes[Math.floor(Math.random()*floatingQuotes.length)];
-                    el.style.opacity = '1';
-                }, 400);
-            }
-        }, 8000);
     </script>
 </body>
 </html>
