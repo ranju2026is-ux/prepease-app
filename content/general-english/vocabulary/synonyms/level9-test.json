@@ -3,122 +3,120 @@
     "question": "What is the synonym of 'Abeyance'?",
     "options": ["Continuation", "Suspension", "Action", "Rigidity"],
     "answer": "Suspension",
-    "type": "synonym"
+    "explanation": "• **Suspension**: A state of temporary disuse or inactivity. (Related: Dormancy, Latency). ⏸️\n• **Continuation**: The action of carrying on or resuming. (Related: Perpetuation, Prolonging). ➡️\n• **Action**: The process of doing something to achieve a purpose. (Related: Execution, Vitality). 🏃\n• **Rigidity**: Inability to be bent or be forced out of shape. (Related: Stiffness, Inflexibility). 📏"
   },
   {
     "question": "Find the ANTONYM for 'Nadir':",
     "options": ["Bottom", "Zenith", "Base", "Lull"],
     "answer": "Zenith",
-    "type": "antonym",
-    "explanation": "Nadir is the lowest point, Zenith is the highest."
+    "explanation": "• **Zenith**: The highest point reached by an object or success. (Related: Peak, Apex, Pinnacle). 🏔️\n• **Nadir**: The lowest point in the fortunes of a person or organization. (Related: Rock-bottom). 📉\n• **Bottom**: The lowest part of something. (Related: Base, Underside). ⏝\n• **Lull**: A temporary interval of quiet or lack of activity. (Related: Pause, Respite). 🔇"
   },
   {
     "question": "Spot the ERROR: The politician (A) used blandishments (B) to (C) obfuscate the truth (D). No error (E).",
     "options": ["A", "B", "C", "D", "E"],
     "answer": "E",
-    "type": "error_detection"
+    "explanation": "• **No error**: The sentence is grammatically and contextually correct. ✅\n• **Blandishments**: Flattery intended to persuade someone to do something. (Related: Cajolery, Wheedling). 🍬\n• **Obfuscate**: To render obscure, unclear, or unintelligible. (Related: Confuse, Befog). 🌫️\n• **Truth**: The quality or state of being true. (Related: Veracity, Fact). ⚖️"
   },
   {
     "question": "Choose the word for 'Relating to or dependent on charity':",
     "options": ["Eleemosynary", "Lugubrious", "Quiescent", "Jejune"],
     "answer": "Eleemosynary",
-    "type": "meaning"
+    "explanation": "• **Eleemosynary**: Relating to or dependent on charity; charitable. (Related: Philanthropic, Beneficent). 🤲\n• **Lugubrious**: Looking or sounding sad and dismal. (Related: Mournful, Gloomy). 😢\n• **Quiescent**: In a state or period of inactivity or dormancy. (Related: Idle, Passive). 💤\n• **Jejune**: Naive, simplistic, and superficial; or dry and uninteresting. (Related: Childish, Insipid). 👶"
   },
   {
     "question": "Which of these is the correct spelling?",
     "options": ["Tergiversation", "Tergiversasion", "Tergiversationn", "Turgiversation"],
     "answer": "Tergiversation",
-    "type": "spelling"
+    "explanation": "• **Tergiversation**: Correct spelling. It means evasion of straightforward action or clear-cut statement. (Related: Equivocation). 🌀\n• **Tergiversasion**: Incorrect; 'tion' is the correct suffix. ❌\n• **Tergiversationn**: Incorrect; ends with a single 'n'. ❌\n• **Turgiversation**: Incorrect; uses 'u' instead of 'e' in the first syllable. ❌"
   },
   {
     "question": "Fill in the blank: After the war, the country enjoyed a ____ period of peace.",
     "options": ["Lugubrious", "Halcyon", "Vituperative", "Churlish"],
     "answer": "Halcyon",
-    "type": "sentence_completion"
+    "explanation": "• **Halcyon**: Denoting a period of time in the past that was idyllically happy and peaceful. (Related: Serene, Tranquil). 🕊️\n• **Lugubrious**: Looking or sounding sad and dismal. (Related: Doleful, Woeful). ⚰️\n• **Vituperative**: Bitter and abusive. (Related: Scurrilous, Insulting). 🗣️\n• **Churlish**: Rude in a mean-spirited and surly way. (Related: Ill-mannered, Discourteous). 👺"
   },
   {
     "question": "Identify the SYNONYM for 'Imbroglio':",
     "options": ["Harmony", "Complication", "Agreement", "Solution"],
     "answer": "Complication",
-    "type": "synonym"
+    "explanation": "• **Complication**: An extremely confused, complicated, or embarrassing situation. (Related: Imbroglio, Entanglement). 🕸️\n• **Harmony**: The state of being in agreement or concord. (Related: Unity, Peace). 🤝\n• **Agreement**: Harmony or accordance in opinion or feeling. (Related: Concord, Settlement). ✅\n• **Solution**: A means of solving a problem or dealing with a difficult situation. (Related: Resolution, Answer). 💡"
   },
   {
     "question": "Choose the correct spelling for a word meaning 'to dry out':",
     "options": ["Dessicate", "Desiccate", "Desicate", "Dessiccate"],
     "answer": "Desiccate",
-    "type": "spelling",
-    "explanation": "Desiccate has one 's' and two 'c's."
+    "explanation": "• **Desiccate**: Correct spelling (one 's' and two 'c's). (Related: Dehydrate, Parched). 🌵\n• **Dessicate**: Incorrect; used double 's'. ❌\n• **Desicate**: Incorrect; missing one 'c'. ❌\n• **Dessiccate**: Incorrect; too many 's' letters. ❌"
   },
   {
     "question": "Meaning of 'Vituperative':",
     "options": ["Praised", "Abusive", "Silent", "Enthusiastic"],
     "answer": "Abusive",
-    "type": "meaning"
+    "explanation": "• **Abusive**: Using or containing harsh, insulting, or coarse language. (Related: Vituperative, Scathing). 🤬\n• **Praised**: Express warm approval or admiration of. (Related: Lauded, Extolled). 👏\n• **Silent**: Not making or accompanied by any sound. (Related: Mute, Taciturn). 🤫\n• **Enthusiastic**: Having or showing intense and eager enjoyment. (Related: Zealous, Eager). 🤩"
   },
   {
     "question": "Antonym for 'Quiescent':",
     "options": ["Dormant", "Active", "Still", "Inert"],
     "answer": "Active",
-    "type": "antonym"
+    "explanation": "• **Active**: Engaging or ready to engage in physically energetic pursuits. (Related: Animated, Dynamic). 🏃\n• **Quiescent**: In a state of inactivity or dormancy. (Related: Quiet, Latent). 💤\n• **Dormant**: Having normal physical functions suspended or slowed down. (Related: Asleep, Hibernating). 🐻\n• **Still**: Not moving or making a sound. (Related: Motionless, Static). 🧘"
   },
   {
     "question": "Synonym for 'Mendicant':",
     "options": ["Beggar", "Merchant", "Soldier", "Noble"],
     "answer": "Beggar",
-    "type": "synonym"
+    "explanation": "• **Beggar**: A person, typically a homeless one, who lives by asking for money. (Related: Mendicant, Pauper). 🤲\n• **Merchant**: A person or company involved in wholesale trade. (Related: Trader, Vendor). ⚖️\n• **Soldier**: A person who serves in an army. (Related: Warrior, Combatant). 🪖\n• **Noble**: Belonging to a hereditary class with high social or political status. (Related: Aristocrat, Peer). 👑"
   },
   {
     "question": "Sentence Completion: The teacher's ____ response to the student's question was uncalled for.",
     "options": ["Salubrious", "Churlish", "Halcyon", "Zenith"],
     "answer": "Churlish",
-    "type": "sentence_completion"
+    "explanation": "• **Churlish**: Rude in a mean-spirited and surly way. (Related: Boorish, Loutish). 🗯️\n• **Salubrious**: Health-giving; healthy. (Related: Beneficial, Wholesome). 🍏\n• **Halcyon**: Peaceful, calm, and happy. (Related: Tranquil, Idyllic). 🕊️\n• **Zenith**: The highest point or culmination. (Related: Peak, Apex). 🏔️"
   },
   {
     "question": "Find the error: Neither (A) the doctor (B) nor the nurse (C) could palliate his pain (D). No Error (E).",
     "options": ["A", "B", "C", "D", "E"],
     "answer": "E",
-    "type": "error_detection"
+    "explanation": "• **No Error**: The grammar 'Neither...nor' is correctly used with a singular verb or modal. ✅\n• **Doctor**: A qualified practitioner of medicine. (Related: Physician). 🩺\n• **Palliate**: Make a disease or its symptoms less severe or unpleasant without removing the cause. (Related: Alleviate, Soothe). 💊\n• **Nurse**: A person trained to care for the sick. (Related: Caregiver). 🏥"
   },
   {
     "question": "What is the synonym for 'Jejune'?",
     "options": ["Exciting", "Childish", "Mature", "Intense"],
     "answer": "Childish",
-    "type": "synonym"
+    "explanation": "• **Childish**: Silly and immature. (Related: Jejune, Puerile, Juvenile). 👶\n• **Exciting**: Causing great enthusiasm and eagerness. (Related: Thrilling, Stimulating). 🔥\n• **Mature**: Having reached an advanced stage of mental or physical development. (Related: Grown-up, Adult). 👴\n• **Intense**: Of extreme force, degree, or strength. (Related: Fierce, Severe). ⚡"
   },
   {
     "question": "Antonym for 'Redoubtable':",
     "options": ["Fearsome", "Insignificant", "Mighty", "Tough"],
     "answer": "Insignificant",
-    "type": "antonym"
+    "explanation": "• **Insignificant**: Too small or unimportant to be worth consideration. (Related: Trivial, Paltry). 🤏\n• **Redoubtable**: Formidable, especially as an opponent. (Related: Fearsome, Daunting). 👺\n• **Fearsome**: Frightening, especially in appearance. (Related: Formidable, Terrifying). 👹\n• **Mighty**: Possessing great and impressive power or strength. (Related: Powerful, Strong). 💪"
   },
   {
     "question": "Choose the word that means 'to instigate or stir up trouble':",
     "options": ["Foment", "Palliate", "Abjure", "Wary"],
     "answer": "Foment",
-    "type": "one_word"
+    "explanation": "• **Foment**: Instigate or stir up an undesirable or violent sentiment or course of action. (Related: Incite, Provoke). 🔥\n• **Palliate**: To make something (like pain) less severe. (Related: Mitigate, Assuage). 🩹\n• **Abjure**: Solemnly renounce a belief, cause, or claim. (Related: Relinquish, Reject). ❌\n• **Wary**: Feeling or showing caution about possible dangers. (Related: Cautious, Circumspect). ⚠️"
   },
   {
     "question": "Correct Spelling Check:",
     "options": ["Xenophobic", "Zenophobic", "Xenofobic", "Zenofobic"],
     "answer": "Xenophobic",
-    "type": "spelling"
+    "explanation": "• **Xenophobic**: Correct spelling. (Greek root 'xenos' - stranger/foreign). (Related: Intolerant, Prejudiced). 🚫\n• **Zenophobic**: Incorrect; uses 'Z' instead of 'X'. ❌\n• **Xenofobic**: Incorrect; uses 'f' instead of 'ph'. ❌\n• **Zenofobic**: Incorrect; both first and middle letters are wrong. ❌"
   },
   {
     "question": "Meaning of 'Lugubrious':",
     "options": ["Happy", "Sad", "Fast", "Green"],
     "answer": "Sad",
-    "type": "meaning"
+    "explanation": "• **Sad**: Feeling or showing sorrow; unhappy. (Related: Lugubrious, Melancholy, Gloomy). 😢\n• **Happy**: Feeling or showing pleasure or contentment. (Related: Joyful, Elated). 😊\n• **Fast**: Moving at high speed. (Related: Swift, Quick). 🏃\n• **Green**: Of the color between blue and yellow in the spectrum. (Related: Verdant). 🍏"
   },
   {
     "question": "Fill in the blank: The company reached the ____ of its success in 2022.",
     "options": ["Nadir", "Zenith", "Abeyance", "Imbroglio"],
     "answer": "Zenith",
-    "type": "context"
+    "explanation": "• **Zenith**: The time at which something is most powerful or successful. (Related: Peak, Apex). 🏔️\n• **Nadir**: The lowest point in the fortunes of a person or organization. (Related: All-time low). 📉\n• **Abeyance**: A state of temporary disuse or suspension. (Related: Dormancy). ⏸️\n• **Imbroglio**: An extremely confused, complicated, or embarrassing situation. (Related: Mess, Tangled web). 🕸️"
   },
   {
     "question": "Synonym for 'Obfuscate':",
     "options": ["Clarify", "Confuse", "Simplify", "Explain"],
     "answer": "Confuse",
-    "type": "synonym"
+    "explanation": "• **Confuse**: Make someone bewildered or perplexed. (Related: Obfuscate, Bewilder). 😵‍💫\n• **Clarify**: Make a statement or situation less confused and more comprehensible. (Related: Elucidate). 💡\n• **Simplify**: Make something simpler or easier to do or understand. (Related: Streamline). 🔧\n• **Explain**: Make something clear to someone by describing it in more detail. (Related: Elucidate, Clarify). 🗣️"
   }
 ]
