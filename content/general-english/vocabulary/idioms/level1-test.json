@@ -1,17 +1,92 @@
 [
-  { "question": "Q.1 Identify the most appropriate meaning of the given idiom:\n**A piece of cake**", "options": ["A delicious dessert", "An easy task", "A difficult job", "A small portion"], "answer": "An easy task" },
-  { "question": "Q.2 Select the most appropriate meaning of the underlined idiom:\nStop **beating around the bush** and tell me what you want.", "options": ["To cut the grass", "To avoid the main topic", "To work hard", "To be very angry"], "answer": "To avoid the main topic" },
-  { "question": "Q.3 What is the meaning of the idiom **'Give a cold shoulder'**?", "options": ["To feel very cold", "To ignore someone intentionally", "To offer help", "To wear a jacket"], "answer": "To ignore someone intentionally" },
-  { "question": "Q.4 Select the most appropriate meaning of the given idiom:\n**A blessing in disguise**", "options": ["A hidden problem", "A fake friend", "Something good that isn't recognized at first", "A miracle"], "answer": "Something good that isn't recognized at first" },
-  { "question": "Q.5 Choose the correct meaning of the idiom: **Bury the hatchet**", "options": ["To hide a weapon", "To end a conflict", "To start a fight", "To dig a hole"], "answer": "To end a conflict" },
-  { "question": "Q.6 **Once in a blue moon** means:", "options": ["Every night", "Very frequently", "Very rarely", "During a full moon"], "answer": "Very rarely" },
-  { "question": "Q.7 If someone is feeling **'under the weather'**, they are:", "options": ["Feeling sick", "Enjoying the rain", "Feeling excited", "In trouble"], "answer": "Feeling sick" },
-  { "question": "Q.8 Select the synonym for the idiom: **Spill the beans**", "options": ["To cook food", "To waste time", "To reveal a secret", "To buy groceries"], "answer": "To reveal a secret" },
-  { "question": "Q.9 A **'red-letter day'** is:", "options": ["A dangerous day", "An important day", "A boring day", "A holiday for writing letters"], "answer": "An important day" },
-  { "question": "Q.10 To support someone **'through thick and thin'** means:", "options": ["Only in good times", "In all conditions", "When they are rich", "When they are thin"], "answer": "In all conditions" },
-  { "question": "Q.11 If you take advice **'with a grain of salt'**, you:", "options": ["Believe it fully", "Don't believe it completely", "Add salt to your food", "Ignore the advice"], "answer": "Don't believe it completely" },
-  { "question": "Q.12 A **'wild goose chase'** refers to:", "options": ["A successful mission", "A hunting trip", "A useless search", "A fast race"], "answer": "A useless search" },
-  { "question": "Q.13 The idiom **'In a nutshell'** means:", "options": ["Inside a nut", "Briefly and concisely", "Extremely difficult", "Very slowly"], "answer": "Briefly and concisely" },
-  { "question": "Q.14 To **'hit the nail on the head'** means:", "options": ["To cause an accident", "To do or say something exactly right", "To fail a test", "To fix a chair"], "answer": "To do or say something exactly right" },
-  { "question": "Q.15 To **'add fuel to the fire'** means:", "options": ["To help someone", "To put out a fire", "To make a bad situation worse", "To start a campfire"], "answer": "To make a bad situation worse" }
+  {
+    "question": "Q.1 Identify the most appropriate meaning of the given idiom:\n**A piece of cake**",
+    "options": ["A delicious dessert", "An easy task", "A difficult job", "A small portion"],
+    "answer": "An easy task",
+    "explanation": "• **An easy task**: Something that is very simple to do. (Related: Child's play, Effortless). 🍰\n• **A difficult job**: Something that requires a lot of effort or skill. (Antonym: Up-hill task). 🏔️"
+  },
+  {
+    "question": "Q.2 Select the most appropriate meaning of the underlined idiom:\nStop **beating around the bush** and tell me what you want.",
+    "options": ["To cut the grass", "To avoid the main topic", "To work hard", "To be very angry"],
+    "answer": "To avoid the main topic",
+    "explanation": "• **To avoid the main topic**: Discussing a matter without coming to the point. (Related: Prevaricate, Equivocate). 🌳\n• **To work hard**: Putting in a lot of physical or mental effort. (Related: Burn the midnight oil). 💡"
+  },
+  {
+    "question": "Q.3 What is the meaning of the idiom **'Give a cold shoulder'**?",
+    "options": ["To feel very cold", "To ignore someone intentionally", "To offer help", "To wear a jacket"],
+    "answer": "To ignore someone intentionally",
+    "explanation": "• **To ignore someone intentionally**: To be unfriendly or treat someone with disdain. (Related: Snub, Cut someone dead). ❄️\n• **To offer help**: To provide assistance to someone. (Related: Lend a hand). 🤝"
+  },
+  {
+    "question": "Q.4 Select the most appropriate meaning of the given idiom:\n**A blessing in disguise**",
+    "options": ["A hidden problem", "A fake friend", "Something good that isn't recognized at first", "A miracle"],
+    "answer": "Something good that isn't recognized at first",
+    "explanation": "• **Something good**: A misfortune that eventually results in something positive. (Related: Silver lining). ✨\n• **A hidden problem**: Something that seems good but is actually bad. (Antonym: Snake in the grass). 🐍"
+  },
+  {
+    "question": "Q.5 Choose the correct meaning of the idiom: **Bury the hatchet**",
+    "options": ["To hide a weapon", "To end a conflict", "To start a fight", "To dig a hole"],
+    "answer": "To end a conflict",
+    "explanation": "• **To end a conflict**: To make peace or become friends again after a quarrel. (Related: Make up, Call a truce). 🪓\n• **To start a fight**: To begin a quarrel or war. (Antonym: Pick a quarrel). ⚔️"
+  },
+  {
+    "question": "Q.6 **Once in a blue moon** means:",
+    "options": ["Every night", "Very frequently", "Very rarely", "During a full moon"],
+    "answer": "Very rarely",
+    "explanation": "• **Very rarely**: Something that happens very seldom. (Related: Infrequently, Seldom). 🌙\n• **Very frequently**: Happening many times at short intervals. (Antonym: Often, Regularly). 🔁"
+  },
+  {
+    "question": "Q.7 If someone is feeling **'under the weather'**, they are:",
+    "options": ["Feeling sick", "Enjoying the rain", "Feeling excited", "In trouble"],
+    "answer": "Feeling sick",
+    "explanation": "• **Feeling sick**: Feeling slightly ill or not well. (Related: Ailing, Out of sorts). 🤒\n• **In trouble**: To be in a difficult or dangerous situation. (Related: In a soup, In hot water). 🥣"
+  },
+  {
+    "question": "Q.8 Select the synonym for the idiom: **Spill the beans**",
+    "options": ["To cook food", "To waste time", "To reveal a secret", "To buy groceries"],
+    "answer": "To reveal a secret",
+    "explanation": "• **To reveal a secret**: To disclose confidential information prematurely or accidentally. (Related: Let the cat out of the bag). 🫘\n• **To waste time**: To spend time in an unproductive way. (Related: Fritter away). ⏳"
+  },
+  {
+    "question": "Q.9 A **'red-letter day'** is:",
+    "options": ["A dangerous day", "An important day", "A boring day", "A holiday for writing letters"],
+    "answer": "An important day",
+    "explanation": "• **An important day**: A day that is pleasantly noteworthy or memorable. (Related: Golden day, Landmark day). 🗓️\n• **A dangerous day**: A day filled with threat or risk. (Related: Black day). 🏴"
+  },
+  {
+    "question": "Q.10 To support someone **'through thick and thin'** means:",
+    "options": ["Only in good times", "In all conditions", "When they are rich", "When they are thin"],
+    "answer": "In all conditions",
+    "explanation": "• **In all conditions**: Supporting someone through both good and bad times. (Related: Steadfastly, Loyally). 🤝\n• **Only in good times**: Supporting someone only when it is convenient. (Related: Fair-weather friend). ☁️"
+  },
+  {
+    "question": "Q.11 If you take advice **'with a grain of salt'**, you:",
+    "options": ["Believe it fully", "Don't believe it completely", "Add salt to your food", "Ignore the advice"],
+    "answer": "Don't believe it completely",
+    "explanation": "• **Don't believe fully**: To view something with skepticism or not take it literally. (Related: Skeptically). 🧂\n• **Believe it fully**: To accept something as complete truth. (Antonym). ✅"
+  },
+  {
+    "question": "Q.12 A **'wild goose chase'** refers to:",
+    "options": ["A successful mission", "A hunting trip", "A useless search", "A fast race"],
+    "answer": "A useless search",
+    "explanation": "• **A useless search**: A foolish and hopeless pursuit of something unattainable. (Related: Futile search). 🦢\n• **A successful mission**: A task that achieved its goal. (Antonym). 🎯"
+  },
+  {
+    "question": "Q.13 The idiom **'In a nutshell'** means:",
+    "options": ["Inside a nut", "Briefly and concisely", "Extremely difficult", "Very slowly"],
+    "answer": "Briefly and concisely",
+    "explanation": "• **Briefly**: Expressing something in a few words. (Related: Succinctly, To the point). 🌰\n• **Extremely difficult**: Something very hard to accomplish. (Related: Herculean task). 💪"
+  },
+  {
+    "question": "Q.14 To **'hit the nail on the head'** means:",
+    "options": ["To cause an accident", "To do or say something exactly right", "To fail a test", "To fix a chair"],
+    "answer": "To do or say something exactly right",
+    "explanation": "• **Exactly right**: To describe exactly what is causing a situation or problem. (Related: Precision, Spot on). 🔨\n• **To fail a test**: Not succeeding in an examination. (Antonym). ❌"
+  },
+  {
+    "question": "Q.15 To **'add fuel to the fire'** means:",
+    "options": ["To help someone", "To put out a fire", "To make a bad situation worse", "To start a campfire"],
+    "answer": "To make a bad situation worse",
+    "explanation": "• **Make worse**: To aggravate an already difficult or intense situation. (Related: Exacerbate, Fan the flames). 🔥\n• **To help someone**: To provide support or assistance. (Antonym). 🤝"
+  }
 ]
