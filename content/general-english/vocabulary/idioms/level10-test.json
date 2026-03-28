@@ -1,32 +1,182 @@
 [
-  { "question": "Q.1 What is the meaning of the idiom **'A pipe dream'**?", "options": ["A successful plan", "An impossible hope", "A plumbing issue", "A night dream"], "answer": "An impossible hope" },
-  { "question": "Q.2 To **'show a clean pair of heels'** means to:", "options": ["Clean your shoes", "Run away fast", "Walk slowly", "Stand still"], "answer": "Run away fast" },
-  { "question": "Q.3 A person who has become **'a laughing stock'** is:", "options": ["A comedian", "Ridiculed by everyone", "Very wealthy", "Respected"], "answer": "Ridiculed by everyone" },
-  { "question": "Q.4 To **'cut a long story short'** means to:", "options": ["Write a novel", "End an explanation quickly", "Tell a lie", "Talk more"], "answer": "End an explanation quickly" },
-  { "question": "Q.5 Being **'at daggers drawn'** means being:", "options": ["Friendly", "Bitterly hostile", "In a race", "Helping each other"], "answer": "Bitterly hostile" },
-  { "question": "Q.6 To **'keep someone at arm's length'** is to:", "options": ["Hug them", "Avoid being too close/friendly", "Measure them", "Fight them"], "answer": "Avoid being too close/friendly" },
-  { "question": "Q.7 **'Spilling the beans'** means:", "options": ["Cooking", "Revealing a secret", "Wasting food", "Being messy"], "answer": "Revealing a secret" },
-  { "question": "Q.8 **'Greasing the palm'** refers to:", "options": ["Applying oil", "Bribing", "Working hard", "Shaking hands"], "answer": "Bribing" },
-  { "question": "Q.9 A **'bird's eye view'** is a:", "options": ["View from a plane", "General view from above", "Narrow view", "Blurred vision"], "answer": "General view from above" },
-  { "question": "Q.10 To **'blow one's own trumpet'** is to:", "options": ["Play music", "Praise one's own achievements", "Be loud", "Help others"], "answer": "Praise one's own achievements" },
-  { "question": "Q.11 To **'leave someone in the lurch'** is to:", "options": ["Help them", "Leave them in trouble without help", "Give them a gift", "Take them on a trip"], "answer": "Leave them in trouble without help" },
-  { "question": "Q.12 To **'hit the nail on the head'** means to:", "options": ["Be a carpenter", "Describe exactly right", "Cause an accident", "Fail a test"], "answer": "Describe exactly right" },
-  { "question": "Q.13 To **'read between the lines'** means to:", "options": ["Read fast", "Find a hidden meaning", "Use a ruler", "Read aloud"], "answer": "Find a hidden meaning" },
-  { "question": "Q.14 **'Keeping the wolf from the door'** means:", "options": ["Hunting", "Avoiding starvation/poverty", "Guarding the house", "Being brave"], "answer": "Avoiding starvation/poverty" },
-  { "question": "Q.15 A **'dark horse'** in a contest is an:", "options": ["Expected winner", "Unexpected winner", "Animal runner", "Slow runner"], "answer": "Unexpected winner" },
-  { "question": "Q.16 To **'sit on the fence'** means to:", "options": ["Repair a fence", "Avoid taking a side in a decision", "Be very active", "Watch a bird"], "answer": "Avoid taking a side in a decision" },
-  { "question": "Q.17 To **'turn a deaf ear'** is to:", "options": ["Have a hearing problem", "Ignore what is said", "Listen carefully", "Be quiet"], "answer": "Ignore what is said" },
-  { "question": "Q.18 **'Making both ends meet'** means:", "options": ["Joining wires", "Earning just enough to live on", "Finishing a task", "Meeting friends"], "answer": "Earning just enough to live on" },
-  { "question": "Q.19 A **'wild goose chase'** refers to a:", "options": ["Successful mission", "Foolish, hopeless search", "Bird watching", "Fast race"], "answer": "Foolish, hopeless search" },
-  { "question": "Q.20 To **'throw in the towel'** means to:", "options": ["Dry oneself", "Admit defeat", "Start a fight", "Clean the floor"], "answer": "Admit defeat" },
-  { "question": "Q.21 Being **'on cloud nine'** means being:", "options": ["In a plane", "Extremely happy", "In the rain", "Dreaming"], "answer": "Extremely happy" },
-  { "question": "Q.22 A **'blessing in disguise'** is:", "options": ["A magic trick", "Something bad that results in good", "A gift", "A costume"], "answer": "Something bad that results in good" },
-  { "question": "Q.23 **'Burning bridges'** means:", "options": ["Setting fire", "Eliminating the possibility of return", "Building roads", "Traveling"], "answer": "Eliminating the possibility of return" },
-  { "question": "Q.24 To **'smell a rat'** means to:", "options": ["Have a good nose", "Suspect something is wrong/dishonest", "Be a cat", "Clean a house"], "answer": "Suspect something is wrong/dishonest" },
-  { "question": "Q.25 To **'add fuel to the fire'** means to:", "options": ["Cook", "Make a bad situation worse", "Help someone", "Start a fire safely"], "answer": "Make a bad situation worse" },
-  { "question": "Q.26 A **'fair-weather friend'** is one who:", "options": ["Helps in rain", "Leaves you in trouble", "Is always loyal", "Loves sunny days"], "answer": "Leaves you in trouble" },
-  { "question": "Q.27 Winning **'by the skin of one's teeth'** means winning:", "options": ["Using force", "By a very narrow margin", "Easily", "Painfully"], "answer": "By a very narrow margin" },
-  { "question": "Q.28 To **'pay through the nose'** means to pay:", "options": ["A fair price", "An excessive amount", "Nothing", "A small amount"], "answer": "An excessive amount" },
-  { "question": "Q.29 A **'red-letter day'** is a:", "options": ["Dangerous day", "Very important day", "Boring day", "Day for writing letters"], "answer": "Very important day" },
-  { "question": "Q.30 To **'see eye to eye'** with someone is to:", "options": ["Stare at them", "Agree fully", "Fight", "Watch TV"], "answer": "Agree fully" }
+  {
+    "question": "What is the meaning of the idiom **'A pipe dream'**?",
+    "options": ["A successful plan", "An impossible hope", "A plumbing issue", "A night dream"],
+    "answer": "An impossible hope",
+    "explanation": "• **Impossible hope**: An idea or plan that is impossible or very unlikely to happen. (Related: Chasing rainbows, Quixotic). ☁️💭\n• **Successful plan**: A goal that is achieved. (Antonym). ✅"
+  },
+  {
+    "question": "To **'show a clean pair of heels'** means to:",
+    "options": ["Clean your shoes", "Run away fast", "Walk slowly", "Stand still"],
+    "answer": "Run away fast",
+    "explanation": "• **Run away fast**: To run away so quickly that no one can catch you. (Related: Bolt, Take to one's heels). 👣💨\n• **Walk slowly**: Moving at a relaxed pace. (Antonym: Amble). 🐢"
+  },
+  {
+    "question": "A person who has become **'a laughing stock'** is:",
+    "options": ["A comedian", "Ridiculed by everyone", "Very wealthy", "Respected"],
+    "answer": "Ridiculed by everyone",
+    "explanation": "• **Ridiculed**: Someone who has done something so silly that everyone mocks them. (Related: Butt of the joke). 😂\n• **Respected**: Admired by many for achievements. (Antonym: High esteem). 🎖️"
+  },
+  {
+    "question": "To **'cut a long story short'** means to:",
+    "options": ["Write a novel", "End an explanation quickly", "Tell a lie", "Talk more"],
+    "answer": "End an explanation quickly",
+    "explanation": "• **End quickly**: To skip the extra details and get straight to the point. (Related: In a nutshell, Briefly). ✂️\n• **Talk more**: To expand on details. (Antonym: Elaborate). 🗣️"
+  },
+  {
+    "question": "Being **'at daggers drawn'** means being:",
+    "options": ["Friendly", "Bitterly hostile", "In a race", "Helping each other"],
+    "answer": "Bitterly hostile",
+    "explanation": "• **Hostile**: To be extremely angry with each other and ready to fight. (Related: At loggerheads, Enmity). 🗡️\n• **Friendly**: Having a cordial relationship. (Antonym). 🤝"
+  },
+  {
+    "question": "To **'keep someone at arm's length'** is to:",
+    "options": ["Hug them", "Avoid being too close/friendly", "Measure them", "Fight them"],
+    "answer": "Avoid being too close/friendly",
+    "explanation": "• **Avoid closeness**: To avoid becoming too friendly or involved with someone. (Related: Aloof). 📏\n• **Hug them**: To show affection. (Antonym). 🤗"
+  },
+  {
+    "question": "**'Spilling the beans'** means:",
+    "options": ["Cooking", "Revealing a secret", "Wasting food", "Being messy"],
+    "answer": "Revealing a secret",
+    "explanation": "• **Reveal secret**: To let out information that was supposed to be private. (Related: Let the cat out of the bag). 🫘🗣️\n• **Cooking**: The act of preparing food. (Literal meaning). 🍳"
+  },
+  {
+    "question": "**'Greasing the palm'** refers to:",
+    "options": ["Applying oil", "Bribing", "Working hard", "Shaking hands"],
+    "answer": "Bribing",
+    "explanation": "• **Bribing**: Giving someone money secretly so they will do something for you. (Related: Kickback, Under the table). 💸\n• **Working hard**: Putting in a lot of effort. (Related: Diligent). 👷"
+  },
+  {
+    "question": "A **'bird's eye view'** is a:",
+    "options": ["View from a plane", "General view from above", "Narrow view", "Blurred vision"],
+    "answer": "General view from above",
+    "explanation": "• **General view**: A broad overview of a situation from a high position. (Related: Panoramic view). 🦅\n• **Narrow view**: Looking at a very specific part. (Antonym: Tunnel vision). 👁️"
+  },
+  {
+    "question": "To **'blow one's own trumpet'** is to:",
+    "options": ["Play music", "Praise one's own achievements", "Be loud", "Help others"],
+    "answer": "Praise one's own achievements",
+    "explanation": "• **Self-praise**: To talk boastfully about your own talents or successes. (Related: Boasting, Bragging). 🎺\n• **Help others**: To assist someone else. (Antonym: Altruism). 🤝"
+  },
+  {
+    "question": "To **'leave someone in the lurch'** is to:",
+    "options": ["Help them", "Leave them in trouble without help", "Give them a gift", "Take them on a trip"],
+    "answer": "Leave them in trouble without help",
+    "explanation": "• **Leave in trouble**: To desert someone when they are in a difficult situation. (Related: Abandon, Strand). 🆘\n• **Help them**: Providing support. (Antonym: Lend a hand). 🤝"
+  },
+  {
+    "question": "To **'hit the nail on the head'** means to:",
+    "options": ["Be a carpenter", "Describe exactly right", "Cause an accident", "Fail a test"],
+    "answer": "Describe exactly right",
+    "explanation": "• **Exactly right**: To identify exactly what the problem or answer is. (Related: Precision, Spot on). 🔨🎯\n• **Fail a test**: To be unsuccessful. (Antonym). ❌"
+  },
+  {
+    "question": "To **'read between the lines'** means to:",
+    "options": ["Read fast", "Find a hidden meaning", "Use a ruler", "Read aloud"],
+    "answer": "Find a hidden meaning",
+    "explanation": "• **Hidden meaning**: To understand something that is not said directly. (Related: Infer). 📖🔍\n• **Read fast**: Speed reading. (Related: Skim). ⚡"
+  },
+  {
+    "question": "**'Keeping the wolf from the door'** means:",
+    "options": ["Hunting", "Avoiding starvation/poverty", "Guarding the house", "Being brave"],
+    "answer": "Avoiding starvation/poverty",
+    "explanation": "• **Avoid poverty**: To have enough money to buy basic food and maintain a household. (Related: Eke out a living). 🐺\n• **Starvation**: Suffering from extreme hunger. (Related: Famine). 📉"
+  },
+  {
+    "question": "A **'dark horse'** in a contest is an:",
+    "options": ["Expected winner", "Unexpected winner", "Animal runner", "Slow runner"],
+    "answer": "Unexpected winner",
+    "explanation": "• **Unexpected winner**: Someone who was not expected to succeed but does. (Related: Underdog). 🐎\n• **Expected winner**: The favorite to win. (Antonym). 🏆"
+  },
+  {
+    "question": "To **'sit on the fence'** means to:",
+    "options": ["Repair a fence", "Avoid taking a side in a decision", "Be very active", "Watch a bird"],
+    "answer": "Avoid taking a side in a decision",
+    "explanation": "• **Undecided**: Refusing to support either side in an argument. (Related: Wavering). 🚧\n• **Active**: Engaging in movement. (Antonym). 🏃"
+  },
+  {
+    "question": "To **'turn a deaf ear'** is to:",
+    "options": ["Have a hearing problem", "Ignore what is said", "Listen carefully", "Be quiet"],
+    "answer": "Ignore what is said",
+    "explanation": "• **Ignore**: To refuse to listen to what someone is saying. (Related: Disregard). 👂🚫\n• **Listen carefully**: Paying close attention. (Antonym: All ears). 🔊"
+  },
+  {
+    "question": "**'Making both ends meet'** means:",
+    "options": ["Joining wires", "Earning just enough to live on", "Finishing a task", "Meeting friends"],
+    "answer": "Earning just enough to live on",
+    "explanation": "• **Survival income**: To have enough money to pay for the basic things you need. (Related: Living hand to mouth). 💵\n• **Joining wires**: Electrical work. (Literal meaning). 🔌"
+  },
+  {
+    "question": "A **'wild goose chase'** refers to a:",
+    "options": ["Successful mission", "Foolish, hopeless search", "Bird watching", "Fast race"],
+    "answer": "Foolish, hopeless search",
+    "explanation": "• **Hopeless search**: A foolish search for something that cannot be found. (Related: Futile). 🦢\n• **Successful mission**: Achieving the result. (Antonym). 🎯"
+  },
+  {
+    "question": "To **'throw in the towel'** means to:",
+    "options": ["Dry oneself", "Admit defeat", "Start a fight", "Clean the floor"],
+    "answer": "Admit defeat",
+    "explanation": "• **Admit defeat**: To stop trying because you realize you cannot succeed. (Related: Capitulate, Give up). 🏳️\n• **Start a fight**: Initiating conflict. (Antonym). ⚔️"
+  },
+  {
+    "question": "Being **'on cloud nine'** means being:",
+    "options": ["In a plane", "Extremely happy", "In the rain", "Dreaming"],
+    "answer": "Extremely happy",
+    "explanation": "• **Extremely happy**: To be very excited and joyful. (Related: Over the moon, Elated). ☁️✨\n• **Dreaming**: Seeing images while asleep. (Related: Slumber). 😴"
+  },
+  {
+    "question": "A **'blessing in disguise'** is:",
+    "options": ["A magic trick", "Something bad that results in good", "A gift", "A costume"],
+    "answer": "Something bad that results in good",
+    "explanation": "• **Hidden good**: Something that seems bad at first but results in something good later. (Related: Silver lining). ✨\n• **Magic trick**: An act of illusion. (Related: Prestidigitation). 🎩"
+  },
+  {
+    "question": "**'Burning bridges'** means:",
+    "options": ["Setting fire", "Eliminating the possibility of return", "Building roads", "Traveling"],
+    "answer": "Eliminating the possibility of return",
+    "explanation": "• **No return**: Acting in a way that you cannot go back to a previous situation. (Related: Point of no return). 🌉🔥\n• **Building roads**: Construction work. (Literal meaning). 🛣️"
+  },
+  {
+    "question": "To **'smell a rat'** means to:",
+    "options": ["Have a good nose", "Suspect something is wrong/dishonest", "Be a cat", "Clean a house"],
+    "answer": "Suspect something is wrong/dishonest",
+    "explanation": "• **Suspect dishonesty**: To have a feeling that someone is being deceptive. (Related: Fishy). 🐀\n• **Trustworthy**: Being reliable. (Antonym). ✅"
+  },
+  {
+    "question": "To **'add fuel to the fire'** means to:",
+    "options": ["Cook", "Make a bad situation worse", "Help someone", "Start a fire safely"],
+    "answer": "Make a bad situation worse",
+    "explanation": "• **Make worse**: To aggravate an already difficult or intense situation. (Related: Exacerbate). 🔥\n• **Help someone**: Providing assistance. (Antonym). 🤝"
+  },
+  {
+    "question": "A **'fair-weather friend'** is one who:",
+    "options": ["Helps in rain", "Leaves you in trouble", "Is always loyal", "Loves sunny days"],
+    "answer": "Leaves you in trouble",
+    "explanation": "• **Unreliable friend**: A person who is friendly only when things are going well for you. (Related: Fair-weather). ☀️\n• **Loyal friend**: One who stays through thick and thin. (Antonym). 🤝"
+  },
+  {
+    "question": "Winning **'by the skin of one's teeth'** means winning:",
+    "options": ["Using force", "By a very narrow margin", "Easily", "Painfully"],
+    "answer": "By a very narrow margin",
+    "explanation": "• **Narrow margin**: To succeed by the smallest possible amount. (Related: Close shave). 🦷\n• **Easily**: Winning without effort. (Antonym: Hands down). 🙌"
+  },
+  {
+    "question": "To **'pay through the nose'** means to pay:",
+    "options": ["A fair price", "An excessive amount", "Nothing", "A small amount"],
+    "answer": "An excessive amount",
+    "explanation": "• **Excessive price**: To pay much more for something than it is worth. (Related: Cost an arm and a leg). 👃💸\n• **Small amount**: A low cost. (Antonym: Peanuts). 🥜"
+  },
+  {
+    "question": "A **'red-letter day'** is a:",
+    "options": ["Dangerous day", "Very important day", "Boring day", "Day for writing letters"],
+    "answer": "Very important day",
+    "explanation": "• **Important day**: A day that is pleasantly noteworthy or memorable. (Related: Landmark day). 🗓️\n• **Boring day**: An uninteresting day. (Antonym: Humdrum). 🥱"
+  },
+  {
+    "question": "To **'see eye to eye'** with someone is to:",
+    "options": ["Stare at them", "Agree fully", "Fight", "Watch TV"],
+    "answer": "Agree fully",
+    "explanation": "• **Agree fully**: To have exactly the same opinion as someone else. (Related: In accord). 👁️🤝\n• **Fight**: Engaging in conflict. (Antonym: At loggerheads). ⚔️"
+  }
 ]
