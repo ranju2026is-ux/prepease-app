@@ -3,301 +3,300 @@
     "question": "Choose the correct spelling for a word meaning 'the resumption of harmonious relations':",
     "options": ["Rapprochement", "Raprochment", "Rapproachment", "Raproachment"],
     "answer": "Rapprochement",
-    "type": "spelling"
+    "explanation": "• **Rapprochement**: Correct spelling. (Roots: French 'rapprocher' - to bring together). 🤝\n• **Raprochment**: Incorrect; missing the double 'p'. ❌\n• **Rapproachment**: Incorrect; 'approach' is an English word, but this French term uses 'oche'. ❌\n• **Raproachment**: Incorrect; both 'p' and 'o' placement are wrong. ❌"
   },
   {
     "question": "What is the SYNONYM of 'Mellifluous'?",
     "options": ["Harsh", "Dulcet", "Noisy", "Bitter"],
     "answer": "Dulcet",
-    "type": "synonym"
+    "explanation": "• **Dulcet**: Sweet and soothing sound. (Related: Euphonious, Melodious). 🎶\n• **Harsh**: Grating or unpleasant to the ear. (Related: Strident, Jarring). 🔊\n• **Noisy**: Full of loud and non-musical sounds. (Related: Clamorous, Boisterous). 📢\n• **Bitter**: Sharp/unpleasant taste or feeling. (Related: Acrid, Resentful). 🍋"
   },
   {
     "question": "Antonym for 'Pusillanimous':",
     "options": ["Timid", "Cowardly", "Valiant", "Fearful"],
     "answer": "Valiant",
-    "type": "antonym"
+    "explanation": "• **Valiant**: Showing great courage or determination. (Related: Intrepid, Chivalrous). 🛡️\n• **Timid**: Lacking in self-confidence. (Related: Shy, Diffident). 🐭\n• **Cowardly**: Lacking courage to face danger. (Related: Craven, Lily-livered). 🏃‍♂️\n• **Fearful**: Feeling or showing fear. (Related: Apprehensive, Timorous). 😨"
   },
   {
     "question": "Fill in the blank: The dictator's ____ over the smaller nations was total and crushing.",
     "options": ["Hegemony", "Clemency", "Ennui", "Kitsch"],
     "answer": "Hegemony",
-    "type": "sentence_completion"
+    "explanation": "• **Hegemony**: Leadership or dominance, especially by one country. (Related: Authority, Supremacy). 👑\n• **Clemency**: Mercy or lenience shown to a criminal. (Related: Compassion, Indulgence). ⚖️\n• **Ennui**: A feeling of listlessness arising from lack of excitement. (Related: Boredom, Lassitude). 💤\n• **Kitsch**: Art/objects considered to be in poor taste. (Related: Gaudy, Tacky). 🖼️"
   },
   {
     "question": "Spot the ERROR: The noissome (A) fumes from (B) the factory (C) made everyone ill (D).",
     "options": ["A", "B", "C", "D"],
     "answer": "A",
-    "type": "error_detection",
-    "explanation": "Correct spelling is 'Noisome' (single 's')."
+    "explanation": "• **Noisome**: Correct spelling (single 's'). (Related: Fetid, Malodorous, Noxious). 🤢\n• **Fumes**: Gas, smoke, or vapor that smells strongly. (Related: Exhaust, Reek). 🌫️\n• **Factory**: A building where goods are manufactured. (Related: Plant, Workshop). 🏭\n• **Ill**: Suffering from a physical or mental sickness. (Related: Ailing, Unwell). 🤒"
   },
   {
     "question": "Meaning of 'Zeitgeist':",
     "options": ["Ghost of a person", "Spirit of the times", "A type of machine", "A military rank"],
     "answer": "Spirit of the times",
-    "type": "meaning"
+    "explanation": "• **Spirit of the times**: The defining spirit/mood of a period of history. (Related: Trend, Ethos). 🕰️\n• **Ghost of a person**: The soul of a dead person. (Related: Phantom, Specter). 👻\n• **Machine**: A device using mechanical power to perform tasks. (Related: Apparatus, Engine). ⚙️\n• **Military rank**: A position in a hierarchy (e.g., General). (Related: Grade, Designation). 🎖️"
   },
   {
     "question": "Which word is an antonym for 'Sanguine'?",
     "options": ["Optimistic", "Pessimistic", "Cheerful", "Confident"],
     "answer": "Pessimistic",
-    "type": "antonym"
+    "explanation": "• **Pessimistic**: Tending to see the worst aspect of things. (Related: Gloomy, Cynical). 📉\n• **Optimistic**: Hopeful and confident about the future. (Related: Sanguine, Upbeat). 📈\n• **Cheerful**: Noticeably happy and optimistic. (Related: Buoyant, Jovial). 😊\n• **Confident**: Feeling self-assurance or certainty. (Related: Assertive, Poised). 💪"
   },
   {
     "question": "Synonym for 'Truculent':",
     "options": ["Peaceful", "Belligerent", "Gentle", "Kind"],
     "answer": "Belligerent",
-    "type": "synonym"
+    "explanation": "• **Belligerent**: Hostile and aggressive; ready to fight. (Related: Pugnacious, Quarrelsome). ⚔️\n• **Peaceful**: Free from disturbance; tranquil. (Related: Serene, Placid). 🕊️\n• **Gentle**: Mild or kind; not severe. (Related: Tender, Docile). 🐑\n• **Kind**: Friendly, generous, and considerate. (Related: Benevolent, Amiable). ❤️"
   },
   {
     "question": "One Word Substitution: 'A person who renounces their religious or political beliefs':",
     "options": ["Apostate", "Venerable", "Zealot", "Atheist"],
     "answer": "Apostate",
-    "type": "one_word"
+    "explanation": "• **Apostate**: One who deserts a principle or faith. (Related: Renegade, Turncoat). 🏃\n• **Venerable**: Accorded a great deal of respect. (Related: Revered, Esteemed). 👴\n• **Zealot**: A person who is fanatical in pursuit of ideals. (Related: Radical, Enthusiast). 🔥\n• **Atheist**: A person who disbelieves in God. (Related: Non-believer, Skeptic). 🚫"
   },
   {
     "question": "Fill in the blank: The old professor was ____ for his immense knowledge and kindness.",
     "options": ["Venerable", "Invidious", "Nefarious", "Desultory"],
     "answer": "Venerable",
-    "type": "context"
+    "explanation": "• **Venerable**: Respected due to age, wisdom, or character. (Related: Sage, August). 🏛️\n• **Invidious**: Likely to arouse resentment or anger. (Related: Unpleasant, Discriminatory). 😠\n• **Nefarious**: Wicked or criminal in the extreme. (Related: Villainous, Heinous). 👺\n• **Desultory**: Lacking a plan, purpose, or enthusiasm. (Related: Rambling, Aimless). 🌀"
   },
   {
     "question": "Meaning of 'Ennui':",
     "options": ["Excitement", "Boredom", "Energy", "Speed"],
     "answer": "Boredom",
-    "type": "meaning"
+    "explanation": "• **Boredom**: The state of feeling weary and restless. (Related: Ennui, Tedium). 🥱\n• **Excitement**: A feeling of great enthusiasm and eagerness. (Related: Thrill, Elation). 🤩\n• **Energy**: Strength and vitality required for activity. (Related: Vigor, Stamina). ⚡\n• **Speed**: The rate at which someone/something moves. (Related: Velocity, Celerity). 🚀"
   },
   {
     "question": "Choose the SYNONYM for 'Bucolic':",
     "options": ["Urban", "Pastoral", "Modern", "Crowded"],
     "answer": "Pastoral",
-    "type": "synonym"
+    "explanation": "• **Pastoral**: Related to the pleasant life of the country. (Related: Bucolic, Rural). 🏡\n• **Urban**: In, relating to, or characteristic of a city. (Related: Metropolitan, Civic). 🏙️\n• **Modern**: Relating to the present or recent times. (Related: Contemporary, Novel). 📱\n• **Crowded**: Full of people, leaving little room. (Related: Congested, Packed). 👨‍👩‍👧‍👦"
   },
   {
     "question": "Correct the Spelling:",
     "options": ["Crepuscular", "Crepussular", "Crepuskular", "Crepusculer"],
     "answer": "Crepuscular",
-    "type": "spelling"
+    "explanation": "• **Crepuscular**: Correct spelling. (Related: Twilight, Dusky, Dim). 🌆\n• **Crepussular**: Incorrect; only one 's' in the middle. ❌\n• **Crepuskular**: Incorrect; uses 'k' instead of 'c'. ❌\n• **Crepusculer**: Incorrect; uses 'er' ending instead of 'ar'. ❌"
   },
   {
     "question": "Fill in the blank: His ____ behavior at the party made everyone uncomfortable.",
     "options": ["Unctuous", "Equanimity", "Fecund", "Germane"],
     "answer": "Unctuous",
-    "type": "sentence_completion"
+    "explanation": "• **Unctuous**: Excessively flattering or oily in manner. (Related: Sycophantic, Smarmy). 🧈\n• **Equanimity**: Mental calmness, especially in a crisis. (Related: Composure, Serenity). 🧘\n• **Fecund**: Highly fertile and capable of producing much. (Related: Prolific, Fruitful). 🌱\n• **Germane**: Relevant to a subject under consideration. (Related: Pertinent, Applicable). 🎯"
   },
   {
     "question": "Synonym for 'Opprobrium':",
     "options": ["Praise", "Ignominy", "Success", "Honor"],
     "answer": "Ignominy",
-    "type": "synonym"
+    "explanation": "• **Ignominy**: Public shame or a state of dishonor. (Related: Opprobrium, Disgrace). 🙈\n• **Praise**: Expression of approval or admiration. (Related: Commendation, Laud). 👏\n• **Success**: The accomplishment of an aim or purpose. (Related: Victory, Achievement). 🏆\n• **Honor**: High respect; great esteem. (Related: Prestige, Glory). 🎖️"
   },
   {
     "question": "Antonym for 'Limpid':",
     "options": ["Transparent", "Clear", "Turbid", "Lucid"],
     "answer": "Turbid",
-    "type": "antonym"
+    "explanation": "• **Turbid**: Cloudy, opaque, or thick with suspended matter. (Related: Muddy, Roiled). ☕\n• **Transparent**: Allowing light to pass through so objects are seen. (Related: Sheer, Pellucid). 💎\n• **Clear**: Easy to perceive, understand, or interpret. (Related: Limpid, Crystalline). 💧\n• **Lucid**: Expressed clearly; easy to understand. (Related: Coherent, Intelligible). 💡"
   },
   {
     "question": "Meaning of 'Hubris':",
     "options": ["Humility", "Arrogance", "Intelligence", "Strength"],
     "answer": "Arrogance",
-    "type": "meaning"
+    "explanation": "• **Arrogance**: Excessive pride or self-confidence. (Related: Hubris, Haughtiness). 🤨\n• **Humility**: A modest or low view of one's importance. (Related: Modesty, Meekness). 🙏\n• **Intelligence**: The ability to acquire and apply knowledge. (Related: Intellect, Sagacity). 🧠\n• **Strength**: The quality or state of being physically strong. (Related: Might, Vigor). 💪"
   },
   {
     "question": "Synonym for 'Munificent':",
     "options": ["Stingy", "Generous", "Small", "Greedy"],
     "answer": "Generous",
-    "type": "synonym"
+    "explanation": "• **Generous**: Ready to give more of something than is expected. (Related: Munificent, Magnanimous). 🎁\n• **Stingy**: Unwilling to give or spend; ungenerous. (Related: Parsimonious, Miserly). 🤏\n• **Small**: Of a size that is less than normal. (Related: Diminutive, Petty). 🐜\n• **Greedy**: Having an excessive desire for food or wealth. (Related: Avaricious, Voracious). 🤑"
   },
   {
     "question": "Find the error: The lawyer's (A) argument was not (B) germaine (C) to the case (D).",
     "options": ["A", "B", "C", "D"],
     "answer": "C",
-    "type": "error_detection"
+    "explanation": "• **Germane**: Correct spelling (ending with 'e'). (Related: Relevant, Proper). ✅\n• **Argument**: A set of reasons given with the aim of persuading. (Related: Case, Plea). 🗣️\n• **Lawyer**: A person who practices law. (Related: Attorney, Counsel). ⚖️\n• **Case**: A legal action or suit. (Related: Trial, Litigation). 📂"
   },
   {
     "question": "Fill in the blank: The ____ of the bells announced the end of an era.",
     "options": ["Knell", "Kitsch", "Anathema", "Winsome"],
     "answer": "Knell",
-    "type": "context"
+    "explanation": "• **Knell**: The sound of a bell, especially for a death/funeral. (Related: Toll, Peal). 🔔\n• **Kitsch**: Art or design in poor taste. (Related: Gaudy, Tacky). 🖼️\n• **Anathema**: Something or someone that one vehemently dislikes. (Related: Abomination, Curse). 🚫\n• **Winsome**: Attractive or appealing in character. (Related: Charming, Engaging). 😊"
   },
   {
     "question": "Synonym for 'Abstruse':",
     "options": ["Simple", "Recondite", "Obvious", "Clear"],
     "answer": "Recondite",
-    "type": "synonym"
+    "explanation": "• **Recondite**: Little known; obscure or difficult. (Related: Abstruse, Esoteric). 🧩\n• **Simple**: Easily understood or done. (Related: Lucid, Straightforward). 🟢\n• **Obvious**: Easily perceived or understood. (Related: Manifest, Evident). 💡\n• **Clear**: Easy to see or hear. (Related: Explicit, Unambiguous). 🌊"
   },
   {
     "question": "Antonym for 'Obdurate':",
     "options": ["Stubborn", "Flexible", "Adamant", "Inflexible"],
     "answer": "Flexible",
-    "type": "antonym"
+    "explanation": "• **Flexible**: Ready and able to change or adapt. (Related: Malleable, Yielding). 🤸\n• **Stubborn**: Determination not to change one's attitude. (Related: Obdurate, Mulish). 🐴\n• **Adamant**: Refusing to be persuaded or change one's mind. (Related: Unwavering, Firm). 🧱\n• **Inflexible**: Unwilling to change or compromise. (Related: Rigid, Uncompromising). 🧊"
   },
   {
     "question": "Which word describes art that is 'gaudy and in poor taste'?",
     "options": ["Bellwether", "Kitsch", "Zenith", "Nadir"],
     "answer": "Kitsch",
-    "type": "meaning"
+    "explanation": "• **Kitsch**: Art considered to be in poor taste due to gaudiness. (Related: Tacky, Showy). 🏺\n• **Bellwether**: An indicator or predictor of something. (Related: Trendsetter, Herald). 🐏\n• **Zenith**: The time at which something is most powerful. (Related: Peak, Apex). 🏔️\n• **Nadir**: The lowest point in the fortunes of a person. (Related: Rock-bottom, All-time low). 📉"
   },
   {
     "question": "Meaning of 'Clemency':",
     "options": ["Punishment", "Mercy", "Anger", "Justice"],
     "answer": "Mercy",
-    "type": "meaning"
+    "explanation": "• **Mercy**: Compassion or forgiveness shown to someone. (Related: Clemency, Leniency). ❤️\n• **Punishment**: Penalty inflicted as retribution for an offense. (Related: Chastisement, Sanction). ⛓️\n• **Anger**: A strong feeling of annoyance or hostility. (Related: Wrath, Fury). 😡\n• **Justice**: Just behavior or treatment. (Related: Equity, Fairness). ⚖️"
   },
   {
     "question": "Synonym for 'Desultory':",
     "options": ["Systematic", "Haphazard", "Organized", "Planned"],
     "answer": "Haphazard",
-    "type": "synonym"
+    "explanation": "• **Haphazard**: Lacking any obvious principle of organization. (Related: Desultory, Random). 🎲\n• **Systematic**: Done or acting according to a fixed plan. (Related: Methodical, Ordered). 📏\n• **Organized**: Arranged in a systematic way. (Related: Structured, Tidy). 🗄️\n• **Planned**: Decided on and arranged in advance. (Related: Premeditated, Intentional). 📅"
   },
   {
     "question": "Fill in the blank: She maintained her ____ even during the chaotic crisis.",
     "options": ["Equanimity", "Hubris", "Opprobrium", "Yoke"],
     "answer": "Equanimity",
-    "type": "sentence_completion"
+    "explanation": "• **Equanimity**: Mental calmness, evenness of temper. (Related: Composure, Sangfroid). 😌\n• **Hubris**: Excessive pride or self-confidence. (Related: Arrogance, Vanity). 🧐\n• **Opprobrium**: Harsh criticism or public disgrace. (Related: Infamy, Disrepute). 🗣️\n• **Yoke**: A burden or something that binds. (Related: Bondage, Oppression). 🐂"
   },
   {
     "question": "Antonym for 'Fecund':",
     "options": ["Fertile", "Sterile", "Productive", "Rich"],
     "answer": "Sterile",
-    "type": "antonym"
+    "explanation": "• **Sterile**: Not able to produce children or young; not fertile. (Related: Barren, Infertile). 🏜️\n• **Fertile**: Producing or capable of producing abundant vegetation. (Related: Fecund, Prolific). 🌱\n• **Productive**: Producing or able to produce large amounts of goods. (Related: Generative, Constructive). 🏭\n• **Rich**: Producing a large quantity of something. (Related: Abundant, Plentiful). 💰"
   },
   {
     "question": "Synonym for 'Germane':",
     "options": ["Irrelevant", "Pertinent", "Foreign", "Useless"],
     "answer": "Pertinent",
-    "type": "synonym"
+    "explanation": "• **Pertinent**: Relevant or applicable to a particular matter. (Related: Germane, Apropos). 🎯\n• **Irrelevant**: Not connected with or relevant to something. (Related: Immaterial, Extraneous). 🚫\n• **Foreign**: Of, from, in, or characteristic of another country. (Related: Alien, External). 🗺️\n• **Useless**: Serving no purpose; of no use. (Related: Futile, Vain). 🗑️"
   },
   {
     "question": "Correct the Spelling:",
     "options": ["Incipient", "Inssipient", "Incipiant", "Inscipient"],
     "answer": "Incipient",
-    "type": "spelling"
+    "explanation": "• **Incipient**: Correct spelling. (Related: Nascent, Beginning, Emerging). 🐣\n• **Inssipient**: Incorrect; double 's' is wrong. ❌\n• **Incipiant**: Incorrect; ends with 'ent', not 'ant'. ❌\n• **Inscipient**: Incorrect; extra 's' after 'n'. ❌"
   },
   {
     "question": "Meaning of 'Lilliputian':",
     "options": ["Giant", "Tiny", "Strong", "Fast"],
     "answer": "Tiny",
-    "type": "meaning"
+    "explanation": "• **Tiny**: Very small. (Related: Lilliputian, Minute, Microscopic). 🐜\n• **Giant**: An imaginary or mythical being of human form but superhuman size. (Related: Colossal, Mammoth). 👹\n• **Strong**: Having the power to move heavy weights. (Related: Robust, Potent). 💪\n• **Fast**: Moving or capable of moving at high speed. (Related: Swift, Rapid). 🐎"
   },
   {
     "question": "Fill in the blank: The criminal's ____ deeds shocked the entire community.",
     "options": ["Nefarious", "Winsome", "Jocular", "Limpid"],
     "answer": "Nefarious",
-    "type": "context"
+    "explanation": "• **Nefarious**: Wicked or criminal. (Related: Heinous, Atrocious). 👿\n• **Winsome**: Attractive or appealing in character. (Related: Charming, Endearing). 😊\n• **Jocular**: Fond of or characterized by joking; humorous. (Related: Playful, Facetious). 🃏\n• **Limpid**: Completely clear and transparent. (Related: Pellucid, Lucid). 💧"
   },
   {
     "question": "Synonym for 'Quixotic':",
     "options": ["Practical", "Idealistic", "Realistic", "Logical"],
     "answer": "Idealistic",
-    "type": "synonym"
+    "explanation": "• **Idealistic**: Characterized by idealism; unrealistically aiming for perfection. (Related: Quixotic, Visionary). 🌈\n• **Practical**: Concerned with actual doing rather than theory. (Related: Pragmatic, Feasible). 🛠️\n• **Realistic**: Having or showing a sensible and practical idea. (Related: Rational, Level-headed). 🧐\n• **Logical**: Characterized by clear, sound reasoning. (Related: Analytical, Coherent). 🧠"
   },
   {
     "question": "Antonym for 'Rancor':",
     "options": ["Hatred", "Amity", "Malice", "Spite"],
     "answer": "Amity",
-    "type": "antonym"
+    "explanation": "• **Amity**: A friendly relationship. (Related: Goodwill, Benevolence). 🤝\n• **Hatred**: Intense dislike or ill will. (Related: Rancor, Animosity). 😡\n• **Malice**: The intention or desire to do evil. (Related: Spite, Malevolence). 🐍\n• **Spite**: A desire to hurt, annoy, or offend someone. (Related: Venom, Grudge). 🦂"
   },
   {
     "question": "Which word refers to 'an indicator of a future trend'?",
     "options": ["Bellwether", "Apostate", "Gourmand", "Knell"],
     "answer": "Bellwether",
-    "type": "meaning"
+    "explanation": "• **Bellwether**: An indicator of future trends. (Related: Harbinger, Omen). 📉\n• **Apostate**: One who renounces a religious/political belief. (Related: Renegade, Defector). 🚪\n• **Gourmand**: A person who enjoys eating and often eats too much. (Related: Glutton, Epicure). 🥘\n• **Knell**: Sound of a bell for death/end. (Related: Toll, Passing-bell). 🔔"
   },
   {
     "question": "Fill in the blank: His ____ fear of heights kept him from climbing the mountain.",
     "options": ["Visceral", "Lilliputian", "Winsome", "Fecund"],
     "answer": "Visceral",
-    "type": "sentence_completion"
+    "explanation": "• **Visceral**: Relating to deep inward feelings/instincts. (Related: Gut-feeling, Intuitive). 🧠\n• **Lilliputian**: Extremely small. (Related: Trivial, Minuscule). 🤏\n• **Winsome**: Charming and appealing. (Related: Captivating, Alluring). ✨\n• **Fecund**: Capable of producing much. (Related: Fertile, Prolific). 🌾"
   },
   {
     "question": "Synonym for 'Wheedle':",
     "options": ["Force", "Cajole", "Demand", "Ignore"],
     "answer": "Cajole",
-    "type": "synonym"
+    "explanation": "• **Cajole**: Persuade someone to do something by sustained coaxing. (Related: Wheedle, Coax). 👄\n• **Force**: Coercion or compulsion. (Related: Compel, Oblige). 🥊\n• **Demand**: An insistent and peremptory request. (Related: Order, Decree). 🗯️\n• **Ignore**: Refuse to take notice of or acknowledge. (Related: Disregard, Overlook). 🙈"
   },
   {
     "question": "Correct the Spelling:",
     "options": ["Seditious", "Sedittious", "Sedicious", "Sedetious"],
     "answer": "Seditious",
-    "type": "spelling"
+    "explanation": "• **Seditious**: Correct spelling. (Related: Mutinous, Rebellious, Incendiary). 🚩\n• **Sedittious**: Incorrect; double 't' is wrong. ❌\n• **Sedicious**: Incorrect; uses 'c' instead of 't'. ❌\n• **Sedetious**: Incorrect; uses 'e' instead of 'i'. ❌"
   },
   {
     "question": "Meaning of 'Winsome':",
     "options": ["Aggressive", "Charming", "Dull", "Sad"],
     "answer": "Charming",
-    "type": "meaning"
+    "explanation": "• **Charming**: Pleasant or attractive. (Related: Winsome, Engaging, Delightful). 🥰\n• **Aggressive**: Ready or likely to attack or confront. (Related: Hostile, Truculent). 😤\n• **Dull**: Lacking interest or excitement. (Related: Tedious, Monotonous). 🥱\n• **Sad**: Feeling or showing sorrow; unhappy. (Related: Melancholy, Somber). 😢"
   },
   {
     "question": "Antonym for 'Ubiquitous':",
     "options": ["Pervasive", "Rare", "Common", "Universal"],
     "answer": "Rare",
-    "type": "antonym"
+    "explanation": "• **Rare**: Not found in large numbers; uncommon. (Related: Scarce, Infrequent). 💎\n• **Pervasive**: Spreading widely throughout an area or group. (Related: Ubiquitous, Omnipresent). 💨\n• **Common**: Occurring, found, or done often. (Related: Usual, Routine). 🥛\n• **Universal**: Affecting or done by all people or things in the world. (Related: Worldwide, General). 🌏"
   },
   {
     "question": "Fill in the blank: Poverty is an ____ to a civilized society.",
     "options": ["Anathema", "Rapprochement", "Equanimity", "Clemency"],
     "answer": "Anathema",
-    "type": "context"
+    "explanation": "• **Anathema**: Something or someone that one vehemently dislikes. (Related: Abomination, Detestation). 🤮\n• **Rapprochement**: Establishment or resumption of harmonious relations. (Related: Reconciliation, Peace). 🤝\n• **Equanimity**: Mental calmness, evenness of temper. (Related: Composure, Poise). 🧘\n• **Clemency**: Mercy; lenience. (Related: Leniency, Forgiveness). 🕊️"
   },
   {
     "question": "Synonym for 'Fulminate':",
     "options": ["Support", "Denounce", "Quiet", "Approve"],
     "answer": "Denounce",
-    "type": "synonym"
+    "explanation": "• **Denounce**: Publicly declare to be wrong or evil. (Related: Fulminate, Condemn). 🗣️\n• **Support**: Give assistance to; enable to function. (Related: Back, Uphold). 🤝\n• **Quiet**: Making little or no noise. (Related: Silent, Muted). 🤫\n• **Approve**: Believe that someone or something is good or acceptable. (Related: Endorse, Sanction). ✅"
   },
   {
     "question": "Meaning of 'Gourmand':",
     "options": ["Athlete", "Glutton", "Doctor", "Teacher"],
     "answer": "Glutton",
-    "type": "meaning"
+    "explanation": "• **Glutton**: A person who eats and drinks excessively. (Related: Gourmand, Greedy-guts). 🍗\n• **Athlete**: A person who is proficient in sports/physical exercise. (Related: Sportsman, Gymnast). 🏃\n• **Doctor**: A qualified practitioner of medicine. (Related: Physician, Clinician). 🩺\n• **Teacher**: A person who teaches, especially in a school. (Related: Educator, Tutor). 👨‍🏫"
   },
   {
     "question": "Identify the misspelled word:",
     "options": ["Demur", "Invidious", "Pusillanimouss", "Querulous"],
     "answer": "Pusillanimouss",
-    "type": "spelling"
+    "explanation": "• **Pusillanimous**: Correct spelling (one 's' at the end). (Related: Cowardly, Timid). ✅\n• **Demur**: Raise doubts or objections. (Related: Protest, Dissent). 🤨\n• **Invidious**: Likely to arouse resentment or anger. (Related: Unpleasant, Unfair). 😠\n• **Querulous**: Complaining in a petulant or whining manner. (Related: Grumbling, Fretful). 😫"
   },
   {
     "question": "One Word Substitution: 'Relating to twilight':",
     "options": ["Crepuscular", "Limpid", "Fecund", "Noisome"],
     "answer": "Crepuscular",
-    "type": "one_word"
+    "explanation": "• **Crepuscular**: Relating to or resembling twilight. (Related: Dusky, Dim). 🌆\n• **Limpid**: Completely clear and transparent. (Related: Pellucid, Lucid). 💎\n• **Fecund**: Producing or capable of producing much offspring/growth. (Related: Fertile, Fruitful). 🌾\n• **Noisome**: Having an extremely offensive smell. (Related: Fetid, Foul). 🤢"
   },
   {
     "question": "Synonym for 'Tenuous':",
     "options": ["Strong", "Fragile", "Thick", "Solid"],
     "answer": "Fragile",
-    "type": "synonym"
+    "explanation": "• **Fragile**: Easily broken or damaged. (Related: Tenuous, Flimsy, Delicate). 🕸️\n• **Strong**: Having the power to move heavy weights or resist attack. (Related: Sturdy, Robust). 💪\n• **Thick**: With a large distance between opposite sides. (Related: Dense, Heavy). 🧱\n• **Solid**: Firm and stable in shape; not liquid or fluid. (Related: Hard, Rigid). 💎"
   },
   {
     "question": "Antonym for 'Venerable':",
     "options": ["Respected", "Disreputable", "Old", "Esteemed"],
     "answer": "Disreputable",
-    "type": "antonym"
+    "explanation": "• **Disreputable**: Not considered to be respectable in character or appearance. (Related: Dishonorable, Shady). 👺\n• **Respected**: Admired by many people for achievements or qualities. (Related: Venerable, Honored). 👴\n• **Old**: Having lived for a long time. (Related: Ancient, Elderly). ⏳\n• **Esteemed**: Held in great respect; admired. (Related: Revered, Prestigious). 🎖️"
   },
   {
     "question": "Fill in the blank: The people lived under the ____ of a cruel regime for decades.",
     "options": ["Yoke", "Hubris", "Ennui", "Kitsch"],
     "answer": "Yoke",
-    "type": "sentence_completion"
+    "explanation": "• **Yoke**: A burden or something that binds/oppresses. (Related: Oppression, Bondage). ⛓️\n• **Hubris**: Excessive pride or self-confidence. (Related: Arrogance, Vanity). 🤨\n• **Ennui**: A feeling of listlessness arising from boredom. (Related: Tedium, Lassitude). 🥱\n• **Kitsch**: Art or design considered to be in poor taste. (Related: Tacky, Gaudy). 🏺"
   },
   {
     "question": "Meaning of 'Zealot':",
     "options": ["Lazy person", "Fanatic", "Liar", "Messenger"],
     "answer": "Fanatic",
-    "type": "meaning"
+    "explanation": "• **Fanatic**: A person filled with excessive and single-minded zeal. (Related: Zealot, Extremist). 🔥\n• **Lazy person**: A person who is unwilling to work or use energy. (Related: Sluggard, Idler). 🦥\n• **Liar**: A person who tells lies. (Related: Deceiver, Fibber). 🤥\n• **Messenger**: A person who carries a message or is employed to carry messages. (Related: Courier, Herald). ✉️"
   },
   {
     "question": "Synonym for 'Palliative':",
     "options": ["Aggravating", "Soothing", "Harmful", "Useless"],
     "answer": "Soothing",
-    "type": "synonym"
+    "explanation": "• **Soothing**: Having a gently calming effect. (Related: Palliative, Alleviating, Sedative). 🧘\n• **Aggravating**: Making a problem or offense worse or more serious. (Related: Exacerbating, Worsening). 📈\n• **Harmful**: Causing or likely to cause harm. (Related: Damaging, Deleterious). ⚠️\n• **Useless**: Serving no purpose; of no use. (Related: Futile, Pointless). 🗑️"
   },
   {
     "question": "Antonym for 'Invidious':",
     "options": ["Unpleasant", "Fair", "Awkward", "Harmful"],
     "answer": "Fair",
-    "type": "antonym"
+    "explanation": "• **Fair**: Treating people equally without favoritism or discrimination. (Related: Equitable, Just). ⚖️\n• **Unpleasant**: Not enjoyable or satisfying to the mind or senses. (Related: Invidious, Disagreeable). 🤢\n• **Awkward**: Causing or feeling embarrassment or inconvenience. (Related: Clumsy, Uncomfortable). 😬\n• **Harmful**: Causing or likely to cause harm. (Related: Detrimental, Pernicious). ☢️"
   }
 ]
