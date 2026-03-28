@@ -94,7 +94,7 @@
             background-color: white;
             border: 1px solid #e2e8f0;
             border-radius: 1rem;
-            padding: 1rem;
+            padding: 1.25rem;
             cursor: pointer;
             transition: all 0.2s;
         }
@@ -186,42 +186,53 @@
         };
         window.state = state;
 
-        // --- GLOBAL FUNCTIONS EXPOSED TO WINDOW ---
-
-        window.navigateTo = (view, params = {}, fromPopState = false) => {
-            Object.assign(state, params);
-            state.view = view;
-            if (!fromPopState) {
-                history.pushState(JSON.parse(JSON.stringify({ view, params })), '', "");
-            }
-            window.render();
-            document.body.style.overflow = (['content-view', 'mistakes-book'].includes(view)) ? 'hidden' : 'auto';
+        const topicsData = {
+            grammar: [
+                { id: 'nouns', title: 'Nouns', icon: '🔡' },
+                { id: 'pronouns', title: 'Pronouns', icon: '👤' },
+                { id: 'verbs', title: 'Verbs', icon: '🏃' },
+                { id: 'adjectives', title: 'Adjectives', icon: '🎨' },
+                { id: 'adverbs', title: 'Adverbs', icon: '⚡' },
+                { id: 'tenses', title: 'Tenses', icon: '⏳' },
+                { id: 'prepositions', title: 'Prepositions', icon: '📍' },
+                { id: 'conjunctions', title: 'Conjunctions', icon: '🔗' },
+                { id: 'articles', title: 'Articles', icon: '🅰️' },
+                { id: 'subject-verb', title: 'Subject-Verb Agreement', icon: '🤝' },
+                { id: 'voice', title: 'Active & Passive Voice', icon: '📣' },
+                { id: 'narration', title: 'Direct & Indirect Speech', icon: '💬' }
+            ],
+            vocabulary: [
+                { id: 'synonyms', title: 'Synonyms', icon: '📖' },
+                { id: 'antonyms', title: 'Antonyms', icon: '🌓' },
+                { id: 'idioms', title: 'Idioms & Phrases', icon: '🎭' },
+                { id: 'one-word-sub', title: 'One Word Substitution', icon: '🎯' },
+                { id: 'phrasal-verbs', title: 'Phrasal Verbs', icon: '🔄' },
+                { id: 'spellings', title: 'Spelling Mastery', icon: '✏️' },
+                { id: 'root-words', title: 'Root Words', icon: '🌱' },
+                { id: 'confusing-words', title: 'Confusing Words', icon: '❓' }
+            ]
         };
 
-        window.handleAuth = async () => {
-            const userIn = document.getElementById('username-input').value.trim();
-            const passIn = document.getElementById('password-input').value;
-            if(!userIn || !passIn) return;
-            const email = `${userIn.toLowerCase()}@prepease.internal`;
-            try {
-                if (state.authMode === 'signup') {
-                    const fullName = document.getElementById('name-input').value;
-                    const res = await createUserWithEmailAndPassword(auth, email, passIn);
-                    await setDoc(doc(db, 'artifacts', appId, 'users', res.user.uid, 'profile', 'info'), { name: fullName, username: userIn });
-                } else {
-                    await signInWithEmailAndPassword(auth, email, passIn);
-                }
-                window.navigateTo('home');
-            } catch (err) { alert("Login failed. Check ID/Password."); }
-        };
+        const mts2023Shifts = Array.from({length: 27}, (_, i) => `MTS Shift ${i + 1}`);
+        const cgl2023Shifts = [
+            "14 July Shift-1", "14 July Shift-2", "14 July Shift-3", "14 July Shift-4",
+            "17 July Shift-1", "17 July Shift-2", "17 July Shift-3", "17 July Shift-4",
+            "18 July Shift-1", "18 July Shift-2", "18 July Shift-3", "18 July Shift-4",
+            "19 July Shift-1", "19 July Shift-2", "19 July Shift-3", "19 July Shift-4",
+            "20 July Shift-1", "20 July Shift-2", "20 July Shift-3", "20 July Shift-4",
+            "21 July Shift-1", "21 July Shift-2", "21 July Shift-3", "21 July Shift-4",
+            "24 July Shift-1", "24 July Shift-2", "24 July Shift-3", "24 July Shift-4",
+            "25 July Shift-1", "25 July Shift-2", "25 July Shift-3", "25 July Shift-4",
+            "26 July Shift-1", "26 July Shift-2", "26 July Shift-3", "26 July Shift-4",
+            "27 July Shift-1", "27 July Shift-2", "27 July Shift-3"
+        ];
+        const karnatakaExams = [
+            { id: 'kas', title: 'KPSC KAS', papers: ['2024 Prelims', '2020 Prelims'] },
+            { id: 'psi', title: 'Police PSI', papers: ['2024 Shift-1', '2021 Paper'] }
+        ];
 
-        window.handleLogout = async () => {
-            await signOut(auth);
-            state.isAuthenticated = false;
-            window.navigateTo('login');
-        };
+        // --- CORE FUNCTIONS ---
 
-        // --- FETCH ENGINE ---
         async function fetchJSON(url) {
             try {
                 const res = await fetch(url);
@@ -239,161 +250,46 @@
             return null;
         }
 
-        // --- GESTURE LOGIC ---
-        let startX = 0;
-        window.handleTouchStart = (e) => startX = e.changedTouches[0].screenX;
-        window.handleTouchEnd = (e) => {
-            const diff = startX - e.changedTouches[0].screenX;
-            if (Math.abs(diff) < 50) return;
-            if (diff > 50) window.moveNext(); else window.movePrev();
-        };
-
-        window.moveNext = () => {
-            if (state.view === 'mistakes-book' && state.mistakes.length > 0) {
-                state.currentAnkiIndex = (state.currentAnkiIndex + 1) % state.mistakes.length;
-                state.isAnkiFlipped = false; state.ankiSelection = null; window.render();
-            } else if (state.activeMode === 'study') {
-                if (state.currentStudyIndex < (window.activeStudyData || []).length - 1) { 
-                    state.currentStudyIndex++; 
-                    window.renderStudyCardUI(); 
-                } else {
-                    window.loadQuiz();
-                }
-            } else if (state.activeMode === 'quiz') {
-                if (state.currentQuizIndex < (window.activeQuestionsData || []).length - 1) { 
-                    state.currentQuizIndex++; 
-                    window.renderQuizUI(); 
-                }
+        window.navigateTo = (view, params = {}, fromPopState = false) => {
+            Object.assign(state, params);
+            state.view = view;
+            if (!fromPopState) {
+                history.pushState(JSON.parse(JSON.stringify({ view, params })), '', "");
             }
-        };
-
-        window.movePrev = () => {
-            if (state.view === 'mistakes-book' && state.mistakes.length > 0) {
-                state.currentAnkiIndex = (state.currentAnkiIndex - 1 + state.mistakes.length) % state.mistakes.length;
-                state.isAnkiFlipped = false; state.ankiSelection = null; window.render();
-            } else if (state.activeMode === 'study' && state.currentStudyIndex > 0) {
-                state.currentStudyIndex--; window.renderStudyCardUI();
-            } else if (state.activeMode === 'quiz' && state.currentQuizIndex > 0) {
-                state.currentQuizIndex--; window.renderQuizUI();
-            }
-        };
-
-        // --- CONTENT LOGIC ---
-        window.loadGenericContent = async () => {
-            const { currentType, currentTopic, currentLevel, isSSC, isKarnataka, currentShift, currentExam } = state;
-            let paths = [];
-            if (currentType === 'grammar-rules') { paths = [`./content/grammar-rules/rules.json`]; } 
-            else if (isSSC || isKarnataka) {
-                const folder = isSSC ? (currentExam === 'SSC MTS 2023' ? 'mts2023' : 'cgl2023') : state.currentExamId;
-                paths = [`./content/${isSSC?'ssc':'karnataka'}/${folder}/shift-${currentShift}-test.json`];
-            } else {
-                const basePath = `./content/general-english/vocabulary/${currentTopic}`;
-                paths = [`${basePath}/level-${currentLevel}.json`, `${basePath}/level${currentLevel}.json`, `${basePath}/level-${currentLevel}-test.json` ];
-            }
-            const data = await multiPathFetch(paths);
-            if (data && data.length) {
-                if (data[0].question) { window.activeQuestionsData = data; state.currentQuizIndex = 0; state.currentQuizAnswers = {}; state.activeMode = 'quiz'; window.renderQuizUI(); }
-                else { window.activeStudyData = data; state.currentStudyIndex = 0; state.activeMode = 'study'; window.renderStudyCardUI(); }
-            } else document.getElementById('content-container').innerHTML = `<div class="p-10 text-center font-bold">Content not found. Check GitHub paths.</div>`;
-        };
-
-        window.loadQuiz = async () => {
-            const { currentTopic, currentLevel, isSSC, isKarnataka, currentShift, currentExamId, currentExam } = state;
-            let folder = isSSC ? (currentExam === 'SSC MTS 2023' ? 'mts2023' : 'cgl2023') : currentExamId;
-            let path = isSSC ? `./content/ssc/${folder}` : `./content/karnataka/${folder}`;
-            let data = await multiPathFetch(isSSC || isKarnataka ? [`${path}/shift-${currentShift}-test.json`] : [`./content/general-english/vocabulary/${currentTopic}/level-${currentLevel}-test.json`]);
-            if(data) { window.activeQuestionsData = data; state.currentQuizIndex = 0; state.currentQuizAnswers = {}; state.activeMode = 'quiz'; window.renderQuizUI(); }
-        };
-
-        window.renderStudyCardUI = () => {
-            const item = window.activeStudyData[state.currentStudyIndex];
-            document.getElementById('content-container').innerHTML = `
-                <div class="flex-grow flex flex-col h-full overflow-hidden" ontouchstart="window.handleTouchStart(event)" ontouchend="window.handleTouchEnd(event)">
-                    <div class="vocab-single-page view-transition">
-                        <div class="flex justify-between items-center mb-4"><span class="text-[10px] font-black bg-indigo-50 text-indigo-600 px-3 py-1 rounded-full uppercase">Review</span><span class="text-[10px] font-black text-slate-400">${state.currentStudyIndex + 1}/${window.activeStudyData.length}</span></div>
-                        <div class="scroll-content">
-                            <div class="text-6xl mb-4">${item.emoji || '📗'}</div>
-                            <h3 class="text-3xl font-black mb-6">${item.word}</h3>
-                            <div class="space-y-4 text-left">
-                                <div class="bg-slate-50 p-4 rounded-xl border border-slate-100">
-                                    <p class="text-[9px] font-bold text-slate-400 uppercase mb-1">Kannada Meaning</p>
-                                    <p class="text-xl font-bold font-kannada">${item.meaning_kannada}</p>
-                                </div>
-                                <div class="bg-indigo-50/50 p-4 rounded-xl border border-indigo-100">
-                                    <p class="text-[9px] font-bold text-indigo-400 uppercase mb-1">English Detail</p>
-                                    <p class="text-base italic leading-snug">${item.meaning_english}</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="flex gap-2 mt-3 h-14">
-                        <button onclick="window.movePrev()" class="flex-1 bg-white border-2 rounded-xl font-bold text-xs" ${state.currentStudyIndex === 0 ? 'disabled opacity-30' : ''}>PREV</button>
-                        ${state.currentStudyIndex === window.activeStudyData.length - 1 ? `<button onclick="window.loadQuiz()" class="flex-1 bg-indigo-600 text-white rounded-xl font-bold text-xs">START QUIZ 🚀</button>` : `<button onclick="window.moveNext()" class="flex-1 bg-indigo-600 text-white rounded-xl font-bold text-xs">NEXT</button>`}
-                    </div>
-                </div>`;
-        };
-
-        window.renderQuizUI = () => {
-            const q = window.activeQuestionsData[state.currentQuizIndex];
-            const ans = state.currentQuizAnswers[state.currentQuizIndex];
-            document.getElementById('content-container').innerHTML = `
-                <div class="bg-white p-4 rounded-3xl border h-full flex flex-col overflow-hidden" ontouchstart="window.handleTouchStart(event)" ontouchend="window.handleTouchEnd(event)">
-                    <div class="flex justify-between items-center mb-3"><span class="text-[10px] font-black text-slate-400">Q${state.currentQuizIndex+1}/${window.activeQuestionsData.length}</span><button onclick="window.navigateTo('home')" class="text-rose-500 font-bold text-[10px]">EXIT</button></div>
-                    <div class="scroll-content">
-                        <p class="text-base font-bold mb-4">${q.question}</p>
-                        <div class="flex flex-col gap-2 ${ans ? 'pointer-events-none' : ''}">
-                            ${q.options.map(o => {
-                                const isCorrect = o.trim() === q.answer.trim();
-                                const isSelected = ans?.selected === o.trim();
-                                let cls = "p-3.5 border-2 rounded-xl text-sm font-bold transition-all ";
-                                if (ans) {
-                                    if (isCorrect) cls += "option-correct";
-                                    else if (isSelected) cls += "option-wrong";
-                                    else cls += "border-slate-50 opacity-40";
-                                } else { cls += "border-slate-50 bg-slate-50/50 active:bg-indigo-50"; }
-                                return `<div onclick="window.handleChoice('${o.trim()}', '${q.answer.trim()}')" class="${cls}">${o}</div>`;
-                            }).join('')}
-                        </div>
-                        ${ans ? `<div class="mt-4 p-4 bg-slate-50 rounded-xl text-[11px] font-kannada border-l-4 border-indigo-500 view-transition">${q.explanation}</div>` : ''}
-                    </div>
-                    <div class="mt-2 flex gap-2 h-14">
-                        ${state.currentQuizIndex === window.activeQuestionsData.length - 1 ? `<button onclick="window.submitFinalResults()" class="flex-grow bg-emerald-600 text-white rounded-xl font-bold uppercase text-xs">Finish Assessment</button>` : `<button onclick="window.moveNext()" class="flex-grow bg-indigo-600 text-white rounded-xl font-bold uppercase text-xs" ${!ans ? 'disabled opacity-30' : ''}>Next</button>`}
-                    </div>
-                </div>`;
-        };
-
-        window.handleChoice = (sel, cor) => { state.currentQuizAnswers[state.currentQuizIndex] = {selected: sel, isCorrect: sel === cor}; window.renderQuizUI(); };
-
-        window.submitFinalResults = async () => {
-            const questions = window.activeQuestionsData;
-            let score = 0, mistakes = [];
-            questions.forEach((q, i) => { const rec = state.currentQuizAnswers[i]; if (rec?.isCorrect) score++; else mistakes.push({...q}); });
-            if (auth.currentUser) {
-                const progressId = `${state.currentType || 'SSC'}_${state.currentTopic || 'General'}_${state.currentLevel || state.currentShift}`;
-                await setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'progress', progressId), { score, total: questions.length, points: score * 10, completedAt: new Date().toISOString() });
-                for (const m of mistakes) {
-                    const mId = btoa(m.question.substring(0, 20)).substring(0, 15);
-                    await setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'mistakes', mId), { ...m, masteryCount: 0 }, { merge: true });
-                }
-            }
-            window.navigateTo('home');
-        };
-
-        window.handleAnkiChoice = (selected) => {
-            if (state.ankiSelection) return; state.ankiSelection = selected; window.render();
-            setTimeout(() => { if (state.view === 'mistakes-book') { state.isAnkiFlipped = true; window.render(); } }, 800);
-        };
-
-        window.resolveAnki = async (correct) => {
-            const current = state.mistakes[state.currentAnkiIndex];
-            const ref = doc(db, 'artifacts', appId, 'users', state.userId, 'mistakes', current.id);
-            if (correct) {
-                const newCount = (current.masteryCount || 0) + 1;
-                if (newCount >= 5) await deleteDoc(ref); else await updateDoc(ref, { masteryCount: newCount });
-            } else await updateDoc(ref, { masteryCount: 0 });
-            state.isAnkiFlipped = false; state.ankiSelection = null;
-            state.currentAnkiIndex = (state.currentAnkiIndex + 1) % (state.mistakes.length || 1);
             window.render();
+            document.body.style.overflow = (['content-view', 'mistakes-book'].includes(view)) ? 'hidden' : 'auto';
+        };
+
+        window.renderHome = () => {
+            const rank = (p) => p < 500 ? '🌱 Junior' : p < 2000 ? '⚔️ Warrior' : '🏛️ Officer';
+            return `<div class="p-6 h-full overflow-y-auto bg-white">
+                <h1 class="text-3xl font-black mb-4 tracking-tighter">Hello, <span class="text-indigo-600">${state.userName || 'Aspirant'}</span></h1>
+                <div class="bg-indigo-600 p-6 rounded-3xl text-white shadow-xl mb-6">
+                    <p class="text-[10px] opacity-70 uppercase font-bold">Total Mastery Points</p><p class="text-5xl font-black">${state.totalPoints || 0}</p>
+                    <div class="mt-2 inline-block bg-white/10 px-3 py-1 rounded-full text-[10px] border border-white/20">${rank(state.totalPoints)}</div>
+                </div>
+                <div class="grid grid-cols-2 gap-3 mb-4">
+                    <div onclick="window.navigateTo('english-selection')" class="premium-card font-bold border-indigo-100 flex flex-col items-center justify-center py-8"><span class="text-3xl mb-2">🇬🇧</span><span>English</span></div>
+                    <div onclick="window.navigateTo('exams-pyq', { currentCategory: 'ssc' })" class="premium-card font-bold border-amber-100 flex flex-col items-center justify-center py-8"><span class="text-3xl mb-2">⚔️</span><span>SSC Hub</span></div>
+                    <div onclick="window.navigateTo('exams-pyq', { currentCategory: 'karnataka' })" class="premium-card font-bold border-emerald-100 flex flex-col items-center justify-center py-8"><span class="text-3xl mb-2">🏛️</span><span>KA Hub</span></div>
+                    <div onclick="window.navigateTo('mistakes-book')" class="premium-card font-bold border-emerald-100 bg-emerald-50/30 flex flex-col items-center justify-center py-8"><span class="text-3xl mb-2">🏆</span><span>Mastery Book (${state.mistakes.length})</span></div>
+                </div>
+                <div onclick="window.navigateTo('content-view', { currentType: 'grammar-rules', currentTopic: '120-rules', currentLevel: 1 })" class="premium-card font-bold border-rose-100 bg-rose-50 flex justify-between items-center px-6 py-4"><div><h3 class="text-lg font-black text-rose-600">120 Rules of Grammar</h3><p class="text-[10px] opacity-60 uppercase">Concept Guide</p></div><span class="text-2xl">⚡</span></div>
+            </div>`;
+        };
+
+        window.renderLogin = () => {
+            const isLogin = state.authMode === 'login';
+            return `<div class="p-6 h-full flex flex-col items-center justify-center">
+                <h2 class="text-3xl font-black mb-6 tracking-tighter uppercase">PrepEase ${isLogin?'Login':'Signup'}</h2>
+                <div class="bg-white p-6 rounded-2xl shadow-sm w-full max-w-sm">
+                    ${!isLogin ? `<input id="name-input" placeholder="Full Name" class="w-full p-4 bg-slate-50 rounded-xl mb-3 text-sm">` : ''}
+                    <input id="username-input" placeholder="ID" class="w-full p-4 bg-slate-50 rounded-xl mb-3 text-sm">
+                    <input id="password-input" type="password" placeholder="Password" class="w-full p-4 bg-slate-50 rounded-xl mb-6 text-sm">
+                    <button onclick="window.handleAuth()" class="w-full p-4 bg-indigo-600 text-white rounded-xl font-bold uppercase text-xs tracking-widest">GO</button>
+                    <button onclick="window.state.authMode = window.state.authMode === 'login' ? 'signup' : 'login'; window.render();" class="mt-4 text-[10px] text-indigo-500 w-full text-center uppercase font-bold">${isLogin ? 'Create ID' : 'Login'}</button>
+                </div>
+            </div>`;
         };
 
         window.renderMasteryBook = () => {
@@ -420,38 +316,6 @@
             </div>`;
         };
 
-        // --- BASE VIEWS ---
-
-        window.renderHome = () => {
-            const rank = (p) => p < 500 ? '🌱 Junior' : p < 2000 ? '⚔️ Warrior' : '🏛️ Officer';
-            return `<div class="p-6 h-full overflow-y-auto bg-white">
-                <h1 class="text-3xl font-black mb-4 tracking-tighter">Hello, <span class="text-indigo-600">${state.userName || 'Aspirant'}</span></h1>
-                <div class="bg-indigo-600 p-6 rounded-3xl text-white shadow-xl mb-6">
-                    <p class="text-[10px] opacity-70 uppercase font-bold">Total Mastery Points</p><p class="text-5xl font-black">${state.totalPoints || 0}</p>
-                    <div class="mt-2 inline-block bg-white/10 px-3 py-1 rounded-full text-[10px] border border-white/20">${rank(state.totalPoints)}</div>
-                </div>
-                <div class="grid grid-cols-2 gap-3 mb-4">
-                    <div onclick="window.navigateTo('english-selection')" class="premium-card font-bold border-indigo-100 flex flex-col items-center justify-center py-8"><span class="text-3xl mb-2">🇬🇧</span><span>English</span></div>
-                    <div onclick="window.navigateTo('exams-pyq', { currentCategory: 'ssc' })" class="premium-card font-bold border-amber-100 flex flex-col items-center justify-center py-8"><span class="text-3xl mb-2">⚔️</span><span>SSC Hub</span></div>
-                    <div onclick="window.navigateTo('exams-pyq', { currentCategory: 'karnataka' })" class="premium-card font-bold border-emerald-100 flex flex-col items-center justify-center py-8"><span class="text-3xl mb-2">🏛️</span><span>KA Hub</span></div>
-                    <div onclick="window.navigateTo('mistakes-book')" class="premium-card font-bold border-emerald-100 bg-emerald-50/30 flex flex-col items-center justify-center py-8"><span class="text-3xl mb-2">🏆</span><span>Mastery Book (${state.mistakes.length})</span></div>
-                </div>
-                <div onclick="window.navigateTo('content-view', { currentType: 'grammar-rules', currentTopic: '120-rules', currentLevel: 1 })" class="premium-card font-bold border-rose-100 bg-rose-50 flex justify-between items-center px-6 py-4"><div><h3 class="text-lg font-black text-rose-600">120 Rules of Grammar</h3><p class="text-[10px] opacity-60 uppercase">Concept Guide</p></div><span class="text-2xl">⚡</span></div>
-            </div>`;
-        };
-
-        window.renderLogin = () => {
-            const isLogin = state.authMode === 'login';
-            return `<div class="p-6 h-full flex flex-col items-center justify-center">
-                <h2 class="text-3xl font-black mb-6 tracking-tighter uppercase">PrepEase ${isLogin?'Login':'Signup'}</h2>
-                <div class="bg-white p-6 rounded-2xl shadow-sm w-full max-w-sm">
-                    ${!isLogin ? `<input id="name-input" placeholder="Full Name" class="w-full p-4 bg-slate-50 rounded-xl mb-3 text-sm">` : ''}
-                    <input id="username-input" placeholder="ID" class="w-full p-4 bg-slate-50 rounded-xl mb-3 text-sm"><input id="password-input" type="password" placeholder="Password" class="w-full p-4 bg-slate-50 rounded-xl mb-6 text-sm"><button onclick="window.handleAuth()" class="w-full p-4 bg-indigo-600 text-white rounded-xl font-bold uppercase text-xs">GO</button>
-                    <button onclick="window.state.authMode = window.state.authMode === 'login' ? 'signup' : 'login'; window.render();" class="mt-4 text-[10px] text-indigo-500 w-full text-center uppercase tracking-widest font-bold">${isLogin ? 'Create ID' : 'Login'}</button>
-                </div>
-            </div>`;
-        };
-
         window.renderEnglishSelection = () => {
             return `<div class="p-6 h-full flex flex-col"><button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left">← BACK</button><h2 class="text-3xl font-black mb-6">Tracks</h2><div onclick="window.navigateTo('topics-grid', {currentType:'grammar'})" class="premium-card border rounded-2xl mb-4 bg-white font-bold flex justify-between shadow-sm">Grammar <span>🔡</span></div><div onclick="window.navigateTo('topics-grid', {currentType:'vocabulary'})" class="premium-card border rounded-2xl bg-white font-bold flex justify-between shadow-sm">Vocabulary <span>📖</span></div></div>`;
         };
@@ -471,9 +335,54 @@
         };
 
         window.renderShiftGrid = () => {
-            const isSsc = !!state.isSSC;
-            const shifts = isSsc ? (state.currentExam === 'SSC MTS 2023' ? mts2023Shifts : cgl2023Shifts) : karnatakaExams.find(e => e.id === state.currentExamId).papers;
-            return `<div class="p-6 h-full flex flex-col overflow-hidden"><button onclick="window.navigateTo('exams-pyq', {currentCategory:state.isSSC?'ssc':'karnataka'})" class="text-xs font-bold mb-4 opacity-40 uppercase text-left">← BACK</button><h2 class="text-xl font-black mb-4 tracking-tight">${state.currentExam}</h2><div class="grid grid-cols-1 gap-2 flex-grow overflow-y-auto pr-1">${shifts.map((s, idx) => `<div onclick="window.navigateTo('content-view', {isSSC:${isSsc}, isKarnataka:${!isSsc}, currentShift:${idx}, currentExam:'${state.currentExam}'})" class="p-4 border rounded-xl font-bold flex justify-between items-center text-xs shadow-sm bg-white">${s} <span>→</span></div>`).join('')}</div></div>`;
+            const isSSC = state.isSSC;
+            const shifts = isSSC ? (state.currentExam === 'SSC MTS 2023' ? mts2023Shifts : cgl2023Shifts) : karnatakaExams.find(e => e.id === state.currentExamId).papers;
+            return `<div class="p-6 h-full flex flex-col overflow-hidden"><button onclick="window.navigateTo('exams-pyq', {currentCategory:state.isSSC?'ssc':'karnataka'})" class="text-xs font-bold mb-4 opacity-40 uppercase text-left">← BACK</button><h2 class="text-xl font-black mb-4 tracking-tight">${state.currentExam}</h2><div class="grid grid-cols-1 gap-2 flex-grow overflow-y-auto pr-1">${shifts.map((s, idx) => `<div onclick="window.navigateTo('content-view', {isSSC:${!!state.isSSC}, isKarnataka:${!!state.isKarnataka}, currentShift:${idx}, currentExam:'${state.currentExam}'})" class="p-4 border rounded-xl font-bold flex justify-between items-center text-xs shadow-sm bg-white">${s} <span>→</span></div>`).join('')}</div></div>`;
+        };
+
+        window.renderStudyCardUI = () => {
+            const item = window.activeStudyData[state.currentStudyIndex];
+            const container = document.getElementById('content-container');
+            if(!item) return;
+            container.innerHTML = `<div class="flex-grow flex flex-col h-full overflow-hidden" ontouchstart="window.handleTouchStart(event)" ontouchend="window.handleTouchEnd(event)">
+                <div class="vocab-single-page view-transition">
+                    <div class="flex justify-between items-center mb-4"><span class="text-[10px] font-black bg-indigo-50 text-indigo-600 px-3 py-1 rounded-full uppercase">Review</span><span class="text-[10px] font-black text-slate-400">${state.currentStudyIndex + 1} / ${(window.activeStudyData || []).length}</span></div>
+                    <div class="scroll-content"><div class="text-7xl mb-6">${item.emoji || '📗'}</div><h3 class="text-3xl font-black text-slate-900 mb-8 break-word-custom">${item.word}</h3><div class="space-y-4 text-left"><div class="bg-slate-50 p-4 rounded-2xl border border-slate-100"><p class="text-[9px] font-bold text-slate-400 uppercase mb-2">Kannada Meaning</p><p class="text-xl font-bold text-indigo-900 font-kannada">${item.meaning_kannada}</p></div><div class="bg-indigo-50/50 p-4 rounded-2xl border border-indigo-100"><p class="text-[9px] font-bold text-indigo-400 uppercase mb-2">Explanation</p><p class="text-base font-medium text-indigo-900 italic leading-relaxed">${item.meaning_english}</p></div></div></div>
+                </div>
+                <div class="flex gap-2 mt-3 h-14"><button onclick="window.movePrev()" class="flex-1 bg-white border-2 rounded-xl font-bold text-xs" ${state.currentStudyIndex === 0 ? 'disabled opacity-30' : ''}>PREV</button>${state.currentStudyIndex === window.activeStudyData.length - 1 ? `<button onclick="window.loadQuiz()" class="flex-1 bg-indigo-600 text-white rounded-xl font-bold text-xs">QUIZ 🚀</button>` : `<button onclick="window.moveNext()" class="flex-1 bg-indigo-600 text-white rounded-xl font-bold text-xs">NEXT</button>`}</div>
+            </div>`;
+        };
+
+        window.renderQuizUI = () => {
+            const q = window.activeQuestionsData[state.currentQuizIndex];
+            const ans = state.currentQuizAnswers[state.currentQuizIndex];
+            const container = document.getElementById('content-container');
+            if(!q) return;
+            container.innerHTML = `<div class="bg-white p-4 rounded-3xl border h-full flex flex-col overflow-hidden" ontouchstart="window.handleTouchStart(event)" ontouchend="window.handleTouchEnd(event)">
+                <div class="flex justify-between items-center mb-3"><span class="text-[10px] font-black text-slate-400">Q${state.currentQuizIndex+1}/${window.activeQuestionsData.length}</span><button onclick="window.navigateTo('home')" class="text-rose-500 font-bold text-[10px]">EXIT</button></div>
+                <div class="scroll-content"><p class="text-base font-bold mb-4 leading-snug">${q.question}</p>
+                    <div class="flex flex-col gap-2 ${ans ? 'pointer-events-none' : ''}">
+                        ${q.options.map(o => {
+                            const isCorrect = o.trim() === q.answer.trim();
+                            const isSelected = ans?.selected === o.trim();
+                            let cls = "p-3.5 border-2 rounded-xl text-sm font-bold transition-all ";
+                            if (ans) {
+                                if (isCorrect) cls += "option-correct";
+                                else if (isSelected) cls += "option-wrong";
+                                else cls += "border-slate-50 opacity-40";
+                            } else { cls += "border-slate-50 bg-slate-50/30 active:bg-indigo-50"; }
+                            return `<div onclick="window.handleChoice('${o.trim()}', '${q.answer.trim()}')" class="${cls}">${o}</div>`;
+                        }).join('')}
+                    </div>
+                    ${ans ? `<div class="mt-4 p-4 bg-slate-50 rounded-2xl border-l-4 border-indigo-500 text-[11px] leading-relaxed font-kannada view-transition">${q.explanation}</div>` : ''}
+                </div>
+                <div class="mt-2 flex gap-2 h-14">
+                    ${state.currentQuizIndex === window.activeQuestionsData.length - 1 ? 
+                        `<button onclick="window.submitFinalResults()" class="flex-grow bg-emerald-600 text-white rounded-xl font-bold uppercase text-xs">Finish Assessment</button>` : 
+                        `<button onclick="window.moveNext()" class="flex-grow bg-indigo-600 text-white rounded-xl font-bold uppercase text-xs" ${!ans ? 'disabled opacity-30' : ''}>Next</button>`
+                    }
+                </div>
+            </div>`;
         };
 
         window.render = () => {
@@ -503,20 +412,94 @@
             }
         };
 
+        // --- AUTH & DATA LISTENERS ---
+
+        window.handleAuth = async () => {
+            const userIn = document.getElementById('username-input').value.trim();
+            const passIn = document.getElementById('password-input').value;
+            if(!userIn || !passIn) return;
+            const email = `${userIn.toLowerCase()}@prepease.internal`;
+            try {
+                if (state.authMode === 'signup') {
+                    const fullName = document.getElementById('name-input').value;
+                    const res = await createUserWithEmailAndPassword(auth, email, passIn);
+                    await setDoc(doc(db, 'artifacts', appId, 'users', res.user.uid, 'profile', 'info'), { name: fullName, username: userIn });
+                } else {
+                    await signInWithEmailAndPassword(auth, email, passIn);
+                }
+                window.navigateTo('home');
+            } catch (err) { alert("Login failed."); }
+        };
+
+        async function loadUserData() {
+            const profileSnap = await getDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'profile', 'info'));
+            if (profileSnap.exists()) { state.userName = profileSnap.data().name; state.isAuthenticated = true; window.render(); }
+            onSnapshot(collection(db, 'artifacts', appId, 'users', state.userId, 'progress'), (snap) => {
+                state.totalPoints = 0;
+                snap.forEach(doc => state.totalPoints += (doc.data().points || 0));
+                window.render();
+            });
+            onSnapshot(collection(db, 'artifacts', appId, 'users', state.userId, 'mistakes'), (snap) => {
+                state.mistakes = [];
+                snap.forEach(doc => state.mistakes.push({ id: doc.id, ...doc.data() }));
+                window.render();
+            });
+        }
+
+        onAuthStateChanged(auth, (user) => { 
+            if (user) { 
+                state.userId = user.uid; 
+                state.isAuthenticated = true;
+                loadUserData(); 
+                if (state.view === 'login') window.navigateTo('home');
+            } else { 
+                state.isAuthenticated = false; 
+                window.render(); 
+            }
+        });
+
         // --- INITIALIZATION ---
+        window.loadQuiz = loadQuiz;
+        window.handleChoice = handleChoice;
+        window.submitFinalResults = submitFinalResults;
+        window.handleAnkiChoice = handleAnkiChoice;
+        window.resolveAnki = resolveAnki;
+
+        window.loadGenericContent = async () => {
+            const { currentType, currentTopic, currentLevel, isSSC, isKarnataka, currentShift, currentExam } = state;
+            let paths = [];
+            if (currentType === 'grammar-rules') { paths = [`./content/grammar-rules/rules.json`]; } 
+            else if (isSSC || isKarnataka) {
+                const folder = isSSC ? (currentExam === 'SSC MTS 2023' ? 'mts2023' : 'cgl2023') : state.currentExamId;
+                const path = isSSC ? `./content/ssc/${folder}` : `./content/karnataka/${folder}`;
+                paths = [`${path}/shift-${currentShift}-test.json`, `${path}/shift${currentShift}-test.json`];
+            } else {
+                const basePath = `./content/general-english/vocabulary/${currentTopic}`;
+                paths = [`${basePath}/level-${currentLevel}.json`, `${basePath}/level${currentLevel}.json`, `${basePath}/level-${currentLevel}-test.json` ];
+            }
+            const data = await multiPathFetch(paths);
+            if (data && data.length) {
+                if (data[0].question) { window.activeQuestionsData = data; state.currentQuizIndex = 0; state.currentQuizAnswers = {}; state.activeMode = 'quiz'; window.renderQuizUI(); }
+                else { window.activeStudyData = data; state.currentStudyIndex = 0; state.currentStudyFlipped = false; state.activeMode = 'study'; window.renderStudyCardUI(); }
+            } else document.getElementById('content-container').innerHTML = `<div class="p-10 text-center font-bold">Content not found. Check GitHub paths.</div>`;
+        };
+
+        window.loadQuiz = async () => {
+            const { currentTopic, currentLevel, isSSC, isKarnataka, currentShift, currentExamId, currentExam } = state;
+            let folder = isSSC ? (currentExam === 'SSC MTS 2023' ? 'mts2023' : 'cgl2023') : currentExamId;
+            let path = isSSC ? `./content/ssc/${folder}` : `./content/karnataka/${folder}`;
+            let data = await multiPathFetch(isSSC || isKarnataka ? [`${path}/shift-${currentShift}-test.json`] : [`./content/general-english/vocabulary/${currentTopic}/level-${currentLevel}-test.json`]);
+            if(data) { window.activeQuestionsData = data; state.currentQuizIndex = 0; state.currentQuizAnswers = {}; state.activeMode = 'quiz'; window.renderQuizUI(); }
+        };
+
         window.addEventListener('popstate', (e) => {
             if (e.state) window.navigateTo(e.state.view, e.state.params, true);
             else window.navigateTo('home', {}, true);
         });
 
-        onAuthStateChanged(auth, (user) => { 
-            if (user) { state.userId = user.uid; loadUserData(); } 
-            else { state.isAuthenticated = false; window.render(); }
-        });
-
         setInterval(() => {
             const el = document.getElementById('floating-quote');
-            if (el) { el.style.opacity = '0'; setTimeout(() => { el.innerText = ["Qualify your dreams. 🎯", "Focus leads to mastery. 🏛️", "Consistency wins. 🏆", "Learn from errors. 📚"][Math.floor(Math.random()*4)]; el.style.opacity = '1'; }, 400); }
+            if (el) { el.style.opacity = '0'; setTimeout(() => { el.innerText = ["Believe in your potential. 🎯", "Focus leads to mastery. 🏛️", "Consistency is key. 🏆", "Learn from every mistake. 📚" ][Math.floor(Math.random()*4)]; el.style.opacity = '1'; }, 400); }
         }, 8000);
 
         window.render();
