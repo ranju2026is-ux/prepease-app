@@ -1,22 +1,122 @@
 [
-  { "question": "Q.1 Identify the meaning of the idiom:\n**Barking up the wrong tree** [cite: 1]", "options": ["Scolding a dog", "Following a wrong course of action", "Climbing the wrong tree", "Being very loud"], "answer": "Following a wrong course of action" },
-  { "question": "Q.2 Select the most appropriate meaning of the underlined idiom:\nHe **cried wolf** so many times that no one believed him when he was actually in trouble. [cite: 2]", "options": ["Shouted for help", "Raised a false alarm", "Cried very loudly", "Acted like a wolf"], "answer": "Raised a false alarm" },
-  { "question": "Q.3 What does **'Back to square one'** mean? [cite: 1]", "options": ["To win a game", "To go back to the starting point", "To reach the end", "To draw a square"], "answer": "To go back to the starting point" },
-  { "question": "Q.4 Choose the correct meaning for the idiom:\n**To burn one's fingers** [cite: 2]", "options": ["To cook food carefully", "To get into trouble by meddling", "To play with fire", "To hurt oneself while working"], "answer": "To get into trouble by meddling" },
-  { "question": "Q.5 The idiom **'To cut a long story short'** is used when you want to: [cite: 1]", "options": ["Write a novel", "End an explanation quickly", "Tell a boring story", "Start a new conversation"], "answer": "End an explanation quickly" },
-  { "question": "Q.6 If you **'bite off more than you can chew'**, you: [cite: 2]", "options": ["Eat too fast", "Take on a task that is too big", "Talk while eating", "Fail to finish your meal"], "answer": "Take on a task that is too big" },
-  { "question": "Q.7 **To let the cat out of the bag** means: [cite: 1]", "options": ["To release a pet", "To reveal a secret by mistake", "To be very careless", "To tell a lie"], "answer": "To reveal a secret by mistake" },
-  { "question": "Q.8 Someone who **'blows their own trumpet'**: [cite: 2]", "options": ["Plays a musical instrument", "Praises their own achievements", "Is a professional musician", "Is very noisy"], "answer": "Praises their own achievements" },
-  { "question": "Q.9 A **'storm in a teacup'** refers to: [cite: 1]", "options": ["A major disaster", "Useless anger over a trivial matter", "A rainy day", "A spilled drink"], "answer": "Useless anger over a trivial matter" },
-  { "question": "Q.10 To **'leave no stone unturned'** means: [cite: 2]", "options": ["To clean a garden", "To try every possible effort", "To look for hidden treasure", "To build a wall"], "answer": "To try every possible effort" },
-  { "question": "Q.11 When you **'eat humble pie'**, you: [cite: 1]", "options": ["Enjoy a meal", "Admit you were wrong and apologize", "Are very hungry", "Behave arrogantly"], "answer": "Admit you were wrong and apologize" },
-  { "question": "Q.12 To **'face the music'** means: [cite: 2]", "options": ["To go to a concert", "To accept unpleasant consequences", "To dance happily", "To ignore criticism"], "answer": "To accept unpleasant consequences" },
-  { "question": "Q.13 If a situation **'gets out of hand'**, it: [cite: 1]", "options": ["Is easy to manage", "Becomes difficult to control", "Is resolved quickly", "Gets dropped"], "answer": "Becomes difficult to control" },
-  { "question": "Q.14 **To hit the sack** means: [cite: 2]", "options": ["To go to bed", "To start a fight", "To carry a heavy bag", "To lose a job"], "answer": "To go to bed" },
-  { "question": "Q.15 **To keep at arm's length** means: [cite: 1]", "options": ["To hug someone", "To avoid becoming too friendly", "To measure a distance", "To stretch your arms"], "answer": "To avoid becoming too friendly" },
-  { "question": "Q.16 When you **'jump on the bandwagon'**, you: [cite: 2]", "options": ["Follow a popular trend", "Travel by wagon", "Start a new business", "Avoid competition"], "answer": "Follow a popular trend" },
-  { "question": "Q.17 **To keep the wolf from the door** means: [cite: 1]", "options": ["To hunt wild animals", "To avoid hunger or poverty", "To guard a house", "To be very brave"], "answer": "To avoid hunger or poverty" },
-  { "question": "Q.18 **To make both ends meet** means: [cite: 2]", "options": ["To join two wires", "To earn just enough money to survive", "To meet new people", "To finish a task"], "answer": "To earn just enough money to survive" },
-  { "question": "Q.19 To **'play second fiddle'** means: [cite: 1]", "options": ["To be the leader", "To take a subordinate role", "To play music well", "To be the best"], "answer": "To take a subordinate role" },
-  { "question": "Q.20 If you **'smell a rat'**, you: [cite: 2]", "options": ["Have a good sense of smell", "Suspect something is wrong or dishonest", "Are in a dirty place", "Like pets"], "answer": "Suspect something is wrong or dishonest" }
+  {
+    "question": "Q.1 Identify the meaning of the idiom:\n**Barking up the wrong tree**",
+    "options": ["Scolding a dog", "Following a wrong course of action", "Climbing the wrong tree", "Being very loud"],
+    "answer": "Following a wrong course of action",
+    "explanation": "• **Following a wrong course of action**: Looking in the wrong place or accusing the wrong person. (Related: Misdirected effort). 🌳\n• **Being very loud**: Making a lot of noise. (Related: Vociferous). 📢"
+  },
+  {
+    "question": "Q.2 Select the most appropriate meaning of the underlined idiom:\nHe **cried wolf** so many times that no one believed him when he was actually in trouble.",
+    "options": ["Shouted for help", "Raised a false alarm", "Cried very loudly", "Acted like a wolf"],
+    "answer": "Raised a false alarm",
+    "explanation": "• **Raised a false alarm**: To ask for help when you don't need it, so that people ignore you when you really do. (Related: Deceptive). 🐺\n• **Shouted for help**: Calling for assistance. (Related: S.O.S). 🆘"
+  },
+  {
+    "question": "Q.3 What does **'Back to square one'** mean?",
+    "options": ["To win a game", "To go back to the starting point", "To reach the end", "To draw a square"],
+    "answer": "To go back to the starting point",
+    "explanation": "• **Starting point**: To start over again because a previous attempt failed. (Related: Start from scratch). ↩️\n• **Reach the end**: To complete a task. (Related: Crossing the finish line). 🏁"
+  },
+  {
+    "question": "Q.4 Choose the correct meaning for the idiom:\n**To burn one's fingers**",
+    "options": ["To cook food carefully", "To get into trouble by meddling", "To play with fire", "To hurt oneself while working"],
+    "answer": "To get into trouble by meddling",
+    "explanation": "• **Trouble by meddling**: To suffer unpleasant consequences as a result of your own actions or interference. (Related: Backfire). 🔥\n• **Cook carefully**: Preparing food with caution. (Antonym: Slipshod cooking). 🍳"
+  },
+  {
+    "question": "Q.5 The idiom **'To cut a long story short'** is used when you want to:",
+    "options": ["Write a novel", "End an explanation quickly", "Tell a boring story", "Start a new conversation"],
+    "answer": "End an explanation quickly",
+    "explanation": "• **End quickly**: To leave out extra details and get to the main point. (Related: In a nutshell, Briefly). ✂️\n• **Tell a boring story**: A long, uninteresting narrative. (Related: Rigmarole). 🥱"
+  },
+  {
+    "question": "Q.6 If you **'bite off more than you can chew'**, you:",
+    "options": ["Eat too fast", "Take on a task that is too big", "Talk while eating", "Fail to finish your meal"],
+    "answer": "Take on a task that is too big",
+    "explanation": "• **Task too big**: Trying to do something that is too difficult for you. (Related: Overextending oneself). 🦷\n• **Eat too fast**: Consuming food rapidly. (Related: Gulping). 🍔"
+  },
+  {
+    "question": "Q.7 **To let the cat out of the bag** means:",
+    "options": ["To release a pet", "To reveal a secret by mistake", "To be very careless", "To tell a lie"],
+    "answer": "To reveal a secret by mistake",
+    "explanation": "• **Reveal a secret**: To accidentally or carelessly disclose confidential information. (Related: Spill the beans). 🐈\n• **Tell a lie**: To say something that is not true. (Related: Fib). 🤥"
+  },
+  {
+    "question": "Q.8 Someone who **'blows their own trumpet'**:",
+    "options": ["Plays a musical instrument", "Praises their own achievements", "Is a professional musician", "Is very noisy"],
+    "answer": "Praises their own achievements",
+    "explanation": "• **Self-praise**: To talk boastfully about one's own talents or successes. (Related: Bragging, Boasting). 🎺\n• **Professional musician**: Someone whose job is to play music. (Related: Virtuoso). 🎵"
+  },
+  {
+    "question": "Q.9 A **'storm in a teacup'** refers to:",
+    "options": ["A major disaster", "Useless anger over a trivial matter", "A rainy day", "A spilled drink"],
+    "answer": "Useless anger over a trivial matter",
+    "explanation": "• **Trivial matter**: Great excitement or anger about something unimportant. (Related: Much ado about nothing). ☕\n• **Major disaster**: An event causing great damage. (Related: Catastrophe). 🌪️"
+  },
+  {
+    "question": "Q.10 To **'leave no stone unturned'** means:",
+    "options": ["To clean a garden", "To try every possible effort", "To look for hidden treasure", "To build a wall"],
+    "answer": "To try every possible effort",
+    "explanation": "• **Possible effort**: To do everything possible to find something or solve a problem. (Related: Thoroughly, Exhaustively). 🪨\n• **Build a wall**: To construct a barrier. (Related: Fortify). 🧱"
+  },
+  {
+    "question": "Q.11 When you **'eat humble pie'**, you:",
+    "options": ["Enjoy a meal", "Admit you were wrong and apologize", "Are very hungry", "Behave arrogantly"],
+    "answer": "Admit you were wrong and apologize",
+    "explanation": "• **Apologize**: To admit that you were wrong and accept humiliation. (Related: Eat crow). 🥧\n• **Behave arrogantly**: Acting in a superior or haughty manner. (Antonym: Modest). 🤨"
+  },
+  {
+    "question": "Q.12 To **'face the music'** means:",
+    "options": ["To go to a concert", "To accept unpleasant consequences", "To dance happily", "To ignore criticism"],
+    "answer": "To accept unpleasant consequences",
+    "explanation": "• **Accept consequences**: To deal with the unpleasant results of your own actions. (Related: Pay the piper). 🎶\n• **Ignore criticism**: To pay no attention to negative feedback. (Antonym). 🙉"
+  },
+  {
+    "question": "Q.13 If a situation **'gets out of hand'**, it:",
+    "options": ["Is easy to manage", "Becomes difficult to control", "Is resolved quickly", "Gets dropped"],
+    "answer": "Becomes difficult to control",
+    "explanation": "• **Difficult to control**: A situation that is no longer under management or restraint. (Related: Unruly, Chaotic). ✋\n• **Easy to manage**: Simple to handle. (Antonym: A breeze). ✅"
+  },
+  {
+    "question": "Q.14 **To hit the sack** means:",
+    "options": ["To go to bed", "To start a fight", "To carry a heavy bag", "To lose a job"],
+    "answer": "To go to bed",
+    "explanation": "• **Go to bed**: To go to sleep. (Related: Hit the hay). 😴\n• **Lose a job**: Being fired or dismissed. (Related: Get the sack). 💼"
+  },
+  {
+    "question": "Q.15 **To keep at arm's length** means:",
+    "options": ["To hug someone", "To avoid becoming too friendly", "To measure a distance", "To stretch your arms"],
+    "answer": "To avoid becoming too friendly",
+    "explanation": "• **Avoid friendliness**: To avoid being too close or involved with someone. (Related: Keep one's distance). 📏\n• **Hug someone**: To hold someone tightly. (Antonym: Embrace). 🤗"
+  },
+  {
+    "question": "Q.16 When you **'jump on the bandwagon'**, you:",
+    "options": ["Follow a popular trend", "Travel by wagon", "Start a new business", "Avoid competition"],
+    "answer": "Follow a popular trend",
+    "explanation": "• **Popular trend**: To join others in doing something that has become fashionable or successful. (Related: Follow the crowd). 🚂\n• **Avoid competition**: Staying away from rivalry. (Related: Monopoly). 🛑"
+  },
+  {
+    "question": "Q.17 **To keep the wolf from the door** means:",
+    "options": ["To hunt wild animals", "To avoid hunger or poverty", "To guard a house", "To be very brave"],
+    "answer": "To avoid hunger or poverty",
+    "explanation": "• **Avoid poverty**: To have enough money to buy basic food and avoid starving. (Related: Eke out a living). 🐺\n• **Guard a house**: Protecting property. (Related: Sentry). 🏠"
+  },
+  {
+    "question": "Q.18 **To make both ends meet** means:",
+    "options": ["To join two wires", "To earn just enough money to survive", "To meet new people", "To finish a task"],
+    "answer": "To earn just enough money to survive",
+    "explanation": "• **Just enough money**: To have enough money to pay for the basic things you need. (Related: Living from hand to mouth). 💵\n• **Finish a task**: To complete an assignment. (Related: Wrap up). ✅"
+  },
+  {
+    "question": "Q.19 To **'play second fiddle'** means:",
+    "options": ["To be the leader", "To take a subordinate role", "To play music well", "To be the best"],
+    "answer": "To take a subordinate role",
+    "explanation": "• **Subordinate role**: To be in a less important position than someone else. (Related: Underling). 🎻\n• **Be the leader**: To be in charge. (Antonym: To lead the pack). 👑"
+  },
+  {
+    "question": "Q.20 If you **'smell a rat'**, you:",
+    "options": ["Have a good sense of smell", "Suspect something is wrong or dishonest", "Are in a dirty place", "Like pets"],
+    "answer": "Suspect something is wrong or dishonest",
+    "explanation": "• **Suspect dishonesty**: To believe that something wrong or a deception is happening. (Related: Fishy). 🐀\n• **Dirty place**: A location that is not clean. (Related: Squalid). 🧹"
+  }
 ]
