@@ -1,32 +1,182 @@
 [
-  { "question": "Q.1 A **'moot point'** refers to a subject that is:", "options": ["Clearly decided", "Open to argument/undecided", "Very secret", "Boring"], "answer": "Open to argument/undecided" },
-  { "question": "Q.2 To **'wash one's hands of'** something means to:", "options": ["Be hygienic", "Refuse to be responsible for it", "Help someone clean", "Complete a task"], "answer": "Refuse to be responsible for it" },
-  { "question": "Q.3 Who is a **'cuckoo in the nest'**?", "options": ["A beautiful singer", "An unwelcome intruder", "A new born baby", "A clever person"], "answer": "An unwelcome intruder" },
-  { "question": "Q.4 If something **'takes the cake'**, it is:", "options": ["Delicious", "The most extreme example", "A birthday gift", "Easily won"], "answer": "The most extreme example" },
-  { "question": "Q.5 To **'fly off the handle'** means to:", "options": ["Fly a plane", "Lose one's temper suddenly", "Break a tool", "Travel fast"], "answer": "Lose one's temper suddenly" },
-  { "question": "Q.6 A **'sacred cow'** is something that:", "options": ["Is worshipped in temples", "Is too important to be criticized", "Is very expensive", "Is a farm animal"], "answer": "Is too important to be criticized" },
-  { "question": "Q.7 To **'bite the bullet'** is to:", "options": ["Be a soldier", "Endure an unavoidable difficulty", "Eat something hard", "Be angry"], "answer": "Endure an unavoidable difficulty" },
-  { "question": "Q.8 Keeping your **'powder dry'** means:", "options": ["Saving salt", "Remaining ready for emergency", "Cooking carefully", "Keeping dry in rain"], "answer": "Remaining ready for emergency" },
-  { "question": "Q.9 A **'wild-cat strike'** is one that is:", "options": ["Led by animals", "Unauthorized by the union", "Very violent", "In a forest"], "answer": "Unauthorized by the union" },
-  { "question": "Q.10 To **'kick one's heels'** means:", "options": ["To dance", "To be kept waiting", "To be active", "To run fast"], "answer": "To be kept waiting" },
-  { "question": "Q.11 A **'sea change'** refers to a:", "options": ["Tidal wave", "Profound transformation", "Trip on a boat", "Change in weather"], "answer": "Profound transformation" },
-  { "question": "Q.12 If something goes **'for a song'**, it is:", "options": ["A musical hit", "Sold very cheaply", "Traded for a poem", "Very expensive"], "answer": "Sold very cheaply" },
-  { "question": "Q.13 **'Looking a gift horse in the mouth'** means:", "options": ["Checking a horse's age", "Finding fault with a gift", "Being grateful", "Being a vet"], "answer": "Finding fault with a gift" },
-  { "question": "Q.14 A **'white elephant'** is a possession that is:", "options": ["Rare and royal", "Useless and expensive to maintain", "A lucky charm", "Very heavy"], "answer": "Useless and expensive to maintain" },
-  { "question": "Q.15 To **'play to the gallery'** is to behave in a way to:", "options": ["Visit a museum", "Attract popular approval", "Be a professional actor", "Ignore people"], "answer": "Attract popular approval" },
-  { "question": "Q.16 **'Leaving someone in the cold'** means:", "options": ["Turning off the heater", "Excluding them from a group", "Giving them a coat", "Traveling to North Pole"], "answer": "Excluding them from a group" },
-  { "question": "Q.17 A **'feather in one's cap'** is an:", "options": ["Old fashion", "Achievement to be proud of", "Insult", "Bird's wing"], "answer": "Achievement to be proud of" },
-  { "question": "Q.18 **'Burning the candle at both ends'** means:", "options": ["Saving energy", "Exhausting oneself by overworking", "Lighting a room well", "Being wasteful"], "answer": "Exhausting oneself by overworking" },
-  { "question": "Q.19 To **'sit on one's laurels'** means to:", "options": ["Be lazy after past success", "Plant flowers", "Win a new award", "Sit on a chair"], "answer": "Be lazy after past success" },
-  { "question": "Q.20 A **'stalking horse'** is used to:", "options": ["Win a race", "Hide real intentions/secret candidate", "Hunt animals", "Travel in forests"], "answer": "Hide real intentions/secret candidate" },
-  { "question": "Q.21 To **'separate the wheat from the chaff'** is to:", "options": ["Be a farmer", "Distinguish valuable from worthless", "Cook a meal", "Clean the house"], "answer": "Distinguish valuable from worthless" },
-  { "question": "Q.22 **'Pulling the wool over someone's eyes'** means:", "options": ["Knitting a sweater", "Deceiving or tricking someone", "Protecting from cold", "Closing eyes"], "answer": "Deceiving or tricking someone" },
-  { "question": "Q.23 A **'shot in the arm'** gives:", "options": ["An injury", "New energy or encouragement", "A vaccine", "A sudden pain"], "answer": "New energy or encouragement" },
-  { "question": "Q.24 To give someone a **'wide berth'** is to:", "options": ["Give them a seat", "Avoid them entirely", "Help them travel", "Follow them"], "answer": "Avoid them entirely" },
-  { "question": "Q.25 To **'harp on the same string'** is to:", "options": ["Play the harp", "Talk repeatedly about one subject", "Sing a song", "Fix a musical instrument"], "answer": "Talk repeatedly about one subject" },
-  { "question": "Q.26 **'Showing a clean pair of heels'** means:", "options": ["Cleaning shoes", "Running away fast to escape", "Walking slowly", "Standing still"], "answer": "Running away fast to escape" },
-  { "question": "Q.27 A **'Pandora's box'** is a source of:", "options": ["Many gifts", "Many unforeseen problems", "Magic tricks", "Old letters"], "answer": "Many unforeseen problems" },
-  { "question": "Q.28 To **'make a clean breast of'** something is to:", "options": ["Wash oneself", "Confess something fully", "Lie about a crime", "Be healthy"], "answer": "Confess something fully" },
-  { "question": "Q.29 To **'rain cats and dogs'** means:", "options": ["Animals falling from sky", "To rain very heavily", "A pet fight", "Thunderstorm"], "answer": "To rain very heavily" },
-  { "question": "Q.30 **'Keeping one's head above water'** means:", "options": ["Swimming skills", "Managing to survive difficult times", "Drowning", "Washing face"], "answer": "Managing to survive difficult times" }
+  {
+    "question": "Choose the most appropriate meaning of the given idiom:\n**A moot point**",
+    "options": ["Clearly decided", "Open to argument/undecided", "Very secret", "Boring"],
+    "answer": "Open to argument/undecided",
+    "explanation": "• **Undecided**: A subject that is relevant but has no practical value because it is already decided, or one that is debatable. (Related: Skeptical). 🧐\n• **Clearly decided**: Something that is a settled fact. (Antonym: Moot). ✅"
+  },
+  {
+    "question": "What is the meaning of the underlined idiom?\nAfter the failure of the project, the manager **washed his hands of** the entire team.",
+    "options": ["Be hygienic", "Refuse to be responsible for it", "Help someone clean", "Complete a task"],
+    "answer": "Refuse to be responsible for it",
+    "explanation": "• **Refuse responsibility**: To disclaim any further connection with or responsibility for something. (Related: Disown). 🤲🏽🧼\n• **Complete a task**: To finish a piece of work. (Related: Wrap up). 🏁"
+  },
+  {
+    "question": "Identify the meaning of the idiom:\n**A cuckoo in the nest**",
+    "options": ["A beautiful singer", "An unwelcome intruder", "A new born baby", "A clever person"],
+    "answer": "An unwelcome intruder",
+    "explanation": "• **Unwelcome intruder**: Referring to the cuckoo bird that lays its eggs in other birds' nests; someone who doesn't belong in a group. (Related: Interloper). 🐦🚫\n• **Clever person**: Someone who is very smart. (Related: Sharp-witted). 🧠"
+  },
+  {
+    "question": "If someone says a situation **'takes the cake'**, they mean it is:",
+    "options": ["Delicious", "The most extreme example", "A birthday gift", "Easily won"],
+    "answer": "The most extreme example",
+    "explanation": "• **Extreme example**: Used to describe something that is very surprising, foolish, or annoying. (Related: Beats everything). 🍰🏆\n• **Easily won**: Something achieved without effort. (Related: Hands down). 🙌"
+  },
+  {
+    "question": "Select the option that best explains the idiom:\n**To fly off the handle**",
+    "options": ["Fly a plane", "Lose one's temper suddenly", "Break a tool", "Travel fast"],
+    "answer": "Lose one's temper suddenly",
+    "explanation": "• **Lose temper**: To suddenly become very angry without a good reason. (Related: Go ballistic, Hit the roof). 🌋😡\n• **Travel fast**: Moving at high speed. (Related: Bolt). 🏃🏽‍♂️"
+  },
+  {
+    "question": "A **'sacred cow'** refers to an idea or custom that is:",
+    "options": ["Is worshipped in temples", "Is too important to be criticized", "Is very expensive", "Is a farm animal"],
+    "answer": "Is too important to be criticized",
+    "explanation": "• **Exempt from criticism**: A belief or institution that people are afraid or unwilling to change or question. (Related: Dogma). 🐄🚫\n• **Expensive**: Costing a lot of money. (Related: Exorbitant). 💰"
+  },
+  {
+    "question": "Identify the meaning of the idiom:\n**To bite the bullet**",
+    "options": ["Be a soldier", "Endure an unavoidable difficulty", "Eat something hard", "Be angry"],
+    "answer": "Endure an unavoidable difficulty",
+    "explanation": "• **Endure difficulty**: To accept something difficult or unpleasant because it is unavoidable. (Related: Grin and bear it). 🦷🔫\n• **Be angry**: Feeling strong resentment. (Related: Seething). 💢"
+  },
+  {
+    "question": "What does it mean to **'keep your powder dry'**?",
+    "options": ["Saving salt", "Remaining ready for emergency", "Cooking carefully", "Keeping dry in rain"],
+    "answer": "Remaining ready for emergency",
+    "explanation": "• **Be prepared**: To be ready for a challenge or a sudden need for action. (Related: Vigilant). 🧨💧\n• **Cooking carefully**: Preparing food with precision. (Literal meaning). 🍳"
+  },
+  {
+    "question": "Select the meaning of the underlined idiom:\nThe workers went on a **wild-cat strike** to protest the new policy.",
+    "options": ["Led by animals", "Unauthorized by the union", "Very violent", "In a forest"],
+    "answer": "Unauthorized by the union",
+    "explanation": "• **Unauthorized**: A sudden strike taken by workers without the official support of their union leaders. (Related: Spontaneous). 🐈‍⬛🔥\n• **Violent**: Involving physical force. (Related: Aggressive). ⚔️"
+  },
+  {
+    "question": "To **'kick one's heels'** means:",
+    "options": ["To dance", "To be kept waiting", "To be active", "To run fast"],
+    "answer": "To be kept waiting",
+    "explanation": "• **Be kept waiting**: To be forced to wait for a long period, often with nothing to do. (Related: Cool one's heels). 👟⏳\n• **To dance**: To move rhythmically to music. (Related: Cut a rug). 💃"
+  },
+  {
+    "question": "Identify the meaning of the idiom:\n**A sea change**",
+    "options": ["Tidal wave", "Profound transformation", "Trip on a boat", "Change in weather"],
+    "answer": "Profound transformation",
+    "explanation": "• **Transformation**: A major or complete change in a situation or someone's attitude. (Related: Metamorphosis). 🌊🔄\n• **Weather change**: Variations in climate. (Related: Forecast). ☁️"
+  },
+  {
+    "question": "If an item is sold **'for a song'**, it is:",
+    "options": ["A musical hit", "Sold very cheaply", "Traded for a poem", "Very expensive"],
+    "answer": "Sold very cheaply",
+    "explanation": "• **Sold cheaply**: To buy or sell something at a very low price. (Related: A bargain, Dirt cheap). 🎶🏷️\n• **Expensive**: Costing a great deal. (Antonym: For a song). 💎"
+  },
+  {
+    "question": "Choose the correct meaning of the idiom:\n**Looking a gift horse in the mouth**",
+    "options": ["Checking a horse's age", "Finding fault with a gift", "Being grateful", "Being a vet"],
+    "answer": "Finding fault with a gift",
+    "explanation": "• **Finding fault**: To be ungrateful and criticize something that has been given to you for free. (Related: Ungrateful). 🐎🎁\n• **Being grateful**: Feeling or showing appreciation. (Antonym). 🙏"
+  },
+  {
+    "question": "What is a **'white elephant'**?",
+    "options": ["Rare and royal", "Useless and expensive to maintain", "A lucky charm", "Very heavy"],
+    "answer": "Useless and expensive to maintain",
+    "explanation": "• **Useless possession**: Something that is expensive to keep but has no useful purpose. (Related: Burden). 🐘⚪\n• **Lucky charm**: An object believed to bring good fortune. (Antonym). 🧧"
+  },
+  {
+    "question": "To **'play to the gallery'** implies that a person is trying to:",
+    "options": ["Visit a museum", "Attract popular approval", "Be a professional actor", "Ignore people"],
+    "answer": "Attract popular approval",
+    "explanation": "• **Attract approval**: To behave in a way that is intended to make people like you or admire you, often at the expense of quality. (Related: Showboating). 🎭🏛️\n• **Ignore people**: To pay no attention to others. (Antonym). 🙈"
+  },
+  {
+    "question": "Identify the meaning of the idiom:\n**Leaving someone in the cold**",
+    "options": ["Turning off the heater", "Excluding them from a group", "Giving them a coat", "Traveling to North Pole"],
+    "answer": "Excluding them from a group",
+    "explanation": "• **Excluding**: To ignore someone or not allow them to take part in something. (Related: Ostracize, Cold shoulder). ❄️🚶\n• **Giving a coat**: To provide warmth. (Literal meaning). 🧥"
+  },
+  {
+    "question": "A **'feather in one's cap'** is:",
+    "options": ["Old fashion", "Achievement to be proud of", "Insult", "Bird's wing"],
+    "answer": "Achievement to be proud of",
+    "explanation": "• **Proud achievement**: A success or honor that someone can be proud of. (Related: Accomplishment). 🪶🧢\n• **Insult**: A disrespectful remark. (Related: Affront). 🖕"
+  },
+  {
+    "question": "What does **'burning the candle at both ends'** mean?",
+    "options": ["Saving energy", "Exhausting oneself by overworking", "Lighting a room well", "Being wasteful"],
+    "answer": "Exhausting oneself by overworking",
+    "explanation": "• **Overworking**: To get very little sleep because you are working late and getting up early. (Related: Workaholic). 🕯️📉\n• **Saving energy**: Being frugal with power. (Antonym). 🔋"
+  },
+  {
+    "question": "To **'sit on one's laurels'** means to:",
+    "options": ["Be lazy after past success", "Plant flowers", "Win a new award", "Sit on a chair"],
+    "answer": "Be lazy after past success",
+    "explanation": "• **Lazy after success**: To stop putting in effort because you are satisfied with what you have already achieved. (Related: Complacent). 🌿🛋️\n• **Win a new award**: Achieving new honors. (Antonym). 🏆"
+  },
+  {
+    "question": "Identify the meaning of the idiom:\n**A stalking horse**",
+    "options": ["Win a race", "Hide real intentions/secret candidate", "Hunt animals", "Travel in forests"],
+    "answer": "Hide real intentions/secret candidate",
+    "explanation": "• **Hide intentions**: A person or thing used to hide someone's real intentions, often in politics. (Related: Smoke screen). 🐎🔍\n• **Hunt animals**: The act of pursuing wildlife. (Literal meaning). 🏹"
+  },
+  {
+    "question": "To **'separate the wheat from the chaff'** means to:",
+    "options": ["Be a farmer", "Distinguish valuable from worthless", "Cook a meal", "Clean the house"],
+    "answer": "Distinguish valuable from worthless",
+    "explanation": "• **Distinguish valuable**: To identify and keep the good or useful parts of something and get rid of the bad. (Related: Sift). 🌾⚖️\n• **Clean the house**: Tiding up a living space. (Related: Spring cleaning). 🧹"
+  },
+  {
+    "question": "Identify the meaning of the idiom:\n**Pulling the wool over someone's eyes**",
+    "options": ["Knitting a sweater", "Deceiving or tricking someone", "Protecting from cold", "Closing eyes"],
+    "answer": "Deceiving or tricking someone",
+    "explanation": "• **Deceiving**: To trick someone by not telling them the truth. (Related: Hoodwink). 🐑🙈\n• **Protecting from cold**: Keeping warm. (Related: Snug). 🧣"
+  },
+  {
+    "question": "A **'shot in the arm'** usually provides:",
+    "options": ["An injury", "New energy or encouragement", "A vaccine", "A sudden pain"],
+    "answer": "New energy or encouragement",
+    "explanation": "• **Encouragement**: Something that gives a person or an organization new energy or confidence. (Related: Boost, Stimulus). 💉⚡\n• **Injury**: Physical harm or damage. (Related: Trauma). 🤕"
+  },
+  {
+    "question": "To give someone a **'wide berth'** is to:",
+    "options": ["Give them a seat", "Avoid them entirely", "Help them travel", "Follow them"],
+    "answer": "Avoid them entirely",
+    "explanation": "• **Avoid**: To keep a lot of space between yourself and someone or something because they are dangerous or unpleasant. (Related: Steer clear of). ⛵🚫\n• **Follow them**: To go behind someone. (Antonym). 🚶🚶"
+  },
+  {
+    "question": "To **'harp on the same string'** means to:",
+    "options": ["Play the harp", "Talk repeatedly about one subject", "Sing a song", "Fix a musical instrument"],
+    "answer": "Talk repeatedly about one subject",
+    "explanation": "• **Talk repeatedly**: To keep talking about the same thing in a way that is annoying. (Related: Dwell on). 🎸🗣️\n• **Sing a song**: To perform vocal music. (Related: Croon). 🎤"
+  },
+  {
+    "question": "Identify the meaning of the idiom:\n**Showing a clean pair of heels**",
+    "options": ["Cleaning shoes", "Running away fast to escape", "Walking slowly", "Standing still"],
+    "answer": "Running away fast to escape",
+    "explanation": "• **Run away**: To run away from someone very quickly. (Related: Bolt). 👣💨\n• **Walking slowly**: Moving at a relaxed pace. (Antonym: Amble). 🐢"
+  },
+  {
+    "question": "What is a **'Pandora's box'**?",
+    "options": ["Many gifts", "Many unforeseen problems", "Magic tricks", "Old letters"],
+    "answer": "Many unforeseen problems",
+    "explanation": "• **Problems**: A process that, if started, will cause many problems that cannot be stopped. (Related: Can of worms). 📦💥\n• **Gifts**: Present given to someone. (Antonym). 🎁"
+  },
+  {
+    "question": "To **'make a clean breast of'** something is to:",
+    "options": ["Wash oneself", "Confess something fully", "Lie about a crime", "Be healthy"],
+    "answer": "Confess something fully",
+    "explanation": "• **Confess**: To tell the truth about something wrong that you have done. (Related: Come clean). 📖🕊️\n• **Lie**: To say something that is not true. (Antonym). 🤥"
+  },
+  {
+    "question": "What does it mean to **'rain cats and dogs'**?",
+    "options": ["Animals falling from sky", "To rain very heavily", "A pet fight", "Thunderstorm"],
+    "answer": "To rain very heavily",
+    "explanation": "• **Rain heavily**: To rain very hard or in large amounts. (Related: Pouring). ☔⛈️\n• **Pet fight**: An argument between animals. (Related: Catfight). 🐈🐕"
+  },
+  {
+    "question": "Finally, **'keeping one's head above water'** means:",
+    "options": ["Swimming skills", "Managing to survive difficult times", "Drowning", "Washing face"],
+    "answer": "Managing to survive difficult times",
+    "explanation": "• **Survive difficulty**: To just be able to manage a difficult situation, especially when you do not have enough money. (Related: Eke out a living). 🌊🏊🏽‍♂️\n• **Drowning**: Dying through submersion in water. (Antonym). 💀"
+  }
 ]
