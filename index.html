@@ -230,7 +230,9 @@
             Object.assign(state, params);
             state.view = view;
             if (!fromPopState) {
-                history.pushState({ view, params }, '', "");
+                // Clone params to avoid reference sharing in history
+                const serializableParams = JSON.parse(JSON.stringify(params));
+                history.pushState({ view, params: serializableParams }, '', "");
             }
             window.render();
             document.body.style.overflow = (['content-view', 'mistakes-book', 'results'].includes(view)) ? 'hidden' : 'auto';
@@ -288,7 +290,6 @@
                 paths = [`./content/grammar-rules/rules.json`];
             } else if (isSSC) {
                 const path = `./content/ssc/cgl2023`;
-                // Map shift to shift-N-test.json
                 paths = [`${path}/shift-${currentShift}-test.json`, `${path}/shift${currentShift}-test.json`];
             } else {
                 const path = `./content/general-english/vocabulary/${currentTopic}`;
@@ -310,7 +311,8 @@
                     window.renderStudyCardUI();
                 }
             } else {
-                document.getElementById('content-container').innerHTML = `<div class="p-10 text-center font-bold">Content missing in repository.</div>`;
+                const container = document.getElementById('content-container');
+                if (container) container.innerHTML = `<div class="p-10 text-center font-bold">Content missing in repository. Check GitHub paths.</div>`;
             }
         };
 
@@ -364,7 +366,8 @@
                 const progressId = `${state.currentType || 'SSC'}_${state.currentTopic || 'General'}_${state.currentLevel || state.currentShift}_${Date.now()}`;
                 setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'progress', progressId), { score, points: Math.max(0, Math.round(score)), completedAt: new Date().toISOString() });
                 mistakesFound.forEach(m => {
-                    const safeId = btoa(m.question.substring(0, 30)).replace(/[^a-z0-9]/gi, '_');
+                    // Safe ID generation using text hash to avoid non-ASCII issues
+                    const safeId = m.question.substring(0, 30).replace(/[^a-z0-9]/gi, '_');
                     setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'mistakes', safeId), { ...m, masteryCount: 0 }, { merge: true });
                 });
             }
@@ -432,7 +435,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="flex gap-2 mt-3 h-14"><button onclick="window.movePrev()" class="flex-1 bg-white border-2 rounded-xl font-bold text-xs">PREV</button>${state.currentStudyIndex === window.activeStudyData.length - 1 ? `<button onclick="window.loadQuiz()" class="flex-1 bg-indigo-600 text-white rounded-xl font-bold text-xs">QUIZ 🚀</button>` : `<button onclick="window.moveNext()" class="flex-1 bg-indigo-600 text-white rounded-xl font-bold text-xs">NEXT</button>`}</div>
+                <div class="flex gap-2 mt-3 h-14"><button onclick="window.movePrev()" class="flex-1 bg-white border-2 rounded-xl font-bold text-xs" ${state.currentStudyIndex === 0 ? 'disabled opacity-30' : ''}>PREV</button>${state.currentStudyIndex === window.activeStudyData.length - 1 ? `<button onclick="window.loadQuiz()" class="flex-1 bg-indigo-600 text-white rounded-xl font-bold text-xs">QUIZ 🚀</button>` : `<button onclick="window.moveNext()" class="flex-1 bg-indigo-600 text-white rounded-xl font-bold text-xs">NEXT</button>`}</div>
             </div>`;
         };
 
@@ -489,13 +492,18 @@
             </div>`;
         };
 
-        window.renderExamsPYQ = () => {
-            const isSsc = state.currentCategory === 'ssc';
-            return `<div class="p-6 h-full flex flex-col bg-white"><button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left">← BACK</button><h2 class="text-3xl font-black mb-6 tracking-tight">${isSsc?'SSC':'Karnataka'} Hub</h2><div class="space-y-3">${isSsc ? `<div onclick="window.navigateTo('shift-grid', {currentExam:'SSC CGL 2023', isSSC:true})" class="premium-card flex justify-between shadow-sm p-6 font-bold border border-slate-100 rounded-2xl">SSC CGL 2023 <span>⚔️</span></div>` : `<div class="p-10 text-center italic text-slate-400">Hub loading...</div>`}</div></div>`;
-        };
-
-        window.renderShiftGrid = () => {
-            return `<div class="p-6 h-full flex flex-col overflow-hidden bg-white"><button onclick="window.navigateTo('exams-pyq', {currentCategory:state.isSSC?'ssc':'karnataka'})" class="text-xs font-bold mb-4 opacity-40 uppercase text-left">← BACK</button><h2 class="text-xl font-black mb-4 tracking-tight">${state.currentExam} Papers</h2><div class="grid grid-cols-1 gap-2 flex-grow overflow-y-auto pr-1">${cgl2023Shifts.map((s, idx) => `<div onclick="window.navigateTo('content-view', {isSSC:true, currentShift:${idx}, currentExam:'${state.currentExam}'})" class="p-4 border rounded-xl font-bold flex justify-between items-center text-xs shadow-sm bg-white">${s} <span>→</span></div>`).join('')}</div></div>`;
+        window.handleAnkiChoice = (sel, cor) => { if (state.ankiSelection) return; state.ankiSelection = { selected: sel.trim(), isCorrect: sel.trim() === cor.trim() }; window.render(); };
+        
+        window.resolveAnki = async (correct) => {
+            const current = state.mistakes[state.currentAnkiIndex];
+            const ref = doc(db, 'artifacts', appId, 'users', state.userId, 'mistakes', current.id);
+            if (correct) {
+                const newCount = (current.masteryCount || 0) + 1;
+                if (newCount >= 5) await deleteDoc(ref); else await updateDoc(ref, { masteryCount: newCount });
+            } else await updateDoc(ref, { masteryCount: 0 });
+            state.ankiSelection = null;
+            state.currentAnkiIndex = (state.currentAnkiIndex + 1) % (state.mistakes.length || 1);
+            window.render();
         };
 
         window.renderLogin = () => {
@@ -520,6 +528,13 @@
         };
 
         window.renderLevelsGrid = () => `<div class="p-6 h-full overflow-y-auto flex flex-col bg-white"><button onclick="window.navigateTo('topics-grid', {currentType:state.currentType})" class="text-xs font-bold mb-4 opacity-40 uppercase text-left">← BACK</button><h2 class="text-3xl font-black mb-6 tracking-tight">${state.currentTopicTitle}</h2><div class="grid grid-cols-4 gap-3">${[1,2,3,4,5,6,7,8,9,10].map(lv => `<div onclick="window.navigateTo('content-view', {currentLevel:${lv}, isSSC:false})" class="h-16 border-2 rounded-xl flex items-center justify-center font-bold text-lg hover:border-indigo-500 transition-all">${lv}</div>`).join('')}</div></div>`;
+
+        window.renderExamsPYQ = () => {
+            const isSsc = state.currentCategory === 'ssc';
+            return `<div class="p-6 h-full flex flex-col bg-white"><button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left">← BACK</button><h2 class="text-3xl font-black mb-6 tracking-tight">${isSsc?'SSC':'Karnataka'} Hub</h2><div class="space-y-3">${isSsc ? `<div onclick="window.navigateTo('shift-grid', {currentExam:'SSC CGL 2023', isSSC:true})" class="premium-card flex justify-between shadow-sm p-6 font-bold border border-slate-100 rounded-2xl">SSC CGL 2023 <span>⚔️</span></div>` : `<div class="p-10 text-center italic text-slate-400">Loading...</div>`}</div></div>`;
+        };
+
+        window.renderShiftGrid = () => `<div class="p-6 h-full flex flex-col overflow-hidden bg-white"><button onclick="window.navigateTo('exams-pyq', {currentCategory:state.isSSC?'ssc':'karnataka'})" class="text-xs font-bold mb-4 opacity-40 uppercase text-left">← BACK</button><h2 class="text-xl font-black mb-4 tracking-tight">${state.currentExam} Papers</h2><div class="grid grid-cols-1 gap-2 flex-grow overflow-y-auto pr-1">${cgl2023Shifts.map((s, idx) => `<div onclick="window.navigateTo('content-view', {isSSC:true, currentShift:${idx}, currentExam:'${state.currentExam}'})" class="p-4 border rounded-xl font-bold flex justify-between items-center text-xs shadow-sm bg-white">${s} <span>→</span></div>`).join('')}</div></div>`;
 
         // --- MAIN RENDER CYCLE ---
 
@@ -568,9 +583,6 @@
             } else { state.isAuthenticated = false; state.userId = null; state.view = 'login'; window.render(); }
         });
 
-        window.handleAnkiChoice = (sel, cor) => { if (state.ankiSelection) return; state.ankiSelection = { selected: sel.trim(), isCorrect: sel.trim() === cor.trim() }; window.render(); };
-        window.resolveAnki = resolveAnki;
-
         window.addEventListener('popstate', (e) => {
             if (e.state && e.state.view) window.navigateTo(e.state.view, e.state.params, true);
             else window.navigateTo('home', {}, true);
@@ -578,7 +590,7 @@
 
         setInterval(() => {
             const el = document.getElementById('floating-quote');
-            if (el) { el.style.opacity = '0'; setTimeout(() => { el.innerText = ["Qualify your dreams. 🎯", "Focus leads to mastery. 🏛️", "Consistency wins. 🏆", "Learn from errors. 📚"][Math.floor(Math.random()*4)]; el.style.opacity = '1'; }, 400); }
+            if (el) { el.style.opacity = '0'; setTimeout(() => { el.innerText = ["Believe in your potential. 🎯", "Focus leads to mastery. 🏛️", "Consistency wins. 🏆", "Learn from errors. 📚" ][Math.floor(Math.random()*4)]; el.style.opacity = '1'; }, 400); }
         }, 8000);
 
         window.render();
