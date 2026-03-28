@@ -1,103 +1,182 @@
 [
   {
-    "question": "Find the SYNONYM for 'Bellicose':",
-    "options": ["Peaceful", "Pugnacious", "Quiet", "Friendly"],
-    "answer": "Pugnacious",
-    "type": "synonym",
-    "explanation": "Both words describe a person eager to fight."
+    "question": "What is the SYNONYM of 'Abstemious'?",
+    "options": ["Gluttonous", "Temperate", "Greedy", "Indulgent"],
+    "answer": "Temperate",
+    "explanation": "• **Temperate**: Showing moderation or self-restraint, especially in eating or drinking. (Related: Abstemious, Ascetic). 🥗\n• ** Gluttonous**: Excessively greedy in eating. (Antonym). 🍔"
   },
   {
-    "question": "Choose the ANTONYM for 'Gregarious':",
-    "options": ["Sociable", "Introverted", "Friendly", "Convivial"],
-    "answer": "Introverted",
-    "type": "antonym",
-    "explanation": "Gregarious means social, while introverted means reserved or shy."
+    "question": "Find the word that means 'to warn or reprimand someone firmly':",
+    "options": ["Admonish", "Applaud", "Delineate", "Inundate"],
+    "answer": "Admonish",
+    "explanation": "• **Admonish**: To advise or counsel against something; to warn. (Related: Rebuke, Chide). ⚠️\n• **Applaud**: Show strong approval of. (Antonym). 👏"
   },
   {
-    "question": "Spot the MISSPELT word:",
-    "options": ["Cacophony", "Ubiquitous", "Mendacious", "Iconoclastt"],
-    "answer": "Iconoclastt",
-    "type": "spelling",
-    "explanation": "The correct spelling is 'Iconoclast'."
+    "question": "An ANTONYM for 'Bellicose' would be:",
+    "options": ["Pugnacious", "Truculent", "Peaceful", "Hostile"],
+    "answer": "Peaceful",
+    "explanation": "• **Peaceful**: Free from disturbance; tranquil or non-aggressive. (Antonym). 🕊️\n• **Bellicose**: Demonstrating a willingness to fight. (Synonym: Pugnacious). ⚔️"
   },
   {
-    "question": "Fill in the blank: The dictator gave a long ____ against his enemies.",
-    "options": ["Harangue", "Paucity", "Paradigm", "Abstemious"],
-    "answer": "Harangue",
-    "type": "fill_in_the_blank",
-    "explanation": "A harangue is a lengthy, aggressive speech."
-  },
-  {
-    "question": "Find the SYNONYM for 'Obsequious':",
-    "options": ["Arrogant", "Servile", "Honest", "Stubborn"],
-    "answer": "Servile",
-    "explanation": "Obsequious means being overly submissive or fawning."
-  },
-  {
-    "question": "Choose the correct spelling:",
-    "options": ["Acquiescence", "Acquiesence", "Aqueiscence", "Acquiescencee"],
-    "answer": "Acquiescence",
-    "type": "spelling",
-    "explanation": "Acquiescence (meaning silent agreement) is a common exam word."
-  },
-  {
-    "question": "Antonym for 'Ephemeral':",
-    "options": ["Transient", "Fleeting", "Eternal", "Brief"],
-    "answer": "Eternal",
-    "type": "antonym",
-    "explanation": "Ephemeral means short-lived; Eternal means lasting forever."
-  },
-  {
-    "question": "Error Detection: He is an (A) incorrigible liar (B) who cannot (C) be reformed (D). No Error (E).",
-    "options": ["A", "B", "C", "D", "E"],
-    "answer": "E",
-    "type": "error_detection",
-    "explanation": "The sentence is grammatically correct."
-  },
-  {
-    "question": "Synonym for 'Taciturn':",
-    "options": ["Garrulous", "Reticent", "Loquacious", "Talkative"],
-    "answer": "Reticent",
-    "type": "synonym",
-    "explanation": "Both refer to people who don't speak much."
-  },
-  {
-    "question": "Choose the word with the correct meaning for 'Subterfuge':",
-    "options": ["Honesty", "Chicanery", "Openness", "Bravery"],
-    "answer": "Chicanery",
-    "type": "meaning",
-    "explanation": "Both words refer to trickery or deceit."
-  },
-  {
-    "question": "Antonym for 'Venerable':",
-    "options": ["Respected", "Despicable", "Old", "Wise"],
-    "answer": "Despicable",
-    "type": "antonym",
-    "explanation": "Venerable is worthy of respect; Despicable is worthy of hatred."
-  },
-  {
-    "question": "Find the misspelled word:",
-    "options": ["Nefarious", "Fastidious", "Prevarricate", "Vacillate"],
-    "answer": "Prevarricate",
-    "type": "spelling",
-    "explanation": "Correct spelling is 'Prevaricate' (single 'r')."
-  },
-  {
-    "question": "Fill in the blank: There is a ____ of evidence to prove him guilty.",
-    "options": ["Paucity", "Abundance", "Ubiquitous", "Zealous"],
-    "answer": "Paucity",
-    "explanation": "Paucity means a shortage or lack."
-  },
-  {
-    "question": "Synonym for 'Lethargic':",
-    "options": ["Energetic", "Torpid", "Active", "Brisk"],
-    "answer": "Torpid",
-    "explanation": "Lethargic and Torpid both mean sluggish or lazy."
-  },
-  {
-    "question": "Sentence Completion: The ____ of the busy market was overwhelming.",
-    "options": ["Cacophony", "Quiescent", "Abstemious", "Reticent"],
+    "question": "Identify the word that describes a 'harsh, discordant mixture of sounds':",
+    "options": ["Melody", "Cacophony", "Harmony", "Rhythm"],
     "answer": "Cacophony",
-    "explanation": "Cacophony refers to a loud, harsh mixture of sounds."
+    "explanation": "• **Cacophony**: A jarring, unpleasant noise. (Related: Dissonance, Din). 📢\n• **Harmony**: The quality of forming a pleasing and consistent whole. (Antonym). 🎶"
+  },
+  {
+    "question": "The use of trickery to achieve a political or legal purpose is called:",
+    "options": ["Chicanery", "Honesty", "Candor", "Paradigm"],
+    "answer": "Chicanery",
+    "explanation": "• **Chicanery**: Deception by artful subterfuge or sophistry. (Related: Guile, Duplicity). 🃏\n• **Candor**: The quality of being open and honest. (Antonym). 📖"
+  },
+  {
+    "question": "What is the SYNONYM of 'Delineate'?",
+    "options": ["Confuse", "Portray", "Distort", "Obscure"],
+    "answer": "Portray",
+    "explanation": "• **Portray**: To describe or represent something precisely. (Related: Delineate, Depict). 🖋️\n• **Obscure**: Keep from being seen; conceal. (Antonym). 🌫️"
+  },
+  {
+    "question": "A person who is 'cheerful and full of energy' is described as:",
+    "options": ["Lethargic", "Ebullient", "Taciturn", "Quiescent"],
+    "answer": "Ebullient",
+    "explanation": "• **Ebullient**: Overflowing with enthusiasm or excitement. (Related: Exuberant, Buoyant). 🔥\n• **Lethargic**: Affected by sluggishness or lack of energy. (Antonym). 🐢"
+  },
+  {
+    "question": "Treating serious issues with inappropriate humor is being ____:",
+    "options": ["Solemn", "Facetious", "Venerable", "Zealous"],
+    "answer": "Facetious",
+    "explanation": "• **Facetious**: Not meant to be taken literally or seriously. (Related: Jocular, Flippant). 🤡\n• **Solemn**: Formal and dignified; serious. (Antonym). 🏛️"
+  },
+  {
+    "question": "What is the meaning of 'Gregarious'?",
+    "options": ["Introverted", "Sociable", "Aggressive", "Unlucky"],
+    "answer": "Sociable",
+    "explanation": "• **Sociable**: Fond of the company of others. (Related: Gregarious, Convivial). 👨‍👩‍👧‍👦\n• **Introverted**: A shy, reticent person. (Antonym). 🏠"
+  },
+  {
+    "question": "A lengthy and aggressive speech is a/an ____:",
+    "options": ["Harangue", "Whisper", "Dialogue", "Epitaph"],
+    "answer": "Harangue",
+    "explanation": "• **Harangue**: A ranting speech or writing. (Related: Tirade, Diatribe). 🎤\n• **Whisper**: Speak very softly. (Antonym). 🤫"
+  },
+  {
+    "question": "A person who 'attacks settled beliefs or institutions' is a/an:",
+    "options": ["Sycophant", "Iconoclast", "Neophyte", "Conformist"],
+    "answer": "Iconoclast",
+    "explanation": "• **Iconoclast**: One who destroys religious images or attacks cherished beliefs. (Related: Rebel). 🔨\n• **Conformist**: A person who behaves in accordance with established rules. (Antonym). 🤝"
+  },
+  {
+    "question": "Someone who is 'not able to be reformed or improved' is:",
+    "options": ["Incorrigible", "Malleable", "Submissive", "Neophyte"],
+    "answer": "Incorrigible",
+    "explanation": "• **Incorrigible**: Incapable of being corrected or amended. (Related: Habitual). 🚫\n• **Malleable**: Easily influenced; pliable. (Antonym). 🧱"
+  },
+  {
+    "question": "To 'place or deal with close together for contrasting effect' is to ____:",
+    "options": ["Separate", "Juxtapose", "Isolate", "Delineate"],
+    "answer": "Juxtapose",
+    "explanation": "• **Juxtapose**: To place side by side. (Related: Compare, Align). ⚖️\n• **Isolate**: Set or keep apart from others. (Antonym). 🏝️"
+  },
+  {
+    "question": "Find the SYNONYM for 'Lethargic':",
+    "options": ["Energetic", "Sluggish", "Active", "Zealous"],
+    "answer": "Sluggish",
+    "explanation": "• **Sluggish**: Slow-moving or inactive. (Related: Lethargic, Torpid). 🐢\n• **Energetic**: Showing or involving great vitality. (Antonym). ⚡"
+  },
+  {
+    "question": "A person who is 'not telling the truth' is ____:",
+    "options": ["Mendacious", "Veracious", "Sincere", "Venerable"],
+    "answer": "Mendacious",
+    "explanation": "• **Mendacious**: Given to or characterized by deception or falsehood. (Related: Lying). 🤥\n• **Veracious**: Speaking or representing the truth. (Antonym). 📖"
+  },
+  {
+    "question": "Something 'wicked or criminal' is described as:",
+    "options": ["Nefarious", "Angelic", "Beneficial", "Salubrious"],
+    "answer": "Nefarious",
+    "explanation": "• **Nefarious**: Flagrantly wicked or impious. (Related: Heinous, Villainous). 😈\n• **Angelic**: Exceptionally beautiful, innocent, or kind. (Antonym). 😇"
+  },
+  {
+    "question": "What is the meaning of 'Obsequious'?",
+    "options": ["Arrogant", "Excessively servile", "Rebellious", "Mendacious"],
+    "answer": "Excessively servile",
+    "explanation": "• **Servile**: Marked by or exhibiting a fawning attentiveness. (Related: Sycophantic). 🙇‍♂️\n• **Arrogant**: Having or revealing an exaggerated sense of one's own importance. (Antonym). 🤨"
+  },
+  {
+    "question": "A 'typical example or model' of something is a/an ____:",
+    "options": ["Abnormality", "Paradigm", "Fallacy", "Enigma"],
+    "answer": "Paradigm",
+    "explanation": "• **Paradigm**: A framework containing the basic assumptions and ways of thinking. (Related: Prototype). 💎\n• **Abnormality**: The quality or state of being abnormal. (Antonym). 🌀"
+  },
+  {
+    "question": "Find the word meaning 'in a state of inactivity or dormancy':",
+    "options": ["Quiescent", "Vibrant", "Recalcitrant", "Garrulous"],
+    "answer": "Quiescent",
+    "explanation": "• **Quiescent**: Marked by inactivity or repose. (Related: Latent, Passive). 🌙\n• **Vibrant**: Full of energy and life. (Antonym). 🎆"
+  },
+  {
+    "question": "A person having an 'obstinately uncooperative attitude' is:",
+    "options": ["Submissive", "Recalcitrant", "Compliant", "Obsequious"],
+    "answer": "Recalcitrant",
+    "explanation": "• **Recalcitrant**: Obstinately defiant of authority or restraint. (Related: Rebellious). 🐂\n• **Compliant**: Disposed to agree with others or obey rules. (Antonym). ✅"
+  },
+  {
+    "question": "What is a 'Sycophant'?",
+    "options": ["A hater of mankind", "A flatterer", "A truth teller", "A hermit"],
+    "answer": "A flatterer",
+    "explanation": "• **Flatterer**: A person who acts submissively to gain advantage. (Related: Toady, Fawner). 👅\n• **Hermit**: A person living in solitude as a religious discipline. 🏚️"
+  },
+  {
+    "question": "A person who is 'reserved or says little' is:",
+    "options": ["Garrulous", "Taciturn", "Loquacious", "Verbose"],
+    "answer": "Taciturn",
+    "explanation": "• **Taciturn**: Temperamentally disinclined to talk. (Related: Reticent, Laconic). 🙊\n• **Garrulous**: Pointlessly or annoyingly talkative. (Antonym). 🗣️"
+  },
+  {
+    "question": "Something that is 'found everywhere' is:",
+    "options": ["Rare", "Ubiquitous", "Scarce", "Unique"],
+    "answer": "Ubiquitous",
+    "explanation": "• **Ubiquitous**: Existing or being everywhere at the same time. (Related: Omnipresent). 🌍\n• **Rare**: Not occurring very often. (Antonym). 💎"
+  },
+  {
+    "question": "A person 'respected because of age or wisdom' is:",
+    "options": ["Venerable", "Infamous", "Dishonored", "Juvenile"],
+    "answer": "Venerable",
+    "explanation": "• **Venerable**: Calling forth respect through age, character, and attainments. (Related: Revered). 👴\n• **Infamous**: Having a reputation of the worst kind. (Antonym). 👺"
+  },
+  {
+    "question": "What is the SYNONYM for 'Wary'?",
+    "options": ["Rash", "Careless", "Cautious", "Heedless"],
+    "answer": "Cautious",
+    "explanation": "• **Cautious**: Marked by keen caution and watchful prudence. (Related: Circumspect). 🛡️\n• **Rash**: Proceeding from a lack of careful consideration. (Antonym). 🏃"
+  },
+  {
+    "question": "Someone showing 'great energy or enthusiasm' for a cause is:",
+    "options": ["Zealous", "Apathetic", "Indifferent", "Languid"],
+    "answer": "Zealous",
+    "explanation": "• **Zealous**: Filled with or characterized by eagerness and ardent interest. (Related: Fervent). ⚡\n• **Apathetic**: Showing or feeling no interest, enthusiasm, or concern. (Antonym). 😐"
+  },
+  {
+    "question": "Something that 'lasts for a very short time' is:",
+    "options": ["Eternal", "Ephemeral", "Perpetual", "Endless"],
+    "answer": "Ephemeral",
+    "explanation": "• **Ephemeral**: Lasting a very short time. (Related: Transient, Fleeting). 🫧\n• **Eternal**: Lasting or existing forever. (Antonym). ♾️"
+  },
+  {
+    "question": "What is the meaning of 'Garrulous'?",
+    "options": ["Quiet", "Talkative", "Silent", "Reticent"],
+    "answer": "Talkative",
+    "explanation": "• **Talkative**: Given to prosy, rambling, or tedious loquacity. (Related: Loquacious). 🗣️\n• **Reticent**: Inclined to be silent or uncommunicative in speech. (Antonym). 🤫"
+  },
+  {
+    "question": "To 'overwhelm with things or people' is to ____:",
+    "options": ["Inundate", "Delineate", "Abjure", "Paucity"],
+    "answer": "Inundate",
+    "explanation": "• **Inundate**: To cover with a flood or overflow. (Related: Overwhelm, Swamp). 🌊\n• **Delineate**: To outline or describe with precision. 🖋️"
+  },
+  {
+    "question": "A 'scarcity or shortage' of something is a/an:",
+    "options": ["Abundance", "Paucity", "Surplus", "Inundation"],
+    "answer": "Paucity",
+    "explanation": "• **Paucity**: Smallness of number or quantity. (Related: Dearth, Lack). 🤏\n• **Abundance**: A very large quantity of something. (Antonym). 💰"
   }
 ]
