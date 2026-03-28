@@ -244,8 +244,8 @@
         window.navigateTo = (view, params = {}, fromPopState = false) => {
             Object.assign(state, params);
             state.view = view;
-            if (!fromPopState) history.pushState({ view, params }, '', "");
-            render();
+            if (!fromPopState) history.pushState(JSON.parse(JSON.stringify({ view, params })), '', "");
+            window.render();
             document.body.style.overflow = (['content-view', 'mistakes-book'].includes(view)) ? 'hidden' : 'auto';
         };
 
@@ -275,21 +275,21 @@
 
         onAuthStateChanged(auth, (user) => { 
             if (user) { state.userId = user.uid; loadUserData(); } 
-            else { state.isAuthenticated = false; render(); }
+            else { state.isAuthenticated = false; window.render(); }
         });
 
         async function loadUserData() {
             const profileSnap = await getDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'profile', 'info'));
-            if (profileSnap.exists()) { state.userName = profileSnap.data().name; state.isAuthenticated = true; render(); }
+            if (profileSnap.exists()) { state.userName = profileSnap.data().name; state.isAuthenticated = true; window.render(); }
             onSnapshot(collection(db, 'artifacts', appId, 'users', state.userId, 'progress'), (snap) => {
                 state.totalPoints = 0;
                 snap.forEach(doc => state.totalPoints += (doc.data().points || 0));
-                render();
+                window.render();
             });
             onSnapshot(collection(db, 'artifacts', appId, 'users', state.userId, 'mistakes'), (snap) => {
                 state.mistakes = [];
                 snap.forEach(doc => state.mistakes.push({ id: doc.id, ...doc.data() }));
-                render();
+                window.render();
             });
         }
 
@@ -310,7 +310,7 @@
                     if (state.currentQuizIndex < window.activeQuestionsData.length - 1) { state.currentQuizIndex++; window.renderQuizUI(); }
                 } else if (state.view === 'mistakes-book') {
                     state.currentAnkiIndex = (state.currentAnkiIndex + 1) % state.mistakes.length;
-                    state.isAnkiFlipped = false; state.ankiSelection = null; render();
+                    state.isAnkiFlipped = false; state.ankiSelection = null; window.render();
                 }
             } else { // Right (Prev)
                 if (state.view === 'content-view' && state.activeMode === 'study') {
@@ -319,7 +319,7 @@
                     if (state.currentQuizIndex > 0) { state.currentQuizIndex--; window.renderQuizUI(); }
                 } else if (state.view === 'mistakes-book') {
                     state.currentAnkiIndex = (state.currentAnkiIndex - 1 + state.mistakes.length) % state.mistakes.length;
-                    state.isAnkiFlipped = false; state.ankiSelection = null; render();
+                    state.isAnkiFlipped = false; state.ankiSelection = null; window.render();
                 }
             }
         }
@@ -342,11 +342,11 @@
             document.getElementById('content-container').innerHTML = `<div class="bg-white p-4 rounded-3xl border h-full flex flex-col overflow-hidden" ontouchstart="window.handleTouchStart(event)" ontouchend="window.handleTouchEnd(event)">
                 <div class="flex justify-between items-center mb-3"><span class="text-[10px] font-black text-slate-400">Q${state.currentQuizIndex+1} / ${window.activeQuestionsData.length}</span><button onclick="window.navigateTo('home')" class="text-rose-500 font-bold text-[10px]">EXIT</button></div>
                 <div class="scroll-content"><p class="text-base font-bold mb-4 leading-snug">${q.question}</p><div class="flex flex-col gap-2">${q.options.map(o => `<div onclick="window.handleChoice('${o.trim()}', '${q.answer.trim()}')" class="p-3.5 border-2 rounded-xl text-sm font-bold transition-all ${ans?.selected === o.trim() ? (o.trim() === q.answer.trim() ? 'option-correct' : 'option-wrong') : 'border-slate-50 bg-slate-50/30'}">${o}</div>`).join('')}</div>${ans ? `<div class="mt-4 p-4 bg-slate-50 rounded-2xl border-l-4 border-indigo-500 text-[11px] leading-relaxed font-kannada">${q.explanation}</div>` : ''}</div>
-                <div class="mt-2 flex gap-2 h-14">${state.currentQuizIndex === window.activeQuestionsData.length - 1 ? `<button onclick="window.submitFinalResults()" class="flex-grow bg-emerald-600 text-white rounded-xl font-bold">SUBMIT</button>` : `<button onclick="window.state.currentQuizIndex++; window.renderQuizUI();" class="flex-grow bg-indigo-600 text-white rounded-xl font-bold" ${!ans ? 'disabled style="opacity:0.5"' : ''}>NEXT</button>`}</div>
+                <div class="mt-2 flex gap-2 h-14">${state.currentQuizIndex === window.activeQuestionsData.length - 1 ? `<button onclick="window.submitFinalResults()" class="flex-grow bg-emerald-600 text-white rounded-xl font-bold uppercase text-xs">Submit</button>` : `<button onclick="window.state.currentQuizIndex++; window.renderQuizUI();" class="flex-grow bg-indigo-600 text-white rounded-xl font-bold uppercase text-xs" ${!ans ? 'disabled style="opacity:0.5"' : ''}>Next</button>`}</div>
             </div>`;
         };
 
-        window.handleChoice = (sel, cor) => { state.currentQuizAnswers[state.currentQuizIndex] = {selected: sel, isCorrect: sel === cor}; renderQuizUI(); };
+        window.handleChoice = (sel, cor) => { state.currentQuizAnswers[state.currentQuizIndex] = {selected: sel, isCorrect: sel === cor}; window.renderQuizUI(); };
 
         window.submitFinalResults = async () => {
             const questions = window.activeQuestionsData;
@@ -363,10 +363,11 @@
             window.navigateTo('home');
         };
 
-        async function loadGenericContent() {
+        window.loadGenericContent = async () => {
             const { currentType: type, currentTopic: topic, currentLevel: level, isSSC: ssc, isKarnataka: ka, currentShift: shift, currentExam: exam } = state;
             let paths = [];
-            if (ssc || ka) {
+            if (type === 'grammar-rules') { paths = [`./content/grammar-rules/rules.json`]; } 
+            else if (ssc || ka) {
                 const folder = ssc ? (exam === 'SSC MTS 2023' ? 'mts2023' : 'cgl2023') : state.currentExamId;
                 const path = ssc ? `./content/ssc/${folder}` : `./content/karnataka/${folder}`;
                 paths = [`${path}/shift-${shift}-test.json`, `${path}/shift${shift}-test.json`];
@@ -376,10 +377,10 @@
             }
             const data = await multiPathFetch(paths);
             if (data && Array.isArray(data)) {
-                if (data[0] && data[0].question) { window.activeQuestionsData = data; state.currentQuizIndex = 0; state.currentQuizAnswers = {}; state.activeMode = 'quiz'; renderQuizUI(); }
-                else { window.activeStudyData = data; state.currentStudyIndex = 0; state.currentStudyFlipped = false; state.activeMode = 'study'; renderStudyCardUI(); }
+                if (data[0] && data[0].question) { window.activeQuestionsData = data; state.currentQuizIndex = 0; state.currentQuizAnswers = {}; state.activeMode = 'quiz'; window.renderQuizUI(); }
+                else { window.activeStudyData = data; state.currentStudyIndex = 0; state.currentStudyFlipped = false; state.activeMode = 'study'; window.renderStudyCardUI(); }
             } else document.getElementById('content-container').innerHTML = `<div class="p-10 text-center font-bold">Content missing.</div>`;
-        }
+        };
 
         window.loadQuiz = async () => {
             const { currentTopic, currentLevel, isSSC, isKarnataka, currentShift, currentExamId, currentExam } = state;
@@ -393,8 +394,8 @@
         };
 
         window.handleAnkiChoice = (selected) => {
-            if (state.ankiSelection) return; state.ankiSelection = selected; render();
-            setTimeout(() => { if (state.view === 'mistakes-book') { state.isAnkiFlipped = true; render(); } }, 800);
+            if (state.ankiSelection) return; state.ankiSelection = selected; window.render();
+            setTimeout(() => { if (state.view === 'mistakes-book') { state.isAnkiFlipped = true; window.render(); } }, 800);
         };
 
         window.resolveAnki = async (correct) => {
@@ -406,18 +407,18 @@
             } else await updateDoc(ref, { masteryCount: 0 });
             state.isAnkiFlipped = false; state.ankiSelection = null;
             state.currentAnkiIndex = (state.currentAnkiIndex + 1) % state.mistakes.length;
-            render();
+            window.render();
         };
 
         function renderMasteryBook() {
-            if (state.mistakes.length === 0) return `<div class="p-10 text-center font-bold flex flex-col justify-center h-full">Achieved! 🏆<br><button onclick="window.navigateTo('home')" class="mt-4 bg-indigo-600 text-white p-4 rounded-xl">Home</button></div>`;
+            if (state.mistakes.length === 0) return `<div class="p-10 text-center font-bold flex flex-col justify-center h-full">Achieved! 🏆<br><button onclick="window.navigateTo('home')" class="mt-4 bg-indigo-600 text-white p-4 rounded-xl mx-auto uppercase text-xs font-bold">Home</button></div>`;
             const current = state.mistakes[state.currentAnkiIndex];
             const flipped = state.isAnkiFlipped ? 'flipped' : '';
             return `<div class="app-container" ontouchstart="window.handleTouchStart(event)" ontouchend="window.handleTouchEnd(event)">
                 <div class="anki-card ${flipped}">
                     <div class="anki-card-inner">
-                        <div class="anki-front"><div class="flex justify-between items-center mb-2"><p class="text-[9px] font-bold text-emerald-500">MASTERY</p><span class="text-[9px] font-black text-slate-400">${state.currentAnkiIndex + 1} / ${state.mistakes.length}</span></div><div class="scroll-content"><h3 class="text-base font-bold mb-4">${current.question}</h3><div class="flex flex-col gap-2">${current.options.map(o => `<div onclick="window.handleAnkiChoice('${o.trim()}')" class="p-3 border-2 rounded-xl text-xs font-bold transition-all ${state.ankiSelection === o.trim() ? (o.trim() === current.answer.trim() ? 'option-correct' : 'option-wrong') : 'border-slate-50 bg-slate-50/50'}">${o}</div>`).join('')}</div></div></div>
-                        <div class="anki-back"><div class="scroll-content"><p class="text-sm leading-relaxed font-kannada">${current.explanation}</p></div><div class="flex gap-2 mt-3 h-14"><button onclick="window.resolveAnki(true)" class="flex-1 bg-emerald-600 text-white rounded-xl font-bold text-xs">GOT IT ✅</button><button onclick="window.resolveAnki(false)" class="flex-1 bg-rose-600 text-white rounded-xl font-bold text-xs">HARD ❌</button></div></div>
+                        <div class="anki-front"><div class="flex justify-between items-center mb-2"><p class="text-[9px] font-bold text-emerald-500 uppercase">Mastery</p><span class="text-[9px] font-black text-slate-400">${state.currentAnkiIndex + 1} / ${state.mistakes.length}</span></div><div class="scroll-content"><h3 class="text-base font-bold mb-4 leading-tight">${current.question}</h3><div class="flex flex-col gap-2">${current.options.map(o => `<div onclick="window.handleAnkiChoice('${o.trim()}')" class="p-3 border-2 rounded-xl text-xs font-bold transition-all ${state.ankiSelection === o.trim() ? (o.trim() === current.answer.trim() ? 'option-correct' : 'option-wrong') : 'border-slate-100 bg-slate-50/50'}">${o}</div>`).join('')}</div></div></div>
+                        <div class="anki-back"><div class="scroll-content"><p class="text-sm leading-relaxed font-kannada">${current.explanation}</p></div><div class="flex gap-2 mt-3 h-14"><button onclick="window.resolveAnki(true)" class="flex-1 bg-emerald-600 text-white rounded-xl font-bold text-xs uppercase">GOT IT ✅</button><button onclick="window.resolveAnki(false)" class="flex-1 bg-rose-600 text-white rounded-xl font-bold text-xs uppercase">HARD ❌</button></div></div>
                     </div>
                 </div>
             </div>`;
@@ -454,16 +455,16 @@
         }
 
         function renderEnglishSelection() {
-            return `<div class="p-6 h-full overflow-y-auto flex flex-col"><button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left">← BACK</button><h2 class="text-3xl font-black mb-6 tracking-tight">Tracks</h2><div onclick="window.navigateTo('topics-grid', {currentType:'grammar'})" class="premium-card border rounded-2xl mb-4 bg-white font-bold flex justify-between shadow-sm">Grammar <span>🔡</span></div><div onclick="window.navigateTo('topics-grid', {currentType:'vocabulary'})" class="premium-card border rounded-2xl bg-white font-bold flex justify-between shadow-sm">Vocabulary <span>📖</span></div></div>`;
+            return `<div class="p-4 h-full overflow-y-auto flex flex-col"><button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left">← BACK</button><h2 class="text-3xl font-black mb-6 tracking-tight">Tracks</h2><div onclick="window.navigateTo('topics-grid', {currentType:'grammar'})" class="premium-card border rounded-2xl mb-4 bg-white font-bold flex justify-between shadow-sm">Grammar <span>🔡</span></div><div onclick="window.navigateTo('topics-grid', {currentType:'vocabulary'})" class="premium-card border rounded-2xl bg-white font-bold flex justify-between shadow-sm">Vocabulary <span>📖</span></div></div>`;
         }
 
         function renderTopicsGrid() {
             const topics = topicsData[state.currentType] || [];
-            return `<div class="p-6 h-full overflow-y-auto flex flex-col"><button onclick="window.navigateTo('english-selection')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left">← BACK</button><h2 class="text-3xl font-black mb-6 capitalize">${state.currentType}</h2><div class="grid grid-cols-2 gap-3">${topics.map(t => `<div onclick="window.navigateTo('levels-grid', {currentTopic:'${t.id}', currentTopicTitle:'${t.title}'})" class="p-6 border rounded-2xl bg-white text-center shadow-sm"><span class="text-3xl block mb-2">${t.icon}</span><span class="text-xs font-bold">${t.title}</span></div>`).join('')}</div></div>`;
+            return `<div class="p-6 h-full overflow-y-auto flex flex-col"><button onclick="window.navigateTo('english-selection')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left">← BACK</button><h2 class="text-3xl font-black mb-6 capitalize tracking-tight">${state.currentType}</h2><div class="grid grid-cols-2 gap-3">${topics.map(t => `<div onclick="window.navigateTo('levels-grid', {currentTopic:'${t.id}', currentTopicTitle:'${t.title}'})" class="p-6 border rounded-2xl bg-white text-center shadow-sm"><span class="text-3xl block mb-2">${t.icon}</span><span class="text-xs font-bold">${t.title}</span></div>`).join('')}</div></div>`;
         }
 
         function renderLevelsGrid() {
-            return `<div class="p-6 h-full overflow-y-auto flex flex-col"><button onclick="window.navigateTo('topics-grid', {currentType:state.currentType})" class="text-xs font-bold mb-4 opacity-40 uppercase text-left">← BACK</button><h2 class="text-3xl font-black mb-6 tracking-tight">${state.currentTopicTitle}</h2><div class="grid grid-cols-4 gap-3">${[1,2,3,4,5,6,7,8,9,10].map(lv => `<div onclick="window.navigateTo('content-view', {currentLevel:${lv}, isSSC:false, isKarnataka:false})" class="h-16 border-2 rounded-xl flex items-center justify-center font-bold text-lg hover:border-indigo-500">${lv}</div>`).join('')}</div></div>`;
+            return `<div class="p-6 h-full overflow-y-auto flex flex-col"><button onclick="window.navigateTo('topics-grid', {currentType:state.currentType})" class="text-xs font-bold mb-4 opacity-40 uppercase text-left">← BACK</button><h2 class="text-3xl font-black mb-6 tracking-tight">${state.currentTopicTitle}</h2><div class="grid grid-cols-4 gap-3">${[1,2,3,4,5,6,7,8,9,10].map(lv => `<div onclick="window.navigateTo('content-view', {currentLevel:${lv}, isSSC:false, isKarnataka:false})" class="h-16 border-2 rounded-xl flex items-center justify-center font-bold text-lg hover:border-indigo-500 transition-all">${lv}</div>`).join('')}</div></div>`;
         }
 
         function renderExamsPYQ() {
@@ -478,7 +479,7 @@
         }
 
         window.render = render;
-        window.addEventListener('load', render);
+        window.addEventListener('load', window.render);
         window.addEventListener('popstate', (e) => {
             if (e.state) window.navigateTo(e.state.view, e.state.params, true);
             else window.navigateTo('home', {}, true);
