@@ -1,32 +1,182 @@
 [
-  { "question": "Q.1 A **'fair-weather friend'** is someone who:", "options": ["Helps you in rain", "Leaves you when you are in trouble", "Is always with you", "Loves sunny days"], "answer": "Leaves you when you are in trouble" },
-  { "question": "Q.2 To **'keep the wolf from the door'** means to:", "options": ["Hunt a wolf", "Avoid starvation/poverty", "Guard the house", "Be very brave"], "answer": "Avoid starvation/poverty" },
-  { "question": "Q.3 A **'bolt from the blue'** refers to:", "options": ["An electric shock", "A sudden unexpected event", "A blue sky", "A heavy rain"], "answer": "A sudden unexpected event" },
-  { "question": "Q.4 **'Spilling the beans'** means:", "options": ["Cooking food", "Revealing a secret", "Wasting groceries", "Cleaning"], "answer": "Revealing a secret" },
-  { "question": "Q.5 Being **'in the same boat'** means:", "options": ["Traveling together", "Sharing the same difficult situation", "Working in a ship", "Competing in a race"], "answer": "Sharing the same difficult situation" },
-  { "question": "Q.6 To **'grease the wheels'** implies:", "options": ["Repairing a car", "Making things go smoothly", "Buying a new cycle", "Cleaning the road"], "answer": "Making things go smoothly" },
-  { "question": "Q.7 If you **'burn bridges'**, you:", "options": ["Set fire to property", "Eliminate the possibility of return", "Build a new path", "Travel far away"], "answer": "Eliminate the possibility of return" },
-  { "question": "Q.8 Feeling like a **'fish out of water'** means feeling:", "options": ["Very thirsty", "Uncomfortable in a new situation", "Like a champion", "Cold"], "answer": "Uncomfortable in a new situation" },
-  { "question": "Q.9 If someone **'sits on the fence'**, they:", "options": ["Are repairing the fence", "Avoid taking a side in a decision", "Are very active", "Are watching a match"], "answer": "Avoid taking a side in a decision" },
-  { "question": "Q.10 **'Kick the bucket'** is a slang term for:", "options": ["Playing football", "Dying", "Getting angry", "Cleaning"], "answer": "Dying" },
-  { "question": "Q.11 The **'apple of one's eye'** is someone who is:", "options": ["Healthy", "Precious and dearly loved", "An enemy", "A fruit seller"], "answer": "Precious and dearly loved" },
-  { "question": "Q.12 To **'pull someone's leg'** means to:", "options": ["Help them walk", "Tease or joke with them", "Trip them", "Be rude"], "answer": "Tease or joke with them" },
-  { "question": "Q.13 Getting **'cold feet'** means:", "options": ["Feeling cold", "Suddenly feeling too nervous to do something", "Wearing thin socks", "Being sick"], "answer": "Suddenly feeling too nervous to do something" },
-  { "question": "Q.14 A **'blessing in disguise'** is:", "options": ["A magic trick", "A bad event that has good results later", "A gift from a stranger", "A religious ceremony"], "answer": "A bad event that has good results later" },
-  { "question": "Q.15 Getting the **'lion's share'** means getting:", "options": ["Nothing", "The biggest part", "Food from a lion", "A small portion"], "answer": "The biggest part" },
-  { "question": "Q.16 To **'bell the cat'** is to:", "options": ["Play with a pet", "Take a dangerous risk personally", "Ring a bell", "Be loud"], "answer": "Take a dangerous risk personally" },
-  { "question": "Q.17 Being **'under the thumb'** of someone means:", "options": ["Being small", "Under their complete control", "Being their friend", "Helping them"], "answer": "Under their complete control" },
-  { "question": "Q.18 To **'cry wolf'** means to:", "options": ["Shout at an animal", "Raise a false alarm", "Be very sad", "Hunt"], "answer": "Raise a false alarm" },
-  { "question": "Q.19 If something happens **'out of the blue'**, it is:", "options": ["Expected", "Unexpected", "Colorfully described", "Very slow"], "answer": "Unexpected" },
-  { "question": "Q.20 To **'face the music'** means to:", "options": ["Attend a concert", "Accept unpleasant consequences", "Sing a song", "Dance"], "answer": "Accept unpleasant consequences" },
-  { "question": "Q.21 To **'leave no stone unturned'** is to:", "options": ["Clean a garden", "Try every possible way", "Build a house", "Be lazy"], "answer": "Try every possible way" },
-  { "question": "Q.22 A **'wild goose chase'** refers to:", "options": ["A successful hunt", "A foolish, hopeless pursuit", "A fast race", "Bird watching"], "answer": "A foolish, hopeless pursuit" },
-  { "question": "Q.23 To **'throw in the towel'** means to:", "options": ["Dry oneself", "Give up or admit defeat", "Start a fight", "Clean the floor"], "answer": "Give up or admit defeat" },
-  { "question": "Q.24 To **'hit the sack'** means to:", "options": ["Punch a bag", "Go to bed", "Carry a load", "Wake up"], "answer": "Go to bed" },
-  { "question": "Q.25 To **'smell a rat'** means to:", "options": ["Be a cat", "Suspect something is wrong/dishonest", "Clean a house", "Have a sharp nose"], "answer": "Suspect something is wrong/dishonest" },
-  { "question": "Q.26 **'Letting the cat out of the bag'** means:", "options": ["Freeing a pet", "Revealing a secret by mistake", "Buying a cat", "Being careless with luggage"], "answer": "Revealing a secret by mistake" },
-  { "question": "Q.27 If two people **'see eye to eye'**, they:", "options": ["Are staring", "Agree fully", "Are fighting", "Have good vision"], "answer": "Agree fully" },
-  { "question": "Q.28 A **'piece of cake'** refers to a task that is:", "options": ["Very delicious", "Very easy", "Very hard", "Very long"], "answer": "Very easy" },
-  { "question": "Q.29 To **'keep someone at arm's length'** is to:", "options": ["Measure them", "Avoid being too close/friendly", "Hug them", "Be very kind"], "answer": "Avoid being too close/friendly" },
-  { "question": "Q.30 To **'go the extra mile'** means to:", "options": ["Run a marathon", "Do more than is expected", "Walk far", "Be late"], "answer": "Do more than is expected" }
+  {
+    "question": "Select the most appropriate meaning of the underlined idiom:\nShe proved to be a **fair-weather friend** when I lost my job.",
+    "options": ["Someone who helps only in emergencies", "A person who is reliable in all seasons", "A person who leaves you when you are in trouble", "A friend who loves outdoor activities"],
+    "answer": "A person who leaves you when you are in trouble",
+    "explanation": "• **Fair-weather friend**: A person who is helpful and friendly only when things are going well for you. (Related: Fair-weather). ☀️\n• **Reliable friend**: Someone who stays with you through thick and thin. (Antonym). 🤝"
+  },
+  {
+    "question": "Identify the meaning of the idiom:\n**To keep the wolf from the door**",
+    "options": ["To guard the house against wild animals", "To avoid starvation or extreme poverty", "To live a very luxurious life", "To be extremely brave in danger"],
+    "answer": "To avoid starvation or extreme poverty",
+    "explanation": "• **Avoid poverty**: To have enough money to buy basic food and maintain a household. (Related: Eke out a living). 🐺\n• **Luxurious life**: Living in great comfort and wealth. (Antonym: Hand-to-mouth). 💎"
+  },
+  {
+    "question": "Select the option that best explains the idiom:\n**A bolt from the blue**",
+    "options": ["A loud and frightening thunderclap", "A sudden and unexpected event", "A bright streak of lightning in the sky", "A planned and well-timed occurrence"],
+    "answer": "A sudden and unexpected event",
+    "explanation": "• **Unexpected event**: Something completely unforeseen, like a lightning bolt from a clear blue sky. (Related: Out of the blue). ⚡\n• **Planned event**: Something that was scheduled to happen. (Antonym). 📅"
+  },
+  {
+    "question": "Choose the correct meaning of the underlined idiom:\nI wasn't supposed to know about the party, but Rahul **spilled the beans**.",
+    "options": ["To waste precious groceries", "To reveal a secret accidentally", "To cook a delicious meal", "To perform a clumsy action"],
+    "answer": "To reveal a secret accidentally",
+    "explanation": "• **Reveal secret**: To give away a secret or a surprise, often prematurely. (Related: Let the cat out of the bag). 🫘\n• **Keep a secret**: To withhold information. (Antonym: Keep under wraps). 🤫"
+  },
+  {
+    "question": "What is the meaning of the idiom **'In the same boat'**?",
+    "options": ["Traveling together on a sea voyage", "Sharing the same difficult circumstances", "Working as a team on a large ship", "Competing against each other in a race"],
+    "answer": "Sharing the same difficult circumstances",
+    "explanation": "• **Sharing difficulties**: Being in the same unpleasant situation as other people. (Related: Common ground). 🚣\n• **Competing**: Trying to be better than others. (Related: At odds). 🏁"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom:\n**To grease the wheels**",
+    "options": ["To repair a broken vehicle", "To make things go smoothly", "To bribe someone for work", "To clean a path for travel"],
+    "answer": "To make things go smoothly",
+    "explanation": "• **Make go smoothly**: To facilitate progress or make an interaction easier. (Related: Expedite). ⚙️\n• **Bribe**: Giving money for dishonest help. (Related: Grease the palm). 💸"
+  },
+  {
+    "question": "Identify the meaning of the idiom:\n**To burn one's bridges**",
+    "options": ["To destroy evidence of a crime", "To eliminate the possibility of return", "To build a new path for the future", "To travel to very distant places"],
+    "answer": "To eliminate the possibility of return",
+    "explanation": "• **No return**: To act in a way that you cannot go back to a previous situation or relationship. (Related: Point of no return). 🌉🔥\n• **Build a path**: Creating a new opportunity. (Related: Pave the way). 🛤️"
+  },
+  {
+    "question": "Choose the option that expresses the meaning of the idiom:\n**A fish out of water**",
+    "options": ["Someone who is very thirsty", "Feeling uncomfortable in a new situation", "A person who is a champion swimmer", "Feeling very cold and shivering"],
+    "answer": "Feeling uncomfortable in a new situation",
+    "explanation": "• **Uncomfortable**: Feeling awkward or out of place in unfamiliar surroundings. (Related: Misfit). 🐟\n• **Comfortable**: Feeling at ease. (Antonym: At home). 🏠"
+  },
+  {
+    "question": "Identify the most appropriate meaning of the underlined idiom:\nStop **sitting on the fence** and make a choice!",
+    "options": ["Being very physically active", "Repairing a boundary wall", "Avoiding taking a side in a decision", "Watching a sports match carefully"],
+    "answer": "Avoiding taking a side in a decision",
+    "explanation": "• **Undecided**: Refusing to support either side in an argument or competition. (Related: Wavering). 🚧\n• **Decisive**: Making a clear and firm choice. (Antonym). ✅"
+  },
+  {
+    "question": "What does the slang idiom **'Kick the bucket'** mean?",
+    "options": ["To play a game of football", "To pass away or die", "To get very angry and scream", "To clean the house thoroughly"],
+    "answer": "To pass away or die",
+    "explanation": "• **To die**: An informal, somewhat humorous way to say someone has died. (Related: Passed away). 🪣\n• **Wake up**: To become conscious after sleep. (Antonym). ☀️"
+  },
+  {
+    "question": "Select the meaning of the given idiom:\n**The apple of one's eye**",
+    "options": ["A person who is very healthy", "Someone who is precious and dearly loved", "A bitter enemy from the past", "A professional fruit vendor"],
+    "answer": "Someone who is precious and dearly loved",
+    "explanation": "• **Dearly loved**: Someone who is cherished above all others. (Related: Favorite). 🍎\n• **Hated**: Someone who is disliked. (Antonym: Anathema). 👿"
+  },
+  {
+    "question": "Choose the correct meaning of the idiom:\n**To pull someone's leg**",
+    "options": ["To help someone walk", "To tease or joke with someone", "To make someone trip and fall", "To be extremely rude to others"],
+    "answer": "To tease or joke with someone",
+    "explanation": "• **Tease**: To play a joke on someone by making them believe something that isn't true. (Related: Kidding). 🦵\n• **Serious**: Not joking or teasing. (Antonym: Dead serious). 🧐"
+  },
+  {
+    "question": "Select the option that best explains the idiom:\n**To get cold feet**",
+    "options": ["To suffer from a common cold", "To suddenly feel too nervous to do something", "To wear very thin socks in winter", "To be physically sick or injured"],
+    "answer": "To suddenly feel too nervous to do something",
+    "explanation": "• **Feeling nervous**: To lose courage or confidence at the last minute. (Related: Cold feet). 👣❄️\n• **Confident**: Feeling sure of oneself. (Antonym: Sanguine). 💪"
+  },
+  {
+    "question": "Identify the meaning of the idiom:\n**A blessing in disguise**",
+    "options": ["A clever magic trick", "A bad event that has good results later", "A gift from a total stranger", "A traditional religious ceremony"],
+    "answer": "A bad event that has good results later",
+    "explanation": "• **Hidden good**: Something that seems bad at first but results in something good happening later. (Related: Silver lining). ✨\n• **Hidden problem**: Something that looks good but is bad. (Antonym: Snake in the grass). 🐍"
+  },
+  {
+    "question": "What is the meaning of the idiom **'The lion's share'**?",
+    "options": ["Getting nothing at all", "The largest or best part of something", "Food stolen from a wild animal", "A very small and tiny portion"],
+    "answer": "The largest or best part of something",
+    "explanation": "• **Biggest part**: The majority or the most substantial portion. (Related: Bulk). 🦁\n• **Small portion**: A tiny part. (Antonym: Paucity). 🤏"
+  },
+  {
+    "question": "Choose the most appropriate meaning of the given idiom:\n**To bell the cat**",
+    "options": ["To play with a pet cat", "To take a dangerous risk personally", "To ring a bell for attention", "To be very noisy and loud"],
+    "answer": "To take a dangerous risk personally",
+    "explanation": "• **Personal risk**: To perform a dangerous task for the sake of others. (Related: Bell the cat). 🐈🔔\n• **Safe action**: Doing something without risk. (Antonym). 🛡️"
+  },
+  {
+    "question": "Select the meaning of the underlined idiom:\nHe has been **under the thumb** of his boss for years.",
+    "options": ["Being very small in size", "Under someone's complete control", "Being a very close friend", "Helping someone with work"],
+    "answer": "Under someone's complete control",
+    "explanation": "• **Controlled**: Being completely dominated or influenced by someone. (Related: Subservient). 👍\n• **Independent**: Having the freedom to act. (Antonym). 🗽"
+  },
+  {
+    "question": "Identify the meaning of the idiom:\n**To cry wolf**",
+    "options": ["To shout at a wild animal", "To raise a false alarm", "To be extremely sad", "To hunt for food"],
+    "answer": "To raise a false alarm",
+    "explanation": "• **False alarm**: To ask for help when it's not needed, causing people to ignore future real pleas. (Related: Deceptive). 🐺\n• **Sincere plea**: A genuine call for help. (Antonym). 🆘"
+  },
+  {
+    "question": "Choose the option that expresses the meaning of the idiom:\n**Out of the blue**",
+    "options": ["Expected and planned", "Unexpectedly and suddenly", "A colorfully described event", "Happening very slowly"],
+    "answer": "Unexpectedly and suddenly",
+    "explanation": "• **Suddenly**: Something that happens without warning. (Related: Bolt from the blue). 🌊\n• **Predicted**: Known in advance. (Antonym: Foreseen). 🔮"
+  },
+  {
+    "question": "What does it mean **'To face the music'**?",
+    "options": ["To attend a grand concert", "To accept unpleasant consequences", "To sing a beautiful song", "To dance to a rhythm"],
+    "answer": "To accept unpleasant consequences",
+    "explanation": "• **Accept consequences**: To deal with the criticism or punishment for one’s actions. (Related: Pay the piper). 🎶\n• **Avoid blame**: Trying to escape responsibility. (Antonym). 🏃"
+  },
+  {
+    "question": "Select the most appropriate meaning of the idiom:\n**To leave no stone unturned**",
+    "options": ["To clean a messy garden", "To try every possible way to succeed", "To build a strong house", "To be lazy and idle"],
+    "answer": "To try every possible way to succeed",
+    "explanation": "• **Every possible way**: To make every possible effort to find something or solve a problem. (Related: Exhaustive search). 🪨\n• **Give up**: To stop trying. (Antonym). 🛑"
+  },
+  {
+    "question": "Identify the meaning of the idiom:\n**A wild goose chase**",
+    "options": ["A successful hunting trip", "A foolish and hopeless pursuit", "A very fast athletic race", "Observing birds in nature"],
+    "answer": "A foolish and hopeless pursuit",
+    "explanation": "• **Hopeless pursuit**: A search that is completely unsuccessful or waste of time. (Related: Futile). 🦢\n• **Productive search**: A search that yields results. (Antonym). 💎"
+  },
+  {
+    "question": "Choose the correct meaning of the idiom:\n**To throw in the towel**",
+    "options": ["To dry oneself after a bath", "To give up or admit defeat", "To start a physical fight", "To clean the floor with cloth"],
+    "answer": "To give up or admit defeat",
+    "explanation": "• **Give up**: To stop trying to do something because you realize you cannot succeed. (Related: Capitulate). 🏳️\n• **Persevere**: To continue despite difficulties. (Antonym). 💪"
+  },
+  {
+    "question": "Select the option that best explains the idiom:\n**To hit the sack**",
+    "options": ["To punch a heavy bag", "To go to bed to sleep", "To carry a heavy load", "To wake up early"],
+    "answer": "To go to bed to sleep",
+    "explanation": "• **Sleep**: An informal way to say you are going to sleep. (Related: Hit the hay). 😴\n• **Work**: Engaging in activity. (Antonym). 👷"
+  },
+  {
+    "question": "Identify the meaning of the idiom:\n**To smell a rat**",
+    "options": ["To be a cat in disguise", "To suspect something is wrong or dishonest", "To clean a dirty house", "To have a very sharp nose"],
+    "answer": "To suspect something is wrong or dishonest",
+    "explanation": "• **Suspect dishonesty**: To have a feeling that someone is being deceptive. (Related: Fishy). 🐀\n• **Trustworthy**: Being reliable and honest. (Antonym). ✅"
+  },
+  {
+    "question": "What is the meaning of the idiom **'Letting the cat out of the bag'**?",
+    "options": ["Freeing a trapped pet", "Revealing a secret by mistake", "Buying a new cat", "Being careless with luggage"],
+    "answer": "Revealing a secret by mistake",
+    "explanation": "• **Reveal secret**: To let people know a secret, often without intending to. (Related: Spill the beans). 🐈\n• **Keep secret**: Concealing information. (Antonym). 🤫"
+  },
+  {
+    "question": "Select the most appropriate meaning of the underlined idiom:\nAfter the long debate, the two leaders finally **saw eye to eye**.",
+    "options": ["Were staring at each other", "Agreed with each other fully", "Were fighting physically", "Had very good vision"],
+    "answer": "Agreed with each other fully",
+    "explanation": "• **Agree fully**: To have the same opinion as someone else. (Related: In accord). 👁️\n• **Disagree**: Having different opinions. (Antonym: At loggerheads). 🪵"
+  },
+  {
+    "question": "Choose the correct meaning of the idiom:\n**A piece of cake**",
+    "options": ["Something very delicious", "A task that is very easy", "A task that is very hard", "A task that takes a long time"],
+    "answer": "A task that is very easy",
+    "explanation": "• **Very easy**: Something that requires very little effort to complete. (Related: Child's play). 🍰\n• **Herculean task**: Something requiring massive effort. (Antonym). 💪"
+  },
+  {
+    "question": "Identify the meaning of the idiom:\n**To keep someone at arm's length**",
+    "options": ["To measure someone accurately", "To avoid being too close or friendly", "To hug someone warmly", "To be very kind to others"],
+    "answer": "To avoid being too close or friendly",
+    "explanation": "• **Avoid closeness**: To keep a distance between oneself and another person. (Related: Aloof). 📏\n• **Intimate**: Being very close. (Antonym). ❤️"
+  },
+  {
+    "question": "What does it mean **'To go the extra mile'**?",
+    "options": ["To run a long marathon", "To do more than is expected of you", "To walk a very long distance", "To be late for a meeting"],
+    "answer": "To do more than is expected of you",
+    "explanation": "• **Do more**: To make a special effort to achieve something or help someone. (Related: Surpass). 🏃\n• **Bare minimum**: Doing only what is strictly necessary. (Antonym). 📉"
+  }
 ]
