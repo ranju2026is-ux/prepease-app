@@ -16,7 +16,7 @@
             background-color: #f8fafc; 
             color: #0f172a; 
             overflow: hidden;
-            height: 100vh;
+            height: 100dvh;
             width: 100vw;
             display: flex;
             flex-direction: column;
@@ -33,7 +33,7 @@
             flex-direction: column;
             overflow: hidden;
             padding: 0.5rem;
-            height: calc(100vh - 100px);
+            height: calc(100dvh - 100px);
         }
 
         .anki-card { 
@@ -73,7 +73,9 @@
             overflow-y: auto;
             flex: 1;
             padding-right: 4px;
+            scrollbar-width: none;
         }
+        .scroll-content::-webkit-scrollbar { display: none; }
 
         .premium-card {
             background-color: white;
@@ -81,7 +83,9 @@
             border-radius: 1rem;
             padding: 1rem;
             cursor: pointer;
+            transition: all 0.2s;
         }
+        .premium-card:active { transform: scale(0.98); }
 
         .option-correct { border-color: #10b981 !important; background-color: #ecfdf5 !important; color: #065f46 !important; }
         .option-wrong { border-color: #ef4444 !important; background-color: #fef2f2 !important; color: #991b1b !important; }
@@ -91,9 +95,6 @@
         @media (min-width: 768px) {
             .anki-front, .anki-back { padding: 2rem; }
         }
-
-        .scroll-content::-webkit-scrollbar { width: 4px; }
-        .scroll-content::-webkit-scrollbar-thumb { background: #e2e8f0; border-radius: 10px; }
     </style>
 </head>
 <body class="hero-gradient">
@@ -169,13 +170,6 @@
             ]
         };
 
-        const mts2023Shifts = ["02-May Shift 1", "02-May Shift 2", "13-Jun Shift 1", "20-Jun Shift 3"];
-        const cgl2023Shifts = ["14 July Shift-1", "17 July Shift-1", "27 July Shift-3"];
-        const karnatakaExams = [
-            { id: 'kas', title: 'KPSC KAS', papers: ['2024 Prelims', '2020 Prelims'] },
-            { id: 'psi', title: 'Police PSI', papers: ['2024 Shift-1', '2021 Paper'] }
-        ];
-
         async function fetchJSON(url) {
             try {
                 const res = await fetch(url);
@@ -183,6 +177,7 @@
                 const contentType = res.headers.get('content-type');
                 if (contentType && contentType.includes('text/html')) return null;
                 const text = await res.text();
+                if (text.trim().startsWith('<')) return null;
                 return JSON.parse(text);
             } catch (e) { return null; }
         }
@@ -205,6 +200,7 @@
         window.handleAuth = async () => {
             const userIn = document.getElementById('username-input').value.trim();
             const passIn = document.getElementById('password-input').value;
+            if(!userIn || !passIn) return;
             const email = `${userIn.toLowerCase()}@prepease.internal`;
             try {
                 if (state.authMode === 'signup') {
@@ -216,7 +212,7 @@
                     await signInWithEmailAndPassword(auth, email, passIn);
                 }
                 window.navigateTo('home');
-            } catch (err) { alert("Login failed. Check ID/Password."); }
+            } catch (err) { alert("Login failed."); }
         };
 
         window.handleLogout = async () => {
@@ -253,20 +249,19 @@
             const shell = document.getElementById('app-shell');
             const authBtn = document.getElementById('auth-header-btn');
             if (state.isAuthenticated) {
-                authBtn.innerHTML = `<button onclick="window.handleLogout()" class="text-xs font-bold text-rose-500">LOGOUT</button>`;
+                authBtn.innerHTML = `<button onclick="window.handleLogout()" class="text-[10px] font-bold text-rose-500 uppercase">LOGOUT</button>`;
             } else {
-                authBtn.innerHTML = `<button onclick="window.navigateTo('login')" class="text-xs font-bold text-indigo-600">LOGIN</button>`;
+                authBtn.innerHTML = `<button onclick="window.navigateTo('login')" class="text-[10px] font-bold text-indigo-600">LOGIN</button>`;
             }
             if (!state.isAuthenticated && state.view !== 'login') state.view = 'login';
 
             switch(state.view) {
                 case 'home': shell.innerHTML = renderHome(); break;
                 case 'login': shell.innerHTML = renderLogin(); break;
-                case 'mistakes-book': shell.innerHTML = renderMistakesBook(); break;
+                case 'mistakes-book': shell.innerHTML = renderMasteryBook(); break;
                 case 'english-selection': shell.innerHTML = renderEnglishSelection(); break;
                 case 'topics-grid': shell.innerHTML = renderTopicsGrid(); break;
                 case 'levels-grid': shell.innerHTML = renderLevelsGrid(); break;
-                case 'exams-pyq': shell.innerHTML = renderExamsPYQ(); break;
                 case 'content-view': 
                     shell.innerHTML = `<div id="content-container" class="app-container"></div>`; 
                     loadGenericContent();
@@ -287,14 +282,14 @@
                     <div onclick="window.navigateTo('english-selection')" class="premium-card font-bold border-indigo-100 flex flex-col items-center justify-center py-8">
                         <span class="text-3xl mb-2">🇬🇧</span><span>English</span>
                     </div>
-                    <div onclick="window.navigateTo('exams-pyq', { currentCategory: 'ssc' })" class="premium-card font-bold border-amber-100 flex flex-col items-center justify-center py-8">
-                        <span class="text-3xl mb-2">⚔️</span><span>SSC</span>
+                    <div onclick="window.navigateTo('home')" class="premium-card font-bold border-amber-100 flex flex-col items-center justify-center py-8 opacity-50">
+                        <span class="text-3xl mb-2">⚔️</span><span>SSC Hub</span>
                     </div>
-                    <div onclick="window.navigateTo('exams-pyq', { currentCategory: 'karnataka' })" class="premium-card font-bold border-emerald-100 flex flex-col items-center justify-center py-8">
+                    <div onclick="window.navigateTo('home')" class="premium-card font-bold border-emerald-100 flex flex-col items-center justify-center py-8 opacity-50">
                         <span class="text-3xl mb-2">🏛️</span><span>KA Hub</span>
                     </div>
-                    <div onclick="window.navigateTo('mistakes-book')" class="premium-card font-bold border-rose-100 bg-rose-50/30 flex flex-col items-center justify-center py-8">
-                        <span class="text-3xl mb-2">📓</span><span>Mistakes (${state.mistakes.length})</span>
+                    <div onclick="window.navigateTo('mistakes-book')" class="premium-card font-bold border-emerald-100 bg-emerald-50/30 flex flex-col items-center justify-center py-8">
+                        <span class="text-3xl mb-2">🏆</span><span>Mastery Book (${state.mistakes.length})</span>
                     </div>
                 </div>
             </div>`;
@@ -319,10 +314,10 @@
                 ];
             }
 
-            container.innerHTML = `<div class="p-10 text-center animate-pulse font-bold">Opening...</div>`;
+            container.innerHTML = `<div class="p-10 text-center animate-pulse font-bold">Connecting...</div>`;
             const data = await multiPathFetch(paths);
 
-            if (data) {
+            if (data && Array.isArray(data)) {
                 if (data[0] && data[0].question) {
                     window.activeQuestionsData = data;
                     state.currentQuizIndex = 0;
@@ -336,7 +331,7 @@
                 }
             } else {
                 container.innerHTML = `<div class="p-10 text-center font-bold flex flex-col justify-center h-full">
-                    <p class="text-rose-500 mb-4">Content Not Found</p>
+                    <p class="text-rose-500 mb-4 uppercase text-xs">Content Not Found</p>
                     <button onclick="history.back()" class="bg-slate-100 px-6 py-3 rounded-xl mx-auto uppercase text-xs font-bold">Go Back</button>
                 </div>`;
             }
@@ -344,15 +339,14 @@
 
         window.renderStudyCardUI = () => {
             const item = window.activeStudyData[state.currentStudyIndex];
-            const container = document.getElementById('content-container');
             const flipped = state.currentStudyFlipped ? 'flipped' : '';
-            container.innerHTML = `
+            document.getElementById('content-container').innerHTML = `
                 <div class="anki-card ${flipped}" onclick="window.state.currentStudyFlipped = !window.state.currentStudyFlipped; window.renderStudyCardUI();">
                     <div class="anki-card-inner">
                         <div class="anki-front items-center justify-center text-center">
                             <span class="text-6xl mb-4">${item.emoji || '📗'}</span>
                             <h3 class="text-3xl font-black">${item.word}</h3>
-                            <p class="mt-8 text-[10px] uppercase text-slate-300">Tap to reveal</p>
+                            <p class="mt-8 text-[10px] uppercase text-slate-300">Reveal Meaning</p>
                         </div>
                         <div class="anki-back items-center justify-center text-center">
                             <p class="text-3xl font-bold text-indigo-700 mb-4 font-kannada">${item.meaning_kannada}</p>
@@ -361,9 +355,9 @@
                     </div>
                 </div>
                 <div class="flex gap-2 mt-3 h-14">
-                    <button onclick="window.state.currentStudyIndex--; window.renderStudyCardUI();" class="flex-1 bg-white border-2 rounded-xl font-bold" ${state.currentStudyIndex === 0 ? 'disabled' : ''}>PREV</button>
+                    <button onclick="window.state.currentStudyIndex--; window.renderStudyCardUI();" class="flex-1 bg-white border-2 rounded-xl font-bold" ${state.currentStudyIndex === 0 ? 'disabled opacity-30' : ''}>PREV</button>
                     ${state.currentStudyIndex === window.activeStudyData.length - 1 ? 
-                        `<button onclick="window.navigateTo('home')" class="flex-1 bg-indigo-600 text-white rounded-xl font-bold">HOME</button>` :
+                        `<button onclick="window.navigateTo('home')" class="flex-1 bg-indigo-600 text-white rounded-xl font-bold">DONE</button>` :
                         `<button onclick="window.state.currentStudyIndex++; window.renderStudyCardUI();" class="flex-1 bg-indigo-600 text-white rounded-xl font-bold">NEXT</button>`
                     }
                 </div>`;
@@ -394,7 +388,7 @@
                 </div>`;
         };
 
-        window.handleChoice = (sel, cor) => { state.currentQuizAnswers[state.currentQuizIndex] = {selected: sel, isCorrect: sel === cor}; window.renderQuizUI(); };
+        window.handleChoice = (sel, cor) => { state.currentQuizAnswers[state.currentQuizIndex] = {selected: sel, isCorrect: sel === cor}; renderQuizUI(); };
 
         window.finishQuiz = async () => {
             const questions = window.activeQuestionsData;
@@ -404,9 +398,8 @@
                 if (rec?.isCorrect) score++;
                 else mistakes.push({...q});
             });
-            
             if (auth.currentUser) {
-                const progressId = (state.isSSC || state.isKarnataka) ? `${state.currentExam}_${state.currentShift}` : `${state.currentType}_${state.currentTopic}_${state.currentLevel}`;
+                const progressId = `${state.currentType || 'SSC'}_${state.currentTopic || 'General'}_${state.currentLevel || state.currentShift}`;
                 await setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'progress', progressId), { score, total: questions.length, points: score * 10, completedAt: new Date().toISOString() });
                 for (const m of mistakes) {
                     const mId = btoa(m.question.substring(0, 20)).substring(0, 15);
@@ -420,7 +413,7 @@
             if (state.ankiSelection) return;
             state.ankiSelection = selected;
             render();
-            setTimeout(() => { state.isAnkiFlipped = true; render(); }, 800);
+            setTimeout(() => { if (state.view === 'mistakes-book') { state.isAnkiFlipped = true; render(); } }, 800);
         };
 
         window.resolveAnki = async (correct) => {
@@ -435,27 +428,30 @@
             render();
         };
 
-        function renderMistakesBook() {
-            if (state.mistakes.length === 0) return `<div class="p-10 text-center font-bold flex flex-col justify-center h-full">No Mistakes! 💎<br><button onclick="window.navigateTo('home')" class="mt-4 bg-indigo-600 text-white p-4 rounded-xl mx-auto uppercase text-xs font-bold">Home</button></div>`;
+        function renderMasteryBook() {
+            if (state.mistakes.length === 0) return `<div class="p-10 text-center font-bold flex flex-col justify-center h-full">Full Mastery Achieved! 🏆<br><button onclick="window.navigateTo('home')" class="mt-4 bg-indigo-600 text-white p-4 rounded-xl mx-auto uppercase text-xs font-bold">Home</button></div>`;
             const current = state.mistakes[state.currentAnkiIndex];
             const flipped = state.isAnkiFlipped ? 'flipped' : '';
             return `<div class="app-container">
                 <div class="anki-card ${flipped}">
                     <div class="anki-card-inner">
                         <div class="anki-front">
-                            <p class="text-[9px] font-bold text-rose-500 mb-2 uppercase">Recall Review</p>
+                            <div class="flex justify-between items-center mb-2">
+                                <p class="text-[9px] font-bold text-emerald-500 uppercase">MASTERY CHALLENGE</p>
+                                <span class="text-[9px] font-black text-slate-400">${state.currentAnkiIndex + 1} / ${state.mistakes.length}</span>
+                            </div>
                             <div class="scroll-content">
                                 <h3 class="text-base font-bold mb-4 leading-tight">${current.question}</h3>
                                 <div class="flex flex-col gap-2">
-                                    ${current.options.map(o => `<div onclick="window.handleAnkiChoice('${o.trim()}')" class="p-4 border-2 rounded-xl text-xs font-bold ${state.ankiSelection === o.trim() ? (o.trim() === current.answer.trim() ? 'option-correct' : 'option-wrong') : 'border-slate-50 bg-slate-50/50'}">${o}</div>`).join('')}
+                                    ${current.options.map(o => `<div onclick="window.handleAnkiChoice('${o.trim()}')" class="p-4 border-2 rounded-xl text-xs font-bold transition-all ${state.ankiSelection === o.trim() ? (o.trim() === current.answer.trim() ? 'option-correct' : 'option-wrong') : 'border-slate-50 bg-slate-50/50'}">${o}</div>`).join('')}
                                 </div>
                             </div>
                         </div>
                         <div class="anki-back">
                             <div class="scroll-content"><p class="text-sm leading-relaxed font-kannada">${current.explanation}</p></div>
                             <div class="flex gap-2 mt-3 h-14">
-                                <button onclick="window.resolveAnki(true)" class="flex-1 bg-emerald-600 text-white rounded-xl font-bold text-xs">MASTERED</button>
-                                <button onclick="window.resolveAnki(false)" class="flex-1 bg-rose-600 text-white rounded-xl font-bold text-xs">STILL HARD</button>
+                                <button onclick="window.resolveAnki(true)" class="flex-1 bg-emerald-600 text-white rounded-xl font-bold text-xs uppercase">GOT IT ✅</button>
+                                <button onclick="window.resolveAnki(false)" class="flex-1 bg-rose-600 text-white rounded-xl font-bold text-xs uppercase">STILL HARD ❌</button>
                             </div>
                         </div>
                     </div>
@@ -466,31 +462,31 @@
         function renderLogin() {
             const isLogin = state.authMode === 'login';
             return `<div class="p-6 h-full flex flex-col justify-center items-center">
-                <h2 class="text-3xl font-black mb-6">${isLogin ? 'Welcome' : 'Join'}</h2>
-                <div class="w-full max-w-sm space-y-3">
-                    ${!isLogin ? `<input id="name-input" placeholder="Full Name" class="w-full p-4 border rounded-xl">` : ''}
-                    <input id="username-input" placeholder="ID (Username)" class="w-full p-4 border rounded-xl">
-                    <input id="password-input" type="password" placeholder="Password" class="w-full p-4 border rounded-xl">
-                    <button onclick="window.handleAuth()" class="w-full bg-indigo-600 text-white p-4 rounded-xl font-bold">GO</button>
-                    <p onclick="window.state.authMode = window.state.authMode === 'login' ? 'signup' : 'login'; window.render();" class="text-center text-indigo-500 text-xs cursor-pointer">${isLogin ? 'Create Account' : 'Login'}</p>
+                <h2 class="text-3xl font-black mb-6 tracking-tighter uppercase">PrepEase ${isLogin ? 'Login' : 'Signup'}</h2>
+                <div class="bg-white p-6 rounded-2xl shadow-sm w-full max-w-sm">
+                    ${!isLogin ? `<input id="name-input" placeholder="Full Name" class="w-full p-4 bg-slate-50 rounded-xl mb-3 text-sm border-none outline-none">` : ''}
+                    <input id="username-input" placeholder="Username ID" class="w-full p-4 bg-slate-50 rounded-xl mb-3 text-sm border-none outline-none">
+                    <input id="password-input" type="password" placeholder="Password" class="w-full p-4 bg-slate-50 rounded-xl mb-6 text-sm border-none outline-none">
+                    <button onclick="window.handleAuth()" class="w-full p-4 bg-indigo-600 text-white rounded-xl font-bold uppercase text-xs tracking-widest shadow-lg shadow-indigo-100">GO</button>
+                    <button onclick="window.state.authMode='${isLogin?'signup':'login'}'; window.render();" class="mt-4 text-[10px] text-indigo-500 w-full text-center uppercase tracking-widest font-bold">${isLogin?'Create ID':'Login Now'}</button>
                 </div>
             </div>`;
         }
 
         function renderEnglishSelection() {
-            return `<div class="p-6 h-full overflow-y-auto"><button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40">← BACK</button>
-                <h2 class="text-3xl font-black mb-6">Tracks</h2>
-                <div onclick="window.navigateTo('topics-grid', {currentType:'grammar'})" class="p-6 border rounded-2xl mb-4 bg-white font-bold">Grammar</div>
-                <div onclick="window.navigateTo('topics-grid', {currentType:'vocabulary'})" class="p-6 border rounded-2xl bg-white font-bold">Vocabulary</div>
+            return `<div class="p-6 h-full overflow-y-auto flex flex-col"><button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left">← BACK</button>
+                <h2 class="text-3xl font-black mb-6 tracking-tight">Tracks</h2>
+                <div onclick="window.navigateTo('topics-grid', {currentType:'grammar'})" class="p-6 border rounded-2xl mb-4 bg-white font-bold flex justify-between items-center shadow-sm">Grammar <span>🔡</span></div>
+                <div onclick="window.navigateTo('topics-grid', {currentType:'vocabulary'})" class="p-6 border rounded-2xl bg-white font-bold flex justify-between items-center shadow-sm">Vocabulary <span>📖</span></div>
             </div>`;
         }
 
         function renderTopicsGrid() {
             const topics = topicsData[state.currentType] || [];
-            return `<div class="p-6 h-full overflow-y-auto"><button onclick="window.navigateTo('english-selection')" class="text-xs font-bold mb-4 opacity-40">← BACK</button>
-                <h2 class="text-3xl font-black mb-6 capitalize">${state.currentType}</h2>
+            return `<div class="p-6 h-full overflow-y-auto flex flex-col"><button onclick="window.navigateTo('english-selection')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left">← BACK</button>
+                <h2 class="text-3xl font-black mb-6 capitalize tracking-tight">${state.currentType}</h2>
                 <div class="grid grid-cols-2 gap-3">
-                    ${topics.map(t => `<div onclick="window.navigateTo('levels-grid', {currentTopic:'${t.id}', currentTopicTitle:'${t.title}'})" class="p-6 border rounded-2xl bg-white text-center">
+                    ${topics.map(t => `<div onclick="window.navigateTo('levels-grid', {currentTopic:'${t.id}', currentTopicTitle:'${t.title}'})" class="p-6 border rounded-2xl bg-white text-center shadow-sm">
                         <span class="text-3xl block mb-2">${t.icon}</span><span class="text-xs font-bold">${t.title}</span>
                     </div>`).join('')}
                 </div>
@@ -498,25 +494,10 @@
         }
 
         function renderLevelsGrid() {
-            return `<div class="p-6 h-full overflow-y-auto"><button onclick="history.back()" class="text-xs font-bold mb-4 opacity-40">← BACK</button>
-                <h2 class="text-3xl font-black mb-6">${state.currentTopicTitle}</h2>
+            return `<div class="p-6 h-full overflow-y-auto flex flex-col"><button onclick="history.back()" class="text-xs font-bold mb-4 opacity-40 uppercase text-left">← BACK</button>
+                <h2 class="text-3xl font-black mb-6 tracking-tight">${state.currentTopicTitle}</h2>
                 <div class="grid grid-cols-4 gap-3">
-                    ${[1,2,3,4,5,6,7,8,9,10].map(lv => `<div onclick="window.navigateTo('content-view', {currentLevel:${lv}, isSSC:false, isKarnataka:false})" class="h-16 border-2 rounded-xl flex items-center justify-center font-bold text-lg">${lv}</div>`).join('')}
-                </div>
-            </div>`;
-        }
-
-        function renderExamsPYQ() {
-            const ssc = state.currentCategory === 'ssc';
-            return `<div class="p-6 h-full overflow-y-auto"><button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40">← BACK</button>
-                <h2 class="text-3xl font-black mb-6">${ssc?'SSC':'Karnataka'} Exams</h2>
-                <div class="space-y-3">
-                    ${ssc ? `
-                        <div onclick="window.navigateTo('content-view', {currentShift:0, currentExam:'SSC CGL 2023', isSSC:true})" class="p-6 border rounded-2xl bg-white font-bold">CGL 2023</div>
-                        <div onclick="window.navigateTo('content-view', {currentShift:0, currentExam:'SSC MTS 2023', isSSC:true})" class="p-6 border rounded-2xl bg-white font-bold">MTS 2023</div>
-                    ` : `
-                        ${karnatakaExams.map(e => `<div onclick="window.navigateTo('exams-pyq', {currentExamId:'${e.id}', currentExam:'${e.title}'})" class="p-6 border rounded-2xl bg-white font-bold">${e.title}</div>`).join('')}
-                    `}
+                    ${[1,2,3,4,5,6,7,8,9,10].map(lv => `<div onclick="window.navigateTo('content-view', {currentLevel:${lv}, isSSC:false, isKarnataka:false})" class="h-16 border-2 rounded-xl flex items-center justify-center font-bold text-lg hover:border-indigo-500 transition-all">${lv}</div>`).join('')}
                 </div>
             </div>`;
         }
