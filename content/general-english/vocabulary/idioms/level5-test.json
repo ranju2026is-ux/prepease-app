@@ -1,32 +1,182 @@
 [
-  { "question": "Q.1 To **'show the white feather'** means to show signs of:", "options": ["Bravery", "Cowardice", "Friendship", "Peace"], "answer": "Cowardice" },
-  { "question": "Q.2 Who will **'bell the cat'**? Here the idiom means:", "options": ["To play with a pet", "To take a great personal risk", "To feed a cat", "To ring a bell"], "answer": "To take a great personal risk" },
-  { "question": "Q.3 A **'Herculean task'** is one that requires:", "options": ["No effort", "Tremendous effort", "Very little time", "A lot of money"], "answer": "Tremendous effort" },
-  { "question": "Q.4 To **'leave someone in the lurch'** means:", "options": ["To help them", "To leave them in a difficult situation", "To take them on a trip", "To gift them something"], "answer": "To leave them in a difficult situation" },
-  { "question": "Q.5 **'Greasing the palm'** is a term used for:", "options": ["Applying lotion", "Bribing", "Cleaning hands", "Working hard"], "answer": "Bribing" },
-  { "question": "Q.6 To **'set the Thames on fire'** means to:", "options": ["Cause a disaster", "Do something remarkable", "Pollute the river", "Be a criminal"], "answer": "Do something remarkable" },
-  { "question": "Q.7 A **'dark horse'** in a competition is an:", "options": ["Expected winner", "Unexpected winner", "Animal runner", "Expensive horse"], "answer": "Unexpected winner" },
-  { "question": "Q.8 **'Building castles in the air'** means:", "options": ["Being an architect", "Daydreaming/Unrealistic plans", "Living in a high building", "Travel"], "answer": "Daydreaming/Unrealistic plans" },
-  { "question": "Q.9 To **'feather one's nest'** means to:", "options": ["Build a home for birds", "Make money improperly", "Be very kind", "Clean the house"], "answer": "Make money improperly" },
-  { "question": "Q.10 A **'Spartan life'** is characterized by:", "options": ["Luxury", "Self-discipline and simplicity", "Laziness", "Confusion"], "answer": "Self-discipline and simplicity" },
-  { "question": "Q.11 **'Paying through the nose'** means:", "options": ["Suffering from cold", "Paying an excessive price", "Being very poor", "Getting a discount"], "answer": "Paying an excessive price" },
-  { "question": "Q.12 A **'wild cat strike'** is a strike that is:", "options": ["Led by unions", "Led by animals", "Unauthorized and sudden", "Very peaceful"], "answer": "Unauthorized and sudden" },
-  { "question": "Q.13 To **'wash dirty linen in public'** means to:", "options": ["Work in a laundry", "Discuss private matters openly", "Clean the streets", "Be very hygienic"], "answer": "Discuss private matters openly" },
-  { "question": "Q.14 To be at someone's **'beck and call'** means to be:", "options": ["Always ready to obey them", "Always avoiding them", "Calling them frequently", "A good friend"], "answer": "Always ready to obey them" },
-  { "question": "Q.15 A **'bolt from the blue'** refers to a:", "options": ["Blue sky", "Sudden unexpected event", "Electric shock", "Loud thunder"], "answer": "Sudden unexpected event" },
-  { "question": "Q.16 **'Cooking the accounts'** means:", "options": ["Preparing a meal", "Falsifying financial records", "Learning math", "Buying a book"], "answer": "Falsifying financial records" },
-  { "question": "Q.17 A **'snake in the grass'** is a:", "options": ["Pet snake", "Hidden enemy", "Gardener", "Helpful person"], "answer": "Hidden enemy" },
-  { "question": "Q.18 To **'strain every nerve'** means to:", "options": ["Have a headache", "Make the greatest possible effort", "Be very nervous", "Exercise"], "answer": "Make the greatest possible effort" },
-  { "question": "Q.19 To **'nip in the bud'** means to stop something:", "options": ["At its end", "At an early stage", "In the middle", "Frequently"], "answer": "At an early stage" },
-  { "question": "Q.20 A **'cock and bull story'** is:", "options": ["A story about farm animals", "An improbable excuse", "A true biography", "A children's book"], "answer": "An improbable excuse" },
-  { "question": "Q.21 **'Keeping the pot boiling'** means:", "options": ["Cooking soup", "Keeping an interest going", "Wasting gas", "Being angry"], "answer": "Keeping an interest going" },
-  { "question": "Q.22 A **'storm in a teacup'** is:", "options": ["A major disaster", "Useless anger over a small matter", "A tea party", "A heavy rain"], "answer": "Useless anger over a small matter" },
-  { "question": "Q.23 **'Putting the cart before the horse'** means:", "options": ["Being fast", "Doing things in the wrong order", "Helping an animal", "Being very smart"], "answer": "Doing things in the wrong order" },
-  { "question": "Q.24 To be **'in the doldrums'** means to be:", "options": ["In a state of activity", "In a state of inactivity or depression", "On a holiday", "In a safe place"], "answer": "In a state of inactivity or depression" },
-  { "question": "Q.25 To **'split hairs'** means to argue about:", "options": ["Haircuts", "Trivial and small details", "Important laws", "Everything"], "answer": "Trivial and small details" },
-  { "question": "Q.26 A **'man of straw'** is a person of:", "options": ["Great wealth", "Weak character/No substance", "High intelligence", "Strong muscles"], "answer": "Weak character/No substance" },
-  { "question": "Q.27 To **'read between the lines'** is to:", "options": ["Read very fast", "Understand the hidden meaning", "Read aloud", "Use a magnifying glass"], "answer": "Understand the hidden meaning" },
-  { "question": "Q.28 To **'play fast and loose'** means to act:", "options": ["Quickly and correctly", "Irresponsibly", "Strictly", "Kindly"], "answer": "Irresponsibly" },
-  { "question": "Q.29 To **'face the music'** means to:", "options": ["Enjoy a concert", "Accept unpleasant consequences", "Dance", "Sing a song"], "answer": "Accept unpleasant consequences" },
-  { "question": "Q.30 To **'weather the storm'** is to:", "options": ["Watch the rain", "Survive a difficult situation", "Cause a problem", "Predict the weather"], "answer": "Survive a difficult situation" }
+  {
+    "question": "Q.1 To **'show the white feather'** means to show signs of:",
+    "options": ["Bravery", "Cowardice", "Friendship", "Peace"],
+    "answer": "Cowardice",
+    "explanation": "• **Cowardice**: This originates from cockfighting, where a white feather in a cockerel's tail was seen as a sign of poor breeding and lack of aggression. (Related: Yellow-bellied). 🐔\n• **Bravery**: Courageous behavior. (Antonym: Showing the white feather). 🦁"
+  },
+  {
+    "question": "Q.2 Who will **'bell the cat'**? Here the idiom means:",
+    "options": ["To play with a pet", "To take a great personal risk", "To feed a cat", "To ring a bell"],
+    "answer": "To take a great personal risk",
+    "explanation": "• **Personal risk**: To perform a dangerous task for the benefit of a group. Derived from a fable where mice want to hang a bell on a cat to hear it coming. (Related: Risky business). 🐈🔔\n• **To feed a cat**: Providing food for a pet. (Literal meaning). 🥩"
+  },
+  {
+    "question": "Q.3 A **'Herculean task'** is one that requires:",
+    "options": ["No effort", "Tremendous effort", "Very little time", "A lot of money"],
+    "answer": "Tremendous effort",
+    "explanation": "• **Tremendous effort**: A task of enormous difficulty or strength, referring to the legendary 12 labors of Hercules. (Related: Arduous, Uphill task). 💪\n• **No effort**: Something very easy. (Antonym: A piece of cake). 🍰"
+  },
+  {
+    "question": "Q.4 To **'leave someone in the lurch'** means:",
+    "options": ["To help them", "To leave them in a difficult situation", "To take them on a trip", "To gift them something"],
+    "answer": "To leave them in a difficult situation",
+    "explanation": "• **Difficult situation**: To desert someone when they are in trouble and need help. (Related: Abandon, Strand). 🆘\n• **To help them**: Providing assistance. (Antonym: Lend a hand). 🤝"
+  },
+  {
+    "question": "Q.5 **'Greasing the palm'** is a term used for:",
+    "options": ["Applying lotion", "Bribing", "Cleaning hands", "Working hard"],
+    "answer": "Bribing",
+    "explanation": "• **Bribing**: To give someone money secretly so that they will do something for you, often dishonest. (Related: Kickback, Under the table). 💸\n• **Working hard**: Putting in a lot of effort. (Related: Sweat of one's brow). 👷"
+  },
+  {
+    "question": "Q.6 To **'set the Thames on fire'** means to:",
+    "options": ["Cause a disaster", "Do something remarkable", "Pollute the river", "Be a criminal"],
+    "answer": "Do something remarkable",
+    "explanation": "• **Remarkable**: To do something extraordinary or brilliant. Often used in the negative ('He won't set the Thames on fire') to mean someone is not very clever. (Related: Exceptional). ✨\n• **Cause a disaster**: To create a massive problem. (Related: Catastrophe). 🧨"
+  },
+  {
+    "question": "Q.7 A **'dark horse'** in a competition is an:",
+    "options": ["Expected winner", "Unexpected winner", "Animal runner", "Expensive horse"],
+    "answer": "Unexpected winner",
+    "explanation": "• **Unexpected winner**: A person who little is known about but who unexpectedly wins or succeeds. (Related: Underdog). 🐎\n• **Expected winner**: The person favored to win. (Antonym: Favorite). 🏆"
+  },
+  {
+    "question": "Q.8 **'Building castles in the air'** means:",
+    "options": ["Being an architect", "Daydreaming/Unrealistic plans", "Living in a high building", "Travel"],
+    "answer": "Daydreaming/Unrealistic plans",
+    "explanation": "• **Unrealistic plans**: To create hopes or dreams that have very little chance of happening. (Related: Pipe dream). ☁️🏰\n• **Travel**: Going from one place to another. (Related: Globetrotting). ✈️"
+  },
+  {
+    "question": "Q.9 To **'feather one's nest'** means to:",
+    "options": ["Build a home for birds", "Make money improperly", "Be very kind", "Clean the house"],
+    "answer": "Make money improperly",
+    "explanation": "• **Improper money**: To make yourself rich, especially by taking advantage of your position or using someone else's money. (Related: Self-serving). 🪺\n• **Be very kind**: Showing generosity. (Antonym: Selfish). ❤️"
+  },
+  {
+    "question": "Q.10 A **'Spartan life'** is characterized by:",
+    "options": ["Luxury", "Self-discipline and simplicity", "Laziness", "Confusion"],
+    "answer": "Self-discipline and simplicity",
+    "explanation": "• **Simplicity**: A life that is very simple, strict, and without any luxury. (Related: Austere, Ascetic). 🏛️\n• **Luxury**: A state of great comfort or elegance. (Antonym: Spartan). 💎"
+  },
+  {
+    "question": "Q.11 **'Paying through the nose'** means:",
+    "options": ["Suffering from cold", "Paying an excessive price", "Being very poor", "Getting a discount"],
+    "answer": "Paying an excessive price",
+    "explanation": "• **Excessive price**: To pay much more for something than it is actually worth. (Related: Cost an arm and a leg). 👃💸\n• **Getting a discount**: Buying at a lower price. (Antonym: Bargain). 🏷️"
+  },
+  {
+    "question": "Q.12 A **'wild cat strike'** is a strike that is:",
+    "options": ["Led by unions", "Led by animals", "Unauthorized and sudden", "Very peaceful"],
+    "answer": "Unauthorized and sudden",
+    "explanation": "• **Unauthorized**: A strike action taken by workers without the official support or approval of their trade union. (Related: Spontaneous). 🐈‍⬛🔥\n• **Peaceful**: Without violence or noise. (Antonym: Violent). 🕊️"
+  },
+  {
+    "question": "Q.13 To **'wash dirty linen in public'** means to:",
+    "options": ["Work in a laundry", "Discuss private matters openly", "Clean the streets", "Be very hygienic"],
+    "answer": "Discuss private matters openly",
+    "explanation": "• **Private matters**: To discuss private or embarrassing family/personal matters in front of others. (Related: Air one's grievances). 🧺\n• **Hygienic**: Being clean and healthy. (Literal relation). 🧼"
+  },
+  {
+    "question": "Q.14 To be at someone's **'beck and call'** means to be:",
+    "options": ["Always ready to obey them", "Always avoiding them", "Calling them frequently", "A good friend"],
+    "answer": "Always ready to obey them",
+    "explanation": "• **Ready to obey**: To be constantly available and ready to do whatever someone asks. (Related: Subservient). 🙇‍♂️\n• **Avoiding them**: Keeping away from someone. (Antonym: Keep at arm's length). 📏"
+  },
+  {
+    "question": "Q.15 A **'bolt from the blue'** refers to a:",
+    "options": ["Blue sky", "Sudden unexpected event", "Electric shock", "Loud thunder"],
+    "answer": "Sudden unexpected event",
+    "explanation": "• **Sudden event**: A complete surprise; something that happens very suddenly and unexpectedly. (Related: Out of the blue). ⚡\n• **Loud thunder**: A crash of noise. (Literal relation). ⛈️"
+  },
+  {
+    "question": "Q.16 **'Cooking the accounts'** means:",
+    "options": ["Preparing a meal", "Falsifying financial records", "Learning math", "Buying a book"],
+    "answer": "Falsifying financial records",
+    "explanation": "• **Falsifying records**: To change financial information dishonestly to make a business look more profitable than it is. (Related: Creative accounting). 📊🔥\n• **Preparing a meal**: Cooking food. (Literal meaning). 🍳"
+  },
+  {
+    "question": "Q.17 A **'snake in the grass'** is a:",
+    "options": ["Pet snake", "Hidden enemy", "Gardener", "Helpful person"],
+    "answer": "Hidden enemy",
+    "explanation": "• **Hidden enemy**: A person who pretends to be your friend but is actually working against you. (Related: Traitor, Treacherous). 🐍\n• **Helpful person**: Someone who assists. (Antonym: Good Samaritan). 🤝"
+  },
+  {
+    "question": "Q.18 To **'strain every nerve'** means to:",
+    "options": ["Have a headache", "Make the greatest possible effort", "Be very nervous", "Exercise"],
+    "answer": "Make the greatest possible effort",
+    "explanation": "• **Greatest effort**: To try as hard as possible to do something. (Related: Leave no stone unturned). 🧘‍♂️💪\n• **Headache**: Pain in the head. (Literal medical term). 🤕"
+  },
+  {
+    "question": "Q.19 To **'nip in the bud'** means to stop something:",
+    "options": ["At its end", "At an early stage", "In the middle", "Frequently"],
+    "answer": "At an early stage",
+    "explanation": "• **Early stage**: To stop a problem or bad behavior before it has the chance to develop or grow. (Related: Pre-emptive). 🌱✂️\n• **At its end**: Stopping when finished. (Antonym). 🔚"
+  },
+  {
+    "question": "Q.20 A **'cock and bull story'** is:",
+    "options": ["A story about farm animals", "An improbable excuse", "A true biography", "A children's book"],
+    "answer": "An improbable excuse",
+    "explanation": "• **Improbable excuse**: A story that is obviously not true; an excuse that is hard to believe. (Related: Tall tale). 🐓🐂\n• **True biography**: A factual account of a life. (Antonym). 📖"
+  },
+  {
+    "question": "Q.21 **'Keeping the pot boiling'** means:",
+    "options": ["Cooking soup", "Keeping an interest going", "Wasting gas", "Being angry"],
+    "answer": "Keeping an interest going",
+    "explanation": "• **Keep interest**: To keep a process or an activity going successfully; often refers to earning just enough to live. (Related: Maintain momentum). 🍲\n• **Being angry**: Feeling resentment. (Related: Seething). 😡"
+  },
+  {
+    "question": "Q.22 A **'storm in a teacup'** is:",
+    "options": ["A major disaster", "Useless anger over a small matter", "A tea party", "A heavy rain"],
+    "answer": "Useless anger over a small matter",
+    "explanation": "• **Small matter**: A lot of unnecessary anger or worry about something that is not important. (Related: Much ado about nothing). ☕🌪️\n• **Major disaster**: A catastrophic event. (Antonym). 💥"
+  },
+  {
+    "question": "Q.23 **'Putting the cart before the horse'** means:",
+    "options": ["Being fast", "Doing things in the wrong order", "Helping an animal", "Being very smart"],
+    "answer": "Doing things in the wrong order",
+    "explanation": "• **Wrong order**: To do things in the wrong sequence; to reverse the proper order. (Related: Misplaced priorities). 🛒🐎\n• **Very smart**: Highly intelligent. (Related: Brainy). 🧠"
+  },
+  {
+    "question": "Q.24 To be **'in the doldrums'** means to be:",
+    "options": ["In a state of activity", "In a state of inactivity or depression", "On a holiday", "In a safe place"],
+    "answer": "In a state of inactivity or depression",
+    "explanation": "• **Inactivity**: To be in low spirits or to feel bored and without energy. (Related: Low energy, Gloomy). ⛵📉\n• **Activity**: Being busy and productive. (Antonym). 🏃"
+  },
+  {
+    "question": "Q.25 To **'split hairs'** means to argue about:",
+    "options": ["Haircuts", "Trivial and small details", "Important laws", "Everything"],
+    "answer": "Trivial and small details",
+    "explanation": "• **Small details**: To argue or worry about very small and unimportant differences. (Related: Quibbling, Nitpicking). 💇‍♂️✂️\n• **Important laws**: Crucial legal regulations. (Antonym). ⚖️"
+  },
+  {
+    "question": "Q.26 A **'man of straw'** is a person of:",
+    "options": ["Great wealth", "Weak character/No substance", "High intelligence", "Strong muscles"],
+    "answer": "Weak character/No substance",
+    "explanation": "• **Weak character**: A person who is weak and can be easily influenced or defeated. (Related: Figurehead). 🌾\n• **Great wealth**: Having a lot of money. (Antonym: Pauper). 💰"
+  },
+  {
+    "question": "Q.27 To **'read between the lines'** is to:",
+    "options": ["Read very fast", "Understand the hidden meaning", "Read aloud", "Use a magnifying glass"],
+    "answer": "Understand the hidden meaning",
+    "explanation": "• **Hidden meaning**: To find a meaning that is not expressed directly. (Related: Inferring). 📖🔍\n• **Read fast**: Speed reading. (Related: Skimming). ⚡"
+  },
+  {
+    "question": "Q.28 To **'play fast and loose'** means to act:",
+    "options": ["Quickly and correctly", "Irresponsibly", "Strictly", "Kindly"],
+    "answer": "Irresponsibly",
+    "explanation": "• **Irresponsibly**: To treat something or someone in a way that shows you do not care or feel no responsibility. (Related: Unreliable). 🎲💨\n• **Strictly**: Following rules exactly. (Antonym). 📏"
+  },
+  {
+    "question": "Q.29 To **'face the music'** means to:",
+    "options": ["Enjoy a concert", "Accept unpleasant consequences", "Dance", "Sing a song"],
+    "answer": "Accept unpleasant consequences",
+    "explanation": "• **Accept consequences**: To accept criticism or punishment for something you have done. (Related: Pay the piper). 🎶👮\n• **Enjoy a concert**: To have fun at a musical event. (Literal meaning). 🎸"
+  },
+  {
+    "question": "Q.30 To **'weather the storm'** is to:",
+    "options": ["Watch the rain", "Survive a difficult situation", "Cause a problem", "Predict the weather"],
+    "answer": "Survive a difficult situation",
+    "explanation": "• **Survive difficulty**: To deal with a difficult situation without being harmed or defeated. (Related: Pull through). ⛈️⛵\n• **Cause a problem**: Initiating trouble. (Related: Stir the pot). 🥄"
+  }
 ]
