@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Q.1 The following sentence has been divided into three segments, A, B, C. Identify the segment that contains a grammatical error.\n\nAniket lives (A) / in the small apartment (B) / in the suburbs (C).",
+    "options": ["B", "No error", "A", "C"],
+    "answer": "B",
+    "explanation": "Mastery Insight: 🏠 Article Usage:\n\n• Use 'a' for non-specific singular countable nouns introduced for the first time.\n• **Correction**: Aniket lives in **a** small apartment.\n• 'The' would only be used if the apartment had been mentioned before or was specifically identified. ✅"
+  },
+  {
+    "question": "Q.2 Describe how you will tell everyone that Mr. Akhil opened the gate in passive voice.",
+    "options": [
+      "The gate opened by Mr.Akhil.",
+      "The gate been open by Mr.Akhil.",
+      "Mr.Akhil open the gate.",
+      "The gate was opened by Mr.Akhil."
+    ],
+    "answer": "The gate was opened by Mr.Akhil.",
+    "explanation": "Mastery Insight: 📢 Simple Past Passive:\n\n• **Active**: Mr. Akhil (Subject) + opened (V2) + the gate (Object).\n• **Passive**: The gate (Subject) + **was** + opened (V3) + by Mr. Akhil.\n• Structure: was/were + V3. ✅"
+  },
+  {
+    "question": "Q.3 Select the most appropriate option that can substitute the underlined segment: **Her hopes for building her own house were beaten when she lost her jewellery box.**",
+    "options": [
+      "house were frustrated when",
+      "house were relieved when",
+      "house were dashed when",
+      "house were defeated when"
+    ],
+    "answer": "house were dashed when",
+    "explanation": "Mastery Insight: 💔 Idiomatic Usage:\n\n• **Dashed hopes**: To destroy someone's hopes or expectations (ನಿರಾಸೆಯಾಗುವುದು/ಕನಸು ನುಚ್ಚುನೂರಾಗುವುದು).\n• While 'beaten' or 'defeated' sound similar, the standard collocation for hopes is **'dashed'**. ✅"
+  },
+  {
+    "question": "Q.4 Select the INCORRECTLY spelt word.",
+    "options": ["Advertise", "Aristocrate", "Preference", "Occurrence"],
+    "answer": "Aristocrate",
+    "explanation": "Mastery Insight: ✍️ Spelling Check:\n\n• **Incorrect**: Aristocrate.\n• **Correct**: **Aristocrat** (A-R-I-S-T-O-C-R-A-T) (ಶ್ರೀಮಂತ ಪ್ರಭು/ಕುಲೀನ).\n• Note: There is no 'e' at the end of Aristocrat. ✅"
+  },
+  {
+    "question": "Q.5 Select the most appropriate synonym of the given word.\n\n**Consequence**",
+    "options": ["Start", "Begin", "Outcome", "Origin"],
+    "answer": "Outcome",
+    "explanation": "Mastery Insight: 🎯 **Consequence**: A result or effect of an action or condition (ಪರಿಣಾಮ).\n\n• **Outcome**: The way a thing turns out; a consequence (ಫಲಿತಾಂಶ) - ✅ Synonym.\n• **Origin/Start**: ಆರಂಭ (Antonyms)."
+  },
+  {
+    "question": "Q.6 Select the most appropriate synonym of the given word.\n\n**Unbiased**",
+    "options": ["Definitive", "Subjective", "Objective", "Organisational"],
+    "answer": "Objective",
+    "explanation": "Mastery Insight: ⚖️ **Unbiased**: Showing no prejudice for or against something; impartial (ಪಕ್ಷಪಾತವಿಲ್ಲದ).\n\n• **Objective**: Not influenced by personal feelings or opinions (ನಿಷ್ಪಕ್ಷಪಾತ) - ✅ Synonym.\n• **Subjective**: ವ್ಯಕ್ತಿನಿಷ್ಠ (Antonym)."
+  },
+  {
+    "question": "Q.7 Describe how you will tell your friends that Mr. Ram uses multimedia for teaching the children in passive voice.",
+    "options": [
+      "Multimedia is used for teach the children by Mr. Ram.",
+      "Multimedia is used by Mr. Ram for teaching the children.",
+      "Mr. Ram use multimedia for teaching the children.",
+      "Multimedia is using for teaching the children."
+    ],
+    "answer": "Multimedia is used by Mr. Ram for teaching the children.",
+    "explanation": "Mastery Insight: 📢 Simple Present Passive:\n\n• **Active**: Subject + uses (V1+s) + Object.\n• **Passive**: Object + **is/am/are** + used (V3) + by Subject.\n• Multimedia is singular, so we use 'is used'. ✅"
+  },
+  {
+    "question": "Q.8 Select the most appropriate synonym for the highlighted word: **The government’s utilitarian stance was appreciated by all.**",
+    "options": ["distasteful", "useful", "thrust", "fanciful"],
+    "answer": "useful",
+    "explanation": "Mastery Insight: 🛠️ **Utilitarian**: Designed to be useful or practical rather than attractive (ಉಪಯುಕ್ತ/ಪ್ರಾಯೋಗಿಕ).\n\n• **Useful**: Able to be used for a practical purpose - ✅ Synonym."
+  },
+  {
+    "question": "Q.9 Select the one-word substitute for: **Being careful that every detail of something is correct**",
+    "options": ["Fastidious", "Stubborn", "Impregnable", "Squeamish"],
+    "answer": "Fastidious",
+    "explanation": "Mastery Insight: 🧐 **Fastidious**: Very attentive to and concerned about accuracy and detail (ಸೂಕ್ಷ್ಮಗ್ರಾಹಿ/ಅತಿ ಜಾಗರೂಕ) - ✅.\n• **Stubborn**: ಹಠಮಾರಿ.\n• **Impregnable**: ಅಜೇಯ."
+  },
+  {
+    "question": "Q.10 Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\n\nA. But, while the court’s action solved one problem, it created another...\nB. For instance, the courts directed industries in residential areas in Delhi to close down...\nC. In recent years, while the courts have come out with strong orders on environmental issues...\nD. Several of these industries were polluting the neighbourhood and discharge from these industries were polluting the river Yamuna...",
+    "options": ["BDCA", "BCAD", "CDAB", "CBDA"],
+    "answer": "CBDA",
+    "explanation": "Mastery Insight: 🧩 Logical Flow:\n\n1. **C**: Introduces the general topic of court orders on environment.\n2. **B**: Gives a specific example (Delhi industries).\n3. **D**: Explains the reason for the order (pollution).\n4. **A**: Presents the negative consequence (job loss). ✅"
+  },
+  {
+    "question": "Q.11 Select the one-word substitute for: **A person who draws or produces maps**",
+    "options": ["Cartographer", "Chauffeur", "Calligrapher", "Choreographer"],
+    "answer": "Cartographer",
+    "explanation": "Mastery Insight: 🗺️ Occupations:\n\n• **Cartographer**: A person who creates maps (ನಕ್ಷೆ ತಯಾರಕ) - ✅.\n• **Chauffeur**: ವೃತ್ತಿಪರ ಚಾಲಕ.\n• **Calligrapher**: ಸುಂದರ ಕೈಬರಹಗಾರ."
+  },
+  {
+    "question": "Q.12 Identify the segment that contains an error: **...a boiling temperature, were putting wildlife populations at peril.**",
+    "options": [
+      "which include interfering species, ailments, pollution, and",
+      "The present-century threats to our environment",
+      "a boiling temperature, were putting wildlife populations at peril",
+      "No error"
+    ],
+    "answer": "a boiling temperature, were putting wildlife populations at peril",
+    "explanation": "Mastery Insight: 🌡️ Word Usage:\n\n• 'Boiling temperature' refers to the point liquid turns to gas.\n• Environmental context uses **'Rising temperatures'** or **'Global warming'**.\n• Also, 'peril' is usually used with 'in' or 'at risk'. ✅"
+  },
+  {
+    "question": "Q.13 Select the most appropriate option to substitute: **I don’t wear the sunglasses at the moment.**",
+    "options": ["I wore", "I’m not wearing", "I was wearing", "I didn’t wear"],
+    "answer": "I’m not wearing",
+    "explanation": "Mastery Insight: 🕶️ Present Continuous Tense:\n\n• 'At the moment' indicates an action happening **now**.\n• **Correction**: I **am not wearing** (ನಾನು ಈಗ ಧರಿಸಿಲ್ಲ). ✅"
+  },
+  {
+    "question": "Q.14 Select the most appropriate synonym of the underlined word: **explain this in detail.**",
+    "options": ["Keen", "Elaborate", "Collect", "Trouble"],
+    "answer": "Elaborate",
+    "explanation": "Mastery Insight: 📖 **Detail**: To give full information.\n\n• **Elaborate**: To involve many carefully arranged parts or details; detailed and complicated (ವಿವರಿಸು/ವಿಸ್ತರಿಸು) - ✅ Synonym."
+  },
+  {
+    "question": "Q.15 Select the most appropriate option to substitute: **I have not seen you for last year.**",
+    "options": ["you for last years", "you about last year", "you since last year", "me for last year"],
+    "answer": "you since last year",
+    "explanation": "Mastery Insight: ⏳ Prepositions of Time:\n\n• **For**: Used for a duration/period of time.\n• **Since**: Used for a specific point in time.\n• **Correction**: I have not seen you **since** last year (ಕಳೆದ ವರ್ಷದಿಂದ). ✅"
+  },
+  {
+    "question": "Q.16 Select the synonym of the underlined word: **underscores climate change as “an inevitable and urgent global challenge...**",
+    "options": ["adventurous", "immemorable", "undeniable", "escapable"],
+    "answer": "undeniable",
+    "explanation": "Mastery Insight: ⚓ **Inevitable**: Certain to happen; unavoidable (ಅನಿವಾರ್ಯ).\n\n• **Undeniable**: Unable to be denied or disputed; certain (ನಿರಾಕರಿಸಲಾಗದ) - ✅ Closest Synonym."
+  },
+  {
+    "question": "Q.17 Select the most appropriate option to fill in the blank: **There are rows of chairs on either side of the _______.**",
+    "options": ["aisle", "ail", "I’ll", "isle"],
+    "answer": "aisle",
+    "explanation": "Mastery Insight: 💺 Homophones:\n\n• **Aisle**: A passage between rows of seats (ಸಾಲಿನ ನಡುವಿನ ದಾರಿ) - ✅.\n• **Isle**: A small island (ದ್ವೀಪ).\n• **Ail**: To feel ill."
+  },
+  {
+    "question": "Q.18 Select the meaning of the idiom: **Through thick and thin**",
+    "options": [
+      "Weak and lonely",
+      "Only assist during good times",
+      "Hope during trying times",
+      "In good times and in bad times"
+    ],
+    "answer": "In good times and in bad times",
+    "explanation": "Mastery Insight: 🤝 **Through thick and thin**: Under all conditions, no matter how difficult (ಎಲ್ಲಾ ಸಂದರ್ಭಗಳಲ್ಲೂ/ಸುಖ-ದುಃಖಗಳಲ್ಲಿ) - ✅."
+  },
+  {
+    "question": "Q.19 Select the INCORRECTLY spelt word: **It is wierd to overreact...**",
+    "options": ["Consequences", "Wierd", "Matter", "Overreact"],
+    "answer": "Wierd",
+    "explanation": "Mastery Insight: ✍️ Rule Exception:\n\n• Usually 'i' before 'e', but 'Weird' is an exception.\n• **Incorrect**: Wierd.\n• **Correct**: **Weird** (W-E-I-R-D) (ವಿಚಿತ್ರ). ✅"
+  },
+  {
+    "question": "Q.20 Select the meaning of the idiom: **A blessing in disguise**",
+    "options": [
+      "When a simple solution solves a problem very well",
+      "Has a good effect even though at first it seemed it would be bad",
+      "Has a very good effect on a situation or a thing",
+      "When things get better and better when least expecting it"
+    ],
+    "answer": "Has a good effect even though at first it seemed it would be bad",
+    "explanation": "Mastery Insight: 🎭 **A blessing in disguise**: An apparent misfortune that eventually has good results (ಮರೆಮಾಚಿದ ವರ) - ✅."
+  },
+  {
+    "question": "Cloze Test (1/5): Socrates is flying. No, he is (1) _______ . The wings behind him beat in a calming rhythm...",
+    "options": ["sluggish", "redundant", "pertinent", "soaring"],
+    "answer": "soaring",
+    "explanation": "Mastery Insight: 🦅 Flight Context:\n\n• **Soaring**: Flying or rising high in the air (ಎತ್ತರಕ್ಕೆ ಹಾರುವುದು) - ✅.\n• Sluggish means slow."
+  },
+  {
+    "question": "Cloze Test (2/5): The wings behind him beat in a calming rhythm (2) _______ the cool air rushes past.",
+    "options": ["much", "unless", "while", "since"],
+    "answer": "while",
+    "explanation": "Mastery Insight: ⏳ Simultaenous Actions:\n\n• **While** (ಆಗ/ಸಮಯದಲ್ಲಿ) is used to show two things happening at the same time. ✅"
+  },
+  {
+    "question": "Cloze Test (3/5): His wings are all that matter, (3) _______ at the rushing wind like the sails of some great sea vessel...",
+    "options": ["cleaning", "snapping", "limiting", "losing"],
+    "answer": "snapping",
+    "explanation": "Mastery Insight: ⛵ Nautical Metaphor:\n\n• **Snapping**: Making a sudden sound/movement like a sail catching wind (ಗಾಳಿಗೆ ಪಟಪಟಿಸುವುದು) - ✅."
+  },
+  {
+    "question": "Cloze Test (4/5): His back muscles flex with the (4) _______ that takes him high above the ground.",
+    "options": ["manipulation", "effort", "affection", "litigation"],
+    "answer": "effort",
+    "explanation": "Mastery Insight: 💪 Physical Action:\n\n• Moving wings requires physical **effort** (ಪ್ರಯತ್ನ/ಪರಿಶ್ರಮ). ✅"
+  },
+  {
+    "question": "Cloze Test (5/5): The (5) _______ is pleasurable, even exhilarating. With flight there is freedom beyond description...",
+    "options": ["indignation", "perversion", "lamination", "sensation"],
+    "answer": "sensation",
+    "explanation": "Mastery Insight: 🧠 Feeling:\n\n• **Sensation**: A physical feeling resulting from something that happens to the body (ಅನುಭವ/ಸಂವೇದನೆ) - ✅. ✅"
+  }
+]
