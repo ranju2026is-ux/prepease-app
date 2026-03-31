@@ -1,0 +1,162 @@
+[
+  {
+    "question": "Q.1 Select the most appropriate option that can substitute the underlined segment in the given sentence.\n\nAbhijeet feels extremely tired after working all day long.",
+    "options": ["bare", "depressed", "exhausted", "sleepy"],
+    "answer": "exhausted",
+    "explanation": "Mastery Insight: 😫 **Extremely tired** means you have no energy left.\n\n• **Exhausted**: Completely used up or very tired (ದಣಿದ/ಬಳಲಿದ) - ✅ Synonym.\n• **Depressed**: Low in spirits (ಖಿನ್ನತೆ).\n• **Bare**: ಬರಿದಾದ."
+  },
+  {
+    "question": "Q.2 Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\n\nA. Mendel’s simple ‘Laws of heredity’ came to be widely known and were uncritically assumed to apply to all human characteristics.\nB. With Charles Darwin’s popularisation of the concept of evolution, man became interested in his biological origins and affiliations.\nC. Starting with the work on heredity of Gregor Mendel in the 1860s and the recognition of its significance in 1900, interest shifted to the problem of man’s ontogenetic origins.\nD. This interest was centred on man’s phylogenetic origins.",
+    "options": ["CDBA", "DCAB", "ADCB", "BDCA"],
+    "answer": "BDCA",
+    "explanation": "Mastery Insight: 🧬 Scientific History Flow:\n\n1. **B**: Starts with Darwin's evolution theory sparking interest in origins.\n2. **D**: Specifies that this initial interest was 'phylogenetic' (evolutionary history).\n3. **C**: Shifts the timeline to Mendel and 'ontogenetic' (individual development) origins.\n4. **A**: Concludes with how Mendel's laws became widely assumed. ✅"
+  },
+  {
+    "question": "Q.3 Select the most appropriate option to fill in the blank.\n\nDon’t take the wind out of my _______ and tell me I’m going nowhere with my life.",
+    "options": ["wings", "boat", "sales", "sails"],
+    "answer": "sails",
+    "explanation": "Mastery Insight: ⛵ Idiom Usage:\n\n• **Take the wind out of one's sails**: To make someone feel less confident or enthusiastic (ಉತ್ಸಾಹ ಭಂಗ ಮಾಡು) - ✅.\n• **Sails**: ಪಟಗಳು (of a ship).\n• **Sales**: ಮಾರಾಟ (Homophone error)."
+  },
+  {
+    "question": "Q.4 Arrange the sentences in the correct order to form a meaningful and coherent paragraph.\n\nA. Symptoms like nervousness, increased heart rate and feeling weak are some of the starting signs of anxiety.\nB. Whereas anxiety attacks, sweating, trembling and having a feeling of impending danger might suggest advanced anxiety levels.\nC. Most people don’t even realise they have anxiety or take corrective measures until it amplifies and gets out of control.\nD. Anxiety is a sad reality of today’s time that has plagued a number of us in a variety of different ways.",
+    "options": ["DCAB", "DACB", "CDBA", "CDAB"],
+    "answer": "DCAB",
+    "explanation": "Mastery Insight: 🧠 Psychological Flow:\n\n1. **D**: Introduces the general topic of anxiety.\n2. **C**: Mentions the lack of awareness until it amplifies.\n3. **A**: Lists the starting symptoms.\n4. **B**: Contasts with advanced symptoms. ✅"
+  },
+  {
+    "question": "Q.5 Select the most appropriate option to substitute: **Either you and he will have to pay for this damage.**",
+    "options": ["but he", "nor he", "or he", "with he"],
+    "answer": "or he",
+    "explanation": "Mastery Insight: 🔗 Correlative Conjunctions:\n\n• The word **'Either'** always pairs with **'or'**.\n• **Correction**: Either you **or** he (ನೀನು ಅಥವಾ ಅವನು). ✅"
+  },
+  {
+    "question": "Q.6 Select the one-word substitute for: **Government governed by wealth**",
+    "options": ["Autocracy", "Democracy", "Plutocracy", "Theocracy"],
+    "answer": "Plutocracy",
+    "explanation": "Mastery Insight: 💰 Types of Government:\n\n• **Plutocracy**: Government by the wealthy (ಶ್ರೀಮಂತ ಪ್ರಭುತ್ವ) - ✅.\n• **Theocracy**: ಧರ್ಮಪ್ರಭುತ್ವ.\n• **Autocracy**: ಏಕಪ್ರಭುತ್ವ."
+  },
+  {
+    "question": "Q.7 Select the most appropriate ANTONYM of: **randomly**",
+    "options": ["Unwillingly", "Incidentally", "Systematically", "Casually"],
+    "answer": "Systematically",
+    "explanation": "Mastery Insight: 📊 **Randomly**: Without method or conscious decision (ಯಾದೃಚ್ಛಿಕವಾಗಿ).\n\n• **Systematically**: According to a fixed plan or system (ವ್ಯವಸ್ಥಿತವಾಗಿ) - ✅ Antonym.\n• **Casually**: ಆಕಸ್ಮಿಕವಾಗಿ."
+  },
+  {
+    "question": "Q.8 Select the most appropriate option to fill in the blank.\n\nThe perfume she uses has a strong _________.",
+    "options": ["sent", "scend", "scent", "cent"],
+    "answer": "scent",
+    "explanation": "Mastery Insight: 👃 Homophones:\n\n• **Scent**: A distinctive smell (ಸುವಾಸನೆ/ಪರಿಮಳ) - ✅.\n• **Sent**: ಕಳುಹಿಸಲಾಗಿದೆ (Past of send).\n• **Cent**: ನಾಣ್ಯ."
+  },
+  {
+    "question": "Q.9 Select the passive voice of: **The Mesopotamians invented the decimal system.**",
+    "options": [
+      "The decimal system is invented by the Mesopotamians.",
+      "The decimal system has been invented by the Mesopotamians.",
+      "The decimal system was invented by the Mesopotamians.",
+      "The decimal system is an invention of the Mesopotamians."
+    ],
+    "answer": "The decimal system was invented by the Mesopotamians.",
+    "explanation": "Mastery Insight: 📢 Simple Past Passive:\n\n• **Active**: invented (V2).\n• **Passive**: was/were + V3 (invented).\n• Decimal system is singular, so use **'was invented'**. ✅"
+  },
+  {
+    "question": "Q.10 Select the active voice of: **Most of Earth’s surface is covered by water.**",
+    "options": [
+      "Water covers most of Earth’s surface.",
+      "Water is covering most of Earth’s surface.",
+      "Water has been covering most of Earth’s surface.",
+      "Water has covered most of Earth’s surface."
+    ],
+    "answer": "Water covers most of Earth’s surface.",
+    "explanation": "Mastery Insight: 📢 Simple Present Active:\n\n• **Passive**: is + covered (V3).\n• **Active**: V1/V1+s.\n• 'Water' is uncountable (singular), so use **'covers'** (ಆವರಿಸಿದೆ). ✅"
+  },
+  {
+    "question": "Q.11 Select the INCORRECTLY spelt word.",
+    "options": ["Trasury", "Achieve", "Sprout", "Loyalty"],
+    "answer": "Trasury",
+    "explanation": "Mastery Insight: ✍️ Spelling Check:\n\n• **Incorrect**: Trasury.\n• **Correct**: **Treasury** (T-R-E-A-S-U-R-Y) (ಖಜಾನೆ). ✅"
+  },
+  {
+    "question": "Q.12 Select the most appropriate synonym for: **Authentic**",
+    "options": ["False", "Genuine", "Corrupt", "Doubtful"],
+    "answer": "Genuine",
+    "explanation": "Mastery Insight: ✨ **Authentic**: Of undisputed origin; real (ಅಸಲಿ/ನೈಜ).\n\n• **Genuine**: Truly what something is said to be (ಪ್ರಾಮಾಣಿಕ/ನೈಜ) - ✅ Synonym."
+  },
+  {
+    "question": "Q.13 Identify the segment with an error: **She rarely approached nobody / to talk about the problems...**",
+    "options": ["She rarely approached nobody", "No error", "that she was facing", "to talk about the problems"],
+    "answer": "She rarely approached nobody",
+    "explanation": "Mastery Insight: ❌ Double Negative Error:\n\n• 'Rarely' is already a negative word. Using it with 'nobody' is incorrect.\n• **Correction**: She rarely approached **anybody**. ✅"
+  },
+  {
+    "question": "Q.14 Select the most appropriate ANTONYM for: **absurd**",
+    "options": ["eerie", "ordinary", "realistic", "odd"],
+    "answer": "realistic",
+    "explanation": "Mastery Insight: 🤡 **Absurd**: Wildly unreasonable or illogical (ಅಸಂಬದ್ಧ).\n\n• **Realistic**: Representing things in a way that is accurate and true to life (ವಾಸ್ತವಿಕ) - ✅ Antonym."
+  },
+  {
+    "question": "Q.15 Select the most appropriate synonym for: **Adamant**",
+    "options": ["Soft", "Stubborn", "Adaptable", "Flexible"],
+    "answer": "Stubborn",
+    "explanation": "Mastery Insight: 🧱 **Adamant**: Refusing to be persuaded or to change one's mind (ಛಲದ/ಪಟ್ಟುಹಿಡಿದ).\n\n• **Stubborn**: Having a dogged determination not to change one's attitude (ಹಠಮಾರಿ) - ✅ Synonym."
+  },
+  {
+    "question": "Q.16 Select the INCORRECTLY spelt word.",
+    "options": ["Mischievous", "Mispell", "Miniature", "Metamorphic"],
+    "answer": "Mispell",
+    "explanation": "Mastery Insight: ✍️ Spelling Check:\n\n• **Incorrect**: Mispell.\n• **Correct**: **Misspell** (M-I-S-S-P-E-L-L) (ತಪ್ಪಾಗಿ ಉಚ್ಚರಿಸು/ಬರೆ). It needs double 's'. ✅"
+  },
+  {
+    "question": "Q.17 Select the most appropriate ANTONYM of: **clandestine**",
+    "options": ["Private", "Known", "Sneaky", "Illicit"],
+    "answer": "Known",
+    "explanation": "Mastery Insight: 🕵️ **Clandestine**: Kept secret or done secretively (ರಹಸ್ಯವಾದ).\n\n• **Known**: Recognized or familiar (ತಿಳಿದಿರುವ/ಪ್ರಸಿದ್ಧ) - ✅ Antonym."
+  },
+  {
+    "question": "Q.18 Select the one-word substitute for: **Copying someone else’s work and trying to submit as your own**",
+    "options": ["Cynicism", "Plagiarism", "Hooliganism", "Altruism"],
+    "answer": "Plagiarism",
+    "explanation": "Mastery Insight: 📝 Academic Ethics:\n\n• **Plagiarism**: The practice of taking someone else's work or ideas and passing them off as one's own (ಸಾಹಿತ್ಯ ಚೌರ್ಯ) - ✅."
+  },
+  {
+    "question": "Q.19 Identify the segment with a grammatical error: **Pritha will been cooking / the meal of your choice...**",
+    "options": ["reach home", "the meal of your choice", "Pritha will been cooking", "before you"],
+    "answer": "Pritha will been cooking",
+    "explanation": "Mastery Insight: ⏳ Future Perfect Continuous:\n\n• The structure should be **will have been** + V-ing.\n• **Correction**: Pritha **will have been** cooking. ✅"
+  },
+  {
+    "question": "Q.20 Select the meaning of the idiom: **To go to the dogs**",
+    "options": ["To win support", "To stand on guard", "To win a race", "To become worse"],
+    "answer": "To become worse",
+    "explanation": "Mastery Insight: 📉 **To go to the dogs**: To deteriorate shockingly; to go to ruin (ಹಾಳಾಗು/ಅಧೋಗತಿಗೆ ಇಳಿಯುವುದು) - ✅."
+  },
+  {
+    "question": "Cloze Test (1/5): We need the energy to move and we (1) _________ on oil for it.",
+    "options": ["depend", "settle", "hang", "turn"],
+    "answer": "depend",
+    "explanation": "Mastery Insight: 🔗 Dependency:\n\n• We **depend on** (ಅವಲಂಬಿತವಾಗಿರು) oil for energy. ✅"
+  },
+  {
+    "question": "Cloze Test (2/5): Without it, our jobs, our free time and our mobility (2) _________ all be very different.",
+    "options": ["can", "shall", "could", "will"],
+    "answer": "could",
+    "explanation": "Mastery Insight: 🔮 Probability/Possibility:\n\n• **Could** (ಆಗಬಹುದು) is used here to describe a hypothetical possibility. ✅"
+  },
+  {
+    "question": "Cloze Test (3/5): Every day we (3) _________ 70 million barrels of oil.",
+    "options": ["consume", "absorb", "devour", "take"],
+    "answer": "consume",
+    "explanation": "Mastery Insight: 🍽️ Resource Usage:\n\n• **Consume**: To use up a resource (ಬಳಸುವುದು/ಉಪಯೋಗಿಸುವುದು) - ✅. ✅"
+  },
+  {
+    "question": "Cloze Test (4/5): Total (4) _________ in 1924, and for many years it was a French state oil company.",
+    "options": ["had founded", "were founded", "founded", "was founded"],
+    "answer": "was founded",
+    "explanation": "Mastery Insight: 🏗️ Passive Voice (History):\n\n• A company doesn't found itself; it **was founded** (ಸ್ಥಾಪಿಸಲ್ಪಟ್ಟಿತು) by someone. ✅"
+  },
+  {
+    "question": "Cloze Test (5/5): In 2000, Total (5) _________ with its main French competitor, Elf Aquitaine.",
+    "options": ["incorporate", "join", "merged", "combine"],
+    "answer": "merged",
+    "explanation": "Mastery Insight: 🤝 Business Terms:\n\n• **Merge**: To combine or cause to combine to form a single entity (ವಿಲೀನವಾಯಿತು) - ✅. ✅"
+  }
+]
