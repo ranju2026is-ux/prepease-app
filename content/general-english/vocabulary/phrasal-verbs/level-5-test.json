@@ -1,0 +1,182 @@
+[
+  {
+    "question": "The defense attorney managed to ______ several new documents that proved the defendant's innocence.",
+    "options": ["Adduce", "Abide", "Account", "Adhere"],
+    "answer": "Adduce",
+    "explanation": "• **Adduce**: To cite as evidence or proof. ⚖️\n• **Abide**: To follow a rule. ✅"
+  },
+  {
+    "question": "The graduate student has been ______ at her thesis for nearly eighteen hours a day.",
+    "options": ["Beavering away", "Mucking about", "Keeling over", "Clamming up"],
+    "answer": "Beavering away",
+    "explanation": "• **Beavering away**: Working hard and steadily. 🦫\n• **Mucking about**: Wasting time silly. 🤡"
+  },
+  {
+    "question": "When the detective asked him about the missing files, the suspect suddenly ______.",
+    "options": ["Clammed up", "Chimed in", "Egg on", "Fawn over"],
+    "answer": "Clammed up",
+    "explanation": "• **Clammed up**: To stop talking or refuse to speak. 🤐\n• **Chimed in**: To join a conversation. 🗣️"
+  },
+  {
+    "question": "The villagers manage to ______ a miserable existence by selling dry wood from the forest.",
+    "options": ["Eke out", "Fork out", "Hive off", "Winnow out"],
+    "answer": "Eke out",
+    "explanation": "• **Eke out**: To manage to survive with great effort. 🤏\n• **Fork out**: To pay money reluctantly. 💸"
+  },
+  {
+    "question": "The fans began to ______ the celebrity, hoping to get an autograph or a selfie.",
+    "options": ["Fawn over", "Keel over", "Level with", "Nose around"],
+    "answer": "Fawn over",
+    "explanation": "• **Fawn over**: To give excessive attention or flattery. 🙇\n• **Keel over**: To collapse or faint. 😵"
+  },
+  {
+    "question": "I had to ______ nearly five thousand rupees for the repair of my old smartphone.",
+    "options": ["Fork out", "Siphon off", "Tide over", "Vamp up"],
+    "answer": "Fork out",
+    "explanation": "• **Fork out**: To pay a lot of money reluctantly. 💸\n• **Siphon off**: To steal money from an account. 🧪"
+  },
+  {
+    "question": "The older generation often ______ to the days when life was much simpler and slower.",
+    "options": ["Hark back", "Level with", "Rein in", "Zero in"],
+    "answer": "Hark back",
+    "explanation": "• **Hark back**: To remember or refer to the past. 🔙\n• **Level with**: To be honest with someone. ⚖️"
+  },
+  {
+    "question": "The conglomerate decided to ______ its loss-making textile division into a separate entity.",
+    "options": ["Hive off", "Paper over", "Damp down", "Caveat against"],
+    "answer": "Hive off",
+    "explanation": "• **Hive off**: To separate a part of a business. 🐝\n• **Paper over**: To hide a problem. 📄"
+  },
+  {
+    "question": "The teacher tried to ______ the noise in the classroom before the principal arrived.",
+    "options": ["Damp down", "Chime in", "Bash out", "Egg on"],
+    "answer": "Damp down",
+    "explanation": "• **Damp down**: To reduce the intensity of something. 💧\n• **Egg on**: To encourage someone to do something bad. 🥚"
+  },
+  {
+    "question": "The referee had to ______ the aggressive behavior of the players to maintain the spirit of the game.",
+    "options": ["Rein in", "Muck about", "Knuckle under", "Gird up"],
+    "answer": "Rein in",
+    "explanation": "• **Rein in**: To control or restrain. 🏇\n• **Knuckle under**: To surrender to authority. 👊"
+  },
+  {
+    "question": "I will give you the loan only if you promise to ______ me about your financial status.",
+    "options": ["Level with", "Nose around", "Keel over", "Fawn over"],
+    "answer": "Level with",
+    "explanation": "• **Level with**: To be completely honest. ⚖️\n• **Nose around**: To pry into private matters. 👃"
+  },
+  {
+    "question": "The accountant was caught trying to ______ funds from the charitable trust into his personal account.",
+    "options": ["Siphon off", "Tide over", "Vamp up", "Winnow out"],
+    "answer": "Siphon off",
+    "explanation": "• **Siphon off**: To dishonestly divert money. 🧪\n• **Tide over**: To help through a tough time. 🌊"
+  },
+  {
+    "question": "The interview process is designed to ______ the unsuitable candidates at the very first stage.",
+    "options": ["Winnow out", "Zero in on", "Bash out", "Iron out"],
+    "answer": "Winnow out",
+    "explanation": "• **Winnow out**: To filter or remove unwanted parts. 🌾\n• **Iron out**: To settle small problems. 👔"
+  },
+  {
+    "question": "The athlete decided to ______ his training as the world championship was only a month away.",
+    "options": ["Gird up", "Keel over", "Clam up", "Muck about"],
+    "answer": "Gird up",
+    "explanation": "• **Gird up**: To prepare for a challenge. ⚔️\n• **Keel over**: To faint. 😵"
+  },
+  {
+    "question": "Could you lend me some money to ______ me ______ until I get my salary next week?",
+    "options": ["Tide over", "Siphon off", "Fork out", "Eke out"],
+    "answer": "Tide over",
+    "explanation": "• **Tide over**: To help someone through a difficult period. 🌊\n• **Eke out**: To manage to live with difficulty. 🤏"
+  },
+  {
+    "question": "The manager tried to ______ the disagreements between the two departments by calling a joint meeting.",
+    "options": ["Iron out", "Winnow out", "Bash out", "Hive off"],
+    "answer": "Iron out",
+    "explanation": "• **Iron out**: To resolve minor problems. 👔\n• **Bash out**: To produce something quickly. ⌨️"
+  },
+  {
+    "question": "He was so exhausted by the heat that he suddenly ______ in the middle of the street.",
+    "options": ["Keeled over", "Clammed up", "Beavered away", "Chimed in"],
+    "answer": "Keeled over",
+    "explanation": "• **Keeled over**: To collapse or fall over. 😵\n• **Clammed up**: To stop talking. 🤐"
+  },
+  {
+    "question": "You shouldn't ______ while your friends are working hard to complete the project.",
+    "options": ["Muck about", "Beaver away", "Zero in on", "Gird up"],
+    "answer": "Muck about",
+    "explanation": "• **Muck about**: To waste time or play around. 🤡\n• **Beaver away**: To work hard. 🦫"
+  },
+  {
+    "question": "The investigative journalist began to ______ the politician's private business deals.",
+    "options": ["Nose around", "Fawn over", "Level with", "Keel over"],
+    "answer": "Nose around",
+    "explanation": "• **Nose around**: To snoop or look for private info. 👃\n• **Fawn over**: To flatter someone. 🙇"
+  },
+  {
+    "question": "The developer tried to ______ his poorly built software with a flashy new user interface.",
+    "options": ["Vamp up", "Tide over", "Siphon off", "Fork out"],
+    "answer": "Vamp up",
+    "explanation": "• **Vamp up**: To improve the appearance of something. 💅\n• **Tide over**: To sustain during a crisis. 🌊"
+  },
+  {
+    "question": "We need to ______ the exact location of the leakage to prevent further damage to the pipeline.",
+    "options": ["Zero in on", "Winnow out", "Iron out", "Bash out"],
+    "answer": "Zero in on",
+    "explanation": "• **Zero in on**: To focus or pinpoint. 🎯\n• **Winnow out**: To remove unwanted parts. 🌾"
+  },
+  {
+    "question": "The crooked salesman ______ the damaged car ______ on an unsuspecting buyer.",
+    "options": ["Palmed off", "Papered over", "Damped down", "Chimed in"],
+    "answer": "Palmed off",
+    "explanation": "• **Palmed off**: To dispose of something by deception. 🖐️\n• **Paper over**: To hide a problem. 📄"
+  },
+  {
+    "question": "The government tried to ______ the deep-seated economic crisis by providing temporary relief packages.",
+    "options": ["Paper over", "Hive off", "Eke out", "Winnow out"],
+    "answer": "Paper over",
+    "explanation": "• **Paper over**: To hide problems temporarily. 📄\n• **Hive off**: To separate a business. 🐝"
+  },
+  {
+    "question": "He refused to ______ to the kidnappers' demands despite the constant threats.",
+    "options": ["Knuckle under", "Keel over", "Clam up", "Muck about"],
+    "answer": "Knuckle under",
+    "explanation": "• **Knuckle under**: To yield or submit to authority/pressure. 👊\n• **Keel over**: To fall or faint. 😵"
+  },
+  {
+    "question": "The audience seemed to ______ every word of the motivational speaker's inspiring story.",
+    "options": ["Lap up", "Fawn over", "Level with", "Nose around"],
+    "answer": "Lap up",
+    "explanation": "• **Lap up**: To accept or listen eagerly. 👅\n• **Nose around**: To snoop. 👃"
+  },
+  {
+    "question": "The mischievous boys began to ______ the street dog ______ to bark at the passersby.",
+    "options": ["Egg on", "Bash out", "Damp down", "Chime in"],
+    "answer": "Egg on",
+    "explanation": "• **Egg on**: To instigate or incite. 🥚\n• **Damp down**: To suppress intensity. 💧"
+  },
+  {
+    "question": "The lawyer added a ______ the contract to protect his client from future liabilities.",
+    "options": ["Caveat against", "Rein in", "Muck about", "Gird up"],
+    "answer": "Caveat against",
+    "explanation": "• **Caveat against**: To warn or provide conditions. ⚠️\n• **Gird up**: To prepare for action. ⚔️"
+  },
+  {
+    "question": "If you have an idea, please ______; we need all the input we can get for this brainstorming session.",
+    "options": ["Chime in", "Clam up", "Beaver away", "Bash out"],
+    "answer": "Chime in",
+    "explanation": "• **Chime in**: To join a conversation with an opinion. 🗣️\n• **Clam up**: To stop talking. 🤐"
+  },
+  {
+    "question": "The reporter had to ______ the news story in thirty minutes to meet the evening deadline.",
+    "options": ["Bash out", "Iron out", "Winnow out", "Zero in on"],
+    "answer": "Bash out",
+    "explanation": "• **Bash out**: To produce something quickly. ⌨️\n• **Iron out**: To resolve problems. 👔"
+  },
+  {
+    "question": "The findings of the research ______ nicely ______ the hypothesis mentioned in the introduction.",
+    "options": ["Quadrulate with", "Hive off", "Paper over", "Damp down"],
+    "answer": "Quadrulate with",
+    "explanation": "• **Quadrulate with**: To be in agreement or square with. 🟦\n• **Hive off**: To separate. 🐝"
+  }
+]
