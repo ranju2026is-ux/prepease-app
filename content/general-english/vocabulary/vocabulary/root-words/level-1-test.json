@@ -1,0 +1,182 @@
+[
+  {
+    "question": "If 'Phil' means love and 'Anthro' means human, what is a **Philanthropist**?",
+    "options": ["A person who hates humans", "A person who loves and helps mankind", "A person who studies rocks", "A person who lives alone"],
+    "answer": "A person who loves and helps mankind",
+    "explanation": "• **Phil- (Love)** + **Anthro- (Human)**. 👤❤️\n• **Misanthrope**: A person who hates humans. (Antonym). 😠"
+  },
+  {
+    "question": "Which word describes an object that can be easily **carried**?",
+    "options": ["Visible", "Portable", "Audible", "Credible"],
+    "answer": "Portable",
+    "explanation": "• **Port- (Carry)**. 📦\n• **Visible**: Can be seen (Vis-). 👁️\n• **Audible**: Can be heard (Aud-). 👂\n• **Credible**: Can be believed (Cred-). ✅"
+  },
+  {
+    "question": "A person who is **Ambidextrous** is able to:",
+    "options": ["Walk very fast", "Use both hands with equal skill", "See in the dark", "Speak many languages"],
+    "answer": "Use both hands with equal skill",
+    "explanation": "• **Ambi- (Both/Two)**. 👐\n• **Polyglot**: A person who speaks many languages. 🗣️"
+  },
+  {
+    "question": "What does a **Chronometer** measure?",
+    "options": ["Heat", "Distance", "Time", "Sound"],
+    "answer": "Time",
+    "explanation": "• **Chron- (Time)** + **Meter- (Measure)**. ⏳📏\n• **Thermometer**: Measures heat (Therm-). 🔥"
+  },
+  {
+    "question": "The word **Benevolent** means:",
+    "options": ["Very wealthy", "Kind and well-meaning", "Evil and cruel", "Always late"],
+    "answer": "Kind and well-meaning",
+    "explanation": "• **Bene- (Good/Well)**. 😇\n• **Malevolent**: Wishing evil (Mal-). 👿"
+  },
+  {
+    "question": "If someone is **Omnipresent**, they are:",
+    "options": ["All-powerful", "Present everywhere", "Knowing everything", "Very old"],
+    "answer": "Present everywhere",
+    "explanation": "• **Omni- (All)** + **Present**. ♾️\n• **Omnipotent**: All-powerful. 💪\n• **Omniscient**: All-knowing. 🧠"
+  },
+  {
+    "question": "Which root word is used in words like 'Dictation', 'Dictionary', and 'Predict'?",
+    "options": ["Graph-", "Scribe-", "Dict-", "Voc-"],
+    "answer": "Dict-",
+    "explanation": "• **Dict- (Say/Speak)**. 🗣️\n• **Graph- (Write)**. ✍️"
+  },
+  {
+    "question": "What is the study of the **mind** called?",
+    "options": ["Biology", "Geology", "Psychology", "Pathology"],
+    "answer": "Psychology",
+    "explanation": "• **Psych- (Mind)** + **Logy (Study)**. 🧠\n• **Biology**: Study of life (Bio-). 🌿\n• **Geology**: Study of earth (Geo-). 🌍"
+  },
+  {
+    "question": "If a machine has a **Malfunction**, it is:",
+    "options": ["Working perfectly", "Working badly or not at all", "Working very fast", "A new model"],
+    "answer": "Working badly or not at all",
+    "explanation": "• **Mal- (Bad)** + **Function**. 👿\n• **Beneficial**: Producing good results (Bene-). ✅"
+  },
+  {
+    "question": "An **Autobiography** is a life story written by:",
+    "options": ["A famous historian", "A professional writer", "The person themselves", "A family member"],
+    "answer": "The person themselves",
+    "explanation": "• **Auto- (Self)** + **Bio- (Life)** + **Graph- (Write)**. ✍️👤\n• **Biography**: Life story written by someone else. 📖"
+  },
+  {
+    "question": "The word **Audible** means the sound is:",
+    "options": ["Very loud", "Able to be heard", "Pleasant", "Unbelievable"],
+    "answer": "Able to be heard",
+    "explanation": "• **Aud- (Hear)**. 👂\n• **Incredible**: Unbelievable (Cred-). ❌"
+  },
+  {
+    "question": "What does a **Telescope** help you see?",
+    "options": ["Small germs", "Distant objects", "Inside the body", "Under the water"],
+    "answer": "Distant objects",
+    "explanation": "• **Tele- (Distant)** + **Scope (See)**. 🔭\n• **Microscope**: To see small objects (Micro-). 🔬"
+  },
+  {
+    "question": "If a seat is **Vacant**, it is:",
+    "options": ["Reserved", "Broken", "Empty", "Comfortable"],
+    "answer": "Empty",
+    "explanation": "• **Vac- (Empty)**. 🕳️\n• **Occupied**: Being used. 👤"
+  },
+  {
+    "question": "Which word relates to **water**?",
+    "options": ["Aviation", "Aquatic", "Astronomy", "Auditory"],
+    "answer": "Aquatic",
+    "explanation": "• **Aqua- (Water)**. 💧\n• **Aviation**: Relating to flying. ✈️"
+  },
+  {
+    "question": "A **Monologue** is a speech delivered by:",
+    "options": ["Two people", "A group", "One person", "A silent actor"],
+    "answer": "One person",
+    "explanation": "• **Mono- (One)**. 1️⃣\n• **Dialogue**: Conversation between two (Di-). 👥"
+  },
+  {
+    "question": "Something that is **Incredible** is:",
+    "options": ["Very small", "Difficult to believe", "Easy to carry", "Always true"],
+    "answer": "Difficult to believe",
+    "explanation": "• **In- (Not)** + **Cred- (Believe)**. 🤝❌\n• **Credible**: Believable. ✅"
+  },
+  {
+    "question": "A **Geologist** is a scientist who studies the:",
+    "options": ["Stars", "Animals", "Earth and rocks", "Human mind"],
+    "answer": "Earth and rocks",
+    "explanation": "• **Geo- (Earth)**. 🌍\n• **Astronomer**: Studies stars. ✨"
+  },
+  {
+    "question": "If something is **Visible**, you can ______ it.",
+    "options": ["Hear", "Touch", "See", "Smell"],
+    "answer": "See",
+    "explanation": "• **Vis- (See)**. 👁️\n• **Audible**: Can hear (Aud-). 👂"
+  },
+  {
+    "question": "Which root word means **Death**?",
+    "options": ["Bio-", "Mort-", "Bene-", "Auto-"],
+    "answer": "Mort-",
+    "explanation": "• **Mort- (Death)** as in Mortal/Immortal. 💀\n• **Bio- (Life)**. 🌿"
+  },
+  {
+    "question": "What is the meaning of the root **'Circum'** in 'Circumference'?",
+    "options": ["Inside", "Around", "Through", "Between"],
+    "answer": "Around",
+    "explanation": "• **Circum- (Around)**. 🔄\n• **Inter- (Between)**. ↔️"
+  },
+  {
+    "question": "A **Bibliophile** is a person who loves:",
+    "options": ["Music", "Books", "Travel", "Nature"],
+    "answer": "Books",
+    "explanation": "• **Biblio- (Book)** + **Phil- (Love)**. 📚❤️\n• **Bibliophobia**: Fear of books. 😨"
+  },
+  {
+    "question": "The word **Equilibrium** refers to a state of:",
+    "options": ["Chaos", "Balance", "Speed", "Heat"],
+    "answer": "Balance",
+    "explanation": "• **Equi- (Equal)**. ⚖️\n• **Thermal**: Relating to heat (Therm-). 🔥"
+  },
+  {
+    "question": "Which instrument is used to measure **heat**?",
+    "options": ["Barometer", "Speedometer", "Thermometer", "Odometer"],
+    "answer": "Thermometer",
+    "explanation": "• **Therm- (Heat)** + **Meter- (Measure)**. 🔥📏"
+  },
+  {
+    "question": "What is a **Microscope** used for?",
+    "options": ["Seeing distant stars", "Seeing very small objects", "Measuring sound", "Recording voice"],
+    "answer": "Seeing very small objects",
+    "explanation": "• **Micro- (Small)** + **Scope (See)**. 🔬\n• **Telescope**: Seeing distant objects (Tele-). 🔭"
+  },
+  {
+    "question": "The root **'Graph'** in the word 'Telegraph' means:",
+    "options": ["Listen", "Carry", "Write", "Speak"],
+    "answer": "Write",
+    "explanation": "• **Graph- (Write)**. ✍️\n• **Port- (Carry)**. 📦"
+  },
+  {
+    "question": "To **Describe** something literally means to ______ about it.",
+    "options": ["Talk", "Think", "Write", "Sing"],
+    "answer": "Write",
+    "explanation": "• **Scribe- (Write)**. 📜\n• **Dict- (Say)**. 🗣️"
+  },
+  {
+    "question": "An **Inscribed** ring has words ______ on it.",
+    "options": ["Spoken", "Painted", "Carved/Written", "Glued"],
+    "answer": "Carved/Written",
+    "explanation": "• **Scribe- (Write/Carve)**. 📜✍️"
+  },
+  {
+    "question": "What does **'Empathy'** relate to?",
+    "options": ["Physical strength", "Shared feelings", "Logical thinking", "Economic growth"],
+    "answer": "Shared feelings",
+    "explanation": "• **Path- (Feeling/Emotion)**. ❤️\n• **Apathy**: Lack of feeling. 😐"
+  },
+  {
+    "question": "The root **'Phon'** in 'Telephone' stands for:",
+    "options": ["Sight", "Light", "Sound", "Distance"],
+    "answer": "Sound",
+    "explanation": "• **Phon- (Sound)**. 📞\n• **Photo- (Light)**. 💡"
+  },
+  {
+    "question": "Something that is **Immortal**:",
+    "options": ["Dies young", "Never dies", "Is very sick", "Is human"],
+    "answer": "Never dies",
+    "explanation": "• **Im- (Not)** + **Mort- (Death)**. 💀❌"
+  }
+]
