@@ -1,0 +1,182 @@
+[
+  {
+    "question": "The root word **'Bell-'** as in 'Belligerent' or 'Antebellum' means:",
+    "options": ["Beauty", "War", "Friendship", "Music"],
+    "answer": "War",
+    "explanation": "• **Bell- (War)**. ⚔️\n• **Belligerent**: Hostile or engaged in war.\n• **Rebellion**: An act of armed resistance."
+  },
+  {
+    "question": "A **'Novice'** is a person who is ______ to a field or activity.",
+    "options": ["Old", "Expert", "New", "Famous"],
+    "answer": "New",
+    "explanation": "• **Nov- (New)**. 🆕\n• **Novelty**: The quality of being new or original."
+  },
+  {
+    "question": "Which root word means **'People'**?",
+    "options": ["Demo-", "Corp-", "Gen-", "Reg-"],
+    "answer": "Demo-",
+    "explanation": "• **Demo- (People)**. 👥\n• **Democracy**: Government by the people.\n• **Epidemic**: A disease spreading among people."
+  },
+  {
+    "question": "If something is **'Immutable'**, it means it ______ be changed.",
+    "options": ["Can", "Cannot", "Must", "Should"],
+    "answer": "Cannot",
+    "explanation": "• **Mut- (Change)** + **Im- (Not)**. 🔄❌\n• **Mutation**: A change in form or nature."
+  },
+  {
+    "question": "What does a **'Pedestrian'** use for movement?",
+    "options": ["Cycle", "Car", "Feet", "Plane"],
+    "answer": "Feet",
+    "explanation": "• **Ped- (Foot)**. 🦶\n• **Biped**: An animal that uses two legs/feet for walking."
+  },
+  {
+    "question": "A **'Magnificent'** building is one that is:",
+    "options": ["Small", "Broken", "Great/Grand", "Ugly"],
+    "answer": "Great/Grand",
+    "explanation": "• **Magn- (Great/Large)**. 🔭\n• **Magnify**: To make something appear larger."
+  },
+  {
+    "question": "The root word **'Luc-'** or **'Lum-'** refers to:",
+    "options": ["Darkness", "Light", "Water", "Sound"],
+    "answer": "Light",
+    "explanation": "• **Luc/Lum- (Light)**. 💡\n• **Lucid**: Clear and easy to understand.\n• **Illuminate**: To light up."
+  },
+  {
+    "question": "What is a **'Corpse'**?",
+    "options": ["A lively person", "A dead body", "A group of soldiers", "A tall tree"],
+    "answer": "A dead body",
+    "explanation": "• **Corp- (Body)**. 🧘\n• **Corporal**: Relating to the human body."
+  },
+  {
+    "question": "To **'Eject'** someone from a room means to ______ them out.",
+    "options": ["Pull", "Call", "Throw", "Invite"],
+    "answer": "Throw",
+    "explanation": "• **Ject- (Throw)** + **E- (Out)**. ☄️\n• **Reject**: To throw back or refuse."
+  },
+  {
+    "question": "If a volcano **'Erupts'**, it ______ out.",
+    "options": ["Freezes", "Bursts", "Sleeps", "Melts"],
+    "answer": "Bursts",
+    "explanation": "• **Rupt- (Break/Burst)**. 🌋\n• **Interrupt**: To break into a conversation."
+  },
+  {
+    "question": "A **'Dormant'** account is one that is currently:",
+    "options": ["Active", "Inactive/Sleeping", "Rich", "Deleted"],
+    "answer": "Inactive/Sleeping",
+    "explanation": "• **Dorm- (Sleep)**. 💤\n• **Dormitory**: A large bedroom for a number of people."
+  },
+  {
+    "question": "What does an **'Advocate'** do with their voice?",
+    "options": ["Sings", "Whispers", "Calls for/Supports", "Stops talking"],
+    "answer": "Calls for/Supports",
+    "explanation": "• **Voc- (Voice/Call)**. 🗣️\n• **Vocal**: Relating to the human voice."
+  },
+  {
+    "question": "The root **'Pater-'** in 'Paternal' or 'Patriot' means:",
+    "options": ["Mother", "Brother", "Father", "Leader"],
+    "answer": "Father",
+    "explanation": "• **Pater/Patr- (Father)**. 👨\n• **Patricide**: The killing of one's father."
+  },
+  {
+    "question": "Which word means to **'cut apart'** for study?",
+    "options": ["Construct", "Dissect", "Attract", "Transmit"],
+    "answer": "Dissect",
+    "explanation": "• **Sect- (Cut)** + **Dis- (Apart)**. ✂️\n• **Section**: A distinct part or piece."
+  },
+  {
+    "question": "If you **'Attract'** something, you ______ it towards you.",
+    "options": ["Push", "Pull", "Throw", "Break"],
+    "answer": "Pull",
+    "explanation": "• **Tract- (Pull/Drag)**. 🚜\n• **Extract**: To pull something out."
+  },
+  {
+    "question": "The word **'Acrimonious'** describes a relationship that is:",
+    "options": ["Sweet", "Bitter/Sharp", "Friendly", "New"],
+    "answer": "Bitter/Sharp",
+    "explanation": "• **Acri- (Bitter/Sharp)**. 🍋\n• **Acid**: A sour or sharp substance."
+  },
+  {
+    "question": "A **'Solitary'** person prefers to be:",
+    "options": ["In a crowd", "Alone", "In war", "In a factory"],
+    "answer": "Alone",
+    "explanation": "• **Sol- (Alone)**. 🧘‍♂️\n• **Solo**: A performance by one person."
+  },
+  {
+    "question": "To **'Precede'** someone means to ______ before them.",
+    "options": ["Walk", "Run", "Go", "Stay"],
+    "answer": "Go",
+    "explanation": "• **Cede/Ceed- (Go)** + **Pre- (Before)**. 🚶\n• **Proceed**: To go forward."
+  },
+  {
+    "question": "An **'Inspector'** is one who ______ into things.",
+    "options": ["Throws", "Looks", "Sends", "Builds"],
+    "answer": "Looks",
+    "explanation": "• **Spec- (Look/See)** + **In- (Into)**. 🕵️\n• **Spectacles**: Glasses used for seeing."
+  },
+  {
+    "question": "To **'Construct'** a bridge is to ______ it.",
+    "options": ["Destroy", "Build", "Paint", "Sell"],
+    "answer": "Build",
+    "explanation": "• **Struct- (Build)**. 🏗️\n• **Structure**: Something that has been built."
+  },
+  {
+    "question": "What is **'Genealogy'** the study of?",
+    "options": ["Rocks", "Stars", "Birth/Family history", "Ocean"],
+    "answer": "Birth/Family history",
+    "explanation": "• **Gen- (Birth/Race)**. 🐣\n• **Generation**: All of the people born at about the same time."
+  },
+  {
+    "question": "To **'Transmit'** a signal is to ______ it across a distance.",
+    "options": ["Hold", "Throw", "Send", "Break"],
+    "answer": "Send",
+    "explanation": "• **Mit- (Send)** + **Trans- (Across)**. 📤\n• **Mission**: An important assignment sent to someone."
+  },
+  {
+    "question": "Which root word refers to **'making'** or **'doing'**?",
+    "options": ["Fac-", "Pac-", "Loc-", "Vac-"],
+    "answer": "Fac-",
+    "explanation": "• **Fac- (Make/Do)**. 🏗️\n• **Factory**: A place where goods are manufactured."
+  },
+  {
+    "question": "A **'Pacific'** ocean is named so because it is:",
+    "options": ["Deep", "Large", "Peaceful", "Salty"],
+    "answer": "Peaceful",
+    "explanation": "• **Pac- (Peace)**. 🕊️\n• **Pacifier**: Something that makes a baby calm or peaceful."
+  },
+  {
+    "question": "The **'Location'** of an object is its:",
+    "options": ["Price", "Color", "Place", "Weight"],
+    "answer": "Place",
+    "explanation": "• **Loc- (Place)**. 📍\n• **Dislocate**: To move something out of its place."
+  },
+  {
+    "question": "If you **'Digress'** from a topic, you ______ away from it.",
+    "options": ["Step", "Run", "Jump", "Fly"],
+    "answer": "Step",
+    "explanation": "• **Gress- (Step/Go)**. 👣\n• **Progress**: Stepping forward."
+  },
+  {
+    "question": "What does a **'Vital'** organ mean?",
+    "options": ["Small", "Unnecessary", "Essential for life", "Useless"],
+    "answer": "Essential for life",
+    "explanation": "• **Vit- (Life)**. ⚡\n• **Revive**: To bring back to life."
+  },
+  {
+    "question": "To **'Prevent'** something is to stop it from ______.",
+    "options": ["Going", "Sending", "Coming", "Breaking"],
+    "answer": "Coming",
+    "explanation": "• **Ven/Vent- (Come)** + **Pre- (Before)**. 🚶‍♂️\n• **Event**: Something that comes or happens."
+  },
+  {
+    "question": "If you are **'Perplexed'**, your mind is ______.",
+    "options": ["Clear", "Tangled/Confused", "Happy", "Empty"],
+    "answer": "Tangled/Confused",
+    "explanation": "• **Plex- (Fold/Tangle)**. 🌀\n• **Complex**: Complicated or having many parts."
+  },
+  {
+    "question": "A **'Regal'** dress is suitable for a:",
+    "options": ["Beggar", "Worker", "King/Queen", "Student"],
+    "answer": "King/Queen",
+    "explanation": "• **Reg- (Rule/Guide)**. 👑\n• **Regime**: A system of government or rule."
+  }
+]
