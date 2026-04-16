@@ -1,0 +1,182 @@
+[
+  {
+    "question": "An **'Atheist'** is someone who is ______ belief in God.",
+    "options": ["With", "Without", "Against", "Before"],
+    "answer": "Without",
+    "explanation": "• **A- / An- (Without)**. 🚫\n• Amoral: Without a sense of moral responsibility."
+  },
+  {
+    "question": "What does a **'Carnivore'** primarily eat?",
+    "options": ["Plants", "Meat/Flesh", "Everything", "Nothing"],
+    "answer": "Meat/Flesh",
+    "explanation": "• **Carn- (Flesh)** + **Vor- (Eat)**. 🥩\n• Herbivore: Plant-eater (Herba-)."
+  },
+  {
+    "question": "Which word describes something done **by hand**?",
+    "options": ["Automatic", "Manual", "Digital", "Visual"],
+    "answer": "Manual",
+    "explanation": "• **Man- (Hand)**. ✍️\n• Manuscript: A document written by hand."
+  },
+  {
+    "question": "The root **'Cracy-'** in Democracy or Autocracy stands for:",
+    "options": ["Peace", "Rule / Government", "People", "King"],
+    "answer": "Rule / Government",
+    "explanation": "• **Cracy- (Rule)**. 🏛️\n• Plutocracy: Rule by the wealthy (Pluto-)."
+  },
+  {
+    "question": "A **'Misanthrope'** is someone who ______ humans.",
+    "options": ["Loves", "Hates", "Studies", "Helps"],
+    "answer": "Hates",
+    "explanation": "• **Mis- (Hate)** + **Anthro- (Human)**. ❌👤\n• Misogynist: A person who hates women."
+  },
+  {
+    "question": "If you are **'Omnipotent'**, you are:",
+    "options": ["Present everywhere", "Knowing all", "All-powerful", "Always happy"],
+    "answer": "All-powerful",
+    "explanation": "• **Omni- (All)** + **Poten- (Power)**. 💪\n• Potential: Having the capacity to become powerful."
+  },
+  {
+    "question": "Which root word refers to **'Marriage'**?",
+    "options": ["Gamy-", "Amat-", "Pater-", "Gen-"],
+    "answer": "Gamy-",
+    "explanation": "• **Gamy- (Marriage)**. 💍\n• Bigamy: Marrying someone while already married to another."
+  },
+  {
+    "question": "To **'Exclaim'** literally means to ______.",
+    "options": ["Write out", "Shout out", "Think out", "Carry out"],
+    "answer": "Shout out",
+    "explanation": "• **Claim / Clam- (Shout)**. 📢\n• Clamour: A loud and confused noise."
+  },
+  {
+    "question": "What is the meaning of the root **'Jud-'** in 'Prejudice'?",
+    "options": ["Kindness", "Judgment / Law", "Hate", "Speed"],
+    "answer": "Judgment / Law",
+    "explanation": "• **Jud- (Judge)**. ⚖️\n• Judicial: Relating to a court or judge."
+  },
+  {
+    "question": "A **'Sedentary'** job is one where you ______ most of the time.",
+    "options": ["Stand", "Walk", "Sit", "Run"],
+    "answer": "Sit",
+    "explanation": "• **Sed- (Sit)**. 🪑\n• Residence: The place where one 'sits' or lives."
+  },
+  {
+    "question": "The word **'Amiable'** describes a person who is:",
+    "options": ["Angry", "Friendly / Likable", "Smart", "Rich"],
+    "answer": "Friendly / Likable",
+    "explanation": "• **Am- / Amat- (Friend / Love)**. ❤️\n• Amateur: One who does a task for the love of it."
+  },
+  {
+    "question": "What does **'Extraterrestrial'** mean?",
+    "options": ["Inside earth", "Outside earth", "Near earth", "Above earth"],
+    "answer": "Outside earth",
+    "explanation": "• **Extra- (Outside)** + **Terra (Earth)**. 🚀\n• Extraordinary: Beyond what is ordinary."
+  },
+  {
+    "question": "Which word relates to **'Light'** passing through a surface?",
+    "options": ["Transparent", "Translucent", "Opaque", "Vivid"],
+    "answer": "Translucent",
+    "explanation": "• **Luc / Lum- (Light)**. 💡\n• Luminary: A leading light in a particular field."
+  },
+  {
+    "question": "To **'Revert'** to a previous state means to go ______.",
+    "options": ["Forward", "Backward / Again", "Downward", "Upward"],
+    "answer": "Backward / Again",
+    "explanation": "• **Re- (Again / Back)**. 🔁\n• Reiterate: To say or do something again."
+  },
+  {
+    "question": "The **'Capital'** city is the ______ city of a state.",
+    "options": ["Smallest", "Head / Main", "Oldest", "Wealthiest"],
+    "answer": "Head / Main",
+    "explanation": "• **Capi- (Head)**. 👤\n• Capsize: To tip over the 'head' (used for boats)."
+  },
+  {
+    "question": "If you have a **'Phobia'** of heights, you have a/an ______ of them.",
+    "options": ["Love", "Fear", "Understanding", "Idea"],
+    "answer": "Fear",
+    "explanation": "• **Phobia- (Fear)**. 😨\n• Hydrophobia: Fear of water."
+  },
+  {
+    "question": "To **'Distort'** the truth is to ______ it.",
+    "options": ["Speak", "Write", "Twist", "Hide"],
+    "answer": "Twist",
+    "explanation": "• **Tort- (Twist)**. 🥨\n• Tortuous: Full of twists and turns."
+  },
+  {
+    "question": "A **'Dialogue'** consists of ______ between people.",
+    "options": ["Fights", "Words / Reason", "Gifts", "Secrets"],
+    "answer": "Words / Reason",
+    "explanation": "• **Log- (Word / Reason)**. 📚\n• Prologue: Words spoken before a play."
+  },
+  {
+    "question": "A **'Voracious'** reader is someone who ______ books greedily.",
+    "options": ["Writes", "Hates", "Devours / Eats", "Sells"],
+    "answer": "Devours / Eats",
+    "explanation": "• **Vor- (Eat)**. 🍽️\n• Herbivore: One that eats grass."
+  },
+  {
+    "question": "If a seat is **'Vacant'**, it is:",
+    "options": ["Full", "Broken", "Empty", "New"],
+    "answer": "Empty",
+    "explanation": "• **Vac- (Empty)**. 🕳️\n• Vacuum: A space entirely devoid of matter."
+  },
+  {
+    "question": "The **'Navy'** is a branch of the military that uses:",
+    "options": ["Planes", "Tanks", "Ships", "Horses"],
+    "answer": "Ships",
+    "explanation": "• **Nav- (Ship)**. 🚢\n• Navigate: To plan and direct the route of a ship."
+  },
+  {
+    "question": "Which root refers to the **'Heart'** or **'Courage'**?",
+    "options": ["Cor-", "Capi-", "Carn-", "Grad-"],
+    "answer": "Cor-",
+    "explanation": "• **Cor- / Cour- (Heart)**. 💖\n• Cordial: Warm and friendly (from the heart)."
+  },
+  {
+    "question": "To **'Alternative'** something is to find a/an ______ choice.",
+    "options": ["Same", "Other / Different", "Wrong", "Easy"],
+    "answer": "Other / Different",
+    "explanation": "• **Alter- (Other)**. 🔄\n• Alter ego: A person's secondary or alternative self."
+  },
+  {
+    "question": "A **'Query'** is a/an:",
+    "options": ["Answer", "Question / Search", "Result", "Problem"],
+    "answer": "Question / Search",
+    "explanation": "• **Quer- (Ask / Seek)**. ❓\n• Inquisitive: Curious or inquiring."
+  },
+  {
+    "question": "If you **'Abstain'** from something, you stay ______ it.",
+    "options": ["Near", "Inside", "Away from", "Below"],
+    "answer": "Away from",
+    "explanation": "• **Ab- (Away / From)**. 🏃\n• Absent: Not present (away from)."
+  },
+  {
+    "question": "To **'Adhere'** to a rule is to stick ______ it.",
+    "options": ["Away from", "To", "Under", "Behind"],
+    "answer": "To",
+    "explanation": "• **Ad- (To / Toward)**. ➡️\n• Advance: To move forward."
+  },
+  {
+    "question": "The word **'Gradual'** means happening ______.",
+    "options": ["Suddenly", "Step by step", "At night", "Never"],
+    "answer": "Step by step",
+    "explanation": "• **Grad- (Step)**. 🪜\n• Graduate: To complete a 'step' or degree of study."
+  },
+  {
+    "question": "A **'Spectator'** is someone who ______ an event.",
+    "options": ["Plays in", "Watches / Sees", "Records", "Ignores"],
+    "answer": "Watches / Sees",
+    "explanation": "• **Spec- (Look)**. 👁️\n• Inspect: To look into carefully."
+  },
+  {
+    "question": "To **'Contain'** something is to ______ it together.",
+    "options": ["Break", "Hold", "Throw", "Release"],
+    "answer": "Hold",
+    "explanation": "• **Tain / Ten- (Hold)**. ✊\n• Tenant: One who holds or rents a property."
+  },
+  {
+    "question": "The root **'Im-'** in 'Impossible' means:",
+    "options": ["Very", "Not", "Always", "Possible"],
+    "answer": "Not",
+    "explanation": "• **Im- / In- (Not)**. ❌\n• Invisible: Not able to be seen."
+  }
+]
