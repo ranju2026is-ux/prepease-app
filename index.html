@@ -98,11 +98,7 @@
         </div>
     </nav>
 
-    <main id="app-shell" class="flex-grow overflow-hidden">
-        <div class="h-full flex items-center justify-center">
-            <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-indigo-600"></div>
-        </div>
-    </main>
+    <main id="app-shell" class="flex-grow overflow-hidden"></main>
 
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
@@ -140,13 +136,28 @@
             currentQuizAnswers: {},
             currentCategory: null,
             currentExam: null,
+            currentTopicTitle: '',
             activeMode: 'none',
             quizResults: null,
             authError: null
         };
         window.state = state;
 
-        // --- GLOBAL WRAPPERS ---
+        const topicsData = {
+            grammar: [
+                { id: 'nouns', title: 'Nouns', icon: '🔡' }, { id: 'pronouns', title: 'Pronouns', icon: '👤' }, { id: 'verbs', title: 'Verbs', icon: '🏃' }, { id: 'adjectives', title: 'Adjectives', icon: '🎨' }, { id: 'adverbs', title: 'Adverbs', icon: '⚡' }, { id: 'tenses', title: 'Tenses', icon: '⏳' }, { id: 'prepositions', title: 'Prepositions', icon: '📍' }, { id: 'conjunctions', title: 'Conjunctions', icon: '🔗' }, { id: 'articles', title: 'Articles', icon: '🅰️' }, { id: 'subject-verb', title: 'Subject-Verb Agreement', icon: '🤝' }, { id: 'voice', title: 'Active & Passive Voice', icon: '📣' }, { id: 'narration', title: 'Direct & Indirect Speech', icon: '💬' }
+            ],
+            vocabulary: [
+                { id: 'synonyms', title: 'Synonyms', icon: '📖' }, { id: 'antonyms', title: 'Antonyms', icon: '🌓' }, { id: 'idioms', title: 'Idioms & Phrases', icon: '🎭' }, { id: 'one-word-sub', title: 'One Word Substitution', icon: '🎯' }, { id: 'phrasal-verbs', title: 'Phrasal Verbs', icon: '🔄' }, { id: 'spellings', title: 'Spelling Mastery', icon: '✏️' }, { id: 'root-words', title: 'Root Words', icon: '🌱' }, { id: 'confusing-words', title: 'Confusing Words', icon: '❓' }
+            ]
+        };
+
+        const cgl2023Shifts = Array.from({length: 40}, (_, i) => {
+            const date = i < 4 ? "14 July" : i < 8 ? "17 July" : i < 12 ? "18 July" : i < 16 ? "19 July" : i < 20 ? "20 July" : i < 24 ? "21 July" : i < 28 ? "24 July" : i < 32 ? "25 July" : i < 36 ? "26 July" : "27 July";
+            const shift = (i % 4) + 1; return `${date} Shift-${shift}`;
+        });
+
+        // --- CORE NAVIGATION ---
         window.navigateTo = (view, params = {}, fromPopState = false) => {
             Object.assign(state, params);
             state.view = view;
@@ -155,6 +166,7 @@
             document.body.style.overflow = (['content-view', 'mistakes-book', 'results'].includes(view)) ? 'hidden' : 'auto';
         };
 
+        // --- AUTH HANDLERS ---
         window.handleAuth = async () => {
             const userIn = document.getElementById('username-input').value.trim();
             const passIn = document.getElementById('password-input').value;
@@ -172,7 +184,6 @@
                 } else {
                     await signInWithEmailAndPassword(auth, email, passIn);
                 }
-                // Navigation handled by onAuthStateChanged
             } catch (err) {
                 state.authError = "Invalid ID or Password.";
                 window.render();
@@ -186,7 +197,42 @@
             window.navigateTo('login');
         };
 
-        // --- DATA & RENDER ENGINE ---
+        // --- GESTURE LOGIC ---
+        window.startX = 0;
+        window.handleTouchStart = (e) => window.startX = e.changedTouches[0].screenX;
+        window.handleTouchEnd = (e) => {
+            const diff = window.startX - e.changedTouches[0].screenX;
+            if (Math.abs(diff) < 50) return;
+            if (diff > 50) window.moveNext(); else window.movePrev();
+        };
+
+        window.moveNext = () => {
+            if (state.view === 'mistakes-book' && state.mistakes.length > 0) {
+                state.currentAnkiIndex = (state.currentAnkiIndex + 1) % state.mistakes.length;
+                state.ankiSelection = null; window.render();
+            } else if (state.activeMode === 'study') {
+                if (state.currentStudyIndex < (window.activeStudyData || []).length - 1) { 
+                    state.currentStudyIndex++; window.renderStudyCardUI(); 
+                } else window.loadQuiz();
+            } else if (state.activeMode === 'quiz') {
+                if (state.currentQuizIndex < (window.activeQuestionsData || []).length - 1) { 
+                    state.currentQuizIndex++; window.renderQuizUI(); 
+                }
+            }
+        };
+
+        window.movePrev = () => {
+            if (state.view === 'mistakes-book' && state.mistakes.length > 0) {
+                state.currentAnkiIndex = (state.currentAnkiIndex - 1 + state.mistakes.length) % state.mistakes.length;
+                state.ankiSelection = null; window.render();
+            } else if (state.activeMode === 'study' && state.currentStudyIndex > 0) {
+                state.currentStudyIndex--; window.renderStudyCardUI();
+            } else if (state.activeMode === 'quiz' && state.currentQuizIndex > 0) {
+                state.currentQuizIndex--; window.renderQuizUI();
+            }
+        };
+
+        // --- DATA FETCHING ---
         async function fetchJSON(url) {
             try { const res = await fetch(url); if (!res.ok) return null; return await res.json(); } catch (e) { return null; }
         }
@@ -200,8 +246,7 @@
             const { currentTopic, currentLevel, isSSC, currentShift, currentExam } = state;
             let paths = [];
             if (isSSC) {
-                const folder = currentExam === 'SSC CGL 2023' ? 'cgl2023' : 'gd2024';
-                paths = [`./content/ssc/${folder}/shift-${currentShift}-test.json`, `./content/ssc/${folder}/shift${currentShift}-test.json` ];
+                paths = [`./content/ssc/cgl2023/shift-${currentShift}-test.json`, `./content/ssc/cgl2023/shift${currentShift}-test.json` ];
             } else {
                 const basePath = `./content/general-english/vocabulary/${currentTopic}`;
                 paths = [`${basePath}/level-${currentLevel}.json`, `${basePath}/level${currentLevel}.json`, `${basePath}/level-${currentLevel}-test.json`, `${basePath}/level${currentLevel}-test.json` ];
@@ -213,7 +258,23 @@
                 } else { 
                     window.activeStudyData = data; state.currentStudyIndex = 0; state.activeMode = 'study'; window.renderStudyCardUI(); 
                 }
-            } else document.getElementById('content-container').innerHTML = `<div class="p-10 text-center font-bold">Content missing in repository.</div>`;
+            } else {
+                document.getElementById('content-container').innerHTML = `<div class="p-10 text-center font-bold">Content missing in repository. Check GitHub paths.</div>`;
+            }
+        };
+
+        window.loadQuiz = async () => {
+            const { currentTopic, currentLevel, isSSC, currentShift } = state;
+            let basePath = isSSC ? `./content/ssc/cgl2023` : `./content/general-english/vocabulary/${currentTopic}`;
+            let fileName = isSSC ? `shift-${currentShift}-test.json` : `level-${currentLevel}-test.json`;
+            let data = await multiPathFetch([`${basePath}/${fileName}`, `${basePath}/${fileName.replace('-', '')}`]);
+            if(data) { window.activeQuestionsData = data; state.currentQuizIndex = 0; state.currentQuizAnswers = {}; state.activeMode = 'quiz'; window.renderQuizUI(); }
+        };
+
+        window.handleChoice = (sel, cor) => {
+            if(state.currentQuizAnswers[state.currentQuizIndex]) return;
+            state.currentQuizAnswers[state.currentQuizIndex] = { selected: sel.trim(), isCorrect: sel.trim() === cor.trim() };
+            window.renderQuizUI();
         };
 
         window.submitFinalResults = () => {
@@ -228,7 +289,7 @@
             state.quizResults = { score, correct, wrong, total: questions.length };
             window.navigateTo('results');
             if (state.userId) {
-                const progressId = `${state.currentTopic || 'Exam'}_${Date.now()}`;
+                const progressId = `exam_${Date.now()}`;
                 setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'progress', progressId), { score, points: Math.max(0, Math.round(score)), completedAt: new Date().toISOString() });
                 mistakesFound.forEach(m => {
                     const safeId = m.question.toLowerCase().replace(/[^a-z0-9]/gi, '_').substring(0, 50);
@@ -237,11 +298,11 @@
             }
         };
 
-        // --- RENDERERS ---
+        // --- VIEW RENDERERS ---
         window.renderHome = () => `<div class="p-6 h-full overflow-y-auto bg-white">
             <h1 class="text-3xl font-black mb-4 tracking-tighter">Hello, <span class="text-indigo-600 font-sans">${state.userName || 'Aspirant'}</span></h1>
             <div class="bg-indigo-600 p-6 rounded-3xl text-white shadow-xl mb-6">
-                <p class="text-[8px] opacity-70 uppercase font-bold tracking-widest font-sans">Mastery Points</p><p class="text-5xl font-black">${state.totalPoints || 0}</p>
+                <p class="text-[8px] opacity-70 uppercase font-bold tracking-widest font-sans">Total Mastery Points</p><p class="text-5xl font-black">${state.totalPoints || 0}</p>
                 <div class="mt-2 inline-block bg-white/10 px-3 py-1 rounded-full text-[10px] border border-white/20">${state.totalPoints < 500 ? '🌱 Junior' : state.totalPoints < 2000 ? '⚔️ Warrior' : '🏛️ Officer'}</div>
             </div>
             <div class="grid grid-cols-2 gap-3 mb-4">
@@ -264,6 +325,62 @@
             </div>
         </div>`;
 
+        window.renderShiftGrid = () => `<div class="p-6 h-full flex flex-col overflow-hidden bg-white"><button onclick="window.navigateTo('exams-pyq', {currentCategory:'ssc'})" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button><h2 class="text-xl font-black mb-4 tracking-tighter uppercase text-sm font-black text-slate-400">SSC CGL 2023</h2><div class="grid grid-cols-1 gap-2 flex-grow overflow-y-auto pr-1">${cgl2023Shifts.map((s, idx) => `<div onclick="window.navigateTo('content-view', {isSSC:true, currentShift:${idx}, currentExam:'SSC CGL 2023'})" class="p-4 border rounded-xl font-bold flex justify-between items-center text-xs shadow-sm bg-white font-sans">${s} <span>→</span></div>`).join('')}</div></div>`;
+
+        window.renderExamsPYQ = () => `<div class="p-6 h-full flex flex-col bg-white"><button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button><h2 class="text-3xl font-black mb-6 font-sans">Exams Hub</h2><div class="space-y-3"><div onclick="window.navigateTo('shift-grid', {currentExam:'SSC CGL 2023', isSSC:true})" class="premium-card flex justify-between shadow-sm p-6 font-bold border border-slate-100 rounded-2xl font-sans">SSC CGL 2023 <span>⚔️</span></div></div></div>`;
+
+        window.renderEnglishSelection = () => `<div class="p-6 h-full flex flex-col bg-white"><button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button><h2 class="text-3xl font-black mb-6 font-sans">English Hub</h2><div onclick="window.navigateTo('topics-grid', {currentType:'grammar'})" class="premium-card border rounded-2xl mb-4 bg-white font-bold flex justify-between shadow-sm">Grammar <span>🔡</span></div><div onclick="window.navigateTo('topics-grid', {currentType:'vocabulary'})" class="premium-card border rounded-2xl bg-white font-bold flex justify-between shadow-sm">Vocabulary <span>📖</span></div></div>`;
+
+        window.renderTopicsGrid = () => {
+            const topics = topicsData[state.currentType] || [];
+            return `<div class="p-6 h-full overflow-y-auto flex flex-col bg-white"><button onclick="window.navigateTo('english-selection')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button><h2 class="text-3xl font-black mb-6 capitalize tracking-tight font-sans text-sm font-black text-slate-400 uppercase">${state.currentType}</h2><div class="grid grid-cols-2 gap-3">${topics.map(t => `<div onclick="window.navigateTo('levels-grid', {currentTopic:'${t.id}', currentTopicTitle:'${t.title}'})" class="p-6 border rounded-2xl bg-white text-center shadow-sm"><span class="text-3xl block mb-2">${t.icon}</span><span class="text-xs font-bold font-sans uppercase">${t.title}</span></div>`).join('')}</div></div>`;
+        };
+
+        window.renderLevelsGrid = () => `<div class="p-6 h-full overflow-y-auto flex flex-col bg-white"><button onclick="window.navigateTo('topics-grid', {currentType:state.currentType})" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button><h2 class="text-3xl font-black mb-6 tracking-tight font-sans text-sm font-black text-slate-400 uppercase">${state.currentTopicTitle}</h2><div class="grid grid-cols-4 gap-3">${[1,2,3,4,5,6,7,8,9,10].map(lv => `<div onclick="window.navigateTo('content-view', {currentTopic: state.currentTopic, currentLevel:${lv}, isSSC:false})" class="h-16 border-2 rounded-xl flex items-center justify-center font-bold text-lg hover:border-indigo-500 transition-all font-sans">${lv}</div>`).join('')}</div></div>`;
+
+        window.renderStudyCardUI = () => {
+            const item = window.activeStudyData[state.currentStudyIndex];
+            const container = document.getElementById('content-container'); if(!item || !container) return;
+            container.innerHTML = `<div class="flex-grow flex flex-col h-full overflow-hidden" ontouchstart="window.handleTouchStart(event)" ontouchend="window.handleTouchEnd(event)">
+                <div class="vocab-single-page view-transition">
+                    <div class="flex justify-between items-center mb-4"><span class="text-[10px] font-black bg-indigo-50 text-indigo-600 px-3 py-1 rounded-full uppercase">Review</span><span class="text-[10px] font-black text-slate-400">${state.currentStudyIndex + 1} / ${window.activeStudyData.length}</span></div>
+                    <div class="scroll-content">
+                        <div class="text-7xl mb-6">${item.emoji || '📗'}</div><h3 class="text-3xl font-black text-slate-900 mb-8 break-word-custom tracking-tighter">${item.word}</h3>
+                        <div class="space-y-4 text-left">
+                            <div class="bg-slate-50 p-4 rounded-2xl border border-slate-100"><p class="text-[9px] font-bold text-slate-400 uppercase mb-2">Meaning</p><p class="text-xl font-bold text-indigo-900 font-kannada">${item.meaning_kannada}</p></div>
+                            <div class="bg-indigo-50/50 p-4 rounded-2xl border border-indigo-100"><p class="text-[9px] font-bold text-indigo-400 uppercase mb-2">English</p><p class="text-base font-medium text-indigo-900 italic leading-relaxed font-kannada">${item.meaning_english}</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex gap-2 mt-3 h-14"><button onclick="window.movePrev()" class="flex-1 bg-white border-2 rounded-xl font-bold text-xs uppercase">Prev</button>${state.currentStudyIndex === window.activeStudyData.length - 1 ? `<button onclick="window.loadQuiz()" class="flex-1 bg-indigo-600 text-white rounded-xl font-bold text-xs uppercase">Quiz 🚀</button>` : `<button onclick="window.moveNext()" class="flex-1 bg-indigo-600 text-white rounded-xl font-bold text-xs uppercase">Next</button>`}</div>
+            </div>`;
+        };
+
+        window.renderQuizUI = () => {
+            const q = window.activeQuestionsData[state.currentQuizIndex];
+            const ans = state.currentQuizAnswers[state.currentQuizIndex];
+            const container = document.getElementById('content-container'); if(!q) return;
+            container.innerHTML = `<div class="bg-white p-4 rounded-3xl border h-full flex flex-col overflow-hidden" ontouchstart="window.handleTouchStart(event)" ontouchend="window.handleTouchEnd(event)">
+                <div class="flex justify-between items-center mb-3"><span class="text-[10px] font-black text-slate-400 font-sans uppercase">Question ${state.currentQuizIndex+1} / ${window.activeQuestionsData.length}</span><button onclick="window.navigateTo('home')" class="text-rose-500 font-bold text-[10px] uppercase">Exit</button></div>
+                <div class="scroll-content"><p class="text-base font-bold mb-4 leading-snug">${q.question}</p>
+                    <div class="flex flex-col gap-2 ${ans ? 'pointer-events-none' : ''}">
+                        ${q.options.map(o => {
+                            const isCorrect = o.trim() === q.answer.trim();
+                            const isSelected = ans?.selected === o.trim();
+                            let cls = "p-3.5 border-2 rounded-xl text-sm font-bold transition-all ";
+                            if (ans) { if (isCorrect) cls += "option-correct"; else if (isSelected) cls += "option-wrong"; else cls += "border-slate-50 opacity-40"; }
+                            else { cls += "border-slate-50 bg-slate-50/30 active:bg-indigo-50"; }
+                            return `<div onclick="window.handleChoice('${o.trim().replace(/'/g, "\\'")}', '${q.answer.trim().replace(/'/g, "\\'")}')" class="${cls}">${o}</div>`;
+                        }).join('')}
+                    </div>
+                    ${ans ? `<div class="mt-4 p-4 bg-slate-50 rounded-2xl border-l-4 border-indigo-500 text-[11px] leading-relaxed font-kannada view-transition">${q.explanation || 'No explanation found.'}</div>` : ''}
+                </div>
+                <div class="mt-2 flex gap-2 h-14">
+                    ${state.currentQuizIndex === window.activeQuestionsData.length - 1 ? `<button onclick="window.submitFinalResults()" class="flex-grow bg-emerald-600 text-white rounded-xl font-bold uppercase text-xs" ${!ans ? 'disabled opacity-30' : ''}>Complete 🏁</button>` : `<button onclick="window.moveNext()" class="flex-grow bg-indigo-600 text-white rounded-xl font-bold uppercase text-xs" ${!ans ? 'disabled opacity-30' : ''}>Next</button>`}
+                </div>
+            </div>`;
+        };
+
         window.renderResults = () => {
             const res = state.quizResults; if(!res) return window.renderHome();
             return `<div class="p-10 text-center flex flex-col justify-center h-full view-transition bg-white">
@@ -280,14 +397,45 @@
             </div>`;
         };
 
-        // ... (remaining render components like renderShiftGrid, renderTopicsGrid, etc. follow the latest template logic)
-        // Note: For brevity and to ensure logic is correct, I'll combine the state management here.
+        window.renderMasteryBook = () => {
+            if (state.mistakes.length === 0) return `<div class="p-10 text-center font-bold flex flex-col justify-center h-full bg-white">All Mastered! 🏆<br><button onclick="window.navigateTo('home')" class="mt-4 bg-indigo-600 text-white p-4 rounded-xl mx-auto uppercase text-xs font-bold">Home</button></div>`;
+            const current = state.mistakes[state.currentAnkiIndex];
+            const ans = state.ankiSelection;
+            return `<div class="app-container" ontouchstart="window.handleTouchStart(event)" ontouchend="window.handleTouchEnd(event)">
+                <div class="bg-white p-4 rounded-3xl border h-full flex flex-col overflow-hidden shadow-sm">
+                    <div class="flex justify-between items-center mb-3"><p class="text-[9px] font-bold text-emerald-500 uppercase">Mastery Challenge</p><span class="text-[9px] font-black text-slate-400 font-sans">${state.currentAnkiIndex + 1} / ${state.mistakes.length}</span></div>
+                    <div class="scroll-content">
+                        <h3 class="text-base font-bold mb-4 leading-tight">${current.question}</h3>
+                        <div class="flex flex-col gap-2 ${ans ? 'pointer-events-none' : ''}">
+                            ${current.options.map(o => {
+                                const isCorrect = o.trim() === current.answer.trim();
+                                let cls = "p-3 border-2 rounded-xl text-xs font-bold transition-all ";
+                                if (ans) { if (isCorrect) cls += "option-correct"; else if (ans.selected === o.trim()) cls += "option-wrong"; else cls += "border-slate-50 opacity-40"; }
+                                else { cls += "border-slate-50 bg-slate-50/30 active:bg-indigo-50"; }
+                                return `<div onclick="state.ankiSelection = {selected: '${o.trim().replace(/'/g, "\\'")}', isCorrect: ${isCorrect}}; window.render();" class="${cls}">${o}</div>`;
+                            }).join('')}
+                        </div>
+                        ${ans ? `<div class="mt-4 p-4 bg-slate-50 rounded-2xl border-l-4 border-emerald-500 text-[11px] font-kannada view-transition">${current.explanation || 'No explanation found.'}</div>` : ''}
+                    </div>
+                    ${ans ? `<div class="mt-2 flex gap-2 h-14"><button onclick="window.resolveAnki(true)" class="flex-1 bg-emerald-600 text-white rounded-xl font-bold text-xs uppercase shadow-md font-sans">Got it ✅</button><button onclick="window.resolveAnki(false)" class="flex-1 bg-rose-600 text-white rounded-xl font-bold text-xs uppercase shadow-md font-sans">Hard ❌</button></div>` : `<div class="mt-2 text-center text-slate-300 text-[9px] uppercase tracking-widest py-2">Select to review</div>`}
+                </div>
+            </div>`;
+        };
 
+        window.resolveAnki = async (correct) => {
+            const current = state.mistakes[state.currentAnkiIndex];
+            const ref = doc(db, 'artifacts', appId, 'users', state.userId, 'mistakes', current.id);
+            if (correct) { const newCount = (current.masteryCount || 0) + 1; if (newCount >= 5) await deleteDoc(ref); else await updateDoc(ref, { masteryCount: newCount }); }
+            else await updateDoc(ref, { masteryCount: 0 });
+            state.ankiSelection = null; state.currentAnkiIndex = (state.currentAnkiIndex + 1) % (state.mistakes.length || 1);
+            window.render();
+        };
+
+        // --- MAIN CYCLE ---
         window.render = () => {
             const shell = document.getElementById('app-shell'); if(!shell) return;
-            if (state.view === 'booting' && state.isAuthenticated) return; 
-
             const authHeader = document.getElementById('auth-header-btn');
+            
             if (state.isAuthenticated) {
                 authHeader.innerHTML = `<button onclick="window.handleLogout()" class="text-[10px] font-bold text-rose-500 uppercase font-sans">LOGOUT</button>`;
             } else {
@@ -298,19 +446,18 @@
             switch(state.view) {
                 case 'home': shell.innerHTML = window.renderHome(); break;
                 case 'login': shell.innerHTML = window.renderLogin(); break;
+                case 'english-selection': shell.innerHTML = window.renderEnglishSelection(); break;
+                case 'topics-grid': shell.innerHTML = window.renderTopicsGrid(); break;
+                case 'levels-grid': shell.innerHTML = window.renderLevelsGrid(); break;
+                case 'exams-pyq': shell.innerHTML = window.renderExamsPYQ(); break;
+                case 'shift-grid': shell.innerHTML = window.renderShiftGrid(); break;
+                case 'mistakes-book': shell.innerHTML = window.renderMasteryBook(); break;
                 case 'results': shell.innerHTML = window.renderResults(); break;
-                case 'mistakes-book': 
-                    import('./mistakes-logic.js').then(() => { /* handle async mastery book */ });
-                    shell.innerHTML = `<div class="p-10 text-center">Loading Book...</div>`; 
-                    break;
-                case 'english-selection': shell.innerHTML = `<div class="p-6 h-full flex flex-col bg-white"><button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button><h2 class="text-3xl font-black mb-6 font-sans tracking-tight">Tracks</h2><div onclick="window.navigateTo('topics-grid', {currentType:'grammar'})" class="premium-card border rounded-2xl mb-4 bg-white font-bold flex justify-between shadow-sm">Grammar <span>🔡</span></div><div onclick="window.navigateTo('topics-grid', {currentType:'vocabulary'})" class="premium-card border rounded-2xl bg-white font-bold flex justify-between shadow-sm">Vocabulary <span>📖</span></div></div>`; break;
                 case 'content-view': shell.innerHTML = `<div id="content-container" class="app-container"></div>`; window.loadGenericContent(); break;
-                // Add more cases as needed for ShiftGrid etc.
-                default: shell.innerHTML = window.renderHome();
+                default: if(state.isAuthenticated) shell.innerHTML = window.renderHome();
             }
         };
 
-        // --- AUTH OBSERVER ---
         onAuthStateChanged(auth, async (user) => { 
             if (user) { 
                 state.userId = user.uid; state.isAuthenticated = true;
@@ -323,13 +470,15 @@
                 onSnapshot(collection(db, 'artifacts', appId, 'users', state.userId, 'mistakes'), (snap) => {
                     state.mistakes = []; snap.forEach(doc => state.mistakes.push({ id: doc.id, ...doc.data() })); window.render();
                 });
-                
                 if (state.view === 'login' || state.view === 'booting') window.navigateTo('home');
             } else { 
                 state.isAuthenticated = false; state.userId = null; state.view = 'login'; window.render(); 
             }
         });
 
+        window.addEventListener('popstate', (e) => { if (e.state && e.state.view) window.navigateTo(e.state.view, e.state.params, true); else window.navigateTo('home', {}, true); });
+        setInterval(() => { const el = document.getElementById('floating-quote'); if (el) { el.style.opacity = '0'; setTimeout(() => { el.innerText = ["Believe in your potential. 🎯", "Consistency wins. 🏆", "Learn from errors. 📚"][Math.floor(Math.random()*3)]; el.style.opacity = '1'; }, 400); } }, 8000);
+        
         window.render();
     </script>
 </body>
