@@ -1,0 +1,182 @@
+[
+  {
+    "question": "What does an **'Acrophobe'** fear?",
+    "options": ["Spiders", "Water", "Heights", "Public speaking"],
+    "answer": "Heights",
+    "explanation": "• **Acro- (High/Top)** + **Phobia (Fear)**. 🏔️"
+  },
+  {
+    "question": "If a person is **'Loquacious'**, they are very:",
+    "options": ["Strong", "Talkative", "Silent", "Brave"],
+    "answer": "Talkative",
+    "explanation": "• **Loqu- (Speak/Talk)**. 🗣️\n• Eloquent: Speaking beautifully and fluently."
+  },
+  {
+    "question": "A **'Somnambulist'** is a person who ______ while sleeping.",
+    "options": ["Talks", "Eats", "Walks", "Sings"],
+    "answer": "Walks",
+    "explanation": "• **Somn- (Sleep)** + **Ambul- (Walk)**. 😴👣"
+  },
+  {
+    "question": "What is the meaning of the root **'Theo-'** in 'Theology'?",
+    "options": ["Theory", "God", "Life", "Earth"],
+    "answer": "God",
+    "explanation": "• **Theo- (God)**. 🛐\n• Atheist: One who does not believe in God (A- without)."
+  },
+  {
+    "question": "If an animal is **'Omnivorous'**, it eats:",
+    "options": ["Only plants", "Only meat", "Everything", "Nothing"],
+    "answer": "Everything",
+    "explanation": "• **Omni- (All/Every)** + **Vor (Eat)**. ♾️🍽️"
+  },
+  {
+    "question": "Which medical term refers to the **'inflammation'** of joints?",
+    "options": ["Cardiology", "Arthritis", "Pathology", "Gastritis"],
+    "answer": "Arthritis",
+    "explanation": "• **Itis- (Inflammation/Swelling)**. 🔥\n• Arthr- refers to joints."
+  },
+  {
+    "question": "A **'Pugnacious'** person is someone who is eager to:",
+    "options": ["Help others", "Fight", "Learn", "Travel"],
+    "answer": "Fight",
+    "explanation": "• **Pugn- (Fight/Fist)**. 🥊\n• Impugn: To challenge or attack as false."
+  },
+  {
+    "question": "The root word **'Ver-'** as in 'Verdict' or 'Verify' means:",
+    "options": ["Green", "True", "Voice", "Life"],
+    "answer": "True",
+    "explanation": "• **Ver- (True/Truth)**. ⚖️\n• Verity: The quality of being true."
+  },
+  {
+    "question": "What is **'Xenophobia'**?",
+    "options": ["Fear of heights", "Fear of animals", "Fear of foreigners/strangers", "Fear of darkness"],
+    "answer": "Fear of foreigners/strangers",
+    "explanation": "• **Xeno- (Stranger/Foreign)** + **Phobia (Fear)**. 🗺️😨"
+  },
+  {
+    "question": "Which root refers to a **'Group'** or **'Herd'**?",
+    "options": ["Greg-", "Dem-", "Andro-", "Zo-"],
+    "answer": "Greg-",
+    "explanation": "• **Greg- (Group)**. 🐑\n• Gregarious: Fond of company; sociable."
+  },
+  {
+    "question": "If a person is **'Omniscient'**, they are:",
+    "options": ["All-powerful", "Present everywhere", "All-knowing", "Always hungry"],
+    "answer": "All-knowing",
+    "explanation": "• **Omni- (All)** + **Sci- (Know)**. 🧠"
+  },
+  {
+    "question": "An **'Android'** is a robot that resembles a:",
+    "options": ["Animal", "Human/Man", "Car", "Computer"],
+    "answer": "Human/Man",
+    "explanation": "• **Andro- (Male/Man)**. 👨"
+  },
+  {
+    "question": "The word **'Metamorphosis'** describes a change in ______.",
+    "options": ["Sound", "Color", "Shape/Form", "Speed"],
+    "answer": "Shape/Form",
+    "explanation": "• **Morph- (Shape/Form)**. 🦋"
+  },
+  {
+    "question": "A **'Culpable'** person is one who is:",
+    "options": ["Innocent", "Deserving blame/at fault", "Very rich", "Highly educated"],
+    "answer": "Deserving blame/at fault",
+    "explanation": "• **Culp- (Blame/Fault)**. ⚖️"
+  },
+  {
+    "question": "What does **'Fidelity'** mean?",
+    "options": ["Speed", "Faithfulness/Trust", "Hatred", "Strength"],
+    "answer": "Faithfulness/Trust",
+    "explanation": "• **Fid- (Faith/Trust)**. 🤝"
+  },
+  {
+    "question": "If you show **'Gratitude'**, you are being:",
+    "options": ["Angry", "Greedy", "Thankful", "Proud"],
+    "answer": "Thankful",
+    "explanation": "• **Grat- (Thankful/Pleasing)**. 🙏"
+  },
+  {
+    "question": "A **'Cacophony'** is a mixture of ______ sounds.",
+    "options": ["Sweet", "Harsh/Bad", "Low", "Musical"],
+    "answer": "Harsh/Bad",
+    "explanation": "• **Phon- (Sound)** + **Caco- (Bad/Harsh)**. 📞🗯️"
+  },
+  {
+    "question": "The study of **'Pathology'** involves:",
+    "options": ["Roads", "Mental health", "Diseases", "Ancient ruins"],
+    "answer": "Diseases",
+    "explanation": "• **Path- (Disease/Suffering)**. 🤒"
+  },
+  {
+    "question": "A **'Placid'** person is:",
+    "options": ["Easily angered", "Calm and peaceful", "Very noisy", "Always running"],
+    "answer": "Calm and peaceful",
+    "explanation": "• **Plac- (Calm/Please)**. 🌊"
+  },
+  {
+    "question": "What is **'Philosophy'** the love of?",
+    "options": ["Books", "Wisdom", "Nature", "Humans"],
+    "answer": "Wisdom",
+    "explanation": "• **Phil- (Love)** + **Soph- (Wisdom)**. 🦉"
+  },
+  {
+    "question": "An **'Erratic'** driver is one who drives:",
+    "options": ["Very fast", "In a straight line", "Unpredictably/Straying", "Safely"],
+    "answer": "Unpredictably/Straying",
+    "explanation": "• **Err- (Mistake/Stray)**. 🚫"
+  },
+  {
+    "question": "A **'Bilingual'** person can speak ______ languages.",
+    "options": ["One", "Two", "Three", "Many"],
+    "answer": "Two",
+    "explanation": "• **Lingu- (Language/Tongue)**. 👅"
+  },
+  {
+    "question": "What does the root **'Zo-'** mean?",
+    "options": ["Plant", "Animal", "Space", "Water"],
+    "answer": "Animal",
+    "explanation": "• **Zo- (Animal)**. 🦁\n• Zoology: The scientific study of animals."
+  },
+  {
+    "question": "An **'Autonomous'** vehicle is one that is:",
+    "options": ["Remote controlled", "Self-governing", "Very slow", "Manually driven"],
+    "answer": "Self-governing",
+    "explanation": "• **Auto- (Self)**. ⚙️"
+  },
+  {
+    "question": "If you **'Digress'** in a speech, you ______ from the main point.",
+    "options": ["Step away", "Focus", "Shout", "Run toward"],
+    "answer": "Step away",
+    "explanation": "• **Gress- (Step/Go)**. 👣"
+  },
+  {
+    "question": "What is a **'Helioscope'** used for?",
+    "options": ["Seeing bacteria", "Looking at the stars", "Viewing the sun", "Measuring depth"],
+    "answer": "Viewing the sun",
+    "explanation": "• **Helio- (Sun)**. ☀️"
+  },
+  {
+    "question": "A **'Vivacious'** person is full of ______.",
+    "options": ["Sadness", "Life/Energy", "Fear", "Knowledge"],
+    "answer": "Life/Energy",
+    "explanation": "• **Viv- (Life)**. ⚡"
+  },
+  {
+    "question": "Which root refers to **'People'** in words like Pandemic?",
+    "options": ["Dem-", "Greg-", "Andro-", "Culp-"],
+    "answer": "Dem-",
+    "explanation": "• **Dem- (People)**. 👥"
+  },
+  {
+    "question": "What does **'Dyna-'** mean in 'Dynamic'?",
+    "options": ["Quiet", "Small", "Power/Energy", "Ancient"],
+    "answer": "Power/Energy",
+    "explanation": "• **Dyna- (Power)**. ⚡"
+  },
+  {
+    "question": "If a judge **'Exculpates'** someone, they are saying the person is:",
+    "options": ["Guilty", "Free from blame", "Sentenced", "Rich"],
+    "answer": "Free from blame",
+    "explanation": "• **Culp- (Blame)** + **Ex- (Out/Free)**. ⚖️"
+  }
+]
