@@ -1,0 +1,182 @@
+[
+  {
+    "question": "If **'Pan-'** means all, what is a **'Panacea'**?",
+    "options": ["A disease across the world", "A cure for all illnesses", "A fear of everything", "A type of ancient bread"],
+    "answer": "A cure for all illnesses",
+    "explanation": "• **Pan- (All)**. 🌎\n• Panacea is a solution or remedy for all difficulties or diseases."
+  },
+  {
+    "question": "What does a **'Bibliophile'** collect?",
+    "options": ["Old coins", "Stamps", "Books", "Stones"],
+    "answer": "Books",
+    "explanation": "• **Bibli- (Book)** + **Phil (Love)**. 📚❤️"
+  },
+  {
+    "question": "Which medical term refers to the **'removal of fat'**?",
+    "options": ["Pathology", "Liposuction", "Arthritis", "Gynaecology"],
+    "answer": "Liposuction",
+    "explanation": "• **Lipo- (Fat)** + **Suction (Removing)**. 🥑"
+  },
+  {
+    "question": "A **'Pseudonym'** is used by authors to hide their identity. What does it mean?",
+    "options": ["Real name", "Nick name", "False name", "Family name"],
+    "answer": "False name",
+    "explanation": "• **Pseudo- (False)** + **Nym (Name)**. 🎭"
+  },
+  {
+    "question": "If something is **'Heliocentric'**, what is at the center?",
+    "options": ["Earth", "Moon", "Sun", "Stars"],
+    "answer": "Sun",
+    "explanation": "• **Helio- (Sun)**. ☀️"
+  },
+  {
+    "question": "An **'Orthodontist'** is a dentist who helps ______ teeth.",
+    "options": ["Remove", "Clean", "Straighten/Correct", "Whiten"],
+    "answer": "Straighten/Correct",
+    "explanation": "• **Orth- (Straight/Correct)**. 📏"
+  },
+  {
+    "question": "The word **'Cacophony'** refers to ______ sound.",
+    "options": ["Sweet", "Silent", "Harsh/Bad", "Musical"],
+    "answer": "Harsh/Bad",
+    "explanation": "• **Caco- (Bad)** + **Phon (Sound)**. 🗯️"
+  },
+  {
+    "question": "What does a **'Gynaecologist'** study?",
+    "options": ["Skin care", "Mental health", "Female health", "Child care"],
+    "answer": "Female health",
+    "explanation": "• **Gynaec- (Female)**. 👩"
+  },
+  {
+    "question": "A **'Prototype'** is the ______ model of something.",
+    "options": ["Final", "Cheapest", "First/Original", "Smallest"],
+    "answer": "First/Original",
+    "explanation": "• **Proto- (First)**. 🥇"
+  },
+  {
+    "question": "If someone is experiencing **'Euphoria'**, they feel ______.",
+    "options": ["Sick", "Extremely happy/well", "Angry", "Tired"],
+    "answer": "Extremely happy/well",
+    "explanation": "• **Eu- (Good/Well)**. ✨"
+  },
+  {
+    "question": "What does **'Zoology'** focus on?",
+    "options": ["Plants", "Stars", "Animals", "Humans"],
+    "answer": "Animals",
+    "explanation": "• **Zo- (Animal)**. 🦁"
+  },
+  {
+    "question": "Which root refers to **'Mind'** in 'Psychiatrist'?",
+    "options": ["Psych-", "Dyna-", "Idio-", "Orth-"],
+    "answer": "Psych-",
+    "explanation": "• **Psych- (Mind)**. 🧠"
+  },
+  {
+    "question": "What is an **'Aesthetic'** appeal based on?",
+    "options": ["Logic", "Beauty/Sense", "Wealth", "Strength"],
+    "answer": "Beauty/Sense",
+    "explanation": "• **Aesthet- (Beauty/Sense)**. 🎨"
+  },
+  {
+    "question": "The word **'Neophyte'** refers to a:",
+    "options": ["Expert", "Beginner/New person", "Scientist", "Leader"],
+    "answer": "Beginner/New person",
+    "explanation": "• **Neo- (New)**. 🆕"
+  },
+  {
+    "question": "If a disease is a **'Pandemic'**, it affects:",
+    "options": ["A small group", "Animals only", "All people/Across borders", "Children only"],
+    "answer": "All people/Across borders",
+    "explanation": "• **Pan- (All)** + **Dem (People)**. 👥🌎"
+  },
+  {
+    "question": "A **'Megaphone'** makes sound ______.",
+    "options": ["Low", "Loud/Great", "Clear", "High pitch"],
+    "answer": "Loud/Great",
+    "explanation": "• **Mega- (Great)** + **Phon (Sound)**. 📣"
+  },
+  {
+    "question": "What does **'Xenophobia'** mean?",
+    "options": ["Fear of animals", "Fear of foreigners/strangers", "Fear of water", "Fear of heights"],
+    "answer": "Fear of foreigners/strangers",
+    "explanation": "• **Xeno- (Stranger)** + **Phobia (Fear)**. 🗺️😨"
+  },
+  {
+    "question": "Which root refers to **'Power'** in 'Dynamite'?",
+    "options": ["Pyr-", "Dyna-", "Kilo-", "Macro-"],
+    "answer": "Dyna-",
+    "explanation": "• **Dyna- (Power)**. ⚡"
+  },
+  {
+    "question": "If an object is **'Amorphous'**, it is ______.",
+    "options": ["Very large", "Shapeless/Formless", "Transparent", "Solid"],
+    "answer": "Shapeless/Formless",
+    "explanation": "• **A- (Without)** + **Morph (Form)**. 🦋"
+  },
+  {
+    "question": "What does the root **'Pyr-'** relate to in 'Pyrotechnics'?",
+    "options": ["Sound", "Light", "Fire", "Water"],
+    "answer": "Fire",
+    "explanation": "• **Pyr- (Fire)**. 🔥"
+  },
+  {
+    "question": "A **'Demagogue'** is a leader who appeals to the emotions of ______.",
+    "options": ["Rich people", "Officials", "The People", "Soldiers"],
+    "answer": "The People",
+    "explanation": "• **Dem- (People)**. 👥"
+  },
+  {
+    "question": "The study of large-scale economic systems is called ______.",
+    "options": ["Microeconomics", "Macroeconomics", "Philosophy", "Anthropology"],
+    "answer": "Macroeconomics",
+    "explanation": "• **Macro- (Large)**. 🐘"
+  },
+  {
+    "question": "An **'Android'** is a robot that looks like a ______.",
+    "options": ["Dog", "Human/Man", "Car", "Machine"],
+    "answer": "Human/Man",
+    "explanation": "• **Andro- (Male/Man)**. 👨"
+  },
+  {
+    "question": "If a thought **'Occurs'** to you, it comes to your ______.",
+    "options": ["Memory", "Hand", "Mind", "Sight"],
+    "answer": "Mind",
+    "explanation": "• From Latin roots meaning to 'run toward the mind'."
+  },
+  {
+    "question": "What does **'Ultraviolet'** light mean in terms of its root?",
+    "options": ["Bright violet", "Beyond violet", "Light violet", "Dark violet"],
+    "answer": "Beyond violet",
+    "explanation": "• **Ultra- (Beyond)**. ⚡"
+  },
+  {
+    "question": "An **'Idiosyncrasy'** is a habit that is ______ to an individual.",
+    "options": ["Common", "Boring", "Peculiar/Distinct", "Dangerous"],
+    "answer": "Peculiar/Distinct",
+    "explanation": "• **Idio- (Peculiar/Own)**. 👤"
+  },
+  {
+    "question": "Which root refers to **'Thousand'**?",
+    "options": ["Mega-", "Kilo-", "Macro-", "Micro-"],
+    "answer": "Kilo-",
+    "explanation": "• **Kilo- (Thousand)**. 🔢"
+  },
+  {
+    "question": "The root **'Itis-'** in 'Arthritis' stands for:",
+    "options": ["Cure", "Pain", "Inflammation/Swelling", "Study"],
+    "answer": "Inflammation/Swelling",
+    "explanation": "• **Itis- (Inflammation)**. 🔥"
+  },
+  {
+    "question": "What is the **'Prologue'** of a book?",
+    "options": ["Last chapter", "Index", "Opening speech/Words before", "Summary"],
+    "answer": "Opening speech/Words before",
+    "explanation": "• **Log- (Word)** + **Pro (Before)**. 📖"
+  },
+  {
+    "question": "If a person is **'Anaesthetized'**, they lose their ______.",
+    "options": ["Memory", "Voice", "Sense/Feeling", "Strength"],
+    "answer": "Sense/Feeling",
+    "explanation": "• **An- (Without)** + **Aesthet (Sense)**. 🎨🚫"
+  }
+]
