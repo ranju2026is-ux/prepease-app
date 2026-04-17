@@ -157,6 +157,23 @@
             const shift = (i % 4) + 1; return `${date} Shift-${shift}`;
         });
 
+        const gd2024Shifts = [
+            "20-Feb Shift-1", "20-Feb Shift-2", "20-Feb Shift-3", "20-Feb Shift-4",
+            "21-Feb Shift-1", "21-Feb Shift-2", "21-Feb Shift-3", "21-Feb Shift-4",
+            "22-Feb Shift-1", "22-Feb Shift-2", "22-Feb Shift-3", "22-Feb Shift-4",
+            "23-Feb Shift-1", "23-Feb Shift-2", "23-Feb Shift-3", "23-Feb Shift-4",
+            "24-Feb Shift-1", "24-Feb Shift-2", "24-Feb Shift-3", "24-Feb Shift-4",
+            "26-Feb Shift-1", "26-Feb Shift-2", "26-Feb Shift-3", "26-Feb Shift-4",
+            "27-Feb Shift-1", "27-Feb Shift-2", "27-Feb Shift-3", "27-Feb Shift-4",
+            "28-Feb Shift-1", "28-Feb Shift-2", "28-Feb Shift-3", "28-Feb Shift-4",
+            "29-Feb Shift-1", "29-Feb Shift-2", "29-Feb Shift-3", "29-Feb Shift-4",
+            "01-Mar Shift-1", "01-Mar Shift-2", "01-Mar Shift-3", "01-Mar Shift-4",
+            "05-Mar Shift-1", "05-Mar Shift-2", "05-Mar Shift-3", "05-Mar Shift-4",
+            "06-Mar Shift-1", "06-Mar Shift-2", "06-Mar Shift-3", "06-Mar Shift-4",
+            "07-Mar Shift-1", "07-Mar Shift-2", "07-Mar Shift-3", "07-Mar Shift-4",
+            "30-Mar Shift-1"
+        ];
+
         // --- CORE NAVIGATION ---
         window.navigateTo = (view, params = {}, fromPopState = false) => {
             Object.assign(state, params);
@@ -246,7 +263,8 @@
             const { currentTopic, currentLevel, isSSC, currentShift, currentExam } = state;
             let paths = [];
             if (isSSC) {
-                paths = [`./content/ssc/cgl2023/shift-${currentShift}-test.json`, `./content/ssc/cgl2023/shift${currentShift}-test.json` ];
+                const folder = currentExam === 'SSC GD 2024' ? 'gd2024' : 'cgl2023';
+                paths = [`./content/ssc/${folder}/shift-${currentShift}-test.json`, `./content/ssc/${folder}/shift${currentShift}-test.json` ];
             } else {
                 const basePath = `./content/general-english/vocabulary/${currentTopic}`;
                 paths = [`${basePath}/level-${currentLevel}.json`, `${basePath}/level${currentLevel}.json`, `${basePath}/level-${currentLevel}-test.json`, `${basePath}/level${currentLevel}-test.json` ];
@@ -264,8 +282,9 @@
         };
 
         window.loadQuiz = async () => {
-            const { currentTopic, currentLevel, isSSC, currentShift } = state;
-            let basePath = isSSC ? `./content/ssc/cgl2023` : `./content/general-english/vocabulary/${currentTopic}`;
+            const { currentTopic, currentLevel, isSSC, currentShift, currentExam } = state;
+            const folder = currentExam === 'SSC GD 2024' ? 'gd2024' : 'cgl2023';
+            let basePath = isSSC ? `./content/ssc/${folder}` : `./content/general-english/vocabulary/${currentTopic}`;
             let fileName = isSSC ? `shift-${currentShift}-test.json` : `level-${currentLevel}-test.json`;
             let data = await multiPathFetch([`${basePath}/${fileName}`, `${basePath}/${fileName.replace('-', '')}`]);
             if(data) { window.activeQuestionsData = data; state.currentQuizIndex = 0; state.currentQuizAnswers = {}; state.activeMode = 'quiz'; window.renderQuizUI(); }
@@ -325,9 +344,15 @@
             </div>
         </div>`;
 
-        window.renderShiftGrid = () => `<div class="p-6 h-full flex flex-col overflow-hidden bg-white"><button onclick="window.navigateTo('exams-pyq', {currentCategory:'ssc'})" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button><h2 class="text-xl font-black mb-4 tracking-tighter uppercase text-sm font-black text-slate-400">SSC CGL 2023</h2><div class="grid grid-cols-1 gap-2 flex-grow overflow-y-auto pr-1">${cgl2023Shifts.map((s, idx) => `<div onclick="window.navigateTo('content-view', {isSSC:true, currentShift:${idx}, currentExam:'SSC CGL 2023'})" class="p-4 border rounded-xl font-bold flex justify-between items-center text-xs shadow-sm bg-white font-sans">${s} <span>→</span></div>`).join('')}</div></div>`;
+        window.renderShiftGrid = () => {
+            const shifts = state.currentExam === 'SSC GD 2024' ? gd2024Shifts : cgl2023Shifts;
+            return `<div class="p-6 h-full flex flex-col overflow-hidden bg-white"><button onclick="window.navigateTo('exams-pyq', {currentCategory:'ssc'})" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button><h2 class="text-xl font-black mb-4 tracking-tighter uppercase text-sm font-black text-slate-400">${state.currentExam}</h2><div class="grid grid-cols-1 gap-2 flex-grow overflow-y-auto pr-1">${shifts.map((s, idx) => `<div onclick="window.navigateTo('content-view', {isSSC:true, currentShift:${idx}, currentExam:'${state.currentExam}'})" class="p-4 border rounded-xl font-bold flex justify-between items-center text-xs shadow-sm bg-white font-sans">${s} <span>→</span></div>`).join('')}</div></div>`;
+        };
 
-        window.renderExamsPYQ = () => `<div class="p-6 h-full flex flex-col bg-white"><button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button><h2 class="text-3xl font-black mb-6 font-sans">Exams Hub</h2><div class="space-y-3"><div onclick="window.navigateTo('shift-grid', {currentExam:'SSC CGL 2023', isSSC:true})" class="premium-card flex justify-between shadow-sm p-6 font-bold border border-slate-100 rounded-2xl font-sans">SSC CGL 2023 <span>⚔️</span></div></div></div>`;
+        window.renderExamsPYQ = () => `<div class="p-6 h-full flex flex-col bg-white"><button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button><h2 class="text-3xl font-black mb-6 font-sans">Exams Hub</h2><div class="space-y-3">
+            <div onclick="window.navigateTo('shift-grid', {currentExam:'SSC CGL 2023', isSSC:true})" class="premium-card flex justify-between shadow-sm p-6 font-bold border border-slate-100 rounded-2xl font-sans">SSC CGL 2023 <span>⚔️</span></div>
+            <div onclick="window.navigateTo('shift-grid', {currentExam:'SSC GD 2024', isSSC:true})" class="premium-card flex justify-between shadow-sm p-6 font-bold border border-slate-100 rounded-2xl font-sans">SSC GD 2024 <span>🛡️</span></div>
+        </div></div>`;
 
         window.renderEnglishSelection = () => `<div class="p-6 h-full flex flex-col bg-white"><button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button><h2 class="text-3xl font-black mb-6 font-sans">English Hub</h2><div onclick="window.navigateTo('topics-grid', {currentType:'grammar'})" class="premium-card border rounded-2xl mb-4 bg-white font-bold flex justify-between shadow-sm">Grammar <span>🔡</span></div><div onclick="window.navigateTo('topics-grid', {currentType:'vocabulary'})" class="premium-card border rounded-2xl bg-white font-bold flex justify-between shadow-sm">Vocabulary <span>📖</span></div></div>`;
 
