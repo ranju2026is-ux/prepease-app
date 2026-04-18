@@ -1,0 +1,127 @@
+[
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word.\nThe company decided to <u>withhold</u> the bonuses until the project's completion to ensure everyone stayed motivated until the end.",
+    "options": ["Save", "Keep", "Plant", "Grant"],
+    "answer": "Grant",
+    "explanation": "• **Withhold**: To refuse to give something; to keep back. 🛑\n• **Grant**: To agree to give or allow something. (Antonym). ✅\n• **Save/Keep**: Synonyms of withhold in certain contexts. 📁"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe team worked hard to ______ the deadline for the project.",
+    "options": ["twist", "meet", "ask", "correct"],
+    "answer": "meet",
+    "explanation": "• **Meet a deadline**: A standard collocation meaning to finish a task by the time it is due. 🏁\n• **Twist/Correct**: Do not fit the context of a time limit. ❌"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nI am going to get an email with more details, __________ I?",
+    "options": ["can't", "won’t", "aren’t", "don’t"],
+    "answer": "aren’t",
+    "explanation": "• **Question Tag**: For the construction 'I am', the standard negative question tag is '**aren't I?**'. ❓\n• **Note**: 'Amn't' is not used in standard English. 🚫"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blanks.\nHer intricate (1)___ displayed delicate strokes, bold colours and a captivating (2)___, making it one of the most impressive pieces in the (3)_______.",
+    "options": [
+      "(1) painting ; (2) composition ; (3) gallery",
+      "(1) composition ; (2) gallery ; (3) painting",
+      "(1) composition ; (2) painting ; (3) gallery",
+      "(1) gallery ; (2) composition ; (3) painting"
+    ],
+    "answer": "(1) painting ; (2) composition ; (3) gallery",
+    "explanation": "• Context: 'Delicate strokes' refers to a **painting**. The arrangement of elements is the **composition**. Art is displayed in a **gallery**. 🎨🏛️"
+  },
+  {
+    "question": "Select the segment with an adverbial usage error:\nAndrew and Victoria politely / skipped down / the street / near the apartment.",
+    "options": ["near the apartment", "skipped down", "Andrew and Victoria politely", "the street"],
+    "answer": "Andrew and Victoria politely",
+    "explanation": "• **Adverbial Error**: 'Politely' describes social behavior. It is contextually illogical to 'politely skip' down a street. A better adverb would be 'happily' or 'joyfully'. 🏃‍♂️✨"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Psychiatry", "Occassional", "Competitor", "Ammunition"],
+    "answer": "Occassional",
+    "explanation": "• **Incorrect**: Occassional. ❌\n• **Correct**: **Occasional**. ✅ (It has double 'c' but single 's')."
+  },
+  {
+    "question": "Select the most appropriate option to substitute the underlined phrase.\nDespite the failure, the startup managed to <u>keep their heads above water</u>.",
+    "options": ["give up", "avoid trouble", "succeed completely", "fail miserably"],
+    "answer": "avoid trouble",
+    "explanation": "• **Keep head above water**: To just manage to survive (usually financially) or avoid failing/trouble. 🌊🏊‍♂️"
+  },
+  {
+    "question": "Identify the segment that contains a grammatical error:\n(A) They carefully planned the surprise party, / (B) ensuring everything / (C) was perfect for their friend, / (D) who **thoughtful** celebrated their birthdays.",
+    "options": ["C", "D", "B", "A"],
+    "answer": "D",
+    "explanation": "• **Error**: 'Thoughtful' is an adjective, but it needs to be an adverb (**thoughtfully**) to modify the verb 'celebrated'. 🎂\n• **Correction**: 'who thoughtfully celebrated...'"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Extrusion**",
+    "options": ["Exile", "Suspension", "Banish", "Welcome"],
+    "answer": "Welcome",
+    "explanation": "• **Extrusion**: The act of forcing or pushing something out. (Related: Expulsion). 🚪\n• **Welcome**: To receive gladly. (Antonym). 🤗\n• **Exile/Banish**: Synonyms related to forcing out. 🚫"
+  },
+  {
+    "question": "Select the most appropriate idiom for the underlined segment.\nI appreciate the detailed report, but let's <u>talk about the important points and not waste time</u>; what's the bottom line?",
+    "options": ["cut to the chase", "hone your skills", "think of the unthinkable", "bear the stamp"],
+    "answer": "cut to the chase",
+    "explanation": "• **Cut to the chase**: To get to the point without wasting time. 🏃‍♂️🎯\n• **Hone your skills**: To sharpen or improve a talent. 🔪"
+  },
+  {
+    "question": "Identify the segment that contains a spelling error:\nThe crescent / moon looked / fantastically gorgeous / and aluring.",
+    "options": ["fantastically gorgeous", "and aluring.", "The crescent", "moon looked"],
+    "answer": "and aluring.",
+    "explanation": "• **Incorrect**: Aluring. ❌\n• **Correct**: **Alluring**. ✅ (Meaning highly attractive or charming)."
+  },
+  {
+    "question": "In the sentence, 'The company's profits dwindled due to poor management', what is a synonym of '**dwindled**'?",
+    "options": ["Stabilised", "Increased", "Decreased", "Fluctuated"],
+    "answer": "Decreased",
+    "explanation": "• **Dwindle**: To diminish gradually in size, amount, or strength. (Synonym: Decrease). 📉\n• **Stabilise**: To stay the same. ⚖️"
+  },
+  {
+    "question": "In the sentence 'His ideas were radical', what is the most appropriate ANTONYM of the word '**radical**'?",
+    "options": ["Extreme", "Progressive", "Conservative", "Innovative"],
+    "answer": "Conservative",
+    "explanation": "• **Radical**: Advocating thorough or complete political or social change. (Synonyms: Extreme, Progressive). 🚩\n• **Conservative**: Averse to change or innovation; holding traditional values. (Antonym). 🏛️"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Esteemed**",
+    "options": ["Prominent", "Large", "Peaceful", "Happy"],
+    "answer": "Prominent",
+    "explanation": "• **Esteemed**: Highly respected and admired. (Related: Distinguished/Prominent). 🎖️\n• **Prominent**: Important; famous. ✅"
+  },
+  {
+    "question": "Select the most appropriate option to substitute the underlined segment.\nLoss of reflective sea ice <u>has been link in more</u> extreme weather patterns in Eurasia and North America.",
+    "options": ["has linked to more", "has link to more", "has been linked to more", "has been linked by more"],
+    "answer": "has been linked to more",
+    "explanation": "• **Grammar**: Passive voice requires 'has been' + Past Participle (linked). The preposition 'to' is used to show a connection. 🧊🌪️"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) If a child (1)_____ good parents and they are fed, looked after and loved...",
+    "options": ["has", "have", "are", "will"],
+    "answer": "has",
+    "explanation": "• **Subject-Verb Agreement**: 'A child' is singular, so it requires the singular verb '**has**'. 👶"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) it is improbable that they will ever again in life (2)_____ given so much...",
+    "options": ["is", "has", "are", "be"],
+    "answer": "be",
+    "explanation": "• **Grammar**: After the modal verb 'will', the base form of the verb (**be**) is used to form the future passive voice ('will be given'). 🎁"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) they are continually being told not to do things or are being (3)_____.",
+    "options": ["granted", "displayed", "rewarded", "punished"],
+    "answer": "punished",
+    "explanation": "• Context: The sentence mentions 'pains' and being told 'not to do things'. **Punished** fits the negative context of discipline. ⚖️"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) but they have to work if they want to live (4)_____.",
+    "options": ["revolutionary", "comfortably", "granting", "contrasting"],
+    "answer": "comfortably",
+    "explanation": "• Context: People work so that they can afford a life that is **comfortable** (food, clothes, room). 🏠🛌"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) However, by working, keeping out of (5)_____ and having good health...",
+    "options": ["troubles", "touches", "disturbs", "beats"],
+    "answer": "troubles",
+    "explanation": "• **Standard Phrase**: '**Keeping out of trouble**' is a common expression meaning avoiding illegal or problematic situations. 🛡️"
+  }
+]
