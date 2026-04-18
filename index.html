@@ -67,15 +67,13 @@
             transition: all 0.2s;
             position: relative;
             overflow: hidden;
-            display: flex;
-            align-items: center;
         }
         .premium-card:active { transform: scale(0.98); }
 
         .progress-fill-bg {
             position: absolute;
             left: 0; top: 0; bottom: 0;
-            background-color: #dcfce7; /* Light emerald for score fill */
+            background-color: #dcfce7;
             z-index: 0;
             transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
         }
@@ -130,7 +128,7 @@
         const appId = 'prepease-app';
 
         const state = {
-            view: 'booting',
+            view: 'login', // Default to login to avoid getting stuck
             isAuthenticated: false,
             userName: '',
             userId: null,
@@ -242,7 +240,7 @@
                 } else {
                     await signInWithEmailAndPassword(auth, email, passIn);
                 }
-            } catch (err) { state.authError = "Invalid ID/Password."; window.render(); }
+            } catch (err) { state.authError = "Invalid ID or Password."; window.render(); }
         };
 
         window.handleLogout = async () => {
@@ -268,12 +266,7 @@
                 paths = [`./content/ssc/${folder}/shift-${currentShift}-test.json`, `./content/ssc/${folder}/shift${currentShift}-test.json` ];
             } else {
                 const basePath = `./content/general-english/vocabulary/${currentTopic}`;
-                paths = [
-                    `${basePath}/level-${currentLevel}.json`, 
-                    `${basePath}/level${currentLevel}.json`, 
-                    `${basePath}/level-${currentLevel}-test.json`,
-                    `${basePath}/level${currentLevel}-test.json`
-                ];
+                paths = [`${basePath}/level-${currentLevel}.json`, `${basePath}/level${currentLevel}.json`, `${basePath}/level-${currentLevel}-test.json`, `${basePath}/level${currentLevel}-test.json` ];
             }
             const data = await multiPathFetch(paths);
             if (data && data.length) {
@@ -292,11 +285,7 @@
             const folder = currentExam === 'SSC GD 2024' ? 'gd2024' : 'cgl2023';
             let basePath = isSSC ? `./content/ssc/${folder}` : `./content/general-english/vocabulary/${currentTopic}`;
             let fileName = isSSC ? `shift-${currentShift}-test.json` : `level-${currentLevel}-test.json`;
-            // Try both hyphenated and non-hyphenated
-            let data = await multiPathFetch([
-                `${basePath}/${fileName}`, 
-                `${basePath}/${fileName.replace('-', '')}`
-            ]);
+            let data = await multiPathFetch([`${basePath}/${fileName}`, `${basePath}/${fileName.replace('-', '')}`]);
             if(data) { window.activeQuestionsData = data; state.currentQuizIndex = 0; state.currentQuizAnswers = {}; state.activeMode = 'quiz'; window.renderQuizUI(); }
         };
 
@@ -329,12 +318,12 @@
             window.navigateTo('results');
         };
 
-        // --- RENDERERS ---
+        // --- VIEW RENDERERS ---
         window.renderHome = () => `<div class="p-6 h-full overflow-y-auto bg-white view-transition">
             <h1 class="text-3xl font-black mb-4 tracking-tighter">Hello, <span class="text-indigo-600 font-sans">${state.userName || 'Aspirant'}</span></h1>
             <div class="bg-indigo-600 p-6 rounded-3xl text-white shadow-xl mb-6">
                 <p class="text-[8px] opacity-70 uppercase font-bold tracking-widest font-sans">Total Mastery Points</p><p class="text-5xl font-black">${state.totalPoints || 0}</p>
-                <div class="mt-2 inline-block bg-white/10 px-3 py-1 rounded-full text-[10px] border border-white/20 uppercase font-bold">${state.totalPoints < 500 ? '🌱 Junior' : state.totalPoints < 2000 ? '⚔️ Warrior' : '🏛️ Officer'}</div>
+                <div class="mt-2 inline-block bg-white/10 px-3 py-1 rounded-full text-[10px] border border-white/20 uppercase font-bold font-sans">${state.totalPoints < 500 ? '🌱 Junior' : state.totalPoints < 2000 ? '⚔️ Warrior' : '🏛️ Officer'}</div>
             </div>
             <div class="grid grid-cols-2 gap-3 mb-4">
                 <div onclick="window.navigateTo('english-selection')" class="premium-card font-bold border-indigo-100 flex flex-col items-center justify-center py-8"><span class="text-3xl mb-2">🇬🇧</span><span>English</span></div>
@@ -352,6 +341,9 @@
                     const progKey = `${state.currentTopic}_level_${lv}`;
                     const data = state.progress[progKey];
                     const pct = data ? Math.min(100, (data.correct / (data.total || 1)) * 100) : 0;
-                    return `
-                    <div onclick="window.navigateTo('content-view', {currentTopic: state.currentTopic, currentLevel:${lv}, isSSC:false})" 
-                         class="h-16 border-2 rounded-xl flex items
+                    return `<div onclick="window.navigateTo('content-view', {currentTopic: state.currentTopic, currentLevel:${lv}, isSSC:false})" class="h-16 border-2 rounded-xl flex items-center justify-center font-bold text-lg hover:border-indigo-500 transition-all font-sans premium-card p-0"><div class="progress-fill-bg" style="width: ${pct}%"></div><div class="card-inner-text">${lv}</div></div>`;
+                }).join('')}
+            </div>
+        </div>`;
+
+ 
