@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Select the most appropriate meaning of the given word.\n**Tedious**",
+    "options": ["Brief and concise", "Inspiring and uplifting", "Boring and tiresome", "Exciting and fun"],
+    "answer": "Boring and tiresome",
+    "explanation": "• **Tedious**: Something that is too long, slow, or dull; tiresome or monotonous. (Related: Humdrum). 🥱\n• **Brief and concise**: Short and to the point. (Antonym). ✂️\n• **Exciting and fun**: Providing great enjoyment. (Antonym). 🎢"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nResearchers ___________ new technologies to improve recycling processes in the near future.",
+    "options": ["develop", "has been developing", "was developing", "are developing"],
+    "answer": "are developing",
+    "explanation": "• **Are developing**: The sentence refers to an action currently in progress with a focus on the near future. Since 'Researchers' is plural, the plural auxiliary 'are' is required. 🧪\n• **Develop**: Used for general facts or habits. 📄"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank and make the sentence meaningful.\nMy grandmother ________ to the temple alone last night.",
+    "options": ["went", "have gone", "goes", "is going"],
+    "answer": "went",
+    "explanation": "• **Went**: The phrase 'last night' indicates a completed action in the past, requiring the Simple Past tense. 🏛️\n• **Goes**: Used for present habits. 🕒\n• **Is going**: Used for present continuous actions. 🚶‍♀️"
+  },
+  {
+    "question": "Identify the part that contains an error from the given options:\nMost of the passengers complained / that the speed of the bus / was **usual** fast.",
+    "options": ["was usual fast.", "that the speed of the bus", "Most of the passengers complained", "No error."],
+    "answer": "was usual fast.",
+    "explanation": "• **Grammar Error**: 'Usual' is an adjective, but we need an adverb to modify the adjective 'fast'. 🚫\n• **Correction**: It should be '**usually** fast' or '**unusually** fast'. 🚌💨"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment in the given sentence.\nThe discipline committee of the college <u>pondered the matter</u> for two hours but did not take any decision.",
+    "options": ["pondering over the matter", "thought down the matter", "grinned in the matter", "talked over the matter"],
+    "answer": "talked over the matter",
+    "explanation": "• **Talked over**: To discuss something thoroughly before making a decision. (Best contextual fit). 🗣️\n• **Pondered the matter**: Means to think about it deeply. While correct, among the choices, 'talked over' is a natural phrasal verb substitution for a committee setting. 👔"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Baroque**",
+    "options": ["Plain", "Florid", "Gilt", "Ornate"],
+    "answer": "Plain",
+    "explanation": "• **Plain**: Simple and without decoration. (Antonym). ⚪\n• **Baroque**: Highly ornate and extravagant in style. (Synonyms: Florid, Ornate, Gilt). ✨"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe farmers will _________ their fields tomorrow.",
+    "options": ["isotope", "tropical", "plough", "collide"],
+    "answer": "plough",
+    "explanation": "• **Plough**: To turn up the earth with a tractor or animal-drawn tool before sowing. (Contextually correct). 🚜\n• **Isotope**: A chemical term. ⚗️\n• **Tropical**: Relating to the tropics. 🌴"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Lanky**",
+    "options": ["Rare", "Rectangular", "Congenital", "Plump"],
+    "answer": "Plump",
+    "explanation": "• **Plump**: Having a full rounded shape; slightly fat. (Antonym). 🍎\n• **Lanky**: Ungracefully thin and tall. (Related: Scrawny). 🦒"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Cuisine", "Restaurants", "Accolades", "Exiuisite"],
+    "answer": "Exiuisite",
+    "explanation": "• **Incorrect spelling**: Exiuisite. ❌\n• **Correct spelling**: **Exquisite**. ✅\n• **Meaning**: Extremely beautiful and delicate. ✨"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Fatuous**",
+    "options": ["Lamebrain", "Sappy", "Brilliant", "Dim"],
+    "answer": "Brilliant",
+    "explanation": "• **Brilliant**: Exceptionally clever or talented. (Antonym). 🧠💡\n• **Fatuous**: Silly and pointless. (Synonyms: Lamebrain, Sappy, Dim). 🤡"
+  },
+  {
+    "question": "Select the correct spelling of the incorrectly spelt word in the sentence:\nThe principal announced several <u>curricullam</u> changes for the upcoming year.",
+    "options": ["curricural", "curicullam", "curricular", "currciular"],
+    "answer": "curricular",
+    "explanation": "• **Curricular**: Relating to a curriculum. (Correct spelling). 📚\n• **Note**: The noun is 'Curriculum', but the adjective form is 'Curricular'."
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nAfter working tirelessly on the project for weeks, Mark finally decided to burn the midnight _________.",
+    "options": ["paper", "water", "oil", "food"],
+    "answer": "oil",
+    "explanation": "• **Idiom**: **Burn the midnight oil**. It means to work or study late into the night. 🕯️🌙"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Chastise**",
+    "options": ["Compliment", "Laud", "Flog", "Praise"],
+    "answer": "Flog",
+    "explanation": "• **Chastise**: To rebuke or reprimand severely; to punish. (Synonym: Flog). ⛓️\n• **Laud/Praise**: To express high approval. (Antonyms). 👏"
+  },
+  {
+    "question": "Identify the part that contains an error from the given options:\nHe doesn’t travel **such more** / these days / because he is not well.",
+    "options": ["these days", "because he is not well.", "He doesn’t travel such more", "No error."],
+    "answer": "He doesn’t travel such more",
+    "explanation": "• **Grammar Error**: 'Such more' is an incorrect phrase. 🚫\n• **Correction**: It should be '**much**' (He doesn't travel much) or '**anymore**'. 🚶‍♂️"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe company is ________ financial difficulties due to declining sales.",
+    "options": ["challenging", "facing", "directing", "doing"],
+    "answer": "facing",
+    "explanation": "• **Facing**: Dealing with a difficult situation. (Standard collocation: 'Facing difficulties'). 📉💸\n• **Challenging**: Testing one's abilities. ⚔️"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) The US is the (1)____________________ shareholder in the World Bank...",
+    "options": ["longest", "brightest", "biggest", "tallest"],
+    "answer": "biggest",
+    "explanation": "• Context: In terms of shares or power in an organization, we use the term '**biggest**' or 'largest'. 🏦"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...the bank’s president has been a US citizen (2)____________________ by Washington.",
+    "options": ["nominated", "culminated", "radiated", "ruminated"],
+    "answer": "nominated",
+    "explanation": "• **Nominated**: Formally entered as a candidate for an office or honor. (Correct political context). 🗳️\n• **Ruminated**: Thought deeply about something. 🤔"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) ...have argued for moving the fund (3)_________________ from a donor recipient model...",
+    "options": ["beside", "away", "during", "along"],
+    "answer": "away",
+    "explanation": "• **Away**: Indicates distance or moving from one state to another. 'Moving away from' is a standard phrase for change. ➡️"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...usual power imbalances, (4)________________ a partnership founded on shared commitment...",
+    "options": ["lest", "liable", "towards", "behind"],
+    "answer": "towards",
+    "explanation": "• **Towards**: In the direction of. The sentence describes a shift 'away' from one model and 'towards' another. 🤝"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...This will require partial or total (5)______________________ of the World Bank.",
+    "options": ["resign", "reckon", "reform", "redeem"],
+    "answer": "reform",
+    "explanation": "• **Reform**: The improvement or amendment of what is wrong, corrupt, or unsatisfactory. (Best fit for institutional change). ⚙️✨"
+  }
+]
