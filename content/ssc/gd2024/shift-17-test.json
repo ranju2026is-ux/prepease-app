@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nMy friend has gone to Kerala on vacation, but I have no special plans. I will stay home and _______.",
+    "options": ["slip up", "pitch in", "iron out", "goof off"],
+    "answer": "goof off",
+    "explanation": "• **Goof off**: To spend time doing nothing useful or being lazy. (Related: Idle). 🛋️\n• **Slip up**: To make a careless mistake. ❌\n• **Pitch in**: To help with a task or join a group effort. 🤝\n• **Iron out**: To resolve small problems or details. 👔"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe artist’s _______________ use of colour made the painting boring and dull.",
+    "options": ["exciting", "drab", "vibrant", "exceptional"],
+    "answer": "drab",
+    "explanation": "• **Drab**: Lacking brightness or interest; dull. (Related: Dreary). ☁️\n• **Vibrant**: Full of energy and brightness. (Antonym). 🌈\n• **Exceptional**: Unusually good or outstanding. 🌟\n• **Exciting**: Causing great enthusiasm. ⚡"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word:\n**Diligent**",
+    "options": ["Industrious", "Inactive", "Hardworking", "Persistent"],
+    "answer": "Inactive",
+    "explanation": "• **Inactive**: Not engaging in or involving any activities; lazy. (Antonym). 💤\n• **Diligent**: Showing care and effort in one's work. (Synonyms: Hardworking, Industrious, Persistent). 🐝"
+  },
+  {
+    "question": "Which word best replaces the underlined word in the sentence?\nThe chef used a <u>wonderful</u> blend of spices to flavour the dish.",
+    "options": ["an essential", "an exotic", "a supernatural", "a bland"],
+    "answer": "an exotic",
+    "explanation": "• **Exotic**: Originating in or characteristic of a distant foreign country; attractive or striking. (Best fit for a 'wonderful' blend). 🌶️\n• **Essential**: Absolutely necessary. 🔑\n• **Bland**: Lacking strong features or characteristics; tasteless. (Antonym). 🍲\n• **Supernatural**: Relating to things that cannot be explained by nature. 👻"
+  },
+  {
+    "question": "Identify the segment that contains a grammatical error:\n(A) The team worked diligently / (B) to meet the project deadline, / (C) collaborating **seamless** to ensure / (D) every detail was accounted for and polished.",
+    "options": ["A", "C", "D", "B"],
+    "answer": "C",
+    "explanation": "• **Grammar Error**: The word 'seamless' is an adjective, but it needs to be an adverb (**seamlessly**) to describe how the team was 'collaborating'. ⚙️\n• **Correction**: 'collaborating seamlessly'."
+  },
+  {
+    "question": "Select the correct spelling of the underlined incorrectly spelt word:\nKashiram was very <u>symphathetic</u> towards his housekeeper.",
+    "options": ["sympathetic", "simpatetic", "symphathetik", "simpathetic"],
+    "answer": "sympathetic",
+    "explanation": "• **Sympathetic**: Feeling, showing, or expressing pity and sorrow for someone else's misfortune. ❤️\n• **Root**: 'Sym' (together) + 'path' (feeling)."
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word:\n**Accurate**",
+    "options": ["Errorless", "Correct", "Careful", "Faulty"],
+    "answer": "Faulty",
+    "explanation": "• **Faulty**: Working badly or containing mistakes. (Antonym). ⚠️\n• **Accurate**: Correct in all details; exact. (Synonyms: Errorless, Correct). 🎯"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nAfter years of hard work, he finally ______ his dream of becoming a doctor.",
+    "options": ["forfeit", "accomplished", "tried", "solved"],
+    "answer": "accomplished",
+    "explanation": "• **Accomplished**: Successfully reached or completed. (Related: Achieved). 🎓\n• **Forfeit**: To lose something as a penalty. 🚫\n• **Solved**: Found an answer to a problem. 🧩"
+  },
+  {
+    "question": "Select the word that best completes the given sentence (Determine the collocation).\nMs. Suma aims to maintain __________ standards of customer care.",
+    "options": ["confident", "high", "expensive", "loyal"],
+    "answer": "high",
+    "explanation": "• **High standards**: This is a standard collocation (words that naturally go together) used to describe quality. 📈\n• **Loyal**: Giving constant support. 🤝"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word:\nAn important meeting ended up in <u>farce</u> because of the miscreants.",
+    "options": ["Charity", "Mockery", "Chaos", "Tragedy"],
+    "answer": "Tragedy",
+    "explanation": "• **Tragedy**: An event causing great suffering, destruction, and distress. (Often used as the opposite of 'farce/comedy' in literature). 🎭\n• **Farce**: An absurd or ridiculous event; a mockery. (Related: Chaos). 😂"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom:\n**Burn the midnight oil**",
+    "options": ["To extinguish a flame", "To waste time", "To work late into the night", "To literally burn oil at midnight"],
+    "answer": "To work late into the night",
+    "explanation": "• **Meaning**: To stay up very late working or studying. (Related: Burning the candle at both ends). 📚🌙"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Embarrassment", "Necessary", "Inadvertent", "Maintenence"],
+    "answer": "Maintenence",
+    "explanation": "• **Incorrect spelling**: Maintenence. ❌\n• **Correct spelling**: **Maintenance**. ✅\n• **Tip**: It is not 'maintain-ence', the 'ai' changes to 'e'."
+  },
+  {
+    "question": "Select the word closest in meaning to the underlined word:\nFor <u>leisure</u>, Arjun prefers to unwind by playing chess with friends.",
+    "options": ["Incarceration", "Labour", "Profit", "Relaxation"],
+    "answer": "Relaxation",
+    "explanation": "• **Relaxation**: The state of being free from tension and anxiety. (Synonym for Leisure). 🧘\n• **Leisure**: Free time. 🕒\n• **Incarceration**: Imprisonment. ⛓️\n• **Labour**: Hard physical work. 👷"
+  },
+  {
+    "question": "Select the option that contains a grammatical error:\nThe Chairman instructed the managers that he **shall been holding** a meeting in Alberto Hall tomorrow evening.",
+    "options": ["shall been holding a meeting", "in Alberto Hall tomorrow evening.", "The Chairman instructed the", "managers that he"],
+    "answer": "shall been holding a meeting",
+    "explanation": "• **Grammar Error**: 'Shall been holding' is an incorrect tense structure. 🚫\n• **Correction**: It should be 'would be holding' (because 'instructed' is past tense) or 'will be holding' for future continuous. 📅"
+  },
+  {
+    "question": "Select the word closest in meaning to the underlined word:\nAjay was <u>cautious</u> when investing in the stock market.",
+    "options": ["Elaborate", "Lax", "Heedless", "Careful"],
+    "answer": "Careful",
+    "explanation": "• **Careful**: Making sure of avoiding potential danger or mishap. (Synonym). ✅\n• **Cautious**: Avoiding unnecessary risks. 🛡️\n• **Lax**: Not sufficiently strict or careful. (Antonym). 🌫️\n• **Heedless**: Showing a lack of care or attention. (Antonym). 🙈"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) For many, (1) __________ is often viewed as the key to happiness or sorrow.",
+    "options": ["friendship", "wealth", "love", "knowledge"],
+    "answer": "wealth",
+    "explanation": "• Context: The passage talks about people struggling because they 'don't have money'. Therefore, **wealth** is the topic being discussed as the perceived key to happiness. 💰"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) While (2)__________ can provide material comforts such as food, luxurious homes...",
+    "options": ["money", "love", "knowledge", "success"],
+    "answer": "money",
+    "explanation": "• Context: Only **money** can directly buy 'material comforts' like luxurious homes and conveniences. 💵"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) ...many wealthy people are plagued by (3)__________, anxiety, fear, stress...",
+    "options": ["success", "contentment", "sadness", "happiness"],
+    "answer": "sadness",
+    "explanation": "• Context: The passage lists negative emotions (anxiety, fear, stress). **Sadness** fits this negative group. 😔"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) In conclusion, (4)__________ is unrelated to happiness and true joy often comes from non-material aspects...",
+    "options": ["satisfaction", "joy", "excitement", "wealth"],
+    "answer": "wealth",
+    "explanation": "• Context: The central argument of the passage is that **wealth** (external possessions) does not guarantee joy. 🏦"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...it is essential to recognise that (5)__________ can be found within oneself...",
+    "options": ["social status", "happiness", "success", "financial help"],
+    "answer": "happiness",
+    "explanation": "• Context: The passage concludes that true **happiness** is an internal state, not found in external objects. ✨"
+  }
+]
