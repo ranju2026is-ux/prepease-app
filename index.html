@@ -70,15 +70,14 @@
         }
         .premium-card:active { transform: scale(0.98); }
 
-        /* Progress Fill Style */
         .progress-fill {
             position: absolute;
             left: 0; top: 0; bottom: 0;
-            background-color: #ecfdf5;
+            background-color: #dcfce7; /* Light emerald for fill */
             z-index: 0;
-            transition: width 0.6s ease;
+            transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
         }
-        .card-content { position: relative; z-index: 10; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; }
+        .card-content { position: relative; z-index: 10; width: 100%; height: 100%; display: flex; align-items: center; }
 
         .option-correct { border-color: #10b981 !important; background-color: #ecfdf5 !important; color: #065f46 !important; border-width: 2.5px !important; }
         .option-wrong { border-color: #ef4444 !important; background-color: #fef2f2 !important; color: #991b1b !important; border-width: 2.5px !important; }
@@ -150,7 +149,8 @@
             currentCategory: null,
             currentExam: null,
             activeMode: 'none',
-            quizResults: null
+            quizResults: null,
+            authError: null
         };
         window.state = state;
 
@@ -228,6 +228,32 @@
             }
         };
 
+        // --- AUTH ENGINE ---
+        window.handleAuth = async () => {
+            const userIn = document.getElementById('username-input').value.trim();
+            const passIn = document.getElementById('password-input').value;
+            if(!userIn || !passIn) return;
+            const email = `${userIn.toLowerCase()}@prepease.internal`;
+            state.authError = null;
+            window.render();
+            try {
+                if (state.authMode === 'signup') {
+                    const fullName = document.getElementById('name-input').value;
+                    const res = await createUserWithEmailAndPassword(auth, email, passIn);
+                    await setDoc(doc(db, 'artifacts', appId, 'users', res.user.uid, 'profile', 'info'), { name: fullName, username: userIn });
+                } else {
+                    await signInWithEmailAndPassword(auth, email, passIn);
+                }
+            } catch (err) { state.authError = "Check ID/Password."; window.render(); }
+        };
+
+        window.handleLogout = async () => {
+            await signOut(auth);
+            state.isAuthenticated = false;
+            state.userId = null;
+            window.navigateTo('login');
+        };
+
         // --- DATA ENGINE ---
         async function fetchJSON(url) {
             try { const res = await fetch(url); if (!res.ok) return null; return await res.json(); } catch (e) { return null; }
@@ -250,14 +276,9 @@
             }
             const data = await multiPathFetch(paths);
             if (data && data.length) {
-                if (data[0].question) { 
-                    window.activeQuestionsData = data; state.currentQuizIndex = 0; state.currentQuizAnswers = {}; state.activeMode = 'quiz'; window.renderQuizUI(); 
-                } else { 
-                    window.activeStudyData = data; state.currentStudyIndex = 0; state.activeMode = 'study'; window.renderStudyCardUI(); 
-                }
-            } else {
-                document.getElementById('content-container').innerHTML = `<div class="p-10 text-center font-bold">Content missing in repository. Check GitHub paths.</div>`;
-            }
+                if (data[0].question) { window.activeQuestionsData = data; state.currentQuizIndex = 0; state.currentQuizAnswers = {}; state.activeMode = 'quiz'; window.renderQuizUI(); }
+                else { window.activeStudyData = data; state.currentStudyIndex = 0; state.activeMode = 'study'; window.renderStudyCardUI(); }
+            } else document.getElementById('content-container').innerHTML = `<div class="p-10 text-center font-bold">Content missing.</div>`;
         };
 
         window.loadQuiz = async () => {
@@ -286,31 +307,21 @@
             const score = (correct * (isSSC ? 2.0 : 1.0)) + (wrong * (isSSC ? -0.5 : 0.0));
             state.quizResults = { score, correct, wrong, total: questions.length };
             
-            // Sync to Firebase with STABLE IDs
             if (state.userId) {
                 const folder = state.currentExam === 'SSC GD 2024' ? 'gd2024' : (state.isSSC ? 'cgl2023' : null);
                 const progressId = state.isSSC ? `${folder}_shift_${state.currentShift}` : `${state.currentTopic}_level_${state.currentLevel}`;
-                
-                setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'progress', progressId), { 
-                    score, 
-                    correct,
-                    total: questions.length,
-                    points: Math.max(0, Math.round(score)), 
-                    completedAt: new Date().toISOString() 
-                });
-
+                setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'progress', progressId), { score, correct, total: questions.length, points: Math.max(0, Math.round(score)), completedAt: new Date().toISOString() });
                 mistakesFound.forEach(m => {
                     const safeId = m.question.toLowerCase().replace(/[^a-z0-9]/gi, '_').substring(0, 50);
                     setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'mistakes', safeId), { ...m, masteryCount: 0 }, { merge: true });
                 });
             }
-
             window.navigateTo('results');
         };
 
         // --- RENDERERS ---
         window.renderHome = () => `<div class="p-6 h-full overflow-y-auto bg-white">
-            <h1 class="text-3xl font-black mb-4 tracking-tighter">Hello, <span class="text-indigo-600 font-sans">${state.userName || 'Aspirant'}</span></h1>
+            <h1 class="text-3xl font-black mb-4 tracking-tighter">Hello, <span class="text-indigo-600">${state.userName || 'Aspirant'}</span></h1>
             <div class="bg-indigo-600 p-6 rounded-3xl text-white shadow-xl mb-6">
                 <p class="text-[8px] opacity-70 uppercase font-bold tracking-widest font-sans">Total Mastery Points</p><p class="text-5xl font-black">${state.totalPoints || 0}</p>
                 <div class="mt-2 inline-block bg-white/10 px-3 py-1 rounded-full text-[10px] border border-white/20">${state.totalPoints < 500 ? '🌱 Junior' : state.totalPoints < 2000 ? '⚔️ Warrior' : '🏛️ Officer'}</div>
@@ -323,33 +334,15 @@
             </div>
         </div>`;
 
-        window.renderLevelsGrid = () => {
-            return `<div class="p-6 h-full overflow-y-auto flex flex-col bg-white">
-                <button onclick="window.navigateTo('topics-grid', {currentType:state.currentType})" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button>
-                <h2 class="text-3xl font-black mb-6 tracking-tight font-sans text-sm font-black text-slate-400 uppercase">${state.currentTopicTitle}</h2>
-                <div class="grid grid-cols-4 gap-3">
-                    ${[1,2,3,4,5,6,7,8,9,10].map(lv => {
-                        const progKey = `${state.currentTopic}_level_${lv}`;
-                        const data = state.progress[progKey];
-                        const pct = data ? Math.min(100, (data.correct / (data.total || 1)) * 100) : 0;
-                        return `
-                        <div onclick="window.navigateTo('content-view', {currentTopic: state.currentTopic, currentLevel:${lv}, isSSC:false})" 
-                             class="h-16 border-2 rounded-xl flex items-center justify-center font-bold text-lg hover:border-indigo-500 transition-all font-sans premium-card p-0">
-                             <div class="progress-fill" style="width: ${pct}%"></div>
-                             <div class="card-content">${lv}</div>
-                        </div>`;
-                    }).join('')}
-                </div>
-            </div>`;
-        };
-
-        window.renderShiftGrid = () => {
-            const shifts = state.currentExam === 'SSC GD 2024' ? gd2024Shifts : cgl2023Shifts;
-            const folder = state.currentExam === 'SSC GD 2024' ? 'gd2024' : 'cgl2023';
-            return `<div class="p-6 h-full flex flex-col overflow-hidden bg-white">
-                <button onclick="window.navigateTo('exams-pyq', {currentCategory:'ssc'})" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button>
-                <h2 class="text-xl font-black mb-4 tracking-tighter uppercase text-sm font-black text-slate-400">${state.currentExam}</h2>
-                <div class="grid grid-cols-1 gap-2 flex-grow overflow-y-auto pr-1">
-                    ${shifts.map((s, idx) => {
-                        const progKey = `${folder}_shift_${idx}`;
-                        const data = state.prog
+        window.renderResults = () => {
+            const res = state.quizResults; if(!res) return window.renderHome();
+            return `<div class="p-10 text-center flex flex-col justify-center h-full view-transition bg-white">
+                <div class="bg-white p-8 rounded-[2.5rem] shadow-2xl border border-slate-100 max-w-md mx-auto w-full">
+                    <h2 class="text-3xl font-black mb-2 text-slate-900 tracking-tighter font-sans">Mission Complete!</h2>
+                    <p class="text-slate-400 uppercase text-[10px] font-bold tracking-widest mb-8">Performance Report</p>
+                    <div class="grid grid-cols-2 gap-3 mb-8">
+                        <div class="bg-indigo-50 p-6 rounded-3xl text-center"><p class="text-3xl font-black text-indigo-600">${res.correct}</p><p class="text-[8px] font-bold text-indigo-400 uppercase">Correct</p></div>
+                        <div class="bg-rose-50 p-6 rounded-3xl text-center"><p class="text-3xl font-black text-rose-600">${res.wrong}</p><p class="text-[8px] font-bold text-rose-400 uppercase">Wrong</p></div>
+                        <div class="bg-emerald-50 p-4 rounded-3xl text-center col-span-2"><p class="text-4xl font-black text-emerald-600">${res.score.toFixed(1)}</p><p class="text-[9px] font-bold text-emerald-400 uppercase">Final Marks Earned</p></div>
+                    </div>
+                    <button onclick="w
