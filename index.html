@@ -66,6 +66,8 @@
             transition: all 0.2s;
             position: relative;
             overflow: hidden;
+            display: flex;
+            align-items: center;
         }
         .premium-card:active { transform: scale(0.98); }
 
@@ -127,7 +129,7 @@
         const appId = 'prepease-app';
 
         const state = {
-            view: 'login', // Default to login to avoid getting stuck
+            view: 'booting',
             isAuthenticated: false,
             userName: '',
             userId: null,
@@ -144,6 +146,7 @@
             currentExam: null,
             currentTopic: '',
             currentTopicTitle: '',
+            currentType: '',
             activeMode: 'none',
             quizResults: null,
             authError: null
@@ -258,14 +261,20 @@
         }
 
         window.loadGenericContent = async () => {
-            const { currentTopic, currentLevel, isSSC, currentShift, currentExam } = state;
+            const { currentTopic, currentLevel, isSSC, currentShift, currentExam, currentType } = state;
             let paths = [];
             if (isSSC) {
                 const folder = currentExam === 'SSC GD 2024' ? 'gd2024' : 'cgl2023';
                 paths = [`./content/ssc/${folder}/shift-${currentShift}-test.json`, `./content/ssc/${folder}/shift${currentShift}-test.json` ];
             } else {
-                const basePath = `./content/general-english/vocabulary/${currentTopic}`;
-                paths = [`${basePath}/level-${currentLevel}.json`, `${basePath}/level${currentLevel}.json`, `${basePath}/level-${currentLevel}-test.json`, `${basePath}/level${currentLevel}-test.json` ];
+                const typeFolder = currentType === 'grammar' ? 'grammar' : 'vocabulary';
+                const basePath = `./content/general-english/${typeFolder}/${currentTopic}`;
+                paths = [
+                    `${basePath}/level-${currentLevel}.json`, 
+                    `${basePath}/level${currentLevel}.json`, 
+                    `${basePath}/level-${currentLevel}-test.json`,
+                    `${basePath}/level${currentLevel}-test.json`
+                ];
             }
             const data = await multiPathFetch(paths);
             if (data && data.length) {
@@ -280,9 +289,10 @@
         };
 
         window.loadQuiz = async () => {
-            const { currentTopic, currentLevel, isSSC, currentShift, currentExam } = state;
+            const { currentTopic, currentLevel, isSSC, currentShift, currentExam, currentType } = state;
             const folder = currentExam === 'SSC GD 2024' ? 'gd2024' : 'cgl2023';
-            let basePath = isSSC ? `./content/ssc/${folder}` : `./content/general-english/vocabulary/${currentTopic}`;
+            const typeFolder = currentType === 'grammar' ? 'grammar' : 'vocabulary';
+            let basePath = isSSC ? `./content/ssc/${folder}` : `./content/general-english/${typeFolder}/${currentTopic}`;
             let fileName = isSSC ? `shift-${currentShift}-test.json` : `level-${currentLevel}-test.json`;
             let data = await multiPathFetch([`${basePath}/${fileName}`, `${basePath}/${fileName.replace('-', '')}`]);
             if(data) { window.activeQuestionsData = data; state.currentQuizIndex = 0; state.currentQuizAnswers = {}; state.activeMode = 'quiz'; window.renderQuizUI(); }
@@ -317,7 +327,7 @@
             window.navigateTo('results');
         };
 
-        // --- VIEW RENDERERS ---
+        // --- RENDERERS ---
         window.renderHome = () => `<div class="p-6 h-full overflow-y-auto bg-white view-transition">
             <h1 class="text-3xl font-black mb-4 tracking-tighter">Hello, <span class="text-indigo-600 font-sans">${state.userName || 'Aspirant'}</span></h1>
             <div class="bg-indigo-600 p-6 rounded-3xl text-white shadow-xl mb-6">
@@ -340,7 +350,7 @@
                     const progKey = `${state.currentTopic}_level_${lv}`;
                     const data = state.progress[progKey];
                     const pct = data ? Math.min(100, (data.correct / (data.total || 1)) * 100) : 0;
-                    return `<div onclick="window.navigateTo('content-view', {currentTopic: state.currentTopic, currentLevel:${lv}, isSSC:false})" class="h-16 border-2 rounded-xl flex items-center justify-center font-bold text-lg hover:border-indigo-500 transition-all font-sans premium-card p-0"><div class="progress-fill-bg" style="width: ${pct}%"></div><div class="card-inner-text">${lv}</div></div>`;
+                    return `<div onclick="window.navigateTo('content-view', {currentTopic: state.currentTopic, currentLevel:${lv}, isSSC:false, currentType: state.currentType})" class="h-16 border-2 rounded-xl flex items-center justify-center font-bold text-lg hover:border-indigo-500 transition-all font-sans premium-card p-0"><div class="progress-fill-bg" style="width: ${pct}%"></div><div class="card-inner-text">${lv}</div></div>`;
                 }).join('')}
             </div>
         </div>`;
@@ -393,6 +403,24 @@
             </div>`;
         };
 
+        window.renderStudyCardUI = () => {
+            const item = window.activeStudyData[state.currentStudyIndex];
+            const container = document.getElementById('content-container'); if(!item || !container) return;
+            container.innerHTML = `<div class="flex-grow flex flex-col h-full overflow-hidden" ontouchstart="window.handleTouchStart(event)" ontouchend="window.handleTouchEnd(event)">
+                <div class="vocab-single-page view-transition">
+                    <div class="flex justify-between items-center mb-4"><span class="text-[10px] font-black bg-indigo-50 text-indigo-600 px-3 py-1 rounded-full uppercase">Review</span><span class="text-[10px] font-black text-slate-400">${state.currentStudyIndex + 1}/${window.activeStudyData.length}</span></div>
+                    <div class="scroll-content">
+                        <div class="text-7xl mb-6">${item.emoji || '📗'}</div><h3 class="text-3xl font-black text-slate-900 mb-8 break-word-custom tracking-tighter">${item.word}</h3>
+                        <div class="space-y-4 text-left">
+                            <div class="bg-slate-50 p-4 rounded-2xl border border-slate-100"><p class="text-[9px] font-bold text-slate-400 uppercase mb-2">Meaning</p><p class="text-xl font-bold text-indigo-900 font-kannada">${item.meaning_kannada}</p></div>
+                            <div class="bg-indigo-50/50 p-4 rounded-2xl border border-indigo-100"><p class="text-[9px] font-bold text-indigo-400 uppercase mb-2">English</p><p class="text-base font-medium text-indigo-900 italic leading-relaxed font-kannada">${item.meaning_english}</p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex gap-2 mt-3 h-14"><button onclick="window.movePrev()" class="flex-1 bg-white border-2 rounded-xl font-bold text-xs uppercase">Prev</button>${state.currentStudyIndex === window.activeStudyData.length - 1 ? `<button onclick="window.loadQuiz()" class="flex-1 bg-indigo-600 text-white rounded-xl font-bold text-xs uppercase">Quiz 🚀</button>` : `<button onclick="window.moveNext()" class="flex-1 bg-indigo-600 text-white rounded-xl font-bold text-xs uppercase">Next</button>`}</div>
+            </div>`;
+        };
+
         // --- MAIN RENDER CYCLE ---
         window.render = () => {
             const shell = document.getElementById('app-shell'); if(!shell) return;
@@ -416,7 +444,7 @@
                     </div>
                 </div>`; break;
                 case 'english-selection': shell.innerHTML = `<div class="p-6 h-full flex flex-col bg-white view-transition"><button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button><h2 class="text-3xl font-black mb-6 font-sans tracking-tight">Tracks</h2><div onclick="window.navigateTo('topics-grid', {currentType:'grammar'})" class="premium-card border rounded-2xl mb-4 bg-white font-bold flex justify-between shadow-sm font-sans uppercase text-sm font-black"><span class="z-10">Grammar</span> <span class="z-10 text-xl">🔡</span></div><div onclick="window.navigateTo('topics-grid', {currentType:'vocabulary'})" class="premium-card border rounded-2xl bg-white font-bold flex justify-between shadow-sm font-sans uppercase text-sm font-black"><span class="z-10">Vocabulary</span> <span class="z-10 text-xl">📖</span></div></div>`; break;
-                case 'topics-grid': shell.innerHTML = `<div class="p-6 h-full overflow-y-auto flex flex-col bg-white view-transition"><button onclick="window.navigateTo('english-selection')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button><h2 class="text-3xl font-black mb-6 capitalize tracking-tight font-sans text-sm font-black text-slate-400 uppercase font-sans">${state.currentType} Hub</h2><div class="grid grid-cols-2 gap-3">${(topicsData[state.currentType] || []).map(t => `<div onclick="window.navigateTo('levels-grid', {currentTopic:'${t.id}', currentTopicTitle:'${t.title}'})" class="p-6 border rounded-2xl bg-white text-center shadow-sm font-sans uppercase text-[10px] font-black"><span class="text-3xl block mb-2">${t.icon}</span><span>${t.title}</span></div>`).join('')}</div></div>`; break;
+                case 'topics-grid': shell.innerHTML = `<div class="p-6 h-full overflow-y-auto flex flex-col bg-white view-transition"><button onclick="window.navigateTo('english-selection')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button><h2 class="text-3xl font-black mb-6 capitalize tracking-tight font-sans text-sm font-black text-slate-400 uppercase font-sans">${state.currentType} Hub</h2><div class="grid grid-cols-2 gap-3">${(topicsData[state.currentType] || []).map(t => `<div onclick="window.navigateTo('levels-grid', {currentTopic:'${t.id}', currentTopicTitle:'${t.title}', currentType: state.currentType})" class="p-6 border rounded-2xl bg-white text-center shadow-sm font-sans uppercase text-[10px] font-black"><span class="text-3xl block mb-2">${t.icon}</span><span>${t.title}</span></div>`).join('')}</div></div>`; break;
                 case 'levels-grid': shell.innerHTML = window.renderLevelsGrid(); break;
                 case 'exams-pyq': shell.innerHTML = `<div class="p-6 h-full flex flex-col bg-white view-transition"><button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button><h2 class="text-3xl font-black mb-6 font-sans">Exam Hub</h2><div class="space-y-3"><div onclick="window.navigateTo('shift-grid', {currentExam:'SSC CGL 2023', isSSC:true})" class="premium-card flex justify-between shadow-sm p-6 font-bold border border-slate-100 rounded-2xl font-sans uppercase text-sm font-black"><span class="z-10">SSC CGL 2023</span> <span class="z-10 text-xl">⚔️</span></div><div onclick="window.navigateTo('shift-grid', {currentExam:'SSC GD 2024', isSSC:true})" class="premium-card flex justify-between shadow-sm p-6 font-bold border border-slate-100 rounded-2xl font-sans uppercase text-sm font-black"><span class="z-10">SSC GD 2024</span> <span class="z-10 text-xl">🛡️</span></div></div></div>`; break;
                 case 'shift-grid': shell.innerHTML = window.renderShiftGrid(); break;
