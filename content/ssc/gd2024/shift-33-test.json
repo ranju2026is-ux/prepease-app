@@ -1,0 +1,127 @@
+[
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThroughout our day-to-day interactions, there are _______ when we might choose to keep certain information to ourselves.",
+    "options": ["timings", "times", "anytime", "sometimes"],
+    "answer": "times",
+    "explanation": "• **Times**: In this context, it refers to specific occasions or instances. ⏳\n• **Timings**: Usually refers to the schedule or speed of something. ⏱️"
+  },
+  {
+    "question": "Select the most appropriate synonym of the word in the brackets to fill in the blank.\nJintu is such a ________________(funny) person.",
+    "options": ["cold", "humorous", "bad", "tall"],
+    "answer": "humorous",
+    "explanation": "• **Humorous**: Causing lighthearted laughter and amusement; comic. (Direct synonym for funny). 😂✨"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Allegience", "Adherence", "Subservience", "Reverence"],
+    "answer": "Allegience",
+    "explanation": "• **Incorrect spelling**: Allegience. ❌\n• **Correct spelling**: **Allegiance**. ✅\n• **Mnemonic**: Think of 'giant' at the end – Alle-gi-ance. 🚩"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nDespite initial problems, the plan has been a ______ success.",
+    "options": ["loud", "sounding", "cracking", "roaring"],
+    "answer": "roaring",
+    "explanation": "• **Roaring success**: A standard idiomatic collocation used to describe something that is extremely successful. 🦁🏆"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Rudimentary**",
+    "options": ["Advanced", "Complex", "Intricate", "Elementary"],
+    "answer": "Elementary",
+    "explanation": "• **Rudimentary**: Involving or limited to basic principles. (Synonym: Elementary/Basic). 🧱\n• **Advanced/Complex**: Highly developed or complicated. (Antonyms)."
+  },
+  {
+    "question": "Select the most appropriate idiom that can substitute the highlighted segment.\nShe was feeling under the weather, so she decided to go to bed in order to sleep.",
+    "options": ["cry over spilled milk", "break a leg", "bark up the wrong tree", "hit the sack"],
+    "answer": "hit the sack",
+    "explanation": "• **Hit the sack**: A common idiom meaning to go to bed or go to sleep. 🛌💤"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blanks.\nThe new smartphone had a (1)____ design, responsive (2)____, and impressive camera, making it one of the most (3)____ gadgets in the market.",
+    "options": [
+      "(1) sleek ; (2) interface ; (3) sought-after",
+      "(1) interface ; (2) sleek ; (3) sought-after",
+      "(1) sought-after ; (2) sleek ; (3) interface",
+      "(1) interface ; (2) sought-after ; (3) sleek"
+    ],
+    "answer": "(1) sleek ; (2) interface ; (3) sought-after",
+    "explanation": "• **Context**: Designs are usually **sleek** (smooth/elegant). Software systems have an **interface**. Popular products are **sought-after**. 📱✨"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\n...with my parents sitting among the audience and <u>jostling with their emotion</u>.",
+    "options": ["hiding their nervousness", "pray for me", "applauding my success", "supporting my fear"],
+    "answer": "applauding my success",
+    "explanation": "• **Context**: In an award ceremony setting, parents in the audience would most logically be **applauding success**. 👏🎓"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Capable**",
+    "options": ["Garrulous", "Incompetent", "Considerate", "Troublesome"],
+    "answer": "Incompetent",
+    "explanation": "• **Capable**: Having the ability or quality necessary to do something. ✅\n• **Incompetent**: Not having or showing the necessary skills to do something successfully. (Antonym). ❌"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Strategic**",
+    "options": ["Wise", "Hazy", "Cruel", "Trivial"],
+    "answer": "Trivial",
+    "explanation": "• **Strategic**: Relating to the identification of long-term or overall aims and interests. (Important/Planned). 🎯\n• **Trivial**: Of little value or importance. (Antonym). 🤏"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Luxuriant**",
+    "options": ["Lush", "Leafless", "Barren", "Bleak"],
+    "answer": "Lush",
+    "explanation": "• **Luxuriant**: (of vegetation) rich and profuse in growth. (Synonym: Lush). 🌿🌳\n• **Barren**: Bleak or lifeless. (Antonym)."
+  },
+  {
+    "question": "Identify the segment that contains a grammatical error:\n(A) The dog barked loudly at the stranger, / (B) standing **protective** / (C) in front of its owner / (D) and alerting everyone.",
+    "options": ["C", "D", "A", "B"],
+    "answer": "B",
+    "explanation": "• **Error**: 'Protective' is an adjective. We need the adverb '**protectively**' to describe how the dog was 'standing'. 🐕🛡️\n• **Correction**: 'standing **protectively**'."
+  },
+  {
+    "question": "Select the segment with an adverbial usage error:\nOn the occasion of Teacher’s Day, / the students / **light** applauded the performance / of the teachers.",
+    "options": ["On the occasion of Teacher’s Day,", "light applauded the performance", "of the teachers.", "the students of the community school"],
+    "answer": "light applauded the performance",
+    "explanation": "• **Error**: 'Light' is an adjective. It should be the adverb '**lightly**' to modify the verb 'applauded'. 🚫\n• **Correction**: '...**lightly** applauded...'"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Barrister", "Begining", "Battery", "Bough"],
+    "answer": "Begining",
+    "explanation": "• **Incorrect spelling**: Begining. ❌\n• **Correct spelling**: **Beginning**. ✅ (Double 'n' when adding -ing to begin)."
+  },
+  {
+    "question": "Select the most appropriate option to substitute the highlighted segment:\nThe report **has written** by the analyst.",
+    "options": ["No correction", "was writing", "was written", "written"],
+    "answer": "was written",
+    "explanation": "• **Passive Voice**: The report is the receiver of the action. The correct past passive structure is '**was written**'. 📄✍️"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) The impact of climate change on global agriculture is (1) _____ concern among scientists...",
+    "options": ["a decreasing", "an increasing", "an irrelevant", "a stable"],
+    "answer": "an increasing",
+    "explanation": "• **Context**: Climate change is a growing and urgent problem, creating **an increasing** concern globally. 🌍📈"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) Rising temperatures and unpredictable weather patterns (2) _____ crop yields and food security.",
+    "options": ["stabilise", "promote", "jeopardise", "enhance"],
+    "answer": "jeopardise",
+    "explanation": "• **Jeopardise**: To put into a situation in which there is a danger of loss, harm, or failure. Bad weather harms food security. 🌽⚠️"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) Droughts and floods... (3) _____ the agricultural output in many regions.",
+    "options": ["bolster", "augment", "increase", "diminish"],
+    "answer": "diminish",
+    "explanation": "• **Diminish**: To make or become less. Disasters like floods reduce agricultural output. 📉"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) Consequently, farmers (4) _____ innovative strategies...",
+    "options": ["employed", "employing", "employs", "employ"],
+    "answer": "employ",
+    "explanation": "• **Grammar**: 'Farmers' is plural. For a general present-day fact, the base verb '**employ**' is correct. 🚜"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...technologies to (5) _____ their resilience to these changes.",
+    "options": ["reduce", "enhance", "compromise", "accept"],
+    "answer": "enhance",
+    "explanation": "• **Enhance**: To intensify, increase, or further improve the quality or value of. Farmers want to **enhance** (improve) their ability to survive climate changes. 💪🌾"
+  }
+]
