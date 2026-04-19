@@ -1,0 +1,137 @@
+[
+  {
+    "question": "In the sentence, 'Her argument was so convoluted', what is a synonym of the word 'convoluted'?",
+    "options": ["Straightforward", "Direct", "Neutral", "Complex"],
+    "answer": "Complex",
+    "explanation": "• **Convoluted**: Extremely complex and difficult to follow. (Related: Intricate, Knotty). 🧶\n• **Straightforward/Direct**: Easy to understand or do. (Antonyms). ✅"
+  },
+  {
+    "question": "Select the most appropriate one-word substitute for the underlined segment:\nShe provided a <u>compact and precise</u> summary of her research work.",
+    "options": ["redundant", "verbose", "succinct", "diffuse"],
+    "answer": "succinct",
+    "explanation": "• **Succinct**: Briefly and clearly expressed (especially of something written or spoken). (Related: Concise). ✂️\n• **Verbose/Redundant**: Using more words than are needed. (Antonyms). 🗣️"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word in the following sentence:\nThe neccessary documents are required for the application process.",
+    "options": ["process", "required", "application", "neccessary"],
+    "answer": "neccessary",
+    "explanation": "• **Incorrect spelling**: neccessary. ❌\n• **Correct spelling**: **Necessary**. ✅\n• **Mnemonic**: A shirt has one **C**ollar and two **S**leeves (one 'c', two 's'). 👕"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the word in brackets to fill in the blank.\nThe artist decided to use the ________ (traditional) approach in creating a classic-style painting.",
+    "options": ["ancient", "unique", "stale", "contemporary"],
+    "answer": "contemporary",
+    "explanation": "• **Contemporary**: Belonging to or occurring in the present. (Antonym of Traditional). 🏙️\n• **Traditional**: Produced or done according to habit or custom. (Related: Ancient). 🏛️"
+  },
+  {
+    "question": "Select the most appropriate option to substitute the underlined segment:\nSomebody <u>have left</u> dirty clothes on the bed.",
+    "options": ["were left", "has left", "was left", "have been left"],
+    "answer": "has left",
+    "explanation": "• **Subject-Verb Agreement**: 'Somebody' is an indefinite singular pronoun and must take a singular verb (**has**). ☝️\n• **Active Voice**: The person 'has left' the clothes (Active), not 'was left' (Passive). 👕"
+  },
+  {
+    "question": "Select the word that best completes the sentence (Determine the collocation):\nRamesh has been _________ involved in social service for 30 years.",
+    "options": ["actively", "brightly", "gently", "exactly"],
+    "answer": "actively",
+    "explanation": "• **Actively involved**: A common collocation meaning to take an energetic and dedicated part in something. 🏃‍♂️🤝"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word:\n**Brutal**",
+    "options": ["Heroic", "Ruthless", "Notable", "Active"],
+    "answer": "Ruthless",
+    "explanation": "• **Brutal**: Savagely violent or unpleasant. (Synonym: Ruthless). 👹\n• **Ruthless**: Having or showing no pity or compassion for others. 🗡️"
+  },
+  {
+    "question": "Identify the part that contains an error:\nIn the Director’s party, / everyone noticed / that he sings **more too faster**.",
+    "options": ["everyone noticed", "No error.", "In the Director’s party,", "that he sings more too faster."],
+    "answer": "that he sings more too faster.",
+    "explanation": "• **Grammar Error**: This is a double comparison error. 'Faster' is already comparative; using 'more' is redundant. Also, 'too' is incorrectly placed. 🚫\n• **Correction**: It should be 'too fast' or 'much faster'. 🎤💨"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word:\n**Haughty**",
+    "options": ["Transient", "Distracted", "Ample", "Modest"],
+    "answer": "Modest",
+    "explanation": "• **Modest**: Unassuming or moderate in the estimation of one's abilities. (Antonym). 😊\n• **Haughty**: Arrogantly superior and disdainful. (Synonyms: Arrogant, Snobbish). 🤨"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom:\n**The proof of the pudding is in the eating**",
+    "options": [
+      "Trust is built by sharing good food",
+      "A person can only know if something is good or bad by trying it",
+      "Its better to be well-fed than to go hungry",
+      "One has the evidence if they are alert"
+    ],
+    "answer": "A person can only know if something is good or bad by trying it",
+    "explanation": "• **Meaning**: You can only judge the quality of something after you have tried, used, or experienced it. 🍮🥣"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\n3D printing is an exciting new technology _______ promises to very quickly create anything people can design.",
+    "options": ["then", "that", "the", "than"],
+    "answer": "that",
+    "explanation": "• **Relative Pronoun**: 'That' is used here to introduce a defining relative clause describing 'technology'. 🖨️✨"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe security officer ordered the group ____________ the premises immediately.",
+    "options": ["left", "to leave", "leaving", "to left"],
+    "answer": "to leave",
+    "explanation": "• **Verb Pattern**: The verb 'order' is followed by the object + to-infinitive (**order someone to do something**). 👮‍♂️🚫"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word:\nMrs. Sharma found her husband to be a <u>sloppy</u> dresser.",
+    "options": ["meticulous", "untidy", "messy", "shabby"],
+    "answer": "meticulous",
+    "explanation": "• **Meticulous**: Showing great attention to detail; very careful and precise. (Antonym). ✨👔\n• **Sloppy**: Careless and unsystematic; untidy. (Synonyms: Messy, Shabby). 📉"
+  },
+  {
+    "question": "Identify the sentence with the INCORRECT usage of the adverb.",
+    "options": [
+      "The teacher noticed that all students worked hard to complete the project on time.",
+      "The teacher noticed that all students worked laboriously to complete the project on time.",
+      "The teacher noticed that all students worked meticulously to complete the project on time.",
+      "The teacher noticed that all students worked strenuous to complete the project on time."
+    ],
+    "answer": "The teacher noticed that all students worked strenuous to complete the project on time.",
+    "explanation": "• **Adverbial Error**: 'Strenuous' is an adjective. To modify the verb 'worked', we need the adverb '**strenuously**'. 🚫\n• **Correct**: '...worked strenuously...' 💪"
+  },
+  {
+    "question": "Identify the sentence with the INCORRECTLY spelt word.",
+    "options": [
+      "The team worked hard to complete the project.",
+      "The hotel room was very clean and comfortible.",
+      "She enjoyed the delicious dinner and dessert.",
+      "We visited several historical sites during our trip."
+    ],
+    "answer": "The hotel room was very clean and comfortible.",
+    "explanation": "• **Incorrect spelling**: comfortible. ❌\n• **Correct spelling**: **Comfortable**. ✅🛋️"
+  },
+  {
+    "question": "(Cloze Test - Blank A) The farmers in our village were fed up with the birds that used to eat ____[A]____ all their harvested grains.",
+    "options": ["up", "away", "on", "off"],
+    "answer": "up",
+    "explanation": "• **Eat up**: To eat something completely. The birds were finishing all the grain. 🐦🌾"
+  },
+  {
+    "question": "(Cloze Test - Blank B) They tried to take turns watching, ____[B]____ still, they were not able to save the crops.",
+    "options": ["but", "as", "because", "for"],
+    "answer": "but",
+    "explanation": "• **Conjunction**: 'But' is used to show contrast between trying to watch and failing to save the crops. ⛈️"
+  },
+  {
+    "question": "(Cloze Test - Blank C) The face was made using an earthen pot, while bundles of straw ____[C]____ to create its arms.",
+    "options": ["has been used", "are used", "were used", "had been used"],
+    "answer": "were used",
+    "explanation": "• **Passive Voice & Tense**: The story is in the past tense ('was made'), and 'bundles' is plural, so '**were used**' is correct. 🏗️"
+  },
+  {
+    "question": "(Cloze Test - Blank D) Finally, it was accessorised with a hat and a coat to perfect ----____[D]____ illusion as a man.",
+    "options": ["theirs", "it's", "its", "their"],
+    "answer": "its",
+    "explanation": "• **Possessive Pronoun**: 'Its' (without apostrophe) indicates belonging to the scarecrow. 'It's' means 'it is'. 🧥"
+  },
+  {
+    "question": "(Cloze Test - Blank E) It was a ____[E]____ coat that used to belong to a beggar...",
+    "options": ["brown, tattered, old", "old, tattered, brown", "brown, old, tattered", "tattered, old, brown"],
+    "answer": "tattered, old, brown",
+    "explanation": "• **Adjective Order**: The standard order is Opinion (tattered) -> Age (old) -> Color (brown). 🧥🥨"
+  }
+]
