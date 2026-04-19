@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Fill in the blank with the most suitable collocation.\nIt is impossible that the bank will ____________.",
+    "options": ["follow a debt", "format a debt", "forgive a debt", "fragment a debt"],
+    "answer": "forgive a debt",
+    "explanation": "• **Forgive a debt**: A standard financial collocation meaning to officially stop requiring someone to pay back money they owe. 💸❌\n• **Debt forgiveness** is a common term in banking and economics."
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blanks.\nThe serene beach offered (1)____ waters, (2)___ sand and (3)___ sunsets, creating a perfect spot for relaxation and reflection.",
+    "options": [
+      "(1) soft ; (2) clear ; (3) stunning",
+      "(1) soft ; (2) stunning ; (3) clear",
+      "(1) clear ; (2) soft ; (3) stunning",
+      "(1) stunning ; (2) soft ; (3) clear"
+    ],
+    "answer": "(1) clear ; (2) soft ; (3) stunning",
+    "explanation": "• **Collocation**: Waters are described as **clear**, sand is felt as **soft**, and sunsets are visually **stunning**. 🏖️🌅"
+  },
+  {
+    "question": "Identify the INCORRECTLY spelt word in the given sentence.\nAfter receiving the parcel, she immedietely opened it.",
+    "options": ["parcel", "receiving", "opened", "immedietely"],
+    "answer": "immedietely",
+    "explanation": "• **Incorrect spelling**: immedietely. ❌\n• **Correct spelling**: **Immediately**. ✅\n• **Rule**: 'I' before 'E' except after 'C' (as seen in 'receiving')."
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe family heirloom was not only rare but was also _________.",
+    "options": ["productivity", "profit", "priceless", "artist"],
+    "answer": "priceless",
+    "explanation": "• **Priceless**: So precious that its value cannot be determined. This adjective perfectly complements 'rare' when describing a family heirloom. 💎🏺"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Young**",
+    "options": ["Mature", "Boyish", "Stiff", "Moist"],
+    "answer": "Mature",
+    "explanation": "• **Young**: In an early stage of life. 👶\n• **Mature**: Having reached an advanced stage of mental or physical development. (Antonym). 🧔"
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\nThough she is my best friend, Sarah’s compliments felt <u>superficial</u>, lacking genuine warmth.",
+    "options": ["substantial", "profound", "kind", "shallow"],
+    "answer": "shallow",
+    "explanation": "• **Superficial**: Lacking depth or real meaning; only on the surface. (Synonym: Shallow). 🌊🚫\n• **Profound/Substantial**: Deep or significant. (Antonyms)."
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Far and wide**",
+    "options": ["Everywhere", "To give away a secret", "Now and then", "By itself"],
+    "answer": "Everywhere",
+    "explanation": "• **Meaning**: Over a large area or in many places. (Example: People came from far and wide). 🌏"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nThe new software update brought quite a few improvements in the <u>transactions</u>.",
+    "options": ["interpretation", "deals", "intralingual", "interplay"],
+    "answer": "deals",
+    "explanation": "• **Transactions**: The instances of buying or selling something. (Synonym: Deals). 🤝💰"
+  },
+  {
+    "question": "Identify the INCORRECTLY spelt word in the given sentence.\nThe diplomat's erudition was matched only by his arrogance and recalcitrent attitude.",
+    "options": ["compromise", "recalcitrent", "arrogance", "erudition"],
+    "answer": "recalcitrent",
+    "explanation": "• **Incorrect spelling**: recalcitrent. ❌\n• **Correct spelling**: **Recalcitrant**. ✅ (Meaning stubbornly resistant to authority)."
+  },
+  {
+    "question": "Identify the part that contains an error:\nHe was playing cricket when I have walked past the stadium early in the morning.",
+    "options": ["He was playing cricket", "past the stadium", "when I have walked", "early this morning."],
+    "answer": "when I have walked",
+    "explanation": "• **Tense Error**: For an action that interrupted a past continuous activity ('was playing'), we use Simple Past ('walked'), not Present Perfect ('have walked'). 🚫🏟️"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blanks.\nHis (1)___ speech was clear, (2)___ and passionate, leaving a (3)___ impression on the audience.",
+    "options": [
+      "(1) lasting ; (2) persuasive ; (3) well-structured",
+      "(1) persuasive ; (2) lasting ; (3) well-structured",
+      "(1) persuasive ; (2) well-structured ; (3) lasting",
+      "(1) well-structured ; (2) lasting ; (3) persuasive"
+    ],
+    "answer": "(1) persuasive ; (2) well-structured ; (3) lasting",
+    "explanation": "• **Context**: A speech is **persuasive** (convincing), its organization is **well-structured**, and the result is a **lasting** (long-term) impression. 🗣️✅"
+  },
+  {
+    "question": "Identify the segment that contains a grammatical error:\n(A) The cat quiet stalked its prey, / (B) moving stealthily / (C) demonstrating its hunting skills / (D) with great precision.",
+    "options": ["C", "B", "D", "A"],
+    "answer": "A",
+    "explanation": "• **Error**: 'Quiet' is an adjective. It should be the adverb '**quietly**' to modify the verb 'stalked'. 🐈🤫"
+  },
+  {
+    "question": "Which of the following sentences contains the meaning of the word **'listless'**?",
+    "options": [
+      "Rudresh is good at creating a linearly ordered data structure on his computer.",
+      "After listening to a long speech, Tanuja felt exhausted and devoid of energy.",
+      "As soon as Ravi reported for duty, he was asked to present himself for roster call.",
+      "To apply for a passport, a list of documents is to be submitted."
+    ],
+    "answer": "After listening to a long speech, Tanuja felt exhausted and devoid of energy.",
+    "explanation": "• **Listless**: Lacking energy or enthusiasm. Sentence 2 describes Tanuja as 'exhausted and devoid of energy', which is the definition of listless. 🥱⚡"
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\nMaya couldn’t hide her <u>glee</u> when our rival came last.",
+    "options": ["Sorrow", "Happiness", "Unhappiness", "Wickedness"],
+    "answer": "Happiness",
+    "explanation": "• **Glee**: Great delight or pleasure. (Synonym: Happiness). 😄"
+  },
+  {
+    "question": "Select the word segment that can substitute the bracketed word segment correctly.\nThe detective (had been solved the murder mystery) within a week.",
+    "options": [
+      "have been solved the murder mystery",
+      "solved the murder mystery",
+      "No substitution required",
+      "solve the murder mystery"
+    ],
+    "answer": "solved the murder mystery",
+    "explanation": "• **Active Voice**: The detective performed the action in the past. 'Solved' is the Simple Past form. 'Had been solved' is passive and grammatically incorrect for this context. 🔍🕵️‍♂️"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Recycling at home is a simple (1) _____ impactful way to contribute...",
+    "options": ["but", "and", "also", "yet"],
+    "answer": "and",
+    "explanation": "• **Conjunction**: 'And' connects two positive descriptions (simple and impactful) of the same action. ♻️"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) Separating recyclables (2) _____ paper, plastic and glass...",
+    "options": ["dislike", "such", "similar to", "like"],
+    "answer": "like",
+    "explanation": "• **Preposition**: 'Like' is used here to introduce specific examples of recyclables. 📄🥤"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) (3) ____ adopting this habit, individuals participate in sustainable practices.",
+    "options": ["By", "Also", "And", "Again"],
+    "answer": "By",
+    "explanation": "• **Preposition**: 'By' indicates the method or means by which the individuals participate. 💡"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...individuals (4) _______ participate in sustainable practices.",
+    "options": ["vociferously", "actively", "vehemently", "strong"],
+    "answer": "actively",
+    "explanation": "• **Adverb**: 'Actively' correctly describes the manner of participation. ✅"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) It... sets an example for future generations on (5) _______ living.",
+    "options": ["wisely", "independent", "responsible", "obligated"],
+    "answer": "responsible",
+    "explanation": "• **Adjective**: 'Responsible living' is a standard term for sustainable and ethical behavior. 🌏✨"
+  }
+]
