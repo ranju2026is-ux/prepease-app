@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Select the INCORRECTLY spelt word in the given sentence.\n‘Ramesh is extremely greatful to God for having survived the Pandemic.’",
+    "options": ["Extremely", "Pandemic", "Survived", "Greatful"],
+    "answer": "Greatful",
+    "explanation": "• **Incorrect spelling**: Greatful. ❌\n• **Correct spelling**: **Grateful**. ✅\n• **Tip**: Although the root word is 'Great', the spelling for feeling thanks is derived from 'gratitude'. Hence, it is Grateful. 🙏"
+  },
+  {
+    "question": "In the sentence, 'The scientist’s explanation was extremely abstruse', what is a synonym of the word 'abstruse'?",
+    "options": ["Clear", "Complicated", "Concise", "Obvious"],
+    "answer": "Complicated",
+    "explanation": "• **Abstruse**: Difficult to understand; obscure. (Synonym: Complicated/Complex). 🧩\n• **Clear/Obvious**: Easy to understand. (Antonyms)."
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nDespite the _______________ challenges faced during the expedition, the team managed to reach their destination.",
+    "options": ["trivial", "negligible", "formidable", "insignificant"],
+    "answer": "formidable",
+    "explanation": "• **Formidable**: Inspiring fear or respect through being impressively large, powerful, or intense. (Context: Very difficult obstacles). 💪🏔️\n• **Trivial/Negligible**: Small and unimportant. (Antonyms)."
+  },
+  {
+    "question": "Select the word segment that can substitute and replace the bracketed word correctly.\nThe toddler asked for more pieces of cake, but she wasn't given (more cake).",
+    "options": ["none", "two", "many", "any"],
+    "answer": "any",
+    "explanation": "• **Grammar**: In negative sentences (wasn't), we use '**any**' to refer to an unspecified amount. 🍰🛑"
+  },
+  {
+    "question": "Select the sentence with an error in the adverb used.",
+    "options": [
+      "The new software runs more efficiently than the previous version.",
+      "She performs her duties more diligently than anyone else in the team.",
+      "The students completed the assignment less thorough than expected.",
+      "He answered the questions surprisingly well during the interview."
+    ],
+    "answer": "The students completed the assignment less thorough than expected.",
+    "explanation": "• **Error**: 'Thorough' is an adjective. To modify the verb 'completed', we need the adverb '**thoroughly**'. 🚫\n• **Correction**: '...less **thoroughly** than expected'."
+  },
+  {
+    "question": "Identify the sentence with the INCORRECT usage of adverb.",
+    "options": [
+      "The presentation was well-organised and effectively delivered.",
+      "The novel written by Rahul was harshly critiqued by the readers.",
+      "Merry was aware of the implications more than her colleagues slightly.",
+      "Marsh is an exceptionally talented musician with a bright future."
+    ],
+    "answer": "Merry was aware of the implications more than her colleagues slightly.",
+    "explanation": "• **Adverb Placement**: The adverb 'slightly' is misplaced. It should modify the comparative 'more'. 🚫\n• **Correction**: 'Merry was **slightly more** aware of the implications than her colleagues'."
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment in the given sentence.\nClimate change, conflict, COVID-19 and economic crises are <u>cut children off</u> from their chance to thrive.",
+    "options": ["cutting children off", "cutting child off", "cut children of", "cuts children off"],
+    "answer": "cutting children off",
+    "explanation": "• **Tense**: The sentence describes an ongoing current global situation, requiring the Present Continuous tense (**are cutting... off**). 🌍📉"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word.\nLet’s distribute the <u>surplus</u> food to the needy.",
+    "options": ["Hot", "Huge", "Stale", "Dearth"],
+    "answer": "Dearth",
+    "explanation": "• **Surplus**: An amount of something left over; excess. 📈\n• **Dearth**: A scarcity or lack of something. (Antonym). 📉❌"
+  },
+  {
+    "question": "Select the most appropriate idiom that can replace the underlined segment.\nAfter suffering for a long time, Roy finally <u>passed away</u> this month.",
+    "options": ["breathed his last", "blazed the trail", "brought down the house", "burnt his boats"],
+    "answer": "breathed his last",
+    "explanation": "• **Breathed his last**: An idiomatic expression meaning to die. (Synonym for passed away). 🕊️\n• **Blazed the trail**: To be a pioneer or pathfinder. 🌲"
+  },
+  {
+    "question": "Select the word that best completes the sentence (Determine the collocation):\nThe teacher, Sara, told us we must _________ arrangements for the upcoming conference.",
+    "options": ["make", "made", "meet", "put"],
+    "answer": "make",
+    "explanation": "• **Make arrangements**: A standard verb-noun collocation. We always 'make' arrangements, we don't 'put' or 'meet' them in this context. 📅✅"
+  },
+  {
+    "question": "Select the most appropriate synonym for the given word.\n**Dubious**",
+    "options": ["Clear", "Definite", "Certain", "Doubtful"],
+    "answer": "Doubtful",
+    "explanation": "• **Dubious**: Hesitating or doubting; suspect. (Synonym: Doubtful). 🤨❔"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the bracketed word.\nThe scent of freshly baked bread filled the bakery, __________ (sickening) customers to step inside.",
+    "options": ["wakening", "enticing", "pampering", "withdrawing"],
+    "answer": "enticing",
+    "explanation": "• **Sickening**: Causing a feeling of nausea or intense dislike. 🤢\n• **Enticing**: Attractive or tempting; alluring. (Antonym in this context). ✨🥐"
+  },
+  {
+    "question": "Select the most appropriate synonym for the given word.\n**Relinquish**",
+    "options": ["Embrace", "Retain", "Surrender", "Hold"],
+    "answer": "Surrender",
+    "explanation": "• **Relinquish**: Voluntarily cease to keep or claim; give up. (Synonym: Surrender). 🏳️\n• **Retain/Hold**: To keep possession of. (Antonyms)."
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the highlighted word segment.\nThe manager of the hotel **was giving** orders when the incident occurred.",
+    "options": ["No correction", "giving", "has given", "gave"],
+    "answer": "No correction",
+    "explanation": "• **Grammar**: The Past Continuous ('was giving') is used correctly to describe an ongoing background action interrupted by a single past event ('incident occurred'). ✅"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Contingency", "Quandery", "Sergeant", "Paradigm"],
+    "answer": "Quandery",
+    "explanation": "• **Incorrect spelling**: Quandery. ❌\n• **Correct spelling**: **Quandary**. ✅ (Meaning a state of uncertainty or a dilemma)."
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Aristotle (384–322 BCE), the disciple of Plato, is one of the most (1)_________ philosophers in history.",
+    "options": ["unknown", "average", "modern", "influential"],
+    "answer": "influential",
+    "explanation": "• **Context**: Aristotle's work shaped centuries of thought, which defines him as being '**influential**'. 🏛️"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) Judged solely in terms of his (2)__________ influence, only Plato is his peer...",
+    "options": ["philosophical", "history", "society", "modernity"],
+    "answer": "philosophical",
+    "explanation": "• **Context**: Since Aristotle is a philosopher, the primary type of influence discussed is '**philosophical**'. 🧠"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) Aristotle was a (3)___________ researcher and writer, producing about two hundred treatises...",
+    "options": ["reluctant", "hesitant", "lazy", "prolific"],
+    "answer": "prolific",
+    "explanation": "• **Prolific**: Producing many works or results. Writing 200 books/treatises makes him a prolific author. ✍️📚"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) His writings cover a vast range of (4)____________, including logic, metaphysics, ethics...",
+    "options": ["subjects", "colors", "places", "medicines"],
+    "answer": "subjects",
+    "explanation": "• **Context**: Logic, ethics, and metaphysics are academic and philosophical '**subjects**'. 📖"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) Aristotle’s ideas have sparked (5)_________________, inspired resistance and captivated readers.",
+    "options": ["debate", "silence", "sleep", "boredom"],
+    "answer": "debate",
+    "explanation": "• **Context**: Significant intellectual ideas usually spark '**debate**' (discussion and argument) among scholars. 🗣️⚖️"
+  }
+]
