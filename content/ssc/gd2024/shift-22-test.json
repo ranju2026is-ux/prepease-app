@@ -1,0 +1,137 @@
+[
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment in the given sentence.\nThe level of the sea globally <u>is rising fast and higher than</u> ever before, creating what the United Nations has described as an “urgent and escalating threat”.",
+    "options": [
+      "was rising faster and high than",
+      "is rising faster and higher than",
+      "is rise faster and higher than",
+      "is rising fastest and higher than"
+    ],
+    "answer": "is rising faster and higher than",
+    "explanation": "• **Parallelism**: When using 'than' for comparison, both adjectives should be in the comparative degree. 'Faster' and 'higher' are both comparative forms. 🌊📈"
+  },
+  {
+    "question": "Identify the part that contains an error from the given options:\nThe trunk / that she brought yesterday / is not big much to lift.",
+    "options": ["The trunk", "is not big much to lift", "that she brought yesterday", "No error."],
+    "answer": "is not big much to lift",
+    "explanation": "• **Grammar Error**: The correct structure to show sufficiency is **adjective + enough**. 🚫\n• **Correction**: It should be 'is not **light enough** to lift' or 'is **too heavy** to lift'. 'Big much' is non-standard English. 📦"
+  },
+  {
+    "question": "Select the word that best completes the sentence (Determine the collocation):\nPrathap is a ___________ respected member of the community.",
+    "options": ["closely", "seriously", "sensibly", "highly"],
+    "answer": "highly",
+    "explanation": "• **Highly respected**: This is a standard adverb-adjective collocation used to describe someone held in great esteem. 🎖️"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom:\n**Out of the blue**",
+    "options": ["Quite old", "Extremely cold", "Very doubtful", "Completely unexpected"],
+    "answer": "Completely unexpected",
+    "explanation": "• **Meaning**: Something that happens suddenly and unexpectedly, without any warning. (Related: A bolt from the blue). ⚡💙"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Charity", "Affected", "Fissible", "Exposure"],
+    "answer": "Fissible",
+    "explanation": "• **Incorrect spelling**: Fissible. ❌\n• **Correct spelling**: **Fissile** (referring to nuclear fission) or **Feasible** (possible to do easily). ✅"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word:\n**Colossal**",
+    "options": ["Diminutive", "Massive", "Miniature", "Petite"],
+    "answer": "Massive",
+    "explanation": "• **Colossal**: Extremely large or great. (Synonym: Massive). 🐘\n• **Diminutive/Miniature/Petite**: Terms meaning very small. (Antonyms). 🐜"
+  },
+  {
+    "question": "Select the word closest in meaning to the underlined word:\nPuja decided to <u>devote</u> more time to volunteering at the local shelter.",
+    "options": ["Divide", "Dedicate", "Waste", "Plan"],
+    "answer": "Dedicate",
+    "explanation": "• **Devote**: To give all or a large part of one's time or resources to a person or activity. (Synonym: Dedicate). ❤️⏳"
+  },
+  {
+    "question": "Select the phrase that can substitute the underlined segment without altering the meaning:\nThe scientist’s research was <u>pivotal in advancing</u> our understanding of genetic mutations.",
+    "options": [
+      "essential in furthering",
+      "irrelevant to stalling",
+      "inconsequential to hindering",
+      "minor in restricting"
+    ],
+    "answer": "essential in furthering",
+    "explanation": "• **Pivotal**: Of crucial importance in relation to the development or success of something else. (Synonym: Essential). 🔑\n• **Advancing**: Furthering or moving forward. ✅"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe meeting was postponed ______ the unexpected power outage.",
+    "options": ["due to", "because", "for", "since"],
+    "answer": "due to",
+    "explanation": "• **Due to**: Used to show the cause of something, usually following a noun/phrase. ⛈️🚫\n• **Because**: Needs a full clause (subject + verb) to follow it."
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Everlasting**",
+    "options": ["Tampered", "Momentary", "Calibrating", "Fantabulous"],
+    "answer": "Momentary",
+    "explanation": "• **Everlasting**: Lasting forever or a very long time. ♾️\n• **Momentary**: Lasting for a very short time; brief. (Antonym). ⏱️"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe ethnographer's _____ approach to fieldwork yielded rich data but raised ethical concerns.",
+    "options": ["etic", "emetic", "empathetic", "emit"],
+    "answer": "etic",
+    "explanation": "• **Etic**: Relating to an approach to the study of a culture from the perspective of an outsider. (Academic term). 🧐\n• **Empathetic**: Showing an ability to understand the feelings of others. ❤️"
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word to fill in the blank.\nA bone got stuck in his <u>gullet</u>, he should try to clear his __________.",
+    "options": ["throat", "molars", "chest", "stomach"],
+    "answer": "throat",
+    "explanation": "• **Gullet**: The passage by which food passes from the mouth to the stomach; the esophagus. (Synonym: Throat). 🧣🥖"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Competent**",
+    "options": ["Skilled", "Humble", "Gracious", "Ambitious"],
+    "answer": "Skilled",
+    "explanation": "• **Competent**: Having the necessary ability, knowledge, or skill to do something successfully. (Synonym: Skilled). ✅🛠️"
+  },
+  {
+    "question": "Select the option that has the INCORRECT use of adverb.",
+    "options": [
+      "My colleague invited everyone to her house for her son’s birthday party that was nearby situated.",
+      "My colleague was very happy to purchase the flat near her best friend’s house.",
+      "My colleague wished to drop at the restaurant nearby, before reporting for the annual sports week.",
+      "My colleague was sad when she realised that she left her precious gift in the restaurant nearby."
+    ],
+    "answer": "My colleague invited everyone to her house for her son’s birthday party that was nearby situated.",
+    "explanation": "• **Grammar Error**: Adverbs of place like 'nearby' usually follow the verb or the object. Placing it before 'situated' is awkward. 🚫\n• **Correction**: '...that was **situated nearby**'."
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Recieve", "Idiotic", "Proceed", "Anxiety"],
+    "answer": "Recieve",
+    "explanation": "• **Incorrect spelling**: Recieve. ❌\n• **Correct spelling**: **Receive**. ✅\n• **Rule**: 'I' before 'E' except after 'C'."
+  },
+  {
+    "question": "(Cloze Test - Blank 1) The evolution of technology has (1)_____ to unprecedented advancements...",
+    "options": ["leads", "leading", "lead", "led"],
+    "answer": "led",
+    "explanation": "• **Present Perfect Tense**: 'Has' must be followed by the past participle form of the verb. 'Led' is the past participle of 'lead'. ⛓️"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) The invention of the Internet, in particular, (2)_____ a global revolution...",
+    "options": ["catalyse", "catalysing", "catalysed", "catalyses"],
+    "answer": "catalysed",
+    "explanation": "• **Past Tense**: The sentence refers to the historical 'invention of the Internet', requiring the simple past tense '**catalysed**'. 🧪💥"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) Artificial intelligence and machine learning (3)_____ automation and efficiency...",
+    "options": ["promote", "promotes", "promoting", "promoted"],
+    "answer": "promoted",
+    "explanation": "• **Tense Consistency**: The passage uses past tense to describe the impact of these technologies on transforming industries. 🤖⚙️"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) As technology (4)_____ to evolve ethical and social implications...",
+    "options": ["continuing", "continue", "continues", "continued"],
+    "answer": "continues",
+    "explanation": "• **Subject-Verb Agreement**: 'Technology' is singular. The sentence describes an ongoing general fact, requiring the present singular verb '**continues**'. 📈"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...ethical and social implications (5)_____ significant consideration.",
+    "options": ["deserves", "deserved", "deserving", "deserve"],
+    "answer": "deserve",
+    "explanation": "• **Subject-Verb Agreement**: The subject is 'implications' (plural), so it requires the plural verb '**deserve**'. ⚖️"
+  }
+]
