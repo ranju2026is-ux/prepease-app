@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Select the most appropriate option to fill in the blanks.\nThe old library had (1)___ shelves, (2)___ books and (3)___ corners, where students could study in peace.",
+    "options": [
+      "(1) towering ; (2) dusty ; (3) quiet",
+      "(1) dusty ; (2) quiet ; (3) towering",
+      "(1) quiet ; (2) dusty ; (3) towering",
+      "(1) towering ; (2) quiet ; (3) dusty"
+    ],
+    "answer": "(1) towering ; (2) dusty ; (3) quiet",
+    "explanation": "• **Collocation**: Shelves in an old library are often described as **towering** (very tall). Old, untouched books are **dusty**, and corners for studying are **quiet**. 📚🕸️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word.\nIt was extremely difficult for me to <u>suppress</u> my anger.",
+    "options": ["Praise", "Harass", "Release", "Reward"],
+    "answer": "Release",
+    "explanation": "• **Suppress**: To forcibly put an end to or prevent the development of something (like an emotion). 🛑\n• **Release**: To allow or enable to escape from confinement; set free. (Antonym). 🔓"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Gorge**",
+    "options": ["Yacht", "Storm", "Canyon", "Aside"],
+    "answer": "Canyon",
+    "explanation": "• **Gorge**: A narrow valley between hills or mountains, typically with steep rocky walls and a stream running through it. (Synonym: Canyon). ⛰️🏜️"
+  },
+  {
+    "question": "Identify the segment that contains an adverbial usage error:\nTeacher Sophia / told the class, / \"Henry **beautiful** / finished his homework.\"",
+    "options": ["Teacher Sophia", "\"Henry beautiful", "finished his homework.\"", "told the class,"],
+    "answer": "\"Henry beautiful",
+    "explanation": "• **Error**: 'Beautiful' is an adjective. To describe how Henry finished his homework (verb), we need the adverb '**beautifully**'. 🚫\n• **Correction**: \"Henry **beautifully** finished his homework.\""
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\n________ advice you gave me was very useful for solving the issue.",
+    "options": ["The", "A piece", "An", "A"],
+    "answer": "The",
+    "explanation": "• **Article**: 'Advice' is uncountable. However, since the sentence refers to a *specific* instance of advice (the one you gave me), the definite article '**The**' is correct. 💡"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Nation", "Preffer", "Almighty", "Refer"],
+    "answer": "Preffer",
+    "explanation": "• **Incorrect spelling**: Preffer. ❌\n• **Correct spelling**: **Prefer**. ✅ (Note: While 'Preferred' has double 'r', the base word 'Prefer' has only one)."
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nI thanked God for enabling me to save the child's life and <u>feared about my</u> school principal would accept my reason...",
+    "options": ["shocked if my", "disgusted as if", "wondered whether my", "surprised though my"],
+    "answer": "wondered whether my",
+    "explanation": "• **Context**: The speaker is unsure if the principal will accept the excuse. '**Wondered whether**' expresses this uncertainty correctly. 🧐"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nIn the present situation, teachers not only face criticism, but are also _______ for their innovative teaching methodologies.",
+    "options": ["applauded", "commended", "approved", "derided"],
+    "answer": "derided",
+    "explanation": "• **Contextual Clue**: The word 'but' suggests a continuation of the negative sentiment 'criticism' in this specific sentence structure (or a contrast that highlights an irony). While 'applauded' is positive, the answer key indicates '**derided**' (mocked) to show that teachers are facing both criticism and mockery. 🎭"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the bracketed word to fill in the blank.\nNo child should be exposed to violence, abuse or ______________________ (neglect).",
+    "options": ["forgive", "feel", "attend", "appear"],
+    "answer": "attend",
+    "explanation": "• **Neglect**: Fail to care for properly. 🏚️\n• **Attend**: To pay attention to or look after. (Antonym in the sense of 'attending to' a child's needs). ✅"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Enraged**",
+    "options": ["Synthetic", "Jealous", "Furious", "Sharp"],
+    "answer": "Furious",
+    "explanation": "• **Enraged**: Very angry; furious. 😡🔥"
+  },
+  {
+    "question": "Fill in the blank with the most appropriate ANTONYM of the word in brackets.\nIn this (endeavour) __________, he met with vigorous opponents.",
+    "options": ["business", "inactivity", "force", "design"],
+    "answer": "inactivity",
+    "explanation": "• **Endeavour**: An attempt to achieve a goal; an activity. 🏃‍♂️\n• **Inactivity**: Idleness; lack of action. (Antonym). 🛋️"
+  },
+  {
+    "question": "Identify the INCORRECTLY spelt word in the given sentence.\nThe new software update includes several enhancments to improve performance.",
+    "options": ["Software", "Performance", "Update", "Enhancments"],
+    "answer": "Enhancments",
+    "explanation": "• **Incorrect spelling**: Enhancments. ❌\n• **Correct spelling**: **Enhancements**. ✅"
+  },
+  {
+    "question": "Select the most appropriate idiom to fill in the blank.\nThe hotel’s spacious rooms and convenient location ______________ for our family vacation perfectly.",
+    "options": ["fit of rage", "fit to kill", "fit to be tied", "fit the bill"],
+    "answer": "fit the bill",
+    "explanation": "• **Fit the bill**: To be exactly what is needed in a particular situation. ✅🏨"
+  },
+  {
+    "question": "Fill in the blank with the most suitable collocation.\nShe ______________ asthma all her life.",
+    "options": ["has suffered", "has suffered from", "is suffering in", "suffered to"],
+    "answer": "has suffered from",
+    "explanation": "• **Collocation**: One '**suffers from**' a disease or medical condition. 🤒"
+  },
+  {
+    "question": "Identify the sentence with the INCORRECT usage of adverb.",
+    "options": [
+      "The coffee tasted very bitter to him.",
+      "Thomas seldomly takes time off work, even when necessary.",
+      "They will soon finish the project, despite the delays.",
+      "Nancy had completely forgotten about the meeting."
+    ],
+    "answer": "Thomas seldomly takes time off work, even when necessary.",
+    "explanation": "• **Error**: 'Seldomly' is considered non-standard or incorrect. The correct adverb is '**seldom**'. 🚫\n• **Correction**: 'Thomas **seldom** takes time off...'"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Excessive gaming can negatively impact both (1)________ and physical health...",
+    "options": ["cognition", "emotions", "society", "mental"],
+    "answer": "mental",
+    "explanation": "• **Collocation**: The pair '**mental** and physical health' is a standard way to describe overall well-being. 🧠💪"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) Social media frequently exposes users to (2) ________ content, which may influence behavior.",
+    "options": ["gaming-related", "news", "educational", "advertising"],
+    "answer": "gaming-related",
+    "explanation": "• **Context**: The study specifically investigates the effect of gaming cues on desire, so the content must be '**gaming-related**'. 🎮"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) In this study, 25 young (3)________ (average age 21.5) who played online games...",
+    "options": ["minors", "adults", "teenagers", "children"],
+    "answer": "adults",
+    "explanation": "• **Logic**: Since the average age is **21.5**, the participants are technically and legally **adults**. 👨‍💼"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...stronger gaming desire when exposed to gaming cues as compared to (4)_________ content.",
+    "options": ["negativity", "positivity", "neutral", "gaming"],
+    "answer": "neutral",
+    "explanation": "• **Research Design**: In psychological studies, triggers are usually compared against '**neutral**' (non-triggering) content to measure effect. ⚖️"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) Moreover, higher levels of neuroticism were (5)__________________ to correlate with greater explicit gaming desire.",
+    "options": ["find", "found", "finds", "founded"],
+    "answer": "found",
+    "explanation": "• **Passive Voice**: In academic reports, results are '**found**' (past participle of find). 📊"
+  }
+]
