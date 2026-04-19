@@ -167,21 +167,21 @@
             const shift = (i % 4) + 1; return `${date} Shift-${shift}`;
         });
 
-        const gd2024Shifts = [
-            "20-Feb Shift-1", "20-Feb Shift-2", "20-Feb Shift-3", "20-Feb Shift-4",
-            "21-Feb Shift-1", "21-Feb Shift-2", "21-Feb Shift-3", "21-Feb Shift-4",
-            "22-Feb Shift-1", "22-Feb Shift-2", "22-Feb Shift-3", "22-Feb Shift-4",
-            "23-Feb Shift-1", "23-Feb Shift-2", "23-Feb Shift-3", "23-Feb Shift-4",
-            "24-Feb Shift-1", "24-Feb Shift-2", "24-Feb Shift-3", "24-Feb Shift-4",
-            "26-Feb Shift-1", "26-Feb Shift-2", "26-Feb Shift-3", "26-Feb Shift-4",
-            "27-Feb Shift-1", "27-Feb Shift-2", "27-Feb Shift-3", "27-Feb Shift-4",
-            "28-Feb Shift-1", "28-Feb Shift-2", "28-Feb Shift-3", "28-Feb Shift-4",
-            "29-Feb Shift-1", "29-Feb Shift-2", "29-Feb Shift-3", "29-Feb Shift-4",
-            "01-Mar Shift-1", "01-Mar Shift-2", "01-Mar Shift-3", "01-Mar Shift-4",
-            "05-Mar Shift-1", "05-Mar Shift-2", "05-Mar Shift-3", "05-Mar Shift-4",
-            "06-Mar Shift-1", "06-Mar Shift-2", "06-Mar Shift-3", "06-Mar Shift-4",
-            "07-Mar Shift-1", "07-Mar Shift-2", "07-Mar Shift-3", "07-Mar Shift-4",
-            "30-Mar Shift-1"
+        const gd2025Shifts = [
+            "04-Feb Shift-1", "04-Feb Shift-2", "04-Feb Shift-3",
+            "05-Feb Shift-1", "05-Feb Shift-2", "05-Feb Shift-3",
+            "06-Feb Shift-1", "06-Feb Shift-2", "06-Feb Shift-3",
+            "07-Feb Shift-1", "07-Feb Shift-2", "07-Feb Shift-3",
+            "10-Feb Shift-1", "10-Feb Shift-2", "10-Feb Shift-3",
+            "11-Feb Shift-1", "11-Feb Shift-2", "11-Feb Shift-3",
+            "12-Feb Shift-1", "12-Feb Shift-2", "12-Feb Shift-3",
+            "13-Feb Shift-1", "13-Feb Shift-2", "13-Feb Shift-3",
+            "17-Feb Shift-1", "17-Feb Shift-2", "17-Feb Shift-3",
+            "18-Feb Shift-1", "18-Feb Shift-2", "18-Feb Shift-3",
+            "19-Feb Shift-1", "19-Feb Shift-2", "19-Feb Shift-3",
+            "20-Feb Shift-1", "20-Feb Shift-2", "20-Feb Shift-3",
+            "21-Feb Shift-1", "21-Feb Shift-2", "21-Feb Shift-3",
+            "25-Feb Shift-1", "25-Feb Shift-2", "25-Feb Shift-3"
         ];
 
         // --- CORE NAVIGATION ---
@@ -264,17 +264,12 @@
             const { currentTopic, currentLevel, isSSC, currentShift, currentExam, currentType } = state;
             let paths = [];
             if (isSSC) {
-                const folder = currentExam === 'SSC GD 2024' ? 'gd2024' : 'cgl2023';
+                const folder = currentExam === 'SSC GD 2025' ? 'gd2024' : 'cgl2023';
                 paths = [`./content/ssc/${folder}/shift-${currentShift}-test.json`, `./content/ssc/${folder}/shift${currentShift}-test.json` ];
             } else {
                 const typeFolder = currentType === 'grammar' ? 'grammar' : 'vocabulary';
                 const basePath = `./content/general-english/${typeFolder}/${currentTopic}`;
-                paths = [
-                    `${basePath}/level-${currentLevel}.json`, 
-                    `${basePath}/level${currentLevel}.json`, 
-                    `${basePath}/level-${currentLevel}-test.json`,
-                    `${basePath}/level${currentLevel}-test.json`
-                ];
+                paths = [`${basePath}/level-${currentLevel}.json`, `${basePath}/level${currentLevel}.json`, `${basePath}/level-${currentLevel}-test.json`, `${basePath}/level${currentLevel}-test.json` ];
             }
             const data = await multiPathFetch(paths);
             if (data && data.length) {
@@ -284,13 +279,13 @@
                     window.activeStudyData = data; state.currentStudyIndex = 0; state.activeMode = 'study'; window.renderStudyCardUI(); 
                 }
             } else {
-                document.getElementById('content-container').innerHTML = `<div class="p-10 text-center font-bold">Content not found. Check GitHub paths.</div>`;
+                document.getElementById('content-container').innerHTML = `<div class="p-10 text-center font-bold">Content missing in repository. Check GitHub paths.</div>`;
             }
         };
 
         window.loadQuiz = async () => {
             const { currentTopic, currentLevel, isSSC, currentShift, currentExam, currentType } = state;
-            const folder = currentExam === 'SSC GD 2024' ? 'gd2024' : 'cgl2023';
+            const folder = currentExam === 'SSC GD 2025' ? 'gd2024' : 'cgl2023';
             const typeFolder = currentType === 'grammar' ? 'grammar' : 'vocabulary';
             let basePath = isSSC ? `./content/ssc/${folder}` : `./content/general-english/${typeFolder}/${currentTopic}`;
             let fileName = isSSC ? `shift-${currentShift}-test.json` : `level-${currentLevel}-test.json`;
@@ -316,7 +311,7 @@
             state.quizResults = { score, correct, wrong, total: questions.length };
             
             if (state.userId) {
-                const folder = state.currentExam === 'SSC GD 2024' ? 'gd2024' : (state.isSSC ? 'cgl2023' : null);
+                const folder = state.currentExam === 'SSC GD 2025' ? 'gd2024' : (state.isSSC ? 'cgl2023' : null);
                 const progressId = state.isSSC ? `${folder}_shift_${state.currentShift}` : `${state.currentTopic}_level_${state.currentLevel}`;
                 setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'progress', progressId), { score, correct, total: questions.length, points: Math.max(0, Math.round(score)), completedAt: new Date().toISOString() });
                 mistakesFound.forEach(m => {
@@ -327,7 +322,7 @@
             window.navigateTo('results');
         };
 
-        // --- RENDERERS ---
+        // --- VIEW RENDERERS ---
         window.renderHome = () => `<div class="p-6 h-full overflow-y-auto bg-white view-transition">
             <h1 class="text-3xl font-black mb-4 tracking-tighter">Hello, <span class="text-indigo-600 font-sans">${state.userName || 'Aspirant'}</span></h1>
             <div class="bg-indigo-600 p-6 rounded-3xl text-white shadow-xl mb-6">
@@ -356,9 +351,8 @@
         </div>`;
 
         window.renderShiftGrid = () => {
-            const isGd = state.currentExam === 'SSC GD 2024';
-            const shifts = isGd ? gd2024Shifts : cgl2023Shifts;
-            const folder = isGd ? 'gd2024' : 'cgl2023';
+            const shifts = state.currentExam === 'SSC GD 2025' ? gd2025Shifts : cgl2023Shifts;
+            const folder = state.currentExam === 'SSC GD 2025' ? 'gd2024' : 'cgl2023';
             return `<div class="p-6 h-full flex flex-col overflow-hidden bg-white view-transition"><button onclick="window.navigateTo('exams-pyq', {currentCategory:'ssc'})" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button><h2 class="text-xl font-black mb-4 tracking-tighter uppercase text-sm font-black text-slate-400 font-sans">${state.currentExam}</h2><div class="grid grid-cols-1 gap-2 flex-grow overflow-y-auto pr-1">${shifts.map((s, idx) => {
                 const progKey = `${folder}_shift_${idx}`;
                 const data = state.progress[progKey];
@@ -392,11 +386,11 @@
             return `<div class="p-10 text-center flex flex-col justify-center h-full view-transition bg-white">
                 <div class="bg-white p-8 rounded-[2.5rem] shadow-2xl border border-slate-100 max-w-md mx-auto w-full">
                     <h2 class="text-3xl font-black mb-2 text-slate-900 tracking-tighter font-sans">Mission Complete!</h2>
-                    <p class="text-slate-400 uppercase text-[10px] font-bold tracking-widest mb-8 font-sans">Score Card</p>
+                    <p class="text-slate-400 uppercase text-[10px] font-bold tracking-widest mb-8 font-sans">Performance Report</p>
                     <div class="grid grid-cols-2 gap-3 mb-8">
                         <div class="bg-indigo-50 p-6 rounded-3xl text-center"><p class="text-3xl font-black text-indigo-600 font-sans">${res.correct}</p><p class="text-[8px] font-bold text-indigo-400 uppercase">Correct</p></div>
                         <div class="bg-rose-50 p-6 rounded-3xl text-center"><p class="text-3xl font-black text-rose-600 font-sans">${res.wrong}</p><p class="text-[8px] font-bold text-rose-400 uppercase">Wrong</p></div>
-                        <div class="bg-emerald-50 p-4 rounded-3xl text-center col-span-2"><p class="text-4xl font-black text-emerald-600 font-sans">${res.score.toFixed(1)}</p><p class="text-[9px] font-bold text-emerald-400 uppercase">Final Marks</p></div>
+                        <div class="bg-emerald-50 p-4 rounded-3xl text-center col-span-2"><p class="text-4xl font-black text-emerald-600 font-sans">${res.score.toFixed(1)}</p><p class="text-[9px] font-bold text-emerald-400 uppercase">Final Marks Earned</p></div>
                     </div>
                     <button onclick="window.navigateTo('home')" class="w-full py-4 bg-slate-900 text-white rounded-2xl font-bold uppercase text-xs tracking-widest shadow-lg active:scale-95 transition-all font-sans">Return Hub</button>
                 </div>
@@ -446,7 +440,7 @@
                 case 'english-selection': shell.innerHTML = `<div class="p-6 h-full flex flex-col bg-white view-transition"><button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button><h2 class="text-3xl font-black mb-6 font-sans tracking-tight">Tracks</h2><div onclick="window.navigateTo('topics-grid', {currentType:'grammar'})" class="premium-card border rounded-2xl mb-4 bg-white font-bold flex justify-between shadow-sm font-sans uppercase text-sm font-black"><span class="z-10">Grammar</span> <span class="z-10 text-xl">🔡</span></div><div onclick="window.navigateTo('topics-grid', {currentType:'vocabulary'})" class="premium-card border rounded-2xl bg-white font-bold flex justify-between shadow-sm font-sans uppercase text-sm font-black"><span class="z-10">Vocabulary</span> <span class="z-10 text-xl">📖</span></div></div>`; break;
                 case 'topics-grid': shell.innerHTML = `<div class="p-6 h-full overflow-y-auto flex flex-col bg-white view-transition"><button onclick="window.navigateTo('english-selection')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button><h2 class="text-3xl font-black mb-6 capitalize tracking-tight font-sans text-sm font-black text-slate-400 uppercase font-sans">${state.currentType} Hub</h2><div class="grid grid-cols-2 gap-3">${(topicsData[state.currentType] || []).map(t => `<div onclick="window.navigateTo('levels-grid', {currentTopic:'${t.id}', currentTopicTitle:'${t.title}', currentType: state.currentType})" class="p-6 border rounded-2xl bg-white text-center shadow-sm font-sans uppercase text-[10px] font-black"><span class="text-3xl block mb-2">${t.icon}</span><span>${t.title}</span></div>`).join('')}</div></div>`; break;
                 case 'levels-grid': shell.innerHTML = window.renderLevelsGrid(); break;
-                case 'exams-pyq': shell.innerHTML = `<div class="p-6 h-full flex flex-col bg-white view-transition"><button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button><h2 class="text-3xl font-black mb-6 font-sans">Exam Hub</h2><div class="space-y-3"><div onclick="window.navigateTo('shift-grid', {currentExam:'SSC CGL 2023', isSSC:true})" class="premium-card flex justify-between shadow-sm p-6 font-bold border border-slate-100 rounded-2xl font-sans uppercase text-sm font-black"><span class="z-10">SSC CGL 2023</span> <span class="z-10 text-xl">⚔️</span></div><div onclick="window.navigateTo('shift-grid', {currentExam:'SSC GD 2024', isSSC:true})" class="premium-card flex justify-between shadow-sm p-6 font-bold border border-slate-100 rounded-2xl font-sans uppercase text-sm font-black"><span class="z-10">SSC GD 2024</span> <span class="z-10 text-xl">🛡️</span></div></div></div>`; break;
+                case 'exams-pyq': shell.innerHTML = `<div class="p-6 h-full flex flex-col bg-white view-transition"><button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button><h2 class="text-3xl font-black mb-6 font-sans">Exam Hub</h2><div class="space-y-3"><div onclick="window.navigateTo('shift-grid', {currentExam:'SSC CGL 2023', isSSC:true})" class="premium-card flex justify-between shadow-sm p-6 font-bold border border-slate-100 rounded-2xl font-sans uppercase text-sm font-black"><span class="z-10">SSC CGL 2023</span> <span class="z-10 text-xl">⚔️</span></div><div onclick="window.navigateTo('shift-grid', {currentExam:'SSC GD 2025', isSSC:true})" class="premium-card flex justify-between shadow-sm p-6 font-bold border border-slate-100 rounded-2xl font-sans uppercase text-sm font-black"><span class="z-10">SSC GD 2025</span> <span class="z-10 text-xl">🛡️</span></div></div></div>`; break;
                 case 'shift-grid': shell.innerHTML = window.renderShiftGrid(); break;
                 case 'results': shell.innerHTML = window.renderResults(); break;
                 case 'content-view': shell.innerHTML = `<div id="content-container" class="app-container"></div>`; window.loadGenericContent(); break;
@@ -471,7 +465,7 @@
         });
 
         window.addEventListener('popstate', (e) => { if (e.state && e.state.view) window.navigateTo(e.state.view, e.state.params, true); else window.navigateTo('home', {}, true); });
-        setInterval(() => { const el = document.getElementById('floating-quote'); if (el) { el.style.opacity = '0'; setTimeout(() => { el.innerText = ["Believe. Achieve. Qualify. 🏛️", "Consistency is power. 🎯", "Errors are lessons. 📚"][Math.floor(Math.random()*3)]; el.style.opacity = '1'; }, 400); } }, 8000);
+        setInterval(() => { const el = document.getElementById('floating-quote'); if (el) { el.style.opacity = '0'; setTimeout(() => { el.innerText = ["Qualify your dreams. 🎯", "Focus leads to mastery. 🏛️", "Consistency wins. 🏆", "Learn from errors. 📚"][Math.floor(Math.random()*4)]; el.style.opacity = '1'; }, 400); } }, 8000);
         window.render();
     </script>
 </body>
