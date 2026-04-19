@@ -1,0 +1,54 @@
+[
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\nMaya couldn’t hide her <u>glee</u> when our rival came last.",
+    "options": ["Unhappiness", "Wickedness", "Happiness", "Sorrow"],
+    "answer": "Happiness",
+    "explanation": "• **Glee**: Great delight or happiness, often caused by one's own good fortune or another's misfortune. 😄🎉\n• **Sorrow/Unhappiness**: Feel of deep distress. (Antonyms)."
+  },
+  {
+    "question": "Identify the segment that contains a grammatical error:\n(A) The cat quiet stalked its prey, / (B) moving stealthily through the tall grass, / (C) demonstrating its hunting skills / (D) with great precision and grace.",
+    "options": ["C", "D", "A", "B"],
+    "answer": "A",
+    "explanation": "• **Adverbial Error**: 'Quiet' is an adjective. To modify the verb 'stalked', we must use the adverb '**quietly**'. 🐈🤫\n• **Correction**: 'The cat **quietly** stalked its prey'."
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\nThough she is my best friend, Sarah’s compliments felt <u>superficial</u>, lacking genuine warmth or understanding of my efforts.",
+    "options": ["shallow", "substantial", "profound", "kind"],
+    "answer": "shallow",
+    "explanation": "• **Superficial**: Not thorough or deep; existing or occurring at or on the surface. (Synonym: Shallow). 🌊🚫\n• **Profound/Substantial**: Having great depth or seriousness. (Antonyms)."
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Young**",
+    "options": ["Stiff", "Mature", "Boyish", "Moist"],
+    "answer": "Mature",
+    "explanation": "• **Young**: Having lived or existed for only a short time. 👶\n• **Mature**: Having reached an advanced stage of mental or physical development; adult. (Antonym). 🧔"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blanks.\nHis (1)___ speech was clear, (2)___ and passionate, leaving a (3)___ impression on the audience during the conference.",
+    "options": [
+      "(1) persuasive ; (2) lasting ; (3) well-structured",
+      "(1) well-structured ; (2) lasting ; (3) persuasive",
+      "(1) lasting ; (2) persuasive ; (3) well-structured",
+      "(1) persuasive ; (2) well-structured ; (3) lasting"
+    ],
+    "answer": "(1) persuasive ; (2) well-structured ; (3) lasting",
+    "explanation": "• Context: A speech is described as **persuasive**. The flow is **well-structured**. The result of a good speech is a **lasting** impression. 🗣️✨"
+  },
+  {
+    "question": "Identify the part that contains an error:\nHe was playing cricket when I have walked past the stadium early in the morning.",
+    "options": ["early this morning.", "past the stadium", "when I have walked", "He was playing cricket"],
+    "answer": "when I have walked",
+    "explanation": "• **Tense Error**: When describing an action that interrupted a past continuous action (was playing), we use the Simple Past tense. 🚫\n• **Correction**: It should be 'when I **walked** past'. 🏟️🚶‍♂️"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blanks.\nThe serene beach offered (1)____ waters, (2)___ sand and (3)___ sunsets, creating a perfect spot for relaxation and reflection.",
+    "options": [
+      "(1) stunning ; (2) soft ; (3) clear",
+      "(1) soft ; (2) clear ; (3) stunning",
+      "(1) clear ; (2) soft ; (3) stunning",
+      "(1) clear ; (2) stunning ; (3) soft"
+    ],
+    "answer": "(1) clear ; (2) soft ; (3) stunning",
+    "explanation": "• Context: Water is usually described as **clear**. Sand is described as **soft**. Sunsets are described as **stunning**. 🏖️🌅"
+  }
+]
