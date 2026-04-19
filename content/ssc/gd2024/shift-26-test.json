@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Cumbersome**",
+    "options": ["Fickle", "Heavy", "Royal", "New"],
+    "answer": "Heavy",
+    "explanation": "• **Cumbersome**: Large or heavy and therefore difficult to carry or use; unwieldy. 📦🏋️\n• **Fickle**: Changing frequently (especially one's loyalties or interests)."
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe city is famous for its ______ architecture, which dates back to the 18th century.",
+    "options": ["classical", "dystopic", "futuristic", "modern"],
+    "answer": "classical",
+    "explanation": "• **Classical**: Relating to ancient Greek or Latin literature, art, or culture, or a later style derived from it. Given the 18th-century context, this fits best. 🏛️📜"
+  },
+  {
+    "question": "Select the sentence with the most appropriate use of adverb.",
+    "options": [
+      "They have arrived recent.",
+      "They have arrived with recently.",
+      "They have arrived on recently.",
+      "They have recently arrived."
+    ],
+    "answer": "They have recently arrived.",
+    "explanation": "• **Adverb Placement**: Adverbs of time like 'recently' usually come between the auxiliary verb (have) and the main verb (arrived) in present perfect tense. ✅⏳"
+  },
+  {
+    "question": "Identify the segment that contains a spelling error:\nThe marathon player / had a **sofisticated** taste / but was definitely / a virtuous man.",
+    "options": [
+      "had a sofisticated taste",
+      "but was definitely",
+      "The marathon player",
+      "a virtuous man."
+    ],
+    "answer": "had a sofisticated taste",
+    "explanation": "• **Incorrect spelling**: sofisticated. ❌\n• **Correct spelling**: **Sophisticated**. ✅🎭"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nA lot of olive oil is ___________ in Spain this year.",
+    "options": ["produce", "production", "producing", "produced"],
+    "answer": "produced",
+    "explanation": "• **Passive Voice**: The sentence requires the past participle form 'produced' to complete the passive construction 'is produced'. 🫒🇪🇸"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Impoverished**",
+    "options": ["Rich", "Tiny", "Shy", "Humble"],
+    "answer": "Rich",
+    "explanation": "• **Impoverished**: Made poor; deprived of strength or vitality. 🏚️\n• **Rich**: Having a great deal of money or assets. (Antonym). 💰💎"
+  },
+  {
+    "question": "Select the correct spelling of the underlined incorrectly spelt word:\nThe company didn’t have <u>sufishient</u> funds to start the new project.",
+    "options": ["suffishient", "sufficient", "suffeeciant", "suffeiceint"],
+    "answer": "sufficient",
+    "explanation": "• **Correct spelling**: **Sufficient**. ✅ (Meaning enough; adequate)."
+  },
+  {
+    "question": "Select the word that best completes the sentence (Determine the collocation):\nHenry ___________ objections to the proposed changes in company policy.",
+    "options": ["spread", "stood", "raised", "spelt"],
+    "answer": "raised",
+    "explanation": "• **Raise objections**: This is a common collocation meaning to voice or present a disagreement or complaint. 🗣️✋"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment:\nI had told you to wash these clothes, <u>or I had not told you</u>?",
+    "options": ["had I?", "didn't I?", "did I?", "hadn't I?"],
+    "answer": "hadn't I?",
+    "explanation": "• **Question Tag**: For a positive statement using 'I had told' (past perfect), the correct negative question tag is '**hadn't I?**'. ❓🧺"
+  },
+  {
+    "question": "Select the most appropriate meaning of the underlined idiom.\nGiving Astha a make-over was <u>a piece of cake</u> because she’s so naturally beautiful.",
+    "options": [
+      "A task easily accomplished",
+      "a slice of pizza",
+      "A piece of pie",
+      "A piece of bread"
+    ],
+    "answer": "A task easily accomplished",
+    "explanation": "• **A piece of cake**: An idiom meaning something that is very easy to do. 🍰✅"
+  },
+  {
+    "question": "Identify the segment with an adverbial usage error:\nMargaret swiftly / waited for / her turn / at the Cineplex.",
+    "options": ["her turn", "Margaret swiftly", "at the Cineplex", "waited for"],
+    "answer": "Margaret swiftly",
+    "explanation": "• **Adverbial Error**: 'Swiftly' (meaning quickly) is logically incompatible with the act of 'waiting'. You cannot 'quickly wait'. A better adverb might be 'patiently'. 🚫⏳"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Capture**",
+    "options": ["Shorten", "Arrest", "Attain", "Release"],
+    "answer": "Arrest",
+    "explanation": "• **Capture**: To take into one's possession or control by force. (Synonym: Arrest/Catch). 👮‍♂️⛓️\n• **Release**: To set free. (Antonym)."
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Muddle**",
+    "options": ["Order", "Expand", "Linger", "Assume"],
+    "answer": "Order",
+    "explanation": "• **Muddle**: An untidy and disorganized state or mix-up. 🌀\n• **Order**: The arrangement or disposition of people or things according to a particular sequence or method. (Antonym). 📋✨"
+  },
+  {
+    "question": "Select the most appropriate option to substitute the underlined segment:\nShe is a talented artist <u>which paints beautiful landscapes</u>.",
+    "options": [
+      "who paints beautiful landscapes",
+      "whichever paints beautiful landscapes",
+      "whatever paints beautiful landscapes",
+      "that paints beautiful landscapes"
+    ],
+    "answer": "who paints beautiful landscapes",
+    "explanation": "• **Relative Pronoun**: 'Who' is used to refer to people (the artist), while 'which' is used for things. 🎨🌲"
+  },
+  {
+    "question": "Select the most appropriate synonym for the given word.\n**Serene**",
+    "options": ["Calm", "Disturbed", "Agitated", "Chaotic"],
+    "answer": "Calm",
+    "explanation": "• **Serene**: Calm, peaceful, and untroubled; tranquil. 🌊🧘‍♂️\n• **Disturbed/Agitated/Chaotic**: Turbulent or troubled states. (Antonyms)."
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Global warming, a phenomenon primarily (1)_____ by human activities...",
+    "options": ["causing", "cause", "caused", "causes"],
+    "answer": "caused",
+    "explanation": "• **Passive Participle**: The phenomenon is 'caused by' activities. This form describes the origin of the subject. 🌡️"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...has (2)_____ profound changes in weather patterns worldwide.",
+    "options": ["brings", "brought", "bringing", "bring"],
+    "answer": "brought",
+    "explanation": "• **Present Perfect**: 'Has' requires the past participle 'brought'. (Bring -> Brought -> Brought). 🌪️"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) Carbon dioxide, (3)_____ the Earth’s atmosphere to trap more heat.",
+    "options": ["allowed", "allows", "allowing", "allow"],
+    "answer": "allows",
+    "explanation": "• **Simple Present**: Used for general scientific facts. Since 'carbon dioxide' is an uncountable singular subject, we use 'allows'. 🏭☀️"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) As a result, glaciers (4)_____, sea levels...",
+    "options": ["retreat", "retreating", "retreats", "retreated"],
+    "answer": "retreat",
+    "explanation": "• **Simple Present**: Used for ongoing trends. 'Glaciers' is plural, so we use the base form 'retreat'. 🏔️🧊"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...sea levels (5)_____ and extreme weather events...",
+    "options": ["rise", "rising", "rose", "risen"],
+    "answer": "rise",
+    "explanation": "• **Simple Present**: To maintain parallelism with 'retreat', we use the plural present form 'rise' for 'sea levels'. 🌊"
+  }
+]
