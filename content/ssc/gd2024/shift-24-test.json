@@ -1,0 +1,137 @@
+[
+  {
+    "question": "Select the most appropriate option to substitute the underlined segment in the given sentence.\nThe players were disappointed <u>above the defeat</u> of their team.",
+    "options": ["around the defeat", "in the defeat", "over the defeat", "by the defeat"],
+    "answer": "by the defeat",
+    "explanation": "• **Preposition Pattern**: We use 'disappointed **by**' or 'disappointed **with**' something. In this context, the cause of the disappointment is the defeat. ⚽📉"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Abundant**",
+    "options": ["Sparse", "Plentiful", "Ample", "Copious"],
+    "answer": "Sparse",
+    "explanation": "• **Abundant**: Existing or available in large quantities; plentiful. 🌾\n• **Sparse**: Thinly dispersed or scattered; in short supply. (Antonym). 🌵"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined words in the given sentence.\n<u>The software was developed in</u> a team of experts and tested by users before its release.",
+    "options": [
+      "The software was developed across",
+      "The software was developed on",
+      "The software was developed by",
+      "The software was developed at"
+    ],
+    "answer": "The software was developed by",
+    "explanation": "• **Voice**: Since the 'team of experts' is the agent performing the action, we use the preposition '**by**' to indicate the creator in the passive voice. 💻🛠️"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nShe always looks on the ______ side of life, no matter how tough things get.",
+    "options": ["dark", "negative", "bright", "neutral"],
+    "answer": "bright",
+    "explanation": "• **Idiom**: **Look on the bright side**. It means to remain optimistic and focus on the positive aspects of a situation. ☀️😊"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the highlighted word segment:\nThe book, which has all the details on parenting, missing.",
+    "options": ["is missing", "had missing", "No correction", "had been missing"],
+    "answer": "is missing",
+    "explanation": "• **Grammar**: The main clause needs a finite verb. 'The book (Subject) ... **is** (Verb) missing.' The phrase between commas is a relative clause. 📖❓"
+  },
+  {
+    "question": "Select the word that best completes the sentence (Determine the collocation):\nHe tends to ______ a lot of noise when he's working.",
+    "options": ["get", "have", "make", "give"],
+    "answer": "make",
+    "explanation": "• **Make noise**: This is a standard verb-noun collocation. We do not 'have' or 'give' noise in this context. 🔊"
+  },
+  {
+    "question": "Select the most appropriate synonym that can substitute the underlined word.\nThe brothers <u>defended</u> their sister every time.",
+    "options": ["protected", "united", "condemned", "invaded"],
+    "answer": "protected",
+    "explanation": "• **Defended**: Resisted an attack made on someone or something; kept safe. (Synonym: Protected). 🛡️👤"
+  },
+  {
+    "question": "Select the sentence with an error in the adverb used.",
+    "options": [
+      "The results were analysed careful to ensure accuracy.",
+      "The software update was implemented so seamlessly that users barely noticed any changes.",
+      "The manager evaluated the proposals more critically than her colleagues.",
+      "The team worked incredibly hard to meet the tight deadline."
+    ],
+    "answer": "The results were analysed careful to ensure accuracy.",
+    "explanation": "• **Adverbial Error**: 'Careful' is an adjective. To modify the verb 'analysed', we need the adverb '**carefully**'. 🚫🧪"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word.\nThe driver made an <u>obscene</u> gesture at the passenger.",
+    "options": ["Improper", "Decent", "Hilarious", "Mean"],
+    "answer": "Decent",
+    "explanation": "• **Obscene**: Offensive or disgusting by accepted standards of morality and decency. 🤬\n• **Decent**: Conforming with generally accepted standards of respectable or moral behavior. (Antonym). ✅"
+  },
+  {
+    "question": "Identify the segment that contains a grammatical error:\n(A) She quick finished her homework / (B) before dinner, eager to join her friends / (C) at the park for / (D) an exciting game of soccer.",
+    "options": ["D", "A", "C", "B"],
+    "answer": "A",
+    "explanation": "• **Error**: 'Quick' is an adjective. It should be the adverb '**quickly**' to describe how she 'finished' her homework. 📝🏃‍♀️"
+  },
+  {
+    "question": "Rectify the sentence by selecting the correctly spelt word from the options.\nThe speech was insipeed, leaving everyone restless and bored.",
+    "options": ["Insepid", "Insiepid", "Insipid", "Innsipid"],
+    "answer": "Insipid",
+    "explanation": "• **Insipid**: Lacking flavor; lacking vigor or interest. (Correct spelling). 🥱☕"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Vigilant**",
+    "options": ["Mindful", "Choosy", "Awake", "Careless"],
+    "answer": "Careless",
+    "explanation": "• **Vigilant**: Keeping careful watch for possible danger or difficulties. (Synonym: Mindful). 🧐\n• **Careless**: Not giving sufficient attention or thought to avoiding harm or errors. (Antonym). 🙈"
+  },
+  {
+    "question": "Select the correct spelling of the incorrectly spelt word in the sentence:\nThe aroma of freshly brewed coffee was irressistible.",
+    "options": ["irrisitable", "irressistibal", "irresistible", "irrisistable"],
+    "answer": "irresistible",
+    "explanation": "• **Irresistible**: Too attractive or tempting to be resisted. (Correct spelling). ☕✨"
+  },
+  {
+    "question": "Select the most appropriate idiom that can substitute the underlined segment.\nDon't assume that everyone but you is happy. <u>The grass is always redder on on one side.</u>",
+    "options": [
+      "plant is always greener on all sides",
+      "sky is red in the evening",
+      "fruit is yellow on the other side",
+      "grass is always greener on the other side"
+    ],
+    "answer": "grass is always greener on the other side",
+    "explanation": "• **The grass is always greener on the other side**: A proverb meaning that other people's situations always seem better than one's own, even if they are not. 🏡🌱"
+  },
+  {
+    "question": "Select the most appropriate option to substitute the underlined segment.\nThe new technology proved to be quite efficient in <u>stream lining</u> daily tasks.",
+    "options": ["stripling", "sojourning", "simplifiying", "startling"],
+    "answer": "simplifiying",
+    "explanation": "• **Streamlining**: Making an organization or system more efficient by employing faster or simpler working methods. (Synonym: Simplifying). ⚙️✨"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) For many healthcare workers, (1) _______________ nurses, longer hours and shift work are the norm.",
+    "options": ["fanatically", "equally", "ascetically", "especially"],
+    "answer": "especially",
+    "explanation": "• **Especially**: Used to single out one person or thing over all others. Nurses are being highlighted as a specific example. 🏥👩‍⚕️"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) Nurses are (2)___________________ expected to work on public holidays...",
+    "options": ["rarely", "seldom", "hardly", "often"],
+    "answer": "often",
+    "explanation": "• Context: The passage describes long hours and shifts as the 'norm' for nurses, so it is a common or '**often**' occurring expectation. 🗓️"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) ...and may have to work for six or seven (3)_________________ days before having a few days off...",
+    "options": ["conjunctional", "consecutive", "continent", "consensus"],
+    "answer": "consecutive",
+    "explanation": "• **Consecutive**: Following each other continuously; in unbroken or logical sequence. (Example: Monday, Tuesday, Wednesday). 🗓️➡️"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...many healthcare services, such as hospitals and aged care facilities, (4)______________ staffing seven days a week.",
+    "options": ["require", "pacify", "rectify", "specify"],
+    "answer": "require",
+    "explanation": "• **Require**: Need for a particular purpose. Hospitals **need/require** staff around the clock. 🏥"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) It’s imperative any restructured work arrangements are designed to (5)___________________ continuous, adequate staffing.",
+    "options": ["scrutitise", "ensure", "animate", "treat"],
+    "answer": "ensure",
+    "explanation": "• **Ensure**: To make certain that something shall occur or be the case. (Related: Guarantee). ✅"
+  }
+]
