@@ -1,0 +1,137 @@
+[
+  {
+    "question": "The following sentence has been divided into parts. Select the part that contains a grammatical error: \nIsaac Newton, a name that may still be seen / today, cut into the wood of a window-sill at / the king’s school, where he **study** Grammar and Latin.",
+    "options": [
+      "today, cut into the wood of a window-sill at",
+      "Isaac Newton, a name that may still be seen",
+      "No error.",
+      "the King's school, where he study Grammar and Latin."
+    ],
+    "answer": "the King's school, where he study Grammar and Latin.",
+    "explanation": "• **Grammar Error**: The sentence refers to the past life of Isaac Newton. Therefore, the verb 'study' must be in the simple past tense. 📜\n• **Correction**: It should be 'where he **studied** Grammar and Latin'."
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Laconic**",
+    "options": ["Terse", "Succinct", "Concise", "Verbose"],
+    "answer": "Verbose",
+    "explanation": "• **Laconic**: Using very few words. (Synonyms: Terse, Succinct, Concise). 😶\n• **Verbose**: Using or expressed in more words than are needed. (Antonym). 🗣️📚"
+  },
+  {
+    "question": "Select the most appropriate meaning of the underlined idiom.\nThe contractor realised that he could not get the contract unless he <u>greases the palms</u> of the officials.",
+    "options": ["To come to a stop", "To deprive one of one's power", "To bribe", "To bear the brunt"],
+    "answer": "To bribe",
+    "explanation": "• **Grease the palm**: To give someone money in order to persuade them to do something dishonest or to help you. (Related: Bribery). 💸🤝"
+  },
+  {
+    "question": "Select the word that best completes the sentence (Determine the collocation):\nVismi had an __________________ fantastic time at the Hyderabad Book Fair.",
+    "options": ["elegantly", "exactly", "warmly", "absolutely"],
+    "answer": "absolutely",
+    "explanation": "• **Absolutely fantastic**: 'Absolutely' is an intensifying adverb that commonly collocates with strong adjectives like 'fantastic' or 'brilliant'. ✨📖"
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\nThe orchestra's <u>melodious</u> performance enchanted the audience.",
+    "options": ["Discordant", "Cacophonous", "Harmonious", "Dissonant"],
+    "answer": "Harmonious",
+    "explanation": "• **Melodious**: Pleasant-sounding; musical. (Synonym: Harmonious). 🎶🎻\n• **Discordant/Cacophonous/Dissonant**: Harsh, clashing, or unpleasant sounds. (Antonyms). 🔊"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word from the given sentence:\nHer arguement was well-reasoned, but it contained a few misspellings.",
+    "options": ["contained", "misspellings", "well-reasoned", "arguement"],
+    "answer": "arguement",
+    "explanation": "• **Incorrect spelling**: arguement. ❌\n• **Correct spelling**: **Argument**. ✅\n• **Rule**: When adding the suffix '-ment' to 'argue', the silent 'e' is dropped."
+  },
+  {
+    "question": "Identify the part that contains an error:\nThe language of the foreign delegate was **full extraordinary**; / only a few could understand his speech / last evening.",
+    "options": [
+      "No error.",
+      "The language of the foreign delegate was full extraordinary;",
+      "last evening.",
+      "only a few could understand his speech"
+    ],
+    "answer": "The language of the foreign delegate was full extraordinary;",
+    "explanation": "• **Grammar Error**: 'Full' is an adjective, but we need an adverb to modify the adjective 'extraordinary'. 🚫\n• **Correction**: It should be '**fully** extraordinary' or '**quite** extraordinary'. 🗣️"
+  },
+  {
+    "question": "Select the phrase that can substitute the underlined segment without altering the meaning:\nThe artist’s latest exhibition was <u>a stark departure</u> from her previous work...",
+    "options": ["a minor change", "a drastic shift", "a subtle continuation", "a gentle evolution"],
+    "answer": "a drastic shift",
+    "explanation": "• **Stark departure**: A complete or very obvious change from what was done before. (Synonym: Drastic shift). 🔄🎨"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nLadakh is shifting towards self-sufficiency in _____ food and crop market.",
+    "options": ["the", "these", "an", "this"],
+    "answer": "the",
+    "explanation": "• **Article**: 'The' is used here to refer to a specific, defined market (food and crop market). 🍎🌾"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Callous**",
+    "options": ["Apathetic", "Insensitive", "Merciful", "Careless"],
+    "answer": "Merciful",
+    "explanation": "• **Callous**: Showing or having a cruel disregard for others. (Synonyms: Apathetic, Insensitive). 🧊\n• **Merciful**: Showing or exercising mercy; compassionate. (Antonym). ❤️"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nAs the hikers ventured __________________ into the dense forest, the sounds of civilisation faded away.",
+    "options": ["farther", "father", "further", "feather"],
+    "answer": "farther",
+    "explanation": "• **Farther**: Refers to physical distance. 🌲🚶‍♂️\n• **Further**: Refers to metaphorical distance or depth (e.g., further research)."
+  },
+  {
+    "question": "Select the most appropriate meaning of the given word.\n**Elated**",
+    "options": [
+      "Extremely happy and excited",
+      "Deeply worried and anxious",
+      "Indifferent or uninterested",
+      "Feeling tired and drained"
+    ],
+    "answer": "Extremely happy and excited",
+    "explanation": "• **Elated**: In high spirits; exultant or proud. (Synonym: Thrilled). 🥳✨"
+  },
+  {
+    "question": "Select the option that rectifies the spelling error in the given sentence:\nThe serene osterity of the compound had a unique charm.",
+    "options": ["Aughsterity", "Ousterity", "Austerity", "Asterity"],
+    "answer": "Austerity",
+    "explanation": "• **Correct spelling**: **Austerity**. ✅\n• **Meaning**: Sternness or severity of manner or attitude; extreme plainness. 🏛️"
+  },
+  {
+    "question": "Select the most appropriate option to substitute the underlined phrase.\nMani decided to <u>take a rain check</u> on the dinner invitation.",
+    "options": ["make the final decision", "accept the offer", "to invite someone", "delay the decision"],
+    "answer": "delay the decision",
+    "explanation": "• **Take a rain check**: An idiom meaning to decline an offer or invitation now, but suggesting that it might be accepted at a later date. 🍽️⏰"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe firing process used in terracotta production typically requires lower temperatures ________ to other ceramics...",
+    "options": ["attempted", "equated", "compared", "harmony"],
+    "answer": "compared",
+    "explanation": "• **Compared to**: Used to point out similarities or differences between two things. 🏺🔬"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Reducing the hours worked and optimising shift rostering could (1)________________ alleviate stress...",
+    "options": ["host", "heal", "hive", "help"],
+    "answer": "help",
+    "explanation": "• Context: Reducing hours is a measure that will assist or **help** in reducing (alleviating) stress. 🏥💊"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...alleviate stress, burnout and work family (2)___________________ for healthcare workers.",
+    "options": ["conflict", "evict", "addict", "inflict"],
+    "answer": "conflict",
+    "explanation": "• **Work-family conflict**: A common term used to describe the struggle between job demands and family responsibilities. ⚖️👨‍👩‍👧‍👦"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) Any reduction (3)__________________ staff turnaround would save on direct costs...",
+    "options": ["in", "off", "at", "about"],
+    "answer": "in",
+    "explanation": "• **Preposition**: We use 'reduction **in**' something to indicate a decrease in a specific quantity or rate. 📉"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...would save on direct costs associated (4)____________________ hiring new staff.",
+    "options": ["on", "behind", "with", "about"],
+    "answer": "with",
+    "explanation": "• **Associated with**: A standard prepositional phrase meaning connected with something else. 🔗"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) Also, (5)_______________________ shorter shifts may increase the uptake of shift times...",
+    "options": ["implementing", "complimenting", "rectifying", "simplifying"],
+    "answer": "implementing",
+    "explanation": "• **Implementing**: Putting a decision, plan, or agreement into effect. (Related: Executing). ⚙️✅"
+  }
+]
