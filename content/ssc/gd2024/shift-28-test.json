@@ -3,10 +3,10 @@
     "question": "Select the most appropriate synonym of the underlined word.\nMaya couldn’t hide her <u>glee</u> when our rival came last.",
     "options": ["Unhappiness", "Wickedness", "Happiness", "Sorrow"],
     "answer": "Happiness",
-    "explanation": "• **Glee**: Great delight or happiness, often caused by one's own good fortune or another's misfortune. 😄🎉\n• **Sorrow/Unhappiness**: Feel of deep distress. (Antonyms)."
+    "explanation": "• **Glee**: Great delight or happiness, often caused by one's own good fortune or another's misfortune. 😄🎉\n• **Sorrow/Unhappiness**: Feeling of deep distress. (Antonyms)."
   },
   {
-    "question": "Identify the segment that contains a grammatical error:\n(A) The cat quiet stalked its prey, / (B) moving stealthily through the tall grass, / (C) demonstrating its hunting skills / (D) with great precision and grace.",
+    "question": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\n(A) The cat quiet stalked its prey, / (B) moving stealthily through the tall grass, / (C) demonstrating its hunting skills / (D) with great precision and grace.",
     "options": ["C", "D", "A", "B"],
     "answer": "A",
     "explanation": "• **Adverbial Error**: 'Quiet' is an adjective. To modify the verb 'stalked', we must use the adverb '**quietly**'. 🐈🤫\n• **Correction**: 'The cat **quietly** stalked its prey'."
@@ -32,13 +32,13 @@
       "(1) persuasive ; (2) well-structured ; (3) lasting"
     ],
     "answer": "(1) persuasive ; (2) well-structured ; (3) lasting",
-    "explanation": "• Context: A speech is described as **persuasive**. The flow is **well-structured**. The result of a good speech is a **lasting** impression. 🗣️✨"
+    "explanation": "• **Context**: A speech that convinces people is **persuasive**. If it is organized, it is **well-structured**. A strong memory left behind is a **lasting** impression. 🗣️✨"
   },
   {
-    "question": "Identify the part that contains an error:\nHe was playing cricket when I have walked past the stadium early in the morning.",
+    "question": "Parts of the following sentence have been given as options. Select the option that contains an error.\nHe was playing cricket when I have walked past the stadium early in the morning.",
     "options": ["early this morning.", "past the stadium", "when I have walked", "He was playing cricket"],
     "answer": "when I have walked",
-    "explanation": "• **Tense Error**: When describing an action that interrupted a past continuous action (was playing), we use the Simple Past tense. 🚫\n• **Correction**: It should be 'when I **walked** past'. 🏟️🚶‍♂️"
+    "explanation": "• **Tense Error**: When an action interrupts a continuous past action (was playing), we use the Simple Past. 🚫\n• **Correction**: 'when I **walked** past'. 🏟️🚶‍♂️"
   },
   {
     "question": "Select the most appropriate option to fill in the blanks.\nThe serene beach offered (1)____ waters, (2)___ sand and (3)___ sunsets, creating a perfect spot for relaxation and reflection.",
@@ -49,6 +49,36 @@
       "(1) clear ; (2) stunning ; (3) soft"
     ],
     "answer": "(1) clear ; (2) soft ; (3) stunning",
-    "explanation": "• Context: Water is usually described as **clear**. Sand is described as **soft**. Sunsets are described as **stunning**. 🏖️🌅"
+    "explanation": "• **Collocation**: Water is typically **clear**, sand is **soft**, and sunsets are **stunning**. 🏖️🌅"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Recycling at home is a simple (1) _____ impactful way to contribute to environmental conservation.",
+    "options": ["also", "but", "and", "yet"],
+    "answer": "and",
+    "explanation": "• **Conjunction**: 'And' is used here to join two positive attributes (simple and impactful) of recycling. ♻️"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) Separating recyclables (2) _____ paper, plastic and glass from regular waste reduces landfill waste.",
+    "options": ["such", "like", "dislike", "similar to"],
+    "answer": "like",
+    "explanation": "• **Preposition**: 'Like' is used here to provide examples of recyclables. 📄🥤🧴"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) (3) ____ adopting this habit, individuals participating in sustainable practices.",
+    "options": ["Again", "And", "By", "Also"],
+    "answer": "By",
+    "explanation": "• **Preposition**: 'By' indicates the method or means through which the action is achieved. 💡"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...individuals (4) _______ participate in sustainable practices.",
+    "options": ["vehemently", "vociferously", "actively", "strong"],
+    "answer": "actively",
+    "explanation": "• **Adverb**: 'Actively' describes a hands-on, energetic level of participation. 🏃‍♂️✅"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) It not only helps the environment but also sets an example for future generations on (5) _______ living.",
+    "options": ["responsible", "obligated", "independent", "wisely"],
+    "answer": "responsible",
+    "explanation": "• **Adjective**: 'Responsible' living refers to making choices that are sustainable and ethical. 🌍✨"
   }
 ]
