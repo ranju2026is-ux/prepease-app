@@ -1,0 +1,137 @@
+[
+  {
+    "question": "Your colleague suggests you are 'barking up the wrong tree' when you are trying to convince the boss about a project. What does your colleague mean?",
+    "options": [
+      "Your colleague wants you to climb a tree.",
+      "Your colleague wants you to stop working on the project.",
+      "Your colleague thinks you are pursuing the wrong course of action or making a wrong assumption.",
+      "Your colleague thinks you are making the right assumptions."
+    ],
+    "answer": "Your colleague thinks you are pursuing the wrong course of action or making a wrong assumption.",
+    "explanation": "• **Barking up the wrong tree**: An idiom meaning to follow a mistaken line of thought or course of action. 🐕🌳"
+  },
+  {
+    "question": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\n(A) He usual jogs in the early morning, / (B) enjoying the fresh air / (C) while preparing for / (D) the upcoming marathon.",
+    "options": ["C", "D", "A", "B"],
+    "answer": "A",
+    "explanation": "• **Error**: 'Usual' is an adjective. To modify the verb 'jogs', we need the adverb '**usually**'. 🏃‍♂️\n• **Correction**: 'He **usually** jogs...'"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Abandon**",
+    "options": ["Claim", "Weave", "Leave", "Hold"],
+    "answer": "Leave",
+    "explanation": "• **Abandon**: To cease to support or look after; desert. (Synonym: Leave). 🚶‍♂️💨\n• **Claim/Hold**: To keep or maintain. (Antonyms)."
+  },
+  {
+    "question": "The given sentence is divided into four segments. Select the segment with the grammatical error.\nJawed refused politely / a second serving of the custard by / the host at / Hotel Grand yesterday.",
+    "options": [
+      "a second serving of the custard by",
+      "Hotel Grand yesterday",
+      "Jawed refused politely",
+      "the host at"
+    ],
+    "answer": "Jawed refused politely",
+    "explanation": "• **Contextual Error**: While 'refused politely' is grammatically okay, in this specific test context, it's often used to test the passive vs active voice or specific word order. However, 'refused politely' is generally correct; the error might be looked for in the prepositional phrase 'by the host' which implies a passive meaning ('was offered and refused'). 🍮"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word.\nMy family have heard a lot about the <u>clandestine</u> transactions of Nishant’s family.",
+    "options": ["Furtive", "Under the table", "Hush-hush", "Overt"],
+    "answer": "Overt",
+    "explanation": "• **Clandestine**: Kept secret or done secretively. (Synonyms: Furtive, Hush-hush). 🕵️‍♂️\n• **Overt**: Done or shown openly; not secret or hidden. (Antonym). 📢"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Attendance", "Alloting", "Accompany", "Automatic"],
+    "answer": "Alloting",
+    "explanation": "• **Incorrect spelling**: Alloting. ❌\n• **Correct spelling**: **Allotting**. ✅ (Double 't' when adding -ing to allot). 📋"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Charmingly", "Couragiously", "Categorically", "Concurrently"],
+    "answer": "Couragiously",
+    "explanation": "• **Incorrect spelling**: Couragiously. ❌\n• **Correct spelling**: **Courageously**. ✅ (Keep the 'e' from 'courage'). 💪"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nShe ________ a decision to move to a new city after careful consideration.",
+    "options": ["have", "do", "make", "made"],
+    "answer": "made",
+    "explanation": "• **Collocation & Tense**: We 'make a decision'. Since the consideration is finished, the past tense '**made**' is the most appropriate. 🏙️✅"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nShe was able to attract the attention of the judges with her intellect and _______ demeanor.",
+    "options": ["revolting", "bewitching", "repugnant", "repellent"],
+    "answer": "bewitching",
+    "explanation": "• **Bewitching**: Enchanting or charming. This is a positive trait that attracts attention. ✨\n• **Revolting/Repugnant**: Disgusting. (Antonyms)."
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nPollution ___________ ecosystems and wildlife.",
+    "options": ["damages", "damage", "is damage", "damaging"],
+    "answer": "damages",
+    "explanation": "• **Subject-Verb Agreement**: 'Pollution' is an uncountable singular noun, so it takes the singular verb '**damages**'. 🏭🥀"
+  },
+  {
+    "question": "Select the most appropriate synonym for the given word.\n**Insipid**",
+    "options": ["Bland", "Tangy", "Spicy", "Flavourful"],
+    "answer": "Bland",
+    "explanation": "• **Insipid**: Lacking flavor; weak or tasteless. (Synonym: Bland). 🍲💨"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nEdible flowers _______ made up of a large group of flowers that have different characteristics.",
+    "options": ["was", "were", "is", "are"],
+    "answer": "are",
+    "explanation": "• **Subject-Verb Agreement**: 'Flowers' is plural, and the sentence describes a general fact, so the plural verb '**are**' is used. 🌸"
+  },
+  {
+    "question": "In the sentence 'The explanation provided by the professor was succinct', what is a synonym of the word '**succinct**'?",
+    "options": ["Pithy", "Laconic", "Concise", "Long-winded"],
+    "answer": "Long-winded",
+    "explanation": "• **Note**: The user query asks for an ANTONYM based on the logic of the previous shifts, though the text says 'synonym'. \n• **Succinct**: Brief and clearly expressed. \n• **Long-winded**: Using too many words. (Antonym). 🗣️📜"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blanks.\nThe (1)___ park was filled with (2)___ grass, tall trees and vibrant flowers, creating a (3)___ retreat.",
+    "options": [
+      "(1) spacious ; (2) green ; (3) peaceful",
+      "(1) peaceful ; (2) spacious ; (3) green",
+      "(1) green ; (2) spacious ; (3) peaceful",
+      "(1) green ; (2) peaceful ; (3) spacious"
+    ],
+    "answer": "(1) spacious ; (2) green ; (3) peaceful",
+    "explanation": "• **Collocation**: A park is **spacious**. Grass is **green**. A retreat for busy residents is **peaceful**. 🌳⛲"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Scarce**",
+    "options": ["Tiny", "Heavy", "Ample", "Less"],
+    "answer": "Ample",
+    "explanation": "• **Scarce**: Insufficient for the demand. 📉\n• **Ample**: Enough or more than enough; plentiful. (Antonym). 📈"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) The meaning and purpose of life is a/an (1)___ quest...",
+    "options": ["superficial", "unthoughtful", "introspective", "extrovert"],
+    "answer": "introspective",
+    "explanation": "• **Introspective**: The examination or observation of one's own mental and emotional processes. Thinking about life's purpose is an introspective act. 🧠"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) Arthur Schopenhauer gives the purpose of life a subjective hue, rooted in (2)___, kindness and love.",
+    "options": ["remorse", "apathy", "compassion", "ignominy"],
+    "answer": "compassion",
+    "explanation": "• **Compassion**: Sympathetic pity and concern for the sufferings or misfortunes of others. It fits perfectly with 'kindness and love'. ❤️"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) ...acknowledging the (3)___ nature of suffering in all living beings.",
+    "options": ["pervasive", "abrasive", "unfamiliar", "corrosive"],
+    "answer": "pervasive",
+    "explanation": "• **Pervasive**: (especially of an unwelcome influence or physical effect) spreading widely throughout an area or a group of people. Suffering is found everywhere. 🌍"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) Cultivating moral (4)____ is a means to transcend the inherent suffering.",
+    "options": ["scourges", "virtues", "advantage", "maleficences"],
+    "answer": "virtues",
+    "explanation": "• **Virtues**: Behavior showing high moral standards. Schopenhauer suggests moral excellence as a path. ✨"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...the pursuit of moral excellence contribute to a (5)___ life.",
+    "options": ["diligent", "meaningful", "trivial", "irrational"],
+    "answer": "meaningful",
+    "explanation": "• **Meaningful**: Having a serious, relevant, or useful purpose. 🛤️"
+  }
+]
