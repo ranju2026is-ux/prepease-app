@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Select the most appropriate idiom to substitute the underlined word segment in the given sentence.\nMr. Saxena sold his car because it was <u>a useless one</u>.",
+    "options": ["bite the bullet", "in doldrums", "a white elephant", "a gift of gab"],
+    "answer": "a white elephant",
+    "explanation": "• **A white elephant**: A possession that is useless or troublesome, especially one that is expensive to maintain. 🐘💰\n• **Bite the bullet**: To endure a painful experience. 🍬\n• **Gift of gab**: Ability to speak easily and confidently. 🗣️"
+  },
+  {
+    "question": "Select the option that correctly rectifies the underlined error in the given sentence.\nMan has made many changes on earth with primitive tools and limited <u>k̲n̲o̲w̲l̲e̲g̲e̲</u>.",
+    "options": ["knowladge", "knowledege", "knowledge", "knowlage"],
+    "answer": "knowledge",
+    "explanation": "• **Correct spelling**: **Knowledge**. ✅\n• **Mnemonic**: It contains the word 'know' followed by 'ledge'. 🧠"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nWhich route is __________ best for avoiding traffic?",
+    "options": ["the", "an", "No article required", "a"],
+    "answer": "the",
+    "explanation": "• **Superlative Degree**: We use the definite article '**the**' before superlative adjectives like 'best'. 🏆"
+  },
+  {
+    "question": "Identify the part that contains an error from the given options:\nShe danced happy / on the stage / in the competition held last evening.",
+    "options": ["She danced happy", "No error", "in the competition held last evening", "on the stage"],
+    "answer": "She danced happy",
+    "explanation": "• **Error**: 'Happy' is an adjective. To modify the verb 'danced', we need the adverb '**happily**'. 💃✨\n• **Correction**: 'She danced **happily**'."
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blanks.\nHis (1)____ project featured modern technology, (2)____ processes and practical solutions, impressing the panel of (3)___ during the competition.",
+    "options": [
+      "(1) innovative ; (2) judges ; (3) efficient",
+      "(1) innovative ; (2) efficient ; (3) judges",
+      "(1) judges ; (2) efficient ; (3) innovative",
+      "(1) efficient ; (2) judges ; (3) innovative"
+    ],
+    "answer": "(1) innovative ; (2) efficient ; (3) judges",
+    "explanation": "• **Context**: A project is **innovative**. Processes are **efficient**. Those who evaluate a competition are **judges**. 💡⚙️👨‍⚖️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word.\nRutvika's <u>boldness</u> in tackling new challenges was really admirable.",
+    "options": ["Timidity", "Correctness", "Confidence", "Recklessness"],
+    "answer": "Timidity",
+    "explanation": "• **Boldness**: Willingness to take risks and be confident. 💪\n• **Timidity**: Lack of courage or confidence. (Antonym). 🐭"
+  },
+  {
+    "question": "In the sentence, 'She gave a succinct summary of the meeting', what is a synonym of the word '**succinct**'?",
+    "options": ["Lengthy", "Detailed", "Brief", "Complicated"],
+    "answer": "Brief",
+    "explanation": "• **Succinct**: Briefly and clearly expressed. (Synonym: Brief/Concise). ✂️📜"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nWhen the commander gives an order, _________ obedience is expected of the soldiers.",
+    "options": ["fastly", "suddenly", "hurry", "instant"],
+    "answer": "instant",
+    "explanation": "• **Collocation**: '**Instant obedience**' is a common phrase used to describe immediate compliance with orders. 🫡⏱️"
+  },
+  {
+    "question": "Identify the sentence with the INCORRECT usage of adverb.",
+    "options": [
+      "Lary had certainly forgotten about the meeting.",
+      "Larry had almost forgotten about the meeting.",
+      "Larry complete had forgotten about the meeting.",
+      "Larry had completely forgotten about the meeting."
+    ],
+    "answer": "Larry complete had forgotten about the meeting.",
+    "explanation": "• **Error**: 'Complete' is an adjective. We need the adverb '**completely**' to modify the verb 'forgotten'. 🚫🧠"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given word.\n**Bright**",
+    "options": ["Immense", "Radiant", "Hooked", "Unlit"],
+    "answer": "Radiant",
+    "explanation": "• **Bright/Radiant**: Sending out light; shining or glowing brightly. ☀️💡"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Consistent", "Deciet", "Fright", "Anomaly"],
+    "answer": "Deciet",
+    "explanation": "• **Incorrect spelling**: Deciet. ❌\n• **Correct spelling**: **Deceit**. ✅\n• **Rule**: 'I' before 'E' except after 'C'."
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe data from the latest studies __________ a sharp rise in global temperatures.",
+    "options": ["shows", "are being show", "show", "have been showing"],
+    "answer": "shows",
+    "explanation": "• **Subject-Verb Agreement**: While 'data' can be plural (datum), in modern English it is frequently treated as a singular collective noun. 'Shows' is the standard answer in this specific context. 📈"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Frantic**",
+    "options": ["Quaint", "Kinetic", "Distraught", "Magnanimous"],
+    "answer": "Distraught",
+    "explanation": "• **Frantic**: Wild or distraught with fear, anxiety, or other emotion. 😰🏃‍♂️"
+  },
+  {
+    "question": "Select the most appropriate idiom that refers to the underlined segment.\nHis father <u>enjoyed the strongest position</u> as an MLA in his constituency.",
+    "options": ["To be at hem of", "To get upper hand", "To go to the dogs", "To be at one’s wit"],
+    "answer": "To get upper hand",
+    "explanation": "• **Get the upper hand**: To gain a position of advantage, power, or control over someone else. ✊⬆️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Exculpate**",
+    "options": ["Vindication", "Condone", "Condemn", "Absolve"],
+    "answer": "Condemn",
+    "explanation": "• **Exculpate**: Show or declare that someone is not guilty. 🏳️\n• **Condemn**: Express complete disapproval of; find guilty. (Antonym). ⛓️"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) The last one of this long procession (1)_________________ silent men and women...",
+    "options": ["to", "for", "of", "in"],
+    "answer": "of",
+    "explanation": "• **Preposition**: 'A procession **of**' people is the correct collective phrase. 🚶‍♂️🚶‍♀️"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) Even he (2)_________________ a load of two baskets...",
+    "options": ["carry", "carries", "carried", "carrying"],
+    "answer": "carried",
+    "explanation": "• **Tense**: The passage describes a past scene ('The last one... was'), so the simple past '**carried**' is correct. 📦"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) (3)_________________ he kept a folded quilt and a cauldron.",
+    "options": ["This", "That", "Than", "There"],
+    "answer": "There",
+    "explanation": "• **Adverb of Place**: '**There**' is used to indicate the location (inside the basket) where the items were kept. 📍"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) In the other basket... a quilt, (4)_________________ ragged and patched...",
+    "options": ["abruptly", "extremely", "eagerly", "frankly"],
+    "answer": "extremely",
+    "explanation": "• **Adverb of Degree**: '**Extremely**' is used to emphasize how torn (ragged) the quilt was. 🧵"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) There was no one with (5)_________________.",
+    "options": ["his", "him", "her", "its"],
+    "answer": "him",
+    "explanation": "• **Pronoun**: Refers back to the 'wizened old man'. The object pronoun is '**him**'. 👤"
+  }
+]
