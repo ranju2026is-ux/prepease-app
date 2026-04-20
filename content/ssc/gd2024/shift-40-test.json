@@ -1,0 +1,137 @@
+[
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nHis presence of mind and _______ saved the life of the elderly woman.",
+    "options": ["audacity", "cowardice", "carelessness", "fear"],
+    "answer": "audacity",
+    "explanation": "• **Audacity**: A willingness to take bold risks. In a life-saving situation, being bold (audacious) is a positive trait. 🦁\n• **Cowardice/Fear**: Negative traits that would likely hinder saving a life."
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nAtul lit the candle with a match. 'Match' here means __________________.",
+    "options": [
+      "a piece of stone",
+      "a contest in a game or sport",
+      "a short stick with a tip that ignites when rubbed on a rough surface",
+      "a piece of decorative or protective material placed on the tip of a stick"
+    ],
+    "answer": "a short stick with a tip that ignites when rubbed on a rough surface",
+    "explanation": "• **Homonyms**: While 'match' can mean a sports contest, in the context of lighting a candle, it refers to the tool used to produce fire. 🔥"
+  },
+  {
+    "question": "In the sentence, 'The CEO’s behaviour was impeccable', what is the ANTONYM of the word 'impeccable'?",
+    "options": ["Spotless", "Perfect", "Faulty", "Unblemished"],
+    "answer": "Faulty",
+    "explanation": "• **Impeccable**: In accordance with the highest standards; faultless. ✨\n• **Faulty**: Working badly or unreliably because of imperfections. (Antonym). ❌"
+  },
+  {
+    "question": "Rectify the sentence by selecting the correctly spelt word from the options.\nHe was able to deciphere the encoded messages with ease.",
+    "options": ["Deciipher", "Decipher", "Deciepher", "Deecipher"],
+    "answer": "Decipher",
+    "explanation": "• **Correct spelling**: **Decipher**. ✅\n• **Meaning**: To convert a code or secret writing into normal language. 🔍"
+  },
+  {
+    "question": "Identify the sentence with the INCORRECT usage of an adverb.",
+    "options": [
+      "Rohit completed already the project.",
+      "He will send the documents later.",
+      "They delivered the package yesterday.",
+      "She submitted the report today."
+    ],
+    "answer": "Rohit completed already the project.",
+    "explanation": "• **Adverb Placement**: The adverb 'already' should typically come between the subject and the verb, or after the auxiliary verb. 🚫\n• **Correct**: 'Rohit **already completed** the project' or 'Rohit has already completed...'"
+  },
+  {
+    "question": "Select the most appropriate idiom that can substitute the underlined segment.\n...we took it <u>slowly and carefully</u> and got it done in no time.",
+    "options": ["one step at a time", "one step ahead", "one step closer", "one step fix"],
+    "answer": "one step at a time",
+    "explanation": "• **One step at a time**: To do something slowly and carefully, making progress in stages. 🐢👣"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nShe anticipates __________ the reports done by Saturday.",
+    "options": ["has", "had", "having", "making"],
+    "answer": "having",
+    "explanation": "• **Gerund Usage**: The verb 'anticipate' is followed by a gerund (-ing form). 'Having the reports done' means expecting them to be finished. 📅"
+  },
+  {
+    "question": "Select the most appropriate idiom to fill in the blank.\nDespite the criticism, the artist took it in stride and considered it ______________.",
+    "options": [
+      "a chip on their shoulder",
+      "a piece of cake",
+      "as water under the bridge",
+      "break a leg"
+    ],
+    "answer": "as water under the bridge",
+    "explanation": "• **Water under the bridge**: Events that have happened in the past and are no longer regarded as important or worth worrying about. 🌊🌉"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Sporadic**",
+    "options": ["Scant", "National", "Regular", "Aromatic"],
+    "answer": "Regular",
+    "explanation": "• **Sporadic**: Occurring at irregular intervals or only in a few places; scattered or isolated. ⛈️\n• **Regular**: Recurring at short uniform intervals. (Antonym). ⏱️"
+  },
+  {
+    "question": "Identify the INCORRECTLY spelt word in the following sentence.\nThe deligent student studied hard for the exam.",
+    "options": ["studied", "deligent", "earning", "well-deserved"],
+    "answer": "deligent",
+    "explanation": "• **Incorrect spelling**: deligent. ❌\n• **Correct spelling**: **Diligent**. ✅ (Meaning showing care and effort in work)."
+  },
+  {
+    "question": "Identify the segment that contains a grammatical error:\nThe flat up / is full of / an awful lot / of junk.",
+    "options": ["of junk", "is full of", "an awful lot", "The flat up"],
+    "answer": "The flat up",
+    "explanation": "• **Error**: 'The flat up' is not a standard English expression. It should likely be '**The flat upstairs**'. 🏠"
+  },
+  {
+    "question": "Select the word that best completes the sentence (Collocation):\nHari _________ advantage of the sale and bought three new shirts.",
+    "options": ["saw", "struck", "set", "took"],
+    "answer": "took",
+    "explanation": "• **Take advantage of**: A standard collocation meaning to make use of an opportunity. 🛍️✅"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Versatile**",
+    "options": ["Optimistic", "Cruel", "Beautiful", "Limited"],
+    "answer": "Limited",
+    "explanation": "• **Versatile**: Able to adapt or be adapted to many different functions or activities. 🛠️\n• **Limited**: Restricted in size, amount, or ability; not versatile. (Antonym). 🔒"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nI will have <u>one more</u> of these delicious rasgullas.",
+    "options": ["both", "many", "another", "either"],
+    "answer": "another",
+    "explanation": "• **Another**: Used to refer to an additional person or thing of the same type. It perfectly substitutes 'one more'. 🍡"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Dainty**",
+    "options": ["Graceful", "Exquisite", "Crude", "Cute"],
+    "answer": "Crude",
+    "explanation": "• **Dainty**: Delicately small and pretty. 🌸\n• **Crude**: Constructed in a rudimentary or makeshift way; lacking finish or polish. (Antonym). 🪵"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Indigenous communities (1)___________ the world are facing severe climate impacts.",
+    "options": ["throughout", "in", "around", "of"],
+    "answer": "throughout",
+    "explanation": "• **Throughout**: Used to indicate that something happens in every part of a place (the world). 🌍"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) Indigenous communities are not only (2)___________ on their surrounding ecosystems...",
+    "options": ["relatable", "relevant", "relational", "reliant"],
+    "answer": "reliant",
+    "explanation": "• **Reliant**: Dependent on someone or something. These communities depend on nature for survival. 🌲"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) ...but their identities are also (3)___________ deeply interwoven with the land.",
+    "options": ["also", "seldom", "only", "too"],
+    "answer": "also",
+    "explanation": "• **Correlative Conjunction**: The sentence structure 'not only... but... also' is used to link two related points. 🔗"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) As a result, indigenous peoples (4)___________ efforts in climate change mitigation.",
+    "options": ["was leading", "has leading", "are leading", "have leading"],
+    "answer": "are leading",
+    "explanation": "• **Subject-Verb Agreement**: 'Peoples' (referring to various ethnic groups) is plural, so it takes the plural present continuous verb '**are leading**'. ✊"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...efforts in climate change mitigation and (5)___________ .",
+    "options": ["nominate", "nurture", "imitate", "notice"],
+    "answer": "nurture",
+    "explanation": "• **Nurture**: To care for and encourage the growth or development of something. In this context, it refers to protecting/caring for the environment. 🌱"
+  }
+]
