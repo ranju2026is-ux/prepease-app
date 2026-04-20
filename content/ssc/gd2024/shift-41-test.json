@@ -1,0 +1,127 @@
+[
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe detective’s _______________ examination of the crime scene revealed crucial evidence that others had missed.",
+    "options": ["thorough", "hasty", "cursory", "superficial"],
+    "answer": "thorough",
+    "explanation": "• **Thorough**: Complete with regard to every detail; not superficial or partial. This explains why the detective found evidence others missed. 🔍\n• **Cursory/Hasty/Superficial**: Quick and not detailed. (Antonyms in context)."
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nWhen Sarah realised that she forgot her keys at home, she felt like a fish out of _________.",
+    "options": ["sea", "water", "pond", "river"],
+    "answer": "water",
+    "explanation": "• **Fish out of water**: An idiom referring to a person in a completely unsuitable environment or situation where they feel awkward or uncomfortable. 🐟🚫"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Companion**",
+    "options": ["Enemy", "Mate", "Sister", "Neighbour"],
+    "answer": "Mate",
+    "explanation": "• **Companion**: A person or animal with whom one spends a lot of time. (Synonym: Mate/Partner). 🤝"
+  },
+  {
+    "question": "Select the most appropriate synonym of the word in the brackets to fill in the blank.\nWe sincerely thanked them for their ________________ (benevolence) and generosity.",
+    "options": ["liberty", "suspicion", "kindness", "intention"],
+    "answer": "kindness",
+    "explanation": "• **Benevolence**: The quality of being well-meaning; kindness. (Direct synonym). ✨"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Fragile**",
+    "options": ["Shiny", "Heavy", "Delicate", "Strong"],
+    "answer": "Delicate",
+    "explanation": "• **Fragile**: (of an object) easily broken or damaged. (Synonym: Delicate). 🏺\n• **Strong**: Able to withstand force or pressure. (Antonym)."
+  },
+  {
+    "question": "Select the word that best completes the sentence (Collocation):\nAnil caught a glimpse of the rare bird before it ___________ flight into the dense forest.",
+    "options": ["had", "got", "took", "laid"],
+    "answer": "took",
+    "explanation": "• **Took flight**: A standard collocation meaning to fly away or to start flying. 🦅💨"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nFollowing the credo ‘Together we stand, divided we fall’, the factory workers stepped out of the factory _________ to hold a protest rally.",
+    "options": ["impasse", "en-masse", "en-route", "ex-facto"],
+    "answer": "en-masse",
+    "explanation": "• **En-masse**: In a group; all together. Fits the context of workers acting 'together'. 👥🚩"
+  },
+  {
+    "question": "Select the most appropriate idiom that can substitute the underlined segment.\nAfter the meeting, I felt like I was <u>elated</u> because the team decided to implement my idea.",
+    "options": ["walking on eggshells", "walking on air", "walking on thin ice", "walking on a dream"],
+    "answer": "walking on air",
+    "explanation": "• **Walking on air**: An idiom meaning to feel extremely happy and excited. ☁️😊"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word.\nClimate change and environmental <u>degradation</u> are an existential threat.",
+    "options": ["Disaster", "Distribution", "Development", "Demand"],
+    "answer": "Development",
+    "explanation": "• **Degradation**: The process of being degraded or deteriorating. 📉\n• **Development**: The process of developing or being developed; improvement. (Antonym in this context). 📈"
+  },
+  {
+    "question": "Identify the segment that contains a grammatical error:\n(A) The friends excited planned their upcoming vacation, / (B) researching destinations / (C) and creating an itinerary.",
+    "options": ["C", "A", "B", "D"],
+    "answer": "A",
+    "explanation": "• **Error**: 'Excited' is an adjective. To modify the verb 'planned', we need the adverb '**excitedly**'. 🚫\n• **Correction**: 'The friends **excitedly** planned...'"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nHe made the cake all by _____.",
+    "options": ["yourself", "himself", "myself", "herself"],
+    "answer": "himself",
+    "explanation": "• **Reflexive Pronoun**: 'He' requires the corresponding reflexive pronoun '**himself**'. 🎂"
+  },
+  {
+    "question": "In the sentence 'The strategist’s thoughts were very coherent', what is the most appropriate ANTONYM of 'coherent'?",
+    "options": ["Lacklustre", "Incomprehensible", "Logical", "Systematic"],
+    "answer": "Incomprehensible",
+    "explanation": "• **Coherent**: Logical and consistent; easy to understand. 🧠\n• **Incomprehensible**: Not able to be understood. (Antonym). ❓"
+  },
+  {
+    "question": "Rectify the sentence by selecting the correctly spelt word:\nDespite his contributions, he was given a niggardlly raise in his salary.",
+    "options": ["Niiggardly", "Niggarddly", "Nigardly", "Niggardly"],
+    "answer": "Niggardly",
+    "explanation": "• **Correct spelling**: **Niggardly**. ✅ (Meaning ungenerous or meager). 💰"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Apology", "Calender", "Ensure", "Certificate"],
+    "answer": "Calender",
+    "explanation": "• **Incorrect spelling**: Calender. ❌\n• **Correct spelling**: **Calendar**. ✅ (The one with dates). 📅"
+  },
+  {
+    "question": "Identify the sentence with the INCORRECT usage of an adverb.",
+    "options": [
+      "He called his friend last night.",
+      "I’ll submit next week the assignment to you.",
+      "They met for lunch yesterday.",
+      "I will send you the report tomorrow."
+    ],
+    "answer": "I’ll submit next week the assignment to you.",
+    "explanation": "• **Adverb Placement**: Adverbs or adverbial phrases of time ('next week') usually come at the end of the sentence or the beginning, not between the verb and the object. 🚫\n• **Correct**: 'I'll submit the assignment to you **next week**'."
+  },
+  {
+    "question": "(Cloze Test - Blank 1) The fact that the wetter periods in North Africa have _______1_______ every 21,000 years...",
+    "options": ["terminated", "seized", "abated", "recurred"],
+    "answer": "recurred",
+    "explanation": "• **Recurred**: Occurred again periodically or repeatedly. Fits the 'every 21,000 years' context. 🔄"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...is a big clue about what ________2_________ them: variations in Earth’s orbit.",
+    "options": ["debates", "delegates", "bids", "causes"],
+    "answer": "causes",
+    "explanation": "• **Causes**: A person or thing that gives rise to an action, phenomenon, or condition. Orbit variations 'cause' the weather changes. 🌍"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) ...the orbit of the Earth _________3___________ the sun is not constant.",
+    "options": ["precise", "straight", "direct", "around"],
+    "answer": "around",
+    "explanation": "• **Preposition**: The Earth moves in an orbit '**around**' the sun. ☀️"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) It has cyclic ______4_______ on multi-thousand year timescales.",
+    "options": ["consistencies", "variations", "monotonies", "regularities"],
+    "answer": "variations",
+    "explanation": "• **Variations**: A change or slight difference in condition, amount, or level. Cyclic changes in orbit are 'variations'. 📉📈"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) These orbital cycles _______5_______ the amount of energy the Earth receives from the sun.",
+    "options": ["return", "believe", "influence", "stretch"],
+    "answer": "influence",
+    "explanation": "• **Influence**: Have an influence on. Orbital changes 'influence' (affect) solar energy reception. ☀️🛰️"
+  }
+]
