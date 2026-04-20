@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Hasten**",
+    "options": ["Hold", "Urge", "Encourage", "Serious"],
+    "answer": "Hold",
+    "explanation": "• **Hasten**: To move or act with speed; to hurry. 🏃‍♂️💨\n• **Hold**: To delay, restrain, or stop the progress of something. (Antonym). 🛑"
+  },
+  {
+    "question": "Parts of the following sentence have been given as options. Select the option that contains an error.\n'The constitutional lawyer argued persuasively and with surgical precision, dismantling the opposition's case piece by logic piece.'",
+    "options": [
+      "The constitutional lawyer argued persuasively",
+      "piece by logic piece",
+      "dismantling the opposition's case",
+      "and with surgical precision,"
+    ],
+    "answer": "piece by logic piece",
+    "explanation": "• **Error**: The correct idiomatic expression is 'piece by piece'. Adding 'logic' in the middle creates a non-standard and redundant phrase. 🧩\n• **Correction**: It should be 'piece by piece' or 'logical step by step'."
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Grandeur**",
+    "options": ["Magnificence", "Dominance", "Reality", "Integrity"],
+    "answer": "Magnificence",
+    "explanation": "• **Grandeur**: Splendor and impressiveness, especially of appearance or style. (Synonym: Magnificence). 🏰✨"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["prolific", "prolifarate", "prolong", "prodigal"],
+    "answer": "prolifarate",
+    "explanation": "• **Incorrect spelling**: prolifarate. ❌\n• **Correct spelling**: **Proliferate**. ✅ (Meaning to increase rapidly in number)."
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe organization _________ a major campaign to promote sustainable living last year.",
+    "options": ["launched", "launches", "launching", "launch"],
+    "answer": "launched",
+    "explanation": "• **Tense**: The indicator 'last year' requires the Simple Past tense. 🚀\n• **Correction**: 'launched'."
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**To burn the midnight oil**",
+    "options": [
+      "To be energetic during the day",
+      "To work late into the night",
+      "To waste time",
+      "To sleep early"
+    ],
+    "answer": "To work late into the night",
+    "explanation": "• **Meaning**: To stay up late working or studying. 🕯️🌙"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined words.\nShe said she would join us later, <u>but I don’t knew</u> if she will make it on time.",
+    "options": [
+      "but I don’t know",
+      "but I doesn’t know",
+      "but I won’t be knowing",
+      "but I didn’t known"
+    ],
+    "answer": "but I don’t know",
+    "explanation": "• **Grammar**: After the auxiliary verb 'do/don't', the base form of the verb (know) must be used, not the past tense (knew). 🚫🧠"
+  },
+  {
+    "question": "Select the most appropriate option to substitute the underlined segment.\n“Camila helps her mother in cooking dinner, <u>isn’t she?</u>” asked Veronica.",
+    "options": ["doesn't she", "hasn't she", "wasn't she", "don't she"],
+    "answer": "doesn't she",
+    "explanation": "• **Question Tag**: The main verb 'helps' is in Simple Present. The corresponding auxiliary for the tag is 'does'. Since the statement is positive, the tag must be negative: 'doesn't she?'. ❓🍴"
+  },
+  {
+    "question": "Select the most appropriate synonym of the word **'engrossing'** to fill in the blank.\nThe historical novel was quite ___________________, transporting readers to a bygone era.",
+    "options": ["involving", "rancid", "malodorous", "musty"],
+    "answer": "involving",
+    "explanation": "• **Engrossing**: Absorbing all one's attention or interest. (Synonym: Involving/Captivating). 📖✨"
+  },
+  {
+    "question": "Identify the option that contains an adverb usage error:\nTeacher Grace remarked, 'Quickly does he watch television'.",
+    "options": [
+      "watch television'.",
+      "'Quickly does he",
+      "Teacher Grace",
+      "remarked,"
+    ],
+    "answer": "'Quickly does he",
+    "explanation": "• **Adverb Placement**: Using 'Quickly' at the beginning of this sentence with an auxiliary inversion is grammatically awkward and incorrect for the intended meaning. 🚫📺\n• **Correction**: 'He watches television **frequently**' or 'He **quickly** finished his work'."
+  },
+  {
+    "question": "Select the word that best completes the given sentence (Collocation):\nVichu spent ____________ time with his wife in Goa for about three days.",
+    "options": ["wise", "brave", "costly", "quality"],
+    "answer": "quality",
+    "explanation": "• **Quality time**: A common collocation referring to time spent giving someone one's full attention to strengthen a relationship. 💑🌊"
+  },
+  {
+    "question": "Identify the INCORRECTLY spelt word in the given sentence.\n'Her aesthetic sense and meticulos attention to detail conferred an unparalleled distinction to her work.'",
+    "options": ["meticulos", "unparalleled", "aesthetic", "conferred"],
+    "answer": "meticulos",
+    "explanation": "• **Incorrect spelling**: meticulos. ❌\n• **Correct spelling**: **Meticulous**. ✅ (Meaning showing great attention to detail)."
+  },
+  {
+    "question": "Select the most appropriate option to substitute the highlighted word segment:\nNeha **is writing** a letter when I called her.",
+    "options": ["No correction", "is being written", "writes", "was writing"],
+    "answer": "was writing",
+    "explanation": "• **Tense Consistency**: The second action 'called' is in the past. Therefore, the background action should be in Past Continuous ('was writing'). ✍️📞"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given word.\n**Perplexed**",
+    "options": [
+      "Happy and relieved",
+      "Confident and sure",
+      "Confused or puzzled",
+      "Calm and relaxed"
+    ],
+    "answer": "Confused or puzzled",
+    "explanation": "• **Perplexed**: Completely baffled or very puzzled. 🧐❓"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given word.\n**Frugal**",
+    "options": [
+      "Extravagant and lavish",
+      "Careful with spending",
+      "Impulsive and reckless",
+      "Dishonest and deceitful"
+    ],
+    "answer": "Careful with spending",
+    "explanation": "• **Frugal**: Sparing or economical with regard to money or food. (Synonym: Thrifty). 💰📉"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) India has used its newly created wealth to alter a dismal record... (1)_____ its citizens...",
+    "options": ["from", "to", "among", "by"],
+    "answer": "among",
+    "explanation": "• **Among**: Used when referring to a group of more than two (the citizens). 👥"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...brought about a giant leap from 1992-93... (2)_____ that no child or woman was left behind.",
+    "options": ["avoiding", "ensuring", "suggesting", "searching"],
+    "answer": "ensuring",
+    "explanation": "• **Ensuring**: To make certain that something shall occur. ✅"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) There is also a lot of evidence to show that the (3)_____ sections of India’s children have low weight...",
+    "options": ["gifted", "deprived", "conjured", "benefitted"],
+    "answer": "deprived",
+    "explanation": "• **Deprived**: Lacking the specified benefit or standard. 'Deprived sections' refers to the poor or underprivileged. 📉"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...due to the general (4)_____ of women’s nutrition and well-being.",
+    "options": ["manage", "approve", "neglect", "accept"],
+    "answer": "neglect",
+    "explanation": "• **Neglect**: The state of being uncared for; lack of attention. 🥀"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...lead to the charting of a new policy course that makes (5)_____ to nutrition and health a right for all.",
+    "options": ["terminate", "primary", "required", "access"],
+    "answer": "access",
+    "explanation": "• **Access**: The right or opportunity to use or benefit from something. 🏥🔓"
+  }
+]
