@@ -1,0 +1,157 @@
+[
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nDid you know health is not just ________ not being sick?",
+    "options": ["but", "about", "on", "in"],
+    "answer": "about",
+    "explanation": "• **Usage**: 'About' is used here to indicate the subject or nature of health. It clarifies the definition of the concept. 🍎"
+  },
+  {
+    "question": "Identify the sentence with the INCORRECT usage of an adverb.",
+    "options": [
+      "He goes always for a run in the morning.",
+      "He usually goes for a run in the morning.",
+      "He often goes for a run in the morning.",
+      "He always goes for a run in the morning."
+    ],
+    "answer": "He goes always for a run in the morning.",
+    "explanation": "• **Adverb Placement**: Adverbs of frequency (like 'always') should come before the main verb. 🚫\n• **Correct**: 'He **always goes** for a run...'"
+  },
+  {
+    "question": "Select the sentence that contains the meaning of the word 'incorrigible'.",
+    "options": [
+      "The weather is very warm with no sign of abating.",
+      "He is a very bad liar beyond correction.",
+      "The teacher found the mid-day meal too salty to eat.",
+      "Modern technology has enabled paints to last longer."
+    ],
+    "answer": "He is a very bad liar beyond correction.",
+    "explanation": "• **Incorrigible**: (of a person or their tendencies) not able to be corrected, improved, or reformed. 'Beyond correction' matches this perfectly. 🤥"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined words.\nHe <u>has been writing most articles</u> and has given presentations on his research.",
+    "options": [
+      "was write many articles",
+      "has written several articles",
+      "will write more articles",
+      "had written few articles"
+    ],
+    "answer": "has written several articles",
+    "explanation": "• **Tense Consistency**: Since the second part of the sentence uses 'has given' (Present Perfect), the first part should also be in Present Perfect (**has written**) to describe completed actions. 📝"
+  },
+  {
+    "question": "Select the option that best defines the given word.\n**Jovial**",
+    "options": [
+      "Pensive mood",
+      "Friendly and in good mood",
+      "Angry",
+      "Very cautious"
+    ],
+    "answer": "Friendly and in good mood",
+    "explanation": "• **Jovial**: Cheerful and friendly. (Related: Jolly, Happy). 😊✨"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe literary critic's _____ analysis of postmodern novels challenged the traditional notions...",
+    "options": ["facile", "hermeneutic", "pedantic", "prosaic"],
+    "answer": "hermeneutic",
+    "explanation": "• **Hermeneutic**: Concerning interpretation, especially of the Bible or literary texts. It is the appropriate academic term for a deep literary analysis. 📚"
+  },
+  {
+    "question": "Fill in the blank with the most appropriate ANTONYM of the word in brackets.\nThe events ________ (composed) beautiful thoughts in her memory.",
+    "options": ["focused", "agitated", "rectified", "secured"],
+    "answer": "agitated",
+    "explanation": "• **Composed**: Calm and settled. 🧘‍♀️\n• **Agitated**: Feeling or appearing troubled or nervous. (Antonym). 🌪️"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Fatally", "Sternly", "Irritably", "Reluctently"],
+    "answer": "Reluctently",
+    "explanation": "• **Incorrect spelling**: Reluctently. ❌\n• **Correct spelling**: **Reluctantly**. ✅ (From the root 'reluctant')."
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the word in brackets.\nHis condition began to _______________ (Ameliorate) after the trip.",
+    "options": ["Improve", "Worsen", "Explode", "Detach"],
+    "answer": "Worsen",
+    "explanation": "• **Ameliorate**: To make something bad better. (Synonym: Improve). 📈\n• **Worsen**: To make something worse. (Antonym). 📉"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given word.\n**Resilient**",
+    "options": [
+      "Weak and fragile",
+      "Able to recover quickly",
+      "Overly sensitive",
+      "Easily distracted"
+    ],
+    "answer": "Able to recover quickly",
+    "explanation": "• **Resilient**: (of a person or animal) able to withstand or recover quickly from difficult conditions. 💪"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Spill the beans**",
+    "options": [
+      "To cook a meal",
+      "To tell people secret information",
+      "To drop something accidentally",
+      "To clean up a mess"
+    ],
+    "answer": "To tell people secret information",
+    "explanation": "• **Meaning**: To reveal a secret, usually unintentionally. 🤫🫘"
+  },
+  {
+    "question": "Select the grammatically INCORRECT sentence.",
+    "options": [
+      "I think we will meeting again before long.",
+      "The jacket will look nice on you.",
+      "I am sure you will pass the exam.",
+      "I think you will like George if you meet him."
+    ],
+    "answer": "I think we will meeting again before long.",
+    "explanation": "• **Grammar Error**: After 'will', the base form of the verb (**meet**) or 'be + -ing' (**be meeting**) must be used. 🚫\n• **Correct**: '...will meet again...'"
+  },
+  {
+    "question": "Select the word that best completes the sentence (Collocation):\nHe suffers from __________ pain in the joints.",
+    "options": ["excruciating", "awkward", "external", "quick"],
+    "answer": "excruciating",
+    "explanation": "• **Excruciating pain**: A common collocation meaning extremely painful or intense. 😖"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nShe was ______ when she pointed out the discrimination against women to her manager.",
+    "options": ["inhibited", "laconic", "reticent", "candid"],
+    "answer": "candid",
+    "explanation": "• **Candid**: Truthful and straightforward; frank. Pointing out issues directly shows a candid nature. 🗣️"
+  },
+  {
+    "question": "Select the option that rectifies the incorrectly spelt word:\nThe cat sprawled in the sun, enjoying the warm afternoon rays and the gentel breeze.",
+    "options": ["gentle", "sprewled", "breaze", "enjoyeing"],
+    "answer": "gentle",
+    "explanation": "• **Correct spelling**: **Gentle**. ✅ (Incorrect in the sentence as 'gentel')."
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Persuasion is the art of (1)_______ someone to agree with your point of view.",
+    "options": ["motivating", "captivating", "evaluating", "convincing"],
+    "answer": "convincing",
+    "explanation": "• **Definition**: Persuasion is specifically about **convincing** others. 🗣️"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) Ethos is a speaker’s way of convincing the audience that she is a (2)______ source.",
+    "options": ["confusing", "unreliable", "credible", "misleading"],
+    "answer": "credible",
+    "explanation": "• **Ethos**: Refers to the ethical appeal or the **credibility** of the speaker. 🛡️"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) Pathos is a speaker’s way of (3)_______ with an audience’s emotions.",
+    "options": ["connecting", "disparate", "distinct", "unlike"],
+    "answer": "connecting",
+    "explanation": "• **Pathos**: Refers to emotional appeal and **connecting** with how the audience feels. ❤️"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) Logos is the use of (4)_____ or information to make your argument more convincing.",
+    "options": ["evidence", "facts", "clue", "theory"],
+    "answer": "facts",
+    "explanation": "• **Logos**: Refers to logical appeal, often using **facts**, data, and reason. 📊"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...to make your (5) _______ more convincing.",
+    "options": ["argument", "hypothesis", "theory", "question"],
+    "answer": "argument",
+    "explanation": "• **Context**: In the art of persuasion, the overall case you are presenting is your **argument**. ⚖️"
+  }
+]
