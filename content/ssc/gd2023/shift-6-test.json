@@ -1,0 +1,143 @@
+[
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Gratitude**",
+    "options": ["Thanklessness", "Mercy", "Appreciation", "Care"],
+    "answer": "Thanklessness",
+    "explanation": "• **Gratitude**: The quality of being thankful. 🙏\n• **Thanklessness**: A lack of gratitude or appreciation. (Antonym). 😤"
+  },
+  {
+    "question": "Select the most appropriate homophone to fill in the blank.\nHe is a good soul. Although the _________ of his shoe is worn out, he never asks anyone to help him with money.",
+    "options": ["soil", "sole", "seal", "sold"],
+    "answer": "sole",
+    "explanation": "• **Sole**: The undersurface of a shoe. 👞\n• **Soul**: The spiritual part of a human being. (Used earlier in the sentence)."
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nDon’t sit on this bench as it <u>is just painted</u>.",
+    "options": [
+      "it had painted just",
+      "it was painted just",
+      "it had been painted just",
+      "it has just been painted"
+    ],
+    "answer": "it has just been painted",
+    "explanation": "• **Present Perfect Passive**: Used for an action that happened very recently and has a result in the present. 'It has just been painted' explains why you shouldn't sit on it now. 🎨🪑"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Anticipate", "Menipulate", "Calculate", "Instigate"],
+    "answer": "Menipulate",
+    "explanation": "• **Incorrect spelling**: Menipulate. ❌\n• **Correct spelling**: **Manipulate**. ✅ (Meaning to handle or control in a skillful manner)."
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Better the devil you know than the devil you don’t.**",
+    "options": [
+      "Do not trust unknown and known devils.",
+      "Being good is better with evil people.",
+      "Being cruel is better with known people.",
+      "It is easier to be in a known bad situation than being in an unknown worse situation."
+    ],
+    "answer": "It is easier to be in a known bad situation than being in an unknown worse situation.",
+    "explanation": "• **Meaning**: It is wiser to deal with someone or something familiar, even if they are unpleasant, than to risk a new person or thing that could be even worse. 😈"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Philosophy", "Passive", "Horrendous", "Farmaceutical"],
+    "answer": "Farmaceutical",
+    "explanation": "• **Incorrect spelling**: Farmaceutical. ❌\n• **Correct spelling**: **Pharmaceutical**. ✅ (Relating to medicinal drugs). 💊"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Will-o-the-wisp**",
+    "options": [
+      "Having a strong will",
+      "A splendid dream",
+      "Being greedy for money",
+      "An unrealistic or unattainable goal"
+    ],
+    "answer": "An unrealistic or unattainable goal",
+    "explanation": "• **Will-o-the-wisp**: Something that is impossible to catch or reach; an illusion. 🌫️✨"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nAs I review the events of my past life, I realise how________ are the influences that shape our destinies.",
+    "options": ["artless", "trumpet", "crude", "subtle"],
+    "answer": "subtle",
+    "explanation": "• **Subtle**: (Especially of a change or distinction) so delicate or precise as to be difficult to analyze or describe. Influences are often quiet and not obvious. 🕵️‍♂️"
+  },
+  {
+    "question": "Select the most appropriate option to substitute the underlined segment.\nThe monitor of the class <u>don't know</u> the answer.",
+    "options": [
+      "the class don’t knew",
+      "the class doesn’t knew",
+      "the class doesn’t know",
+      "the class didn’t knew"
+    ],
+    "answer": "the class doesn’t know",
+    "explanation": "• **Subject-Verb Agreement**: 'The monitor' is a third-person singular subject, which requires the auxiliary verb '**does not**' (doesn't) instead of 'do not'. 🚫"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe operation is to be distinguished from... the repair of openings between the ______.",
+    "options": ["auricles", "oracles", "oculus", "oracle"],
+    "answer": "auricles",
+    "explanation": "• **Auricles**: The upper chambers of the heart (also called atria). This fits the medical context of heart surgery. 🫀"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Presumable**",
+    "options": ["Reasonable", "Forgetful", "Improbable", "Credible"],
+    "answer": "Improbable",
+    "explanation": "• **Presumable**: Likely to be true; probable. 📈\n• **Improbable**: Not likely to be true or to happen. (Antonym). 📉"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Confuse**",
+    "options": ["Admit", "Compose", "Disunion", "Puzzle"],
+    "answer": "Puzzle",
+    "explanation": "• **Confuse**: To cause (someone) to become bewildered or perplexed. (Synonym: Puzzle/Baffle). 🧩"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Deficient**",
+    "options": ["Insufficient", "Sufficient", "Distinct", "Abundant"],
+    "answer": "Insufficient",
+    "explanation": "• **Deficient**: Not having enough of a specified quality or ingredient. (Synonym: Insufficient). 📉❌"
+  },
+  {
+    "question": "The sentence below is divided into four segments. Select the option that has an error of tense.\nI think India will win the 20-20 cricket match.",
+    "options": ["India will win", "the 20-20 cricket match", "No error", "I think"],
+    "answer": "No error",
+    "explanation": "• The sentence 'I think India will win the 20-20 cricket match' is grammatically correct. 🏏🇮🇳"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Scanty**",
+    "options": ["Meagre", "Abundant", "Divine", "Buoyant"],
+    "answer": "Abundant",
+    "explanation": "• **Scanty**: Small or insufficient in quantity or amount. 🤏\n• **Abundant**: Existing or available in large quantities; plentiful. (Antonym). 🌊"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) If you (1) __________ yourself with the good and righteous...",
+    "options": ["retreat", "ignore", "avoid", "surround"],
+    "answer": "surround",
+    "explanation": "• **Surround**: To be all round someone or something. Surrounding yourself with good people helps you grow. 👥"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...they can only (2) _________ you up.",
+    "options": ["replace", "tarnish", "raise", "vanish"],
+    "answer": "raise",
+    "explanation": "• **Raise**: To lift up. Good influences 'raise' you to a higher standard. ⬆️"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) If you (3) ___________ yourself with the others...",
+    "options": ["encircle", "clarify", "loath", "hide"],
+    "answer": "encircle",
+    "explanation": "• **Encircle**: To surround. It serves as a synonym for 'surround' used in the previous sentence. ⭕"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...they will (4) _______ you down into the doldrums...",
+    "options": ["foster", "elevate", "drag", "nurture"],
+    "answer": "drag",
+    "explanation": "• **Drag**: To pull along with effort. Bad influences 'drag' you down. 📉"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...but only as long as you (5)_________ it.",
+    "options": ["permit", "disregard", "overlook", "forget"],
+    "answer": "permit",
+    "explanation": "• **Permit**: To give authorization or consent to. Others can only pull you down if you 'allow' or 'permit' it. ✅"
+  }
+]
+
