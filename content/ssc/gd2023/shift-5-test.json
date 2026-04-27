@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Select the most appropriate ANTONYM of the word given in the brackets to fill in the blank.\nThe best way to motivate someone for their hard work is to __________ (criticise) them for their little accomplishments.",
+    "options": ["blame", "censure", "praise", "control"],
+    "answer": "praise",
+    "explanation": "• **Criticise**: To indicate the faults of someone or something in a disapproving way. 👎\n• **Praise**: To express warm approval or admiration. (Antonym). 👍"
+  },
+  {
+    "question": "Select the most appropriate synonym for the underlined word.\nWhen the owner stopped paying the workers, a lot of them <u>went rogue</u>.",
+    "options": ["ruffian", "reconnoitre", "reformer", "naughty"],
+    "answer": "ruffian",
+    "explanation": "• **Go rogue**: To behave erratically or out of control. In this context, it implies turning toward dishonest or violent behavior. (Synonym: ruffian/lawless). 😠"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Vacate**",
+    "options": ["Fabricate", "Depart", "Remember", "Strain"],
+    "answer": "Depart",
+    "explanation": "• **Vacate**: To leave a place that one previously occupied. (Synonym: Depart). 🚶‍♂️"
+  },
+  {
+    "question": "Identify the segment that contains a grammatical error:\nWhat does kangaroos / eat? / They are / quite strong.",
+    "options": ["quite strong", "They are", "What does kangaroos", "eat"],
+    "answer": "What does kangaroos",
+    "explanation": "• **Subject-Verb Agreement**: 'Kangaroos' is plural. The auxiliary verb should be '**do**' instead of 'does'. 🦘"
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\nI believe you are <u>impartial</u> while making decisions.",
+    "options": ["Biased", "Fair", "Good", "Offensive"],
+    "answer": "Fair",
+    "explanation": "• **Impartial**: Treating all rivals or disputants equally. (Synonym: Fair). ⚖️"
+  },
+  {
+    "question": "Select the most appropriate option to substitute the underlined segment.\nThe advocate <u>who appeared to the accused</u> was least hopeful of the case.",
+    "options": ["appeared of the accused", "appeared by the accused", "appeared for the accused", "appeared on the accused"],
+    "answer": "appeared for the accused",
+    "explanation": "• **Preposition**: Lawyers 'appear **for**' a client in a court of law. ⚖️👨‍⚖️"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThough technology has advanced, environmental problems still have a drastic_________ on mankind.",
+    "options": ["result", "purpose", "impact", "assume"],
+    "answer": "impact",
+    "explanation": "• **Impact**: A marked effect or influence. Environmental problems have an impact on life. 🌍"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blanks.\nShe was _______ for the wrong _______ of the past.",
+    "options": ["fined; deeds", "fined; duds", "find; did", "find; deeds"],
+    "answer": "fined; deeds",
+    "explanation": "• **Fined**: Punished by being made to pay money. 💸\n• **Deeds**: Actions performed intentionally. 📜"
+  },
+  {
+    "question": "Select the most appropriate meaning of the underlined idiom.\nHe is not a great leader but, he has the <u>gift of gab</u>.",
+    "options": ["gift to gamble", "gift of speaking", "gift of sleeping", "gift of a leader"],
+    "answer": "gift of speaking",
+    "explanation": "• **Gift of gab**: The ability to speak with eloquence and fluency. 🗣️✨"
+  },
+  {
+    "question": "Select the MISSPELT word.",
+    "options": ["Preference", "Avoidance", "Correction", "Toleranse"],
+    "answer": "Toleranse",
+    "explanation": "• **Incorrect spelling**: Toleranse. ❌\n• **Correct spelling**: **Tolerance**. ✅"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word.\nThe <u>causes</u> of war in the country are very pathetic.",
+    "options": ["occasions", "creations", "consequences", "factors"],
+    "answer": "consequences",
+    "explanation": "• **Causes**: Things that give rise to an action or condition. 🔍\n• **Consequences**: Results or effects of an action or condition. (Antonym). 📉"
+  },
+  {
+    "question": "Select the most appropriate idiom that can substitute the underlined segment.\nHe has got this notorious reputation of <u>teasing and making fun of people</u>.",
+    "options": ["cutting corners", "pulling someone's leg", "falling prey", "pulling oneself together"],
+    "answer": "pulling someone's leg",
+    "explanation": "• **Pulling someone's leg**: To deceive someone playfully; tease them. 😜"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Pure**",
+    "options": ["Virtuous", "Foolish", "Tainted", "Humble"],
+    "answer": "Tainted",
+    "explanation": "• **Pure**: Not mixed or adulterated with any other substance or material. ✨\n• **Tainted**: Contaminated or polluted. (Antonym). 🦠"
+  },
+  {
+    "question": "Identify the MISSPELT word in the following sentence.\nSince there are numerous topics of discusions with varying requirements...",
+    "options": ["interactive", "requirements", "disciplines", "discusions"],
+    "answer": "discusions",
+    "explanation": "• **Incorrect spelling**: discusions. ❌\n• **Correct spelling**: **discussions**. ✅"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nThis trailer gives a sneak <u>peak</u> of the magnum opus...",
+    "options": ["gives a sneak peek of the magnum opus", "give a sneak peak of the magnum opus", "gives a sneak peak on the magnum opus", "No substitution"],
+    "answer": "gives a sneak peek of the magnum opus",
+    "explanation": "• **Homonyms**: **Peek** (a quick look) is the correct word here. **Peak** refers to the top of a mountain. 🏔️👀"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Buck (1)________ over against the sled...",
+    "options": ["staggered", "pranced", "strutted", "swaggered"],
+    "answer": "staggered",
+    "explanation": "• **Staggered**: Walked or moved unsteadily, as if about to fall (due to exhaustion). 🐕‍🦺"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ..., (2)_________, sobbing for breath, helpless.",
+    "options": ["exterminated", "exhausted", "excited", "eloquent"],
+    "answer": "exhausted",
+    "explanation": "• **Exhausted**: Extremely tired; sobbing for breath. 😫"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) ...his (3)_________ foe and ripped and tore the flesh...",
+    "options": ["unresisting", "unsatiable", "undetermined", "unquenchable"],
+    "answer": "unresisting",
+    "explanation": "• **Unresisting**: Not offering resistance. Buck was too tired to fight back. ✋"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) Then Francois’ lash (4)_________, and Buck had the satisfaction...",
+    "options": ["defended", "deteriorated", "demeaned", "descended"],
+    "answer": "descended",
+    "explanation": "• **Descended**: Moved downward. The whip (lash) came down on Spitz. 📉"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...Spitz receive the worst whipping as yet (5)_________ to any of the team.",
+    "options": ["advertised", "automated", "administered", "adjugated"],
+    "answer": "administered",
+    "explanation": "• **Administered**: Given or applied (as a punishment or medical dose). 👨‍⚖️"
+  }
+]
