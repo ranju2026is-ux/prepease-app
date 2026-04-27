@@ -1,0 +1,147 @@
+[
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment. If there is no need to substitute it, select ‘No substitution required’.\nNalini <u>was not satisfy</u> with her birthday dress, but she wore it anyway.",
+    "options": [
+      "Nalini was not satisfied for her birthday dress",
+      "No substitution required",
+      "Nalini was not satisfied with her birthday dress",
+      "Nalini were not satisfied by her birthday dress"
+    ],
+    "answer": "Nalini was not satisfied with her birthday dress",
+    "explanation": "• **Passive Voice**: After the auxiliary 'was', the past participle '**satisfied**' is required. \n• **Preposition**: We are satisfied '**with**' something. 👗✅"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Abolish**",
+    "options": ["Construct", "Reverberate", "Eradicate", "Pontificate"],
+    "answer": "Construct",
+    "explanation": "• **Abolish**: Formally put an end to (a system, practice, or institution). ❌\n• **Construct**: To build or create something. (Antonym). 🏗️"
+  },
+  {
+    "question": "Select the most appropriate option to substitute the underlined segment.\nExperiences lead you towards the most fascinating <u>stage of your living</u> that you will cherish forever.",
+    "options": ["feature of your work", "set of your routine", "part of your life", "glory of your day"],
+    "answer": "part of your life",
+    "explanation": "• **Collocation**: 'Part of your life' is a natural and standard English phrase. 'Stage of your living' is awkward and non-standard. 🛤️✨"
+  },
+  {
+    "question": "Parts of the following sentence have been given as options. Select the option that contains an error.\nSam shall went to / the office tomorrow to / get back his original documents.",
+    "options": [
+      "get back his original documents",
+      "Sam shall went to",
+      "the office tomorrow to",
+      "lying with the staff"
+    ],
+    "answer": "Sam shall went to",
+    "explanation": "• **Modal Verb Rule**: After modal verbs like 'shall' or 'will', we must use the base form of the verb (**go**), not the past tense (went). 🚫\n• **Correction**: 'Sam **shall go** to...'"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**White elephant**",
+    "options": [
+      "A business company in bankruptcy",
+      "Something that costs a lot of money but has no useful purpose",
+      "Something very rare and precious",
+      "A big lie that is concealed from all"
+    ],
+    "answer": "Something that costs a lot of money but has no useful purpose",
+    "explanation": "• **White elephant**: A possession that is useless or troublesome, especially one that is expensive to maintain or difficult to dispose of. 🐘💰"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word to fill in the blank.\n**Deceive**\nMy mother said, “Don’t ________ yourself, Adi. Pay attention to your studies.”",
+    "options": ["shine", "handle", "trick", "believe"],
+    "answer": "trick",
+    "explanation": "• **Deceive/Trick**: To make someone believe something that is not true. 🎭"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Worthless**",
+    "options": ["Insult", "Productive", "Kind", "Ineffective"],
+    "answer": "Productive",
+    "explanation": "• **Worthless**: Having no real value or use. 📉\n• **Productive**: Producing or able to produce large amounts of goods, crops, or other commodities. (Contextual Antonym). 📈"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nThe captain <u>feels very proudly</u> as his team has won the match.",
+    "options": ["feel very proudly", "feels most pride", "feels much proud", "feels very proud"],
+    "answer": "feels very proud",
+    "explanation": "• **Linking Verb**: 'Feel' is a linking verb and is followed by an adjective (**proud**), not an adverb (proudly). 🏆"
+  },
+  {
+    "question": "Select the most appropriate homophone to fill in the blank.\nThere was a big hole in the wall... It took a ___________ day for them to do the job.",
+    "options": ["while", "whale", "hold", "whole"],
+    "answer": "whole",
+    "explanation": "• **Whole**: Entire or complete. 📅\n• **Hole**: An empty space in a solid object. (The sentence plays on these homophones)."
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\nThe novelist depicted the moral <u>decay</u> of the society through his novels.",
+    "options": ["Conviction", "Degeneration", "Integrity", "Indignation"],
+    "answer": "Degeneration",
+    "explanation": "• **Decay/Degeneration**: The state or process of being or becoming degenerate; decline or deterioration. 📉🏚️"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Culpable**",
+    "options": ["Absolved", "Vindicated", "Guilty", "Acquitted"],
+    "answer": "Guilty",
+    "explanation": "• **Culpable**: Deserving blame; guilty of a mistake or crime. ⛓️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Mandatory**",
+    "options": ["Imperative", "Requisite", "Unavoidable", "Optional"],
+    "answer": "Optional",
+    "explanation": "• **Mandatory**: Required by law or rules; compulsory. 🛑\n• **Optional**: Left to one's state of choice; not required. (Antonym). ✅"
+  },
+  {
+    "question": "Identify the correctly spelt sentence.",
+    "options": [
+      "Scientists are looking for alternative energy to save non-renewable resources.",
+      "Scientists are looking for alternative energy to save non-reneable resources.",
+      "Scientists are looking for allternative energy to save non-renewable resources.",
+      "Scientists are looking for alternetive energy to save non-renewable resources."
+    ],
+    "answer": "Scientists are looking for alternative energy to save non-renewable resources.",
+    "explanation": "• **Alternative** and **Non-renewable** are both spelled correctly in option 1. ⚡♻️"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Like oil and water**",
+    "options": [
+      "Two people who like each other",
+      "Two people who are different from each other",
+      "Two people who are similar to each other",
+      "Two people who like to work with each other"
+    ],
+    "answer": "Two people who are different from each other",
+    "explanation": "• **Like oil and water**: Used to describe two people or things that are very different and do not mix well together. 🧪🚫"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Constipation", "Hallucination", "Reverberation", "Ockupation"],
+    "answer": "Ockupation",
+    "explanation": "• **Incorrect spelling**: Ockupation. ❌\n• **Correct spelling**: **Occupation**. ✅"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) ...there are some positive stories of grit, (1)__________ and bravado.",
+    "options": ["persistence", "perspiration", "silence", "laxity"],
+    "answer": "persistence",
+    "explanation": "• **Persistence**: Firm or obstinate continuance in a course of action in spite of difficulty. It fits with 'grit'. 💪"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) Some businesses understood the needs of the times to make (2)________ profits.",
+    "options": ["elite", "slow", "tiny", "huge"],
+    "answer": "huge",
+    "explanation": "• Success stories during the pandemic involve businesses that made **huge** profits by adapting. 📈💸"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) Businesses diversified and (3)________ successful.",
+    "options": ["were", "are", "can", "aren’t"],
+    "answer": "were",
+    "explanation": "• **Tense**: The passage is describing past events (diversified), so the past tense '**were**' is needed. ✅"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) Although there are numerous stories of people... (4)__________ due to lockdowns.",
+    "options": ["relishing", "pushing", "emptying", "suffering"],
+    "answer": "suffering",
+    "explanation": "• Lockdowns caused many people and business owners to undergo hardship or '**suffering**'. 📉☹️"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...this small percentage of success stories is like the light at the end of the (5)___________.",
+    "options": ["kernel", "hill", "rope", "tunnel"],
+    "answer": "tunnel",
+    "explanation": "• **Light at the end of the tunnel**: An idiom meaning a sign of hope after a long, difficult period. 🚇🔦"
+  }
+]
