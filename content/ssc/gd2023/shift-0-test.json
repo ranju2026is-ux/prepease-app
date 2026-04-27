@@ -1,0 +1,127 @@
+[
+  {
+    "question": "Select the correct spelling of the underlined word from the given options to make the sentence meaningfully correct.\nI am very <u>confidant</u> of my positive result in the examination.",
+    "options": ["confiedent", "confidance", "confidence", "confident"],
+    "answer": "confident",
+    "explanation": "• **Confident**: Feeling or showing certainty about something. ✅\n• **Confidant**: A person with whom one shares a secret or private matter. 🤫"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Vaccenation", "Treasure", "Consonant", "Similar"],
+    "answer": "Vaccenation",
+    "explanation": "• **Incorrect spelling**: Vaccenation. ❌\n• **Correct spelling**: **Vaccination**. ✅\n• **Mnemonic**: Derived from 'vaccine' (double 'c', one 'i'). 💉"
+  },
+  {
+    "question": "Select the correct idiom that can substitute the italicised group of words in the given sentence.\nMy mother ensures every corner of our home is *clean and organised* before my grandmother arrives.",
+    "options": ["root and branch", "a queer fish", "a rainy day", "spick and span"],
+    "answer": "spick and span",
+    "explanation": "• **Spick and span**: Neat, clean, and well-organized. ✨🧹\n• **Root and branch**: Completely or thoroughly."
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word to fill in the blank.\nOnly one of his proposals was <u>accepted</u> in the meeting, while others were ______.",
+    "options": ["fulfilled", "rejected", "attended", "agreed"],
+    "answer": "rejected",
+    "explanation": "• **Accepted**: Consented to receive. 🟢\n• **Rejected**: Refused to agree to or use. (Antonym). 🔴"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Gratification**",
+    "options": ["Dissatisfaction", "Growth", "Blessing", "Pleasure"],
+    "answer": "Dissatisfaction",
+    "explanation": "• **Gratification**: Pleasure, especially when gained from the satisfaction of a desire. 😊\n• **Dissatisfaction**: Lack of satisfaction; displeasure. (Antonym). ☹️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Divulgence**",
+    "options": ["Revelation", "Assertion", "Repudiation", "Confirmation"],
+    "answer": "Repudiation",
+    "explanation": "• **Divulgence**: The act of making something known (disclosure). 🗣️\n• **Repudiation**: Rejection of a proposal or idea; refusal to acknowledge. (Contextual Antonym). 🙅‍♂️"
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\nThey put in their sincere efforts and were <u>lauded</u> for their endeavours.",
+    "options": ["efforts", "passivity", "fun", "drop"],
+    "answer": "efforts",
+    "explanation": "• **Endeavours**: An attempt to achieve a goal. (Synonym: Efforts). 🏃‍♂️💨\n• **Lauded**: Praised highly. 👏"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\n____________ is the scientific study of material remains like relics and monuments of past human life.",
+    "options": ["Theology", "Archaeology", "Biology", "Geology"],
+    "answer": "Archaeology",
+    "explanation": "• **Archaeology**: The study of human history through the excavation of sites and the analysis of artifacts. 🏛️⛏️"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment. If there is no need to substitute it, select ‘No substitution’.\nThe travelling gypsies wanted to display <u>they’re</u> skilful antics to the crowd.",
+    "options": ["No substitution", "there skilful antics", "dare skilful antics", "their skilful antics"],
+    "answer": "their skilful antics",
+    "explanation": "• **Their**: Possessive pronoun (belonging to them). 👥\n• **They're**: Contraction of 'they are'. ❌"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Baffle**",
+    "options": ["Enlighten", "Clear", "Comprehend", "Amaze"],
+    "answer": "Amaze",
+    "explanation": "• **Baffle**: Totally bewilder or perplex. (Synonym: Amaze/Confuse). 😵‍💫✨"
+  },
+  {
+    "question": "Identify the segment that contains a grammatical error:\nMy sister / **is come for** / a short holiday / from the US.",
+    "options": ["from the US", "a short holiday", "My sister", "is come for"],
+    "answer": "is come for",
+    "explanation": "• **Error**: 'Is come' is archaic or incorrect here. It should be in the Present Continuous or Present Perfect. 🚫\n• **Correction**: 'My sister **has come** for' or 'is **coming** for'."
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**On the fence**",
+    "options": [
+      "On very intimate terms",
+      "Undaunted by anything",
+      "Halting between two options",
+      "Under all conditions"
+    ],
+    "answer": "Halting between two options",
+    "explanation": "• **On the fence**: Undecided or unable to make a decision between two choices. 🚧🤔"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Introvert**",
+    "options": ["Forward", "Outgoing", "Bold", "Shy"],
+    "answer": "Shy",
+    "explanation": "• **Introvert**: A shy, reticent person. (Synonym: Shy). 🙊\n• **Outgoing**: Socially confident. (Antonym). 👋"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nShubhda has not finished <u>to paint</u> the window.",
+    "options": ["painting on", "painting of", "painting", "painting with"],
+    "answer": "painting",
+    "explanation": "• **Gerund**: The verb 'finish' is followed by a gerund (-ing form), not an infinitive (to...). 🎨✅"
+  },
+  {
+    "question": "Select the correct pair of homonyms to fill in the blanks.\nWhat she _______ is that he is a _______ person.",
+    "options": ["meant, mean", "grown, groaned", "mean, meant", "growing, grown"],
+    "answer": "meant, mean",
+    "explanation": "• **Meant**: Past tense of mean (intended). 💭\n• **Mean**: Unkind or spiteful. 😠"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) The necessity of urban forest is not only to control pollution but also to (1) ________ climate change.",
+    "options": ["hasten", "control", "devise", "create"],
+    "answer": "control",
+    "explanation": "• Forests help to manage or **control** the impact of climate change. 🌳🌡️"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) It (2)________ tempests as well as unforeseen drought.",
+    "options": ["collides", "confirms", "contributes", "prevents"],
+    "answer": "prevents",
+    "explanation": "• Urban forests act as a shield and **prevent** or mitigate extreme weather like storms (tempests). 🛡️🌪️"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) Off late the world is (3)_________ flash floods.",
+    "options": ["chasing", "holding", "seeing", "experiencing"],
+    "answer": "experiencing",
+    "explanation": "• When people undergo an event, they are '**experiencing**' it. 🌊🌊"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) The (4) _________ in Africa has put many countries in famine.",
+    "options": ["heat", "temperature", "fire", "drought"],
+    "answer": "drought",
+    "explanation": "• **Drought**: A prolonged period of abnormally low rainfall, which leads to famine. 🏜️🛑"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) Conferences will not provide solutions, only (5) _________ action can control these changes.",
+    "options": ["random", "rare", "one-time", "consistent"],
+    "answer": "consistent",
+    "explanation": "• **Consistent**: Regular and steady. Long-term problems require continuous, consistent effort. ⚙️📉"
+  }
+]
