@@ -1,0 +1,147 @@
+[
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Diminish**",
+    "options": ["Grow", "Empty", "Futile", "Decline"],
+    "answer": "Grow",
+    "explanation": "• **Diminish**: To make or become less. 📉\n• **Grow**: To become larger or greater over a period of time. (Antonym). 📈"
+  },
+  {
+    "question": "Select the most appropriate synonym of the capitalised word in the given sentence.\nWe paid her a **FLEETING** visit before leaving the country.",
+    "options": ["Brief", "Final", "Hasty", "Last"],
+    "answer": "Brief",
+    "explanation": "• **Fleeting**: Lasting for a very short time. (Synonym: Brief). ⏱️"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Be riding high**",
+    "options": [
+      "To be in good mood",
+      "A person who is a pilot",
+      "A drunken person",
+      "To be very successful"
+    ],
+    "answer": "To be very successful",
+    "explanation": "• **Be riding high**: To be feeling very confident and successful. 🏆✨"
+  },
+  {
+    "question": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\nVery few animals / was / as faithful as / the dog.",
+    "options": ["the dog", "as faithful as", "was", "Very few animals"],
+    "answer": "was",
+    "explanation": "• **Subject-Verb Agreement**: The subject 'Very few animals' is plural. Therefore, the verb should be '**were**' instead of 'was'. 🐕🚫"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**A vicious cycle**",
+    "options": [
+      "When one problem causes another problem",
+      "Series of fortunate events",
+      "Cyclical relationships",
+      "Victorious efforts"
+    ],
+    "answer": "When one problem causes another problem",
+    "explanation": "• **A vicious cycle**: A sequence of reciprocal cause and effect in which two or more elements intensify and aggravate each other, leading inexorably to a worsening of the situation. 🔄⚠️"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment. If there is no need to substitute it, select ‘No substitution’.\nHaving a party is a bad idea <u>because the neighbours are complain</u>.",
+    "options": [
+      "No substitution",
+      "because the neighbours will complain",
+      "because the neighbours has been complaining",
+      "because the neighbours had complained"
+    ],
+    "answer": "because the neighbours will complain",
+    "explanation": "• **Grammar**: The sentence refers to a future consequence. 'Will complain' is the correct future simple tense to use after the reason. 🗣️🏠"
+  },
+  {
+    "question": "Complete the sentence with the most appropriate synonym of the word in brackets.\nThe ________ (glowing) fireflies lit up the field like city lights at night.",
+    "options": ["devious", "dazzling", "furious", "gracious"],
+    "answer": "dazzling",
+    "explanation": "• **Dazzling**: Extremely bright, especially so as to blind the eyes temporarily. (Synonym for glowing in this context). ✨"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nHistory is not only a very vast subject ________ very intriguing.",
+    "options": ["but also", "besides", "and", "also"],
+    "answer": "but also",
+    "explanation": "• **Correlative Conjunction**: The structure 'not only' is always paired with '**but also**'. 📚✅"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Antagonist**",
+    "options": ["Evil", "Adversary", "Nerd", "Amiable"],
+    "answer": "Adversary",
+    "explanation": "• **Antagonist**: A person who actively opposes or is hostile to someone or something; an adversary. ⚔️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Cruel**",
+    "options": ["Sympathetic", "Sensible", "Unkind", "Derogatory"],
+    "answer": "Sympathetic",
+    "explanation": "• **Cruel**: Willfully causing pain or suffering to others. 🧊\n• **Sympathetic**: Feeling, showing, or expressing sympathy. (Antonym). ❤️"
+  },
+  {
+    "question": "The sentence given below has one misspelt word. Spot the INCORRECTLY spelt word and select its correct spelling.\nThere are some <u>venmous</u> snakes which spit and hiss when they are cornered.",
+    "options": ["Venomous", "Wenomos", "Wenomous", "Venomos"],
+    "answer": "Venomous",
+    "explanation": "• **Correct spelling**: **Venomous**. ✅ (Containing or secreting venom). 🐍"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nHe used to ___________ letters to his parents from Bangalore.",
+    "options": ["wright", "rite", "write", "right"],
+    "answer": "write",
+    "explanation": "• **Write**: To mark letters, words, or other symbols on a surface with a pen or pencil. ✍️📄\n• **Wright/Rite/Right**: Homophones with different meanings."
+  },
+  {
+    "question": "Identify the correctly spelt sentence.",
+    "options": [
+      "Egypt is famous for its pyramid.",
+      "Egypt is famous for its piramid.",
+      "Egypt is famous for its peryamid.",
+      "Egypt is famous for its peramid."
+    ],
+    "answer": "Egypt is famous for its pyramid.",
+    "explanation": "• **Correct spelling**: **Pyramid**. ✅ 🇪🇬"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment. If there is no need to substitute it, select ‘No substitution required’.\nRising prices are <u>causing great concern on Indian economists</u> at the present moment.",
+    "options": [
+      "are causing a great concern to Indian economists",
+      "are causing great concern to Indian economists",
+      "No substitution required",
+      "are causing a great concern for Indian economists"
+    ],
+    "answer": "are causing great concern to Indian economists",
+    "explanation": "• **Preposition**: The standard idiomatic expression is 'causing concern **to**' someone. 'Great concern' is used as an uncountable noun here, so no article 'a' is needed. 📉"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the word given in the bracket to fill in the blank.\nShe looks like a young Sigourney Weaver and plays the (naïve) ___________heroine well.",
+    "options": ["childish", "sophisticated", "tricked", "careless"],
+    "answer": "sophisticated",
+    "explanation": "• **Naïve**: Showing a lack of experience, wisdom, or judgment. 🐣\n• **Sophisticated**: Having a great deal of worldly experience and knowledge of fashion and culture. (Antonym). 🍷"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) A puzzle is a game, challenge, or toy that (1)________ one’s inventiveness or knowledge.",
+    "options": ["enjoys", "elicits", "invokes", "tests"],
+    "answer": "tests",
+    "explanation": "• Puzzles are designed to check or **test** how smart or creative someone is. 🧩"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) The solver... is supposed to (2)___________ parts together logically.",
+    "options": ["manifest", "disintegrate", "fit", "paste"],
+    "answer": "fit",
+    "explanation": "• To solve a puzzle, you must join or '**fit**' the pieces together. 🛠️"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) Crossword puzzles... are examples of puzzle (3)________.",
+    "options": ["species", "genres", "attachment", "aggregates"],
+    "answer": "genres",
+    "explanation": "• **Genres**: A style or category of art, music, or literature. Here it refers to categories of puzzles. 🗂️"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) Puzzles... may also result from (4)_________ mathematical or logical challenges.",
+    "options": ["servile", "subsidiary", "significant", "subordinate"],
+    "answer": "significant",
+    "explanation": "• **Significant**: Great or important to be worthy of attention. 📐"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...its answer might make an important (5)_________ to mathematical research.",
+    "options": ["deviation", "annexation", "inspection", "addition"],
+    "answer": "addition",
+    "explanation": "• **Addition**: A person or thing added to something else. Solving complex logical puzzles adds value to research. ➕📝"
+  }
+]
