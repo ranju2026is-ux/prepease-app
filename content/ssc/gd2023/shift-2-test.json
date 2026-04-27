@@ -1,0 +1,127 @@
+[
+  {
+    "question": "Select the correctly spelt word.",
+    "options": ["Entrepreneur", "Entreprineyour", "Enterpreneur", "Entripreiniur"],
+    "answer": "Entrepreneur",
+    "explanation": "• **Entrepreneur**: A person who sets up a business or businesses, taking on financial risks in the hope of profit. ✅"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment in the given sentence.\nThe marksheets of many students have been <u>withheld</u> by the university.",
+    "options": ["kept back", "gone through", "handed out", "given away"],
+    "answer": "kept back",
+    "explanation": "• **Withheld**: To refuse to give (something that is due to or desired by another). (Synonym: Kept back). ✋📜"
+  },
+  {
+    "question": "Parts of the following sentence have been given as options. One of them may contain an error. Select the part that contains the error.\nHow foolish I was to have believe that young woman!",
+    "options": ["to have believe", "No error", "How foolish I was", "that young woman"],
+    "answer": "to have believe",
+    "explanation": "• **Error**: The perfect infinitive structure is 'to have + past participle'. 🚫\n• **Correction**: It should be 'to have **believed**'."
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word in the given sentence.\nShe is found to pass <u>derogatory</u> remarks to others.",
+    "options": ["cunning", "appreciative", "critical", "sarcastic"],
+    "answer": "appreciative",
+    "explanation": "• **Derogatory**: Showing a critical or disrespectful attitude. 👎\n• **Appreciative**: Feeling or showing gratitude or pleasure. (Antonym). 👍"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Hapily", "Quickly", "Bravely", "Slowly"],
+    "answer": "Hapily",
+    "explanation": "• **Incorrect spelling**: Hapily. ❌\n• **Correct spelling**: **Happily**. ✅ (Double 'p')."
+  },
+  {
+    "question": "Select the most appropriate synonym of the word given in brackets to fill in the blank.\nSome women have reached the________(peak) in their profession.",
+    "options": ["zenith", "finale", "sky", "crossroads"],
+    "answer": "zenith",
+    "explanation": "• **Zenith**: The time at which something is most powerful or successful. (Synonym for peak). 🏔️🔝"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Smart**",
+    "options": ["Elegant", "Shabby", "Speedy", "Leisurely"],
+    "answer": "Shabby",
+    "explanation": "• **Smart**: Clean, tidy, and well-dressed. ✨\n• **Shabby**: In poor condition through long or hard use or lack of care. (Antonym). 🏚️"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment. If there is no need to substitute it, select ‘No substitution’.\nYou cannot walk <u>throughout deserts by bare feet</u> or they’ll get burned.",
+    "options": ["through deserts on", "through deserts by", "No substitution", "though deserts on"],
+    "answer": "through deserts on",
+    "explanation": "• **Usage**: We walk 'through' a desert and 'on' bare feet. 👣🌵"
+  },
+  {
+    "question": "Select the most appropriate meaning of the underlined idiom in the given sentence.\n<u>An ox on their tongue</u> was the only way officers would have allowed him to carry on the unlawful activities.",
+    "options": ["Bribed to remain silent", "Being frank", "Telling lies", "Getting no appreciation"],
+    "answer": "Bribed to remain silent",
+    "explanation": "• **An ox on one's tongue**: An old idiom meaning to be bribed to stay silent or being unable to speak because of a bribe. 🤐💰"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Hypocrisy**",
+    "options": ["Trickery", "Honesty", "Inaccuracy", "Sincerity"],
+    "answer": "Trickery",
+    "explanation": "• **Hypocrisy**: The practice of claiming to have higher standards or more noble beliefs than is the case. (Contextual synonym: Trickery/Deceit). 🎭"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Flexible**",
+    "options": ["Obstinate", "Snobbish", "Hysterical", "Staunch"],
+    "answer": "Obstinate",
+    "explanation": "• **Flexible**: Ready and able to change or adapt. 🤸\n• **Obstinate**: Stubbornly refusing to change one's opinion or chosen course of action. (Antonym). 🗿"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Obliterate**",
+    "options": ["Erase", "Assist", "Construct", "Create"],
+    "answer": "Erase",
+    "explanation": "• **Obliterate**: Destroy utterly; wipe out. (Synonym: Erase). 🧽"
+  },
+  {
+    "question": "Select the most appropriate option to substitute the underlined segment.\nHis wife has a bad <u>habit for accusing him for</u> others’ mistakes too.",
+    "options": ["habit of accusing him", "habit at accusing him", "habit on accusing him", "habit in accusing him"],
+    "answer": "habit of accusing him",
+    "explanation": "• **Preposition**: The correct noun phrase is 'habit **of** [doing something]'. 🗣️"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Up a creek without a paddle**",
+    "options": [
+      "In an unfinished mission",
+      "In a partially complete construction work",
+      "In a satisfied and calm atmosphere",
+      "In a troublesome and serious situation"
+    ],
+    "answer": "In a troublesome and serious situation",
+    "explanation": "• **Up a creek without a paddle**: To be in a difficult situation without the means to get out of it. 🛶⚠️"
+  },
+  {
+    "question": "Select the most appropriate synonym of the word given in brackets to fill in the blank.\nI suppose it is a ________ (fair) solution to the problem at hand.",
+    "options": ["pale", "reasonable", "bright", "exhibition"],
+    "answer": "reasonable",
+    "explanation": "• **Fair**: In accordance with the rules or standards; legitimate. (Synonym: Reasonable). ⚖️"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Road rage is a common (1)__________ in most parts of the world.",
+    "options": ["dominion", "structure", "phenomenon", "pavilion"],
+    "answer": "phenomenon",
+    "explanation": "• **Phenomenon**: A fact or situation that is observed to exist or happen. 🚦"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...drivers involved just stay stationed (2)_______ the police arrive...",
+    "options": ["besides", "for", "along", "till"],
+    "answer": "till",
+    "explanation": "• **Till**: Up to the point in time or the event mentioned. 👮‍♂️⏱️"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) There have been instances where people (3)_________ killed due to road rage...",
+    "options": ["were", "where", "would", "are"],
+    "answer": "are",
+    "explanation": "• **Tense**: The passage describes a general fact/current reality using 'have been', so the present tense 'are' is used for the general consequence. 📉"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) Although the insurance companies are doing their best to (4)__________ for the losses...",
+    "options": ["compensate", "infiltrate", "compete", "hesitate"],
+    "answer": "compensate",
+    "explanation": "• **Compensate**: Give (someone) something, typically money, in recognition of loss, suffering, or injury. 💸"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...the number of instances of road rage continues to (5)__________.",
+    "options": ["oscillate", "weaken", "ruminate", "escalate"],
+    "answer": "escalate",
+    "explanation": "• **Escalate**: Increase rapidly; become more intense or serious. 📈🔥"
+  }
+]
