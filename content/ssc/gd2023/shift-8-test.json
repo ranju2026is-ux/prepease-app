@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Select the most appropriate synonym of the word given in brackets to fill in the blank.\nTheir relationship is quite __________ (cordial).",
+    "options": ["hostile", "formal", "warm", "artful"],
+    "answer": "warm",
+    "explanation": "• **Cordial**: Warm and friendly. 🤝\n• **Hostile**: Unfriendly or antagonistic. (Antonym)."
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Progressive**",
+    "options": ["Conservative", "Scanty", "Repeated", "Moving"],
+    "answer": "Conservative",
+    "explanation": "• **Progressive**: Favoring or implementing social reform or new, liberal ideas. 🚀\n• **Conservative**: Averse to change or innovation and holding traditional values. (Antonym). 🏛️"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Scared**",
+    "options": ["Reassured", "Calm", "Confident", "Frightened"],
+    "answer": "Frightened",
+    "explanation": "• **Scared**: Fearful; frightened. 😨\n• **Calm/Confident**: Not showing or feeling nervousness or fear. (Antonyms)."
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Frankness**",
+    "options": ["Transparency", "Deception", "Openness", "Strangeness"],
+    "answer": "Deception",
+    "explanation": "• **Frankness**: The quality of being open, honest, and direct in speech or writing. 🗣️✨\n• **Deception**: The action of deceiving someone; dishonesty. (Antonym). 🎭"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Pour out one’s heart**",
+    "options": ["To challenge", "To create a record", "To ask for something", "To express openly"],
+    "answer": "To express openly",
+    "explanation": "• **Pour out one's heart**: To share one's deepest feelings or secrets with someone else. ❤️💬"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**A chip on one’s shoulder**",
+    "options": [
+      "An attitude that leads one to become easily angered",
+      "Being appreciated",
+      "Huge achievement",
+      "Injured shoulder"
+    ],
+    "answer": "An attitude that leads one to become easily angered",
+    "explanation": "• **A chip on one's shoulder**: A tendency to be easily insulted or to always be looking for a fight, usually because of a past grievance. 😡"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nThe manager’s behaviour was the <u>quintessence</u> of professionalism.",
+    "options": ["insignificant appearance", "apparent display", "perfect example", "volatile aspect"],
+    "answer": "perfect example",
+    "explanation": "• **Quintessence**: The most perfect or typical example of a quality or class. 🌟"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Electrician", "Artisen", "Technician", "Plumber"],
+    "answer": "Artisen",
+    "explanation": "• **Incorrect spelling**: Artisen. ❌\n• **Correct spelling**: **Artisan**. ✅ (A worker in a skilled trade, especially one that involves making things by hand)."
+  },
+  {
+    "question": "Select the most appropriate homonym of the given word.\n**Flea**",
+    "options": ["Flee", "Fleece", "Flew", "Fly"],
+    "answer": "Flee",
+    "explanation": "• **Flea**: A small wingless jumping insect. 🐜\n• **Flee**: Run away from a place or situation of danger. (Homonym). 🏃‍♂️💨"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Candid**",
+    "options": ["Honest", "Blunt", "Tactful", "Simple"],
+    "answer": "Tactful",
+    "explanation": "• **Candid**: Truthful and straightforward; frank. (Sometimes to the point of being blunt). 🗣️\n• **Tactful**: Showing adroitness and sensitivity in dealing with others or with difficult issues. (Antonym in terms of social approach). 🤫"
+  },
+  {
+    "question": "Select the most appropriate word segment for the underlined word.\nThe wooden miniature that was being shown <u>as the show stopper in the exhibition</u> appealed to my father.",
+    "options": ["on advertisement", "on activity", "on display", "on arrangement"],
+    "answer": "on display",
+    "explanation": "• **On display**: Shown in a public place for people to look at. 🖼️"
+  },
+  {
+    "question": "Parts of the following sentence have been given as options. One of them may contain an error. Select the part that contains the error.\nAn old man sit down and read his book on his lush green lawn.",
+    "options": [
+      "An old man sit down",
+      "and read his book",
+      "on his lush green lawn",
+      "No error"
+    ],
+    "answer": "An old man sit down",
+    "explanation": "• **Error**: Subject-verb agreement or tense. 🚫\n• **Correction**: It should be '**sat** down' (past tense) or '**sits** down' (present tense, though less likely for this narrative context)."
+  },
+  {
+    "question": "Parts of the given sentence have been given as options. One of them contains a spelling error. Select the option that rectifies the error.\nParticipating in <u>intrnships</u> is a great way...",
+    "options": ["takeng", "internships", "particepating", "indastry"],
+    "answer": "internships",
+    "explanation": "• **Correct spelling**: **Internships**. ✅ (Incorrectly spelled as 'intrnships' in the original sentence)."
+  },
+  {
+    "question": "In the following passage, some words have been deleted. Read the passage carefully and select the most appropriate option to fill in the blanks.\nWe all get goose bumps which are a reflex reaction by a human (1)_____ to a sudden drop in temperatures... They are also (2)______ by itty-bitty muscles in our hair follicles.",
+    "options": ["figure; generated", "shape; constructed", "form; fabricated", "body; created"],
+    "answer": "body; created",
+    "explanation": "• **Human body**: The standard term for the physical structure of a human. 👤\n• **Created**: In this context, it describes the physical formation of goosebumps by muscles. 🧬"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Bliss**",
+    "options": ["Pain", "Bane", "Joy", "Educated"],
+    "answer": "Joy",
+    "explanation": "• **Bliss**: Perfect happiness; great joy. (Synonym: Joy). ✨😊"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Everybody (1)_____ of age, shape, size and ability needs to become more active.",
+    "options": ["regardless", "no matter", "senseless", "careless"],
+    "answer": "regardless",
+    "explanation": "• **Regardless of**: Without being affected by any of the factors mentioned. 🌍"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) Did you know that an active life is (2)_____ for physical and mental health...?",
+    "options": ["essential", "primary", "organic", "particular"],
+    "answer": "essential",
+    "explanation": "• **Essential**: Absolutely necessary; extremely important. Physical activity is vital for health. ✅"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) Regular physical activity can help (3)______ our risk of cancer...",
+    "options": ["change", "decrease", "increase", "interpolate"],
+    "answer": "decrease",
+    "explanation": "• **Decrease**: To make smaller or fewer in size, amount, intensity, or degree. Activity lowers health risks. 📉"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) Being active at every age (4)______ the quality of life...",
+    "options": ["manages", "grows", "increases", "decreases"],
+    "answer": "increases",
+    "explanation": "• **Increases**: Makes something greater in amount, intensity, or degree. Activity improves life quality. 📈✨"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...and everyone’s chances of remaining healthy and (5)_________.",
+    "options": ["automatic", "adamant", "independent", "awake"],
+    "answer": "independent",
+    "explanation": "• **Independent**: Not depending on another for livelihood or aid. Health allows seniors to remain self-sufficient. 🚶‍♂️"
+  }
+]
