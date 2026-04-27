@@ -1,0 +1,137 @@
+[
+  {
+    "question": "Parts of the following sentence have been underlined and given as options. Select the option that contains an error.\nWe all know that sugar and honey tastes very sweet.",
+    "options": ["sweet", "know", "tastes", "all"],
+    "answer": "tastes",
+    "explanation": "• **Subject-Verb Agreement**: The subject 'sugar and honey' is compound (plural). Therefore, the verb should be '**taste**' without the 's'. 🍯🧂"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank as synonym for the underlined word.\nThe most <u>arrogant</u> employee in his company was sacked by the boss. No one could tolerate his __________ nature.",
+    "options": ["pricey", "plain", "dicey", "haughty"],
+    "answer": "haughty",
+    "explanation": "• **Arrogant/Haughty**: Having or showing an attitude of superiority and contempt for others. (Synonyms). 🤨"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Venerate", "Viceregal", "Retinal", "Dalmation"],
+    "answer": "Dalmation",
+    "explanation": "• **Incorrect spelling**: Dalmation. ❌\n• **Correct spelling**: **Dalmatian**. ✅ (Refers to the breed of dog with black spots). 🐶"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Revive**",
+    "options": ["Revolve", "Rejuvenate", "Destroy", "Incline"],
+    "answer": "Destroy",
+    "explanation": "• **Revive**: To restore to life or consciousness. 🧬\n• **Destroy**: To end the existence of something by damaging or attacking it. (Antonym). 💥"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment. If there is no need to substitute it, select ‘No substitution required’.\nNithi was not feeling well, <u>yet she decide to go</u> to work.",
+    "options": [
+      "No substitution required",
+      "yet she decided to go to work",
+      "or she decided to go for work",
+      "yet she have decided to go to work"
+    ],
+    "answer": "yet she decided to go to work",
+    "explanation": "• **Tense Consistency**: Since the first part ('was not feeling') is in the past, the second action should also be in the past tense (**decided**). 💼"
+  },
+  {
+    "question": "Substitute the underlined word segment with the most appropriate idiom.\nThey had to cancel their trip <u>at the last minute</u> due to bad weather.",
+    "options": [
+      "at sixes and sevens",
+      "at somebody’s beck and call",
+      "at a stone’s throw",
+      "at the eleventh hour"
+    ],
+    "answer": "at the eleventh hour",
+    "explanation": "• **At the eleventh hour**: An idiom meaning at the latest possible moment. ⏰"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Secure**",
+    "options": ["Secret", "Independent", "Safe", "Comfortable"],
+    "answer": "Safe",
+    "explanation": "• **Secure**: Protected from or not exposed to danger. (Synonym: Safe). 🔒✅"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment in the given sentence.\nThe door <u>which connecting</u> the two offices is kept locked.",
+    "options": ["connects", "does connecting", "can connecting", "has connecting"],
+    "answer": "connects",
+    "explanation": "• **Grammar**: The sentence needs a finite verb to describe a general fact. 'The door which **connects**...' is the correct present simple structure. 🚪"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nAfter a long journey I was looking forward <u>to sleep on</u> a comfortable bed.",
+    "options": ["sleeping in a", "sleep into a", "sleeps on a", "sleep over a"],
+    "answer": "sleeping in a",
+    "explanation": "• **Phrasal Verb**: The phrase 'look forward to' is followed by a gerund (**-ing form**). 😴🛏️"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Objective**",
+    "options": ["Subjective", "Purpose", "Tyrannical", "Heartfelt"],
+    "answer": "Purpose",
+    "explanation": "• **Objective**: A thing aimed at or sought; a goal. (Synonym: Purpose). 🎯"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nSoumyashree, while talking on the topic, could not _________ the interview board.",
+    "options": ["impress", "conceive", "stabilise", "permeate"],
+    "answer": "impress",
+    "explanation": "• **Impress**: To make someone feel admiration and respect. This is the goal of a candidate before an interview board. 🤝✨"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Esteem**",
+    "options": ["Notice", "Value", "Regret", "Condemn"],
+    "answer": "Condemn",
+    "explanation": "• **Esteem**: Respect and admiration. 🎖️\n• **Condemn**: Express complete disapproval of. (Antonym). 🚫"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Get a second wind**",
+    "options": [
+      "Have less energy and be extremely tired",
+      "Having less energy after resting",
+      "Have two different choices",
+      "Have renewed energy after having been tired"
+    ],
+    "answer": "Have renewed energy after having been tired",
+    "explanation": "• **Get a second wind**: To find a new source of energy or strength to continue an effort. 💨💪"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the word given in brackets to fill in the blank.\nThe keeper had no intention to________ (attend) the goal, but the ball was hit too hard...",
+    "options": ["believe", "bring", "blow", "miss"],
+    "answer": "miss",
+    "explanation": "• **Attend**: In sports context, to pay attention to or deal with. ⚽\n• **Miss**: To fail to catch, hit, or reach. (Antonym). 🥅"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word to fill in the blank.\n**Elaborate**\nA/an _________ water clock depicting zodiac signs is present in the city museum.",
+    "options": ["beautiful", "resonant", "divulging", "intricate"],
+    "answer": "intricate",
+    "explanation": "• **Elaborate/Intricate**: Very detailed or complicated in design. ⚙️🎨"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) People who hitchhike talk about (1)__________ experiences...",
+    "options": ["worried", "varied", "conversant", "emptied"],
+    "answer": "varied",
+    "explanation": "• **Varied**: Incorporating a number of different types or elements. Hitchhikers meet many different types of people. 🚗"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) While there are (2)_________ bitter experiences, most of the trips are pleasant.",
+    "options": ["such", "much", "lot", "few"],
+    "answer": "few",
+    "explanation": "• **Contrast**: The word 'While' and 'most... are pleasant' implies that negative experiences are small in number (**few**). 📉"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) What comes out as a common point... (3)__________ the goodness that most drivers exhibit.",
+    "options": ["are", "am", "is", "on"],
+    "answer": "is",
+    "explanation": "• **Subject-Verb Agreement**: The subject 'What comes out...' is a singular clause, requiring the singular verb '**is**'. ✅"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) The (4)__________ rendered by them not just in giving them a ride but in sponsoring food...",
+    "options": ["brevity", "stringency", "hospitality", "conformity"],
+    "answer": "hospitality",
+    "explanation": "• **Hospitality**: The friendly and generous reception and entertainment of guests or strangers. 🤝🥘"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) Faith in humanity and (5)__________ wins in the bargain.",
+    "options": ["consciousness", "humaneness", "frailty", "animosity"],
+    "answer": "humaneness",
+    "explanation": "• **Humaneness**: Compassion or benevolence. It pairs naturally with 'faith in humanity'. ❤️"
+  }
+]
