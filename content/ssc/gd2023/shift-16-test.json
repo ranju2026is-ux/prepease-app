@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment in the given sentence.\nThe library is the right place <u>to write an article from</u> a journal.",
+    "options": [
+      "to fill an article",
+      "to correct an article",
+      "to read an article",
+      "to find the article"
+    ],
+    "answer": "to read an article",
+    "explanation": "• **Context**: While libraries are places for many activities, journals are typically referenced to gain information. 'To read an article' is the most logically appropriate substitution for the function of a journal in a library. 📖"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Swindle**",
+    "options": ["Threat", "Fraud", "Observation", "Ride"],
+    "answer": "Fraud",
+    "explanation": "• **Swindle**: A fraudulent scheme or action; to use deception to deprive someone of money or possessions. (Synonym: Fraud). 💸🎭"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**A cakewalk**",
+    "options": [
+      "An unexpected twist",
+      "A stylish walk",
+      "An easy task or victory",
+      "A precious memory to cherish"
+    ],
+    "answer": "An easy task or victory",
+    "explanation": "• **A cakewalk**: An idiom used to describe something that is very easy to accomplish. 🍰🚶‍♂️"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nWhen the separatist tendencies become very active, the unity of any nation can be in __________.",
+    "options": ["solitaire", "docile", "negotiation", "peril"],
+    "answer": "peril",
+    "explanation": "• **Peril**: Serious and immediate danger. Separatist movements put national unity at risk or in peril. ⚠️"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Calamity**",
+    "options": ["Fortune", "Disaster", "Windfall", "Prosperity"],
+    "answer": "Disaster",
+    "explanation": "• **Calamity**: An event causing great and often sudden damage or distress; a disaster. (Synonym: Disaster). 🌪️"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nThe treaty was signed by both the parties to retain the <u>status-quo</u>.",
+    "options": [
+      "previous condition",
+      "unnatural behaviour",
+      "current situation",
+      "class of societies"
+    ],
+    "answer": "current situation",
+    "explanation": "• **Status-quo**: The existing state of affairs, especially regarding social or political issues. (Synonym: Current situation). ⚖️"
+  },
+  {
+    "question": "Select the most appropriate synonym of the word given in the bracket.\nRohan ________ (insufficient) the compassion required to be a doctor.",
+    "options": ["oversized", "lacked", "was deprived", "voided"],
+    "answer": "lacked",
+    "explanation": "• **Lacked**: To be without or deficient in. It is the verb form representing the state of being 'insufficient' in something. 🩺"
+  },
+  {
+    "question": "Select the correct spelling of the underlined word.\nYou can eat anything you like <u>accept</u> the rice pudding.",
+    "options": ["axcept", "accede", "except", "assess"],
+    "answer": "except",
+    "explanation": "• **Homonyms**: **Accept** means to receive. **Except** means not including; other than. The sentence requires the latter. ✅"
+  },
+  {
+    "question": "Identify the spelling error in the given sentence and select the option that rectifies it.\nHe dared to **compeete** against the experienced boxer.",
+    "options": ["compete", "ageinst", "experianced", "deired"],
+    "answer": "compete",
+    "explanation": "• **Correct spelling**: **Compete**. ✅ (Incorrectly spelled as 'compeete'). 🥊"
+  },
+  {
+    "question": "Identify the segment that contains a grammatical error.\nLast night I played my guitar loudly and the neighbours complain.",
+    "options": [
+      "Last night I played",
+      "and the neighbours complain",
+      "No error",
+      "my guitar loudly"
+    ],
+    "answer": "and the neighbours complain",
+    "explanation": "• **Tense Consistency**: The first part of the sentence is in the past tense ('played'). The second part should also be in the past tense: '**complained**'. 🎸🚫"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Has bigger fish to fry**",
+    "options": [
+      "Has better choice of food",
+      "Has easier plans to solve the issue",
+      "Has more important work to do",
+      "Has greater plans to discuss"
+    ],
+    "answer": "Has more important work to do",
+    "explanation": "• **Has bigger fish to fry**: To have more important or more interesting things to do or attend to. 🐟🔥"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Escalate**",
+    "options": ["Corrupt", "Intensify", "Diminish", "Enlarge"],
+    "answer": "Diminish",
+    "explanation": "• **Escalate**: To increase rapidly; to become more intense. 📈\n• **Diminish**: To make or become less. (Antonym). 📉"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Follow**",
+    "options": ["Ensue", "Predate", "Supplant", "Displace"],
+    "answer": "Predate",
+    "explanation": "• **Follow**: To come after in time or order. 🕒\n• **Predate**: To exist or occur at a date earlier than something else. (Antonym). 🕰️"
+  },
+  {
+    "question": "Select the correct word for the blanks in the given sentence.\nI need a blue _________ for writing and my brother runs a _________ for dogs.",
+    "options": ["shelter", "nib", "pen", "herd"],
+    "answer": "pen",
+    "explanation": "• **Homonyms/Polysemy**: A **pen** is an instrument for writing, and also an enclosure for animals (like dogs). 🖋️🐕"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blanks.\nShelley is good at ______ and also has a new ______ of the Oxford dictionary.",
+    "options": [
+      "edition; addition",
+      "addition; addition",
+      "addition; edition",
+      "edition; edition"
+    ],
+    "answer": "addition",
+    "explanation": "• **Addition**: The process of adding (mathematics). ➕\n• **Edition**: A particular form or version of a published text. 📚"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Looking at the stars is a glimpse (1) _________ history.",
+    "options": ["among", "besides", "up", "of"],
+    "answer": "of",
+    "explanation": "• **Preposition**: We have a 'glimpse **of**' something. 🌌"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) Some of the things we see (2)_________ millions of light-years...",
+    "options": ["flush", "separate", "grow", "are"],
+    "answer": "are",
+    "explanation": "• **State of Being**: 'The things... **are** millions of light-years [away]'. 🔭"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) Some of the things we see are millions of light-years (3) ________.",
+    "options": ["now", "away", "between", "close"],
+    "answer": "away",
+    "explanation": "• **Distance**: Light-years measure distance, so we use '**away**' to denote how far the stars are. 📏"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) Everything in the universe (4) ________ a past...",
+    "options": ["have", "should", "has", "can"],
+    "answer": "has",
+    "explanation": "• **Subject-Verb Agreement**: 'Everything' is a singular indefinite pronoun, requiring the singular verb '**has**'. ✨"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) They just (5) _________ shining, for everyone to see.",
+    "options": ["blight", "part", "force", "keep"],
+    "answer": "keep",
+    "explanation": "• **Continuity**: Stars '**keep** shining' (continue to shine) regardless of their history. 🌟"
+  }
+]
