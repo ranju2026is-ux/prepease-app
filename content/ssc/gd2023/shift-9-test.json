@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Dismal**",
+    "options": ["Frantic", "Candid", "Horrible", "Intelligent"],
+    "answer": "Candid",
+    "explanation": "• **Dismal**: Gloomy, cheerless, or lacking merit. ☁️\n• **Candid**: Truthful and straightforward; frank. In various competitive exam keys for this specific set, 'Candid' is often selected as the least related or contextual opposite, though 'Cheerful' would be a more direct antonym. 🗣️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word to fill in the blank.\nThe people of that remote island, who were considered <u>savage</u> by many were actually _______ islanders.",
+    "options": ["efficient", "civilised", "mobilised", "organised"],
+    "answer": "civilised",
+    "explanation": "• **Savage**: Fierce, violent, and uncontrolled. 👹\n• **Civilised**: Having a high state of culture and social development. (Antonym). 🏛️"
+  },
+  {
+    "question": "Select the most appropriate synonym for the underlined word in the given sentence.\nThose unwilling to <u>capitulate</u> to the new Chancellor’s demands will be ruthlessly fired.",
+    "options": ["believe", "listen", "torture", "surrender"],
+    "answer": "surrender",
+    "explanation": "• **Capitulate**: Cease to resist an opponent or an unwelcome demand; yield. (Synonym: Surrender). 🏳️"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Frantic**",
+    "options": ["Violent", "Gentle", "Lazy", "Loyal"],
+    "answer": "Violent",
+    "explanation": "• **Frantic**: Wild or distraught with fear, anxiety, or other emotion. (Contextual Synonym: Violent/Wild). 😰"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Silent**",
+    "options": ["Utterable", "Noisy", "Mum", "Mute"],
+    "answer": "Noisy",
+    "explanation": "• **Silent**: Making or accompanied by no sound. 🤫\n• **Noisy**: Making or given to making a lot of noise. (Antonym). 📢"
+  },
+  {
+    "question": "A part of the given sentence which has been underlined may contain a spelling error. Select the option that correctly rectifies the error.\nThe doctor prescribed to put the patient in <u>quarrantine</u> for a few days.",
+    "options": ["Qurantine", "Quaranntine", "Quarantine", "No error"],
+    "answer": "Quarantine",
+    "explanation": "• **Correct spelling**: **Quarantine**. ✅ (Note the single 'r' and 'a' before 'n'). 🏥"
+  },
+  {
+    "question": "Select the option that contains a grammatical error in the underlined portion.\n<u>I had take</u> a vow of celibacy which was a part of my training while I was in the temple.",
+    "options": [
+      "I had take a vow",
+      "of celibacy which was",
+      "a part of my training",
+      "while I was in the temple"
+    ],
+    "answer": "I had take a vow",
+    "explanation": "• **Grammar**: After the auxiliary 'had' (Past Perfect), the past participle form of the verb is required. 🚫\n• **Correction**: It should be 'I had **taken** a vow'."
+  },
+  {
+    "question": "Select the most appropriate meaning of the underlined idiom in the given sentence.\nHe had to <u>bite the bullet</u> when the doctor told him that his injured foot had to be amputated.",
+    "options": [
+      "Refuse to do something",
+      "Expedite the procedure",
+      "Commit suicide",
+      "To accept a difficult or unpleasant situation"
+    ],
+    "answer": "To accept a difficult or unpleasant situation",
+    "explanation": "• **Bite the bullet**: To endure a painful or otherwise unpleasant situation that is seen as unavoidable. 🍬😬"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Fantastic", "Mirror", "Secretly", "Alaign"],
+    "answer": "Alaign",
+    "explanation": "• **Incorrect spelling**: Alaign. ❌\n• **Correct spelling**: **Align**. ✅ (Meaning to place or arrange in a straight line)."
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nI was looking forward to a ________ evening at home.",
+    "options": ["quit", "quiet", "quite", "quote"],
+    "answer": "quiet",
+    "explanation": "• **Quiet**: Making little or no noise. 🤫\n• **Quite**: To a certain or significant extent. \n• **Quit**: To leave or stop."
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**A slap on the wrist**",
+    "options": ["A wrist watch", "A secret alliance", "A tiny gift", "A small punishment"],
+    "answer": "A small punishment",
+    "explanation": "• **A slap on the wrist**: A warning or a very mild punishment for a mistake or crime. 🤏"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe audience was asked to dress ____________, since it was a formal occasion.",
+    "options": ["informally", "appropriately", "gaudily", "casually"],
+    "answer": "appropriately",
+    "explanation": "• **Appropriately**: In a manner that is suitable or proper in the circumstances. Dressing formally for a formal occasion is appropriate. 👔"
+  },
+  {
+    "question": "Choose the option that can substitute the underlined segment correctly.\nOur <u>possessions and other items</u>, while travelling to Europe last year, was misplaced.",
+    "options": ["Goods", "Cases", "Luggage", "Kit"],
+    "answer": "Luggage",
+    "explanation": "• **Luggage**: Suitcases and bags containing a traveler's belongings. It is the most comprehensive term for items carried while traveling. 🧳"
+  },
+  {
+    "question": "Select the most appropriate option to substitute the underlined segment.\n<u>Do you have</u> to stay home last week?",
+    "options": ["Have you had", "Did you have", "No substitution", "Does you have"],
+    "answer": "Did you have",
+    "explanation": "• **Tense**: The phrase 'last week' refers to the past. The auxiliary 'did' is required for past tense questions. 🚫🕒"
+  },
+  {
+    "question": "Select the most appropriate synonym of the word given in brackets to fill in the blank.\nA real warrior does not________ (surrender) to his enemies.",
+    "options": ["expose", "yield", "smile", "cooperate"],
+    "answer": "yield",
+    "explanation": "• **Surrender/Yield**: To give up or stop resisting to an enemy or influence. 🏳️"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) A flood occurs when water overflows its natural (1) ________...",
+    "options": ["volumes", "streams", "barriers", "currents"],
+    "answer": "barriers",
+    "explanation": "• In this context, water overflows its natural boundaries or **barriers** (like river banks). 🌊"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) Floods have always been an (2) _________ component of life on the planet.",
+    "options": ["evitable", "unavoidable", "amendable", "accessible"],
+    "answer": "unavoidable",
+    "explanation": "• **Unavoidable**: Not able to be prevented. Floods are natural events that cannot be completely stopped. 🚫🌊"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) A legend about a (3) ___________ flood exists in almost every civilisation.",
+    "options": ["limit", "huge", "induced", "controlled"],
+    "answer": "huge",
+    "explanation": "• **Huge**: Extremely large; enormous. Myths often speak of 'great' or 'huge' floods (e.g., Noah's Ark). 🌊🛳️"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) Many people have (4) _________ to live near bodies of water...",
+    "options": ["chosen", "decided", "forced", "tried"],
+    "answer": "chosen",
+    "explanation": "• **Chosen**: Past participle of choose. Historically, humans have intentionally **chosen** to settle near water. 💧🏠"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) The majority of the world’s major cities are (5) _________ on or near oceans, lakes, or rivers.",
+    "options": ["built", "situated", "planned", "established"],
+    "answer": "situated",
+    "explanation": "• **Situated**: Fixed or built in a particular place or position. 📍"
+  }
+]
