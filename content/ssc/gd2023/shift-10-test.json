@@ -1,0 +1,127 @@
+[
+  {
+    "question": "Select the most appropriate synonym of the word ‘stimulate’ from the following sentence.\nHis jovial nature energises and charms the whole auditorium.",
+    "options": ["Energises", "Charms", "Jovial", "Auditorium"],
+    "answer": "Energises",
+    "explanation": "• **Stimulate**: To raise levels of physiological or nervous activity in (the body or any of its parts). (Synonym: Energises). ⚡\n• **Energises**: To give vitality and enthusiasm to. ✅"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nThe invitation card very clearly mentions that the <u>entry in the show will be</u> closed at 6 p.m.",
+    "options": ["entry about the show will be", "entry over the show will be", "entry on the show will be", "entry to the show will be"],
+    "answer": "entry to the show will be",
+    "explanation": "• **Preposition**: The correct idiomatic phrase is 'entry **to**' an event or place. 🎟️"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThere was a story about a kind tree and a little boy. He used to sit _________ the shade of the tree.",
+    "options": ["near", "in", "with", "beside"],
+    "answer": "in",
+    "explanation": "• **Usage**: One sits '**in**' the shade of an object, because the shade is a defined area of reduced light. 🌳⛱️"
+  },
+  {
+    "question": "The following sentence has been divided into parts. Select the part that contains the error. If you don’t find any error, mark ‘No error’.\nThe forest ranger always / treats all the wild animals / in his area very kindly.",
+    "options": ["treats all the wild animals", "in his area very kindly", "No error", "The forest ranger always"],
+    "answer": "No error",
+    "explanation": "• The sentence is grammatically correct. It uses the simple present tense to describe a habitual action. ✅"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM to substitute the underlined word.\nThe <u>evasive</u> nature of the politician is what is making her a poor choice.",
+    "options": ["freaky", "elusive", "greasy", "truthful"],
+    "answer": "truthful",
+    "explanation": "• **Evasive**: Tending to avoid commitment or self-revelation, especially by responding only indirectly. 🌫️\n• **Truthful**: Telling or expressing the truth; honest. (Antonym). 🗣️✅"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Impress**",
+    "options": ["Anxious", "Endure", "Influence", "Suffice"],
+    "answer": "Influence",
+    "explanation": "• **Impress**: To make someone feel admiration and respect; to influence someone's opinion or feelings. (Synonym: Influence). ✨"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**In the long run**",
+    "options": ["Purposeful refusing", "Simultaneously", "In the end", "Careful running"],
+    "answer": "In the end",
+    "explanation": "• **In the long run**: Over a long period of time; eventually; in the end. 🛤️"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Palpable", "Endavour", "Reckless", "Rubbish"],
+    "answer": "Endavour",
+    "explanation": "• **Incorrect spelling**: Endavour. ❌\n• **Correct spelling**: **Endeavour**. ✅ (Meaning an attempt to achieve a goal)."
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nThe division of labour is the second strategy <u>to possess money</u>.",
+    "options": ["to build wealth", "to make physique", "to give support", "to make strategy"],
+    "answer": "to build wealth",
+    "explanation": "• **Context**: In financial strategy, the goal is typically '**to build wealth**' rather than just 'possessing money'. 💰📈"
+  },
+  {
+    "question": "Identify the INCORRECTLY spelt word and select its correct spelling.\nShe needs to visit a <u>phyziotherapist</u>.",
+    "options": ["Physeotherapist", "Fiziotherapist", "Physiotherapist", "Fisiotherapist"],
+    "answer": "Physiotherapist",
+    "explanation": "• **Correct spelling**: **Physiotherapist**. ✅ (Note the 's' instead of 'z'). 🏥"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Capture**",
+    "options": ["Abolish", "Establish", "Liberate", "Seize"],
+    "answer": "Liberate",
+    "explanation": "• **Capture**: To take into one's possession or control by force. ⛓️\n• **Liberate**: To set someone free from imprisonment, slavery, or oppression. (Antonym). 🔓"
+  },
+  {
+    "question": "Select the word that is similar in meaning to the underlined word.\nIt was difficult to find a police officer who was not <u>partial</u>.",
+    "options": ["Coward", "Weak", "Corrupt", "Biased"],
+    "answer": "Biased",
+    "explanation": "• **Partial**: Favoring one side in a dispute above the other. (Synonym: Biased). ⚖️❌"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Armed to the teeth**",
+    "options": [
+      "Carrying a lot of weapons",
+      "Decide to continue in spite of difficulties",
+      "Very frustrated",
+      "Very difficult to do"
+    ],
+    "answer": "Carrying a lot of weapons",
+    "explanation": "• **Armed to the teeth**: Fully or heavily armed with weapons. ⚔️🛡️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Hesitate**",
+    "options": ["Reform", "Vacillate", "Imitate", "Resolve"],
+    "answer": "Resolve",
+    "explanation": "• **Hesitate**: To pause before saying or doing something, usually through uncertainty. 🤨\n• **Resolve**: To settle or find a solution to; to decide firmly on a course of action. (Antonym). ✅"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Reluctant**",
+    "options": ["Cautious", "Willing", "Resistant", "Miserable"],
+    "answer": "Willing",
+    "explanation": "• **Reluctant**: Unwilling and hesitant; disinclined. 🚫\n• **Willing**: Ready, eager, or prepared to do something. (Antonym). ✅"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Tourists Travelling(1) _______ Jammu and Kashmir have another attraction...",
+    "options": ["from", "beside", "by", "to"],
+    "answer": "to",
+    "explanation": "• **Preposition**: Tourists travel '**to**' a destination (Jammu and Kashmir). 🗺️"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...claimed to be the only one such post office in the world – is (2) ______ on an intricately carved maroon houseboat.",
+    "options": ["build", "was built", "building", "built"],
+    "answer": "built",
+    "explanation": "• **Passive Voice**: The post office 'is **built**' on a houseboat. It describes the state/location. 🏠"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) This post office lets you (3) _____ all the regular postal services available.",
+    "options": ["avail", "reach", "create", "see"],
+    "answer": "avail",
+    "explanation": "• **Collocation**: To '**avail**' services means to make use of them. 📮"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) These pictures reach wherever these letters are posted to and (4) _______ promote Kashmir.",
+    "options": ["slowly", "hardly", "consequently", "never"],
+    "answer": "consequently",
+    "explanation": "• **Adverb**: '**Consequently**' (as a result) explains how the movement of letters leads to the promotion of tourism. 📣"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) The post office’s houseboat has two small rooms – one (5) _____ as the office...",
+    "options": ["working", "serving", "looking", "taking"],
+    "answer": "serving",
+    "explanation": "• **Serving**: Functioning as or fulfilling the role of. The room 'serves' as the office. 🏢"
+  }
+]
