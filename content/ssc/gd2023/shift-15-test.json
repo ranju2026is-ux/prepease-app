@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Have your heart in your mouth**",
+    "options": [
+      "Accusing someone of faults which you have",
+      "Doing immediately",
+      "Feeling extremely nervous",
+      "Not being of your kind"
+    ],
+    "answer": "Feeling extremely nervous",
+    "explanation": "• **Have your heart in your mouth**: To feel extremely nervous or frightened about something that is happening or about to happen. 😨"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Leap**",
+    "options": ["Peek", "Pile", "Run", "Hop"],
+    "answer": "Hop",
+    "explanation": "• **Leap**: To jump or spring a long way, to a great height, or with great force. (Synonym: Hop/Jump). 🦘"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Follow**",
+    "options": ["Heed", "Trail", "Show", "Lead"],
+    "answer": "Lead",
+    "explanation": "• **Follow**: To go or come after a person or thing. 🚶‍♂️\n• **Lead**: To go before or show the way. (Antonym). 🚩"
+  },
+  {
+    "question": "Select the correct pair of homonyms to fill in the blanks.\nThe sales of ________, ________ by 20% on Valentine’s Day.",
+    "options": ["dates, dated", "roll, rolled", "pear, pair", "roses, rose"],
+    "answer": "roses, rose",
+    "explanation": "• **Roses**: The plural of the flower. 🌹\n• **Rose**: The past tense of 'rise' (increased). 📈"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nTheir <u>plan to action</u> during that critical situation was well appreciated by all.",
+    "options": [
+      "in action during that",
+      "of action during that",
+      "off action about that",
+      "of action off that"
+    ],
+    "answer": "of action during that",
+    "explanation": "• **Collocation**: The standard idiomatic phrase is '**plan of action**'. 📝"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\n...education for girls <u>must be done voluntary</u>.",
+    "options": ["kept secret", "made mandatory", "enabled extensively", "done compulsorily"],
+    "answer": "made mandatory",
+    "explanation": "• **Contextual substitution**: The sentence discusses enabling literacy, suggesting education shouldn't be voluntary but required. (Synonym: Mandatory/Compulsory). 🎓"
+  },
+  {
+    "question": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\nI were / writing / this poem / last evening.",
+    "options": ["this poem", "last evening", "I were", "writing"],
+    "answer": "I were",
+    "explanation": "• **Subject-Verb Agreement**: The singular subject 'I' takes the verb '**was**', not 'were'. 🚫"
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\nThe news channel described the event in <u>graphic</u> detail.",
+    "options": ["Vivid", "Startling", "Mirthful", "Comic"],
+    "answer": "Vivid",
+    "explanation": "• **Graphic**: Giving a vivid and picture-like description. (Synonym: Vivid). 📺"
+  },
+  {
+    "question": "Select the most appropriate option to substitute the underlined segment.\nThe syllabus designers <u>has tried to address</u> the problem...",
+    "options": [
+      "have tried to address",
+      "has tried addressing",
+      "having tried to address",
+      "has been tried to address"
+    ],
+    "answer": "have tried to address",
+    "explanation": "• **Subject-Verb Agreement**: 'Designers' is plural, so it requires the auxiliary verb '**have**'. ✅"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Rustic**",
+    "options": ["Natural", "Shallow", "Urbane", "Depressed"],
+    "answer": "Urbane",
+    "explanation": "• **Rustic**: Relating to the countryside; rural or unsophisticated. 🚜\n• **Urbane**: (Of a person) courteous, confident, and refined in manner (typically associated with city life). (Antonym). 🏙️"
+  },
+  {
+    "question": "Identify and correct the INCORRECTLY spelt word in the given sentence.\nSometimes failure is the <u>steping</u> stone to success.",
+    "options": ["succes", "stepping", "failuire", "stown"],
+    "answer": "stepping",
+    "explanation": "• **Correct spelling**: **Stepping**. ✅ (The consonant 'p' must be doubled when adding '-ing' to a short vowel word like 'step')."
+  },
+  {
+    "question": "Select the most appropriate synonym of 'Stimulate' or 'Collided' based on context.\nThe car ______ into the truck.",
+    "options": ["decked", "bashed", "striped", "bounded"],
+    "answer": "bashed",
+    "explanation": "• **Bashed**: To strike hard and violently. In the context of a car accident, it acts as a synonym for 'collided'. 🚗💥"
+  },
+  {
+    "question": "Select the correct spelling of the underlined word.\nThe <u>architectre</u> of the building is worth seeing.",
+    "options": ["arckitecture", "architecher", "architectuer", "architecture"],
+    "answer": "architecture",
+    "explanation": "• **Correct spelling**: **Architecture**. ✅"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Head over heels**",
+    "options": [
+      "To have dispute",
+      "To be very angry",
+      "To be madly in love",
+      "To have immense patience"
+    ],
+    "answer": "To be madly in love",
+    "explanation": "• **Head over heels**: Madly, completely, or intensely in love with someone. 😍"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe teacher _______ with laughter, pleased with his joke...",
+    "options": ["bread", "blade", "braid", "brayed"],
+    "answer": "brayed",
+    "explanation": "• **Brayed**: (Of a person) laugh loudly and harshly. 🔊😂"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) We (1)_______ brought up to fear insects.",
+    "options": ["have been", "will be being", "were being", "are been"],
+    "answer": "have been",
+    "explanation": "• **Present Perfect Passive**: Used to describe an action that started in the past and continues to affect the present attitude. 🐛"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) Man continually (2)______ war on them...",
+    "options": ["wages", "employs", "redresses", "yields"],
+    "answer": "wages",
+    "explanation": "• **Collocation**: To '**wage war**' means to carry on a battle or conflict. ⚔️"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) ...dread not only of unpleasant insects... but of quite (3)________ ones like moths.",
+    "options": ["benignant", "harmless", "nonfatal", "wholesome"],
+    "answer": "harmless",
+    "explanation": "• **Context**: The sentence contrasts 'unpleasant' insects with 'harmless' ones that people still fear. 🦋"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) (4)______ of our fears are unreasonable but they are difficult to erase.",
+    "options": ["Most", "Some", "Several", "Few"],
+    "answer": "Most",
+    "explanation": "• **Quantifier**: Based on the context of general human behavior regarding bugs, '**Most**' of these irrational fears are common. 🚫"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) We enjoy staring at them... as they go (5)______ their business.",
+    "options": ["around", "beside", "about", "near"],
+    "answer": "about",
+    "explanation": "• **Phrasal Verb**: To '**go about one's business**' means to continue doing what one normally does. 🐝"
+  }
+]
