@@ -1,0 +1,127 @@
+[
+  {
+    "question": "Select the word similar in meaning to the given word.\n**Skip**",
+    "options": ["Overlook", "Insert", "Notice", "Introduce"],
+    "answer": "Overlook",
+    "explanation": "• **Skip**: To omit or leave out. (Synonym: Overlook). ⏭️\n• **Insert**: To put something in. (Antonym)."
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment in the given sentence.\nAfter studying the evidence thoroughly, the detective <u>inferred the motive</u>.",
+    "options": ["unusually concealed", "logically concluded", "intensely disliked", "violently criticised"],
+    "answer": "logically concluded",
+    "explanation": "• **Infer**: To deduce or conclude information from evidence and reasoning rather than from explicit statements. (Synonym: Logically concluded). 🔍🧠"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word to fill in the blank.\nThe <u>servile</u> nature of the employees was contrary to the employer’s _________ nature.",
+    "options": ["dishonest", "dominant", "curious", "furious"],
+    "answer": "dominant",
+    "explanation": "• **Servile**: Having or showing an excessive willingness to serve or please others. 🙇‍♂️\n• **Dominant**: Most important, powerful, or influential. (Antonym). 👑"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Influence**",
+    "options": ["Impact", "Stir", "Effect", "Deter"],
+    "answer": "Deter",
+    "explanation": "• **Influence**: The capacity to have an effect on the character, development, or behavior of someone or something. ✨\n• **Deter**: To discourage someone from doing something by instilling doubt or fear of the consequences. (Antonym). 🛑"
+  },
+  {
+    "question": "Parts of the given sentence have been given as options. One of them contains a spelling error. Select the option that rectifies the error.\nSuperbugs are the bacteria that have **accquired** resistance...",
+    "options": ["resistence", "bactaria", "mutattion", "acquired"],
+    "answer": "acquired",
+    "explanation": "• **Correct spelling**: **Acquired**. ✅ (Incorrectly spelled as 'accquired' in the prompt)."
+  },
+  {
+    "question": "Select the most appropriate meaning of the underlined idiom in the given sentence.\nIf the linguistic minority refuses to vote, it may <u>rock the boat</u>.",
+    "options": ["Lead to protests", "Topple the government", "Upset the balance", "Restore the equilibrium"],
+    "answer": "Upset the balance",
+    "explanation": "• **Rock the boat**: An idiom meaning to say or do something that disturbs an existing situation or upsets a calm balance. ⛵🌊"
+  },
+  {
+    "question": "Select the option in which all the words are spelt correctly.",
+    "options": [
+      "Our school principal declared that the new rule was applicable to everyone.",
+      "Our school principal declared that the new rule was aplicable to everyone.",
+      "Our school principal declared that the new rule was appleecable to everyone.",
+      "Our school principal declared that the new rule was applikable to everyone."
+    ],
+    "answer": "Our school principal declared that the new rule was applicable to everyone.",
+    "explanation": "• **Correct spelling**: **Applicable**. ✅"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nMy dad asked my mom to prepare lunch early as he was <u>feeling very hungry</u>.",
+    "options": ["terrible", "exhausted", "starved", "tired"],
+    "answer": "starved",
+    "explanation": "• **Starved**: Very hungry. It is a more descriptive synonym for the underlined phrase. 🍽️"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nDue to some technical emergency, the helicopter was supposed to land on a __________ (occupied) piece of land.",
+    "options": ["jammed", "active", "vacant", "teeming"],
+    "answer": "vacant",
+    "explanation": "• **Occupied**: Being used by someone. 🏢\n• **Vacant**: Empty or not being used. (Antonym required for context). 🚁⛰️"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Amputate**",
+    "options": ["Brighten", "Energise", "Sever", "Argue"],
+    "answer": "Sever",
+    "explanation": "• **Amputate**: To cut off a limb by surgical operation. (Synonym: Sever). ⚔️"
+  },
+  {
+    "question": "Select the most appropriate synonym of the word given in brackets to fill in the blank.\nHis best friend _______ (disclose) his business secrets in the press conference.",
+    "options": ["revealed", "deceived", "concealed", "superseded"],
+    "answer": "revealed",
+    "explanation": "• **Disclose**: To make secret information known. (Synonym: Revealed). 🗣️✨"
+  },
+  {
+    "question": "Identify the segment that contains a grammatical error.\nThe policeman / **walk along the** / road when I saw / a body in the gutter.",
+    "options": ["walk along the", "a body in the gutter", "The policeman", "road when I saw"],
+    "answer": "walk along the",
+    "explanation": "• **Error**: The sentence describes an action that was in progress in the past when another action occurred. 🚫\n• **Correction**: It should be '**was walking** along the'."
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Once in a blue moon**",
+    "options": ["Very rarely", "To agree reluctantly", "A quick response", "Moon in the night"],
+    "answer": "Very rarely",
+    "explanation": "• **Once in a blue moon**: An idiom used to describe something that happens very infrequently. 🌙🌌"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Rival**",
+    "options": ["Employer", "Comrade", "Opponent", "Antagonist"],
+    "answer": "Comrade",
+    "explanation": "• **Rival**: A person or thing competing with another for the same objective. ⚔️\n• **Comrade**: A colleague or a fellow member of an organization. (Antonym). 🤝"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nOne should never _________ from pals or activities that formerly provided solace.",
+    "options": ["remove", "withdraw", "suspend", "deduct"],
+    "answer": "withdraw",
+    "explanation": "• **Withdraw**: To pull back or move away from a situation or social circle. 🚶‍♂️🚪"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) One of the (1) ________ that Elizabeth had to attend was ballet...",
+    "options": ["Seminars", "lectures", "classes", "Meetings"],
+    "answer": "classes",
+    "explanation": "• Activities like ballet that one attends for learning are called **classes**. 🩰"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) She would stuff (2) ________ into her pink tut...",
+    "options": ["oneself", "himself", "herself", "Ourselves"],
+    "answer": "herself",
+    "explanation": "• **Reflexive Pronoun**: Elizabeth (feminine singular) requires '**herself**'. 👧"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) ...and stare at her (3) ________ in the mirror.",
+    "options": ["photograph", "Sketch", "Painting", "image"],
+    "answer": "image",
+    "explanation": "• When you look in a mirror, you see your **image** (reflection). 🪞"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) But the truth was (4) ________ for her to see.",
+    "options": ["their", "there", "Therein", "Here"],
+    "answer": "there",
+    "explanation": "• **Adverb of Place**: '**There**' is used to indicate that the truth was present/obvious. 📍"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) She (5) ________ never be a ballet dancer.",
+    "options": ["Ever", "would", "can’t", "won’t"],
+    "answer": "would",
+    "explanation": "• **Modal Verb**: '**Would**' is used here to describe a past conviction or future-in-the-past regarding her ability. 🩰🚫"
+  }
+]
