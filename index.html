@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -253,9 +254,7 @@
             const { currentTopic, currentLevel, isSSC, currentShift, currentExam, currentType } = state;
             let paths = [];
             if (isSSC) {
-                let folder = 'cgl2023';
-                if (currentExam === 'SSC GD 2025') folder = 'gd2024';
-                if (currentExam === 'SSC GD 2023') folder = 'gd2023';
+                let folder = currentExam === 'SSC GD 2025' ? 'gd2024' : (currentExam === 'SSC GD 2023' ? 'gd2023' : 'cgl2023');
                 paths = [`./content/ssc/${folder}/shift-${currentShift}-test.json`, `./content/ssc/${folder}/shift${currentShift}-test.json` ];
             } else {
                 const typeFolder = currentType === 'grammar' ? 'grammar' : 'vocabulary';
@@ -276,9 +275,7 @@
 
         window.loadQuiz = async () => {
             const { currentTopic, currentLevel, isSSC, currentShift, currentExam, currentType } = state;
-            let folder = 'cgl2023';
-            if (currentExam === 'SSC GD 2025') folder = 'gd2024';
-            if (currentExam === 'SSC GD 2023') folder = 'gd2023';
+            let folder = currentExam === 'SSC GD 2025' ? 'gd2024' : (currentExam === 'SSC GD 2023' ? 'gd2023' : 'cgl2023');
             const typeFolder = currentType === 'grammar' ? 'grammar' : 'vocabulary';
             let basePath = isSSC ? `./content/ssc/${folder}` : `./content/general-english/${typeFolder}/${currentTopic}`;
             let fileName = isSSC ? `shift-${currentShift}-test.json` : `level-${currentLevel}-test.json`;
@@ -304,9 +301,7 @@
             state.quizResults = { score, correct, wrong, total: questions.length };
             
             if (state.userId) {
-                let folder = 'cgl2023';
-                if (state.currentExam === 'SSC GD 2025') folder = 'gd2024';
-                if (state.currentExam === 'SSC GD 2023') folder = 'gd2023';
+                let folder = state.currentExam === 'SSC GD 2025' ? 'gd2024' : (state.currentExam === 'SSC GD 2023' ? 'gd2023' : (state.isSSC ? 'cgl2023' : null));
                 const progressId = state.isSSC ? `${folder}_shift_${state.currentShift}` : `${state.currentTopic}_level_${state.currentLevel}`;
                 setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'progress', progressId), { score, correct, total: questions.length, points: Math.max(0, Math.round(score)), completedAt: new Date().toISOString() });
                 mistakesFound.forEach(m => {
@@ -346,8 +341,7 @@
         </div>`;
 
         window.renderShiftGrid = () => {
-            let shifts = cgl2023Shifts;
-            let folder = 'cgl2023';
+            let shifts = cgl2023Shifts; let folder = 'cgl2023';
             if (state.currentExam === 'SSC GD 2025') { shifts = gd2025Shifts; folder = 'gd2024'; }
             else if (state.currentExam === 'SSC GD 2023') { shifts = gd2023Shifts; folder = 'gd2023'; }
             
@@ -413,7 +407,14 @@
             </div>`;
         };
 
-        // --- MAIN RENDER CYCLE ---
+        window.resolveAnki = async (correct) => {
+            const current = state.mistakes[state.currentAnkiIndex]; const ref = doc(db, 'artifacts', appId, 'users', state.userId, 'mistakes', current.id);
+            if (correct) { const newCount = (current.masteryCount || 0) + 1; if (newCount >= 5) await deleteDoc(ref); else await updateDoc(ref, { masteryCount: newCount }); }
+            else await updateDoc(ref, { masteryCount: 0 });
+            state.ankiSelection = null; state.currentAnkiIndex = (state.currentAnkiIndex + 1) % (state.mistakes.length || 1); window.render();
+        };
+
+        // --- MAIN CYCLE ---
         window.render = () => {
             const shell = document.getElementById('app-shell'); if(!shell) return;
             const authHeader = document.getElementById('auth-header-btn');
@@ -446,7 +447,24 @@
                 case 'shift-grid': shell.innerHTML = window.renderShiftGrid(); break;
                 case 'results': shell.innerHTML = window.renderResults(); break;
                 case 'content-view': shell.innerHTML = `<div id="content-container" class="app-container"></div>`; window.loadGenericContent(); break;
-                case 'mistakes-book': shell.innerHTML = `<div class="p-10 text-center font-bold">Book Loading...</div>`; break;
+                case 'mistakes-book': 
+                    if (state.mistakes.length === 0) shell.innerHTML = `<div class="p-10 text-center font-bold flex flex-col justify-center h-full bg-white">All Mastered! 🏆<br><button onclick="window.navigateTo('home')" class="mt-4 bg-indigo-600 text-white p-4 rounded-xl mx-auto uppercase text-xs font-bold font-sans">Home</button></div>`;
+                    else {
+                        const current = state.mistakes[state.currentAnkiIndex]; const ans = state.ankiSelection;
+                        shell.innerHTML = `<div class="app-container" ontouchstart="window.handleTouchStart(event)" ontouchend="window.handleTouchEnd(event)">
+                            <div class="bg-white p-4 rounded-3xl border h-full flex flex-col overflow-hidden shadow-sm">
+                                <div class="flex justify-between items-center mb-3"><p class="text-[9px] font-bold text-emerald-500 uppercase">Mastery Challenge</p><span class="text-[9px] font-black text-slate-400 font-sans uppercase">${state.currentAnkiIndex + 1}/${state.mistakes.length}</span></div>
+                                <div class="scroll-content"><h3 class="text-base font-bold mb-4 leading-tight font-sans">${current.question}</h3><div class="flex flex-col gap-2 ${ans ? 'pointer-events-none' : ''}">${current.options.map(o => {
+                                    const isCorrect = o.trim() === current.answer.trim(); let cls = "p-3 border-2 rounded-xl text-xs font-bold transition-all ";
+                                    if (ans) { if (isCorrect) cls += "option-correct"; else if (ans.selected === o.trim()) cls += "option-wrong"; else cls += "border-slate-50 opacity-40"; }
+                                    else { cls += "border-slate-50 bg-slate-50/30"; }
+                                    return `<div onclick="window.state.ankiSelection = {selected: '${o.trim().replace(/'/g, "\\'")}', isCorrect: ${isCorrect}}; window.render();" class="${cls}">${o}</div>`;
+                                }).join('')}</div>${ans ? `<div class="mt-4 p-4 bg-slate-50 rounded-2xl border-l-4 border-emerald-500 text-[11px] font-kannada view-transition">${current.explanation || ''}</div>` : ''}</div>
+                                ${ans ? `<div class="mt-2 flex gap-2 h-14"><button onclick="window.resolveAnki(true)" class="flex-1 bg-emerald-600 text-white rounded-xl font-bold text-xs uppercase shadow-md font-sans">Got it ✅</button><button onclick="window.resolveAnki(false)" class="flex-1 bg-rose-600 text-white rounded-xl font-bold text-xs uppercase shadow-md font-sans">Hard ❌</button></div>` : `<div class="mt-2 text-center text-slate-300 text-[9px] uppercase tracking-widest py-2">Select answer to review</div>`}
+                            </div>
+                        </div>`;
+                    }
+                    break;
             }
         };
 
@@ -467,8 +485,11 @@
         });
 
         window.addEventListener('popstate', (e) => { if (e.state && e.state.view) window.navigateTo(e.state.view, e.state.params, true); else window.navigateTo('home', {}, true); });
-        setInterval(() => { const el = document.getElementById('floating-quote'); if (el) { el.style.opacity = '0'; setTimeout(() => { el.innerText = ["Qualify your dreams. 🎯", "Consistency wins. 🏆", "Learn from errors. 📚"][Math.floor(Math.random()*3)]; el.style.opacity = '1'; }, 400); } }, 8000);
+        setInterval(() => { const el = document.getElementById('floating-quote'); if (el) { el.style.opacity = '0'; setTimeout(() => { el.innerText = ["Believe in your potential. 🎯", "Consistency wins. 🏆", "Learn from errors. 📚"][Math.floor(Math.random()*3)]; el.style.opacity = '1'; }, 400); } }, 8000);
         window.render();
+        window.resolveAnki = resolveAnki;
     </script>
 </body>
 </html>
+
+```
