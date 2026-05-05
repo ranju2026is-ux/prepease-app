@@ -1,0 +1,127 @@
+[
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word.\nThe robbers were <u>captured</u> and brought to the jail.",
+    "options": ["Composed", "Destroyed", "Released", "Seized"],
+    "answer": "Released",
+    "explanation": "• **Captured**: Taken into one's possession or control by force. ⛓️\n• **Released**: To allow or enable to escape from confinement; set free. (Antonym). 🔓"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nShe needs to be ________ if she wants to stand up to her bullies.",
+    "options": ["bolder", "blonder", "balder", "boulder"],
+    "answer": "bolder",
+    "explanation": "• **Bolder**: (Of a person or action) showing an ability to take risks; confident and courageous. 🦁\n• **Boulder**: A large rock. \n• **Balder/Blonder**: Physical descriptions of hair or baldness."
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nA couple of parrots __________ on the telephone wires.",
+    "options": ["perched", "flew", "seeded", "waited"],
+    "answer": "perched",
+    "explanation": "• **Perched**: (Of a bird) alighted or rested on something. 🦜"
+  },
+  {
+    "question": "Select the most appropriate meaning of the underlined idiom.\nThe child made a <u>wry face</u> when he was denied entry into the museum.",
+    "options": ["An obscene gesture", "An earnest request", "A disappointed look", "An offending remark"],
+    "answer": "A disappointed look",
+    "explanation": "• **Make a wry face**: To produce an expression on the face that shows you think something is bad or slightly annoying; a grimace of disappointment or disgust. ☹️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Tasty**",
+    "options": ["Supreme", "Hollow", "Transient", "Insipid"],
+    "answer": "Insipid",
+    "explanation": "• **Tasty**: Having a pleasant, distinct flavor. 🍕\n• **Insipid**: Lacking flavor; weak or tasteless. (Antonym). 🍲💨"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nA feeling comes over one that so much evil and misfortune _______ the world that a little more or less does not make much difference.",
+    "options": ["had shadowed", "shadowing", "shadowed", "shadow"],
+    "answer": "shadow",
+    "explanation": "• **Tense**: The sentence describes a general feeling or timeless truth (Present Tense). 'Misfortune' and 'evil' (plural subject here) take the base form '**shadow**'. ✅"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Baffle**",
+    "options": ["Perceive", "Confuse", "Betray", "Convince"],
+    "answer": "Confuse",
+    "explanation": "• **Baffle**: Totally bewilder or perplex. (Synonym: Confuse/Puzzle). 🧩"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Be in seventh heaven**",
+    "options": ["To be extremely happy", "To support someone strongly", "To be prepared for trouble", "To be impossible to understand"],
+    "answer": "To be extremely happy",
+    "explanation": "• **Be in seventh heaven**: To be in a state of extreme happiness or bliss. ☁️😊"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nThe doctors always wear a <u>right and suitable</u> uniform.",
+    "options": ["virtuous", "decent", "nice", "fit"],
+    "answer": "fit",
+    "explanation": "• **Contextual substitution**: A uniform that is suitable and correct for the task is a '**fit**' or 'appropriate' uniform. 🏥"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Defroded", "Discrimination", "Continuation", "Maintenance"],
+    "answer": "Defroded",
+    "explanation": "• **Incorrect spelling**: Defroded. ❌\n• **Correct spelling**: **Defrauded**. ✅ (Meaning to illegally obtain money from someone by deception)."
+  },
+  {
+    "question": "Select the option that expresses the given sentence in **past perfect tense**.",
+    "options": [
+      "Fortunately, the movie had not been starting on time.",
+      "Fortunately, the movie was not starting on time.",
+      "Fortunately, the movie had not started on time.",
+      "Fortunately, the movie did not start on time."
+    ],
+    "answer": "Fortunately, the movie had not started on time.",
+    "explanation": "• **Past Perfect**: Formed with 'had' + past participle (**started**). Option C is the only correct structure. 🎬🕒"
+  },
+  {
+    "question": "Select the most appropriate option to substitute the underlined segment.\nHe asked me <u>if I have</u> anything to say.",
+    "options": ["if I want anything", "if I am having anything", "if I had anything", "if I has anything"],
+    "answer": "if I had anything",
+    "explanation": "• **Reported Speech**: When the reporting verb is in the past ('asked'), the present tense ('have') in the subordinate clause changes to the past tense (**had**). 🗣️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Officious**",
+    "options": ["Obtrusive", "Legal", "Imperial", "Timid"],
+    "answer": "Timid",
+    "explanation": "• **Officious**: Assertive of authority in an annoyingly domineering way, especially with regard to petty or trivial matters. 😠👮\n• **Timid**: Showing a lack of courage or confidence; easily frightened. (Antonym). 🐭"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Calendar", "Acclaim", "Conveneince", "Opportunity"],
+    "answer": "Conveneince",
+    "explanation": "• **Incorrect spelling**: Conveneince. ❌\n• **Correct spelling**: **Convenience**. ✅ (The 'i' comes before 'e' in the suffix). 🛎️"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Accomplish**",
+    "options": ["Approve", "Fail", "Achieve", "Disappoint"],
+    "answer": "Achieve",
+    "explanation": "• **Accomplish**: To achieve or complete successfully. (Synonym: Achieve). 🏆"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Twenty five years ago, few people realised that computers (1)___________ about to become part of our daily lives.",
+    "options": ["be", "were", "is", "was"],
+    "answer": "were",
+    "explanation": "• **Tense & Agreement**: The sentence refers to the past ('Twenty five years ago') and the subject 'computers' is plural, requiring '**were**'. 💻"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) This short period of time has seen (2)__________ changes...",
+    "options": ["enormous", "hazardous", "indigenous", "anonymous"],
+    "answer": "enormous",
+    "explanation": "• **Enormous**: Very large in size, quantity, or extent. The impact of computers has been massive. 📈"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) People... are now freed from these (3)_________ tasks.",
+    "options": ["boring", "bored", "bore", "bores"],
+    "answer": "boring",
+    "explanation": "• **Boring**: Adjective describing a task that is tedious or uninteresting. 😴"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) Some of us may wonder, (4)_________, life has really improved...",
+    "options": ["subsequently", "however", "therefore", "for instance"],
+    "answer": "however",
+    "explanation": "• **Conjunction**: '**However**' is used to introduce a contrasting point or a doubt following the positive points about computers. ⚖️"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) Employers complain that clerical (5)________ have become dependent on calculators.",
+    "options": ["staff", "soldiers", "messengers", "religions"],
+    "answer": "staff",
+    "explanation": "• **Staff**: All the people employed by a particular organization. 'Clerical staff' refers to office workers. 🏢"
+  }
+]
