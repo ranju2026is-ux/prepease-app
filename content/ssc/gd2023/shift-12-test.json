@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Select the most appropriate option to fill in the blanks in the given sentence.\nMy teacher said, “Time ______ like an arrow, and fruit ______ like bananas”.",
+    "options": ["wings", "travels", "flies", "glides"],
+    "answer": "flies",
+    "explanation": "• **Wordplay**: This is a famous linguistic pun. In the first part, 'flies' is a verb (Time moves fast). In the second part, 'flies' is a noun (Fruit flies like eating bananas). 🏹🍌"
+  },
+  {
+    "question": "Select the appropriate idiom that can replace the underlined phrase in the following sentence.\nIt was a great chance. <u>You missed out an opportunity</u>.",
+    "options": ["are in the middle of nowhere", "are a blessing in disguise", "are dead as a dodo", "missed the boat"],
+    "answer": "missed the boat",
+    "explanation": "• **Missed the boat**: An idiom meaning to be too late to take advantage of an opportunity. ⛵"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Grandeur**",
+    "options": ["Magnificence", "Liable", "Commotion", "Power"],
+    "answer": "Magnificence",
+    "explanation": "• **Grandeur**: Splendor and impressiveness, especially of appearance or style. (Synonym: Magnificence). 🏰✨"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nIn spite of all her <u>air and graces</u>, she had very few talents.",
+    "options": ["airing her grace", "airs and graces", "airs and grace", "airing her graces"],
+    "answer": "airs and graces",
+    "explanation": "• **Idiom**: 'Airs and graces' is a set plural phrase meaning a manner or way of behaving that is intended to impress others but is actually artificial or insincere. 🎭"
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\nHe <u>paused</u> several times while delivering the speech.",
+    "options": ["persisted", "stammered", "left", "halted"],
+    "answer": "halted",
+    "explanation": "• **Paused/Halted**: To come to a temporary stop or rest. 🛑"
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word in the given sentence.\nThe decision taken by the director is a/(an) <u>judicious</u> one.",
+    "options": ["honest", "irrational", "thoughtful", "foolish"],
+    "answer": "thoughtful",
+    "explanation": "• **Judicious**: Having, showing, or done with good judgment or sense. (Synonym: Thoughtful/Wise). 🧠✅"
+  },
+  {
+    "question": "Identify the INCORRECTLY spelt word and select its correct spelling.\nClouds are a **kaledoscope** of shapes, sizes, patterns and colours.",
+    "options": ["Kaleidoscope", "Kaleidascope", "Caliedoscope", "Caledoscope"],
+    "answer": "Kaleidoscope",
+    "explanation": "• **Correct spelling**: **Kaleidoscope**. ✅ (A constantly changing pattern or sequence of elements). 🎨"
+  },
+  {
+    "question": "Select the most appropriate option to substitute the underlined segment.\nWater pollution not only <u>endangers</u> human health but also our environment.",
+    "options": ["only causes", "only harms", "only shatters", "only clashes"],
+    "answer": "only harms",
+    "explanation": "• **Synonym**: To 'endanger' in this context means to cause injury or damage to. (Synonym: Harms). 🌊☣️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Relevant**",
+    "options": ["Insignificant", "Ignorant", "Compact", "Applicable"],
+    "answer": "Insignificant",
+    "explanation": "• **Relevant**: Closely connected or appropriate to what is being done or considered. 🎯\n• **Insignificant**: Too small or unimportant to be worth consideration. (Contextual Antonym). 🤏"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nDavid always takes extra effort and ________ the assignments on time.",
+    "options": ["submit", "submitted", "submits", "may submit"],
+    "answer": "submits",
+    "explanation": "• **Subject-Verb Agreement**: 'David' is a third-person singular subject, requiring the verb '**submits**' in the Simple Present tense for a habitual action. ✅"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Prompt**",
+    "options": ["Attentive", "Initiate", "Delayed", "Efficient"],
+    "answer": "Delayed",
+    "explanation": "• **Prompt**: Done without delay; immediate. ⚡\n• **Delayed**: Late or postponed. (Antonym). 🐢"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment. If there is no need to substitute it, select ‘No substitution’.\n<u>When he hand in</u> his homework, he forgot to give the teacher the last page.",
+    "options": ["When he handed his homework,", "When he has handed in his homework,", "No substitution", "When he handed in his homework,"],
+    "answer": "When he handed in his homework,",
+    "explanation": "• **Tense Consistency**: The main verb 'forgot' is in the past tense. Therefore, the subordinate clause should use the Simple Past: '**handed in**'. 📝"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word to fill in the blank.\n**Propel**\nPaddles are used to ________ the boat.",
+    "options": ["rush", "move", "carry", "run"],
+    "answer": "move",
+    "explanation": "• **Propel/Move**: To drive, push, or cause to move in a particular direction. 🚣‍♂️"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nHeather studied really hard <u>during six days</u> in order to crack the entrance examination.",
+    "options": ["studied really hard underneath six days", "studied really hard during those six days", "studied real hard during six days", "studied really hard during that six days"],
+    "answer": "studied really hard during those six days",
+    "explanation": "• **Determiners**: Using '**those**' provides specific reference to the timeframe previously implied or understood in the context. 📚"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nCompetition and cooperation are the most _________ elements of a company’s success story.",
+    "options": ["insignificant", "useless", "inappropriate", "important"],
+    "answer": "important",
+    "explanation": "• **Context**: Both competition and cooperation are vital/positive drivers for success. '**Important**' fits the positive tone. 🤝"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Outside, the world had become a formless, (1)______ with no shape...",
+    "options": ["ambiguous", "advent", "ambivalent", "amorphous"],
+    "answer": "amorphous",
+    "explanation": "• **Amorphous**: Without a clearly defined shape or form. It is the perfect technical match for 'formless'. 🌫️"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) There was sticky web-stuff (2)_______ to her arm...",
+    "options": ["unmoor", "clung", "dried", "manumit"],
+    "answer": "clung",
+    "explanation": "• **Clung**: Past tense of cling. To hold on tightly to something. Web-stuff sticks or clings to skin. 🕸️"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) The other mother was waiting... standing on the grass with her arms (3)_______.",
+    "options": ["joined", "entwined", "entangled", "folded"],
+    "answer": "folded",
+    "explanation": "• **Folded arms**: A standard posture. In literature, it often implies waiting or a stern attitude. 🙅‍♀️"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...but her lips were pressed tightly in a cold (4)______.",
+    "options": ["serenity", "calmness", "fury", "quietude"],
+    "answer": "fury",
+    "explanation": "• **Context**: 'Pressed tightly' and 'cold' suggest a negative, intense emotion. '**Fury**' (intense anger) fits the eerie tone. 😠"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) When she saw Myna she reached (5)______ one long white hand...",
+    "options": ["by", "out", "of", "in"],
+    "answer": "out",
+    "explanation": "• **Reach out**: To extend one's hand or arm. 🖐️"
+  }
+]
