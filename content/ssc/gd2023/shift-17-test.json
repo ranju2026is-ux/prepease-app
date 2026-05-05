@@ -1,0 +1,127 @@
+[
+  {
+    "question": "Select the correct spelling of the word to fill in the blank in the given sentence.\nTrouble and disease give us bad ______.",
+    "options": ["expereinces", "xperiences", "xpreiences", "experiences"],
+    "answer": "experiences",
+    "explanation": "• **Correct spelling**: **Experiences**. ✅\n• **Meaning**: Practical contact with and observation of facts or events."
+  },
+  {
+    "question": "Identify the MISSPELT word in the following sentence.\nIn our school, innovative and effective academic and evaluation strategies and intervantions are needed.",
+    "options": ["strategies", "innovative", "intervantions", "effective"],
+    "answer": "intervantions",
+    "explanation": "• **Incorrect spelling**: intervantions. ❌\n• **Correct spelling**: **Interventions**. ✅ (Meaning actions taken to improve a situation)."
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\n<u>Travel on a hot dusty train</u> gives me no pleasure.",
+    "options": ["Travelling at a", "Travel in a", "Travels on a", "Travelling on a"],
+    "answer": "Travelling on a",
+    "explanation": "• **Gerund as Subject**: Using a gerund ('Travelling') is the correct way to form a noun phrase acting as the subject of the sentence. 🚂💨"
+  },
+  {
+    "question": "Complete the sentence by choosing the most appropriate synonym of the underlined word.\nIf the answer is <u>false</u>, it is _________.",
+    "options": ["genuine", "correct", "right", "untrue"],
+    "answer": "untrue",
+    "explanation": "• **False/Untrue**: Not in accordance with the fact or reality. (Direct synonyms). 🚫✅"
+  },
+  {
+    "question": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\nI visit my school / once a year / to meeting / my former teachers.",
+    "options": ["my former teachers", "I visit my school", "once a year", "to meeting"],
+    "answer": "to meeting",
+    "explanation": "• **Infinitive Error**: The purpose is expressed using the 'to + base verb' structure. 🚫\n• **Correction**: It should be '**to meet**' my former teachers."
+  },
+  {
+    "question": "Select the most appropriate meaning of the underlined idiom.\nI am <u>at sea</u> after listening to the arguments.",
+    "options": ["sailing on the seas", "perplexed", "stuck in the seas", "totally relaxed"],
+    "answer": "perplexed",
+    "explanation": "• **At sea**: An idiom meaning confused or unable to decide what to do. (Synonym: Perplexed). 🌊❓"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Slack**",
+    "options": ["Hyperactive", "Provocation", "Tight", "Inactive"],
+    "answer": "Inactive",
+    "explanation": "• **Slack**: Not taut or held in a tight position; also means slow or sluggish. (Synonym: Inactive). 📉"
+  },
+  {
+    "question": "Select the correct option to substitute the underlined segment. If no substitution is required, select ‘No substitution’.\n<u>One must do his</u> work.",
+    "options": ["her work", "their work", "one’s work", "No substitution"],
+    "answer": "one’s work",
+    "explanation": "• **Pronoun Agreement**: When the subject is the indefinite pronoun 'One', the corresponding possessive pronoun must be '**one’s**'. ✍️"
+  },
+  {
+    "question": "Select the most appropriate idiom for the underlined segment.\nI thought I finished my work but I realised that all of my work is faulty. <u>I have to start it over again</u>.",
+    "options": ["break new ground", "get a pat on the back", "go back to the drawing board", "break the back of something"],
+    "answer": "go back to the drawing board",
+    "explanation": "• **Go back to the drawing board**: An idiom meaning to start over with a new design or plan because the previous one failed. 📝📐"
+  },
+  {
+    "question": "Select the most appropriate synonym of the word given in brackets.\nThe weather is ______ (gloomy) and windy.",
+    "options": ["bright", "jovial", "cloudy", "shiny"],
+    "answer": "cloudy",
+    "explanation": "• **Gloomy/Cloudy**: Dark or poorly lit, especially so as to appear depressing. (Contextual synonym). ☁️"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nShe heard a loud humming noise and <u>guess that it is being</u> an aeroplane.",
+    "options": [
+      "to guess that it is being the aeroplane",
+      "guessed that it was an aeroplane",
+      "guessing that it were aeroplane",
+      "has guessed that it is aeroplane"
+    ],
+    "answer": "guessed that it was an aeroplane",
+    "explanation": "• **Tense Consistency**: Since she 'heard' (past tense) the noise, the following action must also be in the past tense ('guessed') and describe a past state ('was'). ✈️"
+  },
+  {
+    "question": "Select the most appropriate homonym to fill in the blank.\nI had to keep very ________ when the photographer was taking my picture.",
+    "options": ["lid", "chum", "shrill", "still"],
+    "answer": "still",
+    "explanation": "• **Still**: Not moving or making a sound. Essential for photography. 📸🧘‍♂️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the word given in the bracket.\nIf a person commits a crime with (malice)_________, they did it on purpose.",
+    "options": ["rancour", "goodwill", "disdain", "disgust"],
+    "answer": "goodwill",
+    "explanation": "• **Malice**: The intention or desire to do evil; ill will. 😈\n• **Goodwill**: Friendly, helpful, or cooperative feelings or attitude. (Antonym). 😊"
+  },
+  {
+    "question": "Select the most appropriate synonym for the underlined word.\nHe was <u>brusque</u> and candid in the interview.",
+    "options": ["abrupt", "vociferous", "brave", "pursue"],
+    "answer": "abrupt",
+    "explanation": "• **Brusque**: Abrupt or offhand in speech or manner. (Direct synonym). 🗣️⏱️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word.\nThe engineers finally <u>destroyed</u> the ship to its original form.",
+    "options": ["reversed", "restored", "started", "abolished"],
+    "answer": "restored",
+    "explanation": "• **Destroyed**: To end the existence of something by damaging it. 💥\n• **Restored**: To return someone or something to a former condition or place. (Contextual Antonym for recovering original form). 🛠️🚢"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) And you could hardly call it a (1) ________ at all...",
+    "options": ["game", "cork", "racket", "ball"],
+    "answer": "game",
+    "explanation": "• The passage describes a poorly played athletic match, so calling it a '**game**' is the primary context. 🎾"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...because Uncle Bob held his (2) _______ as though he had hold of a shovel...",
+    "options": ["softball", "racket", "ball", "cork"],
+    "answer": "racket",
+    "explanation": "• You hold a '**racket**' in games like tennis or badminton (suggested by the 'net'). 🏸"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) And then he took off his (3) _______ and played in just his trousers...",
+    "options": ["pants", "belt", "shirt", "trousers"],
+    "answer": "shirt",
+    "explanation": "• Context: He is already wearing trousers. Taking off a '**shirt**' to play in just trousers and socks is common in casual play. 👕"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...he started (4) _______ over the net...",
+    "options": ["swimming", "slimming", "skipping", "jumping"],
+    "answer": "jumping",
+    "explanation": "• The passage mentions him playing on the wrong side of the net, implying he moved over it. '**Jumping**' fits the energetic/clumsy description. 🤸"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) And the ball would (5) ______ on the roof of the house...",
+    "options": ["bounce", "flake", "jump", "leap"],
+    "answer": "bounce",
+    "explanation": "• **Bounce**: To move quickly away from a surface after hitting it. Standard behavior for a ball. 🏀"
+  }
+]
