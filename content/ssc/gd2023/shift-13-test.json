@@ -1,0 +1,127 @@
+[
+  {
+    "question": "Select the most appropriate synonym of the word 'Adversity' to fill in the blank.\nThe sage said, “One should keep patience during ______”.",
+    "options": ["good times", "tribute", "challenges", "hardships"],
+    "answer": "hardships",
+    "explanation": "• **Adversity**: A state or instance of serious or continued difficulty or misfortune. (Synonym: Hardships). ⛈️"
+  },
+  {
+    "question": "Select the most appropriate synonym for the underlined word.\nThe <u>wily</u> Jerry mouse very deftly removed the cheese from the trap.",
+    "options": ["worn", "crafty", "worrisome", "wise"],
+    "answer": "crafty",
+    "explanation": "• **Wily**: Skilled at gaining an advantage, especially deceitfully. (Synonym: Crafty/Cunning). 🐭🧀"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined words.\nHima was so affected by the movie <u>that she has not speak</u> a word to anyone for a week.",
+    "options": [
+      "that she has not been spoken a word",
+      "that she is speaking",
+      "that she has been speaking",
+      "that she did not speak a word"
+    ],
+    "answer": "that she did not speak a word",
+    "explanation": "• **Tense Consistency**: The sentence refers to a completed action in the past (the movie's effect). 'Did not speak' is the correct simple past form. 🚫🗣️"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Radar", "Rather", "Robber", "Rebber"],
+    "answer": "Rebber",
+    "explanation": "• **Incorrect spelling**: Rebber. ❌\n• **Correct spelling**: **Rubber**. ✅ (Or potentially 'Robber' which is already listed)."
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Forty winks**",
+    "options": ["To do something forty times", "To take a short nap", "To hurry and rush", "To be worried"],
+    "answer": "To take a short nap",
+    "explanation": "• **Forty winks**: A short sleep or nap, especially during the day. 😴💤"
+  },
+  {
+    "question": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\nWhen I / was / young, I / **play hockey**.",
+    "options": ["was", "When I", "young, I", "play hockey"],
+    "answer": "play hockey",
+    "explanation": "• **Tense Error**: The sentence refers to a past habit ('When I was young'). It should use the simple past tense '**played**'. 🏒"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Common**",
+    "options": ["Rare", "Ordinary", "Boring", "Shocking"],
+    "answer": "Rare",
+    "explanation": "• **Common**: Occurring, found, or done often; prevalent. 🍎\n• **Rare**: (of an event, situation, or condition) not occurring very often. (Antonym). 💎"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Hostility**",
+    "options": ["Silliness", "Enmity", "Absurdity", "Friendship"],
+    "answer": "Friendship",
+    "explanation": "• **Hostility**: Unfriendly or antagonistic behavior or opposition. ⚔️\n• **Friendship**: The emotions or conduct of friends; state of being friends. (Antonym). 🤝"
+  },
+  {
+    "question": "Parts of the given sentence have been given as options. One of them contains a spelling error. Select the option that rectifies the error.\nThe Magdeburg water bridge is the longest navigable **aquaduct**...",
+    "options": ["navaigable", "longgest", "aqueduct", "brige"],
+    "answer": "aqueduct",
+    "explanation": "• **Correct spelling**: **Aqueduct**. ✅ (Note the 'e' after 'u'). 🌉🌊"
+  },
+  {
+    "question": "Select the most appropriate antonym of the bracketed word to fill in the blank.\nIt would be __________ (annoying) to watch India hosting the World Cup and winning it.",
+    "options": ["irksome", "plaguy", "pesky", "delightful"],
+    "answer": "delightful",
+    "explanation": "• **Annoying**: Causing irritation or annoyance. 😠\n• **Delightful**: Causing great pleasure; charming. (Antonym). 😊🏆"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nEvelyn became very angry; it seemed to her that she _______ never fulfil her dream.",
+    "options": ["would", "will", "can", "ought to"],
+    "answer": "would",
+    "explanation": "• **Past in Future**: When reporting thoughts or feelings from the past ('it seemed'), 'will' changes to '**would**'. 🎻💭"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe Kathakali dance form... uses _________ costumes.",
+    "options": ["elaborate", "scruffy", "generic", "gaudy"],
+    "answer": "elaborate",
+    "explanation": "• **Elaborate**: Involving many carefully arranged parts or details; detailed and complicated. Kathakali costumes are famously complex. 🎭✨"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**A Penelope’s web**",
+    "options": ["A daily job", "An important job", "An endless job", "A meaningless job"],
+    "answer": "An endless job",
+    "explanation": "• **A Penelope’s web**: A work that is perpetually doing but never done; an endless task (from Greek mythology). 🧶⏳"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nDon’t go to the neighbour’s garden, ________ not allowed to go there.",
+    "options": ["your", "yore", "yor", "you’re"],
+    "answer": "you’re",
+    "explanation": "• **Contraction**: '**You’re**' is the contraction of 'you are'. \n• **Your**: Possessive pronoun. 🚫🏡"
+  },
+  {
+    "question": "Which of the following options is most similar in meaning to the given word?\n**Laudable**",
+    "options": ["Preventable", "Praiseworthy", "Sensible", "Returnable"],
+    "answer": "Praiseworthy",
+    "explanation": "• **Laudable**: (of an action, idea, or goal) deserving praise and commendation. (Synonym: Praiseworthy). 👏✨"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Chinese civilisation... (1)________ in north-east China.",
+    "options": ["flourished", "flaunted", "displayed", "exhibited"],
+    "answer": "flourished",
+    "explanation": "• **Flourished**: (of a person, animal, or other living organism) grow or develop in a healthy or vigorous way. Used for the growth of civilizations. 🏺📈"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) The Chinese had thought (2) ________ a very clever way of casting weapons...",
+    "options": ["down", "in", "up", "into"],
+    "answer": "up",
+    "explanation": "• **Phrasal Verb**: '**Think up**' means to invent or devise a plan or idea. 💡"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) Then, they shaped the clay mould closely (3)_______ the prepared model.",
+    "options": ["beside", "across", "around", "behind"],
+    "answer": "around",
+    "explanation": "• In casting, the mould is formed by wrapping or shaping clay '**around**' the model. 🏺"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) When the clay was dry, the mould was (4)________ and cut into pieces.",
+    "options": ["slipped", "closed", "removed", "distanced"],
+    "answer": "removed",
+    "explanation": "• To use the pieces for casting, the primary mould must be '**removed**' from the original model. 🛠️"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) In the final process, the mould was removed and a perfectly formed object was (5)_________.",
+    "options": ["dropped", "disclosed", "revealed", "divulged"],
+    "answer": "revealed",
+    "explanation": "• **Revealed**: To make (previously unknown or secret information) known to others. Here, the final bronze object is shown when the mould is broken. ✨"
+  }
+]
