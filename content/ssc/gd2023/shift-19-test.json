@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Subvert", "Rebuke", "Reckon", "Subservent"],
+    "answer": "Subservent",
+    "explanation": "• **Incorrect spelling**: Subservent. ❌\n• **Correct spelling**: **Subservient**. ✅ (Meaning prepared to obey others unquestioningly). 🙇‍♂️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the word given in the brackets to fill in the blank.\nWe ____________ (agree) to talk to terrorists.",
+    "options": ["grant", "admit", "allow", "refuse"],
+    "answer": "refuse",
+    "explanation": "• **Agree**: To have the same opinion or to consent to do something. ✅\n• **Refuse**: To indicate that one is not willing to do something. (Antonym). 🚫"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Dense**",
+    "options": ["Compact", "Secret", "Sparse", "Generic"],
+    "answer": "Sparse",
+    "explanation": "• **Dense**: Closely compacted in substance. 🌳🌳🌳\n• **Sparse**: Thinly dispersed or scattered. (Antonym). 🌳 . . 🌳"
+  },
+  {
+    "question": "Identify the INCORRECTLY spelt word in the given sentence and select its correct spelling.\n**Inkompetent** employees of our company need to be sacked.",
+    "options": ["Imcampetent", "Incompetent", "Imcompetent", "Incompitent"],
+    "answer": "Incompetent",
+    "explanation": "• **Correct spelling**: **Incompetent**. ✅ (Note the 'c' instead of 'k'). ❌👤"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\n...destroyed the <u>sweetness on the song</u>.",
+    "options": [
+      "destroyed the sweetness of the song",
+      "destroyed the sweetness in the song",
+      "destroyed the sweetness by the song",
+      "destroyed the sweetness around the song"
+    ],
+    "answer": "destroyed the sweetness of the song",
+    "explanation": "• **Preposition**: The sweetness belongs to the song. The possessive preposition '**of**' is the correct choice here. 🎶"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Perfume**",
+    "options": ["Extraordinary", "Redolence", "Fragrance", "Stench"],
+    "answer": "Stench",
+    "explanation": "• **Perfume**: A fragrant liquid; a pleasant smell. 🌸\n• **Stench**: A strong and very unpleasant smell. (Antonym). 🤮"
+  },
+  {
+    "question": "Select the word that is similar in meaning to the underlined word.\nMy boss maintained a very <u>parochial</u> view of the world.",
+    "options": ["Patriarchal", "Narrow", "Harmonious", "Laughing"],
+    "answer": "Narrow",
+    "explanation": "• **Parochial**: Having a limited or narrow outlook or scope. (Synonym: Narrow/Limited). 🔍"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Ample**",
+    "options": ["Enthusiastic", "Abundant", "Affectionate", "Insufficient"],
+    "answer": "Abundant",
+    "explanation": "• **Ample**: Enough or more than enough; plentiful. (Synonym: Abundant). 🌊"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Prosperity**",
+    "options": ["Money", "Gradual", "Wealth", "Failure"],
+    "answer": "Failure",
+    "explanation": "• **Prosperity**: The state of being prosperous (successful/wealthy). 📈💰\n• **Failure**: Lack of success. (Antonym). 📉"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**To go through fire and water**",
+    "options": ["To punish", "To tolerate", "To face many challenges", "To do something easy"],
+    "answer": "To face many challenges",
+    "explanation": "• **To go through fire and water**: To experience and overcome many difficulties or risks. 🔥🌊"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Taste of your own medicine**",
+    "options": [
+      "Have the same bad treatment that you have given to others",
+      "Try to manage something which went wrong",
+      "Extremely pleased and excited about something",
+      "Try everything possible"
+    ],
+    "answer": "Have the same bad treatment that you have given to others",
+    "explanation": "• **Meaning**: To experience the same unpleasant treatment that one has given to other people. 💊"
+  },
+  {
+    "question": "Identify the segment that contains a grammatical error.\nMrs. Meera and family / received his letter / a week ago.",
+    "options": ["a week ago", "No error", "received his letter", "Mrs. Meera and family"],
+    "answer": "No error",
+    "explanation": "• The sentence is grammatically sound, using the past simple 'received' for a completed action in the past ('a week ago'). ✅"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment. If there is no need to substitute it, select ‘No substitution required’.\nWho <u>penned</u> this book on the history of India’s partition?",
+    "options": ["write", "publicise", "pen", "No substitution required"],
+    "answer": "No substitution required",
+    "explanation": "• **Pen**: Used as a verb here, it means 'to write'. It is perfectly used in the past tense. ✍️📖"
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\nHe went to the <u>tomb</u> of his father to pay his tribute.",
+    "options": ["Grave", "Mortuary", "Funeral", "Ritual"],
+    "answer": "Grave",
+    "explanation": "• **Tomb/Grave**: An enclosure for a corpse cut in stone or hollowed out of the earth. (Synonym). 🪦"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe Board of Doctors declared that the patient might take time to _____________.",
+    "options": ["come round", "look round", "come across", "walk through"],
+    "answer": "come round",
+    "explanation": "• **Come round**: To recover consciousness. In medical contexts, it is the appropriate phrasal verb. 🏥🧘‍♂️"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) The major goal... is to drive economic (1)________...",
+    "options": ["growth", "inflation", "recession", "surplus"],
+    "answer": "growth",
+    "explanation": "• **Economic growth**: The increase in the production of economic goods and services. A primary goal for energy deployment. 📈"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...and (2)_________ climate change.",
+    "options": ["exclude", "exaggerate", "reduce", "increase"],
+    "answer": "reduce",
+    "explanation": "• Renewable energy is used to lower or **reduce** the impact of climate change. 📉🌍"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) ...giving residents (3)________ to inexpensive... energy.",
+    "options": ["excess", "power", "authority", "access"],
+    "answer": "access",
+    "explanation": "• **Access**: The means or opportunity to approach or use something. ⚡🔌"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...propelled India to the (4)________ of the world's sectors.",
+    "options": ["background", "forefront", "forward", "rear"],
+    "answer": "forefront",
+    "explanation": "• **Forefront**: The leading or most important position. India is a leader in this sector. 🏆🚩"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...atmosphere to (5)_________ international investment.",
+    "options": ["attract", "conceive", "examine", "borrow"],
+    "answer": "attract",
+    "explanation": "• **Attract**: To draw in or appeal to. Countries create welcoming environments to bring in global money. 🧲💸"
+  }
+]
