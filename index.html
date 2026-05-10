@@ -180,7 +180,8 @@
             "04-Feb Shift-1", "04-Feb Shift-2", "04-Feb Shift-3", "05-Feb Shift-1", "05-Feb Shift-2", "05-Feb Shift-3", "06-Feb Shift-1", "06-Feb Shift-2", "06-Feb Shift-3", "07-Feb Shift-1", "07-Feb Shift-2", "07-Feb Shift-3", "10-Feb Shift-1", "10-Feb Shift-2", "10-Feb Shift-3", "11-Feb Shift-1", "11-Feb Shift-2", "11-Feb Shift-3", "12-Feb Shift-1", "12-Feb Shift-2", "12-Feb Shift-3", "13-Feb Shift-1", "13-Feb Shift-2", "13-Feb Shift-3", "17-Feb Shift-1", "17-Feb Shift-2", "17-Feb Shift-3", "18-Feb Shift-1", "18-Feb Shift-2", "18-Feb Shift-3", "19-Feb Shift-1", "19-Feb Shift-2", "19-Feb Shift-3", "20-Feb Shift-1", "20-Feb Shift-2", "20-Feb Shift-3", "21-Feb Shift-1", "21-Feb Shift-2", "21-Feb Shift-3", "25-Feb Shift-1", "25-Feb Shift-2", "25-Feb Shift-3"
         ];
 
-        const gd2023Shifts = Array.from({length: 20}, (_, i) => `SSC GD 2023 Shift-${i + 1}`);
+        // Updated SSC GD 2023 with 15 more shifts (Total 35)
+        const gd2023Shifts = Array.from({length: 35}, (_, i) => `SSC GD 2023 Shift-${i + 1}`);
 
         // --- CORE NAVIGATION ---
         window.navigateTo = (view, params = {}, fromPopState = false) => {
@@ -311,7 +312,6 @@
             if (state.userId) {
                 let folder = (state.currentExam === 'SSC GD 2025') ? 'gd2024' : (state.currentExam === 'SSC GD 2023' ? 'gd2023' : (state.isSSC ? 'cgl2023' : null));
                 const progressId = state.isSSC ? `${folder}_shift_${state.currentShift}` : `${state.currentTopic}_level_${state.currentLevel}`;
-                // Save correct count specifically for progress tracking
                 setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'progress', progressId), { score, correct: correctCount, total: questions.length, points: Math.max(0, Math.round(score)), completedAt: new Date().toISOString() });
                 mistakesFound.forEach(m => {
                     const safeId = m.question.toLowerCase().replace(/[^a-z0-9]/gi, '_').substring(0, 50);
@@ -343,7 +343,6 @@
                 ${[1,2,3,4,5,6,7,8,9,10].map(lv => {
                     const progKey = `${state.currentTopic}_level_${lv}`;
                     const data = state.progress[progKey];
-                    // Correct percentage math: (CorrectCount / TotalQuestions) * 100
                     const pct = data ? Math.min(100, Math.round((data.correct / (data.total || 1)) * 100)) : 0;
                     return `<div onclick="window.navigateTo('content-view', {currentTopic: state.currentTopic, currentLevel:${lv}, isSSC:false, currentType: state.currentType})" class="h-16 border-2 rounded-xl flex items-center justify-center font-bold text-lg hover:border-indigo-500 transition-all font-sans premium-card p-0"><div class="progress-fill-bg" style="width: ${pct}%"></div><div class="card-inner-text">${lv}</div></div>`;
                 }).join('')}
