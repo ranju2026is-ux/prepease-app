@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Initial**",
+    "options": ["Trivial", "Inaugural", "Fractional", "Terminal"],
+    "answer": "Terminal",
+    "explanation": "• **Initial**: Existing or occurring at the beginning. 🏁\n• **Terminal**: Forming or situated at the end or extremity of something. (Antonym). 🛑"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Let the cat out of the bag**",
+    "options": [
+      "To make an announcement",
+      "To praise oneself",
+      "To work continuously",
+      "To reveal a secret accidentally"
+    ],
+    "answer": "To reveal a secret accidentally",
+    "explanation": "• **Let the cat out of the bag**: An idiom meaning to reveal a secret, usually by mistake or without intending to. 🤫🐱"
+  },
+  {
+    "question": "Parts of the following sentence have been underlined and given as options. Select the option that contains an error.\n**They eating** three apples after last night's dinner.",
+    "options": ["night's", "after", "eating", "three"],
+    "answer": "eating",
+    "explanation": "• **Grammar Error**: The verb 'eating' (Present Participle) cannot act as the main verb of a sentence without an auxiliary verb (like 'were'). \n• **Correction**: Since the context is past, it should be 'They **ate**' (Simple Past). 🍎"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Latent**",
+    "options": ["Obvious", "Deceitful", "Casual", "Dormant"],
+    "answer": "Obvious",
+    "explanation": "• **Latent**: (of a quality or state) existing but not yet developed or manifest; hidden or concealed. 🔍\n• **Obvious**: Easily perceived or understood; clear, self-evident, or apparent. (Antonym). ✨"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Salty**",
+    "options": ["Feline", "Prim", "Saline", "Pricky"],
+    "answer": "Saline",
+    "explanation": "• **Salty**: Tasting of, containing, or preserved with salt. 🧂\n• **Saline**: Containing or impregnated with salt. (Synonym). 🌊"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Adamant**",
+    "options": ["Lax", "Flexible", "Stubborn", "Genuine"],
+    "answer": "Stubborn",
+    "explanation": "• **Adamant**: Refusing to be persuaded or to change one's mind. (Synonym: Stubborn/Unyielding). 🧱"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nAdvancement in science and technology in many areas ________ the lives of people more advanced than the ancient times.",
+    "options": ["was made", "has made", "is made", "have made"],
+    "answer": "has made",
+    "explanation": "• **Subject-Verb Agreement**: The subject 'Advancement' is singular. Therefore, it takes the singular auxiliary verb '**has**'. ✅"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Gaiety", "Neigh", "Mischivious", "Inoculate"],
+    "answer": "Mischivious",
+    "explanation": "• **Incorrect spelling**: Mischivious. ❌\n• **Correct spelling**: **Mischievous**. ✅ (Note the 'e' before 'v'). 😈"
+  },
+  {
+    "question": "Select the most appropriate set of words to complete the sentence.\nWhile teaching my son how to drive a car, I told him if he didn’t hit the _______ in time he would _________ the car’s side mirror.",
+    "options": ["break; break", "brake; break", "brake; brake", "break; brake"],
+    "answer": "brake; break",
+    "explanation": "• **Brake**: A device for slowing or stopping a moving vehicle. 🛑\n• **Break**: Separate into pieces as a result of a blow, shock, or strain. 💥"
+  },
+  {
+    "question": "Select the correct option to substitute the underlined segment.\nMany people across the globe have been <u>effected by</u> the pandemic.",
+    "options": [
+      "have affected",
+      "have been affected",
+      "have effected",
+      "has been effected"
+    ],
+    "answer": "have been affected",
+    "explanation": "• **Homonyms**: **Affect** (verb) means to influence. **Effect** (usually a noun) means the result. In the passive voice, we use the past participle '**affected**'. 🦠"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Sow wild oats**",
+    "options": [
+      "Engaging in fighting",
+      "Engaging in planning",
+      "Engaging in disobedience",
+      "Engaging in rebelliousness or promiscuity"
+    ],
+    "answer": "Engaging in rebelliousness or promiscuity",
+    "explanation": "• **Sow wild oats**: An idiom meaning to go through a period of wild or reckless behavior, typically when young. 🌾🏇"
+  },
+  {
+    "question": "Identify the correctly spelt sentence.",
+    "options": [
+      "The water cycle is a circular process.",
+      "The water cycle is a circuler proces.",
+      "The water cycle is a circqlar process.",
+      "The water cycle is a circular proces."
+    ],
+    "answer": "The water cycle is a circular process.",
+    "explanation": "• **Spelling**: 'Circular' and 'Process' are both spelled correctly in Option 1. ♻️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Rare**",
+    "options": ["Usual", "Careless", "Discreet", "Unique"],
+    "answer": "Usual",
+    "explanation": "• **Rare**: (of an event, situation, or condition) not occurring very often. 💎\n• **Usual**: Habitually or typically occurring or done; customary. (Antonym). ☕"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Propagate**",
+    "options": ["Disseminate", "Spread", "Communicate", "Deplete"],
+    "answer": "Deplete",
+    "explanation": "• **Propagate**: To spread and promote (an idea, theory, etc.) widely. 📢\n• **Deplete**: Use up the supply or resources of. (Antonym in terms of increasing vs. decreasing). 📉"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nThe <u>reported alarm of the</u> earthquake scared every citizen.",
+    "options": ["alarming report", "alarmed report", "reporting alarm", "alarm reporting"],
+    "answer": "alarming report",
+    "explanation": "• **Contextual substitution**: An '**alarming report**' means a news piece that causes fear or worry, which fits the sentence perfectly. 📢⚠️"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Humans have (1)________ that animals do not have a life...",
+    "options": ["assigned", "claimed", "assumed", "pretended"],
+    "answer": "assumed",
+    "explanation": "• **Assumed**: Supposed to be the case, without proof. It fits the idea of an incorrect belief mentioned later. 🧠"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...but this (2)________ is incorrect and must be altered.",
+    "options": ["perspective", "fact", "data", "superstition"],
+    "answer": "perspective",
+    "explanation": "• **Perspective**: A particular attitude toward or way of regarding something; a point of view. 👁️"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) ...the pain we (3)________ on animals will come back to haunt us.",
+    "options": ["convict", "afflict", "conflict", "inflict"],
+    "answer": "inflict",
+    "explanation": "• **Inflict**: To cause (something unpleasant or painful) to be suffered by someone or something. 🗡️"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...no matter how (4)_______ the discovery we make by causing harm...",
+    "options": ["bad", "limited", "painful", "significant"],
+    "answer": "significant",
+    "explanation": "• **Significant**: Sufficiently great or important to be worthy of attention. The sentence argues that even 'important' discoveries don't justify cruelty. 🔬"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) It can never (5)_________ the human actions.",
+    "options": ["specify", "justify", "nullify", "classify"],
+    "answer": "justify",
+    "explanation": "• **Justify**: Show or prove to be right or reasonable. Scientific gain cannot justify animal cruelty. ⚖️"
+  }
+]
