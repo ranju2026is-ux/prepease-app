@@ -1,0 +1,147 @@
+[
+  {
+    "question": "Parts of the following sentence have been given as options. One of them may contain an error. Select the part that contains the error.\nThe old man think his younger daughter was mocking him.",
+    "options": [
+      "his younger daughter",
+      "was mocking him",
+      "No error",
+      "The old man think"
+    ],
+    "answer": "The old man think",
+    "explanation": "• **Subject-Verb Agreement**: 'The old man' is a third-person singular subject. In the simple present, it should be '**thinks**'. Alternatively, in the past tense, it would be '**thought**' to match 'was mocking'. 🚫"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe article _________ several experts on the subject.",
+    "options": ["sights", "cites", "sites", "sits"],
+    "answer": "cites",
+    "explanation": "• **Cite**: To quote (a passage, book, or author) as evidence for an argument or statement. 📖\n• **Sight**: Vision. \n• **Site**: A location. ✅"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nDuring an office tour to Mumbai, I <u>chanced to meet</u> an old friend.",
+    "options": ["ran down", "ran into", "ran over", "ran about"],
+    "answer": "ran into",
+    "explanation": "• **Ran into**: A phrasal verb meaning to meet someone unexpectedly. (Synonym: Chanced to meet). 🤝✨"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Steady**",
+    "options": ["Contrived", "Voluntary", "Undeviating", "Wavering"],
+    "answer": "Wavering",
+    "explanation": "• **Steady**: Firmly fixed, supported, or balanced; not shaking. ⚖️\n• **Wavering**: Becoming weaker; faltering; shaking. (Antonym). 🌊"
+  },
+  {
+    "question": "Substitute the underline word with its appropriate synonym.\nThe crew of the ship was <u>attacked</u>.",
+    "options": ["worshipped", "synced", "saved", "assaulted"],
+    "answer": "assaulted",
+    "explanation": "• **Attacked/Assaulted**: To make a physical attack on. (Synonyms). ⚔️"
+  },
+  {
+    "question": "Parts of the given sentence have been given as options. One of them contains a spelling error. Select the option that rectifies the error.\n...at the world **champonship** level.",
+    "options": ["wumen", "diferent", "akcross", "championship"],
+    "answer": "championship",
+    "explanation": "• **Correct spelling**: **Championship**. ✅ (The original sentence missed the 'i' after 'p'). 🏆"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nEveryone was shocked to see the old man upset and <u>unkempt</u>.",
+    "options": [
+      "messy and untidy",
+      "up and doing",
+      "proud and useless",
+      "violent and rigorous"
+    ],
+    "answer": "messy and untidy",
+    "explanation": "• **Unkempt**: (Of a person) having an untidy or disheveled appearance. (Synonym: Messy and untidy). 🧔🧹"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Realm**",
+    "options": ["Sky", "Activity", "Kingdom", "Domain"],
+    "answer": "Sky",
+    "explanation": "• **Realm**: A kingdom or a primary territory. 🏰\n• **Sky**: While 'Realm' is a specific conceptual or physical territory, 'Sky' is a general natural element and acts as the outlier/antonym here compared to synonyms like Kingdom or Domain. ☁️"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**In the fast lane**",
+    "options": [
+      "In great excitement",
+      "In complete fear",
+      "In terrific speed",
+      "In perfect discipline"
+    ],
+    "answer": "In great excitement",
+    "explanation": "• **In the fast lane**: A way of life that is full of excitement, activity, and often danger. 🏎️💨"
+  },
+  {
+    "question": "Select the most appropriate synonym for the given word.\n**False**",
+    "options": ["Unfair", "Genuine", "Correct", "Untrue"],
+    "answer": "Untrue",
+    "explanation": "• **False/Untrue**: Not in accordance with the fact or reality. (Synonyms). 🚫"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Enmity**",
+    "options": ["Probability", "Pretext", "Variability", "Hostility"],
+    "answer": "Hostility",
+    "explanation": "• **Enmity**: The state or feeling of being actively opposed or hostile to someone or something. (Synonym: Hostility). ⚔️"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nNeha has ______ and won’t come to work for a few days.",
+    "options": ["floo", "flu", "flue", "flew"],
+    "answer": "flu",
+    "explanation": "• **Flu**: Short for influenza (an illness). 🤒\n• **Flue**: A smoke duct in a chimney. \n• **Flew**: Past tense of fly."
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Penny wise and pound foolish**",
+    "options": [
+      "Serious about wealth but never working hard",
+      "Writing powerfully but speaking poorly",
+      "Careful in trivial matters but wasteful in large",
+      "Good at spending but bad at earning"
+    ],
+    "answer": "Careful in trivial matters but wasteful in large",
+    "explanation": "• **Meaning**: Being very careful about small amounts of money but then wasting large amounts on other things. 💰📉"
+  },
+  {
+    "question": "Select the word segment that substitutes the bracketed segment correctly.\nJohn and Sara (was selected as partners for project)...",
+    "options": [
+      "have selected as a partners for a project",
+      "were selected as partners for a project",
+      "has selected as a partner for a project",
+      "had selected as partners for project"
+    ],
+    "answer": "were selected as partners for a project",
+    "explanation": "• **Subject-Verb Agreement**: 'John and Sara' is a plural subject, requiring the plural verb '**were**' in the passive voice. 🤝"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Coutious", "Irrational", "Intelligent", "Excessive"],
+    "answer": "Coutious",
+    "explanation": "• **Incorrect spelling**: Coutious. ❌\n• **Correct spelling**: **Cautious**. ✅ (Meaning careful to avoid potential problems or dangers)."
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Summer camp is a terrific idea... to (1)______ pupils to acquire skills.",
+    "options": ["assist", "accelerate", "examine", "hinder"],
+    "answer": "assist",
+    "explanation": "• **Assist**: To help someone typically by doing a share of the work. Camps 'assist' students in learning. 🤝"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) It is an (2)______ outdoor activity.",
+    "options": ["omitted", "organised", "assembled", "aggravated"],
+    "answer": "organised",
+    "explanation": "• **Organised**: Arranged or structured in a systematic way. Camps are planned/organized events. 📋"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) ...so they can participate in (3)_______ activities...",
+    "options": ["much", "more", "few", "numerous"],
+    "answer": "numerous",
+    "explanation": "• **Numerous**: Great in number; many. Camps offer 'many' or 'numerous' activities. 🎨⚽"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) Summer camps are (4)_____ for all children for ten to fifteen days...",
+    "options": ["performed", "quoted", "executed", "held"],
+    "answer": "held",
+    "explanation": "• **Held**: To conduct or carry out (an event). Camps are 'held' by organizations. 📅"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) These summer camps (5)________ entertaining educational activities...",
+    "options": ["exhibit", "adapt", "align", "arrange"],
+    "answer": "arrange",
+    "explanation": "• **Arrange**: To put (things) in a neat, attractive, or required order. Camps 'arrange' or provide activities for the schedule. ⚙️"
+  }
+]
