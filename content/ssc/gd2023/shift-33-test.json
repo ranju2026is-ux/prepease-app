@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Complete the sentence by choosing the most appropriate synonym of the underlined word.\nWhen you <u>look</u> at something you __________ it.",
+    "options": ["hear", "see", "ignore", "touch"],
+    "answer": "see",
+    "explanation": "• **Look/See**: To perceive with the eyes. (Synonym). 👁️"
+  },
+  {
+    "question": "Select the option that expresses the given sentence in past perfect tense.",
+    "options": [
+      "I read a lot about mythology.",
+      "I had been reading a lot about mythology.",
+      "I was reading a lot about mythology.",
+      "I had read a lot about mythology."
+    ],
+    "answer": "I had read a lot about mythology.",
+    "explanation": "• **Past Perfect Tense**: Formed using 'had' + past participle of the verb (**had read**). 📖"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nOne night, a hunter________ near a river when he began to dream.",
+    "options": ["was slept", "sleep", "is sleeping", "was sleeping"],
+    "answer": "was sleeping",
+    "explanation": "• **Past Continuous**: Used to describe an action that was in progress ('was sleeping') when another action ('began to dream') occurred in the past. 🛌🌙"
+  },
+  {
+    "question": "Identify the MISSPELT word in the following sentence.\nNaturally bright learners are largely unaffected by classroom dinamics.",
+    "options": ["minimal", "supervision", "dinamics", "unaffected"],
+    "answer": "dinamics",
+    "explanation": "• **Incorrect spelling**: dinamics. ❌\n• **Correct spelling**: **dynamics**. ✅ (Forces or properties which stimulate growth within a system). 📊"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nThe entire economy <u>has been effected by</u> the riots in the state.",
+    "options": [
+      "have been effected",
+      "No substitution",
+      "have been affected",
+      "has been affected"
+    ],
+    "answer": "has been affected",
+    "explanation": "• **Homonyms**: **Affect** (verb) means to influence or produce a change. **Effect** is usually a noun. In this passive structure, 'affected' is the correct verb. 📉"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word.\n<u>Blunt</u> objects will not have that much impact.",
+    "options": ["Sharp", "Honest", "Torrid", "Lame"],
+    "answer": "Sharp",
+    "explanation": "• **Blunt**: Having a flat or rounded end; not sharp. 🔪🧱\n• **Sharp**: Having an edge or point that is able to cut or pierce. (Antonym). ⚔️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Sage**",
+    "options": ["Useless", "Threatening", "Foolish", "Plain"],
+    "answer": "Foolish",
+    "explanation": "• **Sage**: A profoundly wise person. 🧠\n• **Foolish**: Lacking good sense or judgment; unwise. (Antonym). 🤡"
+  },
+  {
+    "question": "Fill in the blanks with the correct homophone.\nBefore planning a trip, considering the ___________ for the trip is necessary.",
+    "options": ["fair", "fare", "fore", "fear"],
+    "answer": "fare",
+    "explanation": "• **Fare**: The money a passenger on public transport has to pay. 🎫💰\n• **Fair**: Just/impartial or an exhibition."
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Done for**",
+    "options": ["Retreated", "Depreciated", "Finished a job", "Ruined"],
+    "answer": "Ruined",
+    "explanation": "• **Done for**: An idiom meaning in a very bad situation; doomed or ruined. ❌🏚️"
+  },
+  {
+    "question": "Select the most appropriate meaning of the underlined idiom.\nThe new Prince is not <u>fit to hold a candle to</u> his dead father.",
+    "options": [
+      "holding the light to",
+      "cannot to be compared with",
+      "holding in high esteem",
+      "showing the way to"
+    ],
+    "answer": "cannot to be compared with",
+    "explanation": "• **Not fit to hold a candle to**: An idiom meaning to be much inferior to someone or something else; not even deserving of comparison. 🕯️🚫"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment. If there is no need to substitute it, select ‘No substitution’.\nTo stay healthy, <u>you must keep away from smoking</u>.",
+    "options": [
+      "No substitution",
+      "you can keep away from smoking.",
+      "you will keep away from smoking.",
+      "you may keep away from smoking"
+    ],
+    "answer": "No substitution",
+    "explanation": "• The sentence is grammatically correct and conveys a strong obligation/necessity using 'must'. ✅🚭"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Glimpse**",
+    "options": ["Vision", "Glance", "Gawk", "See through"],
+    "answer": "Glance",
+    "explanation": "• **Glimpse**: A momentary or partial view. (Synonym: Glance). 👁️⚡"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Moan", "Definite", "Extinguish", "Consientious"],
+    "answer": "Consientious",
+    "explanation": "• **Incorrect spelling**: Consientious. ❌\n• **Correct spelling**: **Conscientious**. ✅ (Wishing to do one's work or duty well and thoroughly). ✍️"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe farmers used to _______ seeds by this time.",
+    "options": ["soe", "sew", "sow", "so"],
+    "answer": "sow",
+    "explanation": "• **Sow**: To plant seeds by scattering them on or in the earth. 🌱\n• **Sew**: To join with stitches. \n• **So**: To such an extent."
+  },
+  {
+    "question": "Select the most appropriate antonym of the given word.\n**Extravagant**",
+    "options": ["Frugal", "Wicked", "Mean", "Wasteful"],
+    "answer": "Frugal",
+    "explanation": "• **Extravagant**: Lacking restraint in spending money or using resources. 💸💎\n• **Frugal**: Sparing or economical with regard to money or food. (Antonym). 💰🥖"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) The Great Depression was a severe (1) ______ economic depression...",
+    "options": ["worldwide", "statewide", "nationwide", "citywide"],
+    "answer": "worldwide",
+    "explanation": "• The Great Depression affected many countries globally, making it a '**worldwide**' event. 🌏"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...in the decade (2) _______ World War II.",
+    "options": ["proceeding", "receding", "succeeding", "preceding"],
+    "answer": "preceding",
+    "explanation": "• **Preceding**: Coming before in time. The Great Depression happened in the 1930s, before WWII began in 1939. 🕒🔙"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) In most countries the depression (3) _______ in about 1929...",
+    "options": ["started", "followed", "proceeded", "ended"],
+    "answer": "started",
+    "explanation": "• The historical start of the Great Depression is linked to the 1929 market crash. 📉"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...an example of how far the world's economy can (4) _________.",
+    "options": ["negate", "backtrack", "decline", "slip"],
+    "answer": "decline",
+    "explanation": "• **Decline**: A gradual and continuous loss of strength, numbers, quality, or value. 📉❌"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) Economic historians usually (5) ________ the start of the Great Depression to...",
+    "options": ["merit", "emblem", "assign", "attribute"],
+    "answer": "attribute",
+    "explanation": "• **Attribute**: Regard something as being caused by. Historians credit/attribute the crash as the start. ✍️"
+  }
+]
