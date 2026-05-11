@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Select the most appropriate homonym to fill in the blank.\nThis nation is _________ to each of its citizens.",
+    "options": ["feel", "fur", "fair", "fare"],
+    "answer": "fair",
+    "explanation": "• **Fair**: Impartial and just; treating people equally. ⚖️\n• **Fare**: The money paid for a journey on public transport."
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Truth**",
+    "options": ["Falsity", "Lay", "Loyal", "Reality"],
+    "answer": "Falsity",
+    "explanation": "• **Truth**: The quality or state of being true. ✅\n• **Falsity**: The fact of being untrue, incorrect, or insincere. (Antonym). ❌"
+  },
+  {
+    "question": "Select the option with the correct spelling of the underlined word.\nThey waited for him in the <u>adjcent</u> room.",
+    "options": ["adjacentt", "adgencent", "adjacent", "addjacent"],
+    "answer": "adjacent",
+    "explanation": "• **Correct spelling**: **Adjacent**. ✅ (Meaning next to or adjoining something else). 🚪🚪"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Blend**",
+    "options": ["Disunity", "Scatter", "Fusion", "Destruction"],
+    "answer": "Fusion",
+    "explanation": "• **Blend**: A mixture of different things or substances. ☕\n• **Fusion**: The process or result of joining two or more things together to form a single entity. (Synonym). 🧬"
+  },
+  {
+    "question": "Select the correct spelling of the words to fill in the blanks.\nShyam ________ an _________ letter from his employer.",
+    "options": [
+      "received; acknowledgment",
+      "reseived; knowledgement",
+      "recievid; acknowledment",
+      "recieved; aknowlegdement"
+    ],
+    "answer": "received; acknowledgment",
+    "explanation": "• **Received**: Standard spelling (remember 'i before e except after c'). ✅\n• **Acknowledgment**: Standard spelling (can also be 'acknowledgement'). ✉️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word.\nIt is quite <u>comprehensible</u> that now young people's minds are constantly being reshaped...",
+    "options": ["unfathomable", "fathomable", "understandable", "clear"],
+    "answer": "unfathomable",
+    "explanation": "• **Comprehensible**: Able to be understood. 🧠\n• **Unfathomable**: Incapable of being fully explored or understood. (Antonym). 🌊❓\n*(Note: The question asks for the antonym of the underlined word, and 'unfathomable' is provided as a contextual opposite in the options.)*"
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\n...that <u>nepotism</u> does not matter, and she is the best example of that.",
+    "options": ["favouritism", "neutrality", "unbiasedness", "objectivity"],
+    "answer": "favouritism",
+    "explanation": "• **Nepotism**: The practice among those with power or influence of favoring relatives or friends, especially by giving them jobs. (Synonym: Favouritism). 👨‍👩‍👦💼"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nThe teacher asked me to tell him <u>what is his name?</u>",
+    "options": [
+      "what name is he?",
+      "what the name is.",
+      "what his name was.",
+      "what he is called is."
+    ],
+    "answer": "what his name was.",
+    "explanation": "• **Indirect Speech**: In indirect questions, the word order is subject + verb (not verb + subject), and the tense typically shifts back (is → **was**). 🗣️"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nHe seized a thief by his __________ and forced him to answer.",
+    "options": ["colour", "choler", "caller", "collar"],
+    "answer": "collar",
+    "explanation": "• **Collar**: The part of a shirt or coat that fastens around the neck. 👔\n• **Choler**: (Historical) Anger or irascibility."
+  },
+  {
+    "question": "Select the correct idiom that can substitute the italicised group of words.\n...apparently, he became <u>annoying and irritating</u> to leather factories.",
+    "options": ["a vexed question", "a thorn in the flesh", "a slow coach", "an uphill task"],
+    "answer": "a thorn in the flesh",
+    "explanation": "• **A thorn in the flesh**: A person or thing that causes a persistent restriction or annoyance. 🌵"
+  },
+  {
+    "question": "Select the most appropriate synonym for the underlined word.\nThe moral failure was the result of his <u>lassitude</u>.",
+    "options": ["derision", "luxury", "weariness", "indulgence"],
+    "answer": "weariness",
+    "explanation": "• **Lassitude**: A state of physical or mental weariness; lack of energy. (Synonym: Weariness). 😫💤"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe child _____________ not guilty of shoplifting.",
+    "options": ["questioned", "nagged", "said", "pleaded"],
+    "answer": "pleaded",
+    "explanation": "• **Pleaded**: Formally state one's case in a court of law (e.g., 'pleaded not guilty'). 👨‍⚖️"
+  },
+  {
+    "question": "Select the correct option to substitute the underlined segment. If no substitution is required, select ‘No substitution’.\n<u>Slow and steady wins</u> the race.",
+    "options": ["No substitution", "had won the race", "won the race", "will win the race"],
+    "answer": "No substitution",
+    "explanation": "• This is a standard English proverb. It uses the simple present tense to state a general truth. ✅🐢"
+  },
+  {
+    "question": "The following sentence has been divided into parts. Select the part that contains the error.\nThe shield used by the / warrior have been one / made of strong iron.",
+    "options": [
+      "No error",
+      "warrior have been one",
+      "made of strong iron",
+      "The shield used by the"
+    ],
+    "answer": "warrior have been one",
+    "explanation": "• **Subject-Verb Agreement**: The subject 'The shield' is singular. Therefore, the verb should be '**has**', not 'have'. 🛡️🚫"
+  },
+  {
+    "question": "Select the most appropriate meaning of the underlined idiom.\nThe robber <u>showed a clean pair of heels</u> when the policeman came nearer.",
+    "options": [
+      "stole and ran away with heels",
+      "stood so as to show the heels",
+      "showed how clean the heels were",
+      "ran away"
+    ],
+    "answer": "ran away",
+    "explanation": "• **Show a clean pair of heels**: To run away very fast to escape. 🏃‍♂️💨"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Transformation of a sentence means (1) ___________ the words...",
+    "options": ["changing", "to change", "of change", "change"],
+    "answer": "changing",
+    "explanation": "• **Gerund**: 'Means' is followed by the gerund form '**changing**' to define the process. ✍️"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...without changing (2) ___________ meaning.",
+    "options": ["its", "their", "her", "his"],
+    "answer": "its",
+    "explanation": "• **Possessive Pronoun**: 'Sentence' is neuter and singular, requiring the possessive pronoun '**its**'. 📖"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) Such changes can be in the form (3) __________ changes...",
+    "options": ["in", "at", "on", "of"],
+    "answer": "of",
+    "explanation": "• **Collocation**: The standard phrase is 'the form **of** [something]'. 📝"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...and vice versa (4) ________ change in narration...",
+    "options": ["but", "or", "yet", "so"],
+    "answer": "or",
+    "explanation": "• **Conjunction**: '**Or**' is used to list different types of transformations (narration, voice, etc.). 🔗"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...from simple to (5) _________ or complex sentences.",
+    "options": ["compound", "negative", "positive", "assertive"],
+    "answer": "compound",
+    "explanation": "• **Grammar Concept**: Sentence structures are categorized as Simple, **Compound**, and Complex. 🏗️"
+  }
+]
