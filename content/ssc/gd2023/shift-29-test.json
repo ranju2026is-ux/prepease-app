@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Select the most appropriate synonym of the word given in brackets to fill in the blank.\nThe supervisor is ________ (ruthless) in his behaviour with the workers.",
+    "options": ["merciless", "senseless", "shameless", "careless"],
+    "answer": "merciless",
+    "explanation": "• **Ruthless**: Having or showing no pity or compassion for others. 😠\n• **Merciless**: Showing no mercy or pity. (Synonym). ✅"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Esteem**",
+    "options": ["Excuse", "Abuse", "Ridicule", "Respect"],
+    "answer": "Respect",
+    "explanation": "• **Esteem**: Respect and admiration, typically for a person. (Synonym: Respect). 🎖️"
+  },
+  {
+    "question": "Select the most appropriate meaning of the underlined idiom.\nIt is hard to believe that many smokers didn’t <u>go cold turkey</u> even after they got lung cancer.",
+    "options": [
+      "Losing sensory inputs",
+      "Dead",
+      "Quite addictive or dangerous behaviour",
+      "To stop a habit abruptly"
+    ],
+    "answer": "To stop a habit abruptly",
+    "explanation": "• **Go cold turkey**: To suddenly and completely stop using an addictive substance (like drugs or tobacco) rather than gradually reducing the dose. 🚬🚫"
+  },
+  {
+    "question": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\nHer bookstore flourished / because / she picks / a good location.",
+    "options": ["Her bookstore flourished", "because", "a good location", "she picks"],
+    "answer": "she picks",
+    "explanation": "• **Tense Consistency**: The main clause 'flourished' is in the Past Tense. Therefore, the reason should also be in the Past Tense. 🚫\n• **Correction**: '...because she **picked** a good location.' 📍"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word to fill in the blank.\nWelter was an <u>honest</u> worker, whereas Rodriguez was __________.",
+    "options": ["erupt", "timid", "corrupt", "candid"],
+    "answer": "corrupt",
+    "explanation": "• **Honest**: Free of deceit; truthful and sincere. 😇\n• **Corrupt**: Having or showing a willingness to act dishonestly in return for money or personal gain. (Antonym). 🐍"
+  },
+  {
+    "question": "Choose the INCORRECTLY spelt word.",
+    "options": ["Falcon", "Tailor", "Talon", "Palour"],
+    "answer": "Palour",
+    "explanation": "• **Incorrect spelling**: Palour. ❌\n• **Correct spelling**: **Parlour** (UK) or **Parlor** (US). ✅"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nThey took a while to <u>establish</u> the threat.",
+    "options": ["recognise the threat", "manifest the threat", "negotiate the threat", "move the threat"],
+    "answer": "recognise the threat",
+    "explanation": "• **Establish**: In this context, it means to discover or realize the nature of something. (Synonym: Recognise). 🔍"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Dispel**",
+    "options": ["Scatter", "Remove", "Disburse", "Integrate"],
+    "answer": "Integrate",
+    "explanation": "• **Dispel**: Make (a doubt, feeling, or belief) disappear; to scatter or drive away. 💨\n• **Integrate**: Combine (one thing) with another so that they become a whole. (Antonym). 🤝"
+  },
+  {
+    "question": "Select the option that correctly rectifies the spelling error.\nSome of the islands in the Bay of Bengal are still <u>inaccesible</u> to the scientists.",
+    "options": ["Inaccessible", "Inaccesiblle", "Inacceesible", "No error"],
+    "answer": "Inaccessible",
+    "explanation": "• **Correct spelling**: **Inaccessible**. ✅ (Note the double 'c' and double 's'). 🏝️🚫"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Blunt**",
+    "options": ["Cheerful", "Dull", "Valiant", "Sharp"],
+    "answer": "Dull",
+    "explanation": "• **Blunt**: (Of a cutting implement) not having a sharp edge or point. (Synonym: Dull). 🔪🧱"
+  },
+  {
+    "question": "Choose the option that can substitute the underlined segment correctly.\nMeenakshi looks very <u>beautiful</u> in her blue dress.",
+    "options": ["Admiring", "Lavish", "Gorgeous", "Lively"],
+    "answer": "Gorgeous",
+    "explanation": "• **Beautiful/Gorgeous**: Very attractive or pleasant to look at. (Synonym). ✨"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nThe pleasure created by the poet was primarily <u>until</u> his exaggerated descriptions.",
+    "options": [
+      "below his exaggerated descriptions",
+      "beside his exaggerated descriptions",
+      "off his exaggerated descriptions",
+      "through his exaggerated descriptions"
+    ],
+    "answer": "through his exaggerated descriptions",
+    "explanation": "• **Preposition**: The poet uses descriptions as a medium or means to create pleasure. '**Through**' indicates the means or method. ✍️✨"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Arrogant**",
+    "options": ["Humble", "Haughty", "Superior", "Scornful"],
+    "answer": "Humble",
+    "explanation": "• **Arrogant**: Having an exaggerated sense of one's own importance or abilities. 😤\n• **Humble**: Having or showing a modest or low estimate of one's importance. (Antonym). 🙇‍♂️"
+  },
+  {
+    "question": "Fill in the blanks with the correct homophone.\nHis eyes _______ up with fascination when he saw his idol.",
+    "options": ["lye", "lit", "lite", "life"],
+    "answer": "lit",
+    "explanation": "• **Lit**: The past tense of 'light'. To 'light up' means to show sudden happiness or excitement. 🌟👀"
+  },
+  {
+    "question": "Select the most appropriate idiom for the underlined segment.\n<u>Without any question</u>, Naresh is my good friend.",
+    "options": ["A good deal of", "Care a hang", "Account for", "Beyond a doubt"],
+    "answer": "Beyond a doubt",
+    "explanation": "• **Beyond a doubt**: Used to say that something is definitely true or certain. (Synonym: Without any question). ✅"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) The automobile industry is one of the (1) _______ industries at the global level.",
+    "options": ["jumping", "leading", "shortening", "moving"],
+    "answer": "leading",
+    "explanation": "• **Leading**: Most important or prominent. The car industry is a 'leading' global sector. 🏆"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) The automobile industry helps to (2)_________ economic development...",
+    "options": ["release", "block", "foster", "arrest"],
+    "answer": "foster",
+    "explanation": "• **Foster**: Encourage or promote the development of something (especially something good). 📈"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) The automobile industry consists of multiple companies (3)__________ in car manufacturing.",
+    "options": ["unspecialised", "specialised", "simplified", "non-simplified"],
+    "answer": "specialised",
+    "explanation": "• **Specialised**: Concentrating on a small area of a subject or skill. 🏭⚙️"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...trucks, motorcycles, mopeds and (4)_______ bicycles.",
+    "options": ["fuel-based", "motorised", "non-motorised", "non-fuel"],
+    "answer": "non-motorised",
+    "explanation": "• **Non-motorised**: Bicycles contrast with motorcycles and mopeds because they do not have a motor. 🚲"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ... manufacturers’ blocs that work (5)______ at the global level.",
+    "options": ["hurriedly", "smoothly", "collaboratively", "single-handedly"],
+    "answer": "collaboratively",
+    "explanation": "• **Collaboratively**: In a way that involves two or more parties working together. Blocs imply cooperation. 🤝"
+  }
+]
