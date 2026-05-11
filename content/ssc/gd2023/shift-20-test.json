@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nHe decided not to go for the picnic as he was feeling a little____________.",
+    "options": ["as right as rain", "under the weather", "head in the clouds", "calm before the storm"],
+    "answer": "under the weather",
+    "explanation": "• **Under the weather**: An idiom meaning to feel slightly ill or not well. 🤒\n• **As right as rain**: To feel perfectly well."
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment. If there is no need to substitute it, select ‘No substitution’.\n<u>I am born in the United States</u>, yet I consider myself Indian.",
+    "options": [
+      "I was born in the United States,",
+      "No substitution",
+      "I was born at the United States,",
+      "I was born in United States,"
+    ],
+    "answer": "I was born in the United States,",
+    "explanation": "• **Tense**: Being born is a past event, so the simple past passive '**was born**' is required. \n• **Articles**: 'The' is necessary before 'United States'. 🇺🇸"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Sluggish**",
+    "options": ["Flatter", "Humiliate", "Active", "Lethargic"],
+    "answer": "Active",
+    "explanation": "• **Sluggish**: Slow-moving or inactive. 🐌\n• **Active**: Engaging or ready to engage in physically energetic pursuits. (Antonym). 🏃‍♂️"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nHe received a __________ during the ceremony.",
+    "options": ["metal", "medal", "meddle", "mettle"],
+    "answer": "medal",
+    "explanation": "• **Medal**: A metal disc given as an award. 🥇\n• **Mettle**: A person's ability to cope well with difficulties. \n• **Meddle**: To interfere in something."
+  },
+  {
+    "question": "Select the most appropriate antonym of the given word.\n**Betray**",
+    "options": ["Disloyal", "Sympathy", "Adverse", "Protect"],
+    "answer": "Protect",
+    "explanation": "• **Betray**: To be disloyal to; to expose to danger by giving information to an enemy. 🐍\n• **Protect**: To keep safe from harm or injury. (Antonym). 🛡️"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Spick and span**",
+    "options": [
+      "To leave a place quickly",
+      "To be in trouble",
+      "To be neat and clean",
+      "To be untidy"
+    ],
+    "answer": "To be neat and clean",
+    "explanation": "• **Spick and span**: An idiom meaning spotlessly clean and well-organized. ✨🧹"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Blaze the trail**",
+    "options": [
+      "To be defeated",
+      "To receive fame",
+      "To cause a damage",
+      "Be first to do something important"
+    ],
+    "answer": "Be first to do something important",
+    "explanation": "• **Blaze the trail**: To be a pioneer in a particular field or endeavor; to lead the way for others. 🚩"
+  },
+  {
+    "question": "Select the most appropriate synonym of the capitalised word.\nI had the **PRIVILEGE** of meeting the magistrate.",
+    "options": ["Recommendation", "Guidance", "Honour", "Atrocity"],
+    "answer": "Honour",
+    "explanation": "• **Privilege**: A special right, advantage, or immunity granted or available only to a particular person or group. (Synonym: Honour). 🎖️"
+  },
+  {
+    "question": "Identify the correctly spelt sentence.",
+    "options": [
+      "Celastial objects are not visible to the naked eye.",
+      "Kelestial objects are not visible to the naked eye.",
+      "Celesteal objects are not visible to the naked eye.",
+      "Celestial objects are not visible to the naked eye."
+    ],
+    "answer": "Celestial objects are not visible to the naked eye.",
+    "explanation": "• **Correct spelling**: **Celestial**. ✅ (Positioned in or relating to the sky, or outer space). 🌌"
+  },
+  {
+    "question": "The following sentence has been split into four segments. Identify the segment that contains an error.\nNyra have / been taking / dance classes / this year.",
+    "options": ["dance classes", "been taking", "Nyra have", "this year"],
+    "answer": "Nyra have",
+    "explanation": "• **Subject-Verb Agreement**: 'Nyra' is a third-person singular subject, so it should be paired with '**has**', not 'have'. 🚫💃"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Cherish**",
+    "options": ["Condemn", "Abandon", "Neglect", "Admire"],
+    "answer": "Admire",
+    "explanation": "• **Cherish**: To protect and care for someone or something lovingly; to hold dear. (Synonym: Admire). ❤️"
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\nI was <u>startled</u> by his entry into the hall.",
+    "options": ["glad", "cherished", "frightened", "miserable"],
+    "answer": "frightened",
+    "explanation": "• **Startled**: Feeling or showing sudden shock or alarm. (Synonym: Frightened). 😱"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nThe objective of Robotics <u>are to interrogate</u> smart machines...",
+    "options": ["is to develop", "is to bully", "are to facilitate", "are to levitate"],
+    "answer": "is to develop",
+    "explanation": "• **Subject-Verb Agreement**: 'Objective' is singular, so it requires '**is**'. \n• **Context**: Robotics aims to 'develop' or 'create' machines, not interrogate them. 🤖"
+  },
+  {
+    "question": "Identify the INCORRECTLY spelt word and select its correct spelling.\nA **trimphant** smile appeared on his face.",
+    "options": ["Trimpant", "Triumphant", "Triumpant", "Tremphant"],
+    "answer": "Triumphant",
+    "explanation": "• **Correct spelling**: **Triumphant**. ✅ (Having won a battle or contest; victorious). 🏆"
+  },
+  {
+    "question": "Select the correct word for the blanks in the given sentence.\nHe _________ to success after winning a lottery and _________ is everyone’s favourite flower.",
+    "options": ["got", "rise", "zenith", "rose"],
+    "answer": "rose",
+    "explanation": "• **Homonyms**: '**Rose**' (past tense of rise) describes his success, and '**rose**' is also a popular flower. 🌹📈"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) It is often said that (1) _______ you want a pet to look up to you, get a dog.",
+    "options": ["whenever", "whether", "ever", "if"],
+    "answer": "if",
+    "explanation": "• **Conditional**: '**If**' is used to present a condition or hypothetical situation. 🐕"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) If you want a pet that looks straight (2) ________ you, get a horse.",
+    "options": ["by", "to", "at", "over"],
+    "answer": "at",
+    "explanation": "• **Preposition**: We 'look **at**' something or someone. 🐴"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) For an animal that looks down (3) _________ you, the cat...",
+    "options": ["on", "with", "at", "in"],
+    "answer": "on",
+    "explanation": "• **Look down on**: A phrasal verb meaning to think that you are better than someone; also used here literally for a cat's attitude. 🐱"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...the cat must surely (4) _______ this description.",
+    "options": ["fit", "find", "mist", "feat"],
+    "answer": "fit",
+    "explanation": "• **Fit the description**: A common collocation meaning to have the qualities previously described. ✅"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) If you have (5) ________ looked closely at the cat...",
+    "options": ["ever", "never", "sometime", "whenever"],
+    "answer": "ever",
+    "explanation": "• **Usage**: '**Ever**' is used in conditional sentences or questions to mean 'at any time'. 🐈🔍"
+  }
+]
