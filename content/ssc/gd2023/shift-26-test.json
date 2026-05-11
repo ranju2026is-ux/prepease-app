@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Select the most appropriate ANTONYM of the word given in brackets to fill in the blank.\nThe company of friends made her feel ________ (cranky), as she was all alone in her apartment.",
+    "options": ["awful", "wishful", "cheerful", "fearful"],
+    "answer": "cheerful",
+    "explanation": "• **Cranky**: Bad-tempered; irritable. 😠\n• **Cheerful**: Noticeably happy and optimistic. (Antonym). 😊"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Fascinating**",
+    "options": ["Interesting", "Dominating", "Revolting", "Intimidating"],
+    "answer": "Interesting",
+    "explanation": "• **Fascinating**: Extremely interesting. (Synonym: Interesting). ✨"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Symbolise**",
+    "options": ["Hide", "Link", "Slide", "Align"],
+    "answer": "Hide",
+    "explanation": "• **Symbolise**: To represent or identify by a symbol; to show. 🚩\n• **Hide**: To prevent from being seen; conceal. (Antonym). 🙈"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Coherent", "Frekquent", "Collide", "Ferocious"],
+    "answer": "Frekquent",
+    "explanation": "• **Incorrect spelling**: Frekquent. ❌\n• **Correct spelling**: **Frequent**. ✅"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Silver tongue**",
+    "options": [
+      "Speaking to annoy people",
+      "Speaking to bore people",
+      "Speaking with an eloquent expression to convince people",
+      "Speaking to discourage people"
+    ],
+    "answer": "Speaking with an eloquent expression to convince people",
+    "explanation": "• **Silver tongue**: A tendency to be eloquent and persuasive in speaking. 🗣️✨"
+  },
+  {
+    "question": "The given sentence is divided into three segments. Select the option that has the segment with a grammatical error.\nShe have / left by the time / I reach home.",
+    "options": ["I reach home", "left by the time", "She have", "No error"],
+    "answer": "She have",
+    "explanation": "• **Subject-Verb Agreement**: 'She' is a third-person singular subject, which requires '**has**' instead of 'have'. 🚫"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Splendid**",
+    "options": ["Stationary", "Authentic", "Spectacular", "Enticing"],
+    "answer": "Spectacular",
+    "explanation": "• **Splendid**: Magnificent; very impressive. (Synonym: Spectacular). 🌟"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Enterprising", "Maticulous", "Erroneous", "Potable"],
+    "answer": "Maticulous",
+    "explanation": "• **Incorrect spelling**: Maticulous. ❌\n• **Correct spelling**: **Meticulous**. ✅ (Meaning showing great attention to detail)."
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Public enemy number one**",
+    "options": [
+      "A person who always smiles",
+      "Someone who is the greatest threat to a group or community",
+      "The opposition party leader",
+      "One who helps the poor"
+    ],
+    "answer": "Someone who is the greatest threat to a group or community",
+    "explanation": "• **Public enemy number one**: A person or thing that is considered the greatest threat to the welfare of the general public. 🚫👤"
+  },
+  {
+    "question": "Select the word segment that substitutes the bracketed segment correctly.\nShakespeare was both a dramatist (better than) a poet.",
+    "options": ["when not", "as well as", "or", "and"],
+    "answer": "as well as",
+    "explanation": "• **Conjunction**: 'Both... and' is a pair, but 'as well as' can be used to join two professions meaningfully in this context. Between 'and' and 'as well as', 'as well as' is often used to emphasize the addition. ✅"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\n<u>I am been working here</u> for the past ten years.",
+    "options": [
+      "have been working here",
+      "is been working here",
+      "was been working here",
+      "having been working here"
+    ],
+    "answer": "have been working here",
+    "explanation": "• **Present Perfect Continuous**: For a duration (ten years), use '**have been working**'. ⏳"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Dignify**",
+    "options": ["Condemn", "Adorn", "Oblige", "Cure"],
+    "answer": "Condemn",
+    "explanation": "• **Dignify**: To make something seem worthy and impressive. 👑\n• **Condemn**: To express complete disapproval of; to dishonor. (Antonym). 👎"
+  },
+  {
+    "question": "Select the most appropriate homophone to substitute the underlined word.\nThese ornaments are coated with gold.",
+    "options": ["gilled", "gel", "gild", "guild"],
+    "answer": "gild",
+    "explanation": "• **Gild**: To cover thinly with gold. 💍✨\n• **Guild**: An association of people for a common goal."
+  },
+  {
+    "question": "Select the most appropriate option to substitute the underlined segment. If no substitution is required, select ‘No substitution’.\nOne must <u>not only have the ability to read voraciously but</u> have the necessary training...",
+    "options": [
+      "not only have the ability for read voraciously but also have",
+      "not only have the ability to read voraciously but also had",
+      "No substitution",
+      "not only have the ability to read voraciously but also have"
+    ],
+    "answer": "not only have the ability to read voraciously but also have",
+    "explanation": "• **Correlative Conjunction**: 'Not only' must be paired with '**but also**'. 📝"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nScientists are able to quickly _________ the outbreak through a new immunisation.",
+    "options": ["quench", "scatter", "quest", "quash"],
+    "answer": "quash",
+    "explanation": "• **Quash**: To put an end to; suppress. It is used for ending an outbreak or a rebellion. 💉🛑"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) The ability to think clearly while addressing an (1) ______...",
+    "options": ["audience", "adult", "accomplice", "association"],
+    "answer": "audience",
+    "explanation": "• The passage is about public speaking, so the speaker addresses an '**audience**'. 🗣️"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...should act as a stimulus and not as a (2) ______ to thought.",
+    "options": ["hindrance", "briefing", "catch", "choice"],
+    "answer": "hindrance",
+    "explanation": "• **Hindrance**: A thing that provides resistance, delay, or obstruction. The audience shouldn't stop your thoughts. 🚫"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) Even great speakers (3) ______ stage fright.",
+    "options": ["experience", "accorded", "keened", "saved"],
+    "answer": "experience",
+    "explanation": "• **Experience**: To encounter or undergo an event or occurrence. 🎤😰"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) But every speaker who is struggling to gain (4) ______...",
+    "options": ["merit", "profit", "money", "confidence"],
+    "answer": "confidence",
+    "explanation": "• **Confidence**: The feeling or belief that one can rely on someone or something. Speakers strive for confidence. 💪"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...is accompanied by a little (5) ______.",
+    "options": ["childishness", "happiness", "nervousness", "trick"],
+    "answer": "nervousness",
+    "explanation": "• The passage explains that a bit of '**nervousness**' is normal and common in good public speaking. 📉"
+  }
+]
