@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Identify and correct the INCORRECTLY spelt word in the given sentence:\n**The flora and fauna of the Anaimalai hills are uneeque to its region.**",
+    "options": ["unique", "fona", "flaura", "regian"],
+    "answer": "unique",
+    "explanation": "• **Incorrect spelling**: uneeque. ❌\n• **Correct spelling**: **Unique**. ✅ (Meaning being the only one of its kind; unlike anything else)."
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Called for**",
+    "options": ["To cast a spell", "To require something", "Brief visit Refresh", "Recollect"],
+    "answer": "To require something",
+    "explanation": "• **Called for**: A phrasal verb meaning to need or deserve a particular action or quality; to require. 📢"
+  },
+  {
+    "question": "Identify the segment that contains a grammatical error.\nThe coach said / that Shreyas / had practicing on / the lawn tennis court.",
+    "options": [
+      "the lawn tennis court",
+      "that Shreyas",
+      "The coach said",
+      "had practicing on"
+    ],
+    "answer": "had practicing on",
+    "explanation": "• **Grammar Error**: The structure 'had + practicing' is incorrect. \n• **Correction**: It should be '**had been practicing**' (Past Perfect Continuous) or '**was practicing**' (Past Continuous). 🎾"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nWhen someone waves a white flag, it signifies that they <u>want to tolerate</u> to the other party.",
+    "options": [
+      "wants to tolerate",
+      "wants to interrupt",
+      "wanted to interrogate",
+      "want to surrender"
+    ],
+    "answer": "want to surrender",
+    "explanation": "• **Symbolism**: Waving a white flag is the universal sign for **surrender** or a request for a truce. 🏳️"
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\nNothing equalled the <u>grief</u> I felt at the death of my pet cat.",
+    "options": ["Freedom", "Bondage", "Fear", "Anguish"],
+    "answer": "Anguish",
+    "explanation": "• **Grief**: Deep sorrow, especially that caused by someone's death. \n• **Anguish**: Severe mental or physical pain or suffering. (Synonym). 😿"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nAfter he finished eating his lunch, the boy sitting next to me __________ intently at me.",
+    "options": ["turned", "stared", "shared", "came"],
+    "answer": "stared",
+    "explanation": "• **Stared**: Looked fixedly or vacantly at someone or something with one's eyes wide open. We 'stare intently'. 👀"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nThe melodious song <u>reminded Revathi on the</u> nostalgic moments of her past.",
+    "options": [
+      "by the nostalgic moments in",
+      "at the nostalgic moments of",
+      "of the nostalgic moments at",
+      "of the nostalgic moments of"
+    ],
+    "answer": "of the nostalgic moments of",
+    "explanation": "• **Preposition**: The standard phrasal verb is 'remind someone **of**' something. 🎶🧠"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**It takes two to tango**",
+    "options": [
+      "Two people crossing the street together",
+      "A conflict where both people are at fault",
+      "Diagonally across",
+      "Two people are needed for any game"
+    ],
+    "answer": "A conflict where both people are at fault",
+    "explanation": "• **It takes two to tango**: An idiom meaning that both parties involved in a situation or argument are equally responsible for it. 💃🕺"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Alight**",
+    "options": ["Commence", "Earn", "Enlighten", "Descend"],
+    "answer": "Descend",
+    "explanation": "• **Alight**: To step down or come down from a form of transport (like a bus or horse). (Synonym: Descend). 📉"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the word given in brackets to fill in the blank.\nThe boys are very (hyper) _________ today.",
+    "options": ["naughty", "hungry", "tranquil", "good"],
+    "answer": "tranquil",
+    "explanation": "• **Hyper**: Overactive; energetic. ⚡\n• **Tranquil**: Free from disturbance; calm. (Antonym). 🧘‍♂️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Savage**",
+    "options": ["Tame", "Robust", "Wild", "Bold"],
+    "answer": "Tame",
+    "explanation": "• **Savage**: (of an animal or force of nature) fierce, violent, and uncontrolled. 🐺\n• **Tame**: (of an animal) not dangerous or frightened of people; domesticated. (Antonym). 🐕"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Endurance**",
+    "options": ["Patience", "Indolence", "Persistence", "Tolerance"],
+    "answer": "Indolence",
+    "explanation": "• **Endurance**: The ability to endure an unpleasant or difficult process or situation without giving way. 💪\n• **Indolence**: Avoidance of activity or exertion; laziness. (Antonym in terms of effort/persistence). 🛌"
+  },
+  {
+    "question": "Select the correct pair of homonyms to fill in the blanks.\nThe river ______ provide a reserve _______ for minerals.",
+    "options": ["right, right", "banks, bank", "band, band", "quail, quail"],
+    "answer": "banks, bank",
+    "explanation": "• **Banks**: The land alongside a river. 🌊\n• **Bank**: A financial establishment or a 'reserve/store' of something. 💰"
+  },
+  {
+    "question": "Select the most appropriate synonym of 'Rigid' to fill in the blank.\nThe new education scenario is not ________ but practical.",
+    "options": ["popular", "dominating", "flexible", "stiff"],
+    "answer": "stiff",
+    "explanation": "• **Rigid/Stiff**: Not able to be changed or adapted. (Synonyms). 🧱"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Domicile", "Trendy", "Vacillate", "Vaccuum"],
+    "answer": "Vaccuum",
+    "explanation": "• **Incorrect spelling**: Vaccuum. ❌\n• **Correct spelling**: **Vacuum**. ✅ (Note: double 'u', not double 'c'). 🧹"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) The room looked as though a (1) __________ had swept through it.",
+    "options": ["spring", "hurricane", "dream", "broom"],
+    "answer": "hurricane",
+    "explanation": "• **Hurricane**: A storm with a violent wind. It fits the context of 'sweeping through' and causing mess. 🌀"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) The storm had blown (2) _________ the French doors during the night...",
+    "options": ["clean", "open", "broke", "closed"],
+    "answer": "open",
+    "explanation": "• **Phrasal usage**: Storms 'blow **open**' doors or windows. 💨🚪"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) ...and the wind and the rain had wreaked havoc, (3) _________ everything before it.",
+    "options": ["binding", "sharing", "saving", "scattering"],
+    "answer": "scattering",
+    "explanation": "• **Scattering**: Throwing in various random directions. Wind and rain scatter objects. 🌬️🍃"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) A few (4) _________ pages of the report lay on the wet rug...",
+    "options": ["lose", "loose", "read", "tight"],
+    "answer": "loose",
+    "explanation": "• **Loose**: Not firmly or tightly fixed in place. 'Loose pages' refers to pages that are detached. 📄"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...but the rest of the pages had obviously been carried (5) _________ by the wind.",
+    "options": ["over", "nearer", "away", "of"],
+    "answer": "away",
+    "explanation": "• **Phrasal Verb**: To 'carry **away**' means to move something to another place, typically by wind or water. 🌬️📜"
+  }
+]
