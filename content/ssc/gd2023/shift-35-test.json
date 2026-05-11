@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Counsel**",
+    "options": ["Slim", "Advice", "Minister", "Scintillate"],
+    "answer": "Advice",
+    "explanation": "• **Counsel**: Advice, especially that given formally. (Synonym: Advice). 🗣️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Protest**",
+    "options": ["Support", "Notice", "Provide", "Assert"],
+    "answer": "Support",
+    "explanation": "• **Protest**: A statement or action expressing disapproval of or objection to something. 🛑\n• **Support**: To give assistance to, or be in agreement with. (Antonym). ✅"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Plead**",
+    "options": ["Mourn", "Reject", "Beseech", "Welcome"],
+    "answer": "Beseech",
+    "explanation": "• **Plead**: To make an emotional appeal. (Synonym: Beseech/Beg). 🙏"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlying word and complete the sentence.\nIn the debate competition he scored less due to his **banal** arguments, while his opponent won because of his __________ arguments.",
+    "options": ["pure", "timid", "novel", "weary"],
+    "answer": "novel",
+    "explanation": "• **Banal**: So lacking in originality as to be obvious and boring. 😴\n• **Novel**: Interestingly new or unusual. (Antonym). ✨"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Blank**",
+    "options": ["Valuate", "Trembled", "Filled", "Filed"],
+    "answer": "Filled",
+    "explanation": "• **Blank**: Empty; not filled in. 📄\n• **Filled**: Having something inside; occupied. (Antonym). 📝"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nThe reign of Akbar <u>was the one glorious periods</u> in Indian history.",
+    "options": [
+      "was one of the glorious periods",
+      "were one of the glorious period",
+      "was one glorious periods",
+      "was one of the glorious period"
+    ],
+    "answer": "was one of the glorious periods",
+    "explanation": "• **Grammar Rule**: The structure 'one of the' is always followed by a plural noun ('periods'). ✅"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nMike talks in an American ________.",
+    "options": ["assent", "accent", "ascend", "ascent"],
+    "answer": "accent",
+    "explanation": "• **Accent**: A distinctive way of pronouncing a language. 🗣️🇺🇸\n• **Ascent/Ascend**: To climb upward.\n• **Assent**: Expression of approval."
+  },
+  {
+    "question": "Identify the segment that contains an error.\nHe will give you / good advice if / you will ask him.",
+    "options": ["He will give you", "you will ask him", "good advice if", "No error"],
+    "answer": "you will ask him",
+    "explanation": "• **Conditional Clauses**: In a first conditional sentence, the 'if' clause uses the simple present, not 'will'. 🚫\n• **Correction**: '...if you **ask** him'."
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\n<u>If you not ready</u> with the song, it is better to let them know.",
+    "options": [
+      "If you could not be ready with the song",
+      "If you were not ready with the song",
+      "If you would not be ready with the song",
+      "If you are not ready with the song"
+    ],
+    "answer": "If you are not ready with the song",
+    "explanation": "• **Grammar**: A sentence requires a helping verb ('are') to link the subject 'you' to the adjective 'ready'. ✅"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Theoretical", "Administration", "Amplefication", "Interpretation"],
+    "answer": "Amplefication",
+    "explanation": "• **Correct spelling**: **Amplification**. ✅ (Note the 'i' after 'p')."
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Reluctent", "Cautious", "Ordinary", "Slippery"],
+    "answer": "Reluctent",
+    "explanation": "• **Correct spelling**: **Reluctant**. ✅ (Suffix is '-ant')."
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Spill the beans**",
+    "options": [
+      "To swallow beans curry",
+      "Tell something that should be kept secret",
+      "To spit the bitter fruits",
+      "To hide important information"
+    ],
+    "answer": "Tell something that should be kept secret",
+    "explanation": "• **Spill the beans**: To reveal secret information unintentionally or indiscreetly. 🤫"
+  },
+  {
+    "question": "Select the most appropriate synonym of 'Daunt' to fill in the blank.\nMy coach said, “Failures didn’t ________ the hero.”",
+    "options": ["brave", "moralize", "discourage", "hopeless"],
+    "answer": "discourage",
+    "explanation": "• **Daunt**: To make (someone) feel intimidated or apprehensive. (Synonym: Discourage). 📉"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Back to square one**",
+    "options": [
+      "To escape",
+      "To hope something happens the way you want it to",
+      "To be treated badly",
+      "Having to start all over again"
+    ],
+    "answer": "Having to start all over again",
+    "explanation": "• **Back to square one**: To start again from the very beginning because a previous attempt failed. 🔄"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nHe’s <u>in and out in town</u> making plans.",
+    "options": ["out and beside", "with and out", "out and about", "east and west"],
+    "answer": "out and about",
+    "explanation": "• **Out and about**: An idiom meaning active and going to different places. 🚶‍♂️🏙️"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Isolation and loneliness (1) ________ by the Covid-19 pandemic...",
+    "options": ["built", "constructed", "caused", "prepared"],
+    "answer": "caused",
+    "explanation": "• **Caused**: The pandemic was the reason for the isolation. 🦠"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...policies negatively (2) _______ the mental health...",
+    "options": ["shown", "did", "formed", "impacted"],
+    "answer": "impacted",
+    "explanation": "• **Impacted**: To have a strong effect on someone or something. 📉"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) These result in an increase in emotional (3) __________...",
+    "options": ["stress", "anxiety", "death", "state"],
+    "answer": "stress",
+    "explanation": "• **Emotional stress**: A state of mental or emotional strain or tension. 🧠⚡"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ... (4) __________ of hopelessness...",
+    "options": ["feelings", "notion", "idea", "concept"],
+    "answer": "feelings",
+    "explanation": "• **Feelings**: Emotional states or reactions. 'Feelings of hopelessness' is a standard phrase. 😞"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...which are (5) _______ by variations in emotional responses.",
+    "options": ["accompanied", "preserved", "guarded", "surrounded"],
+    "answer": "accompanied",
+    "explanation": "• **Accompanied**: To go along with or occur at the same time as something else. 🤝"
+  }
+]
