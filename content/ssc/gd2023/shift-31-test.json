@@ -1,0 +1,137 @@
+[
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Mischief", "Perceive", "Acheive", "Receive"],
+    "answer": "Acheive",
+    "explanation": "• **Correct spelling**: **Achieve**. ✅\n• **Rule**: The rule is 'i before e except after c' for most words. 'Achieve' follows this rule by using 'ie'."
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Pull yourself together**",
+    "options": ["Brew new problems", "Transform society", "Enervate the downtrodden", "Calm down"],
+    "answer": "Calm down",
+    "explanation": "• **Pull yourself together**: To recover control of one's emotions and become calm after being very upset or angry. 🧘‍♂️"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nArun has experienced severe mental and emotional turmoil, as well as interpersonal ________ at times.",
+    "options": ["dizziness", "symptoms", "numbness", "fatigue"],
+    "answer": "fatigue",
+    "explanation": "• **Fatigue**: Extreme tiredness resulting from mental or physical exertion or illness. In the context of turmoil, 'fatigue' fits the description of mental exhaustion. 😫"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Early**",
+    "options": ["Beforehand", "Complex", "Late", "Tardy"],
+    "answer": "Beforehand",
+    "explanation": "• **Early/Beforehand**: Happening or done before the usual or expected time. ⏰"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Flatter**",
+    "options": ["Soil", "Insult", "Adulate", "Cajole"],
+    "answer": "Insult",
+    "explanation": "• **Flatter**: To praise someone excessively or insincerely. 🗣️✨\n• **Insult**: To speak to or treat with disrespect or scornful abuse. (Antonym). 😠"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the word given in brackets to fill in the blank.\nWatching the singer perform live at the concert ________ (alert) the audience for a moment.",
+    "options": ["shunned", "distracted", "called", "summoned"],
+    "answer": "distracted",
+    "explanation": "• **Alert**: To be watchful and attentive. 🧐\n• **Distracted**: Unable to concentrate or give attention to something. (Antonym). 🌀"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Volunter", "Raisin", "Quotable", "Pamphlet"],
+    "answer": "Volunter",
+    "explanation": "• **Correct spelling**: **Volunteer**. ✅ (Note the double 'e')."
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blanks.\nI taught my son the ________ way to tie a ________.",
+    "options": ["right; not", "write; knot", "right; knot", "write; not"],
+    "answer": "right; knot",
+    "explanation": "• **Right**: Correct or proper. ✅\n• **Knot**: A fastening made by looping a piece of string or rope. 🪢"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nWhen I was young, <u>I can memorise</u> lessons faster than Mohan.",
+    "options": [
+      "I could memorise lessons faster to Mohan",
+      "I could memorise lessons faster than Mohan",
+      "No substitution",
+      "I can memorise lessons faster to Mohan"
+    ],
+    "answer": "I could memorise lessons faster than Mohan",
+    "explanation": "• **Tense**: The sentence refers to the past ('When I was young'), so the modal 'can' must change to '**could**'. \n• **Comparison**: We use 'faster **than**' for comparisons. 📉"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Obstruct**",
+    "options": ["Separate", "Block", "Magnify", "Obey"],
+    "answer": "Block",
+    "explanation": "• **Obstruct/Block**: To be or get in the way of; to prevent or hinder movement or progress. 🚧"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nI was <u>very much surprised</u> to see Mariam at the party.",
+    "options": ["bowled", "astonished", "stalked", "aghast"],
+    "answer": "astonished",
+    "explanation": "• **Astonished**: Greatly surprised or impressed; amazed. (Synonym). 😲"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Encircle**",
+    "options": ["Entire", "Entice", "Embrace", "Exclude"],
+    "answer": "Exclude",
+    "explanation": "• **Encircle**: To surround or form a circle around. ⭕\n• **Exclude**: To deny access to or bar from a place, group, or privilege. (Antonym in terms of containment). 🚫"
+  },
+  {
+    "question": "Select the most appropriate meaning of the underlined idiom.\nEven though his car was badly damaged... Rohan <u>did not turn a hair</u>.",
+    "options": [
+      "Change the hairstyle",
+      "Demand compensation",
+      "Understand anything",
+      "To show no outward emotion"
+    ],
+    "answer": "To show no outward emotion",
+    "explanation": "• **Not turn a hair**: To remain completely calm and show no sign of fear, surprise, or emotion. 🧊"
+  },
+  {
+    "question": "Identify the segment that contains a grammatical error.\nDad, will you get me a box of crayons... Or I <u>will not be let you stay</u> in the class.",
+    "options": [
+      "Or I will not be let you stay in the class”.",
+      "on your way home? Teacher said yesterday, “You must bring",
+      "Dad, will you get me a box of crayons",
+      "a box of crayons with you to the drawing class."
+    ],
+    "answer": "Or I will not be let you stay in the class”.",
+    "explanation": "• **Error**: The future active construction should be 'I **will not let you stay**'. The addition of 'be' makes it incorrect passive/continuous fusion. 🚫"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the word given in brackets.\nThose who have________ (humility) will definitely fall down.",
+    "options": ["weakness", "pride", "disrespect", "veracity"],
+    "answer": "pride",
+    "explanation": "• **Humility**: A modest or low view of one's own importance. 🙇‍♂️\n• **Pride**: A high or inordinate opinion of one's own dignity or importance. (Antonym). 😤"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Advertising (1) _______ initially meant to make people aware...",
+    "options": ["are", "will", "is", "was"],
+    "answer": "was",
+    "explanation": "• **Tense**: The word 'initially' indicates a past state. Since 'Advertising' is singular, we use '**was**'. 📺"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...announcing what you have in your store or the services you offer on your (2) ______.",
+    "options": ["estate", "abode", "places", "premises"],
+    "answer": "premises",
+    "explanation": "• **Premises**: A house or building, together with its land and outbuildings, occupied by a business. 🏢"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) ...service providers who fancy an (3) _______ over their competitors.",
+    "options": ["edge", "authority", "empire", "mastery"],
+    "answer": "edge",
+    "explanation": "• **Edge**: A slight advantage over someone or something. 📈"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ... resulted in creating unnecessary wants and (4) _______ consumption.",
+    "options": ["excess", "unneeded", "redundant", "ample"],
+    "answer": "excess",
+    "explanation": "• **Excess**: An amount of something that is more than necessary. It is used here as an adjective to describe too much consumption. 🍟🥤"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) It (5) ______ on our minds rendering us completely irrational.",
+    "options": ["sacrifices", "assassinates", "preys", "victimises"],
+    "answer": "preys",
+    "explanation": "• **Preys on**: To exert a harmful or distressing influence on something (like one's mind). 🦅"
+  }
+]
