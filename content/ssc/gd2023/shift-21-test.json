@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Keep a straight face**",
+    "options": [
+      "To pretend to be cheerful",
+      "When a plan suddenly fails",
+      "To be stingy",
+      "Look serious though you want to laugh"
+    ],
+    "answer": "Look serious though you want to laugh",
+    "explanation": "• **Keep a straight face**: To manage to stop yourself from smiling or laughing at something you think is funny. 😐"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Attain**",
+    "options": ["Achieve", "Abandon", "Destroy", "Commence"],
+    "answer": "Achieve",
+    "explanation": "• **Attain**: Succeed in achieving (something that one has worked for). (Synonym: Achieve). 🏆"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe play usually needs half an hour for its preparation and makeup, and its performance ___________ within ten minutes.",
+    "options": ["would end", "ends", "has ended", "ended"],
+    "answer": "ends",
+    "explanation": "• **Tense Consistency**: The sentence describes a general fact or routine using the simple present ('needs'). Therefore, the second verb must also be in simple present ('ends'). 🎭"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nMost often, child labour occurs when families _______ financial challenges or uncertainty...",
+    "options": ["face", "emulate", "contend", "happen"],
+    "answer": "face",
+    "explanation": "• **Collocation**: To 'face challenges' is a standard English expression meaning to encounter or deal with difficulties. ⚠️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Quiet**",
+    "options": ["Stillness", "Commotion", "Compose", "Completely"],
+    "answer": "Commotion",
+    "explanation": "• **Quiet**: Making little or no noise; a state of peace. 🤫\n• **Commotion**: A state of confused and noisy disturbance. (Antonym). 📢🌪️"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nIt is better to end up certain matters than________ a dead horse.",
+    "options": ["talking", "riding", "coaching", "beating"],
+    "answer": "beating",
+    "explanation": "• **Idiom**: '**Flogging/Beating a dead horse**' means to waste time on something that is already settled or has no chance of succeeding. 🐎"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment. If there is no need to substitute it, select ‘No substitution required’.\nWhile I was driving the car, my brother <u>talked over phone</u> to his kid.",
+    "options": [
+      "was talking over the phone",
+      "had talked over the phone",
+      "No substitution required",
+      "talking over the phone"
+    ],
+    "answer": "was talking over the phone",
+    "explanation": "• **Parallelism**: When two actions happen simultaneously in the past, both should use the Past Continuous tense ('was driving' and '**was talking**'). 🚗📞"
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\n<u>Incompetent</u> people keep on blaming others for their failures.",
+    "options": ["inappropriate", "inefficient", "incongruous", "inevitable"],
+    "answer": "inefficient",
+    "explanation": "• **Incompetent**: Not having or showing the necessary skills to do something successfully. (Synonym: Inefficient). 🚫🛠️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Salient**",
+    "options": ["Noteworthy", "Striking", "Clear", "Negligible"],
+    "answer": "Negligible",
+    "explanation": "• **Salient**: Most noticeable or important. 🌟\n• **Negligible**: So small or unimportant as to be not worth considering. (Antonym). 🤏"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe cat couldn’t find a _________ place for its kittens in the backyard.",
+    "options": ["stern", "drastic", "proper", "vague"],
+    "answer": "proper",
+    "explanation": "• **Proper**: Suitable or appropriate. The cat needs a safe, suitable place for her young. 🐱"
+  },
+  {
+    "question": "Select the most appropriate homophone of the given word.\n**Ate**",
+    "options": ["Egg", "Hate", "Eight", "Weight"],
+    "answer": "Eight",
+    "explanation": "• **Homophones**: 'Ate' (past tense of eat) and '**Eight**' (the number 8) sound identical. 🍴8️⃣"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Abundant", "Ecstasy", "Pionier", "Engineer"],
+    "answer": "Pionier",
+    "explanation": "• **Incorrect spelling**: Pionier. ❌\n• **Correct spelling**: **Pioneer**. ✅ (A person who is among the first to explore or settle a new area). 🚩"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment. If there is no need to substitute it, select ‘No substitution required’.\nRobinson Crusoe <u>puzzles</u> when he discovered a footprint in the sand.",
+    "options": ["was puzzled", "has puzzled", "is puzzled", "No substitution required"],
+    "answer": "was puzzled",
+    "explanation": "• **Passive Voice & Tense**: Crusoe was affected by the sight; he '**was puzzled**' (Past Passive) by what he saw. 👣❓"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Restore**",
+    "options": ["Destroy", "Random", "Recover", "Productive"],
+    "answer": "Destroy",
+    "explanation": "• **Restore**: To return something to its former condition. 🛠️\n• **Destroy**: To end the existence of something by damaging it. (Antonym). 💥"
+  },
+  {
+    "question": "Select the most appropriate synonym of the word ‘doubtful’ from the following sentence.\nHe was in a dilemma about the completion of the project investigation...",
+    "options": ["Completion", "Project", "Dilemma", "Investigation"],
+    "answer": "Dilemma",
+    "explanation": "• **Dilemma**: A situation in which a difficult choice has to be made between two or more alternatives. It represents the state of being 'doubtful' or uncertain. 🤔"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) The world is becoming increasingly (1)_______.",
+    "options": ["intensified", "urbanised", "localised", "decentralised"],
+    "answer": "urbanised",
+    "explanation": "• **Urbanised**: The passage mentions the population living in cities, which is the definition of urbanization. 🏙️"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...and that share is (2)_______ to rise to 60 per cent by 2030.",
+    "options": ["projected", "contrived", "multiplied", "planned"],
+    "answer": "projected",
+    "explanation": "• **Projected**: Estimated or forecast for the future based on present trends. 📈"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) Cities... are powerhouses of economic growth—(3)_______ about 60 per cent of global GDP.",
+    "options": ["attempting", "exploiting", "contributing", "causing"],
+    "answer": "contributing",
+    "explanation": "• **Contributing**: To give (money, time, knowledge, etc.) to help achieve or provide something. 💰"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...and over 60 per cent of (4)________ use.",
+    "options": ["wealth", "nature", "assets", "resource"],
+    "answer": "resource",
+    "explanation": "• **Resource use**: Refers to the consumption of materials and energy like water, electricity, etc. ⚡🚰"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...inadequate and (5)________ infrastructure and services.",
+    "options": ["destructed", "overburdened", "redundant", "necessary"],
+    "answer": "overburdened",
+    "explanation": "• **Overburdened**: Loaded with too great a burden; in this case, too many people using limited services. 🚉🛑"
+  }
+]
