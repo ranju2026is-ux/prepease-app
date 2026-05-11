@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Identify the INCORRECTLY spelt word in the given sentence and select its correct spelling.\n**Too much bureacracy suppresses creativity.**",
+    "options": ["Bureaucracy", "Burocracy", "Bureaukracy", "Burreaukracy"],
+    "answer": "Bureaucracy",
+    "explanation": "• **Correct spelling**: **Bureaucracy**. ✅ (From French 'bureau' + '-cracy'). It refers to a system of government in which most of the important decisions are taken by state officials rather than by elected representatives. 🏛️"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nThe mob <u>broke up</u> the norms of the country.",
+    "options": ["violated", "invade", "disturb", "damaged"],
+    "answer": "violated",
+    "explanation": "• **Violated**: Fail to respect (a law, agreement, or principle). One 'violates' norms or laws. 🚫⚖️"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe skeleton of an unknown person has been hanging on the tree __________ last Wednesday.",
+    "options": ["through", "since", "about", "for"],
+    "answer": "since",
+    "explanation": "• **Grammar**: '**Since**' is used to refer to a specific point in time in the past (last Wednesday) up to the present. 📅"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Hesitation**",
+    "options": ["Readiness", "Reluctance", "Prudence", "Creativity"],
+    "answer": "Reluctance",
+    "explanation": "• **Hesitation/Reluctance**: Unwillingness or hesitation to do something. (Synonyms). 🤨"
+  },
+  {
+    "question": "Select the correct word for the blanks in the given sentence.\nThere is a provision of _________ delivery in every courier service whereas a child can __________ his feelings at the age of 2 years or so.",
+    "options": ["normal", "fast", "slow", "express"],
+    "answer": "express",
+    "explanation": "• **Homonyms/Polysemy**: '**Express**' delivery refers to fast shipping, and to '**express**' feelings means to put thoughts into words. 🚚🗨️"
+  },
+  {
+    "question": "Select the most appropriate meaning of the underlined idiom.\nThe second wave of the pandemic left everyone <u>in the doldrums</u>.",
+    "options": [
+      "In confusion",
+      "In deep sympathy",
+      "In need of help",
+      "In low spirits and despair"
+    ],
+    "answer": "In low spirits and despair",
+    "explanation": "• **In the doldrums**: A state or period of stagnation or depression. ⛵📉"
+  },
+  {
+    "question": "Select the most appropriate word to complete the meaning of the sentence.\nThe new owners of the newspaper had changed the ________ completely.",
+    "options": ["layout", "outlay", "outlook", "outlet"],
+    "answer": "layout",
+    "explanation": "• **Layout**: The way in which the parts of something are arranged or laid out. For a newspaper, this refers to its visual design. 📰"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Dream**",
+    "options": ["Delusion", "Fancy", "Imagination", "Reality"],
+    "answer": "Reality",
+    "explanation": "• **Dream**: A cherished aspiration, ambition, or ideal (often disconnected from current facts). 💭\n• **Reality**: The state of things as they actually exist. (Antonym). 🌍"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Colossal**",
+    "options": ["Immense", "Joyous", "Entertaining", "Fantastic"],
+    "answer": "Immense",
+    "explanation": "• **Colossal**: Extremely large. (Synonym: Immense/Massive). 🐘"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word.\nHis ancestors are <u>native</u> to this place.",
+    "options": ["Innate", "Community", "Enemy", "Foreign"],
+    "answer": "Foreign",
+    "explanation": "• **Native**: Associated with the place or circumstances of a person's birth. 🏡\n• **Foreign**: Of, from, in, or characteristic of a country or language other than one's own. (Antonym). ✈️🗺️"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Where the shoe pinches**",
+    "options": [
+      "Tight fitting shoes",
+      "Expensive shoes",
+      "Where the comfort is more",
+      "Where the difficulty lies"
+    ],
+    "answer": "Where the difficulty lies",
+    "explanation": "• **Where the shoe pinches**: The source of trouble or worry; the real problem. 👞🩹"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nShe couldn’t <u>get over with Thomas</u> due to his addiction to alcohol.",
+    "options": [
+      "get at with Thomas due to",
+      "get along with Thomas due to",
+      "get off with Thomas due to",
+      "get rid with Thomas due to"
+    ],
+    "answer": "get along with Thomas due to",
+    "explanation": "• **Get along with**: To have a harmonious or friendly relationship with someone. 🤝"
+  },
+  {
+    "question": "Identify the segment that contains a grammatical error.\nFor the last three years, / Sunita had been running / private hostels near this university.",
+    "options": [
+      "Sunita had been running",
+      "No error",
+      "private hostels near this university",
+      "For the last three years"
+    ],
+    "answer": "No error",
+    "explanation": "• The sentence is grammatically correct. It uses the past perfect continuous ('had been running') to describe an action that started in the past and continued up to a later point in the past. ✅"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Powerful", "Willfull", "Grateful", "Doubtful"],
+    "answer": "Willfull",
+    "explanation": "• **Incorrect spelling**: Willfull. ❌\n• **Correct spelling**: **Wilful** (UK) or **Willful** (US). Note that 'Willfull' with double 'l' at the end is incorrect. ✅"
+  },
+  {
+    "question": "Identify the word which is OPPOSITE in meaning to the given word.\n**Opaque**",
+    "options": ["Intangible", "Shadowy", "Transparent", "Reflector"],
+    "answer": "Transparent",
+    "explanation": "• **Opaque**: Not able to be seen through; not transparent. 🧱\n• **Transparent**: Allowing light to pass through so that objects behind can be distinctly seen. (Antonym). 💎"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) The life (1) ______ of a banana is a colourful one...",
+    "options": ["span", "story", "cycle", "time"],
+    "answer": "cycle",
+    "explanation": "• **Life cycle**: The series of changes in the life of an organism. Here, it refers to the ripening stages. 🍌🔄"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) Bananas... produce and (2) ________ with an airborne hormone...",
+    "options": ["differ", "correspond", "tamper", "react"],
+    "answer": "react",
+    "explanation": "• **React**: Respond or behave in a particular way in response to something. Fruits **react** to ethylene to begin ripening. 🧬"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) It is likely to possess a greenish (3) ________ due to the presence of chlorophyll.",
+    "options": ["seed", "flesh", "fibre", "hue"],
+    "answer": "hue",
+    "explanation": "• **Hue**: A color or shade. Green is the 'hue' or color of unripe bananas. 🎨"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) When a fruit comes into contact (4) _________ ethylene...",
+    "options": ["over", "from", "by", "with"],
+    "answer": "with",
+    "explanation": "• **Preposition**: The standard phrase is 'come into contact **with**' something. 🤝"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...the green chlorophyll is (5) _______ and replaced...",
+    "options": ["broken up", "brought to", "fallen into", "turned down"],
+    "answer": "broken up",
+    "explanation": "• **Broken up**: In biology, when a chemical or substance is degraded or disintegrated, it is 'broken up' or 'broken down'. 🧪"
+  }
+]
