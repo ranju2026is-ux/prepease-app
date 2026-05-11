@@ -1,0 +1,108 @@
+[
+  {
+    "question": "The sentence given below has one misspelt word. Spot the INCORRECTLY spelt word and select its correct spelling.\n**She wraped the gift in a gift paper.**",
+    "options": ["Vraped", "Vrapped", "Wrapped", "Wrraped"],
+    "answer": "Wrapped",
+    "explanation": "• **Correct spelling**: **Wrapped**. ✅\n• **Rule**: When a short vowel word ends in a single consonant (wrap), double the consonant before adding '-ed' (wrapped). 🎁"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nWhen we went to the cinema, the film <u>already started</u>.",
+    "options": ["had already started", "has started", "would already start", "was already start"],
+    "answer": "had already started",
+    "explanation": "• **Past Perfect Tense**: When two actions happened in the past, the earlier action uses 'had + V3'. Since the film started before they arrived, 'had already started' is correct. 🎬🍿"
+  },
+  {
+    "question": "Parts of the following sentence have been given as options. One of them may contain an error. Select the part that contains the error.\nHe goes to Shimla every year but this year he was going to Goa.",
+    "options": ["he was going to Goa", "No error", "but this year", "He goes to Shimla every year"],
+    "answer": "he was going to Goa",
+    "explanation": "• **Tense Error**: The sentence contrasts a habit (Simple Present) with a current specific plan. For temporary current plans, we use Present Continuous. 🚫\n• **Correction**: '...but this year **he is going** to Goa.' 🏖️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the word given in the brackets to fill in the blank.\nI don't want to offend him, so I'm hesitant to say or do anything ___________ (polite).",
+    "options": ["bluff", "kind", "rude", "abrupt"],
+    "answer": "rude",
+    "explanation": "• **Polite**: Showing behavior that is respectful and considerate. 😊\n• **Rude**: Offensively impolite or ill-mannered. (Antonym). 😠"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Fish out of water**",
+    "options": [
+      "Be nostalgic about something",
+      "Be a survivor",
+      "Not feeling comfortable in a new environment",
+      "Go fishing"
+    ],
+    "answer": "Not feeling comfortable in a new environment",
+    "explanation": "• **Meaning**: A person who is in a situation that they are unsuited to or find difficult. 🐟🌵"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Misfortune**",
+    "options": ["Condemn", "Blessing", "Affliction", "Support"],
+    "answer": "Blessing",
+    "explanation": "• **Misfortune**: Bad luck; an unfortunate condition or event. 📉\n• **Blessing**: A beneficial thing for which one is grateful; something that brings well-being. (Antonym). ✨"
+  },
+  {
+    "question": "Select the correctly spelt word.",
+    "options": ["Messenjer", "Messenger", "Masenger", "Massanger"],
+    "answer": "Messenger",
+    "explanation": "• **Correct spelling**: **Messenger**. ✅ (A person who carries a message or is employed to carry messages). 📬"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Compact**",
+    "options": ["Short", "Expand", "Multiple", "Compress"],
+    "answer": "Expand",
+    "explanation": "• **Compact**: Closely and neatly packed together; to compress. 📦\n• **Expand**: To become or make larger or more extensive. (Antonym). ↔️"
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\nHer <u>progress</u> is unparalleled with that of any other teacher.",
+    "options": ["plight", "scenario", "dilemma", "betterment"],
+    "answer": "betterment",
+    "explanation": "• **Progress/Betterment**: The process of improving or moving forward to a better state. 📈"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word to fill in the blank.\n**Compulsion**\nSome people have a disorder from which comes the ________ to check doors...",
+    "options": ["agreement", "obligation", "passion", "exertion"],
+    "answer": "obligation",
+    "explanation": "• **Compulsion/Obligation**: An irresistible urge to behave in a certain way. In a psychological context, it feels like a mandatory duty or obligation. 🚪🔐"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment. If there is no need to substitute it, select ‘No substitution’.\nBecause I had to catch the train... I <u>forget to pack</u> my toothbrush...",
+    "options": [
+      "I have forget to pack my toothbrush for our vacation",
+      "I forgot to pack my toothbrush for our vacation",
+      "No substitution",
+      "I have forgot to pack my toothbrush for our vacation"
+    ],
+    "answer": "I forgot to pack my toothbrush for our vacation",
+    "explanation": "• **Tense Consistency**: The sentence describes a completed past event ('had to catch'). Therefore, the simple past '**forgot**' is required. 🪥"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) My breath is halted... (1) ______ crying far too long and hard.",
+    "options": ["under", "about", "after", "in"],
+    "answer": "after",
+    "explanation": "• **Usage**: Gasping for air occurs '**after**' a long period of heavy crying. 😭"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...with a shivering sharpness (2) ______ nerves.",
+    "options": ["from", "between", "around", "of"],
+    "answer": "of",
+    "explanation": "• **Collocation**: A 'sharpness **of** nerves' describes the physical sensation felt within the nervous system. ⚡"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) It is like icicles running (3) ______ your spine...",
+    "options": ["besides", "down", "among", "thorough"],
+    "answer": "down",
+    "explanation": "• **Idiom**: Chills or sensations typically 'run **down** your spine'. 🥶"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...emotions that cannot compare (4) ______ the actual feelings...",
+    "options": ["away", "to", "inside", "across"],
+    "answer": "to",
+    "explanation": "• **Preposition**: We 'compare something **to**' something else. ⚖️"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...actual feelings you’ve managed to live (5) ______.",
+    "options": ["within", "through", "out", "instead"],
+    "answer": "through",
+    "explanation": "• **Phrasal Verb**: To '**live through**' an experience means to survive or experience a difficult time. ✅"
+  }
+]
