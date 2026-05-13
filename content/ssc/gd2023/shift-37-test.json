@@ -1,0 +1,127 @@
+[
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Witty**",
+    "options": ["Fashionable", "Stupid", "Interesting", "Smart"],
+    "answer": "Stupid",
+    "explanation": "• **Witty**: Showing or characterized by quick and inventive verbal humor. ✨\n• **Stupid**: Lacking intelligence or common sense. (Antonym). 🧠🚫"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Honest**",
+    "options": ["Frank", "Open", "Corrupt", "Foolish"],
+    "answer": "Corrupt",
+    "explanation": "• **Honest**: Free of deceit and untruthfulness; sincere. 😇\n• **Corrupt**: Having or showing a willingness to act dishonestly in return for money or personal gain. (Antonym). 🐍"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nThe waiters were quick to <u>replenish</u> their stock of food.",
+    "options": ["look for", "fill up", "take back", "ask for"],
+    "answer": "fill up",
+    "explanation": "• **Replenish**: To fill something up again. (Synonym: Fill up). 🍲✅"
+  },
+  {
+    "question": "Identify the spelling error in the given sentence and select the option that rectifies it.\nIt is necessary for candidates to carry their examination **addmit** cards with them.",
+    "options": ["examineition", "admit", "necessery", "candidets"],
+    "answer": "admit",
+    "explanation": "• **Correct spelling**: **Admit**. ✅ (The original sentence incorrectly used double 'd'). 🎫"
+  },
+  {
+    "question": "Select the most appropriate homonym to fill in the blank.\nThe annual extraction of this ________ costs around $10,000,000.",
+    "options": ["o’er", "arc", "ore", "or"],
+    "answer": "ore",
+    "explanation": "• **Ore**: A naturally occurring solid material from which a metal or valuable mineral can be profitably extracted. ⛏️💎"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Bury the hatchet**",
+    "options": ["To end a quarrel", "To convince someone", "To be in fear", "To face a risk"],
+    "answer": "To end a quarrel",
+    "explanation": "• **Bury the hatchet**: An idiom meaning to end a conflict and become friendly again. 🤝"
+  },
+  {
+    "question": "Identify the segment that contains a grammatical error.\nRover had eaten the pie before <u>we gets home</u>.",
+    "options": ["we gets home", "Rover had eaten", "No error", "the pie before"],
+    "answer": "we gets home",
+    "explanation": "• **Subject-Verb Agreement**: The plural subject 'we' takes the base form of the verb '**get**', not 'gets'. \n• **Tense**: Since the first part is Past Perfect, the second part should be Simple Past ('we **got** home'). 🏡🚫"
+  },
+  {
+    "question": "Select the most appropriate synonym for the underlined word.\nHer <u>debonair</u> combined with quick wit added to her oratory skills.",
+    "options": ["charming", "corpulent", "amorous", "churlish"],
+    "answer": "charming",
+    "explanation": "• **Debonair**: (Of a man) confident, stylish, and charming. (Synonym: Charming). ✨"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Chew someone out**",
+    "options": ["To tackle a difficulty", "To scold someone", "Make someone laugh", "To eat"],
+    "answer": "To scold someone",
+    "explanation": "• **Chew someone out**: An idiom meaning to reprimand or scold someone severely. 🗣️💢"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe farmer _____________ up and saw a tractor approaching him.",
+    "options": ["sit", "looked", "bent", "cleared"],
+    "answer": "looked",
+    "explanation": "• **Context**: The farmer noticed the tractor, so he '**looked** up' to see it. 👀🚜"
+  },
+  {
+    "question": "Select the most appropriate synonym of the word given in the bracket.\nYou have ________ (built up) a lot of muscles by going to the gym.",
+    "options": ["enhanced", "elevated", "boosted", "gained"],
+    "answer": "gained",
+    "explanation": "• **Built up/Gained**: To increase the amount or level of something (like muscle mass). 💪"
+  },
+  {
+    "question": "Identify and correct the INCORRECTLY spelt word.\nThe **monkies** were snatching food from the passengers.",
+    "options": ["monkeys", "snaching", "bas", "pasengers"],
+    "answer": "monkeys",
+    "explanation": "• **Correct spelling**: **Monkeys**. ✅ (Words ending in -ey add only 's' to form the plural). 🐒"
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\nMy grandmother, a <u>pious</u> lady, died peacefully in her village.",
+    "options": ["Devout", "Envious", "Attractive", "Gallant"],
+    "answer": "Devout",
+    "explanation": "• **Pious**: Devoutly religious. (Synonym: Devout). 🙏📿"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nMen <u>never have managed</u> to abolish wars up to now...",
+    "options": [
+      "have never managed",
+      "never has managed",
+      "will have never managed",
+      "No substitution required"
+    ],
+    "answer": "have never managed",
+    "explanation": "• **Word Order**: In the Present Perfect tense, the adverb 'never' should be placed between the auxiliary verb 'have' and the past participle 'managed'. ✅"
+  },
+  {
+    "question": "Select the correct word for the blanks in the given sentence.\nVenga boys is a famous musical _________ of the country and Madhu gave me a _________ on my birthday.",
+    "options": ["group", "band", "troop", "ring"],
+    "answer": "band",
+    "explanation": "• **Homonyms**: A musical '**band**' is a group of musicians, and a '**band**' (like a wristband or hairband) is a strip of material used for binding or decoration. 🎸🎁"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Affection comes only if trust and respect are (1)________.",
+    "options": ["verified", "constrained", "ensured", "confirmed"],
+    "answer": "ensured",
+    "explanation": "• **Ensured**: To make certain that something shall occur or be the case. Relationship values must be guaranteed or ensured. ✅"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) You feel that the other is (2)________ to make you unhappy...",
+    "options": ["pressured", "trying", "hesitated", "shying"],
+    "answer": "trying",
+    "explanation": "• **Context**: If trust is missing, you assume the other person is actively '**trying**' to cause you harm. ☹️"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) You always see each other as being in (3)________.",
+    "options": ["opposition", "business", "affection", "friendship"],
+    "answer": "opposition",
+    "explanation": "• **Opposition**: Resistance or dissent. Without trust, people view each other as enemies or opponents. ⚔️"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...and still don’t feel (4)________ to each other...",
+    "options": ["effected", "separated", "related", "affected"],
+    "answer": "related",
+    "explanation": "• **Related**: Connected by blood, marriage, or a feeling of belonging. Trust makes people feel like they belong together. 🤝"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) Affection comes when we (5)_______ that two or more persons want to make each other happy.",
+    "options": ["grant", "permit", "confess", "recognise"],
+    "answer": "recognise",
+    "explanation": "• **Recognise**: To identify or acknowledge the existence of a feeling or truth. 🧠💡"
+  }
+]
