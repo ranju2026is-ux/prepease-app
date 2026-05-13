@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nJanaki remains ______ while talking about her dark past.",
+    "options": ["gracious", "cautious", "dignified", "turbulent"],
+    "answer": "cautious",
+    "explanation": "• **Cautious**: Taking care to avoid danger or mistakes. When talking about a 'dark past,' a person is likely to be careful with their words. 🤐"
+  },
+  {
+    "question": "Identify the MISSPELT word in the following sentence.\nIn some regions of the world, child poverty remains a serious issue, significently in relation of the geospatial and living standards.",
+    "options": ["issue", "significently", "geospatial", "regions"],
+    "answer": "significently",
+    "explanation": "• **Incorrect spelling**: significently. ❌\n• **Correct spelling**: **Significantly**. ✅ (Meaning in a sufficiently great or important way)."
+  },
+  {
+    "question": "Select the most appropriate meaning of the underlined idiom.\n**Keep an eye on** the situation around, and take your decision accordingly.",
+    "options": [
+      "Ignore",
+      "Observe continually and carefully",
+      "Cries over spilt milk",
+      "Be aggressive with red eyes"
+    ],
+    "answer": "Observe continually and carefully",
+    "explanation": "• **Keep an eye on**: An idiom meaning to watch someone or something carefully or to monitor a situation. 👁️⚖️"
+  },
+  {
+    "question": "Identify the segment that contains a grammatical error.\nIt will take / 5 minutes to / preparing a cup of tea.",
+    "options": [
+      "No error",
+      "preparing a cup of tea",
+      "It will take",
+      "5 minutes to"
+    ],
+    "answer": "preparing a cup of tea",
+    "explanation": "• **Infinitive Error**: The phrase 'to' should be followed by the base form of the verb. 🚫\n• **Correction**: It should be 'to **prepare** a cup of tea.' ☕"
+  },
+  {
+    "question": "Select the most appropriate meaning of the underlined idiom.\nMy son was disappointed with his failure, but he **took heart** and tried again.",
+    "options": ["felt encouraged", "loved dearly", "was deeply affected", "cried miserably"],
+    "answer": "felt encouraged",
+    "explanation": "• **Take heart**: An idiom meaning to feel encouraged, optimistic, or confident, especially in a difficult situation. ❤️💪"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Accuse**",
+    "options": ["Incriminate", "Defend", "Charge", "Allege"],
+    "answer": "Defend",
+    "explanation": "• **Accuse**: To charge someone with an offense or crime. ⚖️\n• **Defend**: To speak or write in favor of; to protect from accusation. (Antonym). 🛡️"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe _______ of this beautiful garden is so exciting.",
+    "options": ["site", "slight", "cite", "sight"],
+    "answer": "sight",
+    "explanation": "• **Sight**: The power or act of seeing; a thing seen. Seeing a beautiful garden is an exciting 'sight.' 🌳👀\n• **Site**: A location. \n• **Cite**: To quote."
+  },
+  {
+    "question": "Select the most appropriate option to substitute the underlined segment.\nThe first step towards the prevention of cybercrimes <u>will obviously to</u> promote awareness...",
+    "options": [
+      "would obviously been to promote awareness about criminal activities",
+      "would obviously be to promote awareness about criminal activities",
+      "No substitution",
+      "would obviously be to promote awareness for criminal activities"
+    ],
+    "answer": "would obviously be to promote awareness about criminal activities",
+    "explanation": "• **Grammar**: The sentence needs a verb after the modal. 'Would be to' correctly expresses the intended action/necessity. ✅"
+  },
+  {
+    "question": "Select the most appropriate homonym to fill in the blank.\nThese products _________ for a long time.",
+    "options": ["lust", "last", "lost", "least"],
+    "answer": "last",
+    "explanation": "• **Last**: To continue to exist or be usable for a long period. ⏳"
+  },
+  {
+    "question": "Complete the sentence by choosing the most appropriate synonym of the underlined word.\nWhen you want to leave, you ___________ the building.",
+    "options": ["move in", "catch", "jump", "exit"],
+    "answer": "exit",
+    "explanation": "• **Leave/Exit**: To go out of or away from a place. (Synonym). 🚪"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nMany instances of corruption have been reported by <u>authorities posted theyre</u>.",
+    "options": [
+      "No substitution",
+      "authorities in which were posted theyre",
+      "authorities whom were posted theyre",
+      "authorities posted there"
+    ],
+    "answer": "authorities posted there",
+    "explanation": "• **Homonyms**: '**There**' refers to a place, whereas 'theyre' is a contraction of 'they are'. The sentence needs the adverb of place. ✅"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Grumble**",
+    "options": ["Navigate", "Stray", "Raise", "Praise"],
+    "answer": "Praise",
+    "explanation": "• **Grumble**: To complain about something in a bad-tempered way. 😠\n• **Praise**: To express warm approval or admiration of. (Antonym). 👏"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Commerce**",
+    "options": ["Stream", "Trade", "Class", "Bank"],
+    "answer": "Trade",
+    "explanation": "• **Commerce**: The activity of buying and selling, especially on a large scale. (Synonym: Trade). 💰🤝"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Spiteful", "Rotational", "Magnificientt", "Debatable"],
+    "answer": "Magnificientt",
+    "explanation": "• **Correct spelling**: **Magnificent**. ✅ (Note: only one 't' at the end and no 'i' after 'e'). ✨"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM for the underlined word.\nHe is a **spendthrift** and spends money lavishly.",
+    "options": ["Careful", "Wicked", "Miser", "Mean"],
+    "answer": "Miser",
+    "explanation": "• **Spendthrift**: A person who spends money in an extravagant, irresponsible way. 💸\n• **Miser**: A person who hoards wealth and spends as little money as possible. (Antonym). 💰🤐"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) The build up... which (1)__________ on July 23 and finished on August 8...",
+    "options": ["beginning", "begin", "began", "begun"],
+    "answer": "began",
+    "explanation": "• **Simple Past**: The Olympics started and ended in the past, so the past tense '**began**' is required. 🕒"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...as well as a slew of (2)___________ that came with staging the Games...",
+    "options": ["certainty", "configuration", "enjoyment", "anxiety"],
+    "answer": "anxiety",
+    "explanation": "• **Context**: Staging a massive event under safety standards and a pandemic causes worry or '**anxiety**.' 😰"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) ...without (3)____________ during the COVID-19 outbreak.",
+    "options": ["athletes", "spectators", "preachers", "tools"],
+    "answer": "spectators",
+    "explanation": "• **Context**: The Tokyo 2020 Olympics were famous for being held behind closed doors, meaning without crowds or '**spectators**.' 🏟️🚫"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...shown enough potential to (4)_________ expect a big return...",
+    "options": ["casually", "constitutionally", "authoritatively", "legitimately"],
+    "answer": "legitimately",
+    "explanation": "• **Legitimately**: In a way that is conformable to law or to rules; reasonably. It was reasonable/legitimate to expect medals. ✅"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...culminating with Neeraj Chopra's (5)__________ gold medal...",
+    "options": ["historic", "insignificant", "Asiatic", "non-fictional"],
+    "answer": "historic",
+    "explanation": "• **Historic**: Famous or important in history. Neeraj Chopra's gold was India's first track and field gold medal. 🥇📜"
+  }
+]
