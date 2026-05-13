@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nThe road which <u>connected for</u> two villages is now deserted.",
+    "options": [
+      "that connected for",
+      "will connect the",
+      "that connected the",
+      "which connects of"
+    ],
+    "answer": "that connected the",
+    "explanation": "• **Preposition/Article**: The verb 'connect' is a transitive verb here and does not require the preposition 'for'. The definite article 'the' is needed before the noun 'two villages'. ✅"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank with the synonym of the underlined word.\nThe <u>casual</u> nature of the student destroyed his studies and ________ his future.",
+    "options": ["ruined", "skyrocketed", "rained", "traced"],
+    "answer": "ruined",
+    "explanation": "• **Destroyed/Ruined**: Both words mean to damage something so badly that it cannot be repaired or no longer exists. (Synonyms). 📉💥"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Succinct**",
+    "options": ["Lengthy", "Empty", "Hasty", "Hearty"],
+    "answer": "Lengthy",
+    "explanation": "• **Succinct**: (Especially of something written or spoken) briefly and clearly expressed. ✍️⏱️\n• **Lengthy**: (Especially of something written or spoken) going on for a long time. (Antonym). 📜"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Cluster**",
+    "options": ["Consort", "Group", "Individual", "Special"],
+    "answer": "Individual",
+    "explanation": "• **Cluster**: A group of similar things or people positioned or occurring closely together. 🍇🍇\n• **Individual**: Single; separate. (Antonym). 🍇"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Despise**",
+    "options": ["Elevate", "Hate", "Eradicate", "Revere"],
+    "answer": "Hate",
+    "explanation": "• **Despise**: Feel contempt or a deep repugnance for. (Synonym: Hate/Loathe). 😠"
+  },
+  {
+    "question": "Select the correct idiom that can substitute the italicised group of words.\n...This is the <u>most important issue to be discussed today</u>.",
+    "options": [
+      "burn the candle at both ends",
+      "burning question",
+      "burn a hole in the pocket",
+      "burn one’s fingers"
+    ],
+    "answer": "burning question",
+    "explanation": "• **Burning question**: An idiom meaning an urgent or crucial issue that needs immediate attention or discussion. 🔥❓"
+  },
+  {
+    "question": "Select the most appropriate homonym to fill in the blank.\nThe construction _________ was far from his home.",
+    "options": ["cite", "sight", "site", "cyte"],
+    "answer": "site",
+    "explanation": "• **Site**: An area of ground on which a town, building, or monument is being constructed. 🏗️👷\n• **Sight**: Vision. \n• **Cite**: To quote."
+  },
+  {
+    "question": "Select the sentence that contains the MISSPELT word.",
+    "options": [
+      "Both of them were best friends, now they are at daggers drawn.",
+      "As if to fill the small hours of that cold night with warm thoughts, I picked up the book and started browsing.",
+      "Without the slightest warning, something new breaks into your life that you may be completely unconscious of.",
+      "The gist of the quote was that all reasonable men addopt themselves to the world."
+    ],
+    "answer": "The gist of the quote was that all reasonable men addopt themselves to the world.",
+    "explanation": "• **Incorrect spelling**: addopt. ❌\n• **Correct spelling**: **Adopt**. ✅ (Meaning to choose or take up)."
+  },
+  {
+    "question": "Select the most appropriate spelling that can correctly substitute the misspelt underlined segment.\nHe <u>aquiesced</u> to the plans his parents had made for him.",
+    "options": ["acquiesced", "acquiised", "acquissed", "aquissed"],
+    "answer": "acquiesced",
+    "explanation": "• **Correct spelling**: **Acquiesced**. ✅ (Meaning to accept something reluctantly but without protest). 🤝"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**The pot calling the kettle black**",
+    "options": [
+      "Preparing the tea without boiling water",
+      "People are guilty of the very fault they identify in others",
+      "Speaking strangely in an official meeting",
+      "Making things ready quickly"
+    ],
+    "answer": "People are guilty of the very fault they identify in others",
+    "explanation": "• **Meaning**: A situation in which a person criticizes someone else for a fault that they themselves have. ☕🍳"
+  },
+  {
+    "question": "Select the most appropriate set of words to complete the sentence.\nI will not spend a single ______ on a bottle of perfume until I know that I love its ________.",
+    "options": ["cent; scent", "sent; cent", "scent; cent", "scent; sent"],
+    "answer": "cent; scent",
+    "explanation": "• **Cent**: A monetary unit (currency). 💰\n• **Scent**: A distinctive smell, especially one that is pleasant. 🌸"
+  },
+  {
+    "question": "Select the word segment that substitutes the bracketed word segment correctly.\nWear rubber gloves while chopping chillies (<u>as it could irritate the skin</u>).",
+    "options": [
+      "as these could irritate the skin",
+      "as they can irritate the skin",
+      "as it would irritate the skin",
+      "as these would irritate the skin"
+    ],
+    "answer": "as they can irritate the skin",
+    "explanation": "• **Pronoun Agreement**: 'Chillies' is plural, so the pronoun must be '**they**'. 'Can' is used here to show a general possibility of irritation. 🌶️🧤"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nHe <u>very pleased</u> that you have passed with distinction.",
+    "options": [
+      "He is very pleased",
+      "He will very please",
+      "He is very please",
+      "He has very pleased"
+    ],
+    "answer": "He is very pleased",
+    "explanation": "• **Grammar**: The sentence is missing the linking verb 'is' to connect the subject 'He' with the adjective 'pleased'. ✅😊"
+  },
+  {
+    "question": "Select the option that contains an error.\nWe must acknowledge the fact that we <u>had been visited</u> Paris many times.",
+    "options": ["must", "had been", "acknowledge", "visited"],
+    "answer": "had been",
+    "explanation": "• **Tense Error**: The sentence should use the Present Perfect ('have visited') or Past Perfect ('had visited'). 'Had been visited' is passive and incorrect here. \n• **Correction**: '...we **have visited** Paris'. 🗼"
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\nHe was <u>curious</u> to know his result.",
+    "options": ["Ingenious", "Inquisitive", "Indifferent", "Indiscriminate"],
+    "answer": "Inquisitive",
+    "explanation": "• **Curious/Inquisitive**: Having or showing an interest in learning things. (Synonyms). 🧐"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) ...the sky is a (1) ________ sea of fresh water...",
+    "options": ["minty", "vigilant", "huge", "allotted"],
+    "answer": "huge",
+    "explanation": "• **Huge**: Extremely large; enormous. Appropriate for describing the vastness of the sky. 🌌"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...and we, (2) _________ walking under it, walk on top of it...",
+    "options": ["primarily", "stubbornly", "instead of", "coldly"],
+    "answer": "instead of",
+    "explanation": "• **Instead of**: Used to present an alternative perspective. 👣"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) ...perhaps we see everything (3) __________ down...",
+    "options": ["blow", "upside", "look", "glow"],
+    "answer": "upside",
+    "explanation": "• **Upside down**: A common phrase meaning with the upper part where the lower part should be. 🙃"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...and the earth is a (4) ________ of sky...",
+    "options": ["selection", "partition", "kind", "label"],
+    "answer": "kind",
+    "explanation": "• **Kind**: A category or type. The author is philosophically equating the earth to a type of sky. 🌍✨"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...we fall and (5) _______ into the sky.",
+    "options": ["swing", "climb", "draw", "sink"],
+    "answer": "sink",
+    "explanation": "• **Sink**: Go down below the surface of something. Continuing the water/sea metaphor from blank 1. 🤿"
+  }
+]
