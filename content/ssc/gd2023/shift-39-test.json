@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Reckon**",
+    "options": ["Relieve", "Release", "Think", "Terminate"],
+    "answer": "Think",
+    "explanation": "• **Reckon**: To believe or expect; to have an opinion. (Synonym: Think). 🧠"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nHe has given us no reason to be <u>prestigious</u> of him.",
+    "options": ["be proudly", "be auspicious", "be suspicious", "be ambitious"],
+    "answer": "be suspicious",
+    "explanation": "• **Suspicious**: Having or showing a cautious distrust of someone or something. 'Prestigious' (respected) makes no sense in this context of doubt. 🤨"
+  },
+  {
+    "question": "Identify the segment that contains a grammatical error.\nTomorrow is a / holiday for all / except me as / **I will writing my exam**.",
+    "options": ["I will writing my exam", "holiday for all", "Tomorrow is a", "except me as"],
+    "answer": "I will writing my exam",
+    "explanation": "• **Tense Error**: The Future Continuous requires 'be' (I will **be** writing) or the Simple Future (I will write). 🚫📝"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nHe visited his mother _________ after she was discharged from the hospital.",
+    "options": ["now and then", "by and by", "round and round", "more or less"],
+    "answer": "now and then",
+    "explanation": "• **Now and then**: An idiom meaning occasionally or from time to time. 🕒"
+  },
+  {
+    "question": "Select the correct option to substitute the underlined segment.\nLet <u>I</u> clear the doubts, if any.",
+    "options": ["Let mine", "Let me", "Let myself", "Let my"],
+    "answer": "Let me",
+    "explanation": "• **Pronoun Case**: After the verb 'let', the objective case of the pronoun (**me**) must be used. ✅"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Noble**",
+    "options": ["Agile", "Regular", "Humble", "Dignified"],
+    "answer": "Dignified",
+    "explanation": "• **Noble**: Having or showing fine personal qualities or high moral principles. (Synonym: Dignified). 👑"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Pester", "Referance", "Orientation", "Exaggerate"],
+    "answer": "Referance",
+    "explanation": "• **Incorrect spelling**: Referance. ❌\n• **Correct spelling**: **Reference**. ✅ (Suffix is '-ence')."
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Repugnent", "Malicious", "Perceive", "Vacuous"],
+    "answer": "Repugnent",
+    "explanation": "• **Incorrect spelling**: Repugnent. ❌\n• **Correct spelling**: **Repugnant**. ✅ (Suffix is '-ant')."
+  },
+  {
+    "question": "Select the correct word for the blanks in the given sentence.\nHealth is a state of __________ being, and a _________ is used to draw water from the ground.",
+    "options": ["well", "tubewell", "fine", "good"],
+    "answer": "well",
+    "explanation": "• **Homonyms/Context**: '**Well**-being' refers to health, and a '**well**' is a hole dug in the ground to get water. 🚰💧"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Erudite**",
+    "options": ["Ignorant", "Civilized", "Primeval", "Inherent"],
+    "answer": "Ignorant",
+    "explanation": "• **Erudite**: Having or showing great knowledge or learning. 📚\n• **Ignorant**: Lacking knowledge or awareness in general. (Antonym). 🚫🧠"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlying word to complete the sentence.\nHe was __________ by his brother’s attitude, but his mother’s words calmed him.",
+    "options": ["acquitted", "effaced", "solaced", "agitated"],
+    "answer": "agitated",
+    "explanation": "• **Agitated**: Feeling or appearing troubled or nervous. 🌪️\n• **Calmed**: The opposite effect provided by the mother's words. (Antonym). 😌"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Explore all avenues**",
+    "options": [
+      "To discover new ideas",
+      "To discover new things",
+      "Try out every possibility to get a result",
+      "To discover new routes"
+    ],
+    "answer": "Try out every possibility to get a result",
+    "explanation": "• **Explore all avenues**: To investigate or try every possible method to achieve something. 🔍🛣️"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Spinning one’s wheels**",
+    "options": [
+      "To do a lot of work for achieving something",
+      "To make a lot of effort without achieving anything",
+      "To talk about random things",
+      "To talk about oneself for achieving something"
+    ],
+    "answer": "To make a lot of effort without achieving anything",
+    "explanation": "• **Spinning one's wheels**: Expending effort but making no progress toward a goal. 🏎️💨"
+  },
+  {
+    "question": "Select the most appropriate homonym to fill in the blank.\nHe planned a weeklong _________ down the Nile.",
+    "options": ["crews", "cruse", "crus", "cruise"],
+    "answer": "cruise",
+    "explanation": "• **Cruise**: A voyage on a ship or boat taken for pleasure. 🚢"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Obvious**",
+    "options": ["Plain", "Straight", "Clear", "Cryptic"],
+    "answer": "Cryptic",
+    "explanation": "• **Obvious**: Easily perceived or understood; clear. ✨\n• **Cryptic**: Having a meaning that is mysterious or obscure. (Antonym). 🧩"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Amla tree is (1) ________ to be thousands of years old.",
+    "options": ["considered", "reviewed", "examined", "contemplated"],
+    "answer": "considered",
+    "explanation": "• **Considered**: Generally thought to be or regarded as. ✅"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) The amla tree is a medium (2) _________ tree with citrus fruits.",
+    "options": ["sized", "sorted", "assessed", "weighed"],
+    "answer": "sized",
+    "explanation": "• **Medium-sized**: A standard compound adjective used to describe the dimensions of plants/objects. 🌳"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) ...found almost everywhere in India (3) ________ for some very high mountainous regions.",
+    "options": ["till", "without", "except", "unless"],
+    "answer": "except",
+    "explanation": "• **Except**: Used to introduce the only thing in which a statement is not true. 🏔️"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) It is found (4) ________ in Madhya Pradesh.",
+    "options": ["abundantly", "lavishly", "profusely", "wholly"],
+    "answer": "abundantly",
+    "explanation": "• **Abundantly**: In large quantities; plentifully. (Context of plant growth). 🌿"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...and have a close (5) ________ to those of Gulmohar.",
+    "options": ["congruence", "harmony", "resemblance", "coincidence"],
+    "answer": "resemblance",
+    "explanation": "• **Resemblance**: The state of being alike or having similar features. 🍃👯‍♂️"
+  }
+]
