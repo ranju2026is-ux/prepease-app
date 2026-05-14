@@ -1,112 +1,332 @@
 [
   {
-    "question": "Change to Indirect: He said to me, 'Are you coming to the party?'",
+    "question": "The teacher said to the students, 'Stand up.'",
     "options": [
-      "He asked me if I was coming to the party.",
-      "He asked me that if I was coming to the party.",
-      "He said to me whether I was coming to the party.",
-      "He asked me if you were coming to the party."
+      "The teacher ordered the students to stand up.",
+      "The teacher said to the students to stand up.",
+      "The teacher told the students that stand up.",
+      "The teacher ordered the students that they should stand up."
     ],
-    "answer": "He asked me if I was coming to the party.",
-    "explanation": "For Yes/No questions, we use 'if' or 'whether'. The structure changes from question to assertive (Sub + Verb). ✅"
+    "answer": "The teacher ordered the students to stand up.",
+    "explanation": "For commands, 'said to' changes to 'ordered'. The imperative verb 'Stand' becomes 'to stand'. ✅"
   },
   {
-    "question": "Change to Indirect: She said, 'Where are you going?'",
+    "question": "He said to me, 'Please help me with my homework.'",
     "options": [
-      "She asked where I was going.",
-      "She asked that where I was going.",
-      "She asked where was I going.",
-      "She said where I was going."
+      "He requested me to help him with his homework.",
+      "He asked me to help him with my homework.",
+      "He requested me that I should help him.",
+      "He told me to please help him with his homework."
     ],
-    "answer": "She asked where I was going.",
-    "explanation": "In Wh- questions, the Wh-word acts as the connector. No 'that' is used. ✅"
+    "answer": "He requested me to help him with his homework.",
+    "explanation": "When 'please' is used, the reporting verb changes to 'requested' and 'please' is removed. ✅"
   },
   {
-    "question": "Change to Indirect: I said to him, 'Can you solve this sum?'",
+    "question": "The doctor said to the patient, 'Quit smoking.'",
     "options": [
-      "I asked him if he can solve this sum.",
-      "I asked him if he could solve that sum.",
-      "I asked him that if he could solve that sum.",
-      "I told him if he could solve that sum."
+      "The doctor advised the patient to quit smoking.",
+      "The doctor ordered the patient to quit smoking.",
+      "The doctor told to the patient to quit smoking.",
+      "The doctor suggested that the patient quits smoking."
     ],
-    "answer": "I asked him if he could solve that sum.",
-    "explanation": "'Can' changes to 'could' and 'this' changes to 'that'. ✅"
+    "answer": "The doctor advised the patient to quit smoking.",
+    "explanation": "Medical suggestions are best reported using 'advised'. ✅"
   },
   {
-    "question": "Change to Indirect: The teacher asked the boy, 'Why are you late?'",
+    "question": "The boss said to the clerk, 'Leave the room at once.'",
     "options": [
-      "The teacher asked the boy why was he late.",
-      "The teacher asked the boy why he was late.",
-      "The teacher asked the boy that why he was late.",
-      "The teacher told the boy why he was late."
+      "The boss ordered the clerk to leave the room at once.",
+      "The boss asked the clerk to leave the room at once.",
+      "The boss told the clerk that he should leave the room.",
+      "The boss ordered to the clerk to leave the room."
     ],
-    "answer": "The teacher asked the boy why he was late.",
-    "explanation": "After the Wh-word, the subject (he) must come before the verb (was). ✅"
+    "answer": "The boss ordered the clerk to leave the room at once.",
+    "explanation": "A direct instruction from a superior is an 'order'. ✅"
   },
   {
-    "question": "Change to Indirect: He said, 'I must go now.'",
+    "question": "Mother said to me, 'Don't play with fire.'",
     "options": [
-      "He said that he must go now.",
-      "He said that he had to go then.",
-      "He said that he must go then.",
-      "Both B and C are correct."
+      "Mother told me not to play with fire.",
+      "Mother forbade me to play with fire.",
+      "Mother advised me not to play with fire.",
+      "All the above are correct."
     ],
-    "answer": "Both B and C are correct.",
-    "explanation": "'Must' can remain 'must' or change to 'had to' in indirect speech, and 'now' changes to 'then'. ✅"
+    "answer": "All the above are correct.",
+    "explanation": "Negative imperatives can be reported using 'not to' or 'forbade' (which already implies 'not'). ✅"
   },
   {
-    "question": "Change to Indirect: My mother said to me, 'Did you see my keys?'",
+    "question": "He said, 'Let's go for a walk.'",
     "options": [
-      "My mother asked me if I had seen her keys.",
-      "My mother asked me if I saw her keys.",
-      "My mother asked me that if I had seen her keys.",
-      "My mother told me if I had seen her keys."
+      "He suggested going for a walk.",
+      "He suggested that we should go for a walk.",
+      "He proposed that they should go for a walk.",
+      "All the above are correct."
     ],
-    "answer": "My mother asked me if I had seen her keys.",
-    "explanation": "Simple Past (Did see) changes to Past Perfect (had seen). ✅"
+    "answer": "All the above are correct.",
+    "explanation": "'Let's' (Let us) sentences are reported using 'suggested' or 'proposed' followed by 'that...should' or a gerund. ✅"
   },
   {
-    "question": "Change to Indirect: She said, 'May I use your pen?'",
+    "question": "The captain said to the soldiers, 'Attack the enemy.'",
     "options": [
-      "She asked if she might use my pen.",
-      "She asked if she may use my pen.",
-      "She asked that she might use my pen.",
-      "She said that she might use my pen."
+      "The captain commanded the soldiers to attack the enemy.",
+      "The captain ordered the soldiers to attack the enemy.",
+      "The captain told the soldiers to attack the enemy.",
+      "Both A and B are correct."
     ],
-    "answer": "She asked if she might use my pen.",
-    "explanation": "'May' changes to 'might' and 'your' changes to 'my' (assuming the object is 'me'). ✅"
+    "answer": "Both A and B are correct.",
+    "explanation": "Military orders can use 'commanded' or 'ordered'. ✅"
   },
   {
-    "question": "Change to Indirect: They said to us, 'How do you know this?'",
+    "question": "She said to her friend, 'Work hard if you want to pass.'",
     "options": [
-      "They asked us how we knew that.",
-      "They asked us how did we know that.",
-      "They asked us that how we knew that.",
-      "They told us how we knew that."
+      "She advised her friend to work hard if she wanted to pass.",
+      "She told her friend to work hard if she wanted to pass.",
+      "She suggested her friend working hard to pass.",
+      "She advised her friend to work hard if she wants to pass."
     ],
-    "answer": "They asked us how we knew that.",
-    "explanation": "Simple Present (know) changes to Simple Past (knew). The question structure 'do you' is removed. ✅"
+    "answer": "She advised her friend to work hard if she wanted to pass.",
+    "explanation": "The imperative part becomes 'to work' and the conditional part 'wants' becomes 'wanted'. ✅"
   },
   {
-    "question": "Change to Indirect: He asked, 'What is the matter?'",
+    "question": "He said to his servant, 'Bring a glass of water.'",
     "options": [
-      "He asked what was the matter.",
-      "He asked what the matter was.",
-      "He asked that what the matter was.",
-      "He asked what the matter is."
+      "He ordered his servant to bring a glass of water.",
+      "He told his servant to bring a glass of water.",
+      "He asked his servant to bring a glass of water.",
+      "He requested his servant to bring a glass of water."
     ],
-    "answer": "He asked what the matter was.",
-    "explanation": "In indirect questions, the verb (was) comes at the end of the clause. ✅"
+    "answer": "He ordered his servant to bring a glass of water.",
+    "explanation": "An order given to a subordinate. ✅"
   },
   {
-    "question": "Change to Indirect: I said to her, 'Will you help me?'",
+    "question": "The officer said to the peon, 'Don't stand there.'",
     "options": [
-      "I asked her if she will help me.",
-      "I asked her if she would help me.",
-      "I asked her whether she would help me.",
-      "Both B and C are correct."
+      "The officer ordered the peon not to stand there.",
+      "The officer forbade the peon from standing there.",
+      "The officer told the peon not to stand there.",
+      "All the above are correct."
     ],
-    "answer": "Both B and C are correct.",
-    "explanation": "'Will' changes to 'would' and 'if/whether' can be used interchangeably. ✅"
+    "answer": "All the above are correct.",
+    "explanation": "Negative commands can be reported in multiple ways, all meaning the same here. ✅"
+  },
+  {
+    "question": "I said to him, 'Please, please don't leave me.'",
+    "options": [
+      "I begged him not to leave me.",
+      "I requested him not to leave me.",
+      "I told him not to leave me.",
+      "I asked him not to leave me."
+    ],
+    "answer": "I begged him not to leave me.",
+    "explanation": "When 'please' is repeated or the emotion is strong, 'begged' or 'implored' is used. ✅"
+  },
+  {
+    "question": "He said to his son, 'Never tell a lie.'",
+    "options": [
+      "He advised his son never to tell a lie.",
+      "He told his son that he should never tell a lie.",
+      "He forbade his son to tell a lie.",
+      "He ordered his son not to tell a lie."
+    ],
+    "answer": "He advised his son never to tell a lie.",
+    "explanation": "General moral advice uses 'advised'. ✅"
+  },
+  {
+    "question": "The general said to his troops, 'March forward.'",
+    "options": [
+      "The general commanded his troops to march forward.",
+      "The general ordered his troops to march forward.",
+      "The general told his troops to march forward.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Military commands. ✅"
+  },
+  {
+    "question": "She said to the boy, 'Go away.'",
+    "options": [
+      "She told the boy to go away.",
+      "She ordered the boy to go away.",
+      "She asked the boy to go away.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Depending on the tone, 'told' or 'ordered' can be used. ✅"
+  },
+  {
+    "question": "I said to my brother, 'Let us go to the cinema.'",
+    "options": [
+      "I suggested to my brother that we should go to the cinema.",
+      "I told my brother that let us go to the cinema.",
+      "I suggested my brother to go to the cinema.",
+      "I proposed my brother for going to the cinema."
+    ],
+    "answer": "I suggested to my brother that we should go to the cinema.",
+    "explanation": "Standard reporting for 'Let us' suggestions. ✅"
+  },
+  {
+    "question": "He said to his friend, 'Wait here until I return.'",
+    "options": [
+      "He told his friend to wait there until he returned.",
+      "He asked his friend to wait there until he returned.",
+      "He advised his friend to wait there until he returns.",
+      "He told his friend to wait here until he returned."
+    ],
+    "answer": "He told his friend to wait there until he returned.",
+    "explanation": "Here ➔ There, and return (V1) ➔ returned (V2). ✅"
+  },
+  {
+    "question": "The judge said to the witness, 'Tell the truth.'",
+    "options": [
+      "The judge ordered the witness to tell the truth.",
+      "The judge told the witness to tell the truth.",
+      "The judge requested the witness to tell the truth.",
+      "The judge advised the witness to tell the truth."
+    ],
+    "answer": "The judge ordered the witness to tell the truth.",
+    "explanation": "A judge gives orders in a courtroom. ✅"
+  },
+  {
+    "question": "She said to her servant, 'Don't waste time.'",
+    "options": [
+      "She ordered her servant not to waste time.",
+      "She forbade her servant to waste time.",
+      "She told her servant not to waste time.",
+      "All the above are correct."
+    ],
+    "answer": "All the above are correct.",
+    "explanation": "Negative imperatives. ✅"
+  },
+  {
+    "question": "Father said to me, 'Don't be silly.'",
+    "options": [
+      "Father told me not to be silly.",
+      "Father advised me not to be silly.",
+      "Father asked me not to be silly.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Common paternal advice/instruction. ✅"
+  },
+  {
+    "question": "He said to his classmates, 'Let's play a match.'",
+    "options": [
+      "He proposed to his classmates that they should play a match.",
+      "He suggested his classmates to play a match.",
+      "He told his classmates that they should play a match.",
+      "He said to his classmates to play a match."
+    ],
+    "answer": "He proposed to his classmates that they should play a match.",
+    "explanation": "'Proposed' is often used with 'Let's'. ✅"
+  },
+  {
+    "question": "The teacher said to the student, 'Leave the class.'",
+    "options": [
+      "The teacher ordered the student to leave the class.",
+      "The teacher asked the student to leave the class.",
+      "The teacher told the student to leave the class.",
+      "Both A and C are correct."
+    ],
+    "answer": "Both A and C are correct.",
+    "explanation": "Commands in a classroom setting. ✅"
+  },
+  {
+    "question": "I said to her, 'Please don't tell anyone.'",
+    "options": [
+      "I requested her not to tell anyone.",
+      "I begged her not to tell anyone.",
+      "I told her not to tell anyone.",
+      "I asked her not to tell anyone."
+    ],
+    "answer": "I requested her not to tell anyone.",
+    "explanation": "'Please' leads to 'requested'. ✅"
+  },
+  {
+    "question": "The commander said to the soldiers, 'Fire at will.'",
+    "options": [
+      "The commander commanded the soldiers to fire at will.",
+      "The commander ordered the soldiers to fire at will.",
+      "The commander told the soldiers to fire at will.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Military commands. ✅"
+  },
+  {
+    "question": "He said to me, 'Believe in yourself.'",
+    "options": [
+      "He advised me to believe in myself.",
+      "He told me to believe in himself.",
+      "He suggested me to believe in myself.",
+      "He requested me to believe in myself."
+    ],
+    "answer": "He advised me to believe in myself.",
+    "explanation": "Advice on personal mindset. ✅"
+  },
+  {
+    "question": "She said to him, 'Consult a doctor immediately.'",
+    "options": [
+      "She advised him to consult a doctor immediately.",
+      "She suggested him to consult a doctor immediately.",
+      "She told him to consult a doctor immediately.",
+      "She asked him to consult a doctor immediately."
+    ],
+    "answer": "She advised him to consult a doctor immediately.",
+    "explanation": "Medical advice. ✅"
+  },
+  {
+    "question": "The master said to the dog, 'Sit.'",
+    "options": [
+      "The master ordered the dog to sit.",
+      "The master told the dog to sit.",
+      "The master asked the dog to sit.",
+      "The master requested the dog to sit."
+    ],
+    "answer": "The master ordered the dog to sit.",
+    "explanation": "Commands given to animals. ✅"
+  },
+  {
+    "question": "He said to his friend, 'Lend me your umbrella.'",
+    "options": [
+      "He requested his friend to lend him his umbrella.",
+      "He asked his friend to lend him his umbrella.",
+      "He told his friend to lend him his umbrella.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "A request or simple asking between friends. ✅"
+  },
+  {
+    "question": "The priest said, 'Be quiet and listen to me.'",
+    "options": [
+      "The priest urged them to be quiet and listen to him.",
+      "The priest said that they should be quiet and listen to him.",
+      "The priest ordered to be quiet and listen to him.",
+      "The priest asked them to be quiet and listen to him."
+    ],
+    "answer": "The priest urged them to be quiet and listen to him.",
+    "explanation": "When an imperative is a strong plea, 'urged' is a great reporting verb. ✅"
+  },
+  {
+    "question": "She said to the children, 'Don't make a noise.'",
+    "options": [
+      "She told the children not to make a noise.",
+      "She forbade the children to make a noise.",
+      "She ordered the children not to make a noise.",
+      "All the above are correct."
+    ],
+    "answer": "All the above are correct.",
+    "explanation": "Negative imperatives for kids. ✅"
+  },
+  {
+    "question": "He said, 'Let us wait for the result.'",
+    "options": [
+      "He suggested that they should wait for the result.",
+      "He suggested waiting for the result.",
+      "He proposed that they should wait for the result.",
+      "All the above are correct."
+    ],
+    "answer": "All the above are correct.",
+    "explanation": "Different ways to report 'Let us' suggestions. ✅"
   }
 ]
