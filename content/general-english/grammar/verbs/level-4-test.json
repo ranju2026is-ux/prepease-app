@@ -1,0 +1,332 @@
+[
+  {
+    "question": "I _____ speak three languages fluently.",
+    "options": [
+      "can",
+      "may",
+      "must",
+      "should"
+    ],
+    "answer": "can",
+    "explanation": "'Can' is used to express general ability in the present tense. ✅"
+  },
+  {
+    "question": "_____ I come in, Sir?",
+    "options": [
+      "Can",
+      "May",
+      "Will",
+      "Must"
+    ],
+    "answer": "May",
+    "explanation": "'May' is the formal and polite way to ask for permission. ✅"
+  },
+  {
+    "question": "You _____ follow the traffic rules.",
+    "options": [
+      "can",
+      "may",
+      "must",
+      "might"
+    ],
+    "answer": "must",
+    "explanation": "'Must' expresses a strong obligation or a legal necessity. ✅"
+  },
+  {
+    "question": "It _____ rain tonight; the sky is cloudy.",
+    "options": [
+      "can",
+      "might",
+      "should",
+      "must"
+    ],
+    "answer": "might",
+    "explanation": "'Might' or 'May' is used to express possibility. ✅"
+  },
+  {
+    "question": "When I was young, I _____ run very fast.",
+    "options": [
+      "can",
+      "could",
+      "may",
+      "might"
+    ],
+    "answer": "could",
+    "explanation": "'Could' is the past form of 'can', used to express past ability. ✅"
+  },
+  {
+    "question": "We _____ respect our elders.",
+    "options": [
+      "can",
+      "may",
+      "should",
+      "could"
+    ],
+    "answer": "should",
+    "explanation": "'Should' is used to give advice or express a moral duty. ✅"
+  },
+  {
+    "question": "You _____ not smoke in the hospital.",
+    "options": [
+      "must",
+      "may",
+      "can",
+      "might"
+    ],
+    "answer": "must",
+    "explanation": "'Must not' indicates a strong prohibition. ✅"
+  },
+  {
+    "question": "_____ you please lend me your pen?",
+    "options": [
+      "Could",
+      "Must",
+      "May",
+      "Should"
+    ],
+    "answer": "Could",
+    "explanation": "'Could' or 'Would' are used for making polite requests. ✅"
+  },
+  {
+    "question": "If you work hard, you _____ win the prize.",
+    "options": [
+      "must",
+      "may",
+      "should",
+      "could"
+    ],
+    "answer": "may",
+    "explanation": "'May' expresses a positive possibility based on a condition. ✅"
+  },
+  {
+    "question": "You _____ see a doctor at once.",
+    "options": [
+      "ought to",
+      "might",
+      "can",
+      "could"
+    ],
+    "answer": "ought to",
+    "explanation": "'Ought to' is similar to 'should' and expresses duty or strong advice. ✅"
+  },
+  {
+    "question": "I _____ go now, or I will miss the train.",
+    "options": [
+      "may",
+      "must",
+      "can",
+      "could"
+    ],
+    "answer": "must",
+    "explanation": "Expresses an urgent necessity. ✅"
+  },
+  {
+    "question": "_____ God bless you!",
+    "options": [
+      "Can",
+      "May",
+      "Must",
+      "Should"
+    ],
+    "answer": "May",
+    "explanation": "'May' is used to express a wish or a prayer. ✅"
+  },
+  {
+    "question": "She _____ be at home now, but I'm not sure.",
+    "options": [
+      "must",
+      "can",
+      "might",
+      "should"
+    ],
+    "answer": "might",
+    "explanation": "'Might' shows a weak or uncertain possibility. ✅"
+  },
+  {
+    "question": "We _____ to love our neighbors.",
+    "options": [
+      "should",
+      "ought",
+      "must",
+      "may"
+    ],
+    "answer": "ought",
+    "explanation": "When 'to' follows the blank, 'ought' is the only correct modal choice. ✅"
+  },
+  {
+    "question": "You _____ have told me earlier.",
+    "options": [
+      "can",
+      "should",
+      "may",
+      "must"
+    ],
+    "answer": "should",
+    "explanation": "'Should have' is used for an action that was desirable but did not happen in the past. ✅"
+  },
+  {
+    "question": "_____ you like some tea?",
+    "options": [
+      "Would",
+      "Could",
+      "Should",
+      "Can"
+    ],
+    "answer": "Would",
+    "explanation": "'Would you like' is a standard polite offer. ✅"
+  },
+  {
+    "question": "He _____ not be more than thirty years old.",
+    "options": [
+      "can",
+      "may",
+      "must",
+      "should"
+    ],
+    "answer": "can",
+    "explanation": "'Can not' is used for a logical impossibility in the present. ✅"
+  },
+  {
+    "question": "Candidates _____ answer all the questions.",
+    "options": [
+      "shall",
+      "must",
+      "may",
+      "could"
+    ],
+    "answer": "must",
+    "explanation": "Official instructions use 'must' for compulsion. ✅"
+  },
+  {
+    "question": "I _____ rather die than beg.",
+    "options": [
+      "should",
+      "would",
+      "could",
+      "might"
+    ],
+    "answer": "would",
+    "explanation": "'Would rather' is used to express preference. ✅"
+  },
+  {
+    "question": "Work hard lest you _____ fail.",
+    "options": [
+      "may",
+      "should",
+      "might",
+      "can"
+    ],
+    "answer": "should",
+    "explanation": "'Lest' is always followed by the modal 'should'. ✅"
+  },
+  {
+    "question": "_____ you have a prosperous life!",
+    "options": [
+      "May",
+      "Might",
+      "Can",
+      "Should"
+    ],
+    "answer": "May",
+    "explanation": "Expressing a wish. ✅"
+  },
+  {
+    "question": "You _____ not leave your bike unlocked.",
+    "options": [
+      "must",
+      "should",
+      "may",
+      "could"
+    ],
+    "answer": "should",
+    "explanation": "Used for giving sensible advice. ✅"
+  },
+  {
+    "question": "She _____ play the piano when she was five.",
+    "options": [
+      "can",
+      "could",
+      "may",
+      "might"
+    ],
+    "answer": "could",
+    "explanation": "Past ability. ✅"
+  },
+  {
+    "question": "_____ you help me with this heavy bag?",
+    "options": [
+      "Can",
+      "May",
+      "Must",
+      "Should"
+    ],
+    "answer": "Can",
+    "explanation": "Informal request for help. ✅"
+  },
+  {
+    "question": "He _____ be a thief; look at his behavior.",
+    "options": [
+      "must",
+      "may",
+      "can",
+      "should"
+    ],
+    "answer": "must",
+    "explanation": "'Must' is used for strong logical deduction or certainty. ✅"
+  },
+  {
+    "question": "I _____ lend you my book if you promise to return it.",
+    "options": [
+      "can",
+      "must",
+      "should",
+      "might"
+    ],
+    "answer": "can",
+    "explanation": "Expressing a possibility or willingness. ✅"
+  },
+  {
+    "question": "We _____ to help the poor.",
+    "options": [
+      "should",
+      "ought",
+      "must",
+      "can"
+    ],
+    "answer": "ought",
+    "explanation": "Followed by 'to'. ✅"
+  },
+  {
+    "question": "He _____ have reached the station by now.",
+    "options": [
+      "must",
+      "may",
+      "can",
+      "might"
+    ],
+    "answer": "must",
+    "explanation": "Expresses a high degree of probability. ✅"
+  },
+  {
+    "question": "_____ I take your umbrella for a day?",
+    "options": [
+      "May",
+      "Must",
+      "Should",
+      "Will"
+    ],
+    "answer": "May",
+    "explanation": "Formal request for permission. ✅"
+  },
+  {
+    "question": "If I were you, I _____ not do that.",
+    "options": [
+      "will",
+      "would",
+      "should",
+      "could"
+    ],
+    "answer": "would",
+    "explanation": "In hypothetical 'If I were you' sentences, 'would' is used. ✅"
+  }
+]
