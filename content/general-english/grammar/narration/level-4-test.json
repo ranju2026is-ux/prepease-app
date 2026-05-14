@@ -1,112 +1,332 @@
 [
   {
-    "question": "Change to Indirect: The teacher said to the students, 'Shut the door.'",
+    "question": "He said, 'Alas! I am undone.'",
     "options": [
-      "The teacher told the students that shut the door.",
-      "The teacher ordered the students to shut the door.",
-      "The teacher said to the students to shut the door.",
-      "The teacher ordered the students that they should shut the door."
+      "He exclaimed with sorrow that he was undone.",
+      "He said sadly that he is undone.",
+      "He exclaimed with joy that he was undone.",
+      "He told that alas he was undone."
     ],
-    "answer": "The teacher ordered the students to shut the door.",
-    "explanation": "For orders, the reporting verb changes to 'ordered' and we use 'to + V1' as the connector. ✅"
+    "answer": "He exclaimed with sorrow that he was undone.",
+    "explanation": "The word 'Alas' expresses sorrow, so we use 'exclaimed with sorrow/grief'. ✅"
   },
   {
-    "question": "Change to Indirect: He said to me, 'Please help me with my homework.'",
+    "question": "The boy said, 'Hurrah! We have won the match.'",
     "options": [
-      "He requested me to help him with his homework.",
-      "He asked me to please help him with his homework.",
-      "He told me to help him with his homework.",
-      "He requested me that I should help him with his homework."
+      "The boy exclaimed with joy that they had won the match.",
+      "The boy said with joy that they have won the match.",
+      "The boy exclaimed that we had won the match.",
+      "The boy shouted that they won the match."
     ],
-    "answer": "He requested me to help him with his homework.",
-    "explanation": "When 'Please' is used, the reporting verb changes to 'requested' and 'please' is removed in indirect speech. ✅"
+    "answer": "The boy exclaimed with joy that they had won the match.",
+    "explanation": "'Hurrah' expresses joy. Present Perfect 'have won' changes to Past Perfect 'had won'. ✅"
   },
   {
-    "question": "Change to Indirect: The doctor said to the patient, 'Take your medicines on time.'",
+    "question": "She said, 'May God bless you!'",
     "options": [
-      "The doctor ordered the patient to take his medicines on time.",
-      "The doctor advised the patient to take his medicines on time.",
-      "The doctor suggested the patient that take medicines on time.",
-      "The doctor told the patient to take your medicines on time."
+      "She prayed that God might bless me.",
+      "She wished that God may bless me.",
+      "She said that God might bless me.",
+      "She blessed me that God might bless you."
     ],
-    "answer": "The doctor advised the patient to take his medicines on time.",
-    "explanation": "For medical or moral suggestions, we use 'advised' followed by 'to + V1'. ✅"
+    "answer": "She prayed that God might bless me.",
+    "explanation": "For prayers/wishes involving God, 'prayed' is the correct reporting verb. 'May' changes to 'might'. ✅"
   },
   {
-    "question": "Change to Indirect: My mother said to me, 'Don't waste your time.'",
+    "question": "He said, 'What a beautiful flower it is!'",
     "options": [
-      "My mother told me to not waste my time.",
-      "My mother advised me not to waste my time.",
-      "My mother forbade me not to waste my time.",
-      "My mother advised me to don't waste my time."
+      "He exclaimed with surprise that it was a very beautiful flower.",
+      "He said that what a beautiful flower it was.",
+      "He exclaimed that it is a very beautiful flower.",
+      "He told that the flower was beautiful."
     ],
-    "answer": "My mother advised me not to waste my time.",
-    "explanation": "In negative imperatives, 'Don't' changes to 'not to'. If using 'forbade', we don't use 'not'. ✅"
+    "answer": "He exclaimed with surprise that it was a very beautiful flower.",
+    "explanation": "Exclamatory sentences starting with 'What/How' are changed into assertive sentences using 'very' or 'great'. ✅"
   },
   {
-    "question": "Change to Indirect: The captain said to the soldiers, 'Attack the enemy.'",
+    "question": "The old man said, 'Would that I were young again!'",
     "options": [
-      "The captain told the soldiers to attack the enemy.",
-      "The captain commanded the soldiers to attack the enemy.",
-      "The captain ordered the soldiers that attack the enemy.",
-      "The captain commanded the soldiers they should attack the enemy."
+      "The old man wished that he had been young again.",
+      "The old man wished that he were young again.",
+      "The old man said that he was young again.",
+      "The old man strongly wished to be young again."
     ],
-    "answer": "The captain commanded the soldiers to attack the enemy.",
-    "explanation": "For military orders, 'commanded' is the most appropriate reporting verb. ✅"
+    "answer": "The old man wished that he had been young again.",
+    "explanation": "'Would that' expresses a strong wish. In indirect speech, 'were' changes to 'had been' to reflect the past hypothetical nature. ✅"
   },
   {
-    "question": "Change to Indirect: He said, 'Let's go for a walk.'",
+    "question": "They said, 'Bravo! You have done well.'",
     "options": [
-      "He suggested that we should go for a walk.",
-      "He proposed that they should go for a walk.",
-      "He said to go for a walk.",
-      "Both A and B are correct."
+      "They applauded him, saying that he had done well.",
+      "They exclaimed with joy that he had done well.",
+      "They said bravo that he had done well.",
+      "They told him that he did well."
     ],
-    "answer": "Both A and B are correct.",
-    "explanation": "For 'Let's' (proposals/suggestions), we use 'suggested/proposed' followed by 'that + subject + should'. ✅"
+    "answer": "They applauded him, saying that he had done well.",
+    "explanation": "'Bravo' is best reported using 'applauded + object + saying that'. ✅"
   },
   {
-    "question": "Change to Indirect: The manager said to the clerk, 'Show me the files.'",
+    "question": "She said to me, 'Happy Christmas!'",
     "options": [
-      "The manager ordered the clerk to show him the files.",
-      "The manager asked the clerk to show him the files.",
-      "The manager told the clerk to show me the files.",
-      "The manager ordered the clerk that show him the files."
+      "She wished me a Happy Christmas.",
+      "She said to me Happy Christmas.",
+      "She told me that it was a Happy Christmas.",
+      "She wished that I had a Happy Christmas."
     ],
-    "answer": "The manager ordered the clerk to show him the files.",
-    "explanation": "Reporting verb 'ordered' + connector 'to' + V1. 'Me' changes to 'him'. ✅"
+    "answer": "She wished me a Happy Christmas.",
+    "explanation": "Greetings like 'Happy Birthday/Christmas' are reported using 'wished'. ✅"
   },
   {
-    "question": "Change to Indirect: She said to her friend, 'Work hard if you want to pass.'",
+    "question": "He said, 'Goodbye, my friends!'",
     "options": [
-      "She advised her friend to work hard if she wanted to pass.",
-      "She told her friend to work hard if you want to pass.",
-      "She advised her friend to work hard if she wants to pass.",
-      "She said to her friend to work hard if she wanted to pass."
+      "He bade goodbye to his friends.",
+      "He said goodbye to his friends.",
+      "He wished goodbye to his friends.",
+      "He told his friends goodbye."
     ],
-    "answer": "She advised her friend to work hard if she wanted to pass.",
-    "explanation": "Advice structure 'to + V1'. The subordinate clause tense also changes (want ➔ wanted). ✅"
+    "answer": "He bade goodbye to his friends.",
+    "explanation": "For farewells like 'Goodbye' or 'Goodnight', the verb 'bade' (past of bid) is traditionally used. ✅"
   },
   {
-    "question": "Change to Indirect: He said to the servant, 'Leave the room at once.'",
+    "question": "The captain said, 'How terrible the storm is!'",
     "options": [
-      "He told the servant to leave the room at once.",
-      "He ordered the servant to leave the room at once.",
-      "He asked the servant to leave the room at once.",
-      "He ordered the servant that leave the room at once."
+      "The captain exclaimed that the storm was very terrible.",
+      "The captain said that how terrible the storm was.",
+      "The captain exclaimed with sorrow that the storm is terrible.",
+      "The captain told that the storm was terrible."
     ],
-    "answer": "He ordered the servant to leave the room at once.",
-    "explanation": "Clear command ➔ 'ordered'. ✅"
+    "answer": "The captain exclaimed that the storm was very terrible.",
+    "explanation": "'How' becomes 'very' in the assertive form. ✅"
   },
   {
-    "question": "Change to Indirect: 'Call the first witness,' said the judge.",
+    "question": "I said to him, 'May you live long!'",
     "options": [
-      "The judge ordered them to call the first witness.",
-      "The judge said to call the first witness.",
-      "The judge told to call the first witness.",
-      "The judge ordered that call the first witness."
+      "I wished that he might live long.",
+      "I prayed that he might live long.",
+      "I blessed him that he might live long.",
+      "Both A and C are correct."
     ],
-    "answer": "The judge ordered them to call the first witness.",
-    "explanation": "Legal commands in court use 'ordered'. An implied object (them/the officials) is often added. ✅"
+    "answer": "Both A and C are correct.",
+    "explanation": "Depending on the relation, 'wished' or 'blessed' can be used for 'May you live long'. ✅"
+  },
+  {
+    "question": "She said, 'Oh! I lost my purse.'",
+    "options": [
+      "She exclaimed with regret that she had lost her purse.",
+      "She said that she lost her purse.",
+      "She exclaimed that she lost her purse.",
+      "She told sadly that she has lost her purse."
+    ],
+    "answer": "She exclaimed with regret that she had lost her purse.",
+    "explanation": "'Oh' can express regret or sorrow. Simple Past 'lost' changes to Past Perfect 'had lost'. ✅"
+  },
+  {
+    "question": "He said, 'Fie! A soldier and afraid of death!'",
+    "options": [
+      "He exclaimed with contempt that a soldier should be afraid of death.",
+      "He said that it was a shame for a soldier to be afraid of death.",
+      "He rebuked the soldier for being afraid of death.",
+      "All the above are correct."
+    ],
+    "answer": "All the above are correct.",
+    "explanation": "'Fie' expresses contempt or shame. The sentence can be reported by capturing that emotion. ✅"
+  },
+  {
+    "question": "They said, 'Long live the King!'",
+    "options": [
+      "They prayed that the King might live long.",
+      "They wished that the King lived long.",
+      "They shouted that the King live long.",
+      "They told that the King might live long."
+    ],
+    "answer": "They prayed that the King might live long.",
+    "explanation": "This is an optative sentence where 'may' is hidden (May the King live long). ✅"
+  },
+  {
+    "question": "He said, 'How fast you run!'",
+    "options": [
+      "He exclaimed that I ran very fast.",
+      "He said that I ran very fast.",
+      "He exclaimed that how fast I ran.",
+      "He told me that I was running fast."
+    ],
+    "answer": "He exclaimed that I ran very fast.",
+    "explanation": "'How' becomes 'very' and simple present 'run' becomes 'ran'. ✅"
+  },
+  {
+    "question": "She said, 'Pooh! What a dirty child!'",
+    "options": [
+      "She exclaimed with disgust that he was a very dirty child.",
+      "She said that he was a dirty child.",
+      "She exclaimed that the child is dirty.",
+      "She told that pooh the child was dirty."
+    ],
+    "answer": "She exclaimed with disgust that he was a very dirty child.",
+    "explanation": "'Pooh' expresses disgust. ✅"
+  },
+  {
+    "question": "My friend said to me, 'Good morning!'",
+    "options": [
+      "My friend wished me a good morning.",
+      "My friend told me good morning.",
+      "My friend said good morning to me.",
+      "My friend bade me a good morning."
+    ],
+    "answer": "My friend wished me a good morning.",
+    "explanation": "'Good morning' is a wish. ✅"
+  },
+  {
+    "question": "He said, 'What a fool I am!'",
+    "options": [
+      "He exclaimed with regret that he was a great fool.",
+      "He said that he was a fool.",
+      "He confessed that he was a great fool.",
+      "Both A and C are correct."
+    ],
+    "answer": "Both A and C are correct.",
+    "explanation": "When 'What' is followed by a noun (fool), it changes to 'great'. ✅"
+  },
+  {
+    "question": "The audience said, 'What a fine hit!'",
+    "options": [
+      "The audience exclaimed with joy that it was a very fine hit.",
+      "The audience said that it was a fine hit.",
+      "The audience cheered that it was a fine hit.",
+      "The audience shouted what a fine hit it was."
+    ],
+    "answer": "The audience exclaimed with joy that it was a very fine hit.",
+    "explanation": "Assertive conversion: It was a very fine hit. ✅"
+  },
+  {
+    "question": "She said, 'Had I the wings of a dove!'",
+    "options": [
+      "She wished that she had the wings of a dove.",
+      "She wished that she had had the wings of a dove.",
+      "She said that she has the wings of a dove.",
+      "She exclaimed that she had the wings of a dove."
+    ],
+    "answer": "She wished that she had had the wings of a dove.",
+    "explanation": "Strong wish with 'Had I...' changes to Past Perfect 'she had had'. ✅"
+  },
+  {
+    "question": "The teacher said to the student, 'May you succeed!'",
+    "options": [
+      "The teacher wished that the student might succeed.",
+      "The teacher told the student that he might succeed.",
+      "The teacher said that the student might succeed.",
+      "The teacher prayed for the student's success."
+    ],
+    "answer": "The teacher wished that the student might succeed.",
+    "explanation": "A wish for success. ✅"
+  },
+  {
+    "question": "He said, 'Ugh! There is a fly in my soup.'",
+    "options": [
+      "He exclaimed with disgust that there was a fly in his soup.",
+      "He said with disgust that there is a fly in his soup.",
+      "He exclaimed that a fly was in his soup.",
+      "He told that ugh a fly was in his soup."
+    ],
+    "answer": "He exclaimed with disgust that there was a fly in his soup.",
+    "explanation": "'Ugh' expresses disgust. ✅"
+  },
+  {
+    "question": "They said, 'How cleverly he has planned the robbery!'",
+    "options": [
+      "They exclaimed with surprise that he had planned the robbery very cleverly.",
+      "They said that he had planned the robbery cleverly.",
+      "They exclaimed that how cleverly he had planned it.",
+      "They told that he has planned the robbery very cleverly."
+    ],
+    "answer": "They exclaimed with surprise that he had planned the robbery very cleverly.",
+    "explanation": "Present Perfect ➔ Past Perfect + 'very' for 'how'. ✅"
+  },
+  {
+    "question": "The monk said, 'May peace prevail on earth!'",
+    "options": [
+      "The monk prayed that peace might prevail on earth.",
+      "The monk wished that peace prevails on earth.",
+      "The monk said that peace might prevail on earth.",
+      "The monk prayed for peace on earth."
+    ],
+    "answer": "The monk prayed that peace might prevail on earth.",
+    "explanation": "A formal prayer. ✅"
+  },
+  {
+    "question": "He said, 'By God! I did not steal the watch.'",
+    "options": [
+      "He swore by God that he had not stolen the watch.",
+      "He said by God that he did not steal the watch.",
+      "He exclaimed with an oath that he had not stolen the watch.",
+      "Both A and C are correct."
+    ],
+    "answer": "Both A and C are correct.",
+    "explanation": "Oaths are reported using 'swore' or 'exclaimed with an oath'. ✅"
+  },
+  {
+    "question": "She said, 'What a pity you couldn't come!'",
+    "options": [
+      "She exclaimed with sorrow that it was a great pity I couldn't come.",
+      "She said that it was a pity I couldn't come.",
+      "She exclaimed that it is a pity I couldn't come.",
+      "She told that she was sorry I couldn't come."
+    ],
+    "answer": "She exclaimed with sorrow that it was a great pity I couldn't come.",
+    "explanation": "'What a pity' ➔ 'It was a great pity'. ✅"
+  },
+  {
+    "question": "The beggar said, 'May you all go to hell!'",
+    "options": [
+      "The beggar cursed them that they might all go to hell.",
+      "The beggar wished that they might all go to hell.",
+      "The beggar said that they all go to hell.",
+      "The beggar prayed that they might go to hell."
+    ],
+    "answer": "The beggar cursed them that they might all go to hell.",
+    "explanation": "When a wish is harmful or negative, use 'cursed'. ✅"
+  },
+  {
+    "question": "The boy said, 'Alas! My father is dead.'",
+    "options": [
+      "The boy exclaimed with sorrow that his father was dead.",
+      "The boy said that his father was dead.",
+      "The boy told with grief that his father was dead.",
+      "Both A and C are correct."
+    ],
+    "answer": "Both A and C are correct.",
+    "explanation": "Reporting a tragic exclamation. ✅"
+  },
+  {
+    "question": "She said, 'Goodnight, Mother!'",
+    "options": [
+      "She bade her mother goodnight.",
+      "She wished her mother goodnight.",
+      "She told her mother goodnight.",
+      "She said goodnight to her mother."
+    ],
+    "answer": "She bade her mother goodnight.",
+    "explanation": "'Goodnight' is a farewell, so 'bade' is used. ✅"
+  },
+  {
+    "question": "He said, 'How happy I am!'",
+    "options": [
+      "He exclaimed with joy that he was very happy.",
+      "He said that he was very happy.",
+      "He exclaimed that how happy he was.",
+      "He told that he is very happy."
+    ],
+    "answer": "He exclaimed with joy that he was very happy.",
+    "explanation": "Is ➔ Was + 'very'. ✅"
+  },
+  {
+    "question": "They said, 'If only we had won!'",
+    "options": [
+      "They wished that they had won.",
+      "They wished that they had had won.",
+      "They exclaimed with regret that they had not won.",
+      "Both A and C are correct."
+    ],
+    "answer": "Both A and C are correct.",
+    "explanation": "'If only' expresses a wish or regret about a past result. ✅"
   }
 ]
