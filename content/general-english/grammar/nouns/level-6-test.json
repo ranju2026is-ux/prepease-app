@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Identify the error: The (A) / gentry of the (B) / town was (C) / in attendance (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "'Gentry' (people of good social standing) is a collective noun that is always treated as plural. Use 'were' instead of 'was'. ✅"
+  },
+  {
+    "question": "Choose the correct sentence regarding 'Works':",
+    "options": [
+      "I have a lot of works to do today.",
+      "I have much works to do today.",
+      "The works of Shakespeare are timeless.",
+      "He is busy with his daily works."
+    ],
+    "answer": "The works of Shakespeare are timeless.",
+    "explanation": "'Work' (labor) is uncountable. 'Works' (with an 's') refers to literary or artistic creations or a factory. ✅"
+  },
+  {
+    "question": "Find the error: The (A) / magistrate (B) / has issued (C) / a summons against him (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "No error",
+    "explanation": "'Summons' is a singular countable noun. The plural is 'summonses'. The sentence is correct. ✅"
+  },
+  {
+    "question": "Identify the error: He (A) / was (B) / punished (C) / for committing many mischiefs (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'Mischief' is an uncountable noun. Use 'acts of mischief' or 'much mischief'. ✅"
+  },
+  {
+    "question": "Fill in the blank: I saw a _____ of stairs in the mansion.",
+    "options": ["flight", "row", "series", "chain"],
+    "answer": "flight",
+    "explanation": "The specific collective noun for a set of stairs is a 'flight'. ✅"
+  },
+  {
+    "question": "Choose the correct plural form of 'Father-in-law':",
+    "options": ["Father-in-laws", "Fathers-in-law", "Fathers-in-laws", "Father-ins-law"],
+    "answer": "Fathers-in-law",
+    "explanation": "In compound nouns, pluralize the principal word (Father). ✅"
+  },
+  {
+    "question": "Identify the error: We (A) / should (B) / always be true (C) / to our words (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "In the idiom 'true to one's word' (meaning keeping a promise), 'word' must be singular. ✅"
+  },
+  {
+    "question": "Which of the following is correct?",
+    "options": [
+      "The blind is deserving of our sympathy.",
+      "The blinds are deserving of our sympathy.",
+      "The blind are deserving of our sympathy.",
+      "Blinds are deserving of our sympathy."
+    ],
+    "answer": "The blind are deserving of our sympathy.",
+    "explanation": "Adjectives used as nouns (the + adjective) represent a whole class and take a plural verb. ✅"
+  },
+  {
+    "question": "Find the error: She (A) / misplaced (B) / her (C) / pair of spectacle (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "Even when using 'pair of', the noun must be 'spectacles'. ✅"
+  },
+  {
+    "question": "What is the plural of 'Radius'?",
+    "options": ["Radiuses", "Radii", "Radia", "Radii's"],
+    "answer": "Radii",
+    "explanation": "The Latin plural of 'Radius' is 'Radii'. ✅"
+  },
+  {
+    "question": "Identify the error: I (A) / have (B) / an (C) / urgent business at home (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "'Business' is uncountable in this context. Use 'some urgent business' or 'a piece of urgent business'. ✅"
+  },
+  {
+    "question": "Fill in the blank: The _____ of the army was low after the defeat.",
+    "options": ["moral", "morale", "morality", "morals"],
+    "answer": "morale",
+    "explanation": "'Morale' refers to the spirit/confidence of a group. ✅"
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "There is no place in this compartment.",
+      "There is no room in this compartment.",
+      "There is no space in this compartment.",
+      "There is no area in this compartment."
+    ],
+    "answer": "There is no room in this compartment.",
+    "explanation": "'Room' is the correct term for unoccupied space meant for a person. ✅"
+  },
+  {
+    "question": "Find the error: All (A) / his (B) / sister-in-laws (C) / are very cooperative (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "Plural is 'Sisters-in-law'. ✅"
+  },
+  {
+    "question": "Identify the error: He (A) / gave (B) / me (C) / two informations (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'Information' is uncountable. Use 'two pieces of information'. ✅"
+  },
+  {
+    "question": "Which word is correct for a group of fish?",
+    "options": ["Shoal", "Flock", "Herd", "Pack"],
+    "answer": "Shoal",
+    "explanation": "A group of fish is a 'shoal' or 'school'. ✅"
+  },
+  {
+    "question": "What is the plural of 'Apparatus'?",
+    "options": ["Apparatuses", "Apparati", "Apparatus", "Both A and C"],
+    "answer": "Both A and C",
+    "explanation": "Both forms are acceptable in modern English. ✅"
+  },
+  {
+    "question": "Identify the error: I (A) / shall (B) / go (C) / to my cousin's house (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "No error",
+    "explanation": "Possessive 'cousin's' is correct. The error to avoid is 'cousin brother'. ✅"
+  },
+  {
+    "question": "Choose the correct form: Five _____ are grazed by the shepherd.",
+    "options": ["sheeps", "sheep", "sheep's", "sheeps'"],
+    "answer": "sheep",
+    "explanation": "'Sheep' has the same form in singular and plural. ✅"
+  },
+  {
+    "question": "Find the error: This (A) / data (B) / are (C) / very useful (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "A",
+    "explanation": "In formal English, 'Data' is plural. Therefore, the demonstrative should be 'These' (These data are...). ✅"
+  },
+  {
+    "question": "What is the singular of 'Criteria'?",
+    "options": ["Criterias", "Criterion", "Criterium", "Criteri"],
+    "answer": "Criterion",
+    "explanation": "The singular is 'Criterion'. ✅"
+  },
+  {
+    "question": "Fill in the blank: He died for his _____.",
+    "options": ["country", "countries", "country's", "countryside"],
+    "answer": "country",
+    "explanation": "Requires a singular common noun. ✅"
+  },
+  {
+    "question": "Identify the error: The (A) / chair's (B) / legs (C) / are broken (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "Do not use ('s) for non-living objects. Use 'The legs of the chair'. ✅"
+  },
+  {
+    "question": "Choose the correct group name for 'Wolves':",
+    "options": ["A pride of wolves", "A pack of wolves", "A herd of wolves", "A flock of wolves"],
+    "answer": "A pack of wolves",
+    "explanation": "The collective noun for wolves is 'pack'. ✅"
+  },
+  {
+    "question": "Identify the error: One (A) / of (B) / my (C) / friend is coming (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'One of' + plural noun (friends). ✅"
+  },
+  {
+    "question": "What is the plural of 'Focus'?",
+    "options": ["Focuses", "Foci", "Focusses", "Both A and B"],
+    "answer": "Both A and B",
+    "explanation": "Both 'foci' (Latin) and 'focuses' (English) are correct. ✅"
+  },
+  {
+    "question": "Fill in the blank: Economics _____ a difficult subject.",
+    "options": ["is", "are", "were", "have been"],
+    "answer": "is",
+    "explanation": "Subject names take a singular verb. ✅"
+  },
+  {
+    "question": "Find the error: Page after page (A) / of (B) / the book (C) / were torn (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "Repeat noun after preposition takes a singular verb (was). ✅"
+  },
+  {
+    "question": "Identify the error: Two (A) / dozens (B) / of (C) / copies were bought (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "When preceded by 'Two', it should be 'two dozen copies'. If 'of' is used without a number, 'dozens of' is correct. ✅"
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "The riches has wings.",
+      "The riches have wings.",
+      "Riches have wings.",
+      "Riches has wings."
+    ],
+    "answer": "Riches have wings.",
+    "explanation": "'Riches' is always plural. ✅"
+  }
+]
