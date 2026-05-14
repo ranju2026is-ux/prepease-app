@@ -1,0 +1,167 @@
+[
+  {
+    "question": "Identify the correct order: _____ are going to attend the seminar.",
+    "options": [
+      "I, you and he",
+      "You, he and I",
+      "He, you and I",
+      "You, I and he"
+    ],
+    "answer": "You, he and I",
+    "explanation": "According to the 2-3-1 rule (Second, Third, then First person), the correct order for positive sentences is You, He, and I. ✅"
+  },
+  {
+    "question": "Fill in the blank: He is the boy _____ everyone likes.",
+    "options": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "answer": "whom",
+    "explanation": "We use 'whom' as an objective relative pronoun when the person is the receiver of the action. ✅"
+  },
+  {
+    "question": "Choose the correct reflexive pronoun: We enjoyed _____ at the party.",
+    "options": [
+      "ourselves",
+      "ourself",
+      "themselves",
+      "us"
+    ],
+    "answer": "ourselves",
+    "explanation": "The reflexive pronoun for 'We' is 'ourselves' (plural). ✅"
+  },
+  {
+    "question": "Identify the error: You, I and he have committed a mistake.",
+    "options": [
+      "You, I and he",
+      "have",
+      "committed",
+      "mistake"
+    ],
+    "answer": "You, I and he",
+    "explanation": "When expressing a mistake or guilt, the order of pronouns shifts to 1-2-3. So it should be 'I, you and he'. ✅"
+  },
+  {
+    "question": "Fill in the blank: This is the same book _____ I bought yesterday.",
+    "options": [
+      "which",
+      "that",
+      "who",
+      "whom"
+    ],
+    "answer": "that",
+    "explanation": "After the word 'same', the relative pronoun 'that' is used instead of 'which'. ✅"
+  },
+  {
+    "question": "Identify the correct pronoun: I _____ washed the clothes.",
+    "options": [
+      "myself",
+      "himself",
+      "herself",
+      "itself"
+    ],
+    "answer": "myself",
+    "explanation": "Here 'myself' acts as an emphatic pronoun to stress that 'I' did the work. ✅"
+  },
+  {
+    "question": "Fill in the blank: Neither of the girls has done _____ homework.",
+    "options": [
+      "their",
+      "her",
+      "hers",
+      "them"
+    ],
+    "answer": "her",
+    "explanation": "'Neither' is singular and refers to girls, so the singular feminine pronoun 'her' is used. ✅"
+  },
+  {
+    "question": "Choose the correct option: She is as smart as _____.",
+    "options": [
+      "me",
+      "I",
+      "my",
+      "mine"
+    ],
+    "answer": "I",
+    "explanation": "After 'as...as', always use the subjective case (I, He, She) for comparison. ✅"
+  },
+  {
+    "question": "Fill in the blank: My students help _____.",
+    "options": [
+      "each other",
+      "one another",
+      "themselves",
+      "ourselves"
+    ],
+    "answer": "one another",
+    "explanation": "Since 'students' implies more than two, the reciprocal pronoun 'one another' is correct. ✅"
+  },
+  {
+    "question": "Identify the correct relative pronoun: The girl _____ car was stolen is very sad.",
+    "options": [
+      "who",
+      "whom",
+      "whose",
+      "that"
+    ],
+    "answer": "whose",
+    "explanation": "'Whose' is used to show possession in relative clauses. ✅"
+  },
+  {
+    "question": "Fill in the blank: None of the players brought _____ uniform.",
+    "options": [
+      "his",
+      "their",
+      "them",
+      "him"
+    ],
+    "answer": "his",
+    "explanation": "In formal grammar, 'None' is followed by a singular pronoun 'his'. ✅"
+  },
+  {
+    "question": "Choose the correct reflexive pronoun: The jury was divided in _____ opinion.",
+    "options": [
+      "its",
+      "their",
+      "his",
+      "her"
+    ],
+    "answer": "their",
+    "explanation": "When a collective noun (jury) is divided or acts as individuals, we use the plural pronoun 'their'. ✅"
+  },
+  {
+    "question": "Fill in the blank: You and _____ must complete the project.",
+    "options": [
+      "he",
+      "him",
+      "his",
+      "himself"
+    ],
+    "answer": "he",
+    "explanation": "Following the 2-3-1 rule, 'he' (subjective case) is used alongside 'you'. ✅"
+  },
+  {
+    "question": "Identify the relative pronoun: There is no one _____ does not know him.",
+    "options": [
+      "who",
+      "but",
+      "that",
+      "which"
+    ],
+    "answer": "but",
+    "explanation": "In some advanced structures, 'but' acts as a negative relative pronoun meaning 'who...not'. ✅"
+  },
+  {
+    "question": "Fill in the blank: All _____ glitters is not gold.",
+    "options": [
+      "which",
+      "that",
+      "who",
+      "what"
+    ],
+    "answer": "that",
+    "explanation": "After the word 'All', we must use the relative pronoun 'that'. ✅"
+  }
+]
