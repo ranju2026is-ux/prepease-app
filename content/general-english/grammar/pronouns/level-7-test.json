@@ -1,167 +1,332 @@
 [
   {
-    "question": "Fill in the blank: I know the man _____ I think is the thief.",
+    "question": "The two brothers always help _____.",
     "options": [
-      "who",
-      "whom",
-      "whose",
-      "which"
-    ],
-    "answer": "who",
-    "explanation": "Though 'I think' appears, 'who' is the subject of the verb 'is'. Therefore, subjective case 'who' is correct. ✅"
-  },
-  {
-    "question": "Choose the correct pronoun: I do not mind _____ arriving late to the meeting.",
-    "options": [
-      "him",
-      "his",
-      "he",
+      "each other",
+      "one another",
+      "themselves",
       "himself"
     ],
-    "answer": "his",
-    "explanation": "Before a Gerund (arriving), we must use a possessive adjective (his/my/your) to indicate the 'owner' of the action. ✅"
+    "answer": "each other",
+    "explanation": "'Each other' is used when referring to two people or things. ✅"
   },
   {
-    "question": "Identify the correct form: They invited my wife and _____ to the dinner.",
+    "question": "The students in the class should respect _____.",
     "options": [
-      "I",
-      "me",
-      "myself",
-      "mine"
-    ],
-    "answer": "me",
-    "explanation": "Since 'me' is the object of the verb 'invited', the objective case must be used. ✅"
-  },
-  {
-    "question": "Fill in the blank: It is _____ who have done this work.",
-    "options": [
-      "they",
-      "them",
+      "each other",
+      "one another",
       "themselves",
-      "their"
+      "ourselves"
     ],
-    "answer": "they",
-    "explanation": "After 'It is', use the subjective case (They). Note that the verb 'have' also agrees with the plural subject 'they'. ✅"
+    "answer": "one another",
+    "explanation": "'One another' is used when referring to more than two people or things. ✅"
   },
   {
-    "question": "Choose the correct pronoun: To _____ were you referring in your speech?",
+    "question": "Ravi and Soma are angry with _____.",
     "options": [
-      "who",
-      "whom",
-      "whose",
-      "which"
+      "each other",
+      "one another",
+      "themselves",
+      "myself"
     ],
-    "answer": "whom",
-    "explanation": "Pronouns following a preposition (To) must be in the objective case (whom). ✅"
+    "answer": "each other",
+    "explanation": "Since there are only two people (Ravi and Soma), 'each other' is correct. ✅"
   },
   {
-    "question": "Identify the error: One should take care of his health.",
+    "question": "All the members of the family love _____.",
     "options": [
-      "One",
-      "care",
-      "his",
-      "health"
+      "each other",
+      "one another",
+      "themselves",
+      "ourselves"
     ],
-    "answer": "his",
-    "explanation": "The correct possessive for 'One' is 'one's'. It should be 'One should take care of **one's** health'. ✅"
+    "answer": "one another",
+    "explanation": "A family usually consists of more than two people, so 'one another' is preferred. ✅"
   },
   {
-    "question": "Fill in the blank: The boys _____ we thought were guilty proved innocent.",
+    "question": "They were all looking at _____ in surprise.",
     "options": [
-      "who",
-      "whom",
-      "that",
-      "which"
+      "each other",
+      "one another",
+      "themselves",
+      "each others"
     ],
-    "answer": "who",
-    "explanation": "'Who' is the subject of the verb 'were'. 'We thought' is just an interrupting phrase. ✅"
+    "answer": "one another",
+    "explanation": "The word 'all' indicates more than two people. ✅"
   },
   {
-    "question": "Choose the correct reflexive pronoun: The city _____ is not very large.",
+    "question": "Both the countries agreed to help _____ during the war.",
     "options": [
-      "himself",
-      "herself",
-      "itself",
-      "themselves"
+      "each other",
+      "one another",
+      "themselves",
+      "each others"
     ],
-    "answer": "itself",
-    "explanation": "For non-living things or places, the reflexive pronoun is 'itself'. ✅"
+    "answer": "each other",
+    "explanation": "'Both' clearly refers to two countries. ✅"
   },
   {
-    "question": "Identify the correct form: He was much better than _____.",
+    "question": "We should all help _____ in times of need.",
     "options": [
-      "me",
-      "I",
-      "myself",
-      "mine"
+      "each other",
+      "one another",
+      "themselves",
+      "ourselves"
     ],
-    "answer": "I",
-    "explanation": "In formal English, comparison using 'than' requires the subjective case (I). ✅"
+    "answer": "one another",
+    "explanation": "Refers to a group in general (more than two). ✅"
   },
   {
-    "question": "Fill in the blank: Any of these two roads leads to the station.",
+    "question": "The two girls were talking to _____.",
     "options": [
-      "Any",
-      "Either",
-      "Neither",
-      "None"
+      "each other",
+      "one another",
+      "themselves",
+      "herself"
     ],
-    "answer": "Either",
-    "explanation": "For exactly two options, we use 'Either'. 'Any' is used for more than two. ✅"
+    "answer": "each other",
+    "explanation": "Two people = each other. ✅"
   },
   {
-    "question": "Choose the correct relative pronoun: He is the same man _____ helped me yesterday.",
+    "question": "The players congratulated _____ on their victory.",
     "options": [
-      "who",
-      "that",
-      "which",
-      "whom"
+      "each other",
+      "one another",
+      "themselves",
+      "one anothers"
     ],
-    "answer": "that",
-    "explanation": "After 'the same', the relative pronoun 'that' is used. ✅"
+    "answer": "one another",
+    "explanation": "A team (players) usually has more than two members. ✅"
   },
   {
-    "question": "Identify the correct pronoun: Neither of the boys has brought _____ book.",
+    "question": "The five friends divided the work among _____.",
     "options": [
-      "their",
-      "his",
-      "him",
-      "its"
+      "each other",
+      "one another",
+      "themselves",
+      "ourselves"
     ],
-    "answer": "his",
-    "explanation": "'Neither' is singular, so it takes the singular masculine pronoun 'his'. ✅"
+    "answer": "one another",
+    "explanation": "Five is more than two. ✅"
   },
   {
-    "question": "Fill in the blank: Such a mistake _____ you have made is unpardonable.",
+    "question": "Romeo and Juliet loved _____ dearly.",
     "options": [
-      "who",
-      "that",
-      "as",
-      "which"
+      "each other",
+      "one another",
+      "themselves",
+      "himself"
     ],
-    "answer": "as",
-    "explanation": "After 'Such', we use 'as' as a relative pronoun. ✅"
+    "answer": "each other",
+    "explanation": "Two specific individuals. ✅"
   },
   {
-    "question": "Identify the error: He and myself will do the work.",
+    "question": "The villagers helped _____ rebuild their houses.",
     "options": [
-      "He",
-      "myself",
-      "will",
-      "work"
+      "each other",
+      "one another",
+      "themselves",
+      "ourselves"
     ],
-    "answer": "myself",
-    "explanation": "A reflexive pronoun cannot be the subject. It should be 'He and **I**'. ✅"
+    "answer": "one another",
+    "explanation": "Refers to a whole community. ✅"
   },
   {
-    "question": "Choose the correct option: Each of the students should sign _____ name here.",
+    "question": "The two cars crashed into _____.",
     "options": [
-      "their",
-      "his",
-      "your",
-      "them"
+      "each other",
+      "one another",
+      "themselves",
+      "it"
     ],
-    "answer": "his",
-    "explanation": "Despite 'students' being plural, 'Each' makes the distributive subject singular. ✅"
+    "answer": "each other",
+    "explanation": "Two objects. ✅"
+  },
+  {
+    "question": "The children are fighting with _____.",
+    "options": [
+      "each other",
+      "one another",
+      "themselves",
+      "one anothers"
+    ],
+    "answer": "one another",
+    "explanation": "General plural 'children'. ✅"
+  },
+  {
+    "question": "Husband and wife should trust _____.",
+    "options": [
+      "each other",
+      "one another",
+      "themselves",
+      "themself"
+    ],
+    "answer": "each other",
+    "explanation": "A pair. ✅"
+  },
+  {
+    "question": "They were shouting at _____.",
+    "options": [
+      "each other",
+      "one another",
+      "themselves",
+      "Each of the above"
+    ],
+    "answer": "Each of the above",
+    "explanation": "Depending on if they are two or many. (Note: in exams, choose the best fit based on context). ✅"
+  },
+  {
+    "question": "The three sisters are very fond of _____.",
+    "options": [
+      "each other",
+      "one another",
+      "themselves",
+      "each other's"
+    ],
+    "answer": "one another",
+    "explanation": "Three people = one another. ✅"
+  },
+  {
+    "question": "The two teams played against _____.",
+    "options": [
+      "each other",
+      "one another",
+      "themselves",
+      "each others"
+    ],
+    "answer": "each other",
+    "explanation": "Two units. ✅"
+  },
+  {
+    "question": "We promised to call _____ every day.",
+    "options": [
+      "each other",
+      "one another",
+      "ourselves",
+      "Both A and B"
+    ],
+    "answer": "Both A and B",
+    "explanation": "Depending on the number of people in 'We'. ✅"
+  },
+  {
+    "question": "The leaves were rubbing against _____ in the wind.",
+    "options": [
+      "each other",
+      "one another",
+      "themselves",
+      "itself"
+    ],
+    "answer": "one another",
+    "explanation": "Leaves (plural, many). ✅"
+  },
+  {
+    "question": "They haven't seen _____ for years.",
+    "options": [
+      "each other",
+      "one another",
+      "themselves",
+      "Both A and B"
+    ],
+    "answer": "Both A and B",
+    "explanation": "General usage. ✅"
+  },
+  {
+    "question": "The two partners disagreed with _____.",
+    "options": [
+      "each other",
+      "one another",
+      "themselves",
+      "each others"
+    ],
+    "answer": "each other",
+    "explanation": "Two partners. ✅"
+  },
+  {
+    "question": "Little children often copy _____.",
+    "options": [
+      "each other",
+      "one another",
+      "themselves",
+      "ourselves"
+    ],
+    "answer": "one another",
+    "explanation": "Many children. ✅"
+  },
+  {
+    "question": "The suspects were blaming _____.",
+    "options": [
+      "each other",
+      "one another",
+      "themselves",
+      "Both A and B"
+    ],
+    "answer": "Both A and B",
+    "explanation": "Context dependent. ✅"
+  },
+  {
+    "question": "They held _____'s hands.",
+    "options": [
+      "each other",
+      "each other's",
+      "one another",
+      "one another's"
+    ],
+    "answer": "each other's",
+    "explanation": "Possessive form of the reciprocal pronoun. ✅"
+  },
+  {
+    "question": "They looked into _____ eyes.",
+    "options": [
+      "each other",
+      "each other's",
+      "one another",
+      "one anothers"
+    ],
+    "answer": "each other's",
+    "explanation": "Possessive. ✅"
+  },
+  {
+    "question": "The students borrowed _____ books.",
+    "options": [
+      "each other",
+      "one another",
+      "one another's",
+      "each others"
+    ],
+    "answer": "one another's",
+    "explanation": "Possessive for a group. ✅"
+  },
+  {
+    "question": "Why are you two hitting _____?",
+    "options": [
+      "each other",
+      "one another",
+      "themselves",
+      "yourself"
+    ],
+    "answer": "each other",
+    "explanation": "'You two' = each other. ✅"
+  },
+  {
+    "question": "The members of the committee are at odds with _____.",
+    "options": [
+      "each other",
+      "one another",
+      "themselves",
+      "each other's"
+    ],
+    "answer": "one another",
+    "explanation": "Committee members (usually > 2). ✅"
+  },
+  {
+    "question": "The birds were chirping to _____.",
+    "options": [
+      "each other",
+      "one another",
+      "themselves",
+      "itself"
+    ],
+    "answer": "one another",
+    "explanation": "Birds (plural, many). ✅"
   }
 ]
