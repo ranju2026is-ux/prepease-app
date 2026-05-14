@@ -1,0 +1,212 @@
+[
+  {
+    "question": "Find the error part: The (A) / house is (B) / built of (C) / stones and bricks (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "When 'stone' and 'brick' are used as building materials, they are treated as uncountable and must remain singular. ✅"
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "The order for his transfer has been issued.",
+      "The orders for his transfer have been issued.",
+      "The order for his transfer have been issued.",
+      "A order for his transfer has been issued."
+    ],
+    "answer": "The orders for his transfer have been issued.",
+    "explanation": "In official/legal contexts, the word 'Orders' is used in the plural form and takes a plural verb. ✅"
+  },
+  {
+    "question": "Identify the error: He (A) / does not (B) / like (C) / these sorts of books (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "No error",
+    "explanation": "The phrase 'these sorts of' is correct because 'these' and 'sorts' are both plural, matching the plural noun 'books'. ✅"
+  },
+  {
+    "question": "Fill in the blank: The prisoner was kept in _____.",
+    "options": ["iron", "irons", "an iron", "ironing"],
+    "answer": "irons",
+    "explanation": "'Iron' is the metal, but 'Irons' means chains or fetters used for prisoners. ✅"
+  },
+  {
+    "question": "Find the error: It is (A) / a big (B) / blunder (C) / mistake (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'Blunder' itself means a big mistake. Using 'mistake' after 'blunder' is redundant (Superfluous). ✅"
+  },
+  {
+    "question": "Which of the following is correct?",
+    "options": [
+      "The wages of sin is death.",
+      "The wages of sin are death.",
+      "The wage of sin are death.",
+      "The wage of sin is death."
+    ],
+    "answer": "The wages of sin is death.",
+    "explanation": "When 'Wages' means 'result/punishment', it takes a singular verb. When it means 'payment for labor', it takes a plural verb. ✅"
+  },
+  {
+    "question": "Identify the error: My (A) / brother-in-laws (B) / who live (C) / in Mumbai are coming (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "To make 'brother-in-law' plural, we add 's' to the principal word: 'brothers-in-law'. ✅"
+  },
+  {
+    "question": "Fill in the blank: _____ are used for cutting cloth.",
+    "options": ["A scissor", "Scissors", "Scissor", "One scissor"],
+    "answer": "Scissors",
+    "explanation": "Nouns with two parts (scissors, tongs, trousers) are always plural and take a plural verb. ✅"
+  },
+  {
+    "question": "Choose the correct form: He gave me _____.",
+    "options": [
+      "many good advices",
+      "much good advice",
+      "a lot of good advices",
+      "many pieces of advices"
+    ],
+    "answer": "much good advice",
+    "explanation": "Advice is uncountable. We use 'much' or 'pieces of', but never 'advices'. ✅"
+  },
+  {
+    "question": "Find the error: She (A) / has lost (B) / her (C) / spectacles (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "No error",
+    "explanation": "'Spectacles' is the correct plural form for eyeglasses. The sentence is grammatically sound. ✅"
+  },
+  {
+    "question": "Identify the correct plural for 'Index' (in a mathematical context):",
+    "options": ["Indexes", "Indices", "Indexia", "Indeces"],
+    "answer": "Indices",
+    "explanation": "While 'indexes' is used for books, 'indices' is the specific plural used in mathematics/science. ✅"
+  },
+  {
+    "question": "Fill in the blank: The _____ has been sent to the magistrate.",
+    "options": ["summons", "summonses", "summon", "summoning"],
+    "answer": "summons",
+    "explanation": "'Summons' is singular (plural is 'summonses'). It is a legal call to appear in court. ✅"
+  },
+  {
+    "question": "Find the error: All (A) / the (B) / evidences were (C) / against him (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "'Evidence' is an uncountable noun. It should be 'All the evidence was'. ✅"
+  },
+  {
+    "question": "Choose the correct usage of possession:",
+    "options": [
+      "This is John's and Mary's joint account.",
+      "This is John and Mary's joint account.",
+      "This is John and Mary joint account.",
+      "This is Johns' and Marys' joint account."
+    ],
+    "answer": "This is John and Mary's joint account.",
+    "explanation": "For joint possession of a single item, the apostrophe is added only to the second noun. ✅"
+  },
+  {
+    "question": "Identify the error: Two (A) / summonses (B) / have been (C) / issued against him (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "No error",
+    "explanation": "Since 'two' is plural, the plural form 'summonses' and plural verb 'have' are correct. ✅"
+  },
+  {
+    "question": "What is the plural of 'Phenomenon'?",
+    "options": ["Phenomenons", "Phenomena", "Phenomenae", "Phenomenon's"],
+    "answer": "Phenomena",
+    "explanation": "The plural of the Greek word 'Phenomenon' is 'Phenomena'. ✅"
+  },
+  {
+    "question": "Fill in the blank: He has put his _____ on the document.",
+    "options": ["sign", "signature", "signing", "sign's"],
+    "answer": "signature",
+    "explanation": "'Sign' is a verb; 'Signature' is the noun required here. ✅"
+  },
+  {
+    "question": "Find the error: I (A) / visited (B) / Ram's and Sita's (C) / house but found the couple absent (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "Since they are a couple and live in the same house, it should be 'Ram and Sita's house' (joint possession). ✅"
+  },
+  {
+    "question": "Choose the correct plural form of 'Crisis':",
+    "options": ["Crisises", "Crisis", "Crises", "Crisia"],
+    "answer": "Crises",
+    "explanation": "The singular 'Crisis' ends in '-is', so the plural ends in '-es' (Crises). ✅"
+  },
+  {
+    "question": "Identify the error: He (A) / gave (B) / me (C) / two informations (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'Information' is uncountable. Use 'two pieces of information'. ✅"
+  },
+  {
+    "question": "Fill in the blank: I saw a _____ of stairs in the old building.",
+    "options": ["flight", "row", "series", "chain"],
+    "answer": "flight",
+    "explanation": "The correct collective noun for a set of stairs is a 'flight' of stairs. ✅"
+  },
+  {
+    "question": "Find the error: He (A) / went (B) / to (C) / the fish's market (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "It is simply 'the fish market'. The apostrophe is not required here as it functions as a compound noun. ✅"
+  },
+  {
+    "question": "Which word is correct for a set of ships?",
+    "options": ["Fleet", "Flock", "Pack", "Swarm"],
+    "answer": "Fleet",
+    "explanation": "A group of ships or cars is called a 'Fleet'. ✅"
+  },
+  {
+    "question": "Identify the error: Ten (A) / kilometers (B) / are (C) / a long distance (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "When a plural noun represents a singular unit of measurement (distance/time), it takes a singular verb 'is'. ✅"
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "The gentry of the town was invited.",
+      "The gentry of the town were invited.",
+      "The gentries of the town were invited.",
+      "A gentry of the town were invited."
+    ],
+    "answer": "The gentry of the town were invited.",
+    "explanation": "'Gentry' is a collective noun that is always treated as plural. ✅"
+  },
+  {
+    "question": "What is the plural of 'Analysis'?",
+    "options": ["Analysises", "Analysia", "Analyses", "Analysis"],
+    "answer": "Analyses",
+    "explanation": "Like 'thesis' and 'crisis', 'analysis' changes to 'analyses' in plural. ✅"
+  },
+  {
+    "question": "Fill in the blank: He behaves as if he were a _____.",
+    "options": ["Lord", "Lords", "Lord's", "Lording"],
+    "answer": "Lord",
+    "explanation": "In hypothetical 'as if' sentences, we use the singular noun after 'were'. ✅"
+  },
+  {
+    "question": "Find the error: She (A) / uses (B) / a (C) / fine quality of shampoo (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "No error",
+    "explanation": "The sentence is correct. 'Quality' is a noun being modified by 'fine'. ✅"
+  },
+  {
+    "question": "Identify the correct plural form of 'Larva':",
+    "options": ["Larvas", "Larvae", "Larvi", "Larvum"],
+    "answer": "Larvae",
+    "explanation": "'Larva' is a Latin singular; 'Larvae' is the plural. ✅"
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "There are no rooms in this hotel.",
+      "There is no room in this car.",
+      "There is no space in this car.",
+      "There is no place in this car."
+    ],
+    "answer": "There is no room in this car.",
+    "explanation": "In English, 'room' is used to denote unoccupied space for people; 'space' is too general, and 'place' is a location. ✅"
+  }
+]
