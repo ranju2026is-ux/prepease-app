@@ -1,0 +1,332 @@
+[
+  {
+    "question": "In the sentence 'He wrote a letter', the verb 'wrote' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Helping Verb",
+      "None of the above"
+    ],
+    "answer": "Transitive",
+    "explanation": "The verb 'wrote' has an object 'a letter' to complete its meaning. ✅"
+  },
+  {
+    "question": "The baby is sleeping. Here the verb 'sleeping' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Modal Verb",
+      "Auxiliary Verb"
+    ],
+    "answer": "Intransitive",
+    "explanation": "The verb 'sleeping' does not require an object to make sense. ✅"
+  },
+  {
+    "question": "She *opened* the window. Identify the type of the italicized verb.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Static Verb",
+      "Linking Verb"
+    ],
+    "answer": "Transitive",
+    "explanation": "'The window' is the object receiving the action of opening. ✅"
+  },
+  {
+    "question": "The sun shines brightly. The verb 'shines' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Helping Verb",
+      "Phrasal Verb"
+    ],
+    "answer": "Intransitive",
+    "explanation": "'Brightly' is an adverb, not an object. The action does not pass to anything. ✅"
+  },
+  {
+    "question": "Ravi *gave* me a book. Here 'gave' is a Transitive verb with _____ objects.",
+    "options": [
+      "one",
+      "two",
+      "no",
+      "three"
+    ],
+    "answer": "two",
+    "explanation": "It has an indirect object (me) and a direct object (a book). ✅"
+  },
+  {
+    "question": "Birds fly in the air. The verb 'fly' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Main Verb",
+      "Both B and C"
+    ],
+    "answer": "Both B and C",
+    "explanation": "It is a main verb and it is intransitive because it has no object. ✅"
+  },
+  {
+    "question": "The bell rang loudly. The verb 'rang' is used _____.",
+    "options": [
+      "Transitively",
+      "Intransitively",
+      "As a helping verb",
+      "None of the above"
+    ],
+    "answer": "Intransitively",
+    "explanation": "There is no receiver of the action 'rang'. ✅"
+  },
+  {
+    "question": "The peon *rang* the bell. Here the verb 'rang' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Linking",
+      "Infinitive"
+    ],
+    "answer": "Transitive",
+    "explanation": "Here, 'the bell' is the object of the action. ✅"
+  },
+  {
+    "question": "I *bought* a new watch. Identify the object.",
+    "options": [
+      "I",
+      "bought",
+      "a new watch",
+      "new"
+    ],
+    "answer": "a new watch",
+    "explanation": "The object is the thing that was bought. ✅"
+  },
+  {
+    "question": "She *laughed* at the joke. The verb 'laughed' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Reflexive",
+      "Passive"
+    ],
+    "answer": "Intransitive",
+    "explanation": "Laughter is an action that stays with the subject. ✅"
+  },
+  {
+    "question": "He *speaks* the truth. The verb 'speaks' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Auxiliary",
+      "Modal"
+    ],
+    "answer": "Transitive",
+    "explanation": "'The truth' is the object of what is spoken. ✅"
+  },
+  {
+    "question": "Fire burns. The verb 'burns' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Transitive and Intransitive",
+      "Participle"
+    ],
+    "answer": "Intransitive",
+    "explanation": "The sentence is complete without an object. ✅"
+  },
+  {
+    "question": "She *burnt* her finger. The verb 'burnt' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Gerund",
+      "Noun"
+    ],
+    "answer": "Transitive",
+    "explanation": "'Her finger' is the object affected by the action. ✅"
+  },
+  {
+    "question": "The water is *boiling*. The verb 'boiling' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Finite",
+      "Non-finite"
+    ],
+    "answer": "Intransitive",
+    "explanation": "The action of boiling doesn't pass to an object here. ✅"
+  },
+  {
+    "question": "He *boiled* the eggs. The verb 'boiled' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Helping",
+      "None"
+    ],
+    "answer": "Transitive",
+    "explanation": "'The eggs' is the object. ✅"
+  },
+  {
+    "question": "Dogs bark. The verb 'bark' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Linking",
+      "Modal"
+    ],
+    "answer": "Intransitive",
+    "explanation": "No object is needed. ✅"
+  },
+  {
+    "question": "I *know* your father. The verb 'know' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Imperative",
+      "Infinitive"
+    ],
+    "answer": "Transitive",
+    "explanation": "'Your father' is the object. ✅"
+  },
+  {
+    "question": "The rain stopped. The verb 'stopped' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Active",
+      "Passive"
+    ],
+    "answer": "Intransitive",
+    "explanation": "The sentence is complete. ✅"
+  },
+  {
+    "question": "The driver *stopped* the bus. The verb 'stopped' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Continuous",
+      "Perfect"
+    ],
+    "answer": "Transitive",
+    "explanation": "'The bus' is the object. ✅"
+  },
+  {
+    "question": "She *sings* a song. The verb 'sings' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Helping Verb",
+      "None"
+    ],
+    "answer": "Transitive",
+    "explanation": "'A song' is the object. ✅"
+  },
+  {
+    "question": "She *sings* well. The verb 'sings' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Finite",
+      "Participle"
+    ],
+    "answer": "Intransitive",
+    "explanation": "'Well' is an adverb, not an object. ✅"
+  },
+  {
+    "question": "The horse kicked the boy. The verb 'kicked' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Weak Verb",
+      "Strong Verb"
+    ],
+    "answer": "Transitive",
+    "explanation": "'The boy' is the object. ✅"
+  },
+  {
+    "question": "The wind blew. The verb 'blew' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Infinitive",
+      "Gerund"
+    ],
+    "answer": "Intransitive",
+    "explanation": "No object is present. ✅"
+  },
+  {
+    "question": "The wind *blew* the leaves away. The verb 'blew' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Direct Verb",
+      "Indirect Verb"
+    ],
+    "answer": "Transitive",
+    "explanation": "'The leaves' is the object. ✅"
+  },
+  {
+    "question": "He *ran* a long distance. The verb 'ran' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Stative",
+      "Helping"
+    ],
+    "answer": "Transitive",
+    "explanation": "'A long distance' acts as a cognate object here. ✅"
+  },
+  {
+    "question": "He *ran* quickly. The verb 'ran' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Transitive and Intransitive",
+      "None"
+    ],
+    "answer": "Intransitive",
+    "explanation": "Quickly is an adverb describing the action. ✅"
+  },
+  {
+    "question": "Please *bring* a glass of water. The verb 'bring' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Adjective",
+      "Adverb"
+    ],
+    "answer": "Transitive",
+    "explanation": "'A glass of water' is the object. ✅"
+  },
+  {
+    "question": "The child *cried*. The verb 'cried' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Auxiliary",
+      "Modal"
+    ],
+    "answer": "Intransitive",
+    "explanation": "No object is needed for the verb 'cry'. ✅"
+  },
+  {
+    "question": "They *ate* apples. The verb 'ate' is _____.",
+    "options": [
+      "Transitive",
+      "Intransitive",
+      "Gerund",
+      "Participle"
+    ],
+    "answer": "Transitive",
+    "explanation": "'Apples' is the object. ✅"
+  },
+  {
+    "question": "We *ate* at 8 PM. The verb 'ate' is used _____.",
+    "options": [
+      "Transitively",
+      "Intransitively",
+      "As a helping verb",
+      "As a noun"
+    ],
+    "answer": "Intransitively",
+    "explanation": "There is no object mentioned in this sentence. ✅"
+  }
+]
