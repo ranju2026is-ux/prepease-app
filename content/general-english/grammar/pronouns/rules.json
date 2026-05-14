@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Personal Pronouns (Cases)",
+    "meaning_kannada": "ವೈಯಕ್ತಿಕ ಸರ್ವನಾಮಗಳ ವಿಧಗಳು (Subject vs Object).",
+    "meaning_english": "Personal pronouns change based on their role in a sentence.\n\n• **Subjective Case:** Used as the doer of action (I, We, You, He, She, It, They).\n• **Objective Case:** Used as the receiver of action (Me, Us, You, Him, Her, It, Them).\n• **Rule:** Use Subjective case after 'than' or 'as' (e.g., He is taller than I).",
+    "emoji": "👤"
+  },
+  {
+    "word": "Distributive Pronouns",
+    "meaning_kannada": "ವಿಭಜಕ ಸರ್ವನಾಮಗಳು (Each, Either, Neither).",
+    "meaning_english": "These refer to persons or things one at a time. They are **always singular**.\n\n• **Each:** Used for two or more.\n• **Either/Neither:** Used for exactly two.\n• **Rule:** These always take a singular verb and singular pronoun (e.g., Neither of the two boys has brought **his** book).",
+    "emoji": "⚖️"
+  },
+  {
+    "word": "Relative Pronouns (Who vs Whom)",
+    "meaning_kannada": "ಸಂಬಂಧವಾಚಕ ಸರ್ವನಾಮಗಳು (Who, Whom, Whose).",
+    "meaning_english": "Used to connect clauses.\n\n• **Who:** Used as a subject (Who is calling?).\n• **Whom:** Used as an object (To whom are you speaking?).\n• **Whose:** Shows possession.\n• **That:** Used for both living and non-living things, especially after words like 'all', 'only', 'same'.",
+    "emoji": "🔗"
+  },
+  {
+    "word": "Reflexive & Emphatic Pronouns",
+    "meaning_kannada": "ಆತ್ಮಾರ್ಥಕ ಮತ್ತು ಒತ್ತು ನೀಡುವ ಸರ್ವನಾಮಗಳು (Self-pronouns).",
+    "meaning_english": "Words ending in '-self' or '-selves'.\n\n• **Reflexive:** When the subject and object are same (e.g., He hurt **himself**).\n• **Emphatic:** Used for emphasis (e.g., I **myself** did the work).\n• **Rule:** A reflexive pronoun cannot be used as a subject (Don't say: Myself am Ranju).",
+    "emoji": "🪞"
+  },
+  {
+    "word": "Rule of Order (2-3-1)",
+    "meaning_kannada": "ಸರ್ವನಾಮಗಳ ಜೋಡಣೆಯ ಕ್ರಮ (231 ನಿಯಮ).",
+    "meaning_english": "When multiple pronouns are used together in a positive sense, the order is **2nd Person, 3rd Person, 1st Person (2-3-1)**.\n\n• Correct: You, he and I are going.\n• **Note:** In case of a mistake or negative sense, the order is 1st, 2nd, 3rd (1-2-3).",
+    "emoji": "🔢"
+  },
+  {
+    "word": "Indefinite Pronouns",
+    "meaning_kannada": "ಅನಿರ್ದಿಷ್ಟ ಸರ್ವನಾಮಗಳು (One, Someone, Anybody).",
+    "meaning_english": "Used for non-specific people or things.\n\n• **Rule of 'One':** If the subject is 'One', the following pronoun must be 'one's', not 'his' or 'her'.\n• Example: **One** should do **one's** duty (Correct).",
+    "emoji": "❓"
+  },
+  {
+    "word": "Demonstrative Pronouns",
+    "meaning_kannada": "ದರ್ಶಕ ಸರ್ವನಾಮಗಳು (This, That, These, Those).",
+    "meaning_english": "Used to point out objects.\n\n• **This/These:** For near objects.\n• **That/Those:** For distant objects.\n• **Rule:** 'That' is used to avoid repetition of a singular noun (e.g., The climate of Belagavi is better than **that** of Bengaluru).",
+    "emoji": "👉"
+  },
+  {
+    "word": "Reciprocal Pronouns",
+    "meaning_kannada": "ಪರಸ್ಪರ ಸಂಬಂಧಿತ ಸರ್ವನಾಮಗಳು (Each other, One another).",
+    "meaning_english": "Used to express a mutual relationship.\n\n• **Each other:** Used for **two** persons/things.\n• **One another:** Used for **more than two** persons/things.\n• Example: The two sisters love each other; The students help one another.",
+    "emoji": "🤝"
+  },
+  {
+    "word": "Possessive Pronouns",
+    "meaning_kannada": "ಸ್ವಾಮ್ಯಸೂಚಕ ಸರ್ವನಾಮಗಳು (Mine, Yours, Ours).",
+    "meaning_english": "Used to show ownership without following it with a noun.\n\n• Correct: This book is **mine**.\n• Incorrect: This is **mine** book (Use 'my' here).\n• **Note:** Never use an apostrophe with possessive pronouns like 'yours' or 'its'.",
+    "emoji": "💰"
+  },
+  {
+    "word": "The 'It' Pronoun",
+    "meaning_kannada": "'It' ಸರ್ವನಾಮದ ಬಳಕೆ.",
+    "meaning_english": "Used for non-living things, animals, infants, time, and weather.\n\n• Example: **It** is raining; **It** is 9 o'clock.\n• **Rule:** Use 'it' for a collective noun when treated as a single unit (e.g., The jury gave **its** verdict).",
+    "emoji": "📦"
+  }
+]
