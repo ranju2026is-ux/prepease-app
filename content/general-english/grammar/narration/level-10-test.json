@@ -1,112 +1,332 @@
 [
   {
-    "question": "Change to Indirect: He said, 'Curse it! Who could have foreseen this?'",
+    "question": "The boy said, 'I'm sorry, I'm late. The bus broke down.' The teacher replied, 'Don't let it happen again.'",
     "options": [
-      "He cursed and wondered who could have foreseen that.",
-      "He exclaimed with an oath and asked who could have foreseen that.",
-      "He said that curse it and asked who had foreseen that.",
-      "Both A and B are correct."
+      "The boy apologized for being late, explaining that the bus had broken down, and the teacher warned him not to let it happen again.",
+      "The boy said he was sorry he was late because the bus broke down and the teacher told him it should not happen again.",
+      "The boy apologized and the teacher said that it should not happen again as the bus had broken down.",
+      "The boy told the teacher he was late because the bus had broken down and the teacher ordered him not to repeat it."
     ],
-    "answer": "Both A and B are correct.",
-    "explanation": "Expletives or oaths like 'Curse it' are reported using 'cursed' or 'exclaimed with an oath'. 'This' changes to 'that'. ✅"
+    "answer": "The boy apologized for being late, explaining that the bus had broken down, and the teacher warned him not to let it happen again.",
+    "explanation": "This reports an apology, a reason (explaining), and a warning (imperative) in a single coherent passage. ✅"
   },
   {
-    "question": "Change to Indirect: The captain said to the soldiers, 'Stand at ease.'",
+    "question": "'Where are you going?' said the tiger. 'To my mother's house,' said the goat.",
     "options": [
-      "The captain commanded the soldiers to stand at ease.",
-      "The captain told the soldiers that they should stand at ease.",
-      "The captain ordered the soldiers for standing at ease.",
-      "The captain said to the soldiers stand at ease."
+      "The tiger asked the goat where it was going and the goat replied that it was going to its mother's house.",
+      "The tiger asked the goat where were you going and the goat said to my mother's house.",
+      "The tiger questioned the goat about its destination and the goat answered it is going to mother's house.",
+      "The tiger asked the goat where it was going and the goat told him it went to its mother's house."
     ],
-    "answer": "The captain commanded the soldiers to stand at ease.",
-    "explanation": "Formal military commands use 'commanded'. The imperative 'Stand' becomes 'to stand'. ✅"
+    "answer": "The tiger asked the goat where it was going and the goat replied that it was going to its mother's house.",
+    "explanation": "Dialogue reporting requires a clear connection between the question and the reply. ✅"
   },
   {
-    "question": "Change to Indirect: She said, 'If I had been there, I might have helped.'",
+    "question": "He said, 'Let us wait for the award. If we win, we shall celebrate.'",
     "options": [
-      "She said that if she had been there, she might have helped.",
-      "She said that if she was there, she might help.",
-      "She said that if she had been there, she might had helped.",
-      "She told that she would have helped if she were there."
+      "He suggested waiting for the award and added that if they won, they would celebrate.",
+      "He proposed that they should wait for the award and said if they win, they shall celebrate.",
+      "He suggested to wait for the award and if they would win, they would celebrate.",
+      "He told them to wait for the award and they would celebrate if they won."
     ],
-    "answer": "She said that if she had been there, she might have helped.",
-    "explanation": "In Type 3 Conditional sentences (Past Perfect + Modal Perfect), the tense remains unchanged in indirect speech. ✅"
+    "answer": "He suggested waiting for the award and added that if they won, they would celebrate.",
+    "explanation": "Combines a suggestion (Let us) with a conditional (If-clause). ✅"
   },
   {
-    "question": "Change to Indirect: 'Wait!' he said to me, 'I'll be back in a minute.'",
+    "question": "She said, 'Thank you! I've never seen such a beautiful gift. How did you find it?'",
     "options": [
-      "He told me to wait and said that he would be back in a minute.",
-      "He asked me to wait and said he will be back in a minute.",
-      "He ordered me for waiting and told he would be back.",
-      "He said to me wait and he would be back in a minute."
+      "She thanked me, exclaimed that she had never seen such a beautiful gift, and asked how I had found it.",
+      "She thanked me and said she never saw such a beautiful gift and asked how did I find it.",
+      "She expressed gratitude for the gift and asked how I found it.",
+      "She thanked me saying she had never seen that gift and enquired how I found it."
     ],
-    "answer": "He told me to wait and said that he would be back in a minute.",
-    "explanation": "When a sentence has both an imperative and an assertive part, use two reporting verbs connected by 'and'. ✅"
+    "answer": "She thanked me, exclaimed that she had never seen such a beautiful gift, and asked how I had found it.",
+    "explanation": "Reports a thank you, an exclamation, and a question together. ✅"
   },
   {
-    "question": "Change to Indirect: The teacher said, 'Let it be a square ABCD.'",
+    "question": "The master said, 'Well done, Rohit! You have won the prize. Keep working hard.'",
     "options": [
-      "The teacher suggested that it should be a square ABCD.",
-      "The teacher proposed that it be a square ABCD.",
-      "The teacher assumed it to be a square ABCD.",
-      "All of the above."
+      "The master applauded Rohit, saying that he had won the prize and encouraged him to keep working hard.",
+      "The master told Rohit well done that he has won the prize and told to work hard.",
+      "The master congratulated Rohit for winning and told him to work hard.",
+      "The master praised Rohit for winning the prize and said keep working hard."
     ],
-    "answer": "All of the above.",
-    "explanation": "Mathematical 'Let' can be reported as a suggestion, proposal, or an assumption. ✅"
+    "answer": "The master applauded Rohit, saying that he had won the prize and encouraged him to keep working hard.",
+    "explanation": "Reports praise, an assertive statement, and an imperative encouragement. ✅"
   },
   {
-    "question": "Change to Indirect: She said, 'How kind of you to help me!'",
+    "question": "He said to his friend, 'Are you coming? I'm already late. Don't be slow.'",
     "options": [
-      "She exclaimed that it was very kind of me to help her.",
-      "She thanked me for being kind and helping her.",
-      "She said that I am very kind to help her.",
-      "Both A and B are correct."
+      "He asked his friend if he was coming, adding that he was already late and told him not to be slow.",
+      "He asked his friend if he is coming as he is late and not to be slow.",
+      "He enquired his friend's arrival and warned him not to be slow.",
+      "He told his friend he was late and asked him to come quickly."
     ],
-    "answer": "Both A and B are correct.",
-    "explanation": "Exclamatory sentences expressing gratitude can be reported as a standard exclamation or by using the verb 'thanked'. ✅"
+    "answer": "He asked his friend if he was coming, adding that he was already late and told him not to be slow.",
+    "explanation": "Interrogative + Assertive + Imperative. ✅"
   },
   {
-    "question": "Change to Indirect: He said, 'I'd rather you didn't tell anyone.'",
+    "question": "The stranger said, 'Can you tell me the way to the park?' I said, 'Yes, go straight.'",
     "options": [
-      "He said that he'd rather I didn't tell anyone.",
-      "He said that he'd rather I hadn't told anyone.",
-      "He told that he preferred I don't tell anyone.",
-      "He said that he'd rather me not to tell anyone."
+      "The stranger asked me the way to the park and I replied in the affirmative and told him to go straight.",
+      "The stranger asked if I can tell the way and I said yes go straight.",
+      "The stranger enquired the path to the park and I said to go straight.",
+      "The stranger asked me if I could tell him the way and I agreed to go straight."
     ],
-    "answer": "He said that he'd rather I didn't tell anyone.",
-    "explanation": "After 'would rather' + subject, the past simple (didn't) usually stays the same in indirect speech as it refers to a preference. ✅"
+    "answer": "The stranger asked me the way to the park and I replied in the affirmative and told him to go straight.",
+    "explanation": "'Yes' is best reported as 'replied in the affirmative'. ✅"
   },
   {
-    "question": "Change to Indirect: 'Help! Help!' cried the woman.",
+    "question": "She said, 'What a pity! You missed the flight. Shall I book another for you?'",
     "options": [
-      "The woman shouted for help.",
-      "The woman cried out for help.",
-      "The woman said help help.",
-      "Both A and B are correct."
+      "She exclaimed with sorrow that it was a great pity I had missed the flight and offered to book another for me.",
+      "She said it was a pity I missed the flight and asked if she shall book another.",
+      "She felt sorry that I missed the flight and asked to book another.",
+      "She exclaimed that it was a pity I had missed the flight and asked if she should book another."
     ],
-    "answer": "Both A and B are correct.",
-    "explanation": "Urgent calls for help are reported using 'shouted' or 'cried out'. ✅"
+    "answer": "She exclaimed with sorrow that it was a great pity I had missed the flight and offered to book another for me.",
+    "explanation": "Exclamatory + Offer (Shall I). ✅"
   },
   {
-    "question": "Change to Indirect: The judge said, 'I shall hear the case tomorrow.'",
+    "question": "He said, 'By God! I am innocent. Please believe me.'",
     "options": [
-      "The judge said that he should hear the case the next day.",
-      "The judge said that he would hear the case the next day.",
-      "The judge told that he shall hear the case tomorrow.",
-      "The judge said he would hear the case tomorrow."
+      "He swore by God that he was innocent and entreated them to believe him.",
+      "He said by God he is innocent and requested to believe him.",
+      "He exclaimed with an oath that he was innocent and asked to be believed.",
+      "Both A and C are correct."
     ],
-    "answer": "The judge said that he would hear the case the next day.",
-    "explanation": "In indirect speech, 'shall' normally becomes 'would' when referring to a future intention. 'Tomorrow' ➔ 'the next day'. ✅"
+    "answer": "Both A and C are correct.",
+    "explanation": "Oath (Swore/Exclaimed with an oath) + Request (entreated). ✅"
   },
   {
-    "question": "Change to Indirect: 'Many happy returns of the day,' said his friends.",
+    "question": "The old woman said to the girl, 'May you live long! Will you give me some water?'",
     "options": [
-      "His friends wished him many happy returns of the day.",
-      "His friends said many happy returns of the day to him.",
-      "His friends prayed for many happy returns of the day.",
-      "His friends greeted him for the day."
+      "The old woman blessed the girl and asked if she would give her some water.",
+      "The old woman wished the girl long life and asked for water.",
+      "The old woman prayed for the girl and asked if she will give water.",
+      "The old woman blessed the girl that she may live long and asked for water."
     ],
-    "answer": "His friends wished him many happy returns of the day.",
-    "explanation": "For birthday wishes or seasonal greetings, 'wished' is the standard reporting verb. ✅"
+    "answer": "The old woman blessed the girl and asked if she would give her some water.",
+    "explanation": "Optative (blessed) + Interrogative (would). ✅"
+  },
+  {
+    "question": "The general said, 'Bravo! You have fought well. We will win this war.'",
+    "options": [
+      "The general applauded them, saying they had fought well and declared that they would win that war.",
+      "The general told them bravo as they fought well and they will win the war.",
+      "The general praised them and said they would win this war.",
+      "The general exclaimed with joy that they had fought well and would win that war."
+    ],
+    "answer": "The general applauded them, saying they had fought well and declared that they would win that war.",
+    "explanation": "Applauded + Assertive declaration. ✅"
+  },
+  {
+    "question": "He said, 'I have been here before. I know the owner. Let's call him.'",
+    "options": [
+      "He said that he had been there before and that he knew the owner and suggested calling him.",
+      "He told them he was there before and knew the owner and to call him.",
+      "He said he had been here before and suggested that they should call him.",
+      "He claimed to know the owner as he had been there and suggested calling him."
+    ],
+    "answer": "He said that he had been there before and that he knew the owner and suggested calling him.",
+    "explanation": "Two assertive statements and one suggestion. ✅"
+  },
+  {
+    "question": "'Help! Help!' cried the woman. 'I am drowning.'",
+    "options": [
+      "The woman shouted for help, saying that she was drowning.",
+      "The woman cried help and said she was drowning.",
+      "The woman called for help as she drowned.",
+      "The woman screamed for help and said she is drowning."
+    ],
+    "answer": "The woman shouted for help, saying that she was drowning.",
+    "explanation": "Reporting an emergency exclamation. ✅"
+  },
+  {
+    "question": "She said, 'Alas! My dog is dead. I will never get another one.'",
+    "options": [
+      "She exclaimed with sorrow that her dog was dead and vowed that she would never get another one.",
+      "She said sadly her dog was dead and she would not get another.",
+      "She cried that her dog was dead and she will never get another.",
+      "She felt sorry about her dog and said she would never get another."
+    ],
+    "answer": "She exclaimed with sorrow that her dog was dead and vowed that she would never get another one.",
+    "explanation": "Sorrow (Alas) + Vow/Resolution (I will never). ✅"
+  },
+  {
+    "question": "'Good morning,' said the clerk. 'How can I help you today?'",
+    "options": [
+      "The clerk wished me a good morning and asked how he could help me that day.",
+      "The clerk told me good morning and asked how he can help me today.",
+      "The clerk greeted me and asked for my help.",
+      "The clerk wished good morning and enquired about helping me that day."
+    ],
+    "answer": "The clerk wished me a good morning and asked how he could help me that day.",
+    "explanation": "Greeting + Wh- question. ✅"
+  },
+  {
+    "question": "I said to him, 'Do you believe me? If not, I won't help you.'",
+    "options": [
+      "I asked him if he believed me and warned him that if he didn't, I wouldn't help him.",
+      "I asked him if he believes me and said I will not help if he doesn't.",
+      "I enquired about his belief and told him I won't help him.",
+      "I asked if he believed me and said if not I wouldn't help him."
+    ],
+    "answer": "I asked him if he believed me and warned him that if he didn't, I wouldn't help him.",
+    "explanation": "Interrogative + Conditional Warning. ✅"
+  },
+  {
+    "question": "He said, 'Ugh! How dirty this room is! Please clean it.'",
+    "options": [
+      "He exclaimed with disgust that the room was very dirty and requested to clean it.",
+      "He said the room was dirty and asked to clean it.",
+      "He exclaimed that the room is dirty and requested that it should be cleaned.",
+      "He told with disgust the room was dirty and told to clean it."
+    ],
+    "answer": "He exclaimed with disgust that the room was very dirty and requested to clean it.",
+    "explanation": "Disgust (Ugh) + Exclamatory (How dirty) + Request (Please). ✅"
+  },
+  {
+    "question": "The doctor said, 'The patient is serious. Call his relatives immediately.'",
+    "options": [
+      "The doctor said that the patient was serious and ordered to call his relatives immediately.",
+      "The doctor told that the patient is serious and to call his relatives.",
+      "The doctor informed that the patient was serious and suggested calling his relatives then.",
+      "The doctor said the patient was serious and asked them to call his relatives immediately."
+    ],
+    "answer": "The doctor said that the patient was serious and ordered to call his relatives immediately.",
+    "explanation": "Assertive info + Imperative order. ✅"
+  },
+  {
+    "question": "She said, 'Congratulations! I am so happy for you. Let's celebrate.'",
+    "options": [
+      "She congratulated me, said that she was very happy for me, and suggested that they should celebrate.",
+      "She wished me congratulations and said she is happy and let's celebrate.",
+      "She congratulated me and suggested celebrating as she was happy.",
+      "She told me congratulations and she was happy and suggested celebration."
+    ],
+    "answer": "She congratulated me, said that she was very happy for me, and suggested that they should celebrate.",
+    "explanation": "Congratulated + Assertive + Suggestion. ✅"
+  },
+  {
+    "question": "The boy said, 'No, I didn't break the glass. I was not even in the room.'",
+    "options": [
+      "The boy denied breaking the glass and explained that he had not even been in the room.",
+      "The boy said he didn't break the glass and he wasn't in the room.",
+      "The boy denied that he broke the glass as he was not in the room.",
+      "The boy told he hadn't broken the glass because he was out."
+    ],
+    "answer": "The boy denied breaking the glass and explained that he had not even been in the room.",
+    "explanation": "Denial (No) + Explanation (was not ➔ had not been). ✅"
+  },
+  {
+    "question": "I said to the guest, 'Welcome! I hope you had a comfortable journey.'",
+    "options": [
+      "I welcomed the guest and expressed hope that he had had a comfortable journey.",
+      "I welcomed the guest and hoped that he had a comfortable journey.",
+      "I said welcome and hoped his journey was comfortable.",
+      "I greeted the guest and asked about his journey."
+    ],
+    "answer": "I welcomed the guest and expressed hope that he had had a comfortable journey.",
+    "explanation": "Welcomed + Hope (Past ➔ Past Perfect). ✅"
+  },
+  {
+    "question": "He said, 'Goodbye! I'll miss you all. Don't forget to write.'",
+    "options": [
+      "He bade goodbye, said that he would miss them all, and reminded them to write.",
+      "He told goodbye and said he will miss them and not to forget writing.",
+      "He bade goodbye and said he would miss them and reminded not to forget to write.",
+      "Both A and C are correct."
+    ],
+    "answer": "Both A and C are correct.",
+    "explanation": "Farewell (Bade) + Assertive (would) + Reminder (Don't forget). ✅"
+  },
+  {
+    "question": "The teacher said, 'What a stupid answer! Why haven't you prepared the lesson?'",
+    "options": [
+      "The teacher exclaimed that it was a very stupid answer and asked why he had not prepared the lesson.",
+      "The teacher said it was a stupid answer and asked why he hasn't prepared.",
+      "The teacher rebuked him for the stupid answer and asked why he had not prepared.",
+      "Both A and C are correct."
+    ],
+    "answer": "Both A and C are correct.",
+    "explanation": "Rebuke/Exclamation + Wh- question. ✅"
+  },
+  {
+    "question": "'Please, please,' she cried, 'give me one more chance. I won't fail you again.'",
+    "options": [
+      "She entreated them to give her one more chance and promised that she would not fail them again.",
+      "She requested them to give her a chance and said she wouldn't fail again.",
+      "She begged for a chance and promised she will not fail them.",
+      "She cried for a chance and vowed not to fail them again."
+    ],
+    "answer": "She entreated them to give her one more chance and promised that she would not fail them again.",
+    "explanation": "Earnest request (entreated/begged) + Promise. ✅"
+  },
+  {
+    "question": "He said, 'I wish I had been there. I could have helped you.'",
+    "options": [
+      "He wished that he had been there and said that he could have helped me.",
+      "He wished he were there and could help me.",
+      "He said he wished he had been there and could have helped me.",
+      "He expressed a wish to be there to help me."
+    ],
+    "answer": "He wished that he had been there and said that he could have helped me.",
+    "explanation": "Wish + Modal Perfect (could have) remains unchanged. ✅"
+  },
+  {
+    "question": "The witness said, 'I swear it is true. I am not lying.'",
+    "options": [
+      "The witness swore that it was true and declared that he was not lying.",
+      "The witness said it was true and he was not lying.",
+      "The witness testified that it was true and he is not lying.",
+      "The witness swore by God it was true and he was not lying."
+    ],
+    "answer": "The witness swore that it was true and declared that he was not lying.",
+    "explanation": "Swore + Declaration (is ➔ was, am ➔ was). ✅"
+  },
+  {
+    "question": "She said, 'Yes, I'll be there. Don't worry.'",
+    "options": [
+      "She agreed that she would be there and told me not to worry.",
+      "She said yes she will be there and not to worry.",
+      "She assured me that she would be there and told not to worry.",
+      "Both A and C are correct."
+    ],
+    "answer": "Both A and C are correct.",
+    "explanation": "Agreement/Assurance + Imperative advice. ✅"
+  },
+  {
+    "question": "He said, 'What! You have lost the keys? How will we enter now?'",
+    "options": [
+      "He exclaimed with surprise that I had lost the keys and asked how they would enter then.",
+      "He asked with surprise if I lost the keys and how they would enter now.",
+      "He shouted that I lost the keys and asked about entering then.",
+      "He exclaimed that the keys were lost and asked how to enter."
+    ],
+    "answer": "He exclaimed with surprise that I had lost the keys and asked how they would enter then.",
+    "explanation": "Surprise (What!) + Assertive conversion + Wh- question. ✅"
+  },
+  {
+    "question": "The captain said to the soldiers, 'Don't yield. Fight till the last man.'",
+    "options": [
+      "The captain ordered the soldiers not to yield and to fight till the last man.",
+      "The captain told the soldiers don't yield and fight till the last man.",
+      "The captain commanded the soldiers not to yield but fight till the last man.",
+      "Both A and C are correct."
+    ],
+    "answer": "Both A and C are correct.",
+    "explanation": "Multiple imperatives in a military command. ✅"
+  },
+  {
+    "question": "I said, 'I am busy. Please don't disturb me.' He said, 'I understand.'",
+    "options": [
+      "I told him that I was busy and requested him not to disturb me, to which he replied that he understood.",
+      "I said I was busy and not to disturb me and he said he understands.",
+      "I requested him not to disturb as I was busy and he agreed.",
+      "I told him I am busy and please don't disturb and he said he understood."
+    ],
+    "answer": "I told him that I was busy and requested him not to disturb me, to which he replied that he understood.",
+    "explanation": "Full passage reporting covering two different speakers. ✅"
   }
 ]
