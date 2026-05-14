@@ -1,0 +1,167 @@
+[
+  {
+    "question": "Fill in the blank: One should be careful about _____ words.",
+    "options": [
+      "his",
+      "her",
+      "one's",
+      "their"
+    ],
+    "answer": "one's",
+    "explanation": "If the subject is 'One', the corresponding possessive pronoun must be 'one's'. Using 'his' is a common error. ✅"
+  },
+  {
+    "question": "Identify the correct relative pronoun: This is the only information _____ I have.",
+    "options": [
+      "which",
+      "that",
+      "who",
+      "whom"
+    ],
+    "answer": "that",
+    "explanation": "After words like 'only', 'all', 'none', 'same', or superlative adjectives, we must use 'that' instead of 'which'. ✅"
+  },
+  {
+    "question": "Choose the correct form: Each of the boys has brought _____ own bag.",
+    "options": [
+      "their",
+      "his",
+      "they",
+      "him"
+    ],
+    "answer": "his",
+    "explanation": "'Each' is a distributive pronoun and is always singular, hence it takes the singular pronoun 'his'. ✅"
+  },
+  {
+    "question": "Identify the error: The team is performing well in their matches.",
+    "options": [
+      "team",
+      "performing",
+      "their",
+      "matches"
+    ],
+    "answer": "their",
+    "explanation": "When a collective noun (team) acts as a single unit, use the singular pronoun 'its'. It should be 'in its matches'. ✅"
+  },
+  {
+    "question": "Fill in the blank: Such a boy _____ you speak of is rare.",
+    "options": [
+      "who",
+      "as",
+      "that",
+      "whom"
+    ],
+    "answer": "as",
+    "explanation": "After the word 'Such', the relative pronoun 'as' is used to show a category or type. ✅"
+  },
+  {
+    "question": "Choose the correct reflexive pronoun: He prostrated _____ before the king.",
+    "options": [
+      "him",
+      "himself",
+      "his self",
+      "himselfs"
+    ],
+    "answer": "himself",
+    "explanation": "Verbs like 'prostrate', 'absent', 'enjoy', 'avail' often take a reflexive pronoun when there is no direct object. ✅"
+  },
+  {
+    "question": "Identify the correct pronoun: I do not like _____ staying there.",
+    "options": [
+      "you",
+      "your",
+      "yours",
+      "yourself"
+    ],
+    "answer": "your",
+    "explanation": "Before a Gerund (V+ing acting as a noun like 'staying'), a possessive adjective (your, my, his) should be used. ✅"
+  },
+  {
+    "question": "Fill in the blank: Everything _____ he said was true.",
+    "options": [
+      "which",
+      "what",
+      "that",
+      "who"
+    ],
+    "answer": "that",
+    "explanation": "After indefinite pronouns like 'everything', 'nothing', 'anything', the relative pronoun 'that' is preferred. ✅"
+  },
+  {
+    "question": "Choose the correct reciprocal pronoun: The three brothers quarreled with _____.",
+    "options": [
+      "each other",
+      "one another",
+      "themselves",
+      "himself"
+    ],
+    "answer": "one another",
+    "explanation": "'Each other' is for two; 'one another' is for more than two. ✅"
+  },
+  {
+    "question": "Identify the correct pronoun: Every teacher and every student was in _____ place.",
+    "options": [
+      "their",
+      "his",
+      "her",
+      "them"
+    ],
+    "answer": "his",
+    "explanation": "When two singular nouns are joined by 'and' but preceded by 'each' or 'every', the pronoun must be singular. ✅"
+  },
+  {
+    "question": "Fill in the blank: The committee has submitted _____ report.",
+    "options": [
+      "their",
+      "its",
+      "his",
+      "them"
+    ],
+    "answer": "its",
+    "explanation": "Collective nouns (committee) take a singular pronoun 'its' when they act unanimously as one body. ✅"
+  },
+  {
+    "question": "Choose the correct relative pronoun: Who am I _____ should doubt you?",
+    "options": [
+      "who",
+      "that",
+      "which",
+      "whom"
+    ],
+    "answer": "that",
+    "explanation": "When the antecedent is an interrogative pronoun (Who), the relative pronoun 'that' is used to avoid repetition of 'who'. ✅"
+  },
+  {
+    "question": "Identify the error: Either the teacher or the students failed in his duty.",
+    "options": [
+      "Either",
+      "teacher",
+      "students",
+      "his"
+    ],
+    "answer": "his",
+    "explanation": "When a singular and a plural noun are joined by 'or'/'nor', the pronoun agrees with the closer noun (students), so it should be 'their'. ✅"
+  },
+  {
+    "question": "Fill in the blank: This is the same man _____ met me yesterday.",
+    "options": [
+      "who",
+      "whom",
+      "that",
+      "which"
+    ],
+    "answer": "that",
+    "explanation": "After 'the same', use 'that' as the relative pronoun. ✅"
+  },
+  {
+    "question": "Choose the correct pronoun: He and I have finished _____ work.",
+    "options": [
+      "my",
+      "our",
+      "their",
+      "your"
+    ],
+    "answer": "our",
+    "explanation": "When 1st person (I) is included in the subject (He and I), the possessive pronoun should be 1st person plural (our). ✅"
+  }
+]
