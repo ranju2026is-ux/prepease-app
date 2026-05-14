@@ -1,167 +1,332 @@
 [
   {
-    "question": "Identify the correct verb: It is I who _____ to be blamed.",
+    "question": "_____ is at the door?",
     "options": [
-      "is",
-      "am",
-      "are",
-      "was"
+      "Who",
+      "Whom",
+      "Whose",
+      "Which"
     ],
-    "answer": "am",
-    "explanation": "When the relative pronoun 'who' follows 'I', the verb must agree with 'I'. Therefore, 'am' is correct. ✅"
+    "answer": "Who",
+    "explanation": "'Who' is used to ask about the identity of the subject (person). ✅"
   },
   {
-    "question": "Fill in the blank: The jury was divided in _____ opinions.",
+    "question": "_____ did you invite to the party?",
     "options": [
-      "its",
-      "his",
-      "their",
-      "it's"
+      "Who",
+      "Whom",
+      "Whose",
+      "Which"
     ],
-    "answer": "their",
-    "explanation": "When a collective noun (jury) is divided or thinks differently, it is treated as plural, so 'their' is used. ✅"
+    "answer": "Whom",
+    "explanation": "'Whom' is the objective case, used when asking about the person receiving the action. ✅"
   },
   {
-    "question": "Choose the correct pronoun: He is one of the tallest boys _____ have ever played here.",
+    "question": "_____ of these two pens is yours?",
+    "options": [
+      "Who",
+      "What",
+      "Which",
+      "Whose"
+    ],
+    "answer": "Which",
+    "explanation": "'Which' is used when there is a limited choice or selection among several items. ✅"
+  },
+  {
+    "question": "_____ is this beautiful house?",
+    "options": [
+      "Who",
+      "Whom",
+      "Whose",
+      "What"
+    ],
+    "answer": "Whose",
+    "explanation": "'Whose' is used to ask about ownership or possession. ✅"
+  },
+  {
+    "question": "_____ do you want for your birthday?",
+    "options": [
+      "Who",
+      "Which",
+      "What",
+      "Whom"
+    ],
+    "answer": "What",
+    "explanation": "'What' is used to ask about things in general (not a specific set). ✅"
+  },
+  {
+    "question": "To _____ was the letter addressed?",
     "options": [
       "who",
-      "that",
-      "which",
-      "whom"
-    ],
-    "answer": "that",
-    "explanation": "After a Superlative Adjective (tallest), 'that' is the preferred relative pronoun over 'who'. ✅"
-  },
-  {
-    "question": "Identify the error: This is the only one of his comments that are relevant.",
-    "options": [
-      "This",
-      "only",
-      "that",
-      "are"
-    ],
-    "answer": "are",
-    "explanation": "When 'the only one of' is used, the verb must be singular. It should be 'that **is** relevant'. ✅"
-  },
-  {
-    "question": "Fill in the blank: None of the luggage has reached _____ destination.",
-    "options": [
-      "its",
-      "their",
-      "his",
-      "it's"
-    ],
-    "answer": "its",
-    "explanation": "'Luggage' is an uncountable singular noun, so the possessive pronoun must be 'its'. ✅"
-  },
-  {
-    "question": "Choose the correct form: My brother and _____ are looking for a job.",
-    "options": [
-      "myself",
-      "me",
-      "I",
-      "mine"
-    ],
-    "answer": "I",
-    "explanation": "A reflexive pronoun (myself) cannot be a subject. 'I' is the correct subjective pronoun. ✅"
-  },
-  {
-    "question": "Identify the correct relative pronoun: Who was there _____ did not cheer?",
-    "options": [
-      "who",
-      "that",
-      "which",
-      "whom"
-    ],
-    "answer": "that",
-    "explanation": "When the sentence starts with an interrogative pronoun (Who), we use 'that' as the relative pronoun to avoid using 'who' twice. ✅"
-  },
-  {
-    "question": "Fill in the blank: Each of the two girls was happy with _____ prize.",
-    "options": [
-      "their",
-      "her",
-      "them",
-      "hers"
-    ],
-    "answer": "her",
-    "explanation": "'Each' is always singular. Since it refers to girls, 'her' is the correct possessive. ✅"
-  },
-  {
-    "question": "Choose the correct option: He and you should do _____ duty.",
-    "options": [
-      "his",
-      "your",
-      "their",
-      "our"
-    ],
-    "answer": "your",
-    "explanation": "When 2nd and 3rd person are subjects, the possessive pronoun should be 2nd person (your). ✅"
-  },
-  {
-    "question": "Identify the error: Let he and me do the work.",
-    "options": [
-      "Let",
-      "he",
-      "me",
-      "do"
-    ],
-    "answer": "he",
-    "explanation": "After 'Let', all pronouns must be in the objective case. It should be 'Let **him** and me...'. ✅"
-  },
-  {
-    "question": "Fill in the blank: This is the same car _____ I saw yesterday.",
-    "options": [
-      "which",
-      "who",
-      "that",
-      "whom"
-    ],
-    "answer": "that",
-    "explanation": "After 'the same', 'that' is the mandatory relative pronoun. ✅"
-  },
-  {
-    "question": "Choose the correct pronoun: Every soldier and every sailor was in _____ place.",
-    "options": [
-      "their",
-      "his",
-      "its",
-      "them"
-    ],
-    "answer": "his",
-    "explanation": "When two singular nouns are connected by 'and' but preceded by 'every', the pronoun must be singular (his). ✅"
-  },
-  {
-    "question": "Identify the correct form: It was not _____ who broke the glass.",
-    "options": [
-      "me",
-      "I",
-      "my",
-      "myself"
-    ],
-    "answer": "I",
-    "explanation": "After 'It was', the subjective case 'I' is used as the complement. ✅"
-  },
-  {
-    "question": "Fill in the blank: You, he and I have finished _____ work.",
-    "options": [
-      "your",
-      "their",
-      "our",
-      "my"
-    ],
-    "answer": "our",
-    "explanation": "When the 1st person (I) is included in a plural subject, the possessive is 'our'. ✅"
-  },
-  {
-    "question": "Identify the relative pronoun: There is no one _____ knows the answer.",
-    "options": [
-      "who",
-      "but",
-      "that",
+      "whom",
+      "whose",
       "which"
     ],
-    "answer": "but",
-    "explanation": "In negative structures, 'but' acts as a relative pronoun meaning 'who...not'. ✅"
+    "answer": "whom",
+    "explanation": "After a preposition (To), the objective form 'whom' must be used. ✅"
+  },
+  {
+    "question": "_____ is the better player, Virat or Rohit?",
+    "options": [
+      "Who",
+      "Which",
+      "Whose",
+      "What"
+    ],
+    "answer": "Which",
+    "explanation": "When choosing between two or more specific people, 'Which' is often used instead of 'Who'. ✅"
+  },
+  {
+    "question": "_____ told you about the accident?",
+    "options": [
+      "Whom",
+      "Who",
+      "Whose",
+      "Which"
+    ],
+    "answer": "Who",
+    "explanation": "'Who' acts as the subject performing the action of 'telling'. ✅"
+  },
+  {
+    "question": "_____ are you talking to?",
+    "options": [
+      "Who",
+      "Whom",
+      "Whose",
+      "Which"
+    ],
+    "answer": "Whom",
+    "explanation": "Informally 'Who' is used, but in formal grammar and competitive exams, 'Whom' is correct as it's the object of 'to'. ✅"
+  },
+  {
+    "question": "_____ is your father's occupation?",
+    "options": [
+      "Who",
+      "Whose",
+      "What",
+      "Which"
+    ],
+    "answer": "What",
+    "explanation": "'What' is used to ask about a person's profession or status. ✅"
+  },
+  {
+    "question": "_____ made this mess in the kitchen?",
+    "options": [
+      "Who",
+      "Whom",
+      "Whose",
+      "Which"
+    ],
+    "answer": "Who",
+    "explanation": "Subjective case required. ✅"
+  },
+  {
+    "question": "_____ of the boys has broken the window?",
+    "options": [
+      "Who",
+      "Which",
+      "Whom",
+      "Whose"
+    ],
+    "answer": "Which",
+    "explanation": "'Which' is used for selection among a group. ✅"
+  },
+  {
+    "question": "_____ is the girl in the red dress?",
+    "options": [
+      "Who",
+      "Whom",
+      "Whose",
+      "What"
+    ],
+    "answer": "Who",
+    "explanation": "Asking for identity. ✅"
+  },
+  {
+    "question": "_____ books are these?",
+    "options": [
+      "Who",
+      "Whom",
+      "Whose",
+      "Which"
+    ],
+    "answer": "Whose",
+    "explanation": "Asking for the owner of the books. ✅"
+  },
+  {
+    "question": "By _____ was the Ramayana written?",
+    "options": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "answer": "whom",
+    "explanation": "After 'By' (preposition), 'whom' is mandatory. ✅"
+  },
+  {
+    "question": "_____ do you think will win the election?",
+    "options": [
+      "Who",
+      "Whom",
+      "Whose",
+      "Which"
+    ],
+    "answer": "Who",
+    "explanation": "'Who' is the subject of the verb 'will win'. ✅"
+  },
+  {
+    "question": "_____ is the meaning of this word?",
+    "options": [
+      "Who",
+      "What",
+      "Which",
+      "Whose"
+    ],
+    "answer": "What",
+    "explanation": "Used for information about a thing. ✅"
+  },
+  {
+    "question": "_____ of the movies did you like most?",
+    "options": [
+      "What",
+      "Which",
+      "Who",
+      "Whom"
+    ],
+    "answer": "Which",
+    "explanation": "Selection from a finite set of movies. ✅"
+  },
+  {
+    "question": "_____ is that man standing near Ravi?",
+    "options": [
+      "Who",
+      "Whom",
+      "Whose",
+      "Which"
+    ],
+    "answer": "Who",
+    "explanation": "Identifies the subject. ✅"
+  },
+  {
+    "question": "With _____ were you talking on the phone?",
+    "options": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "answer": "whom",
+    "explanation": "After preposition 'With'. ✅"
+  },
+  {
+    "question": "_____ is the way to the railway station?",
+    "options": [
+      "Who",
+      "What",
+      "Which",
+      "Whose"
+    ],
+    "answer": "Which",
+    "explanation": "Often used when choosing between possible paths/routes. ✅"
+  },
+  {
+    "question": "_____ of you has done this?",
+    "options": [
+      "Who",
+      "Which",
+      "Whose",
+      "Whom"
+    ],
+    "answer": "Which",
+    "explanation": "'Which' is used for people when we are identifying one out of a specific group. ✅"
+  },
+  {
+    "question": "_____ are you looking for in that drawer?",
+    "options": [
+      "Who",
+      "Whom",
+      "What",
+      "Which"
+    ],
+    "answer": "What",
+    "explanation": "Asking about an object. ✅"
+  },
+  {
+    "question": "_____ is the car parked outside?",
+    "options": [
+      "Who",
+      "Whom",
+      "Whose",
+      "Which"
+    ],
+    "answer": "Whose",
+    "explanation": "Asking for the owner. ✅"
+  },
+  {
+    "question": "_____ did the teacher punish?",
+    "options": [
+      "Who",
+      "Whom",
+      "Whose",
+      "Which"
+    ],
+    "answer": "Whom",
+    "explanation": "The person punished is the object of the action. ✅"
+  },
+  {
+    "question": "_____ would you like to have, tea or coffee?",
+    "options": [
+      "What",
+      "Which",
+      "Who",
+      "Whom"
+    ],
+    "answer": "Which",
+    "explanation": "Choice between two specific options. ✅"
+  },
+  {
+    "question": "_____ was that noise?",
+    "options": [
+      "Who",
+      "What",
+      "Which",
+      "Whose"
+    ],
+    "answer": "What",
+    "explanation": "Identifying a sound/thing. ✅"
+  },
+  {
+    "question": "For _____ are you waiting?",
+    "options": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "answer": "whom",
+    "explanation": "Object of the preposition 'For'. ✅"
+  },
+  {
+    "question": "_____ said that life is a dream?",
+    "options": [
+      "Whom",
+      "Who",
+      "Whose",
+      "Which"
+    ],
+    "answer": "Who",
+    "explanation": "Subjective case required. ✅"
+  },
+  {
+    "question": "_____ of the sisters is more talented?",
+    "options": [
+      "Who",
+      "Which",
+      "Whom",
+      "Whose"
+    ],
+    "answer": "Which",
+    "explanation": "Selection among siblings. ✅"
   }
 ]
