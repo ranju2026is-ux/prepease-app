@@ -1,0 +1,207 @@
+[
+  {
+    "question": "Choose the correct sentence regarding the plural of 'Brother' in a specific context:",
+    "options": [
+      "The brothers of the local monastery were helping the poor.",
+      "The brethren of the local monastery were helping the poor.",
+      "The brothers-in-laws of the local monastery were helping the poor.",
+      "The brethrens of the local monastery were helping the poor."
+    ],
+    "answer": "The brethren of the local monastery were helping the poor.",
+    "explanation": "'Brothers' is used for blood relations. 'Brethren' is used for members of a religious or social community. ✅"
+  },
+  {
+    "question": "Identify the error part: The (A) / politics (B) / of the (C) / region are very unstable (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "No error",
+    "explanation": "When subject names like 'Politics' refer to political views or current affairs rather than the academic subject, they take a plural verb. ✅"
+  },
+  {
+    "question": "Find the error: The (A) / knight-errants (B) / were known (C) / for their chivalry (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "In the compound noun 'Knight-errant', 'Knight' is the principal word. The plural should be 'Knights-errant'. ✅"
+  },
+  {
+    "question": "What is the correct plural of 'Court-martial'?",
+    "options": ["Court-martials", "Courts-martial", "Courts-martials", "Court-martial's"],
+    "answer": "Courts-martial",
+    "explanation": "'Court' is the principal word here. Hence, the plural is 'Courts-martial'. ✅"
+  },
+  {
+    "question": "Identify the error: He (A) / uses (B) / a (C) / focus to study (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'Focus' is a noun/verb meaning center of interest. If referring to a lens tool, 'focuser' or 'lens' is used. If used metaphorically, 'a' is usually redundant. ✅"
+  },
+  {
+    "question": "Which of the following is correct for 'uncountable nouns' used figuratively?",
+    "options": [
+      "He had a deep knowledge of the subject.",
+      "He had deep knowledges of the subject.",
+      "He had many knowledges of the subject.",
+      "He had some knowledges of the subject."
+    ],
+    "answer": "He had a deep knowledge of the subject.",
+    "explanation": "Knowledge is uncountable. Even with an adjective, it stays singular. ✅"
+  },
+  {
+    "question": "Fill in the blank: The _____ of the church were ringing loudly.",
+    "options": ["peal", "peals", "pealing", "pealed"],
+    "answer": "peals",
+    "explanation": "'Peals' is the plural noun used for the loud ringing of bells. ✅"
+  },
+  {
+    "question": "Identify the error: This (A) / is (B) / somebody (C) / else's car (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "No error",
+    "explanation": "When 'else' follows an indefinite pronoun, the apostrophe is correctly placed on 'else'. ✅"
+  },
+  {
+    "question": "What is the plural of 'Locus' in a mathematical context?",
+    "options": ["Locuses", "Loci", "Locia", "Locuses'"],
+    "answer": "Loci",
+    "explanation": "The Latin plural of 'Locus' is 'Loci'. ✅"
+  },
+  {
+    "question": "Choose the correct sentence regarding the word 'Iron':",
+    "options": [
+      "I need an iron to press my clothes.",
+      "He was put in irons for his crime.",
+      "The ship is made of iron.",
+      "All of the above are correct."
+    ],
+    "answer": "All of the above are correct.",
+    "explanation": "'An iron' (tool), 'Irons' (chains), and 'Iron' (metal) are all valid distinct noun usages. ✅"
+  },
+  {
+    "question": "Identify the error: A (A) / three-men (B) / committee (C) / was formed (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "A hyphenated adjective before a noun stays singular. It should be 'three-man'. ✅"
+  },
+  {
+    "question": "What is the plural of 'Formula' in a scientific context?",
+    "options": ["Formulas", "Formulae", "Formulas'", "Both A and B"],
+    "answer": "Both A and B",
+    "explanation": "Both the English plural 'Formulas' and the Latin 'Formulae' are accepted in scientific writing. ✅"
+  },
+  {
+    "question": "Fill in the blank: A _____ of wood was found in the forest.",
+    "options": ["stack", "bundle", "cord", "All of the above"],
+    "answer": "All of the above",
+    "explanation": "Depending on how it is arranged, wood can be a stack, bundle, or cord (measurement). ✅"
+  },
+  {
+    "question": "Find the error: The (A) / criteria (B) / for selection (C) / is very tough (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'Criteria' is plural; the verb must be 'are'. If singular is needed, use 'Criterion'. ✅"
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "I have much work to do today.",
+      "I have many work to do today.",
+      "I have many works to do today.",
+      "I have a many work to do today."
+    ],
+    "answer": "I have much work to do today.",
+    "explanation": "'Work' (labor) is uncountable and takes 'much'. ✅"
+  },
+  {
+    "question": "Identify the error: The (A) / series (B) / of events (C) / were very surprising (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'Series' is a singular collective unit here. It should be 'was'. ✅"
+  },
+  {
+    "question": "What is the plural of 'Seraph'?",
+    "options": ["Seraphs", "Seraphim", "Seraphies", "Both A and B"],
+    "answer": "Both A and B",
+    "explanation": "Like 'Cherub', 'Seraph' has both an English and a Hebrew plural. ✅"
+  },
+  {
+    "question": "Identify the error: He (A) / took (B) / the (C) / possession of the house (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "The idiom is 'to take possession' (without 'the') when acquiring something. ✅"
+  },
+  {
+    "question": "Choose the correct collective noun for 'Whales':",
+    "options": ["A school of whales", "A pod of whales", "A gam of whales", "All of the above"],
+    "answer": "All of the above",
+    "explanation": "All three are recognized collective nouns for whales. ✅"
+  },
+  {
+    "question": "Find the error: The (A) / alumni (B) / of the (C) / college is meeting tomorrow (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'Alumni' is plural. The verb should be 'are'. ✅"
+  },
+  {
+    "question": "What is the singular of 'Species'?",
+    "options": ["Specie", "Species", "Speci", "Specia"],
+    "answer": "Species",
+    "explanation": "The word 'Species' is the same in both singular and plural. ('Specie' means coin money). ✅"
+  },
+  {
+    "question": "Identify the error: He (A) / gave (B) / her (C) / a lot of good advices (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'Advice' is uncountable and never pluralized. ✅"
+  },
+  {
+    "question": "Fill in the blank: The _____ of the army were deployed at once.",
+    "options": ["corps", "corp", "corpses", "corping"],
+    "answer": "corps",
+    "explanation": "'Corps' (the military unit) is plural here as indicated by 'were'. ✅"
+  },
+  {
+    "question": "Identify the error: The (A) / rich (B) / should (C) / help the poors (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'The poor' is already a plural noun representing the class. 'Poors' is wrong. ✅"
+  },
+  {
+    "question": "Choose the correct form: It is a _____.",
+    "options": [
+      "five-rupee note",
+      "five-rupees note",
+      "five rupees notes",
+      "five-rupee's note"
+    ],
+    "answer": "five-rupee note",
+    "explanation": "Hyphenated singular noun acting as an adjective. ✅"
+  },
+  {
+    "question": "Find the error: I (A) / visited (B) / John's and Mary's house (C) / yesterday (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "If it is one house shared by both, it should be 'John and Mary's house'. ✅"
+  },
+  {
+    "question": "What is the plural of 'Genus'?",
+    "options": ["Genuses", "Genera", "Genii", "Genia"],
+    "answer": "Genera",
+    "explanation": "The Latin plural of 'Genus' is 'Genera'. ✅"
+  },
+  {
+    "question": "Identify the error: The (A) / gentry (B) / was (C) / highly satisfied (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "'Gentry' is plural and takes 'were'. ✅"
+  },
+  {
+    "question": "Choose the correct group name for 'Peacocks':",
+    "options": ["A pride of peacocks", "A muster of peacocks", "A flock of peacocks", "Both A and B"],
+    "answer": "Both A and B",
+    "explanation": "While 'muster' is traditional, 'pride' is also widely used for peacocks. ✅"
+  },
+  {
+    "question": "Identify the error: He (A) / is (B) / my (C) / cousin brother (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "Redundant usage. Use only 'cousin'. ✅"
+  }
+]
