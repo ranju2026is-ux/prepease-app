@@ -1,0 +1,167 @@
+[
+  {
+    "question": "Identify the correct pronoun: Neither of the two brothers has brought _____ book.",
+    "options": [
+      "their",
+      "his",
+      "its",
+      "him"
+    ],
+    "answer": "his",
+    "explanation": "When 'Neither', 'Either', or 'Each' is used, the following pronoun must be singular (his). ✅"
+  },
+  {
+    "question": "Fill in the blank: It was _____ who called you last night.",
+    "options": [
+      "me",
+      "I",
+      "my",
+      "mine"
+    ],
+    "answer": "I",
+    "explanation": "After 'It is' or 'It was' (Be-form verbs), the subjective case pronoun (I, He, She, They) should be used. ✅"
+  },
+  {
+    "question": "Choose the correct option: He is taller than _____.",
+    "options": [
+      "me",
+      "I",
+      "my",
+      "mine"
+    ],
+    "answer": "I",
+    "explanation": "When comparing two subjects using 'than' or 'as', use the subjective case (I). ✅"
+  },
+  {
+    "question": "Identify the correct pronoun: Every student should do _____ duty.",
+    "options": [
+      "their",
+      "his",
+      "them",
+      "ones"
+    ],
+    "answer": "his",
+    "explanation": "For singular indefinite pronouns like 'Every', 'Each', or 'Someone', we traditionally use the singular masculine pronoun 'his' in formal English. ✅"
+  },
+  {
+    "question": "Fill in the blank: The two sisters love _____.",
+    "options": [
+      "each other",
+      "one another",
+      "themselves",
+      "her"
+    ],
+    "answer": "each other",
+    "explanation": "'Each other' is used for two people, while 'one another' is used for more than two. ✅"
+  },
+  {
+    "question": "Identify the error: Between you and I, he is a liar.",
+    "options": [
+      "Between",
+      "you",
+      "I",
+      "liar"
+    ],
+    "answer": "I",
+    "explanation": "After a preposition like 'between' or 'except', the objective case (me) should be used, not 'I'. It should be 'Between you and me'. ✅"
+  },
+  {
+    "question": "Choose the correct possessive: This pen is _____.",
+    "options": [
+      "my",
+      "mine",
+      "mines",
+      "me"
+    ],
+    "answer": "mine",
+    "explanation": "'Mine' is a possessive pronoun that doesn't need a noun after it. 'My' is a possessive adjective. ✅"
+  },
+  {
+    "question": "Fill in the blank: One should keep _____ promise.",
+    "options": [
+      "his",
+      "her",
+      "one's",
+      "their"
+    ],
+    "answer": "one's",
+    "explanation": "If the subject is 'One', the possessive must be 'one's'. ✅"
+  },
+  {
+    "question": "Identify the correct pronoun: It is a secret between you and _____.",
+    "options": [
+      "her",
+      "she",
+      "he",
+      "they"
+    ],
+    "answer": "her",
+    "explanation": "'Between' is a preposition, so it must be followed by an objective case pronoun (her, him, me). ✅"
+  },
+  {
+    "question": "Choose the correct form: _____ am a junior accounts assistant.",
+    "options": [
+      "Myself",
+      "I",
+      "Me",
+      "Mine"
+    ],
+    "answer": "I",
+    "explanation": "A reflexive pronoun like 'Myself' cannot be used as a subject. 'I' is the correct subjective pronoun. ✅"
+  },
+  {
+    "question": "Fill in the blank: Both the boys are help _____.",
+    "options": [
+      "each other",
+      "one another",
+      "himself",
+      "themselves"
+    ],
+    "answer": "each other",
+    "explanation": "For exactly two persons, 'each other' is the correct reciprocal pronoun. ✅"
+  },
+  {
+    "question": "Identify the correct relative pronoun: The man _____ stole my bag has been caught.",
+    "options": [
+      "who",
+      "whom",
+      "which",
+      "whose"
+    ],
+    "answer": "who",
+    "explanation": "'Who' is used as a relative pronoun for the subject (the man). ✅"
+  },
+  {
+    "question": "Choose the correct pronoun: He invited my brother and _____ to dinner.",
+    "options": [
+      "I",
+      "me",
+      "my",
+      "mine"
+    ],
+    "answer": "me",
+    "explanation": "Since the pronouns are objects of the verb 'invited', use the objective case 'me'. ✅"
+  },
+  {
+    "question": "Fill in the blank: Let _____ go to the cinema.",
+    "options": [
+      "we",
+      "us",
+      "our",
+      "ours"
+    ],
+    "answer": "us",
+    "explanation": "After 'Let', always use the objective case pronoun (us, him, her). ✅"
+  },
+  {
+    "question": "Identify the correct pronoun: The dog wagged _____ tail.",
+    "options": [
+      "it's",
+      "its",
+      "his",
+      "her"
+    ],
+    "answer": "its",
+    "explanation": "'Its' is the possessive pronoun for animals/things. 'It's' means 'it is'. ✅"
+  }
+]
