@@ -1,0 +1,332 @@
+[
+  {
+    "question": "Change into Passive: 'I remember my father taking me to the park.'",
+    "options": [
+      "I remember being taken to the park by my father.",
+      "I remember my father being taken to the park.",
+      "I remember taking to the park by my father.",
+      "Being taken to the park is remembered by me."
+    ],
+    "answer": "I remember being taken to the park by my father.",
+    "explanation": "In Gerund constructions (V-ing), the passive form is: **being + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The rose smells sweet.'",
+    "options": [
+      "The rose is sweet when it is smelt.",
+      "The rose was sweet when it is smelt.",
+      "The rose is smelt sweet.",
+      "Sweet is the smell of the rose."
+    ],
+    "answer": "The rose is sweet when it is smelt.",
+    "explanation": "This is a Quasi-passive sentence. Structure: **Subject + is + Adjective + when + it is + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The wall needs painting.'",
+    "options": [
+      "The wall needs to be painted.",
+      "The wall is needing painting.",
+      "Painting is needed by the wall.",
+      "The wall was needed to be painted."
+    ],
+    "answer": "The wall needs to be painted.",
+    "explanation": "With verbs like 'need' or 'want' followed by a Gerund, the passive is: **to be + V3**. ✅"
+  },
+  {
+    "question": "Change into Active: 'He was seen to be stealing the watch.'",
+    "options": [
+      "Someone saw him stealing the watch.",
+      "Someone saw him to steal the watch.",
+      "He saw someone stealing the watch.",
+      "They seen him stealing the watch."
+    ],
+    "answer": "Someone saw him stealing the watch.",
+    "explanation": "Passive 'was seen' ➔ Active 'saw'. The participle 'stealing' remains as is. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I hate people laughing at me.'",
+    "options": [
+      "I hate being laughed at.",
+      "I hate being laughed at by people.",
+      "I hate people being laughed at by me.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Gerund 'laughing' changes to **'being laughed at'**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Quinine tastes bitter.'",
+    "options": [
+      "Quinine is bitter when it is tasted.",
+      "Quinine is bitter when tasted.",
+      "Quinine is tasted bitter.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "In quasi-passive sentences, 'it is' can be omitted for brevity. ✅"
+  },
+  {
+    "question": "Change into Active: 'You are expected to be here on time.'",
+    "options": [
+      "We expect you to be here on time.",
+      "They expect you being here on time.",
+      "One expects you to be here on time.",
+      "Both A and C are correct."
+    ],
+    "answer": "Both A and C are correct.",
+    "explanation": "'You are expected' is the passive of 'We/People/One expect'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'They found him guilty of murder.'",
+    "options": [
+      "He was found guilty of murder by them.",
+      "He was finded guilty of murder.",
+      "Guilty of murder was found by him.",
+      "He were found guilty of murder."
+    ],
+    "answer": "He was found guilty of murder by them.",
+    "explanation": "Simple Past ➔ **was + V3**. The complement 'guilty' stays after the verb. ✅"
+  },
+  {
+    "question": "Change into Passive: 'He likes making toys.'",
+    "options": [
+      "He likes toys being made.",
+      "Toys are liked making by him.",
+      "He likes toys to be made.",
+      "Both A and C are correct."
+    ],
+    "answer": "Both A and C are correct.",
+    "explanation": "Gerunds can be transformed into 'being + V3' or 'to be + V3' depending on the verb. ✅"
+  },
+  {
+    "question": "Change into Active: 'I was made to wait by her.'",
+    "options": [
+      "She made me wait.",
+      "She made me to wait.",
+      "She makes me wait.",
+      "She was making me wait."
+    ],
+    "answer": "She made me wait.",
+    "explanation": "Active 'make' takes a **bare infinitive** (wait), while passive 'made' takes **to + V1**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The surface feels smooth.'",
+    "options": [
+      "The surface is smooth when it is felt.",
+      "The surface is felt smooth.",
+      "The surface was smooth when felt.",
+      "The surface being felt is smooth."
+    ],
+    "answer": "The surface is smooth when it is felt.",
+    "explanation": "Sensory verb (feel) follows the quasi-passive structure. ✅"
+  },
+  {
+    "question": "Change into Passive: 'She wants me to help her.'",
+    "options": [
+      "She wants to be helped by me.",
+      "I am wanted to help her.",
+      "She wants me being helped.",
+      "She wants that I should help her."
+    ],
+    "answer": "She wants to be helped by me.",
+    "explanation": "Complex infinitive transformation where 'me' is the agent of 'help'. ✅"
+  },
+  {
+    "question": "Change into Active: 'It is time for the match to be started.'",
+    "options": [
+      "It is time to start the match.",
+      "It is time the match starts.",
+      "Start the match on time.",
+      "It was time to start the match."
+    ],
+    "answer": "It is time to start the match.",
+    "explanation": "'It is time for... to be + V3' ➔ 'It is time to + V1'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'People considered him a fool.'",
+    "options": [
+      "He was considered a fool.",
+      "He was considered to be a fool.",
+      "A fool was considered of him.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Verbs of opinion can take a direct complement or 'to be' in passive. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The milk tastes sour.'",
+    "options": [
+      "The milk is sour when it is tasted.",
+      "The milk is tasted sour.",
+      "The milk was sour when tasted.",
+      "Sourness is tasted in the milk."
+    ],
+    "answer": "The milk is sour when it is tasted.",
+    "explanation": "Quasi-passive (taste). ✅"
+  },
+  {
+    "question": "Change into Active: 'By whom were you given this permission?'",
+    "options": [
+      "Who gave you this permission?",
+      "Who has given you this permission?",
+      "Who was giving you this permission?",
+      "By who did you get permission?"
+    ],
+    "answer": "Who gave you this permission?",
+    "explanation": "'were given' is passive of Simple Past 'gave'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I want to help you.'",
+    "options": [
+      "You are wanted to be helped by me.",
+      "I want you to be helped.",
+      "You want to be helped by me.",
+      "I want to be helped you."
+    ],
+    "answer": "I want you to be helped.",
+    "explanation": "Pattern: **Subject + want + Object + to be + V3**. ✅"
+  },
+  {
+    "question": "Change into Active: 'Let the child be not teased.'",
+    "options": [
+      "Don't tease the child.",
+      "Do not teased the child.",
+      "Tease not the child.",
+      "The child should not teased."
+    ],
+    "answer": "Don't tease the child.",
+    "explanation": "Negative Imperative Passive ➔ Active. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The engine needs oiling.'",
+    "options": [
+      "The engine needs to be oiled.",
+      "The engine is needing to be oiled.",
+      "Oiling is needed for the engine.",
+      "The engine needs being oiled."
+    ],
+    "answer": "The engine needs to be oiled.",
+    "explanation": "'Need + V-ing' ➔ 'Need + to be + V3'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I saw him opening the box.'",
+    "options": [
+      "He was seen opening the box.",
+      "He was seen to open the box.",
+      "He is seen opening the box.",
+      "The box was seen opening by him."
+    ],
+    "answer": "He was seen opening the box.",
+    "explanation": "Keep the participle form (opening) in passive for sensory verbs. ✅"
+  },
+  {
+    "question": "Change into Active: 'The room has to be cleaned.'",
+    "options": [
+      "Someone has to clean the room.",
+      "You have to clean the room.",
+      "One has to clean the room.",
+      "All of the above."
+    ],
+    "answer": "All of the above.",
+    "explanation": "Passive with 'has to be' ➔ Active 'has to' with an implied subject. ✅"
+  },
+  {
+    "question": "Change into Passive: 'They suggest making a new plan.'",
+    "options": [
+      "They suggest that a new plan should be made.",
+      "A new plan is suggested being made.",
+      "Making a new plan is suggested by them.",
+      "Both A and C are correct."
+    ],
+    "answer": "Both A and C are correct.",
+    "explanation": "Gerund objects can be handled with a 'that' clause or as the main subject. ✅"
+  },
+  {
+    "question": "Change into Active: 'This book is said to have been written by Valmiki.'",
+    "options": [
+      "People say that Valmiki wrote this book.",
+      "Valmiki says he wrote this book.",
+      "They say Valmiki writes this book.",
+      "Valmiki is said to write this book."
+    ],
+    "answer": "People say that Valmiki wrote this book.",
+    "explanation": "Complex passive ➔ Active clause. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The mangoes tasted delicious.'",
+    "options": [
+      "The mangoes were delicious when they were tasted.",
+      "The mangoes are delicious when tasted.",
+      "The mangoes were tasted delicious.",
+      "Deliciousness was tasted in mangoes."
+    ],
+    "answer": "The mangoes were delicious when they were tasted.",
+    "explanation": "Quasi-passive in Past Tense. ✅"
+  },
+  {
+    "question": "Change into Active: 'I was heard to say so.'",
+    "options": [
+      "Someone heard me say so.",
+      "They heard me saying so.",
+      "He hears me say so.",
+      "Someone heard me to say so."
+    ],
+    "answer": "Someone heard me say so.",
+    "explanation": "Passive 'to say' ➔ Active bare infinitive 'say'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The house is building.' (Note: Archaic continuous)",
+    "options": [
+      "The house is being built.",
+      "The house was being built.",
+      "The house is built.",
+      "They are building the house."
+    ],
+    "answer": "The house is being built.",
+    "explanation": "The active-looking 'is building' actually means 'is being built' in certain older or specific contexts. ✅"
+  },
+  {
+    "question": "Change into Active: 'It is believed that he is a millionaire.'",
+    "options": [
+      "People believe that he is a millionaire.",
+      "They believed he is a millionaire.",
+      "He believes he is a millionaire.",
+      "He is believed to be a millionaire."
+    ],
+    "answer": "People believe that he is a millionaire.",
+    "explanation": "Impersonal passive ➔ Active. ✅"
+  },
+  {
+    "question": "Change into Passive: 'He likes people praising him.'",
+    "options": [
+      "He likes being praised.",
+      "He likes to be praised.",
+      "He likes people being praised.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Passive of Gerund/Infinitive after 'like'. ✅"
+  },
+  {
+    "question": "Change into Active: 'The problem is to be solved.'",
+    "options": [
+      "We are to solve the problem.",
+      "One is to solve the problem.",
+      "Solve the problem.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Passive infinitive ➔ Active infinitive with implied subject. ✅"
+  },
+  {
+    "question": "Change into Passive: 'She felt the cold air blowing.'",
+    "options": [
+      "The cold air was felt blowing by her.",
+      "The cold air is felt blowing by her.",
+      "Blowing of cold air was felt by her.",
+      "The cold air was felt to blow."
+    ],
+    "answer": "The cold air was felt blowing by her.",
+    "explanation": "Passive of sensory verb + participle. ✅"
+  }
+]
