@@ -1,112 +1,332 @@
 [
   {
-    "question": "Change to Indirect: Ram said, 'I am busy.'",
+    "question": "He said, 'I am hungry.'",
     "options": [
-      "Ram said that he was busy.",
-      "Ram said that I am busy.",
-      "Ram says that he is busy.",
-      "Ram said he is busy."
+      "He said that he was hungry.",
+      "He said that I am hungry.",
+      "He said that he is hungry.",
+      "He told that he was hungry."
     ],
-    "answer": "Ram said that he was busy.",
-    "explanation": "Simple Present 'am' changes to Simple Past 'was' when the reporting verb 'said' is in the past. ✅"
+    "answer": "He said that he was hungry.",
+    "explanation": "In indirect speech, the present simple 'am' changes to the past simple 'was' when the reporting verb is in the past. ✅"
   },
   {
-    "question": "Change to Indirect: She says, 'I am eating an apple.'",
+    "question": "She said, 'I work in a bank.'",
     "options": [
-      "She says that she was eating an apple.",
-      "She says that she is eating an apple.",
-      "She said that she is eating an apple.",
-      "She says that I am eating an apple."
+      "She said that she works in a bank.",
+      "She said that she worked in a bank.",
+      "She said that I worked in a bank.",
+      "She told she worked in a bank."
     ],
-    "answer": "She says that she is eating an apple.",
-    "explanation": "If the reporting verb is in the Present Tense (says), the tense of the reported speech DOES NOT change. ✅"
+    "answer": "She said that she worked in a bank.",
+    "explanation": "Simple Present (work) changes to Simple Past (worked). ✅"
   },
   {
-    "question": "Change to Indirect: He said to me, 'I will meet you tomorrow.'",
+    "question": "They said, 'We are playing cricket.'",
     "options": [
-      "He told me that he would meet me tomorrow.",
-      "He told me that he would meet me the next day.",
-      "He said to me that he will meet me the next day.",
-      "He told me that I would meet him tomorrow."
+      "They said that they were playing cricket.",
+      "They said that we were playing cricket.",
+      "They said that they are playing cricket.",
+      "They told that they played cricket."
     ],
-    "answer": "He told me that he would meet me the next day.",
-    "explanation": "'Said to' becomes 'told', 'will' becomes 'would', and 'tomorrow' changes to 'the next day'. ✅"
+    "answer": "They said that they were playing cricket.",
+    "explanation": "Present Continuous (are playing) changes to Past Continuous (were playing). ✅"
   },
   {
-    "question": "Change to Indirect: The teacher said, 'The sun rises in the east.'",
+    "question": "The teacher said, 'The sun rises in the east.'",
     "options": [
       "The teacher said that the sun rose in the east.",
       "The teacher said that the sun rises in the east.",
       "The teacher told that the sun rises in the east.",
-      "The teacher said the sun rises in the east."
+      "The teacher says that the sun rises in the east."
     ],
     "answer": "The teacher said that the sun rises in the east.",
-    "explanation": "Universal truths do not change their tense in indirect speech. ✅"
+    "explanation": "Universal truths or habitual facts do not change their tense in indirect speech. ✅"
   },
   {
-    "question": "Change to Indirect: They said, 'We have won the match.'",
+    "question": "He said to me, 'You are late.'",
     "options": [
-      "They said that we have won the match.",
-      "They said that they had won the match.",
-      "They told that they had won the match.",
-      "They said that they won the match."
+      "He said to me that I was late.",
+      "He told me that I was late.",
+      "He told me that you were late.",
+      "He said that I am late."
     ],
-    "answer": "They said that they had won the match.",
-    "explanation": "Present Perfect 'have won' changes to Past Perfect 'had won'. 'We' changes to 'they'. ✅"
+    "answer": "He told me that I was late.",
+    "explanation": "'Said to' changes to 'told' when followed by an object. 'You' changes to 'I' according to the object 'me'. ✅"
   },
   {
-    "question": "Change to Indirect: He said, 'I can do this work.'",
+    "question": "Ram said, 'I have completed my work.'",
     "options": [
-      "He said that he could do that work.",
-      "He said that he can do that work.",
-      "He said that he could do this work.",
-      "He told that he can do this work."
+      "Ram said that he has completed his work.",
+      "Ram said that he had completed his work.",
+      "Ram said that I had completed my work.",
+      "Ram told that he had completed his work."
     ],
-    "answer": "He said that he could do that work.",
-    "explanation": "'Can' changes to 'could' and 'this' changes to 'that'. ✅"
+    "answer": "Ram said that he had completed his work.",
+    "explanation": "Present Perfect (have completed) changes to Past Perfect (had completed). ✅"
   },
   {
-    "question": "Change to Indirect: Sita said to Geeta, 'You are my best friend.'",
+    "question": "She said, 'I can speak English.'",
     "options": [
-      "Sita told Geeta that she was my best friend.",
-      "Sita told Geeta that you were her best friend.",
-      "Sita told Geeta that she was her best friend.",
-      "Sita said to Geeta that she was her best friend."
+      "She said that she could speak English.",
+      "She said that she can speak English.",
+      "She told that she can speak English.",
+      "She said that I could speak English."
     ],
-    "answer": "Sita told Geeta that she was her best friend.",
-    "explanation": "'You' changes to Geeta (she) and 'my' changes to Sita (her). ✅"
+    "answer": "She said that she could speak English.",
+    "explanation": "'Can' changes to 'could' in indirect speech. ✅"
   },
   {
-    "question": "Change to Indirect: The boys said, 'We were playing cricket.'",
+    "question": "He said, 'I will go to Delhi tomorrow.'",
     "options": [
-      "The boys said that they were playing cricket.",
-      "The boys said that they had been playing cricket.",
-      "The boys said that we had been playing cricket.",
-      "The boys said that they had played cricket."
+      "He said that he will go to Delhi the next day.",
+      "He said that he would go to Delhi tomorrow.",
+      "He said that he would go to Delhi the next day.",
+      "He told that he would go to Delhi the next day."
     ],
-    "answer": "The boys said that they had been playing cricket.",
-    "explanation": "Past Continuous 'were playing' changes to Past Perfect Continuous 'had been playing'. ✅"
+    "answer": "He said that he would go to Delhi the next day.",
+    "explanation": "'Will' changes to 'would' and 'tomorrow' changes to 'the next day'. ✅"
   },
   {
-    "question": "Change to Indirect: He said, 'I live here.'",
-    "options": [
-      "He said that he lived there.",
-      "He said that he lives here.",
-      "He said that he lived here.",
-      "He said that he live there."
-    ],
-    "answer": "He said that he lived there.",
-    "explanation": "Simple Present ➔ Simple Past, and 'here' ➔ 'there'. ✅"
-  },
-  {
-    "question": "Change to Indirect: My father said, 'Honesty is the best policy.'",
+    "question": "My father said, 'Honesty is the best policy.'",
     "options": [
       "My father said that honesty was the best policy.",
       "My father said that honesty is the best policy.",
       "My father told that honesty is the best policy.",
-      "My father says that honesty is the best policy."
+      "My father said that honesty has been the best policy."
     ],
     "answer": "My father said that honesty is the best policy.",
-    "explanation": "Proverbs and universal truths remain in the same tense. ✅"
+    "explanation": "Proverbs and general truths remain in the present tense. ✅"
+  },
+  {
+    "question": "They said, 'We have been living here for ten years.'",
+    "options": [
+      "They said that they had been living there for ten years.",
+      "They said that they have been living there for ten years.",
+      "They said that they were living there for ten years.",
+      "They told that they had been living here for ten years."
+    ],
+    "answer": "They said that they had been living there for ten years.",
+    "explanation": "Present Perfect Continuous changes to Past Perfect Continuous, and 'here' changes to 'there'. ✅"
+  },
+  {
+    "question": "She said to him, 'I am your friend.'",
+    "options": [
+      "She told him that she was his friend.",
+      "She said to him that she was my friend.",
+      "She told him that I was his friend.",
+      "She told him that she is his friend."
+    ],
+    "answer": "She told him that she was his friend.",
+    "explanation": "'Am' becomes 'was', and pronouns change to match the speaker and listener. ✅"
+  },
+  {
+    "question": "He said, 'I went to the market yesterday.'",
+    "options": [
+      "He said that he had gone to the market yesterday.",
+      "He said that he went to the market the previous day.",
+      "He said that he had gone to the market the previous day.",
+      "He told that he went to the market the day before."
+    ],
+    "answer": "He said that he had gone to the market the previous day.",
+    "explanation": "Simple Past (went) changes to Past Perfect (had gone), and 'yesterday' becomes 'the previous day'. ✅"
+  },
+  {
+    "question": "The boy said, 'I am doing my homework.'",
+    "options": [
+      "The boy said that he is doing his homework.",
+      "The boy said that he was doing his homework.",
+      "The boy told that he was doing my homework.",
+      "The boy said that he had been doing his homework."
+    ],
+    "answer": "The boy said that he was doing his homework.",
+    "explanation": "Present Continuous becomes Past Continuous. ✅"
+  },
+  {
+    "question": "Ravi said, 'I may buy a car.'",
+    "options": [
+      "Ravi said that he may buy a car.",
+      "Ravi said that he might buy a car.",
+      "Ravi told that he might buy a car.",
+      "Ravi said that I might buy a car."
+    ],
+    "answer": "Ravi said that he might buy a car.",
+    "explanation": "'May' changes to 'might'. ✅"
+  },
+  {
+    "question": "She said, 'The earth is round.'",
+    "options": [
+      "She said that the earth was round.",
+      "She said that the earth is round.",
+      "She told that the earth is round.",
+      "She said the earth being round."
+    ],
+    "answer": "She said that the earth is round.",
+    "explanation": "Geographical facts remain unchanged in tense. ✅"
+  },
+  {
+    "question": "They said, 'We shall win the match.'",
+    "options": [
+      "They said that they shall win the match.",
+      "They said that they should win the match.",
+      "They said that they would win the match.",
+      "They told that they will win the match."
+    ],
+    "answer": "They said that they would win the match.",
+    "explanation": "'Shall' in direct speech generally changes to 'would' in indirect speech when it denotes future intent for 'They'. ✅"
+  },
+  {
+    "question": "He said, 'I don't like coffee.'",
+    "options": [
+      "He said that he doesn't like coffee.",
+      "He said that he did not like coffee.",
+      "He told that he did not like coffee.",
+      "He said that I did not like coffee."
+    ],
+    "answer": "He said that he did not like coffee.",
+    "explanation": "Do not/Does not changes to Did not. ✅"
+  },
+  {
+    "question": "Anil said to me, 'I am busy now.'",
+    "options": [
+      "Anil told me that he was busy now.",
+      "Anil told me that he was busy then.",
+      "Anil said to me that he was busy then.",
+      "Anil told me that I was busy then."
+    ],
+    "answer": "Anil told me that he was busy then.",
+    "explanation": "'Now' changes to 'then'. ✅"
+  },
+  {
+    "question": "She said, 'I was writing a letter.'",
+    "options": [
+      "She said that she had been writing a letter.",
+      "She said that she was writing a letter.",
+      "She told that she has been writing a letter.",
+      "She said that she wrote a letter."
+    ],
+    "answer": "She said that she had been writing a letter.",
+    "explanation": "Past Continuous (was writing) changes to Past Perfect Continuous (had been writing). ✅"
+  },
+  {
+    "question": "The servant said, 'I have cleaned the room.'",
+    "options": [
+      "The servant said that he cleaned the room.",
+      "The servant said that he has cleaned the room.",
+      "The servant said that he had cleaned the room.",
+      "The servant told that he had cleaned the room."
+    ],
+    "answer": "The servant said that he had cleaned the room.",
+    "explanation": "Present Perfect ➔ Past Perfect. ✅"
+  },
+  {
+    "question": "He said, 'Honest people are always happy.'",
+    "options": [
+      "He said that honest people were always happy.",
+      "He said that honest people are always happy.",
+      "He told that honest people are always happy.",
+      "He says that honest people are always happy."
+    ],
+    "answer": "He said that honest people are always happy.",
+    "explanation": "General statements about character often remain in present tense. ✅"
+  },
+  {
+    "question": "She said, 'I will help you.'",
+    "options": [
+      "She said that she will help me.",
+      "She said that she would help me.",
+      "She said that I would help you.",
+      "She told me she would help me."
+    ],
+    "answer": "She said that she would help me.",
+    "explanation": "Will ➔ Would. ✅"
+  },
+  {
+    "question": "The boy said, 'I like to play chess.'",
+    "options": [
+      "The boy said that he likes to play chess.",
+      "The boy said that he liked to play chess.",
+      "The boy told that he liked to play chess.",
+      "The boy said that I liked to play chess."
+    ],
+    "answer": "The boy said that he liked to play chess.",
+    "explanation": "Simple Present ➔ Simple Past. ✅"
+  },
+  {
+    "question": "They said, 'We are going on a picnic.'",
+    "options": [
+      "They said that they were going on a picnic.",
+      "They said that we were going on a picnic.",
+      "They said that they are going on a picnic.",
+      "They told that they had gone on a picnic."
+    ],
+    "answer": "They said that they were going on a picnic.",
+    "explanation": "Are going ➔ Were going. ✅"
+  },
+  {
+    "question": "He said to his sister, 'I am waiting for you.'",
+    "options": [
+      "He told his sister that he was waiting for her.",
+      "He told his sister that I was waiting for you.",
+      "He said to his sister that he is waiting for her.",
+      "He told his sister that he had been waiting for her."
+    ],
+    "answer": "He told his sister that he was waiting for her.",
+    "explanation": "Present Continuous ➔ Past Continuous + pronoun shift. ✅"
+  },
+  {
+    "question": "The teacher said, 'Two and two make four.'",
+    "options": [
+      "The teacher said that two and two made four.",
+      "The teacher said that two and two make four.",
+      "The teacher told that two and two make four.",
+      "The teacher said two and two making four."
+    ],
+    "answer": "The teacher said that two and two make four.",
+    "explanation": "Mathematical facts do not change tense. ✅"
+  },
+  {
+    "question": "She said, 'I have a headache.'",
+    "options": [
+      "She said that she had a headache.",
+      "She said that she has a headache.",
+      "She told that she had a headache.",
+      "She said that I have a headache."
+    ],
+    "answer": "She said that she had a headache.",
+    "explanation": "Have (Present) ➔ Had (Past). ✅"
+  },
+  {
+    "question": "The gardener said, 'The flowers are blooming.'",
+    "options": [
+      "The gardener said that the flowers were blooming.",
+      "The gardener said that the flowers are blooming.",
+      "The gardener told that the flowers bloomed.",
+      "The gardener said flowers blooming."
+    ],
+    "answer": "The gardener said that the flowers were blooming.",
+    "explanation": "Present Continuous ➔ Past Continuous. ✅"
+  },
+  {
+    "question": "He said, 'I can do this work.'",
+    "options": [
+      "He said that he can do that work.",
+      "He said that he could do this work.",
+      "He said that he could do that work.",
+      "He told that he could do that work."
+    ],
+    "answer": "He said that he could do that work.",
+    "explanation": "Can ➔ Could, and 'this' ➔ 'that'. ✅"
+  },
+  {
+    "question": "She said, 'I have seen this movie before.'",
+    "options": [
+      "She said that she has seen this movie before.",
+      "She said that she had seen that movie before.",
+      "She said that she saw that movie before.",
+      "She told that she had seen this movie before."
+    ],
+    "answer": "She said that she had seen that movie before.",
+    "explanation": "Present Perfect ➔ Past Perfect, and 'this' ➔ 'that'. ✅"
   }
 ]
