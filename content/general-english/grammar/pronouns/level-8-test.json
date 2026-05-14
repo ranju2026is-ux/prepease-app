@@ -1,0 +1,167 @@
+[
+  {
+    "question": "Fill in the blank: Everyone was present except _____.",
+    "options": [
+      "he",
+      "him",
+      "himself",
+      "his"
+    ],
+    "answer": "him",
+    "explanation": "'Except' ಮತ್ತು 'But' ಪದಗಳು Preposition ಆಗಿ ಬಳಕೆಯಾದಾಗ ಅವುಗಳ ನಂತರ ಬರುವ ಸರ್ವನಾಮವು Objective case (him, me, her) ನಲ್ಲಿರಬೇಕು. ✅"
+  },
+  {
+    "question": "Choose the correct pronoun: Give the prize to _____ deserves it.",
+    "options": [
+      "whoever",
+      "whomever",
+      "who",
+      "whom"
+    ],
+    "answer": "whoever",
+    "explanation": "ಇಲ್ಲಿ 'whoever' ಎಂಬುದು 'deserves' ಎಂಬ ಕ್ರಿಯಾಪದದ ಕರ್ತೃವಾಗಿ (Subject) ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತಿದೆ, ಆದ್ದರಿಂದ Subjective case ಬಳಕೆಯಾಗಿದೆ. ✅"
+  },
+  {
+    "question": "Identify the correct form: _____ do you think will win the election?",
+    "options": [
+      "Who",
+      "Whom",
+      "Whose",
+      "Which"
+    ],
+    "answer": "Who",
+    "explanation": "'Who' ಎಂಬುದು 'will win' ನ ಕರ್ತೃವಾಗಿದೆ. 'do you think' ಎಂಬುದು ಇಲ್ಲಿ ಪೂರಕ ನುಡಿಗಟ್ಟು ಮಾತ್ರ. ✅"
+  },
+  {
+    "question": "Fill in the blank: It is easy to criticize others, but _____ is difficult to be perfect.",
+    "options": [
+      "this",
+      "that",
+      "it",
+      "which"
+    ],
+    "answer": "it",
+    "explanation": "ವಾಕ್ಯದ ಆರಂಭದಲ್ಲಿ ಅನಿರ್ದಿಷ್ಟ ವಿಷಯವನ್ನು ಸೂಚಿಸಲು 'Impersonal It' ಅಥವಾ 'Anticipatory It' ಬಳಸಲಾಗುತ್ತದೆ. ✅"
+  },
+  {
+    "question": "Choose the correct relative pronoun: He is the only man _____ can solve this problem.",
+    "options": [
+      "who",
+      "that",
+      "which",
+      "whom"
+    ],
+    "answer": "that",
+    "explanation": "'The only' ಪದದ ನಂತರ ಯಾವಾಗಲೂ 'that' ಬಳಸಬೇಕು, 'who' ಅಲ್ಲ. ✅"
+  },
+  {
+    "question": "Identify the error: There is no one but I who can do this.",
+    "options": [
+      "There",
+      "but",
+      "I",
+      "who"
+    ],
+    "answer": "I",
+    "explanation": "'But' ನಂತರ Objective case ಬರಬೇಕು. ಆದ್ದರಿಂದ 'but me' ಎನ್ನುವುದು ಸರಿಯಾದ ರೂಪ. ✅"
+  },
+  {
+    "question": "Fill in the blank: The two brothers are so alike that I cannot distinguish one from _____.",
+    "options": [
+      "another",
+      "other",
+      "the other",
+      "each other"
+    ],
+    "answer": "the other",
+    "explanation": "ಕೇವಲ ಇಬ್ಬರು ವ್ಯಕ್ತಿಗಳಿರುವಾಗ ಒಬ್ಬರನ್ನು ಇನ್ನೊಬ್ಬರಿಂದ ಬೇರ್ಪಡಿಸಲು 'the other' ಬಳಸಲಾಗುತ್ತದೆ. ✅"
+  },
+  {
+    "question": "Choose the correct form: Invite _____ you like to the party.",
+    "options": [
+      "whoever",
+      "whomever",
+      "who",
+      "whom"
+    ],
+    "answer": "whomever",
+    "explanation": "ಇಲ್ಲಿ ಸರ್ವನಾಮವು 'you like' ನ ಕರ್ಮವಾಗಿ (Object) ಬಳಕೆಯಾಗುತ್ತಿದೆ, ಆದ್ದರಿಂದ 'whomever' ಸರಿಯಾಗಿದೆ. ✅"
+  },
+  {
+    "question": "Identify the correct pronoun: We scored as many runs as _____.",
+    "options": [
+      "they",
+      "them",
+      "their",
+      "themselves"
+    ],
+    "answer": "they",
+    "explanation": "ಹೋಲಿಕೆ ಮಾಡುವಾಗ (As...as), Subjective case 'they' ಬಳಸುವುದು ಔಪಚಾರಿಕವಾಗಿ ಸರಿಯಾದ ಕ್ರಮ. ✅"
+  },
+  {
+    "question": "Fill in the blank: Neither of the two servants has done _____ work.",
+    "options": [
+      "their",
+      "his",
+      "its",
+      "them"
+    ],
+    "answer": "his",
+    "explanation": "'Neither' ಎಂಬುದು Singular ಆಗಿರುವುದರಿಂದ 'his' ಎಂಬ ಏಕವಚನ ಸರ್ವನಾಮವೇ ಬರಬೇಕು. ✅"
+  },
+  {
+    "question": "Choose the correct relative pronoun: This is the same dog _____ bit me yesterday.",
+    "options": [
+      "which",
+      "that",
+      "who",
+      "whose"
+    ],
+    "answer": "that",
+    "explanation": "'The same' ಪದದ ನಂತರ ಪ್ರಾಣಿ ಅಥವಾ ವಸ್ತುಗಳಿಗೆ 'that' ಬಳಸಲಾಗುತ್ತದೆ. ✅"
+  },
+  {
+    "question": "Identify the error: The boy who I spoke to is my cousin.",
+    "options": [
+      "boy",
+      "who",
+      "spoke",
+      "cousin"
+    ],
+    "answer": "who",
+    "explanation": "ಇಲ್ಲಿ ಹುಡುಗನು ಕ್ರಿಯೆಯ ಫಲಾನುಭವಿಯಾಗಿರುವುದರಿಂದ (Object), 'whom' ಬಳಸಬೇಕು. (The boy whom I spoke to). ✅"
+  },
+  {
+    "question": "Fill in the blank: Such a man _____ he should be honored.",
+    "options": [
+      "that",
+      "who",
+      "as",
+      "which"
+    ],
+    "answer": "as",
+    "explanation": "'Such' ನಂತರ 'as' ಸಂಬಂಧವಾಚಕ ಸರ್ವನಾಮವಾಗಿ ಬರುತ್ತದೆ. ✅"
+  },
+  {
+    "question": "Choose the correct pronoun: One must be mindful of _____ reputation.",
+    "options": [
+      "his",
+      "her",
+      "one's",
+      "their"
+    ],
+    "answer": "one's",
+    "explanation": "'One' ಕರ್ತೃವಾದಾಗ ಅದರ ಮಾಲೀಕತ್ವ ರೂಪ 'one's' ಆಗಿರಬೇಕು. ✅"
+  },
+  {
+    "question": "Identify the correct form: It is _____ who is responsible for this loss.",
+    "options": [
+      "him",
+      "he",
+      "his",
+      "himself"
+    ],
+    "answer": "he",
+    "explanation": "'It is/was' ನಂತರ ಕರ್ತೃ ರೂಪದ ಸರ್ವನಾಮ (He) ಬರಬೇಕು. ✅"
+  }
+]
