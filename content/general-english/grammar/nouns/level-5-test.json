@@ -1,0 +1,217 @@
+[
+  {
+    "question": "Identify the error part: The (A) / gentry of the (B) / town was invited (C) / to the function (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "'Gentry' is a collective noun that always takes a plural verb. It should be 'were invited'. ✅"
+  },
+  {
+    "question": "Choose the correct sentence regarding 'Double Possessives':",
+    "options": [
+      "A friend of my brother's has come.",
+      "A friend of my brother has come.",
+      "The friend of my brother's has come.",
+      "My brother's friend's has come."
+    ],
+    "answer": "A friend of my brother's has come.",
+    "explanation": "This is a double possessive. When we mean 'one of many friends', we use both 'of' and the apostrophe. ✅"
+  },
+  {
+    "question": "Find the error: The (A) / statistics (B) / of the (C) / case is very complicated (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "When 'Statistics' refers to data or figures (not the subject), it takes a plural verb. It should be 'are'. ✅"
+  },
+  {
+    "question": "Identify the correct plural form of 'Commander-in-chief':",
+    "options": ["Commander-in-chiefs", "Commanders-in-chief", "Commanders-in-chiefs", "Commander-ins-chief"],
+    "answer": "Commanders-in-chief",
+    "explanation": "In compound nouns, the 's' is added to the principal word (Commander). ✅"
+  },
+  {
+    "question": "Which of the following is correct for 'uncountable nouns'?",
+    "options": [
+      "He gave me an advice.",
+      "He gave me some advice.",
+      "He gave me a piece of advice.",
+      "Both B and C are correct."
+    ],
+    "answer": "Both B and C are correct.",
+    "explanation": "'Advice' is uncountable. You cannot use 'an', but you can use 'some' or 'a piece of'. ✅"
+  },
+  {
+    "question": "Fill in the blank: The _____ has been served on him.",
+    "options": ["summons", "summonses", "summon", "summoning"],
+    "answer": "summons",
+    "explanation": "'Summons' is singular. 'Summonses' is the plural. Since the sentence uses 'has', the singular is required. ✅"
+  },
+  {
+    "question": "Find the error: She (A) / always (B) / keeps (C) / her cash and valuables in the safe (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "No error",
+    "explanation": "'Valuables' is a noun that always takes a plural form. The sentence is correct. ✅"
+  },
+  {
+    "question": "What is the plural of 'Criterion'?",
+    "options": ["Criterions", "Criteria", "Criterias", "Criterion's"],
+    "answer": "Criteria",
+    "explanation": "The Greek plural for 'Criterion' is 'Criteria'. ✅"
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "I saw a flock of ships in the harbor.",
+      "I saw a fleet of ships in the harbor.",
+      "I saw a pack of ships in the harbor.",
+      "I saw a shoal of ships in the harbor."
+    ],
+    "answer": "I saw a fleet of ships in the harbor.",
+    "explanation": "The collective noun for ships or cars is 'fleet'. ✅"
+  },
+  {
+    "question": "Identify the error: This (A) / is (B) / my (C) / friend's, Ram's, car (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "Avoid double apostrophes. It should be: 'This is the car of my friend, Ram.' ✅"
+  },
+  {
+    "question": "What is the plural of 'Medium' (when referring to communication)?",
+    "options": ["Mediums", "Media", "Medias", "Mediumes"],
+    "answer": "Media",
+    "explanation": "In communication and science, 'Media' is the plural of 'Medium'. ✅"
+  },
+  {
+    "question": "Fill in the blank: The _____ of the case were discussed.",
+    "options": ["detail", "details", "detailing", "detailed"],
+    "answer": "details",
+    "explanation": "As a noun meaning specific points, 'details' is used in the plural with a plural verb 'were'. ✅"
+  },
+  {
+    "question": "Find the error: The (A) / farmer (B) / bought (C) / two scores of eggs (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "When preceded by a number, 'score' (meaning 20) remains singular: 'two score eggs'. ✅"
+  },
+  {
+    "question": "Identify the correct form: 'The prisoner was released on _____.'",
+    "options": ["bail", "bails", "bailed", "bailing"],
+    "answer": "bail",
+    "explanation": "'Bail' is an uncountable noun in this context. ✅"
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "Ten thousand of rupees were spent.",
+      "Ten thousand rupees were spent.",
+      "Ten thousands rupees was spent.",
+      "Ten thousand rupees was spent."
+    ],
+    "answer": "Ten thousand rupees was spent.",
+    "explanation": "A specific amount of money used as a single unit takes a singular verb 'was'. ✅"
+  },
+  {
+    "question": "Find the error: He (A) / does not (B) / like (C) / these kind of people (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'These' is plural, so it must be 'these kinds of people'. ✅"
+  },
+  {
+    "question": "What is the plural of 'Basis'?",
+    "options": ["Basises", "Basas", "Bases", "Basia"],
+    "answer": "Bases",
+    "explanation": "Nouns ending in '-is' change to '-es' in plural. ✅"
+  },
+  {
+    "question": "Identify the error: He (A) / uses (B) / a (C) / spectacle to read (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'Spectacle' means a sight/scene. For eyeglasses, use 'spectacles' or 'a pair of spectacles'. ✅"
+  },
+  {
+    "question": "Choose the correct possessive case:",
+    "options": [
+      "The table's surface was dusty.",
+      "The surface of the table was dusty.",
+      "A table surface was dusty.",
+      "The tables' surface was dusty."
+    ],
+    "answer": "The surface of the table was dusty.",
+    "explanation": "We do not use apostrophe ('s) for non-living objects. ✅"
+  },
+  {
+    "question": "Fill in the blank: A _____ of arrows was ready.",
+    "options": ["quiver", "group", "set", "pack"],
+    "answer": "quiver",
+    "explanation": "The specific collective noun for arrows is a 'quiver'. ✅"
+  },
+  {
+    "question": "Find the error: She (A) / took (B) / two (C) / spoonful of medicine (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "The plural is 'spoonfuls', not 'spoonsful' or 'spoonful'. ✅"
+  },
+  {
+    "question": "Which of these is correct?",
+    "options": [
+      "Kalidas is Shakespeare of India.",
+      "Kalidas is the Shakespeare of India.",
+      "Kalidas is a Shakespeare of India.",
+      "Kalidas is an Shakespeare of India."
+    ],
+    "answer": "Kalidas is the Shakespeare of India.",
+    "explanation": "When a proper noun is used for comparison, it takes the definite article 'the'. ✅"
+  },
+  {
+    "question": "Identify the error: The (A) / news (B) / are (C) / very disturbing (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "'News' is always singular. It should be 'is'. ✅"
+  },
+  {
+    "question": "What is the plural of 'Analysis'?",
+    "options": ["Analysises", "Analysia", "Analyses", "Analysis"],
+    "answer": "Analyses",
+    "explanation": "The '-is' becomes '-es' (Analyses). ✅"
+  },
+  {
+    "question": "Fill in the blank: The hunter shot three _____.",
+    "options": ["deers", "deer", "deer's", "deeres"],
+    "answer": "deer",
+    "explanation": "'Deer' has the same form for both singular and plural. ✅"
+  },
+  {
+    "question": "Find the error: One (A) / of (B) / my (C) / friend is coming (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'One of' is always followed by a plural noun: 'friends'. ✅"
+  },
+  {
+    "question": "Choose the correct collective noun for 'crows':",
+    "options": ["A flock of crows", "A murder of crows", "A pack of crows", "A swarm of crows"],
+    "answer": "A murder of crows",
+    "explanation": "The unique collective noun for crows is a 'murder'. ✅"
+  },
+  {
+    "question": "Identify the error: He (A) / gave (B) / me (C) / two informations (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'Information' is uncountable. Use 'two pieces of information'. ✅"
+  },
+  {
+    "question": "What is the plural of 'Hypothesis'?",
+    "options": ["Hypothesises", "Hypothesia", "Hypotheses", "Hypothesis"],
+    "answer": "Hypotheses",
+    "explanation": "Like 'basis', it changes '-is' to '-es'. ✅"
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "The poor is always with us.",
+      "The poors are always with us.",
+      "The poor are always with us.",
+      "A poor are always with us."
+    ],
+    "answer": "The poor are always with us.",
+    "explanation": "When 'the' is used with an adjective (poor), it acts as a plural noun for the whole group. ✅"
+  }
+]
