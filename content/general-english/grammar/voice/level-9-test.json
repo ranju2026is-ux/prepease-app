@@ -1,0 +1,332 @@
+[
+  {
+    "question": "Change into Passive: 'He killed himself.'",
+    "options": [
+      "He was killed by himself.",
+      "He was killed.",
+      "Himself was killed by him.",
+      "He killed by himself."
+    ],
+    "answer": "He was killed by himself.",
+    "explanation": "When the subject and object are the same (Reflexive), the passive maintains the subject and uses **was/were + V3 + by + reflexive pronoun**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The news surprised me.'",
+    "options": [
+      "I was surprised by the news.",
+      "I was surprised at the news.",
+      "I was surprised with the news.",
+      "I am surprised at the news."
+    ],
+    "answer": "I was surprised at the news.",
+    "explanation": "The verb 'surprised' traditionally takes the preposition **'at'** instead of 'by' in the passive voice. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The jug contains milk.'",
+    "options": [
+      "Milk is contained by the jug.",
+      "Milk is contained in the jug.",
+      "Milk was contained in the jug.",
+      "Milk is containing in the jug."
+    ],
+    "answer": "Milk is contained in the jug.",
+    "explanation": "The verb 'contain' takes the preposition **'in'** in the passive form. ✅"
+  },
+  {
+    "question": "Change into Active: 'It is time for the accounts to be settled.'",
+    "options": [
+      "It is time to settle the accounts.",
+      "Settle the accounts on time.",
+      "It was time to settle the accounts.",
+      "The accounts are to be settled."
+    ],
+    "answer": "It is time to settle the accounts.",
+    "explanation": "Reverse transformation of the 'It is time for... to be + V3' structure. ✅"
+  },
+  {
+    "question": "Change into Passive: 'This box smells of onions.'",
+    "options": [
+      "Onions are smelt in this box.",
+      "This box is smelt of onions.",
+      "It is smelt that onions are in the box.",
+      "No passive form exists."
+    ],
+    "answer": "No passive form exists.",
+    "explanation": "Intransitive verbs or verbs of state without a direct object (like 'smell of') cannot be changed into passive voice. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Your behavior displeased me.'",
+    "options": [
+      "I was displeased by your behavior.",
+      "I was displeased with your behavior.",
+      "I was displeased at your behavior.",
+      "I am displeased with your behavior."
+    ],
+    "answer": "I was displeased with your behavior.",
+    "explanation": "'Displeased' usually takes the preposition **'with'** when referring to a person's behavior or conduct. ✅"
+  },
+  {
+    "question": "Change into Active: 'Let the flag be hoisted.'",
+    "options": [
+      "Hoist the flag.",
+      "Hoisting the flag.",
+      "Someone hoisted the flag.",
+      "The flag should be hoisted."
+    ],
+    "answer": "Hoist the flag.",
+    "explanation": "Standard imperative passive to active. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The smoke filled the room.'",
+    "options": [
+      "The room was filled by the smoke.",
+      "The room was filled with the smoke.",
+      "The room is filled with the smoke.",
+      "The room was fill with smoke."
+    ],
+    "answer": "The room was filled with the smoke.",
+    "explanation": "The verb 'filled' takes the preposition **'with'** in passive voice. ✅"
+  },
+  {
+    "question": "Change into Passive: 'She has to help him.'",
+    "options": [
+      "He has to be helped by her.",
+      "He had to be helped by her.",
+      "He is to be helped by her.",
+      "He have to be helped by her."
+    ],
+    "answer": "He has to be helped by her.",
+    "explanation": "Infinitive passive: **'has to + be + V3'**. ✅"
+  },
+  {
+    "question": "Change into Active: 'I was annoyed at his laziness.'",
+    "options": [
+      "His laziness annoyed me.",
+      "His laziness annoys me.",
+      "He annoyed me with laziness.",
+      "I annoyed at his laziness."
+    ],
+    "answer": "His laziness annoyed me.",
+    "explanation": "'was annoyed' (Simple Past Passive) ➔ 'annoyed' (Simple Past Active). ✅"
+  },
+  {
+    "question": "Change into Passive: 'Fire engulfed the building.'",
+    "options": [
+      "The building was engulfed by fire.",
+      "The building was engulfed in fire.",
+      "The building is engulfed in fire.",
+      "Fire was engulfed in the building."
+    ],
+    "answer": "The building was engulfed in fire.",
+    "explanation": "The verb 'engulfed' takes the preposition **'in'**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'People know that he is a liar.'",
+    "options": [
+      "It is known that he is a liar.",
+      "He is known to be a liar.",
+      "That he is a liar is known by people.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Clauses with 'know' have two standard passive forms. ✅"
+  },
+  {
+    "question": "Change into Active: 'The light has been switched off.'",
+    "options": [
+      "Switch off the light.",
+      "Someone has switched off the light.",
+      "Someone switched off the light.",
+      "They have being switched off the light."
+    ],
+    "answer": "Someone has switched off the light.",
+    "explanation": "'has been + V3' ➔ 'has + V3'. Since the subject is unknown, use 'Someone'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I know your father.'",
+    "options": [
+      "Your father is known by me.",
+      "Your father is known to me.",
+      "Your father was known to me.",
+      "Your father is known with me."
+    ],
+    "answer": "Your father is known to me.",
+    "explanation": "'Know' always takes **'to'** in the passive form. ✅"
+  },
+  {
+    "question": "Change into Passive: 'One should keep one's promises.'",
+    "options": [
+      "Promises should be kept.",
+      "Promises should be keeped.",
+      "One's promises should be keeped.",
+      "Promises should be kept by one."
+    ],
+    "answer": "Promises should be kept.",
+    "explanation": "Omit 'by one' and 'one's' for universal advice. ✅"
+  },
+  {
+    "question": "Change into Active: 'Are you being disturbed by the noise?'",
+    "options": [
+      "Is the noise disturbing you?",
+      "Does the noise disturb you?",
+      "Was the noise disturbing you?",
+      "Is the noise disturbed you?"
+    ],
+    "answer": "Is the noise disturbing you?",
+    "explanation": "'is/are being + V3' ➔ 'is/am/are + V-ing'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The results interested the teachers.'",
+    "options": [
+      "The teachers were interested by the results.",
+      "The teachers were interested in the results.",
+      "The teachers was interested in the results.",
+      "The teachers are interested in the results."
+    ],
+    "answer": "The teachers were interested in the results.",
+    "explanation": "'Interested' takes the preposition **'in'**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'We saw them going out.'",
+    "options": [
+      "They were seen going out.",
+      "They was seen going out.",
+      "They were seen to go out.",
+      "Going out was seen by us."
+    ],
+    "answer": "They were seen going out.",
+    "explanation": "Sensory verb + participle remains participle in passive. ✅"
+  },
+  {
+    "question": "Change into Active: 'I was shocked at her death.'",
+    "options": [
+      "Her death shocked me.",
+      "Her death shocks me.",
+      "I shocked at her death.",
+      "Someone shocked me at her death."
+    ],
+    "answer": "Her death shocked me.",
+    "explanation": "'was shocked' ➔ 'shocked' (Simple Past). ✅"
+  },
+  {
+    "question": "Change into Passive: 'He made me wait.'",
+    "options": [
+      "I was made wait by him.",
+      "I was made to wait by him.",
+      "I am made to wait by him.",
+      "He was made to wait by me."
+    ],
+    "answer": "I was made to wait by him.",
+    "explanation": "Active 'make' (bare infinitive) ➔ Passive 'made to' (full infinitive). ✅"
+  },
+  {
+    "question": "Change into Active: 'He was seen to enter the room.'",
+    "options": [
+      "Someone saw him enter the room.",
+      "Someone seen him entering the room.",
+      "He saw someone enter the room.",
+      "They saw him to enter the room."
+    ],
+    "answer": "Someone saw him enter the room.",
+    "explanation": "Passive 'to enter' ➔ Active bare infinitive 'enter'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'He taught her a lesson.'",
+    "options": [
+      "A lesson was taught to her by him.",
+      "She was taught a lesson by him.",
+      "A lesson is taught to her by him.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Double object transformation. ✅"
+  },
+  {
+    "question": "Change into Active: 'The match will be won by our team.'",
+    "options": [
+      "Our team will win the match.",
+      "Our team would win the match.",
+      "Our team wins the match.",
+      "Our team will be winning the match."
+    ],
+    "answer": "Our team will win the match.",
+    "explanation": "'will be + V3' ➔ 'will + V1'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The jar was full of honey.'",
+    "options": [
+      "Honey was filled in the jar.",
+      "Honey was full in the jar.",
+      "Honey is full of the jar.",
+      "No passive form exists."
+    ],
+    "answer": "No passive form exists.",
+    "explanation": "This is a descriptive sentence with an adjective ('full'), not a transitive action. ✅"
+  },
+  {
+    "question": "Change into Active: 'You are requested not to smoke here.'",
+    "options": [
+      "Please don't smoke here.",
+      "Don't smoke here.",
+      "Kindly not smoke here.",
+      "Please no smoking here."
+    ],
+    "answer": "Please don't smoke here.",
+    "explanation": "'You are requested not to' ➔ 'Please don't'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Why did he rob the bank?'",
+    "options": [
+      "Why was the bank robbed by him?",
+      "Why the bank was robbed by him?",
+      "Why had the bank been robbed by him?",
+      "Why was the bank rob by him?"
+    ],
+    "answer": "Why was the bank robbed by him?",
+    "explanation": "Interrogative Simple Past Passive. ✅"
+  },
+  {
+    "question": "Change into Active: 'I was disgusted with his behavior.'",
+    "options": [
+      "His behavior disgusted me.",
+      "His behavior disgusts me.",
+      "I disgusted his behavior.",
+      "His behavior was disgusting me."
+    ],
+    "answer": "His behavior disgusted me.",
+    "explanation": "'Disgusted with' (Passive) ➔ 'Disgusted' (Active). ✅"
+  },
+  {
+    "question": "Change into Passive: 'A stone struck him on the head.'",
+    "options": [
+      "He was struck on the head by a stone.",
+      "He struck on the head by a stone.",
+      "He was striked on the head.",
+      "His head was struck by a stone."
+    ],
+    "answer": "He was struck on the head by a stone.",
+    "explanation": "Simple Past Passive. V3 of 'strike' is 'struck'. ✅"
+  },
+  {
+    "question": "Change into Active: 'May this letter be sent by you?'",
+    "options": [
+      "May you send this letter?",
+      "May you sent this letter?",
+      "Can you send this letter?",
+      "May this letter send you?"
+    ],
+    "answer": "May you send this letter?",
+    "explanation": "Interrogative Modal Passive ➔ Active. ✅"
+  },
+  {
+    "question": "Change into Passive: 'People speak English all over the world.'",
+    "options": [
+      "English is spoken all over the world.",
+      "English was spoken all over the world.",
+      "English is spoke all over the world.",
+      "English are spoken all over the world."
+    ],
+    "answer": "English is spoken all over the world.",
+    "explanation": "Universal action; omit 'by people'. ✅"
+  }
+]
