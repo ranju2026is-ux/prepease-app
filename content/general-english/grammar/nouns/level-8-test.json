@@ -1,0 +1,192 @@
+[
+  {
+    "question": "Find the error part: The (A) / prisoner (B) / was (C) / kept in iron (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'Iron' is a metal, but 'Irons' (plural) means chains or fetters. A prisoner is kept in 'irons'. ✅"
+  },
+  {
+    "question": "Choose the correct sentence regarding the word 'Word':",
+    "options": [
+      "He is true to his words.",
+      "He is true to his word.",
+      "He gave me his words.",
+      "He is a man of words."
+    ],
+    "answer": "He is true to his word.",
+    "explanation": "In the idiom 'true to one's word' (keeping a promise), the noun 'word' must be singular. ✅"
+  },
+  {
+    "question": "Identify the error: He (A) / went (B) / to (C) / the custom department (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'Custom' means a tradition. The government department that handles duties on goods is the 'Customs' department. ✅"
+  },
+  {
+    "question": "Fill in the blank: The _____ of the army was high even after the defeat.",
+    "options": ["moral", "morale", "morals", "morality"],
+    "answer": "morale",
+    "explanation": "'Morale' refers to the spirit or confidence of a group, while 'Moral' refers to lessons of right and wrong. ✅"
+  },
+  {
+    "question": "Identify the error: The (A) / gentry (B) / of this (C) / town was invited (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'Gentry' (upper class people) is a collective noun that is always plural. Use 'were invited'. ✅"
+  },
+  {
+    "question": "Choose the correct form: He (A) / has (B) / read (C) / the works of Shakespeare (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "No error",
+    "explanation": "When 'Work' refers to literary or artistic creations, the plural 'Works' is correct. ✅"
+  },
+  {
+    "question": "Find the error: She (A) / gave (B) / me (C) / two pieces of advices (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "Even with 'pieces of', the word 'advice' remains singular because it is uncountable. ✅"
+  },
+  {
+    "question": "Identify the correct usage of 'Air':",
+    "options": [
+      "She is breathing in fresh airs.",
+      "She is giving herself airs.",
+      "The airs of the mountains is cold.",
+      "He needs some airs to survive."
+    ],
+    "answer": "She is giving herself airs.",
+    "explanation": "'Air' is the atmosphere. 'Airs' (plural) means proud or arrogant behavior. ✅"
+  },
+  {
+    "question": "Identify the error: The (A) / wages (B) / of sin (C) / are death (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "In this specific biblical context, 'Wages' means 'result' and takes a singular verb 'is'. ✅"
+  },
+  {
+    "question": "What is the plural of 'Syllabus'?",
+    "options": ["Syllabuses", "Syllabi", "Syllabus", "Both A and B"],
+    "answer": "Both A and B",
+    "explanation": "Both the English plural 'Syllabuses' and the Latin plural 'Syllabi' are accepted. ✅"
+  },
+  {
+    "question": "Find the error: He (A) / is (B) / a (C) / five-years-old boy (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "In a hyphenated compound noun acting as an adjective, it should be 'five-year-old'. ✅"
+  },
+  {
+    "question": "Fill in the blank: Please (A) / put (B) / your (C) / sign here (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'Sign' is a verb. The noun form 'Signature' should be used here. ✅"
+  },
+  {
+    "question": "Identify the error: There (A) / is (B) / no (C) / room in this bus (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "No error",
+    "explanation": "In the context of available space for people, the word 'room' is correct. ✅"
+  },
+  {
+    "question": "Which word represents a group of stars?",
+    "options": ["Constellation", "Galaxy", "Cluster", "All of the above"],
+    "answer": "All of the above",
+    "explanation": "All these terms can be used as collective nouns for stars depending on the context. ✅"
+  },
+  {
+    "question": "Identify the error: One (A) / of (B) / my (C) / friend is coming (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'One of' must be followed by a plural noun ('friends'). ✅"
+  },
+  {
+    "question": "What is the plural of 'Oasis'?",
+    "options": ["Oasises", "Oases", "Oasia", "Oasis"],
+    "answer": "Oases",
+    "explanation": "Nouns ending in '-is' change to '-es' in plural. ✅"
+  },
+  {
+    "question": "Fill in the blank: The _____ has given its verdict.",
+    "options": ["jury", "juries", "jury's", "juror"],
+    "answer": "jury",
+    "explanation": "Since the verb 'has' and pronoun 'its' are singular, the collective noun 'jury' must be used as a unit. ✅"
+  },
+  {
+    "question": "Find the error: I (A) / have (B) / much (C) / works to finish (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'Work' (labor) is uncountable and should not have an 's'. Use 'much work'. ✅"
+  },
+  {
+    "question": "Choose the correct plural form of 'Index' (for books):",
+    "options": ["Indices", "Indexes", "Indexia", "Index"],
+    "answer": "Indexes",
+    "explanation": "'Indexes' is for books; 'Indices' is usually reserved for mathematical or scientific values. ✅"
+  },
+  {
+    "question": "Identify the error: This (A) / house (B) / is (C) / made of bricks (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "When 'brick' is used as a building material, it is uncountable and stays singular. ✅"
+  },
+  {
+    "question": "What is the plural of 'Medium' (referring to occultism)?",
+    "options": ["Media", "Mediums", "Medias", "Medai"],
+    "answer": "Mediums",
+    "explanation": "While 'Media' is for communication, 'Mediums' is the plural for people claiming to contact spirits. ✅"
+  },
+  {
+    "question": "Fill in the blank: He is a man of his _____.",
+    "options": ["word", "words", "wording", "wordy"],
+    "answer": "word",
+    "explanation": "Singular 'word' is used in the sense of a promise. ✅"
+  },
+  {
+    "question": "Find the error: Ten (A) / thousand (B) / rupees (C) / are a large sum (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "A specific amount used as a single unit takes a singular verb 'is'. ✅"
+  },
+  {
+    "question": "Which of these collective nouns is for 'Wolves'?",
+    "options": ["A pack of wolves", "A flock of wolves", "A pride of wolves", "A herd of wolves"],
+    "answer": "A pack of wolves",
+    "explanation": "A 'pack' is the standard group name for wolves. ✅"
+  },
+  {
+    "question": "Identify the error: These (A) / kind (B) / of (C) / movies are good (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "'These' requires the plural 'kinds'. ✅"
+  },
+  {
+    "question": "What is the plural of 'Thesis'?",
+    "options": ["Theses", "Thesises", "Thesia", "Thesii"],
+    "answer": "Theses",
+    "explanation": "Ends in '-is', so plural is '-es'. ✅"
+  },
+  {
+    "question": "Fill in the blank: I saw a _____ of birds in the sky.",
+    "options": ["flock", "fleet", "pack", "pride"],
+    "answer": "flock",
+    "explanation": "'Flock' is the correct collective noun for birds. ✅"
+  },
+  {
+    "question": "Find the error: All (A) / the (B) / furnitures (C) / are broken (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "'Furniture' is uncountable. ✅"
+  },
+  {
+    "question": "Choose the correct group name for 'Bees':",
+    "options": ["A swarm of bees", "A hive of bees", "Both A and B", "A flock of bees"],
+    "answer": "Both A and B",
+    "explanation": "Both 'swarm' (flying) and 'hive' (in a home) are used for bees. ✅"
+  },
+  {
+    "question": "Identify the error: He (A) / gave (B) / me (C) / two dozen of apples (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "When preceded by 'two', it should be 'two dozen apples'. Remove 'of'. ✅"
+  }
+]
