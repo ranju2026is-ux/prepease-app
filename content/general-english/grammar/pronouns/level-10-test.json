@@ -1,0 +1,167 @@
+[
+  {
+    "question": "Fill in the blank: He is a man _____ I know you can trust implicitly.",
+    "options": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "answer": "whom",
+    "explanation": "ಇಲ್ಲಿ 'I know' ಎಂಬುದು ಒಂದು Parenthetical expression (ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ). 'Whom' ಎಂಬುದು 'trust' ಎಂಬ ಕ್ರಿಯಾಪದದ ಕರ್ಮವಾಗಿ (Object) ಕೆಲಸ ಮಾಡುತ್ತಿದೆ. ✅"
+  },
+  {
+    "question": "Choose the correct pronoun: He is the only one of those men _____ does not accept a bribe.",
+    "options": [
+      "who",
+      "that",
+      "which",
+      "whom"
+    ],
+    "answer": "that",
+    "explanation": "ಸಾಮಾನ್ಯವಾಗಿ 'one of those' ನಂತರ ಬಹುವಚನ ಕ್ರಿಯಾಪದ ಬರುತ್ತದೆ. ಆದರೆ 'the only one of' ಬಂದಾಗ ಸಂಬಂಧವಾಚಕವಾಗಿ 'that' ಬಳಸಬೇಕು ಮತ್ತು ಕ್ರಿಯಾಪದವು ಏಕವಚನದಲ್ಲಿರಬೇಕು. ✅"
+  },
+  {
+    "question": "Identify the correct form: You are as guilty as _____.",
+    "options": [
+      "he",
+      "him",
+      "himself",
+      "his"
+    ],
+    "answer": "he",
+    "explanation": "ಸಂಪೂರ್ಣ ವಾಕ್ಯವು 'You are as guilty as he (is)' ಎಂದಿರುತ್ತದೆ. ಹೋಲಿಕೆಯು ಇಬ್ಬರು ಕರ್ತೃಗಳ (Subjects) ನಡುವೆ ಇರುವುದರಿಂದ Subjective case ಬಳಸಬೇಕು. ✅"
+  },
+  {
+    "question": "Fill in the blank: She is the lady _____ I thought was your mother.",
+    "options": [
+      "who",
+      "whom",
+      "that",
+      "which"
+    ],
+    "answer": "who",
+    "explanation": "ಇಲ್ಲಿ 'who' ಎಂಬುದು 'was' ಕ್ರಿಯಾಪದದ ಕರ್ತೃವಾಗಿದೆ. 'I thought' ಎಂಬುದು ಕೇವಲ ಒಂದು ಅಡ್ಡಿಪಡಿಸುವ ನುಡಿಗಟ್ಟು ಅಷ್ಟೆ. ✅"
+  },
+  {
+    "question": "Choose the correct option: This is the same person _____ met me yesterday.",
+    "options": [
+      "who",
+      "whom",
+      "that",
+      "which"
+    ],
+    "answer": "that",
+    "explanation": "'The same' ಪದದ ನಂತರ ವ್ಯಕ್ತಿ ಅಥವಾ ವಸ್ತು ಇರಲಿ, ಸಂಬಂಧವಾಚಕವಾಗಿ 'that' ಬಳಸುವುದು ವ್ಯಾಕರಣಬದ್ಧವಾಗಿ ಅತ್ಯಂತ ನಿಖರ. ✅"
+  },
+  {
+    "question": "Identify the error: There is no point in me staying here any longer.",
+    "options": [
+      "There",
+      "point",
+      "me",
+      "staying"
+    ],
+    "answer": "me",
+    "explanation": "'Staying' ಎಂಬುದು Gerund ಆಗಿದ್ದು, ಅದರ ಹಿಂದೆ Possessive case ಇರಬೇಕು. ಆದ್ದರಿಂದ ಇದು 'my staying' ಆಗಿರಬೇಕು. ✅"
+  },
+  {
+    "question": "Fill in the blank: Shakespeare is the greatest dramatist _____ ever lived.",
+    "options": [
+      "who",
+      "that",
+      "whom",
+      "which"
+    ],
+    "answer": "that",
+    "explanation": "ವಾಕ್ಯದಲ್ಲಿ Superlative degree (greatest) ಇದ್ದಾಗ ಸಂಬಂಧವಾಚಕವಾಗಿ 'that' ಬಳಸಬೇಕು. ✅"
+  },
+  {
+    "question": "Choose the correct pronoun: Let you and _____ take care of the guest.",
+    "options": [
+      "I",
+      "me",
+      "myself",
+      "mine"
+    ],
+    "answer": "me",
+    "explanation": "'Let' ನಂತರ ಬರುವ ಎಲ್ಲಾ ಸರ್ವನಾಮಗಳು Objective case ನಲ್ಲೇ ಇರಬೇಕು. ✅"
+  },
+  {
+    "question": "Identify the correct form: Such a friend _____ he is should be valued.",
+    "options": [
+      "who",
+      "that",
+      "as",
+      "whom"
+    ],
+    "answer": "as",
+    "explanation": "'Such' ಬಂದಾಗ ಅದು 'as' ನೊಂದಿಗೆ ಜೋಡಿಯಾಗಿ ಸಂಬಂಧವಾಚಕದಂತೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ. ✅"
+  },
+  {
+    "question": "Fill in the blank: There was no one present _____ did not weep to hear the story.",
+    "options": [
+      "who",
+      "whom",
+      "but",
+      "which"
+    ],
+    "answer": "but",
+    "explanation": "'But' ಇಲ್ಲಿ ನಕಾರಾತ್ಮಕ ಸಂಬಂಧವಾಚಕವಾಗಿ (Negative relative pronoun) ಕೆಲಸ ಮಾಡುತ್ತಿದೆ, ಇದರ ಅರ್ಥ 'who did not' ಎಂದು. ✅"
+  },
+  {
+    "question": "Choose the correct reflexive pronoun: One should always be true to _____ word.",
+    "options": [
+      "his",
+      "her",
+      "one's",
+      "their"
+    ],
+    "answer": "one's",
+    "explanation": "'One' ಕರ್ತೃವಾಗಿ ಬಂದಾಗ ಅದರ ಪೂರ್ವಾಪರ ಸಂಬಂಧದ ಎಲ್ಲಾ ರೂಪಗಳು 'one/one's' ಆಗಿರಬೇಕು. ✅"
+  },
+  {
+    "question": "Identify the correct form: It is not for _____ to decide.",
+    "options": [
+      "he",
+      "him",
+      "his",
+      "himself"
+    ],
+    "answer": "him",
+    "explanation": "Preposition (for) ನಂತರ ಯಾವಾಗಲೂ Objective case (him) ಬಳಸಬೇಕು. ✅"
+  },
+  {
+    "question": "Fill in the blank: He is a faster runner than _____.",
+    "options": [
+      "me",
+      "I",
+      "myself",
+      "mine"
+    ],
+    "answer": "I",
+    "explanation": "ಔಪಚಾರಿಕ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ 'than' ನಂತರ Subjective case ಬಳಸಲಾಗುತ್ತದೆ (than I am). ✅"
+  },
+  {
+    "question": "Choose the correct pronoun: Whosoever does this, _____ shall be punished.",
+    "options": [
+      "he",
+      "they",
+      "him",
+      "she"
+    ],
+    "answer": "he",
+    "explanation": "'Whosoever' ಎಂಬುದು ಏಕವಚನವನ್ನು ಸೂಚಿಸುವುದರಿಂದ ಅದರ ನಂತರ 'he' ಬಳಸುವುದು ರೂಢಿ. ✅"
+  },
+  {
+    "question": "Identify the error: He is one of the players who has been selected.",
+    "options": [
+      "He",
+      "players",
+      "who",
+      "has"
+    ],
+    "answer": "has",
+    "explanation": "ಇಲ್ಲಿ 'who' ಎಂಬುದು 'players' (Plural) ಅನ್ನು ಸೂಚಿಸುತ್ತದೆ. ಆದ್ದರಿಂದ ಕ್ರಿಯಾಪದವು 'have' ಆಗಿರಬೇಕು. ✅"
+  }
+]
