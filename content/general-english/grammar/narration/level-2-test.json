@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Change to Indirect: He said, 'I am waiting for the bus.'",
+    "options": [
+      "He said that he is waiting for the bus.",
+      "He said that he was waiting for the bus.",
+      "He said that he has been waiting for the bus.",
+      "He told that he was waiting for the bus."
+    ],
+    "answer": "He said that he was waiting for the bus.",
+    "explanation": "Present Continuous (am waiting) changes to Past Continuous (was waiting). ✅"
+  },
+  {
+    "question": "Change to Indirect: The girls said, 'We were singing songs.'",
+    "options": [
+      "The girls said that they were singing songs.",
+      "The girls said that they had been singing songs.",
+      "The girls said that we had been singing songs.",
+      "The girls told that they had been singing songs."
+    ],
+    "answer": "The girls said that they had been singing songs.",
+    "explanation": "Past Continuous (were singing) changes to Past Perfect Continuous (had been singing). ✅"
+  },
+  {
+    "question": "Change to Indirect: She said, 'I bought a new phone yesterday.'",
+    "options": [
+      "She said that she had bought a new phone the day before.",
+      "She said that she bought a new phone yesterday.",
+      "She said that she had bought a new phone yesterday.",
+      "She said that she has bought a new phone the previous day."
+    ],
+    "answer": "She said that she had bought a new phone the day before.",
+    "explanation": "Simple Past (bought) changes to Past Perfect (had bought), and 'yesterday' changes to 'the day before'. ✅"
+  },
+  {
+    "question": "Change to Indirect: They said, 'We are going to the market now.'",
+    "options": [
+      "They said that they were going to the market now.",
+      "They said that they are going to the market then.",
+      "They said that they were going to the market then.",
+      "They told that they were going to the market then."
+    ],
+    "answer": "They said that they were going to the market then.",
+    "explanation": "Present Continuous changes to Past Continuous and 'now' changes to 'then'. ✅"
+  },
+  {
+    "question": "Change to Indirect: He said, 'I saw a movie last night.'",
+    "options": [
+      "He said that he saw a movie the previous night.",
+      "He said that he had seen a movie last night.",
+      "He said that he had seen a movie the previous night.",
+      "He told that he had seen a movie the previous night."
+    ],
+    "answer": "He said that he had seen a movie the previous night.",
+    "explanation": "Simple Past (saw) changes to Past Perfect (had seen) and 'last night' changes to 'the previous night'. ✅"
+  },
+  {
+    "question": "Change to Indirect: The teacher said, 'I was teaching English yesterday.'",
+    "options": [
+      "The teacher said that she was teaching English the previous day.",
+      "The teacher said that she had been teaching English the day before.",
+      "The teacher said that she has been teaching English the day before.",
+      "The teacher said that I had been teaching English the previous day."
+    ],
+    "answer": "The teacher said that she had been teaching English the day before.",
+    "explanation": "Past Continuous (was teaching) ➔ Past Perfect Continuous (had been teaching). ✅"
+  },
+  {
+    "question": "Change to Indirect: Ram said to Sham, 'I didn't go to school.'",
+    "options": [
+      "Ram told Sham that he hadn't gone to school.",
+      "Ram told Sham that he didn't go to school.",
+      "Ram told Sham that he hasn't gone to school.",
+      "Ram said to Sham that he hadn't gone to school."
+    ],
+    "answer": "Ram told Sham that he hadn't gone to school.",
+    "explanation": "Simple Past Negative (didn't go) changes to Past Perfect Negative (hadn't gone). ✅"
+  },
+  {
+    "question": "Change to Indirect: My friend said, 'I have been working for two hours.'",
+    "options": [
+      "My friend said that he had been working for two hours.",
+      "My friend said that he has been working for two hours.",
+      "My friend said that I had been working for two hours.",
+      "My friend told that he was working for two hours."
+    ],
+    "answer": "My friend said that he had been working for two hours.",
+    "explanation": "Present Perfect Continuous (have been working) changes to Past Perfect Continuous (had been working). ✅"
+  },
+  {
+    "question": "Change to Indirect: She said, 'I am not going to the party.'",
+    "options": [
+      "She said that she was not going to the party.",
+      "She said that she is not going to the party.",
+      "She said that I was not going to the party.",
+      "She told that she is not going to the party."
+    ],
+    "answer": "She said that she was not going to the party.",
+    "explanation": "'am not going' changes to 'was not going' in indirect speech. ✅"
+  },
+  {
+    "question": "Change to Indirect: He said, 'The train arrived an hour ago.'",
+    "options": [
+      "He said that the train had arrived an hour ago.",
+      "He said that the train arrived an hour before.",
+      "He said that the train had arrived an hour before.",
+      "He told that the train has arrived an hour before."
+    ],
+    "answer": "He said that the train had arrived an hour before.",
+    "explanation": "Simple Past (arrived) changes to Past Perfect (had arrived) and 'ago' changes to 'before'. ✅"
+  }
+]
