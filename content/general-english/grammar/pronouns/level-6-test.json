@@ -1,0 +1,167 @@
+[
+  {
+    "question": "Identify the correct verb: It is I who _____ to be blamed.",
+    "options": [
+      "is",
+      "am",
+      "are",
+      "was"
+    ],
+    "answer": "am",
+    "explanation": "When the relative pronoun 'who' follows 'I', the verb must agree with 'I'. Therefore, 'am' is correct. ✅"
+  },
+  {
+    "question": "Fill in the blank: The jury was divided in _____ opinions.",
+    "options": [
+      "its",
+      "his",
+      "their",
+      "it's"
+    ],
+    "answer": "their",
+    "explanation": "When a collective noun (jury) is divided or thinks differently, it is treated as plural, so 'their' is used. ✅"
+  },
+  {
+    "question": "Choose the correct pronoun: He is one of the tallest boys _____ have ever played here.",
+    "options": [
+      "who",
+      "that",
+      "which",
+      "whom"
+    ],
+    "answer": "that",
+    "explanation": "After a Superlative Adjective (tallest), 'that' is the preferred relative pronoun over 'who'. ✅"
+  },
+  {
+    "question": "Identify the error: This is the only one of his comments that are relevant.",
+    "options": [
+      "This",
+      "only",
+      "that",
+      "are"
+    ],
+    "answer": "are",
+    "explanation": "When 'the only one of' is used, the verb must be singular. It should be 'that **is** relevant'. ✅"
+  },
+  {
+    "question": "Fill in the blank: None of the luggage has reached _____ destination.",
+    "options": [
+      "its",
+      "their",
+      "his",
+      "it's"
+    ],
+    "answer": "its",
+    "explanation": "'Luggage' is an uncountable singular noun, so the possessive pronoun must be 'its'. ✅"
+  },
+  {
+    "question": "Choose the correct form: My brother and _____ are looking for a job.",
+    "options": [
+      "myself",
+      "me",
+      "I",
+      "mine"
+    ],
+    "answer": "I",
+    "explanation": "A reflexive pronoun (myself) cannot be a subject. 'I' is the correct subjective pronoun. ✅"
+  },
+  {
+    "question": "Identify the correct relative pronoun: Who was there _____ did not cheer?",
+    "options": [
+      "who",
+      "that",
+      "which",
+      "whom"
+    ],
+    "answer": "that",
+    "explanation": "When the sentence starts with an interrogative pronoun (Who), we use 'that' as the relative pronoun to avoid using 'who' twice. ✅"
+  },
+  {
+    "question": "Fill in the blank: Each of the two girls was happy with _____ prize.",
+    "options": [
+      "their",
+      "her",
+      "them",
+      "hers"
+    ],
+    "answer": "her",
+    "explanation": "'Each' is always singular. Since it refers to girls, 'her' is the correct possessive. ✅"
+  },
+  {
+    "question": "Choose the correct option: He and you should do _____ duty.",
+    "options": [
+      "his",
+      "your",
+      "their",
+      "our"
+    ],
+    "answer": "your",
+    "explanation": "When 2nd and 3rd person are subjects, the possessive pronoun should be 2nd person (your). ✅"
+  },
+  {
+    "question": "Identify the error: Let he and me do the work.",
+    "options": [
+      "Let",
+      "he",
+      "me",
+      "do"
+    ],
+    "answer": "he",
+    "explanation": "After 'Let', all pronouns must be in the objective case. It should be 'Let **him** and me...'. ✅"
+  },
+  {
+    "question": "Fill in the blank: This is the same car _____ I saw yesterday.",
+    "options": [
+      "which",
+      "who",
+      "that",
+      "whom"
+    ],
+    "answer": "that",
+    "explanation": "After 'the same', 'that' is the mandatory relative pronoun. ✅"
+  },
+  {
+    "question": "Choose the correct pronoun: Every soldier and every sailor was in _____ place.",
+    "options": [
+      "their",
+      "his",
+      "its",
+      "them"
+    ],
+    "answer": "his",
+    "explanation": "When two singular nouns are connected by 'and' but preceded by 'every', the pronoun must be singular (his). ✅"
+  },
+  {
+    "question": "Identify the correct form: It was not _____ who broke the glass.",
+    "options": [
+      "me",
+      "I",
+      "my",
+      "myself"
+    ],
+    "answer": "I",
+    "explanation": "After 'It was', the subjective case 'I' is used as the complement. ✅"
+  },
+  {
+    "question": "Fill in the blank: You, he and I have finished _____ work.",
+    "options": [
+      "your",
+      "their",
+      "our",
+      "my"
+    ],
+    "answer": "our",
+    "explanation": "When the 1st person (I) is included in a plural subject, the possessive is 'our'. ✅"
+  },
+  {
+    "question": "Identify the relative pronoun: There is no one _____ knows the answer.",
+    "options": [
+      "who",
+      "but",
+      "that",
+      "which"
+    ],
+    "answer": "but",
+    "explanation": "In negative structures, 'but' acts as a relative pronoun meaning 'who...not'. ✅"
+  }
+]
