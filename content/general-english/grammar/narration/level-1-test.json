@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Change to Indirect: Ram said, 'I am busy.'",
+    "options": [
+      "Ram said that he was busy.",
+      "Ram said that I am busy.",
+      "Ram says that he is busy.",
+      "Ram said he is busy."
+    ],
+    "answer": "Ram said that he was busy.",
+    "explanation": "Simple Present 'am' changes to Simple Past 'was' when the reporting verb 'said' is in the past. ✅"
+  },
+  {
+    "question": "Change to Indirect: She says, 'I am eating an apple.'",
+    "options": [
+      "She says that she was eating an apple.",
+      "She says that she is eating an apple.",
+      "She said that she is eating an apple.",
+      "She says that I am eating an apple."
+    ],
+    "answer": "She says that she is eating an apple.",
+    "explanation": "If the reporting verb is in the Present Tense (says), the tense of the reported speech DOES NOT change. ✅"
+  },
+  {
+    "question": "Change to Indirect: He said to me, 'I will meet you tomorrow.'",
+    "options": [
+      "He told me that he would meet me tomorrow.",
+      "He told me that he would meet me the next day.",
+      "He said to me that he will meet me the next day.",
+      "He told me that I would meet him tomorrow."
+    ],
+    "answer": "He told me that he would meet me the next day.",
+    "explanation": "'Said to' becomes 'told', 'will' becomes 'would', and 'tomorrow' changes to 'the next day'. ✅"
+  },
+  {
+    "question": "Change to Indirect: The teacher said, 'The sun rises in the east.'",
+    "options": [
+      "The teacher said that the sun rose in the east.",
+      "The teacher said that the sun rises in the east.",
+      "The teacher told that the sun rises in the east.",
+      "The teacher said the sun rises in the east."
+    ],
+    "answer": "The teacher said that the sun rises in the east.",
+    "explanation": "Universal truths do not change their tense in indirect speech. ✅"
+  },
+  {
+    "question": "Change to Indirect: They said, 'We have won the match.'",
+    "options": [
+      "They said that we have won the match.",
+      "They said that they had won the match.",
+      "They told that they had won the match.",
+      "They said that they won the match."
+    ],
+    "answer": "They said that they had won the match.",
+    "explanation": "Present Perfect 'have won' changes to Past Perfect 'had won'. 'We' changes to 'they'. ✅"
+  },
+  {
+    "question": "Change to Indirect: He said, 'I can do this work.'",
+    "options": [
+      "He said that he could do that work.",
+      "He said that he can do that work.",
+      "He said that he could do this work.",
+      "He told that he can do this work."
+    ],
+    "answer": "He said that he could do that work.",
+    "explanation": "'Can' changes to 'could' and 'this' changes to 'that'. ✅"
+  },
+  {
+    "question": "Change to Indirect: Sita said to Geeta, 'You are my best friend.'",
+    "options": [
+      "Sita told Geeta that she was my best friend.",
+      "Sita told Geeta that you were her best friend.",
+      "Sita told Geeta that she was her best friend.",
+      "Sita said to Geeta that she was her best friend."
+    ],
+    "answer": "Sita told Geeta that she was her best friend.",
+    "explanation": "'You' changes to Geeta (she) and 'my' changes to Sita (her). ✅"
+  },
+  {
+    "question": "Change to Indirect: The boys said, 'We were playing cricket.'",
+    "options": [
+      "The boys said that they were playing cricket.",
+      "The boys said that they had been playing cricket.",
+      "The boys said that we had been playing cricket.",
+      "The boys said that they had played cricket."
+    ],
+    "answer": "The boys said that they had been playing cricket.",
+    "explanation": "Past Continuous 'were playing' changes to Past Perfect Continuous 'had been playing'. ✅"
+  },
+  {
+    "question": "Change to Indirect: He said, 'I live here.'",
+    "options": [
+      "He said that he lived there.",
+      "He said that he lives here.",
+      "He said that he lived here.",
+      "He said that he live there."
+    ],
+    "answer": "He said that he lived there.",
+    "explanation": "Simple Present ➔ Simple Past, and 'here' ➔ 'there'. ✅"
+  },
+  {
+    "question": "Change to Indirect: My father said, 'Honesty is the best policy.'",
+    "options": [
+      "My father said that honesty was the best policy.",
+      "My father said that honesty is the best policy.",
+      "My father told that honesty is the best policy.",
+      "My father says that honesty is the best policy."
+    ],
+    "answer": "My father said that honesty is the best policy.",
+    "explanation": "Proverbs and universal truths remain in the same tense. ✅"
+  }
+]
