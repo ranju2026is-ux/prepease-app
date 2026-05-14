@@ -1,112 +1,332 @@
 [
   {
-    "question": "Change to Indirect: He said, 'I am unwell, and I cannot attend the meeting.'",
+    "question": "The teacher said, 'The sun rises in the east.'",
     "options": [
-      "He said that he was unwell and that he could not attend the meeting.",
-      "He said that he is unwell and cannot attend the meeting.",
-      "He told that he was unwell and he cannot attend the meeting.",
-      "He said that he was unwell and I could not attend the meeting."
+      "The teacher said that the sun rose in the east.",
+      "The teacher said that the sun rises in the east.",
+      "The teacher told that the sun rises in the east.",
+      "The teacher said that the sun will rise in the east."
     ],
-    "answer": "He said that he was unwell and that he could not attend the meeting.",
-    "explanation": "When two assertive sentences are joined by 'and', 'that' is repeated after the conjunction for clarity. ✅"
+    "answer": "The teacher said that the sun rises in the east.",
+    "explanation": "Universal truths do not change their tense in indirect speech. ✅"
   },
   {
-    "question": "Change to Indirect: She said to me, 'What are you doing? Go home at once.'",
+    "question": "He said, 'Honesty is the best policy.'",
     "options": [
-      "She asked me what I was doing and told me to go home at once.",
-      "She asked me what was I doing and ordered to go home at once.",
-      "She questioned me what I am doing and said to go home.",
-      "She asked me what I was doing and go home at once."
+      "He said that honesty was the best policy.",
+      "He said that honesty is the best policy.",
+      "He told that honesty is the best policy.",
+      "He said that honesty has been the best policy."
     ],
-    "answer": "She asked me what I was doing and told me to go home at once.",
-    "explanation": "This is a mixed sentence (Interrogative + Imperative). Each part follows its own rule. ✅"
+    "answer": "He said that honesty is the best policy.",
+    "explanation": "Proverbs and general truths remain in the present tense. ✅"
   },
   {
-    "question": "Change to Direct: He asked me if I had seen the movie.",
+    "question": "The historian said, 'India became independent in 1947.'",
     "options": [
-      "He said to me, 'Have you seen the movie?'",
-      "He said to me, 'Did you see the movie?'",
-      "He said to me, 'You saw the movie?'",
+      "The historian said that India became independent in 1947.",
+      "The historian said that India had become independent in 1947.",
+      "The historian told that India became independent in 1947.",
       "Both A and B are correct."
     ],
-    "answer": "Both A and B are correct.",
-    "explanation": "The Past Perfect 'had seen' in indirect speech can come from either Present Perfect or Simple Past in direct speech. ✅"
+    "answer": "The historian said that India became independent in 1947.",
+    "explanation": "Historical facts often retain their original tense (Simple Past) in indirect speech. ✅"
   },
   {
-    "question": "Change to Indirect: My father said to me, 'Bravo! You have done well. I am proud of you.'",
+    "question": "She said, 'God is omnipresent.'",
     "options": [
-      "My father applauded me saying that I had done well and added that he was proud of me.",
-      "My father told me bravo and said he was proud of me.",
-      "My father exclaimed with joy that I did well and was proud of me.",
-      "My father said I had done well and he was proud of me."
+      "She said that God was omnipresent.",
+      "She said that God is omnipresent.",
+      "She told that God is omnipresent.",
+      "She said that God has been omnipresent."
     ],
-    "answer": "My father applauded me saying that I had done well and added that he was proud of me.",
-    "explanation": "For mixed exclamatory and assertive sentences, use 'applauded... saying' and 'added that'. ✅"
+    "answer": "She said that God is omnipresent.",
+    "explanation": "Religious or philosophical truths remain in the present tense. ✅"
   },
   {
-    "question": "Change to Indirect: He said, 'Let us wait for the result.'",
+    "question": "The trainer said, 'Exercise keeps us healthy.'",
     "options": [
-      "He suggested that they should wait for the result.",
-      "He proposed that we should wait for the result.",
-      "He suggested to wait for the result.",
-      "Both A and B are correct."
+      "The trainer said that exercise keeps us healthy.",
+      "The trainer said that exercise kept us healthy.",
+      "The trainer told that exercise keeps us healthy.",
+      "The trainer said that exercise keeps them healthy."
     ],
-    "answer": "Both A and B are correct.",
-    "explanation": "'Let us' indicates a suggestion. Depending on whether the speaker is included, 'they' or 'we' can be used. ✅"
+    "answer": "The trainer said that exercise keeps us healthy.",
+    "explanation": "General facts about health or science do not change tense. ✅"
   },
   {
-    "question": "Change to Direct: The teacher asked the boy why he had not done his homework.",
+    "question": "My father said, 'I wake up at 5 AM every day.'",
     "options": [
-      "The teacher said to the boy, 'Why have you not done your homework?'",
-      "The teacher said to the boy, 'Why you did not do your homework?'",
-      "The teacher said to the boy, 'Why didn't you do your homework?'",
+      "My father said that he wakes up at 5 AM every day.",
+      "My father said that he woke up at 5 AM every day.",
+      "My father told that he wakes up at 5 AM every day.",
+      "My father said that he has been waking up at 5 AM every day."
+    ],
+    "answer": "My father said that he wakes up at 5 AM every day.",
+    "explanation": "Habitual actions expressed in the present tense can remain unchanged. ✅"
+  },
+  {
+    "question": "The scientist said, 'Water boils at 100 degrees Celsius.'",
+    "options": [
+      "The scientist said that water boiled at 100 degrees Celsius.",
+      "The scientist said that water boils at 100 degrees Celsius.",
+      "The scientist told that water boils at 100 degrees Celsius.",
+      "The scientist said water is boiling at 100 degrees Celsius."
+    ],
+    "answer": "The scientist said that water boils at 100 degrees Celsius.",
+    "explanation": "Scientific facts remain in the present tense. ✅"
+  },
+  {
+    "question": "The principal said, 'The school reopens in June every year.'",
+    "options": [
+      "The principal said that the school reopens in June every year.",
+      "The principal said that the school reopened in June every year.",
+      "The principal told that the school reopens in June every year.",
+      "The principal said that the school will reopen in June."
+    ],
+    "answer": "The principal said that the school reopens in June every year.",
+    "explanation": "Fixed annual events or routines are reported in the present tense. ✅"
+  },
+  {
+    "question": "He said, 'Oil floats on water.'",
+    "options": [
+      "He said that oil floated on water.",
+      "He said that oil floats on water.",
+      "He told that oil floats on water.",
+      "He said that oil is floating on water."
+    ],
+    "answer": "He said that oil floats on water.",
+    "explanation": "Scientific truth. ✅"
+  },
+  {
+    "question": "The guide said, 'The Taj Mahal is one of the seven wonders.'",
+    "options": [
+      "The guide said that the Taj Mahal was one of the seven wonders.",
+      "The guide said that the Taj Mahal is one of the seven wonders.",
+      "The guide told that the Taj Mahal is one of the seven wonders.",
+      "The guide said the Taj Mahal has been one of the wonders."
+    ],
+    "answer": "The guide said that the Taj Mahal is one of the seven wonders.",
+    "explanation": "A current geographical or historical status. ✅"
+  },
+  {
+    "question": "She said, 'Earth revolves around the sun.'",
+    "options": [
+      "She said that earth revolved around the sun.",
+      "She said that earth revolves around the sun.",
+      "She told that earth revolves around the sun.",
+      "She said that earth is revolving around the sun."
+    ],
+    "answer": "She said that earth revolves around the sun.",
+    "explanation": "Universal truth. ✅"
+  },
+  {
+    "question": "My mother said, 'Two and two make four.'",
+    "options": [
+      "My mother said that two and two made four.",
+      "My mother said that two and two make four.",
+      "My mother told that two and two make four.",
+      "My mother said two and two being four."
+    ],
+    "answer": "My mother said that two and two make four.",
+    "explanation": "Mathematical fact. ✅"
+  },
+  {
+    "question": "The speaker said, 'Mahatma Gandhi was born on October 2nd.'",
+    "options": [
+      "The speaker said that Mahatma Gandhi was born on October 2nd.",
+      "The speaker said that Mahatma Gandhi had been born on October 2nd.",
+      "The speaker told that Mahatma Gandhi was born on October 2nd.",
       "Both A and C are correct."
     ],
-    "answer": "Both A and C are correct.",
-    "explanation": "'had not done' can be the indirect form of either 'have not done' or 'did not do'. ✅"
+    "answer": "The speaker said that Mahatma Gandhi was born on October 2nd.",
+    "explanation": "Historical birth dates remain in the original past tense. ✅"
   },
   {
-    "question": "Change to Indirect: She said, 'I am busy now, but I shall help you tomorrow.'",
+    "question": "He said, 'The sky is blue.'",
     "options": [
-      "She said that she was busy then but she would help me the next day.",
-      "She said that she is busy now but she will help me tomorrow.",
-      "She said that she was busy then but she shall help me the next day.",
-      "She told that she was busy then but she would help me tomorrow."
+      "He said that the sky was blue.",
+      "He said that the sky is blue.",
+      "He told that the sky is blue.",
+      "He says that the sky is blue."
     ],
-    "answer": "She said that she was busy then but she would help me the next day.",
-    "explanation": "All changes (Tense, Pronoun, Time) must be applied consistently across the compound sentence. ✅"
+    "answer": "He said that the sky is blue.",
+    "explanation": "General physical fact. ✅"
   },
   {
-    "question": "Change to Direct: He told his servant that he might go then.",
+    "question": "She said, 'Man is mortal.'",
     "options": [
-      "He said to his servant, 'You may go now.'",
-      "He said to his servant, 'You can go now.'",
-      "He said to his servant, 'He might go then.'",
-      "He told his servant, 'You may go then.'"
+      "She said that man was mortal.",
+      "She said that man is mortal.",
+      "She told that man is mortal.",
+      "She said that man will be mortal."
     ],
-    "answer": "He said to his servant, 'You may go now.'",
-    "explanation": "'might' ➔ 'may' and 'then' ➔ 'now' in reverse transformation. ✅"
+    "answer": "She said that man is mortal.",
+    "explanation": "Universal truth about humanity. ✅"
   },
   {
-    "question": "Change to Indirect: The captain said, 'Alas! Our enemies are too strong. We must retreat.'",
+    "question": "The priest said, 'Truth always triumphs.'",
     "options": [
-      "The captain exclaimed with sorrow that their enemies were too strong and that they had to retreat.",
-      "The captain said alas and told that enemies are strong.",
-      "The captain exclaimed sadly that our enemies were too strong and we must retreat.",
-      "The captain cried out that the enemies were strong."
+      "The priest said that truth always triumphed.",
+      "The priest said that truth always triumphs.",
+      "The priest told that truth always triumphs.",
+      "The priest said that truth would triumph."
     ],
-    "answer": "The captain exclaimed with sorrow that their enemies were too strong and that they had to retreat.",
-    "explanation": "Exclamatory ('Alas') combined with Assertive ('We must'). ✅"
+    "answer": "The priest said that truth always triumphs.",
+    "explanation": "A moral proverb or universal rule. ✅"
   },
   {
-    "question": "Change to Indirect: 'Wait here till I return,' he said to her.",
+    "question": "The boy said, 'I brush my teeth twice a day.'",
     "options": [
-      "He told her to wait there till he returned.",
-      "He ordered her to wait here till he returned.",
-      "He told her to wait there till I returned.",
-      "He asked her to wait there till he returns."
+      "The boy said that he brushes his teeth twice a day.",
+      "The boy said that he brushed his teeth twice a day.",
+      "The boy told that he brushes his teeth twice a day.",
+      "The boy said that he has been brushing his teeth."
     ],
-    "answer": "He told her to wait there till he returned.",
-    "explanation": "Imperative ('wait') ➔ to wait. Subordinate clause 'till I return' (Present) ➔ 'till he returned' (Past). ✅"
+    "answer": "The boy said that he brushes his teeth twice a day.",
+    "explanation": "Habitual routine. ✅"
+  },
+  {
+    "question": "He said, 'Pluto is a dwarf planet.'",
+    "options": [
+      "He said that Pluto was a dwarf planet.",
+      "He said that Pluto is a dwarf planet.",
+      "He told that Pluto is a dwarf planet.",
+      "He says that Pluto was a dwarf planet."
+    ],
+    "answer": "He said that Pluto is a dwarf planet.",
+    "explanation": "Current scientific classification. ✅"
+  },
+  {
+    "question": "The Geography teacher said, 'Mount Everest is the highest peak.'",
+    "options": [
+      "The teacher said that Mount Everest was the highest peak.",
+      "The teacher said that Mount Everest is the highest peak.",
+      "The teacher told that Mount Everest is the highest peak.",
+      "The teacher said Mount Everest being the highest peak."
+    ],
+    "answer": "The teacher said that Mount Everest is the highest peak.",
+    "explanation": "Geographical truth. ✅"
+  },
+  {
+    "question": "She said, 'Slow and steady wins the race.'",
+    "options": [
+      "She said that slow and steady won the race.",
+      "She said that slow and steady wins the race.",
+      "She told that slow and steady wins the race.",
+      "She said slow and steady winning the race."
+    ],
+    "answer": "She said that slow and steady wins the race.",
+    "explanation": "Proverb. ✅"
+  },
+  {
+    "question": "He said, 'Fortune favors the brave.'",
+    "options": [
+      "He said that fortune favored the brave.",
+      "He said that fortune favors the brave.",
+      "He told that fortune favors the brave.",
+      "He says fortune favors the brave."
+    ],
+    "answer": "He said that fortune favors the brave.",
+    "explanation": "Proverb. ✅"
+  },
+  {
+    "question": "The captain said, 'Discipline makes a man perfect.'",
+    "options": [
+      "The captain said that discipline made a man perfect.",
+      "The captain said that discipline makes a man perfect.",
+      "The captain told that discipline makes a man perfect.",
+      "The captain says discipline makes a man perfect."
+    ],
+    "answer": "The captain said that discipline makes a man perfect.",
+    "explanation": "General statement/Aphorism. ✅"
+  },
+  {
+    "question": "She said, 'The rose smells sweet.'",
+    "options": [
+      "She said that the rose smelled sweet.",
+      "She said that the rose smells sweet.",
+      "She told that the rose smells sweet.",
+      "She says the rose smells sweet."
+    ],
+    "answer": "She said that the rose smells sweet.",
+    "explanation": "Inherent property of an object. ✅"
+  },
+  {
+    "question": "The philosopher said, 'Change is the law of nature.'",
+    "options": [
+      "The philosopher said that change was the law of nature.",
+      "The philosopher said that change is the law of nature.",
+      "The philosopher told that change is the law of nature.",
+      "The philosopher said change being the law of nature."
+    ],
+    "answer": "The philosopher said that change is the law of nature.",
+    "explanation": "Universal philosophical truth. ✅"
+  },
+  {
+    "question": "He said, 'Light travels in a straight line.'",
+    "options": [
+      "He said that light traveled in a straight line.",
+      "He said that light travels in a straight line.",
+      "He told that light travels in a straight line.",
+      "He said that light is traveling in a straight line."
+    ],
+    "answer": "He said that light travels in a straight line.",
+    "explanation": "Scientific truth. ✅"
+  },
+  {
+    "question": "They said, 'The French Revolution took place in 1789.'",
+    "options": [
+      "They said that the French Revolution took place in 1789.",
+      "They said that the French Revolution had taken place in 1789.",
+      "They told that the French Revolution took place in 1789.",
+      "Both A and C are correct."
+    ],
+    "answer": "They said that the French Revolution took place in 1789.",
+    "explanation": "Historical event. ✅"
+  },
+  {
+    "question": "The doctor said, 'Prevention is better than cure.'",
+    "options": [
+      "The doctor said that prevention was better than cure.",
+      "The doctor said that prevention is better than cure.",
+      "The doctor told that prevention is better than cure.",
+      "The doctor says prevention is better than cure."
+    ],
+    "answer": "The doctor said that prevention is better than cure.",
+    "explanation": "Proverb/General medical truth. ✅"
+  },
+  {
+    "question": "He said, 'The sun is a star.'",
+    "options": [
+      "He said that the sun was a star.",
+      "He said that the sun is a star.",
+      "He told that the sun is a star.",
+      "He says the sun is a star."
+    ],
+    "answer": "He said that the sun is a star.",
+    "explanation": "Scientific truth. ✅"
+  },
+  {
+    "question": "She said, 'Plants breathe too.'",
+    "options": [
+      "She said that plants breathed too.",
+      "She said that plants breathe too.",
+      "She told that plants breathe too.",
+      "She says plants are breathing too."
+    ],
+    "answer": "She said that plants breathe too.",
+    "explanation": "Biological fact. ✅"
+  },
+  {
+    "question": "The professor said, 'Columbus discovered America in 1492.'",
+    "options": [
+      "The professor said that Columbus discovered America in 1492.",
+      "The professor said that Columbus had discovered America in 1492.",
+      "The professor told that Columbus discovered America in 1492.",
+      "Both A and C are correct."
+    ],
+    "answer": "The professor said that Columbus discovered America in 1492.",
+    "explanation": "Historical fact. ✅"
   }
 ]
