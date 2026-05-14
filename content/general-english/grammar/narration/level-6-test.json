@@ -1,112 +1,332 @@
 [
   {
-    "question": "Change to Indirect: She said to me, 'I am writing a letter to your brother.'",
+    "question": "He said, 'I have been here for a week.'",
     "options": [
-      "She told me that she was writing a letter to my brother.",
-      "She told me that I was writing a letter to your brother.",
-      "She told me that she is writing a letter to my brother.",
-      "She said to me that she was writing a letter to her brother."
+      "He said that he had been there for a week.",
+      "He said that he has been there for a week.",
+      "He said that he was there for a week.",
+      "He said that I had been there for a week."
     ],
-    "answer": "She told me that she was writing a letter to my brother.",
-    "explanation": "'I' changes to 'she' (Subject) and 'your' changes to 'my' (Object). ✅"
+    "answer": "He said that he had been there for a week.",
+    "explanation": "Present Perfect Continuous (have been) changes to Past Perfect Continuous (had been), and 'here' changes to 'there'. ✅"
   },
   {
-    "question": "Change to Indirect: He said to them, 'You have completed your task.'",
+    "question": "She said, 'These books are mine.'",
     "options": [
-      "He told them that they have completed their task.",
-      "He told them that you had completed your task.",
-      "He told them that they had completed their task.",
-      "He told them that he had completed his task."
-    ],
-    "answer": "He told them that they had completed their task.",
-    "explanation": "Second person 'You' and 'your' change according to the object 'them' ➔ 'they' and 'their'. ✅"
-  },
-  {
-    "question": "Change to Indirect: I said to her, 'I gave you my book yesterday.'",
-    "options": [
-      "I told her that I had given her my book the previous day.",
-      "I told her that she had given me her book the day before.",
-      "I told her that I gave her my book the day before.",
-      "I told her that I had given you my book yesterday."
-    ],
-    "answer": "I told her that I had given her my book the previous day.",
-    "explanation": "Simple Past (gave) ➔ Past Perfect (had given). 'yesterday' ➔ 'the previous day'. ✅"
-  },
-  {
-    "question": "Change to Indirect: The boy said, 'I shall go to Delhi tomorrow.'",
-    "options": [
-      "The boy said that he shall go to Delhi the next day.",
-      "The boy said that he would go to Delhi tomorrow.",
-      "The boy said that he would go to Delhi the next day.",
-      "The boy said that I would go to Delhi the following day."
-    ],
-    "answer": "The boy said that he would go to Delhi the next day.",
-    "explanation": "'Shall/Will' usually changes to 'would' in indirect speech, and 'tomorrow' ➔ 'the next day'. ✅"
-  },
-  {
-    "question": "Change to Indirect: She said, 'These books are mine.'",
-    "options": [
-      "She said that these books were hers.",
       "She said that those books were hers.",
-      "She said that those books are hers.",
-      "She said that these books were mine."
+      "She said that these books were hers.",
+      "She said that those books were mine.",
+      "She said that those books are hers."
     ],
     "answer": "She said that those books were hers.",
-    "explanation": "'These' changes to 'those' and 'mine' changes to 'hers'. ✅"
+    "explanation": "'These' changes to 'those', 'are' to 'were', and 'mine' to 'hers'. ✅"
   },
   {
-    "question": "Change to Indirect: He said, 'I was here last week.'",
+    "question": "The boy said to his mother, 'I am going to school now.'",
     "options": [
-      "He said that he was there last week.",
-      "He said that he had been there the previous week.",
-      "He said that he had been here the previous week.",
-      "He said that he has been there the week before."
+      "The boy told his mother that he was going to school then.",
+      "The boy told his mother that he was going to school now.",
+      "The boy told his mother that I am going to school then.",
+      "The boy told his mother that he is going to school then."
     ],
-    "answer": "He said that he had been there the previous week.",
-    "explanation": "'was' (Past) ➔ 'had been' (Past Perfect). 'here' ➔ 'there' and 'last week' ➔ 'the previous week'. ✅"
+    "answer": "The boy told his mother that he was going to school then.",
+    "explanation": "'Now' must change to 'then' in indirect speech when the reporting verb is in the past. ✅"
   },
   {
-    "question": "Change to Indirect: They said to us, 'We cannot live without water.'",
+    "question": "I said to him, 'I can't give you money today.'",
     "options": [
-      "They told us that they could not live without water.",
-      "They told us that we cannot live without water.",
-      "They told us that they cannot live without water.",
-      "Both B and C are correct."
+      "I told him that I couldn't give him money that day.",
+      "I told him that he couldn't give me money that day.",
+      "I told him that I couldn't give you money today.",
+      "I asked him that I couldn't give him money that day."
     ],
-    "answer": "Both B and C are correct.",
-    "explanation": "Since 'living without water' is a universal fact, the tense remains unchanged. Also, 'we' can refer to humanity in general. ✅"
+    "answer": "I told him that I couldn't give him money that day.",
+    "explanation": "'Today' changes to 'that day' and 'you' (object) changes to 'him'. ✅"
   },
   {
-    "question": "Change to Indirect: Ram said, 'I have been staying in this room for ten days.'",
+    "question": "She said to her sister, 'I will visit you tomorrow.'",
     "options": [
-      "Ram said that he had been staying in that room for ten days.",
-      "Ram said that he has been staying in this room for ten days.",
-      "Ram said that he had been staying in this room for ten days.",
-      "Ram said that I had been staying in that room for ten days."
+      "She told her sister that she would visit her the next day.",
+      "She told her sister that she will visit her tomorrow.",
+      "She told her sister that she would visit you the next day.",
+      "She said to her sister that she would visit her tomorrow."
     ],
-    "answer": "Ram said that he had been staying in that room for ten days.",
-    "explanation": "Present Perfect Continuous ➔ Past Perfect Continuous, and 'this' ➔ 'that'. ✅"
+    "answer": "She told her sister that she would visit her the next day.",
+    "explanation": "Will ➔ Would, You ➔ Her, Tomorrow ➔ The next day. ✅"
   },
   {
-    "question": "Change to Indirect: The old man said, 'I am very tired now.'",
+    "question": "He said, 'I finished this work two days ago.'",
     "options": [
-      "The old man said that he was very tired then.",
-      "The old man said that I was very tired then.",
-      "The old man said that he is very tired now.",
-      "The old man told that he was very tired then."
+      "He said that he had finished that work two days before.",
+      "He said that he finished that work two days ago.",
+      "He said that he had finished this work two days before.",
+      "He told that he has finished that work two days before."
     ],
-    "answer": "The old man said that he was very tired then.",
-    "explanation": "'am' ➔ 'was' and 'now' ➔ 'then'. ✅"
+    "answer": "He said that he had finished that work two days before.",
+    "explanation": "V2 (finished) ➔ Had + V3, This ➔ That, Ago ➔ Before. ✅"
   },
   {
-    "question": "Change to Indirect: She said to her friend, 'I will call you later today.'",
+    "question": "They said to us, 'We shall meet you here next week.'",
     "options": [
-      "She told her friend that she would call her later today.",
-      "She told her friend that she would call her later that day.",
-      "She told her friend that she will call her later that day.",
-      "She said to her friend that she would call her later that day."
+      "They told us that they would meet us there the following week.",
+      "They told us that they should meet us here next week.",
+      "They told us that we would meet them there the following week.",
+      "They said that they will meet us there next week."
     ],
-    "answer": "She told her friend that she would call her later that day.",
-    "explanation": "'Will' ➔ 'would' and 'today' ➔ 'that day'. ✅"
+    "answer": "They told us that they would meet us there the following week.",
+    "explanation": "Shall ➔ Would, Here ➔ There, Next week ➔ The following week. ✅"
+  },
+  {
+    "question": "The teacher said to me, 'I will not tolerate this behavior.'",
+    "options": [
+      "The teacher told me that he would not tolerate that behavior.",
+      "The teacher told me that I would not tolerate this behavior.",
+      "The teacher said that he will not tolerate that behavior.",
+      "The teacher told me that he should not tolerate that behavior."
+    ],
+    "answer": "The teacher told me that he would not tolerate that behavior.",
+    "explanation": "Will ➔ Would, This ➔ That. ✅"
+  },
+  {
+    "question": "Anil said, 'I saw him at the station three days ago.'",
+    "options": [
+      "Anil said that he had seen him at the station three days before.",
+      "Anil said that he saw him at the station three days before.",
+      "Anil told that he had seen him at the station three days ago.",
+      "Anil said that I had seen him at the station three days before."
+    ],
+    "answer": "Anil said that he had seen him at the station three days before.",
+    "explanation": "Saw ➔ Had seen, Ago ➔ Before. ✅"
+  },
+  {
+    "question": "She said, 'My father died a year ago.'",
+    "options": [
+      "She said that her father had died a year before.",
+      "She said that my father had died a year ago.",
+      "She said that her father died a year before.",
+      "She told that her father had died a year ago."
+    ],
+    "answer": "She said that her father had died a year before.",
+    "explanation": "Died ➔ Had died, Ago ➔ Before. ✅"
+  },
+  {
+    "question": "The servant said to the master, 'I have cleaned all these rooms.'",
+    "options": [
+      "The servant told the master that he had cleaned all those rooms.",
+      "The servant told the master that he has cleaned all these rooms.",
+      "The servant said that he had cleaned all those rooms.",
+      "The servant told the master that I had cleaned those rooms."
+    ],
+    "answer": "The servant told the master that he had cleaned all those rooms.",
+    "explanation": "Have cleaned ➔ Had cleaned, These ➔ Those. ✅"
+  },
+  {
+    "question": "He said, 'I am busy just now.'",
+    "options": [
+      "He said that he was busy just then.",
+      "He said that he is busy just now.",
+      "He said that he was busy just now.",
+      "He told that he is busy just then."
+    ],
+    "answer": "He said that he was busy just then.",
+    "explanation": "Am ➔ Was, Now ➔ Then. ✅"
+  },
+  {
+    "question": "She said to me, 'You can stay here tonight.'",
+    "options": [
+      "She told me that I could stay there that night.",
+      "She told me that you could stay here tonight.",
+      "She said that I can stay there that night.",
+      "She told me that I could stay here that night."
+    ],
+    "answer": "She told me that I could stay there that night.",
+    "explanation": "Can ➔ Could, Here ➔ There, Tonight ➔ That night. ✅"
+  },
+  {
+    "question": "The girl said, 'I will do it now or never.'",
+    "options": [
+      "The girl said that she would do it then or never.",
+      "The girl said that she will do it now or never.",
+      "The girl told that she would do it now or never.",
+      "The girl said that she should do it then or never."
+    ],
+    "answer": "The girl said that she would do it then or never.",
+    "explanation": "Will ➔ Would, Now ➔ Then. ✅"
+  },
+  {
+    "question": "Ravi said, 'I shall go to Bengaluru tomorrow.'",
+    "options": [
+      "Ravi said that he would go to Bengaluru the next day.",
+      "Ravi said that I should go to Bengaluru tomorrow.",
+      "Ravi told that he shall go to Bengaluru the next day.",
+      "Ravi said that he will go to Bengaluru the next day."
+    ],
+    "answer": "Ravi said that he would go to Bengaluru the next day.",
+    "explanation": "Shall ➔ Would, Tomorrow ➔ The next day. ✅"
+  },
+  {
+    "question": "I said to her, 'I have seen this place before.'",
+    "options": [
+      "I told her that I had seen that place before.",
+      "I told her that I have seen this place before.",
+      "I told her that she had seen that place before.",
+      "I said that I had seen this place before."
+    ],
+    "answer": "I told her that I had seen that place before.",
+    "explanation": "Have seen ➔ Had seen, This ➔ That. ✅"
+  },
+  {
+    "question": "He said, 'I am glad to be here this evening.'",
+    "options": [
+      "He said that he was glad to be there that evening.",
+      "He said that he is glad to be here this evening.",
+      "He said that he was glad to be here that evening.",
+      "He told that he was glad to be there this evening."
+    ],
+    "answer": "He said that he was glad to be there that evening.",
+    "explanation": "Am ➔ Was, Here ➔ There, This ➔ That. ✅"
+  },
+  {
+    "question": "She said, 'I lost my umbrella yesterday.'",
+    "options": [
+      "She said that she had lost her umbrella the day before.",
+      "She said that she lost her umbrella yesterday.",
+      "She said that she had lost her umbrella yesterday.",
+      "She told that she has lost her umbrella the previous day."
+    ],
+    "answer": "She said that she had lost her umbrella the day before.",
+    "explanation": "Lost ➔ Had lost, Yesterday ➔ The day before / The previous day. ✅"
+  },
+  {
+    "question": "They said, 'We are playing a match today.'",
+    "options": [
+      "They said that they were playing a match that day.",
+      "They said that they are playing a match today.",
+      "They said that we were playing a match that day.",
+      "They told that they played a match that day."
+    ],
+    "answer": "They said that they were playing a match that day.",
+    "explanation": "Are playing ➔ Were playing, Today ➔ That day. ✅"
+  },
+  {
+    "question": "I said to him, 'You did not return the book yesterday.'",
+    "options": [
+      "I told him that he had not returned the book the day before.",
+      "I told him that he did not return the book yesterday.",
+      "I told him that I had not returned the book the previous day.",
+      "I said that he had not returned the book yesterday."
+    ],
+    "answer": "I told him that he had not returned the book the day before.",
+    "explanation": "Did not return ➔ Had not returned, Yesterday ➔ The day before. ✅"
+  },
+  {
+    "question": "The boy said, 'I will not go to school today as I am ill.'",
+    "options": [
+      "The boy said that he would not go to school that day as he was ill.",
+      "The boy said that he will not go to school today as he is ill.",
+      "The boy told that he would not go to school that day as I was ill.",
+      "The boy said that he should not go to school that day as he was ill."
+    ],
+    "answer": "The boy said that he would not go to school that day as he was ill.",
+    "explanation": "Will ➔ Would, Today ➔ That day, Am ➔ Was. ✅"
+  },
+  {
+    "question": "He said to her, 'I gave you a pen yesterday.'",
+    "options": [
+      "He told her that he had given her a pen the day before.",
+      "He told her that he gave her a pen the day before.",
+      "He told her that he has given you a pen yesterday.",
+      "He said that he had given her a pen the previous day."
+    ],
+    "answer": "He told her that he had given her a pen the day before.",
+    "explanation": "Gave ➔ Had given, You ➔ Her, Yesterday ➔ The day before. ✅"
+  },
+  {
+    "question": "She said to me, 'I cannot help you now.'",
+    "options": [
+      "She told me that she could not help me then.",
+      "She told me that she cannot help me now.",
+      "She told me that I could not help her then.",
+      "She said that she could not help me now."
+    ],
+    "answer": "She told me that she could not help me then.",
+    "explanation": "Cannot ➔ Could not, You ➔ Me, Now ➔ Then. ✅"
+  },
+  {
+    "question": "They said, 'We have been waiting here for two hours.'",
+    "options": [
+      "They said that they had been waiting there for two hours.",
+      "They said that they have been waiting here for two hours.",
+      "They said that we had been waiting there for two hours.",
+      "They told that they were waiting there for two hours."
+    ],
+    "answer": "They said that they had been waiting there for two hours.",
+    "explanation": "Have been ➔ Had been, Here ➔ There. ✅"
+  },
+  {
+    "question": "I said to him, 'I will meet you at this place tomorrow.'",
+    "options": [
+      "I told him that I would meet him at that place the next day.",
+      "I told him that I would meet you at this place tomorrow.",
+      "I told him that he would meet me at that place the next day.",
+      "I said that I will meet him at that place the next day."
+    ],
+    "answer": "I told him that I would meet him at that place the next day.",
+    "explanation": "Will ➔ Would, You ➔ Him, This ➔ That, Tomorrow ➔ The next day. ✅"
+  },
+  {
+    "question": "He said, 'I will stay here tonight.'",
+    "options": [
+      "He said that he would stay there that night.",
+      "He said that he will stay here tonight.",
+      "He said that he would stay here that night.",
+      "He told that he is staying there that night."
+    ],
+    "answer": "He said that he would stay there that night.",
+    "explanation": "Will ➔ Would, Here ➔ There, Tonight ➔ That night. ✅"
+  },
+  {
+    "question": "She said, 'I have seen this movie twice.'",
+    "options": [
+      "She said that she had seen that movie twice.",
+      "She said that she has seen this movie twice.",
+      "She said that she had seen this movie twice.",
+      "She told that she saw that movie twice."
+    ],
+    "answer": "She said that she had seen that movie twice.",
+    "explanation": "Have seen ➔ Had seen, This ➔ That. ✅"
+  },
+  {
+    "question": "The man said, 'I was working in this office five years ago.'",
+    "options": [
+      "The man said that he had been working in that office five years before.",
+      "The man said that he was working in that office five years before.",
+      "The man said that he had been working in this office five years ago.",
+      "The man told that he has been working in that office five years before."
+    ],
+    "answer": "The man said that he had been working in that office five years before.",
+    "explanation": "Was working ➔ Had been working, This ➔ That, Ago ➔ Before. ✅"
+  },
+  {
+    "question": "He said to his father, 'I need some money now.'",
+    "options": [
+      "He told his father that he needed some money then.",
+      "He told his father that he needs some money now.",
+      "He told his father that I needed some money then.",
+      "He told his father that he needed some money now."
+    ],
+    "answer": "He told his father that he needed some money then.",
+    "explanation": "Need ➔ Needed, Now ➔ Then. ✅"
+  },
+  {
+    "question": "They said, 'We went to Delhi last year.'",
+    "options": [
+      "They said that they had gone to Delhi the previous year.",
+      "They said that they went to Delhi last year.",
+      "They said that we had gone to Delhi the previous year.",
+      "They told that they have gone to Delhi the year before."
+    ],
+    "answer": "They said that they had gone to Delhi the previous year.",
+    "explanation": "Went ➔ Had gone, Last year ➔ The previous year / The year before. ✅"
   }
 ]
