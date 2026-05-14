@@ -1,0 +1,212 @@
+[
+  {
+    "question": "Identify the error part: It is a (A) / scientifically (B) / accepted fact (C) / that 'Data' is plural (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "In strictly formal competitive English, 'Data' is the plural of 'Datum'. Therefore, the sentence should say 'Data are plural'. ✅"
+  },
+  {
+    "question": "Choose the correct sentence regarding the word 'Force':",
+    "options": [
+      "The force of the wind was high.",
+      "The forces were deployed at the border.",
+      "The force were deployed at the border.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "'Force' (singular) means strength or power. 'Forces' (plural) means the army or troops. Both are correct in their respective contexts. ✅"
+  },
+  {
+    "question": "Fill in the blank: The _____ of the Himalayas is enchanting.",
+    "options": ["sceneries", "scenery", "scenic view", "scenery's"],
+    "answer": "scenery",
+    "explanation": "'Scenery' is an abstract/uncountable noun and cannot be made plural. ✅"
+  },
+  {
+    "question": "Identify the error: The (A) / acoustics (B) / of the (C) / new hall are excellent (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "No error",
+    "explanation": "When subject names (Acoustics, Statistics, Mathematics) refer to properties or data rather than the subject itself, they take a plural verb. ✅"
+  },
+  {
+    "question": "What is the correct plural form of the compound noun 'Maid-servant'?",
+    "options": ["Maids-servant", "Maid-servants", "Maids-servants", "Maid-servant"],
+    "answer": "Maid-servants",
+    "explanation": "In compound nouns where a gender-prefix is used, 'servant' is the principal word that becomes plural. ✅"
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "The custom department has seized the gold.",
+      "The customs department has seized the gold.",
+      "The custom's department has seized the gold.",
+      "The customs' department has seized the gold."
+    ],
+    "answer": "The customs department has seized the gold.",
+    "explanation": "'Custom' means a tradition. 'Customs' (with an 's') refers to the government department collecting duties on goods. ✅"
+  },
+  {
+    "question": "Find the error: All (A) / my (B) / sister-in-laws (C) / are coming today (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "The plural of 'Sister-in-law' is 'Sisters-in-law'. The 's' must be added to the principal word. ✅"
+  },
+  {
+    "question": "Identify the correct usage: 'The _____ of the city are very busy.'",
+    "options": ["thoroughfare", "thoroughfares", "thoroughfare's", "thoroughfaring"],
+    "answer": "thoroughfares",
+    "explanation": "A thoroughfare (a main road) is a countable noun and must be pluralized to match the verb 'are'. ✅"
+  },
+  {
+    "question": "Choose the correct sentence regarding 'Spectacles':",
+    "options": [
+      "I have bought a new spectacle.",
+      "I have bought a new pair of spectacles.",
+      "I have bought new spectacles.",
+      "Both B and C are correct."
+    ],
+    "answer": "Both B and C are correct.",
+    "explanation": "Spectacles is always plural. You can use it alone with a plural verb or use 'a pair of' for a singular count. ✅"
+  },
+  {
+    "question": "Find the error: A (A) / five-men (B) / delegation (C) / met the President (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "In a hyphenated noun acting as an adjective (five-man), the noun must be singular. ✅"
+  },
+  {
+    "question": "What is the plural of 'Apparatus'?",
+    "options": ["Apparatuses", "Apparati", "Apparatus", "Both A and C"],
+    "answer": "Both A and C",
+    "explanation": "In modern English, both 'Apparatuses' and the original Latin 'Apparatus' are acceptable as plural forms. ✅"
+  },
+  {
+    "question": "Fill in the blank: The rich _____ expected to help the poor.",
+    "options": ["is", "are", "was", "has been"],
+    "answer": "are",
+    "explanation": "When 'the' is used with an adjective like 'rich', it acts as a plural noun representing the entire class. ✅"
+  },
+  {
+    "question": "Identify the error: My (A) / father (B) / gave me (C) / many good advices (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'Advice' is uncountable. Use 'much good advice' or 'many pieces of advice'. ✅"
+  },
+  {
+    "question": "Choose the correct collective noun for 'Locusts':",
+    "options": ["A flock of locusts", "A swarm of locusts", "A flight of locusts", "Both B and C"],
+    "answer": "Both B and C",
+    "explanation": "Both 'swarm' and 'flight' are technically correct collective nouns for locusts. ✅"
+  },
+  {
+    "question": "Identify the error: One (A) / of my (B) / best (C) / friend is coming (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "The rule 'One of + plural noun' applies here. It should be 'One of my best friends'. ✅"
+  },
+  {
+    "question": "Fill in the blank: She has read _____ of the Gita.",
+    "options": ["page after page", "pages after pages", "page after pages", "pages after page"],
+    "answer": "page after page",
+    "explanation": "When a noun is repeated after a preposition, it must always be in singular form. ✅"
+  },
+  {
+    "question": "What is the plural of 'Syllabus'?",
+    "options": ["Syllabuses", "Syllabi", "Syllabus", "Both A and B"],
+    "answer": "Both A and B",
+    "explanation": "'Syllabuses' (English plural) and 'Syllabi' (Latin plural) are both correct. ✅"
+  },
+  {
+    "question": "Identify the error: The (A) / wages of (B) / sin (C) / are death (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "In this specific biblical context, 'Wages' means result and takes a singular verb 'is'. ✅"
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "Ten miles are a long distance.",
+      "Ten miles is a long distance.",
+      "Ten mile is a long distance.",
+      "Ten mile are a long distance."
+    ],
+    "answer": "Ten miles is a long distance.",
+    "explanation": "Specific units of distance/time/money are treated as a single unit and take a singular verb. ✅"
+  },
+  {
+    "question": "Find the error: The (A) / police (B) / has (C) / caught the thief (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "The noun 'Police' is always plural and must take the plural verb 'have'. ✅"
+  },
+  {
+    "question": "What is the plural of 'Memorandum'?",
+    "options": ["Memorandums", "Memoranda", "Memorandum", "Both A and B"],
+    "answer": "Both A and B",
+    "explanation": "'Memoranda' is the traditional Latin plural, though 'Memorandums' is increasingly common. ✅"
+  },
+  {
+    "question": "Identify the error: He (A) / is (B) / my (C) / cousin brother (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "The term 'cousin brother' is redundant. Only 'cousin' should be used. ✅"
+  },
+  {
+    "question": "Fill in the blank: I have many _____ to do today.",
+    "options": ["works", "work", "pieces of work", "Both B and C"],
+    "answer": "Both B and C",
+    "explanation": "'Work' is uncountable. You can say 'much work' or 'many pieces of work'. ✅"
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "The first innings is over.",
+      "The first inning is over.",
+      "The first innings are over.",
+      "The first inning are over."
+    ],
+    "answer": "The first innings is over.",
+    "explanation": "'Innings' is a word that looks plural but is used as a singular noun. ✅"
+  },
+  {
+    "question": "Identify the error: All (A) / the (B) / furnitures (C) / were broken (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "'Furniture' is uncountable and never takes an 's'. ✅"
+  },
+  {
+    "question": "What is the plural of 'Oasis'?",
+    "options": ["Oasises", "Oases", "Oasia", "Oasis"],
+    "answer": "Oases",
+    "explanation": "Latin/Greek words ending in '-is' become '-es' in plural. ✅"
+  },
+  {
+    "question": "Fill in the blank: No _____ was available.",
+    "options": ["room", "space", "place", "accommodation"],
+    "answer": "room",
+    "explanation": "In the context of 'unoccupied space for a person', 'room' is the correct term. ✅"
+  },
+  {
+    "question": "Identify the error: The (A) / jury (B) / was divided (C) / in their opinions (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "Because they were 'divided' (individual action), the verb must be plural: 'The jury were divided'. ✅"
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "I bought two dozen apples.",
+      "I bought two dozens apples.",
+      "I bought dozens apples.",
+      "I bought dozen apples."
+    ],
+    "answer": "I bought two dozen apples.",
+    "explanation": "When preceded by a number, 'dozen' remains singular. ✅"
+  },
+  {
+    "question": "Find the error: The (A) / gentry (B) / of this (C) / town is very kind (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'Gentry' (people of good social position) is always plural; use 'are' instead of 'is'. ✅"
+  }
+]
