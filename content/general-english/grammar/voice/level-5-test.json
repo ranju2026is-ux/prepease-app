@@ -1,0 +1,332 @@
+[
+  {
+    "question": "Change into Passive: 'You should have told the truth.'",
+    "options": [
+      "The truth should have told by you.",
+      "The truth should have been told by you.",
+      "The truth should be told by you.",
+      "The truth has been told by you."
+    ],
+    "answer": "The truth should have been told by you.",
+    "explanation": "For Modal Perfects (should/could/must + have), the passive is: **Modal + have + been + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I have to finish this work.'",
+    "options": [
+      "This work has to be finished by me.",
+      "This work has to finish by me.",
+      "This work had to be finished by me.",
+      "This work is to be finished by me."
+    ],
+    "answer": "This work has to be finished by me.",
+    "explanation": "For Infinitives (has to / have to + V1), the passive is: **has to / have to + be + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'They must have completed the task.'",
+    "options": [
+      "The task must be completed by them.",
+      "The task must have been completed by them.",
+      "The task must have completed by them.",
+      "The task had been completed by them."
+    ],
+    "answer": "The task must have been completed by them.",
+    "explanation": "Must have ➔ **Must have been + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'There is no time to lose.'",
+    "options": [
+      "There is no time to be lost.",
+      "There was no time to be lost.",
+      "No time is there to lose.",
+      "There is no time being lost."
+    ],
+    "answer": "There is no time to be lost.",
+    "explanation": "In sentences starting with 'There is...', the infinitive 'to + V1' changes to **'to + be + V3'**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'She could have won the race.'",
+    "options": [
+      "The race could be won by her.",
+      "The race could have won by her.",
+      "The race could have been won by her.",
+      "The race would have been won by her."
+    ],
+    "answer": "The race could have been won by her.",
+    "explanation": "Could have ➔ **Could have been + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'It is time to take tea.'",
+    "options": [
+      "It is time for tea to be taken.",
+      "It is time tea to be taken.",
+      "It was time for tea to be taken.",
+      "It is time for tea being taken."
+    ],
+    "answer": "It is time for tea to be taken.",
+    "explanation": "Structure: **It is time + for + Object + to be + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'He might have stolen the money.'",
+    "options": [
+      "The money might be stolen by him.",
+      "The money might have been stolen by him.",
+      "The money might have stolen by him.",
+      "The money may have been stolen by him."
+    ],
+    "answer": "The money might have been stolen by him.",
+    "explanation": "Might have ➔ **Might have been + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Women like men to flatter them.'",
+    "options": [
+      "Women like to be flattered by men.",
+      "Men are liked by women to flatter them.",
+      "Women are liked to be flattered by men.",
+      "Women like being flattered by men."
+    ],
+    "answer": "Women like to be flattered by men.",
+    "explanation": "The infinitive part 'to flatter them' changes to **'to be flattered'**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'You ought to have respected your elders.'",
+    "options": [
+      "Your elders ought to have respected by you.",
+      "Your elders ought to have been respected by you.",
+      "Your elders ought to be respected by you.",
+      "Your elders should have been respected."
+    ],
+    "answer": "Your elders ought to have been respected by you.",
+    "explanation": "Ought to have ➔ **Ought to have been + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I am to do it.'",
+    "options": [
+      "It is to be done by me.",
+      "It am to be done by me.",
+      "It was to be done by me.",
+      "It is to do by me."
+    ],
+    "answer": "It is to be done by me.",
+    "explanation": "Subject 'It' takes 'is'. 'to + V1' changes to **'to be + V3'**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Somebody must have broken the seal.'",
+    "options": [
+      "The seal must be broken.",
+      "The seal must have been broken.",
+      "The seal had been broken.",
+      "The seal must have broken."
+    ],
+    "answer": "The seal must have been broken.",
+    "explanation": "Must have ➔ **Must have been + V3**. 'Somebody' is omitted. ✅"
+  },
+  {
+    "question": "Change into Passive: 'We expected him to help us.'",
+    "options": [
+      "He was expected to help us.",
+      "It was expected that he would help us.",
+      "He was expected to be helped by us.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Complex sentences involving expectations can be transformed in multiple valid ways. ✅"
+  },
+  {
+    "question": "Change into Passive: 'They had to cancel the meeting.'",
+    "options": [
+      "The meeting has to be cancelled.",
+      "The meeting had to be cancelled by them.",
+      "The meeting was to be cancelled.",
+      "The meeting had to cancel."
+    ],
+    "answer": "The meeting had to be cancelled by them.",
+    "explanation": "Had to + V1 ➔ **Had to + be + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Who could have done this mischief?'",
+    "options": [
+      "By whom could this mischief have been done?",
+      "By whom could this mischief be done?",
+      "Who could this mischief have been done by?",
+      "By whom this mischief could have been done?"
+    ],
+    "answer": "By whom could this mischief have been done?",
+    "explanation": "Who ➔ By whom. Modal Perfect ➔ **Modal + have been + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I want to buy this car.'",
+    "options": [
+      "This car is wanted to be bought by me.",
+      "I want this car to be bought.",
+      "I want this car bought by me.",
+      "I wanted this car to be bought."
+    ],
+    "answer": "I want this car to be bought.",
+    "explanation": "Structure: **Subject + verb + Object + to be + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The students are to submit the assignment.'",
+    "options": [
+      "The assignment is to be submitted by the students.",
+      "The assignment are to be submitted by the students.",
+      "The assignment was to be submitted.",
+      "The assignment has to be submitted."
+    ],
+    "answer": "The assignment is to be submitted by the students.",
+    "explanation": "Assignment (singular) takes 'is'. 'to submit' ➔ **'to be submitted'**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'You may have kept the book.'",
+    "options": [
+      "The book may have been kept by you.",
+      "The book may be kept by you.",
+      "The book might have been kept by you.",
+      "The book had been kept by you."
+    ],
+    "answer": "The book may have been kept by you.",
+    "explanation": "May have ➔ **May have been + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Teachers should have checked the notebooks.'",
+    "options": [
+      "The notebooks should be checked by teachers.",
+      "The notebooks should have been checked by teachers.",
+      "The notebooks must have been checked by teachers.",
+      "The notebooks had been checked."
+    ],
+    "answer": "The notebooks should have been checked by teachers.",
+    "explanation": "Should have ➔ **Should have been + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'There are many things to do.'",
+    "options": [
+      "There are many things to be done.",
+      "There are many things being done.",
+      "Many things are there to do.",
+      "There were many things to be done."
+    ],
+    "answer": "There are many things to be done.",
+    "explanation": "'to do' (infinitive) changes to **'to be done'**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'He has to pay the fine.'",
+    "options": [
+      "The fine has to be paid by him.",
+      "The fine has to be payed by him.",
+      "The fine have to be paid by him.",
+      "The fine was to be paid by him."
+    ],
+    "answer": "The fine has to be paid by him.",
+    "explanation": "Has to + V1 ➔ **Has to + be + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'No one could have predicted the result.'",
+    "options": [
+      "The result could not have been predicted.",
+      "The result could have been not predicted.",
+      "The result could be not predicted.",
+      "The result had not been predicted."
+    ],
+    "answer": "The result could not have been predicted.",
+    "explanation": "Could have + negative ➔ **could not have been + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I would have written a letter.'",
+    "options": [
+      "A letter would have written by me.",
+      "A letter would have been written by me.",
+      "A letter will have been written by me.",
+      "A letter would be written by me."
+    ],
+    "answer": "A letter would have been written by me.",
+    "explanation": "Would have ➔ **Would have been + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'It is time to close the shop.'",
+    "options": [
+      "It is time for the shop to be closed.",
+      "It is time the shop to be closed.",
+      "It is time for the shop being closed.",
+      "It was time for the shop to be closed."
+    ],
+    "answer": "It is time for the shop to be closed.",
+    "explanation": "Pattern: **It is time + for + object + to be + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'They are to open a new branch.'",
+    "options": [
+      "A new branch is to be opened by them.",
+      "A new branch are to be opened by them.",
+      "A new branch has to be opened.",
+      "A new branch is being opened."
+    ],
+    "answer": "A new branch is to be opened by them.",
+    "explanation": "Infinitive 'to open' ➔ **'to be opened'**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'She might have forgotten my name.'",
+    "options": [
+      "My name might have been forgotten by her.",
+      "My name might be forgotten by her.",
+      "My name had been forgotten by her.",
+      "My name might have forgot by her."
+    ],
+    "answer": "My name might have been forgotten by her.",
+    "explanation": "Might have ➔ **Might have been + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'We are to help the poor.'",
+    "options": [
+      "The poor are to be helped by us.",
+      "The poor is to be helped by us.",
+      "The poor has to be helped by us.",
+      "The poor are being helped by us."
+    ],
+    "answer": "The poor are to be helped by us.",
+    "explanation": "'The poor' is plural, so it takes 'are'. 'to help' ➔ **'to be helped'**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Someone must have informed the police.'",
+    "options": [
+      "The police must be informed.",
+      "The police must have been informed.",
+      "The police were informed.",
+      "The police had been informed."
+    ],
+    "answer": "The police must have been informed.",
+    "explanation": "Must have ➔ **Must have been + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'You are to write the answer in ink.'",
+    "options": [
+      "The answer is to be written in ink by you.",
+      "The answer are to be written in ink by you.",
+      "The answer was to be written in ink.",
+      "The answer is to write in ink."
+    ],
+    "answer": "The answer is to be written in ink by you.",
+    "explanation": "Answer (singular) ➔ is. 'to write' ➔ **'to be written'**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'People could have avoided the accident.'",
+    "options": [
+      "The accident could be avoided.",
+      "The accident could have been avoided.",
+      "The accident had been avoided.",
+      "The accident could have avoided."
+    ],
+    "answer": "The accident could have been avoided.",
+    "explanation": "Could have ➔ **Could have been + V3**. 'By people' is omitted. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I had to buy a new laptop.'",
+    "options": [
+      "A new laptop had to be bought by me.",
+      "A new laptop has to be bought by me.",
+      "A new laptop was to be bought by me.",
+      "A new laptop had to buy."
+    ],
+    "answer": "A new laptop had to be bought by me.",
+    "explanation": "Had to + V1 ➔ **Had to + be + V3**. ✅"
+  }
+]
