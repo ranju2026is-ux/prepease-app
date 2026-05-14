@@ -1,0 +1,332 @@
+[
+  {
+    "question": "Change into Passive: 'People say that the earth is round.'",
+    "options": [
+      "It is said that the earth is round.",
+      "The earth is said to be round.",
+      "That the earth is round is said by people.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Sentences starting with 'People say/believe' can be changed using 'It is said that...' or by making the clause subject the main subject. ✅"
+  },
+  {
+    "question": "Change into Active: 'It is expected that the strike will end soon.'",
+    "options": [
+      "We expect the strike to end soon.",
+      "The strike expects to end soon.",
+      "They expected the strike would end soon.",
+      "People are expecting the strike to end soon."
+    ],
+    "answer": "We expect the strike to end soon.",
+    "explanation": "'It is expected' is the passive of 'We/People expect'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I saw him crossing the road.'",
+    "options": [
+      "He was seen crossing the road by me.",
+      "He was seen to cross the road by me.",
+      "He is seen crossing the road by me.",
+      "Crossing the road was seen by him."
+    ],
+    "answer": "He was seen crossing the road by me.",
+    "explanation": "With verbs of perception + V-ing, the passive maintains the V-ing form: **was seen + V-ing**. ✅"
+  },
+  {
+    "question": "Change into Active: 'Honey is tasted sweet.' (Note: Quasi-passive)",
+    "options": [
+      "Honey tastes sweet.",
+      "Honey is sweet when it is tasted.",
+      "Someone tastes honey sweet.",
+      "Honey was sweet when tasted."
+    ],
+    "answer": "Honey tastes sweet.",
+    "explanation": "This is a Quasi-passive verb. The active form is a simple statement of fact. ✅"
+  },
+  {
+    "question": "Change into Passive: 'They made him captain.'",
+    "options": [
+      "He was made captain by them.",
+      "He was made a captain by them.",
+      "Captain was made of him.",
+      "He made captain by them."
+    ],
+    "answer": "He was made captain by them.",
+    "explanation": "When a verb takes a complement (captain), the complement remains after the verb in passive. ✅"
+  },
+  {
+    "question": "Change into Active: 'I was made to laugh by the clown.'",
+    "options": [
+      "The clown made me laugh.",
+      "The clown made me to laugh.",
+      "The clown makes me laugh.",
+      "The clown was making me laugh."
+    ],
+    "answer": "The clown made me laugh.",
+    "explanation": "In Active voice, 'make' takes a bare infinitive (laugh), but in Passive, it takes 'to + V1' (to laugh). ✅"
+  },
+  {
+    "question": "Change into Passive: 'One should keep one's promises.'",
+    "options": [
+      "Promises should be kept.",
+      "One's promises should be kept.",
+      "Promises should be kept by one.",
+      "Promises should kept."
+    ],
+    "answer": "Promises should be kept.",
+    "explanation": "In sentences with indefinite 'One', the agent 'by one' is omitted for better style. ✅"
+  },
+  {
+    "question": "Change into Active: 'Our action was laughed at by them.'",
+    "options": [
+      "They laughed at our action.",
+      "They laughed our action.",
+      "They were laughing at our action.",
+      "They laugh at our action."
+    ],
+    "answer": "They laughed at our action.",
+    "explanation": "'was laughed at' is the passive of Simple Past 'laughed at'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The judge suspected that someone had bribed the witness.'",
+    "options": [
+      "It was suspected by the judge that the witness had been bribed.",
+      "The judge suspected the witness to have been bribed.",
+      "Someone was suspected by the judge to bribe the witness.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Complex sentences often have multiple valid passive structures. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I heard her singing a song.'",
+    "options": [
+      "She was heard singing a song.",
+      "She was heard to sing a song.",
+      "A song was heard being sung by her.",
+      "She is heard singing a song."
+    ],
+    "answer": "She was heard singing a song.",
+    "explanation": "Verbs of perception (heard) followed by a participle (singing) keep the participle in passive. ✅"
+  },
+  {
+    "question": "Change into Active: 'The trees were blown down by the storm.'",
+    "options": [
+      "The storm blew down the trees.",
+      "The storm blows down the trees.",
+      "The storm had blown down the trees.",
+      "The storm was blowing down the trees."
+    ],
+    "answer": "The storm blew down the trees.",
+    "explanation": "Simple Past Passive ➔ Simple Past Active. ✅"
+  },
+  {
+    "question": "Change into Passive: 'You must write to him.'",
+    "options": [
+      "He must be written to.",
+      "He must be written to by you.",
+      "He must written by you.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Maintain the preposition 'to' after the verb. ✅"
+  },
+  {
+    "question": "Change into Active: 'I have been invited to the wedding.'",
+    "options": [
+      "Someone has invited me to the wedding.",
+      "They invited me to the wedding.",
+      "Someone had invited me to the wedding.",
+      "They have inviting me to the wedding."
+    ],
+    "answer": "Someone has invited me to the wedding.",
+    "explanation": "'have been invited' is the passive of Present Perfect. ✅"
+  },
+  {
+    "question": "Change into Passive: 'We saw the ship sinking.'",
+    "options": [
+      "The ship was seen sinking.",
+      "The ship was seen to sink.",
+      "The ship is seen sinking.",
+      "Sinking was seen of the ship."
+    ],
+    "answer": "The ship was seen sinking.",
+    "explanation": "Passive of perception verbs + participle. ✅"
+  },
+  {
+    "question": "Change into Active: 'He is said to be a spy.'",
+    "options": [
+      "People say that he is a spy.",
+      "People said that he was a spy.",
+      "They say he to be a spy.",
+      "He says he is a spy."
+    ],
+    "answer": "People say that he is a spy.",
+    "explanation": "'is said to be' ➔ 'People say that...'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The police are looking into the matter.'",
+    "options": [
+      "The matter is being looked into by the police.",
+      "The matter was being looked into by the police.",
+      "The matter is looked into by the police.",
+      "The matter is being looked by the police."
+    ],
+    "answer": "The matter is being looked into by the police.",
+    "explanation": "Don't omit 'into' in the passive form. ✅"
+  },
+  {
+    "question": "Change into Active: 'Were you frightened by the noise?'",
+    "options": [
+      "Did the noise frighten you?",
+      "Does the noise frighten you?",
+      "Was the noise frightening you?",
+      "Has the noise frightened you?"
+    ],
+    "answer": "Did the noise frighten you?",
+    "explanation": "Interrogative Simple Past Passive ➔ Active. ✅"
+  },
+  {
+    "question": "Change into Passive: 'He likes people to call him Sir.'",
+    "options": [
+      "He likes to be called Sir.",
+      "He likes being called Sir.",
+      "People are liked to call him Sir.",
+      "He is liked to be called Sir."
+    ],
+    "answer": "He likes to be called Sir.",
+    "explanation": "The infinitive 'to call him' becomes 'to be called'. ✅"
+  },
+  {
+    "question": "Change into Active: 'English is spoken all over the world.'",
+    "options": [
+      "People speak English all over the world.",
+      "People spoke English all over the world.",
+      "All over the world English is spoken.",
+      "They are speaking English all over the world."
+    ],
+    "answer": "People speak English all over the world.",
+    "explanation": "Universal action passive ➔ Active. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Someone has picked my pocket.'",
+    "options": [
+      "My pocket has been picked.",
+      "My pocket has been picked by someone.",
+      "My pocket was picked.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "In competitive exams, usually 'by someone' is omitted, but its inclusion is not grammatically wrong. ✅"
+  },
+  {
+    "question": "Change into Active: 'I was offered a chair.'",
+    "options": [
+      "Someone offered me a chair.",
+      "They offer me a chair.",
+      "A chair was offered to me.",
+      "I offered someone a chair."
+    ],
+    "answer": "Someone offered me a chair.",
+    "explanation": "Simple Past Passive ➔ Active. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I saw him open the box.'",
+    "options": [
+      "He was seen to open the box by me.",
+      "He was seen open the box by me.",
+      "He is seen to open the box.",
+      "Opening the box was seen by me."
+    ],
+    "answer": "He was seen to open the box by me.",
+    "explanation": "When the active has a bare infinitive (open), the passive takes 'to + V1' (to open). ✅"
+  },
+  {
+    "question": "Change into Active: 'This house was built by my grandfather.'",
+    "options": [
+      "My grandfather built this house.",
+      "My grandfather has built this house.",
+      "My grandfather builds this house.",
+      "My grandfather was building this house."
+    ],
+    "answer": "My grandfather built this house.",
+    "explanation": "Simple Past Passive ➔ Active. ✅"
+  },
+  {
+    "question": "Change into Passive: 'They say that he is a genius.'",
+    "options": [
+      "It is said that he is a genius.",
+      "He is said to be a genius.",
+      "That he is a genius is said.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Clauses with 'say' have two standard passive forms. ✅"
+  },
+  {
+    "question": "Change into Active: 'Let the truth be told.'",
+    "options": [
+      "Tell the truth.",
+      "Speaking the truth.",
+      "They told the truth.",
+      "The truth is told."
+    ],
+    "answer": "Tell the truth.",
+    "explanation": "Passive Imperative ➔ Active Imperative. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I will write to her.'",
+    "options": [
+      "She will be written to by me.",
+      "She will be written by me.",
+      "She would be written to.",
+      "She will be writing to by me."
+    ],
+    "answer": "She will be written to by me.",
+    "explanation": "Keep the preposition 'to' with 'written'. ✅"
+  },
+  {
+    "question": "Change into Active: 'He was suspected of being a spy.'",
+    "options": [
+      "People suspected him of being a spy.",
+      "They suspect him of being a spy.",
+      "He suspected himself of being a spy.",
+      "They were suspecting him."
+    ],
+    "answer": "People suspected him of being a spy.",
+    "explanation": "Simple Past Passive ➔ Active. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The doctor checked his pulse.'",
+    "options": [
+      "His pulse was checked by the doctor.",
+      "His pulse is checked by the doctor.",
+      "The doctor was checked by his pulse.",
+      "His pulse has been checked."
+    ],
+    "answer": "His pulse was checked by the doctor.",
+    "explanation": "Simple Past Active ➔ Passive. ✅"
+  },
+  {
+    "question": "Change into Active: 'By whom was this book written?'",
+    "options": [
+      "Who wrote this book?",
+      "Who writes this book?",
+      "Who has written this book?",
+      "By who this book was written?"
+    ],
+    "answer": "Who wrote this book?",
+    "explanation": "Interrogative Past Passive ➔ Active. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Don't let them laugh at you.'",
+    "options": [
+      "Don't let yourself be laughed at by them.",
+      "You should not be laughed at by them.",
+      "Let you not be laughed by them.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Reflexive passive or 'should' construction for imperatives. ✅"
+  }
+]
