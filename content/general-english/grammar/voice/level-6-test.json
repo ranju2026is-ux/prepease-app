@@ -1,0 +1,332 @@
+[
+  {
+    "question": "Change into Active: 'The flowers are being watered by the gardener.'",
+    "options": [
+      "The gardener waters the flowers.",
+      "The gardener is watering the flowers.",
+      "The gardener was watering the flowers.",
+      "The gardener has been watering the flowers."
+    ],
+    "answer": "The gardener is watering the flowers.",
+    "explanation": "'is/are being + V3' is the passive of **Present Continuous (is/am/are + V-ing)**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'They laughed at the old man.'",
+    "options": [
+      "The old man was laughed at by them.",
+      "The old man was laughed by them.",
+      "The old man is laughed at by them.",
+      "The old man were laughed at by them."
+    ],
+    "answer": "The old man was laughed at by them.",
+    "explanation": "If a verb has a preposition (laughed **at**), keep it in the passive form before 'by'. ✅"
+  },
+  {
+    "question": "Change into Active: 'A story was being told by the grandmother.'",
+    "options": [
+      "The grandmother told a story.",
+      "The grandmother was telling a story.",
+      "The grandmother is telling a story.",
+      "The grandmother tells a story."
+    ],
+    "answer": "The grandmother was telling a story.",
+    "explanation": "'was being + V3' indicates the **Past Continuous (was/were + V-ing)** tense. ✅"
+  },
+  {
+    "question": "Change into Passive: 'He looks after his parents.'",
+    "options": [
+      "His parents are looked after by him.",
+      "His parents were looked after by him.",
+      "His parents is looked after by him.",
+      "His parents are being looked after by him."
+    ],
+    "answer": "His parents are looked after by him.",
+    "explanation": "Simple Present ➔ **is/am/are + V3**. Don't forget to keep 'after' with 'looked'. ✅"
+  },
+  {
+    "question": "Change into Active: 'By whom was this beautiful painting made?'",
+    "options": [
+      "Who made this beautiful painting?",
+      "Who has made this beautiful painting?",
+      "Who was making this beautiful painting?",
+      "By who made this beautiful painting?"
+    ],
+    "answer": "Who made this beautiful painting?",
+    "explanation": "'By whom was + V3' is the interrogative passive of **Simple Past**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'She is listening to the music.'",
+    "options": [
+      "The music is being listened by her.",
+      "The music is being listened to by her.",
+      "The music was being listened to by her.",
+      "The music is listened to by her."
+    ],
+    "answer": "The music is being listened to by her.",
+    "explanation": "Present Continuous ➔ **is/am/are + being + V3**. Keep the preposition 'to'. ✅"
+  },
+  {
+    "question": "Change into Active: 'Let the orders be carried out.'",
+    "options": [
+      "Carry the orders out.",
+      "Carry out the orders.",
+      "They carried out the orders.",
+      "Carrying out the orders."
+    ],
+    "answer": "Carry out the orders.",
+    "explanation": "'Let + Obj + be + V3' is the passive of an **Imperative (Command)**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'We must write to him.'",
+    "options": [
+      "He must be written to by us.",
+      "He must written by us.",
+      "He must be written by us.",
+      "He should be written to by us."
+    ],
+    "answer": "He must be written to by us.",
+    "explanation": "Modal + be + V3. The preposition 'to' stays with the verb 'written'. ✅"
+  },
+  {
+    "question": "Change into Active: 'I was surprised at his conduct.'",
+    "options": [
+      "His conduct surprised me.",
+      "His conduct surprises me.",
+      "His conduct has surprised me.",
+      "I surprised his conduct."
+    ],
+    "answer": "His conduct surprised me.",
+    "explanation": "'was + V3' is the passive of **Simple Past**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'People are speaking well of him.'",
+    "options": [
+      "He is being spoken well of.",
+      "He is spoken well of by people.",
+      "He was being spoken well of.",
+      "He is being spoken well."
+    ],
+    "answer": "He is being spoken well of.",
+    "explanation": "Present Continuous ➔ **is being + V3**. Prepositions like 'of' are not removed. ✅"
+  },
+  {
+    "question": "Change into Active: 'Has the report been submitted by you?'",
+    "options": [
+      "Did you submit the report?",
+      "Have you submitted the report?",
+      "Has you submitted the report?",
+      "Are you submitting the report?"
+    ],
+    "answer": "Have you submitted the report?",
+    "explanation": "'Has been + V3' is the passive of **Present Perfect (has/have + V3)**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'She turned down my request.'",
+    "options": [
+      "My request is turned down by her.",
+      "My request was turned down by her.",
+      "My request had been turned down by her.",
+      "My request was being turned down by her."
+    ],
+    "answer": "My request was turned down by her.",
+    "explanation": "Simple Past ➔ **was/were + V3**. ✅"
+  },
+  {
+    "question": "Change into Active: 'You are requested to keep off the grass.'",
+    "options": [
+      "Please keep off the grass.",
+      "Keep off the grass.",
+      "Kindly keeping off the grass.",
+      "Let the grass be kept off."
+    ],
+    "answer": "Please keep off the grass.",
+    "explanation": "'You are requested to' is the passive form of **Please + V1**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I cannot agree to your proposal.'",
+    "options": [
+      "Your proposal cannot be agreed to by me.",
+      "Your proposal cannot be agreed by me.",
+      "Your proposal could not be agreed to.",
+      "Your proposal is not agreed to by me."
+    ],
+    "answer": "Your proposal cannot be agreed to by me.",
+    "explanation": "Modal + be + V3. Keep the preposition 'to'. ✅"
+  },
+  {
+    "question": "Change into Active: 'The match will be won by our team.'",
+    "options": [
+      "Our team wins the match.",
+      "Our team will win the match.",
+      "Our team would win the match.",
+      "Our team is winning the match."
+    ],
+    "answer": "Our team will win the match.",
+    "explanation": "'will be + V3' is the passive of **Simple Future**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'They were talking about the meeting.'",
+    "options": [
+      "The meeting was being talked about by them.",
+      "The meeting is being talked about by them.",
+      "The meeting was talked about by them.",
+      "The meeting were being talked about."
+    ],
+    "answer": "The meeting was being talked about by them.",
+    "explanation": "Past Continuous ➔ **was being + V3**. ✅"
+  },
+  {
+    "question": "Change into Active: 'Was the thief caught by the police?'",
+    "options": [
+      "Did the police catch the thief?",
+      "Does the police catch the thief?",
+      "Has the police caught the thief?",
+      "Was the police catching the thief?"
+    ],
+    "answer": "Did the police catch the thief?",
+    "explanation": "'Was + V3' in a question is the passive of **Simple Past (Did + V1)**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I must insist on this point.'",
+    "options": [
+      "This point must be insisted on by me.",
+      "This point must be insisted by me.",
+      "This point should be insisted on by me.",
+      "This point must insisted on by me."
+    ],
+    "answer": "This point must be insisted on by me.",
+    "explanation": "Passive of Modal Verb with a preposition. ✅"
+  },
+  {
+    "question": "Change into Active: 'The medicine should be taken on time.'",
+    "options": [
+      "Take the medicine on time.",
+      "One should take the medicine on time.",
+      "You were to take the medicine on time.",
+      "Let the medicine taken on time."
+    ],
+    "answer": "One should take the medicine on time.",
+    "explanation": "'should be + V3' is the passive of **Should + V1**. Often 'one' or 'you' is used as the active subject. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Who is looking for you?'",
+    "options": [
+      "By whom are you being looked for?",
+      "By whom was you being looked for?",
+      "Who are you being looked for by?",
+      "By whom are you looked for?"
+    ],
+    "answer": "By whom are you being looked for?",
+    "explanation": "Who ➔ By whom. Present Continuous ➔ **are being + V3**. Keep 'for'. ✅"
+  },
+  {
+    "question": "Change into Active: 'I am known to her.'",
+    "options": [
+      "She knows me.",
+      "She known me.",
+      "She is knowing me.",
+      "She has known me."
+    ],
+    "answer": "She knows me.",
+    "explanation": "'am known to' is the passive of **Simple Present** with the verb 'know'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'She was laughing at the clown.'",
+    "options": [
+      "The clown is being laughed at by her.",
+      "The clown was being laughed at by her.",
+      "The clown was laughed at by her.",
+      "The clown was being laughed by her."
+    ],
+    "answer": "The clown was being laughed at by her.",
+    "explanation": "Past Continuous ➔ **was being + V3**. ✅"
+  },
+  {
+    "question": "Change into Active: 'By whom were you taught English?'",
+    "options": [
+      "Who teaches you English?",
+      "Who taught you English?",
+      "Who was teaching you English?",
+      "By who taught you English?"
+    ],
+    "answer": "Who taught you English?",
+    "explanation": "'were taught' is the passive of **Simple Past**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I have to look into the matter.'",
+    "options": [
+      "The matter has to be looked into by me.",
+      "The matter have to be looked into by me.",
+      "The matter had to be looked into by me.",
+      "The matter is to be looked into by me."
+    ],
+    "answer": "The matter has to be looked into by me.",
+    "explanation": "Infinitive passive with preposition. ✅"
+  },
+  {
+    "question": "Change into Active: 'It is expected that she will pass.'",
+    "options": [
+      "People expect that she will pass.",
+      "We expected that she will pass.",
+      "She is expected pass.",
+      "Pass is expected."
+    ],
+    "answer": "People expect that she will pass.",
+    "explanation": "'It is expected' is an impersonal passive of **People expect**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'You must account for your actions.'",
+    "options": [
+      "Your actions must be accounted for by you.",
+      "Your actions must be accounted by you.",
+      "Your actions should be accounted for by you.",
+      "Your actions had to be accounted for."
+    ],
+    "answer": "Your actions must be accounted for by you.",
+    "explanation": "Maintain the phrasal verb 'account for'. ✅"
+  },
+  {
+    "question": "Change into Active: 'The project will have been completed by tomorrow.'",
+    "options": [
+      "We will complete the project by tomorrow.",
+      "We will have completed the project by tomorrow.",
+      "We would have completed the project by tomorrow.",
+      "We shall be completing the project by tomorrow."
+    ],
+    "answer": "We will have completed the project by tomorrow.",
+    "explanation": "'will have been + V3' is the passive of **Future Perfect (will have + V3)**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Who is taking care of the baby?'",
+    "options": [
+      "By whom the baby is being taken care of?",
+      "By whom is the baby being taken care of?",
+      "Who is the baby being taken care of by?",
+      "By whom was the baby being taken care of?"
+    ],
+    "answer": "By whom is the baby being taken care of?",
+    "explanation": "Continuous passive with 'take care of'. ✅"
+  },
+  {
+    "question": "Change into Active: 'He was seen to leave the house.'",
+    "options": [
+      "Someone saw him leaving the house.",
+      "Someone saw him leave the house.",
+      "Someone has seen him leave the house.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Verbs of perception (see, hear) can be followed by a bare infinitive or participle in active voice. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I will send for the doctor.'",
+    "options": [
+      "The doctor will be sent for by me.",
+      "The doctor would be sent for by me.",
+      "The doctor will be send for by me.",
+      "The doctor will be sent by me."
+    ],
+    "answer": "The doctor will be sent for by me.",
+    "explanation": "Simple Future ➔ **will be + V3**. Keep 'for'. ✅"
+  }
+]
