@@ -1,0 +1,332 @@
+[
+  {
+    "question": "The quality of these mangoes _____ not good.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "explanation": "The real subject is 'quality' (singular), not 'mangoes'. Therefore, a singular verb is used. ✅"
+  },
+  {
+    "question": "Slow and steady _____ the race.",
+    "options": [
+      "win",
+      "wins",
+      "winning",
+      "have won"
+    ],
+    "answer": "wins",
+    "explanation": "When two nouns suggest one single idea, the verb is singular. ✅"
+  },
+  {
+    "question": "Neither Ravi nor his friends _____ present today.",
+    "options": [
+      "is",
+      "was",
+      "are",
+      "has"
+    ],
+    "answer": "are",
+    "explanation": "When subjects are joined by 'Neither...nor', the verb agrees with the nearest subject ('friends'). ✅"
+  },
+  {
+    "question": "The committee _____ issued its report.",
+    "options": [
+      "has",
+      "have",
+      "are",
+      "were"
+    ],
+    "answer": "has",
+    "explanation": "Collective nouns take a singular verb when they act as a single unit. ✅"
+  },
+  {
+    "question": "Bread and butter _____ my favorite breakfast.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "explanation": "Bread and butter is treated as a single meal unit. ✅"
+  },
+  {
+    "question": "Economics _____ an interesting subject.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "explanation": "Subjects ending in 's' like Economics, Physics, Mathematics are singular. ✅"
+  },
+  {
+    "question": "A large number of students _____ applied for the exam.",
+    "options": [
+      "has",
+      "have",
+      "is",
+      "was"
+    ],
+    "answer": "have",
+    "explanation": "The phrase 'A large number of' is always followed by a plural verb. ✅"
+  },
+  {
+    "question": "The number of students in this class _____ fifty.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "explanation": "The phrase 'The number of' always takes a singular verb. ✅"
+  },
+  {
+    "question": "Each of the candidates _____ to be interviewed.",
+    "options": [
+      "has",
+      "have",
+      "are",
+      "were"
+    ],
+    "answer": "has",
+    "explanation": "'Each' is always singular. ✅"
+  },
+  {
+    "question": "Ravi as well as his parents _____ coming.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "explanation": "When joined by 'as well as', the verb agrees with the first subject ('Ravi'). ✅"
+  },
+  {
+    "question": "Ten kilometers _____ a long distance to walk.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "explanation": "A specific quantity or distance is treated as a singular unit. ✅"
+  },
+  {
+    "question": "Either you or I _____ responsible for this.",
+    "options": [
+      "is",
+      "are",
+      "am",
+      "was"
+    ],
+    "answer": "am",
+    "explanation": "With 'Either...or', the verb agrees with the nearest subject ('I'). ✅"
+  },
+  {
+    "question": "Gulliver’s Travels _____ written by Jonathan Swift.",
+    "options": [
+      "was",
+      "were",
+      "are",
+      "have"
+    ],
+    "answer": "was",
+    "explanation": "Titles of books, even if they sound plural, are singular. ✅"
+  },
+  {
+    "question": "The jury _____ divided in their opinions.",
+    "options": [
+      "was",
+      "were",
+      "is",
+      "has"
+    ],
+    "answer": "were",
+    "explanation": "When collective nouns show disagreement or act individually, they take a plural verb. ✅"
+  },
+  {
+    "question": "None of the money _____ been spent yet.",
+    "options": [
+      "has",
+      "have",
+      "are",
+      "were"
+    ],
+    "answer": "has",
+    "explanation": "'None' with uncountable nouns is singular. ✅"
+  },
+  {
+    "question": "Many a student _____ made the same mistake.",
+    "options": [
+      "has",
+      "have",
+      "are",
+      "were"
+    ],
+    "answer": "has",
+    "explanation": "'Many a' is always followed by a singular noun and singular verb. ✅"
+  },
+  {
+    "question": "My pair of shoes _____ missing.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "explanation": "The subject is 'pair' (singular), not 'shoes'. ✅"
+  },
+  {
+    "question": "The news _____ too good to be true.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "explanation": "'News' is always uncountable and singular. ✅"
+  },
+  {
+    "question": "Two and two _____ four.",
+    "options": [
+      "make",
+      "makes",
+      "made",
+      "Both A and B"
+    ],
+    "answer": "Both A and B",
+    "explanation": "In mathematical facts, both singular and plural verbs are acceptable, though 'makes' is common. ✅"
+  },
+  {
+    "question": "A team of doctors _____ arrived at the scene.",
+    "options": [
+      "has",
+      "have",
+      "are",
+      "were"
+    ],
+    "answer": "has",
+    "explanation": "Collective unit 'A team' takes a singular verb. ✅"
+  },
+  {
+    "question": "Politics _____ a dirty game.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "explanation": "Politics is treated as a singular concept. ✅"
+  },
+  {
+    "question": "Not only the principal but also the teachers _____ invited.",
+    "options": [
+      "was",
+      "is",
+      "were",
+      "has"
+    ],
+    "answer": "were",
+    "explanation": "Agrees with the nearest subject 'teachers'. ✅"
+  },
+  {
+    "question": "Mathematics _____ my favorite subject in school.",
+    "options": [
+      "is",
+      "are",
+      "was",
+      "Both A and C"
+    ],
+    "answer": "Both A and C",
+    "explanation": "Singular subject; depending on the context of time. ✅"
+  },
+  {
+    "question": "Every boy and every girl _____ given a gift.",
+    "options": [
+      "was",
+      "were",
+      "are",
+      "have"
+    ],
+    "answer": "was",
+    "explanation": "Nouns preceded by 'every' are always singular. ✅"
+  },
+  {
+    "question": "The Arabian Nights _____ a famous book.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "explanation": "Book title = singular. ✅"
+  },
+  {
+    "question": "Some of the rice _____ still raw.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "explanation": "'Some' with uncountable nouns is singular. ✅"
+  },
+  {
+    "question": "The house with its contents _____ insured.",
+    "options": [
+      "was",
+      "were",
+      "are",
+      "have"
+    ],
+    "answer": "was",
+    "explanation": "Words joined by 'with', 'together with', 'including' do not change the number of the subject ('house'). ✅"
+  },
+  {
+    "question": "All the furniture _____ new.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "explanation": "'Furniture' is an uncountable noun and is always singular. ✅"
+  },
+  {
+    "question": "Fire and water _____ not agree.",
+    "options": [
+      "do",
+      "does",
+      "is",
+      "was"
+    ],
+    "answer": "do",
+    "explanation": "Two different things joined by 'and' take a plural verb. ✅"
+  },
+  {
+    "question": "Neither of the two books _____ cheap.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "explanation": "'Neither' is singular. ✅"
+  }
+]
