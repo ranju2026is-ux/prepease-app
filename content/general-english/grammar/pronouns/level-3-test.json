@@ -1,17 +1,50 @@
 [
   {
-    "question": "Fill in the blank: One should be careful about _____ words.",
+    "question": "The man _____ is standing there is my uncle.",
     "options": [
-      "his",
-      "her",
-      "one's",
-      "their"
+      "who",
+      "whom",
+      "whose",
+      "which"
     ],
-    "answer": "one's",
-    "explanation": "If the subject is 'One', the corresponding possessive pronoun must be 'one's'. Using 'his' is a common error. ✅"
+    "answer": "who",
+    "explanation": "'Who' is used as a subjective relative pronoun for people. ✅"
   },
   {
-    "question": "Identify the correct relative pronoun: This is the only information _____ I have.",
+    "question": "This is the girl _____ bag was stolen.",
+    "options": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "answer": "whose",
+    "explanation": "'Whose' is used to show possession (ಯಾರ ಅಥವಾ ಯಾರದ್ದೋ). ✅"
+  },
+  {
+    "question": "The person _____ you met yesterday is a famous singer.",
+    "options": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "answer": "whom",
+    "explanation": "'Whom' is used when the person is the object of the verb 'met'. ✅"
+  },
+  {
+    "question": "I have found the keys _____ I had lost.",
+    "options": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "answer": "which",
+    "explanation": "'Which' is used for animals and non-living things. ✅"
+  },
+  {
+    "question": "All _____ glitters is not gold.",
     "options": [
       "which",
       "that",
@@ -19,131 +52,54 @@
       "whom"
     ],
     "answer": "that",
-    "explanation": "After words like 'only', 'all', 'none', 'same', or superlative adjectives, we must use 'that' instead of 'which'. ✅"
+    "explanation": "After 'All', 'Only', 'Same', 'Little', 'Few', the relative pronoun 'that' is used. ✅"
   },
   {
-    "question": "Choose the correct form: Each of the boys has brought _____ own bag.",
-    "options": [
-      "their",
-      "his",
-      "they",
-      "him"
-    ],
-    "answer": "his",
-    "explanation": "'Each' is a distributive pronoun and is always singular, hence it takes the singular pronoun 'his'. ✅"
-  },
-  {
-    "question": "Identify the error: The team is performing well in their matches.",
-    "options": [
-      "team",
-      "performing",
-      "their",
-      "matches"
-    ],
-    "answer": "their",
-    "explanation": "When a collective noun (team) acts as a single unit, use the singular pronoun 'its'. It should be 'in its matches'. ✅"
-  },
-  {
-    "question": "Fill in the blank: Such a boy _____ you speak of is rare.",
+    "question": "This is the same dog _____ bit me.",
     "options": [
       "who",
-      "as",
+      "which",
       "that",
       "whom"
     ],
-    "answer": "as",
-    "explanation": "After the word 'Such', the relative pronoun 'as' is used to show a category or type. ✅"
-  },
-  {
-    "question": "Choose the correct reflexive pronoun: He prostrated _____ before the king.",
-    "options": [
-      "him",
-      "himself",
-      "his self",
-      "himselfs"
-    ],
-    "answer": "himself",
-    "explanation": "Verbs like 'prostrate', 'absent', 'enjoy', 'avail' often take a reflexive pronoun when there is no direct object. ✅"
-  },
-  {
-    "question": "Identify the correct pronoun: I do not like _____ staying there.",
-    "options": [
-      "you",
-      "your",
-      "yours",
-      "yourself"
-    ],
-    "answer": "your",
-    "explanation": "Before a Gerund (V+ing acting as a noun like 'staying'), a possessive adjective (your, my, his) should be used. ✅"
-  },
-  {
-    "question": "Fill in the blank: Everything _____ he said was true.",
-    "options": [
-      "which",
-      "what",
-      "that",
-      "who"
-    ],
     "answer": "that",
-    "explanation": "After indefinite pronouns like 'everything', 'nothing', 'anything', the relative pronoun 'that' is preferred. ✅"
+    "explanation": "After 'The same', 'that' is the preferred relative pronoun. ✅"
   },
   {
-    "question": "Choose the correct reciprocal pronoun: The three brothers quarreled with _____.",
-    "options": [
-      "each other",
-      "one another",
-      "themselves",
-      "himself"
-    ],
-    "answer": "one another",
-    "explanation": "'Each other' is for two; 'one another' is for more than two. ✅"
-  },
-  {
-    "question": "Identify the correct pronoun: Every teacher and every student was in _____ place.",
-    "options": [
-      "their",
-      "his",
-      "her",
-      "them"
-    ],
-    "answer": "his",
-    "explanation": "When two singular nouns are joined by 'and' but preceded by 'each' or 'every', the pronoun must be singular. ✅"
-  },
-  {
-    "question": "Fill in the blank: The committee has submitted _____ report.",
-    "options": [
-      "their",
-      "its",
-      "his",
-      "them"
-    ],
-    "answer": "its",
-    "explanation": "Collective nouns (committee) take a singular pronoun 'its' when they act unanimously as one body. ✅"
-  },
-  {
-    "question": "Choose the correct relative pronoun: Who am I _____ should doubt you?",
+    "question": "The car _____ color is red belongs to Ravi.",
     "options": [
       "who",
-      "that",
+      "whose",
       "which",
-      "whom"
+      "that"
     ],
-    "answer": "that",
-    "explanation": "When the antecedent is an interrogative pronoun (Who), the relative pronoun 'that' is used to avoid repetition of 'who'. ✅"
+    "answer": "whose",
+    "explanation": "'Whose' can be used for non-living things to show possession in relative clauses. ✅"
   },
   {
-    "question": "Identify the error: Either the teacher or the students failed in his duty.",
+    "question": "To _____ should I address this letter?",
     "options": [
-      "Either",
-      "teacher",
-      "students",
-      "his"
+      "who",
+      "whom",
+      "whose",
+      "which"
     ],
-    "answer": "his",
-    "explanation": "When a singular and a plural noun are joined by 'or'/'nor', the pronoun agrees with the closer noun (students), so it should be 'their'. ✅"
+    "answer": "whom",
+    "explanation": "After a preposition (To), the objective form 'whom' must be used. ✅"
   },
   {
-    "question": "Fill in the blank: This is the same man _____ met me yesterday.",
+    "question": "The boy _____ I thought was honest deceived me.",
+    "options": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "answer": "who",
+    "explanation": "Here 'who' is the subject of the verb 'was'. 'I thought' is just extra information. ✅"
+  },
+  {
+    "question": "Is there anyone _____ can help me?",
     "options": [
       "who",
       "whom",
@@ -151,17 +107,226 @@
       "which"
     ],
     "answer": "that",
-    "explanation": "After 'the same', use 'that' as the relative pronoun. ✅"
+    "explanation": "After indefinite pronouns like 'anyone', 'someone', 'nobody', 'that' is often used. ✅"
   },
   {
-    "question": "Choose the correct pronoun: He and I have finished _____ work.",
+    "question": "The books _____ are on the table are mine.",
     "options": [
-      "my",
-      "our",
-      "their",
-      "your"
+      "who",
+      "whom",
+      "which",
+      "that"
     ],
-    "answer": "our",
-    "explanation": "When 1st person (I) is included in the subject (He and I), the possessive pronoun should be 1st person plural (our). ✅"
+    "answer": "which",
+    "explanation": "For things, 'which' is standard. ✅"
+  },
+  {
+    "question": "He is the only man _____ can do this.",
+    "options": [
+      "who",
+      "whom",
+      "that",
+      "which"
+    ],
+    "answer": "that",
+    "explanation": "After 'The only', use 'that'. ✅"
+  },
+  {
+    "question": "The doctor _____ I consulted was very helpful.",
+    "options": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "answer": "whom",
+    "explanation": "Object of 'consulted' is 'whom'. ✅"
+  },
+  {
+    "question": "This is the house _____ Jack built.",
+    "options": [
+      "who",
+      "whom",
+      "that",
+      "whose"
+    ],
+    "answer": "that",
+    "explanation": "Both 'which' and 'that' can be used for things, but 'that' is common in restrictive clauses. ✅"
+  },
+  {
+    "question": "_____ do you believe will win?",
+    "options": [
+      "Who",
+      "Whom",
+      "Whose",
+      "Which"
+    ],
+    "answer": "Who",
+    "explanation": "'Who' is the subject of 'will win'. ✅"
+  },
+  {
+    "question": "The horse _____ won the race is from India.",
+    "options": [
+      "who",
+      "whom",
+      "which",
+      "whose"
+    ],
+    "answer": "which",
+    "explanation": "Relative pronoun for animals is 'which'. ✅"
+  },
+  {
+    "question": "I know the man _____ son won the prize.",
+    "options": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "answer": "whose",
+    "explanation": "Possessive: the man's son. ✅"
+  },
+  {
+    "question": "The girl _____ I spoke to is my cousin.",
+    "options": [
+      "who",
+      "whom",
+      "that",
+      "Both B and C"
+    ],
+    "answer": "Both B and C",
+    "explanation": "Object of the preposition 'to' (whom) or 'that' can be used. ✅"
+  },
+  {
+    "question": "Such a man _____ he is should be respected.",
+    "options": [
+      "who",
+      "that",
+      "as",
+      "which"
+    ],
+    "answer": "as",
+    "explanation": "After 'Such', the relative pronoun 'as' is used. ✅"
+  },
+  {
+    "question": "I don't know the reason _____ he left.",
+    "options": [
+      "which",
+      "that",
+      "why",
+      "who"
+    ],
+    "answer": "why",
+    "explanation": "'Why' acts as a relative adverb/pronoun for reasons. ✅"
+  },
+  {
+    "question": "Everything _____ he said was true.",
+    "options": [
+      "which",
+      "that",
+      "who",
+      "what"
+    ],
+    "answer": "that",
+    "explanation": "After 'Everything', 'Anything', 'Nothing', use 'that'. ✅"
+  },
+  {
+    "question": "The music _____ they were playing was very loud.",
+    "options": [
+      "who",
+      "whom",
+      "which",
+      "that"
+    ],
+    "answer": "which",
+    "explanation": "Relative pronoun for non-living 'music'. ✅"
+  },
+  {
+    "question": "He _____ is content is rich.",
+    "options": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "answer": "who",
+    "explanation": "General subject 'He who...'. ✅"
+  },
+  {
+    "question": "The lady _____ daughter won the award is here.",
+    "options": [
+      "who",
+      "whom",
+      "whose",
+      "that"
+    ],
+    "answer": "whose",
+    "explanation": "Possessive relation. ✅"
+  },
+  {
+    "question": "This is the worst film _____ I have ever seen.",
+    "options": [
+      "which",
+      "that",
+      "who",
+      "whom"
+    ],
+    "answer": "that",
+    "explanation": "After Superlative degrees (worst, best), 'that' is used. ✅"
+  },
+  {
+    "question": "_____ of the two sisters is taller?",
+    "options": [
+      "Who",
+      "Whom",
+      "Which",
+      "What"
+    ],
+    "answer": "Which",
+    "explanation": "When making a choice between a limited number, 'Which' is used even for people. ✅"
+  },
+  {
+    "question": "The boy _____ everyone likes is my friend.",
+    "options": [
+      "who",
+      "whom",
+      "whose",
+      "that"
+    ],
+    "answer": "whom",
+    "explanation": "Object of 'likes'. ✅"
+  },
+  {
+    "question": "My father, _____ is a doctor, is very kind.",
+    "options": [
+      "who",
+      "whom",
+      "whose",
+      "that"
+    ],
+    "answer": "who",
+    "explanation": "Subject of the non-restrictive clause. ✅"
+  },
+  {
+    "question": "The house _____ windows are broken is empty.",
+    "options": [
+      "who",
+      "whose",
+      "which",
+      "whom"
+    ],
+    "answer": "whose",
+    "explanation": "Possessive for things. ✅"
+  },
+  {
+    "question": "He is a man _____ I know you can trust.",
+    "options": [
+      "who",
+      "whom",
+      "that",
+      "Both B and C"
+    ],
+    "answer": "Both B and C",
+    "explanation": "Object of 'trust'. ✅"
   }
 ]
