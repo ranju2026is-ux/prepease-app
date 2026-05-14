@@ -328,21 +328,31 @@
         window.resolveAnki = async (correct) => {
             const current = state.mistakes[state.currentAnkiIndex];
             const ref = doc(db, 'artifacts', appId, 'users', state.userId, 'mistakes', current.id);
+            const pointId = `mastery_sync_${Date.now()}`;
             
             if (correct) {
                 // If correct: Remove from Mastery Book and add +1 point
                 await deleteDoc(ref);
-                const pointId = `mastery_${Date.now()}`;
                 await setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'progress', pointId), { 
-                    score: 1, points: 1, completedAt: new Date().toISOString() 
+                    score: 1, points: 1, type: 'mastery', completedAt: new Date().toISOString() 
                 });
-                state.ankiSelection = null;
-                // Move to next index (which will be a new random question after state refresh)
-                state.currentAnkiIndex = (state.currentAnkiIndex) % (state.mistakes.length || 1);
             } else {
-                // If wrong: Keep it and move to a random question next
-                state.ankiSelection = null;
-                state.currentAnkiIndex = Math.floor(Math.random() * state.mistakes.length);
+                // If wrong: Keep it and deduct -1 point
+                await setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'progress', pointId), { 
+                    score: -1, points: -1, type: 'mastery', completedAt: new Date().toISOString() 
+                });
+            }
+            
+            state.ankiSelection = null;
+            // Shuffling logic: Move to a different random index
+            if (state.mistakes.length > 1) {
+                let nextIdx;
+                do {
+                    nextIdx = Math.floor(Math.random() * state.mistakes.length);
+                } while (nextIdx === state.currentAnkiIndex && state.mistakes.length > 1);
+                state.currentAnkiIndex = nextIdx;
+            } else {
+                state.currentAnkiIndex = 0;
             }
             window.render();
         };
@@ -460,7 +470,7 @@
             </div>`;
         };
 
-        // --- MAIN RENDER CYCLE ---
+        // --- MAIN CYCLE ---
         window.render = () => {
             const shell = document.getElementById('app-shell'); if(!shell) return;
             const authHeader = document.getElementById('auth-header-btn');
@@ -484,19 +494,20 @@
                     else {
                         const current = state.mistakes[state.currentAnkiIndex]; const ans = state.ankiSelection;
                         shell.innerHTML = `<div class="app-container" ontouchstart="window.handleTouchStart(event)" ontouchend="window.handleTouchEnd(event)">
-                            <div class="bg-indigo-600 p-4 mb-2 rounded-2xl text-white flex justify-between items-center shadow-md">
-                                <div class="flex items-center gap-2 font-black uppercase text-[10px] tracking-widest"><span class="text-xl">🏆</span> Points: ${state.totalPoints}</div>
-                                <div class="flex items-center gap-2 font-black uppercase text-[10px] tracking-widest">Mastery: ${state.mistakes.length} ❤️</div>
+                            <div class="flex justify-between items-center mb-4">
+                                <p class="text-[9px] font-black uppercase text-slate-400 tracking-tighter">Mistake ${state.currentAnkiIndex + 1}/${state.mistakes.length}</p>
+                                <div class="bg-rose-50 text-rose-600 px-4 py-1.5 rounded-full font-black text-xs flex items-center gap-1 border border-rose-100 shadow-sm">
+                                    <span>${state.totalPoints}</span> ❤️
+                                </div>
                             </div>
                             <div class="bg-white p-4 rounded-3xl border h-full flex flex-col overflow-hidden shadow-sm">
-                                <div class="flex justify-between items-center mb-3"><p class="text-[9px] font-bold text-rose-500 uppercase">Mastery Challenge</p><span class="text-[9px] font-black text-slate-400 font-sans uppercase">${state.currentAnkiIndex + 1}/${state.mistakes.length}</span></div>
                                 <div class="scroll-content"><h3 class="text-base font-bold mb-4 leading-tight font-sans">${current.question}</h3><div class="flex flex-col gap-2 ${ans ? 'pointer-events-none' : ''}">${current.options.map(o => {
                                     const isCorrect = o.trim() === current.answer.trim(); let cls = "p-3 border-2 rounded-xl text-xs font-bold transition-all ";
                                     if (ans) { if (isCorrect) cls += "option-correct"; else if (ans.selected === o.trim()) cls += "option-wrong"; else cls += "border-slate-50 opacity-40"; }
                                     else { cls += "border-slate-50 bg-slate-50/30"; }
                                     return `<div onclick="window.state.ankiSelection = {selected: '${o.trim().replace(/'/g, "\\'")}', isCorrect: ${isCorrect}}; window.render();" class="${cls}">${o}</div>`;
                                 }).join('')}</div>${ans ? `<div class="mt-4 p-4 bg-slate-50 rounded-2xl border-l-4 border-rose-500 text-[11px] font-kannada view-transition">${current.explanation || ''}</div>` : ''}</div>
-                                ${ans ? `<div class="mt-2 flex gap-2 h-14"><button onclick="window.resolveAnki(${ans.isCorrect})" class="flex-1 ${ans.isCorrect ? 'bg-emerald-600' : 'bg-rose-600'} text-white rounded-xl font-bold text-xs uppercase shadow-md font-sans">${ans.isCorrect ? 'Got it ✅ (+1)' : 'Try again ❌'}</button></div>` : `<div class="mt-2 text-center text-slate-300 text-[9px] uppercase tracking-widest py-2">Select answer to review</div>`}
+                                ${ans ? `<div class="mt-2 flex gap-2 h-14"><button onclick="window.resolveAnki(${ans.isCorrect})" class="flex-1 ${ans.isCorrect ? 'bg-emerald-600' : 'bg-rose-600'} text-white rounded-xl font-bold text-xs uppercase shadow-md font-sans">${ans.isCorrect ? 'Got it ✅ (+1)' : 'Hard ❌ (-1)'}</button></div>` : `<div class="mt-2 text-center text-slate-300 text-[9px] uppercase tracking-widest py-2">Select answer to review</div>`}
                             </div>
                         </div>`;
                     }
@@ -521,7 +532,7 @@
         });
 
         window.addEventListener('popstate', (e) => { if (e.state && e.state.view) window.navigateTo(e.state.view, e.state.params, true); else window.navigateTo('home', {}, true); });
-        setInterval(() => { const el = document.getElementById('floating-quote'); if (el) { el.style.opacity = '0'; setTimeout(() => { el.innerText = ["Qualify your dreams. 🎯", "Focus leads to mastery. 🏛️", "Consistency wins. 🏆", "Learn from errors. 📚"][Math.floor(Math.random()*4)]; el.style.opacity = '1'; }, 400); } }, 8000);
+        setInterval(() => { const el = document.getElementById('floating-quote'); if (el) { el.style.opacity = '0'; setTimeout(() => { el.innerText = ["Believe. Achieve. Qualify. 🏛️", "Focus leads to mastery. 🎯", "Consistency wins. 🏆", "Learn from errors. 📚"][Math.floor(Math.random()*4)]; el.style.opacity = '1'; }, 400); } }, 8000);
         window.render();
         window.resolveAnki = resolveAnki;
     </script>
