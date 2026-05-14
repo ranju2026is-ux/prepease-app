@@ -1,0 +1,167 @@
+[
+  {
+    "question": "Identify the verb type: The boy *laughed* loudly.",
+    "options": [
+      "Transitive Verb",
+      "Intransitive Verb",
+      "Auxiliary Verb",
+      "Modal Verb"
+    ],
+    "answer": "Intransitive Verb",
+    "explanation": "'Laugh' does not require an object to complete its meaning. Hence, it is an Intransitive Verb. ✅"
+  },
+  {
+    "question": "Choose the correct verb form: He has _____ all the milk.",
+    "options": [
+      "drink",
+      "drank",
+      "drunk",
+      "drinking"
+    ],
+    "answer": "drunk",
+    "explanation": "After 'has/have/had', the third form of the verb (V3) must be used. Drink (V1) - Drank (V2) - Drunk (V3). ✅"
+  },
+  {
+    "question": "Identify the Transitive verb in the following:",
+    "options": [
+      "The sun shines.",
+      "Birds fly.",
+      "He wrote a letter.",
+      "She slept soundly."
+    ],
+    "answer": "He wrote a letter.",
+    "explanation": "'Wrote' is a transitive verb here because it has a direct object 'a letter'. ✅"
+  },
+  {
+    "question": "Fill in the blank: The sun _____ in the east.",
+    "options": [
+      "rise",
+      "rises",
+      "rose",
+      "raised"
+    ],
+    "answer": "rises",
+    "explanation": "For universal truths and habitual actions with singular subjects, we use V1 + s/es (rises). ✅"
+  },
+  {
+    "question": "Choose the correct past participle: The bird has _____ away.",
+    "options": [
+      "fly",
+      "flew",
+      "flown",
+      "flying"
+    ],
+    "answer": "flown",
+    "explanation": "Fly (V1) - Flew (V2) - Flown (V3). After 'has', we use V3. ✅"
+  },
+  {
+    "question": "Identify the Auxiliary (Helping) verb: They are playing football.",
+    "options": [
+      "They",
+      "are",
+      "playing",
+      "football"
+    ],
+    "answer": "are",
+    "explanation": "'Are' is the auxiliary verb that helps the main verb 'playing' form the continuous tense. ✅"
+  },
+  {
+    "question": "Fill in the blank: He _____ his work yesterday.",
+    "options": [
+      "finish",
+      "finishes",
+      "finished",
+      "has finished"
+    ],
+    "answer": "finished",
+    "explanation": "The word 'yesterday' indicates Simple Past Tense, so the V2 form 'finished' is used. ✅"
+  },
+  {
+    "question": "Choose the correct verb: Please _____ the book on the table.",
+    "options": [
+      "lie",
+      "lay",
+      "lain",
+      "lied"
+    ],
+    "answer": "lay",
+    "explanation": "'Lay' means to put something down (Transitive), whereas 'Lie' means to rest (Intransitive). ✅"
+  },
+  {
+    "question": "What is the V3 (Past Participle) form of 'Break'?",
+    "options": [
+      "Break",
+      "Broke",
+      "Broken",
+      "Breaking"
+    ],
+    "answer": "Broken",
+    "explanation": "Break (V1) - Broke (V2) - Broken (V3). ✅"
+  },
+  {
+    "question": "Identify the error: She *singed* a beautiful song last night.",
+    "options": [
+      "She",
+      "singed",
+      "beautiful",
+      "night"
+    ],
+    "answer": "singed",
+    "explanation": "'Sing' is an irregular verb. Its past form (V2) is 'sang', not 'singed'. ✅"
+  },
+  {
+    "question": "Fill in the blank: I _____ a movie last weekend.",
+    "options": [
+      "see",
+      "saw",
+      "seen",
+      "seeing"
+    ],
+    "answer": "saw",
+    "explanation": "Simple Past requires V2 (saw). ✅"
+  },
+  {
+    "question": "Choose the correct verb: The bell _____ at 9:00 AM every day.",
+    "options": [
+      "ring",
+      "rings",
+      "rang",
+      "rung"
+    ],
+    "answer": "rings",
+    "explanation": "Habitual action with a singular subject (The bell) takes V1 + s. ✅"
+  },
+  {
+    "question": "Identify the verb: The cat *is* sleeping.",
+    "options": [
+      "Main Verb",
+      "Helping Verb",
+      "Adverb",
+      "Noun"
+    ],
+    "answer": "Helping Verb",
+    "explanation": "In this sentence, 'is' helps 'sleeping' to show the present continuous state. ✅"
+  },
+  {
+    "question": "Fill in the blank: He has _____ to Bengaluru.",
+    "options": [
+      "go",
+      "went",
+      "gone",
+      "going"
+    ],
+    "answer": "gone",
+    "explanation": "Go (V1) - Went (V2) - Gone (V3). We use V3 after 'has'. ✅"
+  },
+  {
+    "question": "What is the V2 form of 'Run'?",
+    "options": [
+      "Run",
+      "Ran",
+      "Runs",
+      "Running"
+    ],
+    "answer": "Ran",
+    "explanation": "Run (V1) - Ran (V2) - Run (V3). ✅"
+  }
+]
