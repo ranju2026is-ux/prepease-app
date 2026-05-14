@@ -1,0 +1,332 @@
+[
+  {
+    "question": "_____ is a good exercise.",
+    "options": [
+      "Walk",
+      "Walked",
+      "Walking",
+      "To walking"
+    ],
+    "answer": "Walking",
+    "explanation": "Here 'Walking' acts as a Gerund (a verb acting as a noun) and is the subject of the sentence. ✅"
+  },
+  {
+    "question": "I want _____ a doctor.",
+    "options": [
+      "become",
+      "becoming",
+      "to become",
+      "became"
+    ],
+    "answer": "to become",
+    "explanation": "The verb 'want' is usually followed by an infinitive (to + verb). ✅"
+  },
+  {
+    "question": "He is fond of _____ novels.",
+    "options": [
+      "read",
+      "reading",
+      "to read",
+      "reads"
+    ],
+    "answer": "reading",
+    "explanation": "After a preposition (of), we generally use a Gerund (-ing form). ✅"
+  },
+  {
+    "question": "I saw him _____ the street.",
+    "options": [
+      "cross",
+      "crossed",
+      "to cross",
+      "crosses"
+    ],
+    "answer": "cross",
+    "explanation": "After verbs of perception (see, hear, watch), we use a bare infinitive or a participle. ✅"
+  },
+  {
+    "question": "_____ is human; to forgive is divine.",
+    "options": [
+      "Err",
+      "To err",
+      "Erring",
+      "Erred"
+    ],
+    "answer": "To err",
+    "explanation": "This is a famous proverb where 'To err' is used as an Infinitive subject. ✅"
+  },
+  {
+    "question": "The glass was _____; I couldn't drink from it.",
+    "options": [
+      "break",
+      "breaking",
+      "broken",
+      "to break"
+    ],
+    "answer": "broken",
+    "explanation": "Here 'broken' acts as a Past Participle (adjective) describing the glass. ✅"
+  },
+  {
+    "question": "Stop _____ a noise in the class.",
+    "options": [
+      "make",
+      "to make",
+      "making",
+      "made"
+    ],
+    "answer": "making",
+    "explanation": "The verb 'stop' is followed by a Gerund when referring to an ongoing action. ✅"
+  },
+  {
+    "question": "He came here _____ me.",
+    "options": [
+      "see",
+      "seeing",
+      "to see",
+      "saw"
+    ],
+    "answer": "to see",
+    "explanation": "Used as an Infinitive of purpose (ಯಾವುದಕ್ಕಾಗಿ ಬಂದನು?). ✅"
+  },
+  {
+    "question": "I am sorry _____ you.",
+    "options": [
+      "disturb",
+      "disturbing",
+      "to disturb",
+      "disturbed"
+    ],
+    "answer": "to disturb",
+    "explanation": "After adjectives like 'sorry', 'happy', 'glad', we use the infinitive. ✅"
+  },
+  {
+    "question": "It is no use _____ over spilt milk.",
+    "options": [
+      "cry",
+      "crying",
+      "to cry",
+      "cried"
+    ],
+    "answer": "crying",
+    "explanation": "The phrase 'It is no use' is always followed by a Gerund. ✅"
+  },
+  {
+    "question": "She finished _____ her work.",
+    "options": [
+      "write",
+      "writing",
+      "to write",
+      "written"
+    ],
+    "answer": "writing",
+    "explanation": "The verb 'finish' is followed by a Gerund. ✅"
+  },
+  {
+    "question": "I avoid _____ to him.",
+    "options": [
+      "talk",
+      "talking",
+      "to talk",
+      "talked"
+    ],
+    "answer": "talking",
+    "explanation": "The verb 'avoid' requires a Gerund after it. ✅"
+  },
+  {
+    "question": "The _____ sun looks very beautiful.",
+    "options": [
+      "rise",
+      "rising",
+      "rose",
+      "risen"
+    ],
+    "answer": "rising",
+    "explanation": "Here 'rising' is a Present Participle acting as an adjective for 'sun'. ✅"
+  },
+  {
+    "question": "You had better _____ now.",
+    "options": [
+      "go",
+      "to go",
+      "going",
+      "gone"
+    ],
+    "answer": "go",
+    "explanation": "After 'had better', we use a bare infinitive (without 'to'). ✅"
+  },
+  {
+    "question": "He was accused of _____ the money.",
+    "options": [
+      "steal",
+      "stealing",
+      "stolen",
+      "to steal"
+    ],
+    "answer": "stealing",
+    "explanation": "After the preposition 'of', use the gerund form. ✅"
+  },
+  {
+    "question": "I would like _____ you.",
+    "options": [
+      "help",
+      "helping",
+      "to help",
+      "helped"
+    ],
+    "answer": "to help",
+    "explanation": "'Would like' is followed by an infinitive. ✅"
+  },
+  {
+    "question": "The boy was punished for _____ a lie.",
+    "options": [
+      "tell",
+      "telling",
+      "told",
+      "to tell"
+    ],
+    "answer": "telling",
+    "explanation": "Preposition 'for' is followed by a gerund. ✅"
+  },
+  {
+    "question": "I found the door _____.",
+    "options": [
+      "lock",
+      "locking",
+      "locked",
+      "to lock"
+    ],
+    "answer": "locked",
+    "explanation": "Past participle 'locked' describes the state of the door. ✅"
+  },
+  {
+    "question": "He kept me _____ for an hour.",
+    "options": [
+      "wait",
+      "waiting",
+      "to wait",
+      "waited"
+    ],
+    "answer": "waiting",
+    "explanation": "The verb 'keep' is followed by the gerund form. ✅"
+  },
+  {
+    "question": "_____ is believing.",
+    "options": [
+      "See",
+      "Saw",
+      "Seeing",
+      "To seeing"
+    ],
+    "answer": "Seeing",
+    "explanation": "Gerund subject 'Seeing'. ✅"
+  },
+  {
+    "question": "She is too weak _____.",
+    "options": [
+      "walk",
+      "walking",
+      "to walk",
+      "walked"
+    ],
+    "answer": "to walk",
+    "explanation": "The structure 'too + adjective + infinitive' (too weak to walk). ✅"
+  },
+  {
+    "question": "He decided _____ his car.",
+    "options": [
+      "sell",
+      "selling",
+      "to sell",
+      "sold"
+    ],
+    "answer": "to sell",
+    "explanation": "The verb 'decide' takes an infinitive. ✅"
+  },
+  {
+    "question": "I don't mind _____ you a hand.",
+    "options": [
+      "lend",
+      "lending",
+      "to lend",
+      "lent"
+    ],
+    "answer": "lending",
+    "explanation": "The verb 'mind' is followed by a gerund. ✅"
+  },
+  {
+    "question": "The _____ child was crying for its mother.",
+    "options": [
+      "lose",
+      "losing",
+      "lost",
+      "to lose"
+    ],
+    "answer": "lost",
+    "explanation": "Past participle 'lost' acts as an adjective. ✅"
+  },
+  {
+    "question": "Please let me _____.",
+    "options": [
+      "go",
+      "to go",
+      "going",
+      "gone"
+    ],
+    "answer": "go",
+    "explanation": "After 'let', use a bare infinitive. ✅"
+  },
+  {
+    "question": "He forgot _____ the letter.",
+    "options": [
+      "post",
+      "posting",
+      "to post",
+      "posted"
+    ],
+    "answer": "to post",
+    "explanation": "To forget to do an intended task requires an infinitive. ✅"
+  },
+  {
+    "question": "I remember _____ him last year.",
+    "options": [
+      "see",
+      "seeing",
+      "to see",
+      "saw"
+    ],
+    "answer": "seeing",
+    "explanation": "To remember a past action requires a gerund. ✅"
+  },
+  {
+    "question": "It is easy _____ others.",
+    "options": [
+      "advise",
+      "advising",
+      "to advise",
+      "advised"
+    ],
+    "answer": "to advise",
+    "explanation": "Adjective + infinitive structure. ✅"
+  },
+  {
+    "question": "I am looking forward to _____ you.",
+    "options": [
+      "meet",
+      "meeting",
+      "to meet",
+      "met"
+    ],
+    "answer": "meeting",
+    "explanation": "The phrase 'looking forward to' is a phrasal verb that takes a gerund. ✅"
+  },
+  {
+    "question": "_____ the tiger, he ran away.",
+    "options": [
+      "See",
+      "Saw",
+      "Seeing",
+      "Seen"
+    ],
+    "answer": "Seeing",
+    "explanation": "Present participle phrase used to show reason or time. ✅"
+  }
+]
