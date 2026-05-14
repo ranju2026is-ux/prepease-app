@@ -1,0 +1,167 @@
+[
+  {
+    "question": "Fill in the blank: I was surprised at _____ leaving the job so suddenly.",
+    "options": [
+      "him",
+      "his",
+      "he",
+      "himself"
+    ],
+    "answer": "his",
+    "explanation": "A Gerund (leaving) should be preceded by a possessive adjective (his/my/your) rather than an objective pronoun. ✅"
+  },
+  {
+    "question": "Choose the correct pronoun: If I were _____, I would not go there.",
+    "options": [
+      "him",
+      "he",
+      "his",
+      "himself"
+    ],
+    "answer": "he",
+    "explanation": "After 'to be' verbs (is, was, were), the subjective case (I, He, She, They) is used when it functions as a complement. ✅"
+  },
+  {
+    "question": "Identify the correct form: My brother is as strong as _____.",
+    "options": [
+      "me",
+      "I",
+      "myself",
+      "mine"
+    ],
+    "answer": "I",
+    "explanation": "In formal comparisons using 'as...as' or 'than', the subjective case (I) is required because the sentence implies 'as I am'. ✅"
+  },
+  {
+    "question": "Fill in the blank: The houses of the rich are grander than _____ of the poor.",
+    "options": [
+      "that",
+      "those",
+      "it",
+      "them"
+    ],
+    "answer": "those",
+    "explanation": "To avoid repetition of the plural noun 'houses', the demonstrative pronoun 'those' must be used. ✅"
+  },
+  {
+    "question": "Identify the error: This is the man who I think committed the crime.",
+    "options": [
+      "This",
+      "who",
+      "think",
+      "committed"
+    ],
+    "answer": "No Error",
+    "explanation": "When 'I think' or 'I believe' is a parenthetical expression, 'who' remains the subject of the following verb (committed). ✅"
+  },
+  {
+    "question": "Choose the correct pronoun: Each of the volunteers offered _____ services.",
+    "options": [
+      "their",
+      "his",
+      "our",
+      "them"
+    ],
+    "answer": "his",
+    "explanation": "Despite the plural 'volunteers', 'Each' makes the subject singular, requiring the singular possessive 'his'. ✅"
+  },
+  {
+    "question": "Fill in the blank: Both you and _____ are expected to be present.",
+    "options": [
+      "he",
+      "him",
+      "himself",
+      "his"
+    ],
+    "answer": "he",
+    "explanation": "The subject of the sentence must be in the subjective case (He). The 2-3-1 rule also places the 3rd person after the 2nd person. ✅"
+  },
+  {
+    "question": "Identify the correct relative pronoun: There is no one _____ thinks so.",
+    "options": [
+      "who",
+      "that",
+      "but",
+      "which"
+    ],
+    "answer": "but",
+    "explanation": "In negative contexts, 'but' acts as a relative pronoun meaning 'who does not'. ✅"
+  },
+  {
+    "question": "Choose the correct reflexive pronoun: He enjoyed _____ during the holidays.",
+    "options": [
+      "himself",
+      "him",
+      "his",
+      "his self"
+    ],
+    "answer": "himself",
+    "explanation": "The verb 'enjoy' requires an object. If no object is mentioned, a reflexive pronoun must be used. ✅"
+  },
+  {
+    "question": "Fill in the blank: This is the same lady _____ met me in the park.",
+    "options": [
+      "who",
+      "whom",
+      "that",
+      "which"
+    ],
+    "answer": "that",
+    "explanation": "After 'the same', 'that' is the mandatory relative pronoun. ✅"
+  },
+  {
+    "question": "Identify the correct pronoun: Neither of the two plans has _____ own merits.",
+    "options": [
+      "its",
+      "it's",
+      "their",
+      "his"
+    ],
+    "answer": "its",
+    "explanation": "'Neither' is singular and 'plans' are non-living, so 'its' (without apostrophe) is the correct possessive. ✅"
+  },
+  {
+    "question": "Choose the correct form: You and _____ are good friends.",
+    "options": [
+      "me",
+      "I",
+      "my",
+      "myself"
+    ],
+    "answer": "I",
+    "explanation": "Subjective case 'I' is used as part of the compound subject. ✅"
+  },
+  {
+    "question": "Fill in the blank: To _____ were you speaking?",
+    "options": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "answer": "whom",
+    "explanation": "After a preposition (To), the objective case 'whom' must be used. ✅"
+  },
+  {
+    "question": "Identify the error: He is one of those men who does not cheat.",
+    "options": [
+      "He",
+      "those",
+      "who",
+      "does"
+    ],
+    "answer": "does",
+    "explanation": "The relative pronoun 'who' refers to 'men' (plural), so the verb should be plural 'do' instead of 'does'. ✅"
+  },
+  {
+    "question": "Choose the correct option: I am better than _____.",
+    "options": [
+      "him",
+      "he",
+      "his",
+      "himself"
+    ],
+    "answer": "he",
+    "explanation": "In formal comparison, 'I am better than he (is)' is the grammatically correct structure. ✅"
+  }
+]
