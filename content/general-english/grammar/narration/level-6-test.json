@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Change to Indirect: She said to me, 'I am writing a letter to your brother.'",
+    "options": [
+      "She told me that she was writing a letter to my brother.",
+      "She told me that I was writing a letter to your brother.",
+      "She told me that she is writing a letter to my brother.",
+      "She said to me that she was writing a letter to her brother."
+    ],
+    "answer": "She told me that she was writing a letter to my brother.",
+    "explanation": "'I' changes to 'she' (Subject) and 'your' changes to 'my' (Object). ✅"
+  },
+  {
+    "question": "Change to Indirect: He said to them, 'You have completed your task.'",
+    "options": [
+      "He told them that they have completed their task.",
+      "He told them that you had completed your task.",
+      "He told them that they had completed their task.",
+      "He told them that he had completed his task."
+    ],
+    "answer": "He told them that they had completed their task.",
+    "explanation": "Second person 'You' and 'your' change according to the object 'them' ➔ 'they' and 'their'. ✅"
+  },
+  {
+    "question": "Change to Indirect: I said to her, 'I gave you my book yesterday.'",
+    "options": [
+      "I told her that I had given her my book the previous day.",
+      "I told her that she had given me her book the day before.",
+      "I told her that I gave her my book the day before.",
+      "I told her that I had given you my book yesterday."
+    ],
+    "answer": "I told her that I had given her my book the previous day.",
+    "explanation": "Simple Past (gave) ➔ Past Perfect (had given). 'yesterday' ➔ 'the previous day'. ✅"
+  },
+  {
+    "question": "Change to Indirect: The boy said, 'I shall go to Delhi tomorrow.'",
+    "options": [
+      "The boy said that he shall go to Delhi the next day.",
+      "The boy said that he would go to Delhi tomorrow.",
+      "The boy said that he would go to Delhi the next day.",
+      "The boy said that I would go to Delhi the following day."
+    ],
+    "answer": "The boy said that he would go to Delhi the next day.",
+    "explanation": "'Shall/Will' usually changes to 'would' in indirect speech, and 'tomorrow' ➔ 'the next day'. ✅"
+  },
+  {
+    "question": "Change to Indirect: She said, 'These books are mine.'",
+    "options": [
+      "She said that these books were hers.",
+      "She said that those books were hers.",
+      "She said that those books are hers.",
+      "She said that these books were mine."
+    ],
+    "answer": "She said that those books were hers.",
+    "explanation": "'These' changes to 'those' and 'mine' changes to 'hers'. ✅"
+  },
+  {
+    "question": "Change to Indirect: He said, 'I was here last week.'",
+    "options": [
+      "He said that he was there last week.",
+      "He said that he had been there the previous week.",
+      "He said that he had been here the previous week.",
+      "He said that he has been there the week before."
+    ],
+    "answer": "He said that he had been there the previous week.",
+    "explanation": "'was' (Past) ➔ 'had been' (Past Perfect). 'here' ➔ 'there' and 'last week' ➔ 'the previous week'. ✅"
+  },
+  {
+    "question": "Change to Indirect: They said to us, 'We cannot live without water.'",
+    "options": [
+      "They told us that they could not live without water.",
+      "They told us that we cannot live without water.",
+      "They told us that they cannot live without water.",
+      "Both B and C are correct."
+    ],
+    "answer": "Both B and C are correct.",
+    "explanation": "Since 'living without water' is a universal fact, the tense remains unchanged. Also, 'we' can refer to humanity in general. ✅"
+  },
+  {
+    "question": "Change to Indirect: Ram said, 'I have been staying in this room for ten days.'",
+    "options": [
+      "Ram said that he had been staying in that room for ten days.",
+      "Ram said that he has been staying in this room for ten days.",
+      "Ram said that he had been staying in this room for ten days.",
+      "Ram said that I had been staying in that room for ten days."
+    ],
+    "answer": "Ram said that he had been staying in that room for ten days.",
+    "explanation": "Present Perfect Continuous ➔ Past Perfect Continuous, and 'this' ➔ 'that'. ✅"
+  },
+  {
+    "question": "Change to Indirect: The old man said, 'I am very tired now.'",
+    "options": [
+      "The old man said that he was very tired then.",
+      "The old man said that I was very tired then.",
+      "The old man said that he is very tired now.",
+      "The old man told that he was very tired then."
+    ],
+    "answer": "The old man said that he was very tired then.",
+    "explanation": "'am' ➔ 'was' and 'now' ➔ 'then'. ✅"
+  },
+  {
+    "question": "Change to Indirect: She said to her friend, 'I will call you later today.'",
+    "options": [
+      "She told her friend that she would call her later today.",
+      "She told her friend that she would call her later that day.",
+      "She told her friend that she will call her later that day.",
+      "She said to her friend that she would call her later that day."
+    ],
+    "answer": "She told her friend that she would call her later that day.",
+    "explanation": "'Will' ➔ 'would' and 'today' ➔ 'that day'. ✅"
+  }
+]
