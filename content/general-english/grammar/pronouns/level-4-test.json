@@ -1,0 +1,167 @@
+[
+  {
+    "question": "Choose the correct pronoun: _____ of these three pens do you want?",
+    "options": [
+      "Who",
+      "Which",
+      "What",
+      "Whose"
+    ],
+    "answer": "Which",
+    "explanation": "When making a choice or selection among a limited number of items, 'Which' is used as the interrogative pronoun. ✅"
+  },
+  {
+    "question": "Fill in the blank: The climate of Vijayapura is better than _____ of Bengaluru.",
+    "options": [
+      "that",
+      "those",
+      "it",
+      "this"
+    ],
+    "answer": "that",
+    "explanation": "To avoid repetition of a singular noun (climate), we use 'that'. For plural nouns, we use 'those'. ✅"
+  },
+  {
+    "question": "Identify the correct relative pronoun: There is no rose _____ has some thorn.",
+    "options": [
+      "who",
+      "which",
+      "but",
+      "that"
+    ],
+    "answer": "but",
+    "explanation": "In negative sentences, 'but' can act as a relative pronoun meaning 'who...not' or 'which...not'. ✅"
+  },
+  {
+    "question": "Choose the correct form: It was _____ who first helped the poor.",
+    "options": [
+      "he",
+      "him",
+      "his",
+      "himself"
+    ],
+    "answer": "he",
+    "explanation": "After 'It is/was', the subjective case (He, She, I, They) must be used as a subject complement. ✅"
+  },
+  {
+    "question": "Fill in the blank: _____ are you speaking to?",
+    "options": [
+      "Who",
+      "Whom",
+      "Whose",
+      "Which"
+    ],
+    "answer": "Whom",
+    "explanation": "'Whom' is the objective form used when the pronoun is the object of a preposition (to) or verb. ✅"
+  },
+  {
+    "question": "Identify the error: One must finish his work on time.",
+    "options": [
+      "One",
+      "finish",
+      "his",
+      "time"
+    ],
+    "answer": "his",
+    "explanation": "The pronoun following 'One' must always be 'one's'. It should be 'One must finish **one's** work'. ✅"
+  },
+  {
+    "question": "Choose the correct pronoun: The jury gave _____ verdict unanimously.",
+    "options": [
+      "their",
+      "its",
+      "his",
+      "them"
+    ],
+    "answer": "its",
+    "explanation": "When a collective noun (jury) acts as a single, undivided unit, the singular pronoun 'its' is used. ✅"
+  },
+  {
+    "question": "Fill in the blank: This is the man _____ I know you can trust.",
+    "options": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "answer": "whom",
+    "explanation": "Here, the man is the object of the trust, so the objective case 'whom' is correct. ✅"
+  },
+  {
+    "question": "Identify the correct pronoun: Every man and every woman has _____ own problems.",
+    "options": [
+      "their",
+      "his",
+      "its",
+      "her"
+    ],
+    "answer": "his",
+    "explanation": "Even if two nouns are connected by 'and', if they are preceded by 'every' or 'each', the following pronoun must be singular (his). ✅"
+  },
+  {
+    "question": "Choose the correct option: Let you and _____ solve this problem.",
+    "options": [
+      "I",
+      "me",
+      "my",
+      "myself"
+    ],
+    "answer": "me",
+    "explanation": "After 'Let', always use the objective case (me, him, her, us). ✅"
+  },
+  {
+    "question": "Fill in the blank: The girl and her dog _____ were here have left.",
+    "options": [
+      "who",
+      "which",
+      "that",
+      "whom"
+    ],
+    "answer": "that",
+    "explanation": "When there are two antecedents (one person and one animal/thing), we must use the relative pronoun 'that'. ✅"
+  },
+  {
+    "question": "Identify the error: These kind of books are very useful.",
+    "options": [
+      "These",
+      "kind",
+      "books",
+      "useful"
+    ],
+    "answer": "These",
+    "explanation": "'Kind' is singular, so it should be 'This kind' or 'These kinds'. ✅"
+  },
+  {
+    "question": "Choose the correct pronoun: I, you and he have finished _____ task.",
+    "options": [
+      "my",
+      "your",
+      "our",
+      "their"
+    ],
+    "answer": "our",
+    "explanation": "When multiple persons including the 1st person (I) are subjects, the possessive pronoun is 'our'. ✅"
+  },
+  {
+    "question": "Fill in the blank: Such a man _____ he is can never be trusted.",
+    "options": [
+      "who",
+      "that",
+      "as",
+      "which"
+    ],
+    "answer": "as",
+    "explanation": "After 'Such', the relative pronoun 'as' is used. ✅"
+  },
+  {
+    "question": "Identify the correct pronoun: None of the boys has done _____ homework.",
+    "options": [
+      "their",
+      "his",
+      "him",
+      "them"
+    ],
+    "answer": "his",
+    "explanation": "In formal English, 'None' followed by 'of the [plural noun]' still takes a singular pronoun (his). ✅"
+  }
+]
