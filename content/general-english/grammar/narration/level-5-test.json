@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Change to Indirect: He said, 'Alas! I am undone.'",
+    "options": [
+      "He exclaimed with joy that he was undone.",
+      "He exclaimed with sorrow that he was undone.",
+      "He said sadly that I am undone.",
+      "He exclaimed with sorrow that he is undone."
+    ],
+    "answer": "He exclaimed with sorrow that he was undone.",
+    "explanation": "'Alas!' expresses grief, so we use 'exclaimed with sorrow'. The tense changes from 'am' to 'was'. ✅"
+  },
+  {
+    "question": "Change to Indirect: They said, 'Hurrah! We have won the trophy.'",
+    "options": [
+      "They exclaimed with joy that they had won the trophy.",
+      "They exclaimed with joy that we had won the trophy.",
+      "They said with joy that they have won the trophy.",
+      "They exclaimed with wonder that they had won the trophy."
+    ],
+    "answer": "They exclaimed with joy that they had won the trophy.",
+    "explanation": "'Hurrah!' indicates joy. 'Have won' (Present Perfect) changes to 'Had won' (Past Perfect). ✅"
+  },
+  {
+    "question": "Change to Indirect: She said to me, 'May you live long!'",
+    "options": [
+      "She told me that I might live long.",
+      "She wished that I might live long.",
+      "She prayed that you might live long.",
+      "She wished me that may you live long."
+    ],
+    "answer": "She wished that I might live long.",
+    "explanation": "In Optative sentences, 'said' changes to 'wished' or 'prayed'. 'May' changes to 'might'. ✅"
+  },
+  {
+    "question": "Change to Indirect: The boy said, 'What a beautiful flower it is!'",
+    "options": [
+      "The boy exclaimed that it is a very beautiful flower.",
+      "The boy exclaimed that it was a very beautiful flower.",
+      "The boy said that what a beautiful flower it was.",
+      "The boy exclaimed with wonder that it was a beautiful flower."
+    ],
+    "answer": "The boy exclaimed that it was a very beautiful flower.",
+    "explanation": "Exclamatory sentences starting with 'What/How' change into assertive sentences using 'very' or 'great'. ✅"
+  },
+  {
+    "question": "Change to Indirect: He said, 'Goodbye, my friends!'",
+    "options": [
+      "He said goodbye to his friends.",
+      "He bade goodbye to his friends.",
+      "He wished goodbye to his friends.",
+      "He exclaimed goodbye to his friends."
+    ],
+    "answer": "He bade goodbye to his friends.",
+    "explanation": "For 'Goodbye' or 'Farewell', the reporting verb 'bade' (past of bid) is traditionally used. ✅"
+  },
+  {
+    "question": "Change to Indirect: The hermit said, 'May God bless you!'",
+    "options": [
+      "The hermit said that God might bless me.",
+      "The hermit prayed that God might bless me.",
+      "The hermit wished that God may bless me.",
+      "The hermit prayed that God should bless me."
+    ],
+    "answer": "The hermit prayed that God might bless me.",
+    "explanation": "When addressing God, 'said' changes to 'prayed'. ✅"
+  },
+  {
+    "question": "Change to Indirect: She said, 'How clever I am!'",
+    "options": [
+      "She exclaimed that she was very clever.",
+      "She said that she was very clever.",
+      "She exclaimed how clever she was.",
+      "She exclaimed that I was very clever."
+    ],
+    "answer": "She exclaimed that she was very clever.",
+    "explanation": "'How' is replaced by 'very' in the assertive indirect form. ✅"
+  },
+  {
+    "question": "Change to Indirect: 'Bravo! You have done well,' said the captain to the player.",
+    "options": [
+      "The captain exclaimed with joy that he had done well.",
+      "The captain applauded the player, saying that he had done well.",
+      "The captain said bravo to the player that he had done well.",
+      "The captain told the player that he had done well."
+    ],
+    "answer": "The captain applauded the player, saying that he had done well.",
+    "explanation": "For 'Bravo!', the reporting verb 'applauded' is often used along with 'saying that'. ✅"
+  },
+  {
+    "question": "Change to Indirect: My friend said to me, 'Good morning!'",
+    "options": [
+      "My friend told me good morning.",
+      "My friend wished me a good morning.",
+      "My friend said to me good morning.",
+      "My friend bade me good morning."
+    ],
+    "answer": "My friend wished me a good morning.",
+    "explanation": "For greetings like 'Good morning/evening', we use 'wished'. ✅"
+  },
+  {
+    "question": "Change to Indirect: He said, 'What a pity!'",
+    "options": [
+      "He exclaimed that it was a great pity.",
+      "He said that it was a great pity.",
+      "He exclaimed with sorrow what a pity it was.",
+      "He told that it is a great pity."
+    ],
+    "answer": "He exclaimed that it was a great pity.",
+    "explanation": "Incomplete exclamations are completed in indirect speech (It was a great pity). ✅"
+  }
+]
