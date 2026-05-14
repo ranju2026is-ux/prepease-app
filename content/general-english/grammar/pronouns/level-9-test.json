@@ -1,167 +1,332 @@
 [
   {
-    "question": "Fill in the blank: Each of the students who _____ selected for the scholarship has to sign the document.",
+    "question": "_____ is very cold today in Vijayapura.",
+    "options": [
+      "It",
+      "There",
+      "That",
+      "This"
+    ],
+    "answer": "It",
+    "explanation": "'It' is used as an introductory subject to talk about weather. ✅"
+  },
+  {
+    "question": "_____ is a beautiful park near my house.",
+    "options": [
+      "It",
+      "There",
+      "That",
+      "This"
+    ],
+    "answer": "There",
+    "explanation": "'There' is used to introduce the existence or presence of something. ✅"
+  },
+  {
+    "question": "_____ are many students in the library.",
+    "options": [
+      "There",
+      "They",
+      "It",
+      "Those"
+    ],
+    "answer": "There",
+    "explanation": "When the real subject (many students) is plural, 'There' takes a plural verb 'are'. ✅"
+  },
+  {
+    "question": "_____ was I who helped you.",
+    "options": [
+      "It",
+      "That",
+      "This",
+      "There"
+    ],
+    "answer": "It",
+    "explanation": "To emphasize a noun or pronoun, we use the structure 'It is/was + subject'. ✅"
+  },
+  {
+    "question": "_____ is ten o'clock now.",
+    "options": [
+      "There",
+      "It",
+      "That",
+      "Its"
+    ],
+    "answer": "It",
+    "explanation": "'It' is used to tell the time. ✅"
+  },
+  {
+    "question": "_____ is no sense in crying over spilt milk.",
+    "options": [
+      "It",
+      "There",
+      "That",
+      "This"
+    ],
+    "answer": "There",
+    "explanation": "'There is no sense' is a standard structure to show the futility of an action. ✅"
+  },
+  {
+    "question": "_____ is easy to find fault with others.",
+    "options": [
+      "There",
+      "It",
+      "That",
+      "This"
+    ],
+    "answer": "It",
+    "explanation": "'It' acts as a preparatory subject when the real subject is an infinitive (to find fault). ✅"
+  },
+  {
+    "question": "_____ appears to be some misunderstanding.",
+    "options": [
+      "It",
+      "There",
+      "That",
+      "He"
+    ],
+    "answer": "There",
+    "explanation": "'There' is used with verbs like 'appears', 'seems', 'happens' to show existence. ✅"
+  },
+  {
+    "question": "It is raining, isn't _____?",
+    "options": [
+      "it",
+      "that",
+      "there",
+      "this"
+    ],
+    "answer": "it",
+    "explanation": "The question tag for a sentence starting with 'It' must use 'it'. ✅"
+  },
+  {
+    "question": "_____ are no clouds in the sky today.",
+    "options": [
+      "It",
+      "There",
+      "They",
+      "Those"
+    ],
+    "answer": "There",
+    "explanation": "'Clouds' is plural, so 'There are' is correct. ✅"
+  },
+  {
+    "question": "_____ is a long way to Delhi from here.",
+    "options": [
+      "It",
+      "There",
+      "That",
+      "This"
+    ],
+    "answer": "It",
+    "explanation": "'It' is used to indicate distance. ✅"
+  },
+  {
+    "question": "It was _____ that I met in the market.",
+    "options": [
+      "he",
+      "him",
+      "himself",
+      "his"
+    ],
+    "answer": "he",
+    "explanation": "After 'It is/was', always use the subjective case (he, she, I). ✅"
+  },
+  {
+    "question": "There _____ once a great king named Ashoka.",
     "options": [
       "is",
-      "are",
       "was",
-      "were"
+      "were",
+      "are"
     ],
-    "answer": "were",
-    "explanation": "ಇಲ್ಲಿ 'who' ಎಂಬುದು 'students' (Plural) ಅನ್ನು ಸೂಚಿಸುವುದರಿಂದ ಅದರ ನಂತರ ಬರುವ ಕ್ರಿಯಾಪದ 'were' ಆಗಿರಬೇಕು. ಆದರೆ ಇಡೀ ವಾಕ್ಯದ ಮುಖ್ಯ ಕ್ರಿಯಾಪದ 'has' ಎಂಬುದು 'Each' ಗೆ ಅನುಗುಣವಾಗಿರುತ್ತದೆ. ✅"
+    "answer": "was",
+    "explanation": "Past existence of a singular king requires 'There was'. ✅"
   },
   {
-    "question": "Choose the correct pronoun: She is one of the few people _____ I can truly rely on.",
+    "question": "_____ is true that she is very hardworking.",
     "options": [
-      "who",
-      "whom",
-      "which",
-      "that"
+      "It",
+      "There",
+      "That",
+      "This"
     ],
-    "answer": "that",
-    "explanation": "'Few', 'Little', 'Only', 'Same' ಅಂತಹ ಪದಗಳ ನಂತರ 'who/whom' ಬದಲಿಗೆ 'that' ಬಳಸುವುದು ಹೆಚ್ಚು ಸೂಕ್ತ. ✅"
+    "answer": "It",
+    "explanation": "'It' introduces a fact or a 'that' clause. ✅"
   },
   {
-    "question": "Identify the correct form: He loved his brother more than _____.",
+    "question": "_____ are seven days in a week.",
     "options": [
-      "I",
-      "me",
-      "myself",
-      "mine"
+      "It",
+      "They",
+      "There",
+      "These"
     ],
-    "answer": "me",
-    "explanation": "ಇಲ್ಲಿ ಹೋಲಿಕೆಯು 'him' (his brother - Object) ಮತ್ತು 'me' (Object) ನಡುವೆ ಇರುವುದರಿಂದ 'me' ಸರಿಯಾಗಿದೆ. (He loved his brother more than he loved me). ✅"
+    "answer": "There",
+    "explanation": "Counting the existence of days. ✅"
   },
   {
-    "question": "Fill in the blank: None of the equipment has lost _____ value.",
+    "question": "It is better to be safe than _____.",
     "options": [
-      "their",
-      "its",
-      "his",
-      "it's"
+      "sorry",
+      "sorrier",
+      "sorrow",
+      "to be sorry"
     ],
-    "answer": "its",
-    "explanation": "'Equipment' ಎಂಬುದು Uncountable noun ಆಗಿದ್ದು ಇದನ್ನು ಯಾವಾಗಲೂ ಏಕವಚನವಾಗಿ ಪರಿಗಣಿಸಲಾಗುತ್ತದೆ, ಆದ್ದರಿಂದ 'its' ಸರಿಯಾದ ರೂಪ. ✅"
+    "answer": "sorry",
+    "explanation": "Part of the 'It is...' structure often used for proverbs. ✅"
   },
   {
-    "question": "Choose the correct pronoun: It was _____ who first proposed the idea in the meeting.",
+    "question": "_____ is no use waiting for him.",
     "options": [
-      "her",
+      "There",
+      "It",
+      "That",
+      "This"
+    ],
+    "answer": "It",
+    "explanation": "The idiom 'It is no use' is followed by a gerund (-ing). ✅"
+  },
+  {
+    "question": "_____ seems to be a problem with the car.",
+    "options": [
+      "It",
+      "There",
+      "That",
+      "He"
+    ],
+    "answer": "There",
+    "explanation": "Indicates the existence of a problem. ✅"
+  },
+  {
+    "question": "Is _____ anyone there?",
+    "options": [
+      "it",
+      "there",
+      "that",
+      "this"
+    ],
+    "answer": "there",
+    "explanation": "Interrogative form of 'There is'. ✅"
+  },
+  {
+    "question": "_____ is spring now.",
+    "options": [
+      "It",
+      "There",
+      "This",
+      "That"
+    ],
+    "answer": "It",
+    "explanation": "Used for seasons. ✅"
+  },
+  {
+    "question": "_____ lived a hermit in the forest.",
+    "options": [
+      "It",
+      "There",
+      "He",
+      "That"
+    ],
+    "answer": "There",
+    "explanation": "'There' can be used as an introductory subject with verbs of position or existence. ✅"
+  },
+  {
+    "question": "It was _____ who won the first prize.",
+    "options": [
       "she",
+      "her",
       "herself",
       "hers"
     ],
     "answer": "she",
-    "explanation": "'It is/was' ನಂತರ ಬರುವ Pronoun ಯಾವಾಗಲೂ Subjective case (She) ನಲ್ಲಿರಬೇಕು. ✅"
+    "explanation": "Subjective case after 'It was'. ✅"
   },
   {
-    "question": "Identify the error: The board of directors has announced their decision.",
+    "question": "_____ was dark when we reached home.",
     "options": [
-      "board",
-      "has",
-      "their",
-      "decision"
+      "There",
+      "It",
+      "That",
+      "This"
     ],
-    "answer": "their",
-    "explanation": "'Board' ಒಂದು Collective noun ಆಗಿ ಕೆಲಸ ಮಾಡುತ್ತಿರುವುದರಿಂದ ಮತ್ತು ಇಲ್ಲಿ ಒಮ್ಮತದ ನಿರ್ಧಾರವಿರುವುದರಿಂದ 'its' ಬಳಸಬೇಕು. ✅"
+    "answer": "It",
+    "explanation": "Used to describe light/darkness. ✅"
   },
   {
-    "question": "Fill in the blank: Whom did you say _____ was coming to visit us?",
+    "question": "_____ are some mistakes in your essay.",
     "options": [
-      "who",
-      "that",
-      "he",
-      "whom"
+      "It",
+      "They",
+      "There",
+      "Those"
     ],
-    "answer": "he",
-    "explanation": "ವಾಕ್ಯದ ಆರಂಭದಲ್ಲಿ 'Whom' ಈಗಾಗಲೇ ಬಳಕೆಯಾಗಿದೆ, ಇಲ್ಲಿ 'was coming' ಗೆ ಕರ್ತೃ ಬೇಕಾಗಿರುವುದರಿಂದ 'he' ಅಥವಾ 'who' ಬಳಸಬಹುದು, ಆದರೆ ಇಲ್ಲಿ ಆಯ್ಕೆಗಳಲ್ಲಿ 'he' ಸೂಕ್ತವಾಗಿದೆ. ✅"
+    "answer": "There",
+    "explanation": "'Mistakes' (plural) ➔ 'There are'. ✅"
   },
   {
-    "question": "Choose the correct reflexive pronoun: They enjoyed _____ during the jungle safari.",
+    "question": "_____ was no water in the tank.",
     "options": [
-      "theirself",
-      "themselves",
-      "themself",
-      "ourselves"
+      "There",
+      "It",
+      "That",
+      "This"
     ],
-    "answer": "themselves",
-    "explanation": "'They' ನ ಬಹುವಚನ Reflexive ರೂಪ 'themselves'. ✅"
+    "answer": "There",
+    "explanation": "Absence of existence. ✅"
   },
   {
-    "question": "Identify the correct pronoun: If I were _____, I wouldn't accept the offer.",
+    "question": "_____ is the only option left.",
     "options": [
-      "him",
-      "he",
-      "his",
-      "himself"
+      "This",
+      "That",
+      "There",
+      "It"
     ],
-    "answer": "he",
-    "explanation": "ಕಾಲ್ಪನಿಕ ವಾಕ್ಯಗಳಲ್ಲಿ (Subjunctive mood) 'to be' ಕ್ರಿಯಾಪದದ ನಂತರ Subjective case (He) ಬರುತ್ತದೆ. ✅"
+    "answer": "This",
+    "explanation": "Here 'This' is more specific than 'It' as it points to a particular option. ✅"
   },
   {
-    "question": "Fill in the blank: There is no man _____ does not desire wealth.",
+    "question": "_____ was very kind of you to help.",
     "options": [
-      "who",
-      "that",
-      "but",
-      "which"
+      "There",
+      "It",
+      "That",
+      "This"
     ],
-    "answer": "but",
-    "explanation": "ನಕಾರಾತ್ಮಕ ವಾಕ್ಯದಲ್ಲಿ 'but' ಎಂಬುದು 'who...not' ಎಂಬ ಅರ್ಥವನ್ನು ನೀಡುವ ಸಂಬಂಧವಾಚಕ ಸರ್ವನಾಮವಾಗಿದೆ. ✅"
+    "answer": "It",
+    "explanation": "'It was kind of you' is a fixed structure for appreciation. ✅"
   },
   {
-    "question": "Choose the correct form: My father does not like _____ spending too much money.",
+    "question": "_____ used to be a temple here.",
     "options": [
-      "me",
-      "my",
-      "mine",
-      "myself"
+      "It",
+      "There",
+      "That",
+      "He"
     ],
-    "answer": "my",
-    "explanation": "Gerund (spending) ಮೊದಲು ಯಾವಾಗಲೂ Possessive adjective (my) ಇರಬೇಕು. ✅"
+    "answer": "There",
+    "explanation": "Past existence of a building. ✅"
   },
   {
-    "question": "Identify the error: Either of the four candidates is suitable for the job.",
+    "question": "_____ is a fact that the earth is round.",
     "options": [
-      "Either",
-      "four",
-      "candidates",
-      "suitable"
+      "There",
+      "It",
+      "That",
+      "This"
     ],
-    "answer": "Either",
-    "explanation": "ಕೇವಲ ಇಬ್ಬರಿರುವಾಗ 'Either' ಬಳಸಬೇಕು, ಎರಡಕ್ಕಿಂತ ಹೆಚ್ಚು ಜನರಿದ್ದಾಗ 'Any' ಅಥವಾ 'One' ಬಳಸಬೇಕು. ✅"
+    "answer": "It",
+    "explanation": "'It is a fact' structure. ✅"
   },
   {
-    "question": "Fill in the blank: I, who _____ your friend, will always stand by you.",
+    "question": "_____ are many ways to solve this problem.",
     "options": [
-      "is",
-      "am",
-      "are",
-      "was"
+      "There",
+      "They",
+      "It",
+      "These"
     ],
-    "answer": "am",
-    "explanation": "ಸಂಬಂಧವಾಚಕ ಸರ್ವನಾಮ 'who' ಅದರ ಹಿಂದಿರುವ 'I' ಅನ್ನು ಪ್ರತಿನಿಧಿಸುವುದರಿಂದ ಕ್ರಿಯಾಪದ 'am' ಆಗಿರಬೇಕು. ✅"
-  },
-  {
-    "question": "Choose the correct pronoun: These are the same clothes _____ I wore yesterday.",
-    "options": [
-      "which",
-      "who",
-      "that",
-      "whom"
-    ],
-    "answer": "that",
-    "explanation": "'The same' ಬಂದಾಗ ಸಂಬಂಧವಾಚಕವಾಗಿ 'that' ಬಳಸುವುದು ನಿಯಮ. ✅"
-  },
-  {
-    "question": "Identify the correct form: It is a secret between you and _____.",
-    "options": [
-      "I",
-      "me",
-      "myself",
-      "mine"
-    ],
-    "answer": "me",
-    "explanation": "Preposition (between) ನಂತರ ಯಾವಾಗಲೂ Objective case (me) ಬರಬೇಕು. ✅"
+    "answer": "There",
+    "explanation": "Existence of multiple solutions. ✅"
   }
 ]
