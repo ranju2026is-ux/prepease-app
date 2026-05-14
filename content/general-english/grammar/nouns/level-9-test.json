@@ -1,0 +1,217 @@
+[
+  {
+    "question": "Choose the correct sentence regarding the plural of 'Brother':",
+    "options": [
+      "All the brothers of this society live in peace.",
+      "All the brethren of this society live in peace.",
+      "All the brothers-in-law of this society live in peace.",
+      "All the brethrens of this society live in peace."
+    ],
+    "answer": "All the brethren of this society live in peace.",
+    "explanation": "'Brothers' refers to sons of the same parents. 'Brethren' refers to members of a society, community, or religious group. ✅"
+  },
+  {
+    "question": "Identify the error part: The (A) / committee (B) / was (C) / divided in their opinions (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "When the members of a collective noun act separately (divided), the verb must be plural ('were') to match the plural pronoun 'their'. ✅"
+  },
+  {
+    "question": "Find the error: He (A) / has (B) / two (C) / issues, a son and a daughter (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "No error",
+    "explanation": "When 'Issue' is used in the sense of 'offspring' (children), it remains singular even for plural subjects. ✅"
+  },
+  {
+    "question": "What is the plural of 'Clergyman'?",
+    "options": ["Clergymans", "Clergymen", "Clergy", "Clergies"],
+    "answer": "Clergymen",
+    "explanation": "'Clergymen' is the plural individuals. 'Clergy' is a collective noun representing the group as a whole. ✅"
+  },
+  {
+    "question": "Choose the correct sentence regarding 'Manners':",
+    "options": [
+      "He has no manner.",
+      "He has no manners.",
+      "His manner are good.",
+      "Manner is important in life."
+    ],
+    "answer": "He has no manners.",
+    "explanation": "'Manner' means method or way. 'Manners' (plural) refers to polite behavior or etiquette. ✅"
+  },
+  {
+    "question": "Identify the error: This (A) / news (B) / were (C) / broadcasted yesterday (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "'News' is always singular. It should be 'was broadcast'. (Note: 'Broadcast' is also preferred over 'broadcasted'). ✅"
+  },
+  {
+    "question": "Fill in the blank: The _____ of the town are extremely high.",
+    "options": ["rent", "rents", "rental", "renting"],
+    "answer": "rents",
+    "explanation": "When referring to specific periodic payments from different properties, 'rents' (plural) is used. ✅"
+  },
+  {
+    "question": "What are the two plural forms of 'Cloth' and their difference?",
+    "options": [
+      "Cloths (unstitched) and Clothes (stitched)",
+      "Clothes (unstitched) and Cloths (stitched)",
+      "Clothies and Cloths",
+      "Clothings and Clothes"
+    ],
+    "answer": "Cloths (unstitched) and Clothes (stitched)",
+    "explanation": "'Cloths' means pieces of fabric. 'Clothes' refers to the garments we wear. ✅"
+  },
+  {
+    "question": "Find the error: A (A) / lot (B) / of (C) / moneys was spent (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'Money' is the standard uncountable noun. 'Moneys' (or Monies) is only used in legal/financial plural contexts for 'sums of money'. ✅"
+  },
+  {
+    "question": "Which of these words stays the same in both singular and plural?",
+    "options": ["Species", "Series", "Innings", "All of the above"],
+    "answer": "All of the above",
+    "explanation": "Species, series, and innings end in 's' but are used for both singular and plural counts. ✅"
+  },
+  {
+    "question": "Identify the error: He (A) / took (B) / great (C) / pain to help me (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "The idiom is 'to take pains' (meaning to put in effort). It should be 'took great pains'. ✅"
+  },
+  {
+    "question": "Choose the correct form: My father gave me _____.",
+    "options": [
+      "ten-rupee's note",
+      "a ten-rupee note",
+      "a ten-rupees note",
+      "ten-rupees notes"
+    ],
+    "answer": "a ten-rupee note",
+    "explanation": "In a hyphenated adjective before a noun, the inner noun ('rupee') must be singular. ✅"
+  },
+  {
+    "question": "What is the difference between 'Genius' plural forms 'Geniuses' and 'Genii'?",
+    "options": [
+      "Geniuses (People) vs Genii (Spirits)",
+      "Genii (People) vs Geniuses (Spirits)",
+      "Both mean the same",
+      "Genii is the only correct plural"
+    ],
+    "answer": "Geniuses (People) vs Genii (Spirits)",
+    "explanation": "'Geniuses' refers to highly intelligent people. 'Genii' refers to supernatural beings (spirits). ✅"
+  },
+  {
+    "question": "Identify the error: The (A) / audience (B) / was (C) / requested to be in their seats (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "Since they are in 'their' (plural) seats, the audience is acting as individuals. Use 'were'. ✅"
+  },
+  {
+    "question": "Fill in the blank: The _____ of the factory was damaged.",
+    "options": ["pantry", "pantries", "panting", "premise"],
+    "answer": "No option is fully correct",
+    "explanation": "In the sense of a building, it must be 'premises' (plural). 'Premise' means a logical assumption. ✅"
+  },
+  {
+    "question": "Find the error: All (A) / the (B) / woman (C) / teachers are on strike (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "In compound nouns where the first word is 'man' or 'woman', both words are usually made plural. It should be 'women teachers'. ✅"
+  },
+  {
+    "question": "What is the plural of 'Die' when used for gambling/gaming?",
+    "options": ["Dies", "Dice", "Dices", "Dicing"],
+    "answer": "Dice",
+    "explanation": "'Dice' is the plural of 'Die'. 'Dies' refers to stamps for coining or making shapes. ✅"
+  },
+  {
+    "question": "Identify the error: Ten (A) / sheep (B) / are (C) / grazing in the field (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "No error",
+    "explanation": "'Sheep' is correct as it is used for both singular and plural. ✅"
+  },
+  {
+    "question": "Choose the correct sentence regarding 'Sand':",
+    "options": [
+      "The child is playing in the sand.",
+      "The traveler died in the sands.",
+      "The sand of this beach is white.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "'Sand' is the material. 'Sands' (plural) refers to a vast desert or a large beach. ✅"
+  },
+  {
+    "question": "Find the error: He (A) / gave (B) / me (C) / many contents (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'Content' (singular) means satisfaction. 'Contents' (plural) means the things inside something (like a book or box). ✅"
+  },
+  {
+    "question": "What is the plural of 'Spoonful'?",
+    "options": ["Spoonsful", "Spoonfuls", "Spoonful", "Spooniesful"],
+    "answer": "Spoonfuls",
+    "explanation": "Standard practice for words ending in '-ful' is to add 's' at the end. ✅"
+  },
+  {
+    "question": "Identify the error: He (A) / owns (B) / a (C) / five-hundreds-rupees note (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "Should be 'a five-hundred-rupee note'. ✅"
+  },
+  {
+    "question": "Fill in the blank: The _____ of the army were very disciplined.",
+    "options": ["moral", "morale", "corps", "corp"],
+    "answer": "corps",
+    "explanation": "'Corps' (pronounced 'core') is a singular or plural noun for an army unit. ✅"
+  },
+  {
+    "question": "Identify the error: The (A) / rich (B) / should (C) / help the poors (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "Adjectives used as nouns ('the poor') are already plural. 'Poors' is incorrect. ✅"
+  },
+  {
+    "question": "Which of these is a 'common gender' noun?",
+    "options": ["Cousin", "Advocate", "Orphan", "All of the above"],
+    "answer": "All of the above",
+    "explanation": "These nouns do not specify male or female gender. ✅"
+  },
+  {
+    "question": "Find the error: It (A) / is (B) / a (C) / three-years course (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "Hyphenated adjective rule: 'three-year course'. ✅"
+  },
+  {
+    "question": "What is the plural of 'Cherub'?",
+    "options": ["Cherubim", "Cherubs", "Cherubies", "Both A and B"],
+    "answer": "Both A and B",
+    "explanation": "'Cherubim' is the Hebrew plural; 'Cherubs' is the English plural. Both are correct. ✅"
+  },
+  {
+    "question": "Identify the error: Two (A) / dozens (B) / of (C) / eggs were bought (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "With a specific number ('two'), we use 'dozen', not 'dozens'. ✅"
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "The scales of the fish were shining.",
+      "The scale of the fish were shining.",
+      "The scales of the fishes were shining.",
+      "Both A and C can be correct."
+    ],
+    "answer": "Both A and C can be correct.",
+    "explanation": "'Fish' is standard plural. 'Fishes' is used when referring to multiple species. ✅"
+  },
+  {
+    "question": "Identify the error: I (A) / prefer (B) / your (C) / company to anybody's else (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "When 'else' follows a pronoun, the apostrophe must go on 'else': 'anybody else's'. ✅"
+  }
+]
