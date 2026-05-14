@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Finite vs Non-Finite Verbs",
+    "meaning_kannada": "ಸೀಮಿತ ಮತ್ತು ಅಸೀಮಿತ ಕ್ರಿಯಾಪದಗಳು.",
+    "meaning_english": "• **Finite Verbs:** Change according to the subject, number, and tense (e.g., He *plays*, They *play*).\n• **Non-Finite Verbs:** Do not change (Infinitives, Gerunds, and Participles). Example: I like *to swim*, They like *to swim*.",
+    "emoji": "🔄"
+  },
+  {
+    "word": "Transitive vs Intransitive",
+    "meaning_kannada": "ಸಕರ್ಮಕ ಮತ್ತು ಅಕರ್ಮಕ ಕ್ರಿಯಾಪದಗಳು.",
+    "meaning_english": "• **Transitive Verbs:** Need an object to complete the sense (e.g., He *killed* a snake).\n• **Intransitive Verbs:** Do not need an object (e.g., The sun *shines*, She *laughed*).",
+    "emoji": "🏃"
+  },
+  {
+    "word": "Stative vs Dynamic Verbs",
+    "meaning_kannada": "ಸ್ಥಿತಿ ಮತ್ತು ಚಲನಶೀಲ ಕ್ರಿಯಾಪದಗಳು.",
+    "meaning_english": "• **Stative Verbs:** Describe a state or feeling (Love, Know, Believe, Smell, Hear). These are generally NOT used in continuous (-ing) forms.\n• **Rule:** Don't say 'I am knowing him'. Say 'I know him'.",
+    "emoji": "🧠"
+  },
+  {
+    "word": "Subject-Verb Agreement (Part 1)",
+    "meaning_kannada": "ಕರ್ತೃ ಮತ್ತು ಕ್ರಿಯಾಪದದ ಹೊಂದಾಣಿಕೆ.",
+    "meaning_english": "• **Rule:** Singular subjects take singular verbs; plural subjects take plural verbs.\n• **Exception:** Words like 'News', 'Mathematics', 'Economics' look plural but take a singular verb (e.g., The news *is* true).",
+    "emoji": "🤝"
+  },
+  {
+    "word": "The 'One of' Rule",
+    "meaning_kannada": "'One of' ನಿಯಮ.",
+    "meaning_english": "• **Rule:** 'One of' is followed by a plural noun but a **singular verb**.\n• Example: One of my friends *is* a doctor. (Focus is on 'one', not 'friends').",
+    "emoji": "☝️"
+  },
+  {
+    "word": "Confusing Verb Pairs",
+    "meaning_kannada": "ಗೊಂದಲಕ್ಕೀಡುಮಾಡುವ ಕ್ರಿಯಾಪದಗಳ ಜೋಡಿ.",
+    "meaning_english": "• **Lie vs Lay:** 'Lie' means to rest (Lie-Lay-Lain). 'Lay' means to put something down (Lay-Laid-Laid).\n• **Rise vs Raise:** 'Rise' is intransitive (The sun rises). 'Raise' is transitive (Raise your hand).",
+    "emoji": "❓"
+  },
+  {
+    "word": "Modal Auxiliaries",
+    "meaning_kannada": "ಸಹಾಯಕ ಕ್ರಿಯಾಪದಗಳು (Can, Could, May, Might).",
+    "meaning_english": "Used to express ability, possibility, or permission.\n• **Rule:** Modals are always followed by the base form of the verb (V1) without 'to'.\n• Correct: He can *play*. (Incorrect: He can to play).",
+    "emoji": "🛠️"
+  },
+  {
+    "word": "Causative Verbs (Have, Get, Make)",
+    "meaning_kannada": "ಪ್ರೇರಣಾತ್ಮಕ ಕ್ರಿಯಾಪದಗಳು.",
+    "meaning_english": "Used when the subject doesn't do the action itself but causes someone else to do it.\n• **Make:** Force someone (He made me *cry*).\n• **Get:** Persuade someone (I got him *to wash* my car).",
+    "emoji": "📢"
+  },
+  {
+    "word": "Gerunds vs Infinitives",
+    "meaning_kannada": "ಕ್ರಿಯಾಪದದ ನಾಮಪದ ರೂಪ ಮತ್ತು 'to' ರೂಪ.",
+    "meaning_english": "• **Gerund:** V + ing acting as a noun (e.g., *Smoking* is injurious).\n• **Infinitive:** to + V1 (e.g., I want *to study*).\n• **Rule:** Certain verbs like 'Enjoy', 'Avoid', 'Finish' are followed by Gerunds.",
+    "emoji": "📚"
+  },
+  {
+    "word": "Conditionals (If-Clause)",
+    "meaning_kannada": "ಷರತ್ತುಬದ್ಧ ವಾಕ್ಯಗಳು.",
+    "meaning_english": "• **Type 1:** If he *comes*, I *will go*.\n• **Type 2 (Hypothetical):** If I *were* a bird, I *would fly*.\n• **Type 3 (Past Unreal):** If he *had studied*, he *would have passed*.",
+    "emoji": "💡"
+  }
+]
