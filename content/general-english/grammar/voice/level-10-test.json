@@ -1,0 +1,332 @@
+[
+  {
+    "question": "Change into Passive: 'I had him repair my watch.'",
+    "options": [
+      "I had my watch repaired by him.",
+      "I was had to repair his watch.",
+      "My watch was had repaired by him.",
+      "He was made to repair my watch."
+    ],
+    "answer": "I had my watch repaired by him.",
+    "explanation": "Causative verb 'Have' pattern: **Subject + have + Object + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'It is time to take action.'",
+    "options": [
+      "It is time for action to be taken.",
+      "It is time action to be taken.",
+      "Action is to be taken on time.",
+      "It was time for action to be taken."
+    ],
+    "answer": "It is time for action to be taken.",
+    "explanation": "Structure: **It is time + for + Object + to be + V3**. ✅"
+  },
+  {
+    "question": "Change into Active: 'The trees were blown down by the storm.'",
+    "options": [
+      "The storm blew down the trees.",
+      "The storm blows down the trees.",
+      "The storm had blown down the trees.",
+      "The storm was blowing down the trees."
+    ],
+    "answer": "The storm blew down the trees.",
+    "explanation": "Passive 'were blown down' (Simple Past) ➔ Active 'blew down'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'He likes people to call him Master.'",
+    "options": [
+      "He likes to be called Master.",
+      "He likes being called Master.",
+      "People are liked to call him Master.",
+      "He is liked to be called Master."
+    ],
+    "answer": "He likes to be called Master.",
+    "explanation": "Infinitive object 'to call him' ➔ **'to be called'**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Someone has to do this work.'",
+    "options": [
+      "This work has to be done.",
+      "This work has to do.",
+      "This work had to be done.",
+      "This work is to be done."
+    ],
+    "answer": "This work has to be done.",
+    "explanation": "Infinitive 'has to do' ➔ **'has to be done'**. ✅"
+  },
+  {
+    "question": "Change into Active: 'I was made to stand by the teacher.'",
+    "options": [
+      "The teacher made me stand.",
+      "The teacher made me to stand.",
+      "The teacher makes me stand.",
+      "I stood by the teacher."
+    ],
+    "answer": "The teacher made me stand.",
+    "explanation": "Active 'make' takes a **bare infinitive** (stand), but Passive 'made' takes **to + V1**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I saw him opening the door.'",
+    "options": [
+      "He was seen opening the door.",
+      "He was seen to open the door.",
+      "The door was seen opened by him.",
+      "Opening the door was seen by him."
+    ],
+    "answer": "He was seen opening the door.",
+    "explanation": "Sensory verb + participle (opening) remains participle in passive. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Rose smells sweet.'",
+    "options": [
+      "Rose is sweet when it is smelt.",
+      "Rose is smelt sweet.",
+      "Rose was sweet when smelt.",
+      "The smell of rose is sweet."
+    ],
+    "answer": "Rose is sweet when it is smelt.",
+    "explanation": "Quasi-passive structure for sensory adjectives. ✅"
+  },
+  {
+    "question": "Change into Active: 'A ticket will be given to you by the conductor.'",
+    "options": [
+      "The conductor will give you a ticket.",
+      "The conductor gives you a ticket.",
+      "You will give a ticket to the conductor.",
+      "The conductor will be giving you a ticket."
+    ],
+    "answer": "The conductor will give you a ticket.",
+    "explanation": "Passive 'will be given' ➔ Active 'will give'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Who taught you English?'",
+    "options": [
+      "By whom was English taught to you?",
+      "By whom were you taught English?",
+      "By whom English was taught to you?",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Sentences with two objects (you, English) have two valid passive forms. ✅"
+  },
+  {
+    "question": "Change into Passive: 'They suggest rebuilding the hospital.'",
+    "options": [
+      "They suggest that the hospital should be rebuilt.",
+      "The hospital is suggested to be rebuilt.",
+      "Rebuilding the hospital is suggested.",
+      "Both A and C are correct."
+    ],
+    "answer": "Both A and C are correct.",
+    "explanation": "Gerund objects can use 'that' clause or direct subject transformation. ✅"
+  },
+  {
+    "question": "Change into Active: 'Was the letter posted yesterday?'",
+    "options": [
+      "Did you post the letter yesterday?",
+      "Did someone post the letter yesterday?",
+      "Both A and B can be correct.",
+      "Was you posting the letter?"
+    ],
+    "answer": "Both A and B can be correct.",
+    "explanation": "Passive 'Was... posted' ➔ Active 'Did... post' with an assumed subject. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I must help the needy.'",
+    "options": [
+      "The needy must be helped by me.",
+      "The needy must helped by me.",
+      "The needy should be helped by me.",
+      "The needy are to be helped."
+    ],
+    "answer": "The needy must be helped by me.",
+    "explanation": "Modal 'must' ➔ **must be + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'He wants me to buy a car.'",
+    "options": [
+      "He wants a car to be bought by me.",
+      "He wants me a car to be bought.",
+      "I am wanted to buy a car by him.",
+      "He wants a car bought by me."
+    ],
+    "answer": "He wants a car to be bought by me.",
+    "explanation": "Pattern: **Subject + want + Object + to be + V3**. ✅"
+  },
+  {
+    "question": "Change into Active: 'By whom has this mischief been done?'",
+    "options": [
+      "Who has done this mischief?",
+      "Who had done this mischief?",
+      "Who did this mischief?",
+      "Who is doing this mischief?"
+    ],
+    "answer": "Who has done this mischief?",
+    "explanation": "Passive 'has been done' ➔ Active 'has done'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'They are looking into the matter.'",
+    "options": [
+      "The matter is being looked into by them.",
+      "The matter is looked into by them.",
+      "The matter was being looked into.",
+      "The matter is being looked by them."
+    ],
+    "answer": "The matter is being looked into by them.",
+    "explanation": "Keep the preposition 'into' with the verb. ✅"
+  },
+  {
+    "question": "Change into Active: 'One must keep one's promises.'",
+    "options": [
+      "Promises must be kept.",
+      "Keep the promises.",
+      "We must keep the promises.",
+      "One keeps promises."
+    ],
+    "answer": "Promises must be kept.",
+    "explanation": "This is a rare case where the 'Active' form is usually the answer in reverse tests. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I am to do it.'",
+    "options": [
+      "It is to be done by me.",
+      "It was to be done by me.",
+      "It am to be done by me.",
+      "It is to do by me."
+    ],
+    "answer": "It is to be done by me.",
+    "explanation": "Infinitive 'to do' ➔ **'to be done'**. ✅"
+  },
+  {
+    "question": "Change into Active: 'Let the child be not teased.'",
+    "options": [
+      "Don't tease the child.",
+      "Do not teased the child.",
+      "Let not tease the child.",
+      "The child was not teased."
+    ],
+    "answer": "Don't tease the child.",
+    "explanation": "Negative imperative passive ➔ Active. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The judge suspected that someone had bribed the witness.'",
+    "options": [
+      "It was suspected by the judge that the witness had been bribed.",
+      "The witness was suspected to be bribed by someone.",
+      "The judge was suspected that the witness was bribed.",
+      "Someone was suspected to have bribed the witness."
+    ],
+    "answer": "It was suspected by the judge that the witness had been bribed.",
+    "explanation": "Clause-based passive. ✅"
+  },
+  {
+    "question": "Change into Active: 'This house was built by my father in 1990.'",
+    "options": [
+      "My father built this house in 1990.",
+      "My father has built this house in 1990.",
+      "My father builds this house in 1990.",
+      "In 1990 my father was building this house."
+    ],
+    "answer": "My father built this house in 1990.",
+    "explanation": "Simple Past Passive ➔ Active. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Did she buy a new laptop?'",
+    "options": [
+      "Was a new laptop bought by her?",
+      "Is a new laptop bought by her?",
+      "Has a new laptop been bought?",
+      "Were a new laptop bought by her?"
+    ],
+    "answer": "Was a new laptop bought by her?",
+    "explanation": "Interrogative Simple Past Passive. ✅"
+  },
+  {
+    "question": "Change into Active: 'By whom were you taught Kannada?'",
+    "options": [
+      "Who taught you Kannada?",
+      "Who teaches you Kannada?",
+      "Who has taught you Kannada?",
+      "By who taught you Kannada?"
+    ],
+    "answer": "Who taught you Kannada?",
+    "explanation": "Passive 'were taught' ➔ Active 'taught'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'People know that he is an honest man.'",
+    "options": [
+      "He is known to be an honest man.",
+      "It is known that he is an honest man.",
+      "That he is an honest man is known by people.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Two standard ways to handle clause passive. ✅"
+  },
+  {
+    "question": "Change into Active: 'A lesson is taught to us by her.'",
+    "options": [
+      "She teaches us a lesson.",
+      "She taught us a lesson.",
+      "She is teaching us a lesson.",
+      "She has taught us a lesson."
+    ],
+    "answer": "She teaches us a lesson.",
+    "explanation": "Passive 'is taught' ➔ Active Simple Present 'teaches'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Open your books at page ten.'",
+    "options": [
+      "Let your books be opened at page ten.",
+      "You are requested to open the books.",
+      "Your books should be opened.",
+      "Let page ten be opened."
+    ],
+    "answer": "Let your books be opened at page ten.",
+    "explanation": "Command ➔ Let + Obj + be + V3. ✅"
+  },
+  {
+    "question": "Change into Active: 'The thief was arrested by the police.'",
+    "options": [
+      "The police arrested the thief.",
+      "The police has arrested the thief.",
+      "The police was arresting the thief.",
+      "The police arrest the thief."
+    ],
+    "answer": "The police arrested the thief.",
+    "explanation": "Passive 'was arrested' ➔ Active 'arrested'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'She has not yet paid the fee.'",
+    "options": [
+      "The fee has not yet been paid by her.",
+      "The fee was not yet paid by her.",
+      "The fee is not yet paid by her.",
+      "The fee have not been paid yet."
+    ],
+    "answer": "The fee has not yet been paid by her.",
+    "explanation": "Present Perfect Passive. ✅"
+  },
+  {
+    "question": "Change into Active: 'Let the orders be carried out.'",
+    "options": [
+      "Carry out the orders.",
+      "Carry out the order.",
+      "Orders should be carried out.",
+      "Let orders carry out."
+    ],
+    "answer": "Carry out the orders.",
+    "explanation": "Passive Imperative ➔ Active Imperative. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I saw him opening the box.'",
+    "options": [
+      "He was seen opening the box.",
+      "He was seen to open the box.",
+      "Opening of the box was seen.",
+      "He is seen opening the box."
+    ],
+    "answer": "He was seen opening the box.",
+    "explanation": "Sensory verb + participle pattern. ✅"
+  }
+]
