@@ -1,0 +1,199 @@
+{
+  "questions": [
+    {
+      "question": "Find the error part: The teacher gave (A) / me many (B) / advices for (C) / my career (D).",
+      "options": ["A", "B", "C", "D"],
+      "answer": "C",
+      "explanation": "‘Advice’ is an uncountable noun and cannot be pluralized as ‘advices’. Use ‘pieces of advice’ if plural sense is needed. ✅"
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "options": [
+        "I have two five-hundreds rupees notes.",
+        "I have two five-hundred rupee notes.",
+        "I have two five-hundreds rupee notes.",
+        "I have two five-hundred rupees note."
+      ],
+      "answer": "I have two five-hundred rupee notes.",
+      "explanation": "In hyphenated compound nouns used as adjectives, the noun (rupee) remains singular. ✅"
+    },
+    {
+      "question": "Identify the error: The cattles (A) / are grazing (B) / in the field (C) / near the river (D).",
+      "options": ["A", "B", "C", "D"],
+      "answer": "A",
+      "explanation": "‘Cattle’ is a collective noun that is always plural; ‘cattles’ is an incorrect word. ✅"
+    },
+    {
+      "question": "Fill in the blank: The _____ of Kashmir is very charming.",
+      "options": ["Sceneries", "Scenery", "Scenes", "Scenic"],
+      "answer": "Scenery",
+      "explanation": "‘Scenery’ is an uncountable noun and does not take a plural form. ✅"
+    },
+    {
+      "question": "Find the error: Mathematics (A) / are a (B) / very difficult (C) / subject for me (D).",
+      "options": ["A", "B", "C", "D"],
+      "answer": "B",
+      "explanation": "Names of subjects like Mathematics, Physics, and Ethics take singular verbs. ‘Is’ should replace ‘are’. ✅"
+    },
+    {
+      "question": "Choose the correct form: He has written many _____.",
+      "options": ["Poetries", "Poetry", "Poems", "Poem"],
+      "answer": "Poems",
+      "explanation": "‘Poetry’ is uncountable. To express count, use the countable noun ‘poems’. ✅"
+    },
+    {
+      "question": "Identify the error: One of my (A) / best friend (B) / is a (C) / famous doctor (D).",
+      "options": ["A", "B", "C", "D"],
+      "answer": "B",
+      "explanation": "The structure ‘One of + the’ is always followed by a plural noun (friends). ✅"
+    },
+    {
+      "question": "Fill in the blank: There are two _____ in the kitchen.",
+      "options": ["Knife", "Knifes", "Knive", "Knives"],
+      "answer": "Knives",
+      "explanation": "Nouns ending in ‘-fe’ generally change to ‘-ves’ in plural form. ✅"
+    },
+    {
+      "question": "Find the error: The gentry (A) / of this (B) / town (C) / is very helpful (D).",
+      "options": ["A", "B", "C", "D"],
+      "answer": "D",
+      "explanation": "‘Gentry’ is a collective noun that takes a plural verb. Use ‘are’ instead of ‘is’. ✅"
+    },
+    {
+      "question": "Select the correct plural: _____ are usually sharp.",
+      "options": ["Scissors", "Scissor", "A scissor", "Scissorses"],
+      "answer": "Scissors",
+      "explanation": "Instruments with two parts like scissors, spectacles, and tongs are always plural. ✅"
+    },
+    {
+      "question": "Identify the error: This house (A) / is made (B) / of (C) / bricks and stones (D).",
+      "options": ["A", "B", "C", "D"],
+      "answer": "D",
+      "explanation": "When used as building material, ‘brick’ and ‘stone’ are uncountable and stay singular. ✅"
+    },
+    {
+      "question": "Fill in the blank: He provided us with all the necessary _____.",
+      "options": ["Informations", "Information", "Informative", "An information"],
+      "answer": "Information",
+      "explanation": "‘Information’ is an uncountable noun; it cannot be used with ‘s’ or ‘an’. ✅"
+    },
+    {
+      "question": "Choose the correct sentence regarding possession:",
+      "options": [
+        "The fan's blade is broken.",
+        "The blade of the fan is broken.",
+        "The fans blade is broken.",
+        "The blades fan is broken."
+      ],
+      "answer": "The blade of the fan is broken.",
+      "explanation": "Apostrophe ‘s’ is not used with non-living things. Use the ‘of’ construction. ✅"
+    },
+    {
+      "question": "Find the error: All his (A) / sister-in-laws (B) / are very (C) / beautiful (D).",
+      "options": ["A", "B", "C", "D"],
+      "answer": "B",
+      "explanation": "In compound nouns, add ‘s’ to the root word (sisters-in-law). ✅"
+    },
+    {
+      "question": "Fill in the blank: The jury _____ divided in their opinion.",
+      "options": ["was", "were", "is", "has"],
+      "answer": "were",
+      "explanation": "When members of a collective noun are divided, use a plural verb. ✅"
+    },
+    {
+      "question": "Identify the error: These news (A) / are (B) / very (C) / exciting (D).",
+      "options": ["A", "B", "C", "D"],
+      "answer": "B",
+      "explanation": "‘News’ is singular in construction and takes a singular verb ‘is’. ✅"
+    },
+    {
+      "question": "Choose the correct form: He gave me _____ hundred rupees.",
+      "options": ["five", "fives", "five's", "fifth"],
+      "answer": "five",
+      "explanation": "When a definite number precedes ‘hundred’, it remains in the singular form. ✅"
+    },
+    {
+      "question": "Find the error: Page after page (A) / of the (B) / Gita (C) / were read (D).",
+      "options": ["A", "B", "C", "D"],
+      "answer": "D",
+      "explanation": "When a noun is repeated after a preposition, it stays singular and takes a singular verb (was). ✅"
+    },
+    {
+      "question": "Identify the correct plural of 'Medium':",
+      "options": ["Mediums", "Media", "Medias", "Mediaes"],
+      "answer": "Media",
+      "explanation": "‘Media’ is the Latin plural form of ‘Medium’. ✅"
+    },
+    {
+      "question": "Fill in the blank: Politics _____ a dirty game.",
+      "options": ["is", "are", "were", "have been"],
+      "answer": "is",
+      "explanation": "Words ending in ‘-ics’ like politics or economics are singular when used as a subject. ✅"
+    },
+    {
+      "question": "Find the error: I have (A) / many works (B) / to finish (C) / today (D).",
+      "options": ["A", "B", "C", "D"],
+      "answer": "B",
+      "explanation": "‘Work’ meaning labor is uncountable. Use ‘much work’ or ‘many pieces of work’. ✅"
+    },
+    {
+      "question": "Choose the correct sentence:",
+      "options": [
+        "She is my cousin sister.",
+        "She is my cousin.",
+        "She is my cousins sister.",
+        "She is my cousin-sister."
+      ],
+      "answer": "She is my cousin.",
+      "explanation": "The terms ‘cousin brother’ or ‘cousin sister’ are grammatically redundant. ✅"
+    },
+    {
+      "question": "Identify the error: My spectacles (A) / has been (B) / broken (C) / by the child (D).",
+      "options": ["A", "B", "C", "D"],
+      "answer": "B",
+      "explanation": "‘Spectacles’ is a plural noun and requires a plural verb ‘have’. ✅"
+    },
+    {
+      "question": "Fill in the blank: Two miles _____ not a long distance.",
+      "options": ["is", "are", "were", "be"],
+      "answer": "is",
+      "explanation": "A specific distance or amount treated as a single unit takes a singular verb. ✅"
+    },
+    {
+      "question": "Find the error: The gallows (A) / has been (B) / erected (C) / for the convict (D).",
+      "options": ["A", "B", "C", "D"],
+      "answer": "No error",
+      "explanation": "‘Gallows’ looks plural but is used as a singular noun. The sentence is correct. ✅"
+    },
+    {
+      "question": "Identify the correct plural: Two _____ of sugar.",
+      "options": ["spoonful", "spoonsful", "spoonfuls", "spoonful's"],
+      "answer": "spoonfuls",
+      "explanation": "Nouns ending in ‘-ful’ are pluralized by adding ‘s’ at the end. ✅"
+    },
+    {
+      "question": "Fill in the blank: He is a _____ of his word.",
+      "options": ["man", "men", "mans", "man's"],
+      "answer": "man",
+      "explanation": "The idiom ‘man of his word’ uses the singular form of the noun. ✅"
+    },
+    {
+      "question": "Choose the correct plural form of 'Criterion':",
+      "options": ["Criterions", "Criteria", "Criterias", "Criterion's"],
+      "answer": "Criteria",
+      "explanation": "The plural of the Greek word ‘Criterion’ is ‘Criteria’. ✅"
+    },
+    {
+      "question": "Find the error: Ten (A) / thousand (B) / rupees (C) / are a huge amount (D).",
+      "options": ["A", "B", "C", "D"],
+      "answer": "D",
+      "explanation": "Specific sums of money take a singular verb ‘is’. ✅"
+    },
+    {
+      "question": "Identify the error: The fleet (A) / of ships (B) / are moving (C) / towards the harbor (D).",
+      "options": ["A", "B", "C", "D"],
+      "answer": "C",
+      "explanation": "‘Fleet’ is a collective noun acting as one unit; it should take the singular verb ‘is’. ✅"
+    }
+  ]
+}
