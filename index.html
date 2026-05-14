@@ -111,7 +111,7 @@
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
         import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
-        import { getFirestore, doc, setDoc, getDoc, collection, onSnapshot, query, deleteDoc, updateDoc } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
+        import { getFirestore, doc, setDoc, getDoc, collection, onSnapshot, query, deleteDoc, updateDoc, increment } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
 
         const firebaseConfig = {
             apiKey: "AIzaSyAh6pjj_eOmw2I6FMM63bDmwj5eIlbvZAI",
@@ -136,6 +136,7 @@
             progress: {},
             mistakes: [],
             totalPoints: 0,
+            masteryBookPoints: 0,
             authMode: 'login',
             currentAnkiIndex: 0,
             ankiSelection: null,
@@ -237,6 +238,7 @@
                     const fullName = document.getElementById('name-input').value;
                     const res = await createUserWithEmailAndPassword(auth, email, passIn);
                     await setDoc(doc(db, 'artifacts', appId, 'users', res.user.uid, 'profile', 'info'), { name: fullName, username: userIn });
+                    await setDoc(doc(db, 'artifacts', appId, 'users', res.user.uid, 'profile', 'mastery'), { points: 0 });
                 } else {
                     await signInWithEmailAndPassword(auth, email, passIn);
                 }
@@ -327,24 +329,20 @@
         // --- MASTERY LOGIC ---
         window.resolveAnki = async (correct) => {
             const current = state.mistakes[state.currentAnkiIndex];
-            const ref = doc(db, 'artifacts', appId, 'users', state.userId, 'mistakes', current.id);
-            const pointId = `mastery_sync_${Date.now()}`;
+            const refMistake = doc(db, 'artifacts', appId, 'users', state.userId, 'mistakes', current.id);
+            const refMastery = doc(db, 'artifacts', appId, 'users', state.userId, 'profile', 'mastery');
             
             if (correct) {
-                // If correct: Remove from Mastery Book and add +1 point
-                await deleteDoc(ref);
-                await setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'progress', pointId), { 
-                    score: 1, points: 1, type: 'mastery', completedAt: new Date().toISOString() 
-                });
+                // If correct: Remove from Mastery Book and add +1 point to separate Mastery Score
+                await deleteDoc(refMistake);
+                await setDoc(refMastery, { points: increment(1) }, { merge: true });
             } else {
-                // If wrong: Keep it and deduct -1 point
-                await setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'progress', pointId), { 
-                    score: -1, points: -1, type: 'mastery', completedAt: new Date().toISOString() 
-                });
+                // If wrong: Keep it and deduct -1 point from Mastery Score
+                await setDoc(refMastery, { points: increment(-1) }, { merge: true });
             }
             
             state.ankiSelection = null;
-            // Shuffling logic: Move to a different random index
+            // Shuffling logic: Move to a different random index to avoid repeats
             if (state.mistakes.length > 1) {
                 let nextIdx;
                 do {
@@ -497,7 +495,7 @@
                             <div class="flex justify-between items-center mb-4">
                                 <p class="text-[9px] font-black uppercase text-slate-400 tracking-tighter">Mistake ${state.currentAnkiIndex + 1}/${state.mistakes.length}</p>
                                 <div class="bg-rose-50 text-rose-600 px-4 py-1.5 rounded-full font-black text-xs flex items-center gap-1 border border-rose-100 shadow-sm">
-                                    <span>${state.totalPoints}</span> ❤️
+                                    <span>${state.masteryBookPoints}</span> ❤️
                                 </div>
                             </div>
                             <div class="bg-white p-4 rounded-3xl border h-full flex flex-col overflow-hidden shadow-sm">
@@ -520,13 +518,35 @@
                 state.userId = user.uid; state.isAuthenticated = true;
                 const profileSnap = await getDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'profile', 'info'));
                 if (profileSnap.exists()) state.userName = profileSnap.data().name;
+                
+                // Separate listener for normal quiz progress
                 onSnapshot(collection(db, 'artifacts', appId, 'users', state.userId, 'progress'), (snap) => {
-                    state.progress = {}; snap.forEach(doc => state.progress[doc.id] = doc.data());
-                    state.totalPoints = 0; Object.values(state.progress).forEach(p => state.totalPoints += (p.points || 0)); window.render();
+                    state.progress = {};
+                    state.totalPoints = 0;
+                    snap.forEach(doc => {
+                        const data = doc.data();
+                        state.progress[doc.id] = data;
+                        if (data.type !== 'mastery') { // Normal quiz points
+                           state.totalPoints += (data.points || 0);
+                        }
+                    });
+                    window.render();
                 });
+
+                // Separate listener for Mastery Book specific score
+                onSnapshot(doc(db, 'artifacts', appId, 'users', state.userId, 'profile', 'mastery'), (doc) => {
+                    if (doc.exists()) {
+                        state.masteryBookPoints = doc.data().points || 0;
+                    } else {
+                        state.masteryBookPoints = 0;
+                    }
+                    window.render();
+                });
+
                 onSnapshot(collection(db, 'artifacts', appId, 'users', state.userId, 'mistakes'), (snap) => {
                     state.mistakes = []; snap.forEach(doc => state.mistakes.push({ id: doc.id, ...doc.data() })); window.render();
                 });
+                
                 if (state.view === 'login' || state.view === 'booting') window.navigateTo('home');
             } else { state.isAuthenticated = false; state.userId = null; state.view = 'login'; window.render(); }
         });
