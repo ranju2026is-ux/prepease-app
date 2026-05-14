@@ -1,0 +1,332 @@
+[
+  {
+    "question": "Change into Passive: 'The postman has delivered the letters.'",
+    "options": [
+      "The letters has been delivered by the postman.",
+      "The letters have been delivered by the postman.",
+      "The letters were delivered by the postman.",
+      "The letters have delivered by the postman."
+    ],
+    "answer": "The letters have been delivered by the postman.",
+    "explanation": "In Present Perfect, if the object is plural (letters), use **have + been + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The teacher had already corrected the papers.'",
+    "options": [
+      "The papers have already been corrected by the teacher.",
+      "The papers had already been corrected by the teacher.",
+      "The papers were already corrected by the teacher.",
+      "The papers had been already corrected."
+    ],
+    "answer": "The papers had already been corrected by the teacher.",
+    "explanation": "In Past Perfect, the passive form is always **had + been + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'He gave me a beautiful gift.'",
+    "options": [
+      "A beautiful gift is given to me by him.",
+      "I was given a beautiful gift by him.",
+      "I am given a beautiful gift by him.",
+      "A beautiful gift was gave to me by him."
+    ],
+    "answer": "I was given a beautiful gift by him.",
+    "explanation": "When there are two objects (me, gift), either can be the subject. Here, 'I was given' is the standard passive form. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Has anyone answered your question?'",
+    "options": [
+      "Have your question been answered?",
+      "Has your question been answered?",
+      "Was your question answered by anyone?",
+      "Has your question answered?"
+    ],
+    "answer": "Has your question been answered?",
+    "explanation": "Interrogative Perfect ➔ Has/Have + Object + been + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'She has not written the report yet.'",
+    "options": [
+      "The report has not been written by her yet.",
+      "The report have not been written by her yet.",
+      "The report was not written by her yet.",
+      "The report has not being written by her yet."
+    ],
+    "answer": "The report has not been written by her yet.",
+    "explanation": "Present Perfect Negative ➔ has/have + not + been + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The company had offered him a high salary.'",
+    "options": [
+      "He had been offered a high salary by the company.",
+      "A high salary has been offered to him by the company.",
+      "He was offered a high salary by the company.",
+      "He had offered a high salary by the company."
+    ],
+    "answer": "He had been offered a high salary by the company.",
+    "explanation": "Past Perfect (had offered) ➔ had been offered. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Who has broken the window pane?'",
+    "options": [
+      "By whom the window pane has been broken?",
+      "By whom has the window pane been broken?",
+      "Who has been broken the window pane?",
+      "By whom was the window pane broken?"
+    ],
+    "answer": "By whom has the window pane been broken?",
+    "explanation": "Who ➔ By whom. The helping verb 'has' must come before the subject in a question. ✅"
+  },
+  {
+    "question": "Change into Passive: 'They have built a bridge across the river.'",
+    "options": [
+      "A bridge has been built across the river by them.",
+      "A bridge have been built across the river by them.",
+      "A bridge was built across the river by them.",
+      "A bridge had been built across the river."
+    ],
+    "answer": "A bridge has been built across the river by them.",
+    "explanation": "Present Perfect ➔ has/have + been + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The police had caught the thieves before they escaped.'",
+    "options": [
+      "The thieves have been caught by the police.",
+      "The thieves had been caught by the police before they escaped.",
+      "The thieves were caught by the police.",
+      "The thieves had caught by the police."
+    ],
+    "answer": "The thieves had been caught by the police before they escaped.",
+    "explanation": "Past Perfect ➔ had been + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The manager sent me an invitation.'",
+    "options": [
+      "I was sent an invitation by the manager.",
+      "An invitation is sent to me by the manager.",
+      "I had been sent an invitation by the manager.",
+      "I was send an invitation by the manager."
+    ],
+    "answer": "I was sent an invitation by the manager.",
+    "explanation": "Simple Past (sent) ➔ was sent. Indirect object 'I' is used as the subject. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Have you finished the task?'",
+    "options": [
+      "Has the task been finished by you?",
+      "Have the task been finished by you?",
+      "Was the task finished by you?",
+      "Had the task been finished by you?"
+    ],
+    "answer": "Has the task been finished by you?",
+    "explanation": "'The task' is singular, so 'Have' changes to 'Has' in the passive question. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Nobody has ever seen this place before.'",
+    "options": [
+      "This place has never been seen before.",
+      "This place was never seen before.",
+      "This place has been seen by nobody.",
+      "This place had never been seen before."
+    ],
+    "answer": "This place has never been seen before.",
+    "explanation": "'Nobody...ever' ➔ 'has never been + V3'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Someone had already informed him.'",
+    "options": [
+      "He was already informed.",
+      "He had already been informed.",
+      "He has already been informed.",
+      "He had being already informed."
+    ],
+    "answer": "He had already been informed.",
+    "explanation": "Past Perfect ➔ had + been + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'She has taught us a lesson.'",
+    "options": [
+      "We have been taught a lesson by her.",
+      "A lesson has taught to us by her.",
+      "We were taught a lesson by her.",
+      "We has been taught a lesson by her."
+    ],
+    "answer": "We have been taught a lesson by her.",
+    "explanation": "We (plural) takes 'have been taught'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Had they completed the project?'",
+    "options": [
+      "Had the project been completed by them?",
+      "Was the project completed by them?",
+      "Have the project been completed by them?",
+      "Has the project been completed by them?"
+    ],
+    "answer": "Had the project been completed by them?",
+    "explanation": "In Past Perfect, the helping verb 'Had' remains the same for all. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I have paid the bill.'",
+    "options": [
+      "The bill has paid by me.",
+      "The bill has been paid by me.",
+      "The bill have been paid by me.",
+      "The bill was paid by me."
+    ],
+    "answer": "The bill has been paid by me.",
+    "explanation": "Present Perfect ➔ has been + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The guard had checked all the bags.'",
+    "options": [
+      "All the bags have been checked by the guard.",
+      "All the bags had been checked by the guard.",
+      "All the bags were checked by the guard.",
+      "All the bags had being checked."
+    ],
+    "answer": "All the bags had been checked by the guard.",
+    "explanation": "Past Perfect Passive uses 'had been' for both singular and plural. ✅"
+  },
+  {
+    "question": "Change into Passive: 'He has sold his old car.'",
+    "options": [
+      "His old car has sold by him.",
+      "His old car has been sold by him.",
+      "His old car was sold by him.",
+      "His old car is sold by him."
+    ],
+    "answer": "His old car has been sold by him.",
+    "explanation": "Present Perfect ➔ has been + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'They have invited me to the party.'",
+    "options": [
+      "I have been invited to the party by them.",
+      "I has been invited to the party by them.",
+      "I was invited to the party.",
+      "I have invited to the party by them."
+    ],
+    "answer": "I have been invited to the party by them.",
+    "explanation": "I ➔ have been + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'My sister has cleaned the house.'",
+    "options": [
+      "The house has been cleaned by my sister.",
+      "The house have been cleaned by my sister.",
+      "The house is cleaned by my sister.",
+      "The house was being cleaned."
+    ],
+    "answer": "The house has been cleaned by my sister.",
+    "explanation": "House (singular) ➔ has been + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Had the rain destroyed the crops?'",
+    "options": [
+      "Had the crops been destroyed by the rain?",
+      "Was the crops destroyed by the rain?",
+      "Have the crops been destroyed by the rain?",
+      "Has the crops been destroyed?"
+    ],
+    "answer": "Had the crops been destroyed by the rain?",
+    "explanation": "Past Perfect Interrogative ➔ Had + Obj + been + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'They have not seen the movie yet.'",
+    "options": [
+      "The movie has not been seen by them yet.",
+      "The movie was not seen by them yet.",
+      "The movie has not seen by them yet.",
+      "The movie have not been seen by them yet."
+    ],
+    "answer": "The movie has not been seen by them yet.",
+    "explanation": "Movie (singular) ➔ has not been + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Who had stolen the money?'",
+    "options": [
+      "By whom had the money been stolen?",
+      "By whom has the money been stolen?",
+      "By whom was the money stolen?",
+      "Who had the money been stolen by?"
+    ],
+    "answer": "By whom had the money been stolen?",
+    "explanation": "Who ➔ By whom. Past Perfect ➔ had + Obj + been + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Someone has picked my pocket.'",
+    "options": [
+      "My pocket has being picked.",
+      "My pocket has been picked.",
+      "My pocket was picked.",
+      "My pocket have been picked."
+    ],
+    "answer": "My pocket has been picked.",
+    "explanation": "Present Perfect ➔ has been + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'He has told me the truth.'",
+    "options": [
+      "I have been told the truth by him.",
+      "The truth has been told to me by him.",
+      "I am told the truth by him.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "With two objects (me, truth), both are grammatically correct in passive. ✅"
+  },
+  {
+    "question": "Change into Passive: 'They have closed all the shops.'",
+    "options": [
+      "All the shops has been closed.",
+      "All the shops have been closed by them.",
+      "All the shops were closed by them.",
+      "All the shops had been closed."
+    ],
+    "answer": "All the shops have been closed by them.",
+    "explanation": "Shops (plural) ➔ have been + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Why had you rejected the offer?'",
+    "options": [
+      "Why the offer had been rejected by you?",
+      "Why had the offer been rejected by you?",
+      "Why was the offer rejected by you?",
+      "Why have the offer been rejected by you?"
+    ],
+    "answer": "Why had the offer been rejected by you?",
+    "explanation": "Wh-word + had + Obj + been + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'We have won the championship.'",
+    "options": [
+      "The championship have been won by us.",
+      "The championship has been won by us.",
+      "The championship was won by us.",
+      "The championship has being won by us."
+    ],
+    "answer": "The championship has been won by us.",
+    "explanation": "Championship (singular) ➔ has been + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The storm had damaged the roof.'",
+    "options": [
+      "The roof was damaged by the storm.",
+      "The roof had been damaged by the storm.",
+      "The roof has been damaged by the storm.",
+      "The roof had being damaged."
+    ],
+    "answer": "The roof had been damaged by the storm.",
+    "explanation": "Past Perfect ➔ had been + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Has the government changed the rules?'",
+    "options": [
+      "Have the rules been changed by the government?",
+      "Has the rules been changed by the government?",
+      "Were the rules changed by the government?",
+      "Had the rules been changed by the government?"
+    ],
+    "answer": "Have the rules been changed by the government?",
+    "explanation": "The rules (plural) requires 'Have' in the passive question. ✅"
+  }
+]
