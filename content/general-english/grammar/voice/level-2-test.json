@@ -1,0 +1,332 @@
+[
+  {
+    "question": "Change into Passive: 'The chef is preparing a delicious meal.'",
+    "options": [
+      "A delicious meal is prepared by the chef.",
+      "A delicious meal was being prepared by the chef.",
+      "A delicious meal is being prepared by the chef.",
+      "A delicious meal has been prepared by the chef."
+    ],
+    "answer": "A delicious meal is being prepared by the chef.",
+    "explanation": "In Present Continuous, Passive form is: **is/am/are + being + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'They were painting the walls when I arrived.'",
+    "options": [
+      "The walls are being painted by them.",
+      "The walls were being painted by them.",
+      "The walls was being painted by them.",
+      "The walls had been painted by them."
+    ],
+    "answer": "The walls were being painted by them.",
+    "explanation": "In Past Continuous, use **was/were + being + V3**. 'Walls' is plural, so 'were being' is correct. ✅"
+  },
+  {
+    "question": "Change into Passive: 'You must follow the traffic rules.'",
+    "options": [
+      "The traffic rules must follow by you.",
+      "The traffic rules must be followed by you.",
+      "The traffic rules should be followed by you.",
+      "The traffic rules must being followed by you."
+    ],
+    "answer": "The traffic rules must be followed by you.",
+    "explanation": "For Modal Verbs (must, can, should), Passive form is: **Modal + be + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Who is knocking at the door?'",
+    "options": [
+      "By whom is the door being knocked at?",
+      "By whom was the door being knocked at?",
+      "Who is the door being knocked at?",
+      "By whom is the door knocked at?"
+    ],
+    "answer": "By whom is the door being knocked at?",
+    "explanation": "Who ➔ By whom. Continuous form ➔ is being + V3. Don't drop the preposition 'at'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'She can speak four languages.'",
+    "options": [
+      "Four languages can spoken by her.",
+      "Four languages could be spoken by her.",
+      "Four languages can be spoken by her.",
+      "Four languages are spoken by her."
+    ],
+    "answer": "Four languages can be spoken by her.",
+    "explanation": "Modal 'can' changes to 'can be + V3'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The laborers were digging a canal.'",
+    "options": [
+      "A canal is being dug by the laborers.",
+      "A canal was being digged by the laborers.",
+      "A canal was being dug by the laborers.",
+      "A canal were being dug by the laborers."
+    ],
+    "answer": "A canal was being dug by the laborers.",
+    "explanation": "Past Continuous ➔ was being + V3. (V3 of dig is 'dug'). ✅"
+  },
+  {
+    "question": "Change into Passive: 'Is she singing a song?'",
+    "options": [
+      "Is a song sung by her?",
+      "Is a song being sung by her?",
+      "Was a song being sung by her?",
+      "Is a song being singed by her?"
+    ],
+    "answer": "Is song being sung by her?",
+    "explanation": "Interrogative Continuous ➔ Is + Sub + being + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Why was he wasting time?'",
+    "options": [
+      "Why is time being wasted by him?",
+      "Why was time being wasted by him?",
+      "Why time was being wasted by him?",
+      "Why was time wasted by him?"
+    ],
+    "answer": "Why was time being wasted by him?",
+    "explanation": "Wh-word remains the same. Past Continuous ➔ was being + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'We should help the needy.'",
+    "options": [
+      "The needy should be helped by us.",
+      "The needy ought to be helped by us.",
+      "The needy should helped by us.",
+      "The needy are helped by us."
+    ],
+    "answer": "The needy should be helped by us.",
+    "explanation": "Should ➔ should be + V3. ✅"
+  },
+  {
+    "question": "Change into Active: 'A new road is being constructed by the government.'",
+    "options": [
+      "The government constructs a new road.",
+      "The government is constructing a new road.",
+      "The government was constructing a new road.",
+      "The government has been constructing a new road."
+    ],
+    "answer": "The government is constructing a new road.",
+    "explanation": "'is being + V3' is the passive of Present Continuous. ✅"
+  },
+  {
+    "question": "Change into Passive: 'No one is using the computer at the moment.'",
+    "options": [
+      "The computer is being not used by anyone.",
+      "The computer is not being used.",
+      "The computer was not being used.",
+      "The computer is being used by no one."
+    ],
+    "answer": "The computer is not being used.",
+    "explanation": "Negative Continuous ➔ is not being + V3. 'By no one' is redundant. ✅"
+  },
+  {
+    "question": "Change into Passive: 'They are playing a friendly match.'",
+    "options": [
+      "A friendly match is played by them.",
+      "A friendly match is being played by them.",
+      "A friendly match are being played by them.",
+      "A friendly match was being played by them."
+    ],
+    "answer": "A friendly match is being played by them.",
+    "explanation": "Present Continuous ➔ is being + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Nobody could solve the problem.'",
+    "options": [
+      "The problem could not be solved by anybody.",
+      "The problem could be solved by nobody.",
+      "The problem can not be solved.",
+      "The problem could not solved."
+    ],
+    "answer": "The problem could not be solved by anybody.",
+    "explanation": "'Nobody could' ➔ 'could not be + V3 + by anybody'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Was he repairing the car?'",
+    "options": [
+      "Was the car repaired by him?",
+      "Was the car being repaired by him?",
+      "Is the car being repaired by him?",
+      "Were the car being repaired by him?"
+    ],
+    "answer": "Was the car being repaired by him?",
+    "explanation": "Interrogative Past Continuous ➔ Was + Sub + being + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I am taking the children to the zoo.'",
+    "options": [
+      "The children are being taken to the zoo by me.",
+      "The children is being taken to the zoo by me.",
+      "The children were being taken to the zoo by me.",
+      "The children are taking to the zoo by me."
+    ],
+    "answer": "The children are being taken to the zoo by me.",
+    "explanation": "Children (plural) ➔ are being + V3 (taken). ✅"
+  },
+  {
+    "question": "Change into Passive: 'She could not carry the heavy bag.'",
+    "options": [
+      "The heavy bag could not carried by her.",
+      "The heavy bag could not be carried by her.",
+      "The heavy bag cannot be carried by her.",
+      "The heavy bag could be not carried by her."
+    ],
+    "answer": "The heavy bag could not be carried by her.",
+    "explanation": "Modal Negative ➔ Modal + not + be + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'People are watching the live telecast.'",
+    "options": [
+      "The live telecast is being watched.",
+      "The live telecast are being watched.",
+      "The live telecast was being watched.",
+      "The live telecast is watched."
+    ],
+    "answer": "The live telecast is being watched.",
+    "explanation": "Present Continuous ➔ is being + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The students were making a noise.'",
+    "options": [
+      "A noise were being made by the students.",
+      "A noise was being made by the students.",
+      "A noise was being make by the students.",
+      "A noise is being made by the students."
+    ],
+    "answer": "A noise was being made by the students.",
+    "explanation": "'A noise' is singular, so it takes 'was being'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'May I take your pen?'",
+    "options": [
+      "May your pen be taken by me?",
+      "May your pen taken by me?",
+      "Can your pen be taken by me?",
+      "May your pen being taken by me?"
+    ],
+    "answer": "May your pen be taken by me?",
+    "explanation": "Interrogative Modal ➔ Modal + Obj + be + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'He is not driving the car.'",
+    "options": [
+      "The car is being not driven by him.",
+      "The car was not being driven by him.",
+      "The car is not being driven by him.",
+      "The car is not driven by him."
+    ],
+    "answer": "The car is not being driven by him.",
+    "explanation": "Present Continuous Negative ➔ is not being + V3 (driven). ✅"
+  },
+  {
+    "question": "Change into Passive: 'The cat was chasing the mouse.'",
+    "options": [
+      "The mouse is being chased by the cat.",
+      "The mouse was being chased by the cat.",
+      "The mouse were being chased by the cat.",
+      "The mouse was chased by the cat."
+    ],
+    "answer": "The mouse was being chased by the cat.",
+    "explanation": "Past Continuous ➔ was being + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Can you lift this box?'",
+    "options": [
+      "Can this box be lifted by you?",
+      "Could this box be lifted by you?",
+      "Can this box lifted by you?",
+      "Is this box lifted by you?"
+    ],
+    "answer": "Can this box be lifted by you?",
+    "explanation": "Can ➔ Can + Obj + be + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'They are pulling down the old building.'",
+    "options": [
+      "The old building is pulled down.",
+      "The old building is being pulled down.",
+      "The old building was being pulled down.",
+      "The old building are being pulled down."
+    ],
+    "answer": "The old building is being pulled down.",
+    "explanation": "Keep the preposition 'down' with the verb. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Who was helping the poor man?'",
+    "options": [
+      "By whom is the poor man being helped?",
+      "By whom was the poor man being helped?",
+      "Who was the poor man being helped by?",
+      "By whom the poor man was being helped?"
+    ],
+    "answer": "By whom was the poor man being helped?",
+    "explanation": "Who ➔ By whom. Past Continuous ➔ was being + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'One must keep one's promises.'",
+    "options": [
+      "Promises must be kept.",
+      "One's promises must be kept.",
+      "Promises should be kept.",
+      "Promises must kept."
+    ],
+    "answer": "Promises must be kept.",
+    "explanation": "In sentences with 'one', we omit 'by one' or 'one's' in passive. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I am reading a very interesting book.'",
+    "options": [
+      "A very interesting book is read by me.",
+      "A very interesting book is being read by me.",
+      "A very interesting book was being read by me.",
+      "A very interesting book has been read."
+    ],
+    "answer": "A very interesting book is being read by me.",
+    "explanation": "Present Continuous ➔ is being + V3 (read). ✅"
+  },
+  {
+    "question": "Change into Passive: 'What are you doing?'",
+    "options": [
+      "What is being done by you?",
+      "What are being done by you?",
+      "What was being done by you?",
+      "What is done by you?"
+    ],
+    "answer": "What is being done by you?",
+    "explanation": "In 'What' questions, 'What' acts as the subject/object. ✅"
+  },
+  {
+    "question": "Change into Passive: 'They were not feeding the lions.'",
+    "options": [
+      "The lions are not being fed by them.",
+      "The lions were not being fed by them.",
+      "The lions was not being fed by them.",
+      "The lions were not fed by them."
+    ],
+    "answer": "The lions were not being fed by them.",
+    "explanation": "Lions (plural) ➔ were not being + V3 (fed). ✅"
+  },
+  {
+    "question": "Change into Passive: 'The judge is hearing the case.'",
+    "options": [
+      "The case is heard by the judge.",
+      "The case was being heard by the judge.",
+      "The case is being heard by the judge.",
+      "The case has been heard."
+    ],
+    "answer": "The case is being heard by the judge.",
+    "explanation": "Present Continuous ➔ is being + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'She might win the prize.'",
+    "options": [
+      "The prize might be won by her.",
+      "The prize might win by her.",
+      "The prize may be won by her.",
+      "The prize might be winned by her."
+    ],
+    "answer": "The prize might be won by her.",
+    "explanation": "Modal 'might' ➔ might be + V3 (won). ✅"
+  }
+]
