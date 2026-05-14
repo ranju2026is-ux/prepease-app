@@ -1,167 +1,332 @@
 [
   {
-    "question": "Fill in the blank: I was surprised at _____ leaving the job so suddenly.",
-    "options": [
-      "him",
-      "his",
-      "he",
-      "himself"
-    ],
-    "answer": "his",
-    "explanation": "A Gerund (leaving) should be preceded by a possessive adjective (his/my/your) rather than an objective pronoun. ✅"
-  },
-  {
-    "question": "Choose the correct pronoun: If I were _____, I would not go there.",
-    "options": [
-      "him",
-      "he",
-      "his",
-      "himself"
-    ],
-    "answer": "he",
-    "explanation": "After 'to be' verbs (is, was, were), the subjective case (I, He, She, They) is used when it functions as a complement. ✅"
-  },
-  {
-    "question": "Identify the correct form: My brother is as strong as _____.",
-    "options": [
-      "me",
-      "I",
-      "myself",
-      "mine"
-    ],
-    "answer": "I",
-    "explanation": "In formal comparisons using 'as...as' or 'than', the subjective case (I) is required because the sentence implies 'as I am'. ✅"
-  },
-  {
-    "question": "Fill in the blank: The houses of the rich are grander than _____ of the poor.",
-    "options": [
-      "that",
-      "those",
-      "it",
-      "them"
-    ],
-    "answer": "those",
-    "explanation": "To avoid repetition of the plural noun 'houses', the demonstrative pronoun 'those' must be used. ✅"
-  },
-  {
-    "question": "Identify the error: This is the man who I think committed the crime.",
+    "question": "_____ are the books I was looking for.",
     "options": [
       "This",
-      "who",
-      "think",
-      "committed"
+      "That",
+      "These",
+      "Each"
     ],
-    "answer": "No Error",
-    "explanation": "When 'I think' or 'I believe' is a parenthetical expression, 'who' remains the subject of the following verb (committed). ✅"
+    "answer": "These",
+    "explanation": "'Books' is plural and nearby, so 'These' is the correct demonstrative pronoun. ✅"
   },
   {
-    "question": "Choose the correct pronoun: Each of the volunteers offered _____ services.",
+    "question": "Neither of the two candidates _____ suitable.",
     "options": [
-      "their",
-      "his",
-      "our",
-      "them"
+      "is",
+      "are",
+      "were",
+      "have"
     ],
-    "answer": "his",
-    "explanation": "Despite the plural 'volunteers', 'Each' makes the subject singular, requiring the singular possessive 'his'. ✅"
+    "answer": "is",
+    "explanation": "'Neither' is a distributive pronoun and is always treated as singular in formal grammar. ✅"
   },
   {
-    "question": "Fill in the blank: Both you and _____ are expected to be present.",
+    "question": "Look at _____ stars way up in the sky.",
     "options": [
-      "he",
-      "him",
-      "himself",
-      "his"
+      "this",
+      "these",
+      "those",
+      "that"
     ],
-    "answer": "he",
-    "explanation": "The subject of the sentence must be in the subjective case (He). The 2-3-1 rule also places the 3rd person after the 2nd person. ✅"
+    "answer": "those",
+    "explanation": "'Stars' are plural and at a distance, so 'those' is used. ✅"
   },
   {
-    "question": "Identify the correct relative pronoun: There is no one _____ thinks so.",
+    "question": "Each of the soldiers _____ ready for the battle.",
     "options": [
-      "who",
+      "was",
+      "were",
+      "are",
+      "have"
+    ],
+    "answer": "was",
+    "explanation": "'Each' refers to individuals in a group and always takes a singular verb. ✅"
+  },
+  {
+    "question": "_____ is my house and that one over there is yours.",
+    "options": [
+      "This",
+      "These",
+      "Those",
+      "Each"
+    ],
+    "answer": "This",
+    "explanation": "'This' refers to something close to the speaker. ✅"
+  },
+  {
+    "question": "Either of the two roads _____ to the station.",
+    "options": [
+      "lead",
+      "leads",
+      "leading",
+      "have led"
+    ],
+    "answer": "leads",
+    "explanation": "'Either' means 'one or the other' and takes a singular verb 'leads'. ✅"
+  },
+  {
+    "question": "_____ mangoes are sour, but those are sweet.",
+    "options": [
+      "This",
+      "That",
+      "These",
+      "Each"
+    ],
+    "answer": "These",
+    "explanation": "'These' is used for plural objects close at hand. ✅"
+  },
+  {
+    "question": "The climate of Belagavi is better than _____ of Vijayapura.",
+    "options": [
       "that",
-      "but",
-      "which"
-    ],
-    "answer": "but",
-    "explanation": "In negative contexts, 'but' acts as a relative pronoun meaning 'who does not'. ✅"
-  },
-  {
-    "question": "Choose the correct reflexive pronoun: He enjoyed _____ during the holidays.",
-    "options": [
-      "himself",
-      "him",
-      "his",
-      "his self"
-    ],
-    "answer": "himself",
-    "explanation": "The verb 'enjoy' requires an object. If no object is mentioned, a reflexive pronoun must be used. ✅"
-  },
-  {
-    "question": "Fill in the blank: This is the same lady _____ met me in the park.",
-    "options": [
-      "who",
-      "whom",
-      "that",
-      "which"
+      "this",
+      "those",
+      "these"
     ],
     "answer": "that",
-    "explanation": "After 'the same', 'that' is the mandatory relative pronoun. ✅"
+    "explanation": "To avoid repeating 'The climate' (singular), we use the demonstrative pronoun 'that'. ✅"
   },
   {
-    "question": "Identify the correct pronoun: Neither of the two plans has _____ own merits.",
+    "question": "The rivers of North India are longer than _____ of South India.",
     "options": [
-      "its",
-      "it's",
-      "their",
-      "his"
-    ],
-    "answer": "its",
-    "explanation": "'Neither' is singular and 'plans' are non-living, so 'its' (without apostrophe) is the correct possessive. ✅"
-  },
-  {
-    "question": "Choose the correct form: You and _____ are good friends.",
-    "options": [
-      "me",
-      "I",
-      "my",
-      "myself"
-    ],
-    "answer": "I",
-    "explanation": "Subjective case 'I' is used as part of the compound subject. ✅"
-  },
-  {
-    "question": "Fill in the blank: To _____ were you speaking?",
-    "options": [
-      "who",
-      "whom",
-      "whose",
-      "which"
-    ],
-    "answer": "whom",
-    "explanation": "After a preposition (To), the objective case 'whom' must be used. ✅"
-  },
-  {
-    "question": "Identify the error: He is one of those men who does not cheat.",
-    "options": [
-      "He",
+      "that",
+      "this",
       "those",
-      "who",
-      "does"
+      "these"
     ],
-    "answer": "does",
-    "explanation": "The relative pronoun 'who' refers to 'men' (plural), so the verb should be plural 'do' instead of 'does'. ✅"
+    "answer": "those",
+    "explanation": "To avoid repeating 'The rivers' (plural), we use 'those'. ✅"
   },
   {
-    "question": "Choose the correct option: I am better than _____.",
+    "question": "Each of the girls has brought _____ own book.",
     "options": [
-      "him",
-      "he",
+      "their",
+      "her",
       "his",
-      "himself"
+      "them"
     ],
-    "answer": "he",
-    "explanation": "In formal comparison, 'I am better than he (is)' is the grammatically correct structure. ✅"
+    "answer": "her",
+    "explanation": "'Each' is singular, and since we are talking about girls, 'her' is the correct possessive. ✅"
+  },
+  {
+    "question": "_____ is a very beautiful painting on the wall.",
+    "options": [
+      "This",
+      "These",
+      "Those",
+      "Each"
+    ],
+    "answer": "This",
+    "explanation": "Singular object 'painting'. ✅"
+  },
+  {
+    "question": "_____ are the days we will never forget.",
+    "options": [
+      "That",
+      "This",
+      "Those",
+      "Each"
+    ],
+    "answer": "Those",
+    "explanation": "Refers to plural days in the past (distance in time). ✅"
+  },
+  {
+    "question": "Neither of the answers _____ correct.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "explanation": "'Neither' is distributive and singular. ✅"
+  },
+  {
+    "question": "Either of the boys _____ broken the window.",
+    "options": [
+      "has",
+      "have",
+      "are",
+      "were"
+    ],
+    "answer": "has",
+    "explanation": "'Either' takes a singular verb 'has'. ✅"
+  },
+  {
+    "question": "_____ students who work hard succeed.",
+    "options": [
+      "That",
+      "This",
+      "Those",
+      "Each"
+    ],
+    "answer": "Those",
+    "explanation": "'Those' is used here as a demonstrative to specify a certain group of people. ✅"
+  },
+  {
+    "question": "Each of us _____ a different task to perform.",
+    "options": [
+      "has",
+      "have",
+      "is",
+      "are"
+    ],
+    "answer": "has",
+    "explanation": "'Each' takes the singular verb 'has'. ✅"
+  },
+  {
+    "question": "Both plans are good, but I prefer _____ one.",
+    "options": [
+      "these",
+      "this",
+      "those",
+      "each"
+    ],
+    "answer": "this",
+    "explanation": "Refers to a singular choice made from two options. ✅"
+  },
+  {
+    "question": "The streets of Delhi are wider than _____ of Mumbai.",
+    "options": [
+      "this",
+      "that",
+      "these",
+      "those"
+    ],
+    "answer": "those",
+    "explanation": "Refers to plural 'streets'. ✅"
+  },
+  {
+    "question": "Either of you _____ welcome to join the team.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "be"
+    ],
+    "answer": "is",
+    "explanation": "'Either' is singular. ✅"
+  },
+  {
+    "question": "_____ who help others are always happy.",
+    "options": [
+      "That",
+      "Those",
+      "This",
+      "These"
+    ],
+    "answer": "Those",
+    "explanation": "'Those' refers to people in general. ✅"
+  },
+  {
+    "question": "Each of the two sisters _____ very smart.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "be"
+    ],
+    "answer": "is",
+    "explanation": "Distributive pronoun 'Each' is singular. ✅"
+  },
+  {
+    "question": "I don't like _____ kind of jokes.",
+    "options": [
+      "this",
+      "these",
+      "those",
+      "that"
+    ],
+    "answer": "this",
+    "explanation": "After 'this/that', use the singular noun 'kind'. (Don't say 'these kind'). ✅"
+  },
+  {
+    "question": "I like _____ kinds of flowers.",
+    "options": [
+      "this",
+      "that",
+      "these",
+      "each"
+    ],
+    "answer": "these",
+    "explanation": "Use 'these/those' with plural 'kinds'. ✅"
+  },
+  {
+    "question": "Neither of the two books _____ mine.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "explanation": "Singular rule for 'neither'. ✅"
+  },
+  {
+    "question": "_____ are my parents standing near the gate.",
+    "options": [
+      "This",
+      "That",
+      "Those",
+      "Each"
+    ],
+    "answer": "Those",
+    "explanation": "Plural and standing at a distance. ✅"
+  },
+  {
+    "question": "Either of you _____ go there.",
+    "options": [
+      "can",
+      "could",
+      "may",
+      "All the above"
+    ],
+    "answer": "All the above",
+    "explanation": "Modal verbs remain the same for either singular or plural subjects. ✅"
+  },
+  {
+    "question": "Each of the rooms _____ well-ventilated.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "explanation": "Singular verb for 'Each'. ✅"
+  },
+  {
+    "question": "_____ is the mobile phone I bought yesterday.",
+    "options": [
+      "This",
+      "These",
+      "Those",
+      "Each"
+    ],
+    "answer": "This",
+    "explanation": "Singular and usually held or close. ✅"
+  },
+  {
+    "question": "Neither of the children _____ been seen since morning.",
+    "options": [
+      "has",
+      "have",
+      "is",
+      "are"
+    ],
+    "answer": "has",
+    "explanation": "'Neither' + singular 'has'. ✅"
+  },
+  {
+    "question": "The mangoes of Ratnagiri are better than _____ of Dharwad.",
+    "options": [
+      "that",
+      "this",
+      "these",
+      "those"
+    ],
+    "answer": "those",
+    "explanation": "Refers to plural 'mangoes'. ✅"
   }
 ]
