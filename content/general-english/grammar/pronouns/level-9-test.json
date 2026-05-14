@@ -1,0 +1,167 @@
+[
+  {
+    "question": "Fill in the blank: Each of the students who _____ selected for the scholarship has to sign the document.",
+    "options": [
+      "is",
+      "are",
+      "was",
+      "were"
+    ],
+    "answer": "were",
+    "explanation": "ಇಲ್ಲಿ 'who' ಎಂಬುದು 'students' (Plural) ಅನ್ನು ಸೂಚಿಸುವುದರಿಂದ ಅದರ ನಂತರ ಬರುವ ಕ್ರಿಯಾಪದ 'were' ಆಗಿರಬೇಕು. ಆದರೆ ಇಡೀ ವಾಕ್ಯದ ಮುಖ್ಯ ಕ್ರಿಯಾಪದ 'has' ಎಂಬುದು 'Each' ಗೆ ಅನುಗುಣವಾಗಿರುತ್ತದೆ. ✅"
+  },
+  {
+    "question": "Choose the correct pronoun: She is one of the few people _____ I can truly rely on.",
+    "options": [
+      "who",
+      "whom",
+      "which",
+      "that"
+    ],
+    "answer": "that",
+    "explanation": "'Few', 'Little', 'Only', 'Same' ಅಂತಹ ಪದಗಳ ನಂತರ 'who/whom' ಬದಲಿಗೆ 'that' ಬಳಸುವುದು ಹೆಚ್ಚು ಸೂಕ್ತ. ✅"
+  },
+  {
+    "question": "Identify the correct form: He loved his brother more than _____.",
+    "options": [
+      "I",
+      "me",
+      "myself",
+      "mine"
+    ],
+    "answer": "me",
+    "explanation": "ಇಲ್ಲಿ ಹೋಲಿಕೆಯು 'him' (his brother - Object) ಮತ್ತು 'me' (Object) ನಡುವೆ ಇರುವುದರಿಂದ 'me' ಸರಿಯಾಗಿದೆ. (He loved his brother more than he loved me). ✅"
+  },
+  {
+    "question": "Fill in the blank: None of the equipment has lost _____ value.",
+    "options": [
+      "their",
+      "its",
+      "his",
+      "it's"
+    ],
+    "answer": "its",
+    "explanation": "'Equipment' ಎಂಬುದು Uncountable noun ಆಗಿದ್ದು ಇದನ್ನು ಯಾವಾಗಲೂ ಏಕವಚನವಾಗಿ ಪರಿಗಣಿಸಲಾಗುತ್ತದೆ, ಆದ್ದರಿಂದ 'its' ಸರಿಯಾದ ರೂಪ. ✅"
+  },
+  {
+    "question": "Choose the correct pronoun: It was _____ who first proposed the idea in the meeting.",
+    "options": [
+      "her",
+      "she",
+      "herself",
+      "hers"
+    ],
+    "answer": "she",
+    "explanation": "'It is/was' ನಂತರ ಬರುವ Pronoun ಯಾವಾಗಲೂ Subjective case (She) ನಲ್ಲಿರಬೇಕು. ✅"
+  },
+  {
+    "question": "Identify the error: The board of directors has announced their decision.",
+    "options": [
+      "board",
+      "has",
+      "their",
+      "decision"
+    ],
+    "answer": "their",
+    "explanation": "'Board' ಒಂದು Collective noun ಆಗಿ ಕೆಲಸ ಮಾಡುತ್ತಿರುವುದರಿಂದ ಮತ್ತು ಇಲ್ಲಿ ಒಮ್ಮತದ ನಿರ್ಧಾರವಿರುವುದರಿಂದ 'its' ಬಳಸಬೇಕು. ✅"
+  },
+  {
+    "question": "Fill in the blank: Whom did you say _____ was coming to visit us?",
+    "options": [
+      "who",
+      "that",
+      "he",
+      "whom"
+    ],
+    "answer": "he",
+    "explanation": "ವಾಕ್ಯದ ಆರಂಭದಲ್ಲಿ 'Whom' ಈಗಾಗಲೇ ಬಳಕೆಯಾಗಿದೆ, ಇಲ್ಲಿ 'was coming' ಗೆ ಕರ್ತೃ ಬೇಕಾಗಿರುವುದರಿಂದ 'he' ಅಥವಾ 'who' ಬಳಸಬಹುದು, ಆದರೆ ಇಲ್ಲಿ ಆಯ್ಕೆಗಳಲ್ಲಿ 'he' ಸೂಕ್ತವಾಗಿದೆ. ✅"
+  },
+  {
+    "question": "Choose the correct reflexive pronoun: They enjoyed _____ during the jungle safari.",
+    "options": [
+      "theirself",
+      "themselves",
+      "themself",
+      "ourselves"
+    ],
+    "answer": "themselves",
+    "explanation": "'They' ನ ಬಹುವಚನ Reflexive ರೂಪ 'themselves'. ✅"
+  },
+  {
+    "question": "Identify the correct pronoun: If I were _____, I wouldn't accept the offer.",
+    "options": [
+      "him",
+      "he",
+      "his",
+      "himself"
+    ],
+    "answer": "he",
+    "explanation": "ಕಾಲ್ಪನಿಕ ವಾಕ್ಯಗಳಲ್ಲಿ (Subjunctive mood) 'to be' ಕ್ರಿಯಾಪದದ ನಂತರ Subjective case (He) ಬರುತ್ತದೆ. ✅"
+  },
+  {
+    "question": "Fill in the blank: There is no man _____ does not desire wealth.",
+    "options": [
+      "who",
+      "that",
+      "but",
+      "which"
+    ],
+    "answer": "but",
+    "explanation": "ನಕಾರಾತ್ಮಕ ವಾಕ್ಯದಲ್ಲಿ 'but' ಎಂಬುದು 'who...not' ಎಂಬ ಅರ್ಥವನ್ನು ನೀಡುವ ಸಂಬಂಧವಾಚಕ ಸರ್ವನಾಮವಾಗಿದೆ. ✅"
+  },
+  {
+    "question": "Choose the correct form: My father does not like _____ spending too much money.",
+    "options": [
+      "me",
+      "my",
+      "mine",
+      "myself"
+    ],
+    "answer": "my",
+    "explanation": "Gerund (spending) ಮೊದಲು ಯಾವಾಗಲೂ Possessive adjective (my) ಇರಬೇಕು. ✅"
+  },
+  {
+    "question": "Identify the error: Either of the four candidates is suitable for the job.",
+    "options": [
+      "Either",
+      "four",
+      "candidates",
+      "suitable"
+    ],
+    "answer": "Either",
+    "explanation": "ಕೇವಲ ಇಬ್ಬರಿರುವಾಗ 'Either' ಬಳಸಬೇಕು, ಎರಡಕ್ಕಿಂತ ಹೆಚ್ಚು ಜನರಿದ್ದಾಗ 'Any' ಅಥವಾ 'One' ಬಳಸಬೇಕು. ✅"
+  },
+  {
+    "question": "Fill in the blank: I, who _____ your friend, will always stand by you.",
+    "options": [
+      "is",
+      "am",
+      "are",
+      "was"
+    ],
+    "answer": "am",
+    "explanation": "ಸಂಬಂಧವಾಚಕ ಸರ್ವನಾಮ 'who' ಅದರ ಹಿಂದಿರುವ 'I' ಅನ್ನು ಪ್ರತಿನಿಧಿಸುವುದರಿಂದ ಕ್ರಿಯಾಪದ 'am' ಆಗಿರಬೇಕು. ✅"
+  },
+  {
+    "question": "Choose the correct pronoun: These are the same clothes _____ I wore yesterday.",
+    "options": [
+      "which",
+      "who",
+      "that",
+      "whom"
+    ],
+    "answer": "that",
+    "explanation": "'The same' ಬಂದಾಗ ಸಂಬಂಧವಾಚಕವಾಗಿ 'that' ಬಳಸುವುದು ನಿಯಮ. ✅"
+  },
+  {
+    "question": "Identify the correct form: It is a secret between you and _____.",
+    "options": [
+      "I",
+      "me",
+      "myself",
+      "mine"
+    ],
+    "answer": "me",
+    "explanation": "Preposition (between) ನಂತರ ಯಾವಾಗಲೂ Objective case (me) ಬರಬೇಕು. ✅"
+  }
+]
