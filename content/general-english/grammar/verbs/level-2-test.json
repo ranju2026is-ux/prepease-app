@@ -1,50 +1,72 @@
 [
   {
-    "question": "Identify the verb type: The boy *laughed* loudly.",
+    "question": "He has _____ his task for the day.",
     "options": [
-      "Transitive Verb",
-      "Intransitive Verb",
-      "Auxiliary Verb",
-      "Modal Verb"
+      "finish",
+      "finishes",
+      "finished",
+      "finishing"
     ],
-    "answer": "Intransitive Verb",
-    "explanation": "'Laugh' does not require an object to complete its meaning. Hence, it is an Intransitive Verb. ✅"
+    "answer": "finished",
+    "explanation": "After the helping verb 'has', the past participle form (V3) of the main verb is used. ✅"
   },
   {
-    "question": "Choose the correct verb form: He has _____ all the milk.",
+    "question": "We are _____ for the bus right now.",
     "options": [
-      "drink",
-      "drank",
-      "drunk",
-      "drinking"
+      "wait",
+      "waited",
+      "waiting",
+      "waits"
     ],
-    "answer": "drunk",
-    "explanation": "After 'has/have/had', the third form of the verb (V3) must be used. Drink (V1) - Drank (V2) - Drunk (V3). ✅"
+    "answer": "waiting",
+    "explanation": "In continuous tense, the helping verb 'are' is followed by the 'ing' form of the main verb. ✅"
   },
   {
-    "question": "Identify the Transitive verb in the following:",
+    "question": "Did you _____ the news on TV?",
     "options": [
-      "The sun shines.",
-      "Birds fly.",
-      "He wrote a letter.",
-      "She slept soundly."
+      "watch",
+      "watched",
+      "watching",
+      "watches"
     ],
-    "answer": "He wrote a letter.",
-    "explanation": "'Wrote' is a transitive verb here because it has a direct object 'a letter'. ✅"
+    "answer": "watch",
+    "explanation": "After 'did', we always use the base form (V1) of the verb. ✅"
   },
   {
-    "question": "Fill in the blank: The sun _____ in the east.",
+    "question": "I do not _____ sugar in my tea.",
     "options": [
-      "rise",
-      "rises",
-      "rose",
-      "raised"
+      "likes",
+      "like",
+      "liked",
+      "liking"
     ],
-    "answer": "rises",
-    "explanation": "For universal truths and habitual actions with singular subjects, we use V1 + s/es (rises). ✅"
+    "answer": "like",
+    "explanation": "After 'do/does/did', the verb remains in its original base form. ✅"
   },
   {
-    "question": "Choose the correct past participle: The bird has _____ away.",
+    "question": "They had _____ the station before the train arrived.",
+    "options": [
+      "reach",
+      "reached",
+      "reaching",
+      "reaches"
+    ],
+    "answer": "reached",
+    "explanation": "In past perfect tense (had), the V3 form 'reached' is used. ✅"
+  },
+  {
+    "question": "Will you _____ me tomorrow?",
+    "options": [
+      "help",
+      "helped",
+      "helping",
+      "helps"
+    ],
+    "answer": "help",
+    "explanation": "After modal verbs like 'will', 'shall', 'can', use the V1 form. ✅"
+  },
+  {
+    "question": "The birds have _____ away.",
     "options": [
       "fly",
       "flew",
@@ -52,116 +74,259 @@
       "flying"
     ],
     "answer": "flown",
-    "explanation": "Fly (V1) - Flew (V2) - Flown (V3). After 'has', we use V3. ✅"
+    "explanation": "The V3 form of 'fly' is 'flown' (fly-flew-flown). ✅"
   },
   {
-    "question": "Identify the Auxiliary (Helping) verb: They are playing football.",
+    "question": "She _____ to the market yesterday.",
     "options": [
-      "They",
+      "go",
+      "goes",
+      "went",
+      "gone"
+    ],
+    "answer": "went",
+    "explanation": "'Yesterday' requires simple past V2 (went). ✅"
+  },
+  {
+    "question": "I am _____ to learn English.",
+    "options": [
+      "try",
+      "tried",
+      "tries",
+      "trying"
+    ],
+    "answer": "trying",
+    "explanation": "Present continuous action. ✅"
+  },
+  {
+    "question": "He does not _____ his parents.",
+    "options": [
+      "obey",
+      "obeys",
+      "obeyed",
+      "obeying"
+    ],
+    "answer": "obey",
+    "explanation": "With 'does', the main verb loses its 's/es'. ✅"
+  },
+  {
+    "question": "Has the bell _____?",
+    "options": [
+      "ring",
+      "rang",
+      "rung",
+      "ringing"
+    ],
+    "answer": "rung",
+    "explanation": "The V3 form of 'ring' is 'rung' (ring-rang-rung). ✅"
+  },
+  {
+    "question": "I was _____ a book when you called.",
+    "options": [
+      "read",
+      "reading",
+      "reads",
+      "red"
+    ],
+    "answer": "reading",
+    "explanation": "Past continuous tense requires V+ing. ✅"
+  },
+  {
+    "question": "The students _____ written their exams.",
+    "options": [
+      "has",
+      "have",
+      "is",
+      "are"
+    ],
+    "answer": "have",
+    "explanation": "Plural subject 'students' takes 'have' in present perfect. ✅"
+  },
+  {
+    "question": "The boy _____ his milk every morning.",
+    "options": [
+      "drink",
+      "drinks",
+      "drank",
+      "drunk"
+    ],
+    "answer": "drinks",
+    "explanation": "Daily habit for singular subject. ✅"
+  },
+  {
+    "question": "Don't _____ a noise in the class.",
+    "options": [
+      "make",
+      "makes",
+      "made",
+      "making"
+    ],
+    "answer": "make",
+    "explanation": "Imperative negative sentence uses V1. ✅"
+  },
+  {
+    "question": "They _____ already left for the station.",
+    "options": [
+      "have",
+      "has",
       "are",
-      "playing",
-      "football"
+      "is"
     ],
-    "answer": "are",
-    "explanation": "'Are' is the auxiliary verb that helps the main verb 'playing' form the continuous tense. ✅"
+    "answer": "have",
+    "explanation": "Present perfect for plural 'They'. ✅"
   },
   {
-    "question": "Fill in the blank: He _____ his work yesterday.",
+    "question": "Ravi _____ the glass by mistake.",
     "options": [
-      "finish",
-      "finishes",
-      "finished",
-      "has finished"
+      "break",
+      "broke",
+      "broken",
+      "breaking"
     ],
-    "answer": "finished",
-    "explanation": "The word 'yesterday' indicates Simple Past Tense, so the V2 form 'finished' is used. ✅"
+    "answer": "broke",
+    "explanation": "Simple past action. ✅"
   },
   {
-    "question": "Choose the correct verb: Please _____ the book on the table.",
+    "question": "Can you _____ this heavy box?",
     "options": [
-      "lie",
-      "lay",
-      "lain",
-      "lied"
+      "lift",
+      "lifted",
+      "lifting",
+      "lifts"
     ],
-    "answer": "lay",
-    "explanation": "'Lay' means to put something down (Transitive), whereas 'Lie' means to rest (Intransitive). ✅"
+    "answer": "lift",
+    "explanation": "Modal 'can' + V1. ✅"
   },
   {
-    "question": "What is the V3 (Past Participle) form of 'Break'?",
-    "options": [
-      "Break",
-      "Broke",
-      "Broken",
-      "Breaking"
-    ],
-    "answer": "Broken",
-    "explanation": "Break (V1) - Broke (V2) - Broken (V3). ✅"
-  },
-  {
-    "question": "Identify the error: She *singed* a beautiful song last night.",
-    "options": [
-      "She",
-      "singed",
-      "beautiful",
-      "night"
-    ],
-    "answer": "singed",
-    "explanation": "'Sing' is an irregular verb. Its past form (V2) is 'sang', not 'singed'. ✅"
-  },
-  {
-    "question": "Fill in the blank: I _____ a movie last weekend.",
+    "question": "We have _____ the movie thrice.",
     "options": [
       "see",
       "saw",
       "seen",
       "seeing"
     ],
-    "answer": "saw",
-    "explanation": "Simple Past requires V2 (saw). ✅"
+    "answer": "seen",
+    "explanation": "V3 of 'see' is 'seen'. ✅"
   },
   {
-    "question": "Choose the correct verb: The bell _____ at 9:00 AM every day.",
+    "question": "It _____ to rain now.",
     "options": [
-      "ring",
-      "rings",
-      "rang",
-      "rung"
+      "start",
+      "starts",
+      "is starting",
+      "Both B and C"
     ],
-    "answer": "rings",
-    "explanation": "Habitual action with a singular subject (The bell) takes V1 + s. ✅"
+    "answer": "Both B and C",
+    "explanation": "Depending on the context of 'now', both can be grammatically correct. ✅"
   },
   {
-    "question": "Identify the verb: The cat *is* sleeping.",
+    "question": "Identify the Main Verb: 'He is *working* in the garden.'",
     "options": [
-      "Main Verb",
-      "Helping Verb",
-      "Adverb",
-      "Noun"
+      "He",
+      "is",
+      "working",
+      "garden"
     ],
-    "answer": "Helping Verb",
-    "explanation": "In this sentence, 'is' helps 'sleeping' to show the present continuous state. ✅"
+    "answer": "working",
+    "explanation": "'Working' shows the actual action being performed. ✅"
   },
   {
-    "question": "Fill in the blank: He has _____ to Bengaluru.",
+    "question": "Identify the Helping Verb: 'They *were* playing yesterday.'",
     "options": [
-      "go",
-      "went",
-      "gone",
-      "going"
+      "They",
+      "were",
+      "playing",
+      "yesterday"
     ],
-    "answer": "gone",
-    "explanation": "Go (V1) - Went (V2) - Gone (V3). We use V3 after 'has'. ✅"
+    "answer": "were",
+    "explanation": "'Were' supports the main verb to show tense. ✅"
   },
   {
-    "question": "What is the V2 form of 'Run'?",
+    "question": "She _____ her keys this morning.",
     "options": [
-      "Run",
-      "Ran",
-      "Runs",
-      "Running"
+      "lose",
+      "lost",
+      "losing",
+      "loses"
     ],
-    "answer": "Ran",
-    "explanation": "Run (V1) - Ran (V2) - Run (V3). ✅"
+    "answer": "lost",
+    "explanation": "Past event (V2). ✅"
+  },
+  {
+    "question": "Dogs _____ when they are angry.",
+    "options": [
+      "growl",
+      "growls",
+      "growled",
+      "growling"
+    ],
+    "answer": "growl",
+    "explanation": "General fact for plural subject. ✅"
+  },
+  {
+    "question": "I have _____ my breakfast.",
+    "options": [
+      "take",
+      "took",
+      "taken",
+      "taking"
+    ],
+    "answer": "taken",
+    "explanation": "V3 of 'take' is 'taken'. ✅"
+  },
+  {
+    "question": "_____ you see that movie last night?",
+    "options": [
+      "Do",
+      "Does",
+      "Did",
+      "Have"
+    ],
+    "answer": "Did",
+    "explanation": "Past tense question form. ✅"
+  },
+  {
+    "question": "The flowers _____ blooming in the garden.",
+    "options": [
+      "is",
+      "am",
+      "are",
+      "has"
+    ],
+    "answer": "are",
+    "explanation": "Plural 'flowers' present continuous. ✅"
+  },
+  {
+    "question": "He has _____ a letter to his father.",
+    "options": [
+      "write",
+      "wrote",
+      "written",
+      "writing"
+    ],
+    "answer": "written",
+    "explanation": "V3 of 'write'. ✅"
+  },
+  {
+    "question": "Please _____ quiet.",
+    "options": [
+      "be",
+      "is",
+      "are",
+      "am"
+    ],
+    "answer": "be",
+    "explanation": "Base form 'be' used in imperative requests. ✅"
+  },
+  {
+    "question": "I _____ not hear what you said.",
+    "options": [
+      "do",
+      "does",
+      "did",
+      "was"
+    ],
+    "answer": "did",
+    "explanation": "Refers to the past action of 'said', so 'did' is used. ✅"
   }
 ]
