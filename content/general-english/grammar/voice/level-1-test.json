@@ -1,0 +1,332 @@
+[
+  {
+    "question": "Change into Passive: 'He opens the door.'",
+    "options": [
+      "The door is opened by him.",
+      "The door was opened by him.",
+      "The door is opening by him.",
+      "The door has opened by him."
+    ],
+    "answer": "The door is opened by him.",
+    "explanation": "In Simple Present tense, Passive form is: **is/am/are + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'She wrote a letter.'",
+    "options": [
+      "A letter is written by her.",
+      "A letter was written by her.",
+      "A letter was being written by her.",
+      "A letter has been written by her."
+    ],
+    "answer": "A letter was written by her.",
+    "explanation": "In Simple Past tense, Passive form is: **was/were + V3**. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I like mangoes.'",
+    "options": [
+      "Mangoes are liked by me.",
+      "Mangoes were liked by me.",
+      "Mangoes is liked by me.",
+      "Mangoes are being liked by me."
+    ],
+    "answer": "Mangoes are liked by me.",
+    "explanation": "Mangoes (plural) takes 'are' in Simple Present passive. ✅"
+  },
+  {
+    "question": "Change into Passive: 'They killed the snake.'",
+    "options": [
+      "The snake is killed by them.",
+      "The snake was killed by them.",
+      "The snake were killed by them.",
+      "The snake has killed by them."
+    ],
+    "answer": "The snake was killed by them.",
+    "explanation": "Simple Past (killed) changes to 'was killed' for a singular object. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Do you help him?'",
+    "options": [
+      "Is he helped by you?",
+      "Was he helped by you?",
+      "Are he helped by you?",
+      "Is he help by you?"
+    ],
+    "answer": "Is he helped by you?",
+    "explanation": "In Interrogative (Simple Present), 'Do' changes to 'is/am/are' based on the new subject. ✅"
+  },
+  {
+    "question": "Change into Passive: 'He does not play cricket.'",
+    "options": [
+      "Cricket was not played by him.",
+      "Cricket is not played by him.",
+      "Cricket not is played by him.",
+      "Cricket is not playing by him."
+    ],
+    "answer": "Cricket is not played by him.",
+    "explanation": "'Does not' changes to 'is not + V3' in the passive form. ✅"
+  },
+  {
+    "question": "Change into Active: 'The field is ploughed by the farmer.'",
+    "options": [
+      "The farmer ploughed the field.",
+      "The farmer ploughs the field.",
+      "The farmer is ploughing the field.",
+      "The farmer has ploughed the field."
+    ],
+    "answer": "The farmer ploughs the field.",
+    "explanation": "'is + V3' indicates Simple Present active form (V1 + s/es). ✅"
+  },
+  {
+    "question": "Change into Passive: 'Did she buy a car?'",
+    "options": [
+      "Is a car bought by her?",
+      "Was a car bought by her?",
+      "Has a car bought by her?",
+      "Were a car bought by her?"
+    ],
+    "answer": "Was a car bought by her?",
+    "explanation": "In Simple Past questions, 'Did' changes to 'was/were' in passive. ✅"
+  },
+  {
+    "question": "Change into Passive: 'We wash our clothes.'",
+    "options": [
+      "Our clothes are washed by us.",
+      "Our clothes were washed by us.",
+      "Our clothes are being washed by us.",
+      "Our clothes is washed by us."
+    ],
+    "answer": "Our clothes are washed by us.",
+    "explanation": "Clothes (plural) + are + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Someone stole my purse.'",
+    "options": [
+      "My purse is stolen.",
+      "My purse was stolen.",
+      "My purse has been stolen.",
+      "My purse was stole by someone."
+    ],
+    "answer": "My purse was stolen.",
+    "explanation": "Simple Past changes to 'was/were + V3'. 'By someone' is usually omitted. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I know her.'",
+    "options": [
+      "She is known by me.",
+      "She is known to me.",
+      "She was known to me.",
+      "She is knowing by me."
+    ],
+    "answer": "She is known to me.",
+    "explanation": "With the verb 'know', we use the preposition 'to' instead of 'by' in passive voice. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Children love animals.'",
+    "options": [
+      "Animals were loved by children.",
+      "Animals are loved by children.",
+      "Animals are love by children.",
+      "Animals is loved by children."
+    ],
+    "answer": "Animals are loved by children.",
+    "explanation": "Simple Present (love) ➔ are loved. ✅"
+  },
+  {
+    "question": "Change into Passive: 'He invited me.'",
+    "options": [
+      "I was invited by him.",
+      "I am invited by him.",
+      "He was invited by me.",
+      "I had invited by him."
+    ],
+    "answer": "I was invited by him.",
+    "explanation": "Me (Object) ➔ I (Subject). Past tense (invited) ➔ was invited. ✅"
+  },
+  {
+    "question": "Change into Passive: 'She helps the poor.'",
+    "options": [
+      "The poor is helped by her.",
+      "The poor are helped by her.",
+      "The poors are helped by her.",
+      "The poor was helped by her."
+    ],
+    "answer": "The poor are helped by her.",
+    "explanation": "'The poor' is a plural noun, so it takes 'are'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Who calls you?'",
+    "options": [
+      "By whom are you called?",
+      "By whom were you called?",
+      "By whom is you called?",
+      "Who are you called by?"
+    ],
+    "answer": "By whom are you called?",
+    "explanation": "Who ➔ By whom. Simple Present ➔ are you + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'My mother cooks food.'",
+    "options": [
+      "Food is cooked by my mother.",
+      "Food was cooked by my mother.",
+      "Food are cooked by my mother.",
+      "Food has been cooked by my mother."
+    ],
+    "answer": "Food is cooked by my mother.",
+    "explanation": "Simple Present ➔ is + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The boy broke the window.'",
+    "options": [
+      "The window is broken by the boy.",
+      "The window was broken by the boy.",
+      "The window had broken by the boy.",
+      "The window was break by the boy."
+    ],
+    "answer": "The window was broken by the boy.",
+    "explanation": "Simple Past ➔ was + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Does he drink tea?'",
+    "options": [
+      "Is tea drunk by him?",
+      "Is tea drank by him?",
+      "Was tea drunk by him?",
+      "Has tea drunk by him?"
+    ],
+    "answer": "Is tea drunk by him?",
+    "explanation": "Passive of Simple Present Interrogative. V3 of drink is 'drunk'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'They do not speak English.'",
+    "options": [
+      "English is not spoke by them.",
+      "English is not spoken by them.",
+      "English was not spoken by them.",
+      "English has not spoken by them."
+    ],
+    "answer": "English is not spoken by them.",
+    "explanation": "Do not ➔ is not + V3 (spoken). ✅"
+  },
+  {
+    "question": "Change into Passive: 'Columbus discovered America.'",
+    "options": [
+      "America is discovered by Columbus.",
+      "America was discovered by Columbus.",
+      "America has discovered by Columbus.",
+      "America were discovered by Columbus."
+    ],
+    "answer": "America was discovered by Columbus.",
+    "explanation": "Simple Past ➔ was + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Post this letter.'",
+    "options": [
+      "Let this letter be posted.",
+      "Let this letter posted.",
+      "This letter should post.",
+      "Let this letter being posted."
+    ],
+    "answer": "Let this letter be posted.",
+    "explanation": "Imperative (Order) ➔ Let + Object + be + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I saw a movie.'",
+    "options": [
+      "A movie is seen by me.",
+      "A movie was seen by me.",
+      "A movie was saw by me.",
+      "A movie has been seen by me."
+    ],
+    "answer": "A movie was seen by me.",
+    "explanation": "Simple Past ➔ was + V3 (seen). ✅"
+  },
+  {
+    "question": "Change into Passive: 'Do they play football?'",
+    "options": [
+      "Is football played by them?",
+      "Are football played by them?",
+      "Was football played by them?",
+      "Is football play by them?"
+    ],
+    "answer": "Is football played by them?",
+    "explanation": "Football (singular) takes 'is' in passive. ✅"
+  },
+  {
+    "question": "Change into Passive: 'She does not like tea.'",
+    "options": [
+      "Tea was not liked by her.",
+      "Tea is not liked by her.",
+      "Tea has not liked by her.",
+      "Tea is not like by her."
+    ],
+    "answer": "Tea is not liked by her.",
+    "explanation": "Simple Present Negative ➔ is not + V3. ✅"
+  },
+  {
+    "question": "Change into Active: 'I was taught by him.'",
+    "options": [
+      "He teaches me.",
+      "He taught me.",
+      "He was teaching me.",
+      "He has taught me."
+    ],
+    "answer": "He taught me.",
+    "explanation": "'was taught' is the passive of Simple Past. ✅"
+  },
+  {
+    "question": "Change into Passive: 'People speak English all over the world.'",
+    "options": [
+      "English is spoken all over the world.",
+      "English was spoken all over the world.",
+      "English is being spoken all over the world.",
+      "English is speak all over the world."
+    ],
+    "answer": "English is spoken all over the world.",
+    "explanation": "Universal facts/actions use Simple Present passive. 'By people' is omitted. ✅"
+  },
+  {
+    "question": "Change into Passive: 'He made a mistake.'",
+    "options": [
+      "A mistake is made by him.",
+      "A mistake was made by him.",
+      "A mistake has made by him.",
+      "A mistake were made by him."
+    ],
+    "answer": "A mistake was made by him.",
+    "explanation": "Simple Past ➔ was + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Open your books.'",
+    "options": [
+      "Let your books be opened.",
+      "Your books are opened.",
+      "Let your books opened.",
+      "You are open your books."
+    ],
+    "answer": "Let your books be opened.",
+    "explanation": "Imperative command ➔ Let + Obj + be + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'She cleans the room.'",
+    "options": [
+      "The room is cleaned by her.",
+      "The room was cleaned by her.",
+      "The room is being cleaned by her.",
+      "The room has cleaned by her."
+    ],
+    "answer": "The room is cleaned by her.",
+    "explanation": "Simple Present ➔ is + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Did you see the tiger?'",
+    "options": [
+      "Was the tiger seen by you?",
+      "Is the tiger seen by you?",
+      "Was the tiger see by you?",
+      "Were the tiger seen by you?"
+    ],
+    "answer": "Was the tiger seen by you?",
+    "explanation": "Simple Past Interrogative (Did) ➔ Was/Were. ✅"
+  }
+]
