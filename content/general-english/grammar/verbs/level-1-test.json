@@ -1,0 +1,112 @@
+[
+  {
+    "question": "The quality of the apples _____ good.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "explanation": "The real subject is 'Quality' (singular), not 'apples'. Therefore, it takes the singular verb 'is'. ✅"
+  },
+  {
+    "question": "Either Raj or his friends _____ coming today.",
+    "options": [
+      "is",
+      "are",
+      "was",
+      "has"
+    ],
+    "answer": "are",
+    "explanation": "When using 'Either-Or', the verb agrees with the nearest subject ('friends' - plural). ✅"
+  },
+  {
+    "question": "Mathematics _____ my favorite subject in school.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "be"
+    ],
+    "answer": "is",
+    "explanation": "Subjects like Mathematics, Physics, and News look plural but are singular in meaning. ✅"
+  },
+  {
+    "question": "The jury _____ given its verdict unanimously.",
+    "options": [
+      "have",
+      "has",
+      "are",
+      "were"
+    ],
+    "answer": "has",
+    "explanation": "When a collective noun acts as a single unit (unanimously), it takes a singular verb. ✅"
+  },
+  {
+    "question": "Neither of the two candidates _____ fit for the job.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "explanation": "'Neither' and 'Either' always take a singular verb. ✅"
+  },
+  {
+    "question": "He _____ to the library every Sunday.",
+    "options": [
+      "go",
+      "goes",
+      "going",
+      "gone"
+    ],
+    "answer": "goes",
+    "explanation": "Third-person singular subjects (He, She, It) take 'V1 + s/es' in Simple Present Tense. ✅"
+  },
+  {
+    "question": "Bread and butter _____ a wholesome breakfast.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "explanation": "When two nouns represent a single idea or food item, they take a singular verb. ✅"
+  },
+  {
+    "question": "Slow and steady _____ the race.",
+    "options": [
+      "win",
+      "wins",
+      "winning",
+      "won"
+    ],
+    "answer": "wins",
+    "explanation": "This is a proverb where 'slow and steady' is treated as a single concept. ✅"
+  },
+  {
+    "question": "A pair of shoes _____ lying in the corner.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "explanation": "Though 'shoes' is plural, the subject is 'A pair', which is singular. ✅"
+  },
+  {
+    "question": "One of my brothers _____ in the USA.",
+    "options": [
+      "live",
+      "lives",
+      "living",
+      "are living"
+    ],
+    "answer": "lives",
+    "explanation": "The subject is 'One', which is singular, hence 'lives'. ✅"
+  }
+]
