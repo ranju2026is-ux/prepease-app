@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Change to Indirect: He said to me, 'Are you coming to the party?'",
+    "options": [
+      "He asked me if I was coming to the party.",
+      "He asked me that if I was coming to the party.",
+      "He said to me whether I was coming to the party.",
+      "He asked me if you were coming to the party."
+    ],
+    "answer": "He asked me if I was coming to the party.",
+    "explanation": "For Yes/No questions, we use 'if' or 'whether'. The structure changes from question to assertive (Sub + Verb). ✅"
+  },
+  {
+    "question": "Change to Indirect: She said, 'Where are you going?'",
+    "options": [
+      "She asked where I was going.",
+      "She asked that where I was going.",
+      "She asked where was I going.",
+      "She said where I was going."
+    ],
+    "answer": "She asked where I was going.",
+    "explanation": "In Wh- questions, the Wh-word acts as the connector. No 'that' is used. ✅"
+  },
+  {
+    "question": "Change to Indirect: I said to him, 'Can you solve this sum?'",
+    "options": [
+      "I asked him if he can solve this sum.",
+      "I asked him if he could solve that sum.",
+      "I asked him that if he could solve that sum.",
+      "I told him if he could solve that sum."
+    ],
+    "answer": "I asked him if he could solve that sum.",
+    "explanation": "'Can' changes to 'could' and 'this' changes to 'that'. ✅"
+  },
+  {
+    "question": "Change to Indirect: The teacher asked the boy, 'Why are you late?'",
+    "options": [
+      "The teacher asked the boy why was he late.",
+      "The teacher asked the boy why he was late.",
+      "The teacher asked the boy that why he was late.",
+      "The teacher told the boy why he was late."
+    ],
+    "answer": "The teacher asked the boy why he was late.",
+    "explanation": "After the Wh-word, the subject (he) must come before the verb (was). ✅"
+  },
+  {
+    "question": "Change to Indirect: He said, 'I must go now.'",
+    "options": [
+      "He said that he must go now.",
+      "He said that he had to go then.",
+      "He said that he must go then.",
+      "Both B and C are correct."
+    ],
+    "answer": "Both B and C are correct.",
+    "explanation": "'Must' can remain 'must' or change to 'had to' in indirect speech, and 'now' changes to 'then'. ✅"
+  },
+  {
+    "question": "Change to Indirect: My mother said to me, 'Did you see my keys?'",
+    "options": [
+      "My mother asked me if I had seen her keys.",
+      "My mother asked me if I saw her keys.",
+      "My mother asked me that if I had seen her keys.",
+      "My mother told me if I had seen her keys."
+    ],
+    "answer": "My mother asked me if I had seen her keys.",
+    "explanation": "Simple Past (Did see) changes to Past Perfect (had seen). ✅"
+  },
+  {
+    "question": "Change to Indirect: She said, 'May I use your pen?'",
+    "options": [
+      "She asked if she might use my pen.",
+      "She asked if she may use my pen.",
+      "She asked that she might use my pen.",
+      "She said that she might use my pen."
+    ],
+    "answer": "She asked if she might use my pen.",
+    "explanation": "'May' changes to 'might' and 'your' changes to 'my' (assuming the object is 'me'). ✅"
+  },
+  {
+    "question": "Change to Indirect: They said to us, 'How do you know this?'",
+    "options": [
+      "They asked us how we knew that.",
+      "They asked us how did we know that.",
+      "They asked us that how we knew that.",
+      "They told us how we knew that."
+    ],
+    "answer": "They asked us how we knew that.",
+    "explanation": "Simple Present (know) changes to Simple Past (knew). The question structure 'do you' is removed. ✅"
+  },
+  {
+    "question": "Change to Indirect: He asked, 'What is the matter?'",
+    "options": [
+      "He asked what was the matter.",
+      "He asked what the matter was.",
+      "He asked that what the matter was.",
+      "He asked what the matter is."
+    ],
+    "answer": "He asked what the matter was.",
+    "explanation": "In indirect questions, the verb (was) comes at the end of the clause. ✅"
+  },
+  {
+    "question": "Change to Indirect: I said to her, 'Will you help me?'",
+    "options": [
+      "I asked her if she will help me.",
+      "I asked her if she would help me.",
+      "I asked her whether she would help me.",
+      "Both B and C are correct."
+    ],
+    "answer": "Both B and C are correct.",
+    "explanation": "'Will' changes to 'would' and 'if/whether' can be used interchangeably. ✅"
+  }
+]
