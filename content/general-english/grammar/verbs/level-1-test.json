@@ -1,112 +1,332 @@
 [
   {
-    "question": "The quality of the apples _____ good.",
+    "question": "He _____ a doctor in this hospital.",
+    "options": [
+      "am",
+      "is",
+      "are",
+      "be"
+    ],
+    "answer": "is",
+    "explanation": "With singular subjects like 'He', 'She', 'It', we use the helping verb 'is'. ✅"
+  },
+  {
+    "question": "I _____ a student of class 10.",
+    "options": [
+      "is",
+      "am",
+      "are",
+      "was"
+    ],
+    "answer": "am",
+    "explanation": "The pronoun 'I' always takes 'am' in the present tense. ✅"
+  },
+  {
+    "question": "They _____ playing cricket in the ground.",
+    "options": [
+      "is",
+      "am",
+      "are",
+      "was"
+    ],
+    "answer": "are",
+    "explanation": "With plural subjects like 'They', 'We', 'You', we use 'are'. ✅"
+  },
+  {
+    "question": "She _____ her homework every evening.",
+    "options": [
+      "do",
+      "does",
+      "doing",
+      "done"
+    ],
+    "answer": "does",
+    "explanation": "In simple present tense, singular subjects take 'does'. ✅"
+  },
+  {
+    "question": "Birds _____ in the sky.",
+    "options": [
+      "fly",
+      "flies",
+      "flying",
+      "flown"
+    ],
+    "answer": "fly",
+    "explanation": "Plural subjects (Birds) take the base form of the verb (fly) in simple present tense. ✅"
+  },
+  {
+    "question": "We _____ a new car last week.",
+    "options": [
+      "buy",
+      "buys",
+      "bought",
+      "buying"
+    ],
+    "answer": "bought",
+    "explanation": "'Last week' indicates past tense, so the V2 form 'bought' is correct. ✅"
+  },
+  {
+    "question": "Ravi _____ a brother and a sister.",
+    "options": [
+      "have",
+      "has",
+      "is",
+      "are"
+    ],
+    "answer": "has",
+    "explanation": "To show possession for a singular subject (Ravi), we use 'has'. ✅"
+  },
+  {
+    "question": "The sun _____ in the east.",
+    "options": [
+      "rise",
+      "rises",
+      "rising",
+      "rose"
+    ],
+    "answer": "rises",
+    "explanation": "Universal truths are in simple present; 'Sun' is singular, so 'rises' is used. ✅"
+  },
+  {
+    "question": "_____ you like coffee?",
+    "options": [
+      "Does",
+      "Do",
+      "Is",
+      "Are"
+    ],
+    "answer": "Do",
+    "explanation": "With 'You', we use the helping verb 'Do' for questions. ✅"
+  },
+  {
+    "question": "It _____ raining since morning.",
+    "options": [
+      "is",
+      "has been",
+      "was",
+      "have been"
+    ],
+    "answer": "has been",
+    "explanation": "'Since morning' indicates present perfect continuous tense. ✅"
+  },
+  {
+    "question": "The students _____ shouting when the teacher entered.",
     "options": [
       "is",
       "are",
-      "were",
-      "have"
+      "was",
+      "were"
     ],
-    "answer": "is",
-    "explanation": "The real subject is 'Quality' (singular), not 'apples'. Therefore, it takes the singular verb 'is'. ✅"
+    "answer": "were",
+    "explanation": "Past continuous tense for plural subject (students) requires 'were'. ✅"
   },
   {
-    "question": "Either Raj or his friends _____ coming today.",
+    "question": "I _____ my breakfast at 8 AM today.",
+    "options": [
+      "eat",
+      "eats",
+      "ate",
+      "eaten"
+    ],
+    "answer": "ate",
+    "explanation": "Simple past action (today morning) uses 'ate'. ✅"
+  },
+  {
+    "question": "My father _____ in a bank.",
+    "options": [
+      "work",
+      "works",
+      "working",
+      "worked"
+    ],
+    "answer": "works",
+    "explanation": "Regular habit/profession of a singular person (father) takes 'works'. ✅"
+  },
+  {
+    "question": "_____ she know the way to your house?",
+    "options": [
+      "Do",
+      "Does",
+      "Is",
+      "Has"
+    ],
+    "answer": "Does",
+    "explanation": "Singular subject 'she' takes 'Does' in a question. ✅"
+  },
+  {
+    "question": "We _____ to Bengaluru yesterday.",
+    "options": [
+      "go",
+      "goes",
+      "went",
+      "gone"
+    ],
+    "answer": "went",
+    "explanation": "'Yesterday' indicates past tense (V2 - went). ✅"
+  },
+  {
+    "question": "The water _____ boiling; please turn off the stove.",
     "options": [
       "is",
       "are",
       "was",
       "has"
     ],
+    "answer": "is",
+    "explanation": "Current ongoing action for uncountable 'water'. ✅"
+  },
+  {
+    "question": "Dogs _____ at strangers.",
+    "options": [
+      "bark",
+      "barks",
+      "barking",
+      "barked"
+    ],
+    "answer": "bark",
+    "explanation": "Plural subject (Dogs) takes 'bark'. ✅"
+  },
+  {
+    "question": "I have _____ the letter.",
+    "options": [
+      "write",
+      "writes",
+      "wrote",
+      "written"
+    ],
+    "answer": "written",
+    "explanation": "After 'have/has', the V3 (Past Participle) form 'written' is used. ✅"
+  },
+  {
+    "question": "You _____ looking very happy today.",
+    "options": [
+      "is",
+      "am",
+      "are",
+      "was"
+    ],
     "answer": "are",
-    "explanation": "When using 'Either-Or', the verb agrees with the nearest subject ('friends' - plural). ✅"
+    "explanation": "'You' always takes 'are'. ✅"
   },
   {
-    "question": "Mathematics _____ my favorite subject in school.",
+    "question": "She _____ not want to go with us.",
+    "options": [
+      "do",
+      "does",
+      "did",
+      "is"
+    ],
+    "answer": "does",
+    "explanation": "Negative simple present for 'She'. ✅"
+  },
+  {
+    "question": "_____ you finished your work yet?",
+    "options": [
+      "Do",
+      "Does",
+      "Have",
+      "Has"
+    ],
+    "answer": "Have",
+    "explanation": "Present perfect question for 'You'. ✅"
+  },
+  {
+    "question": "Raju and Somu _____ best friends.",
     "options": [
       "is",
+      "am",
       "are",
-      "were",
-      "be"
+      "was"
     ],
-    "answer": "is",
-    "explanation": "Subjects like Mathematics, Physics, and News look plural but are singular in meaning. ✅"
+    "answer": "are",
+    "explanation": "Plural subject (Raju and Somu). ✅"
   },
   {
-    "question": "The jury _____ given its verdict unanimously.",
+    "question": "The earth _____ around the sun.",
     "options": [
-      "have",
-      "has",
-      "are",
-      "were"
+      "move",
+      "moves",
+      "moving",
+      "moved"
     ],
-    "answer": "has",
-    "explanation": "When a collective noun acts as a single unit (unanimously), it takes a singular verb. ✅"
+    "answer": "moves",
+    "explanation": "Universal truth (singular earth). ✅"
   },
   {
-    "question": "Neither of the two candidates _____ fit for the job.",
+    "question": "I _____ not know his name.",
     "options": [
+      "do",
+      "does",
       "is",
-      "are",
-      "were",
-      "have"
+      "am"
     ],
-    "answer": "is",
-    "explanation": "'Neither' and 'Either' always take a singular verb. ✅"
+    "answer": "do",
+    "explanation": "'I' takes 'do' in negative sentences. ✅"
   },
   {
-    "question": "He _____ to the library every Sunday.",
+    "question": "My mother _____ delicious food.",
+    "options": [
+      "cook",
+      "cooks",
+      "cooking",
+      "cooked"
+    ],
+    "answer": "cooks",
+    "explanation": "Singular subject present habit. ✅"
+  },
+  {
+    "question": "They _____ to the temple every Saturday.",
     "options": [
       "go",
       "goes",
       "going",
       "gone"
     ],
-    "answer": "goes",
-    "explanation": "Third-person singular subjects (He, She, It) take 'V1 + s/es' in Simple Present Tense. ✅"
+    "answer": "go",
+    "explanation": "Plural subject regular habit. ✅"
   },
   {
-    "question": "Bread and butter _____ a wholesome breakfast.",
+    "question": "Was it _____ when you went out?",
     "options": [
+      "rain",
+      "rains",
+      "raining",
+      "rained"
+    ],
+    "answer": "raining",
+    "explanation": "Past continuous question form. ✅"
+  },
+  {
+    "question": "Someone _____ stolen my pen.",
+    "options": [
+      "have",
+      "has",
       "is",
-      "are",
-      "were",
-      "have"
+      "are"
     ],
-    "answer": "is",
-    "explanation": "When two nouns represent a single idea or food item, they take a singular verb. ✅"
+    "answer": "has",
+    "explanation": "'Someone' is a singular indefinite pronoun. ✅"
   },
   {
-    "question": "Slow and steady _____ the race.",
+    "question": "The baby _____ for milk now.",
     "options": [
-      "win",
-      "wins",
-      "winning",
-      "won"
+      "cry",
+      "cries",
+      "is crying",
+      "crying"
     ],
-    "answer": "wins",
-    "explanation": "This is a proverb where 'slow and steady' is treated as a single concept. ✅"
+    "answer": "is crying",
+    "explanation": "'Now' indicates present continuous tense. ✅"
   },
   {
-    "question": "A pair of shoes _____ lying in the corner.",
+    "question": "We _____ our lessons regularly.",
     "options": [
-      "is",
-      "are",
-      "were",
-      "have"
+      "study",
+      "studies",
+      "studying",
+      "studied"
     ],
-    "answer": "is",
-    "explanation": "Though 'shoes' is plural, the subject is 'A pair', which is singular. ✅"
-  },
-  {
-    "question": "One of my brothers _____ in the USA.",
-    "options": [
-      "live",
-      "lives",
-      "living",
-      "are living"
-    ],
-    "answer": "lives",
-    "explanation": "The subject is 'One', which is singular, hence 'lives'. ✅"
+    "answer": "study",
+    "explanation": "Plural subject (We) present habit. ✅"
   }
 ]
