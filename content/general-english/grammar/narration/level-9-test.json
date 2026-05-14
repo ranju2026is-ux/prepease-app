@@ -1,112 +1,332 @@
 [
   {
-    "question": "Change to Indirect: She said, 'I could have won the race if I had tried harder.'",
+    "question": "He said, 'I didn't steal the money.'",
     "options": [
-      "She said that she could have won the race if she had tried harder.",
-      "She said that she could win the race if she tried harder.",
-      "She said that she can have won the race if she had tried harder.",
-      "She told that she could have win the race if she tried harder."
+      "He denied stealing the money.",
+      "He said that he didn't steal the money.",
+      "He denied that he had stolen the money.",
+      "All the above are correct."
     ],
-    "answer": "She said that she could have won the race if she had tried harder.",
-    "explanation": "Modal perfects like 'could have', 'should have', and 'might have' do not change their tense in indirect speech. ✅"
+    "answer": "All the above are correct.",
+    "explanation": "Negative statements can be reported using 'denied' followed by a gerund or a 'that' clause. ✅"
   },
   {
-    "question": "Change to Indirect: He said, 'You needn't wait for me.'",
+    "question": "She said, 'Yes, it was my fault.'",
     "options": [
-      "He said that I needn't wait for him.",
-      "He said that I didn't have to wait for him.",
-      "He told that I needn't waited for him.",
+      "She admitted that it had been her fault.",
+      "She said yes that it was her fault.",
+      "She confessed that it is her fault.",
+      "She admitted it being her fault."
+    ],
+    "answer": "She admitted that it had been her fault.",
+    "explanation": "When a speaker agrees or accepts a mistake, 'admitted' or 'confessed' is the most appropriate verb. ✅"
+  },
+  {
+    "question": "He said to me, 'Don't forget to bring the keys.'",
+    "options": [
+      "He reminded me to bring the keys.",
+      "He reminded me not to forget to bring the keys.",
+      "He told me that I don't forget the keys.",
       "Both A and B are correct."
     ],
     "answer": "Both A and B are correct.",
-    "explanation": "'Needn't' can either remain 'needn't' or change to 'didn't have to' in indirect speech. ✅"
+    "explanation": "A negative command with 'don't forget' is essentially a reminder. ✅"
   },
   {
-    "question": "Change to Indirect: 'What a terrible storm it is!' said the sailor.",
+    "question": "I said, 'I will definitely help you tomorrow.'",
     "options": [
-      "The sailor exclaimed that it was a very terrible storm.",
-      "The sailor said that it is a very terrible storm.",
-      "The sailor exclaimed with sorrow that what a terrible storm it was.",
-      "The sailor remarked that the storm was terrible."
+      "I promised to help him the next day.",
+      "I said that I would definitely help him the next day.",
+      "I promised that I would help him the next day.",
+      "All the above are correct."
     ],
-    "answer": "The sailor exclaimed that it was a very terrible storm.",
-    "explanation": "Exclamatory sentences are changed into assertive form using 'very' and shifting the tense to the past. ✅"
+    "answer": "All the above are correct.",
+    "explanation": "'Will' expressing a commitment can be reported using 'promised'. ✅"
   },
   {
-    "question": "Change to Indirect: She said, 'I must have left my keys in the car.'",
+    "question": "The boy said, 'No, I won't go to the party.'",
     "options": [
-      "She said that she must have left her keys in the car.",
-      "She said that she had to have left her keys in the car.",
-      "She said that she must leave her keys in the car.",
-      "She told that she might have left her keys in the car."
-    ],
-    "answer": "She said that she must have left her keys in the car.",
-    "explanation": "'Must have + V3' (expressing a past probability) remains unchanged in indirect speech. ✅"
-  },
-  {
-    "question": "Change to Indirect: He said to me, 'I'll help you if I can.'",
-    "options": [
-      "He told me that he would help me if he could.",
-      "He told me that he will help me if he can.",
-      "He told me that he would help me if he can.",
-      "He said to me that he would help me if he could."
-    ],
-    "answer": "He told me that he would help me if he could.",
-    "explanation": "Both clauses in the conditional sentence must shift their tense (will ➔ would, can ➔ could). ✅"
-  },
-  {
-    "question": "Change to Indirect: The captain said, 'Bravo! You have played well.'",
-    "options": [
-      "The captain applauded him, saying that he had played well.",
-      "The captain said bravo that he had played well.",
-      "The captain exclaimed with joy that he had played well.",
-      "The captain told him that he played well."
-    ],
-    "answer": "The captain applauded him, saying that he had played well.",
-    "explanation": "'Bravo' is best reported using the verb 'applauded'. ✅"
-  },
-  {
-    "question": "Change to Indirect: She said, 'If I had had enough money, I would have bought that car.'",
-    "options": [
-      "She said that if she had had enough money, she would have bought that car.",
-      "She said that if she had enough money, she would have bought that car.",
-      "She said that if she would have had money, she would buy that car.",
-      "She told that she had had enough money to buy that car."
-    ],
-    "answer": "She said that if she had had enough money, she would have bought that car.",
-    "explanation": "Past Perfect (had had) and Modal Perfect (would have bought) in Type 3 conditionals remain unchanged. ✅"
-  },
-  {
-    "question": "Change to Indirect: 'How should I know?' he said.",
-    "options": [
-      "He asked how he should know.",
-      "He said how he should know.",
-      "He asked that how he should know.",
-      "He wondered how should he know."
-    ],
-    "answer": "He asked how he should know.",
-    "explanation": "Interrogative sentences with 'should' maintain 'should' and change to assertive word order. ✅"
-  },
-  {
-    "question": "Change to Indirect: My boss said, 'You ought to have finished this by now.'",
-    "options": [
-      "My boss said that I ought to have finished that by then.",
-      "My boss said that I should have finished this by then.",
-      "My boss told that I ought to finished that by then.",
-      "My boss said that you ought to have finished that by now."
-    ],
-    "answer": "My boss said that I ought to have finished that by then.",
-    "explanation": "'Ought to' remains 'ought to', but 'this' changes to 'that' and 'now' changes to 'then'. ✅"
-  },
-  {
-    "question": "Change to Indirect: 'Could you please pass the salt?' she said to him.",
-    "options": [
-      "She requested him to pass the salt.",
-      "She asked him if he could pass the salt.",
-      "She told him to pass the salt.",
+      "The boy refused to go to the party.",
+      "The boy said that he wouldn't go to the party.",
+      "The boy denied going to the party.",
       "Both A and B are correct."
     ],
     "answer": "Both A and B are correct.",
-    "explanation": "A polite request using 'Could you' can be reported as an imperative (requested to) or an interrogative (asked if). ✅"
+    "explanation": "A firm 'no' regarding an action is best reported as 'refused'. ✅"
+  },
+  {
+    "question": "She said, 'How about going for a movie?'",
+    "options": [
+      "She suggested going for a movie.",
+      "She asked how about going for a movie.",
+      "She suggested that they should go for a movie.",
+      "Both A and C are correct."
+    ],
+    "answer": "Both A and C are correct.",
+    "explanation": "'How about' or 'Why don't we' are suggestions, reported using 'suggested'. ✅"
+  },
+  {
+    "question": "He said, 'I'm sorry I'm late.'",
+    "options": [
+      "He apologized for being late.",
+      "He said he was sorry he was late.",
+      "He apologized that he was late.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "'I'm sorry' is most naturally reported using 'apologized for'. ✅"
+  },
+  {
+    "question": "The boss said, 'You must finish this by 5 PM.'",
+    "options": [
+      "The boss insisted that I finish that by 5 PM.",
+      "The boss ordered me to finish that by 5 PM.",
+      "The boss said that I had to finish that by 5 PM.",
+      "All the above are correct."
+    ],
+    "answer": "All the above are correct.",
+    "explanation": "Depending on the emphasis, 'must' can be reported in various ways including 'insisted'. ✅"
+  },
+  {
+    "question": "He said, 'Congratulations on your success!'",
+    "options": [
+      "He congratulated me on my success.",
+      "He said congratulations for my success.",
+      "He congratulated me that I succeeded.",
+      "He wished me success."
+    ],
+    "answer": "He congratulated me on my success.",
+    "explanation": "'Congratulations' is reported directly as a verb. ✅"
+  },
+  {
+    "question": "She said, 'Why don't you take a rest?'",
+    "options": [
+      "She suggested that I should take a rest.",
+      "She advised me to take a rest.",
+      "She asked why I didn't take a rest.",
+      "All the above are correct."
+    ],
+    "answer": "All the above are correct.",
+    "explanation": "A question that serves as a suggestion or advice can be reported accordingly. ✅"
+  },
+  {
+    "question": "He said to her, 'I have been waiting for you for hours.'",
+    "options": [
+      "He complained that he had been waiting for her for hours.",
+      "He told her that he had been waiting for her for hours.",
+      "He said that he was waiting for her for hours.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "When a statement expresses dissatisfaction, 'complained' is a precise reporting verb. ✅"
+  },
+  {
+    "question": "The witness said, 'I swear I saw him at the scene.'",
+    "options": [
+      "The witness swore that he had seen him at the scene.",
+      "The witness said that he swore he saw him.",
+      "The witness testified that he had seen him at the scene.",
+      "Both A and C are correct."
+    ],
+    "answer": "Both A and C are correct.",
+    "explanation": "Legal or formal oaths use 'swore' or 'testified'. ✅"
+  },
+  {
+    "question": "She said, 'Oh, I've forgotten my umbrella!'",
+    "options": [
+      "She suddenly remembered that she had forgotten her umbrella.",
+      "She exclaimed with regret that she had forgotten her umbrella.",
+      "She said that she forgot her umbrella.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "'Oh' here signifies a sudden realization or regret. ✅"
+  },
+  {
+    "question": "He said to the committee, 'I will not resign.'",
+    "options": [
+      "He refused to resign.",
+      "He said he will not resign.",
+      "He declared that he would not resign.",
+      "Both A and C are correct."
+    ],
+    "answer": "Both A and C are correct.",
+    "explanation": "A formal refusal or a strong statement of intent. ✅"
+  },
+  {
+    "question": "The guide said, 'Don't go near the water; it's deep.'",
+    "options": [
+      "The guide warned us not to go near the water as it was deep.",
+      "The guide told us not to go near the water because it was deep.",
+      "The guide advised not to go near the water.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "When an imperative is a safety instruction, 'warned' is very appropriate. ✅"
+  },
+  {
+    "question": "He said, 'I'll pay you back on Monday.'",
+    "options": [
+      "He promised to pay me back on Monday.",
+      "He said that he would pay me back on Monday.",
+      "He assured me that he would pay me back on Monday.",
+      "All the above are correct."
+    ],
+    "answer": "All the above are correct.",
+    "explanation": "Different reporting verbs capture the intent of a promise. ✅"
+  },
+  {
+    "question": "She said, 'Please, can you help me?'",
+    "options": [
+      "She requested me to help her.",
+      "She asked me to help her.",
+      "She entreated me to help her.",
+      "All the above are correct."
+    ],
+    "answer": "All the above are correct.",
+    "explanation": "'Entreated' or 'implored' is used for an earnest request. ✅"
+  },
+  {
+    "question": "He said, 'What a great idea!'",
+    "options": [
+      "He exclaimed that it was a great idea.",
+      "He praised the idea as being great.",
+      "He said it was a great idea.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Reporting an exclamation of approval. ✅"
+  },
+  {
+    "question": "The suspect said, 'I don't know anything about the robbery.'",
+    "options": [
+      "The suspect denied knowing anything about the robbery.",
+      "The suspect said that he didn't know anything about the robbery.",
+      "The suspect pleaded ignorance of the robbery.",
+      "All the above are correct."
+    ],
+    "answer": "All the above are correct.",
+    "explanation": "In advanced exams, 'denied knowing' or 'pleaded ignorance' are common. ✅"
+  },
+  {
+    "question": "He said to his friend, 'You must visit the Taj Mahal.'",
+    "options": [
+      "He recommended that his friend should visit the Taj Mahal.",
+      "He told his friend to visit the Taj Mahal.",
+      "He advised his friend to visit the Taj Mahal.",
+      "Both A and C are correct."
+    ],
+    "answer": "Both A and C are correct.",
+    "explanation": "When 'must' is used for a suggestion, 'recommended' is a strong choice. ✅"
+  },
+  {
+    "question": "She said, 'Thank you for the wonderful gift!'",
+    "options": [
+      "She thanked me for the wonderful gift.",
+      "She said thank you for the gift.",
+      "She expressed gratitude for the gift.",
+      "Both A and C are correct."
+    ],
+    "answer": "Both A and C are correct.",
+    "explanation": "Reporting an expression of thanks. ✅"
+  },
+  {
+    "question": "The boy said, 'I broke the window glass.'",
+    "options": [
+      "The boy admitted breaking the window glass.",
+      "The boy admitted that he had broken the window glass.",
+      "The boy confessed to breaking the window glass.",
+      "All the above are correct."
+    ],
+    "answer": "All the above are correct.",
+    "explanation": "Confessing a mistake. ✅"
+  },
+  {
+    "question": "He said, 'Shall I carry your bag?'",
+    "options": [
+      "He offered to carry my bag.",
+      "He asked if he should carry my bag.",
+      "He suggested carrying my bag.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "A 'Shall I' question is often an offer. ✅"
+  },
+  {
+    "question": "She said, 'No, I don't want any more tea.'",
+    "options": [
+      "She declined any more tea.",
+      "She said that she didn't want any more tea.",
+      "She refused to have any more tea.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Polite 'No' is reported as 'declined'. ✅"
+  },
+  {
+    "question": "The teacher said, 'Be quiet.'",
+    "options": [
+      "The teacher commanded silence.",
+      "The teacher told them to be quiet.",
+      "The teacher ordered them to be quiet.",
+      "All the above are correct."
+    ],
+    "answer": "All the above are correct.",
+    "explanation": "'Commanded silence' is an advanced way to report 'Be quiet'. ✅"
+  },
+  {
+    "question": "He said to her, 'I'm sorry I forgot your birthday.'",
+    "options": [
+      "He apologized for forgetting her birthday.",
+      "He said he was sorry he forgot her birthday.",
+      "He apologized that he had forgotten her birthday.",
+      "Both A and C are correct."
+    ],
+    "answer": "Both A and C are correct.",
+    "explanation": "Reporting an apology with a reason. ✅"
+  },
+  {
+    "question": "She said, 'Yes, the weather is beautiful.'",
+    "options": [
+      "She agreed that the weather was beautiful.",
+      "She said yes that the weather was beautiful.",
+      "She admitted the weather was beautiful.",
+      "She concurred that the weather was beautiful."
+    ],
+    "answer": "She agreed that the weather was beautiful.",
+    "explanation": "'Yes' in response to a statement is reported as 'agreed' or 'concurred'. ✅"
+  },
+  {
+    "question": "The general said, 'Attack at dawn!'",
+    "options": [
+      "The general commanded the attack at dawn.",
+      "The general ordered them to attack at dawn.",
+      "The general told them to attack at dawn.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Formal military orders. ✅"
+  },
+  {
+    "question": "He said, 'Why don't we go for a walk?'",
+    "options": [
+      "He suggested going for a walk.",
+      "He proposed a walk.",
+      "He suggested that they should go for a walk.",
+      "All the above are correct."
+    ],
+    "answer": "All the above are correct.",
+    "explanation": "Reporting a proposal for a joint activity. ✅"
+  },
+  {
+    "question": "She said to him, 'You cheated in the exam.'",
+    "options": [
+      "She accused him of cheating in the exam.",
+      "She told him that he had cheated in the exam.",
+      "She said that he cheated in the exam.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "When a statement is an allegation, 'accused of' is the most accurate reporting verb. ✅"
   }
 ]
