@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Change to Indirect: He said, 'If I were a king, I would help the poor.'",
+    "options": [
+      "He said that if he had been a king, he would have helped the poor.",
+      "He said that if he were a king, he would help the poor.",
+      "He said that if he was a king, he would help the poor.",
+      "He told that if he were a king, he will help the poor."
+    ],
+    "answer": "He said that if he were a king, he would help the poor.",
+    "explanation": "In Type 2 Unreal/Hypothetical conditions (If I were...), the tense usually remains unchanged in indirect speech. ✅"
+  },
+  {
+    "question": "Change to Indirect: She said to him, 'Congratulations! You have topped the exam.'",
+    "options": [
+      "She congratulated him and said that he had topped the exam.",
+      "She congratulated him on topping the exam.",
+      "She said congratulations to him for topping the exam.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "When an exclamation like 'Congratulations' is used, it's more professional to use 'congratulated' as the reporting verb. ✅"
+  },
+  {
+    "question": "Change to Indirect: 'I am sorry I am late,' he said.",
+    "options": [
+      "He said that he was sorry he was late.",
+      "He apologized for being late.",
+      "He told that he is sorry for being late.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "'Apologized' is a more concise reporting verb for 'I am sorry', but the assertive transformation is also valid. ✅"
+  },
+  {
+    "question": "Change to Indirect: My friend said to me, 'Thank you for your help.'",
+    "options": [
+      "My friend thanked me for my help.",
+      "My friend said thank you to me for my help.",
+      "My friend told me thank you for your help.",
+      "My friend thanked me for your help."
+    ],
+    "answer": "My friend thanked me for my help.",
+    "explanation": "For 'Thank you', the reporting verb itself changes to 'thanked'. ✅"
+  },
+  {
+    "question": "Change to Indirect: She said, 'If it rains, I will not go out.'",
+    "options": [
+      "She said that if it rained, she would not go out.",
+      "She said that if it rains, she will not go out.",
+      "She said that if it would rain, she would not go out.",
+      "She told that if it rained, I would not go out."
+    ],
+    "answer": "She said that if it rained, she would not go out.",
+    "explanation": "This is a real condition (Type 1). Present Simple 'rains' ➔ Past Simple 'rained', and 'will' ➔ 'would'. ✅"
+  },
+  {
+    "question": "Change to Indirect: He said, 'I wish I had a bigger house.'",
+    "options": [
+      "He said that he wished he had a bigger house.",
+      "He said that he wished he had had a bigger house.",
+      "He wished that he has a bigger house.",
+      "He told that he wishes he had a bigger house."
+    ],
+    "answer": "He said that he wished he had a bigger house.",
+    "explanation": "After 'wish', the past tense (had) remains the same in indirect speech as it represents a present unreal state. ✅"
+  },
+  {
+    "question": "Change to Indirect: 'Don't go near the water,' the mother said to the child.",
+    "options": [
+      "The mother warned the child not to go near the water.",
+      "The mother forbade the child from going near the water.",
+      "The mother told the child to not go near the water.",
+      "All of the above."
+    ],
+    "answer": "All of the above.",
+    "explanation": "Negative imperatives can be reported using 'warned', 'forbade', or 'told not to'. ✅"
+  },
+  {
+    "question": "Change to Indirect: He said, 'If I had seen you, I would have invited you.'",
+    "options": [
+      "He said that if he had seen me, he would have invited me.",
+      "He said that if he saw me, he would invite me.",
+      "He said that if he had seen me, he would invite me.",
+      "He told that if he has seen me, he would have invited me."
+    ],
+    "answer": "He said that if he had seen me, he would have invited me.",
+    "explanation": "In Type 3 Conditional sentences (Past Perfect + would have), the tense remains unchanged in indirect speech. ✅"
+  },
+  {
+    "question": "Change to Indirect: She said, 'I would rather stay at home.'",
+    "options": [
+      "She said that she would rather stay at home.",
+      "She said that she would rather stayed at home.",
+      "She said that she had rather stay at home.",
+      "She told that she will rather stay at home."
+    ],
+    "answer": "He said that she would rather stay at home.",
+    "explanation": "'Would rather' remains unchanged in indirect speech. ✅"
+  },
+  {
+    "question": "Change to Indirect: 'Must I stay here?' he asked.",
+    "options": [
+      "He asked if he must stay there.",
+      "He asked if he had to stay there.",
+      "He asked whether he must stay there.",
+      "All of the above."
+    ],
+    "answer": "All of the above.",
+    "explanation": "'Must' in questions can remain 'must' or change to 'had to', and 'here' ➔ 'there'. ✅"
+  }
+]
