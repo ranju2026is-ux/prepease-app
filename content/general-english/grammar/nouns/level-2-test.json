@@ -1,0 +1,207 @@
+[
+  {
+    "question": "Choose the correct sentence regarding collective nouns:",
+    "options": [
+      "The committee has different opinions on this issue.",
+      "The committee are different opinions on this issue.",
+      "The committee were divided in their opinions on this issue.",
+      "The committee was divided in their opinions on this issue."
+    ],
+    "answer": "The committee were divided in their opinions on this issue.",
+    "explanation": "When members of a collective noun are divided or act individually, a plural verb ('were') and plural pronoun ('their') must be used. ✅"
+  },
+  {
+    "question": "Find the error part: All the (A) / chief ministers (B) / are expected (C) / to attend the meeting (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "No error",
+    "explanation": "In the compound noun 'Chief Minister', the principal word is 'Minister'. The plural 'Chief Ministers' is correct. ✅"
+  },
+  {
+    "question": "Identify the correct plural form of 'Alumnus':",
+    "options": ["Alumnuses", "Alumni", "Alumnae", "Alumna"],
+    "answer": "Alumni",
+    "explanation": "'Alumnus' is a Latin singular noun; its masculine plural form is 'Alumni'. ✅"
+  },
+  {
+    "question": "Fill in the blank: The police _____ chasing the thief.",
+    "options": ["is", "are", "was", "has been"],
+    "answer": "are",
+    "explanation": "The word 'Police' is always treated as a plural noun and requires a plural verb. ✅"
+  },
+  {
+    "question": "Find the error: She has (A) / bought (B) / two (C) / dozens copies of the book (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "When 'dozen' is preceded by a definite number (two), it should not be pluralized. It should be 'two dozen copies'. ✅"
+  },
+  {
+    "question": "Choose the correct form: Her _____ are very long.",
+    "options": ["hair", "hairs", "hair's", "hairs'"],
+    "answer": "hair",
+    "explanation": "When referring to the entire growth on the head, 'hair' is uncountable and singular. ✅"
+  },
+  {
+    "question": "Identify the error: This is (A) / my (B) / son-in-law's (C) / house (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "No error",
+    "explanation": "To show possession in compound nouns, the apostrophe ('s) is added to the last word. ✅"
+  },
+  {
+    "question": "Fill in the blank: The _____ of the army was very high.",
+    "options": ["Moral", "Morale", "Morals", "Morality"],
+    "answer": "Morale",
+    "explanation": "'Morale' refers to the confidence/spirit of a group, while 'Moral' refers to right/wrong behavior. ✅"
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "The blind needs our help.",
+      "The blinds need our help.",
+      "The blind need our help.",
+      "A blind need our help."
+    ],
+    "answer": "The blind need our help.",
+    "explanation": "When 'the' is added to an adjective (the blind, the poor), it represents the whole class and takes a plural verb. ✅"
+  },
+  {
+    "question": "Identify the error: I like (A) / the (B) / poetries of (C) / Byron and Shelley (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "'Poetry' is an uncountable noun. It should be 'the poetry' or 'the poems'. ✅"
+  },
+  {
+    "question": "Select the correct plural: There are many _____ in the forest.",
+    "options": ["Deer", "Deers", "Deeres", "Deer's"],
+    "answer": "Deer",
+    "explanation": "The noun 'Deer' has the same form for both singular and plural. ✅"
+  },
+  {
+    "question": "Find the error: The customer (A) / handed over (B) / a hundred-rupees note (C) / to the shopkeeper (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "A hyphenated noun used as an adjective (hundred-rupee) must be singular. ✅"
+  },
+  {
+    "question": "Fill in the blank: _____ are very useful for the poor.",
+    "options": ["Alm", "Alms", "An alm", "The alm"],
+    "answer": "Alms",
+    "explanation": "'Alms' (charity/money given to poor) is always plural and takes a plural verb. ✅"
+  },
+  {
+    "question": "Choose the correct possessive form for joint ownership:",
+    "options": [
+      "William and Mary's reign",
+      "William's and Mary's reign",
+      "William's and Mary reign",
+      "William and Mary reign"
+    ],
+    "answer": "William and Mary's reign",
+    "explanation": "For joint possession, the apostrophe ('s) is added only to the last noun. ✅"
+  },
+  {
+    "question": "Identify the error: He doesn't (A) / cut paper (B) / with (C) / a scissors (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'Scissors' is plural. You should say 'with scissors' or 'with a pair of scissors'. ✅"
+  },
+  {
+    "question": "What is the plural of 'Radius'?",
+    "options": ["Radiuses", "Radii", "Radia", "Radii's"],
+    "answer": "Radii",
+    "explanation": "'Radius' is a Latin singular noun; its plural is 'Radii'. ✅"
+  },
+  {
+    "question": "Find the error: These (A) / kind of (B) / shirts are (C) / very expensive (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "Since the demonstrative pronoun 'These' is plural, it should be followed by 'kinds of'. ✅"
+  },
+  {
+    "question": "Fill in the blank: A _____ of singers was performing.",
+    "options": ["Band", "Choir", "Crowd", "Pack"],
+    "answer": "Choir",
+    "explanation": "The specific collective noun for a group of singers is 'Choir'. ✅"
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "The informations he gave were false.",
+      "The information he gave was false.",
+      "A piece of informations he gave was false.",
+      "Many informations he gave were false."
+    ],
+    "answer": "The information he gave was false.",
+    "explanation": "'Information' is uncountable and always takes a singular verb. ✅"
+  },
+  {
+    "question": "Identify the error: My (A) / sister has (B) / read (C) / pages after pages (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "When a noun is repeated after a preposition, it must be singular (page after page). ✅"
+  },
+  {
+    "question": "What is the plural of 'Thesis'?",
+    "options": ["Thesises", "Thesis", "Theses", "Thesia"],
+    "answer": "Theses",
+    "explanation": "Greek nouns ending in '-is' change to '-es' in the plural form. ✅"
+  },
+  {
+    "question": "Find the error: It is (A) / not my business (B) / to give (C) / an advice (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'Advice' is uncountable and cannot be preceded by 'an'. Use 'some advice' or 'a piece of advice'. ✅"
+  },
+  {
+    "question": "Fill in the blank: The _____ are known for their bravery.",
+    "options": ["Swiss", "Swisses", "Swiss's", "A Swiss"],
+    "answer": "Swiss",
+    "explanation": "'Swiss' functions as both singular and plural (referring to the people). ✅"
+  },
+  {
+    "question": "Choose the correct form: Shakespeare wrote many _____.",
+    "options": ["drama", "dramas", "dramatic", "dramatist"],
+    "answer": "dramas",
+    "explanation": "While 'poetry' is uncountable, 'drama' is a countable noun and can be pluralized. ✅"
+  },
+  {
+    "question": "Identify the error: He (A) / ran (B) / a (C) / five-miles race (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "In the phrase 'five-mile race', the hyphenated part acts as an adjective and must be singular. ✅"
+  },
+  {
+    "question": "What is the singular of 'Data'?",
+    "options": ["Datas", "Datum", "Datumi", "Date"],
+    "answer": "Datum",
+    "explanation": "'Data' is the plural of the Latin word 'Datum'. ✅"
+  },
+  {
+    "question": "Find the error: He (A) / lives (B) / in (C) / a boys hostel (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "It should be 'boys' hostel' (apostrophe after the 's') because it is a hostel for many boys. ✅"
+  },
+  {
+    "question": "Fill in the blank: Mathematics _____ a branch of study.",
+    "options": ["is", "are", "were", "have been"],
+    "answer": "is",
+    "explanation": "Subject names ending in 's' take a singular verb. ✅"
+  },
+  {
+    "question": "Identify the correct group name: A _____ of lions.",
+    "options": ["Herd", "Pack", "Pride", "Flock"],
+    "answer": "Pride",
+    "explanation": "The specific collective noun for lions is 'Pride'. ✅"
+  },
+  {
+    "question": "Choose the correct sentence:",
+    "options": [
+      "The riches has wings.",
+      "The riches have wings.",
+      "Riches has wings.",
+      "Riches have wings."
+    ],
+    "answer": "Riches have wings.",
+    "explanation": "The word 'Riches' (wealth) is always plural and takes a plural verb. ✅"
+  }
+]
