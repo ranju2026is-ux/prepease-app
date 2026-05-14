@@ -1,149 +1,94 @@
 [
   {
-    "question": "Identify the correct pronoun: Neither of the two brothers has brought _____ book.",
+    "question": "Ram and _____ are going to the market.",
     "options": [
-      "their",
-      "his",
-      "its",
-      "him"
-    ],
-    "answer": "his",
-    "explanation": "When 'Neither', 'Either', or 'Each' is used, the following pronoun must be singular (his). ✅"
-  },
-  {
-    "question": "Fill in the blank: It was _____ who called you last night.",
-    "options": [
-      "me",
       "I",
-      "my",
+      "me",
+      "myself",
       "mine"
     ],
     "answer": "I",
-    "explanation": "After 'It is' or 'It was' (Be-form verbs), the subjective case pronoun (I, He, She, They) should be used. ✅"
+    "explanation": "When a pronoun is part of the subject, it must be in the subjective case. 'I' is the correct form. ✅"
   },
   {
-    "question": "Choose the correct option: He is taller than _____.",
+    "question": "The teacher punished _____ for being late.",
     "options": [
-      "me",
-      "I",
-      "my",
-      "mine"
-    ],
-    "answer": "I",
-    "explanation": "When comparing two subjects using 'than' or 'as', use the subjective case (I). ✅"
-  },
-  {
-    "question": "Identify the correct pronoun: Every student should do _____ duty.",
-    "options": [
-      "their",
-      "his",
+      "they",
       "them",
-      "ones"
-    ],
-    "answer": "his",
-    "explanation": "For singular indefinite pronouns like 'Every', 'Each', or 'Someone', we traditionally use the singular masculine pronoun 'his' in formal English. ✅"
-  },
-  {
-    "question": "Fill in the blank: The two sisters love _____.",
-    "options": [
-      "each other",
-      "one another",
-      "themselves",
-      "her"
-    ],
-    "answer": "each other",
-    "explanation": "'Each other' is used for two people, while 'one another' is used for more than two. ✅"
-  },
-  {
-    "question": "Identify the error: Between you and I, he is a liar.",
-    "options": [
-      "Between",
-      "you",
-      "I",
-      "liar"
-    ],
-    "answer": "I",
-    "explanation": "After a preposition like 'between' or 'except', the objective case (me) should be used, not 'I'. It should be 'Between you and me'. ✅"
-  },
-  {
-    "question": "Choose the correct possessive: This pen is _____.",
-    "options": [
-      "my",
-      "mine",
-      "mines",
-      "me"
-    ],
-    "answer": "mine",
-    "explanation": "'Mine' is a possessive pronoun that doesn't need a noun after it. 'My' is a possessive adjective. ✅"
-  },
-  {
-    "question": "Fill in the blank: One should keep _____ promise.",
-    "options": [
-      "his",
-      "her",
-      "one's",
-      "their"
-    ],
-    "answer": "one's",
-    "explanation": "If the subject is 'One', the possessive must be 'one's'. ✅"
-  },
-  {
-    "question": "Identify the correct pronoun: It is a secret between you and _____.",
-    "options": [
-      "her",
-      "she",
-      "he",
-      "they"
-    ],
-    "answer": "her",
-    "explanation": "'Between' is a preposition, so it must be followed by an objective case pronoun (her, him, me). ✅"
-  },
-  {
-    "question": "Choose the correct form: _____ am a junior accounts assistant.",
-    "options": [
-      "Myself",
-      "I",
-      "Me",
-      "Mine"
-    ],
-    "answer": "I",
-    "explanation": "A reflexive pronoun like 'Myself' cannot be used as a subject. 'I' is the correct subjective pronoun. ✅"
-  },
-  {
-    "question": "Fill in the blank: Both the boys are help _____.",
-    "options": [
-      "each other",
-      "one another",
-      "himself",
+      "their",
       "themselves"
     ],
-    "answer": "each other",
-    "explanation": "For exactly two persons, 'each other' is the correct reciprocal pronoun. ✅"
+    "answer": "them",
+    "explanation": "The pronoun is the object of the verb 'punished', so the objective case 'them' is used. ✅"
   },
   {
-    "question": "Identify the correct relative pronoun: The man _____ stole my bag has been caught.",
+    "question": "Is this book _____?",
     "options": [
-      "who",
-      "whom",
-      "which",
-      "whose"
+      "your",
+      "yours",
+      "you",
+      "yourself"
     ],
-    "answer": "who",
-    "explanation": "'Who' is used as a relative pronoun for the subject (the man). ✅"
+    "answer": "yours",
+    "explanation": "'Yours' is a possessive pronoun used to show ownership without a following noun. ✅"
   },
   {
-    "question": "Choose the correct pronoun: He invited my brother and _____ to dinner.",
+    "question": "She is more beautiful than _____.",
+    "options": [
+      "me",
+      "I",
+      "myself",
+      "mine"
+    ],
+    "answer": "I",
+    "explanation": "In formal English, after 'than', we use the subjective case (She is beautiful + I am beautiful). ✅"
+  },
+  {
+    "question": "Between you and _____, he is a liar.",
     "options": [
       "I",
       "me",
-      "my",
+      "myself",
       "mine"
     ],
     "answer": "me",
-    "explanation": "Since the pronouns are objects of the verb 'invited', use the objective case 'me'. ✅"
+    "explanation": "After a preposition (between), the pronoun must be in the objective case 'me'. ✅"
   },
   {
-    "question": "Fill in the blank: Let _____ go to the cinema.",
+    "question": "Every student must bring _____ own pen.",
+    "options": [
+      "his",
+      "their",
+      "they",
+      "them"
+    ],
+    "answer": "his",
+    "explanation": "Words like 'Every' and 'Each' are singular and take a singular possessive (his/her). ✅"
+  },
+  {
+    "question": "It was _____ who saved the child.",
+    "options": [
+      "him",
+      "he",
+      "himself",
+      "his"
+    ],
+    "answer": "he",
+    "explanation": "After 'It is/was', we use the subjective case 'he'. ✅"
+  },
+  {
+    "question": "They invited my sister and _____ to the party.",
+    "options": [
+      "I",
+      "me",
+      "myself",
+      "mine"
+    ],
+    "answer": "me",
+    "explanation": "Here the pronoun is the object of 'invited', so 'me' is correct. ✅"
+  },
+  {
+    "question": "This car belongs to _____.",
     "options": [
       "we",
       "us",
@@ -151,17 +96,237 @@
       "ours"
     ],
     "answer": "us",
-    "explanation": "After 'Let', always use the objective case pronoun (us, him, her). ✅"
+    "explanation": "After a preposition (to), we use the objective case 'us'. ✅"
   },
   {
-    "question": "Identify the correct pronoun: The dog wagged _____ tail.",
+    "question": "_____ are going on a trip this weekend.",
+    "options": [
+      "Us",
+      "We",
+      "Our",
+      "Ourselves"
+    ],
+    "answer": "We",
+    "explanation": "'We' is the subject of the sentence. ✅"
+  },
+  {
+    "question": "The dog wagged _____ tail happily.",
     "options": [
       "it's",
       "its",
-      "his",
-      "her"
+      "it",
+      "his"
     ],
     "answer": "its",
-    "explanation": "'Its' is the possessive pronoun for animals/things. 'It's' means 'it is'. ✅"
+    "explanation": "'Its' is the possessive form. 'It's' means 'It is'. ✅"
+  },
+  {
+    "question": "None of the students has done _____ homework.",
+    "options": [
+      "their",
+      "his",
+      "them",
+      "they"
+    ],
+    "answer": "his",
+    "explanation": "'None' is often treated as singular in formal exams, taking the singular 'his'. ✅"
+  },
+  {
+    "question": "Please let _____ go home early today.",
+    "options": [
+      "I",
+      "me",
+      "myself",
+      "mine"
+    ],
+    "answer": "me",
+    "explanation": "After the verb 'let', always use the objective case 'me'. ✅"
+  },
+  {
+    "question": "Whom did you give the letter _____?",
+    "options": [
+      "to",
+      "for",
+      "by",
+      "with"
+    ],
+    "answer": "to",
+    "explanation": "The objective pronoun 'Whom' is often used with the preposition 'to'. ✅"
+  },
+  {
+    "question": "Both of _____ are my best friends.",
+    "options": [
+      "they",
+      "them",
+      "their",
+      "theirs"
+    ],
+    "answer": "them",
+    "explanation": "After 'of', use the objective case 'them'. ✅"
+  },
+  {
+    "question": "_____ do you want to see?",
+    "options": [
+      "Who",
+      "Whom",
+      "Whose",
+      "Which"
+    ],
+    "answer": "Whom",
+    "explanation": "Since the person is the object of the 'see' action, 'Whom' is the objective case. ✅"
+  },
+  {
+    "question": "This is the boy _____ stole my watch.",
+    "options": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "answer": "who",
+    "explanation": "'Who' is used as a subject relative pronoun for people. ✅"
+  },
+  {
+    "question": "That house is _____.",
+    "options": [
+      "our",
+      "ours",
+      "us",
+      "ourselves"
+    ],
+    "answer": "ours",
+    "explanation": "'Ours' is the possessive pronoun used at the end of the sentence. ✅"
+  },
+  {
+    "question": "She told _____ a secret.",
+    "options": [
+      "I",
+      "me",
+      "mine",
+      "myself"
+    ],
+    "answer": "me",
+    "explanation": "Objective case 'me' is used after the verb 'told'. ✅"
+  },
+  {
+    "question": "Can _____ and my brother play together?",
+    "options": [
+      "me",
+      "I",
+      "myself",
+      "mine"
+    ],
+    "answer": "I",
+    "explanation": "Part of a compound subject requires the subjective case 'I'. ✅"
+  },
+  {
+    "question": "The prize was given to Ravi and _____.",
+    "options": [
+      "I",
+      "me",
+      "myself",
+      "mine"
+    ],
+    "answer": "me",
+    "explanation": "Object of the preposition 'to' must be 'me'. ✅"
+  },
+  {
+    "question": "_____ are responsible for this mistake.",
+    "options": [
+      "You, he and I",
+      "I, you and he",
+      "He, you and I",
+      "I, he and you"
+    ],
+    "answer": "I, you and he",
+    "explanation": "When admitting a mistake (negative sense), the order of pronouns is 1st, 2nd, 3rd (123). ✅"
+  },
+  {
+    "question": "_____ are going to the cinema.",
+    "options": [
+      "You, he and I",
+      "I, you and he",
+      "He, you and I",
+      "I, he and you"
+    ],
+    "answer": "You, he and I",
+    "explanation": "For positive/general sentences, the order of pronouns is 2nd, 3rd, 1st (231). ✅"
+  },
+  {
+    "question": "Neither of the girls has brought _____ umbrella.",
+    "options": [
+      "their",
+      "her",
+      "hers",
+      "them"
+    ],
+    "answer": "her",
+    "explanation": "'Neither' is singular, so we use 'her' for girls. ✅"
+  },
+  {
+    "question": "These pens are _____; please don't take them.",
+    "options": [
+      "my",
+      "mine",
+      "me",
+      "myself"
+    ],
+    "answer": "mine",
+    "explanation": "Possessive pronoun 'mine' stands alone. ✅"
+  },
+  {
+    "question": "I don't like _____ wasting time.",
+    "options": [
+      "you",
+      "your",
+      "yours",
+      "yourself"
+    ],
+    "answer": "your",
+    "explanation": "Before a gerund (wasting), we use a possessive adjective 'your'. ✅"
+  },
+  {
+    "question": "The two brothers love _____.",
+    "options": [
+      "each other",
+      "one another",
+      "themselves",
+      "himself"
+    ],
+    "answer": "each other",
+    "explanation": "'Each other' is used for two people. ✅"
+  },
+  {
+    "question": "The students love _____.",
+    "options": [
+      "each other",
+      "one another",
+      "themselves",
+      "himself"
+    ],
+    "answer": "one another",
+    "explanation": "'One another' is used for more than two people. ✅"
+  },
+  {
+    "question": "If I were _____, I would go there.",
+    "options": [
+      "him",
+      "he",
+      "his",
+      "himself"
+    ],
+    "answer": "he",
+    "explanation": "In hypothetical cases, after 'were', use the subjective case 'he'. ✅"
+  },
+  {
+    "question": "Each of the players was given _____ medal.",
+    "options": [
+      "their",
+      "his",
+      "them",
+      "him"
+    ],
+    "answer": "his",
+    "explanation": "'Each' is singular and requires the singular possessive 'his'. ✅"
   }
 ]
