@@ -1,167 +1,332 @@
 [
   {
-    "question": "Fill in the blank: Everyone was present except _____.",
+    "question": "This book is _____, not yours.",
     "options": [
-      "he",
-      "him",
-      "himself",
-      "his"
+      "my",
+      "mine",
+      "me",
+      "myself"
     ],
-    "answer": "him",
-    "explanation": "'Except' ಮತ್ತು 'But' ಪದಗಳು Preposition ಆಗಿ ಬಳಕೆಯಾದಾಗ ಅವುಗಳ ನಂತರ ಬರುವ ಸರ್ವನಾಮವು Objective case (him, me, her) ನಲ್ಲಿರಬೇಕು. ✅"
+    "answer": "mine",
+    "explanation": "'Mine' is a possessive pronoun used when the noun (book) is already mentioned or understood. ✅"
   },
   {
-    "question": "Choose the correct pronoun: Give the prize to _____ deserves it.",
+    "question": "That house on the corner is _____.",
     "options": [
-      "whoever",
-      "whomever",
-      "who",
-      "whom"
-    ],
-    "answer": "whoever",
-    "explanation": "ಇಲ್ಲಿ 'whoever' ಎಂಬುದು 'deserves' ಎಂಬ ಕ್ರಿಯಾಪದದ ಕರ್ತೃವಾಗಿ (Subject) ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತಿದೆ, ಆದ್ದರಿಂದ Subjective case ಬಳಕೆಯಾಗಿದೆ. ✅"
-  },
-  {
-    "question": "Identify the correct form: _____ do you think will win the election?",
-    "options": [
-      "Who",
-      "Whom",
-      "Whose",
-      "Which"
-    ],
-    "answer": "Who",
-    "explanation": "'Who' ಎಂಬುದು 'will win' ನ ಕರ್ತೃವಾಗಿದೆ. 'do you think' ಎಂಬುದು ಇಲ್ಲಿ ಪೂರಕ ನುಡಿಗಟ್ಟು ಮಾತ್ರ. ✅"
-  },
-  {
-    "question": "Fill in the blank: It is easy to criticize others, but _____ is difficult to be perfect.",
-    "options": [
-      "this",
-      "that",
-      "it",
-      "which"
-    ],
-    "answer": "it",
-    "explanation": "ವಾಕ್ಯದ ಆರಂಭದಲ್ಲಿ ಅನಿರ್ದಿಷ್ಟ ವಿಷಯವನ್ನು ಸೂಚಿಸಲು 'Impersonal It' ಅಥವಾ 'Anticipatory It' ಬಳಸಲಾಗುತ್ತದೆ. ✅"
-  },
-  {
-    "question": "Choose the correct relative pronoun: He is the only man _____ can solve this problem.",
-    "options": [
-      "who",
-      "that",
-      "which",
-      "whom"
-    ],
-    "answer": "that",
-    "explanation": "'The only' ಪದದ ನಂತರ ಯಾವಾಗಲೂ 'that' ಬಳಸಬೇಕು, 'who' ಅಲ್ಲ. ✅"
-  },
-  {
-    "question": "Identify the error: There is no one but I who can do this.",
-    "options": [
-      "There",
-      "but",
-      "I",
-      "who"
-    ],
-    "answer": "I",
-    "explanation": "'But' ನಂತರ Objective case ಬರಬೇಕು. ಆದ್ದರಿಂದ 'but me' ಎನ್ನುವುದು ಸರಿಯಾದ ರೂಪ. ✅"
-  },
-  {
-    "question": "Fill in the blank: The two brothers are so alike that I cannot distinguish one from _____.",
-    "options": [
-      "another",
-      "other",
-      "the other",
-      "each other"
-    ],
-    "answer": "the other",
-    "explanation": "ಕೇವಲ ಇಬ್ಬರು ವ್ಯಕ್ತಿಗಳಿರುವಾಗ ಒಬ್ಬರನ್ನು ಇನ್ನೊಬ್ಬರಿಂದ ಬೇರ್ಪಡಿಸಲು 'the other' ಬಳಸಲಾಗುತ್ತದೆ. ✅"
-  },
-  {
-    "question": "Choose the correct form: Invite _____ you like to the party.",
-    "options": [
-      "whoever",
-      "whomever",
-      "who",
-      "whom"
-    ],
-    "answer": "whomever",
-    "explanation": "ಇಲ್ಲಿ ಸರ್ವನಾಮವು 'you like' ನ ಕರ್ಮವಾಗಿ (Object) ಬಳಕೆಯಾಗುತ್ತಿದೆ, ಆದ್ದರಿಂದ 'whomever' ಸರಿಯಾಗಿದೆ. ✅"
-  },
-  {
-    "question": "Identify the correct pronoun: We scored as many runs as _____.",
-    "options": [
-      "they",
+      "their",
+      "theirs",
       "them",
-      "their",
-      "themselves"
+      "they"
     ],
-    "answer": "they",
-    "explanation": "ಹೋಲಿಕೆ ಮಾಡುವಾಗ (As...as), Subjective case 'they' ಬಳಸುವುದು ಔಪಚಾರಿಕವಾಗಿ ಸರಿಯಾದ ಕ್ರಮ. ✅"
+    "answer": "theirs",
+    "explanation": "'Theirs' is the possessive pronoun. 'Their' would require a noun after it (e.g., their house). ✅"
   },
   {
-    "question": "Fill in the blank: Neither of the two servants has done _____ work.",
+    "question": "I have lost my pen; can I borrow _____?",
     "options": [
-      "their",
-      "his",
-      "its",
-      "them"
+      "your",
+      "yours",
+      "you",
+      "yourself"
     ],
-    "answer": "his",
-    "explanation": "'Neither' ಎಂಬುದು Singular ಆಗಿರುವುದರಿಂದ 'his' ಎಂಬ ಏಕವಚನ ಸರ್ವನಾಮವೇ ಬರಬೇಕು. ✅"
+    "answer": "yours",
+    "explanation": "'Yours' stands for 'your pen'. ✅"
   },
   {
-    "question": "Choose the correct relative pronoun: This is the same dog _____ bit me yesterday.",
+    "question": "Is this umbrella _____?",
     "options": [
-      "which",
-      "that",
-      "who",
-      "whose"
-    ],
-    "answer": "that",
-    "explanation": "'The same' ಪದದ ನಂತರ ಪ್ರಾಣಿ ಅಥವಾ ವಸ್ತುಗಳಿಗೆ 'that' ಬಳಸಲಾಗುತ್ತದೆ. ✅"
-  },
-  {
-    "question": "Identify the error: The boy who I spoke to is my cousin.",
-    "options": [
-      "boy",
-      "who",
-      "spoke",
-      "cousin"
-    ],
-    "answer": "who",
-    "explanation": "ಇಲ್ಲಿ ಹುಡುಗನು ಕ್ರಿಯೆಯ ಫಲಾನುಭವಿಯಾಗಿರುವುದರಿಂದ (Object), 'whom' ಬಳಸಬೇಕು. (The boy whom I spoke to). ✅"
-  },
-  {
-    "question": "Fill in the blank: Such a man _____ he should be honored.",
-    "options": [
-      "that",
-      "who",
-      "as",
-      "which"
-    ],
-    "answer": "as",
-    "explanation": "'Such' ನಂತರ 'as' ಸಂಬಂಧವಾಚಕ ಸರ್ವನಾಮವಾಗಿ ಬರುತ್ತದೆ. ✅"
-  },
-  {
-    "question": "Choose the correct pronoun: One must be mindful of _____ reputation.",
-    "options": [
-      "his",
       "her",
-      "one's",
-      "their"
+      "hers",
+      "she",
+      "herself"
     ],
-    "answer": "one's",
-    "explanation": "'One' ಕರ್ತೃವಾದಾಗ ಅದರ ಮಾಲೀಕತ್ವ ರೂಪ 'one's' ಆಗಿರಬೇಕು. ✅"
+    "answer": "hers",
+    "explanation": "'Hers' is the possessive pronoun for a female owner. ✅"
   },
   {
-    "question": "Identify the correct form: It is _____ who is responsible for this loss.",
+    "question": "Our car is fast, but _____ is faster.",
     "options": [
+      "our",
+      "ours",
+      "us",
+      "we"
+    ],
+    "answer": "ours",
+    "explanation": "If comparing two things belonging to 'us', 'ours' is used to avoid repetition. ✅"
+  },
+  {
+    "question": "The fault was _____ entirely.",
+    "options": [
+      "my",
+      "mine",
+      "me",
+      "myself"
+    ],
+    "answer": "mine",
+    "explanation": "Used at the end of the sentence to show possession. ✅"
+  },
+  {
+    "question": "He says that the cat is _____.",
+    "options": [
+      "his",
       "him",
       "he",
-      "his",
       "himself"
     ],
-    "answer": "he",
-    "explanation": "'It is/was' ನಂತರ ಕರ್ತೃ ರೂಪದ ಸರ್ವನಾಮ (He) ಬರಬೇಕು. ✅"
+    "answer": "his",
+    "explanation": "Note: 'His' is the same for both possessive adjective and possessive pronoun. ✅"
+  },
+  {
+    "question": "These ideas are _____; I didn't get them from anyone else.",
+    "options": [
+      "my",
+      "mine",
+      "me",
+      "myself"
+    ],
+    "answer": "mine",
+    "explanation": "Shows independent ownership. ✅"
+  },
+  {
+    "question": "The victory was _____, not theirs.",
+    "options": [
+      "our",
+      "ours",
+      "us",
+      "we"
+    ],
+    "answer": "ours",
+    "explanation": "Contrasting two possessive pronouns. ✅"
+  },
+  {
+    "question": "This seat is _____, I'm afraid.",
+    "options": [
+      "my",
+      "mine",
+      "me",
+      "myself"
+    ],
+    "answer": "mine",
+    "explanation": "Identifying the owner of the seat. ✅"
+  },
+  {
+    "question": "Whose bag is this? It's _____.",
+    "options": [
+      "Soma's",
+      "his",
+      "him",
+      "Both A and B"
+    ],
+    "answer": "Both A and B",
+    "explanation": "Both a possessive noun and a possessive pronoun can answer 'Whose'. ✅"
+  },
+  {
+    "question": "Your room is big, but _____ is even bigger.",
+    "options": [
+      "their",
+      "theirs",
+      "them",
+      "they"
+    ],
+    "answer": "theirs",
+    "explanation": "'Theirs' = Their room. ✅"
+  },
+  {
+    "question": "I didn't have an eraser, so she gave me _____.",
+    "options": [
+      "her",
+      "hers",
+      "herself",
+      "she"
+    ],
+    "answer": "hers",
+    "explanation": "Possessive pronoun for 'her eraser'. ✅"
+  },
+  {
+    "question": "This country is _____.",
+    "options": [
+      "our",
+      "ours",
+      "us",
+      "we"
+    ],
+    "answer": "ours",
+    "explanation": "Shows collective ownership. ✅"
+  },
+  {
+    "question": "The choice is _____, not mine.",
+    "options": [
+      "your",
+      "yours",
+      "you",
+      "yourself"
+    ],
+    "answer": "yours",
+    "explanation": "Putting the responsibility of the choice on the other person. ✅"
+  },
+  {
+    "question": "My mobile is out of charge; may I use _____?",
+    "options": [
+      "your",
+      "yours",
+      "you",
+      "his"
+    ],
+    "answer": "yours",
+    "explanation": "Used to avoid saying 'your mobile' again. ✅"
+  },
+  {
+    "question": "The responsibility is _____.",
+    "options": [
+      "their",
+      "theirs",
+      "them",
+      "they"
+    ],
+    "answer": "theirs",
+    "explanation": "Assigning ownership of the task. ✅"
+  },
+  {
+    "question": "This pen is _____; that one is mine.",
+    "options": [
+      "your",
+      "yours",
+      "you",
+      "yourselves"
+    ],
+    "answer": "yours",
+    "explanation": "Distinguishing between two owners. ✅"
+  },
+  {
+    "question": "Is that coat _____?",
+    "options": [
+      "your",
+      "yours",
+      "you",
+      "yourself"
+    ],
+    "answer": "yours",
+    "explanation": "Direct question about ownership. ✅"
+  },
+  {
+    "question": "The last cookie is _____!",
+    "options": [
+      "my",
+      "mine",
+      "me",
+      "myself"
+    ],
+    "answer": "mine",
+    "explanation": "Claiming ownership. ✅"
+  },
+  {
+    "question": "A friend of _____ told me about this.",
+    "options": [
+      "mine",
+      "my",
+      "me",
+      "myself"
+    ],
+    "answer": "mine",
+    "explanation": "The structure 'A friend of + possessive pronoun' is a standard English idiom. ✅"
+  },
+  {
+    "question": "He is a relative of _____.",
+    "options": [
+      "ours",
+      "our",
+      "us",
+      "we"
+    ],
+    "answer": "ours",
+    "explanation": "Using the 'of + possessive pronoun' structure. ✅"
+  },
+  {
+    "question": "Was it _____ car that was stolen?",
+    "options": [
+      "their",
+      "theirs",
+      "them",
+      "they"
+    ],
+    "answer": "their",
+    "explanation": "Note: Since 'car' (noun) follows, we need the possessive adjective 'their'. ✅"
+  },
+  {
+    "question": "The cat belongs to the neighbors; it is _____.",
+    "options": [
+      "their",
+      "theirs",
+      "themself",
+      "them"
+    ],
+    "answer": "theirs",
+    "explanation": "Possessive pronoun referring to the neighbors. ✅"
+  },
+  {
+    "question": "My problem is different from _____.",
+    "options": [
+      "your",
+      "yours",
+      "you",
+      "yourself"
+    ],
+    "answer": "yours",
+    "explanation": "Comparing my problem with 'your problem'. ✅"
+  },
+  {
+    "question": "This is my house; _____ is down the street.",
+    "options": [
+      "her",
+      "hers",
+      "she",
+      "herself"
+    ],
+    "answer": "hers",
+    "explanation": "Referring to another person's house. ✅"
+  },
+  {
+    "question": "Whose key is this? It's definitely _____.",
+    "options": [
+      "mine",
+      "my",
+      "me",
+      "myself"
+    ],
+    "answer": "mine",
+    "explanation": "Expressing certainty about ownership. ✅"
+  },
+  {
+    "question": "That laptop is _____; I bought it last week.",
+    "options": [
+      "his",
+      "him",
+      "he",
+      "himself"
+    ],
+    "answer": "his",
+    "explanation": "Possessive pronoun for a male owner. ✅"
+  },
+  {
+    "question": "The glory is all _____.",
+    "options": [
+      "theirs",
+      "their",
+      "them",
+      "they"
+    ],
+    "answer": "theirs",
+    "explanation": "Assigning the credit of success. ✅"
+  },
+  {
+    "question": "This garden is _____; we work hard on it.",
+    "options": [
+      "ours",
+      "our",
+      "us",
+      "ourselves"
+    ],
+    "answer": "ours",
+    "explanation": "Possessive pronoun for collective ownership. ✅"
   }
 ]
