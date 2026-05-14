@@ -1,112 +1,332 @@
 [
   {
-    "question": "Change to Indirect: He said, 'I am waiting for the bus.'",
+    "question": "He said to me, 'Are you coming with us?'",
     "options": [
-      "He said that he is waiting for the bus.",
-      "He said that he was waiting for the bus.",
-      "He said that he has been waiting for the bus.",
-      "He told that he was waiting for the bus."
+      "He asked me if I was coming with them.",
+      "He told me if I was coming with them.",
+      "He asked me if you were coming with us.",
+      "He asked me that was I coming with them."
     ],
-    "answer": "He said that he was waiting for the bus.",
-    "explanation": "Present Continuous (am waiting) changes to Past Continuous (was waiting). ✅"
+    "answer": "He asked me if I was coming with them.",
+    "explanation": "For Yes/No questions, we use 'if' or 'whether'. The sentence structure changes from a question to a statement (Assertive). ✅"
   },
   {
-    "question": "Change to Indirect: The girls said, 'We were singing songs.'",
+    "question": "She said to him, 'What is your name?'",
     "options": [
-      "The girls said that they were singing songs.",
-      "The girls said that they had been singing songs.",
-      "The girls said that we had been singing songs.",
-      "The girls told that they had been singing songs."
+      "She asked him what was his name.",
+      "She asked him what his name was.",
+      "She told him what his name was.",
+      "She asked him that what his name was."
     ],
-    "answer": "The girls said that they had been singing songs.",
-    "explanation": "Past Continuous (were singing) changes to Past Perfect Continuous (had been singing). ✅"
+    "answer": "She asked him what his name was.",
+    "explanation": "In Wh- questions, the question word acts as the connector. The verb 'was' must come after the subject 'his name'. ✅"
   },
   {
-    "question": "Change to Indirect: She said, 'I bought a new phone yesterday.'",
+    "question": "I said to her, 'Do you know me?'",
     "options": [
-      "She said that she had bought a new phone the day before.",
-      "She said that she bought a new phone yesterday.",
-      "She said that she had bought a new phone yesterday.",
-      "She said that she has bought a new phone the previous day."
+      "I asked her if she knew me.",
+      "I asked her if she knows me.",
+      "I told her if she knew me.",
+      "I asked her that did she know me."
     ],
-    "answer": "She said that she had bought a new phone the day before.",
-    "explanation": "Simple Past (bought) changes to Past Perfect (had bought), and 'yesterday' changes to 'the day before'. ✅"
+    "answer": "I asked her if she knew me.",
+    "explanation": "Simple Present (Do you know) changes to Simple Past (if she knew). ✅"
   },
   {
-    "question": "Change to Indirect: They said, 'We are going to the market now.'",
+    "question": "They said to us, 'Where are you going?'",
     "options": [
-      "They said that they were going to the market now.",
-      "They said that they are going to the market then.",
-      "They said that they were going to the market then.",
-      "They told that they were going to the market then."
+      "They asked us where we were going.",
+      "They asked us where were we going.",
+      "They told us where we were going.",
+      "They asked us where we are going."
     ],
-    "answer": "They said that they were going to the market then.",
-    "explanation": "Present Continuous changes to Past Continuous and 'now' changes to 'then'. ✅"
+    "answer": "They asked us where we were going.",
+    "explanation": "The word order shifts from 'are you' (question) to 'we were' (statement). ✅"
   },
   {
-    "question": "Change to Indirect: He said, 'I saw a movie last night.'",
+    "question": "He said, 'Will you help me?'",
     "options": [
-      "He said that he saw a movie the previous night.",
-      "He said that he had seen a movie last night.",
-      "He said that he had seen a movie the previous night.",
-      "He told that he had seen a movie the previous night."
+      "He asked if I would help him.",
+      "He asked if he would help me.",
+      "He said that will I help him.",
+      "He asked whether I will help him."
     ],
-    "answer": "He said that he had seen a movie the previous night.",
-    "explanation": "Simple Past (saw) changes to Past Perfect (had seen) and 'last night' changes to 'the previous night'. ✅"
+    "answer": "He asked if I would help him.",
+    "explanation": "Will ➔ Would. Pronouns change according to the context. ✅"
   },
   {
-    "question": "Change to Indirect: The teacher said, 'I was teaching English yesterday.'",
+    "question": "She said to me, 'Did you see the movie?'",
     "options": [
-      "The teacher said that she was teaching English the previous day.",
-      "The teacher said that she had been teaching English the day before.",
-      "The teacher said that she has been teaching English the day before.",
-      "The teacher said that I had been teaching English the previous day."
+      "She asked me if I had seen the movie.",
+      "She asked me if I saw the movie.",
+      "She told me if I had seen the movie.",
+      "She asked me that had I seen the movie."
     ],
-    "answer": "The teacher said that she had been teaching English the day before.",
-    "explanation": "Past Continuous (was teaching) ➔ Past Perfect Continuous (had been teaching). ✅"
+    "answer": "She asked me if I had seen the movie.",
+    "explanation": "Simple Past (Did you see) changes to Past Perfect (had seen). ✅"
   },
   {
-    "question": "Change to Indirect: Ram said to Sham, 'I didn't go to school.'",
+    "question": "The teacher said to the boy, 'Why are you crying?'",
     "options": [
-      "Ram told Sham that he hadn't gone to school.",
-      "Ram told Sham that he didn't go to school.",
-      "Ram told Sham that he hasn't gone to school.",
-      "Ram said to Sham that he hadn't gone to school."
+      "The teacher asked the boy why he was crying.",
+      "The teacher asked the boy why was he crying.",
+      "The teacher told the boy why he was crying.",
+      "The teacher asked the boy why he is crying."
     ],
-    "answer": "Ram told Sham that he hadn't gone to school.",
-    "explanation": "Simple Past Negative (didn't go) changes to Past Perfect Negative (hadn't gone). ✅"
+    "answer": "The teacher asked the boy why he was crying.",
+    "explanation": "The reporting verb 'said to' changes to 'asked', and the tense shifts to past continuous. ✅"
   },
   {
-    "question": "Change to Indirect: My friend said, 'I have been working for two hours.'",
+    "question": "I said to him, 'Can you lift this box?'",
     "options": [
-      "My friend said that he had been working for two hours.",
-      "My friend said that he has been working for two hours.",
-      "My friend said that I had been working for two hours.",
-      "My friend told that he was working for two hours."
+      "I asked him if he could lift that box.",
+      "I asked him if he can lift this box.",
+      "I told him if he could lift that box.",
+      "I asked him if he could lift this box."
     ],
-    "answer": "My friend said that he had been working for two hours.",
-    "explanation": "Present Perfect Continuous (have been working) changes to Past Perfect Continuous (had been working). ✅"
+    "answer": "I asked him if he could lift that box.",
+    "explanation": "Can ➔ Could, and 'this' ➔ 'that'. ✅"
   },
   {
-    "question": "Change to Indirect: She said, 'I am not going to the party.'",
+    "question": "He said, 'When will the train arrive?'",
     "options": [
-      "She said that she was not going to the party.",
-      "She said that she is not going to the party.",
-      "She said that I was not going to the party.",
-      "She told that she is not going to the party."
+      "He asked when the train would arrive.",
+      "He asked when would the train arrive.",
+      "He told when the train would arrive.",
+      "He asked when the train will arrive."
     ],
-    "answer": "She said that she was not going to the party.",
-    "explanation": "'am not going' changes to 'was not going' in indirect speech. ✅"
+    "answer": "He asked when the train would arrive.",
+    "explanation": "Subject 'the train' comes before the auxiliary 'would'. ✅"
   },
   {
-    "question": "Change to Indirect: He said, 'The train arrived an hour ago.'",
+    "question": "She said to me, 'Have you finished your work?'",
     "options": [
-      "He said that the train had arrived an hour ago.",
-      "He said that the train arrived an hour before.",
-      "He said that the train had arrived an hour before.",
-      "He told that the train has arrived an hour before."
+      "She asked me if I had finished my work.",
+      "She asked me if I have finished my work.",
+      "She asked me that had I finished my work.",
+      "She told me if I had finished my work."
     ],
-    "answer": "He said that the train had arrived an hour before.",
-    "explanation": "Simple Past (arrived) changes to Past Perfect (had arrived) and 'ago' changes to 'before'. ✅"
+    "answer": "She asked me if I had finished my work.",
+    "explanation": "Present Perfect (Have you finished) ➔ Past Perfect (if I had finished). ✅"
+  },
+  {
+    "question": "Mother said to me, 'Where is your brother?'",
+    "options": [
+      "Mother asked me where my brother was.",
+      "Mother asked me where was my brother.",
+      "Mother told me where my brother was.",
+      "Mother asked me that where my brother was."
+    ],
+    "answer": "Mother asked me where my brother was.",
+    "explanation": "Question order is replaced by assertive order. ✅"
+  },
+  {
+    "question": "The policeman said to the man, 'Where do you live?'",
+    "options": [
+      "The policeman asked the man where he lived.",
+      "The policeman asked the man where did he live.",
+      "The policeman told the man where he lived.",
+      "The policeman asked the man where he lives."
+    ],
+    "answer": "The policeman asked the man where he lived.",
+    "explanation": "Simple Present question ➔ Simple Past statement. ✅"
+  },
+  {
+    "question": "He said to her, 'Whom do you want to see?'",
+    "options": [
+      "He asked her whom she wanted to see.",
+      "He asked her whom did she want to see.",
+      "He told her whom she wanted to see.",
+      "He asked her that whom she wanted to see."
+    ],
+    "answer": "He asked her whom she wanted to see.",
+    "explanation": "Wh- word acts as the connector, followed by subject + V2. ✅"
+  },
+  {
+    "question": "Ram said to Ravi, 'Are you coming to the party tonight?'",
+    "options": [
+      "Ram asked Ravi if he was coming to the party that night.",
+      "Ram asked Ravi if he is coming to the party tonight.",
+      "Ram told Ravi if he was coming to the party that night.",
+      "Ram asked Ravi if was he coming to the party that night."
+    ],
+    "answer": "Ram asked Ravi if he was coming to the party that night.",
+    "explanation": "Tonight ➔ That night. ✅"
+  },
+  {
+    "question": "The traveler said, 'Can anyone tell me the way to the inn?'",
+    "options": [
+      "The traveler asked if anyone could tell him the way to the inn.",
+      "The traveler asked if anyone can tell him the way to the inn.",
+      "The traveler asked that could anyone tell him the way to the inn.",
+      "The traveler told if anyone could tell him the way to the inn."
+    ],
+    "answer": "The traveler asked if anyone could tell him the way to the inn.",
+    "explanation": "Can ➔ Could. ✅"
+  },
+  {
+    "question": "She said to me, 'How is your father?'",
+    "options": [
+      "She asked me how my father was.",
+      "She asked me how was my father.",
+      "She told me how my father was.",
+      "She asked me how is my father."
+    ],
+    "answer": "She asked me how my father was.",
+    "explanation": "Is ➔ Was (placed at the end). ✅"
+  },
+  {
+    "question": "He said, 'May I use your telephone?'",
+    "options": [
+      "He asked if he might use my telephone.",
+      "He asked if he may use my telephone.",
+      "He told if he might use my telephone.",
+      "He asked that might he use my telephone."
+    ],
+    "answer": "He asked if he might use my telephone.",
+    "explanation": "May ➔ Might. ✅"
+  },
+  {
+    "question": "The interviewer said, 'Why did you leave your previous job?'",
+    "options": [
+      "The interviewer asked why I had left my previous job.",
+      "The interviewer asked why had I left my previous job.",
+      "The interviewer asked why I left my previous job.",
+      "The interviewer told why I had left my previous job."
+    ],
+    "answer": "The interviewer asked why I had left my previous job.",
+    "explanation": "Simple Past (Did you leave) ➔ Past Perfect (had left). ✅"
+  },
+  {
+    "question": "He said to me, 'Which book do you want?'",
+    "options": [
+      "He asked me which book I wanted.",
+      "He asked me which book did I want.",
+      "He told me which book I wanted.",
+      "He asked me that which book I wanted."
+    ],
+    "answer": "He asked me which book I wanted.",
+    "explanation": "Simple Present ➔ Simple Past. ✅"
+  },
+  {
+    "question": "She said, 'Shall I open the door?'",
+    "options": [
+      "She asked if she should open the door.",
+      "She asked if she shall open the door.",
+      "She said that should she open the door.",
+      "She asked whether she would open the door."
+    ],
+    "answer": "She asked if she should open the door.",
+    "explanation": "When 'Shall' is used for an offer or suggestion, it often changes to 'should'. ✅"
+  },
+  {
+    "question": "Anil said to his friend, 'How did you do that?'",
+    "options": [
+      "Anil asked his friend how he had done that.",
+      "Anil asked his friend how did he do that.",
+      "Anil told his friend how he had done that.",
+      "Anil asked his friend how he had done this."
+    ],
+    "answer": "Anil asked his friend how he had done that.",
+    "explanation": "Simple Past ➔ Past Perfect. ✅"
+  },
+  {
+    "question": "The lady said, 'What do you want, little boy?'",
+    "options": [
+      "The lady asked the little boy what he wanted.",
+      "The lady asked what the little boy wants.",
+      "The lady told the little boy what he wanted.",
+      "The lady asked that what the little boy wanted."
+    ],
+    "answer": "The lady asked the little boy what he wanted.",
+    "explanation": "The vocative 'little boy' becomes the object of 'asked'. ✅"
+  },
+  {
+    "question": "He said to me, 'Whose bag is this?'",
+    "options": [
+      "He asked me whose bag that was.",
+      "He asked me whose bag was that.",
+      "He asked me whose bag this was.",
+      "He told me whose bag that was."
+    ],
+    "answer": "He asked me whose bag that was.",
+    "explanation": "This ➔ That. ✅"
+  },
+  {
+    "question": "She asked, 'Are you happy here?'",
+    "options": [
+      "She asked if I was happy there.",
+      "She asked if I am happy there.",
+      "She told if I was happy here.",
+      "She asked if was I happy there."
+    ],
+    "answer": "She asked if I was happy there.",
+    "explanation": "Here ➔ There. ✅"
+  },
+  {
+    "question": "He said, 'How long will it take to reach there?'",
+    "options": [
+      "He asked how long it would take to reach there.",
+      "He asked how long would it take to reach there.",
+      "He told how long it would take to reach there.",
+      "He asked how long it will take to reach there."
+    ],
+    "answer": "He asked how long it would take to reach there.",
+    "explanation": "Will ➔ Would. ✅"
+  },
+  {
+    "question": "I said to him, 'Do you have a pen?'",
+    "options": [
+      "I asked him if he had a pen.",
+      "I asked him if he has a pen.",
+      "I told him if he had a pen.",
+      "I asked him that had he a pen."
+    ],
+    "answer": "I asked him if he had a pen.",
+    "explanation": "Do you have (Simple Present) ➔ if he had (Simple Past). ✅"
+  },
+  {
+    "question": "The teacher said, 'Who has broken this glass?'",
+    "options": [
+      "The teacher asked who had broken that glass.",
+      "The teacher asked who has broken that glass.",
+      "The teacher told who had broken that glass.",
+      "The teacher asked that who had broken this glass."
+    ],
+    "answer": "The teacher asked who had broken that glass.",
+    "explanation": "Present Perfect ➔ Past Perfect. ✅"
+  },
+  {
+    "question": "He said to the servant, 'Why have you not cleaned the room?'",
+    "options": [
+      "He asked the servant why he had not cleaned the room.",
+      "He asked the servant why had he not cleaned the room.",
+      "He told the servant why he had not cleaned the room.",
+      "He asked the servant why he has not cleaned the room."
+    ],
+    "answer": "He asked the servant why he had not cleaned the room.",
+    "explanation": "Have not ➔ Had not. ✅"
+  },
+  {
+    "question": "She said to her mother, 'What shall I wear for the function?'",
+    "options": [
+      "She asked her mother what she should wear for the function.",
+      "She asked her mother what she would wear for the function.",
+      "She told her mother what she should wear for the function.",
+      "She asked her mother that what she should wear for the function."
+    ],
+    "answer": "She asked her mother what she should wear for the function.",
+    "explanation": "When 'Shall' is used for asking advice, it changes to 'should'. ✅"
+  },
+  {
+    "question": "The guide said to us, 'Have you seen the Taj before?'",
+    "options": [
+      "The guide asked us if we had seen the Taj before.",
+      "The guide asked us if we have seen the Taj before.",
+      "The guide told us if we had seen the Taj before.",
+      "The guide asked if had we seen the Taj before."
+    ],
+    "answer": "The guide asked us if we had seen the Taj before.",
+    "explanation": "Present Perfect ➔ Past Perfect. ✅"
   }
 ]
