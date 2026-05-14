@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Change to Indirect: He said, 'I am unwell, and I cannot attend the meeting.'",
+    "options": [
+      "He said that he was unwell and that he could not attend the meeting.",
+      "He said that he is unwell and cannot attend the meeting.",
+      "He told that he was unwell and he cannot attend the meeting.",
+      "He said that he was unwell and I could not attend the meeting."
+    ],
+    "answer": "He said that he was unwell and that he could not attend the meeting.",
+    "explanation": "When two assertive sentences are joined by 'and', 'that' is repeated after the conjunction for clarity. ✅"
+  },
+  {
+    "question": "Change to Indirect: She said to me, 'What are you doing? Go home at once.'",
+    "options": [
+      "She asked me what I was doing and told me to go home at once.",
+      "She asked me what was I doing and ordered to go home at once.",
+      "She questioned me what I am doing and said to go home.",
+      "She asked me what I was doing and go home at once."
+    ],
+    "answer": "She asked me what I was doing and told me to go home at once.",
+    "explanation": "This is a mixed sentence (Interrogative + Imperative). Each part follows its own rule. ✅"
+  },
+  {
+    "question": "Change to Direct: He asked me if I had seen the movie.",
+    "options": [
+      "He said to me, 'Have you seen the movie?'",
+      "He said to me, 'Did you see the movie?'",
+      "He said to me, 'You saw the movie?'",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "The Past Perfect 'had seen' in indirect speech can come from either Present Perfect or Simple Past in direct speech. ✅"
+  },
+  {
+    "question": "Change to Indirect: My father said to me, 'Bravo! You have done well. I am proud of you.'",
+    "options": [
+      "My father applauded me saying that I had done well and added that he was proud of me.",
+      "My father told me bravo and said he was proud of me.",
+      "My father exclaimed with joy that I did well and was proud of me.",
+      "My father said I had done well and he was proud of me."
+    ],
+    "answer": "My father applauded me saying that I had done well and added that he was proud of me.",
+    "explanation": "For mixed exclamatory and assertive sentences, use 'applauded... saying' and 'added that'. ✅"
+  },
+  {
+    "question": "Change to Indirect: He said, 'Let us wait for the result.'",
+    "options": [
+      "He suggested that they should wait for the result.",
+      "He proposed that we should wait for the result.",
+      "He suggested to wait for the result.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "'Let us' indicates a suggestion. Depending on whether the speaker is included, 'they' or 'we' can be used. ✅"
+  },
+  {
+    "question": "Change to Direct: The teacher asked the boy why he had not done his homework.",
+    "options": [
+      "The teacher said to the boy, 'Why have you not done your homework?'",
+      "The teacher said to the boy, 'Why you did not do your homework?'",
+      "The teacher said to the boy, 'Why didn't you do your homework?'",
+      "Both A and C are correct."
+    ],
+    "answer": "Both A and C are correct.",
+    "explanation": "'had not done' can be the indirect form of either 'have not done' or 'did not do'. ✅"
+  },
+  {
+    "question": "Change to Indirect: She said, 'I am busy now, but I shall help you tomorrow.'",
+    "options": [
+      "She said that she was busy then but she would help me the next day.",
+      "She said that she is busy now but she will help me tomorrow.",
+      "She said that she was busy then but she shall help me the next day.",
+      "She told that she was busy then but she would help me tomorrow."
+    ],
+    "answer": "She said that she was busy then but she would help me the next day.",
+    "explanation": "All changes (Tense, Pronoun, Time) must be applied consistently across the compound sentence. ✅"
+  },
+  {
+    "question": "Change to Direct: He told his servant that he might go then.",
+    "options": [
+      "He said to his servant, 'You may go now.'",
+      "He said to his servant, 'You can go now.'",
+      "He said to his servant, 'He might go then.'",
+      "He told his servant, 'You may go then.'"
+    ],
+    "answer": "He said to his servant, 'You may go now.'",
+    "explanation": "'might' ➔ 'may' and 'then' ➔ 'now' in reverse transformation. ✅"
+  },
+  {
+    "question": "Change to Indirect: The captain said, 'Alas! Our enemies are too strong. We must retreat.'",
+    "options": [
+      "The captain exclaimed with sorrow that their enemies were too strong and that they had to retreat.",
+      "The captain said alas and told that enemies are strong.",
+      "The captain exclaimed sadly that our enemies were too strong and we must retreat.",
+      "The captain cried out that the enemies were strong."
+    ],
+    "answer": "The captain exclaimed with sorrow that their enemies were too strong and that they had to retreat.",
+    "explanation": "Exclamatory ('Alas') combined with Assertive ('We must'). ✅"
+  },
+  {
+    "question": "Change to Indirect: 'Wait here till I return,' he said to her.",
+    "options": [
+      "He told her to wait there till he returned.",
+      "He ordered her to wait here till he returned.",
+      "He told her to wait there till I returned.",
+      "He asked her to wait there till he returns."
+    ],
+    "answer": "He told her to wait there till he returned.",
+    "explanation": "Imperative ('wait') ➔ to wait. Subordinate clause 'till I return' (Present) ➔ 'till he returned' (Past). ✅"
+  }
+]
