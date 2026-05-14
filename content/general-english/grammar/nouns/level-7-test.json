@@ -1,0 +1,197 @@
+[
+  {
+    "question": "Find the error part: I (A) / enjoy (B) / reading (C) / the poetries of Keats (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'Poetry' is an uncountable noun and has no plural form. Use 'the poetry of Keats' or 'the poems of Keats'. ✅"
+  },
+  {
+    "question": "Choose the correct sentence regarding 'Superfluous' errors:",
+    "options": [
+      "He made a big blunder mistake.",
+      "He made a big blunder.",
+      "He made a heavy blunder.",
+      "He made a blunderous mistake."
+    ],
+    "answer": "He made a big blunder.",
+    "explanation": "'Blunder' itself means a 'big mistake'. Adding the word 'mistake' after it is redundant (superfluous). ✅"
+  },
+  {
+    "question": "Identify the error: He (A) / has (B) / two (C) / sister-in-laws (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "In compound nouns, the plural marker 's' is added to the principal word: 'sisters-in-law'. ✅"
+  },
+  {
+    "question": "Fill in the blank: The _____ of the Himalayas is very beautiful.",
+    "options": ["sceneries", "scenery", "scenery's", "scenes"],
+    "answer": "scenery",
+    "explanation": "'Scenery' is uncountable and never used in a plural form like 'sceneries'. ✅"
+  },
+  {
+    "question": "Identify the error: The (A) / police (B) / has (C) / caught the thief (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "'Police' is a collective noun that is always treated as plural. Use 'have' instead of 'has'. ✅"
+  },
+  {
+    "question": "Choose the correct usage of 'Numerical Nouns':",
+    "options": [
+      "I bought two dozens bananas.",
+      "I bought two dozen bananas.",
+      "I bought dozens of banana.",
+      "I bought dozen bananas."
+    ],
+    "answer": "I bought two dozen bananas.",
+    "explanation": "When 'dozen', 'hundred', or 'thousand' is preceded by a specific number, it stays singular. ✅"
+  },
+  {
+    "question": "Find the error: All (A) / his (B) / furnitures (C) / have been sold (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "'Furniture' is an uncountable noun. It cannot be pluralized by adding 's'. ✅"
+  },
+  {
+    "question": "Which of the following is a 'Common Gender' noun error?",
+    "options": [
+      "The student lost her book.",
+      "The student lost his book.",
+      "The student lost their book.",
+      "Both B and C are acceptable in modern exams."
+    ],
+    "answer": "Both B and C are acceptable in modern exams.",
+    "explanation": "While 'his' is the traditional formal rule for unknown gender, 'their' is now widely accepted in competitive exams as gender-neutral. ✅"
+  },
+  {
+    "question": "Identify the error: There (A) / is (B) / no (C) / place in the car (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "In the context of space for people, use 'room' instead of 'place'. It should be 'no room in the car'. ✅"
+  },
+  {
+    "question": "What is the plural of 'Criterion'?",
+    "options": ["Criterions", "Criteria", "Criterias", "Criterion"],
+    "answer": "Criteria",
+    "explanation": "'Criterion' is singular; 'Criteria' is plural. ✅"
+  },
+  {
+    "question": "Find the error: He (A) / gave (B) / me (C) / a five-rupees note (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "In a hyphenated compound noun acting as an adjective (five-rupee), the noun remains singular. ✅"
+  },
+  {
+    "question": "Fill in the blank: The _____ are known for their hospitality.",
+    "options": ["English", "Englishes", "English's", "The Englishes"],
+    "answer": "English",
+    "explanation": "When 'The' is used before a nationality adjective, it refers to the entire people (plural). ✅"
+  },
+  {
+    "question": "Identify the error: My (A) / spectacles (B) / is (C) / on the table (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "'Spectacles' is always plural and takes a plural verb 'are'. ✅"
+  },
+  {
+    "question": "Which word represents a group of sailors?",
+    "options": ["Crew", "Team", "Fleet", "Crowd"],
+    "answer": "Crew",
+    "explanation": "The specific collective noun for sailors is 'Crew'. ✅"
+  },
+  {
+    "question": "Identify the error: One (A) / of (B) / my (C) / friend is coming (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "'One of' is always followed by a plural noun (friends). ✅"
+  },
+  {
+    "question": "What is the singular of 'Alumni'?",
+    "options": ["Alumna", "Alumnus", "Alumnuse", "Alumni"],
+    "answer": "Alumnus",
+    "explanation": "'Alumni' is plural; 'Alumnus' is singular. ✅"
+  },
+  {
+    "question": "Fill in the blank: This _____ is very old.",
+    "options": ["news", "newses", "piece of newses", "new"],
+    "answer": "news",
+    "explanation": "'News' is uncountable and takes a singular form/verb. ✅"
+  },
+  {
+    "question": "Find the error: He (A) / and (B) / his (C) / cousin brother went there (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "Using 'brother' or 'sister' with 'cousin' is a common Indianism/slang; in standard English, use only 'cousin'. ✅"
+  },
+  {
+    "question": "Choose the correct plural form of 'Medium' (Communication):",
+    "options": ["Mediums", "Media", "Medias", "Medai"],
+    "answer": "Media",
+    "explanation": "In the context of communication, the plural is 'Media'. ✅"
+  },
+  {
+    "question": "Identify the error: Page after page (A) / of (B) / the (C) / Gita were read (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "A repeated noun after a preposition takes a singular verb: 'was read'. ✅"
+  },
+  {
+    "question": "What is the plural of 'Phenomenon'?",
+    "options": ["Phenomenons", "Phenomena", "Phenomenas", "Phenomenae"],
+    "answer": "Phenomena",
+    "explanation": "The plural is 'Phenomena'. ✅"
+  },
+  {
+    "question": "Fill in the blank: He is a man of his _____.",
+    "options": ["word", "words", "wording", "word's"],
+    "answer": "word",
+    "explanation": "In the idiom 'man of his word', 'word' must be singular. ✅"
+  },
+  {
+    "question": "Find the error: He (A) / handed (B) / over (C) / five thousands rupees to me (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "D",
+    "explanation": "When preceded by a number (five), 'thousand' stays singular. ✅"
+  },
+  {
+    "question": "Which of these collective nouns is correct for 'Arrows'?",
+    "options": ["A quiver of arrows", "A pack of arrows", "A group of arrows", "A fleet of arrows"],
+    "answer": "A quiver of arrows",
+    "explanation": "A 'quiver' is the specific container/group name for arrows. ✅"
+  },
+  {
+    "question": "Identify the error: The (A) / gentry (B) / was (C) / not invited (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "C",
+    "explanation": "'Gentry' is plural and takes 'were'. ✅"
+  },
+  {
+    "question": "What is the plural of 'Basis'?",
+    "options": ["Bases", "Basises", "Basas", "Basia"],
+    "answer": "Bases",
+    "explanation": "The plural of 'Basis' is 'Bases'. ✅"
+  },
+  {
+    "question": "Fill in the blank: Mathematics _____ an easy subject.",
+    "options": ["is", "are", "were", "have been"],
+    "answer": "is",
+    "explanation": "Subject names take a singular verb. ✅"
+  },
+  {
+    "question": "Find the error: The (A) / cattles (B) / were (C) / grazing (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "'Cattle' is already plural; 'cattles' is not a word. ✅"
+  },
+  {
+    "question": "Choose the correct group name for 'Bees':",
+    "options": ["A swarm of bees", "A flock of bees", "A pride of bees", "A pack of bees"],
+    "answer": "A swarm of bees",
+    "explanation": "The collective noun for bees is 'swarm'. ✅"
+  },
+  {
+    "question": "Identify the error: These (A) / kind (B) / of (C) / things are rare (D).",
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "explanation": "Since 'these' is plural, 'kind' must be 'kinds'. ✅"
+  }
+]
