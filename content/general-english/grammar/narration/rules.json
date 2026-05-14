@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Reporting Verb Rule",
+    "meaning_kannada": "Reporting Verb ಬದಲಾವಣೆಯ ನಿಯಮ (Say/Said).",
+    "meaning_english": "If the reporting verb is followed by an object, 'say to' changes to 'tell' and 'said to' changes to 'told'.\n\n• Pattern: Said to ➔ Told; Say to ➔ Tell.\n• Note: If there is no object, 'said' remains 'said'.\n• Example: He said to me, 'I am ready.' ➔ He told me that he was ready.",
+    "emoji": "📢"
+  },
+  {
+    "word": "Tense Change (Backshift)",
+    "meaning_kannada": "ಕಾಲಮಾನದ ಬದಲಾವಣೆ (Tense Backshift).",
+    "meaning_english": "If the Reporting Verb is in the Past Tense, the Tense of the reported speech changes as follows:\n\n• Simple Present ➔ Simple Past\n• Present Continuous ➔ Past Continuous\n• Present Perfect ➔ Past Perfect\n• Simple Past ➔ Past Perfect\n• Tip: No change if the reporting verb is in Present or Future tense.",
+    "emoji": "⏳"
+  },
+  {
+    "word": "Pronoun Change Rule",
+    "meaning_kannada": "ಸರ್ವನಾಮಗಳ ಬದಲಾವಣೆಯ SON ನಿಯಮ.",
+    "meaning_english": "Pronouns change according to the SON rule:\n• 1st Person (I, We) ➔ Subject of Reporting Verb\n• 2nd Person (You) ➔ Object of Reporting Verb\n• 3rd Person (He, She, It, They) ➔ No Change.\n• Direct: She said to me, 'You are late.' ➔ Indirect: She told me that I was late.",
+    "emoji": "👥"
+  },
+  {
+    "word": "Modal Verb Changes",
+    "meaning_kannada": "ಸಹಾಯಕ ಕ್ರಿಯಾಪದಗಳ ಬದಲಾವಣೆ (Will/Can/May).",
+    "meaning_english": "Modals change into their past forms in Indirect Speech:\n\n• Will/Shall ➔ Would\n• Can ➔ Could\n• May ➔ Might\n• Must ➔ Had to (or remains Must).\n• Direct: He said, 'I can swim.' ➔ Indirect: He said that he could swim.",
+    "emoji": "🛠️"
+  },
+  {
+    "word": "Universal Truth Rule",
+    "meaning_kannada": "ಜಗತ್ತಿನ ಸತ್ಯ ಸಂಗತಿಗಳು ಅಥವಾ ಅಭ್ಯಾಸಗಳ ನಿಯಮ.",
+    "meaning_english": "If the reported speech expresses a Universal Truth, Habitual Fact, or Historical Fact, the tense DOES NOT change even if the reporting verb is in the past.\n\n• Direct: Teacher said, 'The sun rises in the east.' ➔ Indirect: Teacher said that the sun rises in the east.",
+    "emoji": "🌍"
+  },
+  {
+    "word": "Time and Distance Change",
+    "meaning_kannada": "ಸಮಯ ಮತ್ತು ದೂರವನ್ನು ಸೂಚಿಸುವ ಪದಗಳ ಬದಲಾವಣೆ.",
+    "meaning_english": "Words expressing nearness are changed into words expressing distance:\n\n• Now ➔ Then\n• This ➔ That\n• Here ➔ There\n• Today ➔ That day\n• Tomorrow ➔ The next day / The following day\n• Yesterday ➔ The previous day / The day before.",
+    "emoji": "📅"
+  },
+  {
+    "word": "Interrogative (Yes/No Questions)",
+    "meaning_kannada": "ಪ್ರಶ್ನಾರ್ಥಕ ವಾಕ್ಯಗಳು (If/Whether ಬಳಕೆ).",
+    "meaning_english": "For questions that start with a helping verb (Is, Do, Have, Can), use 'if' or 'whether' as a conjunction.\n\n• Pattern: Said/Said to ➔ Asked.\n• Note: Remove the question mark and change the structure to assertive.\n• Direct: He said, 'Are you coming?' ➔ Indirect: He asked if I was coming.",
+    "emoji": "❓"
+  },
+  {
+    "word": "Interrogative (Wh- Questions)",
+    "meaning_kannada": "Wh- ಪ್ರಶ್ನಾರ್ಥಕ ವಾಕ್ಯಗಳ ನಿಯಮ.",
+    "meaning_english": "If the question starts with a Wh-word (Who, What, Why, Where), no conjunction (like that or if) is used. The Wh-word itself acts as the connector.\n\n• Direct: She asked, 'Where is your house?' ➔ Indirect: She asked where my house was.",
+    "emoji": "🔍"
+  },
+  {
+    "word": "Imperative (Order/Command)",
+    "meaning_kannada": "ಆಜ್ಞಾರ್ಥಕ ವಾಕ್ಯಗಳ ನಿಯಮ (To + V1).",
+    "meaning_english": "Reporting verb changes to Ordered, Commanded, Advised, or Requested. Use 'to' + V1 as the connector.\n\n• Direct: The boss said, 'Work hard.' ➔ Indirect: The boss ordered to work hard.\n• Negative: 'Don't' changes to 'Not to'.",
+    "emoji": "📢"
+  },
+  {
+    "word": "Exclamatory Sentences",
+    "meaning_kannada": "ಉದ್ಗಾರವಾಚಕ ವಾಕ್ಯಗಳ ನಿಯಮ.",
+    "meaning_english": "Reporting verb changes to 'Exclaimed with joy/sorrow/wonder'. Remove exclamatory marks and use 'that'.\n\n• Alas! ➔ Exclaimed with sorrow.\n• Hurrah! ➔ Exclaimed with joy.\n• Direct: He said, 'Alas! I am undone.' ➔ Indirect: He exclaimed with sorrow that he was undone.",
+    "emoji": "😮"
+  }
+]
