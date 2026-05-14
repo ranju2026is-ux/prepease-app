@@ -1,112 +1,332 @@
 [
   {
-    "question": "Change to Indirect: He said, 'If I were a king, I would help the poor.'",
+    "question": "He said, 'If I were a bird, I would fly to you.'",
     "options": [
-      "He said that if he had been a king, he would have helped the poor.",
-      "He said that if he were a king, he would help the poor.",
-      "He said that if he was a king, he would help the poor.",
-      "He told that if he were a king, he will help the poor."
+      "He said that if he were a bird, he would fly to me.",
+      "He said that if he had been a bird, he would fly to me.",
+      "He said that if he were a bird, he would have flown to me.",
+      "He told that if he was a bird, he would fly to me."
     ],
-    "answer": "He said that if he were a king, he would help the poor.",
-    "explanation": "In Type 2 Unreal/Hypothetical conditions (If I were...), the tense usually remains unchanged in indirect speech. ✅"
+    "answer": "He said that if he were a bird, he would fly to me.",
+    "explanation": "In hypothetical/unreal conditions (Type 2), the 'were' and 'would' usually remain unchanged in indirect speech to preserve the imaginary sense. ✅"
   },
   {
-    "question": "Change to Indirect: She said to him, 'Congratulations! You have topped the exam.'",
+    "question": "She said, 'If I had seen him, I would have told him.'",
     "options": [
-      "She congratulated him and said that he had topped the exam.",
-      "She congratulated him on topping the exam.",
-      "She said congratulations to him for topping the exam.",
+      "She said that if she had seen him, she would have told him.",
+      "She said that if she saw him, she would have told him.",
+      "She said that she would have told him if she saw him.",
+      "She told that had she seen him, she would tell him."
+    ],
+    "answer": "She said that if she had seen him, she would have told him.",
+    "explanation": "In Type 3 conditionals (Past Unreal), the tense is already in Past Perfect, so it remains unchanged. ✅"
+  },
+  {
+    "question": "He said, 'I must go now.'",
+    "options": [
+      "He said that he must go then.",
+      "He said that he had to go then.",
+      "He said that he would have to go then.",
       "Both A and B are correct."
     ],
     "answer": "Both A and B are correct.",
-    "explanation": "When an exclamation like 'Congratulations' is used, it's more professional to use 'congratulated' as the reporting verb. ✅"
+    "explanation": "'Must' can remain 'must' or change to 'had to' (for immediate necessity) or 'would have to' (for future necessity). ✅"
   },
   {
-    "question": "Change to Indirect: 'I am sorry I am late,' he said.",
+    "question": "She said, 'You should work hard.'",
     "options": [
-      "He said that he was sorry he was late.",
-      "He apologized for being late.",
-      "He told that he is sorry for being late.",
-      "Both A and B are correct."
+      "She said that I should work hard.",
+      "She said that I should have worked hard.",
+      "She advised that I work hard.",
+      "Both A and C are correct."
     ],
-    "answer": "Both A and B are correct.",
-    "explanation": "'Apologized' is a more concise reporting verb for 'I am sorry', but the assertive transformation is also valid. ✅"
+    "answer": "Both A and C are correct.",
+    "explanation": "'Should' for advice remains 'should' or can be reported using the verb 'advised'. ✅"
   },
   {
-    "question": "Change to Indirect: My friend said to me, 'Thank you for your help.'",
+    "question": "He said, 'I could swim when I was young.'",
     "options": [
-      "My friend thanked me for my help.",
-      "My friend said thank you to me for my help.",
-      "My friend told me thank you for your help.",
-      "My friend thanked me for your help."
+      "He said that he could swim when he was young.",
+      "He said that he could have swum when he was young.",
+      "He said that he was able to swim when he was young.",
+      "Both A and C are correct."
     ],
-    "answer": "My friend thanked me for my help.",
-    "explanation": "For 'Thank you', the reporting verb itself changes to 'thanked'. ✅"
+    "answer": "Both A and C are correct.",
+    "explanation": "'Could' expressing past ability can remain 'could' or change to 'was able to'. ✅"
   },
   {
-    "question": "Change to Indirect: She said, 'If it rains, I will not go out.'",
+    "question": "She said, 'It is time we left.'",
     "options": [
-      "She said that if it rained, she would not go out.",
-      "She said that if it rains, she will not go out.",
-      "She said that if it would rain, she would not go out.",
-      "She told that if it rained, I would not go out."
+      "She said that it was time they left.",
+      "She said that it was time they had left.",
+      "She said that it is time they left.",
+      "She told that it was time they should leave."
     ],
-    "answer": "She said that if it rained, she would not go out.",
-    "explanation": "This is a real condition (Type 1). Present Simple 'rains' ➔ Past Simple 'rained', and 'will' ➔ 'would'. ✅"
+    "answer": "She said that it was time they had left.",
+    "explanation": "After 'It is time', the simple past 'left' (subjunctive) changes to past perfect 'had left' in indirect speech. ✅"
   },
   {
-    "question": "Change to Indirect: He said, 'I wish I had a bigger house.'",
+    "question": "The boy said, 'I would rather starve than beg.'",
     "options": [
-      "He said that he wished he had a bigger house.",
-      "He said that he wished he had had a bigger house.",
-      "He wished that he has a bigger house.",
-      "He told that he wishes he had a bigger house."
+      "The boy said that he would rather starve than beg.",
+      "The boy said that he would have rather starved than begged.",
+      "The boy told that he preferred starving to begging.",
+      "Both A and C are correct."
     ],
-    "answer": "He said that he wished he had a bigger house.",
-    "explanation": "After 'wish', the past tense (had) remains the same in indirect speech as it represents a present unreal state. ✅"
-  },
-  {
-    "question": "Change to Indirect: 'Don't go near the water,' the mother said to the child.",
-    "options": [
-      "The mother warned the child not to go near the water.",
-      "The mother forbade the child from going near the water.",
-      "The mother told the child to not go near the water.",
-      "All of the above."
-    ],
-    "answer": "All of the above.",
-    "explanation": "Negative imperatives can be reported using 'warned', 'forbade', or 'told not to'. ✅"
-  },
-  {
-    "question": "Change to Indirect: He said, 'If I had seen you, I would have invited you.'",
-    "options": [
-      "He said that if he had seen me, he would have invited me.",
-      "He said that if he saw me, he would invite me.",
-      "He said that if he had seen me, he would invite me.",
-      "He told that if he has seen me, he would have invited me."
-    ],
-    "answer": "He said that if he had seen me, he would have invited me.",
-    "explanation": "In Type 3 Conditional sentences (Past Perfect + would have), the tense remains unchanged in indirect speech. ✅"
-  },
-  {
-    "question": "Change to Indirect: She said, 'I would rather stay at home.'",
-    "options": [
-      "She said that she would rather stay at home.",
-      "She said that she would rather stayed at home.",
-      "She said that she had rather stay at home.",
-      "She told that she will rather stay at home."
-    ],
-    "answer": "He said that she would rather stay at home.",
+    "answer": "The boy said that he would rather starve than beg.",
     "explanation": "'Would rather' remains unchanged in indirect speech. ✅"
   },
   {
-    "question": "Change to Indirect: 'Must I stay here?' he asked.",
+    "question": "He said, 'I used to go to the temple every morning.'",
     "options": [
-      "He asked if he must stay there.",
-      "He asked if he had to stay there.",
-      "He asked whether he must stay there.",
-      "All of the above."
+      "He said that he used to go to the temple every morning.",
+      "He said that he had used to go to the temple every morning.",
+      "He told that he was used to going to the temple.",
+      "He said that I used to go to the temple."
     ],
-    "answer": "All of the above.",
-    "explanation": "'Must' in questions can remain 'must' or change to 'had to', and 'here' ➔ 'there'. ✅"
+    "answer": "He said that he used to go to the temple every morning.",
+    "explanation": "'Used to' remains unchanged as it denotes a past habitual action. ✅"
+  },
+  {
+    "question": "She said, 'If I win the lottery, I will buy a car.'",
+    "options": [
+      "She said that if she won the lottery, she would buy a car.",
+      "She said that if she wins the lottery, she will buy a car.",
+      "She said that if she would win the lottery, she will buy a car.",
+      "She told that she would buy a car if she had won the lottery."
+    ],
+    "answer": "She said that if she won the lottery, she would buy a car.",
+    "explanation": "In Type 1 conditionals, Simple Present changes to Simple Past, and 'will' changes to 'would'. ✅"
+  },
+  {
+    "question": "He said, 'You ought to be more careful.'",
+    "options": [
+      "He said that I ought to be more careful.",
+      "He said that I ought to have been more careful.",
+      "He advised me that I ought to be more careful.",
+      "Both A and C are correct."
+    ],
+    "answer": "Both A and C are correct.",
+    "explanation": "'Ought to' remains unchanged in indirect speech. ✅"
+  },
+  {
+    "question": "He said, 'I might visit you if I have time.'",
+    "options": [
+      "He said that he might visit me if he had time.",
+      "He said that he might visit me if he has time.",
+      "He told that he might visit me if he might have time.",
+      "He said that he might visit you if he had time."
+    ],
+    "answer": "He said that he might visit me if he had time.",
+    "explanation": "'Might' remains 'might', but the 'if' clause tense (have) changes to past (had). ✅"
+  },
+  {
+    "question": "She said, 'Need I attend the meeting?'",
+    "options": [
+      "She asked if she had to attend the meeting.",
+      "She asked if she need attend the meeting.",
+      "She enquired whether it was necessary for her to attend.",
+      "Both A and C are correct."
+    ],
+    "answer": "Both A and C are correct.",
+    "explanation": "Interrogative 'need' as a modal usually changes to 'had to' or 'was necessary'. ✅"
+  },
+  {
+    "question": "He said, 'I had better leave before it rains.'",
+    "options": [
+      "He said that he had better leave before it rained.",
+      "He said that he had better have left before it rained.",
+      "He told that it was better if he left before it rained.",
+      "Both A and C are correct."
+    ],
+    "answer": "He said that he had better leave before it rained.",
+    "explanation": "'Had better' remains unchanged, but the subordinate clause 'rains' changes to 'rained'. ✅"
+  },
+  {
+    "question": "The teacher said, 'If you study, you pass.'",
+    "options": [
+      "The teacher said that if you study, you pass.",
+      "The teacher said that if I studied, I would pass.",
+      "The teacher said that if I study, I pass.",
+      "Both A and C are correct."
+    ],
+    "answer": "Both A and C are correct.",
+    "explanation": "For zero conditionals (general truths), the tense can remain present or shift to past. ✅"
+  },
+  {
+    "question": "She said, 'My father said, \"Honesty is the best policy.\"'",
+    "options": [
+      "She said that her father had said that honesty is the best policy.",
+      "She said that her father said that honesty is the best policy.",
+      "She told that her father said honesty was the best policy.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Double narration: Tense changes for the first reporting, but not for the universal truth. ✅"
+  },
+  {
+    "question": "He said, 'I should have reached by now.'",
+    "options": [
+      "He said that he should have reached by then.",
+      "He said that he should reached by then.",
+      "He told that he must have reached by then.",
+      "He said that he should have been reaching by then."
+    ],
+    "answer": "He said that he should have reached by then.",
+    "explanation": "'Should have + V3' remains unchanged except for the time expression 'now' to 'then'. ✅"
+  },
+  {
+    "question": "The lady said, 'If I had a car, I would drive to the office.'",
+    "options": [
+      "The lady said that if she had a car, she would drive to the office.",
+      "The lady said that if she had had a car, she would drive to the office.",
+      "The lady told that if she had a car, she would have driven.",
+      "The lady said if I had a car, I would drive to the office."
+    ],
+    "answer": "The lady said that if she had a car, she would drive to the office.",
+    "explanation": "Type 2 conditional (Hypothetical) remains in its original form. ✅"
+  },
+  {
+    "question": "He said, 'We must love our neighbors.'",
+    "options": [
+      "He said that we must love our neighbors.",
+      "He said that they had to love their neighbors.",
+      "He said that they should love their neighbors.",
+      "Both A and C are correct."
+    ],
+    "answer": "Both A and C are correct.",
+    "explanation": "When 'must' expresses a permanent moral duty, it remains 'must' or 'should'. ✅"
+  },
+  {
+    "question": "She said, 'Would you like some tea?'",
+    "options": [
+      "She offered me some tea.",
+      "She asked if I would like some tea.",
+      "She asked whether I would have liked some tea.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "A question with 'Would you like' is an offer and can be reported either way. ✅"
+  },
+  {
+    "question": "He said, 'I shall be eighteen next month.'",
+    "options": [
+      "He said that he would be eighteen the following month.",
+      "He said that he should be eighteen the following month.",
+      "He said that he shall be eighteen next month.",
+      "He told that he will be eighteen the following month."
+    ],
+    "answer": "He said that he would be eighteen the following month.",
+    "explanation": "'Shall' for future fact changes to 'would' for 3rd person 'he'. ✅"
+  },
+  {
+    "question": "I said, 'I must have left my keys in the car.'",
+    "options": [
+      "I said that I must have left my keys in the car.",
+      "I said that I had had to leave my keys in the car.",
+      "I said that I must leave my keys in the car.",
+      "I told that I might have left my keys in the car."
+    ],
+    "answer": "I said that I must have left my keys in the car.",
+    "explanation": "'Must have + V3' (Logical conclusion) remains unchanged. ✅"
+  },
+  {
+    "question": "She said, 'He can't have done it.'",
+    "options": [
+      "She said that he couldn't have done it.",
+      "She said that he can't have done it.",
+      "She said that he couldn't do it.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Deductions about the past can stay in the present or shift to 'couldn't have'. ✅"
+  },
+  {
+    "question": "He said, 'I wish I had been there.'",
+    "options": [
+      "He wished that he had been there.",
+      "He wished that he were there.",
+      "He said that he wished he was there.",
+      "He wished that he had had been there."
+    ],
+    "answer": "He wished that he had been there.",
+    "explanation": "Past perfect 'had been' in a wish remains unchanged. ✅"
+  },
+  {
+    "question": "The captain said, 'If we had played well, we would have won.'",
+    "options": [
+      "The captain said that if they had played well, they would have won.",
+      "The captain said that if they played well, they would have won.",
+      "The captain told that if they had played well, they should have won.",
+      "The captain said if we had played well, we would have won."
+    ],
+    "answer": "The captain said that if they had played well, they would have won.",
+    "explanation": "Type 3 conditional remains unchanged except for pronouns. ✅"
+  },
+  {
+    "question": "He said, 'I should like to be a doctor.'",
+    "options": [
+      "He said that he would like to be a doctor.",
+      "He said that he should like to be a doctor.",
+      "He told that he wanted to be a doctor.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "'Should' for preference/desire often changes to 'would' for the third person. ✅"
+  },
+  {
+    "question": "She said, 'If it rains, the match will be cancelled.'",
+    "options": [
+      "She said that if it rained, the match would be cancelled.",
+      "She said that if it rains, the match will be cancelled.",
+      "She told that if it rained, the match will be cancelled.",
+      "She said that if it would rain, the match would be cancelled."
+    ],
+    "answer": "She said that if it rained, the match would be cancelled.",
+    "explanation": "Type 1 conditional: Present ➔ Past, Will ➔ Would. ✅"
+  },
+  {
+    "question": "I said, 'May I go out?'",
+    "options": [
+      "I asked if I might go out.",
+      "I asked if I may go out.",
+      "I told that I might go out.",
+      "I requested if I might go out."
+    ],
+    "answer": "I asked if I might go out.",
+    "explanation": "May ➔ Might in questions for permission. ✅"
+  },
+  {
+    "question": "He said to me, 'What would you do if you were in my place?'",
+    "options": [
+      "He asked me what I would do if I were in his place.",
+      "He asked me what would I do if I were in his place.",
+      "He asked me what I would have done if I were in his place.",
+      "He told me what I would do if I was in his place."
+    ],
+    "answer": "He asked me what I would do if I were in his place.",
+    "explanation": "Wh- question word order + Type 2 conditional remains 'would/were'. ✅"
+  },
+  {
+    "question": "She said, 'He might have been sleeping.'",
+    "options": [
+      "She said that he might have been sleeping.",
+      "She said that he might be sleeping.",
+      "She told that he might have slept.",
+      "She said that he could have been sleeping."
+    ],
+    "answer": "She said that he might have been sleeping.",
+    "explanation": "'Might have been + ing' remains unchanged. ✅"
+  },
+  {
+    "question": "He said, 'Suppose you were invited, would you go?'",
+    "options": [
+      "He asked whether I would go if I were invited.",
+      "He asked me to suppose I was invited and if I would go.",
+      "He asked if I were invited, would I go.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Reporting 'Suppose' sentences involves turning them into conditional 'if' structures. ✅"
   }
 ]
