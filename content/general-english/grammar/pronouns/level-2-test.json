@@ -1,167 +1,332 @@
 [
   {
-    "question": "Identify the correct order: _____ are going to attend the seminar.",
+    "question": "She made this cake _____.",
     "options": [
-      "I, you and he",
-      "You, he and I",
-      "He, you and I",
-      "You, I and he"
+      "herself",
+      "himself",
+      "myself",
+      "itself"
     ],
-    "answer": "You, he and I",
-    "explanation": "According to the 2-3-1 rule (Second, Third, then First person), the correct order for positive sentences is You, He, and I. ✅"
+    "answer": "herself",
+    "explanation": "When the subject is 'She', the reflexive pronoun must be 'herself'. ✅"
   },
   {
-    "question": "Fill in the blank: He is the boy _____ everyone likes.",
+    "question": "The boy hidden _____ behind the tree.",
     "options": [
-      "who",
-      "whom",
-      "whose",
-      "which"
+      "him",
+      "himself",
+      "his",
+      "he"
     ],
-    "answer": "whom",
-    "explanation": "We use 'whom' as an objective relative pronoun when the person is the receiver of the action. ✅"
+    "answer": "himself",
+    "explanation": "'Hide' is a verb that can take a reflexive pronoun 'himself' when the subject and object are the same person. ✅"
   },
   {
-    "question": "Choose the correct reflexive pronoun: We enjoyed _____ at the party.",
-    "options": [
-      "ourselves",
-      "ourself",
-      "themselves",
-      "us"
-    ],
-    "answer": "ourselves",
-    "explanation": "The reflexive pronoun for 'We' is 'ourselves' (plural). ✅"
-  },
-  {
-    "question": "Identify the error: You, I and he have committed a mistake.",
-    "options": [
-      "You, I and he",
-      "have",
-      "committed",
-      "mistake"
-    ],
-    "answer": "You, I and he",
-    "explanation": "When expressing a mistake or guilt, the order of pronouns shifts to 1-2-3. So it should be 'I, you and he'. ✅"
-  },
-  {
-    "question": "Fill in the blank: This is the same book _____ I bought yesterday.",
-    "options": [
-      "which",
-      "that",
-      "who",
-      "whom"
-    ],
-    "answer": "that",
-    "explanation": "After the word 'same', the relative pronoun 'that' is used instead of 'which'. ✅"
-  },
-  {
-    "question": "Identify the correct pronoun: I _____ washed the clothes.",
+    "question": "I _____ told him the news.",
     "options": [
       "myself",
       "himself",
       "herself",
-      "itself"
+      "ourselves"
     ],
     "answer": "myself",
-    "explanation": "Here 'myself' acts as an emphatic pronoun to stress that 'I' did the work. ✅"
+    "explanation": "This is an Emphatic pronoun used to put pressure or emphasis on the subject 'I'. ✅"
   },
   {
-    "question": "Fill in the blank: Neither of the girls has done _____ homework.",
+    "question": "We enjoyed _____ at the party.",
     "options": [
-      "their",
-      "her",
-      "hers",
-      "them"
+      "ourself",
+      "ourselves",
+      "us",
+      "themselves"
     ],
-    "answer": "her",
-    "explanation": "'Neither' is singular and refers to girls, so the singular feminine pronoun 'her' is used. ✅"
+    "answer": "ourselves",
+    "explanation": "'We' is plural, so the reflexive pronoun must be 'ourselves'. ✅"
   },
   {
-    "question": "Choose the correct option: She is as smart as _____.",
+    "question": "They cleaned the entire house _____.",
     "options": [
-      "me",
-      "I",
-      "my",
-      "mine"
+      "theirselves",
+      "themselves",
+      "himself",
+      "ourselves"
     ],
-    "answer": "I",
-    "explanation": "After 'as...as', always use the subjective case (I, He, She) for comparison. ✅"
+    "answer": "themselves",
+    "explanation": "'Theirselves' is not a valid word in English; 'themselves' is the correct plural form. ✅"
   },
   {
-    "question": "Fill in the blank: My students help _____.",
+    "question": "The town _____ is not very large.",
     "options": [
-      "each other",
-      "one another",
+      "himself",
+      "herself",
+      "itself",
+      "themselves"
+    ],
+    "answer": "itself",
+    "explanation": "For non-living things or places, we use the reflexive pronoun 'itself'. ✅"
+  },
+  {
+    "question": "You must do your work _____.",
+    "options": [
+      "yourself",
+      "yourselves",
+      "himself",
+      "Both A and B"
+    ],
+    "answer": "Both A and B",
+    "explanation": "If 'You' refers to one person, use 'yourself'. If it refers to many, use 'yourselves'. ✅"
+  },
+  {
+    "question": "The cat licked _____ clean.",
+    "options": [
+      "it's",
+      "its",
+      "itself",
+      "herself"
+    ],
+    "answer": "itself",
+    "explanation": "Reflexive pronoun for an animal (unless the gender is specified) is 'itself'. ✅"
+  },
+  {
+    "question": "He cut _____ while shaving.",
+    "options": [
+      "him",
+      "his",
+      "himself",
+      "he"
+    ],
+    "answer": "himself",
+    "explanation": "The action of the verb 'cut' reflects back to the subject 'He'. ✅"
+  },
+  {
+    "question": "Help _____ to the food, children.",
+    "options": [
+      "yourself",
+      "yourselves",
       "themselves",
       "ourselves"
     ],
-    "answer": "one another",
-    "explanation": "Since 'students' implies more than two, the reciprocal pronoun 'one another' is correct. ✅"
+    "answer": "yourselves",
+    "explanation": "Since the speaker is addressing 'children' (plural), 'yourselves' is correct. ✅"
   },
   {
-    "question": "Identify the correct relative pronoun: The girl _____ car was stolen is very sad.",
+    "question": "I _____ will go there.",
     "options": [
-      "who",
-      "whom",
-      "whose",
-      "that"
+      "me",
+      "my",
+      "myself",
+      "mine"
     ],
-    "answer": "whose",
-    "explanation": "'Whose' is used to show possession in relative clauses. ✅"
+    "answer": "myself",
+    "explanation": "Emphatic use of 'myself' to show determination. ✅"
   },
   {
-    "question": "Fill in the blank: None of the players brought _____ uniform.",
+    "question": "Did you paint this picture _____?",
     "options": [
+      "yourself",
+      "yourselves",
+      "himself",
+      "Both A and B"
+    ],
+    "answer": "Both A and B",
+    "explanation": "Depending on whether the speaker is asking one person or a group. ✅"
+  },
+  {
+    "question": "The prisoners escaped by _____.",
+    "options": [
+      "themself",
+      "themselves",
+      "himself",
+      "ourselves"
+    ],
+    "answer": "themselves",
+    "explanation": "Plural subject 'Prisoners' requires 'themselves'. ✅"
+  },
+  {
+    "question": "One should do _____ duty.",
+    "options": [
+      "one's",
       "his",
       "their",
-      "them",
-      "him"
+      "oneself"
     ],
-    "answer": "his",
-    "explanation": "In formal grammar, 'None' is followed by a singular pronoun 'his'. ✅"
+    "answer": "one's",
+    "explanation": "Note: 'One' as a subject must be followed by 'one's' for possession and 'oneself' for reflexive. ✅"
   },
   {
-    "question": "Choose the correct reflexive pronoun: The jury was divided in _____ opinion.",
+    "question": "She _____ told me the secret.",
     "options": [
-      "its",
-      "their",
-      "his",
-      "her"
+      "her",
+      "hers",
+      "herself",
+      "she"
     ],
-    "answer": "their",
-    "explanation": "When a collective noun (jury) is divided or acts as individuals, we use the plural pronoun 'their'. ✅"
+    "answer": "herself",
+    "explanation": "Emphatic pronoun placed right after the noun/pronoun it emphasizes. ✅"
   },
   {
-    "question": "Fill in the blank: You and _____ must complete the project.",
+    "question": "Don't blame _____; it wasn't your fault.",
     "options": [
-      "he",
+      "yourself",
+      "yourselves",
+      "himself",
+      "Both A and B"
+    ],
+    "answer": "Both A and B",
+    "explanation": "Again, 'you' can be singular or plural. ✅"
+  },
+  {
+    "question": "He kept _____ away from the crowd.",
+    "options": [
       "him",
+      "himself",
       "his",
+      "he"
+    ],
+    "answer": "himself",
+    "explanation": "Reflexive pronoun after the verb 'keep'. ✅"
+  },
+  {
+    "question": "We _____ saw him stealing.",
+    "options": [
+      "ourselves",
+      "ourself",
+      "us",
+      "themselves"
+    ],
+    "answer": "ourselves",
+    "explanation": "Emphasizing that we were eyewitnesses. ✅"
+  },
+  {
+    "question": "The baby is too small to feed _____.",
+    "options": [
+      "himself",
+      "herself",
+      "itself",
+      "All the above"
+    ],
+    "answer": "All the above",
+    "explanation": "Depending on the gender or use of impersonal 'it' for a baby. ✅"
+  },
+  {
+    "question": "I cannot bring _____ to forgive him.",
+    "options": [
+      "me",
+      "myself",
+      "mine",
+      "my"
+    ],
+    "answer": "myself",
+    "explanation": "Subject 'I' requires 'myself'. ✅"
+  },
+  {
+    "question": "Identify the type: 'I *myself* saw it.'",
+    "options": [
+      "Reflexive Pronoun",
+      "Emphatic Pronoun",
+      "Relative Pronoun",
+      "Personal Pronoun"
+    ],
+    "answer": "Emphatic Pronoun",
+    "explanation": "When it's used for emphasis and can be removed without making the sentence ungrammatical. ✅"
+  },
+  {
+    "question": "Identify the type: 'She hurt *herself*.'",
+    "options": [
+      "Reflexive Pronoun",
+      "Emphatic Pronoun",
+      "Relative Pronoun",
+      "Personal Pronoun"
+    ],
+    "answer": "Reflexive Pronoun",
+    "explanation": "When the action of the verb turns back to the subject. ✅"
+  },
+  {
+    "question": "You _____ said that you would help.",
+    "options": [
+      "yourself",
+      "yourselves",
+      "Both A and B",
       "himself"
     ],
-    "answer": "he",
-    "explanation": "Following the 2-3-1 rule, 'he' (subjective case) is used alongside 'you'. ✅"
+    "answer": "Both A and B",
+    "explanation": "Emphasis on the person(s) who made the promise. ✅"
   },
   {
-    "question": "Identify the relative pronoun: There is no one _____ does not know him.",
+    "question": "The computer shut _____ down.",
     "options": [
-      "who",
-      "but",
-      "that",
-      "which"
+      "it",
+      "it's",
+      "itself",
+      "themselves"
     ],
-    "answer": "but",
-    "explanation": "In some advanced structures, 'but' acts as a negative relative pronoun meaning 'who...not'. ✅"
+    "answer": "itself",
+    "explanation": "Non-living subject 'Computer'. ✅"
   },
   {
-    "question": "Fill in the blank: All _____ glitters is not gold.",
+    "question": "We must solve the problem _____.",
     "options": [
-      "which",
-      "that",
-      "who",
-      "what"
+      "ourself",
+      "ourselves",
+      "us",
+      "themselves"
     ],
-    "answer": "that",
-    "explanation": "After the word 'All', we must use the relative pronoun 'that'. ✅"
+    "answer": "ourselves",
+    "explanation": "Plural reflexive form. ✅"
+  },
+  {
+    "question": "I took it upon _____ to fix the car.",
+    "options": [
+      "me",
+      "myself",
+      "my",
+      "mine"
+    ],
+    "answer": "myself",
+    "explanation": "To take it upon oneself is an idiom using a reflexive pronoun. ✅"
+  },
+  {
+    "question": "Did you two paint this _____?",
+    "options": [
+      "yourself",
+      "yourselves",
+      "themselves",
+      "ourselves"
+    ],
+    "answer": "yourselves",
+    "explanation": "'You two' clearly indicates a plural audience. ✅"
+  },
+  {
+    "question": "History repeats _____.",
+    "options": [
+      "it",
+      "its",
+      "itself",
+      "himself"
+    ],
+    "answer": "itself",
+    "explanation": "Abstract noun 'History'. ✅"
+  },
+  {
+    "question": "She _____ is responsible for the loss.",
+    "options": [
+      "her",
+      "hers",
+      "herself",
+      "she"
+    ],
+    "answer": "herself",
+    "explanation": "Emphasizing her personal responsibility. ✅"
+  },
+  {
+    "question": "They _____ don't know what to do.",
+    "options": [
+      "themself",
+      "themselves",
+      "their",
+      "theirs"
+    ],
+    "answer": "themselves",
+    "explanation": "Emphasizing their own confusion. ✅"
   }
 ]
