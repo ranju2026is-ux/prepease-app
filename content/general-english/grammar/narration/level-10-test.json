@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Change to Indirect: He said, 'Curse it! Who could have foreseen this?'",
+    "options": [
+      "He cursed and wondered who could have foreseen that.",
+      "He exclaimed with an oath and asked who could have foreseen that.",
+      "He said that curse it and asked who had foreseen that.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Expletives or oaths like 'Curse it' are reported using 'cursed' or 'exclaimed with an oath'. 'This' changes to 'that'. ✅"
+  },
+  {
+    "question": "Change to Indirect: The captain said to the soldiers, 'Stand at ease.'",
+    "options": [
+      "The captain commanded the soldiers to stand at ease.",
+      "The captain told the soldiers that they should stand at ease.",
+      "The captain ordered the soldiers for standing at ease.",
+      "The captain said to the soldiers stand at ease."
+    ],
+    "answer": "The captain commanded the soldiers to stand at ease.",
+    "explanation": "Formal military commands use 'commanded'. The imperative 'Stand' becomes 'to stand'. ✅"
+  },
+  {
+    "question": "Change to Indirect: She said, 'If I had been there, I might have helped.'",
+    "options": [
+      "She said that if she had been there, she might have helped.",
+      "She said that if she was there, she might help.",
+      "She said that if she had been there, she might had helped.",
+      "She told that she would have helped if she were there."
+    ],
+    "answer": "She said that if she had been there, she might have helped.",
+    "explanation": "In Type 3 Conditional sentences (Past Perfect + Modal Perfect), the tense remains unchanged in indirect speech. ✅"
+  },
+  {
+    "question": "Change to Indirect: 'Wait!' he said to me, 'I'll be back in a minute.'",
+    "options": [
+      "He told me to wait and said that he would be back in a minute.",
+      "He asked me to wait and said he will be back in a minute.",
+      "He ordered me for waiting and told he would be back.",
+      "He said to me wait and he would be back in a minute."
+    ],
+    "answer": "He told me to wait and said that he would be back in a minute.",
+    "explanation": "When a sentence has both an imperative and an assertive part, use two reporting verbs connected by 'and'. ✅"
+  },
+  {
+    "question": "Change to Indirect: The teacher said, 'Let it be a square ABCD.'",
+    "options": [
+      "The teacher suggested that it should be a square ABCD.",
+      "The teacher proposed that it be a square ABCD.",
+      "The teacher assumed it to be a square ABCD.",
+      "All of the above."
+    ],
+    "answer": "All of the above.",
+    "explanation": "Mathematical 'Let' can be reported as a suggestion, proposal, or an assumption. ✅"
+  },
+  {
+    "question": "Change to Indirect: She said, 'How kind of you to help me!'",
+    "options": [
+      "She exclaimed that it was very kind of me to help her.",
+      "She thanked me for being kind and helping her.",
+      "She said that I am very kind to help her.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Exclamatory sentences expressing gratitude can be reported as a standard exclamation or by using the verb 'thanked'. ✅"
+  },
+  {
+    "question": "Change to Indirect: He said, 'I'd rather you didn't tell anyone.'",
+    "options": [
+      "He said that he'd rather I didn't tell anyone.",
+      "He said that he'd rather I hadn't told anyone.",
+      "He told that he preferred I don't tell anyone.",
+      "He said that he'd rather me not to tell anyone."
+    ],
+    "answer": "He said that he'd rather I didn't tell anyone.",
+    "explanation": "After 'would rather' + subject, the past simple (didn't) usually stays the same in indirect speech as it refers to a preference. ✅"
+  },
+  {
+    "question": "Change to Indirect: 'Help! Help!' cried the woman.",
+    "options": [
+      "The woman shouted for help.",
+      "The woman cried out for help.",
+      "The woman said help help.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Urgent calls for help are reported using 'shouted' or 'cried out'. ✅"
+  },
+  {
+    "question": "Change to Indirect: The judge said, 'I shall hear the case tomorrow.'",
+    "options": [
+      "The judge said that he should hear the case the next day.",
+      "The judge said that he would hear the case the next day.",
+      "The judge told that he shall hear the case tomorrow.",
+      "The judge said he would hear the case tomorrow."
+    ],
+    "answer": "The judge said that he would hear the case the next day.",
+    "explanation": "In indirect speech, 'shall' normally becomes 'would' when referring to a future intention. 'Tomorrow' ➔ 'the next day'. ✅"
+  },
+  {
+    "question": "Change to Indirect: 'Many happy returns of the day,' said his friends.",
+    "options": [
+      "His friends wished him many happy returns of the day.",
+      "His friends said many happy returns of the day to him.",
+      "His friends prayed for many happy returns of the day.",
+      "His friends greeted him for the day."
+    ],
+    "answer": "His friends wished him many happy returns of the day.",
+    "explanation": "For birthday wishes or seasonal greetings, 'wished' is the standard reporting verb. ✅"
+  }
+]
