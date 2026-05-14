@@ -1,83 +1,28 @@
 [
   {
-    "question": "Fill in the blank: He is a man _____ I know you can trust implicitly.",
+    "question": "Each of the players was accompanied by _____ family.",
     "options": [
-      "who",
-      "whom",
-      "whose",
-      "which"
+      "their",
+      "his",
+      "its",
+      "them"
     ],
-    "answer": "whom",
-    "explanation": "ಇಲ್ಲಿ 'I know' ಎಂಬುದು ಒಂದು Parenthetical expression (ಹೆಚ್ಚುವರಿ ಮಾಹಿತಿ). 'Whom' ಎಂಬುದು 'trust' ಎಂಬ ಕ್ರಿಯಾಪದದ ಕರ್ಮವಾಗಿ (Object) ಕೆಲಸ ಮಾಡುತ್ತಿದೆ. ✅"
+    "answer": "his",
+    "explanation": "In formal grammar, 'Each' is singular and takes a singular possessive pronoun. While 'their' is used in casual speech, 'his' (or his/her) is the standard for exams. ✅"
   },
   {
-    "question": "Choose the correct pronoun: He is the only one of those men _____ does not accept a bribe.",
+    "question": "The boy who I thought was my friend _____ me.",
     "options": [
-      "who",
-      "that",
-      "which",
-      "whom"
+      "betray",
+      "betrayed",
+      "betrays",
+      "betraying"
     ],
-    "answer": "that",
-    "explanation": "ಸಾಮಾನ್ಯವಾಗಿ 'one of those' ನಂತರ ಬಹುವಚನ ಕ್ರಿಯಾಪದ ಬರುತ್ತದೆ. ಆದರೆ 'the only one of' ಬಂದಾಗ ಸಂಬಂಧವಾಚಕವಾಗಿ 'that' ಬಳಸಬೇಕು ಮತ್ತು ಕ್ರಿಯಾಪದವು ಏಕವಚನದಲ್ಲಿರಬೇಕು. ✅"
+    "answer": "betrayed",
+    "explanation": "'Who' is the subject of the relative clause. 'I thought' is parenthetical information. ✅"
   },
   {
-    "question": "Identify the correct form: You are as guilty as _____.",
-    "options": [
-      "he",
-      "him",
-      "himself",
-      "his"
-    ],
-    "answer": "he",
-    "explanation": "ಸಂಪೂರ್ಣ ವಾಕ್ಯವು 'You are as guilty as he (is)' ಎಂದಿರುತ್ತದೆ. ಹೋಲಿಕೆಯು ಇಬ್ಬರು ಕರ್ತೃಗಳ (Subjects) ನಡುವೆ ಇರುವುದರಿಂದ Subjective case ಬಳಸಬೇಕು. ✅"
-  },
-  {
-    "question": "Fill in the blank: She is the lady _____ I thought was your mother.",
-    "options": [
-      "who",
-      "whom",
-      "that",
-      "which"
-    ],
-    "answer": "who",
-    "explanation": "ಇಲ್ಲಿ 'who' ಎಂಬುದು 'was' ಕ್ರಿಯಾಪದದ ಕರ್ತೃವಾಗಿದೆ. 'I thought' ಎಂಬುದು ಕೇವಲ ಒಂದು ಅಡ್ಡಿಪಡಿಸುವ ನುಡಿಗಟ್ಟು ಅಷ್ಟೆ. ✅"
-  },
-  {
-    "question": "Choose the correct option: This is the same person _____ met me yesterday.",
-    "options": [
-      "who",
-      "whom",
-      "that",
-      "which"
-    ],
-    "answer": "that",
-    "explanation": "'The same' ಪದದ ನಂತರ ವ್ಯಕ್ತಿ ಅಥವಾ ವಸ್ತು ಇರಲಿ, ಸಂಬಂಧವಾಚಕವಾಗಿ 'that' ಬಳಸುವುದು ವ್ಯಾಕರಣಬದ್ಧವಾಗಿ ಅತ್ಯಂತ ನಿಖರ. ✅"
-  },
-  {
-    "question": "Identify the error: There is no point in me staying here any longer.",
-    "options": [
-      "There",
-      "point",
-      "me",
-      "staying"
-    ],
-    "answer": "me",
-    "explanation": "'Staying' ಎಂಬುದು Gerund ಆಗಿದ್ದು, ಅದರ ಹಿಂದೆ Possessive case ಇರಬೇಕು. ಆದ್ದರಿಂದ ಇದು 'my staying' ಆಗಿರಬೇಕು. ✅"
-  },
-  {
-    "question": "Fill in the blank: Shakespeare is the greatest dramatist _____ ever lived.",
-    "options": [
-      "who",
-      "that",
-      "whom",
-      "which"
-    ],
-    "answer": "that",
-    "explanation": "ವಾಕ್ಯದಲ್ಲಿ Superlative degree (greatest) ಇದ್ದಾಗ ಸಂಬಂಧವಾಚಕವಾಗಿ 'that' ಬಳಸಬೇಕು. ✅"
-  },
-  {
-    "question": "Choose the correct pronoun: Let you and _____ take care of the guest.",
+    "question": "Let you and _____ try to solve this together.",
     "options": [
       "I",
       "me",
@@ -85,32 +30,10 @@
       "mine"
     ],
     "answer": "me",
-    "explanation": "'Let' ನಂತರ ಬರುವ ಎಲ್ಲಾ ಸರ್ವನಾಮಗಳು Objective case ನಲ್ಲೇ ಇರಬೇಕು. ✅"
+    "explanation": "After the verb 'let', all pronouns must be in the objective case (let you and let me). ✅"
   },
   {
-    "question": "Identify the correct form: Such a friend _____ he is should be valued.",
-    "options": [
-      "who",
-      "that",
-      "as",
-      "whom"
-    ],
-    "answer": "as",
-    "explanation": "'Such' ಬಂದಾಗ ಅದು 'as' ನೊಂದಿಗೆ ಜೋಡಿಯಾಗಿ ಸಂಬಂಧವಾಚಕದಂತೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ. ✅"
-  },
-  {
-    "question": "Fill in the blank: There was no one present _____ did not weep to hear the story.",
-    "options": [
-      "who",
-      "whom",
-      "but",
-      "which"
-    ],
-    "answer": "but",
-    "explanation": "'But' ಇಲ್ಲಿ ನಕಾರಾತ್ಮಕ ಸಂಬಂಧವಾಚಕವಾಗಿ (Negative relative pronoun) ಕೆಲಸ ಮಾಡುತ್ತಿದೆ, ಇದರ ಅರ್ಥ 'who did not' ಎಂದು. ✅"
-  },
-  {
-    "question": "Choose the correct reflexive pronoun: One should always be true to _____ word.",
+    "question": "One should take care of _____ health.",
     "options": [
       "his",
       "her",
@@ -118,21 +41,10 @@
       "their"
     ],
     "answer": "one's",
-    "explanation": "'One' ಕರ್ತೃವಾಗಿ ಬಂದಾಗ ಅದರ ಪೂರ್ವಾಪರ ಸಂಬಂಧದ ಎಲ್ಲಾ ರೂಪಗಳು 'one/one's' ಆಗಿರಬೇಕು. ✅"
+    "explanation": "The subject 'One' must always be followed by 'one's' in the possessive form. ✅"
   },
   {
-    "question": "Identify the correct form: It is not for _____ to decide.",
-    "options": [
-      "he",
-      "him",
-      "his",
-      "himself"
-    ],
-    "answer": "him",
-    "explanation": "Preposition (for) ನಂತರ ಯಾವಾಗಲೂ Objective case (him) ಬಳಸಬೇಕು. ✅"
-  },
-  {
-    "question": "Fill in the blank: He is a faster runner than _____.",
+    "question": "It is not _____ who are to be blamed.",
     "options": [
       "me",
       "I",
@@ -140,28 +52,281 @@
       "mine"
     ],
     "answer": "I",
-    "explanation": "ಔಪಚಾರಿಕ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ 'than' ನಂತರ Subjective case ಬಳಸಲಾಗುತ್ತದೆ (than I am). ✅"
+    "explanation": "After 'It is/was', use the subjective case. The verb 'are' follows 'I' in the sense of 'It is I (who) am' but 'are' is used if the relative clause refers back to a plural/formal context. However, 'I' remains the standard subjective choice. ✅"
   },
   {
-    "question": "Choose the correct pronoun: Whosoever does this, _____ shall be punished.",
+    "question": "Many a student _____ failed to clear the exam.",
     "options": [
-      "he",
-      "they",
-      "him",
-      "she"
-    ],
-    "answer": "he",
-    "explanation": "'Whosoever' ಎಂಬುದು ಏಕವಚನವನ್ನು ಸೂಚಿಸುವುದರಿಂದ ಅದರ ನಂತರ 'he' ಬಳಸುವುದು ರೂಢಿ. ✅"
-  },
-  {
-    "question": "Identify the error: He is one of the players who has been selected.",
-    "options": [
-      "He",
-      "players",
-      "who",
-      "has"
+      "has",
+      "have",
+      "are",
+      "were"
     ],
     "answer": "has",
-    "explanation": "ಇಲ್ಲಿ 'who' ಎಂಬುದು 'players' (Plural) ಅನ್ನು ಸೂಚಿಸುತ್ತದೆ. ಆದ್ದರಿಂದ ಕ್ರಿಯಾಪದವು 'have' ಆಗಿರಬೇಕು. ✅"
+    "explanation": "'Many a' is always followed by a singular noun and a singular verb. ✅"
+  },
+  {
+    "question": "The jury was divided in _____ opinion.",
+    "options": [
+      "its",
+      "their",
+      "his",
+      "they"
+    ],
+    "answer": "their",
+    "explanation": "When a collective noun (jury) is divided or acts as individuals, it takes a plural pronoun 'their'. ✅"
+  },
+  {
+    "question": "I don't like _____ coming late every day.",
+    "options": [
+      "him",
+      "his",
+      "he",
+      "himself"
+    ],
+    "answer": "his",
+    "explanation": "Before a gerund (coming), use a possessive adjective 'his'. ✅"
+  },
+  {
+    "question": "None of the two boys _____ present.",
+    "options": [
+      "was",
+      "were",
+      "is",
+      "None is wrong (Neither should be used)"
+    ],
+    "answer": "None is wrong (Neither should be used)",
+    "explanation": "For two people, 'Neither' is used. 'None' is used for more than two. In exams, identifying this error is crucial. ✅"
+  },
+  {
+    "question": "He is one of the greatest leaders that _____ ever lived.",
+    "options": [
+      "has",
+      "have",
+      "is",
+      "was"
+    ],
+    "answer": "have",
+    "explanation": "In 'one of the + plural noun + that', the relative pronoun 'that' refers to the plural noun (leaders), so the verb must be plural 'have'. ✅"
+  },
+  {
+    "question": "The man and the dog _____ I saw yesterday were running.",
+    "options": [
+      "who",
+      "which",
+      "that",
+      "whom"
+    ],
+    "answer": "that",
+    "explanation": "When the antecedents consist of both a human and an animal/thing, 'that' is the mandatory relative pronoun. ✅"
+  },
+  {
+    "question": "Whom do you think _____ the best candidate?",
+    "options": [
+      "is",
+      "are",
+      "was",
+      "be"
+    ],
+    "answer": "is",
+    "explanation": "Note: In modern usage 'Who do you think is' is common, but 'Whom' is used if it's treated as the object of 'do you think'. ✅"
+  },
+  {
+    "question": "If I were _____, I would accept the offer.",
+    "options": [
+      "him",
+      "he",
+      "his",
+      "himself"
+    ],
+    "answer": "he",
+    "explanation": "Subjective case 'he' after the linking verb 'were' in a subjunctive mood. ✅"
+  },
+  {
+    "question": "The committee has submitted _____ report.",
+    "options": [
+      "its",
+      "their",
+      "his",
+      "they"
+    ],
+    "answer": "its",
+    "explanation": "When a collective noun (committee) acts as a single unit, it takes a singular pronoun 'its'. ✅"
+  },
+  {
+    "question": "I, you and he _____ going to the party.",
+    "options": [
+      "am",
+      "are",
+      "is",
+      "be"
+    ],
+    "answer": "are",
+    "explanation": "When subjects of different persons are joined by 'and', the verb is always plural. ✅"
+  },
+  {
+    "question": "The three brothers help _____ with their homework.",
+    "options": [
+      "each other",
+      "one another",
+      "themselves",
+      "themself"
+    ],
+    "answer": "one another",
+    "explanation": "Reciprocal pronoun for more than two people. ✅"
+  },
+  {
+    "question": "He is the same man _____ helped me yesterday.",
+    "options": [
+      "who",
+      "whom",
+      "that",
+      "which"
+    ],
+    "answer": "that",
+    "explanation": "After 'the same', 'that' is preferred over 'who'. ✅"
+  },
+  {
+    "question": "Everyone has to do _____ work.",
+    "options": [
+      "their",
+      "his",
+      "one's",
+      "they"
+    ],
+    "answer": "his",
+    "explanation": "Singular indefinite pronoun takes a singular possessive. ✅"
+  },
+  {
+    "question": "He is taller than _____.",
+    "options": [
+      "me",
+      "I",
+      "myself",
+      "mine"
+    ],
+    "answer": "I",
+    "explanation": "Formal comparison: 'taller than I (am)'. ✅"
+  },
+  {
+    "question": "Between you and _____, the news is false.",
+    "options": [
+      "I",
+      "me",
+      "myself",
+      "mine"
+    ],
+    "answer": "me",
+    "explanation": "After the preposition 'between', use the objective case 'me'. ✅"
+  },
+  {
+    "question": "Either the students or the teacher _____ left _____ bag.",
+    "options": [
+      "has, their",
+      "have, their",
+      "has, his",
+      "have, his"
+    ],
+    "answer": "has, his",
+    "explanation": "When joined by 'Either...or', the verb and pronoun agree with the nearest subject (the teacher). ✅"
+  },
+  {
+    "question": "Such students _____ work hard always get good marks.",
+    "options": [
+      "who",
+      "as",
+      "that",
+      "which"
+    ],
+    "answer": "as",
+    "explanation": "After 'Such', the relative pronoun 'as' is used. ✅"
+  },
+  {
+    "question": "Everything _____ he said was wrong.",
+    "options": [
+      "which",
+      "that",
+      "who",
+      "what"
+    ],
+    "answer": "that",
+    "explanation": "After 'everything', 'that' is used. ✅"
+  },
+  {
+    "question": "None of the luggage _____ been checked yet.",
+    "options": [
+      "has",
+      "have",
+      "is",
+      "are"
+    ],
+    "answer": "has",
+    "explanation": "'None' with uncountable nouns (luggage) is singular. ✅"
+  },
+  {
+    "question": "Who was there? It was _____.",
+    "options": [
+      "me",
+      "I",
+      "him",
+      "her"
+    ],
+    "answer": "I",
+    "explanation": "In formal English, the answer to 'Who is it?' is 'It is I'. ✅"
+  },
+  {
+    "question": "I know the person _____ you are referring to.",
+    "options": [
+      "who",
+      "whom",
+      "which",
+      "whose"
+    ],
+    "answer": "whom",
+    "explanation": "Object of the preposition 'to'. ✅"
+  },
+  {
+    "question": "He has a lot of money, _____ he never spends.",
+    "options": [
+      "that",
+      "which",
+      "what",
+      "who"
+    ],
+    "answer": "which",
+    "explanation": "In non-restrictive clauses (after a comma), 'which' is used, not 'that'. ✅"
+  },
+  {
+    "question": "None but _____ were present there.",
+    "options": [
+      "they",
+      "them",
+      "themselves",
+      "their"
+    ],
+    "answer": "they",
+    "explanation": "When 'but' means 'except', it is followed by the subjective case 'they' when it acts as the subject. ✅"
+  },
+  {
+    "question": "All of _____ was expected.",
+    "options": [
+      "this",
+      "these",
+      "those",
+      "they"
+    ],
+    "answer": "this",
+    "explanation": "'All of this' refers to a singular abstract situation. ✅"
+  },
+  {
+    "question": "The student _____ you thought was honest stole the book.",
+    "options": [
+      "who",
+      "whom",
+      "that",
+      "which"
+    ],
+    "answer": "who",
+    "explanation": "The relative pronoun is the subject of 'was honest'. ✅"
   }
 ]
