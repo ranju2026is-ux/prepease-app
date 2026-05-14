@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Change to Indirect: The teacher said to the students, 'Shut the door.'",
+    "options": [
+      "The teacher told the students that shut the door.",
+      "The teacher ordered the students to shut the door.",
+      "The teacher said to the students to shut the door.",
+      "The teacher ordered the students that they should shut the door."
+    ],
+    "answer": "The teacher ordered the students to shut the door.",
+    "explanation": "For orders, the reporting verb changes to 'ordered' and we use 'to + V1' as the connector. ✅"
+  },
+  {
+    "question": "Change to Indirect: He said to me, 'Please help me with my homework.'",
+    "options": [
+      "He requested me to help him with his homework.",
+      "He asked me to please help him with his homework.",
+      "He told me to help him with his homework.",
+      "He requested me that I should help him with his homework."
+    ],
+    "answer": "He requested me to help him with his homework.",
+    "explanation": "When 'Please' is used, the reporting verb changes to 'requested' and 'please' is removed in indirect speech. ✅"
+  },
+  {
+    "question": "Change to Indirect: The doctor said to the patient, 'Take your medicines on time.'",
+    "options": [
+      "The doctor ordered the patient to take his medicines on time.",
+      "The doctor advised the patient to take his medicines on time.",
+      "The doctor suggested the patient that take medicines on time.",
+      "The doctor told the patient to take your medicines on time."
+    ],
+    "answer": "The doctor advised the patient to take his medicines on time.",
+    "explanation": "For medical or moral suggestions, we use 'advised' followed by 'to + V1'. ✅"
+  },
+  {
+    "question": "Change to Indirect: My mother said to me, 'Don't waste your time.'",
+    "options": [
+      "My mother told me to not waste my time.",
+      "My mother advised me not to waste my time.",
+      "My mother forbade me not to waste my time.",
+      "My mother advised me to don't waste my time."
+    ],
+    "answer": "My mother advised me not to waste my time.",
+    "explanation": "In negative imperatives, 'Don't' changes to 'not to'. If using 'forbade', we don't use 'not'. ✅"
+  },
+  {
+    "question": "Change to Indirect: The captain said to the soldiers, 'Attack the enemy.'",
+    "options": [
+      "The captain told the soldiers to attack the enemy.",
+      "The captain commanded the soldiers to attack the enemy.",
+      "The captain ordered the soldiers that attack the enemy.",
+      "The captain commanded the soldiers they should attack the enemy."
+    ],
+    "answer": "The captain commanded the soldiers to attack the enemy.",
+    "explanation": "For military orders, 'commanded' is the most appropriate reporting verb. ✅"
+  },
+  {
+    "question": "Change to Indirect: He said, 'Let's go for a walk.'",
+    "options": [
+      "He suggested that we should go for a walk.",
+      "He proposed that they should go for a walk.",
+      "He said to go for a walk.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "For 'Let's' (proposals/suggestions), we use 'suggested/proposed' followed by 'that + subject + should'. ✅"
+  },
+  {
+    "question": "Change to Indirect: The manager said to the clerk, 'Show me the files.'",
+    "options": [
+      "The manager ordered the clerk to show him the files.",
+      "The manager asked the clerk to show him the files.",
+      "The manager told the clerk to show me the files.",
+      "The manager ordered the clerk that show him the files."
+    ],
+    "answer": "The manager ordered the clerk to show him the files.",
+    "explanation": "Reporting verb 'ordered' + connector 'to' + V1. 'Me' changes to 'him'. ✅"
+  },
+  {
+    "question": "Change to Indirect: She said to her friend, 'Work hard if you want to pass.'",
+    "options": [
+      "She advised her friend to work hard if she wanted to pass.",
+      "She told her friend to work hard if you want to pass.",
+      "She advised her friend to work hard if she wants to pass.",
+      "She said to her friend to work hard if she wanted to pass."
+    ],
+    "answer": "She advised her friend to work hard if she wanted to pass.",
+    "explanation": "Advice structure 'to + V1'. The subordinate clause tense also changes (want ➔ wanted). ✅"
+  },
+  {
+    "question": "Change to Indirect: He said to the servant, 'Leave the room at once.'",
+    "options": [
+      "He told the servant to leave the room at once.",
+      "He ordered the servant to leave the room at once.",
+      "He asked the servant to leave the room at once.",
+      "He ordered the servant that leave the room at once."
+    ],
+    "answer": "He ordered the servant to leave the room at once.",
+    "explanation": "Clear command ➔ 'ordered'. ✅"
+  },
+  {
+    "question": "Change to Indirect: 'Call the first witness,' said the judge.",
+    "options": [
+      "The judge ordered them to call the first witness.",
+      "The judge said to call the first witness.",
+      "The judge told to call the first witness.",
+      "The judge ordered that call the first witness."
+    ],
+    "answer": "The judge ordered them to call the first witness.",
+    "explanation": "Legal commands in court use 'ordered'. An implied object (them/the officials) is often added. ✅"
+  }
+]
