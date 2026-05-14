@@ -1,0 +1,92 @@
+[
+  {
+    "word": "Voice - Fundamental Rule",
+    "meaning_kannada": "Active ಮತ್ತು Passive Voice ಮೂಲ ನಿಯಮ - ಕರ್ತೃ ಮತ್ತು ಕರ್ಮ ಪದಗಳ ಬದಲಾವಣೆ.",
+    "meaning_english": "The subject of the Active Voice becomes the object of the Passive Voice, and the object of the Active Voice becomes the subject of the Passive Voice.\n\n• Structure: Subject + Verb + Object (Active) ➔ Object + Helping Verb + V3 + by + Subject (Passive).\n• Example: 'He writes a letter' (AV) ➔ 'A letter is written by him' (PV).\n• Tip: Only Transitive verbs (verbs with an object) can be changed into passive voice.",
+    "emoji": "🔄"
+  },
+  {
+    "word": "Pronoun Change Rule",
+    "meaning_kannada": "ಸರ್ವನಾಮಗಳ ಬದಲಾವಣೆ ನಿಯಮ (I ➔ Me).",
+    "meaning_english": "When the subject moves to the object position in Passive Voice, the pronoun form changes.\n\n• I ➔ me\n• We ➔ us\n• You ➔ you\n• He ➔ him\n• She ➔ her\n• It ➔ it\n• They ➔ them\n• Tip: If the subject is 'Someone', 'People', or 'Police', 'by + subject' is often omitted in Passive Voice.",
+    "emoji": "👥"
+  },
+  {
+    "word": "Simple Present Tense",
+    "meaning_kannada": "ಸಾಮಾನ್ಯ ವರ್ತಮಾನ ಕಾಲದ ನಿಯಮ (is/am/are + V3).",
+    "meaning_english": "In Simple Present Tense, use helping verbs 'is', 'am', or 'are' followed by the past participle (V3).\n\n• Pattern: Object + is/am/are + V3 + by + Subject.\n• Active: She sings a song.\n• Passive: A song is sung by her.\n• Exam Tip: Check for the V3 form of the verb immediately after the helping verb.",
+    "emoji": "📝"
+  },
+  {
+    "word": "Simple Past Tense",
+    "meaning_kannada": "ಸಾಮಾನ್ಯ ಭೂತಕಾಲದ ನಿಯಮ (was/were + V3).",
+    "meaning_english": "In Simple Past Tense, use 'was' or 'were' according to the number of the new subject (Object).\n\n• Pattern: Object + was/were + V3 + by + Subject.\n• Active: They built a house.\n• Passive: A house was built by them.\n• Example: He invited me ➔ I was invited by him.",
+    "emoji": "⏳"
+  },
+  {
+    "word": "Present Continuous Tense",
+    "meaning_kannada": "ವರ್ತಮಾನ ಕಾಲದ ಮುಂದುವರಿದ ಕ್ರಿಯೆ (being + V3).",
+    "meaning_english": "When the sentence is in continuous form (V+ing), use 'being' in the passive form.\n\n• Pattern: Object + is/am/are + being + V3 + by + Subject.\n• Active: I am writing a story.\n• Passive: A story is being written by me.\n• Exam Tip: If you see '-ing' in Active Voice, look for 'being' in the Passive options.",
+    "emoji": "🏃"
+  },
+  {
+    "word": "Past Continuous Tense",
+    "meaning_kannada": "ಭೂತಕಾಲದ ಮುಂದುವರಿದ ಕ್ರಿಯೆ (was/were + being + V3).",
+    "meaning_english": "Use 'was being' or 'were being' based on the singular/plural status of the object.\n\n• Pattern: Object + was/were + being + V3 + by + Subject.\n• Active: She was cooking food.\n• Passive: Food was being cooked by her.",
+    "emoji": "🥘"
+  },
+  {
+    "word": "Present Perfect Tense",
+    "meaning_kannada": "ಪೂರ್ಣ ವರ್ತಮಾನ ಕಾಲದ ನಿಯಮ (has/have + been + V3).",
+    "meaning_english": "In perfect tenses, the word 'been' is mandatory between the helping verb and the main verb.\n\n• Pattern: Object + has/have + been + V3 + by + Subject.\n• Active: He has finished the work.\n• Passive: The work has been finished by him.\n• Tip: 'Has' for singular objects, 'Have' for plural objects.",
+    "emoji": "✅"
+  },
+  {
+    "word": "Past Perfect Tense",
+    "meaning_kannada": "ಪೂರ್ಣ ಭೂತಕಾಲದ ನಿಯಮ (had + been + V3).",
+    "meaning_english": "Regardless of singular or plural, use 'had been' in past perfect passive voice.\n\n• Pattern: Object + had + been + V3 + by + Subject.\n• Active: They had won the match.\n• Passive: The match had been won by them.",
+    "emoji": "🏆"
+  },
+  {
+    "word": "Simple Future Tense",
+    "meaning_kannada": "ಸಾಮಾನ್ಯ ಭವಿಷ್ಯತ್ ಕಾಲ (will + be + V3).",
+    "meaning_english": "Use 'will be' or 'shall be' followed by V3.\n\n• Pattern: Object + will be + V3 + by + Subject.\n• Active: She will write an exam.\n• Passive: An exam will be written by her.\n• Note: Future Continuous and all Perfect Continuous tenses usually do not have a passive form.",
+    "emoji": "🔮"
+  },
+  {
+    "word": "Modal Verbs Passive",
+    "meaning_kannada": "Modal Verbs (Can, May, Should, Must) ನಿಯಮ.",
+    "meaning_english": "For modals, simply add 'be' after the modal verb in the passive form.\n\n• Pattern: Object + Modal + be + V3 + by + Subject.\n• Active: You must follow the rules.\n• Passive: The rules must be followed by you.\n• Example: I can do it ➔ It can be done by me.",
+    "emoji": "🛠️"
+  },
+  {
+    "word": "Imperative Sentences (Order)",
+    "meaning_kannada": "ಆಜ್ಞಾರ್ಥಕ ವಾಕ್ಯಗಳ ಬದಲಾವಣೆ (Let + be).",
+    "meaning_english": "Sentences that give an order or command use 'Let' in passive voice.\n\n• Pattern: Let + Object + be + V3.\n• Active: Close the door.\n• Passive: Let the door be closed.\n• Alternative: You are ordered to close the door.",
+    "emoji": "📢"
+  },
+  {
+    "word": "Imperative Sentences (Request)",
+    "meaning_kannada": "ವಿನಂತಿ ವಾಕ್ಯಗಳು (You are requested to...).",
+    "meaning_english": "When 'Please' or 'Kindly' is used, replace it with 'You are requested to' in the passive form.\n\n• Active: Please sit down.\n• Passive: You are requested to sit down.\n• Note: The verb after 'to' remains in V1 form.",
+    "emoji": "🙏"
+  },
+  {
+    "word": "Interrogative Sentences (Who)",
+    "meaning_kannada": "ಪ್ರಶ್ನಾರ್ಥಕ ವಾಕ್ಯಗಳು (By whom...).",
+    "meaning_english": "Questions starting with 'Who' change to 'By whom' in passive voice.\n\n• Active: Who wrote this letter?\n• Passive: By whom was this letter written?\n• Tip: Always check if the question mark is maintained in the passive form.",
+    "emoji": "❓"
+  },
+  {
+    "word": "Verbs with Two Objects",
+    "meaning_kannada": "ಎರಡು ಕರ್ಮಪದಗಳಿರುವ ವಾಕ್ಯಗಳು (Direct & Indirect).",
+    "meaning_english": "If a sentence has two objects, either can become the subject. Usually, the Indirect Object (person) is preferred.\n\n• Active: He gave me a book.\n• Passive 1: I was given a book by him.\n• Passive 2: A book was given to me by him.",
+    "emoji": "📖"
+  },
+  {
+    "word": "Prepositional Verbs",
+    "meaning_kannada": "ಕ್ರಿಯಾಪದದ ಜೊತೆಗಿನ ಪ್ರಿಪೋಸಿಷನ್ ನಿಯಮ.",
+    "meaning_english": "If a verb is followed by a preposition in the active voice, keep that preposition with the verb in the passive voice too.\n\n• Active: They laughed at the beggar.\n• Passive: The beggar was laughed at by them.\n• Common Error: Do not remove 'at' even if 'by' follows it.",
+    "emoji": "📌"
+  }
+]
