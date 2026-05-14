@@ -1,0 +1,332 @@
+[
+  {
+    "question": "Change into Passive: 'She will invite us to the party.'",
+    "options": [
+      "We will invite by her to the party.",
+      "We will be invited by her to the party.",
+      "We shall be invited by her to the party.",
+      "Both B and C are correct."
+    ],
+    "answer": "Both B and C are correct.",
+    "explanation": "In Simple Future, Passive is: **will/shall + be + V3**. With 'We', both 'will' and 'shall' are acceptable in modern grammar. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Help the poor.'",
+    "options": [
+      "Let the poor be helped.",
+      "The poor should be helped.",
+      "You are requested to help the poor.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "Imperative sentences expressing advice or order can be changed using 'Let...be' or 'Should be'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'They will not accept the proposal.'",
+    "options": [
+      "The proposal will not be accepted by them.",
+      "The proposal would not be accepted by them.",
+      "The proposal will be not accepted by them.",
+      "The proposal was not accepted by them."
+    ],
+    "answer": "The proposal will not be accepted by them.",
+    "explanation": "Future Negative ➔ will + not + be + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Please grant me leave for two days.'",
+    "options": [
+      "Let me be granted leave for two days.",
+      "You are requested to grant me leave for two days.",
+      "I am requested to grant leave.",
+      "Leave for two days be granted."
+    ],
+    "answer": "You are requested to grant me leave for two days.",
+    "explanation": "When 'Please' is used, the passive starts with **'You are requested to'** + V1. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Will he help me?'",
+    "options": [
+      "Will I be helped by him?",
+      "Shall I be helped by him?",
+      "Would I be helped by him?",
+      "Will I helped by him?"
+    ],
+    "answer": "Shall I be helped by him?",
+    "explanation": "In questions, 'will' changes to 'shall' if the new subject is 'I' or 'We' (traditional rule). ✅"
+  },
+  {
+    "question": "Change into Passive: 'Don't touch the wire.'",
+    "options": [
+      "Let the wire not be touched.",
+      "You are warned not to touch the wire.",
+      "The wire should not be touched.",
+      "All of the above."
+    ],
+    "answer": "All of the above.",
+    "explanation": "Negative imperatives can be handled via 'Let...not be', 'Should not be', or 'You are warned/forbidden'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'The company will launch a new product next month.'",
+    "options": [
+      "A new product is launched by the company next month.",
+      "A new product will be launched by the company next month.",
+      "A new product will be launching by the company.",
+      "A new product would be launched by the company."
+    ],
+    "answer": "A new product will be launched by the company next month.",
+    "explanation": "Future Tense ➔ will be + V3 (launched). ✅"
+  },
+  {
+    "question": "Change into Passive: 'Switch off the light.'",
+    "options": [
+      "Let the light be switched off.",
+      "The light is switched off.",
+      "Let the light switch off.",
+      "You are switch off the light."
+    ],
+    "answer": "Let the light be switched off.",
+    "explanation": "Command/Order ➔ Let + Obj + be + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Kindly show me the way.'",
+    "options": [
+      "You are requested to show me the way.",
+      "Let me be shown the way.",
+      "You were requested to show me the way.",
+      "The way should be shown to me."
+    ],
+    "answer": "You are requested to show me the way.",
+    "explanation": "'Kindly' is a marker for request, changing to 'You are requested to'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Who will pay the bill?'",
+    "options": [
+      "By whom the bill will be paid?",
+      "By whom will the bill be paid?",
+      "Who will be the bill paid by?",
+      "By whom would the bill be paid?"
+    ],
+    "answer": "By whom will the bill be paid?",
+    "explanation": "Who ➔ By whom. Helping verb 'will' must precede the subject 'the bill'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Everyone will praise his bravery.'",
+    "options": [
+      "His bravery will be praised by everyone.",
+      "His bravery will be praise by everyone.",
+      "His bravery would be praised by everyone.",
+      "His bravery will praise everyone."
+    ],
+    "answer": "His bravery will be praised by everyone.",
+    "explanation": "Future Tense ➔ will be + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Always speak the truth.'",
+    "options": [
+      "Let the truth be spoken always.",
+      "The truth should always be spoken.",
+      "The truth must be spoken always.",
+      "Both A and B."
+    ],
+    "answer": "Both A and B.",
+    "explanation": "Advice/Moral imperatives follow 'Should be' or 'Let...be' structures. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Shall I carry the bag?'",
+    "options": [
+      "Will the bag be carried by me?",
+      "Shall the bag be carried by me?",
+      "Would the bag be carried by me?",
+      "Is the bag carried by me?"
+    ],
+    "answer": "Will the bag be carried by me?",
+    "explanation": "Since the object 'the bag' is third-person singular, it takes 'will' in the passive question. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Inform the police of the accident.'",
+    "options": [
+      "Let the police be informed of the accident.",
+      "The police should be informed of the accident.",
+      "You are requested to inform the police.",
+      "Both A and B."
+    ],
+    "answer": "Both A and B.",
+    "explanation": "Standard imperative transformation. ✅"
+  },
+  {
+    "question": "Change into Passive: 'They will finish the project on time.'",
+    "options": [
+      "The project will be finished on time by them.",
+      "The project will finished on time by them.",
+      "The project would be finished on time by them.",
+      "The project is finished on time by them."
+    ],
+    "answer": "The project will be finished on time by them.",
+    "explanation": "Simple Future ➔ will be + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Never tell a lie.'",
+    "options": [
+      "Let a lie never be told.",
+      "A lie should never be told.",
+      "You are requested not to tell a lie.",
+      "Both A and B."
+    ],
+    "answer": "Both A and B.",
+    "explanation": "Moral advice ➔ Let + Obj + never + be + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'What will you do now?'",
+    "options": [
+      "What will be done by you now?",
+      "What would be done by you now?",
+      "What will being done by you now?",
+      "What is being done by you now?"
+    ],
+    "answer": "What will be done by you now?",
+    "explanation": "Wh-word remains + will be + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Obey your parents.'",
+    "options": [
+      "Let your parents be obeyed.",
+      "Your parents should be obeyed.",
+      "You are ordered to obey parents.",
+      "Both A and B."
+    ],
+    "answer": "Both A and B.",
+    "explanation": "Moral advice can use 'Should be' or 'Let'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'I shall never forget those days.'",
+    "options": [
+      "Those days will never be forgotten by me.",
+      "Those days shall never be forgotten by me.",
+      "Those days would never be forgotten by me.",
+      "Those days will never being forgotten."
+    ],
+    "answer": "Those days will never be forgotten by me.",
+    "explanation": "'Those days' (Object) becomes the subject and takes 'will'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Invite him to dinner.'",
+    "options": [
+      "Let him be invited to dinner.",
+      "He should be invited to dinner.",
+      "You are requested to invite him.",
+      "Both A and B."
+    ],
+    "answer": "Let him be invited to dinner.",
+    "explanation": "Standard imperative command ➔ Let + Obj + be + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'People will forget this news soon.'",
+    "options": [
+      "This news will be forgotten soon.",
+      "This news will be forgot soon.",
+      "This news would be forgotten soon.",
+      "This news is forgotten soon."
+    ],
+    "answer": "This news will be forgotten soon.",
+    "explanation": "'By people' is omitted in passive. V3 of forget is 'forgotten'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Take medicine on time.'",
+    "options": [
+      "Medicine should be taken on time.",
+      "Let medicine be taken on time.",
+      "You are ordered to take medicine.",
+      "Both A and B."
+    ],
+    "answer": "Medicine should be taken on time.",
+    "explanation": "Medical advice is best expressed with 'should be'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Will you pay the fee today?'",
+    "options": [
+      "Will the fee be paid by you today?",
+      "Would the fee be paid by you today?",
+      "Shall the fee be paid by you today?",
+      "Is the fee paid by you today?"
+    ],
+    "answer": "Will the fee be paid by you today?",
+    "explanation": "Future Interrogative ➔ Will + Obj + be + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Do not smoke here.'",
+    "options": [
+      "You are forbidden to smoke here.",
+      "You are requested not to smoke here.",
+      "Let not smoke here.",
+      "Smoking is not allowed here."
+    ],
+    "answer": "You are forbidden to smoke here.",
+    "explanation": "Warning/Prohibition often uses 'You are forbidden to...'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'She will decorate the room.'",
+    "options": [
+      "The room will be decorated by her.",
+      "The room will be decorate by her.",
+      "The room would be decorated by her.",
+      "The room will being decorated by her."
+    ],
+    "answer": "The room will be decorated by her.",
+    "explanation": "Future Tense ➔ will be + V3. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Please keep quiet.'",
+    "options": [
+      "You are requested to keep quiet.",
+      "Let you be keep quiet.",
+      "Kindly keep quiet.",
+      "You should keep quiet."
+    ],
+    "answer": "You are requested to keep quiet.",
+    "explanation": "'Please' changes to 'You are requested to'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'They will buy a new house.'",
+    "options": [
+      "A new house will be bought by them.",
+      "A new house will be buyed by them.",
+      "A new house would be bought by them.",
+      "A new house is being bought by them."
+    ],
+    "answer": "A new house will be bought by them.",
+    "explanation": "Future Tense ➔ will be + V3 (bought). ✅"
+  },
+  {
+    "question": "Change into Passive: 'Call the witness.'",
+    "options": [
+      "Let the witness be called.",
+      "You are ordered to call the witness.",
+      "The witness should be called.",
+      "Both A and B."
+    ],
+    "answer": "Both A and B.",
+    "explanation": "Legal/Official orders can take either form. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Will she forgive me?'",
+    "options": [
+      "Shall I be forgiven by her?",
+      "Will I be forgiven by her?",
+      "Would I be forgiven by her?",
+      "Am I forgiven by her?"
+    ],
+    "answer": "Shall I be forgiven by her?",
+    "explanation": "In formal questions, 'Shall' is used when the new subject is 'I'. ✅"
+  },
+  {
+    "question": "Change into Passive: 'Don't kill animals.'",
+    "options": [
+      "Let animals not be killed.",
+      "Animals should not be killed.",
+      "You are ordered not to kill animals.",
+      "Both A and B."
+    ],
+    "answer": "Both A and B.",
+    "explanation": "Both forms are grammatically valid for advice/commands. ✅"
+  }
+]
