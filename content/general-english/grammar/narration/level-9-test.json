@@ -1,0 +1,112 @@
+[
+  {
+    "question": "Change to Indirect: She said, 'I could have won the race if I had tried harder.'",
+    "options": [
+      "She said that she could have won the race if she had tried harder.",
+      "She said that she could win the race if she tried harder.",
+      "She said that she can have won the race if she had tried harder.",
+      "She told that she could have win the race if she tried harder."
+    ],
+    "answer": "She said that she could have won the race if she had tried harder.",
+    "explanation": "Modal perfects like 'could have', 'should have', and 'might have' do not change their tense in indirect speech. ✅"
+  },
+  {
+    "question": "Change to Indirect: He said, 'You needn't wait for me.'",
+    "options": [
+      "He said that I needn't wait for him.",
+      "He said that I didn't have to wait for him.",
+      "He told that I needn't waited for him.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "'Needn't' can either remain 'needn't' or change to 'didn't have to' in indirect speech. ✅"
+  },
+  {
+    "question": "Change to Indirect: 'What a terrible storm it is!' said the sailor.",
+    "options": [
+      "The sailor exclaimed that it was a very terrible storm.",
+      "The sailor said that it is a very terrible storm.",
+      "The sailor exclaimed with sorrow that what a terrible storm it was.",
+      "The sailor remarked that the storm was terrible."
+    ],
+    "answer": "The sailor exclaimed that it was a very terrible storm.",
+    "explanation": "Exclamatory sentences are changed into assertive form using 'very' and shifting the tense to the past. ✅"
+  },
+  {
+    "question": "Change to Indirect: She said, 'I must have left my keys in the car.'",
+    "options": [
+      "She said that she must have left her keys in the car.",
+      "She said that she had to have left her keys in the car.",
+      "She said that she must leave her keys in the car.",
+      "She told that she might have left her keys in the car."
+    ],
+    "answer": "She said that she must have left her keys in the car.",
+    "explanation": "'Must have + V3' (expressing a past probability) remains unchanged in indirect speech. ✅"
+  },
+  {
+    "question": "Change to Indirect: He said to me, 'I'll help you if I can.'",
+    "options": [
+      "He told me that he would help me if he could.",
+      "He told me that he will help me if he can.",
+      "He told me that he would help me if he can.",
+      "He said to me that he would help me if he could."
+    ],
+    "answer": "He told me that he would help me if he could.",
+    "explanation": "Both clauses in the conditional sentence must shift their tense (will ➔ would, can ➔ could). ✅"
+  },
+  {
+    "question": "Change to Indirect: The captain said, 'Bravo! You have played well.'",
+    "options": [
+      "The captain applauded him, saying that he had played well.",
+      "The captain said bravo that he had played well.",
+      "The captain exclaimed with joy that he had played well.",
+      "The captain told him that he played well."
+    ],
+    "answer": "The captain applauded him, saying that he had played well.",
+    "explanation": "'Bravo' is best reported using the verb 'applauded'. ✅"
+  },
+  {
+    "question": "Change to Indirect: She said, 'If I had had enough money, I would have bought that car.'",
+    "options": [
+      "She said that if she had had enough money, she would have bought that car.",
+      "She said that if she had enough money, she would have bought that car.",
+      "She said that if she would have had money, she would buy that car.",
+      "She told that she had had enough money to buy that car."
+    ],
+    "answer": "She said that if she had had enough money, she would have bought that car.",
+    "explanation": "Past Perfect (had had) and Modal Perfect (would have bought) in Type 3 conditionals remain unchanged. ✅"
+  },
+  {
+    "question": "Change to Indirect: 'How should I know?' he said.",
+    "options": [
+      "He asked how he should know.",
+      "He said how he should know.",
+      "He asked that how he should know.",
+      "He wondered how should he know."
+    ],
+    "answer": "He asked how he should know.",
+    "explanation": "Interrogative sentences with 'should' maintain 'should' and change to assertive word order. ✅"
+  },
+  {
+    "question": "Change to Indirect: My boss said, 'You ought to have finished this by now.'",
+    "options": [
+      "My boss said that I ought to have finished that by then.",
+      "My boss said that I should have finished this by then.",
+      "My boss told that I ought to finished that by then.",
+      "My boss said that you ought to have finished that by now."
+    ],
+    "answer": "My boss said that I ought to have finished that by then.",
+    "explanation": "'Ought to' remains 'ought to', but 'this' changes to 'that' and 'now' changes to 'then'. ✅"
+  },
+  {
+    "question": "Change to Indirect: 'Could you please pass the salt?' she said to him.",
+    "options": [
+      "She requested him to pass the salt.",
+      "She asked him if he could pass the salt.",
+      "She told him to pass the salt.",
+      "Both A and B are correct."
+    ],
+    "answer": "Both A and B are correct.",
+    "explanation": "A polite request using 'Could you' can be reported as an imperative (requested to) or an interrogative (asked if). ✅"
+  }
+]
