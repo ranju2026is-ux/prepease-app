@@ -1,0 +1,167 @@
+[
+  {
+    "question": "Fill in the blank: I know the man _____ I think is the thief.",
+    "options": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "answer": "who",
+    "explanation": "Though 'I think' appears, 'who' is the subject of the verb 'is'. Therefore, subjective case 'who' is correct. ✅"
+  },
+  {
+    "question": "Choose the correct pronoun: I do not mind _____ arriving late to the meeting.",
+    "options": [
+      "him",
+      "his",
+      "he",
+      "himself"
+    ],
+    "answer": "his",
+    "explanation": "Before a Gerund (arriving), we must use a possessive adjective (his/my/your) to indicate the 'owner' of the action. ✅"
+  },
+  {
+    "question": "Identify the correct form: They invited my wife and _____ to the dinner.",
+    "options": [
+      "I",
+      "me",
+      "myself",
+      "mine"
+    ],
+    "answer": "me",
+    "explanation": "Since 'me' is the object of the verb 'invited', the objective case must be used. ✅"
+  },
+  {
+    "question": "Fill in the blank: It is _____ who have done this work.",
+    "options": [
+      "they",
+      "them",
+      "themselves",
+      "their"
+    ],
+    "answer": "they",
+    "explanation": "After 'It is', use the subjective case (They). Note that the verb 'have' also agrees with the plural subject 'they'. ✅"
+  },
+  {
+    "question": "Choose the correct pronoun: To _____ were you referring in your speech?",
+    "options": [
+      "who",
+      "whom",
+      "whose",
+      "which"
+    ],
+    "answer": "whom",
+    "explanation": "Pronouns following a preposition (To) must be in the objective case (whom). ✅"
+  },
+  {
+    "question": "Identify the error: One should take care of his health.",
+    "options": [
+      "One",
+      "care",
+      "his",
+      "health"
+    ],
+    "answer": "his",
+    "explanation": "The correct possessive for 'One' is 'one's'. It should be 'One should take care of **one's** health'. ✅"
+  },
+  {
+    "question": "Fill in the blank: The boys _____ we thought were guilty proved innocent.",
+    "options": [
+      "who",
+      "whom",
+      "that",
+      "which"
+    ],
+    "answer": "who",
+    "explanation": "'Who' is the subject of the verb 'were'. 'We thought' is just an interrupting phrase. ✅"
+  },
+  {
+    "question": "Choose the correct reflexive pronoun: The city _____ is not very large.",
+    "options": [
+      "himself",
+      "herself",
+      "itself",
+      "themselves"
+    ],
+    "answer": "itself",
+    "explanation": "For non-living things or places, the reflexive pronoun is 'itself'. ✅"
+  },
+  {
+    "question": "Identify the correct form: He was much better than _____.",
+    "options": [
+      "me",
+      "I",
+      "myself",
+      "mine"
+    ],
+    "answer": "I",
+    "explanation": "In formal English, comparison using 'than' requires the subjective case (I). ✅"
+  },
+  {
+    "question": "Fill in the blank: Any of these two roads leads to the station.",
+    "options": [
+      "Any",
+      "Either",
+      "Neither",
+      "None"
+    ],
+    "answer": "Either",
+    "explanation": "For exactly two options, we use 'Either'. 'Any' is used for more than two. ✅"
+  },
+  {
+    "question": "Choose the correct relative pronoun: He is the same man _____ helped me yesterday.",
+    "options": [
+      "who",
+      "that",
+      "which",
+      "whom"
+    ],
+    "answer": "that",
+    "explanation": "After 'the same', the relative pronoun 'that' is used. ✅"
+  },
+  {
+    "question": "Identify the correct pronoun: Neither of the boys has brought _____ book.",
+    "options": [
+      "their",
+      "his",
+      "him",
+      "its"
+    ],
+    "answer": "his",
+    "explanation": "'Neither' is singular, so it takes the singular masculine pronoun 'his'. ✅"
+  },
+  {
+    "question": "Fill in the blank: Such a mistake _____ you have made is unpardonable.",
+    "options": [
+      "who",
+      "that",
+      "as",
+      "which"
+    ],
+    "answer": "as",
+    "explanation": "After 'Such', we use 'as' as a relative pronoun. ✅"
+  },
+  {
+    "question": "Identify the error: He and myself will do the work.",
+    "options": [
+      "He",
+      "myself",
+      "will",
+      "work"
+    ],
+    "answer": "myself",
+    "explanation": "A reflexive pronoun cannot be the subject. It should be 'He and **I**'. ✅"
+  },
+  {
+    "question": "Choose the correct option: Each of the students should sign _____ name here.",
+    "options": [
+      "their",
+      "his",
+      "your",
+      "them"
+    ],
+    "answer": "his",
+    "explanation": "Despite 'students' being plural, 'Each' makes the distributive subject singular. ✅"
+  }
+]
