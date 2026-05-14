@@ -1,577 +1,152 @@
+[
 {
-"chapter": "Nouns",
-"level": "Beginner to Competitive Exam",
-"rules": [
-{
-"id": 1,
-"topic": "Uncountable Nouns",
-"rule_title": "Nouns that are always singular",
-"explanation": "Certain nouns like scenery, poetry, furniture, advice, information, hair, and business are uncountable. They do not have a plural form and do not take 'a' or 'an' directly.",
-"formula_or_pattern": "Uncountable Noun + Singular Verb",
-"examples": [
-"The scenery of Switzerland is beautiful.",
-"His hair is black."
-],
-"wrong_example": "The sceneries of Kashmir are enchanting.",
-"correct_example": "The scenery of Kashmir is enchanting.",
-"exam_tip": "Never use 'sceneries', 'furnitures', or 'informations' in your sentences.",
-"common_error": "Adding 's' to uncountable nouns to make them plural.",
-"difficulty_level": "Easy",
-"previous_exam_pattern": "Frequently seen in SSC CGL and Bank Clerk spotting error sections.",
-"practice_question": "Identify the error: The furnitures (A) / in this shop (B) / are very (C) / expensive (D).",
-"answer": "A"
+"word": "Uncountable Nouns",
+"meaning_kannada": "ಯಾವಾಗಲೂ ಏಕವಚನದಲ್ಲಿರುವ ನಾಮಪದಗಳು",
+"meaning_english": "Certain nouns like scenery, poetry, furniture, advice, and information are uncountable. They do not have a plural form and do not take 'a' or 'an' directly.\n\n• Pattern: Uncountable Noun + Singular Verb\n• Examples: The scenery of Switzerland is beautiful. / His hair is black.\n• Exam Tip: Never use 'sceneries', 'furnitures', or 'informations'.\n• Common Error: Adding 's' to uncountable nouns to make them plural.",
+"emoji": "📏"
 },
 {
-"id": 2,
-"topic": "Plural in Form, Singular in Meaning",
-"rule_title": "Nouns ending in 's' but treated as singular",
-"explanation": "Subjects like Mathematics, Physics, Ethics, and diseases like Measles or Mumps look plural because they end in 's', but they represent a single unit/subject.",
-"formula_or_pattern": "Subject/Disease Name + Singular Verb",
-"examples": [
-"Mathematics is a difficult subject.",
-"Measles is infectious."
-],
-"wrong_example": "Statistics are a branch of Mathematics.",
-"correct_example": "Statistics is a branch of Mathematics.",
-"exam_tip": "If these words are used to denote personal data or qualities (e.g., 'His mathematics'), they can take a plural verb.",
-"common_error": "Using a plural verb just because the noun ends in 's'.",
-"difficulty_level": "Easy",
-"previous_exam_pattern": "Common in Railway and State PSC exams.",
-"practice_question": "Politics ____ a dirty game. (A) is (B) are",
-"answer": "A"
+"word": "Plural in Form, Singular in Meaning",
+"meaning_kannada": "ನೋಡಲು ಬಹುವಚನದಂತಿದ್ದರೂ ಏಕವಚನ ಅರ್ಥ ನೀಡುವ ಪದಗಳು",
+"meaning_english": "Subjects like Mathematics, Physics, Ethics, and diseases like Measles or Mumps look plural because they end in 's', but they represent a single unit/subject.\n\n• Pattern: Subject/Disease Name + Singular Verb\n• Examples: Mathematics is a difficult subject. / Measles is infectious.\n• Exam Tip: If used to denote personal data (e.g., 'His mathematics'), they can take a plural verb.\n• Common Error: Using a plural verb just because the noun ends in 's'.",
+"emoji": "🔢"
 },
 {
-"id": 3,
-"topic": "Singular in Form, Plural in Meaning",
-"rule_title": "Collective nouns that are always plural",
-"explanation": "Nouns like Cattle, Gentry, Peasantry, Poultry, Clergy, and People look singular (no 's') but they always represent a plural group.",
-"formula_or_pattern": "Cattle/People/Poultry + Plural Verb",
-"examples": [
-"Cattle are grazing in the field.",
-"Our gentry are very helpful."
-],
-"wrong_example": "The cattles are grazing.",
-"correct_example": "The cattle are grazing.",
-"exam_tip": "Do not add 's' to Cattle or Gentry. 'Peoples' means different races/nations, not the plural of person.",
-"common_error": "Writing 'cattles' or using 'is' with these words.",
-"difficulty_level": "Moderate",
-"previous_exam_pattern": "High frequency in SSC CHSL and Banking Prelims.",
-"practice_question": "The poultry ____ been fed. (A) has (B) have",
-"answer": "B"
+"word": "Singular in Form, Plural in Meaning",
+"meaning_kannada": "ನೋಡಲು ಏಕವಚನದಂತಿದ್ದರೂ ಬಹುವಚನ ಅರ್ಥ ನೀಡುವ ಪದಗಳು",
+"meaning_english": "Nouns like Cattle, Gentry, Peasantry, Poultry, Clergy, and People look singular but always represent a plural group.\n\n• Pattern: Cattle/People + Plural Verb\n• Examples: Cattle are grazing in the field. / Our gentry are very helpful.\n• Exam Tip: Do not add 's' to Cattle or Gentry.\n• Common Error: Writing 'cattles' or using 'is' with these words.",
+"emoji": "🐄"
 },
 {
-"id": 4,
-"topic": "Compound Nouns",
-"rule_title": "Pluralizing Compound Nouns",
-"explanation": "In compound nouns, we make the principal (main) word plural, not the description word.",
-"formula_or_pattern": "Main Word + 's' + qualifying word",
-"examples": [
-"Sons-in-law",
-"Commanders-in-chief"
-],
-"wrong_example": "I have two brother-in-laws.",
-"correct_example": "I have two brothers-in-law.",
-"exam_tip": "For 'Step-son', it is 'Step-sons' because 'son' is the main noun.",
-"common_error": "Adding 's' at the very end of the compound word.",
-"difficulty_level": "Moderate",
-"previous_exam_pattern": "UPSC CDS and NDA English papers.",
-"practice_question": "Choose the correct plural: (A) Passer-bys (B) Passers-by",
-"answer": "B"
+"word": "Compound Nouns",
+"meaning_kannada": "ಸಂಯೋಜಿತ ನಾಮಪದಗಳ ಬಹುವಚನ ರೂಪ",
+"meaning_english": "In compound nouns, we make the principal (main) word plural, not the description word.\n\n• Pattern: Main Word + 's' + qualifying word\n• Examples: Sons-in-law, Commanders-in-chief.\n• Exam Tip: For 'Step-son', it is 'Step-sons' because 'son' is the main noun.\n• Common Error: Adding 's' at the very end (e.g., brother-in-laws).",
+"emoji": "👥"
 },
 {
-"id": 5,
-"topic": "Noun + Preposition + Noun",
-"rule_title": "Repetition of Noun with Preposition",
-"explanation": "If a noun is repeated after a preposition, both nouns must be in the singular form.",
-"formula_or_pattern": "Noun (Singular) + Preposition + Noun (Singular)",
-"examples": [
-"Page after page",
-"Door to door"
-],
-"wrong_example": "Rows upon rows of marble look beautiful.",
-"correct_example": "Row upon row of marble looks beautiful.",
-"exam_tip": "The verb following this structure must also be singular.",
-"common_error": "Using plural nouns on either side of the preposition.",
-"difficulty_level": "Easy",
-"previous_exam_pattern": "Common in Insurance and Banking exams.",
-"practice_question": "He wandered from _____ . (A) doors to doors (B) door to door",
-"answer": "B"
+"word": "Noun + Preposition + Noun",
+"meaning_kannada": "ನಾಮಪದದ ಪುನರಾವರ್ತನೆ ಮತ್ತು ವಿಭಕ್ತಿ ಪ್ರತ್ಯಯ",
+"meaning_english": "If a noun is repeated after a preposition, both nouns must be in the singular form.\n\n• Pattern: Noun (Singular) + Preposition + Noun (Singular)\n• Examples: Page after page, Door to door.\n• Exam Tip: The verb following this structure must also be singular.\n• Common Error: Using plural nouns (e.g., Pages after pages).",
+"emoji": "📖"
 },
 {
-"id": 6,
-"topic": "Collective Nouns (Agreement)",
-"rule_title": "The Jury/Committee Rule",
-"explanation": "Collective nouns take a singular verb when they act as a single unit, but a plural verb when members are divided or acting individually.",
-"formula_or_pattern": "United = Singular Verb; Divided = Plural Verb",
-"examples": [
-"The jury has given its verdict.",
-"The jury were divided in their opinions."
-],
-"wrong_example": "The committee have submitted its report.",
-"correct_example": "The committee has submitted its report.",
-"exam_tip": "Look for the pronoun 'its' (singular) or 'their' (plural) to decide the verb.",
-"common_error": "Always using a singular verb for collective nouns.",
-"difficulty_level": "Hard",
-"previous_exam_pattern": "Bank PO and UPSC CSAT.",
-"practice_question": "The audience ____ taken their seats. (A) has (B) have",
-"answer": "B"
+"word": "Collective Nouns (Agreement)",
+"meaning_kannada": "ಸಮೂಹವಾಚಕ ನಾಮಪದ ಮತ್ತು ಕ್ರಿಯಾಪದದ ಹೊಂದಾಣಿಕೆ",
+"meaning_english": "Collective nouns take a singular verb when acting as a unit, but a plural verb when members are divided.\n\n• Pattern: United = Singular Verb; Divided = Plural Verb\n• Examples: The jury has given its verdict. / The jury were divided in their opinions.\n• Exam Tip: Look for pronouns 'its' (singular) or 'their' (plural) as a hint.\n• Common Error: Always using singular verbs for collective nouns.",
+"emoji": "⚖️"
 },
 {
-"id": 7,
-"topic": "Numerical Nouns",
-"rule_title": "Fixed numbers (Pair, Dozen, Score)",
-"explanation": "Nouns like pair, dozen, score, hundred, thousand, and million do not take 's' when preceded by a definite number.",
-"formula_or_pattern": "Number + Noun (Singular Form)",
-"examples": [
-"I bought three dozen oranges.",
-"He gave me five hundred rupees."
-],
-"wrong_example": "He spent five thousands rupees.",
-"correct_example": "He spent five thousand rupees.",
-"exam_tip": "If used indefinitely (e.g., 'Thousands of people'), then 's' is required.",
-"common_error": "Saying 'two hundreds' instead of 'two hundred'.",
-"difficulty_level": "Moderate",
-"previous_exam_pattern": "SSC MTS and CGL Tier 1.",
-"practice_question": "He owns several ____ of land. (A) acre (B) acres",
-"answer": "B"
+"word": "Numerical Nouns",
+"meaning_kannada": "ಸಂಖ್ಯಾವಾಚಕ ನಾಮಪದಗಳ ಬಳಕೆ",
+"meaning_english": "Nouns like pair, dozen, score, hundred, and thousand do not take 's' when preceded by a definite number.\n\n• Pattern: Number + Noun (Singular Form)\n• Examples: I bought three dozen oranges. / Five hundred rupees.\n• Exam Tip: If used indefinitely (e.g., 'Thousands of people'), then 's' is required.\n• Common Error: Saying 'two hundreds'.",
+"emoji": "💰"
 },
 {
-"id": 8,
-"topic": "Material Nouns",
-"rule_title": "No articles with material nouns",
-"explanation": "Material nouns (gold, silver, iron, cotton) generally do not take an article (a, an, the) when used in a general sense.",
-"formula_or_pattern": "Material Noun (General) = No Article",
-"examples": [
-"Gold is a precious metal.",
-"Cotton grows in Egypt."
-],
-"wrong_example": "The gold is a precious metal.",
-"correct_example": "Gold is a precious metal.",
-"exam_tip": "Use 'The' only when specifying (e.g., 'The gold of this ring').",
-"common_error": "Using 'the' before every material noun.",
-"difficulty_level": "Easy",
-"previous_exam_pattern": "State PSC and Defense exams.",
-"practice_question": "____ iron is a useful metal. (A) A (B) The (C) No article",
-"answer": "C"
+"word": "Material Nouns",
+"meaning_kannada": "ವಸ್ತುರೂಪದ ನಾಮಪದಗಳು",
+"meaning_english": "Material nouns (gold, silver, iron, cotton) generally do not take an article (a, an, the) when used in a general sense.\n\n• Pattern: Material Noun (General) = No Article\n• Examples: Gold is a precious metal.\n• Exam Tip: Use 'The' only when specifying (e.g., 'The gold of this ring').\n• Common Error: Using 'the' before every material noun.",
+"emoji": "💍"
 },
 {
-"id": 9,
-"topic": "Possessive Nouns (Apostrophe)",
-"rule_title": "Living vs Non-living Possession",
-"explanation": "We use ('s) for living things, but for non-living things, we use the 'of' phrase.",
-"formula_or_pattern": "Living's + thing OR thing + of + Non-living",
-"examples": [
-"Ram's book",
-"The leg of the table"
-],
-"wrong_example": "The table's leg is broken.",
-"correct_example": "The leg of the table is broken.",
-"exam_tip": "Exceptions include personified objects (e.g., 'Nature's laws', 'Duty's call').",
-"common_error": "Applying ('s) to chairs, tables, and fans.",
-"difficulty_level": "Moderate",
-"previous_exam_pattern": "SSC and Insurance exams.",
-"practice_question": "Which is correct? (A) The building's roof (B) The roof of the building",
-"answer": "B"
+"word": "Possessive Nouns (Apostrophe)",
+"meaning_kannada": "ಸಚೇತನ ಮತ್ತು ಅಚೇತನ ವಸ್ತುಗಳ ಮಾಲೀಕತ್ವ",
+"meaning_english": "We use ('s) for living things, but for non-living things, we use the 'of' phrase.\n\n• Pattern: Living's + thing OR thing + of + Non-living\n• Examples: Ram's book / The leg of the table.\n• Exam Tip: Exceptions include personified objects like 'Nature's laws'.\n• Common Error: Using ('s) for tables, chairs, etc.",
+"emoji": "🏠"
 },
 {
-"id": 10,
-"topic": "Possessive Case (Ending in S)",
-"rule_title": "Nouns ending in 's' hiss sound",
-"explanation": "For plural nouns ending in 's', we only add an apostrophe (') without an extra 's'. For singular names ending in 's', both are acceptable but usually just (') is used.",
-"formula_or_pattern": "Plural Noun + '",
-"examples": [
-"Boys' school",
-"Students' hostel"
-],
-"wrong_example": "Boys's school",
-"correct_example": "Boys' school",
-"exam_tip": "Check if the noun is singular or plural before placing the apostrophe.",
-"common_error": "Writing 'Girls's' for a girls' college.",
-"difficulty_level": "Moderate",
-"previous_exam_pattern": "KPSC and Banking exams.",
-"practice_question": "This is a ______ college. (A) Ladies' (B) Lady's (C) Ladies's",
-"answer": "A"
+"word": "Possessive Case (Ending in S)",
+"meaning_kannada": "'S' ಅಕ್ಷರದಿಂದ ಕೊನೆಗೊಳ್ಳುವ ಪದಗಳ ಮಾಲೀಕತ್ವ ರೂಪ",
+"meaning_english": "For plural nouns ending in 's', add only an apostrophe ('). For singular names ending in 's', (') is preferred.\n\n• Pattern: Plural Noun + '\n• Examples: Boys' school, Students' hostel.\n• Exam Tip: Check if the noun is singular or plural before placing the apostrophe.\n• Common Error: Writing 'Boys's' for a boys' school.",
+"emoji": "🏫"
 },
 {
-"id": 11,
-"topic": "Noun Number (Special Cases)",
-"rule_title": "Plural only nouns (Instruments/Dress)",
-"explanation": "Some nouns exist only in plural forms and take plural verbs: Scissors, Trousers, Spectacles, Goggles, Pincers, Alms, Riches.",
-"formula_or_pattern": "Plural Noun + Plural Verb",
-"examples": [
-"My scissors are sharp.",
-"Where are my trousers?"
-],
-"wrong_example": "Your spectacle is very nice.",
-"correct_example": "Your spectacles are very nice.",
-"exam_tip": "To make them singular, use 'A pair of...' (e.g., 'A pair of spectacles is...').",
-"common_error": "Using 'is' with scissors or trousers.",
-"difficulty_level": "Easy",
-"previous_exam_pattern": "Very common in Railway Group D and SSC MTS.",
-"practice_question": "His spectacles _____ been broken. (A) has (B) have",
-"answer": "B"
+"word": "Plural Only Nouns",
+"meaning_kannada": "ಯಾವಾಗಲೂ ಬಹುವಚನದಲ್ಲಿರುವ ಪದಗಳು",
+"meaning_english": "Nouns like Scissors, Trousers, Spectacles, and Alms exist only in plural forms and take plural verbs.\n\n• Pattern: Plural Noun + Plural Verb\n• Examples: My scissors are sharp. / Where are my trousers?\n• Exam Tip: To make them singular, use 'A pair of...'.\n• Common Error: Using 'is' with scissors or spectacles.",
+"emoji": "✂️"
 },
 {
-"id": 12,
-"topic": "Nouns with different meanings (S/No S)",
-"rule_title": "Meaning changes with 's'",
-"explanation": "Some nouns change their meaning entirely when an 's' is added.",
-"formula_or_pattern": "Word (Meaning 1) vs Word+s (Meaning 2)",
-"examples": [
-"Air (Atmosphere) vs Airs (Proud behavior)",
-"Good (Benefit) vs Goods (Movable property)",
-"Iron (Metal) vs Irons (Chains/Fetters)"
-],
-"wrong_example": "The tax was levied on good.",
-"correct_example": "The tax was levied on goods.",
-"exam_tip": "Context is key. 'Wood' is a material; 'Woods' is a forest.",
-"common_error": "Confusing 'Force' (Strength) with 'Forces' (Army).",
-"difficulty_level": "Hard",
-"previous_exam_pattern": "UPSC Prelims and Bank PO Mains.",
-"practice_question": "The prisoner was kept in ***. (A) iron (B) irons",
-"answer": "B"
+"word": "Meaning changes with 'S'",
+"meaning_kannada": "'S' ಸೇರಿಸಿದಾಗ ಅರ್ಥ ಬದಲಾಗುವ ಪದಗಳು",
+"meaning_english": "Some nouns change meaning entirely when an 's' is added.\n\n• Examples: Air (Atmosphere) vs Airs (Proud behavior); Good (Benefit) vs Goods (Movable property).\n• Exam Tip: Context is key. 'Wood' is a material; 'Woods' is a forest.\n• Common Error: Confusing 'Force' (Strength) with 'Forces' (Army).",
+"emoji": "🔄"
 },
 {
-"id": 13,
-"topic": "Hyphenated Nouns",
-"rule_title": "No plural for hyphenated nouns",
-"explanation": "A hyphenated noun acting as an adjective never takes a plural form.",
-"formula_or_pattern": "Number + Hyphen + Noun (Singular)",
-"examples": [
-"A five-rupee note",
-"A ten-mile walk"
-],
-"wrong_example": "He gave me two five-rupees notes.",
-"correct_example": "He gave me two five-rupee notes.",
-"exam_tip": "If the hyphen is missing, you might need a plural (e.g., 'Five rupees').",
-"common_error": "Writing 'Five-years plan' instead of 'Five-year plan'.",
-"difficulty_level": "Moderate",
-"previous_exam_pattern": "SSC CGL and CPO.",
-"practice_question": "Stay in a _____ hotel. (A) five-stars (B) five-star",
-"answer": "B"
+"word": "Hyphenated Nouns",
+"meaning_kannada": "ಹೈಫನ್ ಬಳಸಿದ ನಾಮಪದಗಳು",
+"meaning_english": "A hyphenated noun acting as an adjective never takes a plural form.\n\n• Pattern: Number + Hyphen + Noun (Singular)\n• Examples: A five-rupee note, A ten-mile walk.\n• Exam Tip: If the hyphen is missing, you might need a plural (Five rupees).\n• Common Error: Writing 'Five-years plan'.",
+"emoji": "➖"
 },
 {
-"id": 14,
-"topic": "Proper Nouns",
-"rule_title": "Proper nouns used as Common nouns",
-"explanation": "When a proper noun is used to represent a quality or for comparison, it acts as a common noun and takes 'the'.",
-"formula_or_pattern": "The + Proper Noun (Comparison)",
-"examples": [
-"Kalidas is the Shakespeare of India.",
-"Ahmedabad is the Manchester of India."
-],
-"wrong_example": "He is a Newton of our class.",
-"correct_example": "He is the Newton of our class.",
-"exam_tip": "Regular proper nouns (names of people/places) usually don't take 'the'.",
-"common_error": "Omitting 'the' during a comparison of two famous people.",
-"difficulty_level": "Moderate",
-"previous_exam_pattern": "State PSC and UPSC CSAT.",
-"practice_question": "Kashmir is ____ Switzerland of India. (A) a (B) an (C) the",
-"answer": "C"
+"word": "Proper Nouns as Common Nouns",
+"meaning_kannada": "ಅಂಕಿತನಾಮವನ್ನು ಸಾಮಾನ್ಯನಾಮವಾಗಿ ಬಳಸುವುದು",
+"meaning_english": "When a proper noun represents a quality or comparison, it takes 'the'.\n\n• Pattern: The + Proper Noun (Comparison)\n• Examples: Kalidas is the Shakespeare of India.\n• Exam Tip: Regular proper nouns usually don't take 'the'.\n• Common Error: Omitting 'the' during comparison.",
+"emoji": "🌟"
 },
 {
-"id": 15,
-"topic": "Noun Phrases",
-"rule_title": "One of + Plural Noun",
-"explanation": "The phrase 'One of' is always followed by a plural noun, but the verb remains singular because the subject is 'One'.",
-"formula_or_pattern": "One of + the + Plural Noun + Singular Verb",
-"examples": [
-"One of my friends is a doctor.",
-"One of the books is missing."
-],
-"wrong_example": "One of my friend is a doctor.",
-"correct_example": "One of my friends is a doctor.",
-"exam_tip": "Always check for 's' after 'One of'. This is the most common error.",
-"common_error": "Using a singular noun after 'One of'.",
-"difficulty_level": "Easy",
-"previous_exam_pattern": "Highest frequency in all competitive exams.",
-"practice_question": "One of the _____ was absent. (A) student (B) students",
-"answer": "B"
+"word": "One of + Plural Noun",
+"meaning_kannada": "ಅನೇಕರಲ್ಲಿ ಒಬ್ಬರು ಎಂಬ ಪ್ರಯೋಗ",
+"meaning_english": "The phrase 'One of' is followed by a plural noun, but the verb remains singular.\n\n• Pattern: One of + the + Plural Noun + Singular Verb\n• Examples: One of my friends is a doctor.\n• Exam Tip: This is the most frequent exam error. Always look for the 's' after 'One of'.\n• Common Error: Using a singular noun (One of my friend).",
+"emoji": "☝️"
 },
 {
-"id": 16,
-"topic": "Abstract Nouns",
-"rule_title": "Abstract nouns are singular",
-"explanation": "Abstract nouns (Honesty, Love, Hatred, Knowledge) are uncountable and take singular verbs.",
-"formula_or_pattern": "Abstract Noun + Singular Verb",
-"examples": [
-"Honesty is the best policy.",
-"Knowledge is power."
-],
-"wrong_example": "The honesties shown by him were great.",
-"correct_example": "The honesty shown by him was great.",
-"exam_tip": "You cannot count 'an honesty' or 'two knowledges'.",
-"common_error": "Trying to pluralize feelings or qualities.",
-"difficulty_level": "Easy",
-"previous_exam_pattern": "Basic grammar checks in SSC and Defense.",
-"practice_question": "Her _____ knows no bounds. (A) happiness (B) happinesses",
-"answer": "A"
+"word": "Abstract Nouns",
+"meaning_kannada": "ಭಾವವಾಚಕ ನಾಮಪದಗಳು",
+"meaning_english": "Abstract nouns (Honesty, Love, Knowledge) are uncountable and take singular verbs.\n\n• Pattern: Abstract Noun + Singular Verb\n• Examples: Honesty is the best policy.\n• Exam Tip: You cannot count 'an honesty' or 'two knowledges'.\n• Common Error: Trying to pluralize feelings or qualities.",
+"emoji": "🧠"
 },
 {
-"id": 17,
-"topic": "Noun Gender",
-"rule_title": "Common Gender Nouns",
-"explanation": "Nouns like teacher, student, child, clerk, and doctor are common gender. In formal English, use 'he/him/his' if the gender is unknown.",
-"formula_or_pattern": "Common Noun -> Masculine Pronoun (Standard)",
-"examples": [
-"Every student should do his duty.",
-"A teacher should be honest to his work."
-],
-"wrong_example": "Every student should do their duty. (Informal)",
-"correct_example": "Every student should do his duty.",
-"exam_tip": "In recent years, 'their' is becoming acceptable, but exams still prefer 'his'.",
-"common_error": "Using 'their' with a singular common noun like 'student'.",
-"difficulty_level": "Moderate",
-"previous_exam_pattern": "Banking Mains and UPSC English.",
-"practice_question": "The doctor came to see ____ patient. (A) his (B) their",
-"answer": "A"
+"word": "Common Gender Nouns",
+"meaning_kannada": "ಸಾಮಾನ್ಯ ಲಿಂಗದ ನಾಮಪದಗಳು",
+"meaning_english": "Nouns like teacher, student, or doctor are common gender. In exams, use 'he/his' if gender is unknown.\n\n• Pattern: Common Noun -> Masculine Pronoun (Standard for exams)\n• Examples: Every student should do his duty.\n• Exam Tip: Although 'their' is used in speech, exams prefer 'his'.\n• Common Error: Using 'their' with a singular student.",
+"emoji": "🧑‍🏫"
 },
 {
-"id": 18,
-"topic": "Double Possessive",
-"rule_title": "Avoiding double apostrophe",
-"explanation": "Avoid using two apostrophes in the same sentence back-to-back.",
-"formula_or_pattern": "Noun + of + Noun's",
-"examples": [
-"The son of my friend's secretary.",
-"The wife of my brother's friend."
-],
-"wrong_example": "My friend's secretary's son has come.",
-"correct_example": "The son of my friend's secretary has come.",
-"exam_tip": "Rewrite the sentence using 'of' to make it clearer.",
-"common_error": "Stringing multiple ('s) together.",
-"difficulty_level": "Hard",
-"previous_exam_pattern": "Bank PO and SSC CGL Tier 2.",
-"practice_question": "Which is more appropriate? (A) My brother's friend's car (B) The car of my brother's friend",
-"answer": "B"
+"word": "Double Possessive",
+"meaning_kannada": "ಎರಡು ಬಾರಿ ಮಾಲೀಕತ್ವ ಸೂಚಿಸುವುದನ್ನು ತಪ್ಪಿಸುವುದು",
+"meaning_english": "Avoid using two apostrophes ('s) back-to-back in a sentence.\n\n• Pattern: Noun + of + Noun's\n• Examples: The son of my friend's secretary.\n• Exam Tip: Rewrite using 'of' to make it clearer.\n• Common Error: My friend's secretary's son.",
+"emoji": "🔗"
 },
 {
-"id": 19,
-"topic": "Foreign Plurals",
-"rule_title": "Latin and Greek plurals",
-"explanation": "Some words from Latin/Greek have unique plural endings. (um -> a, is -> es).",
-"formula_or_pattern": "Criterion -> Criteria; Phenomenon -> Phenomena; Basis -> Bases",
-"examples": [
-"Data is/are (Data is plural of Datum).",
-"Crisis is singular, Crises is plural."
-],
-"wrong_example": "All the criterions were met.",
-"correct_example": "All the criteria were met.",
-"exam_tip": "Remember: 'Criteria' and 'Phenomena' are PLURAL. Use plural verbs with them.",
-"common_error": "Using 'criterias' or 'phenomenas'.",
-"difficulty_level": "Hard",
-"previous_exam_pattern": "UPSC and Graduate level exams.",
-"practice_question": "What is the plural of 'Analysis'? (A) Analysises (B) Analyses",
-"answer": "B"
+"word": "Foreign Plurals",
+"meaning_kannada": "ಅನ್ಯಭಾಷಾ ಪದಗಳ ಬಹುವಚನ",
+"meaning_english": "Words from Latin/Greek have unique plural endings (um -> a, is -> es).\n\n• Examples: Criterion -> Criteria; Phenomenon -> Phenomena; Basis -> Bases.\n• Exam Tip: Remember 'Criteria' is PLURAL. Use a plural verb.\n• Common Error: Using 'criterias'.",
+"emoji": "🌍"
 },
 {
-"id": 20,
-"topic": "Noun-Verb Agreement",
-"rule_title": "Amounts and Distances",
-"explanation": "When a plural noun denotes a specific amount, distance, or weight as a single unit, use a singular verb.",
-"formula_or_pattern": "Amount/Distance/Weight + Singular Verb",
-"examples": [
-"Ten miles is a long distance.",
-"Five thousand rupees is a large sum."
-],
-"wrong_example": "Fifty kilos are too heavy for me.",
-"correct_example": "Fifty kilos is too heavy for me.",
-"exam_tip": "If the units are being used individually (e.g., 'Five silver coins'), use a plural verb.",
-"common_error": "Using 'are' with distances and money sums.",
-"difficulty_level": "Moderate",
-"previous_exam_pattern": "Bank Clerk and SSC GD.",
-"practice_question": "Two years ____ a long time to wait. (A) is (B) are",
-"answer": "A"
+"word": "Amounts and Distances",
+"meaning_kannada": "ಮೊತ್ತ ಮತ್ತು ದೂರದ ಉಲ್ಲೇಖ",
+"meaning_english": "When a plural noun denotes a specific amount or distance as a single unit, use a singular verb.\n\n• Pattern: Amount/Distance + Singular Verb\n• Examples: Ten miles is a long distance.\n• Exam Tip: If units are used individually, use a plural verb.\n• Common Error: Using 'are' with money sums.",
+"emoji": "🏃"
 },
 {
-"id": 21,
-"topic": "Countable vs Uncountable (Many/Much)",
-"rule_title": "Quantity vs Number",
-"explanation": "Use 'Many' with countable nouns and 'Much' with uncountable nouns.",
-"formula_or_pattern": "Many + Plural Countable; Much + Uncountable",
-"examples": [
-"Many boys are present.",
-"How much milk do you need?"
-],
-"wrong_example": "I don't have many milk.",
-"correct_example": "I don't have much milk.",
-"exam_tip": "The same applies to 'Few' (Countable) and 'Little' (Uncountable).",
-"common_error": "Using 'many' with money, water, or advice.",
-"difficulty_level": "Easy",
-"previous_exam_pattern": "Common in all entry-level exams.",
-"practice_question": "There isn't _____ sugar in the pot. (A) many (B) much",
-"answer": "B"
+"word": "Many vs Much",
+"meaning_kannada": "ಸಂಖ್ಯೆ ಮತ್ತು ಪ್ರಮಾಣದ ವ್ಯತ್ಯಾಸ",
+"meaning_english": "Use 'Many' with countable nouns and 'Much' with uncountable nouns.\n\n• Pattern: Many + Countable; Much + Uncountable\n• Examples: Many boys / Much milk.\n• Exam Tip: Applies also to 'Few' (Countable) vs 'Little' (Uncountable).\n• Common Error: Using 'many' with water or advice.",
+"emoji": "🥛"
 },
 {
-"id": 22,
-"topic": "Proper Nouns (Article The)",
-"rule_title": "Rivers, Mountains, and Oceans",
-"explanation": "Use 'The' before names of rivers, mountain ranges, oceans, and holy books.",
-"formula_or_pattern": "The + Name of River/Range",
-"examples": [
-"The Ganges is holy.",
-"The Himalayas are in the north."
-],
-"wrong_example": "Mount Everest is the part of Himalayas.",
-"correct_example": "Mount Everest is part of the Himalayas.",
-"exam_tip": "Do not use 'the' before individual peaks (e.g., Mount Everest). Use it for ranges.",
-"common_error": "Omitting 'the' before 'Ganges' or 'Atlantic Ocean'.",
-"difficulty_level": "Easy",
-"previous_exam_pattern": "SSC and State PSC.",
-"practice_question": "*** Nile is the longest river. (A) A (B) The (C) No article",
-"answer": "B"
+"word": "Geographical Proper Nouns",
+"meaning_kannada": "ಭೌಗೋಳಿಕ ಸ್ಥಳಗಳ ಮುಂದೆ 'The' ಬಳಕೆ",
+"meaning_english": "Use 'The' before names of rivers, mountain ranges, and oceans.\n\n• Examples: The Ganges, The Himalayas.\n• Exam Tip: Do not use 'the' before individual peaks like Mount Everest.\n• Common Error: Omitting 'the' before 'Ganges'.",
+"emoji": "🏔️"
 },
 {
-"id": 23,
-"topic": "One-Word Substitutions (Nouns)",
-"rule_title": "Groups of People/Things",
-"explanation": "Competitive exams often ask for the specific collective noun for groups.",
-"formula_or_pattern": "A [Collective Noun] of [Common Noun]",
-"examples": [
-"A flock of sheep.",
-"A pride of lions."
-],
-"wrong_example": "A group of keys.",
-"correct_example": "A bunch of keys.",
-"exam_tip": "Memorize common ones like 'A shoal of fish' or 'A constellation of stars'.",
-"common_error": "Using 'group' for everything.",
-"difficulty_level": "Moderate",
-"previous_exam_pattern": "One-word substitution sections in SSC and Defence.",
-"practice_question": "A group of sailors is called a: (A) Team (B) Crew (C) Fleet",
-"answer": "B"
+"word": "Group Names (One-Word)",
+"meaning_kannada": "ಸಮೂಹವಾಚಕಗಳ ಏಕಪದ ಬಳಕೆ",
+"meaning_english": "Exams often ask for specific collective nouns for groups.\n\n• Examples: A flock of sheep, A pride of lions, A crew of sailors.\n• Exam Tip: Memorize specific terms like 'shoal' for fish or 'constellation' for stars.\n• Common Error: Using 'group' for every collection.",
+"emoji": "🦁"
 },
 {
-"id": 24,
-"topic": "Noun Number (Words ending in -ful)",
-"rule_title": "Pluralizing words like Handful",
-"explanation": "To make nouns ending in '-ful' plural, add 's' at the end of the whole word.",
-"formula_or_pattern": "Noun + ful + s",
-"examples": [
-"Handfuls",
-"Spoonfuls"
-],
-"wrong_example": "He took two spoonsful of sugar.",
-"correct_example": "He took two spoonfuls of sugar.",
-"exam_tip": "This is different from compound nouns like 'Brothers-in-law'.",
-"common_error": "Writing 'handsful' or 'cupsful'.",
-"difficulty_level": "Moderate",
-"previous_exam_pattern": "SSC and Railways.",
-"practice_question": "The doctor advised two _____ of medicine. (A) mouthfuls (B) mouthsful",
-"answer": "A"
+"word": "Nouns ending in '-ful'",
+"meaning_kannada": "'-ful' ಇಂದ ಕೊನೆಗೊಳ್ಳುವ ಪದಗಳ ಬಹುವಚನ",
+"meaning_english": "To make nouns ending in '-ful' plural, add 's' at the very end.\n\n• Pattern: Noun + ful + s\n• Examples: Handfuls, Spoonfuls.\n• Exam Tip: This differs from compound nouns like 'Brothers-in-law'.\n• Common Error: Writing 'spoonsful'.",
+"emoji": "🥄"
 },
 {
-"id": 25,
-"topic": "Abstract Nouns (Article usage)",
-"rule_title": "The + Abstract Noun + of",
-"explanation": "Usually abstract nouns don't take an article, but when followed by 'of', they take 'the'.",
-"formula_or_pattern": "The + Abstract Noun + of + [Person/Thing]",
-"examples": [
-"The honesty of Ram is praised by all.",
-"The bravery of the soldiers won the war."
-],
-"wrong_example": "Honesty of Ram is known to all.",
-"correct_example": "The honesty of Ram is known to all.",
-"exam_tip": "General: 'Honesty is best'. Specific: 'The honesty of...'",
-"common_error": "Missing 'the' when defining a specific person's quality.",
-"difficulty_level": "Moderate",
-"previous_exam_pattern": "Banking and Insurance exams.",
-"practice_question": "____ courage shown by the boy was amazing. (A) A (B) The (C) No article",
-"answer": "B"
-},
-{
-"id": 26,
-"topic": "Common Errors (Usage)",
-"rule_title": "Cousin brother/sister",
-"explanation": "In English, we only use 'cousin'. Using 'brother' or 'sister' with it is redundant and wrong.",
-"formula_or_pattern": "Cousin (Correct) vs Cousin brother (Incorrect)",
-"examples": [
-"He is my cousin.",
-"She is my cousin."
-],
-"wrong_example": "Ram is my cousin brother.",
-"correct_example": "Ram is my cousin.",
-"exam_tip": "The gender is understood from the name (Ram/Sita) or the pronoun (He/She).",
-"common_error": "Saying 'Cousin sister' for a female cousin.",
-"difficulty_level": "Easy",
-"previous_exam_pattern": "Spoken English errors in SSC and KPSC.",
-"practice_question": "Is she your _____? (A) cousin (B) cousin sister",
-"answer": "A"
-},
-{
-"id": 27,
-"topic": "Noun Number (Apparatus/News)",
-"rule_title": "Singular words that look plural",
-"explanation": "Words like News, Series, Innings, and Gallows look plural but are used as singular.",
-"formula_or_pattern": "News/Innings + Singular Verb",
-"examples": [
-"The news is true.",
-"The first innings is over."
-],
-"wrong_example": "These news are fake.",
-"correct_example": "This news is fake.",
-"exam_tip": "Even 'two innings' is correct, but 'one innings' is also correct (not 'one inning').",
-"common_error": "Using 'are' with 'News'.",
-"difficulty_level": "Moderate",
-"previous_exam_pattern": "Banking and Railway exams.",
-"practice_question": "The first innings ____ just finished. (A) has (B) have",
-"answer": "A"
-},
-{
-"id": 28,
-"topic": "Material Nouns (Exception)",
-"rule_title": "Fish as Countable/Uncountable",
-"explanation": "When referring to fish as food/collection, use 'fish'. When referring to different species, use 'fishes'.",
-"formula_or_pattern": "Food = Fish; Species = Fishes",
-"examples": [
-"There are many fish in the pond.",
-"There are various fishes in the aquarium."
-],
-"wrong_example": "I ate two fishes today.",
-"correct_example": "I ate two fish today.",
-"exam_tip": "In most exam cases, 'fish' is used as the plural form.",
-"common_error": "Always using 'fishes' as the plural of fish.",
-"difficulty_level": "Hard",
-"previous_exam_pattern": "UPSC and SSC Graduate Level.",
-"practice_question": "The aquarium has many colorful ____. (A) fish (B) fishes",
-"answer": "B"
-},
-{
-"id": 29,
-"topic": "Common Noun Errors",
-"rule_title": "Word 'Work'",
-"explanation": "'Work' as an uncountable noun means labor. 'Works' means literary/artistic pieces or a factory.",
-"formula_or_pattern": "Work (Labor) vs Works (Literary pieces)",
-"examples": [
-"I have a lot of work to do.",
-"I have read the works of Shakespeare."
-],
-"wrong_example": "I have many works to finish today.",
-"correct_example": "I have a lot of work to finish today.",
-"exam_tip": "To make it countable, say 'A piece of work'.",
-"common_error": "Saying 'many works' when referring to daily tasks.",
-"difficulty_level": "Moderate",
-"previous_exam_pattern": "Banking and Insurance exams.",
-"practice_question": "She has much _____ to do. (A) work (B) works",
-"answer": "A"
-},
-{
-"id": 30,
-"topic": "Possessive Case (Joint vs Separate)",
-"rule_title": "Joint Possession",
-"explanation": "If two people own the same thing, add ('s) only to the second name. If they own different things, add ('s) to both.",
-"formula_or_pattern": "A and B's [Joint] vs A's and B's [Separate]",
-"examples": [
-"Ram and Shyam's house (One house).",
-"Ram's and Shyam's houses (Two separate houses)."
-],
-"wrong_example": "Ram's and Shyam's father is a doctor.",
-"correct_example": "Ram and Shyam's father is a doctor. (Assuming they are brothers)",
-"exam_tip": "If the noun following is singular, it's usually joint possession.",
-"common_error": "Using ('s) on both names for a shared object.",
-"difficulty_level": "Hard",
-"previous_exam_pattern": "Bank PO Mains and SSC Tier 2.",
-"practice_question": "This is ____ school. (A) Ram and Sita's (B) Ram's and Sita's",
-"answer": "A"
+"word": "Specific Abstract Nouns",
+"meaning_kannada": "ನಿರ್ದಿಷ್ಟ ಭಾವವಾಚಕ ನಾಮಪದಕ್ಕೆ 'The' ಬಳಕೆ",
+"meaning_english": "Usually abstract nouns don't take an article, but when followed by 'of', they take 'the'.\n\n• Pattern: The + Abstract Noun + of + Person\n• Examples: The honesty of Ram is praised.\n• Exam Tip: General: 'Honesty is best'. Specific: 'The honesty of...'.\n• Common Error: Missing 'the' in specific contexts.",
+"emoji": "🎖️"
 }
 ]
-}
