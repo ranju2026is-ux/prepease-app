@@ -1,0 +1,92 @@
+[
+  {
+    "word": "The Basic Rule",
+    "meaning_kannada": "ಏಕವಚನ ಕರ್ತೃಪದಕ್ಕೆ ಏಕವಚನ ಕ್ರಿಯಾಪದ, ಬಹುವಚನಕ್ಕೆ ಬಹುವಚನ ಕ್ರಿಯಾಪದ.",
+    "meaning_english": "A singular subject takes a singular verb, and a plural subject takes a plural verb.\n\n• Singular: The dog *barks*.\n• Plural: The dogs *bark*.",
+    "emoji": "📏"
+  },
+  {
+    "word": "Compound Subjects (And)",
+    "meaning_kannada": "ಎರಡು ಕರ್ತೃಪದಗಳನ್ನು 'And' ನಿಂದ ಜೋಡಿಸಿದಾಗ ಬಹುವಚನ ಕ್ರಿಯಾಪದ ಬಳಸಿ.",
+    "meaning_english": "When two or more subjects are joined by 'and', use a plural verb.\n\n• Example: Ravi and Somu *are* playing chess.",
+    "emoji": "➕"
+  },
+  {
+    "word": "Single Idea Units",
+    "meaning_kannada": "ಎರಡು ಪದಗಳು ಸೇರಿ ಒಂದು ವ್ಯಕ್ತಿ ಅಥವಾ ಒಂದು ಕಲ್ಪನೆಯನ್ನು ಸೂಚಿಸಿದರೆ ಏಕವಚನ ಕ್ರಿಯಾಪದ ಬಳಸಿ.",
+    "meaning_english": "If two nouns joined by 'and' represent a single person or a single idea, use a singular verb.\n\n• Example: Bread and butter *is* my favorite breakfast.\n• Example: Time and tide *waits* for none.",
+    "emoji": "🍳"
+  },
+  {
+    "word": "Proximity Rule (Or/Nor)",
+    "meaning_kannada": "'Or', 'Nor', 'Either...or', 'Neither...nor' ಬಂದಾಗ ಕ್ರಿಯಾಪದವು ಹತ್ತಿರದ ಕರ್ತೃಪದಕ್ಕೆ ಅನುಗುಣವಾಗಿರಬೇಕು.",
+    "meaning_english": "When subjects are joined by 'or' or 'nor', the verb agrees with the subject closest to it.\n\n• Example: Neither the manager nor the *employees are* happy.",
+    "emoji": "⚖️"
+  },
+  {
+    "word": "Indefinite Pronouns (Singular)",
+    "meaning_kannada": "Each, Every, Everyone, Someone, Nobody ನಂತಹ ಪದಗಳು ಯಾವಾಗಲೂ ಏಕವಚನ ಕ್ರಿಯಾಪದವನ್ನೇ ತೆಗೆದುಕೊಳ್ಳುತ್ತವೆ.",
+    "meaning_english": "Words like Each, Every, Everyone, Someone, Anyone, and Nobody are always singular.\n\n• Example: Each of the students *was* rewarded.",
+    "emoji": "☝️"
+  },
+  {
+    "word": "The 'With' Phrases",
+    "meaning_kannada": "'As well as', 'With', 'Along with', 'Together with' ಬಂದಾಗ ಕ್ರಿಯಾಪದವು ಮೊದಲ ಕರ್ತೃಪದವನ್ನು ಅನುಸರಿಸುತ್ತದೆ.",
+    "meaning_english": "Phrases like 'as well as', 'with', and 'along with' do not change the number of the subject. Agree the verb with the first subject.\n\n• Example: The King, with all his ministers, *was* present.",
+    "emoji": "👥"
+  },
+  {
+    "word": "Collective Nouns",
+    "meaning_kannada": "ಸಮೂಹ ನಾಮಪದಗಳು ಒಂದು ಘಟಕವಾಗಿ ಕೆಲಸ ಮಾಡಿದರೆ ಏಕವಚನ, ವಿಭಜನೆಯಾದರೆ ಬಹುವಚನ ಕ್ರಿಯಾಪದ ಬಳಸಿ.",
+    "meaning_english": "Collective nouns (Jury, Committee, Team) take a singular verb when acting as a unit, and a plural verb when members act individually.\n\n• Unit: The jury *has* given its verdict.\n• Divided: The jury *were* divided in their opinions.",
+    "emoji": "🏛️"
+  },
+  {
+    "word": "Amounts and Measurements",
+    "meaning_kannada": "ಹಣ, ಸಮಯ ಅಥವಾ ದೂರವನ್ನು ಒಂದು ಮೊತ್ತವಾಗಿ ಹೇಳುವಾಗ ಏಕವಚನ ಕ್ರಿಯಾಪದ ಬಳಸಿ.",
+    "meaning_english": "Sums of money, periods of time, or distances are usually treated as singular units.\n\n• Example: Ten kilometers *is* a long distance to walk.",
+    "emoji": "💰"
+  },
+  {
+    "word": "The 'A Number' vs 'The Number'",
+    "meaning_kannada": "'A number of' ಬಹುವಚನ, 'The number of' ಏಕವಚನ ಕ್ರಿಯಾಪದವನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತದೆ.",
+    "meaning_english": "'A number of' is plural, while 'The number of' is singular.\n\n• Example: A number of students *have* failed.\n• Example: The number of students *is* fifty.",
+    "emoji": "🔢"
+  },
+  {
+    "word": "Many a Rule",
+    "meaning_kannada": "'Many a' ನಂತರ ಏಕವಚನ ನಾಮಪದ ಮತ್ತು ಏಕವಚನ ಕ್ರಿಯಾಪದ ಬರಬೇಕು.",
+    "meaning_english": "'Many a' is always followed by a singular noun and a singular verb.\n\n• Example: Many a man *has* lost his life in the war.",
+    "emoji": "🎖️"
+  },
+  {
+    "word": "Plural in Form, Singular in Meaning",
+    "meaning_kannada": "ಕೆಲವು ವಿಷಯಗಳ ಹೆಸರುಗಳು (Physics, News) ನೋಡಲು ಬಹುವಚನದಂತಿದ್ದರೂ ಏಕವಚನ ಕ್ರಿಯಾಪದ ತೆಗೆದುಕೊಳ್ಳುತ್ತವೆ.",
+    "meaning_english": "Nouns plural in form but singular in meaning (Physics, Economics, News, Mathematics) take a singular verb.\n\n• Example: The news *is* too good to be true.",
+    "emoji": "📺"
+  },
+  {
+    "word": "The 'One of the' Rule",
+    "meaning_kannada": "'One of the' ನಂತರ ನಾಮಪದ ಬಹುವಚನವಿರಲಿ, ಆದರೆ ಕ್ರಿಯಾಪದ ಏಕವಚನವಿರಲಿ.",
+    "meaning_english": "After 'One of the', use a plural noun but a singular verb.\n\n• Example: One of my friends *is* a doctor.",
+    "emoji": "👨‍⚕️"
+  },
+  {
+    "word": "Relative Pronouns",
+    "meaning_kannada": "Who, Which, That ಬಂದಾಗ ಅವುಗಳ ಹಿಂದಿರುವ ಪದಕ್ಕೆ (Antecedent) ಅನುಗುಣವಾಗಿ ಕ್ರಿಯಾಪದವಿರಲಿ.",
+    "meaning_english": "The verb after 'Who/Which/That' depends on the noun that comes before it.\n\n• Example: It is I who *am* to blame.",
+    "emoji": "🔗"
+  },
+  {
+    "word": "Wish and Hypothetical (Subjunctive)",
+    "meaning_kannada": "ಕಲ್ಪನೆ ಅಥವಾ ಇಚ್ಛೆಯನ್ನು ವ್ಯಕ್ತಪಡಿಸುವಾಗ ಎಲ್ಲಾ ಕರ್ತೃಗಳಿಗೂ 'Were' ಬಳಸಿ.",
+    "meaning_english": "In sentences expressing a wish or imaginary situation, use 'were' regardless of the subject.\n\n• Example: If I *were* a bird, I would fly.",
+    "emoji": "🕊️"
+  },
+  {
+    "word": "Uncountable Nouns",
+    "meaning_kannada": "ಲೆಕ್ಕ ಮಾಡಲಾಗದ ನಾಮಪದಗಳು (Furniture, Information) ಏಕವಚನ ಕ್ರಿಯಾಪದವನ್ನೇ ತೆಗೆದುಕೊಳ್ಳುತ್ತವೆ.",
+    "meaning_english": "Uncountable nouns like furniture, luggage, information, and scenery always take a singular verb.\n\n• Example: All the furniture *is* new.",
+    "emoji": "🛏️"
+  }
+]
