@@ -1,0 +1,332 @@
+[
+  {
+    "question": "I made him _____ the whole room.",
+    "options": [
+      "clean",
+      "to clean",
+      "cleaned",
+      "cleaning"
+    ],
+    "answer": "clean",
+    "explanation": "After the causative verb 'make', we use the bare infinitive (V1 without 'to'). ✅"
+  },
+  {
+    "question": "She got her brother _____ her homework.",
+    "options": [
+      "do",
+      "to do",
+      "done",
+      "doing"
+    ],
+    "answer": "to do",
+    "explanation": "Unlike 'make', the causative verb 'get' is followed by a full infinitive (to + V1). ✅"
+  },
+  {
+    "question": "I had the mechanic _____ my car.",
+    "options": [
+      "repair",
+      "to repair",
+      "repaired",
+      "repairing"
+    ],
+    "answer": "repair",
+    "explanation": "When 'have' is used causatively with a person (active), it takes the V1 form. ✅"
+  },
+  {
+    "question": "I had my car _____ by the mechanic.",
+    "options": [
+      "repair",
+      "to repair",
+      "repaired",
+      "repairing"
+    ],
+    "answer": "repaired",
+    "explanation": "When 'have' is used with an object (passive), it takes the V3 (past participle) form. ✅"
+  },
+  {
+    "question": "My father let me _____ his new bike.",
+    "options": [
+      "ride",
+      "to ride",
+      "ridden",
+      "riding"
+    ],
+    "answer": "ride",
+    "explanation": "After 'let', we always use the bare infinitive. ✅"
+  },
+  {
+    "question": "He helped me _____ the heavy box.",
+    "options": [
+      "lift",
+      "to lift",
+      "lifted",
+      "Both A and B"
+    ],
+    "answer": "Both A and B",
+    "explanation": "'Help' is unique; it can be followed by either a bare infinitive or a full infinitive. ✅"
+  },
+  {
+    "question": "The teacher made the students _____ the poem.",
+    "options": [
+      "recite",
+      "to recite",
+      "recited",
+      "reciting"
+    ],
+    "answer": "recite",
+    "explanation": "Causative 'make' + person + V1. ✅"
+  },
+  {
+    "question": "She got her hair _____ yesterday.",
+    "options": [
+      "cut",
+      "to cut",
+      "cutting",
+      "cuts"
+    ],
+    "answer": "cut",
+    "explanation": "Causative 'get' + object + V3. (V3 of cut is cut). ✅"
+  },
+  {
+    "question": "Please have your assistant _____ me the files.",
+    "options": [
+      "send",
+      "to send",
+      "sent",
+      "sending"
+    ],
+    "answer": "send",
+    "explanation": "Causative 'have' + person + V1. ✅"
+  },
+  {
+    "question": "The sad movie made me _____.",
+    "options": [
+      "cry",
+      "to cry",
+      "cried",
+      "crying"
+    ],
+    "answer": "cry",
+    "explanation": "'Make' expresses an emotional reaction without 'to'. ✅"
+  },
+  {
+    "question": "I finally got the computer _____ properly.",
+    "options": [
+      "work",
+      "to work",
+      "worked",
+      "working"
+    ],
+    "answer": "to work",
+    "explanation": "'Get' requires 'to' when referring to the action. ✅"
+  },
+  {
+    "question": "Don't let the fire _____ out.",
+    "options": [
+      "go",
+      "to go",
+      "gone",
+      "going"
+    ],
+    "answer": "go",
+    "explanation": "Causative 'let' + V1. ✅"
+  },
+  {
+    "question": "I must have my eyes _____.",
+    "options": [
+      "test",
+      "to test",
+      "tested",
+      "testing"
+    ],
+    "answer": "tested",
+    "explanation": "Passive causative: having something done by someone else. ✅"
+  },
+  {
+    "question": "He made the dog _____ through the hoop.",
+    "options": [
+      "jump",
+      "to jump",
+      "jumped",
+      "jumping"
+    ],
+    "answer": "jump",
+    "explanation": "'Make' + V1. ✅"
+  },
+  {
+    "question": "Can you help me _____ this application?",
+    "options": [
+      "fill",
+      "to fill",
+      "filled",
+      "Both A and B"
+    ],
+    "answer": "Both A and B",
+    "explanation": "'Help' works with both forms. ✅"
+  },
+  {
+    "question": "She had the waiter _____ the table.",
+    "options": [
+      "clear",
+      "to clear",
+      "cleared",
+      "clearing"
+    ],
+    "answer": "clear",
+    "explanation": "Active causative 'have' + V1. ✅"
+  },
+  {
+    "question": "We should get the house _____ before the festival.",
+    "options": [
+      "paint",
+      "to paint",
+      "painted",
+      "painting"
+    ],
+    "answer": "painted",
+    "explanation": "Passive causative 'get' + object + V3. ✅"
+  },
+  {
+    "question": "The police made the thief _____ the truth.",
+    "options": [
+      "speak",
+      "to speak",
+      "spoken",
+      "speaking"
+    ],
+    "answer": "speak",
+    "explanation": "Forceful 'make' + V1. ✅"
+  },
+  {
+    "question": "I'll let you _____ my car if you are careful.",
+    "options": [
+      "drive",
+      "to drive",
+      "driven",
+      "driving"
+    ],
+    "answer": "drive",
+    "explanation": "'Let' + V1. ✅"
+  },
+  {
+    "question": "How did you get him _____ to the party?",
+    "options": [
+      "come",
+      "to come",
+      "came",
+      "coming"
+    ],
+    "answer": "to come",
+    "explanation": "Persuasive 'get' + to + V1. ✅"
+  },
+  {
+    "question": "The teacher had the class _____ the essay.",
+    "options": [
+      "write",
+      "to write",
+      "written",
+      "writing"
+    ],
+    "answer": "write",
+    "explanation": "Active 'have' + V1. ✅"
+  },
+  {
+    "question": "She made herself _____ by speaking loudly.",
+    "options": [
+      "hear",
+      "to hear",
+      "heard",
+      "hearing"
+    ],
+    "answer": "heard",
+    "explanation": "Reflexive passive: 'make + oneself + V3'. ✅"
+  },
+  {
+    "question": "Help your mother _____ the dishes.",
+    "options": [
+      "wash",
+      "to wash",
+      "washed",
+      "Both A and B"
+    ],
+    "answer": "Both A and B",
+    "explanation": "Standard usage of 'help'. ✅"
+  },
+  {
+    "question": "I got my watch _____ at the shop.",
+    "options": [
+      "repair",
+      "to repair",
+      "repaired",
+      "repairing"
+    ],
+    "answer": "repaired",
+    "explanation": "Passive causative 'get' + V3. ✅"
+  },
+  {
+    "question": "The manager had the report _____ immediately.",
+    "options": [
+      "type",
+      "typed",
+      "to type",
+      "typing"
+    ],
+    "answer": "typed",
+    "explanation": "Passive 'have' + object + V3. ✅"
+  },
+  {
+    "question": "Don't make me _____.",
+    "options": [
+      "laugh",
+      "to laugh",
+      "laughed",
+      "laughing"
+    ],
+    "answer": "laugh",
+    "explanation": "'Make' + V1. ✅"
+  },
+  {
+    "question": "We had our photos _____ near the monument.",
+    "options": [
+      "take",
+      "took",
+      "taken",
+      "taking"
+    ],
+    "answer": "taken",
+    "explanation": "V3 form required for passive causative. ✅"
+  },
+  {
+    "question": "Let's _____ for a walk.",
+    "options": [
+      "go",
+      "to go",
+      "going",
+      "gone"
+    ],
+    "answer": "go",
+    "explanation": "'Let's' is a contraction of 'Let us', so it follows the 'let' rule (V1). ✅"
+  },
+  {
+    "question": "Did you get the letter _____?",
+    "options": [
+      "post",
+      "posted",
+      "to post",
+      "posting"
+    ],
+    "answer": "posted",
+    "explanation": "Passive 'get' + V3. ✅"
+  },
+  {
+    "question": "The supervisor had the workers _____ overtime.",
+    "options": [
+      "work",
+      "to work",
+      "worked",
+      "working"
+    ],
+    "answer": "work",
+    "explanation": "Active 'have' + V1. ✅"
+  }
+]
