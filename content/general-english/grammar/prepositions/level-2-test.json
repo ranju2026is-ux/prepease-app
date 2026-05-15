@@ -1,0 +1,332 @@
+[
+  {
+    "question": "The meeting will start _____ the afternoon.",
+    "options": [
+      "at",
+      "on",
+      "in",
+      "to"
+    ],
+    "answer": "in",
+    "explanation": "We use 'in' for periods of the day (in the morning, in the afternoon, in the evening). Exception: 'at night'. ✅"
+  },
+  {
+    "question": "I usually go for a walk _____ night.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "by"
+    ],
+    "answer": "at",
+    "explanation": "While we use 'in' for morning/afternoon, we always use 'at' for 'night'. ✅"
+  },
+  {
+    "question": "We are going to celebrate Christmas _____ 25th December.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "since"
+    ],
+    "answer": "on",
+    "explanation": "For specific dates and days, 'on' is the correct preposition. ✅"
+  },
+  {
+    "question": "The park is situated _____ the end of the street.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "to"
+    ],
+    "answer": "at",
+    "explanation": "'At the end' is a prepositional phrase used for a specific point. ✅"
+  },
+  {
+    "question": "He arrived _____ India last month.",
+    "options": [
+      "at",
+      "in",
+      "to",
+      "into"
+    ],
+    "answer": "in",
+    "explanation": "We use 'arrive in' for large places like countries and cities. ✅"
+  },
+  {
+    "question": "The train arrived _____ the station ten minutes late.",
+    "options": [
+      "at",
+      "in",
+      "to",
+      "on"
+    ],
+    "answer": "at",
+    "explanation": "We use 'arrive at' for specific locations like stations, airports, or buildings. ✅"
+  },
+  {
+    "question": "I prefer to stay _____ home during the weekend.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "to"
+    ],
+    "answer": "at",
+    "explanation": "The standard phrase is 'at home'. ✅"
+  },
+  {
+    "question": "There is a fly _____ the ceiling.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "above"
+    ],
+    "answer": "on",
+    "explanation": "'On' is used for any surface contact, even if it's upside down like a ceiling. ✅"
+  },
+  {
+    "question": "The keys are hanging _____ the hook.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "from"
+    ],
+    "answer": "on",
+    "explanation": "Position on a point of contact like a hook takes 'on'. ✅"
+  },
+  {
+    "question": "He has been waiting _____ the bus stop for an hour.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "answer": "at",
+    "explanation": "'At' indicates a specific point in space. ✅"
+  },
+  {
+    "question": "My house is _____ the bank and the school.",
+    "options": [
+      "among",
+      "beside",
+      "between",
+      "next"
+    ],
+    "answer": "between",
+    "explanation": "Used for two specific landmarks. ✅"
+  },
+  {
+    "question": "I saw a beautiful bird _____ the tree.",
+    "options": [
+      "on",
+      "at",
+      "in",
+      "above"
+    ],
+    "answer": "in",
+    "explanation": "If the bird is among the branches/leaves, we use 'in'. If it's just on a branch, 'on' is possible, but 'in the tree' is the standard exam answer. ✅"
+  },
+  {
+    "question": "She is sitting _____ the front of the car.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "to"
+    ],
+    "answer": "in",
+    "explanation": "For being inside the interior of a car, we use 'in'. ✅"
+  },
+  {
+    "question": "He lives _____ the second floor of the building.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "to"
+    ],
+    "answer": "on",
+    "explanation": "We use 'on' for floor levels. ✅"
+  },
+  {
+    "question": "The mouse ran _____ the hole.",
+    "options": [
+      "in",
+      "into",
+      "on",
+      "at"
+    ],
+    "answer": "into",
+    "explanation": "Movement from an open space into an enclosed one. ✅"
+  },
+  {
+    "question": "I'll be ready _____ five minutes.",
+    "options": [
+      "at",
+      "on",
+      "in",
+      "for"
+    ],
+    "answer": "in",
+    "explanation": "To indicate a time in the future from now, we use 'in'. ✅"
+  },
+  {
+    "question": "They were standing _____ the middle of the road.",
+    "options": [
+      "at",
+      "on",
+      "in",
+      "to"
+    ],
+    "answer": "in",
+    "explanation": "Standard phrase: 'in the middle'. ✅"
+  },
+  {
+    "question": "He hit the ball _____ the fence.",
+    "options": [
+      "over",
+      "above",
+      "on",
+      "at"
+    ],
+    "answer": "over",
+    "explanation": "Movement across and above a barrier. ✅"
+  },
+  {
+    "question": "The cat crawled _____ the blanket.",
+    "options": [
+      "under",
+      "below",
+      "beneath",
+      "All of the above"
+    ],
+    "answer": "under",
+    "explanation": "When something is covered by another thing, 'under' is most common. ✅"
+  },
+  {
+    "question": "He is _____ the phone right now.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "with"
+    ],
+    "answer": "on",
+    "explanation": "We use 'on' for electronic media and communication devices. ✅"
+  },
+  {
+    "question": "I read it _____ a newspaper.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "by"
+    ],
+    "answer": "in",
+    "explanation": "Content inside a publication like a book or newspaper takes 'in'. ✅"
+  },
+  {
+    "question": "She works _____ Saturdays.",
+    "options": [
+      "at",
+      "in",
+      "on",
+      "for"
+    ],
+    "answer": "on",
+    "explanation": "'On' for days of the week. ✅"
+  },
+  {
+    "question": "The village is _____ the hills.",
+    "options": [
+      "between",
+      "among",
+      "along",
+      "across"
+    ],
+    "answer": "among",
+    "explanation": "Surrounded by more than two hills. ✅"
+  },
+  {
+    "question": "He walked _____ the hallway.",
+    "options": [
+      "along",
+      "among",
+      "between",
+      "at"
+    ],
+    "answer": "along",
+    "explanation": "'Along' means moving in a line next to or through a long space. ✅"
+  },
+  {
+    "question": "I am standing _____ the door.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "to"
+    ],
+    "answer": "at",
+    "explanation": "Indicates a specific point of location. ✅"
+  },
+  {
+    "question": "The plane is flying _____ the city.",
+    "options": [
+      "over",
+      "on",
+      "at",
+      "in"
+    ],
+    "answer": "over",
+    "explanation": "Moving above the city. ✅"
+  },
+  {
+    "question": "Put the stamp _____ the envelope.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "to"
+    ],
+    "answer": "on",
+    "explanation": "Surface of the envelope. ✅"
+  },
+  {
+    "question": "I live _____ 4th Cross, Vijayanagar.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "to"
+    ],
+    "answer": "at",
+    "explanation": "For specific street addresses or exact points, 'at' is used. ✅"
+  },
+  {
+    "question": "He has been ill _____ a long time.",
+    "options": [
+      "since",
+      "for",
+      "from",
+      "in"
+    ],
+    "answer": "for",
+    "explanation": "'A long time' is a duration/period. ✅"
+  },
+  {
+    "question": "The answer is given _____ the bottom of the page.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "to"
+    ],
+    "answer": "at",
+    "explanation": "Specific point on a page: 'at the bottom'. ✅"
+  }
+]
