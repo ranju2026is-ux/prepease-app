@@ -1,0 +1,332 @@
+[
+  {
+    "question": "The meeting was _____ because of the heavy rain.",
+    "options": [
+      "called off",
+      "called out",
+      "called for",
+      "called in"
+    ],
+    "answer": "called off",
+    "explanation": "'Call off' means to cancel something. ✅"
+  },
+  {
+    "question": "She _____ her grandmother when she was ill.",
+    "options": [
+      "looked for",
+      "looked after",
+      "looked into",
+      "looked at"
+    ],
+    "answer": "looked after",
+    "explanation": "'Look after' means to take care of someone. ✅"
+  },
+  {
+    "question": "Never _____ till tomorrow what you can do today.",
+    "options": [
+      "put off",
+      "put out",
+      "put up",
+      "put on"
+    ],
+    "answer": "put off",
+    "explanation": "'Put off' means to postpone or delay an action. ✅"
+  },
+  {
+    "question": "The firemen managed to _____ the fire after two hours.",
+    "options": [
+      "put out",
+      "put off",
+      "put on",
+      "put away"
+    ],
+    "answer": "put out",
+    "explanation": "'Put out' means to extinguish or stop a fire. ✅"
+  },
+  {
+    "question": "I am _____ my lost keys.",
+    "options": [
+      "looking after",
+      "looking for",
+      "looking into",
+      "looking up"
+    ],
+    "answer": "looking for",
+    "explanation": "'Look for' means to search for something. ✅"
+  },
+  {
+    "question": "Please _____ your shoes before entering the temple.",
+    "options": [
+      "take off",
+      "take out",
+      "take up",
+      "take in"
+    ],
+    "answer": "take off",
+    "explanation": "'Take off' means to remove something (like clothing or shoes). ✅"
+  },
+  {
+    "question": "He _____ a new business last month.",
+    "options": [
+      "set up",
+      "set out",
+      "set in",
+      "set off"
+    ],
+    "answer": "set up",
+    "explanation": "'Set up' means to establish or start a business/organization. ✅"
+  },
+  {
+    "question": "The police are _____ the murder case.",
+    "options": [
+      "looking for",
+      "looking into",
+      "looking after",
+      "looking up"
+    ],
+    "answer": "looking into",
+    "explanation": "'Look into' means to investigate. ✅"
+  },
+  {
+    "question": "You must _____ smoking for your health.",
+    "options": [
+      "give up",
+      "give in",
+      "give out",
+      "give away"
+    ],
+    "answer": "give up",
+    "explanation": "'Give up' means to stop a habit or quit. ✅"
+  },
+  {
+    "question": "I cannot _____ his rude behavior anymore.",
+    "options": [
+      "put up with",
+      "put off",
+      "put out",
+      "put on"
+    ],
+    "answer": "put up with",
+    "explanation": "'Put up with' means to tolerate something or someone. ✅"
+  },
+  {
+    "question": "The plane _____ exactly at 10 AM.",
+    "options": [
+      "took off",
+      "took out",
+      "took in",
+      "took up"
+    ],
+    "answer": "took off",
+    "explanation": "'Take off' also means when an aircraft leaves the ground. ✅"
+  },
+  {
+    "question": "Please _____ the dictionary for the meaning of this word.",
+    "options": [
+      "look up",
+      "look for",
+      "look at",
+      "look into"
+    ],
+    "answer": "look up",
+    "explanation": "'Look up' means to search for information in a book or database. ✅"
+  },
+  {
+    "question": "He _____ the job offer because the salary was low.",
+    "options": [
+      "turned down",
+      "turned off",
+      "turned up",
+      "turned out"
+    ],
+    "answer": "turned down",
+    "explanation": "'Turn down' means to reject an offer or request. ✅"
+  },
+  {
+    "question": "We _____ of petrol in the middle of the forest.",
+    "options": [
+      "ran out",
+      "ran over",
+      "ran into",
+      "ran off"
+    ],
+    "answer": "ran out",
+    "explanation": "'Ran out of' means to have no more of something left. ✅"
+  },
+  {
+    "question": "Suddenly, an old friend _____ at my door.",
+    "options": [
+      "turned up",
+      "turned on",
+      "turned off",
+      "turned in"
+    ],
+    "answer": "turned up",
+    "explanation": "'Turn up' means to arrive or appear unexpectedly. ✅"
+  },
+  {
+    "question": "The match will _____ after the rain stops.",
+    "options": [
+      "go on",
+      "go off",
+      "go out",
+      "go through"
+    ],
+    "answer": "go on",
+    "explanation": "'Go on' means to continue. ✅"
+  },
+  {
+    "question": "The enemy finally _____ after a long fight.",
+    "options": [
+      "gave in",
+      "gave up",
+      "gave out",
+      "gave away"
+    ],
+    "answer": "gave in",
+    "explanation": "'Give in' means to surrender or yield. ✅"
+  },
+  {
+    "question": "Don't _____ the hopes of your parents.",
+    "options": [
+      "let down",
+      "let in",
+      "let out",
+      "let off"
+    ],
+    "answer": "let down",
+    "explanation": "'Let down' means to disappoint someone. ✅"
+  },
+  {
+    "question": "He _____ his coat and went outside.",
+    "options": [
+      "put on",
+      "put out",
+      "put off",
+      "put up"
+    ],
+    "answer": "put on",
+    "explanation": "'Put on' means to wear something. ✅"
+  },
+  {
+    "question": "I _____ an old photo while cleaning the room.",
+    "options": [
+      "came across",
+      "came after",
+      "came by",
+      "came out"
+    ],
+    "answer": "came across",
+    "explanation": "'Came across' means to find something by chance. ✅"
+  },
+  {
+    "question": "The thief _____ with all the jewelry.",
+    "options": [
+      "made off",
+      "made up",
+      "made for",
+      "made out"
+    ],
+    "answer": "made off",
+    "explanation": "'Made off' means to escape or run away. ✅"
+  },
+  {
+    "question": "You should _____ the rules of the company.",
+    "options": [
+      "abide by",
+      "abide in",
+      "abide with",
+      "abide for"
+    ],
+    "answer": "abide by",
+    "explanation": "'Abide by' means to follow or obey a rule/decision. ✅"
+  },
+  {
+    "question": "Please _____ the light before sleeping.",
+    "options": [
+      "switch off",
+      "switch on",
+      "switch up",
+      "switch in"
+    ],
+    "answer": "switch off",
+    "explanation": "Standard usage for electrical appliances. ✅"
+  },
+  {
+    "question": "The car _____ on the way to the office.",
+    "options": [
+      "broke down",
+      "broke out",
+      "broke in",
+      "broke up"
+    ],
+    "answer": "broke down",
+    "explanation": "'Broke down' means a machine or vehicle stopped working. ✅"
+  },
+  {
+    "question": "A fire _____ in the slum area yesterday.",
+    "options": [
+      "broke out",
+      "broke down",
+      "broke in",
+      "broke up"
+    ],
+    "answer": "broke out",
+    "explanation": "'Broke out' means to start suddenly (usually for fire, war, or disease). ✅"
+  },
+  {
+    "question": "He has _____ his ancestral property.",
+    "options": [
+      "called for",
+      "broken with",
+      "disposed of",
+      "disposed off"
+    ],
+    "answer": "disposed of",
+    "explanation": "'Dispose of' means to get rid of or sell something. (Note: single 'f'). ✅"
+  },
+  {
+    "question": "Our principal _____ the prizes to the winners.",
+    "options": [
+      "gave away",
+      "gave out",
+      "gave up",
+      "gave in"
+    ],
+    "answer": "gave away",
+    "explanation": "'Give away' means to distribute something for free. ✅"
+  },
+  {
+    "question": "We must _____ a plan to save water.",
+    "options": [
+      "carry out",
+      "carry on",
+      "carry off",
+      "carry away"
+    ],
+    "answer": "carry out",
+    "explanation": "'Carry out' means to execute or perform a task. ✅"
+  },
+  {
+    "question": "He _____ his father in every way.",
+    "options": [
+      "takes after",
+      "takes off",
+      "takes up",
+      "takes in"
+    ],
+    "answer": "takes after",
+    "explanation": "'Takes after' means to resemble a parent or relative. ✅"
+  },
+  {
+    "question": "The bomb _____ in the crowded market.",
+    "options": [
+      "went off",
+      "went out",
+      "went on",
+      "went through"
+    ],
+    "answer": "went off",
+    "explanation": "'Went off' means to explode. ✅"
+  }
+]
