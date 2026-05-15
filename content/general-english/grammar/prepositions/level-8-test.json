@@ -1,0 +1,332 @@
+[
+  {
+    "question": "He traveled from Bangalore to Belagavi _____ bus.",
+    "options": [
+      "with",
+      "by",
+      "in",
+      "on"
+    ],
+    "answer": "by",
+    "explanation": "We use 'by' to show the mode of transport (by bus, by train, by car). ✅"
+  },
+  {
+    "question": "I am writing this letter _____ a black pen.",
+    "options": [
+      "by",
+      "with",
+      "through",
+      "in"
+    ],
+    "answer": "with",
+    "explanation": "We use 'with' for the instrument or tool used to perform an action. ✅"
+  },
+  {
+    "question": "He went to the temple _____ foot.",
+    "options": [
+      "by",
+      "with",
+      "on",
+      "at"
+    ],
+    "answer": "on",
+    "explanation": "Note: We say 'by bus/car' but always 'on foot'. (Important for exams). ✅"
+  },
+  {
+    "question": "The snake was killed _____ a stone _____ a young boy.",
+    "options": [
+      "by, with",
+      "with, by",
+      "by, by",
+      "with, with"
+    ],
+    "answer": "with, by",
+    "explanation": "'With' is used for the instrument (stone) and 'by' is used for the agent/person (boy). ✅"
+  },
+  {
+    "question": "He succeeded _____ sheer hard work.",
+    "options": [
+      "through",
+      "with",
+      "by",
+      "at"
+    ],
+    "answer": "through",
+    "explanation": "'Through' is used to show the means or agency of achieving something. ✅"
+  },
+  {
+    "question": "I sent the application _____ post.",
+    "options": [
+      "with",
+      "by",
+      "through",
+      "in"
+    ],
+    "answer": "by",
+    "explanation": "'By' is used for the medium of communication or delivery. ✅"
+  },
+  {
+    "question": "He spoke _____ a low voice.",
+    "options": [
+      "with",
+      "by",
+      "in",
+      "at"
+    ],
+    "answer": "in",
+    "explanation": "We use 'in' to describe the manner or volume of speaking. ✅"
+  },
+  {
+    "question": "She expressed her feelings _____ tears.",
+    "options": [
+      "with",
+      "through",
+      "by",
+      "in"
+    ],
+    "answer": "through",
+    "explanation": "Using 'through' to show a medium of expression. ✅"
+  },
+  {
+    "question": "The news reached us _____ radio.",
+    "options": [
+      "by",
+      "with",
+      "through",
+      "on"
+    ],
+    "answer": "by",
+    "explanation": "Mode of communication: 'by radio' or 'over the radio'. ✅"
+  },
+  {
+    "question": "He earns his living _____ teaching.",
+    "options": [
+      "with",
+      "through",
+      "by",
+      "at"
+    ],
+    "answer": "by",
+    "explanation": "'By' + gerund (-ing) shows the method of earning or doing something. ✅"
+  },
+  {
+    "question": "She solved the problem _____ logic.",
+    "options": [
+      "with",
+      "by",
+      "in",
+      "at"
+    ],
+    "answer": "with",
+    "explanation": "Using a mental 'tool' or quality often takes 'with'. ✅"
+  },
+  {
+    "question": "The message was conveyed _____ a messenger.",
+    "options": [
+      "with",
+      "by",
+      "through",
+      "via"
+    ],
+    "answer": "through",
+    "explanation": "'Through' indicates an intermediary or agent. ✅"
+  },
+  {
+    "question": "He cut the cake _____ a sharp knife.",
+    "options": [
+      "by",
+      "with",
+      "from",
+      "at"
+    ],
+    "answer": "with",
+    "explanation": "Instrumental 'with'. ✅"
+  },
+  {
+    "question": "He was struck _____ lightning.",
+    "options": [
+      "with",
+      "by",
+      "from",
+      "at"
+    ],
+    "answer": "by",
+    "explanation": "Natural forces acting as agents take 'by'. ✅"
+  },
+  {
+    "question": "I paid the bill _____ credit card.",
+    "options": [
+      "with",
+      "by",
+      "through",
+      "in"
+    ],
+    "answer": "by",
+    "explanation": "Method of payment (by card/by cheque, but 'in cash'). ✅"
+  },
+  {
+    "question": "He paid for the groceries _____ cash.",
+    "options": [
+      "by",
+      "with",
+      "in",
+      "through"
+    ],
+    "answer": "in",
+    "explanation": "Standard idiom: 'in cash'. ✅"
+  },
+  {
+    "question": "The child drew a circle _____ a compass.",
+    "options": [
+      "by",
+      "with",
+      "through",
+      "at"
+    ],
+    "answer": "with",
+    "explanation": "Tool used for drawing. ✅"
+  },
+  {
+    "question": "He entered the house _____ the window.",
+    "options": [
+      "by",
+      "through",
+      "with",
+      "along"
+    ],
+    "answer": "through",
+    "explanation": "'Through' implies entering via an opening. ✅"
+  },
+  {
+    "question": "The information was sent _____ email.",
+    "options": [
+      "with",
+      "by",
+      "in",
+      "through"
+    ],
+    "answer": "by",
+    "explanation": "Digital medium of transport. ✅"
+  },
+  {
+    "question": "He grabbed the thief _____ the collar.",
+    "options": [
+      "with",
+      "by",
+      "at",
+      "on"
+    ],
+    "answer": "by",
+    "explanation": "We use 'by' to show the part of the body/clothing held. ✅"
+  },
+  {
+    "question": "She greeted him _____ a smile.",
+    "options": [
+      "by",
+      "with",
+      "in",
+      "at"
+    ],
+    "answer": "with",
+    "explanation": "Manner shown with an instrument/facial expression. ✅"
+  },
+  {
+    "question": "The wood was sawn _____ a mechanical saw.",
+    "options": [
+      "by",
+      "with",
+      "through",
+      "via"
+    ],
+    "answer": "with",
+    "explanation": "Machine used as an instrument. ✅"
+  },
+  {
+    "question": "We traveled _____ Dubai to London.",
+    "options": [
+      "through",
+      "via",
+      "by",
+      "with"
+    ],
+    "answer": "via",
+    "explanation": "'Via' means going through a place on the way to a destination. ✅"
+  },
+  {
+    "question": "He works _____ a great deal of enthusiasm.",
+    "options": [
+      "by",
+      "with",
+      "in",
+      "through"
+    ],
+    "answer": "with",
+    "explanation": "Manner of working (with enthusiasm/with care). ✅"
+  },
+  {
+    "question": "The city was destroyed _____ an earthquake.",
+    "options": [
+      "with",
+      "by",
+      "from",
+      "through"
+    ],
+    "answer": "by",
+    "explanation": "Agent of destruction. ✅"
+  },
+  {
+    "question": "You can solve this puzzle _____ trial and error.",
+    "options": [
+      "with",
+      "by",
+      "through",
+      "in"
+    ],
+    "answer": "through",
+    "explanation": "Method or process used. ✅"
+  },
+  {
+    "question": "She looked at me _____ anger.",
+    "options": [
+      "with",
+      "by",
+      "in",
+      "at"
+    ],
+    "answer": "in",
+    "explanation": "We say 'in anger', 'in fear', 'in joy' to show emotion. ✅"
+  },
+  {
+    "question": "He was injured _____ a falling brick.",
+    "options": [
+      "with",
+      "by",
+      "from",
+      "through"
+    ],
+    "answer": "by",
+    "explanation": "Agent causing the injury. ✅"
+  },
+  {
+    "question": "The letter was delivered _____ hand.",
+    "options": [
+      "with",
+      "by",
+      "through",
+      "in"
+    ],
+    "answer": "by",
+    "explanation": "Standard phrase: 'delivered by hand'. ✅"
+  },
+  {
+    "question": "He caught the ball _____ one hand.",
+    "options": [
+      "by",
+      "with",
+      "on",
+      "at"
+    ],
+    "answer": "with",
+    "explanation": "Using a body part as a tool. ✅"
+  }
+]
