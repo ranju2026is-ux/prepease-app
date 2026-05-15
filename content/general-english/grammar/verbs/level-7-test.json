@@ -1,0 +1,332 @@
+[
+  {
+    "question": "The active verb 'eats' changes to _____ in passive voice.",
+    "options": [
+      "is eaten",
+      "was eaten",
+      "is eating",
+      "has been eaten"
+    ],
+    "answer": "is eaten",
+    "explanation": "Simple Present (V1) changes to 'is/am/are + V3' in passive voice. ✅"
+  },
+  {
+    "question": "He *is writing* a letter. The passive form of the verb will be _____.",
+    "options": [
+      "is written",
+      "is being written",
+      "was being written",
+      "has been written"
+    ],
+    "answer": "is being written",
+    "explanation": "Present Continuous (is/am/are + ing) changes to 'is/am/are + being + V3'. ✅"
+  },
+  {
+    "question": "The verb 'broke' (V2) in passive voice becomes _____.",
+    "options": [
+      "is broken",
+      "was broken",
+      "had been broken",
+      "is being broken"
+    ],
+    "answer": "was broken",
+    "explanation": "Simple Past (V2) changes to 'was/were + V3' in passive voice. ✅"
+  },
+  {
+    "question": "They *have built* a house. The passive verb form is _____.",
+    "options": [
+      "has built",
+      "has been built",
+      "was built",
+      "is built"
+    ],
+    "answer": "has been built",
+    "explanation": "Present Perfect (has/have + V3) changes to 'has/have + been + V3'. ✅"
+  },
+  {
+    "question": "She *was cleaning* the room. The passive form is _____.",
+    "options": [
+      "is being cleaned",
+      "was cleaned",
+      "was being cleaned",
+      "had been cleaned"
+    ],
+    "answer": "was being cleaned",
+    "explanation": "Past Continuous (was/were + ing) changes to 'was/were + being + V3'. ✅"
+  },
+  {
+    "question": "I *will finish* the work. In passive voice, it becomes _____.",
+    "options": [
+      "will be finished",
+      "shall finished",
+      "will have finished",
+      "is finished"
+    ],
+    "answer": "will be finished",
+    "explanation": "Simple Future (will/shall + V1) changes to 'will/shall + be + V3'. ✅"
+  },
+  {
+    "question": "He *had seen* the tiger. The passive verb form is _____.",
+    "options": [
+      "was seen",
+      "has been seen",
+      "had been seen",
+      "is seen"
+    ],
+    "answer": "had been seen",
+    "explanation": "Past Perfect (had + V3) changes to 'had + been + V3'. ✅"
+  },
+  {
+    "question": "Can you *carry* this bag? The passive form uses _____.",
+    "options": [
+      "can be carried",
+      "could be carried",
+      "may be carried",
+      "must be carried"
+    ],
+    "answer": "can be carried",
+    "explanation": "Modals (can/may/must) change to 'modal + be + V3'. ✅"
+  },
+  {
+    "question": "Someone *stole* my bike. Passive: My bike _____.",
+    "options": [
+      "is stolen",
+      "was stolen",
+      "has been stolen",
+      "was stealing"
+    ],
+    "answer": "was stolen",
+    "explanation": "Simple Past requires 'was + V3'. ✅"
+  },
+  {
+    "question": "They *are playing* football. Passive: Football _____.",
+    "options": [
+      "is played",
+      "is being played",
+      "was being played",
+      "has been played"
+    ],
+    "answer": "is being played",
+    "explanation": "Present continuous 'being' addition. ✅"
+  },
+  {
+    "question": "Shut the door. (Imperative) The passive form starts with _____.",
+    "options": [
+      "Let the door be shut.",
+      "The door is shut.",
+      "The door shall shut.",
+      "Let the door shut."
+    ],
+    "answer": "Let the door be shut.",
+    "explanation": "Imperative sentences often follow the 'Let + object + be + V3' structure. ✅"
+  },
+  {
+    "question": "People *speak* English all over the world. Passive: English _____.",
+    "options": [
+      "was spoken",
+      "is spoken",
+      "is being spoken",
+      "has been spoken"
+    ],
+    "answer": "is spoken",
+    "explanation": "Simple present general fact. ✅"
+  },
+  {
+    "question": "The teacher *has corrected* the papers. Passive: The papers _____.",
+    "options": [
+      "has been corrected",
+      "have been corrected",
+      "were corrected",
+      "are corrected"
+    ],
+    "answer": "have been corrected",
+    "explanation": "Verb agrees with the new plural subject 'papers'. ✅"
+  },
+  {
+    "question": "I *did not* tell a lie. Passive: A lie _____.",
+    "options": [
+      "is not told",
+      "was not told",
+      "has not been told",
+      "was not tell"
+    ],
+    "answer": "was not told",
+    "explanation": "Negative simple past (did not) changes to 'was/were not + V3'. ✅"
+  },
+  {
+    "question": "They *were making* noise. Passive: Noise _____.",
+    "options": [
+      "was made",
+      "is being made",
+      "was being made",
+      "were being made"
+    ],
+    "answer": "was being made",
+    "explanation": "'Noise' is uncountable/singular, so 'was being' is correct. ✅"
+  },
+  {
+    "question": "We *must help* the poor. Passive: The poor _____.",
+    "options": [
+      "must helped",
+      "must be helped",
+      "should helped",
+      "are helped"
+    ],
+    "answer": "must be helped",
+    "explanation": "Modal + be + V3. ✅"
+  },
+  {
+    "question": "Who *wrote* this book? Passive: By whom _____ this book written?",
+    "options": [
+      "is",
+      "was",
+      "were",
+      "has"
+    ],
+    "answer": "was",
+    "explanation": "Past tense question 'Who wrote' ➔ 'By whom was'. ✅"
+  },
+  {
+    "question": "She *will have invited* us. Passive: We _____ by her.",
+    "options": [
+      "will be invited",
+      "will have been invited",
+      "shall have been invited",
+      "Both B and C"
+    ],
+    "answer": "Both B and C",
+    "explanation": "Future perfect changes to 'will/shall + have been + V3'. ✅"
+  },
+  {
+    "question": "Do you *like* it? Passive: _____ it liked by you?",
+    "options": [
+      "Does",
+      "Is",
+      "Was",
+      "Has"
+    ],
+    "answer": "Is",
+    "explanation": "Simple present question changes to 'Is/Am/Are' at the start. ✅"
+  },
+  {
+    "question": "Post this letter. Passive: Let this letter _____.",
+    "options": [
+      "post",
+      "posted",
+      "be posted",
+      "being posted"
+    ],
+    "answer": "be posted",
+    "explanation": "Imperative structure. ✅"
+  },
+  {
+    "question": "The boy *is flying* a kite. Passive: A kite _____.",
+    "options": [
+      "is flown",
+      "is being flown",
+      "was being flown",
+      "has been flown"
+    ],
+    "answer": "is being flown",
+    "explanation": "V3 of 'fly' is 'flown'. ✅"
+  },
+  {
+    "question": "He *sold* his old car. Passive: His old car _____.",
+    "options": [
+      "was sold",
+      "is sold",
+      "has been sold",
+      "had been sold"
+    ],
+    "answer": "was sold",
+    "explanation": "Simple past ➔ was + V3. ✅"
+  },
+  {
+    "question": "They *should have informed* us. Passive: We _____.",
+    "options": [
+      "should be informed",
+      "should have been informed",
+      "must have been informed",
+      "were informed"
+    ],
+    "answer": "should have been informed",
+    "explanation": "Modal perfect 'should have' ➔ 'should have been + V3'. ✅"
+  },
+  {
+    "question": "Did he *buy* the fruits? Passive: _____ the fruits bought by him?",
+    "options": [
+      "Was",
+      "Were",
+      "Are",
+      "Did"
+    ],
+    "answer": "Were",
+    "explanation": "Past question for plural 'fruits' requires 'Were'. ✅"
+  },
+  {
+    "question": "The hunters *shot* the tiger. Passive: The tiger _____.",
+    "options": [
+      "is shot",
+      "was shot",
+      "has been shot",
+      "was shooted"
+    ],
+    "answer": "was shot",
+    "explanation": "V3 of 'shot' is 'shot'. ✅"
+  },
+  {
+    "question": "You *ought to* help him. Passive: He _____ by you.",
+    "options": [
+      "ought to be helped",
+      "should be helped",
+      "must be helped",
+      "ought to helped"
+    ],
+    "answer": "ought to be helped",
+    "explanation": "Modal 'ought to' ➔ 'ought to be + V3'. ✅"
+  },
+  {
+    "question": "Does she *know* me? Passive: Am I _____ to her?",
+    "options": [
+      "know",
+      "known",
+      "knew",
+      "knowing"
+    ],
+    "answer": "known",
+    "explanation": "Passive of 'know' usually takes 'to' instead of 'by'. ✅"
+  },
+  {
+    "question": "I *am watching* you. Passive: You _____ by me.",
+    "options": [
+      "am being watched",
+      "are being watched",
+      "is being watched",
+      "were being watched"
+    ],
+    "answer": "are being watched",
+    "explanation": "'You' takes 'are' in present continuous. ✅"
+  },
+  {
+    "question": "They *had won* the match. Passive: The match _____.",
+    "options": [
+      "was won",
+      "has been won",
+      "had been won",
+      "is won"
+    ],
+    "answer": "had been won",
+    "explanation": "Past perfect ➔ had been + V3. ✅"
+  },
+  {
+    "question": "The police *arrested* the thief. Passive: The thief _____.",
+    "options": [
+      "was arrested",
+      "is arrested",
+      "were arrested",
+      "had been arrested"
+    ],
+    "answer": "was arrested",
+    "explanation": "Simple past ➔ was + V3. ✅"
+  }
+]
