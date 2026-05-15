@@ -1,0 +1,332 @@
+[
+  {
+    "question": "The book is _____ the table.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "under"
+    ],
+    "answer": "on",
+    "explanation": "'On' is used to indicate position on a surface where there is physical contact. ✅"
+  },
+  {
+    "question": "He was born _____ 1995.",
+    "options": [
+      "at",
+      "on",
+      "in",
+      "since"
+    ],
+    "answer": "in",
+    "explanation": "We use 'in' for longer periods of time like years, months, and seasons. ✅"
+  },
+  {
+    "question": "She goes to office _____ 9 o'clock every morning.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "by"
+    ],
+    "answer": "at",
+    "explanation": "'At' is used for specific points of time on a clock. ✅"
+  },
+  {
+    "question": "The dog jumped _____ the river.",
+    "options": [
+      "in",
+      "into",
+      "on",
+      "to"
+    ],
+    "answer": "into",
+    "explanation": "'Into' is used to show motion or movement towards the inside of something. ✅"
+  },
+  {
+    "question": "He died _____ cholera.",
+    "options": [
+      "from",
+      "by",
+      "of",
+      "with"
+    ],
+    "answer": "of",
+    "explanation": "Standard rule: When a person dies of a disease, the preposition 'of' is used. ✅"
+  },
+  {
+    "question": "I have been waiting for you _____ two hours.",
+    "options": [
+      "since",
+      "for",
+      "from",
+      "at"
+    ],
+    "answer": "for",
+    "explanation": "'For' is used to show a duration or period of time (length of time). ✅"
+  },
+  {
+    "question": "She is sitting _____ Ravi and Somu.",
+    "options": [
+      "among",
+      "between",
+      "with",
+      "beside"
+    ],
+    "answer": "between",
+    "explanation": "'Between' is used when referring to two persons or things. ✅"
+  },
+  {
+    "question": "The cat is hiding _____ the bed.",
+    "options": [
+      "under",
+      "on",
+      "in",
+      "at"
+    ],
+    "answer": "under",
+    "explanation": "'Under' indicates a position directly below something. ✅"
+  },
+  {
+    "question": "He travels to work _____ train.",
+    "options": [
+      "with",
+      "by",
+      "in",
+      "on"
+    ],
+    "answer": "by",
+    "explanation": "We use 'by' to indicate the mode of transport or medium of travel. ✅"
+  },
+  {
+    "question": "My birthday is _____ 15th August.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "from"
+    ],
+    "answer": "on",
+    "explanation": "We use 'on' for specific dates and days. ✅"
+  },
+  {
+    "question": "I am fond _____ music.",
+    "options": [
+      "of",
+      "off",
+      "with",
+      "about"
+    ],
+    "answer": "of",
+    "explanation": "'Fond' always takes the fixed preposition 'of'. ✅"
+  },
+  {
+    "question": "What is the time _____ your watch?",
+    "options": [
+      "in",
+      "on",
+      "by",
+      "at"
+    ],
+    "answer": "by",
+    "explanation": "This is a common exam question; we always say 'by my watch' in English. ✅"
+  },
+  {
+    "question": "The bridge goes _____ the river.",
+    "options": [
+      "on",
+      "over",
+      "above",
+      "at"
+    ],
+    "answer": "over",
+    "explanation": "'Over' is used when something is vertically above and crossing something else. ✅"
+  },
+  {
+    "question": "Look _____ the blackboard.",
+    "options": [
+      "on",
+      "at",
+      "to",
+      "in"
+    ],
+    "answer": "at",
+    "explanation": "'Look at' is used to direct attention to a specific point. ✅"
+  },
+  {
+    "question": "He has been living here _____ 2010.",
+    "options": [
+      "for",
+      "since",
+      "from",
+      "by"
+    ],
+    "answer": "since",
+    "explanation": "'Since' is used for a specific starting point in time. ✅"
+  },
+  {
+    "question": "Divide these sweets _____ the ten children.",
+    "options": [
+      "between",
+      "among",
+      "with",
+      "for"
+    ],
+    "answer": "among",
+    "explanation": "'Among' is used for more than two people or things. ✅"
+  },
+  {
+    "question": "She is cutting an apple _____ a knife.",
+    "options": [
+      "by",
+      "with",
+      "from",
+      "in"
+    ],
+    "answer": "with",
+    "explanation": "We use 'with' for instruments, tools, or objects used to perform an action. ✅"
+  },
+  {
+    "question": "Please wait for me _____ the entrance.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "to"
+    ],
+    "answer": "at",
+    "explanation": "'At' is used for specific points or locations. ✅"
+  },
+  {
+    "question": "He prefer tea _____ coffee.",
+    "options": [
+      "than",
+      "to",
+      "for",
+      "with"
+    ],
+    "answer": "to",
+    "explanation": "The word 'prefer' is always followed by 'to', not 'than'. ✅"
+  },
+  {
+    "question": "The fan is _____ my head.",
+    "options": [
+      "on",
+      "above",
+      "in",
+      "at"
+    ],
+    "answer": "above",
+    "explanation": "'Above' is used for something higher than something else, without direct contact. ✅"
+  },
+  {
+    "question": "Write your roll number _____ the top of the page.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "to"
+    ],
+    "answer": "at",
+    "explanation": "The phrase 'at the top' is a fixed expression for position. ✅"
+  },
+  {
+    "question": "She is good _____ Mathematics.",
+    "options": [
+      "in",
+      "at",
+      "with",
+      "for"
+    ],
+    "answer": "at",
+    "explanation": "We use 'good at' or 'bad at' to describe proficiency in a subject. ✅"
+  },
+  {
+    "question": "The plane flew _____ the clouds.",
+    "options": [
+      "through",
+      "in",
+      "on",
+      "at"
+    ],
+    "answer": "through",
+    "explanation": "'Through' implies moving from one side to the other within an area. ✅"
+  },
+  {
+    "question": "He came and sat _____ me.",
+    "options": [
+      "beside",
+      "besides",
+      "between",
+      "among"
+    ],
+    "answer": "beside",
+    "explanation": "'Beside' means next to or by the side of. ✅"
+  },
+  {
+    "question": "He failed _____ the examination.",
+    "options": [
+      "at",
+      "on",
+      "in",
+      "for"
+    ],
+    "answer": "in",
+    "explanation": "Standard usage: fail 'in' something. ✅"
+  },
+  {
+    "question": "The letter was written _____ Ravi _____ a pen.",
+    "options": [
+      "with, by",
+      "by, with",
+      "by, by",
+      "with, with"
+    ],
+    "answer": "by, with",
+    "explanation": "'By' is for the agent (person) and 'with' is for the instrument (pen). ✅"
+  },
+  {
+    "question": "He is angry _____ his brother.",
+    "options": [
+      "at",
+      "with",
+      "on",
+      "for"
+    ],
+    "answer": "with",
+    "explanation": "We are angry 'with' a person but angry 'at' a thing/behavior. ✅"
+  },
+  {
+    "question": "The train is _____ time.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "to"
+    ],
+    "answer": "on",
+    "explanation": "'On time' means exactly at the scheduled time (punctual). ✅"
+  },
+  {
+    "question": "I was astonished _____ his behavior.",
+    "options": [
+      "at",
+      "with",
+      "on",
+      "in"
+    ],
+    "answer": "at",
+    "explanation": "Words expressing surprise like astonished, surprised, amazed take 'at'. ✅"
+  },
+  {
+    "question": "She is married _____ a doctor.",
+    "options": [
+      "with",
+      "to",
+      "by",
+      "at"
+    ],
+    "answer": "to",
+    "explanation": "In English grammar, one is married 'to' someone, not 'with'. ✅"
+  }
+]
