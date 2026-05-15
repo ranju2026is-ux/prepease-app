@@ -1,0 +1,332 @@
+[
+  {
+    "question": "The meeting was _____ due to the strike.",
+    "options": [
+      "called off",
+      "called in",
+      "called for",
+      "called up"
+    ],
+    "answer": "called off",
+    "explanation": "'Call off' means to cancel something that was planned. ✅"
+  },
+  {
+    "question": "She _____ her elderly parents with great care.",
+    "options": [
+      "looks for",
+      "looks after",
+      "looks into",
+      "looks at"
+    ],
+    "answer": "looks after",
+    "explanation": "'Look after' means to take care of someone or something. ✅"
+  },
+  {
+    "question": "The police are _____ the mystery of the missing jewels.",
+    "options": [
+      "looking for",
+      "looking into",
+      "looking after",
+      "looking at"
+    ],
+    "answer": "looking into",
+    "explanation": "'Look into' means to investigate or examine the facts. ✅"
+  },
+  {
+    "question": "I am _____ my lost identity card.",
+    "options": [
+      "looking for",
+      "looking into",
+      "looking after",
+      "looking up"
+    ],
+    "answer": "looking for",
+    "explanation": "'Look for' means to search for something that is lost. ✅"
+  },
+  {
+    "question": "Never _____ till tomorrow what you can do today.",
+    "options": [
+      "put off",
+      "put out",
+      "put on",
+      "put up"
+    ],
+    "answer": "put off",
+    "explanation": "'Put off' means to postpone or delay an action. ✅"
+  },
+  {
+    "question": "It took the firemen three hours to _____ the fire.",
+    "options": [
+      "put off",
+      "put out",
+      "put on",
+      "put up"
+    ],
+    "answer": "put out",
+    "explanation": "'Put out' means to extinguish a fire or light. ✅"
+  },
+  {
+    "question": "He _____ his coat and went out in the rain.",
+    "options": [
+      "put off",
+      "put out",
+      "put on",
+      "put up"
+    ],
+    "answer": "put on",
+    "explanation": "'Put on' means to dress oneself or wear something. ✅"
+  },
+  {
+    "question": "Please _____ your shoes before entering.",
+    "options": [
+      "take off",
+      "take in",
+      "take up",
+      "take out"
+    ],
+    "answer": "take off",
+    "explanation": "'Take off' means to remove clothing or shoes. ✅"
+  },
+  {
+    "question": "The plane _____ exactly on time.",
+    "options": [
+      "took off",
+      "took in",
+      "took up",
+      "took out"
+    ],
+    "answer": "took off",
+    "explanation": "'Take off' also means when an aircraft leaves the ground. ✅"
+  },
+  {
+    "question": "You should _____ smoking for a healthy life.",
+    "options": [
+      "give up",
+      "give in",
+      "give out",
+      "give away"
+    ],
+    "answer": "give up",
+    "explanation": "'Give up' means to stop doing something or quit a habit. ✅"
+  },
+  {
+    "question": "The enemy finally _____ after a long battle.",
+    "options": [
+      "gave up",
+      "gave in",
+      "gave out",
+      "gave away"
+    ],
+    "answer": "gave in",
+    "explanation": "'Give in' means to surrender or yield to pressure. ✅"
+  },
+  {
+    "question": "The principal _____ the prizes to the winners.",
+    "options": [
+      "gave away",
+      "gave in",
+      "gave out",
+      "gave up"
+    ],
+    "answer": "gave away",
+    "explanation": "'Give away' means to distribute or give something for free. ✅"
+  },
+  {
+    "question": "How did you _____ that rare book?",
+    "options": [
+      "come across",
+      "come by",
+      "come up",
+      "come in"
+    ],
+    "answer": "come by",
+    "explanation": "'Come by' means to obtain or get something that is hard to find. ✅"
+  },
+  {
+    "question": "I _____ an old friend at the market yesterday.",
+    "options": [
+      "came across",
+      "came into",
+      "came by",
+      "came along"
+    ],
+    "answer": "came across",
+    "explanation": "'Came across' means to meet or find someone/something by chance. ✅"
+  },
+  {
+    "question": "He has _____ all his ancestral property.",
+    "options": [
+      "come into",
+      "come across",
+      "come by",
+      "come along"
+    ],
+    "answer": "come into",
+    "explanation": "'Come into' means to inherit money or property. ✅"
+  },
+  {
+    "question": "The car _____ in the middle of the road.",
+    "options": [
+      "broke down",
+      "broke into",
+      "broke up",
+      "broke out"
+    ],
+    "answer": "broke down",
+    "explanation": "'Break down' means a machine or vehicle has stopped working. ✅"
+  },
+  {
+    "question": "The thieves _____ the house last night.",
+    "options": [
+      "broke into",
+      "broke down",
+      "broke up",
+      "broke out"
+    ],
+    "answer": "broke into",
+    "explanation": "'Break into' means to enter a building by force. ✅"
+  },
+  {
+    "question": "Cholera has _____ in the village.",
+    "options": [
+      "broke out",
+      "broke down",
+      "broke into",
+      "broke up"
+    ],
+    "answer": "broke out",
+    "explanation": "'Break out' means to start suddenly (used for diseases, war, or fire). ✅"
+  },
+  {
+    "question": "I cannot _____ his rude behavior.",
+    "options": [
+      "put up with",
+      "put off",
+      "put out",
+      "put on"
+    ],
+    "answer": "put up with",
+    "explanation": "'Put up with' means to tolerate or endure something unpleasant. ✅"
+  },
+  {
+    "question": "You must _____ the rules of the institution.",
+    "options": [
+      "abide by",
+      "abide in",
+      "abide for",
+      "abide with"
+    ],
+    "answer": "abide by",
+    "explanation": "'Abide by' means to follow or obey a rule or decision. ✅"
+  },
+  {
+    "question": "The bomb _____ in the busy market.",
+    "options": [
+      "went off",
+      "went out",
+      "went up",
+      "went through"
+    ],
+    "answer": "went off",
+    "explanation": "'Went off' means to explode or fire (a gun). ✅"
+  },
+  {
+    "question": "The lights _____ suddenly during the storm.",
+    "options": [
+      "went out",
+      "went off",
+      "went up",
+      "went through"
+    ],
+    "answer": "went out",
+    "explanation": "'Went out' means to stop burning or shining. ✅"
+  },
+  {
+    "question": "He _____ his father in appearance.",
+    "options": [
+      "takes after",
+      "takes off",
+      "takes up",
+      "takes in"
+    ],
+    "answer": "takes after",
+    "explanation": "'Takes after' means to resemble a parent or older relative. ✅"
+  },
+  {
+    "question": "She _____ a new hobby last week.",
+    "options": [
+      "took up",
+      "took off",
+      "took in",
+      "took after"
+    ],
+    "answer": "took up",
+    "explanation": "'Took up' means to start a new activity or job. ✅"
+  },
+  {
+    "question": "Don't _____ your friends in times of trouble.",
+    "options": [
+      "let down",
+      "let in",
+      "let out",
+      "let off"
+    ],
+    "answer": "let down",
+    "explanation": "'Let down' means to disappoint someone. ✅"
+  },
+  {
+    "question": "The soldiers _____ the orders of their commander.",
+    "options": [
+      "carried out",
+      "carried on",
+      "carried away",
+      "carried off"
+    ],
+    "answer": "carried out",
+    "explanation": "'Carried out' means to perform or complete a task/instruction. ✅"
+  },
+  {
+    "question": "Despite the noise, he _____ with his work.",
+    "options": [
+      "carried on",
+      "carried out",
+      "carried away",
+      "carried off"
+    ],
+    "answer": "carried on",
+    "explanation": "'Carried on' means to continue doing something. ✅"
+  },
+  {
+    "question": "He _____ the job offer because the salary was low.",
+    "options": [
+      "turned down",
+      "turned off",
+      "turned up",
+      "turned out"
+    ],
+    "answer": "turned down",
+    "explanation": "'Turn down' means to reject an offer or request. ✅"
+  },
+  {
+    "question": "Wait a minute, I'll _____ the dictionary for this word.",
+    "options": [
+      "look up",
+      "look for",
+      "look at",
+      "look into"
+    ],
+    "answer": "look up",
+    "explanation": "'Look up' means to search for information in a book or list. ✅"
+  },
+  {
+    "question": "We have _____ petrol; we need to find a gas station.",
+    "options": [
+      "run out of",
+      "run into",
+      "run after",
+      "run away"
+    ],
+    "answer": "run out of",
+    "explanation": "'Run out of' means to finish the supply of something. ✅"
+  }
+]
