@@ -1,0 +1,332 @@
+[
+  {
+    "question": "We discussed _____ the matter for an hour.",
+    "options": [
+      "about",
+      "on",
+      "of",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "The verb 'discuss' is transitive and takes a direct object. Using 'about' after it is a common error. ✅"
+  },
+  {
+    "question": "He reached _____ the station just in time.",
+    "options": [
+      "at",
+      "to",
+      "in",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "We 'reach a destination' directly. 'Reach to' or 'reach at' is grammatically incorrect. ✅"
+  },
+  {
+    "question": "She resembles _____ her mother very closely.",
+    "options": [
+      "to",
+      "with",
+      "after",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "'Resemble' does not take a preposition. (But 'Take after' is a phrasal verb that does). ✅"
+  },
+  {
+    "question": "He ordered _____ a cup of coffee.",
+    "options": [
+      "for",
+      "to",
+      "on",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "When 'order' is used as a verb, it doesn't take 'for'. (Example: I ordered coffee). ✅"
+  },
+  {
+    "question": "They entered _____ the room quietly.",
+    "options": [
+      "into",
+      "in",
+      "to",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "When entering a physical place, 'enter' does not take 'into'. ✅"
+  },
+  {
+    "question": "The principal told _____ the students to be quiet.",
+    "options": [
+      "to",
+      "with",
+      "at",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "We say 'told someone' directly. 'Told to someone' is incorrect. ✅"
+  },
+  {
+    "question": "I am going _____ home now.",
+    "options": [
+      "to",
+      "at",
+      "towards",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "With the verb 'go', 'home' acts as an adverb and doesn't need 'to'. ✅"
+  },
+  {
+    "question": "He requested _____ me to help him.",
+    "options": [
+      "to",
+      "with",
+      "for",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "'Request' is followed directly by the person being requested. ✅"
+  },
+  {
+    "question": "The police investigated _____ the case thoroughly.",
+    "options": [
+      "into",
+      "about",
+      "of",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "'Investigate' does not take 'into'. (However, 'Look into' is correct). ✅"
+  },
+  {
+    "question": "She loves _____ her children dearly.",
+    "options": [
+      "to",
+      "with",
+      "for",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "As a verb, 'love' is transitive and takes no preposition. ✅"
+  },
+  {
+    "question": "I will meet _____ you tomorrow.",
+    "options": [
+      "with",
+      "to",
+      "at",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "In general contexts, we say 'meet someone'. ✅"
+  },
+  {
+    "question": "He joined _____ the Indian Army last year.",
+    "options": [
+      "to",
+      "with",
+      "in",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "We 'join an organization' directly. ✅"
+  },
+  {
+    "question": "Wait _____ here until I return.",
+    "options": [
+      "at",
+      "to",
+      "for",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "With adverbs of place like 'here' and 'there', prepositions are usually omitted. ✅"
+  },
+  {
+    "question": "He visited _____ the Mysore Palace yesterday.",
+    "options": [
+      "to",
+      "at",
+      "in",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "As a verb, 'visit' takes no preposition before the place. ✅"
+  },
+  {
+    "question": "They attacked _____ the enemy at dawn.",
+    "options": [
+      "on",
+      "at",
+      "to",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "As a verb, 'attack' is transitive. ✅"
+  },
+  {
+    "question": "I shall inform _____ him about the change.",
+    "options": [
+      "to",
+      "of",
+      "with",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "'Inform someone' is the correct structure. ✅"
+  },
+  {
+    "question": "She signed _____ the document.",
+    "options": [
+      "on",
+      "at",
+      "to",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "We 'sign a document' directly. ✅"
+  },
+  {
+    "question": "He married _____ her in 2020.",
+    "options": [
+      "with",
+      "to",
+      "at",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "In active voice, 'married' takes no preposition. (In passive: He was married *to* her). ✅"
+  },
+  {
+    "question": "We acrossed _____ the river by boat.",
+    "options": [
+      "through",
+      "over",
+      "No preposition needed",
+      "Incorrect verb usage"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "If the verb 'crossed' is used, it takes no preposition. ✅"
+  },
+  {
+    "question": "He lacks _____ courage.",
+    "options": [
+      "in",
+      "of",
+      "with",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "As a verb, 'lack' takes no preposition. ✅"
+  },
+  {
+    "question": "The plane left _____ Bangalore at 10 AM.",
+    "options": [
+      "from",
+      "to",
+      "at",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "You 'leave a place'. 'Leave from' is often redundant. ✅"
+  },
+  {
+    "question": "I reached _____ home late.",
+    "options": [
+      "to",
+      "at",
+      "No preposition needed",
+      "in"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "Similar to 'go home', 'reach home' needs no preposition. ✅"
+  },
+  {
+    "question": "He violated _____ the rules of the company.",
+    "options": [
+      "to",
+      "of",
+      "with",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "'Violate' is a transitive verb. ✅"
+  },
+  {
+    "question": "The minister addressed _____ the gathering.",
+    "options": [
+      "to",
+      "at",
+      "with",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "We 'address an audience' directly. ✅"
+  },
+  {
+    "question": "Please answer _____ my question.",
+    "options": [
+      "to",
+      "for",
+      "with",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "As a verb, 'answer' doesn't take 'to'. ✅"
+  },
+  {
+    "question": "He emphasized _____ the importance of time.",
+    "options": [
+      "on",
+      "upon",
+      "to",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "'Emphasize' is transitive. (Note: 'Put emphasis *on*' is correct). ✅"
+  },
+  {
+    "question": "They are considering _____ your application.",
+    "options": [
+      "about",
+      "on",
+      "for",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "We 'consider something' directly. ✅"
+  },
+  {
+    "question": "I will return _____ next Monday.",
+    "options": [
+      "on",
+      "at",
+      "by",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "Prepositions are omitted before words like 'next', 'last', 'this', 'every'. ✅"
+  },
+  {
+    "question": "He works _____ every day.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "No preposition is used before 'every day'. ✅"
+  },
+  {
+    "question": "She came here _____ last evening.",
+    "options": [
+      "on",
+      "at",
+      "in",
+      "No preposition needed"
+    ],
+    "answer": "No preposition needed",
+    "explanation": "Omitted before 'last evening'. ✅"
+  }
+]
