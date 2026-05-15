@@ -1,0 +1,182 @@
+[
+  {
+    "question": "The jury _____ divided in their opinions.",
+    "options": ["was", "were", "is", "has"],
+    "answer": "were",
+    "explanation": "Collective nouns like 'jury' take a plural verb when members are divided. ✅"
+  },
+  {
+    "question": "Five hundred rupees _____ a high price for this shirt.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "Sums of money considered as a single unit take a singular verb. ✅"
+  },
+  {
+    "question": "Neither of the two students _____ able to answer the question.",
+    "options": ["was", "were", "are", "have"],
+    "answer": "was",
+    "explanation": "'Neither of' is always followed by a singular verb in formal English. ✅"
+  },
+  {
+    "question": "A flock of sheep _____ grazing in the field.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "Collective noun 'flock' represents a single group. ✅"
+  },
+  {
+    "question": "The number of unemployed people _____ increasing.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "'The number of' acts as a singular subject. ✅"
+  },
+  {
+    "question": "A number of students _____ waiting outside.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "'A number of' is plural, referring to several individuals. ✅"
+  },
+  {
+    "question": "Two-thirds of the city _____ in ruins.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "Fraction of an uncountable noun (city) takes a singular verb. ✅"
+  },
+  {
+    "question": "Three-fourths of the apples _____ rotten.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "Fraction of a plural countable noun (apples) takes a plural verb. ✅"
+  },
+  {
+    "question": "The committee _____ submitted its report already.",
+    "options": ["has", "have", "are", "were"],
+    "answer": "has",
+    "explanation": "The committee is acting as a single united body. ✅"
+  },
+  {
+    "question": "Each and every worker _____ been given a bonus.",
+    "options": ["has", "have", "are", "were"],
+    "answer": "has",
+    "explanation": "When 'Each' or 'Every' is used, the verb is always singular. ✅"
+  },
+  {
+    "question": "Ten miles _____ a long distance to run.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "Distance as a specific unit takes a singular verb. ✅"
+  },
+  {
+    "question": "None of the information _____ useful.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "'Information' is uncountable, so 'None' takes a singular verb here. ✅"
+  },
+  {
+    "question": "Many a man _____ realized the importance of health.",
+    "options": ["has", "have", "are", "were"],
+    "answer": "has",
+    "explanation": "'Many a' always takes a singular noun and singular verb. ✅"
+  },
+  {
+    "question": "The crew _____ rescued from the sinking ship.",
+    "options": ["was", "were", "is", "has"],
+    "answer": "were",
+    "explanation": "Collective nouns like 'crew' often take plural verbs when referring to individuals. ✅"
+  },
+  {
+    "question": "Some of the milk _____ turned sour.",
+    "options": ["has", "have", "are", "were"],
+    "answer": "has",
+    "explanation": "'Some of' with an uncountable noun takes a singular verb. ✅"
+  },
+  {
+    "question": "Some of the books _____ torn.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "'Some of' with a plural countable noun takes a plural verb. ✅"
+  },
+  {
+    "question": "Each of the two sisters _____ beautiful.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "The subject is 'Each', which is singular. ✅"
+  },
+  {
+    "question": "Not one of the children _____ hurt in the accident.",
+    "options": ["was", "were", "are", "have"],
+    "answer": "was",
+    "explanation": "'Not one' refers to a single child. ✅"
+  },
+  {
+    "question": "Most of the students _____ present today.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "'Most of' + plural noun = plural verb. ✅"
+  },
+  {
+    "question": "Sixty years _____ a long time.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "A period of time is treated as a singular unit. ✅"
+  },
+  {
+    "question": "A lot of patience _____ needed for this task.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "'Patience' is uncountable. ✅"
+  },
+  {
+    "question": "The public _____ requested not to walk on the grass.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "'Public' is often treated as plural because it consists of individuals. ✅"
+  },
+  {
+    "question": "Either of the two pens _____ well.",
+    "options": ["writes", "write", "writing", "have written"],
+    "answer": "writes",
+    "explanation": "'Either of' always takes a singular verb. ✅"
+  },
+  {
+    "question": "A bunch of keys _____ been found.",
+    "options": ["has", "have", "is", "are"],
+    "answer": "has",
+    "explanation": "The subject is 'bunch' (singular collective noun). ✅"
+  },
+  {
+    "question": "Half of the cake _____ eaten.",
+    "options": ["was", "were", "is", "are"],
+    "answer": "was",
+    "explanation": "Half of a singular noun takes a singular verb. ✅"
+  },
+  {
+    "question": "Half of the members _____ absent.",
+    "options": ["was", "were", "is", "are"],
+    "answer": "were",
+    "explanation": "Half of a plural noun takes a plural verb. ✅"
+  },
+  {
+    "question": "Our team _____ wearing their new jerseys.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "Using 'their' shows individual team members, so use a plural verb. ✅"
+  },
+  {
+    "question": "A couple of days _____ enough for the trip.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "'A couple of' is generally plural. ✅"
+  },
+  {
+    "question": "Plenty of help _____ available.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "'Plenty of' with uncountable 'help' takes a singular verb. ✅"
+  },
+  {
+    "question": "None but the brave _____ the fair.",
+    "options": ["deserves", "deserve", "deserving", "have deserve"],
+    "answer": "deserve",
+    "explanation": "'None but' + plural noun (the brave) takes a plural verb. ✅"
+  }
+]
