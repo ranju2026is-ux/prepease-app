@@ -1,0 +1,182 @@
+[
+  {
+    "question": "It is I who _____ responsible for this project.",
+    "options": ["am", "is", "are", "was"],
+    "answer": "am",
+    "explanation": "In a relative clause, the verb agrees with the antecedent of 'who', which is 'I'. ✅"
+  },
+  {
+    "question": "He is one of the players who _____ been selected for the national team.",
+    "options": ["has", "have", "is", "was"],
+    "answer": "have",
+    "explanation": "'Who' refers to 'players' (plural), so it takes the plural verb 'have'. ✅"
+  },
+  {
+    "question": "He is the only one of the players who _____ performed well.",
+    "options": ["has", "have", "is", "are"],
+    "answer": "has",
+    "explanation": "When 'the only one of' is used, the verb is always singular. ✅"
+  },
+  {
+    "question": "There _____ a cat and a dog under the table.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "When 'There' or 'Here' starts a sentence, the verb agrees with the following compound subject. ✅"
+  },
+  {
+    "question": "Neither the teacher nor the students _____ aware of the change.",
+    "options": ["was", "were", "is", "has"],
+    "answer": "were",
+    "explanation": "The verb agrees with the closest subject, 'students' (plural). ✅"
+  },
+  {
+    "question": "The news he gave _____ very shocking.",
+    "options": ["was", "were", "are", "have"],
+    "answer": "was",
+    "explanation": "'News' is always singular. ✅"
+  },
+  {
+    "question": "Physics _____ more difficult than Chemistry for me.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "Names of subjects ending in 's' are treated as singular. ✅"
+  },
+  {
+    "question": "Three parts of the work _____ still left.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "is",
+    "explanation": "'Work' is uncountable, so its fractions are singular. ✅"
+  },
+  {
+    "question": "Not only the principal but also the teachers _____ against the proposal.",
+    "options": ["was", "were", "is", "has"],
+    "answer": "were",
+    "explanation": "The verb agrees with the closest subject 'teachers'. ✅"
+  },
+  {
+    "question": "More than one person _____ killed in the accident.",
+    "options": ["was", "were", "are", "have"],
+    "answer": "was",
+    "explanation": "'More than one' is followed by a singular noun and singular verb. ✅"
+  },
+  {
+    "question": "More persons than one _____ present there.",
+    "options": ["was", "were", "is", "has"],
+    "answer": "were",
+    "explanation": "Note the structure: 'More [plural noun] than one' takes a plural verb. ✅"
+  },
+  {
+    "question": "If I _____ you, I would not accept the offer.",
+    "options": ["am", "was", "were", "be"],
+    "answer": "were",
+    "explanation": "Subjunctive mood (imaginary situation) always uses 'were'. ✅"
+  },
+  {
+    "question": "The percentage of successful candidates _____ very low.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "'The percentage of' always takes a singular verb. ✅"
+  },
+  {
+    "question": "All the equipment _____ been delivered.",
+    "options": ["has", "have", "is", "are"],
+    "answer": "has",
+    "explanation": "'Equipment' is uncountable and takes a singular verb. ✅"
+  },
+  {
+    "question": "Statistics _____ shown that the crime rate is falling.",
+    "options": ["has", "have", "is", "was"],
+    "answer": "have",
+    "explanation": "When 'Statistics' refers to data (not the subject), it is plural. ✅"
+  },
+  {
+    "question": "Everything _____ its own beauty.",
+    "options": ["has", "have", "is", "are"],
+    "answer": "has",
+    "explanation": "Indefinite pronouns like 'Everything' are singular. ✅"
+  },
+  {
+    "question": "The United States _____ a powerful country.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "Country names, even if they look plural, are singular. ✅"
+  },
+  {
+    "question": "One-third of the students _____ absent today.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "Fraction of a plural countable noun is plural. ✅"
+  },
+  {
+    "question": "The acoustics of this hall _____ excellent.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "Words like 'acoustics' are plural when referring to physical properties. ✅"
+  },
+  {
+    "question": "Here _____ the books you requested.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "Inverted sentence: the subject is 'books'. ✅"
+  },
+  {
+    "question": "Economics _____ an interesting subject.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "Singular subject name. ✅"
+  },
+  {
+    "question": "A pair of scissors _____ lying on the floor.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "While 'scissors' is plural, 'A pair of' makes the subject singular. ✅"
+  },
+  {
+    "question": "No student and no teacher _____ allowed inside.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "Subjects preceded by 'No' or 'Every' joined by 'and' are singular. ✅"
+  },
+  {
+    "question": "The behavior of the children _____ extremely rude.",
+    "options": ["was", "were", "are", "have"],
+    "answer": "was",
+    "explanation": "The subject is 'behavior' (singular). ✅"
+  },
+  {
+    "question": "Plenty of sugar _____ been added to the tea.",
+    "options": ["has", "have", "is", "are"],
+    "answer": "has",
+    "explanation": "'Sugar' is uncountable. ✅"
+  },
+  {
+    "question": "Great Expectations _____ written by Charles Dickens.",
+    "options": ["was", "were", "is", "are"],
+    "answer": "was",
+    "explanation": "Book titles are singular. ✅"
+  },
+  {
+    "question": "Neither praise nor blame _____ to affect him.",
+    "options": ["seems", "seem", "seeming", "have seem"],
+    "answer": "seems",
+    "explanation": "Singular subjects joined by 'neither...nor'. ✅"
+  },
+  {
+    "question": "A lot of people _____ waiting to see the actor.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "'People' is always plural. ✅"
+  },
+  {
+    "question": "Two and two _____ four.",
+    "options": ["make", "makes", "is", "All are correct"],
+    "answer": "All are correct",
+    "explanation": "In mathematical expressions, both singular and plural are acceptable. ✅"
+  },
+  {
+    "question": "The Arabian Nights _____ a very interesting book.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "Title of a book is singular. ✅"
+  }
+]
