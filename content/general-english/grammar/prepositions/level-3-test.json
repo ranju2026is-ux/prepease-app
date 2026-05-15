@@ -1,0 +1,332 @@
+[
+  {
+    "question": "He is very fond _____ sweets.",
+    "options": [
+      "at",
+      "in",
+      "of",
+      "with"
+    ],
+    "answer": "of",
+    "explanation": "'Fond' is always followed by 'of' to show liking. ✅"
+  },
+  {
+    "question": "You must abstain _____ smoking.",
+    "options": [
+      "from",
+      "to",
+      "with",
+      "at"
+    ],
+    "answer": "from",
+    "explanation": "'Abstain' (ದೂರವಿರುವುದು) is always followed by 'from'. ✅"
+  },
+  {
+    "question": "She is interested _____ learning music.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "for"
+    ],
+    "answer": "in",
+    "explanation": "'Interested' is followed by 'in'. ✅"
+  },
+  {
+    "question": "The man was accused _____ theft.",
+    "options": [
+      "of",
+      "for",
+      "with",
+      "by"
+    ],
+    "answer": "of",
+    "explanation": "When someone is blamed for a crime, we use 'accused of'. ✅"
+  },
+  {
+    "question": "He apologized _____ his mistake.",
+    "options": [
+      "with",
+      "for",
+      "to",
+      "at"
+    ],
+    "answer": "for",
+    "explanation": "We apologize 'for' a mistake or action. ✅"
+  },
+  {
+    "question": "The boy is afraid _____ the dark.",
+    "options": [
+      "from",
+      "with",
+      "of",
+      "by"
+    ],
+    "answer": "of",
+    "explanation": "Fixed preposition: 'afraid of'. ✅"
+  },
+  {
+    "question": "I am not satisfied _____ your performance.",
+    "options": [
+      "at",
+      "with",
+      "by",
+      "in"
+    ],
+    "answer": "with",
+    "explanation": "'Satisfied' takes the preposition 'with'. ✅"
+  },
+  {
+    "question": "He deals _____ silk clothes.",
+    "options": [
+      "with",
+      "at",
+      "in",
+      "on"
+    ],
+    "answer": "in",
+    "explanation": "'Deal in' means to trade or do business in something. ✅"
+  },
+  {
+    "question": "You must deal _____ this problem carefully.",
+    "options": [
+      "in",
+      "with",
+      "at",
+      "to"
+    ],
+    "answer": "with",
+    "explanation": "'Deal with' means to handle a person or a situation. ✅"
+  },
+  {
+    "question": "She is good _____ drawing.",
+    "options": [
+      "in",
+      "at",
+      "with",
+      "for"
+    ],
+    "answer": "at",
+    "explanation": "Proficiency in a skill is shown by 'good at'. ✅"
+  },
+  {
+    "question": "He was prevented _____ entering the room.",
+    "options": [
+      "to",
+      "from",
+      "by",
+      "at"
+    ],
+    "answer": "from",
+    "explanation": "'Prevent' is followed by 'from' + '-ing' verb. ✅"
+  },
+  {
+    "question": "I am proud _____ my country.",
+    "options": [
+      "with",
+      "at",
+      "of",
+      "on"
+    ],
+    "answer": "of",
+    "explanation": "Fixed preposition: 'proud of'. ✅"
+  },
+  {
+    "question": "He was surprised _____ her sudden arrival.",
+    "options": [
+      "at",
+      "with",
+      "by",
+      "on"
+    ],
+    "answer": "at",
+    "explanation": "Surprise/astonishment usually takes 'at'. ✅"
+  },
+  {
+    "question": "They are listening _____ the radio.",
+    "options": [
+      "at",
+      "to",
+      "in",
+      "on"
+    ],
+    "answer": "to",
+    "explanation": "'Listen' is always followed by 'to'. ✅"
+  },
+  {
+    "question": "The box is full _____ chocolates.",
+    "options": [
+      "with",
+      "of",
+      "at",
+      "in"
+    ],
+    "answer": "of",
+    "explanation": "'Full' takes 'of'. (Note: 'Filled' takes 'with'). ✅"
+  },
+  {
+    "question": "The glass is filled _____ water.",
+    "options": [
+      "of",
+      "with",
+      "at",
+      "by"
+    ],
+    "answer": "with",
+    "explanation": "'Filled' is followed by 'with'. ✅"
+  },
+  {
+    "question": "Do not laugh _____ the poor.",
+    "options": [
+      "on",
+      "at",
+      "to",
+      "with"
+    ],
+    "answer": "at",
+    "explanation": "'Laugh at' is the standard usage for making fun of someone. ✅"
+  },
+  {
+    "question": "He is suffering _____ fever.",
+    "options": [
+      "with",
+      "by",
+      "from",
+      "at"
+    ],
+    "answer": "from",
+    "explanation": "Fixed usage: 'suffering from'. ✅"
+  },
+  {
+    "question": "Please pay attention _____ what I say.",
+    "options": [
+      "on",
+      "to",
+      "at",
+      "in"
+    ],
+    "answer": "to",
+    "explanation": "'Attention' takes the preposition 'to'. ✅"
+  },
+  {
+    "question": "He is addicted _____ gambling.",
+    "options": [
+      "with",
+      "in",
+      "at",
+      "to"
+    ],
+    "answer": "to",
+    "explanation": "'Addicted' is followed by 'to'. ✅"
+  },
+  {
+    "question": "She is married _____ a rich man.",
+    "options": [
+      "with",
+      "to",
+      "by",
+      "at"
+    ],
+    "answer": "to",
+    "explanation": "One is married 'to' someone, not 'with' in formal English. ✅"
+  },
+  {
+    "question": "The results depend _____ your hard work.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "to"
+    ],
+    "answer": "on",
+    "explanation": "'Depend' always takes 'on'. ✅"
+  },
+  {
+    "question": "He congratulated me _____ my success.",
+    "options": [
+      "for",
+      "on",
+      "at",
+      "with"
+    ],
+    "answer": "on",
+    "explanation": "We congratulate someone 'on' an achievement. ✅"
+  },
+  {
+    "question": "Are you aware _____ the rules?",
+    "options": [
+      "with",
+      "at",
+      "of",
+      "in"
+    ],
+    "answer": "of",
+    "explanation": "Fixed preposition: 'aware of'. ✅"
+  },
+  {
+    "question": "He is blind _____ one eye.",
+    "options": [
+      "to",
+      "in",
+      "at",
+      "with"
+    ],
+    "answer": "in",
+    "explanation": "If referring to physical blindness, use 'in'. (If referring to ignoring faults, use 'blind to'). ✅"
+  },
+  {
+    "question": "The father is blind _____ his son's faults.",
+    "options": [
+      "in",
+      "to",
+      "at",
+      "with"
+    ],
+    "answer": "to",
+    "explanation": "'Blind to' means to ignore or overlook something. ✅"
+  },
+  {
+    "question": "I am tired _____ waiting for them.",
+    "options": [
+      "with",
+      "by",
+      "of",
+      "at"
+    ],
+    "answer": "of",
+    "explanation": "Fixed usage: 'tired of' doing something. ✅"
+  },
+  {
+    "question": "She is gifted _____ a sweet voice.",
+    "options": [
+      "with",
+      "of",
+      "by",
+      "at"
+    ],
+    "answer": "with",
+    "explanation": "'Gifted' is followed by 'with'. ✅"
+  },
+  {
+    "question": "Trust _____ God and do the right.",
+    "options": [
+      "on",
+      "in",
+      "at",
+      "to"
+    ],
+    "answer": "in",
+    "explanation": "Standard phrase: 'Trust in God'. ✅"
+  },
+  {
+    "question": "He belongs _____ a noble family.",
+    "options": [
+      "with",
+      "in",
+      "at",
+      "to"
+    ],
+    "answer": "to",
+    "explanation": "'Belongs' always takes 'to'. ✅"
+  }
+]
