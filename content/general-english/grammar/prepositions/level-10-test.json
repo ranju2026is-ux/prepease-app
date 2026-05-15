@@ -1,0 +1,332 @@
+[
+  {
+    "question": "The property was divided _____ the five sons.",
+    "options": [
+      "between",
+      "among",
+      "amidst",
+      "with"
+    ],
+    "answer": "among",
+    "explanation": "'Among' is used for more than two people. ✅"
+  },
+  {
+    "question": "He was prevented _____ going to the cinema.",
+    "options": [
+      "to",
+      "from",
+      "by",
+      "at"
+    ],
+    "answer": "from",
+    "explanation": "'Prevented' is always followed by 'from + ing verb'. ✅"
+  },
+  {
+    "question": "She is indifferent _____ pleasure and pain.",
+    "options": [
+      "to",
+      "with",
+      "for",
+      "at"
+    ],
+    "answer": "to",
+    "explanation": "'Indifferent to' means having no interest or sympathy. ✅"
+  },
+  {
+    "question": "The culprit was charged _____ murder.",
+    "options": [
+      "of",
+      "for",
+      "with",
+      "by"
+    ],
+    "answer": "with",
+    "explanation": "Note: One is 'accused of' but 'charged with' a crime. ✅"
+  },
+  {
+    "question": "I have been waiting here _____ the last two hours.",
+    "options": [
+      "since",
+      "for",
+      "from",
+      "by"
+    ],
+    "answer": "for",
+    "explanation": "Duration of time takes 'for'. ✅"
+  },
+  {
+    "question": "The ship is bound _____ Australia.",
+    "options": [
+      "to",
+      "for",
+      "towards",
+      "in"
+    ],
+    "answer": "for",
+    "explanation": "'Bound for' means traveling towards a specific destination. ✅"
+  },
+  {
+    "question": "He is very quick _____ calculations.",
+    "options": [
+      "in",
+      "at",
+      "with",
+      "on"
+    ],
+    "answer": "at",
+    "explanation": "Proficiency in a specific task takes 'at'. ✅"
+  },
+  {
+    "question": "I cannot part _____ this old watch.",
+    "options": [
+      "from",
+      "with",
+      "by",
+      "to"
+    ],
+    "answer": "with",
+    "explanation": "One parts 'with' a thing and 'from' a person. ✅"
+  },
+  {
+    "question": "The government must abide _____ the court's decision.",
+    "options": [
+      "to",
+      "with",
+      "by",
+      "at"
+    ],
+    "answer": "by",
+    "explanation": "'Abide by' means to follow or obey. ✅"
+  },
+  {
+    "question": "She is very good _____ knitting.",
+    "options": [
+      "in",
+      "at",
+      "with",
+      "for"
+    ],
+    "answer": "at",
+    "explanation": "Good/Bad 'at' a skill. ✅"
+  },
+  {
+    "question": "He is superior _____ me in every way.",
+    "options": [
+      "than",
+      "to",
+      "over",
+      "above"
+    ],
+    "answer": "to",
+    "explanation": "Latin adjectives like superior/inferior take 'to'. ✅"
+  },
+  {
+    "question": "I am looking forward _____ meeting you.",
+    "options": [
+      "to",
+      "for",
+      "at",
+      "with"
+    ],
+    "answer": "to",
+    "explanation": "'Looking forward to' is a fixed phrase followed by a gerund (-ing). ✅"
+  },
+  {
+    "question": "He was acquitted _____ all charges.",
+    "options": [
+      "from",
+      "of",
+      "with",
+      "by"
+    ],
+    "answer": "of",
+    "explanation": "'Acquitted of' (ದೋಷಮುಕ್ತಗೊಳಿಸುವುದು) is a fixed preposition. ✅"
+  },
+  {
+    "question": "This book is different _____ that one.",
+    "options": [
+      "than",
+      "from",
+      "to",
+      "with"
+    ],
+    "answer": "from",
+    "explanation": "'Different' is followed by 'from'. ✅"
+  },
+  {
+    "question": "The patient is recovering _____ a long illness.",
+    "options": [
+      "of",
+      "with",
+      "from",
+      "by"
+    ],
+    "answer": "from",
+    "explanation": "Recover 'from' something. ✅"
+  },
+  {
+    "question": "He is devoid _____ common sense.",
+    "options": [
+      "from",
+      "of",
+      "with",
+      "at"
+    ],
+    "answer": "of",
+    "explanation": "'Devoid of' (ರಹಿತವಾಗಿರುವುದು) is the correct fixed preposition. ✅"
+  },
+  {
+    "question": "We should not yield _____ pressure.",
+    "options": [
+      "to",
+      "with",
+      "under",
+      "for"
+    ],
+    "answer": "to",
+    "explanation": "'Yield to' means to surrender or give in. ✅"
+  },
+  {
+    "question": "He was married _____ my cousin.",
+    "options": [
+      "with",
+      "to",
+      "at",
+      "by"
+    ],
+    "answer": "to",
+    "explanation": "Married 'to' someone (Passive voice rule). ✅"
+  },
+  {
+    "question": "He is capable _____ doing this work.",
+    "options": [
+      "to",
+      "of",
+      "for",
+      "with"
+    ],
+    "answer": "of",
+    "explanation": "'Capable of' is followed by an -ing verb. ✅"
+  },
+  {
+    "question": "The climate of this place doesn't agree _____ me.",
+    "options": [
+      "to",
+      "with",
+      "at",
+      "on"
+    ],
+    "answer": "with",
+    "explanation": "'Agree with' when referring to health or suitability. ✅"
+  },
+  {
+    "question": "He died _____ his country.",
+    "options": [
+      "of",
+      "from",
+      "for",
+      "with"
+    ],
+    "answer": "for",
+    "explanation": "Dying 'for' a cause or country. ✅"
+  },
+  {
+    "question": "I am not acquainted _____ that lady.",
+    "options": [
+      "to",
+      "with",
+      "of",
+      "by"
+    ],
+    "answer": "with",
+    "explanation": "'Acquainted with' means having personal knowledge of. ✅"
+  },
+  {
+    "question": "She is exempt _____ paying the fine.",
+    "options": [
+      "to",
+      "with",
+      "from",
+      "of"
+    ],
+    "answer": "from",
+    "explanation": "'Exempt from' (ವಿನಾಯಿತಿ) is correct. ✅"
+  },
+  {
+    "question": "He is slow _____ hearing.",
+    "options": [
+      "in",
+      "of",
+      "at",
+      "on"
+    ],
+    "answer": "of",
+    "explanation": "'Slow of hearing' is a fixed idiom. ✅"
+  },
+  {
+    "question": "The hunter aimed _____ the tiger.",
+    "options": [
+      "on",
+      "at",
+      "to",
+      "with"
+    ],
+    "answer": "at",
+    "explanation": "'Aim at' is correct. ✅"
+  },
+  {
+    "question": "He was overwhelmed _____ grief.",
+    "options": [
+      "by",
+      "with",
+      "from",
+      "at"
+    ],
+    "answer": "with",
+    "explanation": "Overwhelmed 'with' emotion. ✅"
+  },
+  {
+    "question": "She was dressed _____ silk.",
+    "options": [
+      "with",
+      "in",
+      "on",
+      "at"
+    ],
+    "answer": "in",
+    "explanation": "Dressed 'in' a fabric or color. ✅"
+  },
+  {
+    "question": "I have no influence _____ him.",
+    "options": [
+      "at",
+      "on",
+      "over",
+      "with"
+    ],
+    "answer": "over",
+    "explanation": "Influence 'over' a person. ✅"
+  },
+  {
+    "question": "He was appointed _____ the post of JAA.",
+    "options": [
+      "to",
+      "for",
+      "at",
+      "in"
+    ],
+    "answer": "to",
+    "explanation": "'Appointed to' a position/post. ✅"
+  },
+  {
+    "question": "He is popular _____ his neighbors.",
+    "options": [
+      "to",
+      "with",
+      "for",
+      "among"
+    ],
+    "answer": "with",
+    "explanation": "Popular 'with' a group of people. ✅"
+  }
+]
