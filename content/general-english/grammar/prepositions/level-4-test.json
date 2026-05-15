@@ -1,0 +1,332 @@
+[
+  {
+    "question": "_____ the rain, the match continued.",
+    "options": [
+      "In spite of",
+      "Despite of",
+      "Instead of",
+      "Because of"
+    ],
+    "answer": "In spite of",
+    "explanation": "'In spite of' is correct. Note that 'Despite' does not take 'of'. ✅"
+  },
+  {
+    "question": "He succeeded _____ hard work.",
+    "options": [
+      "by means of",
+      "by way of",
+      "in order to",
+      "according to"
+    ],
+    "answer": "by means of",
+    "explanation": "'By means of' indicates the method or instrument used to achieve something. ✅"
+  },
+  {
+    "question": "We acted _____ the instructions given by the principal.",
+    "options": [
+      "in accordance with",
+      "in favor of",
+      "in addition to",
+      "in spite of"
+    ],
+    "answer": "in accordance with",
+    "explanation": "'In accordance with' means following a rule or instruction. ✅"
+  },
+  {
+    "question": "He went to the forest _____ his friend.",
+    "options": [
+      "along with",
+      "along side",
+      "away from",
+      "instead of"
+    ],
+    "answer": "along with",
+    "explanation": "'Along with' means in company with or together with. ✅"
+  },
+  {
+    "question": "I am writing this _____ my father.",
+    "options": [
+      "on behalf of",
+      "in place of",
+      "instead of",
+      "because of"
+    ],
+    "answer": "on behalf of",
+    "explanation": "'On behalf of' means acting as a representative of someone else. ✅"
+  },
+  {
+    "question": "_____ his illness, he attended the meeting.",
+    "options": [
+      "Despite",
+      "In spite",
+      "Regardless",
+      "Because"
+    ],
+    "answer": "Despite",
+    "explanation": "'Despite' shows contrast and is used without 'of'. ✅"
+  },
+  {
+    "question": "He gave me a pen _____ a book.",
+    "options": [
+      "in addition to",
+      "along with",
+      "in spite of",
+      "instead of"
+    ],
+    "answer": "in addition to",
+    "explanation": "'In addition to' means 'besides' or 'extra'. ✅"
+  },
+  {
+    "question": "He went to the market _____ going to school.",
+    "options": [
+      "instead of",
+      "in place of",
+      "in spite of",
+      "because of"
+    ],
+    "answer": "instead of",
+    "explanation": "'Instead of' means in place of something else. ✅"
+  },
+  {
+    "question": "_____ the law, you must pay your taxes.",
+    "options": [
+      "According to",
+      "In spite of",
+      "Instead of",
+      "Because of"
+    ],
+    "answer": "According to",
+    "explanation": "'According to' refers to information or rules. ✅"
+  },
+  {
+    "question": "The building was destroyed _____ fire.",
+    "options": [
+      "by means of",
+      "because of",
+      "in spite of",
+      "on account of"
+    ],
+    "answer": "on account of",
+    "explanation": "'On account of' means 'due to' or 'because of'. ✅"
+  },
+  {
+    "question": "He climbed the wall _____ a ladder.",
+    "options": [
+      "by means of",
+      "in spite of",
+      "along with",
+      "instead of"
+    ],
+    "answer": "by means of",
+    "explanation": "Shows the instrument/method used. ✅"
+  },
+  {
+    "question": "I was late _____ the traffic jam.",
+    "options": [
+      "due to",
+      "because of",
+      "on account of",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "explanation": "All these phrases can be used to show the reason for being late. ✅"
+  },
+  {
+    "question": "They fought _____ their country.",
+    "options": [
+      "in favor of",
+      "on behalf of",
+      "for the sake of",
+      "instead of"
+    ],
+    "answer": "for the sake of",
+    "explanation": "'For the sake of' means for the benefit or purpose of something. ✅"
+  },
+  {
+    "question": "He was chosen _____ the leader.",
+    "options": [
+      "in place of",
+      "instead of",
+      "in addition to",
+      "along with"
+    ],
+    "answer": "in place of",
+    "explanation": "Replacing someone else. ✅"
+  },
+  {
+    "question": "_____ his hard work, he failed.",
+    "options": [
+      "In spite of",
+      "Because of",
+      "Along with",
+      "Instead of"
+    ],
+    "answer": "In spite of",
+    "explanation": "Contrast: Hard work vs failure. ✅"
+  },
+  {
+    "question": "The train was cancelled _____ heavy snowfall.",
+    "options": [
+      "owing to",
+      "in spite of",
+      "along with",
+      "instead of"
+    ],
+    "answer": "owing to",
+    "explanation": "'Owing to' is a formal way to say 'because of'. ✅"
+  },
+  {
+    "question": "He is sitting _____ his father.",
+    "options": [
+      "along with",
+      "next to",
+      "beside",
+      "Both B and C"
+    ],
+    "answer": "Both B and C",
+    "explanation": "Both 'next to' and 'beside' indicate physical proximity. ✅"
+  },
+  {
+    "question": "I will buy a car _____ a bike.",
+    "options": [
+      "instead of",
+      "in spite of",
+      "along with",
+      "on behalf of"
+    ],
+    "answer": "instead of",
+    "explanation": "Preference/replacement choice. ✅"
+  },
+  {
+    "question": "He escaped _____ the tunnel.",
+    "options": [
+      "by means of",
+      "along with",
+      "in accordance with",
+      "instead of"
+    ],
+    "answer": "by means of",
+    "explanation": "Using the tunnel as a method of escape. ✅"
+  },
+  {
+    "question": "The rules are made _____ the public.",
+    "options": [
+      "for the sake of",
+      "in spite of",
+      "instead of",
+      "on behalf of"
+    ],
+    "answer": "for the sake of",
+    "explanation": "For the benefit of the public. ✅"
+  },
+  {
+    "question": "He attended the party _____ his busy schedule.",
+    "options": [
+      "in spite of",
+      "because of",
+      "along with",
+      "instead of"
+    ],
+    "answer": "in spite of",
+    "explanation": "Contrast between busy schedule and attendance. ✅"
+  },
+  {
+    "question": "_____ my opinion, he is right.",
+    "options": [
+      "In accordance with",
+      "In favor of",
+      "In my opinion",
+      "Instead of"
+    ],
+    "answer": "In my opinion",
+    "explanation": "A common phrase to express a viewpoint. ✅"
+  },
+  {
+    "question": "He is acting _____ the chairman.",
+    "options": [
+      "on behalf of",
+      "instead of",
+      "in addition to",
+      "along with"
+    ],
+    "answer": "on behalf of",
+    "explanation": "Representative role. ✅"
+  },
+  {
+    "question": "The game was postponed _____ the weather.",
+    "options": [
+      "on account of",
+      "in spite of",
+      "along with",
+      "instead of"
+    ],
+    "answer": "on account of",
+    "explanation": "Reason for the postponement. ✅"
+  },
+  {
+    "question": "We must live _____ our means.",
+    "options": [
+      "within",
+      "without",
+      "in spite of",
+      "instead of"
+    ],
+    "answer": "within",
+    "explanation": "'Within one's means' is a fixed idiom meaning within your budget. ✅"
+  },
+  {
+    "question": "_____ the warning, he entered the room.",
+    "options": [
+      "Despite",
+      "Because of",
+      "Along with",
+      "Instead of"
+    ],
+    "answer": "Despite",
+    "explanation": "Ignored the warning. ✅"
+  },
+  {
+    "question": "He is working _____ his health.",
+    "options": [
+      "regardless of",
+      "in spite of",
+      "instead of",
+      "Both A and B"
+    ],
+    "answer": "Both A and B",
+    "explanation": "Both phrases indicate he is working even though his health is not good. ✅"
+  },
+  {
+    "question": "_____ what you think, I am going.",
+    "options": [
+      "Regardless of",
+      "Instead of",
+      "In accordance with",
+      "Because of"
+    ],
+    "answer": "Regardless of",
+    "explanation": "Means 'no matter what'. ✅"
+  },
+  {
+    "question": "I am standing here _____ my friend.",
+    "options": [
+      "along with",
+      "in favor of",
+      "instead of",
+      "in spite of"
+    ],
+    "answer": "along with",
+    "explanation": "Together with. ✅"
+  },
+  {
+    "question": "The soldier died _____ his country.",
+    "options": [
+      "for the sake of",
+      "in spite of",
+      "instead of",
+      "because of"
+    ],
+    "answer": "for the sake of",
+    "explanation": "Ultimate sacrifice for a purpose. ✅"
+  }
+]
