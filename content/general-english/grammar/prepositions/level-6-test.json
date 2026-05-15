@@ -1,0 +1,332 @@
+[
+  {
+    "question": "She is angry _____ her brother for breaking the vase.",
+    "options": [
+      "at",
+      "with",
+      "on",
+      "for"
+    ],
+    "answer": "with",
+    "explanation": "We use 'angry with' when the anger is directed towards a person. ✅"
+  },
+  {
+    "question": "The teacher was angry _____ the student's misconduct.",
+    "options": [
+      "with",
+      "at",
+      "on",
+      "by"
+    ],
+    "answer": "at",
+    "explanation": "We use 'angry at' when the anger is directed towards a thing, behavior, or situation. ✅"
+  },
+  {
+    "question": "I agree _____ your proposal to start a new project.",
+    "options": [
+      "with",
+      "to",
+      "on",
+      "for"
+    ],
+    "answer": "to",
+    "explanation": "We 'agree to' a proposal, plan, or suggestion. ✅"
+  },
+  {
+    "question": "I completely agree _____ you on this matter.",
+    "options": [
+      "to",
+      "with",
+      "on",
+      "at"
+    ],
+    "answer": "with",
+    "explanation": "We 'agree with' a person. ✅"
+  },
+  {
+    "question": "They finally agreed _____ the terms of the contract.",
+    "options": [
+      "with",
+      "to",
+      "on",
+      "at"
+    ],
+    "answer": "on",
+    "explanation": "We 'agree on' a point of debate or specific terms after discussion. ✅"
+  },
+  {
+    "question": "He died _____ overwork in the factory.",
+    "options": [
+      "of",
+      "from",
+      "by",
+      "with"
+    ],
+    "answer": "from",
+    "explanation": "We use 'die from' for causes other than disease (like overwork, hunger, or a wound). ✅"
+  },
+  {
+    "question": "Many people in the village died _____ Malaria.",
+    "options": [
+      "from",
+      "of",
+      "with",
+      "by"
+    ],
+    "answer": "of",
+    "explanation": "We use 'die of' when referring to a specific disease. ✅"
+  },
+  {
+    "question": "The young man was blind _____ one eye.",
+    "options": [
+      "to",
+      "in",
+      "with",
+      "at"
+    ],
+    "answer": "in",
+    "explanation": "When referring to physical lack of sight, we use 'blind in'. ✅"
+  },
+  {
+    "question": "Parents are often blind _____ their children's faults.",
+    "options": [
+      "in",
+      "to",
+      "with",
+      "for"
+    ],
+    "answer": "to",
+    "explanation": "We use 'blind to' when someone ignores or overlooks something. ✅"
+  },
+  {
+    "question": "The shopkeeper deals _____ stationery items.",
+    "options": [
+      "with",
+      "in",
+      "at",
+      "on"
+    ],
+    "answer": "in",
+    "explanation": "To 'deal in' means to trade or do business in specific goods. ✅"
+  },
+  {
+    "question": "You should know how to deal _____ difficult customers.",
+    "options": [
+      "in",
+      "with",
+      "at",
+      "to"
+    ],
+    "answer": "with",
+    "explanation": "To 'deal with' means to handle a person or a situation. ✅"
+  },
+  {
+    "question": "I apologized _____ the teacher for being late.",
+    "options": [
+      "for",
+      "at",
+      "to",
+      "with"
+    ],
+    "answer": "to",
+    "explanation": "We apologize 'to' a person. ✅"
+  },
+  {
+    "question": "He apologized _____ his rude behavior.",
+    "options": [
+      "to",
+      "for",
+      "at",
+      "with"
+    ],
+    "answer": "for",
+    "explanation": "We apologize 'for' an action or mistake. ✅"
+  },
+  {
+    "question": "The table is made _____ wood.",
+    "options": [
+      "from",
+      "of",
+      "with",
+      "by"
+    ],
+    "answer": "of",
+    "explanation": "We use 'made of' when the material does not change its form (physical change). ✅"
+  },
+  {
+    "question": "Butter is made _____ milk.",
+    "options": [
+      "of",
+      "from",
+      "by",
+      "with"
+    ],
+    "answer": "from",
+    "explanation": "We use 'made from' when the material changes its form completely (chemical change). ✅"
+  },
+  {
+    "question": "She compared her son _____ a lion.",
+    "options": [
+      "to",
+      "with",
+      "at",
+      "by"
+    ],
+    "answer": "to",
+    "explanation": "We use 'compare to' when comparing two dissimilar things (metaphor). ✅"
+  },
+  {
+    "question": "Compare this map _____ the one on the wall.",
+    "options": [
+      "to",
+      "with",
+      "at",
+      "by"
+    ],
+    "answer": "with",
+    "explanation": "We use 'compare with' when comparing two similar things to find differences. ✅"
+  },
+  {
+    "question": "The candidate appealed _____ the voters for support.",
+    "options": [
+      "for",
+      "to",
+      "at",
+      "with"
+    ],
+    "answer": "to",
+    "explanation": "You appeal 'to' a person or authority. ✅"
+  },
+  {
+    "question": "They appealed _____ more time to complete the work.",
+    "options": [
+      "to",
+      "for",
+      "at",
+      "with"
+    ],
+    "answer": "for",
+    "explanation": "You appeal 'for' a thing or a request. ✅"
+  },
+  {
+    "question": "He is familiar _____ this area.",
+    "options": [
+      "to",
+      "with",
+      "at",
+      "in"
+    ],
+    "answer": "with",
+    "explanation": "A person is 'familiar with' a thing or place. ✅"
+  },
+  {
+    "question": "Your face is very familiar _____ me.",
+    "options": [
+      "with",
+      "to",
+      "at",
+      "in"
+    ],
+    "answer": "to",
+    "explanation": "A thing or person is 'familiar to' someone. ✅"
+  },
+  {
+    "question": "She part _____ her jewelry with a heavy heart.",
+    "options": [
+      "with",
+      "from",
+      "at",
+      "by"
+    ],
+    "answer": "with",
+    "explanation": "You 'part with' a thing (possession). ✅"
+  },
+  {
+    "question": "He parted _____ his friends at the airport.",
+    "options": [
+      "with",
+      "from",
+      "at",
+      "to"
+    ],
+    "answer": "from",
+    "explanation": "You 'part from' a person. ✅"
+  },
+  {
+    "question": "Don't interfere _____ my personal affairs.",
+    "options": [
+      "with",
+      "in",
+      "at",
+      "to"
+    ],
+    "answer": "in",
+    "explanation": "You 'interfere in' a matter or situation. ✅"
+  },
+  {
+    "question": "The weather interfered _____ our travel plans.",
+    "options": [
+      "in",
+      "with",
+      "at",
+      "to"
+    ],
+    "answer": "with",
+    "explanation": "A thing 'interferes with' another thing (causes obstruction). ✅"
+  },
+  {
+    "question": "I am grateful _____ you for your help.",
+    "options": [
+      "for",
+      "to",
+      "at",
+      "with"
+    ],
+    "answer": "to",
+    "explanation": "We are grateful 'to' a person. ✅"
+  },
+  {
+    "question": "I am grateful _____ the help you provided.",
+    "options": [
+      "to",
+      "for",
+      "at",
+      "with"
+    ],
+    "answer": "for",
+    "explanation": "We are grateful 'for' a thing or favor. ✅"
+  },
+  {
+    "question": "He was admitted _____ the hospital.",
+    "options": [
+      "to",
+      "into",
+      "in",
+      "at"
+    ],
+    "answer": "to",
+    "explanation": "We use 'admitted to' for institutions (school, hospital). ✅"
+  },
+  {
+    "question": "I cannot admit you _____ the secret.",
+    "options": [
+      "to",
+      "into",
+      "at",
+      "with"
+    ],
+    "answer": "into",
+    "explanation": "We use 'admitted into' when allowing entry into a private circle or secret. ✅"
+  },
+  {
+    "question": "The prize was divided _____ the two winners.",
+    "options": [
+      "among",
+      "between",
+      "with",
+      "for"
+    ],
+    "answer": "between",
+    "explanation": "Used for two persons or entities. ✅"
+  }
+]
