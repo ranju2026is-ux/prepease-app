@@ -1,0 +1,332 @@
+[
+  {
+    "question": "Please _____ the book on the table.",
+    "options": [
+      "lie",
+      "lay",
+      "lain",
+      "laid"
+    ],
+    "answer": "lay",
+    "explanation": "'Lay' means to put something down (requires an object), whereas 'lie' means to rest oneself. ✅"
+  },
+  {
+    "question": "He has _____ in the sun for too long.",
+    "options": [
+      "lied",
+      "lay",
+      "lain",
+      "laid"
+    ],
+    "answer": "lain",
+    "explanation": "'Lain' is the past participle (V3) of 'lie' (to rest). 'Laid' is the V3 of 'lay'. ✅"
+  },
+  {
+    "question": "The sun _____ in the east.",
+    "options": [
+      "raises",
+      "rises",
+      "rose",
+      "risen"
+    ],
+    "answer": "rises",
+    "explanation": "'Rise' is an intransitive verb (happens on its own), 'Raise' is transitive (requires an object). ✅"
+  },
+  {
+    "question": "The prisoner was _____ until death.",
+    "options": [
+      "hung",
+      "hanged",
+      "hang",
+      "hanging"
+    ],
+    "answer": "hanged",
+    "explanation": "When referring to execution (death penalty), the past form of 'hang' is 'hanged'. For objects, it is 'hung'. ✅"
+  },
+  {
+    "question": "I suggest that he _____ the meeting.",
+    "options": [
+      "attend",
+      "attends",
+      "attended",
+      "attending"
+    ],
+    "answer": "attend",
+    "explanation": "In the subjunctive mood (after suggest, recommend, insist), the base form of the verb is used regardless of the subject. ✅"
+  },
+  {
+    "question": "Neither of the two sisters _____ invited to the party.",
+    "options": [
+      "was",
+      "were",
+      "are",
+      "have"
+    ],
+    "answer": "was",
+    "explanation": "'Neither' is always treated as a singular subject in formal grammar. ✅"
+  },
+  {
+    "question": "The river has _____ its banks.",
+    "options": [
+      "overflowed",
+      "overflown",
+      "overflow",
+      "overfly"
+    ],
+    "answer": "overflowed",
+    "explanation": "The past participle of 'overflow' is 'overflowed'. 'Overflown' is the V3 of 'overfly'. ✅"
+  },
+  {
+    "question": "If I _____ a bird, I would fly to you.",
+    "options": [
+      "am",
+      "was",
+      "were",
+      "be"
+    ],
+    "answer": "were",
+    "explanation": "In hypothetical/imaginary conditions, 'were' is used with all subjects. ✅"
+  },
+  {
+    "question": "The hen has _____ an egg.",
+    "options": [
+      "lied",
+      "lay",
+      "laid",
+      "lain"
+    ],
+    "answer": "laid",
+    "explanation": "The past participle of 'lay' (to produce an egg) is 'laid'. ✅"
+  },
+  {
+    "question": "The wind _____ the candle out.",
+    "options": [
+      "blew",
+      "blowed",
+      "blown",
+      "blow"
+    ],
+    "answer": "blew",
+    "explanation": "Simple past of 'blow' is 'blew'. ✅"
+  },
+  {
+    "question": "It's time we _____ home.",
+    "options": [
+      "go",
+      "went",
+      "going",
+      "should go"
+    ],
+    "answer": "went",
+    "explanation": "After 'It is time' or 'It is high time', the simple past tense (V2) is used. ✅"
+  },
+  {
+    "question": "The price of essential commodities _____ recently.",
+    "options": [
+      "has risen",
+      "has raised",
+      "have risen",
+      "have raised"
+    ],
+    "answer": "has risen",
+    "explanation": "'Price' (singular) + 'risen' (intransitive action of going up). ✅"
+  },
+  {
+    "question": "I _____ him to the hospital yesterday.",
+    "options": [
+      "born",
+      "borne",
+      "bore",
+      "beared"
+    ],
+    "answer": "bore",
+    "explanation": "'Bore' is the simple past of 'bear' (to carry). ✅"
+  },
+  {
+    "question": "He _____ that he was innocent.",
+    "options": [
+      "lied",
+      "lay",
+      "laid",
+      "lain"
+    ],
+    "answer": "lied",
+    "explanation": "Here 'lied' means to tell an untruth (lie-lied-lied). ✅"
+  },
+  {
+    "question": "Ten miles _____ a long distance.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "explanation": "Measurement units as a whole are singular. ✅"
+  },
+  {
+    "question": "None of the students _____ finished the task.",
+    "options": [
+      "has",
+      "have",
+      "is",
+      "are"
+    ],
+    "answer": "has",
+    "explanation": "In formal exams, 'None' is treated as singular. ✅"
+  },
+  {
+    "question": "I would rather you _____ here today.",
+    "options": [
+      "stay",
+      "stayed",
+      "to stay",
+      "staying"
+    ],
+    "answer": "stayed",
+    "explanation": "After 'would rather' + subject, the past simple is used to express a present preference. ✅"
+  },
+  {
+    "question": "The ship _____ in the ocean.",
+    "options": [
+      "sank",
+      "drowned",
+      "sinked",
+      "was drowned"
+    ],
+    "answer": "sank",
+    "explanation": "'Sink' is used for non-living objects; 'drown' is for living beings. ✅"
+  },
+  {
+    "question": "He _____ the table for dinner.",
+    "options": [
+      "lied",
+      "lay",
+      "laid",
+      "lain"
+    ],
+    "answer": "laid",
+    "explanation": "Past tense of 'lay' (to arrange/put) is 'laid'. ✅"
+  },
+  {
+    "question": "The mother _____ her baby on the bed.",
+    "options": [
+      "lay",
+      "laid",
+      "lied",
+      "lain"
+    ],
+    "answer": "laid",
+    "explanation": "She 'put' the baby down, so transitive 'laid' is correct. ✅"
+  },
+  {
+    "question": "Bread and butter _____ not easy to earn.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "explanation": "Refers to 'livelihood' (a single concept). ✅"
+  },
+  {
+    "question": "Each of the boxes _____ heavy.",
+    "options": [
+      "is",
+      "are",
+      "were",
+      "have"
+    ],
+    "answer": "is",
+    "explanation": "Subject is 'Each'. ✅"
+  },
+  {
+    "question": "I _____ the clock every night.",
+    "options": [
+      "wind",
+      "winded",
+      "wound",
+      "wounds"
+    ],
+    "answer": "wind",
+    "explanation": "Present habit (wind-wound-wound). ✅"
+  },
+  {
+    "question": "The hunter _____ at the bird.",
+    "options": [
+      "sights",
+      "sighted",
+      "seed",
+      "sawed"
+    ],
+    "answer": "sighted",
+    "explanation": "To take aim or see. ✅"
+  },
+  {
+    "question": "He was _____ in 1990.",
+    "options": [
+      "born",
+      "borne",
+      "bore",
+      "birth"
+    ],
+    "answer": "born",
+    "explanation": "'Born' is used specifically for birth. 'Borne' is for carrying. ✅"
+  },
+  {
+    "question": "She _____ the clothes on the line.",
+    "options": [
+      "hang",
+      "hung",
+      "hanged",
+      "hanging"
+    ],
+    "answer": "hung",
+    "explanation": "Non-living object past tense is 'hung'. ✅"
+  },
+  {
+    "question": "The boy _____ a lie to his teacher.",
+    "options": [
+      "lied",
+      "lay",
+      "laid",
+      "lain"
+    ],
+    "answer": "lied",
+    "explanation": "Telling an untruth. ✅"
+  },
+  {
+    "question": "You had better _____ your shoes.",
+    "options": [
+      "polish",
+      "polished",
+      "polishing",
+      "to polish"
+    ],
+    "answer": "polish",
+    "explanation": "After 'had better', use bare infinitive (V1). ✅"
+  },
+  {
+    "question": "I wish I _____ the Prime Minister.",
+    "options": [
+      "am",
+      "was",
+      "were",
+      "be"
+    ],
+    "answer": "were",
+    "explanation": "Subjunctive mood for a wish. ✅"
+  },
+  {
+    "question": "Neither you nor he _____ going to the party.",
+    "options": [
+      "is",
+      "are",
+      "am",
+      "be"
+    ],
+    "answer": "is",
+    "explanation": "Agrees with the nearest subject 'he'. ✅"
+  }
+]
