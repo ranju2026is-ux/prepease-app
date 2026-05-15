@@ -1,62 +1,92 @@
 [
   {
-    "word": "In vs At (Place)",
+    "word": "Place: In vs At",
     "meaning_kannada": "ಸ್ಥಳವನ್ನು ಸೂಚಿಸುವಾಗ 'In' ಮತ್ತು 'At' ನಡುವಿನ ವ್ಯತ್ಯಾಸ.",
-    "meaning_english": "'At' is used for a specific point, small towns, or exact addresses. 'In' is used for larger areas like cities, states, countries, and continents.\n\n• Example: He lives *at* Banhatti *in* Karnataka.",
+    "meaning_english": "'At' is for a specific point, small towns, or addresses. 'In' is for large cities, countries, and enclosed spaces.\n\n• Example: He lives *at* Rabkavi *in* Karnataka.",
     "emoji": "📍"
   },
   {
-    "word": "Between vs Among",
-    "meaning_kannada": "ಇಬ್ಬರ ನಡುವೆ ಅಥವಾ ಹಲವರ ನಡುವೆ ಎಂಬುದನ್ನು ಸೂಚಿಸಲು.",
-    "meaning_english": "'Between' is used for two persons or things. 'Among' is used for more than two persons or things.\n\n• Example: Distribute these sweets *between* Ravi and Somu.\n• Example: The property was divided *among* the four brothers.",
-    "emoji": "👥"
-  },
-  {
-    "word": "Since vs For (Time)",
-    "meaning_kannada": "ಸಮಯವನ್ನು ಸೂಚಿಸಲು (ನಿರ್ದಿಷ್ಟ ಸಮಯ vs ಸಮಯದ ಅವಧಿ).",
-    "meaning_english": "'Since' is used for a point of time (starting point). 'For' is used for a period of duration.\n\n• Example: I have been working *since* 9 AM.\n• Example: She has lived here *for* five years.",
+    "word": "Time: Since vs For",
+    "meaning_kannada": "ಸಮಯದ ಅವಧಿ (Duration) ಮತ್ತು ನಿರ್ದಿಷ್ಟ ಸಮಯ (Point of Time).",
+    "meaning_english": "'Since' refers to a specific point in time (1990, Monday, 8 AM). 'For' refers to a duration (2 hours, 5 years).\n\n• Example: I have been studying *since* morning *for* three hours.",
     "emoji": "⏳"
   },
   {
-    "word": "Beside vs Besides",
-    "meaning_kannada": "ಪಕ್ಕದಲ್ಲಿ vs ಅದರ ಜೊತೆಗೆ (ಹೊರತುಪಡಿಸಿ).",
-    "meaning_english": "'Beside' means 'by the side of'. 'Besides' means 'in addition to'.\n\n• Example: Go and sit *beside* your mother.\n• Example: *Besides* Kannada, he knows English and Hindi.",
-    "emoji": "➕"
+    "word": "Relationship: Between vs Among",
+    "meaning_kannada": "ಇಬ್ಬರ ನಡುವೆ vs ಹಲವರ ನಡುವೆ.",
+    "meaning_english": "'Between' is for two persons/things. 'Among' is for more than two.\n\n• Example: The secret is *between* you and me.\n• Example: Distribute these sweets *among* the poor.",
+    "emoji": "👥"
   },
   {
-    "word": "Fixed Prepositions: Diseases",
-    "meaning_kannada": "ರೋಗಗಳಿಂದ ಸಾವು ಸಂಭವಿಸಿದಾಗ ಬಳಸುವ ಪ್ರಿಪೋಸಿಷನ್.",
-    "meaning_english": "Use 'of' when someone dies *of* a disease (Cholera, Cancer, etc.). Use 'from' when someone dies *from* a cause like overeating, thirst, or a wound.\n\n• Example: He died *of* Malaria.\n• Example: Many people die *from* hunger.",
-    "emoji": "🩺"
-  },
-  {
-    "word": "Into vs In (Motion)",
-    "meaning_kannada": "ಚಲನೆಯನ್ನು ಸೂಚಿಸಲು 'Into' ಬಳಕೆ.",
-    "meaning_english": "'In' denotes a position inside. 'Into' denotes motion towards the inside of something.\n\n• Example: He is *in* the room.\n• Example: He jumped *into* the river.",
+    "word": "Movement: Into vs In",
+    "meaning_kannada": "ಸ್ಥಿತಿ vs ಚಲನೆಯನ್ನು ಸೂಚಿಸಲು.",
+    "meaning_english": "'In' shows something already inside. 'Into' shows movement from outside to inside.\n\n• Example: He is *in* the pool.\n• Example: He jumped *into* the pool.",
     "emoji": "🏃"
   },
   {
-    "word": "Agree with vs Agree to",
-    "meaning_kannada": "ಒಬ್ಬ ವ್ಯಕ್ತಿಯೊಂದಿಗೆ vs ಒಂದು ಪ್ರಸ್ತಾವನೆಯೊಂದಿಗೆ ಒಪ್ಪುವುದು.",
-    "meaning_english": "Agree *with* a person. Agree *to* a plan, proposal, or idea.\n\n• Example: I agree *with* you.\n• Example: He agreed *to* my proposal.",
+    "word": "Comparison: Senior/Junior to",
+    "meaning_kannada": "ತೌಲನಿಕ ಪದಗಳ ಜೊತೆ 'To' ಬಳಕೆ (Than ಅಲ್ಲ).",
+    "meaning_english": "Words like Senior, Junior, Superior, Inferior, Prior, Prefer always take 'to' instead of 'than'.\n\n• Example: He is senior *to* me (Not 'than' me).",
+    "emoji": "🎖️"
+  },
+  {
+    "word": "Fixed: Die of vs Die from",
+    "meaning_kannada": "ಮರಣದ ಕಾರಣಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಪ್ರಿಪೋಸಿಷನ್.",
+    "meaning_english": "Die *of* a disease (Cancer, COVID). Die *from* a cause (Hunger, Wound, Overeating).\n\n• Example: He died *of* cholera. He died *from* a wound.",
+    "emoji": "🩺"
+  },
+  {
+    "word": "Phrasal: Agree with/to/on",
+    "meaning_kannada": "ಒಪ್ಪಿಗೆ ಸೂಚಿಸುವ ವಿವಿಧ ಸಂದರ್ಭಗಳು.",
+    "meaning_english": "Agree *with* (person), Agree *to* (plan/proposal), Agree *on* (topic).\n\n• Example: I agree *with* you *on* the new plan.",
     "emoji": "🤝"
   },
   {
-    "word": "Angry with vs Angry at",
-    "meaning_kannada": "ವ್ಯಕ್ತಿಯ ಮೇಲೆ ಕೋಪ vs ವಿಷಯದ ಮೇಲೆ ಕೋಪ.",
-    "meaning_english": "Angry *with* a person. Angry *at* a thing/situation.\n\n• Example: She is angry *with* me.\n• Example: The teacher was angry *at* his conduct.",
-    "emoji": "😠"
-  },
-  {
-    "word": "Deal in vs Deal with",
-    "meaning_kannada": "ವ್ಯಾಪಾರ ಮಾಡುವುದು vs ಪರಿಸ್ಥಿತಿಯನ್ನು ನಿಭಾಯಿಸುವುದು.",
-    "meaning_english": "Deal *in* refers to trade/business. Deal *with* refers to handling a person or situation.\n\n• Example: My father deals *in* silk sarees.\n• Example: You must learn how to deal *with* customers.",
+    "word": "Fixed: Deal in vs Deal with",
+    "meaning_kannada": "ವ್ಯಾಪಾರ vs ವ್ಯವಹಾರ/ನಿಭಾಯಿಸುವುದು.",
+    "meaning_english": "Deal *in* (Business/Goods). Deal *with* (A person/Problem).\n\n• Example: He deals *in* sugar. How do you deal *with* him?",
     "emoji": "💼"
   },
   {
-    "word": "Senior/Junior/Superior to",
-    "meaning_kannada": "ತೌಲನಿಕವಾಗಿ ಬಳಸುವಾಗ 'Than' ಬದಲಿಗೆ 'To' ಬಳಕೆ.",
-    "meaning_english": "Words ending in '-ior' like Senior, Junior, Superior, Inferior always take 'to' instead of 'than'.\n\n• Example: He is senior *to* me in service (Not: than me).",
-    "emoji": "🎖️"
+    "word": "Trending Phrases: In spite of vs Despite",
+    "meaning_kannada": "'ಆದಾಗ್ಯೂ' ಎಂದು ಸೂಚಿಸುವಾಗ ಮಾಡುವ ತಪ್ಪುಗಳು.",
+    "meaning_english": "'In spite of' is correct, but 'Despite' should NEVER be followed by 'of'.\n\n• Example: *In spite of* the rain (Correct).\n• Example: *Despite* the rain (Correct).",
+    "emoji": "☔"
+  },
+  {
+    "word": "Trending Phrases: In accordance with",
+    "meaning_kannada": "ನಿಯಮದಂತೆ ಅಥವಾ ಅನುಗುಣವಾಗಿ.",
+    "meaning_english": "Used to show following a rule or request.\n\n• Example: We acted *in accordance with* the law.",
+    "emoji": "📜"
+  },
+  {
+    "word": "Fixed: Abstain/Refrain from",
+    "meaning_kannada": "ದೂರವಿರುವುದು ಅಥವಾ ತಡೆಯುವುದು.",
+    "meaning_english": "Both verbs are always followed by 'from'.\n\n• Example: You must abstain *from* alcohol.",
+    "emoji": "🚫"
+  },
+  {
+    "word": "Trending Phrases: On behalf of",
+    "meaning_kannada": "ಪರವಾಗಿ (In place of someone).",
+    "meaning_english": "Acting as a representative of someone else.\n\n• Example: I am signing this *on behalf of* my manager.",
+    "emoji": "✍️"
+  },
+  {
+    "word": "Fixed: Fond of / Good at",
+    "meaning_kannada": "ಆಸಕ್ತಿ ಅಥವಾ ಕೌಶಲ್ಯ ಸೂಚಿಸಲು.",
+    "meaning_english": "Fond *of* (liking). Good/Bad *at* (skill).\n\n• Example: She is fond *of* music and good *at* math.",
+    "emoji": "🎨"
+  },
+  {
+    "word": "Fixed: Comply with / Part with",
+    "meaning_kannada": "ಅನುಸರಿಸುವುದು vs ಬಿಟ್ಟುಕೊಡುವುದು.",
+    "meaning_english": "Comply *with* (rules). Part *with* (giving up something you own).\n\n• Example: You must comply *with* rules. He cannot part *with* his money.",
+    "emoji": "🔗"
+  },
+  {
+    "word": "Phrasal: Look after/into/for",
+    "meaning_kannada": "Look ಪದದೊಂದಿಗೆ ಬರುವ ವಿವಿಧ ಪ್ರಿಪೋಸಿಷನ್‌ಗಳು.",
+    "meaning_english": "Look *after* (take care), Look *into* (investigate), Look *for* (search).\n\n• Example: The CBI is looking *into* the scam.",
+    "emoji": "🔍"
   }
 ]
