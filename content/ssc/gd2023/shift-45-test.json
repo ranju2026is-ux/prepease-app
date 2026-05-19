@@ -1,0 +1,137 @@
+[
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word.\nWe must learn to <u>negotiate</u> with every difficult situation in life.",
+    "options": ["Discuss", "Disagree", "Practice", "Bargain"],
+    "answer": "Disagree",
+    "explanation": "• **Negotiate**: To find a way through, compromise, or successfully handle a situation. 🤝\n• **Disagree**: To fail to agree or contrast sharply. (Antonym in terms of reaching common ground or managing a situation smoothly). 🛑"
+  },
+  {
+    "question": "The sentence given below has one misspelt word. Spot the INCORRECTLY spelt word and select its correct spelling.\n**Her husband's death left a vacum in her life.**",
+    "options": ["Vacuum", "Vakum", "Vaccum", "Vaccuum"],
+    "answer": "Vacuum",
+    "explanation": "• **Correct spelling**: **Vacuum**. ✅ (Note the double 'u', meaning a space entirely devoid of matter). 🕳️"
+  },
+  {
+    "question": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\nThe patient / look / a little more cheerful / this morning",
+    "options": ["The patient", "this morning", "look", "a little more cheerful"],
+    "answer": "look",
+    "explanation": "• **Subject-Verb Agreement**: 'The patient' is a singular third-person subject, which requires the singular verb '**looks**' instead of the base form 'look'. 🚫"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Recede**",
+    "options": ["Advance", "Argue", "Ransack", "Irritate"],
+    "answer": "Advance",
+    "explanation": "• **Recede**: Move further away into the distance; withdraw. 🌊🔙\n• **Advance**: Move forward in a purposeful way. (Antonym). 🚀"
+  },
+  {
+    "question": "Fill in the blank in the following sentence using the ANTONYM of the word given in the brackets.\nCan you _____ the UNO cards on the table? (gather)",
+    "options": ["spread", "lift", "collect", "place"],
+    "answer": "spread",
+    "explanation": "• **Gather**: Bring together or assemble. 🧺\n• **Spread**: Open out or distribute something over a wide area. (Antonym). 🃏"
+  },
+  {
+    "question": "Select the most appropriate meaning of the underlined idiom.\nThe husband <u>promised the earth</u> to his wife.",
+    "options": [
+      "Promised an impossible thing",
+      "Promised an inexpensive thing",
+      "Promised land",
+      "Promised a necklace"
+    ],
+    "answer": "Promised an impossible thing",
+    "explanation": "• **Promise the earth**: An idiom meaning to make unrealistic, grandiose, or completely impossible promises that one cannot keep. 🌍✨"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Proficient**",
+    "options": ["Condensed", "Inadequate", "Vulgar", "Skilful"],
+    "answer": "Skilful",
+    "explanation": "• **Proficient**: Competent or skilled in doing or using something. (Synonym: Skilful). 🎯🛠️"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Marrige", "Breakage", "Wreckage", "Drainage"],
+    "answer": "Marrige",
+    "explanation": "• **Incorrect spelling**: Marrige. ❌\n• **Correct spelling**: **Marriage**. ✅ (Suffix is '-iage'). 💍"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nIt is believed that God is _________.",
+    "options": ["pacifist", "optimist", "omnipresent", "omnivorous"],
+    "answer": "omnipresent",
+    "explanation": "• **Omnipresent**: Widely or constantly encountered; common or widespread; present everywhere at the same time. 🌌✨"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\nHades is the god of the underworld and **wealth** in Greek mythology.",
+    "options": ["riches", "sterility", "debts", "shades"],
+    "answer": "riches",
+    "explanation": "• **Wealth/Riches**: An abundance of valuable possessions or money. (Synonyms). 💎💰"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nThe enthusiastic readers are eagerly <u>waiting of the quick</u> completion of her forthcoming novel.",
+    "options": [
+      "eagerly waiting about the quick",
+      "eagerly waiting in the quick",
+      "eagerly waiting for the quick",
+      "eagerly waiting on the quick"
+    ],
+    "answer": "eagerly waiting for the quick",
+    "explanation": "• **Preposition**: The correct phrasal verb phrase structure is 'wait **for** someone/something'. 📖⌛"
+  },
+  {
+    "question": "Select the most appropriate synonym of the word given in brackets to fill in the blank.\nHe had _________ (Enough) time to finish the task.",
+    "options": ["sufficient", "insufficient", "massive", "perpetual"],
+    "answer": "sufficient",
+    "explanation": "• **Enough/Sufficient**: Adequate for the purpose; as much as is needed. (Synonyms). ✅"
+  },
+  {
+    "question": "Choose the appropriate meaning of the underlying idiom.\nShe wants to reach the target **by hook or by crook**.",
+    "options": [
+      "By one or the other means",
+      "With all of one’s belongings",
+      "Without deception",
+      "Very rapidly"
+    ],
+    "answer": "By one or the other means",
+    "explanation": "• **By hook or by crook**: An idiom meaning by any possible means necessary, whether fair or foul; honest or dishonest. 🪝"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment. If there is no need to substitute it, select ‘No substitution’.\nSea levels <u>have been risen</u> all around the world threatening natural calamities...",
+    "options": ["No substitution", "will rising", "have been rising", "are raised"],
+    "answer": "have been rising",
+    "explanation": "• **Present Perfect Continuous**: Used to describe an ongoing continuous action that started in the past and continues into the present. 'Have been rising' is the correct active structure. 🌊📉"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word.\nWe all must agree on the fact that life is <u>fragile</u>.",
+    "options": ["healthy", "infirm", "violent", "weak"],
+    "answer": "healthy",
+    "explanation": "• **Fragile**: Vulnerable, easily broken, or delicate. 🦴\n• **Healthy**: In a good physical or mental condition; robust. (Best contextual antonym among choices). 🌱💪"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) There are over 9000 species of birds on this planet (1) ________of which over 1360 are found in India alone.",
+    "options": ["out", "some", "across", "in"],
+    "answer": "out",
+    "explanation": "• **Idiom/Collocation**: '**Out of** which' is a standard partitive relative phrase used to define a sub-fraction from a total sum number. 📊"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) 81 species of birds (2)________endemic to India.",
+    "options": ["was", "were", "are", "is"],
+    "answer": "are",
+    "explanation": "• **Subject-Verb Agreement**: '81 species' is a plural subject describing a present, ongoing scientific fact, requiring '**are**'. 🦅"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) Because birds are found everywhere, and in all (3)________zones...",
+    "options": ["climatic", "administrative", "atmospheric", "aerial"],
+    "answer": "climatic",
+    "explanation": "• **Context**: Geographical distribution across the globe is standardly mapped into environmental or '**climatic**' zones. 🌍🌤️"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...their sizes, shapes and wings are (4)________ according to the needs of their habitat.",
+    "options": ["changed", "adopted", "converted", "adapted"],
+    "answer": "adapted",
+    "explanation": "• **Adapted**: Modified or evolutionarily structured to suit new conditions or environments perfectly. 🧬"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...wings with primary feather that (5)________out and allow them to soar high.",
+    "options": ["reach", "grow", "rise", "spread"],
+    "answer": "spread",
+    "explanation": "• **Spread out**: To extend outwards over a wide area, allowing the bird to catch air currents and glide. 🦅💨"
+  }
+]
