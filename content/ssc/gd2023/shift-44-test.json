@@ -1,0 +1,137 @@
+[
+  {
+    "question": "Select the appropriate idiom that can replace the underlined phrase in the following sentence.\nGeet <u>talks incessantly about</u> cycling in her town.",
+    "options": [
+      "put a bee on someone",
+      "has a bee in her bonnet",
+      "gives a buzz",
+      "makes a bee line"
+    ],
+    "answer": "has a bee in her bonnet",
+    "explanation": "• **Has a bee in one's bonnet**: An idiom used to describe someone who is obsessed with something and cannot stop talking about it. 🐝🧢"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blanks in the given sentence.\nThe vice chancellor is supposed to ______ the gathering tonight, and Seema was late as she could not find the ______ of Geeta.",
+    "options": ["speak", "address", "home", "convey"],
+    "answer": "address",
+    "explanation": "• **Address**: (Verb) to speak to a formal gathering. 🗣️\n• **Address**: (Noun) the particulars of the place where a person lives. (Homonym). 🏠"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nHis wife <u>is aiding and abets</u> him in his dishonest deeds.",
+    "options": ["aiding and bets", "aiding and betting", "aids and abets", "aids and betting"],
+    "answer": "aids and abets",
+    "explanation": "• **Parallelism & Idiom**: The fixed legal/idiomatic phrase is '**aids and abets**'. It uses third-person singular present verbs to maintain parallelism with the singular subject 'His wife'. 🤝🚫"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the word given in brackets to fill in the blank.\nWe are (last) __________ in line.",
+    "options": ["eventual", "further", "foremost", "maimed"],
+    "answer": "foremost",
+    "explanation": "• **Last**: Coming after all others in time or order. 🕒\n• **Foremost**: Most prominent in position; first or ahead of all others. (Antonym). 🚩"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment. If there is no need to substitute it, select ‘No substitution’.\nI have to save this coupon <u>in case I come back</u> to the store tomorrow.",
+    "options": [
+      "No substitution",
+      "in case I came back to the store tomorrow",
+      "if in case I come back to the store tomorrow",
+      "in case I will come back to the store tomorrow"
+    ],
+    "answer": "No substitution",
+    "explanation": "• The sentence is grammatically flawless. 'In case' functions as a conditional conjunction and correctly takes the simple present tense ('come back') to refer to a future possibility. ✅🎟️"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Indebted**",
+    "options": ["Careless", "Doubtful", "Envious", "Thankful"],
+    "answer": "Thankful",
+    "explanation": "• **Indebted**: Owing gratitude for a service or favor. (Synonym: Thankful/Grateful). 🙏"
+  },
+  {
+    "question": "Identify the INCORRECTLY spelt word in the given sentence and select its correct spelling.\nYou need to give **tremendus** input for excellence.",
+    "options": ["Tremendous", "Tremindous", "Trimendous", "Tremandous"],
+    "answer": "Tremendous",
+    "explanation": "• **Correct spelling**: **Tremendous**. ✅ (Meaning very great in amount, scale, or intensity). 📈"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Cramped**",
+    "options": ["Remote", "Vicinity", "Straight", "Extensive"],
+    "answer": "Extensive",
+    "explanation": "• **Cramped**: Uncomfortably small or restricted. 📦\n• **Extensive**: Covering or affecting a large area. (Antonym). 🗺️"
+  },
+  {
+    "question": "Select the most appropriate option to substitute the underlined segment.\nA thin layer of substance called soil <u>maintains the level of</u> the Earth...",
+    "options": [
+      "controls the growth",
+      "covers the surface",
+      "removes the texture",
+      "designs the cultivation"
+    ],
+    "answer": "covers the surface",
+    "explanation": "• **Contextual substitution**: Soil literally '**covers the surface**' of the Earth; it does not hold or maintain a geometric level. 🌍🌱"
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\nPrashant is <u>obstinate</u> by nature.",
+    "options": ["adamant", "pliable", "generous", "flexible"],
+    "answer": "adamant",
+    "explanation": "• **Obstinate/Adamant**: Stubbornly refusing to change one's opinion or chosen course of action. (Synonyms). 🧱"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nResidents of the area are still trying to come to terms with the ___________ of the disaster.",
+    "options": ["heinousness", "duress", "atrocity", "enormity"],
+    "answer": "enormity",
+    "explanation": "• **Enormity**: The great or extreme scale, seriousness, or extent of something perceived as bad or morally wrong. It standardly collocates with large-scale accidents or disasters. 🌪️📉"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Sustain**",
+    "options": ["Embrace", "Rectify", "Obstruct", "Continue"],
+    "answer": "Obstruct",
+    "explanation": "• **Sustain**: Strengthen or support physically or mentally; carry on. ✅\n• **Obstruct**: Block; hinder or prevent the continuation of. (Antonym). 🚧"
+  },
+  {
+    "question": "Identify the segment that contains an error from the given options.\nHer knowledge of English are very limited.",
+    "options": ["knowledge of English are", "very limited", "Her", "No Error"],
+    "answer": "knowledge of English are",
+    "explanation": "• **Subject-Verb Agreement**: The actual subject is the singular noun phrase 'Her knowledge' (not English). Therefore, the verb must be singular.\n• **Correction**: It should be 'knowledge of English **is**'. 🚫"
+  },
+  {
+    "question": "Identify the INCORRECTLY spelt word in the given sentence and select its correct spelling.\nThe number of **bankrupcies** was especially high last year.",
+    "options": ["Bankrapcies", "Bakerupcies", "Bankrupsies", "Bankruptcies"],
+    "answer": "Bankruptcies",
+    "explanation": "• **Correct spelling**: **Bankruptcies**. ✅ (The original sentence missed the silent letter 't'). 📉💸"
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\nHe has a <u>nasty</u> habit of picking his nose.",
+    "options": ["Laudable", "Indolent", "Cowardly", "Despicable"],
+    "answer": "Despicable",
+    "explanation": "• **Nasty**: Highly unpleasant, offensive, or disgusting. (Synonym: Despicable). 🤮"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) I understood why these highly (1) ___________ professionals remained in the closet.",
+    "options": ["thought", "train", "studied", "trained"],
+    "answer": "trained",
+    "explanation": "• **Trained**: Having completed a course of instruction or acquired skills. It correctly acts as an adjective for 'professionals'. 🎓"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) I was one of (2) _________.",
+    "options": ["them", "then", "this", "these"],
+    "answer": "them",
+    "explanation": "• **Objective Pronoun**: 'One of **them**' is a standard structure referring back to the group of professionals. 👥"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) We could not deny our (3) __________ experiences and senses.",
+    "options": ["his", "theirs", "own", "hers"],
+    "answer": "own",
+    "explanation": "• **Possessive determiner**: Used with a possessive pronoun to emphasize ownership. 'Our **own** experiences' fits perfectly. 👁️"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) Yet our training was in many ways diametrically (4) _________ to the information...",
+    "options": ["straight", "opposite", "perpendicular", "diagonal"],
+    "answer": "opposite",
+    "explanation": "• **Idiom**: '**Diametrically opposite**' (or opposed) is a fixed collocation meaning completely or entirely different. 🔀"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) So we remained (5) _________.",
+    "options": ["quiet", "shut", "quite", "drawn"],
+    "answer": "quiet",
+    "explanation": "• **Quiet**: Refraining from speech or mention; silent. It follows the opening setup of remaining 'in the closet' about their findings. 🤫"
+  }
+]
