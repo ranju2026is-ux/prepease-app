@@ -1,0 +1,137 @@
+[
+  {
+    "question": "Select the most appropriate synonym for the underlined word.\nThe officer was not aware of the <u>sedulous</u> espionage.",
+    "options": ["diligent", "dangerous", "sedate", "seduce"],
+    "answer": "diligent",
+    "explanation": "• **Sedulous**: Showing dedication and diligence. (Synonym: Diligent). ✍️"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nWe may _______ an example or two.",
+    "options": ["site", "sight", "cite", "side"],
+    "answer": "cite",
+    "explanation": "• **Cite**: To quote or refer to a form of evidence or example. 📜\n• **Sight**: The faculty of seeing.\n• **Site**: A specific location."
+  },
+  {
+    "question": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\nI have waiting / anxiously / for my / exam results.",
+    "options": ["exam results", "I have waiting", "anxiously", "for my"],
+    "answer": "I have waiting",
+    "explanation": "• **Grammar Error**: The present perfect continuous tense requires 'been' between 'have' and the present participle.\n• **Correction**: It should be 'I **have been waiting**'. ⏳"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Obedient**",
+    "options": ["Disobedient", "Docile", "Disciplined", "Meekness"],
+    "answer": "Disobedient",
+    "explanation": "• **Obedient**: Complying or willing to comply with orders or requests. 😇\n• **Disobedient**: Refusing to obey rules or someone in authority. (Antonym). 😠"
+  },
+  {
+    "question": "Select the option that can be used as a one-word substitute for the given group of words.\n**The study of ancient writings and scriptures**",
+    "options": ["Alchemy", "Geology", "Ornithology", "Palaeography"],
+    "answer": "Palaeography",
+    "explanation": "• **Palaeography**: The study of ancient writing systems and the deciphering and dating of historical manuscripts. 📜🖋️"
+  },
+  {
+    "question": "Select the correct idiom to substitute the underlined segment.\nWhen the teacher asked him about the homework, he <u>started speaking vaguely to avoid talking about it</u>.",
+    "options": [
+      "beating around the bush",
+      "searching around the room",
+      "writing in the bush",
+      "searching the bird in the bush"
+    ],
+    "answer": "beating around the bush",
+    "explanation": "• **Beat around the bush**: An idiom meaning to discuss a matter without coming to the point or to delay talking about the main issue. 🌳🗣️"
+  },
+  {
+    "question": "Select the MISSPELT word.",
+    "options": ["Attain", "Farnish", "Allergy", "Fabulous"],
+    "answer": "Farnish",
+    "explanation": "• **Incorrect spelling**: Farnish. ❌\n• **Correct spelling**: **Garnish** (to decorate food) or **Varnish** (a protective resinous coating). ✅"
+  },
+  {
+    "question": "Select the most appropriate synonym for the underlined word.\nWordsworth wished to work on his poems in <u>solitude</u>.",
+    "options": ["seclusion", "security", "slumber", "satiety"],
+    "answer": "seclusion",
+    "explanation": "• **Solitude/Seclusion**: The state of being alone or private, away from people. 🧘‍♂️"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nRajiv <u>helps his friends of solve</u> real-life problems...",
+    "options": [
+      "helps his friends for solve",
+      "helps his friends in solve",
+      "help his friends of solve",
+      "helps his friends to solve"
+    ],
+    "answer": "helps his friends to solve",
+    "explanation": "• **Infinitive pattern**: The verb 'help' can be followed by an object and a to-infinitive phrase ('helps someone **to do** something'). ✅"
+  },
+  {
+    "question": "Select the most appropriate meaning of the underlined idiom.\nThe businessman agreed to <u>grease the palm</u> of the bank manager.",
+    "options": ["To cooperate", "To remind", "To thank", "To bribe"],
+    "answer": "To bribe",
+    "explanation": "• **Grease the palm**: An idiomatic expression meaning to give money to someone in exchange for an illicit favor; to bribe. 🤝💸"
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\nLate morning, we took a <u>stroll</u> along the beach.",
+    "options": ["scamper", "Sprint", "saunter", "jog"],
+    "answer": "saunter",
+    "explanation": "• **Stroll/Saunter**: To walk in a slow, relaxed, and leisurely manner. (Synonyms). 🚶‍♂️🌊"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe doctor instructed the patient to ______ up and down his house as an exercise.",
+    "options": ["work", "walk", "chase", "wake"],
+    "answer": "walk",
+    "explanation": "• **Walk**: Moving at a regular pace on foot. Walking up and down a house is a standard light therapeutic exercise. 🚶‍♂️"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nIt is surprising to see _________ (stale) apples available throughout the year.",
+    "options": ["old", "musty", "stuffy", "fresh"],
+    "answer": "fresh",
+    "explanation": "• **Stale**: No longer fresh and pleasant to eat. 🍏\n• **Fresh**: Recently produced or picked; not stale. (Antonym requested to complete the contextual logic). 🍎✨"
+  },
+  {
+    "question": "Select the option in which all the words are spelt correctly.",
+    "options": [
+      "My aunty arrivved at my home on the eve of Diwali.",
+      "My aunty arrived at my home on the eve of Diwali.",
+      "My aunty arived at my home on the eve of Diwali.",
+      "My aunty arriived at my home on the eve of Diwali."
+    ],
+    "answer": "My aunty arrived at my home on the eve of Diwali.",
+    "explanation": "• **Spelling Check**: Option 2 contains completely correct standard English spelling for the verb '**arrived**'. ✅"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the word given in brackets to fill in the blank.\nThe curry was very ________ (distasteful). I ate it all.",
+    "options": ["refined", "enchanting", "intoxicating", "delicious"],
+    "answer": "delicious",
+    "explanation": "• **Distasteful**: Unpleasant or completely unpalatable. 🤢\n• **Delicious**: Highly pleasant to the taste. (Antonym explaining why they finished the plate). 🍛😋"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) The set of relationships between people, (1) __________ their social position...",
+    "options": ["including", "discounting", "developing", "resisting"],
+    "answer": "including",
+    "explanation": "• **Including**: Used to introduce sub-elements that form part of the whole human system. 👥"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...or even the (2) _________ world are referred to as a society.",
+    "options": ["illiterate", "primitive", "absolute", "entire"],
+    "answer": "entire",
+    "explanation": "• **Entire**: Whole or complete. It standardly collocates with 'world' to mean global society. 🌍"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) ...is a group of people bound together by functional (3) _________...",
+    "options": ["mutualism", "qualities", "interdependence", "exchange"],
+    "answer": "interdependence",
+    "explanation": "• **Interdependence**: The dependence of two or more people or things on each other; functional bonds in an organized civilization. 🤝"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) Patterns of relationships between individuals who (4) __________ a common culture...",
+    "options": ["share", "oppose", "protect", "divide"],
+    "answer": "share",
+    "explanation": "• **Share**: To possess or experience something in common with others. Society is built on a shared culture. 🗺️"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...permits its members to fulfil wants that they could not (5) _________ on their own.",
+    "options": ["accomplish", "give up", "escalate", "evacuate"],
+    "answer": "accomplish",
+    "explanation": "• **Accomplish**: Achieve or complete successfully. Working as an organized collective helps people complete massive tasks. 🏆"
+  }
+]
