@@ -1,0 +1,137 @@
+[
+  {
+    "question": "Identify the correctly spelt sentence.",
+    "options": [
+      "It is believed that a catarpillar can become a butterfly.",
+      "It is believed that a caterpillar can become a butterfly.",
+      "It is believed that a catterpillar can become a butterfly.",
+      "It is believed that a caterpilar can become a butterfly."
+    ],
+    "answer": "It is believed that a caterpillar can become a butterfly.",
+    "explanation": "• **Correct spelling**: **Caterpillar**. ✅ (The larvae of a butterfly or moth). 🐛"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Adversity**",
+    "options": ["Misfortune", "Allegiance", "Anxiety", "Progress"],
+    "answer": "Misfortune",
+    "explanation": "• **Adversity**: A state or instance of serious or continued difficulty or misfortune. (Synonym: Misfortune). 📉"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nThe flyover that <u>connecting the</u> two cities is broken.",
+    "options": ["has been connected", "connects", "has connect", "had connect"],
+    "answer": "connects",
+    "explanation": "• **Grammar**: The relative clause needs a finite verb to state a general descriptive fact. '**Connects**' (Simple Present) fits perfectly. 🌉"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the italicised word.\nThe **miser** hated spending money.",
+    "options": ["spendthrift", "tightwad", "scrooge", "skinflint"],
+    "answer": "spendthrift",
+    "explanation": "• **Miser**: A person who hoards wealth and spends as little money as possible. 💰🤐\n• **Spendthrift**: A person who spends money in an extravagant, irresponsible way. (Antonym). 💸"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Wrangle for an ass’s shadow**",
+    "options": [
+      "Losing temper easily",
+      "Making false allegations",
+      "Argue over petty issues",
+      "Fighting for a just cause"
+    ],
+    "answer": "Argue over petty issues",
+    "explanation": "• **Wrangle for an ass's shadow**: An idiom meaning to fight or argue over trivial or completely insignificant matters. 🐴🗣️"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Bargain**",
+    "options": ["Alert", "Revoke", "Deal", "Real"],
+    "answer": "Deal",
+    "explanation": "• **Bargain**: An agreement between two or more parties as to what each party will do for the other. (Synonym: Deal). 🤝"
+  },
+  {
+    "question": "Select the correct pair of words for the blanks in the given sentence.\nMy teacher asked me to read ________ and also _________ my best friend...",
+    "options": ["allowed; aloud", "aloud; allowed", "a loud; aloud", "loud; allow"],
+    "answer": "aloud; allowed",
+    "explanation": "• **Aloud**: Audibly; not silently. 🔊\n• **Allowed**: Permitted someone to do something. ✅"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe cloth is _________ to touch so it is not suitable for apparels.",
+    "options": ["soft", "irregular", "smooth", "coarse"],
+    "answer": "coarse",
+    "explanation": "• **Coarse**: Rough or loose in texture or grain. Fabrics that are coarse are generally uncomfortable for clothing. 🧵"
+  },
+  {
+    "question": "Select the most appropriate option to substitute the underlined segment.\nThey have decided to visit Konark, <u>have they?</u>",
+    "options": ["is it?", "haven’t they?", "do they?", "don’t they?"],
+    "answer": "haven’t they?",
+    "explanation": "• **Question Tag**: Since the statement is positive and uses the auxiliary verb 'have', the question tag must be negative and use the same auxiliary verb ('**haven't they?**'). 🏛️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Eradicate**",
+    "options": ["Culminate", "Abolish", "Conserve", "Deteriorate"],
+    "answer": "Conserve",
+    "explanation": "• **Eradicate**: Destroy completely; put an end to. 🪓\n• **Conserve**: Protect (something, especially an environmentally or culturally important place or thing) from harm or destruction. (Antonym). 🛡️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Quietness**",
+    "options": ["Speed", "Kindness", "Agitation", "Slowness"],
+    "answer": "Agitation",
+    "explanation": "• **Quietness**: Calmness; peace; lack of disturbance. 🧘‍♂️\n• **Agitation**: A state of anxiety or nervous excitement; disturbance. (Antonym). 🌪️"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Percist", "Conceive", "Strict", "Repair"],
+    "answer": "Percist",
+    "explanation": "• **Incorrect spelling**: Percist. ❌\n• **Correct spelling**: **Persist**. ✅ (Meaning to continue firmly or obstinately in an opinion or a course of action)."
+  },
+  {
+    "question": "Identify the part that contains a grammatical error.\nIf the charge that he conspired / to raze a building is valid,/ **there is great deal to answer for**.",
+    "options": [
+      "No error",
+      "there is great deal to answer for",
+      "If the charge that he conspired",
+      "to raze a building is valid"
+    ],
+    "answer": "there is great deal to answer for",
+    "explanation": "• **Grammar Error**: The idiom is missing the indefinite article 'a'. \n• **Correction**: It should be 'there is **a** great deal to answer for'. 🏢"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nIndian society is a complex mix of ________ cultures, people and languages.",
+    "options": ["diversity", "diverse", "diverges", "diversion"],
+    "answer": "diverse",
+    "explanation": "• **Diverse**: (Adjective) showing a great deal of variety; very different. It correctly modifies the noun 'cultures'. 🌍"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Snake in the grass**",
+    "options": ["Friendly person", "Treacherous person", "Loyal person", "Clever person"],
+    "answer": "Treacherous person",
+    "explanation": "• **Snake in the grass**: An idiom referring to a secretly treacherous, deceitful, or untrustworthy person who pretends to be a friend. 🐍🌾"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) The death penalty, often known as capital (1)________...",
+    "options": ["loss", "gain", "punishment", "attainment"],
+    "answer": "punishment",
+    "explanation": "• **Capital punishment**: A standard legal collocation used as a synonym for the death penalty. ⚖️"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...under any criminal legislation in (2)________anywhere in the world.",
+    "options": ["persistence", "maintenance", "resistance", "existence"],
+    "answer": "existence",
+    "explanation": "• **In existence**: Current laws that are actively established or present in the world. 🌍📜"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) The legal (3)_________through which the state uses its power...",
+    "options": ["custody", "intention", "lawyer", "method"],
+    "answer": "method",
+    "explanation": "• **Method**: A particular procedure or legal mechanism used to carry out an execution. ⚙️"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) It has (4)_________ since the establishment of the State itself.",
+    "options": ["considered", "authorised", "existed", "published"],
+    "answer": "existed",
+    "explanation": "• **Existed**: To have real being or presence. Capital punishment has been present throughout history. 🕒"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) The (5)__________ of independence heralded the beginning of a new era...",
+    "options": ["enlightenment", "birth", "end", "verity"],
+    "answer": "birth",
+    "explanation": "• **Birth of independence**: A metaphorical phrase used to mark the beginning or arrival of India's self-rule. 🇮🇳"
+  }
+]
