@@ -1,0 +1,127 @@
+[
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word.\nThe authority tries to <u>subjugate</u> the marginalised people.",
+    "options": ["subordinate", "liberate", "enslave", "trap"],
+    "answer": "liberate",
+    "explanation": "• **Subjugate**: Bring under domination or control, especially by conquest. ⛓️\n• **Liberate**: Set (someone) free from a situation, especially that of imprisonment or slavery. (Antonym). 🔓"
+  },
+  {
+    "question": "Choose the option that can substitute the underlined segment correctly and complete the meaning of the sentence.\nThe grandmother asked Rita to close the window as she suddenly started feeling <u>extremely cold</u>.",
+    "options": ["Freezing", "Frosting", "Icing", "Cold"],
+    "answer": "Freezing",
+    "explanation": "• **Freezing**: Informally used as an adjective meaning 'extremely cold.' It acts as a stronger, more descriptive substitute. 🥶❄️"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Throw caution to the wind**",
+    "options": ["Carefree", "Careful", "Be cautious", "Ignore the risk"],
+    "answer": "Ignore the risk",
+    "explanation": "• **Throw caution to the wind**: An idiom meaning to act in a completely reckless manner, ignoring any risks or warnings. 🌪️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Hasty**",
+    "options": ["Cautious", "Reckless", "Brisk", "Quick"],
+    "answer": "Cautious",
+    "explanation": "• **Hasty**: Done or acting with excessive speed or urgency; hurried. 🏃‍♂️💨\n• **Cautious**: Avoidance of risk; careful. (Antonym). 🧘‍♂️"
+  },
+  {
+    "question": "Select the option that expresses the given sentence in simple past tense.",
+    "options": [
+      "Last year, I have travelled to Japan.",
+      "Last year, I was travelling to Japan.",
+      "Last year, I travelled to Japan.",
+      "Last year, I had been travelling to Japan."
+    ],
+    "answer": "Last year, I travelled to Japan.",
+    "explanation": "• **Simple Past**: Expresses a completed action in the past using the second form of the verb (**travelled**) without auxiliary verbs like 'have' or 'was'. 🇯🇵✈️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Celebrate**",
+    "options": ["Disgrace", "Manipulate", "Instigate", "Tabulate"],
+    "answer": "Disgrace",
+    "explanation": "• **Celebrate**: Publicly acknowledge a significant or happy day or event with a social gathering or enjoyable activity; honor. 🎉\n• **Disgrace**: Bring shame or discredit on. (Antonym in terms of honoring vs. shaming). 📉"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe moon looks bright and beautiful in the cloudless night sky. Yet it is very small compared _______ Earth.",
+    "options": ["with", "than", "to", "in"],
+    "answer": "to",
+    "explanation": "• **Preposition**: When showing a relationship or likeness between two distinct things, 'compared **to**' is standardly used. 🌕🌍"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nThis blue shirt <u>you have wearing</u> really looks expensive.",
+    "options": ["has wear", "are wearing", "will wearing", "had wear"],
+    "answer": "are wearing",
+    "explanation": "• **Present Continuous**: 'You **are wearing**' is the correct active continuous structure used to describe what someone is wearing at the moment. 👕"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Beautiful**",
+    "options": ["Dull", "Drab", "Pretty", "Homely"],
+    "answer": "Pretty",
+    "explanation": "• **Beautiful/Pretty**: Pleasing the senses or mind aesthetically. (Synonyms). ✨"
+  },
+  {
+    "question": "Select the most appropriate synonym of 'Casual' to fill in the blank.\nSita wore a ________ yet stunning dress at the birthday party of her son.",
+    "options": ["temporary", "formal", "regular", "uniform"],
+    "answer": "regular",
+    "explanation": "• **Casual/Regular**: For daily wear or non-formal environments; ordinary. (Contextual synonym). 👗"
+  },
+  {
+    "question": "Select the option that correctly rectifies the spelling error.\nTechnology has become an <u>indespensable</u> element in our day-to-day activities.",
+    "options": ["Endispensable", "Indispensable", "Indispinsable", "No error"],
+    "answer": "Indispensable",
+    "explanation": "• **Correct spelling**: **Indispensable**. ✅ (Note the 'i' after 'p', meaning absolutely necessary). ⚙️"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Appearanse", "Appropriate", "Apparatus", "Appreciate"],
+    "answer": "Appearanse",
+    "explanation": "• **Incorrect spelling**: Appearanse. ❌\n• **Correct spelling**: **Appearance**. ✅ (The suffix uses 'ce', not 'se')."
+  },
+  {
+    "question": "Select the most appropriate meaning of the italicised idiom.\n**Hold your horses!** said Mom as I reached for a cookie.",
+    "options": ["Be patient", "Be in a rage", "Be docile", "Be in a hurry"],
+    "answer": "Be patient",
+    "explanation": "• **Hold your horses**: An idiomatic expression meaning to wait a moment, slow down, or be patient. 🛑⏳"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the word given in the brackets.\nThe water was too ________ (profound) to take a swim.",
+    "options": ["shallow", "dangerous", "hot", "turbid"],
+    "answer": "shallow",
+    "explanation": "• **Profound**: Deep (physically or metaphorically). 🌊\n• **Shallow**: Of little depth. (Antonym). 🛶"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Heyday**",
+    "options": ["Yesteryears", "Dreamy", "Prime", "Fateful"],
+    "answer": "Prime",
+    "explanation": "• **Heyday**: The period of a person's or thing's greatest success, popularity, or vigor. (Synonym: Prime). 🌟"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Residents of Victorian Street... (1)___________ disturbed last night...",
+    "options": ["is", "were", "are", "was"],
+    "answer": "were",
+    "explanation": "• **Subject-Verb Agreement & Tense**: 'Residents' is plural, and the event happened 'last night' (Past Tense), requiring '**were**'. 🏙️"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...the driver left his vehicle (2)___________ while he went on...",
+    "options": ["then", "here", "there", "their"],
+    "answer": "there",
+    "explanation": "• **Adverb of place**: '**There**' refers back to the location ('near the end of the street') where the car broke down. 🚗"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) ...the car’s alarm went off when it was hit (3)___________ a stolen van.",
+    "options": ["on", "in", "by", "above"],
+    "answer": "by",
+    "explanation": "• **Passive Agent**: In passive sentences, the agent performing the action ('a stolen van') is introduced with '**by**'. 🚐💥"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) But he gave up when the car would not (4)___________...",
+    "options": ["started", "start", "starting", "starts"],
+    "answer": "start",
+    "explanation": "• **Modal Verb**: The modal 'would' (or 'would not') must be followed by the base form of the verb (**start**). 🔑🚗"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...and (5)___________ a bicycle instead.",
+    "options": ["parked", "stole", "bought", "lent"],
+    "answer": "stole",
+    "explanation": "• **Context**: Since the driver was a thief fleeing from a broken vehicle, he '**stole**' a bicycle to continue his escape. 🚲🥷"
+  }
+]
