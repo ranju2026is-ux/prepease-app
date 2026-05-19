@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nShe liked _________ flat.",
+    "options": ["they are", "their", "there", "they’re"],
+    "answer": "their",
+    "explanation": "• **Their**: Possessive determiner indicating ownership by a group. It properly modifies the noun 'flat'.\n• **There**: Points to a location.\n• **They're**: Contraction of 'they are'. 🏢"
+  },
+  {
+    "question": "Select the correct option to substitute the underlined segment. If no substitution is required, select ‘No substitution’.\nIt is <u>more hot now</u>.",
+    "options": ["more hot then earlier", "No substitution", "hotter now", "hotness now"],
+    "answer": "hotter now",
+    "explanation": "• **Comparative Degree**: One-syllable adjectives form their comparative degree by adding the suffix '-er' (**hotter**), making the modifier 'more hot' grammatically incorrect. ☀️📉"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nYour work <u>diary will of benefit</u> if you use it and keep all the information updated.",
+    "options": [
+      "diary will benefit of",
+      "diary will benefitted",
+      "diary will be of benefit",
+      "diary of benefit"
+    ],
+    "answer": "diary will be of benefit",
+    "explanation": "• **Grammar**: The sentence requires the linking base verb 'be' after the future modal 'will' to make 'of benefit' function as a valid predicate phrase. 📅✅"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Forbore**",
+    "options": ["Refrain", "Submit", "Yield", "Surrender"],
+    "answer": "Refrain",
+    "explanation": "• **Forbore**: Past tense of forbear, meaning to politely or patiently restrain oneself from doing something. (Synonym: Refrain). 🛑"
+  },
+  {
+    "question": "Select the option that can be used as a one-word substitute for the given group of words.\n**The situation in which a disease is spread by touching someone or something**",
+    "options": ["Fatal", "Infected", "Contagion", "Malleable"],
+    "answer": "Contagion",
+    "explanation": "• **Contagion**: The communication of disease from one person or organism to another by close direct or indirect contact. 🦠🖐️"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**On the ball**",
+    "options": [
+      "Sceptic of changes or developments and thoughtful to react to them",
+      "Aware of any changes or developments and quick to react to them",
+      "Aware of any changes or developments but avoid to react to them",
+      "Unaware of any changes or developments and lazy to react to them"
+    ],
+    "answer": "Aware of any changes or developments and quick to react to them",
+    "explanation": "• **On the ball**: An idiomatic phrase meaning alert, knowledgeable, and quick to understand or react to new developments. 🧠⚡"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nWe saw a ______ in the city last year.",
+    "options": ["knew", "no", "gnu", "new"],
+    "answer": "gnu",
+    "explanation": "• **Gnu**: A large dark African antelope with a long head, a mane, and curving horns (wildebeest). It fits the semantic context of an animal seen in a city/zoo. 🐂"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Drenched**",
+    "options": ["Airy", "Fresh", "Damp", "Lively"],
+    "answer": "Airy",
+    "explanation": "• **Drenched**: Wet thoroughly; soaked. 🌧️\n• **Airy**: In this context, exposed to fresh air which promotes drying. Note that 'dry' would be the direct antonym, but 'airy' provides the best opposite condition from the available choices. 💨"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Bleak**",
+    "options": ["Fatigued", "Cordial", "Clustered", "Desolate"],
+    "answer": "Cordial",
+    "explanation": "• **Bleak**: Cold, miserable, or lacking in warmth and friendliness. 🥶\n• **Cordial**: Warm and friendly. (Antonym). 😊"
+  },
+  {
+    "question": "Select the most appropriate synonym of the capitalised word.\nThey tried to get official **SANCTIONS** for the scheme.",
+    "options": ["Committees", "Unholiness", "Permissions", "Substances"],
+    "answer": "Permissions",
+    "explanation": "• **Sanctions**: In this positive context, it refers to official permission or approval for an action. (Synonym: Permissions). 📜✅"
+  },
+  {
+    "question": "Identify the correctly spelt sentence.",
+    "options": [
+      "There were two seperte sections of students in my school.",
+      "There were two separate sections of students in my school.",
+      "There were two sepearte sections of students in my school.",
+      "There were two seperate sections of students in my school."
+    ],
+    "answer": "There were two separate sections of students in my school.",
+    "explanation": "• **Spelling Check**: The correct spelling is **Separate** (remember 'there is a rat in separate'). Option 2 is perfectly accurate. 🏫"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Irresponsible", "Capacious", "Ravishing", "Inadvartent"],
+    "answer": "Inadvartent",
+    "explanation": "• **Incorrect spelling**: Inadvartent. ❌\n• **Correct spelling**: **Inadvertent**. ✅ (Meaning not resulting from or achieved through deliberate planning). 🔍"
+  },
+  {
+    "question": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\nSmith will / be learning / French when / they are arriving.",
+    "options": ["be learning", "French when", "Smith will", "they are arriving"],
+    "answer": "they are arriving",
+    "explanation": "• **Time Clauses Tense Error**: In future time clauses introduced by time conjunctions like 'when', we use the simple present tense instead of the present continuous to denote future events.\n• **Correction**: '...when they **arrive**.' 🗺️"
+  },
+  {
+    "question": "Select the most appropriate synonym of the word given in brackets.\nThe teacher has ___________ (admitted) the student’s sincere apologies.",
+    "options": ["acknowledged", "executed", "neglected", "denied"],
+    "answer": "acknowledged",
+    "explanation": "• **Admitted/Acknowledged**: Accepted or recognized the validity or existence of something (like an apology). 🙏"
+  },
+  {
+    "question": "Select the most appropriate meaning of the underlined idiom.\nShe had to <u>break the bank</u> to buy that purse.",
+    "options": [
+      "To be very expensive",
+      "To rob a bank",
+      "To buy something exclusive",
+      "To go beyond one’s means"
+    ],
+    "answer": "To go beyond one’s means",
+    "explanation": "• **Break the bank**: An idiomatic expression meaning to win or spend more money than is available; to cost more than one can reasonably afford. 💸🛍️"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Darwin planned to (1)_____ a book describing his...",
+    "options": ["scribble", "script", "write", "paint"],
+    "answer": "write",
+    "explanation": "• **Collocation**: One standardly '**writes**' a book to document literary or academic ideas. ✍️"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...describing his (2)_________.",
+    "options": ["discoveries", "facts", "articles", "failures"],
+    "answer": "discoveries",
+    "explanation": "• **Context**: As a legendary naturalist, Darwin's historical text documented his scientific findings and '**discoveries**'. 🗺️🌱"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) He spent nearly twenty years (3)________ the matter for his book...",
+    "options": ["making", "observing", "collecting", "dispersing"],
+    "answer": "collecting",
+    "explanation": "• **Collecting**: Bringing together items or pieces of information from various sources to compile research. 📑"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...Wallace had been (4)_______ over the same problems...",
+    "options": ["dreaming", "thinking", "saving", "searching"],
+    "answer": "thinking",
+    "explanation": "• **Thinking over**: To consider or ponder a complicated academic problem deeply over a period of time. 🧠"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) Yet Wallace, who was an (5)_________, had been working far away...",
+    "options": ["creator", "artist", "wanderer", "explorer"],
+    "answer": "explorer",
+    "explanation": "• **Explorer**: A person who explores a new or unfamiliar area. Traveling and studying specimens in the remote Malay Archipelago fits the description of an '**explorer**'. 🧭🏝️"
+  }
+]
