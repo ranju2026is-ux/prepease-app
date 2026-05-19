@@ -1,0 +1,137 @@
+[
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Hit the sack**",
+    "options": [
+      "To go to bed in order to read",
+      "To go to bed in order to write",
+      "To go to bed in order to sleep",
+      "Go to bed in order to sit"
+    ],
+    "answer": "To go to bed in order to sleep",
+    "explanation": "• **Hit the sack**: A common slang idiom meaning to go to bed to sleep because you are tired. 🛌💤"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Cognisant", "Troublesome", "Pathetic", "Hierarchial"],
+    "answer": "Hierarchial",
+    "explanation": "• **Incorrect spelling**: Hierarchial. ❌\n• **Correct spelling**: **Hierarchical**. ✅ (Arranged in order of rank)."
+  },
+  {
+    "question": "Complete the sentence with the most appropriate synonym of the word in brackets.\nTell everyone to clear the ________ (hallway) as the bride and her father have arrived.",
+    "options": ["driveway", "aisle", "stage", "avenue"],
+    "answer": "aisle",
+    "explanation": "• **Hallway/Aisle**: A long, narrow space between rows of seats or walls. In weddings, the bride walks down the 'aisle'. ⛪👰"
+  },
+  {
+    "question": "Identify the correctly spelt sentence.",
+    "options": [
+      "He is a leading manufakturer in the clothing industry.",
+      "He is a leading manufacturer in the clothing endustry.",
+      "He is a leading manufacturer in the clothing industry.",
+      "He is a leading manufacturer in the clothing indostry."
+    ],
+    "answer": "He is a leading manufacturer in the clothing industry.",
+    "explanation": "• **Spelling Check**: Option 3 contains completely correct spellings for both 'manufacturer' and 'industry'. 🧵🏭"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Shabby**",
+    "options": ["Dilapidated", "Miserable", "Respectable", "Impoverished"],
+    "answer": "Respectable",
+    "explanation": "• **Shabby**: In poor condition through long or hard use or lack of care. 🏚️\n• **Respectable**: Of good social standing; clean and decent in appearance or behavior. (Antonym). ✨"
+  },
+  {
+    "question": "Select the most appropriate alternative to replace the underlined segment.\nThey met yesterday, <u>haven’t they?</u>",
+    "options": ["isn’t it?", "don’t they?", "did they?", "didn’t they?"],
+    "answer": "didn’t they?",
+    "explanation": "• **Question Tag**: The statement uses the simple past tense verb 'met'. Therefore, the question tag must be negative and use the past helper verb '**didn't they?**'. 👥"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the word given in the bracket to fill in the blank.\nHis _________ (repulsive) behaviour could not be ignored.",
+    "options": ["logical", "innocuous", "ambitious", "faithful"],
+    "answer": "innocuous",
+    "explanation": "• **Repulsive**: Arousing intense distaste or disgust. 🤢\n• **Innocuous**: Not harmful or offensive. (Best antonym among options in terms of social behavior or impact). 😇"
+  },
+  {
+    "question": "Which of the following options is most similar in meaning to the given word?\n**Allude**",
+    "options": ["Tell", "Refer", "Demonstrate", "Instruct"],
+    "answer": "Refer",
+    "explanation": "• **Allude**: Suggest or hint at something indirectly; mention or **refer** to. (Synonym). 🔍"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nPrime Minister Narendra Modi paid tribute to Pandit Jawaharlal Nehru on his <u>death day</u>.",
+    "options": ["death anniversary", "death ceremony", "death festivity", "death recurrence"],
+    "answer": "death anniversary",
+    "explanation": "• **Collocation**: The annual date of a person's past demise is formally commemorated as a '**death anniversary**'. 🕊️"
+  },
+  {
+    "question": "Replace the word in bold in the given sentence with its ANTONYM.\nReforms were also made in the **tedious** technicalities of the feudal law.",
+    "options": ["drab", "tiring", "exciting", "boring"],
+    "answer": "exciting",
+    "explanation": "• **Tedious**: Too long, slow, or dull; tiresome or monotonous. 🥱\n• **Exciting**: Causing great enthusiasm and eagerness. (Antonym). ✨"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nHis ashes were deposited in a golden _______.",
+    "options": ["earn", "urn", "yearn", "years"],
+    "answer": "urn",
+    "explanation": "• **Urn**: A tall, rounded vase or container, especially one used for storing the ashes of a cremated person. 🏺"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Sailor**",
+    "options": ["Prosecutor", "Enterpriser", "Mariner", "Trainer"],
+    "answer": "Mariner",
+    "explanation": "• **Sailor/Mariner**: A person who navigates or travels on the sea; a member of a ship's crew. ⚓🚢"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\n<u>Guess that vessel</u> holds the least water?",
+    "options": [
+      "vessel which holds",
+      "which vessel hold",
+      "that vessel hold",
+      "which vessel holds"
+    ],
+    "answer": "which vessel holds",
+    "explanation": "• **Interrogative pronoun choice**: To make a selection or query from a group, '**Which vessel holds**' is syntactically correct. ✅"
+  },
+  {
+    "question": "Identify the segment that contains a grammatical error.\nI hope / you will / **helped me** / this weekend.",
+    "options": ["I hope", "helped me", "you will", "this weekend"],
+    "answer": "helped me",
+    "explanation": "• **Grammar Error**: The modal verb 'will' must be followed by the base form of the main verb, not the past form.\n• **Correction**: It should be 'you will **help me**'. 🤝"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Out of the woods**",
+    "options": ["Risking life", "Being arrogant", "Not in danger", "Always happy"],
+    "answer": "Not in danger",
+    "explanation": "• **Out of the woods**: An idiom meaning past a critical phase or no longer in danger or difficulty. 🌳🏃‍♂️"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) I hope you will find this series (1)_______ in developing language skills...",
+    "options": ["helpful", "demanding", "distasteful", "challenging"],
+    "answer": "helpful",
+    "explanation": "• **Helpful**: Useful or providing assistance; appropriate for an instructional series. 📚"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...through diverse reading (2)______ such as fairy tales, fables...",
+    "options": ["habits", "papers", "genres", "mediums"],
+    "answer": "genres",
+    "explanation": "• **Genres**: Categories of artistic, musical, or literary composition characterized by a particular style, form, or content (e.g., fables, biography). 📖"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) The prose pieces (3)_______ for intensive language study...",
+    "options": ["were given", "are deleted", "are meant", "will be added"],
+    "answer": "are meant",
+    "explanation": "• **Are meant**: Intended or designed for a specific purpose. 🎯"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...while the poems (4)________ enable children...",
+    "options": ["was", "will", "is", "has"],
+    "answer": "will",
+    "explanation": "• **Modal helping verb**: '**Will**' expresses future certainty or structural capability matching the predictive function of the series. 🔮"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...to develop an ear for (5)_______ and rhythm.",
+    "options": ["personification", "simile", "onomatopoeia", "rhyme"],
+    "answer": "rhyme",
+    "explanation": "• **Poetic Device Pairs**: 'Rhyme and rhythm' is a standard literary collocation used when talking about hearing poetic flow. 🎶"
+  }
+]
