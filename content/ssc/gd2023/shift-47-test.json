@@ -1,0 +1,132 @@
+[
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Jovial**",
+    "options": ["Gloomy", "Abrupt", "Cheerful", "Nauseating"],
+    "answer": "Gloomy",
+    "explanation": "• **Jovial**: Cheerful and friendly. 😊\n• **Gloomy**: Feeling distressed, downcast, or low in spirits. (Antonym). 😞"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Conscious", "Credible", "Cancelletion", "Convertible"],
+    "answer": "Cancelletion",
+    "explanation": "• **Incorrect spelling**: Cancelletion. ❌\n• **Correct spelling**: **Cancellation**. ✅ (The suffix uses an 'a', as in '-ation'). 🛑"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word.\nThe accident made his face look <u>horrible</u>.",
+    "options": ["Surgical", "Pleasant", "Ugly", "Frightful"],
+    "answer": "Pleasant",
+    "explanation": "• **Horrible**: Causing or likely to cause horror; shocking or ugly. 😨\n• **Pleasant**: Giving a sense of happy satisfaction or enjoyment; attractive. (Antonym). ✨"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nEducation, no doubt, _______ bring about the all-round development of a child.",
+    "options": ["aims for", "aim at", "get rid at", "aims to"],
+    "answer": "aims to",
+    "explanation": "• **Infinitive structural continuation**: The phrase '**aims to**' is correctly followed by the base form of the verb ('bring'). 🎓"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Earned**",
+    "options": ["Offered", "Gave", "Gained", "Accorded"],
+    "answer": "Gained",
+    "explanation": "• **Earned/Gained**: Obtained or secured something desired, valuable, or needed as a result of effort or action. (Synonyms). 🏆"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Beside oneself**",
+    "options": [
+      "To remain silent",
+      "Very shocked or distraught",
+      "Feeling overwhelming fear or worry",
+      "To be happy"
+    ],
+    "answer": "Very shocked or distraught",
+    "explanation": "• **Beside oneself**: An idiom meaning overcome with worry, grief, anger, or strong emotion; distraught. 😫"
+  },
+  {
+    "question": "Select the appropriate idiom that can replace the underlined phrase.\nHe is <u>straightforward and honest</u> and that’s why everyone appreciates him.",
+    "options": ["bad blood", "an open book", "an apple of one’s eyes", "a big hit"],
+    "answer": "an open book",
+    "explanation": "• **An open book**: An idiom referring to a person or thing that is easily understood or has no hidden secrets; completely straightforward and transparent. 📖"
+  },
+  {
+    "question": "Select the most appropriate synonym of the word given in brackets to fill in the blank.\nLocating directions through stars is a ________ (handy) way at the sea.",
+    "options": ["near", "simple", "useful", "nice"],
+    "answer": "useful",
+    "explanation": "• **Handy/Useful**: Convenient to handle or use; beneficial or functional. (Synonyms). 🗺️⚓"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment. If there is no need to substitute it, select ‘No substitution’.\nYou do not have <u>access</u> to this content currently.",
+    "options": ["have permit", "No substitution", "have excess", "have permission"],
+    "answer": "No substitution",
+    "explanation": "• The sentence is grammatically and vocabulary-wise completely accurate. 'Access' means the right or opportunity to use or look at something. 🔑"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Brave**",
+    "options": ["Cautious", "Timid", "Daring", "Mild"],
+    "answer": "Daring",
+    "explanation": "• **Brave/Daring**: Willing to face and endure danger or pain; showing courage. (Synonyms). ⚔️"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nMachines can only accomplish a <u>maximum</u> set of tasks, as machines do not hold any thought process...",
+    "options": [
+      "accomplish a valued set of tasks",
+      "accomplish a gist set of tasks",
+      "accomplish a restricted set of tasks",
+      "accomplish a difficult set of tasks"
+    ],
+    "answer": "accomplish a restricted set of tasks",
+    "explanation": "• **Contextual substitution**: Since the sentence states machines lack an independent thought process, their operational output capacities are limited or '**restricted**'. ⚙️🚫"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Cherish", "Wisdom", "Calandar", "Mice"],
+    "answer": "Calandar",
+    "explanation": "• **Incorrect spelling**: Calandar. ❌\n• **Correct spelling**: **Calendar**. ✅ (A chart showing the days, weeks, and months of a particular year). 📅"
+  },
+  {
+    "question": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\nHe said that / he had want / to read a / novel by Enid Blyton.",
+    "options": ["he had want", "to read a", "novel by Enid Blyton", "He said that"],
+    "answer": "he had want",
+    "explanation": "• **Tense Error**: The past perfect structure requires 'had' + past participle of the main verb.\n• **Correction**: It should be 'he **had wanted**'. 📖"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word.\nMany bosses at workplace consider their <u>subordinate</u> on equal planes.",
+    "options": ["Inferior", "Superior", "Ordinary", "Mediocre"],
+    "answer": "Superior",
+    "explanation": "• **Subordinate**: A person under the authority or control of another within an organization. 📉\n• **Superior**: A person higher in rank, status, or quality. (Antonym). 📈"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word.\nThe boy has <u>benevolence</u> towards animals.",
+    "options": ["Hardness", "Pardon", "Cruelty", "Kindness"],
+    "answer": "Cruelty",
+    "explanation": "• **Benevolence**: The quality of being well-meaning; kindness. 😇\n• **Cruelty**: Behavior that causes pain or suffering to a person or animal. (Antonym). 🪓"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Innovations have led to marked improvements in (1) ___________, productivity...",
+    "options": ["adequacy", "inadequacy", "efficiency", "inefficiency"],
+    "answer": "efficiency",
+    "explanation": "• **Efficiency**: The state or quality of being efficient; optimized output. It pairs logically alongside 'productivity' and 'quality'. 📈"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) However, there have been (2) __________ consequences on account of greater reliance on third parties...",
+    "options": ["intentional", "expected", "unintended", "planned"],
+    "answer": "unintended",
+    "explanation": "• **Unintended consequences**: A common standard business phrase used to denote unforeseen side-effects or negative developments resulting from a clean strategy. ⚠️"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) ...mis-selling to unsuspecting customers, concerns over (3) _________ of data privacy...",
+    "options": ["agreement", "closure", "spread", "breach"],
+    "answer": "breach",
+    "explanation": "• **Breach**: An act of breaking or failing to observe a law, agreement, or data security barrier. 'Breach of data privacy' is standard. 🔐❌"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...the growth momentum has (4)___________ stability implications.",
+    "options": ["optional", "discretional", "compelling", "insignificant"],
+    "answer": "compelling",
+    "explanation": "• **Compelling**: Evoking interest, attention, or admiration in a powerful, irresistible way; demanding immediate observation. 📢"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...protecting the customers from widespread unethical practices and (5) ___________ orderly growth.",
+    "options": ["ensuring", "invalidating", "rejecting", "repudiating"],
+    "answer": "ensuring",
+    "explanation": "• **Ensuring**: Make certain that (a case or outcome) will occur; guaranteeing the smooth execution of orderly growth. ✅"
+  }
+]
