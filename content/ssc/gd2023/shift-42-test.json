@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nMy boss <u>have insured me</u> that my salary will be credited next week.",
+    "options": [
+      "have ensured",
+      "has assured",
+      "has cautioned",
+      "had entrusted"
+    ],
+    "answer": "has assured",
+    "explanation": "• **Subject-Verb Agreement**: 'My boss' is a singular subject, requiring the auxiliary verb 'has'.\n• **Word Choice**: 'Assured' means to tell someone something positively to dispel any doubts, which fits the context of financial confirmation perfectly. 💸"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Obvious**",
+    "options": ["Evident", "Ambiguous", "Inherent", "Apparent"],
+    "answer": "Ambiguous",
+    "explanation": "• **Obvious**: Clear, plain, or easily discovered or understood. ✨\n• **Ambiguous**: Open to more than one interpretation; not having one obvious meaning. (Antonym). ❓"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Enormous**",
+    "options": ["Stumble", "Enjoyable", "Mammoth", "Negligible"],
+    "answer": "Negligible",
+    "explanation": "• **Enormous**: Very large in size, quantity, or extent. 🐘\n• **Negligible**: So small or unimportant as to be not worth considering. (Antonym). 🤏"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Gloomy**",
+    "options": ["Unhappy", "Blissful", "Hopeful", "Light"],
+    "answer": "Unhappy",
+    "explanation": "• **Gloomy**: Feeling distressed, downcast, or low in spirits. (Synonym: Unhappy). 😞"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Stratified**",
+    "options": ["Scattered", "Consolidated", "Laminated", "Ungraded"],
+    "answer": "Laminated",
+    "explanation": "• **Stratified**: Formed or arranged in positions, layers, or strata.\n• **Laminated**: Overlaid or constructed with layers of protective or structural material. (Synonym in terms of layered structure). 📄"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nJosephine confessed that she <u>couldn’t stand another hour out</u> daylight.",
+    "options": [
+      "couldn’t wait another hour from",
+      "couldn’t stand another hour of",
+      "couldn’t stand another hour for",
+      "couldn’t stand other hour in"
+    ],
+    "answer": "couldn’t stand another hour of",
+    "explanation": "• **Preposition**: The idiomatic phrase is 'stand an hour **of** [something]' to indicate tolerance toward a condition. ☀️"
+  },
+  {
+    "question": "Identify the correctly spelt sentence.",
+    "options": [
+      "Human personality is classifide into three types- introvert, extrovert and ambivert.",
+      "Human persunality is clasified into three types- introvert, extrovert and ambivert.",
+      "Human personality is classified into three types- introvert, extrovert and ambivert.",
+      "Human personality is classfied into three types- introvert, extrovert and ambivert"
+    ],
+    "answer": "Human personality is classified into three types- introvert, extrovert and ambivert.",
+    "explanation": "• **Spelling Check**: 'Personality' and 'classified' are correctly spelled only in Option 3. 🧠"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment. If there is no need to substitute it, select ‘No substitution’.\nHenry worked for a few years as a <u>sargent</u> in the army.",
+    "options": ["No substitution", "sergeant", "sergant", "sergent"],
+    "answer": "sergeant",
+    "explanation": "• **Correct spelling**: **Sergeant**. ✅ (A standard military rank designation). 🎖️"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Annoyance**",
+    "options": ["Anger", "Hatred", "Emotion", "Agony"],
+    "answer": "Anger",
+    "explanation": "• **Annoyance**: The feeling or state of being annoyed; irritation or mild anger. (Synonym: Anger). 😠"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the underlined word.\nMy brother became very <u>frail</u> after his long sickness.",
+    "options": ["Strong", "Violent", "Feeble", "Docile"],
+    "answer": "Strong",
+    "explanation": "• **Frail**: (Of a person) weak and delicate. 🤒\n• **Strong**: Having the power to move heavy weights or perform other physically demanding tasks. (Antonym). 💪"
+  },
+  {
+    "question": "Select the most appropriate synonym to substitute the underlined word.\nThe <u>strict</u> measures employed by the government ensured there was peace.",
+    "options": ["liberal", "austere", "orthodox", "valiant"],
+    "answer": "austere",
+    "explanation": "• **Strict/Austere**: Severe or strict in manner, attitude, or outline. (Synonyms). 👮‍♂️"
+  },
+  {
+    "question": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\nThey have / always take / an hour’s walk / before breakfast.",
+    "options": ["an hour’s walk", "always take", "before breakfast", "They have"],
+    "answer": "always take",
+    "explanation": "• **Tense Error**: The auxiliary verb 'have' requires the past participle form of the main verb in the present perfect tense.\n• **Correction**: It should be 'always **taken**'. 🚶‍♂️"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Lay hands on**",
+    "options": [
+      "To touch or grasp someone, often with the threat of violence",
+      "To gently lay one’s hand on someone",
+      "To try new things",
+      "To give up"
+    ],
+    "answer": "To touch or grasp someone, often with the threat of violence",
+    "explanation": "• **Lay hands on**: An idiom meaning to find, catch, or seize someone with aggression or force. ✊"
+  },
+  {
+    "question": "Select the word segment that substitutes the bracketed segment correctly.\nDistribute these fruits and desserts (<u>WITHIN</u>) the girls, the boys and the teachers.",
+    "options": ["for", "in", "across", "among"],
+    "answer": "among",
+    "explanation": "• **Preposition**: When distributing resources items to more than two groups or individuals, '**among**' is the correct preposition to use. 🍎🍰"
+  },
+  {
+    "question": "Select the correct idiom that can substitute the italicised group of words.\nTo succeed in competitive exams is <u>not an easy task</u>.",
+    "options": ["cat’s paw", "a black sheep", "child’s play", "a bed of thorns"],
+    "answer": "child’s play",
+    "explanation": "• **Child’s play**: An idiom denoting something that is very easy to do. (Since the sentence states it is *not* an easy task, saying it is 'not child's play' matches perfectly). 🧸"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) ...how it (1) _________ me and affected my action.",
+    "options": ["will influence", "is influenced", "is influencing", "influenced"],
+    "answer": "influenced",
+    "explanation": "• **Parallelism**: The coordinating verb 'affected' is in the simple past tense, so the preceding verb must also be simple past ('**influenced**'). 🧠"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) There will also be some (2) __________ personal experiences...",
+    "options": ["entirety", "entirely", "entire", "untiredly"],
+    "answer": "entirely",
+    "explanation": "• **Adverbial Modifier**: The adverb '**entirely**' correctly modifies the adjective 'personal'. 👤"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) ...among them our personal contacts... have a (3)________ influence.",
+    "options": ["marked", "marking", "marks", "mark"],
+    "answer": "marked",
+    "explanation": "• **Adjective**: '**Marked**' functions as an adjective here, meaning prominent, noticeable, or significant. 📈"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...we are apt to misjudge them even (4) ________ than otherwise...",
+    "options": ["most", "very much", "much", "more"],
+    "answer": "more",
+    "explanation": "• **Comparative Degree**: The presence of the conjunction 'than' requires the comparative form '**more**'. ⚖️"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...and (5) ________them entirely alien and different.",
+    "options": ["consider", "had considered", "considered", "to consider"],
+    "answer": "consider",
+    "explanation": "• **Infinitive structural continuation**: The structure links back to 'apt to misjudge... and [to] **consider**' (omitting the repetitive 'to'). 👽"
+  }
+]
