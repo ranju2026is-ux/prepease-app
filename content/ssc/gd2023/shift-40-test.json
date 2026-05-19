@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Select the option that can be used as a one-word substitute for the underlined group of words.\nI studied a book on the <u>study of stars</u>.",
+    "options": ["Astronomy", "Geology", "Astrophysics", "Meteorology"],
+    "answer": "Astronomy",
+    "explanation": "• **Astronomy**: The branch of science which deals with celestial objects, space, and the physical universe as a whole. 🌌\n• **Geology**: The study of rocks and earth.\n• **Meteorology**: The study of atmosphere and weather."
+  },
+  {
+    "question": "Select the most appropriate option to substitute the underlined segment. If no substitution is required, select ‘No substitution’.\nThe COVID-19 pandemic <u>pose innumerable challenges</u> to our education system, and engineering education was no exception.",
+    "options": [
+      "posed innumerable challenges to our education system, and engineering education was no exception.",
+      "No substitution",
+      "have been posing innumerable challenges to our education system, and engineering education is not any exception.",
+      "posed innumerable challenges to our education system, and engineering education is not a exception."
+    ],
+    "answer": "posed innumerable challenges to our education system, and engineering education was no exception.",
+    "explanation": "• **Tense Consistency**: The latter part of the sentence uses 'was' (Past Tense). Therefore, the initial part must also be in the past tense ('**posed**') rather than the base present 'pose'. ✅"
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\nHe distracted him while his partner <u>burgled</u> his shop.",
+    "options": ["Burnt", "Rooted", "Arrived", "Looted"],
+    "answer": "Looted",
+    "explanation": "• **Burgled/Looted**: To steal goods from a place, especially during a crime or a chaotic event. (Synonyms). 🥷💰"
+  },
+  {
+    "question": "Select the most appropriate option to substitute the underlined segment. If no substitution is required, select ‘No substitution’.\nA new kind of pollution that is acquiring serious dimensions <u>was noise pollution</u>.",
+    "options": [
+      "have been acquiring serious dimensions is noise pollution.",
+      "is acquiring serious dimensions is noise pollution.",
+      "No substitution",
+      "have acquiring serious dimensions is noise pollution."
+    ],
+    "answer": "is acquiring serious dimensions is noise pollution.",
+    "explanation": "• **Tense Consistency**: The introductory clause uses 'is acquiring' (Present Continuous) to describe a current issue. Therefore, the concluding predicate verb must also be in the present tense ('**is** noise pollution'). 🔊"
+  },
+  {
+    "question": "Select the most appropriate synonym of the word given below to fill in the blank.\n**Toying**\nMy cat, Mili loves ______ with the toy mouse.",
+    "options": ["licking", "going", "dancing", "playing"],
+    "answer": "playing",
+    "explanation": "• **Toying/Playing**: To move or handle something idly or amusingly. For animals with toys, it directly correlates to 'playing'. 🐈🐀"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Risk life and limb**",
+    "options": [
+      "Something that happened unexpectedly",
+      "Seriously ill",
+      "In danger of death or serious injury",
+      "Making unnecessary fuss"
+    ],
+    "answer": "In danger of death or serious injury",
+    "explanation": "• **Risk life and limb**: An idiom meaning to do something very dangerous that may result in losing your life or getting severely hurt. ⚠️"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Vanquish**",
+    "options": ["Halt", "Finish", "Surrender", "Stoop"],
+    "answer": "Surrender",
+    "explanation": "• **Vanquish**: To defeat thoroughly in a conflict or battle. ⚔️\n• **Surrender**: To stop resisting an opponent and submit to their authority. (Antonym). 🏳️"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Mean**",
+    "options": ["Greedy", "Unconscious", "Mode", "Wise"],
+    "answer": "Greedy",
+    "explanation": "• **Mean**: In a socio-economic or behavioral context, it describes someone who is miserly, ungenerous, or self-serving. (Synonym: Greedy). 🪙"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the word given in the bracket.\nI can’t forget the (convivial)___________ atmosphere at the college reunion.",
+    "options": ["affable", "antisocial", "hospitable", "lively"],
+    "answer": "antisocial",
+    "explanation": "• **Convivial**: Friendly, lively, and enjoyable; fond of good company. 🎉\n• **Antisocial**: Not sociable; hostile or harmful to organized society. (Antonym). 🚪"
+  },
+  {
+    "question": "Identify the correctly spelt sentence.",
+    "options": [
+      "The collector is the district magistrate in admiinistration.",
+      "The collector is the district magistrate in administration.",
+      "The collector is the district magistrate in adminestration.",
+      "The collector is the district magistrate in addministration."
+    ],
+    "answer": "The collector is the district magistrate in administration.",
+    "explanation": "• **Spelling Check**: The correct spelling is **Administration**. Option 2 is the only choice with completely flawless spelling. 🏛️"
+  },
+  {
+    "question": "Select the most appropriate meaning of the idiom in bold in the given sentence.\nI am going to **take a leaf out of your book** and start packing my own lunches.",
+    "options": [
+      "To study very hard",
+      "A book containing a list of secret contacts",
+      "Imitate or emulate someone in a particular way",
+      "Be in somebody's favour or good opinion"
+    ],
+    "answer": "Imitate or emulate someone in a particular way",
+    "explanation": "• **Take a leaf out of someone's book**: To behave or do something in the same way that someone else does; to copy a good habit. 📖🔄"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Congruent", "Circamference", "Democracy", "Demolish"],
+    "answer": "Circamference",
+    "explanation": "• **Incorrect spelling**: Circamference. ❌\n• **Correct spelling**: **Circumference**. ✅ (The boundary line of a circle). ⭕"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the word given in the brackets.\nWe live on the ________ (centre) of the city.",
+    "options": ["interior", "outskirts", "middle", "downtown"],
+    "answer": "outskirts",
+    "explanation": "• **Centre**: The middle point of an area. 📍\n• **Outskirts**: The outer parts of a town or city, farthest from the center. (Antonym). 🏡🏙️"
+  },
+  {
+    "question": "The following sentence has been divided into parts. One of them may contain an error. Select the part that contains the error.\nThe immense talent / we having at our disposal is / impressive to say the least.",
+    "options": [
+      "we having at our disposal is",
+      "impressive to say the least",
+      "No error",
+      "The immense talent"
+    ],
+    "answer": "we having at our disposal is",
+    "explanation": "• **Grammar Error**: The relative clause relative modifier lacks a proper finite verb structure. \n• **Correction**: It should be 'we **have** at our disposal' to make syntactic sense. 🧠"
+  },
+  {
+    "question": "Select the correct pair of words for the blanks in the given sentence.\n________ are the prime resource of a country and a tea is served in a _________.",
+    "options": ["cattle; cattle", "kettle; kettle", "kettle; cattle", "cattle; kettle"],
+    "answer": "cattle; kettle",
+    "explanation": "• **Cattle**: Livestock animals (used metaphorically or standardly as wealth or primary physical assets). 🚜🐄\n• **Kettle**: A vessel used for boiling or serving liquids like tea. 🫖"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Accidents resulting from (1)______ driving have become a daily affair.",
+    "options": ["Experimental", "Reckless", "Careful", "Rude"],
+    "answer": "Reckless",
+    "explanation": "• **Reckless driving**: Driving without regard for safety, which is a primary cause of road accidents. 🚗💥"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) The speed maniacs responsible for most of them escape (2)______...",
+    "options": ["luxury", "notice", "punishment", "limit"],
+    "answer": "punishment",
+    "explanation": "• **Context**: The text explains that they 'speed away before anyone can take down the number,' meaning they flee to escape **punishment**. 🚓"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) ...who (3)______ in reckless driving.",
+    "options": ["frustrate", "indulge", "attack", "praise"],
+    "answer": "indulge",
+    "explanation": "• **Indulge in**: To allow oneself to enjoy the pleasure of or become involved in an activity. 🏎️💨"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) The penalties imposed for reckless driving are much too (4)______ to be effective.",
+    "options": ["plain", "furious", "lenient", "strong"],
+    "answer": "lenient",
+    "explanation": "• **Lenient**: (Of a punishment or person in authority) permissive, merciful, or not drastic. Weak punishments fail to be effective. 📉"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...and the general public should be made (5)______ of the consequences.",
+    "options": ["accuse", "adhere", "aware", "avenge"],
+    "answer": "aware",
+    "explanation": "• **Aware of**: Having knowledge or perception of a situation or fact. 🧠💡"
+  }
+]
