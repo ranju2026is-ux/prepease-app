@@ -1,0 +1,142 @@
+[
+  {
+    "question": "Select the most appropriate option to fill in the blanks and make the sentence meaningful.\nThe _______ from my window is of the ________.",
+    "options": ["seen; sea", "seen; see", "scene; sea", "scene; see"],
+    "answer": "scene; sea",
+    "explanation": "• **Scene**: A view or picture of a place, especially a beautiful one. 🖼️\n• **Sea**: The expanse of salt water that covers most of the earth's surface. (Homonyms). 🌊"
+  },
+  {
+    "question": "Select the most appropriate meaning of the underlined idiom that can be substituted.\nThe fate of the accused <u>hangs in the balance</u>.",
+    "options": [
+      "remains undecided",
+      "gets a fair decision",
+      "gets an unfair decision",
+      "gets a very fast decision"
+    ],
+    "answer": "remains undecided",
+    "explanation": "• **Hang in the balance**: An idiom meaning to remain in an uncertain state where the final outcome is still completely undecided. ⚖️❓"
+  },
+  {
+    "question": "Select the correct option to substitute the underlined segment. If no substitution is required, select ‘No substitution’.\n<u>They is going</u> to Delhi with their friends.",
+    "options": ["was going", "will going", "No substitution", "are going"],
+    "answer": "are going",
+    "explanation": "• **Subject-Verb Agreement**: The pronoun 'They' is plural, requiring the plural auxiliary verb '**are going**' in the present continuous tense. 🚫"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Jaded**",
+    "options": ["Renewed", "Impressed", "Settled", "Unflinching"],
+    "answer": "Renewed",
+    "explanation": "• **Jaded**: Tired, bored, or lacking enthusiasm, typically after having had too much of something. 😫\n• **Renewed**: Restored to freshness, vigor, or perfection. (Antonym). 🌟"
+  },
+  {
+    "question": "The sentence given below has one misspelt word. Spot the INCORRECTLY spelt word and select its correct spelling.\n**Ashish was flabbrgasted when we told him about our latest achievement.**",
+    "options": ["Flabergested", "Flabergasted", "Flabbergasted", "Fabbergasted"],
+    "answer": "Flabbergasted",
+    "explanation": "• **Correct spelling**: **Flabbergasted**. ✅ (Meaning greatly surprised or astonished; dumbfounded). 😲"
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\nIt was a <u>perilous</u> journey.",
+    "options": ["Tremendous", "Dangerous", "Loud", "Nasty"],
+    "answer": "Dangerous",
+    "explanation": "• **Perilous**: Full of danger or risk. (Synonym: Dangerous). ⚠️🧗‍♂️"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Immune**",
+    "options": ["Resistant", "Sensitive", "Provoked", "Vulnerable"],
+    "answer": "Resistant",
+    "explanation": "• **Immune**: Protected or exempt from a harmful thing, especially an illness or disease. (Synonym: Resistant). 🛡️🦠"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Vicinity**",
+    "options": ["Remote", "Natural", "Adjacent", "Proximity"],
+    "answer": "Remote",
+    "explanation": "• **Vicinity**: The area near or surrounding a particular place. 🏡📍\n• **Remote**: Situated far away from the main centers of population; distant. (Antonym). 🏜️"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nThe student repeatedly <u>referred about</u> one particular author during his presentation.",
+    "options": [
+      "referenced on one particular",
+      "referred of one particular",
+      "referred for one particular",
+      "referred to one particular"
+    ],
+    "answer": "referred to one particular",
+    "explanation": "• **Preposition**: The standard phrasal construction is 'refer **to** someone or something'. 📖"
+  },
+  {
+    "question": "Select the correct pair of synonyms to fill in the blanks.\nSeema was shivering, and her body was almost ________ due to the long exposure to ________ winds...",
+    "options": ["frozen, icy", "warm, steamy", "dry, arid", "wet, humid"],
+    "answer": "frozen, icy",
+    "explanation": "• **Context**: Cold mountain environments pair logically with standard synonyms like '**frozen**' and '**icy**' to explain shivering. 🏔️🥶"
+  },
+  {
+    "question": "Select the most appropriate homonym of the given word.\n**Idol**",
+    "options": ["eye lid", "doll", "Idle", "dull"],
+    "answer": "Idle",
+    "explanation": "• **Idol**: An image or representation of a god used as an object of worship. 🗿\n• **Idle**: Avoiding work; lazy or inactive. (Homonyms). 🛌"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Bone to pick**",
+    "options": [
+      "Having a fond memory to tell",
+      "Cleaning the floor for any garbage",
+      "Having a complaint that needs to be discussed",
+      "Making a feast"
+    ],
+    "answer": "Having a complaint that needs to be discussed",
+    "explanation": "• **Bone to pick**: An idiomatic phrase meaning to have a grievance, dispute, or issue with someone that needs to be talked out or settled. 🗣️💢"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Irrelevant", "Miniature", "Condolance", "Millennium"],
+    "answer": "Condolance",
+    "explanation": "• **Incorrect spelling**: Condolance. ❌\n• **Correct spelling**: **Condolence**. ✅ (The suffix uses 'e', as in '-ence'). 🕊️"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment. If there is no need to substitute it, select ‘No substitution’.\nThe young girl was <u>so afraid of her seniors</u> that she refused to go to school.",
+    "options": [
+      "so afraid to her seniors",
+      "so afraid at her seniors",
+      "No substitution",
+      "so afraid over her seniors"
+    ],
+    "answer": "No substitution",
+    "explanation": "• The sentence is grammatically and contextually correct. 'Afraid **of** someone' is the proper prepositional syntax. 🏫"
+  },
+  {
+    "question": "The following sentence has been split into four segments. Identify the segment that contains a grammatical error.\nThe teacher will / certainly help you / if you will / ask her.",
+    "options": ["The teacher will", "ask her", "certainly help you", "if you will"],
+    "answer": "if you will",
+    "explanation": "• **Conditional Clause**: In the first conditional pattern, the condition clause containing 'if' should take the simple present tense, not the future modal 'will'. 🚫\n• **Correction**: '...if you **ask** her.' 👩‍🏫"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) A beautiful spectacle for anyone to (1)_________ would be the crowds...",
+    "options": ["behold", "tarnish", "vanish", "sold"],
+    "answer": "behold",
+    "explanation": "• **Behold**: To see or observe something, especially a thing of remarkable impressive nature or beauty. 👁️✨"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) This (2)__________ is the occasion where the spirit of oneness is all pervasive.",
+    "options": ["ruthlessly", "undoubtedly", "doubtfully", "indefinitely"],
+    "answer": "undoubtedly",
+    "explanation": "• **Undoubtedly**: Without a doubt; certainly. Used to emphasize the absolute certainty of the statement. ✅"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) India with all its diversity (3)_________ be seen either rejoicing or moaning...",
+    "options": ["could", "shouldn’t", "won’t", "shan’t"],
+    "answer": "could",
+    "explanation": "• **Could**: Used here to express a clear possibility or observation of reactions across the nation. 🌍"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...depending on the sway of the game (4)__________ watched.",
+    "options": ["going", "on", "seeing", "being"],
+    "answer": "being",
+    "explanation": "• **Passive Modifier**: The present passive participle '**being watched**' correctly modifies the noun 'game' to indicate an continuous ongoing event. 📺"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) Unity in diversity is (5)_________ in all its glory.",
+    "options": ["redressed", "terraced", "witnessed", "procured"],
+    "answer": "witnessed",
+    "explanation": "• **Witnessed**: Seen, observed, or experienced firsthand. 🏟️🏆"
+  }
+]
