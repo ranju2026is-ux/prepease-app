@@ -1,0 +1,182 @@
+[
+  {
+    "question": "It is high time we _____ studying for the upcoming departmental accounting exams.",
+    "options": ["start", "started", "starting", "will start"],
+    "answer": "started",
+    "explanation": "When 'It is high time' is followed directly by a subject ('we'), the verb must strictly be in the Simple Past (V2) form 'started' to show that the action is already delayed. ✅"
+  },
+  {
+    "question": "It is time _____ the latest front-end layout configuration code to the GitHub repository.",
+    "options": ["to push", "pushed", "pushing", "we push"],
+    "answer": "to push",
+    "explanation": "If there is no subject immediately following 'It is time', the sentence takes the standard infinitive structure 'to + V1' ('to push'). ✅"
+  },
+  {
+    "question": "It is about time the selection board _____ the age relaxation guidelines for aspirants.",
+    "options": ["publish", "published", "publishes", "will publish"],
+    "answer": "published",
+    "explanation": "The phrase 'It is about time' followed by the subject 'the selection board' forces the trailing verb into the Simple Past form 'published'. ✅"
+  },
+  {
+    "question": "It is high time the junior accounts assistant _____ the cash account ledger discrepancies.",
+    "options": ["reconciles", "reconciled", "will reconcile", "reconcile"],
+    "answer": "reconciled",
+    "explanation": "Follows the fixed layout rule: 'It is high time + subject + V2', selecting the past tense unit 'reconciled'. ✅"
+  },
+  {
+    "question": "It is time _____ the train tickets for our family travel itinerary to Delhi.",
+    "options": ["to book", "booked", "booking", "we book"],
+    "answer": "to book",
+    "explanation": "No subject follows 'It is time' here, so it safely maps onto the 'to + base verb' infinitive path. ✅"
+  },
+  {
+    "question": "It is high time Ravi _____ the backend database routing script to prevent runtime errors.",
+    "options": ["updates", "updated", "will update", "updating"],
+    "answer": "updated",
+    "explanation": "Since the subject 'Ravi' stands after the high time marker phrase, the verb converts into Simple Past 'updated'. ✅"
+  },
+  {
+    "question": "Identify the error part: It is high time (A) / the government (B) / takes strict action (C) / against data leaks (D).",
+    "options": ["A", "B", "C", "No error"],
+    "answer": "C",
+    "explanation": "The part 'takes strict action' is wrong. It should be in the Simple Past form 'took strict action' due to the 'It is high time' phrase framework. ✅"
+  },
+  {
+    "question": "It is time you _____ treating physics and chemistry formulas as optional segments.",
+    "options": ["stop", "stopped", "will stop", "stopping"],
+    "answer": "stopped",
+    "explanation": "The pronoun subject 'you' follows the time header, demanding the past alternative inflected form 'stopped'. ✅"
+  },
+  {
+    "question": "It is about time we _____ an official RTI application to get information regarding the results.",
+    "options": ["file", "filed", "will file", "filing"],
+    "answer": "filed",
+    "explanation": "Triggers the delayed-action marker logic, transforming the present idea into the V2 form 'filed'. ✅"
+  },
+  {
+    "question": "It is time _____ a secure local backup of the sensitive automated quiz bot logs.",
+    "options": ["to take", "taken", "taking", "we take"],
+    "answer": "to take",
+    "explanation": "Bypasses the subject tracking node, making the infinitive string 'to take' the only valid structure option. ✅"
+  },
+  {
+    "question": "It is high time the technical coach _____ the sectional mock test cut-off parameters.",
+    "options": ["revised", "revise", "revises", "will revise"],
+    "answer": "revised",
+    "explanation": "Enforces the past subjunctive processing aspect 'revised' because it follows a 'subject' + 'high time' phrase. ✅"
+  },
+  {
+    "question": "It is about time his sister _____ her new apparel design models in the fashion studio.",
+    "options": ["showcase", "showcased", "showcases", "will showcase"],
+    "answer": "showcased",
+    "explanation": "Subject 'his sister' coupled with 'It is about time' locks the action into the Simple Past indicator 'showcased'. ✅"
+  },
+  {
+    "question": "It is time the typing assistant _____ all thirty pages of the draft notification file.",
+    "options": ["completes", "completed", "will complete", "is completing"],
+    "answer": "completed",
+    "explanation": "Requires the past framework target token 'completed' to reflect an action that should have been done earlier. ✅"
+  },
+  {
+    "question": "It is time _____ the historical fort ruins near Vijayapura to understand the structure layout.",
+    "options": ["to visit", "visited", "visiting", "we visit"],
+    "answer": "to visit",
+    "explanation": "An immediate verbal command block without an internal subject targets the raw infinitive 'to visit'. ✅"
+  },
+  {
+    "question": "It is high time we _____ the unvouched expenditure accounts before the auditing squad arrives.",
+    "options": ["tally", "tallied", "will tally", "tallying"],
+    "answer": "tallied",
+    "explanation": "The active subject 'we' inside this delayed modal syntax structure selects the past marker form 'tallied'. ✅"
+  },
+  {
+    "question": "It is about time you _____ the premium cloud server subscription options.",
+    "options": ["renew", "renewed", "will renew", "renewing"],
+    "answer": "renewed",
+    "explanation": "Aligns safely with the 'It is about time + subject + V2' grammar standard pattern. ✅"
+  },
+  {
+    "question": "It is time the applicant _____ an appeal letter directly to the railway recruitment board.",
+    "options": ["sends", "sent", "will send", "is sending"],
+    "answer": "sent",
+    "explanation": "The placement layout configuration rules assign the past inflected verb 'sent' here. ✅"
+  },
+  {
+    "question": "It is time _____ the interactive automated quiz widget code to check for validation errors.",
+    "options": ["to execute", "executed", "executing", "we execute"],
+    "answer": "to execute",
+    "explanation": "Maps cleanly to the bare 'to + V1' infinitive path as there is no structural subject intervention. ✅"
+  },
+  {
+    "question": "It is high time they _____ the true value of preparing comprehensive study notes.",
+    "options": ["realize", "realized", "will realize", "realizing"],
+    "answer": "realized",
+    "explanation": "The pronoun entity 'they' acts as the explicit subject, turning the verb into Simple Past 'realized'. ✅"
+  },
+  {
+    "question": "It is about time the computer lab operator _____ the cooling systems inside the server room.",
+    "options": ["fixes", "fixed", "will fix", "fixing"],
+    "answer": "fixed",
+    "explanation": "The noun subject 'the computer lab operator' forces the past tense structural conversion 'fixed'. ✅"
+  },
+  {
+    "question": "It is time we _____ our luggage before starting our multi-day trip to Himachal Pradesh.",
+    "options": ["pack", "packed", "will pack", "packing"],
+    "answer": "packed",
+    "explanation": "Subject presence ('we') requires the application of the V2 format past marker 'packed'. ✅"
+  },
+  {
+    "question": "It is time _____ the chemistry compound exceptions list to avoid negative marking errors.",
+    "options": ["to memorize", "memorized", "memorizing", "we memorize"],
+    "answer": "to memorize",
+    "explanation": "The syntax flow runs directly into the infinite target 'to memorize' with zero subject block constraints. ✅"
+  },
+  {
+    "question": "It is high time you _____ your python environment layout variables to the latest stable build.",
+    "options": ["upgrade", "upgraded", "will upgrade", "upgrading"],
+    "answer": "upgraded",
+    "explanation": "The second-person pronoun subject triggers the past inflected structural profile 'upgraded'. ✅"
+  },
+  {
+    "question": "It is about time the branch supervisor _____ the pending daily cash transaction vouchers.",
+    "options": ["clears", "cleared", "will clear", "is clearing"],
+    "answer": "cleared",
+    "explanation": "Processes accurately under the past subjunctive tracking matrix as 'cleared'. ✅"
+  },
+  {
+    "question": "It is time the team _____ the front-end layout features of the PrepEase application website.",
+    "options": ["tests", "tested", "will test", "is testing"],
+    "answer": "tested",
+    "explanation": "The presence of 'the team' as a subject right after 'It is time' mandates the past form 'tested'. ✅"
+  },
+  {
+    "question": "It is time _____ high-quality upscaled images into the digital travel journal portfolio.",
+    "options": ["to integrate", "integrated", "integrating", "we integrate"],
+    "answer": "to integrate",
+    "explanation": "Standard infinitive routing applies smoothly because no structural noun subject intervenes. ✅"
+  },
+  {
+    "question": "It is high time the candidate _____ his exam preparation timeline focus away from distractions.",
+    "options": ["shifts", "shifted", "will shift", "shifting"],
+    "answer": "shifted",
+    "explanation": "The target condition requires past tense activation via 'shifted' to depict a highly delayed action point. ✅"
+  },
+  {
+    "question": "It is about time we _____ the local tourist guidelines regarding trips near Anandpur Sahib.",
+    "options": ["check", "checked", "will check", "checking"],
+    "answer": "checked",
+    "explanation": "The past action unit 'checked' fulfills the structural requirements of this specific 'high time' context. ✅"
+  },
+  {
+    "question": "It is time the selection board _____ a clear statement on the sectional cutoff scores.",
+    "options": ["makes", "made", "will make", "is making"],
+    "answer": "made",
+    "explanation": "The noun block subject pushes the functional syntax tracking loop directly to the V2 form 'made'. ✅"
+  },
+  {
+    "question": "It is time _____ the chemistry lab instruments carefully to note the temperature logs.",
+    "options": ["to calibrate", "calibrated", "calibrating", "we calibrate"],
+    "answer": "to calibrate",
+    "explanation": "Concludes the level smoothly by routing the action through the bare infinitive format 'to calibrate'. ✅"
+  }
+]
