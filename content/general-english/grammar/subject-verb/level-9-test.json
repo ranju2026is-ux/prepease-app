@@ -1,0 +1,182 @@
+[
+  {
+    "question": "A majority of the permanent employees _____ against the new rotational shift timing.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "When 'A majority of' is followed by a plural countable noun ('employees'), it takes a plural verb. ✅"
+  },
+  {
+    "question": "The majority _____ in favor of amending the state probation rules.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "When 'The majority' is used as a collective entity without a modifying noun, it generally takes a singular verb. ✅"
+  },
+  {
+    "question": "My favorite asset _____ the detailed accounting ledgers maintained by the senior accountant.",
+    "options": ["is", "are", "were", "be"],
+    "answer": "is",
+    "explanation": "In sentences with a singular subject ('asset') and a plural predicate noun ('ledgers'), the verb must strictly agree with the true subject, which is 'asset'. ✅"
+  },
+  {
+    "question": "Detailed financial reports _____ the chief concern of the audit board.",
+    "options": ["is", "are", "was", "has been"],
+    "answer": "are",
+    "explanation": "The subject is 'reports' (plural), so the verb must be plural ('are'), even though the predicate noun 'concern' is singular. ✅"
+  },
+  {
+    "question": "A large percentage of the unvouched expenditure _____ been recovered by the department.",
+    "options": ["has", "have", "are", "were"],
+    "answer": "has",
+    "explanation": "Since 'expenditure' is an uncountable noun, any fractional amount or percentage of it remains singular, hence 'has'. ✅"
+  },
+  {
+    "question": "An overwhelming percentage of the competitive exam candidates _____ from rural areas.",
+    "options": ["is", "are", "was", "has appeared"],
+    "answer": "are",
+    "explanation": "Here, 'percentage of' modifies a plural countable noun ('candidates'), which dictates a plural verb ('are'). ✅"
+  },
+  {
+    "question": "The flock _____ scattering in all directions across the Vijayapura valley.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "The contextual action 'scattering in all directions' inherently implies that individual animals are acting independently, necessitating the plural verb 'are'. ✅"
+  },
+  {
+    "question": "The biggest problem in our code repository _____ the frequent runtime errors caused by memory leaks.",
+    "options": ["is", "are", "were", "have been"],
+    "answer": "is",
+    "explanation": "The verb tracks the singular subject 'problem', not the plural complement 'errors'. ✅"
+  },
+  {
+    "question": "A plurality of the committee members _____ to postpone the schema definition change.",
+    "options": ["wishes", "wish", "wishing", "has wished"],
+    "answer": "wish",
+    "explanation": "'A plurality of' followed by a plural countable noun ('members') takes a plural verb ('wish'). ✅"
+  },
+  {
+    "question": "Part of the financial data stored in the local server _____ corrupted during the migration.",
+    "options": ["was", "were", "are", "have been"],
+    "answer": "was",
+    "explanation": "'Data' in general modern context or when treated as a mass entity (like financial info/bulk) takes a singular verb if modified by fractions of bulk like 'Part of'. ✅"
+  },
+  {
+    "question": "Part of the audit files _____ kept in the confidential record room.",
+    "options": ["is", "are", "was", "has been"],
+    "answer": "are",
+    "explanation": "'Part of' followed by a plural countable noun ('files') takes a plural verb ('are'). ✅"
+  },
+  {
+    "question": "Our primary resource for learning English grammar rules _____ the reference books given by the coach.",
+    "options": ["is", "are", "were", "be"],
+    "answer": "is",
+    "explanation": "Agrees with the singular subject 'resource', irrespective of the plural modifier complement 'books'. ✅"
+  },
+  {
+    "question": "The main attraction of the travel itinerary _____ the beautiful historical sites near Anandpur Sahib.",
+    "options": ["is", "are", "were", "have been"],
+    "answer": "is",
+    "explanation": "The head subject is 'attraction' (singular), demanding a singular verb choice. ✅"
+  },
+  {
+    "question": "A massive amount of resources _____ spent on the front-end layout optimization of PrepEase.",
+    "options": ["was", "were", "are", "have been"],
+    "answer": "was",
+    "explanation": "Expressions like 'amount of' are used with uncountable concepts or treated as a singular quantity bulk, thus choosing 'was'. ✅"
+  },
+  {
+    "question": "A small fraction of the ledger entries _____ manual adjustments.",
+    "options": ["require", "requires", "requiring", "has required"],
+    "answer": "require",
+    "explanation": "'Fraction of' followed by a plural countable noun ('entries') takes a plural verb. ✅"
+  },
+  {
+    "question": "The jury _____ putting on their coats to leave the courtroom.",
+    "options": ["was", "were", "is", "has"],
+    "answer": "were",
+    "explanation": "The possessive pronoun 'their' and the act of individual dressing reveal that the members are acting as individuals, requiring 'were'. ✅"
+  },
+  {
+    "question": "The committee _____ signing the ledger books one by one.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "The contextual phrase 'one by one' explicitly proves that the members are acting individually, so a plural verb is mandatory. ✅"
+  },
+  {
+    "question": "The majority of the SQL queries _____ optimized using appropriate indexing wrappers.",
+    "options": ["was", "were", "is", "has been"],
+    "answer": "were",
+    "explanation": "Follows the plural countable tracking rule for 'majority of + queries'. ✅"
+  },
+  {
+    "question": "The principal cost of the website setup _____ the premium cloud server subscriptions.",
+    "options": ["is", "are", "were", "have been"],
+    "answer": "is",
+    "explanation": "The subject is 'cost' (singular), so the verb is 'is', regardless of the plural predicate noun 'subscriptions'. ✅"
+  },
+  {
+    "question": "Stricter runtime validations _____ the best solution for avoiding database corruption.",
+    "options": ["is", "are", "was", "has been"],
+    "answer": "are",
+    "explanation": "The subject 'validations' is plural, requiring 'are' despite the singular complement 'solution'. ✅"
+  },
+  {
+    "question": "A minor portion of the cash accounts _____ still unverified.",
+    "options": ["is", "are", "was", "has been"],
+    "answer": "are",
+    "explanation": "'Portion of' links with the plural countable noun 'accounts', demanding 'are'. ✅"
+  },
+  {
+    "question": "A small portion of the work _____ allocated to the junior assistant.",
+    "options": ["was", "were", "are", "have been"],
+    "answer": "was",
+    "explanation": "'Portion of' links with the uncountable noun 'work', forcing the singular verb 'was'. ✅"
+  },
+  {
+    "question": "The nobility _____ exempt from paying certain direct taxes in medieval times.",
+    "options": ["was", "were", "is", "has been"],
+    "answer": "were",
+    "explanation": "The collective noun 'nobility' (ಉನ್ನತ ವರ್ಗ) is grammatically treated as a plural subject. ✅"
+  },
+  {
+    "question": "The youth of today _____ a clear understanding of competitive exam trends.",
+    "options": ["has", "have", "having", "is having"],
+    "answer": "have",
+    "explanation": "When 'youth' is used collectively to mean young people in general, it takes a plural verb. ✅"
+  },
+  {
+    "question": "A fraction of the total budget _____ allocated for regional music preservation.",
+    "options": ["was", "were", "are", "have been"],
+    "answer": "was",
+    "explanation": "'Budget' is a single entity package, so a fraction of it remains singular ('was'). ✅"
+  },
+  {
+    "question": "My greatest inspiration _____ the stories of candidates who cleared the UPSC prelims.",
+    "options": ["is", "are", "were", "be"],
+    "answer": "is",
+    "explanation": "The verb matches the singular subject head 'inspiration', not the complement 'stories'. ✅"
+  },
+  {
+    "question": "Frequent discrepancies _____ the main reason for checking the bank reconciliation statement.",
+    "options": ["is", "are", "was", "has been"],
+    "answer": "are",
+    "explanation": "The plural subject 'discrepancies' dictates the selection of 'are'. ✅"
+  },
+  {
+    "question": "The minority _____ demanding a revision in the reservation quota criteria.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "When referring to a group of individuals acting out their choice, 'the minority' can take a plural verb contextually. ✅"
+  },
+  {
+    "question": "The army _____ changing their uniforms before the parade.",
+    "options": ["was", "were", "is", "has"],
+    "answer": "were",
+    "explanation": "Since individual soldiers change their own uniforms, the context forces the collective noun 'army' to take the plural verb 'were'. ✅"
+  },
+  {
+    "question": "A massive chunk of the database records _____ deleted accidentally.",
+    "options": ["was", "were", "is", "has been"],
+    "answer": "were",
+    "explanation": "A chunk or part of plural countable items ('records') means multiple things were affected, thus using 'were'. ✅"
+  }
+]
