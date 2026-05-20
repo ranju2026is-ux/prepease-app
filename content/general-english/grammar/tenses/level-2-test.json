@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Look! Ravi _____ the new Python automation script repository right now.",
+    "options": ["updates", "is updating", "has updated", "was updating"],
+    "answer": "is updating",
+    "explanation": "The time marker 'right now' indicates an action in progress at the moment of speaking, requiring Present Continuous 'is updating'. ✅"
+  },
+  {
+    "question": "I _____ the core provisions of the RTI Act very well now.",
+    "options": ["am understanding", "understand", "understanding", "have understand"],
+    "answer": "understand",
+    "explanation": "'Understand' is a stative verb representing a mental state. It cannot be used in the continuous form, even if the action is happening now. ✅"
+  },
+  {
+    "question": "At present, the junior accounts assistant _____ the trial balance discrepancy logs.",
+    "options": ["verifies", "is verifying", "verified", "has verified"],
+    "answer": "is verifying",
+    "explanation": "The time modifier phrase 'At present' signals an ongoing live event, demanding the Present Continuous form 'is verifying'. ✅"
+  },
+  {
+    "question": "This premium cloud server subscription _____ to our project team.",
+    "options": ["is belonging", "belongs", "belong", "has been belonging"],
+    "answer": "belongs",
+    "explanation": "'Belong' is a stative verb showing possession. It cannot take the '-ing' form in continuous tenses. ✅"
+  },
+  {
+    "question": "Listen! The commissioner _____ something important regarding the probation rules.",
+    "options": ["announces", "is announcing", "announced", "will announce"],
+    "answer": "is announcing",
+    "explanation": "The command 'Listen!' calls attention to an immediate action unfolding right now, triggering 'is announcing'. ✅"
+  },
+  {
+    "question": "He _____ a vast knowledge of ancient fashion trends and textile design structures.",
+    "options": ["is possessing", "possesses", "possess", "has been possessing"],
+    "answer": "possesses",
+    "explanation": "Possession verbs like 'possess' are stative and take the Simple Present form instead of continuous variants. ✅"
+  },
+  {
+    "question": "The candidates _____ mock test questions in the computer lab at this moment.",
+    "options": ["solve", "are solving", "solved", "will solve"],
+    "answer": "are solving",
+    "explanation": "The phrase 'at this moment' strictly sets the timeline to Present Continuous plural structure 'are solving'. ✅"
+  },
+  {
+    "question": "I _____ that the cut-off score for the UPSC prelims will be quite high this year.",
+    "options": ["am believing", "believe", "believes", "have been believing"],
+    "answer": "believe",
+    "explanation": "'Believe' represents a cognitive mental state (stative verb), restricting its usage to Simple Present 'believe'. ✅"
+  },
+  {
+    "question": "Currently, his sister _____ a customized study plan for apparel manufacturing techniques.",
+    "options": ["follows", "is following", "followed", "has followed"],
+    "answer": "is following",
+    "explanation": "The word 'Currently' marks an active ongoing workflow in the present, matching perfectly with 'is following'. ✅"
+  },
+  {
+    "question": "Ravi _____ a brand new laptop to compile heavy data validation scripts.",
+    "options": ["is owning", "owns", "own", "has been owning"],
+    "answer": "owns",
+    "explanation": "'Own' is a stative verb of possession, which completely bypasses the continuous tense pool. ✅"
+  },
+  {
+    "question": "Don't make a noise; the typing assistant _____ the official letter sheets now.",
+    "options": ["types", "is typing", "was typing", "has typed"],
+    "answer": "is typing",
+    "explanation": "The indicator context 'now' coupled with a request for silence establishes a live present process ('is typing'). ✅"
+  },
+  {
+    "question": "I _____ the exact reason behind the sudden rejection of our RTI appeal file.",
+    "options": ["am not knowing", "do not know", "not know", "knowing not"],
+    "answer": "do not know",
+    "explanation": "'Know' is a fundamental stative verb of cognition. Its negative form is properly built using 'do not know'. ✅"
+  },
+  {
+    "question": "The weather in Vijayapura _____ hotter day by day as summer progresses.",
+    "options": ["gets", "is getting", "got", "has got"],
+    "answer": "is getting",
+    "explanation": "To show a gradual, continuous change or progressive trend over time, the continuous aspect 'is getting' is appropriate. ✅"
+  },
+  {
+    "question": "He _____ to remember the entire list of chemistry compound formulas.",
+    "options": ["is seeming", "seems", "seem", "has been seeming"],
+    "answer": "seems",
+    "explanation": "Verbs of appearance like 'seem' are stative and cannot function inside continuous configurations. ✅"
+  },
+  {
+    "question": "We _____ for the announcement of the descriptive English mock results currently.",
+    "options": ["wait", "are waiting", "waited", "will wait"],
+    "answer": "are waiting",
+    "explanation": "The tracking marker 'currently' paired with plural subject 'We' calls for 'are waiting'. ✅"
+  },
+  {
+    "question": "This traditional fabric sample _____ incredibly smooth to the touch.",
+    "options": ["is feeling", "feels", "feel", "has been feeling"],
+    "answer": "feels",
+    "explanation": "When describing a permanent sensory quality or state, 'feel' behaves statively and takes the present form 'feels'. ✅"
+  },
+  {
+    "question": "Why _____ you _____ at the cash book balance entries so suspiciously now?",
+    "options": ["do... look", "are... looking", "have... looked", "were... looking"],
+    "answer": "are... looking",
+    "explanation": "'Look' here is an active, dynamic action of directing one's eyes, so it can be used in the present continuous question format. ✅"
+  },
+  {
+    "question": "I _____ that the layout styling of PrepEase looks beautifully optimized on all devices.",
+    "options": ["am seeing", "see", "sees", "have been seeing"],
+    "answer": "see",
+    "explanation": "When 'see' means to understand or perceive mentally, it functions statively, requiring Simple Present 'see'. ✅"
+  },
+  {
+    "question": "The checking supervisors _____ a special audit round inside our branch today.",
+    "options": ["conduct", "are conducting", "conducted", "has conducted"],
+    "answer": "are conducting",
+    "explanation": "Refers to a temporary current arrangement happening 'today', taking 'are conducting'. ✅"
+  },
+  {
+    "question": "The food served at the regional guest house in Delhi _____ absolutely delicious.",
+    "options": ["is tasting", "tastes", "taste", "was tasting"],
+    "answer": "tastes",
+    "explanation": "When 'taste' describes the static flavor state of a food item, it is a stative verb, opting for 'tastes'. ✅"
+  },
+  {
+    "question": "The project head _____ to agree with the automated error logging setup at present.",
+    "options": ["is refusing", "refuses", "refuse", "has been refusing"],
+    "answer": "is refusing",
+    "explanation": "Refusing an action can be modeled as a dynamic process unfolding 'at present', hence 'is refusing' is grammatically sound. ✅"
+  },
+  {
+    "question": "I _____ a strange humming noise inside the computer lab server cabinet right now.",
+    "options": ["am hearing", "hear", "hears", "have been hearing"],
+    "answer": "hear",
+    "explanation": "Verbs of involuntary perception like 'hear' are stative. Even with 'right now', use Simple Present 'hear'. ✅"
+  },
+  {
+    "question": "Ravi _____ the front-end interface layout colors at this very moment.",
+    "options": ["changes", "is changing", "changed", "will change"],
+    "answer": "is changing",
+    "explanation": "The pinpoint indicator 'at this very moment' flags an active continuous modification, electing 'is changing'. ✅"
+  },
+  {
+    "question": "The package containing the fashion designer curriculum _____ fifteen detailed blueprints.",
+    "options": ["is consisting of", "consists of", "consist of", "is consisting"],
+    "answer": "consists of",
+    "explanation": "'Consist of' is a stative verb of composition and structure; it never takes a continuous aspect profile. ✅"
+  },
+  {
+    "question": "They _____ intensive preparation strategies for the upcoming state exams these days.",
+    "options": ["discuss", "are discussing", "discussed", "have discussed"],
+    "answer": "are discussing",
+    "explanation": "The time marker 'these days' represents a temporary continuous trend or block of activity, picking 'are discussing'. ✅"
+  },
+  {
+    "question": "I _____ what the technical coach means by this complex physics equation variation.",
+    "options": ["am not understanding", "do not understand", "not understand", "understanding not"],
+    "answer": "do not understand",
+    "explanation": "Mental processing verbs stay structuralized in Simple Present. Present continuous usage is an error. ✅"
+  },
+  {
+    "question": "The data processing server _____ from high temperature logs at this moment.",
+    "options": ["suffers", "is suffering", "suffered", "will suffer"],
+    "answer": "is suffering",
+    "explanation": "'Suffer' acts as a dynamic condition here, fitting safely into Present Continuous due to 'at this moment'. ✅"
+  },
+  {
+    "question": "He _____ to be quite happy with the newly updated voucher verification routine.",
+    "options": ["is appearing", "appears", "appear", "has been appearing"],
+    "answer": "appears",
+    "explanation": "'Appear' when meaning 'seem' represents a passive state descriptor, matching exclusively with Simple Present 'appears'. ✅"
+  },
+  {
+    "question": "Currently, we _____ our multi-day travel itinerary to explore destinations near Anandpur Sahib.",
+    "options": ["plan", "are planning", "planned", "have planned"],
+    "answer": "are planning",
+    "explanation": "Driven by the present focus word 'Currently', the plural tracking framework assigns 'are planning'. ✅"
+  },
+  {
+    "question": "I _____ you for helping me set up the front-end layout variables for the website.",
+    "options": ["am thanking", "thank", "thanks", "have been thanking"],
+    "answer": "thank",
+    "explanation": "The act of thanking someone is expressed directly as an instantaneous state in the Simple Present 'thank'. ✅"
+  }
+]
