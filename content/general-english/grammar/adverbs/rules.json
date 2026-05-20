@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Adverb of Manner",
+    "meaning_kannada": "ಕ್ರಿಯೆಯು ನಡೆಯುವ ವಿಧಾನವನ್ನು ತಿಳಿಸುವ ಕ್ರಿಯಾವಿಶೇಷಣಗಳು (Slowly, Quickly, Beautifully).",
+    "meaning_english": "Answers the question 'How?'. Most adverbs of manner end in '-ly'.\n\n• Rule: Adjectives are modified into adverbs by adding '-ly'.\n• Example: She walks *slowly*. He writes *beautifully*.\n• Exception: Fast, Hard, Well (Do not write 'fastly' or 'hardly' for manner).",
+    "emoji": "⚡"
+  },
+  {
+    "word": "The 'Fastly' Myth Exception",
+    "meaning_kannada": "ಇಂಗ್ಲಿಷ್ ವ್ಯಾಕರಣದಲ್ಲಿ 'Fastly' ಎಂಬ ಯಾವುದೇ ಪದವಿಲ್ಲ. 'Fast' ಪದವೇ ವಿಶೇಷಣ ಮತ್ತು ಕ್ರಿಯಾವಿಶೇಷಣ ಎರಡೂ ಆಗಿ ಕೆಲಸ ಮಾಡುತ್ತದೆ.",
+    "meaning_english": "The word 'fastly' does not exist in English grammar. 'Fast' acts as both an adjective and an adverb.\n\n• Wrong: He runs *fastly*.\n• Right: He runs *fast*. ✅\n• Right: He is a *fast* runner (Adjective).",
+    "emoji": "🏃"
+  },
+  {
+    "word": "Adverb of Frequency Position",
+    "meaning_kannada": "ಕ್ರಿಯೆಯು ಎಷ್ಟು ಬಾರಿ ನಡೆಯುತ್ತದೆ ಎಂದು ತಿಳಿಸುವ ಪದಗಳ (Always, Never, Often) ಸರಿಯಾದ ಸ್ಥಾನ.",
+    "meaning_english": "Adverbs of frequency are placed BEFORE the main verb, but AFTER the 'be' verbs (is, am, are, was, were).\n\n• Structure 1 (Before Main Verb): He *always* comes late.\n• Structure 2 (After Be-Verb): He is *always* late.",
+    "emoji": "📍"
+  },
+  {
+    "word": "Hard vs Hardly",
+    "meaning_kannada": "'Hard' ಎಂದರೆ ಕಷ್ಟಪಟ್ಟು (Positive), ಆದರೆ 'Hardly' ಎಂದರೆ 'ಇಲ್ಲವೇ ಇಲ್ಲ' ಅಥವಾ ಅಷ್ಟಕಷ್ಟೆ (Negative) ಎಂದರ್ಥ.",
+    "meaning_english": "'Hard' means with great energy/effort. 'Hardly' means scarcely or almost not at all.\n\n• Example 1: He worked *hard* to clear the UPSC prelims. (Effort)\n• Example 2: He *hardly* studied for the exam, so he failed. (Almost zero study).",
+    "emoji": "⚖️"
+  },
+  {
+    "word": "Late vs Lately",
+    "meaning_kannada": "'Late' ಎಂದರೆ ತಡವಾಗಿ ಎಂದರ್ಥ, ಆದರೆ 'Lately' ಎಂದರೆ ಇತ್ತೀಚೆಗೆ (Recently) ಎಂದರ್ಥ.",
+    "meaning_english": "'Late' refers to arriving after the expected time. 'Lately' means recently.\n\n• Example 1: He arrived *late* for his work shift.\n• Example 2: I haven't seen him *lately* (recently).",
+    "emoji": "🕒"
+  },
+  {
+    "word": "Too... To Structure",
+    "meaning_kannada": "'Too' ಪದವು ಸಾಮಾನ್ಯವಾಗಿ ಅಗತ್ಯಕ್ಕಿಂತ ಹೆಚ್ಚು ಎಂಬ ನಕಾರಾತ್ಮಕ (Negative) ಅರ್ಥವನ್ನು ನೀಡುತ್ತದೆ. ಇದು 'too + adjective + to + verb' ರಚನೆ ಹೊಂದುತ್ತದೆ.",
+    "meaning_english": "'Too' indicates excess and has a negative connotation. The structure 'too... to' implies that something cannot happen.\n\n• Example: He is *too* weak *to* walk. (He is so weak that he cannot walk).\n• Tip: Do not use 'too' in place of 'very' for pleasant adjectives (e.g., say 'very happy', not 'too happy').",
+    "emoji": "⚠️"
+  },
+  {
+    "word": "Adverb 'Enough' Position",
+    "meaning_kannada": "'Enough' ಪದವು ಕ್ರಿಯಾವಿಶೇಷಣವಾದಾಗ ಅದು ಗುಣವಾಚಕದ (Adjective) ನಂತರವೇ ಬರಬೇಕು.",
+    "meaning_english": "When 'Enough' acts as an adverb, it must be placed directly AFTER the adjective it modifies.\n\n• Wrong: He is *enough wise* to handle the accounts ledger.\n• Right: He is *wise enough* to handle the accounts ledger. ✅",
+    "emoji": "🎯"
+  },
+  {
+    "word": "MPT Rule (Order of Adverbs)",
+    "meaning_kannada": "ಒಂದೇ ವಾಕ್ಯದಲ್ಲಿ ಹತ್ತಾರು ಕ್ರಿಯಾವಿಶೇಷಣಗಳು ಒಟ್ಟಿಗೆ ಬಂದರೆ ಮೊದಲು Manner, ನಂತರ Place, ಕೊನೆಯಲ್ಲಿ Time ಬರಬೇಕು.",
+    "meaning_english": "When multiple adverbs modify a single verb, the standard sequence is Manner (How) -> Place (Where) -> Time (When).\n\n• Wrong: She danced yesterday (Time) beautifully (Manner) hall inside (Place).\n• Right: She danced *beautifully* (Manner) *in the hall* (Place) *yesterday* (Time). ✅",
+    "emoji": "🔢"
+  },
+  {
+    "word": "Inversion with Negative Adverbs",
+    "meaning_kannada": "ವಾಕ್ಯವು ನಕಾರಾತ್ಮಕ ಕ್ರಿಯಾವಿಶೇಷಣಗಳಿಂದ (Hardly, Seldom, Scarcely, Never) ಆರಂಭವಾದಾಗ ಕರ್ತೃವಿಗಿಂತ ಮುಂಚೆ ಸಹಾಯಕರ ಕ್ರಿಯಾಪದ ಬರಬೇಕು.",
+    "meaning_english": "When a sentence begins with negative adverbs, inversion occurs: the auxiliary verb comes before the subject.\n\n• Wrong: Seldom he goes to the office late.\n• Right: Seldom *does he go* to the office late. ✅",
+    "emoji": "🔄"
+  },
+  {
+    "word": "Seldom or Never Idiom",
+    "meaning_kannada": "'Seldom or never' ಅಥವಾ 'Seldom, if ever' ಎಂಬುದು ಸ್ಥಿರ ನುಡಿಗಟ್ಟು. ಇದನ್ನು ಅದಲು-ಬದಲು ಮಾಡಬಾರದು.",
+    "meaning_english": "The correct idiomatic phrases are 'Seldom or never' and 'Seldom, if ever'. Examiners often mix them up to trap you.\n\n• Wrong: He seldom or ever visits his hometown.\n• Right: He *seldom or never* visits his hometown. ✅\n• Right: He *seldom, if ever* visits his hometown. ✅",
+    "emoji": "🗣️"
+  }
+]
