@@ -1,0 +1,184 @@
+[
+  {
+    "question": "He is _____ to handle the complex accounting ledgers without any senior supervision.",
+    "options": ["enough wise", "wise enough", "wise enough manner", "more enough wise"],
+    "answer": "wise enough",
+    "explanation": "When 'enough' acts as an adverb modifying an adjective ('wise'), it must strictly be placed AFTER that adjective. ✅"
+  },
+  {
+    "question": "Ravi is _____ to configure the backend server architecture single-handedly.",
+    "options": ["enough experienced", "experienced enough", "experienced enoughly", "more enough experienced"],
+    "answer": "experienced enough",
+    "explanation": "The adverb 'enough' post-modifies the adjective/participle 'experienced'. The structure must be experienced + enough. ✅"
+  },
+  {
+    "question": "The candidate did not have _____ to finish the descriptive English paper.",
+    "options": ["enough time", "time enough", "time enoughly", "enough timely"],
+    "answer": "enough time",
+    "explanation": "Note the difference: When 'enough' modifies a noun ('time'), it acts as an adjective and must be placed BEFORE the noun. ✅"
+  },
+  {
+    "question": "The front-end layout of the application is _____ to load smoothly on low-speed mobile networks.",
+    "options": ["enough light", "light enough", "lightly enough", "enough lightly"],
+    "answer": "light enough",
+    "explanation": "The adjective 'light' requires the adverb 'enough' to follow it directly. ✅"
+  },
+  {
+    "question": "He did not run _____ to catch the early morning bus to Vijayapura.",
+    "options": ["fast enough", "enough fast", "fastly enough", "enough fastly"],
+    "answer": "fast enough",
+    "explanation": "'Fast' is the adverb here. 'Enough' must follow the adverb it modifies, and remember, 'fastly' is grammatically incorrect. ✅"
+  },
+  {
+    "question": "She is _____ to create professional fashion apparel blueprints on her own.",
+    "options": ["enough creative", "creative enough", "creatively enough", "enough creatively"],
+    "answer": "creative enough",
+    "explanation": "Matches the 'Adjective + Enough' pattern where 'creative' is the core description. ✅"
+  },
+  {
+    "question": "Do we have _____ in the local cash account to process the pending vouchers?",
+    "options": ["enough funds", "funds enough", "enoughly funds", "funds enoughly"],
+    "answer": "enough funds",
+    "explanation": "'Funds' is a noun, so 'enough' must sit before it to function as a determiner/adjective. ✅"
+  },
+  {
+    "question": "The room inside the historic fort building was _____ to accommodate fifty visitors.",
+    "options": ["enough spacious", "spacious enough", "spaciously enough", "enough spaciously"],
+    "answer": "spacious enough",
+    "explanation": "The adverb 'enough' belongs after the descriptive adjective 'spacious'. ✅"
+  },
+  {
+    "question": "He spoke _____ during the interview to impress the entire selection board.",
+    "options": ["enough confidently", "confidently enough", "confident enough", "enough confident"],
+    "answer": "confidently enough",
+    "explanation": "Here, 'confidently' is an adverb modifying the verb 'spoke'. 'Enough' must follow the adverb, making 'confidently enough' correct. ✅"
+  },
+  {
+    "question": "The junior assistant was _____ to admit his mistake in the trial balance sheet.",
+    "options": ["enough honest", "honest enough", "honestly enough", "contained enough honest"],
+    "answer": "honest enough",
+    "explanation": "The adjective 'honest' takes the adverb modifier 'enough' right after it. ✅"
+  },
+  {
+    "question": "There are _____ in the repository to prepare for the descriptive English exam.",
+    "options": ["enough notes", "notes enough", "enoughly notes", "notes details enough"],
+    "answer": "enough notes",
+    "explanation": "Since 'notes' is a noun unit, 'enough' accurately precedes it. ✅"
+  },
+  {
+    "question": "The validation script executed _____ to prevent the database duplication error.",
+    "options": ["enough quickly", "quickly enough", "quick enough", "enough quick"],
+    "answer": "quickly enough",
+    "explanation": "The action modifier adverb 'quickly' must be followed by 'enough'. ✅"
+  },
+  {
+    "question": "He is _____ to clear the UPSC prelims cut-off margin this year.",
+    "options": ["enough smart", "smart enough", "smartly enough", "enough smartly"],
+    "answer": "smart enough",
+    "explanation": "Adjective + Enough placement layout rule satisfies 'smart enough'. ✅"
+  },
+  {
+    "question": "The department lacks _____ to handle the heavy workload during month-end auditing.",
+    "options": ["enough staff", "staff enough", "enoughly staff", "staff details enough"],
+    "answer": "enough staff",
+    "explanation": "'Staff' acts as a noun pack, forcing 'enough' to occupy the front position. ✅"
+  },
+  {
+    "question": "The water in the copper jug was _____ for everyone in the computer lab.",
+    "options": ["enough cold", "cold enough", "coldly enough", "enough coldly"],
+    "answer": "cold enough",
+    "explanation": "The adjective 'cold' takes 'enough' as a post-modifier extension. ✅"
+  },
+  {
+    "question": "Ravi's new automated Telegram quiz bot is _____ to operate.",
+    "options": ["enough simple", "simple enough", "simply enough", "enough simply"],
+    "answer": "simple enough",
+    "explanation": "The adjective describing the bot ('simple') precedes the adverb 'enough'. ✅"
+  },
+  {
+    "question": "Have you compiled _____ regarding the state level probation rules?",
+    "options": ["enough information", "information enough", "enoughly information", "information enoughly"],
+    "answer": "enough information",
+    "explanation": "'Information' is an uncountable noun entity, so 'enough' belongs in front. ✅"
+  },
+  {
+    "question": "The instructions manual is _____ to follow without any extra technical training.",
+    "options": ["enough clear", "clear enough", "clearly enough", "enough clearly"],
+    "answer": "clear enough",
+    "explanation": "Adjective 'clear' maps before the post-adverb modifier 'enough'. ✅"
+  },
+  {
+    "question": "The student didn't answer _____ to secure the top rank in the chemistry quiz.",
+    "options": ["enough well", "well enough", "good enough", "enough good"],
+    "answer": "well enough",
+    "explanation": "The adverb 'well' modifies how he answered, and 'enough' must follow it. ✅"
+  },
+  {
+    "question": "We do not have _____ to purchase premium cloud server subscriptions.",
+    "options": ["enough resources", "resources enough", "enoughly resources", "resources details enough"],
+    "answer": "enough resources",
+    "explanation": "Precedes the plural countable noun 'resources' correctly. ✅"
+  },
+  {
+    "question": "The layout blueprint was _____ to explain the structural changes to the client.",
+    "options": ["enough detailed", "detailed enough", "detailedly enough", "enough detailedly"],
+    "answer": "detailed enough",
+    "explanation": "The descriptive participle adjective 'detailed' takes 'enough' right after it. ✅"
+  },
+  {
+    "question": "He didn't explain the provisions of the RTI act _____ for us to understand.",
+    "options": ["enough clearly", "clearly enough", "clear enough", "enough clear"],
+    "answer": "clearly enough",
+    "explanation": "The action description adverb 'clearly' dictates 'clearly enough'. ✅"
+  },
+  {
+    "question": "Did the supervisor give _____ to complete the manual ledger entry?",
+    "options": ["enough warnings", "warnings enough", "enoughly warnings", "warnings enoughly"],
+    "answer": "enough warnings",
+    "explanation": "'Warnings' is a noun asset, requiring 'enough' to sit at the front. ✅"
+  },
+  {
+    "question": "The historical fort wall was _____ to withstand heavy cannon attacks.",
+    "options": ["enough strong", "strong enough", "strongly enough", "enough strongly"],
+    "answer": "strong enough",
+    "explanation": "The adjective 'strong' takes the adverb 'enough' behind it. ✅"
+  },
+  {
+    "question": "He has practiced _____ to avoid making common errors in English grammar tests.",
+    "options": ["enough", "enoughly", "in an enough way", "more enoughly"],
+    "answer": "enough",
+    "explanation": "When standing alone as a verbal modifier meaning 'to a sufficient degree', 'enough' is the final adverb form. ✅"
+  },
+  {
+    "question": "The backup script is _____ to prevent runtime crashes during data migration.",
+    "options": ["enough robust", "robust enough", "robustly enough", "enough robustly"],
+    "answer": "robust enough",
+    "explanation": "Adjective 'robust' perfectly handles 'enough' as a post-position modifier. ✅"
+  },
+  {
+    "question": "Are there _____ to host the next batch of competitive exam mock sessions?",
+    "options": ["enough computers", "computers enough", "enoughly computers", "computers options enough"],
+    "answer": "enough computers",
+    "explanation": "Sits before the plural noun 'computers' as a modifier determiner. ✅"
+  },
+  {
+    "question": "The apparel fabric was _____ to be used for high-end fashion designer prototypes.",
+    "options": ["enough smooth", "smooth enough", "smoothly enough", "enough smoothly"],
+    "answer": "smooth enough",
+    "explanation": "The adjective 'smooth' maps smoothly before the adverb 'enough'. ✅"
+  },
+  {
+    "question": "He didn't study _____ to clear the sectional cut-off score in physics.",
+    "options": ["enough hard", "hard enough", "hardly enough", "enough hardly"],
+    "answer": "hard enough",
+    "explanation": "Requires the positive intensive adverb 'hard' followed directly by 'enough'. ✅"
+  },
+  {
+    "question": "The young officer is _____ to handle administrative field duties in the district.",
+    "options": ["enough mature", "mature enough", "maturely enough", "enough maturely"],
+    "answer": "maturely enough",
+    "options": ["enough mature", "mature enough", "maturely enough", "enough maturely"],
+    "answer": "mature enough",
+    "explanation": "The adjective 'mature' requires 'enough' to follow it according to structural rules. ✅"
+  }
+]
