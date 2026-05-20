@@ -1,0 +1,182 @@
+[
+  {
+    "question": "The superintendent, accompanied by a group of junior accounts assistants, _____ inspecting the cash book ledger.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "Phrases like 'accompanied by' do not change the number of the true subject. The main subject is 'superintendent' (singular), so the verb is 'is'. ✅"
+  },
+  {
+    "question": "Every auditor, clerk, and junior assistant in the department _____ required to sign the attendance log by 9:00 AM.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "When multiple nouns are joined by 'and' but preceded by 'Every' or 'Each', the subject is strictly singular. ✅"
+  },
+  {
+    "question": "Developing automated scripts to parse large database backups _____ a lot of structural planning.",
+    "options": ["require", "requires", "requiring", "have required"],
+    "answer": "requires",
+    "explanation": "The subject is the gerund phrase 'Developing automated scripts'. Gerund phrases acting as subjects take singular verbs. ✅"
+  },
+  {
+    "question": "The components of the newly developed frontend architecture, besides the main server configuration, _____ been verified.",
+    "options": ["has", "have", "is", "was"],
+    "answer": "have",
+    "explanation": "The true subject is 'components' (plural). The phrase introduced by 'besides' is a distractor and does not affect the verb. ✅"
+  },
+  {
+    "question": "Each candidate's academic qualifications, along with his or her regional language proficiency, _____ verified during selection.",
+    "options": ["was", "were", "are", "have"],
+    "answer": "was",
+    "explanation": "The subject is 'qualifications' which is modified by 'Each' ('Each candidate's qualifications'). 'Each' forces a singular tracking, or simply 'along with' looks at the first subject. ✅"
+  },
+  {
+    "question": "To write elegant Python code and to build scalable web applications _____ extensive practical experience.",
+    "options": ["demand", "demands", "demanding", "has demanded"],
+    "answer": "demand",
+    "explanation": "When two distinct infinitive phrases ('To write...' and 'to build...') are joined by 'and', they form a compound subject requiring a plural verb. ✅"
+  },
+  {
+    "question": "The total value of the assets, including the cash account balance and the bank deposits, _____ calculated accurately.",
+    "options": ["was", "were", "are", "have"],
+    "answer": "was",
+    "explanation": "The primary subject is 'The total value' (singular). The text following 'including' is extra information. ✅"
+  },
+  {
+    "question": "No clerk and no helper _____ permitted to enter the confidential record room after working hours.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "Singular nouns connected by 'and' that are preceded by 'No' take a singular verb. ✅"
+  },
+  {
+    "question": "Maintaining flawless financial logs, in addition to resolving client complaints, _____ the main task of a JAA.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "The subject is the singular gerund phrase 'Maintaining flawless financial logs'. The phrase 'in addition to' does not create a plural subject. ✅"
+  },
+  {
+    "question": "The fashion designer, together with her assistants, _____ showcasing the new apparel trends at the exhibition.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "With 'together with', the verb always agrees with the first noun before the phrase ('designer' - singular). ✅"
+  },
+  {
+    "question": "Every single file, document, and digital record _____ carefully scanned for errors during auditing.",
+    "options": ["was", "were", "are", "have"],
+    "answer": "was",
+    "explanation": "The modifier 'Every single' distributes across all items in the list, making the entire subject singular. ✅"
+  },
+  {
+    "question": "The complex layout of the web application, plus the integrated Telegram quiz bots, _____ being tested by the team.",
+    "options": ["is", "are", "was", "were"],
+    "answer": "is",
+    "explanation": "The prepositional word 'plus' behaves like 'in addition to'. The verb matches the singular noun 'layout'. ✅"
+  },
+  {
+    "question": "To ensure absolute accuracy in trial balance reports _____ hours of rigorous data validation.",
+    "options": ["take", "takes", "taking", "have taken"],
+    "answer": "takes",
+    "explanation": "A single infinitive phrase ('To ensure...') acting as a subject takes a singular verb form. ✅"
+  },
+  {
+    "question": "The major causes of inflation, as well as the immediate remedy for it, _____ discussed at length during the session.",
+    "options": ["was", "were", "is", "has"],
+    "answer": "were",
+    "explanation": "The verb agrees with the primary subject 'The major causes' (plural). 'As well as' does not alter this relation. ✅"
+  },
+  {
+    "question": "Each state-level notification and central government rule _____ different guidelines for probation.",
+    "options": ["contain", "contains", "containing", "have contained"],
+    "answer": "contains",
+    "explanation": "Subjects joined by 'and' that are preceded by 'Each' require a singular verb. ✅"
+  },
+  {
+    "question": "Automating tasks using Python, besides building custom SQL wrappers, _____ significant technical expertise.",
+    "options": ["involve", "involves", "involving", "have involved"],
+    "answer": "involves",
+    "explanation": "The primary subject is the singular gerund action 'Automating tasks'. ✅"
+  },
+  {
+    "question": "The senior consultant, accompanied by several field executives, _____ expected to arrive in Vijayapura tomorrow.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "Agrees with the singular head noun 'consultant' preceding the phrase 'accompanied by'. ✅"
+  },
+  {
+    "question": "Every ledger book, bank voucher, and cash receipt _____ cross-checked by the audit team.",
+    "options": ["has been", "have been", "were", "are"],
+    "answer": "has been",
+    "explanation": "Driven by the word 'Every', which forces a singular predicate tracking ('has been'). ✅"
+  },
+  {
+    "question": "The instructions manual, including all the technical diagrams and schema definitions, _____ missing.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "The singular noun 'manual' dictates the verb choice since the rest is contained within an 'including' clause. ✅"
+  },
+  {
+    "question": "To manage full-time work shifts and to study for competitive exams simultaneously _____ immense dedication.",
+    "options": ["require", "requires", "requiring", "has required"],
+    "answer": "require",
+    "explanation": "Two separate, independent infinitive actions joined by 'and' create a compound plural subject. ✅"
+  },
+  {
+    "question": "The leader of the opposition party, with all his close political allies, _____ staging a protest outside the assembly.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "The singular head noun is 'leader'. The phrase introduced by 'with' is parenthetical and does not change the verb. ✅"
+  },
+  {
+    "question": "No strategy and no roadmap _____ effective unless implemented with absolute consistency.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "Connected singular items preceded by 'No' function as a singular subject. ✅"
+  },
+  {
+    "question": "Understanding the complex provisions of the RTI Act _____ the primary requisite for an information assistant.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "The singular gerund action 'Understanding the complex provisions' dictates the singular verb 'is'. ✅"
+  },
+  {
+    "question": "The collection of vintage clothes, along with some modern apparel prototypes, _____ preserved securely in the design studio.",
+    "options": ["was", "were", "are", "have"],
+    "answer": "was",
+    "explanation": "The head noun is 'collection' (singular). The phrase 'along with' does not pluralize the subject. ✅"
+  },
+  {
+    "question": "Every module, route, and handler in the PrepEase backend _____ validated against security loopholes.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "The keyword 'Every' changes the structural behavior of the list to singular. ✅"
+  },
+  {
+    "question": "The discrepancy in the accounting entries, plus the unvouched expenditures, _____ highlighted in the report.",
+    "options": ["was", "were", "are", "have"],
+    "answer": "was",
+    "explanation": "The true subject is the singular noun 'discrepancy'. ✅"
+  },
+  {
+    "question": "To analyze previous year questions and to practice mock tests daily _____ an aspirant's confidence.",
+    "options": ["boost", "boosts", "boosting", "has boosted"],
+    "answer": "boost",
+    "explanation": "Two separate infinitive phrases connected by 'and' form a plural compound subject. ✅"
+  },
+  {
+    "question": "The chief guest, as well as his official bodyguards, _____ already entered the main auditorium.",
+    "options": ["has", "have", "is", "are"],
+    "answer": "has",
+    "explanation": "The verb agrees with the first subject, 'The chief guest' (singular). ✅"
+  },
+  {
+    "question": "Each dataset row and column type _____ checked dynamically before database insertion.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "Preceded by 'Each', the coordinate compound items function as a singular unit. ✅"
+  },
+  {
+    "question": "Writing high-quality English grammar notes, besides compiling accounting shortcuts, _____ most of his time.",
+    "options": ["occupies", "occupy", "occupying", "have occupied"],
+    "answer": "occupies",
+    "explanation": "The singular subject is the gerund clause 'Writing high-quality English grammar notes'. ✅"
+  }
+]
