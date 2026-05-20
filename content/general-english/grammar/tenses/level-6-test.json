@@ -1,0 +1,182 @@
+[
+  {
+    "question": "If the state level selection board _____ the notification tomorrow, the JAA will apply immediately.",
+    "options": ["will release", "releases", "released", "will be releasing"],
+    "answer": "releases",
+    "explanation": "In a future conditional clause introduced by 'If', we use Simple Present ('releases') for the condition and Simple Future ('will apply') for the result. Do not use 'will' twice. ✅"
+  },
+  {
+    "question": "Ravi will push the latest code to the GitHub repository as soon as he _____ compiling the backend script.",
+    "options": ["will finish", "finishes", "finished", "has been finishing"],
+    "answer": "finishes",
+    "explanation": "The time clause starts with 'as soon as'. According to grammar rules, it must take the Simple Present tense ('finishes') when referring to a future layout scenario. ✅"
+  },
+  {
+    "question": "Until the senior superintendent _____ the cash account balance sheets, we cannot close the daily ledger.",
+    "options": ["will verify", "verifies", "verified", "will have verified"],
+    "answer": "verifies",
+    "explanation": "Time clauses introduced by 'Until' reject future markers like 'will' and strictly adopt the Simple Present tense format ('verifies'). ✅"
+  },
+  {
+    "question": "When you _____ at the Delhi station next week, our family will come to receive you.",
+    "options": ["will arrive", "arrive", "arrived", "will be arriving"],
+    "answer": "arrive",
+    "explanation": "The word 'When' introduces a time clause. For a future event, the time clause remains in Simple Present 'arrive', while the main clause uses 'will come'. ✅"
+  },
+  {
+    "question": "The dynamic interactive quiz widget will display the results after the user _____ the final prompt answer.",
+    "options": ["will submit", "submits", "submitted", "is submitting"],
+    "answer": "submits",
+    "explanation": "The clause following the time marker 'after' must use the Simple Present tense 'submits' to anchor the future sequence correctly. ✅"
+  },
+  {
+    "question": "Unless Ravi _____ the front-end layout styling variables, the website will look distorted on mobile devices.",
+    "options": ["will update", "updates", "updated", "will be updating"],
+    "answer": "updates",
+    "explanation": "'Unless' establishes a conditional barrier. The conditional phrase maps onto the Simple Present inflected form 'updates'. ✅"
+  },
+  {
+    "question": "By the time the checking supervisor _____ the office tomorrow evening, the team will have completed the audit draft.",
+    "options": ["will reach", "reaches", "reached", "will be reaching"],
+    "answer": "reaches",
+    "explanation": "The time phrase 'By the time' signals that the attached clause must process inside the Simple Present tense 'reaches'. ✅"
+  },
+  {
+    "question": "The technical coach will launch a comprehensive physics mock test before the registration window _____ next Friday.",
+    "options": ["will close", "closes", "closed", "will be closing"],
+    "answer": "closes",
+    "explanation": "Chained with the time marker 'before', the impending future boundary event uses Simple Present 'closes'. ✅"
+  },
+  {
+    "question": "If she _____ the self-taught fashion designer curriculum diligently, she will clear the studio interview.",
+    "options": ["will practice", "practices", "practiced", "will have practiced"],
+    "answer": "practices",
+    "explanation": "The conditional marker 'If' takes the third-person singular inflected present verb 'practices' to govern the future outcome. ✅"
+  },
+  {
+    "question": "The automated backup script will secure the database entries before the power failure _____ the local server room.",
+    "options": ["will hit", "hits", "hit", "will be hitting"],
+    "answer": "hits",
+    "explanation": "The structural timeline rule for 'before' clauses mandates the selection of the Simple Present element 'hits'. ✅"
+  },
+  {
+    "options": ["will clear", "clears", "cleared", "will be clearing"],
+    "question": "As soon as the typing assistant _____ the pending vouchers, the accounting division will dispatch the funds.",
+    "answer": "clears",
+    "explanation": "Driven by 'as soon as', the singular subject tracking block mandates the choice of Simple Present 'clears'. ✅"
+  },
+  {
+    "question": "If you _____ the high-quality upscaled images into the main folder layout, the presentation will look crisp.",
+    "options": ["will integrate", "integrate", "integrated", "will be integrating"],
+    "answer": "integrate",
+    "explanation": "The second-person pronoun subject 'you' inside an 'If' condition takes the bare root verb 'integrate' without 's/es'. ✅"
+  },
+  {
+    "question": "The applicant will file an immediate RTI appeal if the railway recruitment board _____ his primary query request.",
+    "options": ["will reject", "rejects", "rejected", "will have rejected"],
+    "answer": "rejects",
+    "explanation": "The 'if' block holds the active condition tracking parameter, executing via Simple Present 'rejects'. ✅"
+  },
+  {
+    "question": "When the chemistry lecturer _____ the compound formula exceptions, the students will note them down.",
+    "options": ["will explain", "explains", "explained", "is explaining"],
+    "answer": "explains",
+    "explanation": "A future sequence anchored by 'When' filters the immediate clause through the regular present aspect 'explains'. ✅"
+  },
+  {
+    "question": "We will finalize our travel itinerary to destinations near Anandpur Sahib after my father _____ his formal leave approval.",
+    "options": ["will obtain", "obtains", "obtained", "will have obtained"],
+    "answer": "obtains",
+    "explanation": "The event timeline following 'after' uses Simple Present 'obtains' to denote a prerequisite for the future main action. ✅"
+  },
+  {
+    "question": "Until the candidate _____ his signature on the verified OMR sheet copy, the invigilator will not allow him to leave.",
+    "options": ["will place", "places", "placed", "will be placing"],
+    "answer": "places",
+    "explanation": "The restrictive temporal block 'Until' forces the usage of the present inflected verb 'places'. ✅"
+  },
+  {
+    "question": "Ravi's new Telegram quiz bot will send a summary sheet as soon as the active user _____ the quiz segment.",
+    "options": ["will complete", "completes", "completed", "will be completing"],
+    "answer": "completes",
+    "explanation": "'As soon as' locks the immediate processing block to the present tense tracking paradigm 'completes'. ✅"
+  },
+  {
+    "question": "The checking officer will penalize the rogue clerk if he _____ to produce the unvouched expenditure ledger bills.",
+    "options": ["will fail", "fails", "failed", "will be failing"],
+    "answer": "fails",
+    "explanation": "The conditional template requires a Present Tense inflected trigger ('fails') to match the future consequence. ✅"
+  },
+  {
+    "question": "By the time the train _____ from Karnataka next month, all passengers will have updated their traveling profiles.",
+    "options": ["will depart", "departs", "departed", "will be departing"],
+    "answer": "departs",
+    "explanation": "'By the time' operates as a strict conditional constraints tracker, demanding the present tense variant 'departs'. ✅"
+  },
+  {
+    "question": "The commission board will declare the final probation relaxation guidelines when the minister _____ the draft.",
+    "options": ["will sign", "signs", "signed", "will have signed"],
+    "answer": "signs",
+    "explanation": "The future event structure drops the secondary future marker inside the 'When' clause, opting for 'signs'. ✅"
+  },
+  {
+    "question": "If the database server _____ runtime memory leaks again, the automated script will alert the project team.",
+    "options": ["will show", "shows", "showed", "will be showing"],
+    "answer": "shows",
+    "explanation": "Condition blocks governed by 'If' select the Simple Present token 'shows' for a singular noun unit. ✅"
+  },
+  {
+    "question": "The sister will start manufacturing the apparel prototypes after she _____ the master fabric layout design.",
+    "options": ["will finalize", "finalizes", "finalized", "is finalizing"],
+    "answer": "finalizes",
+    "explanation": "Post-action tracking with 'after' translates to a present tense processing format: 'finalizes'. ✅"
+  },
+  {
+    "question": "Before the district checking squad _____ the regional branch next Tuesday, the records must be fully compiled.",
+    "options": ["will visit", "visits", "visited", "will be visiting"],
+    "answer": "visits",
+    "explanation": "The 'before' time clause rejects future modal attachments, utilizing Simple Present 'visits' securely. ✅"
+  },
+  {
+    "question": "Ravi will modify the front-end layout code if the user interface _____ any lag during the live mock session.",
+    "options": ["will encounter", "encounters", "encountered", "will be encountering"],
+    "answer": "encounters",
+    "explanation": "Satisfies the standard 'Simple Present condition + Simple Future consequence' layout architecture. ✅"
+  },
+  {
+    "question": "Unless you _____ all thirty practice levels meticulously, you will find the final competitive grammar paper challenging.",
+    "options": ["will solve", "solve", "solved", "will be solving"],
+    "answer": "solve",
+    "explanation": "The conjunction 'Unless' safely strips the condition clause of 'will', enforcing the base present form 'solve'. ✅"
+  },
+  {
+    "question": "As soon as the department _____ the pending voucher files, the accounts assistant will tally the cash account balance.",
+    "options": ["will release", "releases", "released", "will have released"],
+    "answer": "releases",
+    "explanation": "'As soon as' routes the workflow directly through the present tense singular lane: 'releases'. ✅"
+  },
+  {
+    "question": "When the physics coach _____ the core mechanics of the formula chart, your doubts will disappear completely.",
+    "options": ["will illustrate", "illustrates", "illustrated", "is illustrating"],
+    "answer": "illustrates",
+    "explanation": "The temporal condition clause maps onto the singular inflected present verb 'illustrates'. ✅"
+  },
+  {
+    "question": "If the cloud server storage space _____ out next week, the script will automatically switch to local nodes.",
+    "options": ["will run", "runs", "ran", "will have run"],
+    "answer": "runs",
+    "explanation": "The potential future hazard condition requires the Simple Present marker 'runs' inside the 'If' block. ✅"
+  },
+  {
+    "question": "The applicant will track his request online until the railway board _____ an official response text.",
+    "options": ["will provide", "provides", "provided", "will have provided"],
+    "answer": "provides",
+    "explanation": "The time parameter tracking clause following 'until' maps smoothly into Simple Present 'provides'. ✅"
+  },
+  {
+    "question": "The family will book a scenic hotel room near the valley before they _____ their journey to Himachal Pradesh.",
+    "options": ["will commence", "commence", "commenced", "will be commencing"],
+    "answer": "commence",
+    "explanation": "Plural subject 'they' paired with the time marker 'before' selects the root present form 'commence' without 's/es'. ✅"
+  }
+]
