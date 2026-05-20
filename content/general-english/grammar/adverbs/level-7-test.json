@@ -1,0 +1,182 @@
+[
+  {
+    "question": "The train goes _____ from Vijayapura to Delhi without stopping at any minor intermediate stations.",
+    "options": ["direct", "directly", "directionally", "directness"],
+    "answer": "direct",
+    "explanation": "When meaning 'straight' or 'without detour/stopping', 'direct' is used as an adverb. ✅"
+  },
+  {
+    "question": "The senior superintendent will join the audit review session _____ after completing the evaluation.",
+    "options": ["short", "shortly", "shortness", "shorterly"],
+    "answer": "shortly",
+    "explanation": "'Shortly' means 'soon' or 'in a short time', which fits the future action context. ✅"
+  },
+  {
+    "question": "The probationary clerk stopped _____ in the middle of his explanation when the commissioner entered.",
+    "options": ["short", "shortly", "shortness", "shorterly"],
+    "answer": "short",
+    "explanation": "The idiomatic phrase 'stop short' means to halt abruptly or suddenly before finishing something. ✅"
+  },
+  {
+    "question": "Please submit the updated Python automation script to the branch head _____.",
+    "options": ["direct", "directly", "directness", "directing"],
+    "answer": "directly",
+    "explanation": "Here, 'directly' means 'immediately' or 'without delay', which fits the urgent command context. ✅"
+  },
+  {
+    "question": "The candidates preparing for the state-level exams are _____ from rural parts of Karnataka.",
+    "options": ["most", "mostly", "mostly manner", "mostest"],
+    "answer": "mostly",
+    "explanation": "'Mostly' means 'mainly' or 'generally', describing the background of the majority of aspirants. ✅"
+  },
+  {
+    "question": "What is the subject that interests the junior accounts assistant _____?",
+    "options": ["mostly", "most", "more mostly", "mostest"],
+    "answer": "most",
+    "explanation": "When meaning 'to the greatest degree or extent', the correct adverb form is 'most'. ✅"
+  },
+  {
+    "question": "The truck managed to steer _____ of the security barricade erected near the fort gate.",
+    "options": ["clear", "clearly", "clearness", "clearing"],
+    "answer": "clear",
+    "explanation": "The idiom 'steer clear of' or 'keep clear of' means to completely avoid or stay away from something. ✅"
+  },
+  {
+    "question": "Ravi explained the backend database architecture layout _____ to the project team.",
+    "options": ["clear", "clearly", "clearness", "clear form"],
+    "answer": "clearly",
+    "explanation": "'Clearly' means 'in a distinct and understandable manner', modifying the verb 'explained'. ✅"
+  },
+  {
+    "question": "The flight to Delhi flew _____ over the mountain peak before changing its route.",
+    "options": ["clean", "cleanly", "cleanliness", "cleanly form"],
+    "answer": "clean",
+    "explanation": "As an adverb of manner/degree, 'clean' can mean 'completely' or 'totally' (e.g., flew clean over). ✅"
+  },
+  {
+    "question": "The dynamic interactive widget was coded so _____ that no system error popped up.",
+    "options": ["clean", "cleanly", "cleanliness", "cleanerly"],
+    "answer": "cleanly",
+    "explanation": "'Cleanly' means 'in a clean, efficient, and well-executed manner', modifying the action 'coded'. ✅"
+  },
+  {
+    "question": "The newly appointed JAA was instructed to deal _____ with the regional ledger suppliers.",
+    "options": ["direct", "directly", "directness", "directing"],
+    "answer": "direct",
+    "explanation": "'Deal direct' is a standard business phrasing meaning to communicate straight without agents. ✅"
+  },
+  {
+    "question": "The source code repository will sync with the local server _____ at midnight.",
+    "options": ["direct", "directly", "directness", "directing"],
+    "answer": "directly",
+    "explanation": "Implies an automatic, immediate action link ('directly at midnight'), choosing 'directly'. ✅"
+  },
+  {
+    "question": "The physics presentation was cut _____ due to a sudden power failure in the lab.",
+    "options": ["shortly", "short", "shortness", "shorterly"],
+    "answer": "short",
+    "explanation": "The phrase 'cut short' means interrupted prematurely or truncated abruptly. ✅"
+  },
+  {
+    "question": "The state level board will release the final verification schedule _____.",
+    "options": ["short", "shortly", "shortness", "shorterly"],
+    "answer": "shortly",
+    "explanation": "Points to an announcement happening 'soon' in the near future timeline, requiring 'shortly'. ✅"
+  },
+  {
+    "question": "The chemistry equations compiled in the notes are _____ derived from previous year questions.",
+    "options": ["most", "mostly", "mostly manner", "mostest"],
+    "answer": "mostly",
+    "explanation": "Means the equations are 'primarily' or 'chiefly' sourced from PYQs. ✅"
+  },
+  {
+    "question": "Out of all the modules in PrepEase, the English grammar section is accessed _____.",
+    "options": ["mostly", "most", "more mostly", "mostest"],
+    "answer": "most",
+    "explanation": "Refers to the highest volume or frequency ranking ('accessed most'), selecting 'most'. ✅"
+  },
+  {
+    "question": "Make sure you jump _____ of the moving machinery parts during the factory audit.",
+    "options": ["clearly", "clear", "clearness", "clearing"],
+    "answer": "clear",
+    "explanation": "Requires staying completely away from a hazard zone, activating the adverb format 'clear'. ✅"
+  },
+  {
+    "question": "The blueprint layout highlights the structural updates very _____.",
+    "options": ["clear", "clearly", "clear form", "clearness"],
+    "answer": "clearly",
+    "explanation": "Modifies the state of visual depiction to show high visibility and clarity, using 'clearly'. ✅"
+  },
+  {
+    "question": "The arrow went _____ through the center of the wooden target board.",
+    "options": ["cleanly", "clean", "cleanliness", "cleanerly"],
+    "answer": "clean",
+    "explanation": "Meaning 'completely' or 'all the way through', 'clean' functions as the adverb. ✅"
+  },
+  {
+    "question": "The apparel fabric was cut _____ along the marked border guidelines by his sister.",
+    "options": ["clean", "cleanly", "cleanliness", "cleanerly"],
+    "answer": "cleanly",
+    "explanation": "Describes a precise, neat, and neat-handed physical cutting action, selecting 'cleanly'. ✅"
+  },
+  {
+    "question": "He ordered the backup components _____ from the original manufacturer in Delhi.",
+    "options": ["direct", "directly", "directness", "directing"],
+    "answer": "direct",
+    "explanation": "Implies a straight supply route pathway without middle distribution channels. ✅"
+  },
+  {
+    "question": "The software application crashed _____ after the new layout style script was injected.",
+    "options": ["direct", "directly", "directness", "directing"],
+    "answer": "directly",
+    "explanation": "Signifies an instantaneous cause-and-effect timeline event ('immediately after'), using 'directly'. ✅"
+  },
+  {
+    "question": "The speaker fell _____ of breath while addressing the massive gathering of aspirants.",
+    "options": ["shortly", "short", "shortness", "shorterly"],
+    "answer": "short",
+    "explanation": "The idiomatic phrase 'fall short' means to lack something or be insufficient. ✅"
+  },
+  {
+    "question": "We expect the state level notification regarding age relaxation rules _____.",
+    "options": ["short", "shortly", "shortness", "shorterly"],
+    "answer": "shortly",
+    "explanation": "Translates to the temporal indicator 'soon', which demands the adverb 'shortly'. ✅"
+  },
+  {
+    "question": "The financial discrepancy was _____ caused by a manual calculation error in the cash book.",
+    "options": ["most", "mostly", "more mostly", "mostest"],
+    "answer": "mostly",
+    "explanation": "The error was 'mainly' or 'predominantly' responsible for the ledger mismatch. ✅"
+  },
+  {
+    "question": "Ravi is the person who worked _____ during the front-end interface development phase.",
+    "options": ["mostly", "most", "more mostly", "mostest"],
+    "answer": "most",
+    "explanation": "Highlights the maximum individual effort metric matching with the superlative adverb 'most'. ✅"
+  },
+  {
+    "question": "The suspect ran away and managed to get _____ of the city borders before dawn.",
+    "options": ["clearly", "clear", "clearness", "clearing"],
+    "answer": "clear",
+    "explanation": "Escaping completely away from a boundary line uses the spatial adverb 'clear'. ✅"
+  },
+  {
+    "question": "The candidate stated his objections _____ during the RTI filing process.",
+    "options": ["clear", "clearly", "clearness", "clear form"],
+    "answer": "clearly",
+    "explanation": "Expressing ideas in an explicit, distinct manner requires the adverb 'clearly'. ✅"
+  },
+  {
+    "question": "The thief escaped _____ over the compound wall before the security guard could react.",
+    "options": ["clean", "cleanly", "cleanliness", "cleanerly"],
+    "answer": "clean",
+    "explanation": "Means he escaped completely or totally over the barrier, which takes 'clean'. ✅"
+  },
+  {
+    "question": "The server room layout was arranged _____ to maximize airflow efficiency.",
+    "options": ["clean", "cleanly", "cleanliness", "cleanerly"],
+    "answer": "cleanly",
+    "explanation": "Refers to a neat, organized, and structurally orderly arrangement pattern. ✅"
+  }
+]
