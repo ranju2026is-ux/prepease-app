@@ -1,0 +1,182 @@
+[
+  {
+    "question": "The injured candidate was immediately rushed to _____ hospital for medical treatment.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "When 'hospital' is visited for its primary purpose (medical treatment), no article is used before it. ✅"
+  },
+  {
+    "question": "Ravi went to _____ hospital to meet his friend who works there as a senior surgeon.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Here, Ravi is visiting the hospital as a visitor, not as a patient (secondary purpose). Therefore, 'the' is mandatory. ✅"
+  },
+  {
+    "question": "Children should go to _____ school daily to acquire knowledge and values.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "Going to school for studying represents its primary purpose, so zero article applies. ✅"
+  },
+  {
+    "question": "The father went to _____ school to collect his daughter's progress report card.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "The father goes to the school as a parent/visitor, which is a secondary purpose, requiring the definite article 'The'. ✅"
+  },
+  {
+    "question": "The thief was caught by the police and sent to _____ prison for three months.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "'Prison' is used for its primary purpose (punishment/confinement of a criminal), hence no article. ✅"
+  },
+  {
+    "question": "The human rights activist visited _____ prison to inspect the living conditions of inmates.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "The activist is visiting merely for inspection purposes (secondary purpose), so we use 'the'. ✅"
+  },
+  {
+    "question": "After a long and tiring work shift at the office, he went to _____ bed early.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "The idiom 'go to bed' means going to sleep (primary purpose), which takes no article. ✅"
+  },
+  {
+    "question": "He sat on _____ bed to fix the configuration errors in his Python code.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Here, 'bed' is referred to simply as a physical piece of furniture being sat upon, requiring 'The'. ✅"
+  },
+  {
+    "question": "The criminal will have to appear before _____ court tomorrow morning.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "Appearing for legal trial functions under the primary purpose of 'court', taking zero article. ✅"
+  },
+  {
+    "question": "The engineers went to inspect the damaged roof of _____ court building.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Refers specifically to the physical structure or building architecture, hence taking 'The'. ✅"
+  },
+  {
+    "question": "My sister completed her graduation and left _____ college last year.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "'College' in the context of studying or completing education does not take an article. ✅"
+  },
+  {
+    "question": "The demonstration rally was organized right in front of _____ college.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "The college is mentioned as a geographical marker or building location point, using 'The'. ✅"
+  },
+  {
+    "question": "Every Sunday, the family goes to _____ church to offer prayers.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "Visiting a place of worship for prayers is its primary purpose, so no article is used. ✅"
+  },
+  {
+    "question": "Workers were hired to paint the outer walls of _____ church.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Refers to the physical infrastructure unit or building maintenance, requiring 'The'. ✅"
+  },
+  {
+    "question": "Vegetables are cheap in _____ market near our residential locality.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "Using 'market' for standard trading, buying, or selling functions takes zero article in general contexts. ✅"
+  },
+  {
+    "question": "He gave me a clear map to find the exact location of _____ market.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Particularizing a specific market spot or location zone requires 'The'. ✅"
+  },
+  {
+    "question": "As a student of law, she often goes to _____ court to observe live legal debates.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "Observing legal proceedings falls under the primary educational/judicial purpose of court. ✅"
+  },
+  {
+    "question": "The commercial complex is located exactly opposite _____ hospital.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "The hospital is highlighted as a physical landmark item, hence it takes 'The'. ✅"
+  },
+  {
+    "question": "He was injured and had to spend three weeks in _____ bed.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "The phrase 'in bed' contextually implies resting/recovering, which omits the article. ✅"
+  },
+  {
+    "question": "Please put these fresh blankets on _____ bed in the guest room.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Points directly to a specific physical piece of furniture object inside the room. ✅"
+  },
+  {
+    "question": "He was found guilty of embezzlement and sent straight to _____ prison.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "Confinement of a convicted individual uses prison for its primary core function. ✅"
+  },
+  {
+    "question": "The electrician is working to fix the power line inside _____ prison.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "The technician enters the location to do a job (secondary purpose), requiring 'The'. ✅"
+  },
+  {
+    "question": "Many students cross the highway to reach _____ university campus.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "Attending or accessing the university for regular study functions omits the article. ✅"
+  },
+  {
+    "question": "The prime minister will visit _____ university to inaugurate the new research wing.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "The dignitary visits the campus for a specific official event (secondary purpose), demanding 'The'. ✅"
+  },
+  {
+    "question": "The local community gathered inside _____ church to discuss the village water issue.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Using a place of worship for a political or community meeting is a secondary function. ✅"
+  },
+  {
+    "question": "If you are unwell, you should stay in _____ bed and rest.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "Idiomatic usage for health rest/sleep functions takes no article. ✅"
+  },
+  {
+    "question": "The police team cordoned off _____ market after the security alert.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Points to a specific municipal trading zone under police investigation. ✅"
+  },
+  {
+    "question": "The suspect spent the whole night locked up inside _____ police station.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "Being detained in a police station is its primary purpose, so formal rule excludes the article. ✅"
+  },
+  {
+    "question": "The contractor came to inspect the broken windows of _____ school.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "The building asset structure is targeted for repair work (secondary purpose). ✅"
+  },
+  {
+    "question": "She goes to _____ college to attend her routine accountancy lectures.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "Attending standard educational sessions is the fundamental primary purpose of college. ✅"
+  }
+]
