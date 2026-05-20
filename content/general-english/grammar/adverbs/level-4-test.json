@@ -1,0 +1,182 @@
+[
+  {
+    "question": "The newly appointed junior assistant was _____ happy to receive his official posting order.",
+    "options": ["too", "very", "much too", "too much"],
+    "answer": "very",
+    "explanation": "We use 'very' with pleasant adjectives like 'happy'. Using 'too' implies an undesirable excess, which is incorrect here. ✅"
+  },
+  {
+    "question": "The accounting problem was _____ complex for the probationary clerk to solve in five minutes.",
+    "options": ["too", "very", "much", "enough"],
+    "answer": "too",
+    "explanation": "The sentence sets up a negative limit ('too complex... to solve'), meaning it was so complex that he could not solve it. ✅"
+  },
+  {
+    "question": "He is _____ weak _____ walk to the regional audit office without support.",
+    "options": ["very... to", "too... to", "too... that", "so... to"],
+    "answer": "too... to",
+    "explanation": "The standard grammatical structure 'too... to' indicates that an excess of a quality produces a negative result. ✅"
+  },
+  {
+    "question": "Ravi's newly updated database architecture layout is _____ better than the old repository setup.",
+    "options": ["very", "much", "too", "too much"],
+    "answer": "much",
+    "explanation": "'Much' is used to modify comparative degree adjectives ('better'), whereas 'very' is used with positive degree adjectives. ✅"
+  },
+  {
+    "question": "The supervisor was _____ angry to notice the minor discrepancies in the cash account ledger.",
+    "options": ["too", "very", "much", "enough"],
+    "answer": "too",
+    "explanation": "Fits the 'too + adjective + to + verb' rule, implying he was so angry that he failed to notice the details. ✅"
+  },
+  {
+    "question": "The apparel designed by his sister was _____ beautiful, and everyone at the fashion studio praised it.",
+    "options": ["too", "very", "much too", "too much"],
+    "answer": "very",
+    "explanation": "'Beautiful' is a pleasant adjective, so it should be modified by 'very', not 'too'. ✅"
+  },
+  {
+    "question": "The computer lab inside the fort building is _____ hot to work in comfortably during summer afternoons.",
+    "options": ["too", "very", "much", "enough"],
+    "answer": "too",
+    "explanation": "'Hot' is an unpleasant condition here, and the 'too... to' infinitive link indicates it is uncomfortably hot to work. ✅"
+  },
+  {
+    "question": "He works _____ hard, which is why his mock test scores are consistently improving.",
+    "options": ["too", "very", "much", "too much"],
+    "answer": "very",
+    "explanation": "To state a high degree of positive effort, 'very hard' is appropriate. 'Too hard' would mean it causes a bad outcome. ✅"
+  },
+  {
+    "question": "The state level notification text was _____ lengthy for the candidates to read completely in one go.",
+    "options": ["too", "very", "much", "enough"],
+    "answer": "too",
+    "explanation": "Triggers the negative context correlation structure where 'lengthy' acts as a bottleneck obstacle. ✅"
+  },
+  {
+    "question": "Ravi was _____ wise to fall into the traps set by the misleading information portal.",
+    "options": ["too", "very", "much", "enough"],
+    "answer": "too",
+    "explanation": "Exception/Idiom Pattern: 'too wise to...' means 'so wise that he would not fall'. Here 'too' behaves perfectly with a positive adjective to create a negative outcome for the trap. ✅"
+  },
+  {
+    "question": "The front-end layout styling of PrepEase looks _____ attractive after the latest upscaling changes.",
+    "options": ["too", "very", "much too", "too much"],
+    "answer": "very",
+    "explanation": "'Attractive' is positive, so modifying it with 'very' is grammatically correct. ✅"
+  },
+  {
+    "question": "The validation script took _____ much time to parse the corrupt database log rows.",
+    "options": ["too", "very", "much", "enough"],
+    "answer": "too",
+    "explanation": "The phrase 'too much' is standard when modifying uncountable nouns like 'time' in a negative or frustrating context. ✅"
+  },
+  {
+    "question": "The instructions manual given by the coach is _____ simple to follow.",
+    "options": ["too", "very", "much", "too much"],
+    "answer": "very",
+    "explanation": "'Simple' is an advantageous feature here, calling for 'very' to intensify its clarity. ✅"
+  },
+  {
+    "question": "The local cash ledger balance is _____ low to process any more pending travel bills.",
+    "options": ["too", "very", "much", "enough"],
+    "answer": "too",
+    "explanation": "Indicates a restrictive negative boundary status ('too low... to process'). ✅"
+  },
+  {
+    "question": "The weather in Vijayapura was _____ pleasant last week, so we visited the historical sites.",
+    "options": ["too", "very", "much too", "too much"],
+    "answer": "very",
+    "explanation": "'Pleasant' describes an enjoyable state, which takes 'very' instead of the negative 'too'. ✅"
+  },
+  {
+    "question": "The applicant was _____ late to enter the competitive examination hall.",
+    "options": ["too", "very", "much", "enough"],
+    "answer": "too",
+    "explanation": "He was past the critical threshold boundary ('too late to enter'), implying he was barred from entry. ✅"
+  },
+  {
+    "question": "The physics formula sheet compiled by the team is _____ useful for quick revision sessions.",
+    "options": ["too", "very", "much", "too much"],
+    "answer": "very",
+    "explanation": "Modifies a positive functional quality ('useful'), requiring 'very'. ✅"
+  },
+  {
+    "question": "The old office typewriter is _____ heavy for the typing assistant to carry alone.",
+    "options": ["too", "very", "much", "enough"],
+    "answer": "too",
+    "explanation": "The weight presents an issue, framing an impossible task sequence ('too heavy... to carry'). ✅"
+  },
+  {
+    "question": "I am _____ glad to inform you that your Python automated bot is fully approved.",
+    "options": ["too", "very", "much too", "too much"],
+    "answer": "very",
+    "explanation": "'Glad' is a pleasant emotion, matching smoothly with the intensifier 'very'. ✅"
+  },
+  {
+    "question": "The source code repository size has become _____ large to download over a basic mobile connection.",
+    "options": ["too", "very", "much", "enough"],
+    "answer": "too",
+    "explanation": "The size creates an unmanageable barrier condition, using 'too... to'. ✅"
+  },
+  {
+    "question": "The multi-day travel itinerary to Delhi is _____ exhausting for senior citizens.",
+    "options": ["too", "very", "much", "enough"],
+    "answer": "very",
+    "explanation": "When there is no trailing infinitive 'to' clause showing impossibility, stating a high level of discomfort uses 'very' or 'extremely'. ✅"
+  },
+  {
+    "question": "The fabric selected for the design prototype was _____ delicate to be stitched by a standard machine.",
+    "options": ["too", "very", "much", "enough"],
+    "answer": "too",
+    "explanation": "The delicateness prevents standard machining options, triggering the 'too... to' constraint logic. ✅"
+  },
+  {
+    "question": "Ravi's explanation of the controversial RTI rejection clause was _____ clear.",
+    "options": ["too", "very", "much too", "too much"],
+    "answer": "very",
+    "explanation": "Clear explanation is a positive attribute, thus intensive tracking uses 'very'. ✅"
+  },
+  {
+    "question": "The noise outside the computer lab was _____ loud for us to focus on the chemistry equations.",
+    "options": ["too", "very", "much", "enough"],
+    "answer": "too",
+    "explanation": "The disruption level forms a negative barrier block, which demands 'too'. ✅"
+  },
+  {
+    "question": "The trial balance discrepancy amount is _____ small to cause any worry to the audit board.",
+    "options": ["too", "very", "much", "enough"],
+    "answer": "too",
+    "explanation": "Another standard exception idiom: 'too small to cause worry' means it is so small that it will not cause any worry. ✅"
+  },
+  {
+    "question": "The aspirant was _____ intelligent to misunderstand the core prompt requirements.",
+    "options": ["too", "very", "much", "enough"],
+    "answer": "too",
+    "explanation": "'Too intelligent to misunderstand' means he is so intelligent that he will not misunderstand. ✅"
+  },
+  {
+    "question": "The server response was _____ slow to establish a connection with the Telegram quiz bot wrapper.",
+    "options": ["too", "very", "much", "enough"],
+    "answer": "too",
+    "explanation": "The slowness directly caused a connection failure condition, confirming 'too'. ✅"
+  },
+  {
+    "question": "She is _____ professional in her approach to apparel manufacturing timelines.",
+    "options": ["too", "very", "much too", "too much"],
+    "answer": "very",
+    "explanation": "Professional is a positive trait, calling for the regular intensive adverb 'very'. ✅"
+  },
+  {
+    "question": "The distance between Rabkavi Banhatti and the exam hub is _____ long to cover on a bicycle.",
+    "options": ["too", "very", "much", "enough"],
+    "answer": "too",
+    "explanation": "The distance presents an impossible physical journey parameters block, selecting 'too'. ✅"
+  },
+  {
+    "question": "I am _____ sorry for the delayed validation of the manual vouchers.",
+    "options": ["too", "very", "much too", "too much"],
+    "answer": "very",
+    "explanation": "Apologizing with a high degree of regret routinely uses the standard collocation 'very sorry'. ✅"
+  }
+]
