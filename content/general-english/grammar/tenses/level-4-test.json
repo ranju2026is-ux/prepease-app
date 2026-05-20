@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Identify the error part: I have graduated (A) / from college (B) / in the year 2024 (C) / with honors (D).",
+    "options": ["A", "B", "C", "No error"],
+    "answer": "A",
+    "explanation": "Since a specific past year (2024) is mentioned, we must use Simple Past 'I graduated' instead of Present Perfect 'I have graduated'. ✅"
+  },
+  {
+    "question": "Ravi _____ the front-end layout variables of the application two days ago.",
+    "options": ["has optimized", "optimized", "is optimizing", "optimizes"],
+    "answer": "optimized",
+    "explanation": "The time marker 'two days ago' indicates a completed past action, which strictly requires the Simple Past (V2) form 'optimized'. ✅"
+  },
+  {
+    "question": "The state level selection board _____ the age relaxation notification last night.",
+    "options": ["has published", "published", "is publishing", "publishes"],
+    "answer": "published",
+    "explanation": "The past time indicator 'last night' excludes Present Perfect variants and demands the Simple Past form 'published'. ✅"
+  },
+  {
+    "question": "I _____ the descriptive English grammar notes, so you can solve the mock test now.",
+    "options": ["compiled", "have compiled", "compile", "was compiling"],
+    "answer": "have compiled",
+    "explanation": "Here, no specific past time is mentioned, and the past action has a direct relevance to the present ('you can solve now'), requiring Present Perfect. ✅"
+  },
+  {
+    "question": "The junior accounts assistant _____ the cash account ledger balance sheets yesterday afternoon.",
+    "options": ["has verified", "verified", "verifies", "is verifying"],
+    "answer": "verified",
+    "explanation": "'Yesterday afternoon' is a closed past time window, forcing the usage of the Simple Past tense (V2). ✅"
+  },
+  {
+    "question": "He _____ any formal training in fashion designer techniques back in 2022.",
+    "options": ["has not received", "did not receive", "does not receive", "was not receiving"],
+    "answer": "did not receive",
+    "explanation": "The reference 'in 2022' is a specific past point. The negative construction in Simple Past requires 'did not + V1 (receive)'. ✅"
+  },
+  {
+    "question": "The team _____ the automated interactive quiz widget into GitHub a few hours ago.",
+    "options": ["has pushed", "pushed", "is pushing", "pushes"],
+    "answer": "pushed",
+    "explanation": "The past time tag 'a few hours ago' dictates the execution of the Simple Past form 'pushed'. ✅"
+  },
+  {
+    "question": "I _____ the checking commissioner twice this week regarding my probation extension.",
+    "options": ["met", "have met", "am meeting", "meet"],
+    "answer": "have met",
+    "explanation": "'This week' is an unfinished time period, and stating the frequency of an event up to now requires Present Perfect 'have met'. ✅"
+  },
+  {
+    "question": "The historic monument near Vijayapura _____ down due to a massive lightning strike in 2018.",
+    "options": ["has collapsed", "collapsed", "collapses", "was collapsing"],
+    "answer": "collapsed",
+    "explanation": "The specific historical marker 'in 2018' restricts the sentence to Simple Past 'collapsed'. ✅"
+  },
+  {
+    "question": "Ravi _____ the database configuration errors before he went home last Friday.",
+    "options": ["has fixed", "fixed", "is fixing", "fixes"],
+    "answer": "fixed",
+    "explanation": "The time phrase 'last Friday' anchors the completed event firmly into the Simple Past domain. ✅"
+  },
+  {
+    "question": "The typing assistant _____ all thirty pages of the RTI draft file an hour ago.",
+    "options": ["has typed", "typed", "types", "is typing"],
+    "answer": "typed",
+    "explanation": "An explicit past tracking marker like 'an hour ago' triggers the V2 form 'typed'. ✅"
+  },
+  {
+    "question": "We _____ our final travel itinerary to Delhi, so we are ready to book the train tickets.",
+    "options": ["prepared", "have prepared", "prepare", "are preparing"],
+    "answer": "have prepared",
+    "explanation": "The action is completed, but its result matters right now ('we are ready to book'), which dictates Present Perfect 'have prepared'. ✅"
+  },
+  {
+    "question": "The chemistry lecturer _____ the complex compound formulas during the extra class yesterday.",
+    "options": ["has explained", "explained", "explains", "is explaining"],
+    "answer": "explained",
+    "explanation": "The word 'yesterday' marks a definite past time point, requiring Simple Past 'explained'. ✅"
+  },
+  {
+    "question": "I _____ three complete mock levels so far, and I plan to do more tonight.",
+    "options": ["solved", "have solved", "solve", "was solving"],
+    "answer": "have solved",
+    "explanation": "The presence of 'so far' points to a cumulative count up to the present moment, requiring Present Perfect. ✅"
+  },
+  {
+    "question": "The department _____ the unvouched expenditure amounts back in the year 2023.",
+    "options": ["has recovered", "recovered", "recovers", "is recovering"],
+    "answer": "recovered",
+    "explanation": "The phrase 'back in the year 2023' refers to a specific past year, demanding Simple Past. ✅"
+  },
+  {
+    "question": "Ravi's sister _____ her first customized apparel studio design model last month.",
+    "options": ["has launched", "launched", "launches", "is launching"],
+    "answer": "launched",
+    "explanation": "'Last month' is a definite past time marker, necessitating the V2 format 'launched'. ✅"
+  },
+  {
+    "question": "The computer lab server _____ runtime memory errors multiple times this morning.",
+    "options": ["encountered", "has encountered", "encounters", "is encountering"],
+    "answer": "has encountered",
+    "explanation": "Since 'this morning' is still ongoing while speaking, the repeated present experience uses Present Perfect 'has encountered'. ✅"
+  },
+  {
+    "question": "The candidate _____ his RTI appeal draft form to the state board office three days ago.",
+    "options": ["has submitted", "submitted", "submits", "is submitting"],
+    "answer": "submitted",
+    "explanation": "'Three days ago' specifies a completed time period, matching precisely with Simple Past 'submitted'. ✅"
+  },
+  {
+    "question": "I _____ the premium cloud repository access keys, and now I can't log in.",
+    "options": ["lost", "have lost", "lose", "was losing"],
+    "answer": "have lost",
+    "explanation": "The loss happened in the past, but the negative consequence is directly tied to the present ('now I can't log in'), demanding Present Perfect. ✅"
+  },
+  {
+    "question": "The tourist group _____ near the scenic riverbank outside Anandpur Sahib last weekend.",
+    "options": ["has stayed", "stayed", "stays", "is staying"],
+    "answer": "stayed",
+    "explanation": "The phrase 'last weekend' establishes a definite past temporal boundary, selecting Simple Past 'stayed'. ✅"
+  },
+  {
+    "question": "The checking supervisor _____ the cash book ledger entries a few minutes ago.",
+    "options": ["has cross-checked", "cross-checked", "cross-checks", "is cross-checking"],
+    "answer": "cross-checked",
+    "explanation": "The time indicator 'a few minutes ago' forces the sentence into Simple Past 'cross-checked'. ✅"
+  },
+  {
+    "question": "Ravi _____ the front-end validation script code, so the system is secure now.",
+    "options": ["updated", "has updated", "updates", "was updating"],
+    "answer": "has updated",
+    "explanation": "The update has direct relevance to the present state ('the system is secure now'), which fulfills the Present Perfect criteria. ✅"
+  },
+  {
+    "question": "The physics strategy coach _____ the important formulas during the orientation session last Monday.",
+    "options": ["has compiled", "compiled", "compiles", "is compiling"],
+    "answer": "compiled",
+    "explanation": "The past time reference 'last Monday' safely locks the verb to Simple Past 'compiled'. ✅"
+  },
+  {
+    "question": "The applicant _____ a formal complaint text message to the railway recruitment board yesterday.",
+    "options": ["has sent", "sent", "sends", "is sending"],
+    "answer": "sent",
+    "explanation": "The word 'yesterday' indicates a completed past timeline, requiring the V2 form 'sent'. ✅"
+  },
+  {
+    "question": "I _____ any official notification regarding the departmental exam dates yet.",
+    "options": ["did not see", "have not seen", "do not see", "was not seeing"],
+    "answer": "have not seen",
+    "explanation": "The keyword 'yet' acts as a classic Present Perfect trigger in negative sentences. ✅"
+  },
+  {
+    "question": "The family _____ their journey from Karnataka to Delhi long ago.",
+    "options": ["has completed", "completed", "completes", "is completing"],
+    "answer": "completed",
+    "explanation": "The phrase 'long ago' points to a remote past time, which dictates the use of Simple Past 'completed'. ✅"
+  },
+  {
+    "question": "Ravi _____ a Telegram quiz bot wrapper structure, and it works perfectly.",
+    "options": ["built", "has built", "builds", "is building"],
+    "answer": "has built",
+    "explanation": "The action is completed, and its perfect function is a present fact, invoking Present Perfect 'has built'. ✅"
+  },
+  {
+    "question": "The printing assistant _____ the blank voucher ledger tokens two hours ago.",
+    "options": ["has cleared", "cleared", "clears", "is clearing"],
+    "answer": "cleared",
+    "explanation": "The expression 'two hours ago' indicates a finished past event, selecting Simple Past 'cleared'. ✅"
+  },
+  {
+    "question": "The historical archive department _____ the fragile blueprint papers in the year 2019.",
+    "options": ["has upscaled", "upscaled", "upscales", "is upscaling"],
+    "answer": "upscaled",
+    "explanation": "The specific calendar year 'in the year 2019' mandates the selection of Simple Past 'upscaled'. ✅"
+  },
+  {
+    "question": "He _____ hard for the UPSC prelims cut-off margin last year but missed it by a small fraction.",
+    "options": ["has studied", "studied", "studies", "was studying"],
+    "answer": "studied",
+    "explanation": "The past time marker 'last year' requires the standard Simple Past (V2) tense form 'studied'. ✅"
+  }
+]
