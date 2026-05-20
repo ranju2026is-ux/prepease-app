@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Many a soldier _____ lost his life in the battlefield.",
+    "options": ["has", "have", "are", "were"],
+    "answer": "has",
+    "explanation": "'Many a' is always followed by a singular noun and a singular verb. ✅"
+  },
+  {
+    "question": "Many soldiers _____ wounded in the crossfire.",
+    "options": ["was", "were", "is", "has"],
+    "answer": "were",
+    "explanation": "'Many' alone takes a plural noun and a plural verb. ✅"
+  },
+  {
+    "question": "More than one minister _____ expected to resign today.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "The phrase 'More than one' takes a singular noun and a singular verb. ✅"
+  },
+  {
+    "question": "More than two candidates _____ disqualified from the exam.",
+    "options": ["was", "were", "is", "has"],
+    "answer": "were",
+    "explanation": "'More than two/three' is followed by a plural noun and a plural verb. ✅"
+  },
+  {
+    "question": "More students than one _____ raised objections to the key answers.",
+    "options": ["was", "were", "is", "has"],
+    "answer": "were",
+    "explanation": "Note the structure: 'More [plural noun] than one' always takes a plural verb. ✅"
+  },
+  {
+    "question": "A number of candidates _____ clearing the departmental exam this year.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "The phrase 'A number of' means 'many' and always takes a plural verb. ✅"
+  },
+  {
+    "question": "The number of permanent employees _____ fixed at fifty.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "The phrase 'The number of' denotes a specific unit/count and always takes a singular verb. ✅"
+  },
+  {
+    "question": "Not only the typist but also the accounts assistants _____ present in the office.",
+    "options": ["was", "were", "is", "has"],
+    "answer": "were",
+    "explanation": "With 'Not only... but also', the verb agrees with the nearest subject ('accounts assistants' - plural). ✅"
+  },
+  {
+    "question": "Not only the files but also the computer _____ locked in the cabin.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "The nearest subject to the blank is 'computer' (singular), so the verb must be singular. ✅"
+  },
+  {
+    "question": "Nothing but cash _____ accepted at the counter.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "The phrase 'Nothing but' is always followed by a singular verb, regardless of whether the noun is singular or plural. ✅"
+  },
+  {
+    "question": "Nothing but books _____ available in that old library.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "Even with a plural noun ('books'), 'Nothing but' strictly takes a singular verb. ✅"
+  },
+  {
+    "question": "Either the superintendent or his subordinates _____ signed the ledger.",
+    "options": ["has", "have", "is", "was"],
+    "answer": "have",
+    "explanation": "The verb agrees with the closest subject, 'subordinates' (plural). ✅"
+  },
+  {
+    "question": "Neither the documents nor the cash box _____ recovered.",
+    "options": ["was", "were", "are", "have"],
+    "answer": "was",
+    "explanation": "The closest subject is 'cash box' (singular), so we use 'was'. ✅"
+  },
+  {
+    "question": "Many a framework _____ been proposed for the website development.",
+    "options": ["has", "have", "is", "are"],
+    "answer": "has",
+    "explanation": "'Many a' dictates a singular verb ('has'). ✅"
+  },
+  {
+    "question": "A total of thirty members _____ attended the meeting.",
+    "options": ["has", "have", "is", "was"],
+    "answer": "have",
+    "explanation": "'A total of' followed by a plural noun takes a plural verb. ✅"
+  },
+  {
+    "question": "The total of his savings _____ very impressive.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "'The total of' acts as a singular subject unit. ✅"
+  },
+  {
+    "question": "More than one application _____ been rejected due to errors.",
+    "options": ["has", "have", "is", "are"],
+    "answer": "has",
+    "explanation": "Singular verb follow-up for 'More than one'. ✅"
+  },
+  {
+    "question": "Either you or I _____ selected for the field verification.",
+    "options": ["am", "is", "are", "were"],
+    "answer": "am",
+    "explanation": "The verb agrees with the closest pronoun, which is 'I' ('I am'). ✅"
+  },
+  {
+    "question": "Neither he nor you _____ expected to handle the cash ledger alone.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "The verb matches the closest subject, 'you' ('you are'). ✅"
+  },
+  {
+    "question": "Many a leader _____ failed to fulfill his promises.",
+    "options": ["has", "have", "is", "are"],
+    "answer": "has",
+    "explanation": "Standard 'Many a' + singular grammar rule. ✅"
+  },
+  {
+    "question": "A group of junior clerks _____ submitted the RTI reply.",
+    "options": ["has", "have", "are", "were"],
+    "answer": "has",
+    "explanation": "The true subject is the singular collective noun 'group', not 'clerks'. ✅"
+  },
+  {
+    "question": "The number of variations in the code _____ limited.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "'The number of' acts as a singular subject focus. ✅"
+  },
+  {
+    "question": "A number of errors _____ detected during data validation.",
+    "options": ["was", "were", "is", "has"],
+    "answer": "were",
+    "explanation": "'A number of' acts as a plural subject indicator. ✅"
+  },
+  {
+    "question": "More than one clerk _____ applied for the casual leave.",
+    "options": ["has", "have", "is", "are"],
+    "answer": "has",
+    "explanation": "Fits the standard singular agreement for 'More than one'. ✅"
+  },
+  {
+    "question": "Not only the father but also his sons _____ going on the tour.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "Agrees with the plural subject 'sons' which is closest to the verb. ✅"
+  },
+  {
+    "question": "Not only the players but also the coach _____ present at the stadium.",
+    "options": ["is", "are", "was", "were"],
+    "answer": "is",
+    "explanation": "Agrees with the singular subject 'coach' which is closest to the verb. ✅"
+  },
+  {
+    "question": "Many a block _____ been added to the project repository.",
+    "options": ["has", "have", "is", "are"],
+    "answer": "has",
+    "explanation": "'Many a' forces singular verb usage. ✅"
+  },
+  {
+    "question": "More books than one _____ been added to the syllabus.",
+    "options": ["has", "have", "is", "are"],
+    "answer": "have",
+    "explanation": "Structure pattern: 'More [Plural Noun] than one' = Plural Verb. ✅"
+  },
+  {
+    "question": "Nothing but rumors _____ spread across the town.",
+    "options": ["was", "were", "are", "have"],
+    "answer": "was",
+    "explanation": "'Nothing but' demands a singular verb regardless of the object following it. ✅"
+  },
+  {
+    "question": "A substantial number of citizens _____ signed the petition.",
+    "options": ["has", "have", "is", "was"],
+    "answer": "have",
+    "explanation": "'A number of' (even with adjectives like substantial) remains plural. ✅"
+  }
+]
