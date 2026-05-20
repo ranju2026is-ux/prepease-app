@@ -1,0 +1,182 @@
+[
+  {
+    "question": "He is _____ tallest boy in the junior accounts assistant batch.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "We use the definite article 'The' before superlative adjectives like 'tallest'. ✅"
+  },
+  {
+    "question": "_____ higher you climb the hill near Vijayapura, _____ cooler it gets.",
+    "options": ["A, a", "The, the", "The, a", "No article, the"],
+    "answer": "The, the",
+    "explanation": "In parallel structures (proportional progression), we use 'The' before both comparative adjectives. ✅"
+  },
+  {
+    "question": "The police caught the running suspect by _____ arm.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "We use 'The' before parts of the body when they are referred to in an objective structure or action. ✅"
+  },
+  {
+    "question": "This is _____ most complex database validation script I have ever written.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "'The' is mandatory before superlative expressions like 'most complex'. ✅"
+  },
+  {
+    "question": "_____ more you practice English grammar rules, _____ easier the exam becomes.",
+    "options": ["The, the", "A, a", "The, a", "No article, no article"],
+    "answer": "The, the",
+    "explanation": "Double comparatives expressing a parallel cause and effect take 'The' in both clauses. ✅"
+  },
+  {
+    "question": "A stone struck him right on _____ forehead during the accident.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Specific references to body parts affected by an action require the definite article 'The'. ✅"
+  },
+  {
+    "question": "Ravi is _____ best developer in our web application project team.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "'Best' is a superlative adjective (good-better-best), which always demands 'The'. ✅"
+  },
+  {
+    "question": "_____ older you get, _____ wiser you should become.",
+    "options": ["A, a", "The, a", "The, the", "No article, the"],
+    "answer": "The, the",
+    "explanation": "Parallel structures with comparatives ('older' and 'wiser') take 'The' before each. ✅"
+  },
+  {
+    "question": "The brick fell directly on _____ worker's head.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "When referring to a specific part of a person's body involved in an event, use 'The'. ✅"
+  },
+  {
+    "question": "Mt. Everest is _____ highest peak above sea level in the world.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Superlative degree adjective 'highest' requires 'The'. ✅"
+  },
+  {
+    "question": "_____ more money he earns, _____ more expenses he incurs.",
+    "options": ["A, a", "The, a", "The, the", "No article, no article"],
+    "answer": "The, the",
+    "explanation": "Parallel increase structure requires the definite article 'The' for both modifiers. ✅"
+  },
+  {
+    "question": "She patted the crying child gently on _____ shoulder.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Body parts targeted in an action take the definite article 'The'. ✅"
+  },
+  {
+    "question": "This is _____ shortest multi-day travel itinerary available on the app.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Superlative degree adjective 'shortest' takes 'The'. ✅"
+  },
+  {
+    "question": "_____ sooner you complete the balance sheet audit, _____ better it will be.",
+    "options": ["The, the", "A, a", "The, a", "No article, the"],
+    "answer": "The, the",
+    "explanation": "Proportional comparatives ('sooner' and 'better') use 'The... the...' format. ✅"
+  },
+  {
+    "question": "He was wounded in _____ leg during the field verification operation.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Prepositional phrases indicating a body part where an injury occurred take 'The'. ✅"
+  },
+  {
+    "question": "Kolkata is one of _____ largest cities in the country.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Even within the 'one of' structure, a superlative adjective ('largest') must keep 'The'. ✅"
+  },
+  {
+    "question": "_____ less you talk about the controversial matter, _____ better.",
+    "options": ["The, the", "A, a", "The, a", "No article, the"],
+    "answer": "The, the",
+    "explanation": "Parallel decline or comparative adjustment requires 'The' on both ends. ✅"
+  },
+  {
+    "question": "She looked the stranger straight in _____ eye.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "The specific body part targeted by an action takes 'The'. ✅"
+  },
+  {
+    "question": "This cloud platform offers _____ most reliable backup system.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Superlative phrase 'most reliable' requires 'The'. ✅"
+  },
+  {
+    "question": "_____ harder you work for the UPSC prelims, _____ luckier you get.",
+    "options": ["The, the", "A, a", "The, a", "No article, the"],
+    "answer": "The, the",
+    "explanation": "Classic comparative proverb structure requiring dual 'The' markers. ✅"
+  },
+  {
+    "question": "The nurse held him by _____ wrist to check his pulse rate.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Action involving a specific body part uses the definite article 'The'. ✅"
+  },
+  {
+    "question": "Honesty is _____ best policy.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "'Best' is a superlative adjective, demanding 'The'. ✅"
+  },
+  {
+    "question": "_____ more books you read, _____ more vocabulary knowledge you gain.",
+    "options": ["The, the", "A, a", "The, a", "No article, no article"],
+    "answer": "The, the",
+    "explanation": "Parallel progression template dictates the use of 'The... the...'. ✅"
+  },
+  {
+    "question": "He was shot in _____ chest by the hunters.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Prepositional references to biological locations under action use 'The'. ✅"
+  },
+  {
+    "question": "He is _____ most intelligent candidate in the entire selection batch.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Superlative adjective phrase takes 'The'. ✅"
+  },
+  {
+    "question": "_____ faster you run the code validation script, _____ earlier we locate errors.",
+    "options": ["The, the", "A, a", "The, a", "No article, the"],
+    "answer": "The, the",
+    "explanation": "Parallel action comparison requires the definite article for both markers. ✅"
+  },
+  {
+    "question": "The stray dog bit the postman on _____ ankle.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Biological structural zone target of an action takes 'The'. ✅"
+  },
+  {
+    "question": "This is _____ worst error that could happen in a cash book entry.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "'Worst' is a superlative adjective (bad-worse-worst) and requires 'The'. ✅"
+  },
+  {
+    "question": "_____ deeper the well, _____ clearer the water inside.",
+    "options": ["The, the", "A, a", "The, a", "No article, the"],
+    "answer": "The, the",
+    "explanation": "Proportional comparative structures take the definite article 'The' in both sections. ✅"
+  },
+  {
+    "question": "The fashion designer gripped the silk fabric tightly with _____ left hand.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Specific directional body parts or exact limbs take 'The'. ✅"
+  }
+]
