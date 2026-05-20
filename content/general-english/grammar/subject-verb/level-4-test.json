@@ -1,0 +1,182 @@
+[
+  {
+    "question": "The audience _____ requested to take their seats.",
+    "options": ["was", "were", "is", "has"],
+    "answer": "were",
+    "explanation": "The pronoun 'their' indicates that the audience is being treated as separate individuals, so a plural verb is used. ✅"
+  },
+  {
+    "question": "The audience _____ very small tonight.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "Here, 'audience' is treated as a single collective unit, so it takes a singular verb. ✅"
+  },
+  {
+    "question": "All the luggage _____ been checked in.",
+    "options": ["has", "have", "is", "are"],
+    "answer": "has",
+    "explanation": "'Luggage' is an uncountable noun and always takes a singular verb. ✅"
+  },
+  {
+    "question": "The scenery of Switzerland _____ enchanting.",
+    "options": ["is", "are", "were", "am"],
+    "answer": "is",
+    "explanation": "'Scenery' is an uncountable noun and cannot be pluralized; it takes a singular verb. ✅"
+  },
+  {
+    "question": "His clothing _____ very expensive.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "'Clothing' is treated as an uncountable mass noun and takes a singular verb. ✅"
+  },
+  {
+    "question": "The team _____ fighting among themselves.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "The phrase 'among themselves' shows that the team members are acting individually, requiring a plural verb. ✅"
+  },
+  {
+    "question": "The staff _____ unhappy with the new working hours.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "'Staff' refers to the group of individuals here, making a plural verb more appropriate in this context. ✅"
+  },
+  {
+    "question": "Information regarding the exams _____ been delayed.",
+    "options": ["has", "have", "are", "were"],
+    "answer": "has",
+    "explanation": "The subject is 'Information' (uncountable), not 'exams'. Therefore, the verb must be singular. ✅"
+  },
+  {
+    "question": "Mumps _____ a serious disease for adults.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "Diseases ending in 's' like Mumps, Measles, and Rickets take a singular verb. ✅"
+  },
+  {
+    "question": "The cattle _____ grazing in the meadow.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "'Cattle' is a plural noun in meaning and form, so it always takes a plural verb. ✅"
+  },
+  {
+    "question": "The gentry of the town _____ invited to the feast.",
+    "options": ["was", "were", "is", "has"],
+    "answer": "were",
+    "explanation": "'Gentry' (ಉನ್ನತ ವರ್ಗದ ಜನರು) is a collective noun that is always treated as plural. ✅"
+  },
+  {
+    "question": "Our infantry _____ marching forward.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "'Infantry' (ಕಾಲಾಳುಪಡೆ) is always followed by a plural verb. ✅"
+  },
+  {
+    "question": "The poultry _____ been fed.",
+    "options": ["has", "have", "is", "was"],
+    "answer": "have",
+    "explanation": "'Poultry' (ಕೋಳಿ ಸಾಕಣೆ ಹಕ್ಕಿಗಳು) is treated as a plural subject. ✅"
+  },
+  {
+    "question": "Deer _____ beautiful animals.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "The word 'deer' has the same form in singular and plural. Here 'animals' indicates it is plural. ✅"
+  },
+  {
+    "question": "A deer _____ spotted in the backyard.",
+    "options": ["was", "were", "are", "have"],
+    "answer": "was",
+    "explanation": "The article 'A' makes the subject clearly singular. ✅"
+  },
+  {
+    "question": "Sheep _____ reared for wool.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "'Sheep' is used here in a general, plural sense, so it takes a plural verb. ✅"
+  },
+  {
+    "question": "The machinery _____ old and outdated.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "'Machinery' is an uncountable collective noun and takes a singular verb. ✅"
+  },
+  {
+    "question": "Poetry _____ the music of the soul.",
+    "options": ["is", "are", "were", "am"],
+    "answer": "is",
+    "explanation": "'Poetry' is uncountable. (Note: 'Poems' is countable and plural). ✅"
+  },
+  {
+    "question": "His hair _____ turned grey.",
+    "options": ["has", "have", "are", "were"],
+    "answer": "has",
+    "explanation": "'Hair' is considered an uncountable mass and takes a singular verb. ✅"
+  },
+  {
+    "question": "Two hairs _____ found in the soup.",
+    "options": ["was", "were", "is", "has"],
+    "answer": "were",
+    "explanation": "When referring to specific, countable strands of hair, it becomes countable and plural. ✅"
+  },
+  {
+    "question": "The police _____ caught the thief.",
+    "options": ["has", "have", "is", "was"],
+    "answer": "have",
+    "explanation": "The word 'Police' is always treated as a plural noun in English grammar. ✅"
+  },
+  {
+    "question": "A police officer _____ standing at the gate.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "Adding 'officer' makes the subject a singular individual. ✅"
+  },
+  {
+    "question": "The pair of shoes _____ to me.",
+    "options": ["belongs", "belong", "belonging", "have belonged"],
+    "answer": "belongs",
+    "explanation": "The true subject is 'pair' (singular), not 'shoes'. ✅"
+  },
+  {
+    "question": "My shoes _____ missing.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "Without 'a pair of', items like shoes, socks, and gloves are plural. ✅"
+  },
+  {
+    "question": "Billiards _____ played by many people.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "Names of games ending in 's' like Billiards, Darts, and Dominoes take a singular verb. ✅"
+  },
+  {
+    "question": "The crew _____ working hard to stabilize the aircraft.",
+    "options": ["was", "were", "are", "have"],
+    "answer": "was",
+    "explanation": "The crew is acting together as a single functional unit. ✅"
+  },
+  {
+    "question": "The public _____ a right to know the truth.",
+    "options": ["has", "have", "are", "were"],
+    "answer": "has",
+    "explanation": "'Public' takes a singular verb when treated as a single collective entity. ✅"
+  },
+  {
+    "question": "The percentage of impurities _____ high.",
+    "options": ["is", "are", "was", "were"],
+    "answer": "is",
+    "explanation": "'The percentage of' always dictates a singular verb. ✅"
+  },
+  {
+    "question": "A fleet of ships _____ anchored at the harbor.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "The subject is the collective noun 'fleet' (singular). ✅"
+  },
+  {
+    "question": "The business community _____ supporting the new policy.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "Treating the community as a single collective group requires a singular verb. ✅"
+  }
+]
