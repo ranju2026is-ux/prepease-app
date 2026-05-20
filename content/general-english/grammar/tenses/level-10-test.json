@@ -1,0 +1,332 @@
+[
+  {
+    "question": "Identify the error part: By the time (A) / the checking supervisor arrives tomorrow, (B) / the team will complete (C) / the cash account ledger tally. (D)",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "No error"
+    ],
+    "answer": "C",
+    "explanation": "When the 'By the time' clause is in the Simple Present ('arrives'), the main clause must be in the Future Perfect tense ('will have completed') to show completion before the future deadline. ✅"
+  },
+  {
+    "question": "It is high time the state level selection board _____ the final age relaxation notification for competitive exam aspirants.",
+    "options": [
+      "publish",
+      "publishes",
+      "published",
+      "will publish"
+    ],
+    "answer": "published",
+    "explanation": "When 'It is high time' is followed directly by a subject ('the state level selection board'), the verb must strictly be in the Simple Past (V2) form to denote a delayed action. ✅"
+  },
+  {
+    "question": "Ravi _____ in Vijayapura before he shifted his baseline repository infrastructure to Delhi last month.",
+    "options": [
+      "would",
+      "used to",
+      "is used to",
+      "was used to"
+    ],
+    "answer": "used to",
+    "explanation": "'Live' is a stative verb representing a past state. We cannot use 'would' for past states; we must strictly use 'used to'. ✅"
+  },
+  {
+    "question": "If the railway recruitment board _____ the revised calendar tomorrow, the candidates will start updating their travel itineraries.",
+    "options": [
+      "will release",
+      "releases",
+      "released",
+      "releasing"
+    ],
+    "answer": "releases",
+    "explanation": "In a future conditional sentence, the conditional clause starting with 'If' must take the Simple Present tense ('releases'), while the main clause takes the Simple Future. ✅"
+  },
+  {
+    "question": "I realized that I _____ my premium cloud repository access keys at the office only after I reached home last night.",
+    "options": [
+      "forgot",
+      "have forgotten",
+      "had forgotten",
+      "was forgetting"
+    ],
+    "answer": "had forgotten",
+    "explanation": "When two actions happened in the past, the earlier action (forgetting the keys) must be expressed in the Past Perfect tense ('had forgotten') before the second action (reaching home) in Simple Past. ✅"
+  },
+  {
+    "question": "Currently, the junior accounts assistant _____ the unvouched expenditure files for the monthly audit review.",
+    "options": [
+      "verifies",
+      "is verifying",
+      "has verified",
+      "was verifying"
+    ],
+    "answer": "is verifying",
+    "explanation": "The time marker 'Currently' establishes that the action is actively in progress right now, demanding the Present Continuous tense ('is verifying'). ✅"
+  },
+  {
+    "question": "Ravi's new Python automated bot _____ flawlessly for the last forty-eight hours without throwing any configuration error.",
+    "options": [
+      "is executing",
+      "executes",
+      "has been executing",
+      "was executing"
+    ],
+    "answer": "has been executing",
+    "explanation": "The action started in the past and is still continuing in the present with a specified duration ('for the last forty-eight hours'), requiring the Present Perfect Continuous tense. ✅"
+  },
+  {
+    "question": "The technical coach _____ thirty distinct interactive automated quiz levels so far this week.",
+    "options": [
+      "compiled",
+      "has compiled",
+      "is compiling",
+      "compiles"
+    ],
+    "answer": "has compiled",
+    "explanation": "The phrase 'so far' points to a cumulative count of completed actions up to the present moment, which demands the Present Perfect tense. ✅"
+  },
+  {
+    "question": "It is about time you _____ your local python layout dependencies to the latest stable framework build.",
+    "options": [
+      "upgrade",
+      "upgraded",
+      "will upgrade",
+      "upgrading"
+    ],
+    "answer": "upgraded",
+    "explanation": "Just like 'It is time', the phrase 'It is about time' followed directly by a subject ('you') forces the verb into the Simple Past (V2) form 'upgraded'. ✅"
+  },
+  {
+    "question": "The typing assistant _____ all thirty pages of the official RTI draft form an hour ago.",
+    "options": [
+      "has typed",
+      "typed",
+      "types",
+      "is typing"
+    ],
+    "answer": "typed",
+    "explanation": "The specific past time marker 'an hour ago' dictates that the sentence must be in the Simple Past tense (V2) 'typed'. Present Perfect is banned here. ✅"
+  },
+  {
+    "question": "By next month, the junior accounts assistant _____ his full probationary service in the department.",
+    "options": [
+      "will complete",
+      "will have completed",
+      "completed",
+      "is completing"
+    ],
+    "answer": "will have completed",
+    "explanation": "The timeline marker 'By next month' establishes a firm future deadline, which strictly requires the Future Perfect structure ('will have completed'). ✅"
+  },
+  {
+    "question": "Ravi _____ a vast repository of Python script variables when he was building the backend framework.",
+    "options": [
+      "would have",
+      "used to have",
+      "is having",
+      "was used to have"
+    ],
+    "answer": "used to have",
+    "explanation": "'Have' is a stative verb of possession here. Since 'would' cannot express past states or ownership traits, we must use 'used to'. ✅"
+  },
+  {
+    "question": "Until the checking commissioner _____ the cash account ledger balance, the branch cannot clear the pending vouchers.",
+    "options": [
+      "will verify",
+      "verifies",
+      "verified",
+      "will have verified"
+    ],
+    "answer": "verifies",
+    "explanation": "Time clauses introduced by 'Until' reject future modals like 'will' and must strictly employ the Simple Present tense ('verifies'). ✅"
+  },
+  {
+    "question": "The tourist group _____ their destination near Anandpur Sahib before the heavy downpour started.",
+    "options": [
+      "reached",
+      "had reached",
+      "has reached",
+      "were reaching"
+    ],
+    "answer": "had reached",
+    "explanation": "Reaching the destination happened first (1st past action) before the rain started (2nd past action), requiring Past Perfect 'had reached'. ✅"
+  },
+  {
+    "question": "Currently, we _____ our multi-day travel itinerary to explore the scenic valley loops of Himachal Pradesh.",
+    "options": [
+      "plan",
+      "are planning",
+      "planned",
+      "have planned"
+    ],
+    "answer": "are planning",
+    "explanation": "The present focus word 'Currently' signals a live process in motion, requiring the Present Continuous plural form 'are planning'. ✅"
+  },
+  {
+    "question": "Ravi's sister _____ new traditional apparel portfolios since morning without any supervision.",
+    "options": [
+      "is tailoring",
+      "has been tailoring",
+      "tailors",
+      "was tailoring"
+    ],
+    "answer": "has been tailoring",
+    "explanation": "An ongoing action paired with a starting point in time ('since morning') demands the Present Perfect Continuous tense. ✅"
+  },
+  {
+    "question": "Identify the error part: It is high time (A) / the candidate (B) / starts revising (C) / the chemistry formulas. (D)",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "No error"
+    ],
+    "answer": "C",
+    "explanation": "The phrase 'starts revising' is incorrect. After 'It is high time + subject', the verb must be in the Simple Past (V2) form 'started revising'. ✅"
+  },
+  {
+    "question": "The software development team _____ all thirty practice quiz levels into GitHub last night.",
+    "options": [
+      "has pushed",
+      "pushed",
+      "pushes",
+      "is pushing"
+    ],
+    "answer": "pushed",
+    "explanation": "The presence of the specific past time marker 'last night' mandates the usage of the Simple Past tense (V2) 'pushed'. ✅"
+  },
+  {
+    "question": "By the time the countdown timer hits zero, the aspirants _____ all thirty chemistry mock sets.",
+    "options": [
+      "will solve",
+      "will have solved",
+      "solved",
+      "have solved"
+    ],
+    "answer": "will have solved",
+    "explanation": "When the 'By the time' clause is in the Simple Present ('hits'), the main clause takes the Future Perfect tense ('will have solved') to show guaranteed completion. ✅"
+  },
+  {
+    "question": "I _____ the core provisions of the RTI Act very well now, so I can file the appeal.",
+    "options": [
+      "am knowing",
+      "know",
+      "knows",
+      "have been knowing"
+    ],
+    "answer": "know",
+    "explanation": "'Know' is a stative verb of cognition. It cannot be used in the continuous form, even to describe a present state with 'now'. ✅"
+  },
+  {
+    "question": "When we were preparing for the UPSC prelims back then, we _____ study for ten hours straight.",
+    "options": [
+      "would",
+      "use to be",
+      "are used to",
+      "was used to"
+    ],
+    "answer": "would",
+    "explanation": "For a repeated, active past routine or habit ('study') in a retrospective narrative, the past modal 'would' is grammatically accurate. ✅"
+  },
+  {
+    "question": "The technical coach _____ three intensive physics strategy sessions so far this week.",
+    "options": [
+      "conducted",
+      "has conducted",
+      "is conducting",
+      "conducts"
+    ],
+    "answer": "has conducted",
+    "explanation": "The cumulative marker 'so far' limits the evaluation scope to the Present Perfect tense window ('has conducted'). ✅"
+  },
+  {
+    "question": "The computer lab server shut down suddenly because it _____ an unhandled memory leak error.",
+    "options": [
+      "encountered",
+      "had encountered",
+      "has encountered",
+      "is encountering"
+    ],
+    "answer": "had encountered",
+    "explanation": "Encountering the error happened first (1st past action) before the server shut down (2nd past action), requiring Past Perfect 'had encountered'. ✅"
+  },
+  {
+    "question": "The printing assistant is not _____ handling massive ledger validation logs under pressure.",
+    "options": [
+      "used to",
+      "use to",
+      "would",
+      "used to be"
+    ],
+    "answer": "used to",
+    "explanation": "When preceded by a 'be' verb ('is not'), 'used to' means 'accustomed to' and must take a gerund ('handling') right after it. ✅"
+  },
+  {
+    "question": "As soon as Ravi _____ the front-end layout styling code, the interactive widget will refresh automatically.",
+    "options": [
+      "will update",
+      "updates",
+      "updated",
+      "will be updating"
+    ],
+    "answer": "updates",
+    "explanation": "In a future time clause introduced by 'As soon as', we strictly use Simple Present ('updates') instead of future modals like 'will'. ✅"
+  },
+  {
+    "question": "It is about time we _____ our final travel itinerary to avoid any sudden transit delays.",
+    "options": [
+      "finalize",
+      "finalized",
+      "will finalize",
+      "finalizing"
+    ],
+    "answer": "finalized",
+    "explanation": "Just like 'It is time', the phrase 'It is about time + subject' requires the trailing verb to be in the Simple Past (V2) form 'finalized'. ✅"
+  },
+  {
+    "question": "I can't log in to the system because someone _____ the cloud repository validation keys.",
+    "options": [
+      "changed",
+      "has changed",
+      "is changing",
+      "changes"
+    ],
+    "answer": "has changed",
+    "explanation": "The past action has a direct, visible consequence or relevance to the immediate present situation ('I can't log in'), demanding Present Perfect 'has changed'. ✅"
+  },
+  {
+    "question": "The historical fort preservation board _____ to the district headquarters back in 2019.",
+    "options": [
+      "would belong",
+      "used to belong",
+      "is belonging",
+      "was belonging"
+    ],
+    "answer": "used to belong",
+    "explanation": "'Belong' is a stative verb of possession/connection. 'Would' cannot be used for past states; we must use 'used to belong'. ✅"
+  },
+  {
+    "question": "By dusk tomorrow, the family _____ their scenic hotel room near the riverbank loop.",
+    "options": [
+      "will book",
+      "will have booked",
+      "booked",
+      "are booking"
+    ],
+    "answer": "will have booked",
+    "explanation": "A guaranteed future completion anchored by a specific timeline cutoff point ('By dusk tomorrow') demands Future Perfect ('will have booked'). ✅"
+  },
+  {
+    "question": "The typing assistant _____ all thirty pages of the unvouched expenditure files before she went home yesterday.",
+    "options": [
+      "typed",
+      "had typed",
+      "has typed",
+      "was typing"
+    ],
+    "answer": "had typed",
+    "explanation": "Typing the files was completed first (1st past action) before she went home (2nd past action), necessitating Past Perfect 'had typed'. ✅"
+  }
+]
