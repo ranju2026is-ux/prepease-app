@@ -1,0 +1,182 @@
+[
+  {
+    "question": "_____ honesty is widely considered to be the best policy in life.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "Abstract nouns like 'honesty' take no article when used in a general sense. ✅"
+  },
+  {
+    "question": "_____ honesty shown by the junior accounts assistant was praised by the commissioner.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Here, 'honesty' is specific because it refers to the particular honesty shown by that specific assistant. ✅"
+  },
+  {
+    "question": "_____ gold is a precious metal used for making traditional jewelry.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "Material nouns like 'gold' do not take an article when spoken of in a general, global context. ✅"
+  },
+  {
+    "question": "_____ gold found in the Kolar mines is known for its high purity.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "The material noun is specific here because it is restricted to the gold found only in the Kolar mines. ✅"
+  },
+  {
+    "question": "_____ water is essential for the survival of all living organisms.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "Water is a material mass noun used in a universal general statement, requiring zero article. ✅"
+  },
+  {
+    "question": "Please drink _____ water kept in the copper jug on the desk.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Points to a specific quantity of water—the exact water inside the copper jug. ✅"
+  },
+  {
+    "question": "_____ wisdom is a virtue that comes with long practical experience.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "Abstract nouns take zero article in general philosophical definitions. ✅"
+  },
+  {
+    "question": "Everyone admired _____ wisdom of the ancient king who built the monument.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "The wisdom is particularized by linking it directly to the ancient king, demanding 'The'. ✅"
+  },
+  {
+    "question": "_____ iron is a very useful metal for heavy industrial infrastructure.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "Material noun 'iron' functions under the general utility domain without an article. ✅"
+  },
+  {
+    "question": "_____ iron used in the construction of this bridge was imported.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Specifies the exact iron stock utilized in building that unique bridge structure. ✅"
+  },
+  {
+    "question": "_____ patience is required when debugging complex Python scripts.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "Abstract quality expression used in a general technical warning context. ✅"
+  },
+  {
+    "question": "_____ patience she showed while dealing with the rowdy crowd was remarkable.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Isolates the specific instance of patience exhibited by her during that event. ✅"
+  },
+  {
+    "question": "_____ copper was the first metal to be used by early humans.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "Material noun referenced in a broad historical general baseline. ✅"
+  },
+  {
+    "question": "_____ copper found in these electrical wires is of supreme quality.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "The reference targets the distinct copper contents of those specific wires. ✅"
+  },
+  {
+    "question": "_____ beauty is skin deep, but character matters forever.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "Abstract noun 'beauty' deployed in a generalized aphorism or proverb. ✅"
+  },
+  {
+    "question": "We were spellbound by _____ beauty of the landscapes near Anandpur Sahib.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "The abstract concept becomes uniquely specific to that particular geographical location. ✅"
+  },
+  {
+    "question": "_____ rice is the staple food item across southern India.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "Material mass grain noun utilized in a wide geographical general fact. ✅"
+  },
+  {
+    "question": "_____ rice served at the official audit meeting lunch was aromatic.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Limits the scope to the exact portion of rice prepared for that specific business lunch. ✅"
+  },
+  {
+    "question": "_____ information is power in the modern digital ecosystem.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "Uncountable abstract term used as a general high-level claim. ✅"
+  },
+  {
+    "question": "_____ information regarding the exam dates was extracted from the RTI response.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "The information becomes definite because it is identified as the contents of that exact RTI file. ✅"
+  },
+  {
+    "question": "_____ milk is an excellent source of calcium for children.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "General biochemical fact referencing an uncountable material compound. ✅"
+  },
+  {
+    "question": "He accidentally spilled _____ milk that his mother had boiled.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Points specifically to the exact batch of milk boiled by his mother. ✅"
+  },
+  {
+    "question": "_____ courage is necessary to speak the truth in tough conditions.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "Abstract characteristic stated in a generalized value sentence. ✅"
+  },
+  {
+    "question": "_____ courage shown by the young soldier earned him a gallantry medal.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Distinctly qualifies the specific brave act performed by that particular soldier. ✅"
+  },
+  {
+    "question": "_____ silver is highly conductive compared to other base manufacturing metals.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "Material noun evaluated inside a generic scientific declaration. ✅"
+  },
+  {
+    "question": "_____ silver used in making these medals was sponsored by the bank.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Restricts the material scope to the specific silver compound allocated for those items. ✅"
+  },
+  {
+    "question": "_____ cruelty to animals is a punishable offense under the law.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "Abstract behavioral vice concept categorized broadly in legal prose. ✅"
+  },
+  {
+    "question": "The public was shocked by _____ cruelty of the kidnappers.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "The abstract vice becomes concrete and specific to the actions of those individual criminals. ✅"
+  },
+  {
+    "question": "_____ tea is grown extensively on the mountain slopes of Assam.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "Agricultural material noun used to frame an over-arching geographic trend. ✅"
+  },
+  {
+    "question": "I left _____ tea on the table, and now it has gone completely cold.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Particularizes the exact cup of tea brewed and left unattended on that table surface. ✅"
+  }
+]
