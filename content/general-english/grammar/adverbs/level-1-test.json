@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Identify the correct sentence: He runs _____.",
+    "options": ["fastly", "fast", "more fastly", "fasten"],
+    "answer": "fast",
+    "explanation": "'Fast' acts as both an adjective and an adverb. The word 'fastly' does not exist in English grammar. ✅"
+  },
+  {
+    "question": "The newly appointed JAA completed the balance sheet validation _____.",
+    "options": ["quick", "quickly", "quickest", "more quick"],
+    "answer": "quickly",
+    "explanation": "To modify the action verb 'completed', we need the adverb of manner 'quickly'. ✅"
+  },
+  {
+    "question": "Ravi always works _____ to meet the project deadline.",
+    "options": ["hardly", "hard", "harderly", "with hard"],
+    "answer": "hard",
+    "explanation": "'Hard' means with great effort. 'Hardly' is a negative word meaning 'almost not', which changes the meaning. ✅"
+  },
+  {
+    "question": "Choose the correct position of the adverb: He _____ comes late to the office.",
+    "options": ["always", "is always", "always is", "comes always"],
+    "answer": "always",
+    "explanation": "Adverbs of frequency like 'always' are placed directly before the main action verb ('comes'). ✅"
+  },
+  {
+    "question": "The database script executed smoothly because it was written _____.",
+    "options": ["good", "well", "goodly", "bestly"],
+    "answer": "well",
+    "explanation": "'Good' is an adjective, whereas 'well' is the correct adverb form used to modify the verb 'written'. ✅"
+  },
+  {
+    "question": "She speaks English very _____ during the mock interview.",
+    "options": ["fluent", "fluently", "more fluent", "fluently manner"],
+    "answer": "fluently",
+    "explanation": "The verb 'speaks' requires the adverb 'fluently' to describe how the action is performed. ✅"
+  },
+  {
+    "question": "He is _____ late for the departmental audit meeting.",
+    "options": ["always", "always is", "is always", "always has"],
+    "answer": "is always",
+    "explanation": "Adverbs of frequency must come after the 'be' verbs (is, am, are, was, were). ✅"
+  },
+  {
+    "question": "The rain was falling _____ all over the Vijayapura district.",
+    "options": ["heavy", "heavily", "heavyly", "more heavy"],
+    "answer": "heavily",
+    "explanation": "The correct spelling and adverbial form for the verb 'falling' is 'heavily'. ✅"
+  },
+  {
+    "question": "The typing assistant checked the draft records _____.",
+    "options": ["careful", "carefully", "more careful", "carefuler"],
+    "answer": "carefully",
+    "explanation": "Modifies the verb 'checked' using the regular adverb of manner ending in '-ly'. ✅"
+  },
+  {
+    "question": "He solved the complex accounting problem _____.",
+    "options": ["easy", "easily", "easyly", "more easy"],
+    "answer": "easily",
+    "explanation": "The word 'easily' is the correct adverbial form to modify the verb 'solved'. ✅"
+  },
+  {
+    "question": "I haven't seen any new updates on the portal _____.",
+    "options": ["late", "lately", "latestly", "more late"],
+    "answer": "lately",
+    "explanation": "'Lately' is an adverb that means 'recently', which perfectly fits the time context here. ✅"
+  },
+  {
+    "question": "The project documentation was _____ short and precise.",
+    "options": ["real", "really", "realist", "really manner"],
+    "answer": "really",
+    "explanation": "To modify the adjective 'short', we use the adverb 'really'. ✅"
+  },
+  {
+    "question": "He arrived _____ for the verification session, so he missed the introduction.",
+    "options": ["late", "lately", "more lately", "latestly"],
+    "answer": "late",
+    "explanation": "When referring to time beyond the scheduled window, the adverb form is 'late'. ✅"
+  },
+  {
+    "question": "The student answered all the physics questions _____.",
+    "options": ["correct", "correctly", "more correct", "correctly form"],
+    "answer": "correctly",
+    "explanation": "The adverb 'correctly' modifies the action verb 'answered'. ✅"
+  },
+  {
+    "question": "They walked _____ through the quiet historical streets near the fort.",
+    "options": ["silent", "silently", "silent manner", "more silent"],
+    "answer": "silently",
+    "explanation": "Describes the manner of walking, which requires the '-ly' adverb 'silently'. ✅"
+  },
+  {
+    "question": "Ravi can configure the backend routes _____.",
+    "options": ["simple", "simply", "simplely", "more simple"],
+    "answer": "simply",
+    "explanation": "The base adjective 'simple' changes to 'simply' when acting as an adverb modifying 'configure'. ✅"
+  },
+  {
+    "question": "She designed the fashion apparel portfolio _____.",
+    "options": ["beautiful", "beautifully", "beautifuly", "in beautiful"],
+    "answer": "beautifully",
+    "explanation": "Modifies the creative action verb 'designed' using the standard adverb of manner. ✅"
+  },
+  {
+    "question": "We _____ see a data mismatch error in this updated software schema.",
+    "options": ["rare", "rarely", "rarely manner", "more rare"],
+    "answer": "rarely",
+    "explanation": "The frequency modifier 'rarely' (ಅಪರೂಪವಾಗಿ) correctly precedes the main verb 'see'. ✅"
+  },
+  {
+    "question": "The high-quality upscaled images were saved _____ in the folder.",
+    "options": ["secure", "securely", "securely form", "more secure"],
+    "answer": "securely",
+    "explanation": "Modifies the action 'saved', requiring the adverb format 'securely'. ✅"
+  },
+  {
+    "question": "He spoke _____ to the senior superintendent regarding his casual leave.",
+    "options": ["polite", "politely", "polite manner", "more polite"],
+    "answer": "politely",
+    "explanation": "The action verb 'spoke' takes the adverb of manner 'politely'. ✅"
+  },
+  {
+    "question": "The bus moved _____ through the narrow village roads.",
+    "options": ["slow", "slowly", "slowly manner", "slowestly"],
+    "answer": "slowly",
+    "explanation": "Describes how the bus 'moved', requiring the adverb 'slowly'. ✅"
+  },
+  {
+    "question": "The candidate shouted _____ when he saw his name on the selection list.",
+    "options": ["loud", "loudly", "loudly form", "more loud"],
+    "answer": "loudly",
+    "explanation": "The verb 'shouted' is modified by the adverb 'loudly'. ✅"
+  },
+  {
+    "question": "The front-end layout of PrepEase loads _____ on mobile networks.",
+    "options": ["smooth", "smoothly", "smoothly manner", "smootherly"],
+    "answer": "smoothly",
+    "explanation": "The verb 'loads' takes the regular manner adverb 'smoothly'. ✅"
+  },
+  {
+    "question": "He _____ forgets to backup his Python files before updating the repository.",
+    "options": ["often", "is often", "often is", "has often"],
+    "answer": "often",
+    "explanation": "The adverb of frequency 'often' sits accurately directly before the action verb 'forgets'. ✅"
+  },
+  {
+    "question": "The old manual records were written very _____ and are hard to read.",
+    "options": ["bad", "badly", "badly form", "worstly"],
+    "answer": "badly",
+    "explanation": "'Badly' is the correct adverbial profile modifying the passive verb 'written'. ✅"
+  },
+  {
+    "question": "Ravi is _____ dedicated to building this educational application.",
+    "options": ["deep", "deeply", "deeply manner", "deeperly"],
+    "answer": "deeply",
+    "explanation": "To modify the adjective 'dedicated', the adverb 'deeply' is used. ✅"
+  },
+  {
+    "question": "The security system checked all incoming file requests _____.",
+    "options": ["automatic", "automatically", "automaticly", "in automatic"],
+    "answer": "automatically",
+    "explanation": "The proper spelling format for this adverb modifying 'checked' is 'automatically'. ✅"
+  },
+  {
+    "question": "He explained the structure of the RTI act very _____.",
+    "options": ["clear", "clearly", "clear manner", "clearly form"],
+    "answer": "clearly",
+    "explanation": "Modifies 'explained', requiring the definite manner adverb 'clearly'. ✅"
+  },
+  {
+    "question": "The family traveled _____ to reach the travel hub in Delhi.",
+    "options": ["safe", "safely", "safely manner", "more safe"],
+    "answer": "safely",
+    "explanation": "The verb 'traveled' takes the structural adverb 'safely' to indicate manner. ✅"
+  },
+  {
+    "question": "The train passed _____ through the station platform.",
+    "options": ["swift", "swiftly", "swiftly form", "more swift"],
+    "answer": "swiftly",
+    "explanation": "Describes the manner of the action verb 'passed', selecting 'swiftly'. ✅"
+  }
+]
