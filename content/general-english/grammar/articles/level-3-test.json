@@ -1,0 +1,182 @@
+[
+  {
+    "question": "_____ Sun rises in _____ East and sets in the West.",
+    "options": ["A, the", "The, the", "The, an", "No article, the"],
+    "answer": "The, the",
+    "explanation": "We use 'The' before unique celestial objects (Sun) and before the names of cardinal directions (East). ✅"
+  },
+  {
+    "question": "He has been living in _____ North India for more than ten years.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "We use 'The' before directions like 'the North', but we do NOT use an article before directions followed by a specific country/state name like 'North India'. ✅"
+  },
+  {
+    "question": "The wind is blowing from _____ south-west direction.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Directions, when specific or preceded by a preposition like 'from', always take the definite article 'The'. ✅"
+  },
+  {
+    "question": "Ravi gifted his sister _____ piano on her birthday.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "When a musical instrument is mentioned merely as a countable physical object/gift, we use 'a' or 'an'. ✅"
+  },
+  {
+    "question": "She excels at playing _____ piano in the musical troupe.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "When referring to playing a musical instrument as a skill or musical action, the definite article 'The' is mandatory. ✅"
+  },
+  {
+    "question": "_____ internet has completely transformed the method of competitive exam preparation.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "We use 'The' before unique scientific inventions and global tech platforms like the internet, the telephone, etc. ✅"
+  },
+  {
+    "question": "He is fond of listening to the news on _____ radio every morning.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "The idiom 'on the radio' always takes the definite article 'The'. ✅"
+  },
+  {
+    "question": "They love watching football matches on _____ television during weekends.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "Unlike radio, when 'television' or 'TV' is used in the sense of broadcasting/watching programs, we say 'on television' without an article. ✅"
+  },
+  {
+    "question": "He bought _____ new television for the office conference room.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "When 'television' is referred to as a physical, countable device unit, it takes the indefinite article 'a'. ✅"
+  },
+  {
+    "question": "_____ space exploration has advanced significantly in the 21st century.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "no article",
+    "explanation": "When 'space' is used in the astronomical sense (universe), it does not take any article before it. ✅"
+  },
+  {
+    "question": "He tried to park his car, but _____ space was too small.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "When 'space' refers to a specific physical area or parking spot, it takes the definite article 'The'. ✅"
+  },
+  {
+    "question": "_____ Middle East has always been a strategically vital region for oil supply.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Geographical regions that describe a collective area with a direction name (like the Middle East, the Far East) take 'The'. ✅"
+  },
+  {
+    "question": "_____ Western Europe comprises some of the most economically advanced nations.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "Directions ending in '-ern' followed by a continent or country name (like Western Europe, Northern India) do not take an article. ✅"
+  },
+  {
+    "question": "The ship sailed towards _____ South Pole to conduct research.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Specific unique geographical points like 'The North Pole' or 'The South Pole' always take 'The'. ✅"
+  },
+  {
+    "question": "I need to look up the guidelines on _____ web for my RTI draft.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Just like the internet, 'the web' or 'the World Wide Web' is a unique technology system requiring 'The'. ✅"
+  },
+  {
+    "question": "She bought _____ flute from a local musician at the fair.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "Used here as a countable single object purchase, requiring 'a'. ✅"
+  },
+  {
+    "question": "Learning to play _____ flute requires consistent practice and breath control.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Refers to the musical performance action or skill context, demanding 'The'. ✅"
+  },
+  {
+    "question": "_____ Moon looks exceptionally bright tonight over the town.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "The Moon is a unique celestial body belonging to our planet, requiring 'The'. ✅"
+  },
+  {
+    "question": "Our flight is heading towards _____ northern part of Karnataka.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Phrases like 'the northern part of' or 'the southern side of' always take the definite article 'The'. ✅"
+  },
+  {
+    "question": "He prefers traveling in _____ South Africa due to its scenic coastline.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "'South Africa' is the proper name of a country, so it does not take any article. ✅"
+  },
+  {
+    "question": "Who invented _____ telephone?",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "When talking about inventions in a generalized or historical sense, we use 'the + singular noun'. ✅"
+  },
+  {
+    "question": "There is _____ telephone booth near the old government office.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "Here, it indicates a single, general countable facility unit ('a telephone booth'). ✅"
+  },
+  {
+    "question": "Astronauts travel into _____ space using highly advanced rockets.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "General astronomical space takes no article. ✅"
+  },
+  {
+    "question": "Please clear _____ space on the desk so I can place the ledger books.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "some",
+    "explanation": "In multiple choice, if 'the' is an option for a specific room or context, we use 'the'. Since 'the space' means a specific designated area, 'the' is correct here. ✅"
+  },
+  {
+    "question": "_____ East is historically rich in spiritual philosophy.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "When a direction stands alone to signify a culture or region (The East meaning oriental countries), it takes 'The'. ✅"
+  },
+  {
+    "question": "They migrated to _____ Western Australia looking for mining jobs.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "No article before directional adjectives modifying state or territory proper names. ✅"
+  },
+  {
+    "question": "We watched the sunrise from _____ top of the fort hill.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Phrases showing unique position heights like 'the top of', 'the bottom of' take 'The'. ✅"
+  },
+  {
+    "question": "Ravi is learning how to operate _____ laser printer in the back-end team.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Refers to operating a category of technical invention systems, using 'The'. ✅"
+  },
+  {
+    "question": "He has _____ masterly control over the violin.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "The modifier phrase is 'a masterly control' (indefinite singular abstract quality). ✅"
+  },
+  {
+    "question": "_____ Equator passes through several tropical nations.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Unique imaginary geographical lines on the globe (The Equator, The Tropic of Cancer) take 'The'. ✅"
+  }
+]
