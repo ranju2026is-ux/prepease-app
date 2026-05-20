@@ -1,0 +1,182 @@
+[
+  {
+    "question": "The train _____ before I reached the Delhi station.",
+    "options": ["left", "had left", "has left", "was leaving"],
+    "answer": "had left",
+    "explanation": "Two past actions occurred. The train leaving happened first (1st action), so it must take Past Perfect 'had left'. Reaching the station happened second (2nd action) in Simple Past. ✅"
+  },
+  {
+    "question": "Ravi _____ the Python code repository before the server crashed suddenly last night.",
+    "options": ["updated", "had updated", "has updated", "was updating"],
+    "answer": "had updated",
+    "explanation": "Updating the repository was completed first (1st action) before the server crashed (2nd action), requiring Past Perfect 'had updated'. ✅"
+  },
+  {
+    "question": "The junior accounts assistant verified the entries after he _____ the main trial balance sheet.",
+    "options": ["received", "had received", "has received", "was receiving"],
+    "answer": "had received",
+    "explanation": "The action of receiving the sheet happened first (1st action) before the verification took place (2nd action), demanding 'had received'. ✅"
+  },
+  {
+    "question": "The candidate _____ his RTI appeal draft before the closing hour ended.",
+    "options": ["submitted", "had submitted", "has submitted", "was submitting"],
+    "answer": "had submitted",
+    "explanation": "Submitting the draft happened first (1st action) before the deadline closed (2nd action), which requires Past Perfect. ✅"
+  },
+  {
+    "question": "When the checking supervisor arrived at the branch, the accountant _____ home.",
+    "options": ["went", "had gone", "has gone", "was going"],
+    "answer": "had gone",
+    "explanation": "The accountant leaving for home happened before the supervisor's arrival, making it the primary past action ('had gone'). ✅"
+  },
+  {
+    "question": "The printing assistant cleared the tokens after the supervisor _____ the ledger log voucher.",
+    "options": ["approved", "had approved", "has approved", "was approving"],
+    "answer": "had approved",
+    "explanation": "The approval happened first (1st action) before the tokens were cleared (2nd action), so 'had approved' is the correct choice. ✅"
+  },
+  {
+    "question": "By the time the coach started the chemistry mock class, the students _____ the formulas.",
+    "options": ["revised", "had revised", "has revised", "were revising"],
+    "answer": "had revised",
+    "explanation": "The phrase 'By the time' introduces the second action. The first action of revising the formulas must be in Past Perfect 'had revised'. ✅"
+  },
+  {
+    "question": "Ravi's sister _____ the customized apparel design before she showcased it to the studio head.",
+    "options": ["completed", "had completed", "has completed", "was completing"],
+    "answer": "had completed",
+    "explanation": "Completing the design was the first completed event in the past, demanding the Past Perfect 'had completed'. ✅"
+  },
+  {
+    "question": "The computer lab server shut down after it _____ an internal runtime memory error.",
+    "options": ["encountered", "had encountered", "has encountered", "is encountering"],
+    "answer": "had encountered",
+    "explanation": "Encountering the memory leak error happened first (1st action) before the server shut down (2nd action), requiring 'had encountered'. ✅"
+  },
+  {
+    "question": "I realized that I _____ my premium cloud repository access keys at the office after I reached home.",
+    "options": ["forgot", "had forgotten", "have forgotten", "was forgetting"],
+    "answer": "had forgotten",
+    "explanation": "Forgetting the keys happened first (1st action) before reaching home and realizing it (2nd action), necessitating 'had forgotten'. ✅"
+  },
+  {
+    "question": "The state level selection board published the cut-off scores after they _____ all answers.",
+    "options": ["verified", "had verified", "have verified", "were verifying"],
+    "answer": "had verified",
+    "explanation": "Verifying the answers happened first (1st action) before the publication of scores (2nd action), triggering 'had verified'. ✅"
+  },
+  {
+    "question": "The bus to Vijayapura _____ before we reached the local transit point.",
+    "options": ["started", "had started", "has started", "was starting"],
+    "answer": "had started",
+    "explanation": "The bus starting its journey was the initial past action, which dictates Past Perfect 'had started'. ✅"
+  },
+  {
+    "question": "He told the checking board that he _____ the cash account balance sheets carefully.",
+    "options": ["cross-checked", "had cross-checked", "has cross-checked", "cross-checks"],
+    "answer": "had cross-checked",
+    "explanation": "The cross-checking happened prior to his statement, framing a classic indirect speech past perfect reporting logic. ✅"
+  },
+  {
+    "question": "The family reached Delhi after the train _____ from Karnataka.",
+    "options": ["departed", "had departed", "has departed", "was departing"],
+    "answer": "had departed",
+    "explanation": "The departure of the train happened first (1st action) before the family arrived at their destination (2nd action). ✅"
+  },
+  {
+    "question": "Ravi _____ the front-end layout variables before the client requested changes.",
+    "options": ["configured", "had configured", "has configured", "is configuring"],
+    "answer": "had configured",
+    "explanation": "Configuring the layout was completed before the request came in, satisfying the past perfect timeline requirements. ✅"
+  },
+  {
+    "question": "The candidate regretted that he _____ hard enough for the UPSC prelims cut-off margin.",
+    "options": ["did not study", "had not studied", "has not studied", "was not studying"],
+    "answer": "had not studied",
+    "explanation": "The lack of study happened before the realization and regret, triggering the past perfect negative format 'had not studied'. ✅"
+  },
+  {
+    "question": "The technical coach reviewed the physics formula sheet after the team _____ it.",
+    "options": ["compiled", "had compiled", "has compiled", "was compiling"],
+    "answer": "had compiled",
+    "explanation": "The compilation process was completed first (1st action) before the coach began his review (2nd action). ✅"
+  },
+  {
+    "question": "By the time the fire brigade arrived, the historic fort structure _____ completely.",
+    "options": ["collapsed", "had collapsed", "has collapsed", "was collapsing"],
+    "answer": "had collapsed",
+    "explanation": "The structure collapsing happened before the fire brigade's arrival, requiring Past Perfect. ✅"
+  },
+  {
+    "question": "The applicant checked the status of his application after he _____ the RTI clarification request.",
+    "options": ["filed", "had filed", "has filed", "was filing"],
+    "answer": "had filed",
+    "explanation": "Filing the RTI request was the primary completed action, matching with 'had filed'. ✅"
+  },
+  {
+    "question": "The typing assistant went for her evening shift after she _____ the official drafts.",
+    "options": ["finished", "had finished", "has finished", "was finishing"],
+    "answer": "had finished",
+    "explanation": "Finishing the drafts happened first (1st action) before she left for her evening shift (2nd action). ✅"
+  },
+  {
+    "question": "The interactive automated quiz widget crashed because the developer _____ a typo in the schema.",
+    "options": ["introduced", "had introduced", "has introduced", "was introducing"],
+    "answer": "had introduced",
+    "explanation": "Introducing the typo happened before the widget crashed, acting as the root cause or 1st action in the past perfect. ✅"
+  },
+  {
+    "question": "The tourist group discovered that someone _____ the route markers near Anandpur Sahib.",
+    "options": ["removed", "had removed", "has removed", "was removing"],
+    "answer": "had removed",
+    "explanation": "The removal of the markers happened before the group discovered it, requiring Past Perfect. ✅"
+  },
+  {
+    "question": "Ravi _____ the database backup routines before the power failure hit the server room.",
+    "options": ["activated", "had activated", "has activated", "was activating"],
+    "answer": "had activated",
+    "explanation": "Activating the backup occurred first (1st action) before the power failure (2nd action), using 'had activated'. ✅"
+  },
+  {
+    "question": "The checking officer signed the files after he _____ the cash book mismatch amount.",
+    "options": ["reconciled", "had reconciled", "has reconciled", "was reconciling"],
+    "answer": "had reconciled",
+    "explanation": "Reconciling the mismatch happened first (1st action) before the files were signed (2nd action). ✅"
+  },
+  {
+    "question": "The probationary JAA _____ the pending manual tokens before the closing bell rang.",
+    "options": ["cleared", "had cleared", "has cleared", "was clearing"],
+    "answer": "had cleared",
+    "explanation": "Clearing the tokens was completed first (1st action) before the closing bell rang (2nd action). ✅"
+  },
+  {
+    "question": "The chemistry lecturer checked the lab instruments after the assistant _____ them.",
+    "options": ["cleaned", "had cleaned", "has cleaned", "was cleaning"],
+    "answer": "had cleaned",
+    "explanation": "The cleaning process happened first (1st action) before the lecturer's inspection (2nd action). ✅"
+  },
+  {
+    "question": "When we reached the exam center in Vijayapura, the gateway _____ already.",
+    "options": ["closed", "had closed", "has closed", "was closing"],
+    "answer": "had closed",
+    "explanation": "The closing of the gateway was already completed before the arrival of the candidates, necessitating Past Perfect. ✅"
+  },
+  {
+    "question": "Ravi's sister launched her apparel studio after she _____ self-taught fashion design lessons.",
+    "options": ["mastered", "had mastered", "has mastered", "was mastering"],
+    "answer": "had mastered",
+    "explanation": "Mastering the lessons happened first (1st action) before she launched her studio (2nd action). ✅"
+  },
+  {
+    "question": "The automated tracking script logged the transaction details after the user _____ the prompt.",
+    "options": ["submitted", "had submitted", "has submitted", "was submitting"],
+    "answer": "had submitted",
+    "explanation": "The user submitting the prompt happened first (1st action) before the script logged it (2nd action). ✅"
+  },
+  {
+    "question": "He _____ thirty distinct mock sets before the board updated the exam format rules.",
+    "options": ["solved", "had solved", "has solved", "was solving"],
+    "answer": "had solved",
+    "explanation": "Solving the thirty mock sets was completed first (1st action) before the board updated the rules (2nd action). ✅"
+  }
+]
