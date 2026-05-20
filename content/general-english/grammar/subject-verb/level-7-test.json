@@ -1,0 +1,182 @@
+[
+  {
+    "question": "If I _____ in your position, I would have submitted the RTI application immediately.",
+    "options": ["was", "were", "am", "be"],
+    "answer": "were",
+    "explanation": "In hypothetical or conditional sentences (Subjunctive Mood), 'were' is used with all subjects, including 'I'. ✅"
+  },
+  {
+    "question": "Hardly _____ the accounts assistant entered the cabin when the phone started ringing.",
+    "options": ["had", "has", "did", "was"],
+    "answer": "had",
+    "explanation": "When a sentence begins with a negative adverb like 'Hardly', inversion occurs: the auxiliary verb 'had' must precede the subject. ✅"
+  },
+  {
+    "question": "The board demanded that the junior assistant _____ present at the audit meeting.",
+    "options": ["is", "was", "be", "were"],
+    "answer": "be",
+    "explanation": "Verbs like demand, suggest, or insist require the subjunctive base form of the verb ('be'), not 'is' or 'was'. ✅"
+  },
+  {
+    "question": "I wish the permanent structure of the database _____ modified earlier.",
+    "options": ["was", "were", "is", "be"],
+    "answer": "were",
+    "explanation": "Sentences expressing an unreal wish or regret use the subjunctive plural form 'were'. ✅"
+  },
+  {
+    "question": "No sooner _____ the notification published than the candidates started applying online.",
+    "options": ["was", "did", "had", "has"],
+    "answer": "was",
+    "explanation": "With 'No sooner', inversion applies. Since the participle is 'published', 'was the notification published' fits grammatically. ✅"
+  },
+  {
+    "question": "It is essential that each developer _____ the source code before pushing to GitHub.",
+    "options": ["verify", "verifies", "verifying", "verified"],
+    "answer": "verify",
+    "explanation": "The adjective 'essential' triggers the subjunctive mood, meaning the base verb 'verify' is used without adding an 's'. ✅"
+  },
+  {
+    "question": "Seldom _____ we witnessed such an error in the trial balance ledger.",
+    "options": ["has", "have", "did", "had"],
+    "answer": "have",
+    "explanation": "'Seldom' is a negative adverb that triggers inversion. The plural subject 'we' requires the plural auxiliary verb 'have'. ✅"
+  },
+  {
+    "question": "The manager insisted that Ravi _____ the SQL query execution log manually.",
+    "options": ["check", "checks", "checked", "checking"],
+    "answer": "check",
+    "explanation": "The verb 'insisted' triggers the subjunctive mood, which requires the base form of the verb ('check') irrespective of the singular subject. ✅"
+  },
+  {
+    "question": "Scarcely _____ the train arrived at Vijayapura station when the power went out.",
+    "options": ["has", "did", "had", "was"],
+    "answer": "had",
+    "explanation": "'Scarcely' mandates partial inversion, placing the auxiliary verb 'had' directly before the subject 'the train'. ✅"
+  },
+  {
+    "question": "He behaves as though he _____ the chief secretary of the state.",
+    "options": ["is", "was", "were", "be"],
+    "answer": "were",
+    "explanation": "Phrases like 'as though' and 'as if' indicate an imaginary situation, which dictates the usage of 'were'. ✅"
+  },
+  {
+    "question": "Not only _____ he automate the quiz bot, but he also configured the database perfectly.",
+    "options": ["does", "did", "has", "had"],
+    "answer": "did",
+    "explanation": "When 'Not only' starts a sentence, inversion occurs. 'Did' matches the past tense context established by 'configured'. ✅"
+  },
+  {
+    "question": "The candidate requested that the exam center _____ changed due to travel distance.",
+    "options": ["is", "was", "be", "were"],
+    "answer": "be",
+    "explanation": "The verb 'requested' introduces a clause in the subjunctive mood, which strictly calls for the base verb form 'be'. ✅"
+  },
+  {
+    "question": "Under no circumstances _____ the junior staff allowed to access the main cash ledger without supervision.",
+    "options": ["is", "are", "was", "were"],
+    "answer": "are",
+    "explanation": "The restrictive expression 'Under no circumstances' at the start causes inversion. 'Staff' is plural here, requiring 'are'. ✅"
+  },
+  {
+    "question": "If the team leader _____ to propose a new schema, the development would accelerate.",
+    "options": ["was", "were", "is", "am"],
+    "answer": "were",
+    "explanation": "An conditional 'if' clause outlining a remote/imaginary future scenario uses the subjunctive 'were to'. ✅"
+  },
+  {
+    "question": "The recommendation that she _____ appointed as a senior fashion designer was approved.",
+    "options": ["is", "was", "be", "been"],
+    "answer": "be",
+    "explanation": "The noun 'recommendation' followed by 'that' demands a subjunctive verb form, which is 'be'. ✅"
+  },
+  {
+    "question": "On the top of the hill _____ the ancient ruins of the fort.",
+    "options": ["stand", "stands", "standing", "is stood"],
+    "answer": "stand",
+    "explanation": "In sentences starting with a locative adverbial phrase, full inversion occurs. The subject is 'ancient ruins' (plural), so the verb is 'stand'. ✅"
+  },
+  {
+    "question": "Little _____ the department suspect that there was a data leak in the app repository.",
+    "options": ["does", "did", "has", "had"],
+    "answer": "did",
+    "explanation": "The negative adverb 'Little' triggers inversion, forcing the past tense helper 'did' to precede the subject 'the department'. ✅"
+  },
+  {
+    "question": "It is crucial that the balance sheet _____ tallied before the closing date.",
+    "options": ["is", "was", "be", "were"],
+    "answer": "be",
+    "explanation": "'Crucial' requires a subjunctive clause, which uses the base form 'be tallied' in passive voice. ✅"
+  },
+  {
+    "question": "Only by working hard _____ an aspirant clear the UPSC prelims exam.",
+    "options": ["can", "does", "should", "will"],
+    "answer": "can",
+    "explanation": "Sentences beginning with 'Only by...' require inversion. The modal 'can' appropriately precedes the subject 'an aspirant'. ✅"
+  },
+  {
+    "question": "The judge ordered that the prisoner _____ executed without delay.",
+    "options": ["is", "was", "be", "were"],
+    "answer": "be",
+    "explanation": "The verb 'ordered' mandates the use of the subjunctive 'be' in the succeeding object clause. ✅"
+  },
+  {
+    "question": "Never before _____ such a complex SQL error occurred in our web app.",
+    "options": ["has", "have", "had", "was"],
+    "answer": "has",
+    "explanation": "The negative phrase 'Never before' induces inversion. The subject 'error' is singular, selecting 'has'. ✅"
+  },
+  {
+    "question": "I suggest that she _____ her portfolio before applying to the design firm.",
+    "options": ["revise", "revises", "revised", "revising"],
+    "answer": "revise",
+    "explanation": "The verb 'suggest' initiates a subjunctive clause, requiring the bare base verb 'revise' without an '-s'. ✅"
+  },
+  {
+    "question": "Rarely _____ a junior clerk get an opportunity to directly assist the commissioner.",
+    "options": ["does", "do", "did", "has"],
+    "answer": "does",
+    "explanation": "The negative adverb 'Rarely' dictates inversion. The subject is singular ('a junior clerk'), matching with 'does'. ✅"
+  },
+  {
+    "question": "The supervisor proposed that the probation rules _____ relaxed for a month.",
+    "options": ["are", "were", "be", "been"],
+    "answer": "be",
+    "explanation": "The verb 'proposed' requires a subjunctive response, translating to the base verb 'be'. ✅"
+  },
+  {
+    "question": "Round the corner _____ the police officers waiting for the suspect.",
+    "options": ["was", "were", "is", "has"],
+    "answer": "were",
+    "explanation": "An inversion driven by place direction. The real subject follows the verb: 'the police officers' (plural), so 'were' is correct. ✅"
+  },
+  {
+    "question": "If it _____ not for the automated validation script, our data would be corrupted.",
+    "options": ["was", "were", "is", "be"],
+    "answer": "were",
+    "explanation": "The classic subjunctive pattern 'If it were not for...' is used to state an imaginary condition. ✅"
+  },
+  {
+    "question": "It is preferred that the text formatting _____ Markdown syntax rules.",
+    "options": ["follow", "follows", "followed", "following"],
+    "answer": "follow",
+    "explanation": "The passive adjective structure 'It is preferred that' demands the base verb 'follow' in the subjunctive clause. ✅"
+  },
+  {
+    "question": "Not until much later _____ the true origin of the file formats discovered.",
+    "options": ["was", "were", "did", "had"],
+    "answer": "was",
+    "explanation": "The phrase 'Not until...' causes inversion in the main clause. The subject 'origin' is singular, choosing 'was'. ✅"
+  },
+  {
+    "question": "He ordered that the ledger records _____ updated by the JAA immediately.",
+    "options": ["are", "were", "be", "been"],
+    "answer": "be",
+    "explanation": "The command structure via 'ordered that' triggers the subjunctive 'be'. ✅"
+  },
+  {
+    "question": "So intense _____ the inspection that several discrepancies were uncovered in the cash book.",
+    "options": ["was", "were", "did", "had"],
+    "answer": "was",
+    "explanation": "When 'So + adjective' opens a sentence, inversion occurs. The singular subject 'the inspection' takes 'was'. ✅"
+  }
+]
