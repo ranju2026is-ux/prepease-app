@@ -1,0 +1,182 @@
+[
+  {
+    "question": "He _____ to the gym every morning to stay fit.",
+    "options": ["go", "goes", "going", "has gone"],
+    "answer": "goes",
+    "explanation": "For third-person singular subjects (He, She, It) in Simple Present tense habitual actions, we add 's/es' to the verb. ✅"
+  },
+  {
+    "question": "The Sun _____ in the east and sets in the west.",
+    "options": ["rise", "rises", "rising", "will rise"],
+    "answer": "rises",
+    "explanation": "Universal truths or scientific facts are always expressed in the Simple Present tense. Since 'The Sun' is singular, we use 'rises'. ✅"
+  },
+  {
+    "question": "They _____ to Delhi by train yesterday morning.",
+    "options": ["go", "went", "gone", "have gone"],
+    "answer": "went",
+    "explanation": "The past time marker 'yesterday' indicates that the action is completed, so we must use the Simple Past form (V2) 'went'. ✅"
+  },
+  {
+    "question": "Ravi _____ a new Python automated bot tomorrow.",
+    "options": ["will develop", "developed", "develops", "developing"],
+    "answer": "will develop",
+    "explanation": "The time marker 'tomorrow' points to a future action, which requires the Simple Future structure (will + V1). ✅"
+  },
+  {
+    "question": "I usually _____ coffee in the morning, but today I prefer tea.",
+    "options": ["drink", "drinks", "drinking", "drank"],
+    "answer": "drink",
+    "explanation": "For the subject 'I', the base form of the verb (V1) without 's/es' is used to express routine habits in the Simple Present tense. ✅"
+  },
+  {
+    "question": "Water _____ at 100 degrees Celsius under standard pressure.",
+    "options": ["boil", "boils", "boiling", "boiled"],
+    "answer": "boils",
+    "explanation": "Scientific laws and facts take the Simple Present tense form. 'Water' is an uncountable singular noun, so it takes 'boils'. ✅"
+  },
+  {
+    "question": "The newly appointed JAA _____ the pending ledger vouchers last week.",
+    "options": ["verify", "verifies", "verified", "has verified"],
+    "answer": "verified",
+    "explanation": "'Last week' is a specific past time marker that demands the Simple Past form (V2) 'verified'. ✅"
+  },
+  {
+    "question": "We _____ our results from the official board website next Monday.",
+    "options": ["receive", "received", "will receive", "are receive"],
+    "answer": "will receive",
+    "explanation": "The time phrase 'next Monday' marks a future event, calling for the Simple Future format 'will receive'. ✅"
+  },
+  {
+    "question": "She _____ elegant traditional apparel portfolios in her spare time.",
+    "options": ["design", "designs", "designing", "designedly"],
+    "answer": "designs",
+    "explanation": "A personal hobby or regular habit requires Simple Present. Singular subject 'She' takes the verb with an 's' ending ('designs'). ✅"
+  },
+  {
+    "question": "The Earth _____ around the Sun.",
+    "options": ["revolve", "revolves", "revolving", "revolved"],
+    "answer": "revolves",
+    "explanation": "Astronomical and permanent universal truths take the Simple Present singular inflected verb 'revolves'. ✅"
+  },
+  {
+    "question": "I _____ a system error notification on the portal two hours ago.",
+    "options": ["see", "saw", "seen", "have seen"],
+    "answer": "saw",
+    "explanation": "The past time indicator 'two hours ago' strictly locks the sentence into the Simple Past (V2) form 'saw'. ✅"
+  },
+  {
+    "question": "The project team _____ a critical meeting at 9:00 AM tomorrow.",
+    "options": ["hold", "held", "will hold", "holding"],
+    "answer": "will hold",
+    "explanation": "Indicates a designated action taking place in the future, requiring the future aspect 'will hold'. ✅"
+  },
+  {
+    "question": "Honesty _____ the best policy.",
+    "options": ["is", "was", "be", "been"],
+    "answer": "is",
+    "explanation": "Proverbs, wise sayings, and general timeless truths are always represented by the present linking verb 'is'. ✅"
+  },
+  {
+    "question": "The birds _____ in the sky every evening during sunset.",
+    "options": ["fly", "flies", "flying", "flew"],
+    "answer": "fly",
+    "explanation": "Since the subject 'The birds' is plural, it takes the base plural form of the verb 'fly' without adding 's/es'. ✅"
+  },
+  {
+    "question": "He _____ his schooling from a regional institution in Vijayapura in 2020.",
+    "options": ["complete", "completes", "completed", "has completed"],
+    "answer": "completed",
+    "explanation": "A specific past year ('in 2020') excludes present perfect variants and demands the simple past token 'completed'. ✅"
+  },
+  {
+    "question": "The supervisor _____ the final cash account ledger copy this coming evening.",
+    "options": ["check", "checks", "will check", "checked"],
+    "answer": "will check",
+    "explanation": "Points directly to an impending action scheduled for later today, applying 'will check'. ✅"
+  },
+  {
+    "question": "Cow _____ us milk.",
+    "options": ["give", "gives", "giving", "given"],
+    "answer": "gives",
+    "explanation": "General factual reality regarding an animal trait requires Simple Present singular format 'gives'. ✅"
+  },
+  {
+    "question": "They rarely _____ out to the local markets during peak summer afternoons.",
+    "options": ["go", "goes", "going", "went"],
+    "answer": "go",
+    "explanation": "Plural subject 'They' combined with a frequency adverb like 'rarely' frames a present habit, using the base verb 'go'. ✅"
+  },
+  {
+    "question": "The technical coach _____ all the physics formulas on the blackboard yesterday.",
+    "options": ["explain", "explains", "explained", "explaining"],
+    "answer": "explained",
+    "explanation": "'Yesterday' serves as an absolute past reference point, invoking past tense V2 execution 'explained'. ✅"
+  },
+  {
+    "question": "If you study hard, you _____ the departmental exams easily.",
+    "options": ["pass", "passed", "will pass", "passing"],
+    "answer": "will pass",
+    "explanation": "In a first conditional pattern, the result clause takes the Simple Future form (will + V1) 'will pass'. ✅"
+  },
+  {
+    "question": "Stars _____ brightly in the clear night sky.",
+    "options": ["shine", "shines", "shining", "shined"],
+    "answer": "shine",
+    "explanation": "Plural subject 'Stars' framing a general natural truth uses the root infinitive form 'shine'. ✅"
+  },
+  {
+    "question": "My father _____ the morning English newspaper regularly.",
+    "options": ["read", "reads", "reading", "will read"],
+    "answer": "reads",
+    "explanation": "Singular subject 'My father' matching a routine daily timeline action takes the verb variant 'reads'. ✅"
+  },
+  {
+    "question": "The typing assistant _____ all thirty pages of the RTI file last night.",
+    "options": ["type", "types", "typed", "typing"],
+    "answer": "typed",
+    "explanation": "The past time anchor 'last night' mandates the selection of the past tense action verb 'typed'. ✅"
+  },
+  {
+    "question": "We _____ our newly developed interactive quiz layout on GitHub next week.",
+    "options": ["push", "pushed", "will push", "pushing"],
+    "answer": "will push",
+    "explanation": "'Next week' shifts the processing scope to the future timeline, matching with 'will push'. ✅"
+  },
+  {
+    "question": "Oil _____ on water because it is less dense.",
+    "options": ["float", "floats", "floating", "floated"],
+    "answer": "floats",
+    "explanation": "Scientific factual occurrences take the Simple Present singular tense form 'floats'. ✅"
+  },
+  {
+    "question": "You always _____ excellent logic when configuring backend server scripts.",
+    "options": ["use", "uses", "using", "usedly"],
+    "answer": "use",
+    "explanation": "The pronoun subject 'You' always patterns with the plural configuration root form of the verb ('use'). ✅"
+  },
+  {
+    "question": "The bus _____ the station right on time this morning.",
+    "options": ["leave", "leaves", "left", "leaving"],
+    "answer": "left",
+    "explanation": "Since the event already occurred earlier 'this morning', it maps as a completed past event, requiring 'left'. ✅"
+  },
+  {
+    "question": "The commission board _____ the new age relaxation rules soon.",
+    "options": ["announce", "announces", "will announce", "announced"],
+    "answer": "will announce",
+    "explanation": "The indicator token 'soon' points to a forthcoming event, calling for the future element 'will announce'. ✅"
+  },
+  {
+    "question": "Human body _____ billions of cells that work together.",
+    "options": ["contain", "contains", "containing", "contained"],
+    "answer": "contains",
+    "explanation": "A biological fact stated in Simple Present. Singular subject takes the inflected form 'contains'. ✅"
+  },
+  {
+    "question": "The sister _____ self-taught fashion design lessons every weekend.",
+    "options": ["practice", "practices", "practicing", "practicedly"],
+    "answer": "practices",
+    "explanation": "A regular recurring weekend schedule requires the third-person singular inflected present form 'practices'. ✅"
+  }
+]
