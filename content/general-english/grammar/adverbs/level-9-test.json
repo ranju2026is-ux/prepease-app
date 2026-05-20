@@ -1,0 +1,182 @@
+[
+  {
+    "question": "The junior accounts assistant could hardly find _____ mistake in the master ledger sheet.",
+    "options": ["any", "no", "nothing", "not any"],
+    "answer": "any",
+    "explanation": "Since 'hardly' has a negative meaning, using 'no' or 'nothing' would create a double negative error. We must use 'any'. ✅"
+  },
+  {
+    "question": "The accounting problem was _____ dull, and it took the probationary clerk an hour to parse it.",
+    "options": ["fairly", "rather", "fairly manner", "enough"],
+    "answer": "rather",
+    "explanation": "We use 'rather' before unpleasant or undesirable adjectives like 'dull'. 'Fairly' is reserved for pleasant adjectives. ✅"
+  },
+  {
+    "question": "Ravi's new Python automation setup is _____ good, though it needs a few front-end adjustments.",
+    "options": ["rather", "fairly", "ratherly", "more rather"],
+    "answer": "fairly",
+    "explanation": "'Good' is a pleasant/positive adjective, so it correctly takes the adverb of degree 'fairly'. ✅"
+  },
+  {
+    "question": "He has scarcely received _____ official guidance regarding the new probation rules.",
+    "options": ["no", "any", "never", "not any"],
+    "answer": "any",
+    "explanation": "'Scarcely' is a negative adverb. Pairing it with 'no' is incorrect; 'any' is the grammatically accurate option. ✅"
+  },
+  {
+    "question": "The room inside the old fort building was _____ hot during the peak summer afternoon.",
+    "options": ["fairly", "rather", "fairly form", "enough"],
+    "answer": "rather",
+    "explanation": "'Hot' in this context is unpleasant, so it takes the intensive adverb 'rather'. ✅"
+  },
+  {
+    "question": "There is seldom _____ mismatch error found in the automated cash book framework.",
+    "options": ["any", "no", "never", "nothing"],
+    "answer": "any",
+    "explanation": "'Seldom' means rarely or almost never. Combining it with 'no' creates a double negative structural failure. ✅"
+  },
+  {
+    "question": "The explanation of the chemistry equation was _____ simple, so everyone cleared the test easily.",
+    "options": ["rather", "fairly", "ratherly", "more rather"],
+    "answer": "fairly",
+    "explanation": "'Simple' is an advantageous and pleasant trait here, demanding the use of 'fairly'. ✅"
+  },
+  {
+    "question": "The network connection speed was _____ slow during the live database migration phase.",
+    "options": ["fairly", "rather", "fairly manner", "enoughly"],
+    "answer": "rather",
+    "explanation": "'Slow' is an undesirable property for net connections, which triggers the adverb 'rather'. ✅"
+  },
+  {
+    "question": "The typing assistant barely had _____ time left to complete the pending travel vouchers.",
+    "options": ["no", "any", "nothing", "none"],
+    "answer": "any",
+    "explanation": "'Barely' provides a negative constraint profile, making 'any' the only compatible choice. ✅"
+  },
+  {
+    "question": "Ravi's automated Telegram quiz bot layout is _____ clever and handles loads efficiently.",
+    "options": ["rather", "fairly", "ratherly", "more rather"],
+    "answer": "fairly",
+    "explanation": "Modifies the pleasant/advantageous adjective 'clever' using the adverb 'fairly'. ✅"
+  },
+  {
+    "question": "The design prototype curated by his sister was _____ expensive for the local studio budget.",
+    "options": ["fairly", "rather", "fairly form", "enoughly"],
+    "answer": "rather",
+    "explanation": "Being excessively 'expensive' is a disadvantageous condition here, selecting 'rather'. ✅"
+  },
+  {
+    "question": "We could rarely observe _____ configuration errors after executing the upscaling script.",
+    "options": ["any", "no", "nothing", "not any"],
+    "answer": "any",
+    "explanation": "'Rarely' rejects additional negative markers like 'no', calling for 'any'. ✅"
+  },
+  {
+    "question": "The multi-day travel itinerary to Delhi is _____ comfortable, making it perfect for families.",
+    "options": ["rather", "fairly", "ratherly", "more rather"],
+    "answer": "fairly",
+    "explanation": "'Comfortable' is a desirable attribute, which perfectly matches with 'fairly'. ✅"
+  },
+  {
+    "question": "The behavior of the candidate during the verification process was _____ rude.",
+    "options": ["fairly", "rather", "fairly manner", "enoughly"],
+    "answer": "rather",
+    "explanation": "'Rude' is an unpleasant quality, requiring the negative intensifier adverb 'rather'. ✅"
+  },
+  {
+    "question": "He told the checking officer that he knew nothing about the ledger manipulation, and he didn't say _____ else.",
+    "options": ["nothing", "anything", "no item", "none"],
+    "answer": "anything",
+    "explanation": "Since 'didn't' contains a negative marker (not), using 'nothing' is banned. 'Anything' is correct. ✅"
+  },
+  {
+    "question": "The physics formula compilation sheets are _____ comprehensive and useful for revision.",
+    "options": ["rather", "fairly", "ratherly", "more rather"],
+    "answer": "fairly",
+    "explanation": "'Comprehensive' represents a positive value feature, selecting 'fairly'. ✅"
+  },
+  {
+    "question": "The runtime memory leak error was _____ complicated for the back-end team to locate.",
+    "options": ["fairly", "rather", "fairly form", "enoughly"],
+    "answer": "rather",
+    "explanation": "'Complicated' is a troublesome state, demanding 'rather' to reflect the difficulty. ✅"
+  },
+  {
+    "question": "The probationary JAA had hardly entered _____ data when the terminal locked up.",
+    "options": ["no", "any", "nothing", "not any"],
+    "answer": "any",
+    "explanation": "The negative adverb force of 'hardly' dictates the use of 'any' to avoid dual negative bugs. ✅"
+  },
+  {
+    "question": "The final cut-off score list for the state exams is _____ high this year.",
+    "options": ["fairly", "rather", "fairly manner", "enoughly"],
+    "answer": "rather",
+    "explanation": "An excessively high cut-off is an unpleasant or stressful situation for aspirants, hence 'rather' fits best. ✅"
+  },
+  {
+    "question": "The front-end design elements of PrepEase look _____ attractive after the layout fixes.",
+    "options": ["rather", "fairly", "ratherly", "more rather"],
+    "answer": "fairly",
+    "explanation": "'Attractive' is a desirable property, which calls for 'fairly'. ✅"
+  },
+  {
+    "question": "The old typewriter mechanism is scarcely of _____ use for high-speed automated transcription tasks.",
+    "options": ["no", "any", "nothing", "none"],
+    "answer": "any",
+    "explanation": "'Scarcely' carries negative weight, requiring 'any' to preserve grammatical safety metrics. ✅"
+  },
+  {
+    "question": "The instructions manual provided by the branch supervisor is _____ ambiguous.",
+    "options": ["fairly", "rather", "fairly form", "enoughly"],
+    "answer": "rather",
+    "explanation": "'Ambiguous' (ಅಸ್ಪಷ್ಟ) is an undesirable feature for a guide, requiring 'rather'. ✅"
+  },
+  {
+    "question": "The pricing options for premium database storage subscriptions are _____ reasonable.",
+    "options": ["rather", "fairly", "ratherly", "more rather"],
+    "answer": "fairly",
+    "explanation": "Reasonable pricing is an attractive feature, matching naturally with 'fairly'. ✅"
+  },
+  {
+    "question": "Ravi seldom or never leaves _____ pending work tracking tasks on his dashboard.",
+    "options": ["any", "no", "nothing", "none"],
+    "answer": "any",
+    "explanation": "The idiomatic anchor 'seldom or never' acts as a negative field, selecting 'any'. ✅"
+  },
+  {
+    "question": "The weather forecast predicts a _____ gloomy outlook for the weekend outdoor events.",
+    "options": ["fairly", "rather", "fairly manner", "enoughly"],
+    "answer": "rather",
+    "explanation": "'Gloomy' (ಖಿನ್ನತೆ ಹುಟ್ಟಿಸುವ/ಮೋಡಕವಿದ) is a negative descriptive word, using 'rather'. ✅"
+  },
+  {
+    "question": "The newly upscaled image asset parameters are _____ balanced and crisp.",
+    "options": ["rather", "fairly", "ratherly", "more rather"],
+    "answer": "fairly",
+    "explanation": "'Balanced' is a pleasant adjective condition, which demands 'fairly'. ✅"
+  },
+  {
+    "question": "The supervisor barely found _____ discrepancy during the routine cash count inspection.",
+    "options": ["no", "any", "nothing", "none"],
+    "answer": "any",
+    "explanation": "'Barely' is inherently restrictive and negative, pairing exclusively with 'any'. ✅"
+  },
+  {
+    "question": "The layout alignment of the text input module is _____ awkward on tablet screens.",
+    "options": ["fairly", "rather", "fairly form", "enoughly"],
+    "answer": "rather",
+    "explanation": "'Awkward' is an unpleasant design flaw, selecting the adverb 'rather'. ✅"
+  },
+  {
+    "question": "The team has compiled a _____ comprehensive treasury of previous year questions.",
+    "options": ["rather", "fairly", "ratherly", "more rather"],
+    "answer": "fairly",
+    "explanation": "A comprehensive treasury is highly desirable, making 'fairly' the correct choice. ✅"
+  },
+  {
+    "question": "I can hardly see _____ rationale behind the recent rejection of the RTI appeal.",
+    "options": ["no", "any", "nothing", "none"],
+    "answer": "any",
+    "explanation": "The negative capacity of 'hardly' triggers 'any' to ensure full error-free syntax tracking. ✅"
+  }
+]
