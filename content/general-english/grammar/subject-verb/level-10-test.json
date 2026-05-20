@@ -1,0 +1,182 @@
+[
+  {
+    "question": "The odds _____ heavily against the candidate clearing the competitive exam without structured practice.",
+    "options": ["is", "are", "was", "has been"],
+    "answer": "are",
+    "explanation": "The word 'odds' (ಸಾಧ್ಯತೆಗಳು/ಅಡ್ಡಿ ಆತಂಕಗಳು) is grammatically treated as a plural noun and takes a plural verb. ✅"
+  },
+  {
+    "question": "The gallows _____ constructed just outside the historical prison walls.",
+    "options": ["was", "were", "are", "have been"],
+    "answer": "was",
+    "explanation": "'Gallows' (ನೇಣುಗಂಬ) looks plural but is singular in meaning and takes a singular verb. ✅"
+  },
+  {
+    "question": "His means _____ limited, yet he donated a massive chunk of his savings to the welfare fund.",
+    "options": ["is", "are", "was", "has been"],
+    "answer": "are",
+    "explanation": "When 'means' refers to wealth, income, or financial resources, it is always treated as plural. ✅"
+  },
+  {
+    "question": "Every means _____ been tried to resolve the backend database corruption error.",
+    "options": ["has", "have", "is", "are"],
+    "answer": "has",
+    "explanation": "When 'means' refers to a method or way to achieve a goal and is preceded by 'Every', it acts as a singular subject. ✅"
+  },
+  {
+    "question": "The Maldives _____ a beautiful destination that my father dreams of visiting.",
+    "options": ["is", "are", "were", "have been"],
+    "answer": "is",
+    "explanation": "Names of countries or island groups like The Maldives or The Netherlands take a singular verb when treated as a geographic unit. ✅"
+  },
+  {
+    "question": "Not only the accounts assistants but also the commissioner _____ present at the regional office in Vijayapura.",
+    "options": ["was", "were", "are", "have been"],
+    "answer": "was",
+    "explanation": "With 'Not only... but also', the verb agrees with the nearest subject ('commissioner' - singular). ✅"
+  },
+  {
+    "question": "A series of lectures on basic accounting principles _____ scheduled for the newly appointed JAAs.",
+    "options": ["was", "were", "are", "have been"],
+    "answer": "was",
+    "explanation": "The subject is 'A series' (singular), not 'lectures'. Therefore, it requires a singular verb. ✅"
+  },
+  {
+    "question": "The crowd _____ waving their flags enthusiastically during the regional music festival.",
+    "options": ["was", "were", "is", "has"],
+    "answer": "were",
+    "explanation": "The use of the plural possessive pronoun 'their' indicates that the individuals within the crowd are acting independently. ✅"
+  },
+  {
+    "question": "Many a framework developed in Python _____ automated options for data validation.",
+    "options": ["provide", "provides", "providing", "have provided"],
+    "answer": "provides",
+    "explanation": "'Many a' is strictly followed by a singular noun and a singular verb form ('provides'). ✅"
+  },
+  {
+    "question": "It is essential that the senior inspector _____ the financial ledger details meticulously.",
+    "options": ["verify", "verifies", "verified", "verifying"],
+    "answer": "verify",
+    "explanation": "The adjective 'essential' triggers the subjunctive mood, which requires the bare base form of the verb ('verify'). ✅"
+  },
+  {
+    "question": "Neither the system logs nor the source code repository _____ trace of the memory leak error.",
+    "options": ["contain", "contains", "containing", "have contained"],
+    "answer": "contains",
+    "explanation": "The verb agrees with the closest subject component, which is 'repository' (singular). ✅"
+  },
+  {
+    "question": "More candidates than one _____ registered objections against the temporary key answers.",
+    "options": ["has", "have", "is", "was"],
+    "answer": "have",
+    "explanation": "The structure 'More [plural noun] than one' always requires a plural verb tracking ('have'). ✅"
+  },
+  {
+    "question": "The number of discrepancies detected during the state-level audit _____ surprisingly low.",
+    "options": ["is", "are", "were", "have been"],
+    "answer": "is",
+    "explanation": "'The number of' denotes a specific count unit and takes a singular verb. ✅"
+  },
+  {
+    "question": "A number of critical vulnerabilities _____ identified in the old layout configuration of the website.",
+    "options": ["was", "were", "is", "has been"],
+    "answer": "were",
+    "explanation": "'A number of' functions as a plural modifier meaning 'many', hence taking 'were'. ✅"
+  },
+  {
+    "question": "He is one of those fashion designers who _____ to work with handmade traditional apparel.",
+    "options": ["prefer", "prefers", "preferring", "has preferred"],
+    "answer": "prefer",
+    "explanation": "The relative pronoun 'who' refers back to 'designers' (plural), so it requires the plural base verb 'prefer'. ✅"
+  },
+  {
+    "question": "He is the only one of the applicants who _____ cleared all the descriptive English grammar levels.",
+    "options": ["has", "have", "are", "were"],
+    "answer": "has",
+    "explanation": "The phrase 'the only one of' isolates the singular 'one' as the true antecedent core, demanding 'has'. ✅"
+  },
+  {
+    "question": "It is I who _____ developed the Telegram quiz bot for PrepEase.",
+    "options": ["has", "have", "am", "is"],
+    "answer": "have",
+    "explanation": "The relative pronoun 'who' agrees with its antecedent 'I'. In present perfect tense, 'I' takes 'have'. ✅"
+  },
+  {
+    "question": "If the department head _____ present during the inspection, the issue would have been resolved.",
+    "options": ["was", "were", "am", "be"],
+    "answer": "were",
+    "explanation": "Conditional imaginary scenario (Subjunctive mood) forces the usage of 'were' regardless of the singular subject. ✅"
+  },
+  {
+    "question": "Nothing but structural changes in the system backend _____ expected in the next version release.",
+    "options": ["is", "are", "were", "have been"],
+    "answer": "is",
+    "explanation": "'Nothing but' takes a singular verb, irrespective of whether the following noun is singular or plural. ✅"
+  },
+  {
+    "question": "The jury _____ still divided on the question of age relaxation rules for probationers.",
+    "options": ["is", "are", "was", "has been"],
+    "answer": "are",
+    "explanation": "The keyword 'divided' explicitly highlights that the members are acting individually, choosing 'are'. ✅"
+  },
+  {
+    "question": "Three-fourths of the allocated budget amount _____ been spent on optimizing the web architecture.",
+    "options": ["has", "have", "is", "are"],
+    "answer": "has",
+    "explanation": "Fractions of an uncountable noun unit ('budget amount') require a singular verb tracking. ✅"
+  },
+  {
+    "question": "Three-fourths of the audit records _____ cross-checked by the junior assistant.",
+    "options": ["was", "were", "is", "has been"],
+    "answer": "were",
+    "explanation": "Fractions of a plural countable noun ('records') require a plural verb tracking. ✅"
+  },
+  {
+    "question": "The supervisor insisted that the files _____ kept inside the confidential record room.",
+    "options": ["are", "were", "be", "been"],
+    "answer": "be",
+    "explanation": "The verb 'insisted' requires the subjunctive mood clause, which takes the bare base form 'be' in passive construction. ✅"
+  },
+  {
+    "question": "Seldom _____ such an explicit violation of financial regulations been captured in the ledger.",
+    "options": ["has", "have", "did", "was"],
+    "answer": "has",
+    "explanation": "The negative adverb 'Seldom' induces inversion. The singular subject 'violation' matches with 'has'. ✅"
+  },
+  {
+    "question": "The criteria for evaluating the candidates' eligibility _____ revised by the board last week.",
+    "options": ["was", "were", "is", "has been"],
+    "answer": "were",
+    "explanation": "'Criteria' is a plural noun (singular is criterion), requiring the plural past tense verb 'were'. ✅"
+  },
+  {
+    "question": "Plunder and leverage _____ what the rogue elements wanted from the company assets.",
+    "options": ["is", "are", "was", "has been"],
+    "answer": "was",
+    "explanation": "When a compound subject expresses a single combined abstract goal or theme, it can take a singular verb. ✅"
+  },
+  {
+    "question": "The primary objective of the multi-day tour _____ visits to important historical sites near Anandpur Sahib.",
+    "options": ["is", "are", "were", "have been"],
+    "answer": "is",
+    "explanation": "The verb must agree with the singular subject 'objective', not with the plural predicate complement 'visits'. ✅"
+  },
+  {
+    "question": "Every clerk, helper, and senior supervisor in the branch _____ given strict instructions regarding RTI compliance.",
+    "options": ["was", "were", "are", "have been"],
+    "answer": "was",
+    "explanation": "The distributor 'Every' resets the coordinate compound list format back to singular tracking. ✅"
+  },
+  {
+    "question": "The dynamics of the newly configured front-end schema _____ highly fluid.",
+    "options": ["is", "are", "was", "has been"],
+    "answer": "are",
+    "explanation": "The noun 'dynamics' is grammatically treated as a plural subject when referring to operational interactions. ✅"
+  },
+  {
+    "question": "No sooner _____ the inspection team arrive at the office than the staff produced the missing vouchers.",
+    "options": ["did", "had", "was", "were"],
+    "answer": "did",
+    "explanation": "Inversion format for 'No sooner'. The base form verb 'arrive' dictates the choice of the auxiliary helper 'did'. ✅"
+  }
+]
