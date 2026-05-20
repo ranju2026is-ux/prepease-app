@@ -1,0 +1,182 @@
+[
+  {
+    "question": "The newly upgraded database script failed _____ during the live migration test.",
+    "options": ["miserable", "miserably", "more miserable", "miserableness"],
+    "answer": "miserably",
+    "explanation": "To modify the action verb 'failed', we strictly require the adverb of manner 'miserably', not the adjective 'miserable'. ✅"
+  },
+  {
+    "question": "Ravi compiles Python server routes as _____ as any senior backend architect in the team.",
+    "options": ["efficiently", "efficient", "more efficiently", "most efficiently"],
+    "answer": "efficiently",
+    "explanation": "The baseline comparative structure 'as... as' requires the positive degree adverb 'efficiently' to modify the action verb 'compiles'. ✅"
+  },
+  {
+    "question": "The old verification software does not process files so _____ as the newly launched app framework.",
+    "options": ["quickly", "quick", "more quickly", "quickest"],
+    "answer": "quickly",
+    "explanation": "In negative comparisons ('not so... as'), we use the positive degree adverb 'quickly' to accurately modify the verb 'process'. ✅"
+  },
+  {
+    "question": "The probationary clerk handled the customer query in a _____ professional manner.",
+    "options": ["highly", "high", "higherly", "highestly"],
+    "answer": "highly",
+    "explanation": "Here, the adverb 'highly' is used to modify the adjective 'professional', creating a correct modifier chain. ✅"
+  },
+  {
+    "question": "The state level board has been working _____ on the probation relaxation guidelines.",
+    "options": ["continuous", "continuously", "continuous manner", "more continuous"],
+    "answer": "continuously",
+    "explanation": "Modifies the continuous continuous verb aspect 'has been working', which requires the adverb 'continuously'. ✅"
+  },
+  {
+    "question": "Ravi can configure interactive automated widgets as _____ as any expert front-end developer.",
+    "options": ["easily", "easy", "easier", "easiest"],
+    "answer": "easily",
+    "explanation": "The 'as... as' structure wraps the base adverb 'easily' to specify how the action 'configure' occurs. ✅"
+  },
+  {
+    "question": "The typing assistant did not complete the notification entries so _____ as expected.",
+    "options": ["carefully", "careful", "more carefully", "carefulness"],
+    "answer": "carefully",
+    "explanation": "The negative structure 'not so... as' takes the positive degree modifier adverb 'carefully' to describe the completion quality. ✅"
+  },
+  {
+    "question": "The historical fort wall was _____ damaged during the heavy monsoon floods.",
+    "options": ["severe", "severely", "severeness", "more severe"],
+    "answer": "severely",
+    "explanation": "The participle adjective 'damaged' is modified by the adverb of degree 'severely'. ✅"
+  },
+  {
+    "question": "The chemistry lecturer spoke as _____ as possible to resolve the students' doubts.",
+    "options": ["clearly", "clear", "more clearly", "clearness"],
+    "answer": "clearly",
+    "explanation": "Requires the positive degree modifier adverb 'clearly' wrapped within the standard 'as... as' timeline. ✅"
+  },
+  {
+    "question": "The financial accounts ledger book was _____ maintained by the previous assistant.",
+    "options": ["careless", "carelessly", "carelessness", "more careless"],
+    "answer": "carelessly",
+    "explanation": "Modifies the passive verb 'was maintained', selecting the manner adverb 'carelessly'. ✅"
+  },
+  {
+    "question": "He does not speak English so _____ as his younger sister does.",
+    "options": ["fluently", "fluent", "more fluently", "fluent manner"],
+    "answer": "fluently",
+    "explanation": "The negative structure 'not so... as' demands the regular adverb form 'fluently' to target the verb 'speak'. ✅"
+  },
+  {
+    "question": "The upscaled high-quality images look _____ sharp on the new layout screen.",
+    "options": ["unbelievable", "unbelievably", "unbelievableness", "more unbelievable"],
+    "answer": "unbelievably",
+    "explanation": "To modify the predicate adjective 'sharp', we must use the adverb 'unbelievably'. ✅"
+  },
+  {
+    "question": "The tracking team followed the footprints as _____ as they could through the forest loop.",
+    "options": ["silent", "silently", "more silently", "silently form"],
+    "answer": "silently",
+    "explanation": "The action 'followed' takes the base adverb form 'silently' within the comparison boundaries. ✅"
+  },
+  {
+    "question": "The cash book balance was _____ calculated, which triggered an immediate audit review.",
+    "options": ["incorrect", "incorrectly", "incorrectness", "more incorrect"],
+    "answer": "incorrectly",
+    "explanation": "Modifies the passive action 'was calculated', selecting the adverb form 'incorrectly'. ✅"
+  },
+  {
+    "question": "The candidate did not draft his RTI query so _____ as required by the law sections.",
+    "options": ["precise", "precisely", "preciseness", "more precisely"],
+    "answer": "precisely",
+    "explanation": "The action 'draft' under negative modifier bounds takes the positive adverb token 'precisely'. ✅"
+  },
+  {
+    "question": "The travel itinerary to Delhi was _____ planned to avoid extra transit delays.",
+    "options": ["perfect", "perfectly", "perfectness", "more perfect"],
+    "answer": "perfectly",
+    "explanation": "The participle phrase 'planned' requires the support of the adverb 'perfectly'. ✅"
+  },
+  {
+    "question": "She cuts the delicate fashion design fabric as _____ as her master trainer.",
+    "options": ["cleanly", "clean", "cleanerly", "more cleanly"],
+    "answer": "cleanly",
+    "explanation": "The performance action 'cuts' requires the base adverb 'cleanly' inside the 'as... as' comparative mold. ✅"
+  },
+  {
+    "question": "The system architecture was _____ slow during the multi-user mock test session.",
+    "options": ["extreme", "extremely", "extremeness", "more extreme"],
+    "answer": "extremely",
+    "explanation": "The adjective 'slow' takes the degree intensifier adverb 'extremely'. ✅"
+  },
+  {
+    "question": "The probationary JAA does not execute tasks so _____ as the senior clerks.",
+    "options": ["independent", "independently", "independence", "more independently"],
+    "answer": "independently",
+    "explanation": "The verb 'execute' inside negative comparison limits demands the adverb format 'independently'. ✅"
+  },
+  {
+    "question": "Ravi's new Python automated bot handles data packets _____ smoothly.",
+    "options": ["remarkable", "remarkably", "remarkableness", "more remarkable"],
+    "answer": "remarkably",
+    "explanation": "To modify another adverb ('smoothly'), we must use the adverb form 'remarkably'. ✅"
+  },
+  {
+    "question": "The physics experiment results matched the formula parameters as _____ as expected.",
+    "options": ["accurate", "accurately", "more accurately", "accurateness"],
+    "answer": "accurately",
+    "explanation": "The tracking comparison requires the baseline positive adverb 'accurately' to modify 'matched'. ✅"
+  },
+  {
+    "question": "The old typewriter mechanism was _____ stuck and could not be repaired easily.",
+    "options": ["hopeless", "hopelessly", "hopelessness", "more hopeless"],
+    "answer": "hopelessly",
+    "explanation": "The adjective/participle 'stuck' is modified by the adverb 'hopelessly'. ✅"
+  },
+  {
+    "question": "The local supply market does not operate so _____ during summer afternoons.",
+    "options": ["active", "actively", "activeness", "more actively"],
+    "answer": "actively",
+    "explanation": "Modifies the verb 'operate' within a 'not so... as' negative structural block, choosing 'actively'. ✅"
+  },
+  {
+    "question": "The software update was _____ backward-compatible with older operating systems.",
+    "options": ["full", "fully", "fullness", "fully manner"],
+    "answer": "fully",
+    "explanation": "Modifies the compound adjective phrase 'backward-compatible' using the degree adverb 'fully'. ✅"
+  },
+  {
+    "question": "He can run the data check process as _____ as the computer lab supervisor.",
+    "options": ["fast", "fastly", "faster", "fasten"],
+    "answer": "fast",
+    "explanation": "'Fast' is the correct positive adverb form; 'fastly' does not exist in English grammar rules. ✅"
+  },
+  {
+    "question": "The layout styling configuration script was _____ written from scratch by the team.",
+    "options": ["entire", "entirely", "entireness", "entirely form"],
+    "answer": "entirely",
+    "explanation": "Modifies the action element 'written', requiring the complete adverb 'entirely'. ✅"
+  },
+  {
+    "question": "The applicant did not answer the core question so _____ as the other candidates.",
+    "options": ["polite", "politely", "politeness", "more politely"],
+    "answer": "politely",
+    "explanation": "The verb 'answer' under negative comparison bounds requires the manner adverb 'politely'. ✅"
+  },
+  {
+    "question": "The apparel prototype portfolio was _____ presented to the fashion designers council.",
+    "options": ["brilliant", "brilliantly", "brilliancy", "more brilliant"],
+    "answer": "brilliantly",
+    "explanation": "Modifies the passive presentation verb 'was presented', demanding the adverb 'brilliantly'. ✅"
+  },
+  {
+    "question": "The server room backup fan operates as _____ as a quiet whisper.",
+    "options": ["softly", "soft", "softness", "more softly"],
+    "answer": "softly",
+    "explanation": "Modifies the action 'operates' using the base positive degree adverb 'softly'. ✅"
+  },
+  {
+    "question": "The trial balance discrepancy was _____ verified before filing the final audit objection.",
+    "options": ["thorough", "thoroughly", "thoroughness", "more thorough"],
+    "answer": "thoroughly",
+    "explanation": "The action 'verified' takes the complete manner adverb 'thoroughly' for absolute tracking accuracy. ✅"
+  }
+]
