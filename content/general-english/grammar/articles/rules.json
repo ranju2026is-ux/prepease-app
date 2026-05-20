@@ -1,0 +1,86 @@
+[
+  {
+    "word": "The Sound Rule (A vs An)",
+    "meaning_kannada": "'A' ಮತ್ತು 'An' ಬಳಕೆ ಕೇವಲ ಅಕ್ಷರಗಳ ಮೇಲಲ್ಲ, ಅವುಗಳ ಉಚ್ಚಾರಣೆಯ (Sound) ಧ್ವನಿಯ ಮೇಲೆ ನಿರ್ಧಾರವಾಗುತ್ತದೆ.",
+    "meaning_english": "Use 'A' before consonant sounds (ವ್ಯಂಜನ ಧ್ವನಿ) ಮತ್ತು 'An' before vowel sounds (ಸ್ವರ ಧ್ವನಿ: ಅ, ಆ, ಇ, ಈ...).\n\n• Remember: Look at the *pronunciation*, not just the first letter.\n• Example: *An* hour (silent 'h'), *A* university ('yoo' sound).",
+    "emoji": "📢"
+  },
+  {
+    "word": "The Silent 'H' Exception",
+    "meaning_kannada": "ಕೆಲವು ಪದಗಳು 'h' ನಿಂದ ಆರಂಭವಾದರೂ, 'h' ಮಹಾಪ್ರಾಣ ಉಚ್ಚಾರಣೆಗೊಳ್ಳದೆ ಸ್ವರ ಧ್ವನಿ ನೀಡುವುದರಿಂದ 'An' ಬಳಸಬೇಕು.",
+    "meaning_english": "Words starting with a silent 'H' take the article 'An' because they begin with a vowel sound.\n\n• Example: *An* honest man, *An* honor, *An* heir.\n• Contra-example: *A* historical event (here 'h' is pronounced).",
+    "emoji": "🤫"
+  },
+  {
+    "word": "Vowel Letters with Consonant Sounds",
+    "meaning_kannada": "ಕೆಲವು ಪದಗಳು O ಅಥವಾ U ನಿಂದ ಆರಂಭವಾದರೂ 'ವ' ಅಥವಾ 'ಯೂ' ವ್ಯಂಜನ ಧ್ವನಿ ನೀಡುವುದರಿಂದ 'A' ಬಳಸಬೇಕು.",
+    "meaning_english": "Words starting with vowel letters (A, E, I, O, U) but pronounced with a consonant sound ('wa' or 'yoo') take 'A'.\n\n• Example: *A* one-rupee coin ('wa' sound), *A* European ('yoo' sound), *A* uniform.",
+    "emoji": "🔤"
+  },
+  {
+    "word": "Abbreviations (ಸಂಕ್ಷಿಪ್ತ ರೂಪಗಳು)",
+    "meaning_kannada": "ಸಂಕ್ಷಿಪ್ತ ರೂಪಗಳ ಮೊದಲ ಅಕ್ಷರವನ್ನು ಉಚ್ಚರಿಸುವಾಗ ಸ್ವರ ಧ್ವನಿ ಬಂದರೆ 'An', ವ್ಯಂಜನ ಧ್ವನಿ ಬಂದರೆ 'A' ಬಳಸಿ.",
+    "meaning_english": "Use 'An' if the first letter of an abbreviation has a vowel sound when spoken individually. Otherwise, use 'A'.\n\n• Example: *An* MLA (em-el-a), *An* FIR (ef-i-ar), *An* NRI (en-ar-i).\n• Example: *A* DSP, *A* B.Com graduate.",
+    "emoji": "📝"
+  },
+  {
+    "word": "Introduction vs Repetition",
+    "meaning_kannada": "ಒಂದು ನಾಮಪದವನ್ನು ಮೊದಲ ಬಾರಿಗೆ ಪರಿಚಯಿಸುವಾಗ 'A/An' ಬಳಸಿ, ಅದೇ ನಾಮಪದವನ್ನು ಮತ್ತೆ ಉಲ್ಲೇಖಿಸುವಾಗ ನಿರ್ದಿಷ್ಟಪಡಿಸಲು 'The' ಬಳಸಿ.",
+    "meaning_english": "Use 'A/An' when introducing a countable noun for the first time. Use 'The' when referring to that exact noun again.\n\n• Example: I saw *a* dog. *The* dog was barking at a stranger.",
+    "emoji": "🔄"
+  },
+  {
+    "word": "Geographical Names with 'The'",
+    "meaning_kannada": "ನದಿಗಳು, ಸಾಗರಗಳು, ಪರ್ವತ ಶ್ರೇಣಿಗಳು ಮತ್ತು ದ್ವೀಪ ಸಮೂಹಗಳ ಹೆಸರಿನ ಮುಂಚೆ ಯಾವಾಗಲೂ 'The' ಬಳಸಬೇಕು.",
+    "meaning_english": "Always use 'The' before names of rivers, oceans, mountain ranges, and groups of islands.\n\n• Example: *The* Ganges, *The* Pacific Ocean, *The* Himalayas, *The* Lakshadweep.\n• Note: Do NOT use 'The' before a single mountain peak (e.g., Mount Everest).",
+    "emoji": "🌍"
+  },
+  {
+    "word": "Unique Objects & Directions",
+    "meaning_kannada": "ಪ್ರಕೃತಿಯಲ್ಲಿ ಕೇವಲ ಒಂದೇ ಇರುವ ಅದ್ವಿತೀಯ ವಸ್ತುಗಳು ಮತ್ತು ದಿಕ್ಸೂಚಿಗಳ ಹೆಸರಿನ ಮುಂಚೆ 'The' ಬಳಸಿ.",
+    "meaning_english": "Use 'The' before unique celestial objects and directions.\n\n• Example: *The* Sun, *The* Moon, *The* Earth, *The* North, *The* Equator.",
+    "emoji": "☀️"
+  },
+  {
+    "word": "Holy Books and Newspapers",
+    "meaning_kannada": "ಪವಿತ್ರ ಗ್ರಂಥಗಳು, ಮಹಾಕಾವ್ಯಗಳು ಮತ್ತು ಪ್ರಸಿದ್ಧ ದಿನಪತ್ರಿಕೆಗಳ ಹೆಸರಿನ ಮುಂಚೆ 'The' ಕಡ್ಡಾಯ.",
+    "meaning_english": "Always place 'The' before holy scriptures, epics, and newspapers.\n\n• Example: *The* Ramayana, *The* Quran, *The* Bible, *The* Hindu newspaper.",
+    "emoji": "📰"
+  },
+  {
+    "word": "Superlative Degrees",
+    "meaning_kannada": "ವಿಶೇಷಣಗಳ ಅತ್ಯುನ್ನತ ರೂಪದ (Superlative Degree - est/most) ಮುಂಚೆ ಯಾವಾಗಲೂ 'The' ಬರಬೇಕು.",
+    "meaning_english": "The definite article 'The' is mandatory before superlative adjectives.\n\n• Example: He is *the* tallest boy in the class.\n• Example: This is *the* most beautiful scenic place near Anandpur Sahib.",
+    "emoji": "🏆"
+  },
+  {
+    "word": "Musical Instruments",
+    "meaning_kannada": "ಸಂಗೀತ ಉಪಕರಣಗಳನ್ನು ನುಡಿಸುವ ಅರ್ಥದಲ್ಲಿ ಬಳಸುವಾಗ ಅವುಗಳ ಮುಂಚೆ 'The' ಬಳಸಲಾಗುತ್ತದೆ.",
+    "meaning_english": "Use 'The' before musical instruments when you talk about playing them.\n\n• Example: She loves playing *the* flute.\n• Example: He is learning *the* violin.",
+    "emoji": "🎺"
+  },
+  {
+    "word": "Omission: Proper Nouns",
+    "meaning_kannada": "ವ್ಯಕ್ತಿಗಳು, ನಗರಗಳು, ರಾಜ್ಯಗಳು ಮತ್ತು ದೇಶಗಳ ಸಾಮಾನ್ಯ ಹೆಸರುಗಳ ಮುಂಚೆ ಯಾವುದೇ ಆರ್ಟಿಕಲ್ ಬಳಸಬಾರದು (Zero Article).",
+    "meaning_english": "Do not use articles before names of people, cities, states, or most countries.\n\n• Example: Ravi lives in Vijayapura. (NOT: The Ravi lives in the Vijayapura).\n• Exception: Countries with words like Republic, Kingdom, or United take 'The' (e.g., *The* USA, *The* UK).",
+    "emoji": "❌"
+  },
+  {
+    "word": "Omission: Languages and Meals",
+    "meaning_kannada": "ಭಾಷೆಗಳ ಹೆಸರುಗಳು ಮತ್ತು ದಿನನಿತ್ಯದ ಊಟದ (Meals) ಹೆಸರುಗಳ ಮುಂಚೆ ಸಾಮಾನ್ಯ ಸಂದರ್ಭದಲ್ಲಿ ಆರ್ಟಿಕಲ್ ಬಳಸಬೇಡಿ.",
+    "meaning_english": "No article is used before names of languages or regular meals like breakfast, lunch, and dinner.\n\n• Example: She speaks Kannada fluently.\n• Example: Dinner is ready.",
+    "emoji": "🍽️"
+  },
+  {
+    "word": "Omission: Uncountable & Abstract Nouns",
+    "meaning_kannada": "ಭಾವನಾತ್ಮಕ ನಾಮಪದಗಳು ಮತ್ತು ಎಣಿಸಲಾಗದ ವಸ್ತುಗಳ ಸಾಮಾನ್ಯ ಬಳಕೆಯ ಮುಂಚೆ ಆರ್ಟಿಕಲ್ ನಿಷೇಧಿಸಲಾಗಿದೆ.",
+    "meaning_english": "Do not use 'A/An' or 'The' before abstract or material nouns when talking in a general sense.\n\n• Example: Honesty is the best policy. (NOT: The honesty).\n• Example: Gold is a precious metal.",
+    "emoji": "💡"
+  },
+  {
+    "word": "Special Case: Institutional Places",
+    "meaning_kannada": "School, College, Hospital, Prison, Bed ಗಳಿಗೆ ಅವುಗಳ ಮೂಲ ಉದ್ದೇಶಕ್ಕಾಗಿಯೇ ಭೇಟಿ ನೀಡಿದರೆ 'The' ಬಳಸಬಾರದು. ಬೇರೆ ಕೆಲಸಕ್ಕೆ ಹೋದರೆ 'The' ಬಳಸಬೇಕು.",
+    "meaning_english": "Do not use 'The' before school, college, hospital, or church if visited for their primary purpose. Use 'The' if visited for any other reason.\n\n• Primary Purpose: The injured man was sent to hospital. (For treatment).\n• Other Purpose: My father went to *the* hospital to meet the doctor. (As a visitor).",
+    "emoji": "🏥"
+  }
+]
