@@ -1,0 +1,182 @@
+[
+  {
+    "question": "He is one of those officers who _____ always dedicated to their duty.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "Here, 'who' refers to 'officers' (plural antecedent). Therefore, the verb inside the relative clause must be plural ('are'). ✅"
+  },
+  {
+    "question": "He is the only one of the officers who _____ always on time.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "When 'the only one of' is used before a plural noun, the relative pronoun 'who' points strictly to the singular 'one', requiring a singular verb. ✅"
+  },
+  {
+    "question": "It is you who _____ broken the office rules.",
+    "options": ["has", "have", "is", "are"],
+    "answer": "have",
+    "explanation": "The relative pronoun 'who' takes its verb according to its antecedent 'you'. Since we say 'you have', the correct answer is 'have'. ✅"
+  },
+  {
+    "question": "This is one of the draft files which _____ to be verified by the JAA.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "The relative pronoun 'which' refers back to the plural noun 'files', hence it takes the plural verb 'are'. ✅"
+  },
+  {
+    "question": "This is the only one of his Python scripts that _____ without any compilation errors.",
+    "options": ["run", "runs", "running", "have run"],
+    "answer": "runs",
+    "explanation": "Due to 'the only one of', the relative pronoun 'that' agrees with the singular 'one', requiring the singular verb 'runs'. ✅"
+  },
+  {
+    "question": "It is I who _____ assisting the team with the database design.",
+    "options": ["am", "is", "are", "was"],
+    "answer": "am",
+    "explanation": "The antecedent of 'who' is 'I'. The verb matching 'I' in present continuous is 'am'. ✅"
+  },
+  {
+    "question": "She is one of the fashion designers who _____ sustainable fabrics.",
+    "options": ["prefer", "prefers", "preferring", "has preferred"],
+    "answer": "prefer",
+    "explanation": "'Who' points to 'designers' (plural), so it takes the base plural verb form 'prefer'. ✅"
+  },
+  {
+    "question": "He is one of those men who _____ never satisfied with mediocrity.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "The relative clause modifies 'men' (plural), so 'who' takes the plural verb 'are'. ✅"
+  },
+  {
+    "question": "This is the only one of the government notifications that _____ explicitly about the probation period.",
+    "options": ["mention", "mentions", "mentioning", "have mentioned"],
+    "answer": "mentions",
+    "explanation": "'The only one' forces the verb to be singular ('mentions'). ✅"
+  },
+  {
+    "question": "It is they who _____ requested an extension for the project submission.",
+    "options": ["has", "have", "is", "was"],
+    "answer": "have",
+    "explanation": "The antecedent 'they' is plural, so 'who' takes the plural verb 'have'. ✅"
+  },
+  {
+    "question": "He is one of the accounts assistants who _____ handled the cash ledger efficiently.",
+    "options": ["has", "have", "is", "was"],
+    "answer": "have",
+    "explanation": "'Who' refers to the plural 'assistants', requiring the plural verb 'have'. ✅"
+  },
+  {
+    "question": "Ravi is one of those smart developers who _____ automated Telegram bots using Python.",
+    "options": ["has", "have", "is", "was"],
+    "answer": "have",
+    "explanation": "The antecedent is 'developers' (plural), so the relative clause requires 'have'. ✅"
+  },
+  {
+    "question": "This is the only one of the books that _____ comprehensive notes on English grammar rules.",
+    "options": ["contain", "contains", "containing", "have contained"],
+    "answer": "contains",
+    "explanation": "The phrase 'the only one of' means the verb agrees with the singular 'one', hence 'contains'. ✅"
+  },
+  {
+    "question": "It is the system administrator who _____ access to modify the SQL schema.",
+    "options": ["has", "have", "are", "were"],
+    "answer": "has",
+    "explanation": "'Who' refers to the singular noun 'administrator', so it takes the singular verb 'has'. ✅"
+  },
+  {
+    "question": "The criteria that _____ used for checking the accounting balance were very strict.",
+    "options": ["was", "were", "is", "has"],
+    "answer": "were",
+    "explanation": "'Criteria' is the plural form of 'criterion'. Therefore, 'that' refers to a plural noun and takes 'were'. ✅"
+  },
+  {
+    "question": "The phenomenon that _____ observed during the chemistry experiment was unexpected.",
+    "options": ["was", "were", "are", "have"],
+    "answer": "was",
+    "explanation": "'Phenomenon' is singular (plural is phenomena), so 'that' takes the singular verb 'was'. ✅"
+  },
+  {
+    "question": "He is one of those leaders who _____ admired by everyone in the department.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "Since 'who' stands for the plural 'leaders', it takes the plural verb 'are'. ✅"
+  },
+  {
+    "question": "This is the only one of the multi-day itineraries that _____ a visit to Anandpur Sahib.",
+    "options": ["include", "includes", "including", "have included"],
+    "answer": "includes",
+    "explanation": "'The only one of' structure demands a singular verb form ('includes'). ✅"
+  },
+  {
+    "question": "It is the candidates themselves who _____ to upload the scanned documents.",
+    "options": ["has", "have", "is", "was"],
+    "answer": "have",
+    "explanation": "'Who' links directly back to 'candidates' (plural), requiring the plural verb 'have'. ✅"
+  },
+  {
+    "question": "She is one of those students who _____ always scoring top marks in mock tests.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "'Who' refers to the plural noun 'students', taking the plural verb 'are'. ✅"
+  },
+  {
+    "question": "This is one of the rare problems which _____ multiple distinct solutions.",
+    "options": ["has", "have", "is", "was"],
+    "answer": "have",
+    "explanation": "'Which' refers to 'problems' (plural), matching with the plural verb 'have'. ✅"
+  },
+  {
+    "question": "This is the only one of the competitive exams that _____ a descriptive English paper.",
+    "options": ["require", "requires", "requiring", "have required"],
+    "answer": "requires",
+    "explanation": "Controlled by 'the only one of', which always takes a singular verb ('requires'). ✅"
+  },
+  {
+    "question": "It is the local authority that _____ responsible for fixing the village roads.",
+    "options": ["is", "are", "were", "have"],
+    "answer": "is",
+    "explanation": "'Authority' is singular here, so the relative clause uses 'is'. ✅"
+  },
+  {
+    "question": "He is one of those writers who _____ written extensively about UPSC preparation.",
+    "options": ["has", "have", "is", "was"],
+    "answer": "have",
+    "explanation": "The antecedent is 'writers' (plural), so 'who' takes the plural 'have'. ✅"
+  },
+  {
+    "question": "The data which _____ extracted from the portal have been saved in an Excel sheet.",
+    "options": ["was", "were", "is", "has"],
+    "answer": "were",
+    "explanation": "In formal competitive exams, 'data' is treated as a plural noun (singular is datum). Hence 'which' takes 'were'. ✅"
+  },
+  {
+    "question": "He is one of those workers who _____ overtime during the month-end auditing.",
+    "options": ["work", "works", "working", "has worked"],
+    "answer": "work",
+    "explanation": "The relative clause modifies 'workers' (plural), requiring the plural base verb 'work'. ✅"
+  },
+  {
+    "question": "This is the only one of the code blocks that _____ data duplication in the backend.",
+    "options": ["prevent", "prevents", "preventing", "have prevented"],
+    "answer": "prevents",
+    "explanation": "Driven by 'the only one of', requiring the singular verb 'prevents'. ✅"
+  },
+  {
+    "question": "It is your determination that _____ you ahead of others in exams.",
+    "options": ["keep", "keeps", "keeping", "have kept"],
+    "answer": "keeps",
+    "explanation": "'Determination' is an uncountable singular noun, so 'that' takes the singular verb 'keeps'. ✅"
+  },
+  {
+    "question": "She is one of the applicants who _____ eligible for age relaxation.",
+    "options": ["is", "are", "was", "has"],
+    "answer": "are",
+    "explanation": "'Who' points to the plural 'applicants', taking the plural verb 'are'. ✅"
+  },
+  {
+    "question": "This is the only one of the quiz questions that _____ two correct options.",
+    "options": ["has", "have", "are", "were"],
+    "answer": "has",
+    "explanation": "'The only one of' dictates a singular verb tracking, which is 'has'. ✅"
+  }
+]
