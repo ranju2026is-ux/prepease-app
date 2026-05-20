@@ -1,0 +1,332 @@
+[
+  {
+    "question": "Seldom _____ such a severe discrepancy in the master cash ledger records during my career.",
+    "options": [
+      "I have captured",
+      "have I captured",
+      "I captured",
+      "had I capture"
+    ],
+    "answer": "have I captured",
+    "explanation": "When a sentence begins with the negative adverb 'Seldom', inversion is mandatory: the auxiliary verb 'have' must precede the subject 'I'. ✅"
+  },
+  {
+    "question": "Hardly _____ compiling the Python automation code when the local server crashed.",
+    "options": [
+      "Ravi had finished",
+      "had Ravi finished",
+      "did Ravi finished",
+      "Ravi finished"
+    ],
+    "answer": "had Ravi finished",
+    "explanation": "Starting with 'Hardly' triggers inversion. Since the sentence uses past perfect ('when the server crashed'), 'had Ravi finished' is correct. ✅"
+  },
+  {
+    "question": "No sooner _____ at the regional office than the senior superintendent called for the files.",
+    "options": [
+      "did the JAA arrive",
+      "the JAA arrived",
+      "had the JAA arrive",
+      "did the JAA arrived"
+    ],
+    "answer": "did the JAA arrive",
+    "explanation": "'No sooner' requires inversion. The auxiliary helper 'did' takes the base form verb 'arrive'. (Do not use 'did + arrived'). ✅"
+  },
+  {
+    "question": "Never _____ witnessed such an overwhelming turnout of candidates for a competitive exam.",
+    "options": [
+      "the board has",
+      "has the board",
+      "did the board",
+      "the board had"
+    ],
+    "answer": "has the board",
+    "explanation": "The absolute negative adverb 'Never' at the start forces the auxiliary 'has' to sit before the subject 'the board'. ✅"
+  },
+  {
+    "question": "Scarcely _____ uploaded the high-quality upscaled images _____ the network connection broke.",
+    "options": [
+      "had I, than",
+      "did I, when",
+      "had I, when",
+      "I had, when"
+    ],
+    "answer": "had I, when",
+    "explanation": "'Scarcely' requires inversion ('had I') and correlates strictly with 'when', not 'than'. ✅"
+  },
+  {
+    "question": "Little _____ know that the layout configuration of PrepEase would become so popular.",
+    "options": [
+      "the developers did",
+      "did the developers",
+      "do the developers",
+      "have the developers"
+    ],
+    "answer": "did the developers",
+    "explanation": "'Little' here acts as a negative adverb meaning 'almost not at all', inducing past tense inversion 'did the developers'. ✅"
+  },
+  {
+    "question": "Under no circumstances _____ the confidential audit keys be shared with anyone.",
+    "options": [
+      "the probationary clerk must",
+      "must the probationary clerk",
+      "the probationary clerk should",
+      "does the probationary clerk"
+    ],
+    "answer": "must the probationary clerk",
+    "explanation": "Phraes like 'Under no circumstances' are negative modifiers. They require the modal/auxiliary 'must' to precede the subject. ✅"
+  },
+  {
+    "question": "Barely _____ the typing assistant initiated the script _____ the memory leak error popped up.",
+    "options": [
+      "had, when",
+      "did, than",
+      "had, than",
+      "did, when"
+    ],
+    "answer": "had, when",
+    "explanation": "'Barely' takes past perfect inversion and pairs exclusively with 'when' to depict a close sequence of events. ✅"
+  },
+  {
+    "question": "Seldom _____ does the old system software process data migrations without runtime errors.",
+    "options": [
+      "does the old system software process",
+      "the old system software processes",
+      "did the old system software processed",
+      "has the old system software processed"
+    ],
+    "answer": "does the old system software process",
+    "explanation": "'Seldom' at the absolute front forces present tense inversion using the auxiliary helper 'does'. ✅"
+  },
+  {
+    "question": "No sooner _____ the physics formula chart _____ the coach announced a mock test.",
+    "options": [
+      "had we completed, when",
+      "did we completed, than",
+      "had we completed, than",
+      "we had completed, than"
+    ],
+    "answer": "had we completed, than",
+    "explanation": "'No sooner' triggers inversion ('had we completed') and strictly demands 'than' as its structural conjunction partner. ✅"
+  },
+  {
+    "question": "Not only _____ the unvouched expenditure, but they also penalized the rogue clerk.",
+    "options": [
+      "the team recovered",
+      "did the team recover",
+      "did the team recovered",
+      "has the team recover"
+    ],
+    "answer": "did the team recover",
+    "explanation": "When 'Not only' starts a sentence containing coordinate clauses, it forces inversion ('did the team recover') in the first part. ✅"
+  },
+  {
+    "question": "Only by working hard _____ to clear the UPSC prelims cut-off threshold.",
+    "options": [
+      "the aspirant can hope",
+      "can the aspirant hope",
+      "does the aspirant hopes",
+      "is the aspirant hope"
+    ],
+    "answer": "can the aspirant hope",
+    "explanation": "Phrases starting with 'Only by...' restrict the condition negatively, requiring inverted modal modal ordering ('can the aspirant hope'). ✅"
+  },
+  {
+    "question": "Hardly _____ entered the examination hall in Vijayapura _____ the closing bell rang.",
+    "options": [
+      "had the candidates, when",
+      "did the candidates, than",
+      "had the candidates, than",
+      "the candidates had, when"
+    ],
+    "answer": "had the candidates, when",
+    "explanation": "'Hardly' dictates the inverted structure 'had the candidates' combined safely with 'when'. ✅"
+  },
+  {
+    "question": "At no time _____ the checking supervisor state that the ledger entries were flawless.",
+    "options": [
+      "did",
+      "has",
+      "was",
+      "the checking supervisor did"
+    ],
+    "answer": "did",
+    "explanation": "The restrictive negative phrase 'At no time' triggers inversion. The base verb 'state' requires the past auxiliary 'did'. ✅"
+  },
+  {
+    "question": "Never _____ seen such a beautiful traditional apparel prototype in any fashion studio.",
+    "options": [
+      "I have",
+      "have I",
+      "did I",
+      "had I text"
+    ],
+    "answer": "have I",
+    "explanation": "The adverb 'Never' demands inversion, placing 'have' securely before the pronoun subject 'I'. ✅"
+  },
+  {
+    "question": "No sooner _____ the dynamic database validation script _____ the UI layout adjusted automatically.",
+    "options": [
+      "did we executed, when",
+      "did we execute, than",
+      "had we execute, than",
+      "we executed, than"
+    ],
+    "answer": "did we execute, than",
+    "explanation": "Combines past inversion 'did we execute' cleanly with the matching correlative token 'than'. ✅"
+  },
+  {
+    "question": "Scarcely _____ draft the RTI application when the office electricity supply went out.",
+    "options": [
+      "did I",
+      "had I",
+      "I did",
+      "have I"
+    ],
+    "answer": "did I",
+    "explanation": "Since the main verb 'draft' is in its bare base form, the past auxiliary inversion must be 'did I' (not had I, which would need drafted). ✅"
+  },
+  {
+    "question": "On no account _____ touch the sensitive backend server logs without direct authorization.",
+    "options": [
+      "you must",
+      "must you",
+      "should you to",
+      "you should"
+    ],
+    "answer": "must you",
+    "explanation": "'On no account' acts as an emphatic prohibition element, requiring inversion structure format 'must you'. ✅"
+  },
+  {
+    "question": "Seldom _____ the chemistry lecturer cancel the doubt-solving sessions.",
+    "options": [
+      "does",
+      "do",
+      "is",
+      "has"
+    ],
+    "answer": "does",
+    "explanation": "The singular subject 'lectures/lecturer' combined with base verb 'cancel' requires present inversion auxiliary 'does'. ✅"
+  },
+  {
+    "question": "Not until last week _____ the state board publish the final probation allocation lists.",
+    "options": [
+      "did",
+      "had",
+      "the state board did",
+      "was"
+    ],
+    "answer": "did",
+    "explanation": "'Not until...' structural extensions induce inversion at the head of the main clause, demanding 'did'. ✅"
+  },
+  {
+    "question": "Hardly _____ settled down at his desk _____ the phone started ringing continuously.",
+    "options": [
+      "had he, when",
+      "did he, than",
+      "had he, than",
+      "he had, when"
+    ],
+    "answer": "had he, when",
+    "explanation":'Satisfies the "Hardly + past perfect inversion + when" grammatical configuration layout rule. ✅'
+  },
+  {
+    "question": "No sooner _____ the news of the multi-day tour package spread _____ bookings surged.",
+    "options": [
+      "did, when",
+      "had, than",
+      "did, than",
+      "has, than"
+    ],
+    "answer": "did, than",
+    "explanation": "The bare infinitive verb 'spread' ensures that the past inversion helper is 'did', matching correctly with 'than'. ✅"
+  },
+  {
+    "question": "Little _____ suspect that the cash book balance entries had been tampered with.",
+    "options": [
+      "the auditor did",
+      "did the auditor",
+      "has the auditor",
+      "does the auditor"
+    ],
+    "answer": "did the auditor",
+    "explanation": "'Little' forces inversion layout tracking, matching past suspicious actions via 'did the auditor'. ✅"
+  },
+  {
+    "question": "Only in this manner _____ preserve the fragile historical files from degrading further.",
+    "options": [
+      "we can",
+      "can we",
+      "do we can",
+      "are we"
+    ],
+    "answer": "can we",
+    "explanation": "Condition modifiers starting with 'Only in...' prompt modal inversion, turning into 'can we'. ✅"
+  },
+  {
+    "question": "Never before _____ experienced such a complex runtime error within a simple Telegram quiz bot.",
+    "options": [
+      "we had",
+      "had we",
+      "did we",
+      "do we"
+    ],
+    "answer": "had we",
+    "explanation": "'Never before' invokes past perfect inversion framework mechanics, electing 'had we'. ✅"
+  },
+  {
+    "question": "No sooner _____ the fashion designer sketch the layout blueprint _____ her sister approved it.",
+    "options": [
+      "did, than",
+      "had, when",
+      "did, when",
+      "had, than"
+    ],
+    "answer": "did, than",
+    "explanation": "Driven by bare base verb 'sketch' leading into past inversion 'did' plus its matching pair 'than'. ✅"
+  },
+  {
+    "question": "Scarcely _____ the inspector verified the vouchers _____ he left for Vijayapura.",
+    "options": [
+      "had, when",
+      "did, than",
+      "had, than",
+      "did, when"
+    ],
+    "answer": "had, when",
+    "explanation": "Leverages the past perfect marker structure ('had' + past participle 'verified') aligned with 'when'. ✅"
+  },
+  {
+    "question": "Under no circumstances _____ allow database manipulation queries outside the testing environment.",
+    "options": [
+      "should we",
+      "we should",
+      "do we should",
+      "must we to"
+    ],
+    "answer": "should we",
+    "explanation": "Negative constraint header commands immediate safe helper inversion: 'should we'. ✅"
+  },
+  {
+    "question": "Seldom _____ if ever, see such detailed ledger documentation from a probationary clerk.",
+    "options": [
+      "we do",
+      "do we",
+      "did we processed",
+      "have we"
+    ],
+    "answer": "do we",
+    "explanation": "The parenthetical fixed idiom clause 'if ever' fits with the present inversion unit 'do we'. ✅"
+  },
+  {
+    "question": "No sooner _____ the train halt at Delhi station _____ the passengers rushed towards the exit doors.",
+    "options": [
+      "did, than",
+      "had, when",
+      "did, when",
+      "had, than"
+    ],
+    "answer": "did, than",
+    "explanation": "Maintains absolute correlation symmetry by deploying past auxiliary 'did' along with the comparative token 'than'. ✅"
+  }
+]
