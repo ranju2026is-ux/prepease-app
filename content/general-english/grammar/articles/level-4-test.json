@@ -1,0 +1,182 @@
+[
+  {
+    "question": "_____ Ramayana contains deep philosophical and moral lessons for life.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "We use the definite article 'The' before the names of holy books and epics. ✅"
+  },
+  {
+    "question": "_____ Valmiki's Ramayana is widely read across the Indian subcontinent.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "Exception Rule: When a holy book is preceded by the name of its author (possessive case), NO article is used before it. ✅"
+  },
+  {
+    "question": "We visited _____ Gol Gumbaz during our weekend trip to Vijayapura.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "We use 'The' before the names of famous historical monuments and architectural structures. ✅"
+  },
+  {
+    "question": "_____ Taj Mahal is one of the seven wonders of the modern world.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Famous historical buildings and structures always take the definite article 'The'. ✅"
+  },
+  {
+    "question": "He reads _____ Hindu newspaper every morning to prepare for competitive exams.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "The definite article 'The' is mandatory before the names of prominent newspapers. ✅"
+  },
+  {
+    "question": "Our flight departed from _____ Kempegowda International Airport.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "No article",
+    "explanation": "Exception Rule: We do NOT use 'The' before airports, stations, or castles named after a person or a specific locality (e.g., London Zoo, Kempegowda Airport). ✅"
+  },
+  {
+    "question": "_____ Homer's Iliad is a masterpiece of ancient Greek literature.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "Since the author's name 'Homer's' precedes the epic 'Iliad', no article should be applied. ✅"
+  },
+  {
+    "question": "_____ Bible is the sacred scripture of Christianity.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Standard rule for holy books requires the definite article 'The'. ✅"
+  },
+  {
+    "question": "They stay near _____ Mysore Palace, which attracts thousands of tourists.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Historical palaces and public monuments take 'The'. ✅"
+  },
+  {
+    "question": "I have subscribed to _____ Times of India for regular news updates.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Names of prominent news journals and publications take 'The'. ✅"
+  },
+  {
+    "question": "_____ Paradise Lost was written by the famous epic poet John Milton.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "General literary book titles do not take 'The' unless they are religious scriptures or epics containing standard identifiers. ✅"
+  },
+  {
+    "question": "We bought some local artifacts near _____ Red Fort in Delhi.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Historical forts like the Red Fort or the Agra Fort always take 'The'. ✅"
+  },
+  {
+    "question": "_____ Odyssey is an ancient epic poem attributed to Homer.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "When the epic name stands alone without the author's possessive name prefix, it takes 'The'. ✅"
+  },
+  {
+    "question": "The meeting was held at _____ Vidhana Soudha in Bangalore.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Famous unique government structures and assembly halls take 'The'. ✅"
+  },
+  {
+    "question": "He cited an interesting article from _____ Deccan Herald.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Names of daily newspapers take 'The'. ✅"
+  },
+  {
+    "question": "_____ Mahabharata is one of the longest epic poems in existence.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Epics take the definite article 'The'. ✅"
+  },
+  {
+    "question": "_____ Vyasa's Mahabharata teaches complex nuances of righteousness.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "The author's name precedes the epic, omitting the article entirely. ✅"
+  },
+  {
+    "question": "The train arrived at _____ Delhi Railway Station right on schedule.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "No article",
+    "explanation": "Railway stations named after places or people do not take an article. ✅"
+  },
+  {
+    "question": "_____ Qutub Minar is a towering historical monument in Delhi.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Historical minars and monuments take 'The'. ✅"
+  },
+  {
+    "question": "She enjoys reading literary reviews in _____ Economist magazine.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "World-renowned journals and periodic magazines take 'The'. ✅"
+  },
+  {
+    "question": "_____ Guru Granth Sahib is the central holy scripture of Sikhism.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Holy scriptures take the definite article 'The'. ✅"
+  },
+  {
+    "question": "We stepped out to explore _____ Victoria Memorial in Kolkata.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Historical memorials and heritage structures take 'The'. ✅"
+  },
+  {
+    "question": "He booked a room near _____ Chhatrapati Shivaji Terminus.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "No article",
+    "explanation": "Named public transit stations do not require an article. ✅"
+  },
+  {
+    "question": "_____ Gita contains timeless wisdom delivered by Lord Krishna.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Holy books take the definite article 'The'. ✅"
+  },
+  {
+    "question": "_____ Shakespeare's Hamlet is performed across various theaters.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "Author's name in possessive form before a dramatic play title eliminates the article. ✅"
+  },
+  {
+    "question": "They took a guided tour inside _____ Louvre Museum in Paris.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Famous museums, galleries, and public monuments always take 'The'. ✅"
+  },
+  {
+    "question": "_____ Indian Express has published a detailed analysis of the new budget rules.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Newspaper names require the definite article 'The'. ✅"
+  },
+  {
+    "question": "_____ Upanishads contain the core spiritual thoughts of Vedic philosophy.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Sacred theological texts and books take 'The'. ✅"
+  },
+  {
+    "question": "We gathered outside _____ White House to witness the official arrival.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Unique presidential buildings or globally prominent government seats take 'The'. ✅"
+  },
+  {
+    "question": "He bought a weekly copy of _____ Business Today from the stall.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Names of major corporate or political periodic magazines take 'The'. ✅"
+  }
+]
