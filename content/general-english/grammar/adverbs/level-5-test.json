@@ -1,0 +1,332 @@
+[
+  {
+    "question": "The junior accounts assistant verified the entries _____.",
+    "options": [
+      "carefully in the office yesterday",
+      "in the office carefully yesterday",
+      "yesterday carefully in the office",
+      "carefully yesterday in the office"
+    ],
+    "answer": "carefully in the office yesterday",
+    "explanation": "Follows the strict MPT rule: Manner (carefully) -> Place (in the office) -> Time (yesterday). ✅"
+  },
+  {
+    "question": "Ravi traveled _____ to attend the important training session.",
+    "options": [
+      "by bus to Vijayapura last week",
+      "to Vijayapura by bus last week",
+      "last week to Vijayapura by bus",
+      "to Vijayapura last week by bus"
+    ],
+    "answer": "to Vijayapura by bus last week",
+    "explanation": "Exception Rule: With verbs of movement like 'travel', the order changes to PMT: Place (to Vijayapura) -> Manner (by bus) -> Time (last week). ✅"
+  },
+  {
+    "question": "The typing assistant typed the official notifications _____.",
+    "options": [
+      "in the computer lab quickly today",
+      "quickly today in the computer lab",
+      "quickly in the computer lab today",
+      "today quickly in the computer lab"
+    ],
+    "answer": "quickly in the computer lab today",
+    "explanation": "Applies the standard MPT sequence: Manner (quickly) -> Place (in the computer lab) -> Time (today). ✅"
+  },
+  {
+    "question": "The district commissioner arrived _____ to inspect the audit reports.",
+    "options": [
+      "at the regional office safely at 10:00 AM",
+      "safely at the regional office at 10:00 AM",
+      "at 10:00 AM safely at the regional office",
+      "safely at 10:00 AM at the regional office"
+    ],
+    "answer": "at the regional office safely at 10:00 AM",
+    "explanation": "'Arrive' is a verb of movement, requiring the PMT exception layout: Place -> Manner -> Time. ✅"
+  },
+  {
+    "question": "The python automation script executed _____.",
+    "options": [
+      "on the local server smoothly last night",
+      "smoothly on the local server last night",
+      "last night smoothly on the local server",
+      "smoothly last night on the local server"
+    ],
+    "answer": "smoothly on the local server last night",
+    "explanation": "Standard action verb takes the structural MPT layout: Manner (smoothly) -> Place (on the local server) -> Time (last night). ✅"
+  },
+  {
+    "question": "She designed the high-end apparel prototypes _____.",
+    "options": [
+      "beautifully in the design studio last month",
+      "in the design studio beautifully last month",
+      "beautifully last month in the design studio",
+      "last month beautifully in the design studio"
+    ],
+    "answer": "beautifully in the design studio last month",
+    "explanation": "Aligns perfectly with standard MPT sequence processing specifications. ✅"
+  },
+  {
+    "question": "The competitive exam aspirants gathered _____ to hear the strategy lecture.",
+    "options": [
+      "at the exam center eagerly in the morning",
+      "eagerly at the exam center in the morning",
+      "in the morning eagerly at the exam center",
+      "eagerly in the morning at the exam center"
+    ],
+    "answer": "eagerly at the exam center in the morning",
+    "explanation": "Manner (eagerly) -> Place (at the exam center) -> Time (in the morning) satisfies the regular MPT requirement. ✅"
+  },
+  {
+    "question": "The security team rushed _____ after receiving the server room hazard warning.",
+    "options": [
+      "there immediately",
+      "immediately there",
+      "there in a hurry",
+      "in a hurry there"
+    ],
+    "answer": "there immediately",
+    "explanation": "'Rush' indicates movement, switching the layout priority to Place (there) before Time/Manner tags (immediately). ✅"
+  },
+  {
+    "question": "The senior consultant delivered the physics presentation _____.",
+    "options": [
+      "brilliantly in the main auditorium yesterday",
+      "in the main auditorium brilliantly yesterday",
+      "yesterday brilliantly in the main auditorium",
+      "brilliantly yesterday in the main auditorium"
+    ],
+    "answer": "brilliantly in the main auditorium yesterday",
+    "explanation": "Correctly chains Manner (brilliantly) -> Place (in the main auditorium) -> Time (yesterday). ✅"
+  },
+  {
+    "question": "The family went _____ on their multi-day travel itinerary.",
+    "options": [
+      "by train to Delhi last Friday",
+      "to Delhi last Friday by train",
+      "to Delhi by train last Friday",
+      "last Friday to Delhi by train"
+    ],
+    "answer": "to Delhi by train last Friday",
+    "explanation": "The motion verb 'went' activates the PMT structural exception: Place (to Delhi) -> Manner (by train) -> Time (last Friday). ✅"
+  },
+  {
+    "question": "He cross-checked the manual ledger vouchers _____.",
+    "options": [
+      "patiently at his desk before 6:00 PM",
+      "at his desk patiently before 6:00 PM",
+      "patiently before 6:00 PM at his desk",
+      "before 6:00 PM patiently at his desk"
+    ],
+    "answer": "patiently at his desk before 6:00 PM",
+    "explanation": "The task execution fits MPT rules: Manner (patiently) -> Place (at his desk) -> Time (before 6:00 PM). ✅"
+  },
+  {
+    "question": "The automated interactive widget displayed the results _____.",
+    "options": [
+      "on the screen accurately within seconds",
+      "accurately on the screen within seconds",
+      "within seconds accurately on the screen",
+      "accurately within seconds on the screen"
+    ],
+    "answer": "accurately on the screen within seconds",
+    "explanation": "Adheres to the baseline MPT pattern formatting logic. ✅"
+  },
+  {
+    "question": "The checking officer spoke _____ regarding the accounting errors.",
+    "options": [
+      "at the branch seriously this afternoon",
+      "seriously at the branch this afternoon",
+      "seriously this afternoon at the branch",
+      "this afternoon seriously at the branch"
+    ],
+    "answer": "seriously at the branch this afternoon",
+    "explanation": "Manner (seriously) -> Place (at the branch) -> Time (this afternoon) completes the structural chain. ✅"
+  },
+  {
+    "question": "The regional artists sang folk songs _____ during the festival event.",
+    "options": [
+      "melodiously on the stage last night",
+      "on the stage melodiously last night",
+      "melodiously last night on the stage",
+      "last night melodiously on the stage"
+    ],
+    "answer": "melodiously on the stage last night",
+    "explanation": "Standard action template processes: Manner -> Place -> Time sequence. ✅"
+  },
+  {
+    "question": "He ran _____ to submit the urgent RTI application draft.",
+    "options": [
+      "in a hurry to the registration office yesterday",
+      "to the registration office in a hurry yesterday",
+      "yesterday to the registration office in a hurry",
+      "to the registration office yesterday in a hurry"
+    ],
+    "answer": "to the registration office in a hurry yesterday",
+    "explanation": "The velocity/movement verb 'ran' demands the PMT exception sequence layout. ✅"
+  },
+  {
+    "question": "The front-end design team configured the layout styles _____.",
+    "options": [
+      "at the computer lab efficiently today",
+      "efficiently today at the computer lab",
+      "efficiently at the computer lab today",
+      "today efficiently at the computer lab"
+    ],
+    "answer": "efficiently at the computer lab today",
+    "explanation": "Aligns with the systematic MPT protocol framework mapping. ✅"
+  },
+  {
+    "question": "The child slept _____ after the exhausting long train journey.",
+    "options": [
+      "in the bedroom peacefully all afternoon",
+      "peacefully in the bedroom all afternoon",
+      "peacefully all afternoon in the bedroom",
+      "all afternoon peacefully in the bedroom"
+    ],
+    "answer": "peacefully in the bedroom all afternoon",
+    "explanation": "Applies standard MPT structure metrics smoothly. ✅"
+  },
+  {
+    "question": "The supervisor verified the cash account balance sheets _____.",
+    "options": [
+      "meticulously at the regional headquarters last week",
+      "at the regional headquarters meticulously last week",
+      "meticulously last week at the regional headquarters",
+      "last week meticulously at the regional headquarters"
+    ],
+    "answer": "meticulously at the regional headquarters last week",
+    "explanation": "Manner (meticulously) -> Place (at the regional headquarters) -> Time (last week) fits the design exactly. ✅"
+  },
+  {
+    "question": "The tourist group arrived _____ after navigating the high mountain loops.",
+    "options": [
+      "at the resort safely at dusk",
+      "safely at the resort at dusk",
+      "at the resort at dusk safely",
+      "safely at dusk at the resort"
+    ],
+    "answer": "at the resort safely at dusk",
+    "explanation": "'Arrived' calls for the PMT configuration variant: Place -> Manner -> Time. ✅"
+  },
+  {
+    "question": "The chemistry lecturer explained the complex compound equations _____.",
+    "options": [
+      "clearly inside the classroom this morning",
+      "inside the classroom clearly this morning",
+      "clearly this morning inside the classroom",
+      "this morning clearly inside the classroom"
+    ],
+    "answer": "clearly inside the classroom this morning",
+    "explanation": "Maintains structural accuracy via standard MPT placement logic. ✅"
+  },
+  {
+    "question": "Ravi updated the Python repository dependencies _____.",
+    "options": [
+      "from his laptop securely an hour ago",
+      "securely from his laptop an hour ago",
+      "an hour ago securely from his laptop",
+      "securely an hour ago from his laptop"
+    ],
+    "answer": "securely from his laptop an hour ago",
+    "explanation": "Chains parameters along the standard Manner -> Place -> Time framework track. ✅"
+  },
+  {
+    "question": "The target suspect slipped away _____ before the tracking team cordoned off the lane.",
+    "options": [
+      "from the spot quietly a few minutes ago",
+      "quietly from the spot a few minutes ago",
+      "a few minutes ago quietly from the spot",
+      "quietly a few minutes ago from the spot"
+    ],
+    "answer": "from the spot quietly a few minutes ago",
+    "explanation": "'Slipped away' behaves as a motion tracking verb phrase, prioritizing Place (from the spot) before Manner/Time elements. ✅"
+  },
+  {
+    "question": "The student practiced the English grammar mock sets _____.",
+    "options": [
+      "at home diligently yesterday evening",
+      "diligently at home yesterday evening",
+      "diligently yesterday evening at home",
+      "yesterday evening diligently at home"
+    ],
+    "answer": "diligently at home yesterday evening",
+    "explanation": "Manner (diligently) -> Place (at home) -> Time (yesterday evening) handles processing criteria correctly. ✅"
+  },
+  {
+    "question": "The auditing team recorded the unvouched expenditures _____.",
+    "options": [
+      "in the master ledger accurately during the session",
+      "accurately in the master ledger during the session",
+      "accurately during the session in the master ledger",
+      "during the session accurately in the master ledger"
+    ],
+    "answer": "accurately in the master ledger during the session",
+    "explanation": "Securely tracking under the Manner -> Place -> Time structural syntax layout rules. ✅"
+  },
+  {
+    "question": "The historical researcher checked the fragile documents _____.",
+    "options": [
+      "with great care inside the archive room yesterday",
+      "inside the archive room with great care yesterday",
+      "with great care yesterday inside the archive room",
+      "yesterday with great care inside the archive room"
+    ],
+    "answer": "with great care inside the archive room yesterday",
+    "explanation": "The complex manner phrase 'with great care' maps upfront, followed by Place and Time metrics. ✅"
+  },
+  {
+    "question": "The high-quality upscaled video frames loaded _____.",
+    "options": [
+      "on the admin panel smoothly today",
+      "smoothly on the admin panel today",
+      "today smoothly on the admin panel",
+      "smoothly today on the admin panel"
+    ],
+    "answer": "smoothly on the admin panel today",
+    "explanation": "Standard MPT compilation layout. ✅"
+  },
+  {
+    "question": "My father walked _____ to enjoy the refreshing cold air.",
+    "options": [
+      "to the scenic riverbank slowly at dawn",
+      "slowly to the scenic riverbank at dawn",
+      "at dawn slowly to the scenic riverbank",
+      "slowly at dawn to the scenic riverbank"
+    ],
+    "answer": "to the scenic riverbank slowly at dawn",
+    "explanation": "The movement verb 'walked' implements the positional priority switch to PMT order formatting. ✅"
+  },
+  {
+    "question": "The probationary clerk calculated the depreciation values _____.",
+    "options": [
+      "menticulously at the desk before the closing bell",
+      "at the desk meticulously before the closing bell",
+      "menticulously before the closing bell at the desk",
+      "before the closing bell meticulously at the desk"
+    ],
+    "answer": "menticulously at the desk before the closing bell",
+    "explanation": "Standard MPT chain execution configuration. ✅"
+  },
+  {
+    "question": "The unexpected error notifications popped up _____.",
+    "options": [
+      "repeatedly on the user interface screen during testing",
+      "on the user interface screen repeatedly during testing",
+      "repeatedly during testing on the user interface screen",
+      "during testing repeatedly on the user interface screen"
+    ],
+    "answer": "repeatedly on the user interface screen during testing",
+    "explanation": "Manner (repeatedly) -> Place (on the user interface screen) -> Time (during testing) establishes full ordering accuracy. ✅"
+  },
+  {
+    "question": "The target bus came _____ due to an engine failure issue.",
+    "options": [
+      "to a halt suddenly on the highway last night",
+      "suddenly to a halt on the highway last night",
+      "to a halt on the highway suddenly last night",
+      "suddenly on the highway last night to a halt"
+    ],
+    "answer": "to a halt suddenly on the highway last night",
+    "explanation": "'Came' is a motion action verb, demanding structural alignment under the PMT exception template. ✅"
+  }
+]
