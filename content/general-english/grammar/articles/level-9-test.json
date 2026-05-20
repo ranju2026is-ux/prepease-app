@@ -1,0 +1,182 @@
+[
+  {
+    "question": "The junior assistant was in _____ hurry to submit the RTI draft before evening.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "The idiomatic expression is 'in a hurry', which structurally requires the indefinite article 'a'. ✅"
+  },
+  {
+    "question": "We usually wake up at _____ dawn to revise our physics and chemistry notes.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "Phrases with prepositions pointing to parts of the day like 'at dawn', 'at noon', 'at sunset' take zero article. ✅"
+  },
+  {
+    "question": "Please do not make _____ noise in the office during auditing hours.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "The phrase 'make a noise' is a fixed idiomatic collocation that always takes the article 'a'. ✅"
+  },
+  {
+    "question": "He travels from Rabkavi Banhatti to Vijayapura regularly _____ bus.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "When expressing modes of transportation using 'by', no article is used before the vehicle name (e.g., by bus, by train, by car). ✅"
+  },
+  {
+    "question": "After facing consecutive failures in the test, he managed to take _____ heart and study again.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "The phrase 'take heart' (ಧೈರ್ಯ ತಂದುಕೊ) is an idiom that rejects any internal article structure. ✅"
+  },
+  {
+    "question": "The candidate was at _____ loss when the interviewer asked complex questions on accounting ledgers.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "The fixed expression 'at a loss' (ಏನೂ ತೋಚದಂತಾಗು) requires the mandatory placement of 'a'. ✅"
+  },
+  {
+    "question": "He has been suffering from _____ headache since he started optimizing the SQL query logs.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "Common minor ailments in idiomatic usage take the indefinite article (e.g., have a headache, catch a cold). ✅"
+  },
+  {
+    "question": "The dry grass caught _____ fire due to the intense summer heat.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "The idiomatic combination 'catch fire' (ಬೆಂಕಿ ಹೊತ್ತಿಕೊಳ್ಳು) is used without any article. ✅"
+  },
+  {
+    "question": "He thinks he is _____ Shakespeare of our modern dramatic literature circle.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "When a proper noun is used as a standard comparison point representing a supreme title ('the Shakespeare of...'), it takes 'The'. ✅"
+  },
+  {
+    "question": "Our new website prototype layout is currently _____ demand among students.",
+    "options": ["in a", "in the", "in", "under the"],
+    "answer": "in",
+    "explanation": "The phrase 'in demand' (ಬೇಡಿಕೆಯಲ್ಲಿರುವುದು) is a fixed idiom that takes zero article. ✅"
+  },
+  {
+    "question": "He made _____ mistake by ignoring the guidelines of the text formatting manual.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "The standard expression is 'make a mistake', matching the indefinite profile format. ✅"
+  },
+  {
+    "question": "The old structure was completely destroyed _____ night by the heavy storm.",
+    "options": ["at", "at the", "during a", "in a"],
+    "answer": "at",
+    "explanation": "The standard time phrase idiom 'at night' does not contain any article. ✅"
+  },
+  {
+    "question": "The department head gave him _____ piece of advice to handle stress during work shifts.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "Since 'advice' is uncountable, we use the singular countable phrase 'a piece of advice'. ✅"
+  },
+  {
+    "question": "They walked hand _____ hand along the banks of the river Ganges.",
+    "options": ["in a", "in the", "in", "by the"],
+    "answer": "in",
+    "explanation": "Repeated coordinate nouns in idiomatic pairs like 'hand in hand' or 'face to face' take no article. ✅"
+  },
+  {
+    "question": "He is _____ Newton of this generation, given his incredible physics inventions.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Using a proper noun as a superlative metaphoric descriptor for someone requires 'The'. ✅"
+  },
+  {
+    "question": "The typing assistant told us that she was in _____ pain after the long data entry task.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "The phrase 'in pain' (ನೋವಿನಲ್ಲಿರುವುದು) is a fixed state description that takes zero article. ✅"
+  },
+  {
+    "question": "It is _____ pity that he missed the deadline for the competitive exam application.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "The expression 'It is a pity' or 'It is a shame' is an idiomatic clause taking 'a'. ✅"
+  },
+  {
+    "question": "The ship was anchored at _____ sea for more than two weeks due to stormy weather.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "The idiomatic locative expression 'at sea' (ಸಮುದ್ರದಲ್ಲಿ ಸಂಚರಿಸುವಾಗ/ದಾರಿ ಕಾಣದಿದ್ದಾಗ) does not take an article. ✅"
+  },
+  {
+    "question": "He wants to keep _____ track of all transactions made through the cash account balance.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "The complex idiom format is 'keep track of', which contains no internal article component. ✅"
+  },
+  {
+    "question": "Ravi is _____ Kalidasa, known for his beautiful poetic expressions in modern Kannada.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "When we mean a person has the genius qualities of a legendary historical figure (a Kalidasa meaning a great poet), we use 'a'. ✅"
+  },
+  {
+    "question": "The dynamic backend script came to _____ end automatically after checking all records.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "The standard transitional phrase format is 'come to an end'. ✅"
+  },
+  {
+    "question": "The entire family traveled to Delhi _____ air to save time on their travel itinerary.",
+    "options": ["by a", "by the", "by", "through"],
+    "answer": "by",
+    "explanation": "Travel routes or mediums matching with 'by' reject articles (by air, by sea, by land). ✅"
+  },
+  {
+    "question": "He took _____ offense at the casual remarks made by his classmate.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "The fixed verbal phrase is 'take offense' (ಬೇಸರಪಟ್ಟುಕೊಳ್ಳು), taking no article parameters. ✅"
+  },
+  {
+    "question": "It is _____ honor to assist you with the front-end layout styling for PrepEase.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "'Honor' has a silent 'h', presenting a vowel sound that requires 'an'. ✅"
+  },
+  {
+    "question": "The administrative dispute was settled _____ court through mutual arbitration.",
+    "options": ["out of a", "out of the", "out of", "outside the"],
+    "answer": "out of",
+    "explanation": "The legal idiom phrase 'out of court' functions entirely without any internal article attachment. ✅"
+  },
+  {
+    "question": "He had _____ narrow escape when the vehicle skidded on the muddy village road.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "The standard expression for surviving a close hazard is 'have a narrow escape'. ✅"
+  },
+  {
+    "question": "The unexpected error put the junior assistant in _____ fix during the audit inspection.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "The idiomatic phrase 'in a fix' (ಸಂಕಟಕ್ಕೆ ಸಿಲುಕುವುದು) requires the indefinite article 'a'. ✅"
+  },
+  {
+    "question": "The missing files were discovered _____ accident by the helper while clearing the shelf.",
+    "options": ["by a", "by the", "by", "with"],
+    "answer": "by",
+    "explanation": "The adverbial phrase 'by accident' (ಆಕಸ್ಮಿಕವಾಗಿ) is fixed and rejects any intermediate article. ✅"
+  },
+  {
+    "question": "She has _____ good knowledge of ancient fashion trends and fabric design structures.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "Though 'knowledge' is uncountable, when modified by an adjective, the pattern 'have a good knowledge of' is idioms-permissible. ✅"
+  },
+  {
+    "question": "The team was working against _____ clock to launch the app update before midnight.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "The phrase 'against the clock' (ಸಮಯ ಮೀರುವ ಮುನ್ನ ಅತ್ಯಂತ ವೇಗವಾಗಿ ಕೆಲಸ ಮಾಡು) is a fixed idiom taking 'The'. ✅"
+  }
+]
