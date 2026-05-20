@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Ravi _____ live in a small room near Rabkavi Banhatti before he shifted to Vijayapura.",
+    "options": ["would", "used to", "is used to", "was used to"],
+    "answer": "used to",
+    "explanation": "'Live' is a stative verb representing a past state. We cannot use 'would' for past states; we must strictly use 'used to'. ✅"
+  },
+  {
+    "question": "During our college days, we _____ often sit near the historic fort wall and discuss physics formulas.",
+    "options": ["would", "used to be", "are used to", "use to"],
+    "answer": "would",
+    "explanation": "For repeated past actions or routines, both 'would' and 'used to' are correct. Since it defines a regular active motion verb ('sit'), 'would' fits perfectly. ✅"
+  },
+  {
+    "question": "The new junior accounts assistant is not _____ working until 7:00 PM every evening.",
+    "options": ["used to", "use to", "would", "used to be"],
+    "answer": "used to",
+    "explanation": "When preceded by a 'be' verb ('is not'), the phrase 'used to' means 'accustomed to' and must be followed by a gerund (V1+ing - 'working'). ✅"
+  },
+  {
+    "question": "I _____ have a heavy desktop monitor to test Python automation code, but now I use a laptop.",
+    "options": ["would", "used to", "am used to", "use to"],
+    "answer": "used to",
+    "explanation": "'Have' here functions as a stative verb of possession. 'Would' cannot express past states of possession, making 'used to' correct. ✅"
+  },
+  {
+    "question": "Every weekend back then, his sister _____ sketch traditional apparel prototypes for hours.",
+    "options": ["would", "used to be", "is used to", "was used to"],
+    "answer": "would",
+    "explanation": "Expresses a repeated past active routine behavior ('sketch'), which is a classic application for the past modal 'would'. ✅"
+  },
+  {
+    "question": "Identify the error part: I would know (A) / all the core sections (B) / of the RTI Act (C) / during my training. (D)",
+    "options": ["A", "B", "C", "No error"],
+    "answer": "A",
+    "explanation": "The part 'I would know' is wrong. 'Know' is a stative verb of cognition. For past states, use 'I used to know' instead of 'would'. ✅"
+  },
+  {
+    "question": "Ravi was slowly getting _____ the complex database routing errors in the server logs.",
+    "options": ["used to fixing", "used to fix", "use to fixing", "would fix"],
+    "answer": "used to fixing",
+    "explanation": "The expression 'getting used to' acts as a prepositional phrase meaning becoming accustomed to, which demands a gerund ('fixing'). ✅"
+  },
+  {
+    "question": "When I was young, my father _____ take me to scenic destinations near Karnataka.",
+    "options": ["would", "use to be", "am used to", "was used to"],
+    "answer": "would",
+    "explanation": "Refers to a repeated, nostalgic past active habit ('take'), making 'would' a highly stylish and accurate option. ✅"
+  },
+  {
+    "question": "There _____ be a massive library near the examination center where aspirants gathered.",
+    "options": ["would", "used to", "is used to", "use to"],
+    "answer": "used to",
+    "explanation": "Describing the past existence of a building or state ('be') explicitly requires 'used to' over 'would'. ✅"
+  },
+  {
+    "question": "The typing assistant is _____ compiling thirty pages of official drafts daily now.",
+    "options": ["used to", "use to", "would", "used to be"],
+    "answer": "used to",
+    "explanation": "Follows the format 'is + used to + V1+ing (compiling)', denoting a deeply ingrained current habit. ✅"
+  },
+  {
+    "question": "We _____ believe that clearing the UPSC prelims cut-off margin was an impossible task.",
+    "options": ["would", "used to", "are used to", "use to"],
+    "answer": "used to",
+    "explanation": "'Believe' is a stative mental verb. It restricts past expression to 'used to', banning 'would'. ✅"
+  },
+  {
+    "question": "Whenever the coaching square launched a mock quiz, the students _____ study all night.",
+    "options": ["would", "use to be", "are used to", "was used to"],
+    "answer": "would",
+    "explanation": "Depicts a regular conditional action routine in the past, selecting the functional modal 'would'. ✅"
+  },
+  {
+    "question": "He _____ be very lazy during his early probationary shifts, but now he works meticulously.",
+    "options": ["would", "used to", "is used to", "use to"],
+    "answer": "used to",
+    "explanation": "Past attributes of character or states of being ('be lazy') cannot be modified using 'would'. ✅"
+  },
+  {
+    "question": "I am not _____ eating spicy food during my multi-day travel trips to Delhi.",
+    "options": ["used to", "use to", "would", "used to be"],
+    "answer": "used to",
+    "explanation": "Preceded by present state 'am not', requiring the 'used to + gerund' sequence to map familiarity. ✅"
+  },
+  {
+    "question": "In the past, the chemistry lecturer _____ always demonstrate the compound equations twice.",
+    "options": ["would", "used to be", "is used to", "use to"],
+    "answer": "would",
+    "explanation": "An active demonstration action repeated regularly in past lecture timelines takes 'would'. ✅"
+  },
+  {
+    "question": "Ravi _____ spend hours optimizing the front-end layout styling variables when he began building the site.",
+    "options": ["would", "used to be", "was used to", "use to"],
+    "answer": "would",
+    "explanation": "A dynamic past active workflow event allows 'would' to track the action frame smoothly. ✅"
+  },
+  {
+    "question": "The local verification officer _____ belong to the regional audit headquarters back then.",
+    "options": ["would", "used to", "is used to", "use to"],
+    "answer": "used to",
+    "explanation": "'Belong' is a stative verb indicating past structural connection or possession, matching solely with 'used to'. ✅"
+  },
+  {
+    "question": "Aspirants from rural Karnataka are _____ waking up early to practice competitive grammar papers.",
+    "options": ["used to", "use to", "would", "used to be"],
+    "answer": "used to",
+    "explanation": "Coupled with plural present link verb 'are', it frames the habit structure 'are used to + V1+ing'. ✅"
+  },
+  {
+    "question": "During the monsoons in Vijayapura, the old office roof _____ always leak water.",
+    "options": ["would", "use to be", "is used to", "was used to"],
+    "answer": "would",
+    "explanation": "A past mechanical recurring active scenario allows 'would' to function as the behavior descriptor. ✅"
+  },
+  {
+    "question": "He _____ understand every complex ledger balance sheet layout block at a single glance.",
+    "options": ["would", "used to", "am used to", "use to"],
+    "answer": "used to",
+    "explanation": "Mental capacity or states ('understand') are handled via 'used to' when looking at historical capabilities. ✅"
+  },
+  {
+    "question": "The technical team soon became _____ deploying automated tracking scripts on the cloud node.",
+    "options": ["used to", "use to", "would", "used to be"],
+    "answer": "used to",
+    "explanation": "Following the change of state marker 'became', 'used to' behaves as a connector to the gerund phrase. ✅"
+  },
+  {
+    "question": "Every evening after the work shift, the board members _____ meet at the guest house.",
+    "options": ["would", "used to be", "are used to", "use to"],
+    "answer": "would",
+    "explanation": "Captures a past habitual action sequence ('meet') elegantly within past text narrative codes. ✅"
+  },
+  {
+    "question": "My father _____ own an ancient traditional textile manufacturing frame near Rabkavi Banhatti.",
+    "options": ["would", "used to", "is used to", "use to"],
+    "answer": "used to",
+    "explanation": "The ownership verb 'own' is inherently stative, rejecting past modal 'would' allocations. ✅"
+  },
+  {
+    "question": "Are you _____ analyzing unvouched expenditure files under high-pressure audit hours?",
+    "options": ["used to", "use to", "would", "used to be"],
+    "answer": "used to",
+    "explanation": "A present continuous interrogation framework matching a gerund targets 'used to'. ✅"
+  },
+  {
+    "question": "The applicant _____ check the online portal three times a day to trace his RTI response script.",
+    "options": ["would", "used to be", "was used to", "use to"],
+    "answer": "would",
+    "explanation": "Tracking a routine physical past verification action aligns perfectly with 'would'. ✅"
+  },
+  {
+    "question": "Ravi _____ keep a physical copy of all SQL schema variables on his whiteboard.",
+    "options": ["would", "used to", "am used to", "use to"],
+    "answer": "used to",
+    "explanation": "Both work here, but when mapping a long-term status characteristic, 'used to' is highly dependable. ✅"
+  },
+  {
+    "question": "The tourist group _____ often sing folk tracks while traveling through the loops of Himachal Pradesh.",
+    "options": ["would", "use to be", "are used to", "was used to"],
+    "answer": "would",
+    "explanation": "An active performance routine ('sing') occurring repeatedly during past tours selects 'would'. ✅"
+  },
+  {
+    "question": "The computer lab operator was not _____ handling massive multi-user traffic overloads.",
+    "options": ["used to", "use to", "would", "used to be"],
+    "answer": "used to",
+    "explanation": "The tracking block 'was not + used to + handling' ensures adherence to the gerund routine rule. ✅"
+  },
+  {
+    "question": "I _____ recognize all the historical fort gateways near the district borders when I was a kid.",
+    "options": ["would", "used to", "is used to", "use to"],
+    "answer": "used to",
+    "explanation": "'Recognize' acts as a stative verb of cognition, selecting the past status token 'used to'. ✅"
+  },
+  {
+    "question": "Before the automated quiz widget was built, we _____ manually evaluate every single answer.",
+    "options": ["would", "use to be", "are used to", "was used to"],
+    "answer": "would",
+    "explanation": "Concludes the level by modifying an active, repeatable past physical workflow ('evaluate') using 'would'. ✅"
+  }
+]
