@@ -1,0 +1,182 @@
+[
+  {
+    "question": "I bought _____ laptop yesterday. _____ laptop is working smoothly.",
+    "options": ["a, A", "a, The", "the, The", "an, The"],
+    "answer": "a, The",
+    "explanation": "We use 'a' when introducing a singular countable noun for the first time, and 'The' when referring to it a second time. ✅"
+  },
+  {
+    "question": "_____ Himalayas protect the northern borders of India from cold winds.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "We use 'The' before the names of mountain ranges like the Himalayas. ✅"
+  },
+  {
+    "question": "_____ Mount Everest is the highest peak in the world.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "We do not use any article before the names of individual mountain peaks (like Mount Everest or Mount Abu). ✅"
+  },
+  {
+    "question": "He works as _____ SDO (Sub-Divisional Officer) in the state government.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "The abbreviation 'SDO' starts with the letter 'S', which is pronounced with an initial vowel sound (es-dee-oh), so it takes 'an'. ✅"
+  },
+  {
+    "question": "The doctor recommended taking _____ X-ray of the injured leg.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "The letter 'X' in 'X-ray' is pronounced with an initial vowel sound (ex-ray), requiring 'an'. ✅"
+  },
+  {
+    "question": "We saw _____ elephant in the forest. _____ elephant was drinking water.",
+    "options": ["an, An", "an, The", "a, The", "the, The"],
+    "answer": "an, The",
+    "explanation": "First mention takes 'an' due to the vowel sound, and the second mention takes 'The' because it becomes specific. ✅"
+  },
+  {
+    "question": "My uncle is _____ Member of Parliament (MP) representing our district.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "When written fully as 'Member of Parliament', it starts with a consonant sound ('M'), so it takes 'a'. (Note: As an abbreviation 'MP', it takes 'an'). ✅"
+  },
+  {
+    "question": "He went to the clinic to meet _____ doctor who treated his father.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "We use 'The' because we are talking about a specific doctor (the one who treated his father), not any general doctor. ✅"
+  },
+  {
+    "question": "_____ Andamans are a group of beautiful islands in the Bay of Bengal.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "We use 'The' before the names of groups of islands (like the Andamans, the Lakshadweep). ✅"
+  },
+  {
+    "question": "_____ Java is an island famous for its rich coffee cultivation.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "While groups of islands take 'The', individual islands (like Java, Sumatra, Ceylon) do not take any article. ✅"
+  },
+  {
+    "question": "She completed her post-graduation and became _____ M.A. in English.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "The abbreviation 'M.A.' starts with a vowel sound (em-a), so it takes 'an'. ✅"
+  },
+  {
+    "question": "Ravi found _____ wallet on the street. Inside _____ wallet, there was an old coin.",
+    "options": ["a, a", "a, the", "the, the", "an, the"],
+    "answer": "a, the",
+    "explanation": "The wallet is indefinite upon first mention ('a') and definite upon second mention ('the'). ✅"
+  },
+  {
+    "question": "He is _____ BDO (Block Development Officer) managing rural projects.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "The abbreviation 'BDO' starts with a consonant sound (bee-dee-oh), so it takes 'a'. ✅"
+  },
+  {
+    "question": "_____ Alps are located in Europe and stretch across eight countries.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Names of mountain ranges like the Alps or the Rockies always take 'The'. ✅"
+  },
+  {
+    "question": "_____ Persian Gulf is an important strategic waterway for international trade.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Names of gulfs (like the Persian Gulf, the Gulf of Mexico) are preceded by 'The'. ✅"
+  },
+  {
+    "question": "They live in _____ small village. _____ village is near the river bank.",
+    "options": ["a, a", "a, the", "the, the", "an, the"],
+    "answer": "a, the",
+    "explanation": "First introduction of 'village' takes 'a', repetition takes 'The'. ✅"
+  },
+  {
+    "question": "She is _____ university professor with twenty years of teaching experience.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "'University' starts with a consonant sound ('yoo'), so it takes 'a'. ✅"
+  },
+  {
+    "question": "Let's discuss _____ problem that you mentioned in the morning email.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "The problem is specific because it is defined as the one 'mentioned in the morning email'. ✅"
+  },
+  {
+    "question": "_____ Netherlands is known for its beautiful tulip fields and windmills.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Countries with plural names or names indicating a collection of states take 'The'. ✅"
+  },
+  {
+    "question": "Ravi is _____ intelligent JAA, and everyone praises his dedication.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "'Intelligent' begins with a vowel sound, matching with 'an'. ✅"
+  },
+  {
+    "question": "I saw _____ boy running down the lane. _____ boy was chasing a puppy.",
+    "options": ["a, a", "a, the", "the, the", "an, the"],
+    "answer": "a, the",
+    "explanation": "The second reference to the boy points back to the specific boy seen earlier, requiring 'The'. ✅"
+  },
+  {
+    "question": "_____ Indian Ocean is the third-largest of the world's oceanic divisions.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Names of oceans always take the definite article 'The'. ✅"
+  },
+  {
+    "question": "He made _____ error in the ledger entry, which caused a huge balance mismatch.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "'Error' starts with a vowel sound (eh-ror), requiring 'an'. ✅"
+  },
+  {
+    "question": "_____ Sahara is the largest hot desert in the world.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Names of deserts (like the Sahara, the Thar, the Gobi) always take 'The'. ✅"
+  },
+  {
+    "question": "She gave me _____ apple and _____ orange. _____ orange was sweet.",
+    "options": ["an, an, The", "a, an, The", "an, a, The", "the, the, The"],
+    "answer": "an, an, The",
+    "explanation": "Both nouns start with vowel sounds. The orange is repeated, so it gets 'The'. ✅"
+  },
+  {
+    "question": "He belongs to _____ United Kingdom, where he completed his higher education.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Countries whose names include words like 'United', 'Kingdom', or 'Republic' take 'The'. ✅"
+  },
+  {
+    "question": "_____ Suez Canal connects the Mediterranean Sea to the Red River.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Names of canals, seas, and oceans are always preceded by 'The'. ✅"
+  },
+  {
+    "question": "_____ English is a global language spoken by millions.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "We do not use any article before the names of languages when used in a general sense. ✅"
+  },
+  {
+    "question": "I can play _____ guitar, but I don't own one.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "We use 'The' before musical instruments when referring to the ability to play them. ✅"
+  },
+  {
+    "question": "_____ train arrived late, so we missed our connecting bus.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Refers to a specific train that the speaker was waiting for or expecting. ✅"
+  }
+]
