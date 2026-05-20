@@ -1,0 +1,182 @@
+[
+  {
+    "question": "Ahmedabad is widely known as _____ Manchester of India due to its vast textile industry.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "When a proper noun is used as a supreme metaphoric comparison for another place using the 'X of Y' structure, the definite article 'The' is mandatory. ✅"
+  },
+  {
+    "question": "Kalidasa is _____ Shakespeare of Indian classical literature.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Using a legendary figure's name to give a specific structural title ('the Shakespeare of...') requires the definite article 'The'. ✅"
+  },
+  {
+    "question": "He is _____ Sachin Tendulkar in our local cricket club, scoring centuries effortlessly.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "Exception Rule: When we mean a person simply possesses the qualities of a famous icon (meaning 'a great batsman like Sachin'), we use the indefinite article 'a'. ✅"
+  },
+  {
+    "question": "The dynamic backend code compilation came to _____ abrupt end due to a sudden power failure.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "The idiom is 'come to an end'. Since 'end' is modified by 'abrupt' which starts with a vowel sound (uh-brupt), we use 'an'. ✅"
+  },
+  {
+    "question": "_____ gold of South Africa is heavily exported to various international markets.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Though 'gold' is a material noun, it is restricted here to a specific geographic origin ('of South Africa'), demanding 'The'. ✅"
+  },
+  {
+    "question": "_____ silver is considered _____ useful metal for creating industrial electrical contacts.",
+    "options": ["No article, a", "The, a", "No article, an", "The, an"],
+    "answer": "No article, a",
+    "explanation": "'Silver' is a material noun used generally (zero article). 'Useful' begins with a consonant sound ('yoo'), taking the article 'a'. ✅"
+  },
+  {
+    "question": "The tracking team discovered that the missing data files were left behind by _____ oversight.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "The adverbial phrase 'by oversight' (ಅಚಾತುರ್ಯದಿಂದ) is a fixed idiom that rejects any internal article placement. ✅"
+  },
+  {
+    "question": "The junior accountant was advised to check the cash account balance in _____ afternoon.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Time phrases containing 'in' require the definite article (e.g., in the afternoon, in the morning). ✅"
+  },
+  {
+    "question": "The dynamic data validation script was written in _____ Python language.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Even for programming or spoken languages, attaching the explicit word 'language' immediately after the proper noun forces the use of 'The'. ✅"
+  },
+  {
+    "question": "_____ water of the river Ganges is considered sacred by millions of devotees.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "The material noun 'water' is particularized by the subsequent modifier phrase 'of the river Ganges', necessitating 'The'. ✅"
+  },
+  {
+    "question": "The defense attorney argued the complex case with _____ rare patience and intense clarity.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "When an abstract noun ('patience') is preceded by an adjective ('rare') describing a singular instance of that quality, it can take 'a'. ✅"
+  },
+  {
+    "question": "The audit inspectors decided to settle the ledger discrepancy dispute _____ court.",
+    "options": ["out of a", "out of the", "out of", "outside"],
+    "answer": "out of",
+    "explanation": "The legal idiom 'out of court' functions as a fixed structure with zero article usage. ✅"
+  },
+  {
+    "question": "The typing assistant went to _____ prison to deliver legal documents to the warden.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "The assistant visits the prison as part of an administrative task (secondary purpose), not as an inmate, so 'the' is mandatory. ✅"
+  },
+  {
+    "question": "The prompt response from the department head put _____ end to all rumors regarding exam delays.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "The fixed verbal phrase template is 'put an end to something', matching standard usage. ✅"
+  },
+  {
+    "question": "The traveler booked a scenic multi-day itinerary connecting the unique heritage sites in _____ North India.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "No article is applied before directional modifiers directly attached to a specific country or regional proper noun unit like 'North India'. ✅"
+  },
+  {
+    "question": "_____ more you delay checking the trial balance entries, _____ more complicated the auditing process becomes.",
+    "options": ["A, a", "The, a", "The, the", "No article, the"],
+    "answer": "The, the",
+    "explanation": "Double comparative structural formats representing a parallel cause-and-effect relationship take 'The' in both sections. ✅"
+  },
+  {
+    "question": "The old manual text formatting was completely based on _____ rules of Markdown syntax.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "The noun 'rules' is made specific by the descriptive trailing phrase 'of Markdown syntax', requiring 'The'. ✅"
+  },
+  {
+    "question": "The project developer was at _____ absolute loss when the SQL schema database crashed during testing.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "The base idiom is 'at a loss'. Since it is modified by 'absolute' which presents an initial vowel sound, it morphs into 'at an absolute loss'. ✅"
+  },
+  {
+    "question": "Ravi's sister curated a self-taught study plan to understand _____ fashion design basics.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "Broad branches of vocational study or artistic fields take zero article when referenced in a general sense. ✅"
+  },
+  {
+    "question": "The team was working against _____ clock to push the latest app updates to the GitHub repository.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "The fixed idiomatic phrase meaning to work fast under tight deadlines is strictly 'against the clock'. ✅"
+  },
+  {
+    "question": "_____ wisdom of the junior assistant saved the cash book records from a major calculation mistake.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "The abstract noun 'wisdom' is particularized by linking it directly to the junior assistant, thereby selecting 'The'. ✅"
+  },
+  {
+    "question": "The regional folk artists performed beautiful songs using _____ flute and the violin.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "When musical instruments are mentioned collectively as a medium of art or performance, they take 'The'. ✅"
+  },
+  {
+    "question": "The suspect spent _____ hour inside the local police office clarifying his statements.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "'Hour' begins with a silent 'h', rendering a vowel sound that demands the indefinite article 'an'. ✅"
+  },
+  {
+    "question": "Our family planned a short journey to explore the scenic historical views around _____ Alps range.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Names of extensive geographical mountain ranges always take the definite article 'The'. ✅"
+  },
+  {
+    "question": "_____ Mount Abu is home to several ancient architectural structures and beautiful views.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "While mountain ranges take 'The', individual standalone mountain peaks (like Mount Abu or Mount Everest) require zero article. ✅"
+  },
+  {
+    "question": "The police team caught the fleeing pickpocket right by _____ collar.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "Specific physical target zones or clothing spots involved in a direct objective action take 'The'. ✅"
+  },
+  {
+    "question": "The software engineer integrated _____ interactive automated quiz widget into the website layout.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "'Interactive' starts with a vowel sound (in-ter-ac-tive), requiring the indefinite article 'an'. ✅"
+  },
+  {
+    "question": "_____ breakfast hosted by the senior superintendent was attended by all probationary clerks.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "The meal is specific because it refers exclusively to the breakfast hosted by that particular superintendent. ✅"
+  },
+  {
+    "question": "They completed their text data validation assignments and returned home at _____ sunset.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "Fixed prepositional time-of-day phrases like 'at sunset', 'at dawn', or 'at midnight' use zero article. ✅"
+  },
+  {
+    "question": "He has _____ excellent command over English grammar rules and vocabulary usages.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "The phrase 'have an excellent command over' is an accepted idiomatic template where 'excellent' guides the choice to 'an'. ✅"
+  }
+]
