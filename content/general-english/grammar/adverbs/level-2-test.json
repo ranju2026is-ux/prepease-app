@@ -1,0 +1,182 @@
+[
+  {
+    "question": "He _____ studies his accounts textbooks, so it is no surprise that he struggles in mock exams.",
+    "options": ["hard", "hardly", "hardly manner", "harderly"],
+    "answer": "hardly",
+    "explanation": "'Hardly' is a negative adverb meaning 'scarcely' or 'almost not'. It fits perfectly here because he barely studies. ✅"
+  },
+  {
+    "question": "The senior clerk worked _____ all night to reconcile the trial balance discrepancy.",
+    "options": ["hardly", "hard", "in a hard way", "hardly form"],
+    "answer": "hard",
+    "explanation": "Here, 'hard' means with great energy and effort, which gives the correct positive meaning of working intensely. ✅"
+  },
+  {
+    "question": "Have you read any interesting updates regarding the UPSC prelims format _____?",
+    "options": ["late", "lately", "latestly", "more late"],
+    "answer": "lately",
+    "explanation": "'Lately' is an adverb of time that means 'recently' or 'in recent times'. ✅"
+  },
+  {
+    "question": "Ravi arrived _____ for his official evening work shift due to heavy traffic on the highway.",
+    "options": ["late", "lately", "latestly", "more lately"],
+    "answer": "late",
+    "explanation": "When referring to arriving after the scheduled or expected time, we use 'late', not 'lately'. ✅"
+  },
+  {
+    "question": "The dynamic backend validation script is _____ finished; only a few routes remain.",
+    "options": ["near", "nearly", "neary", "nearestly"],
+    "answer": "nearly",
+    "explanation": "'Nearly' is an adverb of degree meaning 'almost'. 'Near' refers to physical or temporal proximity. ✅"
+  },
+  {
+    "question": "The historic fort structure stands _____ the local government registration office.",
+    "options": ["nearly", "near", "neary", "nearestly"],
+    "answer": "near",
+    "explanation": "Here, 'near' is used as an adverb or preposition of place signifying close physical distance. ✅"
+  },
+  {
+    "question": "The commissioner is _____ respected by all junior accounts assistants in the state.",
+    "options": ["high", "highly", "higherly", "highestly"],
+    "answer": "highly",
+    "explanation": "'Highly' means to a high degree, extremely, or with great admiration. ✅"
+  },
+  {
+    "question": "The eagle soared _____ above the scenic valleys of Himachal Pradesh.",
+    "options": ["highly", "high", "higherly", "highestly"],
+    "answer": "high",
+    "explanation": "When referring to physical height or distance upwards, the correct adverb form is 'high'. ✅"
+  },
+  {
+    "question": "The printing assistant could _____ lift the heavy bundle of blank voucher ledgers.",
+    "options": ["hard", "hardly", "harder", "hardly manner"],
+    "answer": "hardly",
+    "explanation": "The context implies inability or extreme difficulty (almost could not lift), which requires the negative adverb 'hardly'. ✅"
+  },
+  {
+    "question": "You must push the button _____ to securely lock the server cabinet drawer.",
+    "options": ["hardly", "hard", "hardly form", "more hardly"],
+    "answer": "hard",
+    "explanation": "Requires physical force or effort, meaning the adverb 'hard' must be applied. ✅"
+  },
+  {
+    "question": "I haven't visited my ancestral village near Rabkavi Banhatti _____.",
+    "options": ["late", "lately", "latestly", "more late"],
+    "answer": "lately",
+    "explanation": "Means 'recently' in a negative perfect tense structure, which dictates 'lately'. ✅"
+  },
+  {
+    "question": "The state notification regarding probation relaxation rules was published _____ last night.",
+    "options": ["late", "lately", "latestly", "more late"],
+    "answer": "late",
+    "explanation": "Refers to a late hour in the night, hence 'late' is grammatically correct. ✅"
+  },
+  {
+    "question": "The car came to a halt _____ crashing into the roadside security barricade.",
+    "options": ["near", "nearly", "nearestly", "neary"],
+    "answer": "nearly",
+    "explanation": "The sentence means the car 'almost' crashed, requiring the adverb of degree 'nearly'. ✅"
+  },
+  {
+    "question": "Is there any public digital service center located _____ the bus stand?",
+    "options": ["nearly", "near", "neary", "nearestly"],
+    "answer": "near",
+    "explanation": "Asks about geographic closeness or physical proximity, selecting 'near'. ✅"
+  },
+  {
+    "question": "This newly developed interactive quiz module is _____ recommended for competitive exam aspirants.",
+    "options": ["high", "highly", "higherly", "highestly"],
+    "answer": "highly",
+    "explanation": "Modifies the verb 'recommended' to show an extreme level of appreciation or rating. ✅"
+  },
+  {
+    "question": "He threw the cricket ball _____ into the air to celebrate the victory.",
+    "options": ["highly", "high", "higherly", "highestly"],
+    "answer": "high",
+    "explanation": "Points to physical elevation upward, selecting the adverb 'high'. ✅"
+  },
+  {
+    "question": "The water supply in the residential locality was _____ sufficient during the peak summer months.",
+    "options": ["hard", "hardly", "harder", "hardly manner"],
+    "answer": "hardly",
+    "explanation": "Means the water was 'scarcely' or 'almost not' sufficient, requiring 'hardly'. ✅"
+  },
+  {
+    "question": "Ravi practiced coding SQL schemas _____ for weeks to build the PrepEase backend.",
+    "options": ["hardly", "hard", "harderly", "with hardly"],
+    "answer": "hard",
+    "explanation": "Indicates intense positive effort and dedication, choosing 'hard'. ✅"
+  },
+  {
+    "question": "The project architecture has undergone several critical changes _____.",
+    "options": ["late", "lately", "latestly", "more late"],
+    "answer": "lately",
+    "explanation": "'Lately' maps accurately onto the present perfect timeline to mean 'recently'. ✅"
+  },
+  {
+    "question": "The office staff had to stay _____ to complete the urgent data entry task.",
+    "options": ["late", "lately", "latestly", "more lately"],
+    "answer": "late",
+    "explanation": "Staying past normal operating hours requires the temporal adverb 'late'. ✅"
+  },
+  {
+    "question": "The total collection of the charity drive has _____ reached our target milestone.",
+    "options": ["near", "nearly", "neary", "nearestly"],
+    "answer": "nearly",
+    "explanation": "The collection has 'almost' reached the milestone, which demands 'nearly'. ✅"
+  },
+  {
+    "question": "Don't sit _____ the television screen while watching the descriptive video analysis.",
+    "options": ["nearly", "near", "neary", "nearestly"],
+    "answer": "near",
+    "explanation": "Prohibits sitting at a small distance from the device, using 'near'. ✅"
+  },
+  {
+    "question": "He is a _____ skilled professional capable of handling complex Python repository structures.",
+    "options": ["high", "highly", "higherly", "highestly"],
+    "answer": "highly",
+    "explanation": "Modifies the adjective 'skilled' to show an extreme degree of capability. ✅"
+  },
+  {
+    "question": "The stock prices fluctuated _____ before stabilizing at the close of the day.",
+    "options": ["highly", "high", "higherly", "highestly"],
+    "answer": "high",
+    "explanation": "In financial contexts, jumping or fluctuating to an elevated point uses 'high'. ✅"
+  },
+  {
+    "question": "There was _____ any error found in the cash account balance after the thorough audit.",
+    "options": ["hard", "hardly", "harder", "hardly form"],
+    "answer": "hardly",
+    "explanation": "The expression 'hardly any' is a standard idiom meaning 'almost no errors'. ✅"
+  },
+  {
+    "question": "He hit the wooden block _____ with a metal hammer during the repair work.",
+    "options": ["hardly", "hard", "hardly manner", "more hardly"],
+    "answer": "hard",
+    "explanation": "Refers to striking with great physical power or velocity, selecting 'hard'. ✅"
+  },
+  {
+    "question": "What has been keeping you busy _____? You haven't updated your travel vlog.",
+    "options": ["late", "lately", "latestly", "more late"],
+    "answer": "lately",
+    "explanation": "Asks about events in the recent stretch of time, triggering 'lately'. ✅"
+  },
+  {
+    "question": "The supplementary notification was filed _____ in the evening session.",
+    "options": ["late", "lately", "latestly", "more late"],
+    "answer": "late",
+    "explanation": "Indicates a delayed hour or phase of the evening, requiring 'late'. ✅"
+  },
+  {
+    "question": "Ravi has _____ completed compiling thirty distinct English grammar rules.",
+    "options": ["near", "nearly", "nearestly", "neary"],
+    "answer": "nearly",
+    "explanation": "He has 'almost' finished the compiling process, which matches with 'nearly'. ✅"
+  },
+  {
+    "question": "A massive group of aspirants gathered _____ the exam center entrance.",
+    "options": ["nearly", "near", "neary", "nearestly"],
+    "answer": "near",
+    "explanation": "Points to a physical assembling position close to the gateway, choosing 'near'. ✅"
+  }
+]
