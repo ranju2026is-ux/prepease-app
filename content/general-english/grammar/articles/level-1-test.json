@@ -1,0 +1,182 @@
+[
+  {
+    "question": "He is _____ honest officer working in the accounts department.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "The word 'honest' starts with a silent 'h' and gives a vowel sound (on-est), so we use 'an'. ✅"
+  },
+  {
+    "question": "_____ Nile is widely considered to be the longest river in the world.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "We always use the definite article 'The' before the names of rivers. ✅"
+  },
+  {
+    "question": "Copper is _____ useful metal for making electrical wires.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "The word 'useful' starts with a consonant sound ('yoo-sful'), hence it takes 'a', not 'an'. ✅"
+  },
+  {
+    "question": "She returned home after _____ hour from the computer lab.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "The 'h' in 'hour' is silent. It is pronounced with a vowel sound (ow-er), requiring 'an'. ✅"
+  },
+  {
+    "question": "Ravi is studying in _____ university located in Karnataka.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "Though 'university' begins with a vowel letter, its initial sound is a consonant sound ('yoo'), so we use 'a'. ✅"
+  },
+  {
+    "question": "_____ Sun shines brightly during the afternoon hours.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "The definite article 'The' is mandatory before unique celestial objects. ✅"
+  },
+  {
+    "question": "He wants to become _____ MLA to serve his regional constituency.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "The abbreviation 'MLA' starts with the letter 'M', which is pronounced with an initial vowel sound (em-el-a), so 'an' is correct. ✅"
+  },
+  {
+    "question": "This is _____ most beautiful painting at the fashion exhibition.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "'The' must always be placed before superlative degree adjectives like 'most beautiful'. ✅"
+  },
+  {
+    "question": "I saw _____ European tourist visiting the historical sites in Vijayapura.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "The word 'European' starts with a consonant sound ('yoo-ro-pe-an'), requiring 'a'. ✅"
+  },
+  {
+    "question": "The police registered _____ FIR against the suspect.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "The abbreviation 'FIR' begins with a vowel sound (ef-i-ar), so it takes 'an'. ✅"
+  },
+  {
+    "question": "Sri Lanka is _____ island situated in the Indian Ocean.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "'Island' starts with a clear vowel sound (ai-land), so it takes 'an'. ✅"
+  },
+  {
+    "question": "It is _____ honor to meet the chief secretary of the state board.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "The 'h' in 'honor' is silent, making the first sound a vowel sound. ✅"
+  },
+  {
+    "question": "He gave me _____ one-rupee coin as a token of luck.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "The word 'one' starts with a 'wa' consonant sound, so it takes 'a', not 'an'. ✅"
+  },
+  {
+    "question": "_____ Holy Quran is a sacred scripture for Muslims.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "We use the definite article 'The' before the names of holy books. ✅"
+  },
+  {
+    "question": "She is _____ untidy girl who keeps her desk messy.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "The word 'untidy' begins with a short vowel sound (un-ti-dy), taking 'an'. ✅"
+  },
+  {
+    "question": "Yesterday, I saw _____ old man walking along the road.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "'Old' starts with a vowel sound, so 'an' is appropriate when introducing it for the first time. ✅"
+  },
+  {
+    "question": "He is _____ B.Com graduate preparing for bank exams.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "The letter 'B' in 'B.Com' is pronounced with a consonant sound (bee), taking 'a'. ✅"
+  },
+  {
+    "question": "_____ Earth revolves around the Sun continuously.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Unique celestial objects like planets take 'The'. ✅"
+  },
+  {
+    "question": "He is _____ heir to the massive ancestral property.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "The 'h' in 'heir' (ವಾರಸುದಾರ) is silent and it is pronounced exactly like 'air' (vowel sound). ✅"
+  },
+  {
+    "question": "They formed _____ union to protect the rights of permanent employees.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "'Union' starts with a consonant sound ('yoo-ni-on'), so it requires 'a'. ✅"
+  },
+  {
+    "question": "_____ Pacific Ocean is the deepest ocean body on Earth.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Names of oceans are preceded by the definite article 'The'. ✅"
+  },
+  {
+    "question": "She is _____ NCC cadet representing her college team.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "The abbreviation letter 'N' begins with a vowel sound (en), hence 'an NCC cadet' is correct. ✅"
+  },
+  {
+    "question": "Mumbai is _____ biggest city in India.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "'The' is used before superlative adjectives like 'biggest'. ✅"
+  },
+  {
+    "question": "He is _____ humble clerk who respects all his seniors.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "Unlike honest or hour, the 'h' in 'humble' is fully pronounced as a consonant sound, so it takes 'a'. ✅"
+  },
+  {
+    "question": "_____ Bhagavad Gita contains profound spiritual lessons.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Always place 'The' before the names of famous holy scriptures. ✅"
+  },
+  {
+    "question": "She bought _____ umbrella to protect herself from the heavy rain.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "'Umbrella' starts with a classic vowel sound (um-brel-la), demanding 'an'. ✅"
+  },
+  {
+    "question": "Ravi is _____ intelligent student who scores well in physics.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "an",
+    "explanation": "'Intelligent' starts with a vowel sound, matching with 'an'. ✅"
+  },
+  {
+    "question": "_____ sky looks extremely beautiful during sunset.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "'Sky' is unique in its context and takes the definite article 'The'. ✅"
+  },
+  {
+    "question": "He lodged _____ complaint at the local office.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "'Complaint' begins with a clear consonant sound, taking 'a'. ✅"
+  },
+  {
+    "question": "This is _____ historical monument built by the ancient kings.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "The 'h' in 'historical' is pronounced with a consonant sound, so 'a historical' is correct in formal exam usage. ✅"
+  }
+]
