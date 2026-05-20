@@ -1,0 +1,252 @@
+[
+  {
+    "question": "No sooner _____ the verified cash book records into the server _____ the terminal encountered a memory leak error.",
+    "options": [
+      "did the JAA uploaded, when",
+      "had the JAA uploaded, than",
+      "did the JAA upload, when",
+      "the JAA had uploaded, than"
+    ],
+    "answer": "had the JAA uploaded, than",
+    "explanation": "Starting with 'No sooner' forces inversion. Past perfect structure 'had + uploaded' pairs correctly with the correlative conjunction 'than'. ✅"
+  },
+  {
+    "question": "The software configuration script was _____ robust _____ handle multiple API requests simultaneously without crashing.",
+    "options": [
+      "enough, to",
+      "too, to",
+      "robust enough, to",
+      "so robust, to"
+    ],
+    "answer": "robust enough, to",
+    "explanation": "The adjective 'robust' must precede 'enough' (`Adjective + Enough`). The trailing infinitive 'to handle' shows capability, making 'robust enough to' correct. ✅"
+  },
+  {
+    "question": "Hardly _____ completed compiling the thirty distinct English grammar rules _____ the supervisor called him for a work shift sync.",
+    "options": [
+      "had Ravi, when",
+      "did Ravi, than",
+      "had Ravi, than",
+      "Ravi had, when"
+    ],
+    "answer": "had Ravi, when",
+    "explanation": "'Hardly' triggers inversion ('had Ravi') and pairs exclusively with 'when' to denote an immediate sequence of actions. ✅"
+  },
+  {
+    "question": "The probationary clerk handled the controversial RTI rejection query _____.",
+    "options": [
+      "at his desk tactfully this morning",
+      "tactfully at his desk this morning",
+      "tactfully this morning at his desk",
+      "this morning tactfully at his desk"
+    ],
+    "answer": "tactfully at his desk this morning",
+    "explanation": "Follows the standard MPT Rule sequence for regular action verbs: Manner (tactfully) -> Place (at his desk) -> Time (this morning). ✅"
+  },
+  {
+    "question": "The state level notification layout was _____ ambiguous for the competitive exam aspirants to deduce any clear criteria.",
+    "options": ["fairly", "rather", "fairly manner", "enough"],
+    "answer": "rather",
+    "explanation": "'Ambiguous' (ಅಸ್ಪಷ್ಟ) is an unpleasant and negative attribute, which requires the intensive adverb 'rather' instead of 'fairly'. ✅"
+  },
+  {
+    "question": "The district checking officer arrived _____ to audit the manual voucher entry discrepancies.",
+    "options": [
+      "safely to Vijayapura by train last night",
+      "by train to Vijayapura safely last night",
+      "to Vijayapura safely by train last night",
+      "to Vijayapura by train safely last night"
+    ],
+    "answer": "to Vijayapura safely by train last night",
+    "explanation": "Exception Rule: With verbs of movement like 'arrived', the sequence switches to PMT: Place (to Vijayapura) -> Manner (safely by train) -> Time (last night). ✅"
+  },
+  {
+    "question": "The app interface load speed is _____ slow _____ stream the descriptive video lectures smoothly on mobile networks.",
+    "options": [
+      "very... to",
+      "too... to",
+      "enough... to",
+      "so... to"
+    ],
+    "answer": "too... to",
+    "explanation": "The structure 'too + adjective + to + verb' safely implies an excessive degree causing an impossible or negative outcome. ✅"
+  },
+  {
+    "question": "Seldom _____ if ever, encountered such a meticulously maintained trial balance sheet by a junior assistant.",
+    "options": [
+      "we have",
+      "have we",
+      "did we observed",
+      "do we"
+    ],
+    "answer": "have we",
+    "explanation": "Starting with the negative adverb 'Seldom' induces inversion, shifting the auxiliary helper 'have' right before the subject 'we'. ✅"
+  },
+  {
+    "question": "The typing assistant could barely find _____ unvouched expenditure entry during the preliminary verification.",
+    "options": ["no", "any", "nothing", "not any"],
+    "answer": "any",
+    "explanation": "Since 'barely' already contains an implicit negative force, adding 'no' would trigger a fatal double negative violation. Use 'any'. ✅"
+  },
+  {
+    "question": "The train running between Karnataka and Delhi stopped _____ outside the terminal due to an automated signal block.",
+    "options": ["shortly", "short", "shortness", "shorterly"],
+    "answer": "short",
+    "explanation": "The idiomatic phrase 'stop short' means to cease motion abruptly or halt unexpectedly. 'Shortly' means 'soon'. ✅"
+  },
+  {
+    "question": "Ravi's newly refactored Python automated bot layout executes data validation queries _____ better than the previous build.",
+    "options": ["very", "much", "too", "too much"],
+    "answer": "much",
+    "explanation": "We use 'much' to modify comparative degree adjectives or adverbs ('better'), whereas 'very' only supports positive degrees. ✅"
+  },
+  {
+    "question": "Under no circumstances _____ the backend database schema repository be altered without a secure local backup.",
+    "options": [
+      "the developers must",
+      "must the developers",
+      "should the developers to",
+      "the developers should"
+    ],
+    "answer": "must the developers",
+    "explanation": "The phrase 'Under no circumstances' acts as an absolute emphatic restriction header, enforcing auxiliary inversion 'must the developers'. ✅"
+  },
+  {
+    "question": "The applicant answered the physics and chemistry conceptual questions as _____ as the coach expected.",
+    "options": ["accurately", "accurate", "more accurately", "most accurately"],
+    "answer": "accurately",
+    "explanation": "The equative comparison template 'as... as' strictly houses positive degree modifiers like the adverb 'accurately' to track the action. ✅"
+  },
+  {
+    "question": "The apparel blueprints created by his sister are _____ clever, displaying an extreme depth of aesthetic knowledge.",
+    "options": ["rather", "fairly", "ratherly", "more rather"],
+    "answer": "fairly",
+    "explanation": "'Clever' is used as a highly advantageous, pleasant attribute here, which maps naturally with the intensive adverb 'fairly'. ✅"
+  },
+  {
+    "question": "Little _____ expect that the RTI response would reveal massive unvouched allocations within the department.",
+    "options": [
+      "the checking team did",
+      "did the checking team",
+      "has the checking team",
+      "does the checking team"
+    ],
+    "answer": "did the checking team",
+    "explanation": "'Little' behaves as a semi-negative initial block element, causing immediate past auxiliary helper inversion: 'did the checking team'. ✅"
+  },
+  {
+    "question": "The source code sync process failed _____ because a few route dependencies were deleted from the repository.",
+    "options": ["miserable", "miserably", "more miserable", "miserableness"],
+    "answer": "miserably",
+    "explanation": "Modifying the core action verb 'failed' requires the application of the adverb of manner 'miserably', not the adjective 'miserable'. ✅"
+  },
+  {
+    "question": "The state level selection board will release the final probation relaxation listing _____.",
+    "options": ["short", "shortly", "shortness", "shorterly"],
+    "answer": "shortly",
+    "explanation": "Refers to a temporal projection meaning 'soon' or 'in a short time from now', which mandates the choice of 'shortly'. ✅"
+  },
+  {
+    "question": "Ravi is _____ dedicated to finishing the interactive automated quiz widget for PrepEase.",
+    "options": ["deep", "deeply", "deeply manner", "deeperly"],
+    "answer": "deeply",
+    "explanation": "To modify the participle adjective 'dedicated', the intensive degree adverb 'deeply' must be applied. ✅"
+  },
+  {
+    "question": "He has a _____ good command over accounting ledger principles and software tools.",
+    "options": ["fairly", "rather", "fairly manner", "enoughly"],
+    "answer": "fairly",
+    "explanation": "'Good command' is a highly positive and pleasant achievement metric, which systematically selects 'fairly'. ✅"
+  },
+  {
+    "question": "Scarcely _____ initiated the upscaling script _____ the local terminal screen froze up completely.",
+    "options": [
+      "did I, when",
+      "had I, than",
+      "had I, when",
+      "I had, when"
+    ],
+    "answer": "had I, when",
+    "explanation": "'Scarcely' activates past perfect inversion layout criteria ('had I') combined securely with its correlative twin 'when'. ✅"
+  },
+  {
+    "question": "The cash book balance mismatched because the voucher entries were recorded _____.",
+    "options": ["careless", "carelessly", "carelessness", "in a careless way form"],
+    "answer": "carelessly",
+    "explanation": "Modifies the passive verb string 'were recorded', demanding the regular adverb of manner 'carelessly'. ✅"
+  },
+  {
+    "question": "The tourist group walked _____ down the narrow loop trails of Himachal Pradesh at dusk.",
+    "options": [
+      "to the resort slowly",
+      "slowly to the resort",
+      "slowly in a resort way",
+      "to the resort in a slow manner"
+    ],
+    "answer": "slowly to the resort",
+    "explanation": "'Walked' functions as a verb of motion/direction here, prompting the PMT exception tracking pattern: Place follows Manner if Time is at the edge. ✅"
+  },
+  {
+    "question": "He is _____ wise _____ fall into the simple traps engineered by fake notification portals.",
+    "options": [
+      "very... to",
+      "too... to",
+      "enough... to",
+      "so... that"
+    ],
+    "answer": "too... to",
+    "explanation": "Advanced Idiom Exception: 'too wise to fall' translates to 'so wise that he will not fall', utilizing 'too... to' with a positive trait for an overall negative result. ✅"
+  },
+  {
+    "question": "Never before _____ seen such an elegant integration of SQL schemas with a Telegram quiz bot wrapper.",
+    "options": [
+      "the project supervisor had",
+      "had the project supervisor",
+      "did the project supervisor",
+      "does the project supervisor"
+    ],
+    "answer": "had the project supervisor",
+    "explanation": "The double emphatic header 'Never before' induces a past perfect structural inversion sequence, selecting 'had the project supervisor'. ✅"
+  },
+  {
+    "question": "The high-quality upscaled images look _____ crisp on the high-end mobile user interface.",
+    "options": ["unbelievable", "unbelievably", "unbelievableness", "more unbelievable"],
+    "answer": "unbelievably",
+    "explanation": "To modify the predicate adjective 'sharp/crisp', we must use the adverb form 'unbelievably' to state the extreme degree. ✅"
+  },
+  {
+    "question": "The candidate has compiled _____ notes from previous year questions to ensure a safe margin in UPSC prelims.",
+    "options": ["enough detailed", "detailed enough", "enoughly detailed", "detailed notes enough"],
+    "answer": "enough detailed",
+    "explanation": "Note the structure: 'detailed' is an adjective modifying the noun 'notes'. 'Enough' must precede the noun phrase (`Enough + Noun`), making 'enough detailed notes' the correct sequence. ✅"
+  },
+  {
+    "question": "On no account _____ any probationer skip the mandatory accounting ledger verification sessions.",
+    "options": [
+      "should",
+      "should any probationer",
+      "any probationer should",
+      "must any probationer to"
+    ],
+    "answer": "should any probationer",
+    "explanation": "The strong prohibitive header phrase 'On no account' triggers immediate modal inversion: helper 'should' + subject 'any probationer'. ✅"
+  },
+  {
+    "question": "The candidate did not draft his RTI clarification query so _____ as his project partner did.",
+    "options": ["precise", "precisely", "preciseness", "more precisely"],
+    "answer": "precisely",
+    "explanation": "The negative comparative model 'not so... as' takes the baseline positive adverb 'precisely' to modify the action 'draft'. ✅"
+  },
+  {
+    "question": "Ravi is an expert who can resolve server dependency runtime errors _____.",
+    "options": ["easy", "easily", "easyly", "more easy"],
+    "answer": "easily",
+    "explanation": "'Easily' is the structurally accurate adverb form used to denote the manner of solving a problem. ✅"
+  },
+  {
+    "question": "The truck managed to steer _____ of the deep ditch on the village road near Rabkavi Banhatti.",
+    "options": ["clear", "clearly", "clearness", "clearing"],
+    "answer": "clear",
+    "explanation": "The fixed idiomatic phrase meaning to stay completely away from a physical hazard is 'steer clear of', using 'clear' as an adverb. ✅"
+  }
+]
