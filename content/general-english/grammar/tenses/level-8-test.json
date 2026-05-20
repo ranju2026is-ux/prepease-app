@@ -1,0 +1,182 @@
+[
+  {
+    "question": "By the time the senior supervisor reaches the office tomorrow, the team _____ the cash account ledger tally.",
+    "options": ["will complete", "will have completed", "completed", "has completed"],
+    "answer": "will have completed",
+    "explanation": "When a time clause starts with 'By the time' in the Simple Present ('reaches'), the main clause must express a future action completed before that point using Future Perfect 'will have completed'. ✅"
+  },
+  {
+    "question": "Ravi _____ the complete front-end layout features of PrepEase by the end of this month.",
+    "options": ["will develop", "will have developed", "developed", "has developed"],
+    "answer": "will have developed",
+    "explanation": "The time marker 'by the end of this month' sets a deadline for a future action, which strictly requires the Future Perfect tense structure (will have + V3). ✅"
+  },
+  {
+    "question": "By next Friday, the state level selection board _____ the final notification for age relaxation.",
+    "options": ["will release", "will have released", "released", "is releasing"],
+    "answer": "will have released",
+    "explanation": "Any future deadline indicated by 'by + future time' calls for the Future Perfect aspect to denote guaranteed completion. ✅"
+  },
+  {
+    "question": "The typing assistant _____ all thirty pages of the RTI draft before the closing bell rings.",
+    "options": ["will type", "will have typed", "typed", "has typed"],
+    "answer": "will have typed",
+    "explanation": "The action of typing will be fully completed before another future action (the bell ringing in Simple Present) occurs, demanding Future Perfect. ✅"
+  },
+  {
+    "question": "By the time you return from your multi-day trip to Delhi, I _____ thirty practice levels.",
+    "options": ["will solve", "will have solved", "solved", "am solving"],
+    "answer": "will have solved",
+    "explanation": "Aligns with the standard rule: 'By the time + Simple Present' sets up the main clause to execute via Future Perfect 'will have solved'. ✅"
+  },
+  {
+    "question": "We _____ our final travel itinerary to Himachal Pradesh by this time tomorrow.",
+    "options": ["will finalize", "will have finalized", "finalized", "have finalized"],
+    "answer": "will have finalized",
+    "explanation": "The specific phrase 'by this time tomorrow' acts as a strict trigger for the Future Perfect tense configuration. ✅"
+  },
+  {
+    "question": "Ravi _____ the database backup script code before the scheduled server maintenance begins.",
+    "options": ["will execute", "will have executed", "executed", "is executing"],
+    "answer": "will have executed",
+    "explanation": "Denotes an action that will be safely finished before a future point of maintenance, utilizing 'will have executed'. ✅"
+  },
+  {
+    "question": "By next year, the junior accounts assistant _____ his probationary period in the department.",
+    "options": ["will complete", "will have completed", "completed", "is completing"],
+    "answer": "will have completed",
+    "explanation": "The future boundary marker 'By next year' mandates the deployment of the Future Perfect token 'will have completed'. ✅"
+  },
+  {
+    "question": "The technical coach _____ the physics formula charts by the time the mock session starts.",
+    "options": ["will compile", "will have compiled", "compiled", "has compiled"],
+    "answer": "will have compiled",
+    "explanation": "The 'By the time + starts (Simple Present)' matrix perfectly dictates Future Perfect tracking for the primary future event. ✅"
+  },
+  {
+    "question": "By dusk, the tourist group _____ their destination near Anandpur Sahib.",
+    "options": ["will reach", "will have reached", "reached", "are reaching"],
+    "answer": "will have reached",
+    "explanation": "The deadline marker 'By dusk' implies that reaching the destination will be a completed past event from the perspective of that future time. ✅"
+  },
+  {
+    "question": "The automated test widget _____ the error logging simulation before you refresh the user interface.",
+    "options": ["will run", "will have run", "ran", "is running"],
+    "answer": "will have run",
+    "explanation": "The action of running the simulation finishes prior to the UI refresh action (Simple Present), choosing 'will have run'. ✅"
+  },
+  {
+    "question": "Identify the error part: By the time (A) / the inspector arrives, (B) / the clerk will clear (C) / the mismatch. (D)",
+    "options": ["A", "B", "C", "No error"],
+    "answer": "C",
+    "explanation": "The phrase 'will clear' is wrong. It must be shifted to Future Perfect 'will have cleared' because it follows the 'By the time + Simple Present' structure logic. ✅"
+  },
+  {
+    "question": "Ravi's sister _____ her self-taught fashion designer curriculum project by next weekend.",
+    "options": ["will showcase", "will have showcased", "showcased", "is showcasing"],
+    "answer": "will have showcased",
+    "explanation": "Driven by the future deadline phrase 'by next weekend', the sentence demands the Future Perfect V3 model. ✅"
+  },
+  {
+    "question": "By midnight, the server script _____ all corrupt data rows from the ledger table repository.",
+    "options": ["will purge", "will have purged", "purged", "has purged"],
+    "answer": "will have purged",
+    "explanation": "The absolute boundary timeline 'By midnight' directs the action stream into Future Perfect 'will have purged'. ✅"
+  },
+  {
+    "question": "The chemistry lecturer _____ all organic compound reactions before the final term class concludes.",
+    "options": ["will explain", "will have explained", "explained", "explains"],
+    "answer": "will have explained",
+    "explanation": "Completing the explanation is anchored before a future baseline class conclusion point, utilizing Future Perfect. ✅"
+  },
+  {
+    "question": "By the time the train departs from Karnataka, the passengers _____ their digital ticket profiles.",
+    "options": ["will verify", "will have verified", "verified", "are verifying"],
+    "answer": "will have verified",
+    "explanation": "The time clause using 'departs' (Simple Present) forces the main action segment to track under 'will have verified'. ✅"
+  },
+  {
+    "question": "We _____ the premium cloud server storage keys before our active trial period expires.",
+    "options": ["will renew", "will have renewed", "renewed", "renew"],
+    "answer": "will have renewed",
+    "explanation": "Renewing will take place prior to the future expiration event (Simple Present), selecting the Future Perfect aspect. ✅"
+  },
+  {
+    "question": "By the end of this training session, you _____ a high-quality grasp over complex English grammar rules.",
+    "options": ["will achieve", "will have achieved", "achieved", "have achieved"],
+    "answer": "will have achieved",
+    "explanation": "'By the end of this session' defines a firm future cutoff line, requiring 'will have achieved'. ✅"
+  },
+  {
+    "question": "Ravi _____ the automated Telegram quiz bot loop before the core team leaves for the evening work shift.",
+    "options": ["will configure", "will have configured", "configured", "is configuring"],
+    "answer": "will have configured",
+    "explanation": "Configuring will be completed before the team leaves, matching the exact criteria for Future Perfect. ✅"
+  },
+  {
+    "question": "By next Monday, the applicant _____ an official tracking response from the railway recruitment board.",
+    "options": ["will receive", "will have received", "received", "is receiving"],
+    "answer": "will have received",
+    "explanation": "A certain future timeline limit established by 'By next Monday' safely triggers 'will have received'. ✅"
+  },
+  {
+    "question": "The checking commissioner _____ the entire unvouched expenditure files before the board meeting begins tomorrow.",
+    "options": ["will inspect", "will have inspected", "inspected", "inspects"],
+    "answer": "will have inspected",
+    "explanation": "The target action occurs before a secondary future event (the meeting beginning), selecting Future Perfect. ✅"
+  },
+  {
+    "question": "By the time you open the website, the team _____ the new front-end layout variables.",
+    "options": ["will update", "will have updated", "updated", "are updating"],
+    "answer": "will have updated",
+    "explanation": "'By the time + open (Simple Present)' commands the main clause to process under the 'will have + V3' rule. ✅"
+  },
+  {
+    "question": "The historical fort preservation society _____ the structural upscaling project by the year 2028.",
+    "options": ["will finish", "will have finished", "finished", "is finishing"],
+    "answer": "will have finished",
+    "explanation": "A future calendar target year preceded by 'by' serves as an absolute Future Perfect indicator. ✅"
+  },
+  {
+    "question": "My father _____ his formal service leaves by the time we arrange the travel vehicle.",
+    "options": ["will obtain", "will have obtained", "obtained", "obtains"],
+    "answer": "will have obtained",
+    "explanation": "Obtaining the leaves happens before arranging the vehicle, fulfilling the Future Perfect structural flow. ✅"
+  },
+  {
+    "question": "By tomorrow morning, the heavy downpour in the Vijayapura district _____ completely.",
+    "options": ["will stop", "will have stopped", "stopped", "is stopping"],
+    "answer": "will have stopped",
+    "explanation": "The temporal barrier 'By tomorrow morning' requires a completed state prediction via 'will have stopped'. ✅"
+  },
+  {
+    "question": "Ravi _____ the backend route definitions before the user interface testing phase goes live.",
+    "options": ["will secure", "will have secured", "secured", "is securing"],
+    "answer": "will have secured",
+    "explanation": "Securing the routes acts as a prerequisite future action completed before the testing phase goes live. ✅"
+  },
+  {
+    "question": "By the time the closing hour ends, the probationary JAA _____ all manual ledger voucher tokens.",
+    "options": ["will tally", "will have tallied", "tallied", "has tallied"],
+    "answer": "will have tallied",
+    "explanation": "Chained securely under the 'By the time + Simple Present (ends)' framework, picking 'will have tallied'. ✅"
+  },
+  {
+    "question": "The candidate _____ his descriptive English essay drafts before the countdown timer hits zero.",
+    "options": ["will submit", "will have submitted", "submitted", "is submitting"],
+    "answer": "will have submitted",
+    "explanation": "The submission happens before the timer hits zero, satisfying Future Perfect syntax metrics. ✅"
+  },
+  {
+    "question": "By next winter, his sister _____ thirty advanced traditional apparel portfolios.",
+    "options": ["will design", "will have designed", "designed", "is designing"],
+    "answer": "will have designed",
+    "explanation": "The future deadline marker phrase mandates the tracking loop to choose 'will have designed'. ✅"
+  },
+  {
+    "question": "By the time the coaching square launches the mock exam, the students _____ the chemistry formula chart completely.",
+    "options": ["will memorize", "will have memorized", "memorized", "have memorized"],
+    "answer": "will have memorized",
+    "explanation": "Concludes the level accurately by routing the completion action through Future Perfect 'will have memorized'. ✅"
+  }
+]
