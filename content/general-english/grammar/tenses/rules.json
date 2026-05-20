@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Simple Present Tense",
+    "meaning_kannada": "ಸಾಮಾನ್ಯ ವರ್ತಮಾನ ಕಾಲ (ದಿನನಿತ್ಯದ ಅಭ್ಯಾಸಗಳು, ಸಾರ್ವತ್ರಿಕ ಸತ್ಯಗಳು ಮತ್ತು ನಿಗದಿತ ವೇಳಾಪಟ್ಟಿಗಳನ್ನು ಸೂಚಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ).",
+    "meaning_english": "Used for habitual actions, universal truths, and fixed future schedules.\n\n• Structure: Subject + V1 (s/es for singular subjects like He/She/It) + Object.\n• Example 1: The Sun *rises* in the east. (Universal Truth)\n• Example 2: The train *leaves* at 9:00 AM tomorrow. (Scheduled Event)",
+    "emoji": "⏳"
+  },
+  {
+    "word": "Present Continuous Tense",
+    "meaning_kannada": "ಅಪೂರ್ಣ ವರ್ತಮಾನ ಕಾಲ (ಮಾತನಾಡುವ ಪ್ರಸ್ತುತ ಕ್ಷಣದಲ್ಲಿ ನಡೆಯುತ್ತಿರುವ ಕ್ರಿಯೆಗಳನ್ನು ಸೂಚಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ).",
+    "meaning_english": "Used for actions happening right now at the time of speaking.\n\n• Structure: Subject + am/is/are + V1 + ing + Object.\n• Example: Ravi *is writing* a Python script at the moment.\n• Key Words: Now, at present, at this moment, currently.",
+    "emoji": "🔄"
+  },
+  {
+    "word": "Stative Verbs Exception",
+    "meaning_kannada": "ಭಾವನೆಗಳು, ಮಾಲೀಕತ್ವ ಮತ್ತು ಜ್ಞಾನವನ್ನು ತಿಳಿಸುವ ಕೆಲವು ಸ್ಥಿರ ಕ್ರಿಯಾಪದಗಳನ್ನು (Love, Own, Know, Understand) ಎಂದಿಗೂ Continuous ರೂಪದಲ್ಲಿ ಬಳಸಬಾರದು.",
+    "meaning_english": "Stative verbs represent a state, not a physical action. They are NOT used in continuous tenses.\n\n• Wrong: I *am knowing* the answer. / He *is owning* a car.\n• Right: I *know* the answer. ✅ / He *owns* a car. ✅",
+    "emoji": "⚠️"
+  },
+  {
+    "word": "Present Perfect vs Simple Past",
+    "meaning_kannada": "Present Perfect ಮತ್ತು Simple Past ನಡುವಿನ ವ್ಯತ್ಯಾಸ. ಕಳೆದ ಹೋದ ಸಮಯವನ್ನು (Yesterday, In 2024) ನಿಖರವಾಗಿ ಉಲ್ಲೇಖಿಸಿದಾಗ ಕಡ್ಡಾಯವಾಗಿ Simple Past ಬಳಸಬೇಕು.",
+    "meaning_english": "Use Simple Past when a specific past time is mentioned. Use Present Perfect when the action is completed but the time is not specified.\n\n• Wrong: I *have submitted* the RTI draft yesterday.\n• Right: I *submitted* the RTI draft yesterday. ✅ (Simple Past)\n• Right: I *have submitted* the RTI draft. ✅ (Present Perfect - No time mentioned)",
+    "emoji": "⚖️"
+  },
+  {
+    "word": "Present Perfect Continuous Tense",
+    "meaning_kannada": "ಹಿಂದೆ ಆರಂಭವಾಗಿ ಪ್ರಸ್ತುತದಲ್ಲೂ ಮುಂದುವರಿದಿರುವ ಕ್ರಿಯೆಗಳು. ಇದಕ್ಕೆ 'Since' (ನಿರ್ದಿಷ್ಟ ಸಮಯ) ಮತ್ತು 'For' (ಸಮಯದ ಅವಧಿ) ಬಳಸಲಾಗುತ್ತದೆ.",
+    "meaning_english": "Used for actions that started in the past and are still continuing in the present.\n\n• Structure: Subject + has/have + been + V1+ing + Object + since/for.\n• Since: Point of time (e.g., since Monday, since 2025).\n• For: Duration of time (e.g., for two hours, for five years).\n• Example: He *has been studying* for the UPSC prelims since morning.",
+    "emoji": "⏱️"
+  },
+  {
+    "word": "Past Perfect Tense (Two Past Actions)",
+    "meaning_kannada": "ಭೂತಕಾಲದಲ್ಲಿ ಎರಡು ಕ್ರಿಯೆಗಳು ನಡೆದಾಗ, ಮೊದಲು ನಡೆದ ಕ್ರಿಯೆಗೆ Past Perfect (had + V3) ಮತ್ತು ನಂತರ ನಡೆದ ಕ್ರಿಯೆಗೆ Simple Past (V2) ಬಳಸಬೇಕು.",
+    "meaning_english": "When two actions happened in the past, the first action takes Past Perfect (had + V3) and the second action takes Simple Past (V2).\n\n• Wrong: The train left before I reached the Delhi station.\n• Right: The train *had left* (1st action) before I *reached* (2nd action) the Delhi station. ✅",
+    "emoji": "🥇"
+  },
+  {
+    "word": "Future Time Clauses Rule",
+    "meaning_kannada": "ಭವಿಷ್ಯತ್ತಿನ ಷರತ್ತುಬದ್ಧ ವಾಕ್ಯಗಳಲ್ಲಿ (If, When, As soon as, Until), ಕರಾರಿನ ಭಾಗಕ್ಕೆ (Condition) Simple Present ಬಳಸಬೇಕು ಮತ್ತು ಮುಖ್ಯ ಭಾಗಕ್ಕೆ Simple Future ಬಳಸಬೇಕು.",
+    "meaning_english": "In conditional sentences referring to the future, the time/conditional clause takes Simple Present, and the main clause takes Simple Future. Do not use 'will' twice.\n\n• Wrong: If it *will rain*, I *will stay* at home.\n• Right: If it *rains* (Simple Present), I *will stay* at home (Simple Future). ✅",
+    "emoji": "🎯"
+  },
+  {
+    "word": "Past Time Markers (Simple Past)",
+    "meaning_kannada": "ವಾಕ್ಯದಲ್ಲಿ Ago, Yesterday, Last Night, Last Week, Back ನಂತಹ ಭೂತಕಾಲದ ಸೂಚಕಗಳಿದ್ದರೆ ಕಡ್ಡಾಯವಾಗಿ Simple Past (V2) ಮಾತ್ರ ಬಳಸಬೇಕು.",
+    "meaning_english": "The presence of past time markers strictly demands the Simple Past tense structure.\n\n• Structure: Subject + V2 + Object.\n• Example 1: The state board *released* the notification two days ago. ✅\n• Example 2: He *completed* the accounts audit last week. ✅",
+    "emoji": "📅"
+  },
+  {
+    "word": "Future Perfect Tense",
+    "meaning_kannada": "ಭವಿಷ್ಯತ್ತಿನ ನಿರ್ದಿಷ್ಟ ಸಮಯದ ಒಳಗಾಗಿ ಮುಗಿದುಹೋಗುವ ಕ್ರಿಯೆಗಳು. ಇದು ಹೆಚ್ಚಾಗಿ 'By the time' ಅಥವಾ 'By next month' ಎಂಬ ಕ್ಲೂ ಹೊಂದಿರುತ್ತದೆ.",
+    "meaning_english": "Used to indicate an action that will be completed by a certain specified time in the future.\n\n• Structure: Subject + will have + V3 + Object.\n• Example: By next week, Ravi *will have developed* the complete front-end layout of PrepEase.",
+    "emoji": "🚀"
+  },
+  {
+    "word": "It is time / It is high time Exception",
+    "meaning_kannada": "ವಾಕ್ಯವು 'It is time' ಅಥವಾ 'It is high time' ಇಂದ ಆರಂಭವಾಗಿ ನಂತರ ಕರ್ತೃ (Subject) ಬಂದರೆ, ಮುಂದೆ ಕಡ್ಡಾಯವಾಗಿ Simple Past (V2) ಬಳಸಬೇಕು.",
+    "meaning_english": "Phrases like 'It is time' or 'It is high time' are followed by a subject and a verb in the Simple Past (V2) form to denote that something is already delayed.\n\n• Wrong: It is high time we start studying for departmental exams.\n• Right: It is high time we *started* studying for departmental exams. ✅",
+    "emoji": "🚨"
+  }
+]
