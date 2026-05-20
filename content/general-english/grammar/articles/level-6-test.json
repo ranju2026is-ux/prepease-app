@@ -1,0 +1,182 @@
+[
+  {
+    "question": "She can speak _____ Kannada fluently and write elegant prose in it.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "We do not use any article before the names of languages when used in a general sense. ✅"
+  },
+  {
+    "question": "_____ Kannada language is one of the oldest classical languages of India.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Exception Rule: If the word 'language' follows the name of a language, the definite article 'The' must be used. ✅"
+  },
+  {
+    "question": "Ravi is exceptionally good at _____ Mathematics and handles coding tasks easily.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "No article is used before the names of academic subjects like Mathematics, Physics, or History. ✅"
+  },
+  {
+    "question": "_____ breakfast is considered the most important meal of the day.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "We do not use an article before names of regular meals (breakfast, lunch, dinner) when talking generally. ✅"
+  },
+  {
+    "question": "_____ breakfast I had at the regional guest house in Vijayapura was delicious.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Exception Rule: When a meal is particularized or specified by a modifying clause, it takes the definite article 'The'. ✅"
+  },
+  {
+    "question": "They usually prefer traveling to hilly destinations during _____ summer.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "In general expressions, names of seasons like summer, winter, or spring do not take an article. ✅"
+  },
+  {
+    "question": "He translates official government notifications from _____ English into Kannada.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "No article is applied before the proper name of a language ('English'). ✅"
+  },
+  {
+    "question": "_____ English language has become an essential medium for global communication.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Since the phrase explicitly contains the noun 'language' after 'English', 'The' is required. ✅"
+  },
+  {
+    "question": "She scored cent percent marks in _____ Chemistry paper of the mock test.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "Academic disciplines and subjects take no article in standard contexts. ✅"
+  },
+  {
+    "question": "The manager invited all the junior accounts assistants to _____ dinner.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "Inviting someone to a regular meal in a general sense does not require an article before 'dinner'. ✅"
+  },
+  {
+    "question": "_____ dinner hosted by the commissioner was attended by all senior officers.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "The dinner is specific here because it is defined as the one 'hosted by the commissioner', requiring 'The'. ✅"
+  },
+  {
+    "question": "We witnessed heavy snowfall when we traveled to Himachal Pradesh in _____ winter.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "Names of seasons take zero article when used generally. ✅"
+  },
+  {
+    "question": "_____ English of Chaucer is quite different from modern conversational English.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Exception Rule: When a language name is qualified by a person's name or a historical period, it becomes specific and takes 'The'. ✅"
+  },
+  {
+    "question": "He has a deep understanding of _____ ancient history of Karnataka.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "the",
+    "explanation": "When an abstract or subject noun is qualified by an adjective phase ('ancient history of Karnataka'), it becomes specific, taking 'The'. ✅"
+  },
+  {
+    "question": "I missed _____ lunch today because of the heavy workload in the office.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "Standard daily meals do not take an article. ✅"
+  },
+  {
+    "question": "_____ autumn is a beautiful season when leaves turn golden and fall.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "No article",
+    "explanation": "No article before seasons. ✅"
+  },
+  {
+    "question": "He speaks _____ Hindi with a slight regional accent.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "No article before names of individual languages. ✅"
+  },
+  {
+    "question": "_____ Hindi language is written in the Devanagari script.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Takes 'The' due to the explicit attachment of the word 'language'. ✅"
+  },
+  {
+    "question": "Ravi's sister is joining a self-taught course in _____ fashion design.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "Fields of study or specific professional streams take zero article in general contexts. ✅"
+  },
+  {
+    "question": "They serve a special dessert after _____ Sunday lunch.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "Even when preceded by a day name, regular meals stay without articles unless a specific past or future event clause defines it. ✅"
+  },
+  {
+    "question": "_____ winter of 2025 was exceptionally cold in northern India.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Exception Rule: When a season is specified by a particular year or event ('winter of 2025'), it takes 'The'. ✅"
+  },
+  {
+    "question": "She is trying to master _____ French before her travel schedule next year.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "Proper names of languages require zero article tracking. ✅"
+  },
+  {
+    "question": "_____ French language is known for its elegant pronunciation rules.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Requires 'The' because of the structural noun 'language'. ✅"
+  },
+  {
+    "question": "He failed to clear _____ Physics test conducted last week.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "Subject fields take zero article before them. ✅"
+  },
+  {
+    "question": "_____ dinner we had at the Chinese restaurant was very expensive.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Points to a specific dinner entry event, requiring 'The'. ✅"
+  },
+  {
+    "question": "Farmers look forward to early showers after _____ hot summer.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "a",
+    "explanation": "Exception Rule: When a season is preceded by a descriptive adjective ('a hot summer'), it can take the indefinite article 'a'. ✅"
+  },
+  {
+    "question": "Is _____ Sanskrit difficult to learn compared to other regional options?",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "Languages are names of proper nouns and take no article. ✅"
+  },
+  {
+    "question": "_____ Sanskrit language has a vast treasury of ancient poetic structures.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": "The",
+    "explanation": "Driven by the text rule containing 'language' immediately after the proper noun. ✅"
+  },
+  {
+    "question": "He has a keen interest in studying _____ political science.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "Academic branches function under the zero article domain. ✅"
+  },
+  {
+    "question": "We arranged a small family gathering for _____ lunch on his promotion.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": "no article",
+    "explanation": "General meal reference, omitting the article. ✅"
+  }
+]
