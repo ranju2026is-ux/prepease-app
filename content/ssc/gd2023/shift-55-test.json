@@ -1,0 +1,137 @@
+[
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Camouflage**",
+    "options": ["Reveal", "Cloak", "Disguise", "Bluff"],
+    "answer": "Reveal",
+    "explanation": "• **Camouflage**: To hide or disguise the presence of a person, animal, or object. 🪖🌿\n• **Reveal**: To make previously unknown or secret information known to others; uncover. (Antonym). ✨"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nEach and every individual has the_______ to follow her/his own religion.",
+    "options": ["compulsion", "freedom", "economy", "expulsion"],
+    "answer": "freedom",
+    "explanation": "• **Freedom**: The power or right to act, speak, or think as one wants without hindrance or restraint. Religion is a personal liberty/freedom. 🕊️"
+  },
+  {
+    "question": "Select the most appropriate option to substitute the underlined segment.\nThe subsequent QR codes <u>will helping you access</u> the data.",
+    "options": [
+      "help you access",
+      "help you accessed",
+      "helped you access",
+      "helps you access"
+    ],
+    "answer": "help you access",
+    "explanation": "• **Grammar Rule**: The modal verb 'will' must be followed by the base form of the verb (**help**), not a present participle ('helping'). 📲"
+  },
+  {
+    "question": "Select the correct spelling of the underlined word.\nThe cowboys were injured badly as they were involved in a <u>dual</u>.",
+    "options": ["duell", "duel", "duet", "dwell"],
+    "answer": "duel",
+    "explanation": "• **Homonym Correction**: A '**duel**' is a prearranged combat between two people, traditionally fought with deadly weapons. ✅\n• **Dual**: Means consisting of two parts or elements."
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Rain on someone’s parade**",
+    "options": [
+      "To spoil and ruin a happy moment",
+      "To restore the disturbed law and order situation",
+      "To blame and hurt an innocent child",
+      "To test and check a brilliant student"
+    ],
+    "answer": "To spoil and ruin a happy moment",
+    "explanation": "• **Rain on someone's parade**: An idiom meaning to prevent someone from enjoying an event or spoil their special moment/plans. 🌧️🎉"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nWhat <u>is the qualities</u> of a good teacher?",
+    "options": ["will be a qualities", "do the qualities", "are the qualities", "is qualities"],
+    "answer": "are the qualities",
+    "explanation": "• **Subject-Verb Agreement**: The subject 'qualities' is plural, which requires the plural verb '**are**' instead of the singular 'is'. 👩‍🏫"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Sensitive**",
+    "options": ["Understanding", "Precise", "Diplomatic", "Numb"],
+    "answer": "Numb",
+    "explanation": "• **Sensitive**: Quick to detect or respond to slight changes, signals, or influences; feeling sensations intensely. 🧠\n• **Numb**: Deprived of the power of sensation; unable to feel. (Antonym). 🥶"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Miss the boat**",
+    "options": [
+      "Opportunity never knocks twice",
+      "Fail to take advantage of an opportunity",
+      "It is late for the boat",
+      "Boat will leave on time"
+    ],
+    "answer": "Fail to take advantage of an opportunity",
+    "explanation": "• **Miss the boat**: An idiomatic expression meaning to be too slow to take advantage of a good opportunity or deal. ⛵❌"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Brazen**",
+    "options": ["Loyal", "Bold", "Meek", "Courteous"],
+    "answer": "Bold",
+    "explanation": "• **Brazen**: Bold and without shame. (Synonym: Bold). 💪"
+  },
+  {
+    "question": "Select the most appropriate homonym to fill in the blank.\nHe was supposed to __________ this work.",
+    "options": ["dew", "doux", "due", "do"],
+    "answer": "do",
+    "explanation": "• **Do**: Perform or execute an action or task. ⚙️\n• **Due**: Owed or expected."
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Nadir**",
+    "options": ["Talent", "Zenith", "Abyss", "Essence"],
+    "answer": "Zenith",
+    "explanation": "• **Nadir**: The lowest point in the fortunes of a person or organization. 📉\n• **Zenith**: The time at which something is most powerful or successful; peak. (Antonym). 📈"
+  },
+  {
+    "question": "Select the correct word for the blanks in the given sentence.\nMy sister _________ lift a box of 5 kilograms and I have a _________ of carrot juice.",
+    "options": ["bottle", "can", "could", "tank"],
+    "answer": "can",
+    "explanation": "• **Can**: (Modal verb) indicates physical ability to do something. 💪\n• **Can**: (Noun) a cylindrical metal container for liquids or food assets. (Homonym). 🥫"
+  },
+  {
+    "question": "Identify the segment that contains an error from the given options.\nI will driving / you to / the station / in the morning.",
+    "options": ["in the morning", "I will driving", "you to", "the station"],
+    "answer": "I will driving",
+    "explanation": "• **Tense Error**: The continuous future structure requires 'be' between 'will' and the -ing verb form.\n• **Correction**: 'I **will be driving**' or simple future 'I **will drive**'. 🚗"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Sombre**",
+    "options": ["Accidental", "Decent", "Critical", "Doleful"],
+    "answer": "Doleful",
+    "explanation": "• **Sombre**: Dark or dull in color or tone; gloomy or sad. 😞\n• **Doleful**: Expressing sorrow; mournful. (Synonym). 😢"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Intermitence", "Cholera", "Phlegm", "Psalm"],
+    "answer": "Intermitence",
+    "explanation": "• **Incorrect spelling**: Intermitence. ❌\n• **Correct spelling**: **Intermittence**. ✅ (Note the double 't')."
+  },
+  {
+    "question": "(Cloze Test - Blank 1) The Indian Army... is the armed forces' (1)____________ component.",
+    "options": ["air-based", "private-based", "water-based", "land-based"],
+    "answer": "land-based",
+    "explanation": "• **Context**: The text translates Indian Army to 'Bhartiya Thal Sena'. 'Thal' explicitly denotes earth/ground, making it the '**land-based**' wing. 🪖"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) ...East India Company's military forces, eventually (2)__________ the British Indian Army...",
+    "options": ["reciting", "becoming", "scrolling", "destructing"],
+    "answer": "becoming",
+    "explanation": "• **Becoming**: Developing into or transforming over time into a subsequent historical organization. 📜"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) The Indian Army's purpose is to ensure national (3)__________ and preserve India's sovereignty...",
+    "options": ["emergency", "crisis", "security", "forces"],
+    "answer": "security",
+    "explanation": "• **Security**: The state of being free from danger or threat; a key objective of defense forces. 🛡️"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...integrity, and harmony against external (4)____________ and intimidation.",
+    "options": ["exports", "aggression", "affairs", "ministry"],
+    "answer": "aggression",
+    "explanation": "• **External Aggression**: A standard geopolitical collocation used to describe military incursions or hostile actions originating from foreign entities. ⚔️"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) It also entails offering humanitarian assistance to the (5)_________ public...",
+    "options": ["exclusive", "literate", "unusual", "general"],
+    "answer": "general",
+    "explanation": "• **General Public**: A standard collocation referring to ordinary citizens or the population as a whole. 👥"
+  }
+]
