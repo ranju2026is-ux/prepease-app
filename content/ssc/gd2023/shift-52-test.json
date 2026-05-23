@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Raining cats and dogs**",
+    "options": [
+      "A very heavy downpour",
+      "To escape from the situation",
+      "Cats and dogs getting wet in rain",
+      "At the exact time"
+    ],
+    "answer": "A very heavy downpour",
+    "explanation": "• **Raining cats and dogs**: An idiomatic expression used to describe an exceptionally heavy or torrential rainfall. 🌧️🌊"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Anger**",
+    "options": ["Delight", "Fury", "Frenzy", "Dismay"],
+    "answer": "Fury",
+    "explanation": "• **Anger/Fury**: Wild or passionate outbreak of extreme displeasure or rage. (Synonyms). 😠🔥"
+  },
+  {
+    "question": "Identify the correctly spelt sentence.",
+    "options": [
+      "My favourite subject is Mathimatics.",
+      "My favourite subject is Mathematecs.",
+      "My favourite subject is Mathematiks.",
+      "My favourite subject is Mathematics."
+    ],
+    "answer": "My favourite subject is Mathematics.",
+    "explanation": "• **Spelling Check**: The correct spelling is **Mathematics**. Option 4 contains no spelling errors. 📐✏️"
+  },
+  {
+    "question": "Select the most appropriate option to substitute the underlined segment.\nDowry completely violates women's rights and denies them <u>similar opportunities</u> in society.",
+    "options": [
+      "an equal standing",
+      "an appropriate desire",
+      "an increasing honour",
+      "an accurate place"
+    ],
+    "answer": "an equal standing",
+    "explanation": "• **Contextual Fit**: Denying opportunities directly compromises a person's capability to achieve '**an equal standing**' (status parity) in an organized civilization. ⚖️"
+  },
+  {
+    "question": "Select the most appropriate synonym of 'Imminent' to fill in the blank.\nThe king was changing his hiding place every now and then because of ______ danger to his life.",
+    "options": ["happening", "approaching", "participating", "losing"],
+    "answer": "approaching",
+    "explanation": "• **Imminent**: About to happen; fast approaching. It tracks a threat expected to strike very shortly. ⏳⚠️"
+  },
+  {
+    "question": "The sentence given below has one misspelt word. Spot the INCORRECTLY spelt word and select its correct spelling.\n**She comes from an illustrios political family.**",
+    "options": ["Illustrious", "Ilustreous", "Illustreous", "Ilustrious"],
+    "answer": "Illustrious",
+    "explanation": "• **Correct spelling**: **Illustrious**. ✅ (Meaning well known, respected, and admired for past achievements). ✨"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Austere**",
+    "options": ["Affordable", "Stiff", "Gruff", "Genial"],
+    "answer": "Genial",
+    "explanation": "• **Austere**: Severe or strict in manner, attitude, or appearance; cold and uninviting. 🧱\n• **Genial**: Friendly and cheerful. (Antonym). 😊"
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\nIt is of <u>paramount</u> importance that you read the instructions before attempting the test.",
+    "options": ["Remind", "Rephrase", "Rehearse", "Central"],
+    "answer": "Central",
+    "explanation": "• **Paramount/Central**: More important than anything else; supreme, principal, or fundamental. 💡"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Scintillating**",
+    "options": ["Dark", "Wonderful", "Bright", "Amazing"],
+    "answer": "Dark",
+    "explanation": "• **Scintillating**: Sparkling or shining brightly; brilliantly clever. ✨\n• **Dark**: Characterized by a lack of light or brilliance. (Antonym). 🌌"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**Level playing field**",
+    "options": [
+      "Avoiding differences",
+      "Lack of intelligence",
+      "Forgetting conflicts",
+      "A fair competition"
+    ],
+    "answer": "A fair competition",
+    "explanation": "• **Level playing field**: An idiom meaning a situation in which everyone has the same opportunities or advantages; a balanced structure ensuring fair contest. ⚖️🏃‍♂️"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nAnne’s eye _____ is very good for someone of her age.",
+    "options": ["sight", "cite", "side", "site"],
+    "answer": "sight",
+    "explanation": "• **Sight**: The faculty or power of seeing; vision. 👀\n• **Cite**: Quote an example. \n• **Site**: A plot of land."
+  },
+  {
+    "question": "Choose the sentence that is in **simple past tense**.",
+    "options": [
+      "My uncle broke his promise to keep up with the trend of being healthy.",
+      "My uncle had been breaking his promise to keep up with the trend of being healthy.",
+      "My uncle had broken his promise to keep up with the trend of being healthy.",
+      "My uncle was breaking his promise to keep up with the trend of being healthy."
+    ],
+    "answer": "My uncle broke his promise to keep up with the trend of being healthy.",
+    "explanation": "• **Simple Past Tense**: Formed standardly using the past form of the irregular verb (**broke**) without auxiliary tense modifiers. ✅"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nYou might be wrong, you can’t always be ________.",
+    "options": ["rite", "right", "write", "riot"],
+    "answer": "right",
+    "explanation": "• **Right**: Morally good, justified, or correct in opinion or fact. (Homonyms). 🎯\n• **Write**: Script text. \n• **Rite**: A religious ceremony."
+  },
+  {
+    "question": "Select the most appropriate option to substitute the underlined segment.\nThe lizard moves from <u>one whole to another and eats</u> insects hidden in the hole.",
+    "options": [
+      "moves from one whole to another and eat",
+      "moves from one to another and eats",
+      "moves from one hole to another and eats",
+      "moves from one hole to another but eats"
+    ],
+    "answer": "moves from one hole to another and eats",
+    "explanation": "• **Homonym Correction**: The context details an insect burrow location, which must be spelled '**hole**' rather than 'whole' (entire). Option 3 restores syntactic balance. 🦎"
+  },
+  {
+    "question": "Select the option that can be used as a one-word substitute for the given group of words.\n**A perfect society in which people work well with each other and are happy**",
+    "options": ["Gala land", "Dystopia", "Homeland", "Utopia"],
+    "answer": "Utopia",
+    "explanation": "• **Utopia**: An imagined place or state of things in which everything is perfect and completely harmonious. 🏰✨\n• **Dystopia**: An imagined state or society in which there is great suffering or injustice."
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Cancer is a disease in which some of the body’s cells grow (1)_______...",
+    "options": ["uncontrollably", "inadequately", "unwontedly", "inversely"],
+    "answer": "uncontrollably",
+    "explanation": "• **Uncontrollably**: In a way that cannot be contained or restrained; characteristic of anomalous cell proliferation in cancer profiles. 🧫📉"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) Cancer can start (2)______ anywhere in the human body...",
+    "options": ["almost", "just", "barely", "simply"],
+    "answer": "almost",
+    "explanation": "• **Almost**: Very nearly. Tumors can manifest in nearly any organ or tissue framework. 👤"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) ...human cells grow and multiply... to (3)______ new cells as the body needs them.",
+    "options": ["shape", "build", "form", "formulate"],
+    "answer": "form",
+    "explanation": "• **Form**: Bring together parts or combine to create a new entity. Biologically, division sets out to '**form**' daughter cells. 🔬"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) Sometimes, this orderly process (4)______ down...",
+    "options": ["breaks", "slows", "powers", "blows"],
+    "answer": "breaks",
+    "explanation": "• **Breaks down**: A phrasal verb meaning to fail or stop working properly. It describes the systemic disruption of standard homeostasis. 🚫"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) These cells may form tumours... Tumours can be cancerous or (5)_______.客观",
+    "options": ["benign", "benevolent", "malignant", "mild"],
+    "answer": "benign",
+    "explanation": "• **Benign**: (Of a disease or tumor) not harmful in effect; not malignant or spreading. It serves as the direct medical contrast to cancerous growths. 🩺"
+  }
+]
