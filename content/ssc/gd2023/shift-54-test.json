@@ -1,0 +1,127 @@
+[
+  {
+    "question": "Select the correct word for the blanks in the given sentence.\nMy father loves to read a ________ and wants to _________ flight tickets for Delhi.",
+    "options": ["reserve", "notepad", "book", "purchase"],
+    "answer": "book",
+    "explanation": "• **Book**: (Noun) a written or printed work consisting of pages glued or fastened together. 📖\n• **Book**: (Verb) to reserve accommodation, a ticket, etc., in advance. (Homonym). 🎫"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Doleful**",
+    "options": ["Joyous", "Worthless", "Horrid", "Dismal"],
+    "answer": "Joyous",
+    "explanation": "• **Doleful**: Expressing sorrow; mournful or melancholy. 😢\n• **Joyous**: Full of happiness and joy. (Antonym). 😊"
+  },
+  {
+    "question": "Select the correct spelling of the underlined word in the following sentence.\nIn <u>edition</u> to snacks, please bring cold drinks.",
+    "options": ["adition", "addition", "eddtion", "audition"],
+    "answer": "addition",
+    "explanation": "• **Correct spelling**: **Addition**. ✅\n• **Idiom**: 'In addition to' means as well as or besides. 'Edition' refers to a version of a published text."
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Despise**",
+    "options": ["Treasure", "Desire", "Dislike", "Like"],
+    "answer": "Dislike",
+    "explanation": "• **Despise**: Feel contempt or a deep repugnance for; loathe. (Synonym: Dislike). 😠"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\n<u>Does it difficult</u> to drive a lorry through a crowded narrow lane?",
+    "options": ["Aren’t it", "Do it", "Isn’t it", "Would it"],
+    "answer": "Isn’t it",
+    "explanation": "• **Grammar**: The sentence is asking about a state or condition, requiring the linking verb 'is' in a negative interrogative structure (**Isn't it**). 🚛"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**In the blink of an eye**",
+    "options": [
+      "Happen fast and instantaneously",
+      "To make progress",
+      "To flourish",
+      "To allow someone to move fast"
+    ],
+    "answer": "Happen fast and instantaneously",
+    "explanation": "• **In the blink of an eye**: An idiom meaning in an extremely short time; immediately or instantly. ⏱️⚡"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nThe teacher ___________ another picture in the slide to explain his point of view.",
+    "options": ["excluded", "extracted", "inserted", "obtained"],
+    "answer": "inserted",
+    "explanation": "• **Inserted**: Placed, fitted, or incorporated something into another thing (like an image into a presentation slide). 🖼️"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**An arm and a leg**",
+    "options": ["Too much bothering", "Very expensive", "Too much criticism", "Willing to work"],
+    "answer": "Very expensive",
+    "explanation": "• **An arm and a leg**: An idiomatic expression meaning an exorbitant amount of money; extremely costly. 💰💳"
+  },
+  {
+    "question": "Select the INCORRECTLY spelt word.",
+    "options": ["Seceade", "Seismic", "Relevance", "Titillate"],
+    "answer": "Seceade",
+    "explanation": "• **Incorrect spelling**: Seceade. ❌\n• **Correct spelling**: **Secede**. ✅ (Meaning to withdraw formally from membership of a federal union or an organization)."
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nOne day, an old man was walking through the forest ________suddenly he heard someone crying for help.",
+    "options": ["which", "when", "while", "than"],
+    "answer": "when",
+    "explanation": "• **Conjunction**: '**When**' is used here to introduce a sudden, single past event that interrupted a background action. 🌲"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Annoy**",
+    "options": ["Irritate", "Testify", "Suppress", "Delight"],
+    "answer": "Irritate",
+    "explanation": "• **Annoy/Irritate**: Make someone a little angry or impatient. (Synonyms). 😠"
+  },
+  {
+    "question": "Select the option that contains a grammatical error.\nTomorrow in the exam hall, <u>I am busy</u> writing answers.",
+    "options": ["writing", "am", "busy", "answers"],
+    "answer": "am",
+    "explanation": "• **Tense Error**: The sentence begins with the future time marker 'Tomorrow,' which is incompatible with the present tense verb 'am'.\n• **Correction**: It should be 'I **will be** busy'. 📝"
+  },
+  {
+    "question": "Select the correct option to substitute the underlined segment.\nEver since young, we were taught that we <u>can obey</u> our elders.",
+    "options": ["should", "cannot", "May", "need not"],
+    "answer": "should",
+    "explanation": "• **Modal Verb**: Obeying elders implies a moral obligation or recommendation, which is correctly expressed by the modal '**should**'. 🙇‍♂️"
+  },
+  {
+    "question": "Select the most appropriate homonym to fill in the blank.\nDue to the attack his vital organs _______ functioning.",
+    "options": ["seized", "sized", "ceased", "seas"],
+    "answer": "ceased",
+    "explanation": "• **Ceased**: Brought to an end; stopped. 🛑\n• **Seized**: Took hold of suddenly or forcibly."
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Cynical**",
+    "options": ["Negligent", "Silent", "Optimistic", "Usurper"],
+    "answer": "Optimistic",
+    "explanation": "• **Cynical**: Believing that people are motivated purely by self-interest; distrustful or pessimistic. 😒\n• **Optimistic**: Hopeful and confident about the future. (Antonym). 🌟"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) Mirrors (1) ________ used since ages.",
+    "options": ["has been", "is being", "have been", "are"],
+    "answer": "have been",
+    "explanation": "• **Present Perfect Passive**: The subject 'Mirrors' is plural, and 'since ages' indicates an action starting in the past continuing to the present, requiring '**have been**'. 🪞"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) The same (2) _______ is used in solar cookers...",
+    "options": ["verity", "principle", "supposition", "moral"],
+    "answer": "principle",
+    "explanation": "• **Principle**: A fundamental scientific truth, law, or mechanism that explains how something works. ☀️"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) A full moon shining (3) ________ is a beautiful sight.",
+    "options": ["beneath", "overhead", "ahead", "upward"],
+    "answer": "overhead",
+    "explanation": "• **Overhead**: Above the level of the head; in the sky. Appropriate for celestial bodies. 🌕"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...the moon reflects very (4) ______ sunlight, in fact, only seven per cent...",
+    "options": ["minute", "less", "petty", "little"],
+    "answer": "little",
+    "explanation": "• **Quantifier**: 'Sunlight' is an uncountable noun. '**Little**' correctly modifies it to emphasize the tiny amount (seven percent) reflected. 📉"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...and is strong enough to show the moon (5) ______.",
+    "options": ["lowly", "faintly", "gloomily", "feebly"],
+    "answer": "faintly",
+    "explanation": "• **Faintly**: Dimly or indistinctly. Earthlight is soft and reveals the dark part of the moon with a subtle, low illumination. 🌙"
+  }
+]
