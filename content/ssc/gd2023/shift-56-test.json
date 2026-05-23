@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\n<u>If we have to sending a mail today</u>, we shall get a reply in two days.",
+    "options": [
+      "If we would send a mail today",
+      "If we send a mail today",
+      "If we will send a mail today",
+      "If we have sending a mail today"
+    ],
+    "answer": "If we send a mail today",
+    "explanation": "• **First Conditional Rule**: In a conditional sentence that expresses a real or possible future situation, the conditional ('if') clause uses the Simple Present tense ('If we send'), while the main clause uses the future modal ('we shall get'). 📧"
+  },
+  {
+    "question": "Select the option that expresses the given sentence in past tense form.\n**The home nurse is expecting a salary hike from the relatives of the new family.**",
+    "options": [
+      "The home nurse will be expecting a salary hike from the relatives of the new family.",
+      "The home nurse expects a salary hike from the relatives of the new family.",
+      "The home nurse was expecting a salary hike from the relatives of the new family.",
+      "The home nurse has been expecting a salary hike from the relatives of the new family."
+    ],
+    "answer": "The home nurse was expecting a salary hike from the relatives of the new family.",
+    "explanation": "• **Past Continuous Tense**: The original sentence is in the Present Continuous form ('is expecting'). To change it to the past tense while keeping its progressive nature, replace 'is' with the past auxiliary verb '**was expecting**'. 👩‍⚕️"
+  },
+  {
+    "question": "Select the word segment that substitutes the bracketed word segment correctly.\nThe thief who (<u>have taken the pony</u>) was found guilty by the jury.",
+    "options": [
+      "has took the pony",
+      "had taken the pony",
+      "have took the pony",
+      "has taken the pony"
+    ],
+    "answer": "had taken the pony",
+    "explanation": "• **Past Perfect Tense**: The action in the relative clause ('taking the pony') occurred before another completed action in the past ('was found guilty'). Therefore, the Past Perfect tense ('**had taken**') is required. 🐎"
+  },
+  {
+    "question": "Select the MISSPELT word.",
+    "options": ["Extrime", "Eccentricity", "Electricity", "Excite"],
+    "answer": "Extrime",
+    "explanation": "• **Incorrect spelling**: Extrime. ❌\n• **Correct spelling**: **Extreme**. ✅ (Meaning reaching a high or the highest degree; radical)."
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**To be in the doldrums**",
+    "options": [
+      "To be in high energy and happiness",
+      "To be in utter confusion",
+      "To be in low and dull spirits",
+      "To be in helpless condition"
+    ],
+    "answer": "To be in low and dull spirits",
+    "explanation": "• **To be in the doldrums**: An idiomatic expression meaning to feel depressed, sluggish, dull, or lacking in energy or spirit. 😞"
+  },
+  {
+    "question": "Select the most appropriate option to fill in the blank.\nI am born and ___________ in a cultured family.",
+    "options": ["bare", "bread", "bred", "beard"],
+    "answer": "bred",
+    "explanation": "• **Born and bred**: A fixed idiomatic collocation meaning born and raised or brought up in a specified place or manner. 'Bred' is the past participle of breed. 🏡"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the given word.\n**Cease**",
+    "options": ["Terminate", "Stop", "Commence", "Quit"],
+    "answer": "Commence",
+    "explanation": "• **Cease**: To bring to an end or come to an end; stop. 🛑\n• **Commence**: To begin or start. (Antonym). 🚀"
+  },
+  {
+    "question": "Select the most appropriate option that can substitute the underlined segment.\nThere is <u>a few rice left</u> in the cooker.",
+    "options": [
+      "fewest rice left in",
+      "little rice left in",
+      "less rice left on",
+      "any rice left in"
+    ],
+    "answer": "little rice left in",
+    "explanation": "• **Countable vs. Uncountable**: 'Rice' is an uncountable noun. 'Few' is strictly used with countable nouns, whereas '**little**' correctly quantifies uncountable entities. 🍚"
+  },
+  {
+    "question": "Select the most appropriate meaning of the given idiom.\n**The best thing since sliced bread**",
+    "options": [
+      "A really good invention",
+      "A thoroughly examined food",
+      "An openly performed confession",
+      "A sincerely made apology"
+    ],
+    "answer": "A really good invention",
+    "explanation": "• **The best thing since sliced bread**: An idiom used to describe a brilliant, highly useful, or excellent new invention, idea, or innovation. 💡🍞"
+  },
+  {
+    "question": "Select the most appropriate option to complete the given sentence.\nMechanical Engineering students from IIT, Madras, have developed an unnamed sailing boat that can reach any given destination __________.",
+    "options": ["highly", "autonomously", "verbally", "collaboratively"],
+    "answer": "autonomously",
+    "explanation": "• **Autonomously**: Acting independently or having the freedom to do so without direct human control. This perfectly describes the function of an unmanned vessel. ⛵🤖"
+  },
+  {
+    "question": "Select the most appropriate synonym of the word given in the brackets to fill in the blank.\nConsuming coffee every day can have _______ (negative) effects on one’s health.",
+    "options": ["hospitable", "adverse", "despairing", "arbitrary"],
+    "answer": "adverse",
+    "explanation": "• **Negative/Adverse**: Preventing success or development; harmful, unfavorable, or hostile. (Synonyms). 📉☕"
+  },
+  {
+    "question": "Select the most appropriate synonym of the underlined word.\nInstead of studying rules and definitions, Helen <u>acquired</u> language through experience.",
+    "options": ["Obtained", "Forfeited", "Admired", "Awarded"],
+    "answer": "Obtained",
+    "explanation": "• **Acquired/Obtained**: Came into possession of a skill, quality, or asset. (Synonyms). 🧠"
+  },
+  {
+    "question": "Select the most appropriate ANTONYM of the word given in the bracket to fill in the blank.\nShe was too (feeble)__________ to leave her room.",
+    "options": ["wimpy", "effete", "strong", "asthenic"],
+    "answer": "strong",
+    "explanation": "• **Feeble**: Lacking physical strength, especially as a result of age or illness. 🤒\n• **Strong**: Possessing great physical power or health. (Antonym). 💪"
+  },
+  {
+    "question": "Identify the INCORRECT spelling from the given sentence and select its correct spelling.\nVoting allows every **citezen** to have a say in choosing who should run the government.",
+    "options": ["allouse", "chosing", "goverment", "citizen"],
+    "answer": "citizen",
+    "explanation": "• **Correct spelling**: **Citizen**. ✅ (The original prompt incorrectly spelled it with an 'e' as 'citezen'). 🗳️"
+  },
+  {
+    "question": "Select the most appropriate synonym of the given word.\n**Contagion**",
+    "options": ["Grandeur", "Illusion", "Transfusion", "Transmission"],
+    "answer": "Transmission",
+    "explanation": "• **Contagion/Transmission**: The passing on or spreading of a disease, germ, or infection from one entity to another. (Synonyms). 🦠"
+  },
+  {
+    "question": "(Cloze Test - Blank 1) A low-pressure area characterised by rapid... air circulation is what (1)_______ cyclones.",
+    "options": ["inspires", "spawns", "destroys", "generates"],
+    "answer": "generates",
+    "explanation": "• **Generates**: Produces, creates, or brings into existence. The atmospheric condition generates a cyclone. 🌀"
+  },
+  {
+    "question": "(Cloze Test - Blank 2) Storms and (2)_______ weather are frequently present...",
+    "options": ["unfavourable", "accustomed", "advantageous", "unaccepted"],
+    "answer": "unfavourable",
+    "explanation": "• **Unfavourable**: Adverse or hostile. Storms are part of severe, bad, or 'unfavourable' weather systems. 🌧️⚡"
+  },
+  {
+    "question": "(Cloze Test - Blank 3) In the Northern hemisphere, the air moves counter clockwise, (3)_______, in the Southern hemisphere, it moves clockwise.",
+    "options": ["whereas", "because", "or", "unless"],
+    "answer": "whereas",
+    "explanation": "• **Whereas**: A conjunction used to introduce a contrasting fact or clause between two geographical hemispheres. 🗺️"
+  },
+  {
+    "question": "(Cloze Test - Blank 4) ...and tropical cyclones are the two (4)_______ under which cyclones fall.",
+    "options": ["ranks", "statuses", "categories", "species"],
+    "answer": "categories",
+    "explanation": "• **Categories**: Classes or divisions of people or things regarded as having shared characteristics. ✅"
+  },
+  {
+    "question": "(Cloze Test - Blank 5) ...because tropical storms... (5)______ coiled sea serpents.",
+    "options": ["collect", "negate", "mimic", "resemble"],
+    "answer": "resemble",
+    "explanation": "• **Resemble**: To look like or be similar to. The spiral appearance of the storm looks like a coiled snake. 🐍🌀"
+  }
+]
