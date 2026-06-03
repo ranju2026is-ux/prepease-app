@@ -149,6 +149,8 @@
             currentTopicTitle: '',
             currentType: '',
             isRulesMode: false,
+            isUPSC: false,
+            currentUPSCTest: 1,
             activeMode: 'none',
             quizResults: null,
             authError: null
@@ -182,6 +184,9 @@
         ];
 
         const gd2023Shifts = Array.from({length: 77}, (_, i) => `SSC GD 2023 Shift-${i + 1}`);
+        
+        // Generate references for 20 high-yield UPSC papers
+        const upscTestsList = Array.from({length: 20}, (_, i) => `UPSC General Studies Mock Test-${i + 1}`);
 
         // --- CORE NAVIGATION ---
         window.navigateTo = (view, params = {}, fromPopState = false) => {
@@ -261,9 +266,12 @@
         }
 
         window.loadGenericContent = async () => {
-            const { currentTopic, currentLevel, isSSC, currentShift, currentExam, currentType, isRulesMode } = state;
+            const { currentTopic, currentLevel, isSSC, isUPSC, currentUPSCTest, currentShift, currentExam, currentType, isRulesMode } = state;
             let paths = [];
-            if (isSSC) {
+            
+            if (isUPSC) {
+                paths = [`./content/upsc/test-${currentUPSCTest}-test.json`, `./content/upsc/test${currentUPSCTest}-test.json`];
+            } else if (isSSC) {
                 let folder = (currentExam === 'SSC GD 2025') ? 'gd2024' : (currentExam === 'SSC GD 2023' ? 'gd2023' : 'cgl2023');
                 paths = [`./content/ssc/${folder}/shift-${currentShift}-test.json`, `./content/ssc/${folder}/shift${currentShift}-test.json` ];
             } else {
@@ -311,12 +319,25 @@
                 if (rec?.isCorrect) correctCount++; else if (rec?.selected) { wrong++; mistakesFound.push({...q}); }
             });
             const isSSC = !!state.isSSC;
-            const score = (correctCount * (isSSC ? 2.0 : 1.0)) + (wrong * (isSSC ? -0.5 : 0.0));
+            const isUPSC = !!state.isUPSC;
+            
+            // Standard marking vs UPSC specific tracking
+            const multiplier = isUPSC ? 2.0 : (isSSC ? 2.0 : 1.0);
+            const penalty = isUPSC ? -0.66 : (isSSC ? -0.5 : 0.0);
+            const score = (correctCount * multiplier) + (wrong * penalty);
             state.quizResults = { score, correct: correctCount, wrong, total: questions.length };
             
             if (state.userId) {
-                let folder = (state.currentExam === 'SSC GD 2025') ? 'gd2024' : (state.currentExam === 'SSC GD 2023' ? 'gd2023' : (state.isSSC ? 'cgl2023' : null));
-                const progressId = state.isSSC ? `${folder}_shift_${state.currentShift}` : `${state.currentTopic}_level_${state.currentLevel}`;
+                let progressId = "";
+                if (state.isUPSC) {
+                    progressId = `upsc_test_${state.currentUPSCTest}`;
+                } else if (state.isSSC) {
+                    let folder = (state.currentExam === 'SSC GD 2025') ? 'gd2024' : (state.currentExam === 'SSC GD 2023' ? 'gd2023' : 'cgl2023');
+                    progressId = `${folder}_shift_${state.currentShift}`;
+                } else {
+                    progressId = `${state.currentTopic}_level_${state.currentLevel}`;
+                }
+                
                 setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'progress', progressId), { score, correct: correctCount, total: questions.length, points: Math.max(0, Math.round(score)), completedAt: new Date().toISOString() });
                 mistakesFound.forEach(m => {
                     const safeId = m.question.toLowerCase().replace(/[^a-z0-9]/gi, '_').substring(0, 50);
@@ -333,16 +354,13 @@
             const refMastery = doc(db, 'artifacts', appId, 'users', state.userId, 'profile', 'mastery');
             
             if (correct) {
-                // If correct: Remove from Mastery Book and add +1 point to separate Mastery Score
                 await deleteDoc(refMistake);
                 await setDoc(refMastery, { points: increment(1) }, { merge: true });
             } else {
-                // If wrong: Keep it and deduct -1 point from Mastery Score
                 await setDoc(refMastery, { points: increment(-1) }, { merge: true });
             }
             
             state.ankiSelection = null;
-            // Shuffling logic: Move to a different random index to avoid repeats
             if (state.mistakes.length > 1) {
                 let nextIdx;
                 do {
@@ -365,7 +383,7 @@
             <div class="grid grid-cols-2 gap-3 mb-4">
                 <div onclick="window.navigateTo('english-selection')" class="premium-card font-bold border-indigo-100 flex flex-col items-center justify-center py-8"><span class="text-3xl mb-2">🇬🇧</span><span>English</span></div>
                 <div onclick="window.navigateTo('exams-pyq', { currentCategory: 'ssc' })" class="premium-card font-bold border-amber-100 flex flex-col items-center justify-center py-8"><span class="text-3xl mb-2">⚔️</span><span>SSC Hub</span></div>
-                <div onclick="window.navigateTo('exams-pyq', { currentCategory: 'karnataka' })" class="premium-card font-bold border-emerald-100 flex flex-col items-center justify-center py-8 opacity-50"><span class="text-3xl mb-2">🏛️</span><span>KA Hub</span></div>
+                <div onclick="window.navigateTo('upsc-tests-grid')" class="premium-card font-bold border-purple-100 flex flex-col items-center justify-center py-8"><span class="text-3xl mb-2">🏛️</span><span>UPSC Hub</span></div>
                 <div onclick="window.navigateTo('mistakes-book')" class="premium-card font-bold border-rose-100 bg-rose-50/30 flex flex-col items-center justify-center py-8"><span class="text-3xl mb-2">🏆</span><span>Mastery Book (${state.mistakes.length})</span></div>
             </div>
         </div>`;
@@ -376,7 +394,7 @@
                 <button onclick="window.navigateTo('topics-grid', {currentType:state.currentType})" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button>
                 <h2 class="text-3xl font-black mb-6 tracking-tight font-sans text-sm font-black text-slate-400 uppercase">${state.currentTopicTitle}</h2>
                 
-                ${isGrammar ? `<div onclick="window.navigateTo('content-view', {currentTopic: state.currentTopic, isSSC:false, currentType: 'grammar', isRulesMode: true})" class="mb-6 p-5 border-2 border-indigo-100 bg-indigo-50/30 rounded-2xl flex items-center justify-between font-black text-indigo-700 shadow-sm active:scale-95 transition-all"><div class="flex items-center gap-3"><span class="text-2xl">📝</span><span class="uppercase text-xs tracking-wider">Study Rules & Notes</span></div><span>→</span></div>` : ''}
+                ${isGrammar ? `<div onclick="window.navigateTo('content-view', {currentTopic: state.currentTopic, isSSC:false, isUPSC:false, currentType: 'grammar', isRulesMode: true})" class="mb-6 p-5 border-2 border-indigo-100 bg-indigo-50/30 rounded-2xl flex items-center justify-between font-black text-indigo-700 shadow-sm active:scale-95 transition-all"><div class="flex items-center gap-3"><span class="text-2xl">📝</span><span class="uppercase text-xs tracking-wider">Study Rules & Notes</span></div><span>→</span></div>` : ''}
 
                 <p class="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-4">Practice Levels</p>
                 <div class="grid grid-cols-4 gap-3">
@@ -384,7 +402,7 @@
                         const progKey = `${state.currentTopic}_level_${lv}`;
                         const data = state.progress[progKey];
                         const pct = data ? Math.min(100, Math.round((data.correct / (data.total || 1)) * 100)) : 0;
-                        return `<div onclick="window.navigateTo('content-view', {currentTopic: state.currentTopic, currentLevel:${lv}, isSSC:false, currentType: state.currentType, isRulesMode: false})" class="h-16 border-2 rounded-xl flex items-center justify-center font-bold text-lg hover:border-indigo-500 transition-all font-sans premium-card p-0"><div class="progress-fill-bg" style="width: ${pct}%"></div><div class="card-inner-text">${lv}</div></div>`;
+                        return `<div onclick="window.navigateTo('content-view', {currentTopic: state.currentTopic, currentLevel:${lv}, isSSC:false, isUPSC:false, currentType: state.currentType, isRulesMode: false})" class="h-16 border-2 rounded-xl flex items-center justify-center font-bold text-lg hover:border-indigo-500 transition-all font-sans premium-card p-0"><div class="progress-fill-bg" style="width: ${pct}%"></div><div class="card-inner-text">${lv}</div></div>`;
                     }).join('')}
                 </div>
             </div>`;
@@ -398,8 +416,31 @@
                 const progKey = `${folder}_shift_${idx}`;
                 const data = state.progress[progKey];
                 const pct = data ? Math.min(100, Math.round((data.correct / (data.total || 1)) * 100)) : 0;
-                return `<div onclick="window.navigateTo('content-view', {isSSC:true, currentShift:${idx}, currentExam:'${state.currentExam}', currentTopic:'${folder}'})" class="p-4 border rounded-xl font-bold flex justify-between items-center text-xs shadow-sm bg-white font-sans premium-card"><div class="progress-fill-bg" style="width: ${pct}%"></div><div class="card-inner-text justify-between w-full flex px-2 text-left font-sans"><span>${s}</span><span>${pct > 0 ? pct+'%' : '→'}</span></div></div>`;
+                return `<div onclick="window.navigateTo('content-view', {isSSC:true, isUPSC:false, currentShift:${idx}, currentExam:'${state.currentExam}', currentTopic:'${folder}'})" class="p-4 border rounded-xl font-bold flex justify-between items-center text-xs shadow-sm bg-white font-sans premium-card"><div class="progress-fill-bg" style="width: ${pct}%"></div><div class="card-inner-text justify-between w-full flex px-2 text-left font-sans"><span>${s}</span><span>${pct > 0 ? pct+'%' : '→'}</span></div></div>`;
             }).join('')}</div></div>`;
+        };
+
+        // UPSC Mock Papers Dashboard Panel Selector
+        window.renderUPSCTestsGrid = () => {
+            return `<div class="p-6 h-full flex flex-col overflow-hidden bg-white view-transition">
+                <button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button>
+                <h2 class="text-xl font-black mb-4 tracking-tighter uppercase text-sm font-black text-slate-400 font-sans">UPSC General Studies Hub</h2>
+                <div class="grid grid-cols-1 gap-2 flex-grow overflow-y-auto pr-1">
+                    ${upscTestsList.map((s, idx) => {
+                        const testNum = idx + 1;
+                        const progKey = `upsc_test_${testNum}`;
+                        const data = state.progress[progKey];
+                        const pct = data ? Math.min(100, Math.round((data.correct / (data.total || 1)) * 100)) : 0;
+                        return `<div onclick="window.navigateTo('content-view', {isSSC:false, isUPSC:true, currentUPSCTest:${testNum}})" class="p-4 border rounded-xl font-bold flex justify-between items-center text-xs shadow-sm bg-white font-sans premium-card">
+                            <div class="progress-fill-bg" style="width: ${pct}%"></div>
+                            <div class="card-inner-text justify-between w-full flex px-2 text-left font-sans">
+                                <span>${s}</span>
+                                <span>${pct > 0 ? pct+'%' : '→'}</span>
+                            </div>
+                        </div>`;
+                    }).join('')}
+                </div>
+            </div>`;
         };
 
         window.renderQuizUI = () => {
@@ -485,6 +526,7 @@
                 case 'levels-grid': shell.innerHTML = window.renderLevelsGrid(); break;
                 case 'exams-pyq': shell.innerHTML = `<div class="p-6 h-full flex flex-col bg-white view-transition"><button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button><h2 class="text-3xl font-black mb-6 font-sans">Exam Hub</h2><div class="space-y-3"><div onclick="window.navigateTo('shift-grid', {currentExam:'SSC CGL 2023', isSSC:true})" class="premium-card flex justify-between shadow-sm p-6 font-bold border border-slate-100 rounded-2xl font-sans uppercase text-sm font-black"><span class="z-10">SSC CGL 2023</span> <span class="z-10 text-xl">⚔️</span></div><div onclick="window.navigateTo('shift-grid', {currentExam:'SSC GD 2025', isSSC:true})" class="premium-card flex justify-between shadow-sm p-6 font-bold border border-slate-100 rounded-2xl font-sans uppercase text-sm font-black"><span class="z-10">SSC GD 2025</span> <span class="z-10 text-xl">🛡️</span></div><div onclick="window.navigateTo('shift-grid', {currentExam:'SSC GD 2023', isSSC:true})" class="premium-card flex justify-between shadow-sm p-6 font-bold border border-slate-100 rounded-2xl font-sans uppercase text-sm font-black"><span class="z-10">SSC GD 2023</span> <span class="z-10 text-xl">⚔️</span></div></div></div>`; break;
                 case 'shift-grid': shell.innerHTML = window.renderShiftGrid(); break;
+                case 'upsc-tests-grid': shell.innerHTML = window.renderUPSCTestsGrid(); break;
                 case 'results': shell.innerHTML = window.renderResults(); break;
                 case 'content-view': shell.innerHTML = `<div id="content-container" class="app-container"></div>`; window.loadGenericContent(); break;
                 case 'mistakes-book': 
@@ -519,21 +561,19 @@
                 const profileSnap = await getDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'profile', 'info'));
                 if (profileSnap.exists()) state.userName = profileSnap.data().name;
                 
-                // Separate listener for normal quiz progress
                 onSnapshot(collection(db, 'artifacts', appId, 'users', state.userId, 'progress'), (snap) => {
                     state.progress = {};
                     state.totalPoints = 0;
                     snap.forEach(doc => {
                         const data = doc.data();
                         state.progress[doc.id] = data;
-                        if (data.type !== 'mastery') { // Normal quiz points
+                        if (data.type !== 'mastery') {
                            state.totalPoints += (data.points || 0);
                         }
                     });
                     window.render();
                 });
 
-                // Separate listener for Mastery Book specific score
                 onSnapshot(doc(db, 'artifacts', appId, 'users', state.userId, 'profile', 'mastery'), (doc) => {
                     if (doc.exists()) {
                         state.masteryBookPoints = doc.data().points || 0;
