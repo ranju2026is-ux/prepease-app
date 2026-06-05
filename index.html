@@ -184,8 +184,6 @@
         ];
 
         const gd2023Shifts = Array.from({length: 77}, (_, i) => `SSC GD 2023 Shift-${i + 1}`);
-        
-        // Generate references for 20 high-yield UPSC papers
         const upscTestsList = Array.from({length: 20}, (_, i) => `UPSC General Studies Mock Test-${i + 1}`);
 
         // --- CORE NAVIGATION ---
@@ -321,7 +319,6 @@
             const isSSC = !!state.isSSC;
             const isUPSC = !!state.isUPSC;
             
-            // Standard marking vs UPSC specific tracking
             const multiplier = isUPSC ? 2.0 : (isSSC ? 2.0 : 1.0);
             const penalty = isUPSC ? -0.66 : (isSSC ? -0.5 : 0.0);
             const score = (correctCount * multiplier) + (wrong * penalty);
@@ -420,7 +417,6 @@
             }).join('')}</div></div>`;
         };
 
-        // UPSC Mock Papers Dashboard Panel Selector
         window.renderUPSCTestsGrid = () => {
             return `<div class="p-6 h-full flex flex-col overflow-hidden bg-white view-transition">
                 <button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button>
@@ -447,9 +443,10 @@
             const q = window.activeQuestionsData[state.currentQuizIndex];
             const ans = state.currentQuizAnswers[state.currentQuizIndex];
             const container = document.getElementById('content-container'); if(!q) return;
+            // Added whitespace-pre-wrap class below to handle formatting of points and lists properly
             container.innerHTML = `<div class="bg-white p-4 rounded-3xl border h-full flex flex-col overflow-hidden" ontouchstart="window.handleTouchStart(event)" ontouchend="window.handleTouchEnd(event)">
                 <div class="flex justify-between items-center mb-3"><span class="text-[10px] font-black text-slate-400 font-sans uppercase">Q${state.currentQuizIndex+1}/${window.activeQuestionsData.length}</span><button onclick="window.navigateTo('home')" class="text-rose-500 font-bold text-[10px] uppercase">Exit</button></div>
-                <div class="scroll-content"><p class="text-base font-bold mb-4 leading-snug font-sans">${q.question}</p>
+                <div class="scroll-content"><p class="text-base font-bold mb-4 leading-snug font-sans whitespace-pre-wrap">${q.question}</p>
                     <div class="flex flex-col gap-2 ${ans ? 'pointer-events-none' : ''}">${q.options.map(o => {
                         const isCorrect = o.trim() === q.answer.trim(); const isSelected = ans?.selected === o.trim();
                         let cls = "p-3.5 border-2 rounded-xl text-sm font-bold transition-all ";
@@ -509,50 +506,30 @@
             </div>`;
         };
 
-        // --- MAIN CYCLE ---
-        window.render = () => {
-            const shell = document.getElementById('app-shell'); if(!shell) return;
-            const authHeader = document.getElementById('auth-header-btn');
-            if (state.isAuthenticated) { authHeader.innerHTML = `<button onclick="window.handleLogout()" class="text-[10px] font-bold text-rose-500 uppercase font-sans">LOGOUT</button>`; }
-            else { authHeader.innerHTML = `<button onclick="window.navigateTo('login')" class="text-[10px] font-bold text-indigo-600 uppercase font-black font-sans">LOGIN</button>`; }
-
-            if(state.view === 'booting') { shell.innerHTML = `<div class="h-full flex items-center justify-center"><div class="animate-spin rounded-full h-8 w-8 border-b-2 border-indigo-600"></div></div>`; return; }
-
-            switch(state.view) {
-                case 'home': shell.innerHTML = window.renderHome(); break;
-                case 'login': shell.innerHTML = `<div class="p-6 h-full flex flex-col items-center justify-center view-transition"><h2 class="text-3xl font-black mb-6 tracking-tighter uppercase font-sans">PrepEase Login</h2><div class="bg-white p-6 rounded-2xl shadow-sm w-full max-w-sm border border-slate-100">${state.authMode === 'signup' ? `<input id="name-input" placeholder="Full Name" class="w-full p-4 bg-slate-50 rounded-xl mb-3 text-sm border-none outline-none font-sans">` : ''}<input id="username-input" placeholder="Username ID" class="w-full p-4 bg-slate-50 rounded-xl mb-3 text-sm border-none outline-none font-sans"><input id="password-input" type="password" placeholder="Password" class="w-full p-4 bg-slate-50 rounded-xl mb-3 text-sm border-none outline-none font-sans">${state.authError ? `<p class="text-rose-500 text-[10px] font-bold mb-3 uppercase text-center font-sans">${state.authError}</p>` : ''}<button onclick="window.handleAuth()" class="w-full p-4 bg-indigo-600 text-white rounded-xl font-bold uppercase text-xs shadow-lg font-sans">GO</button><button onclick="window.state.authMode = window.state.authMode === 'login' ? 'signup' : 'login'; window.render();" class="mt-4 text-[10px] text-indigo-500 w-full text-center uppercase tracking-widest font-bold font-sans">${state.authMode === 'login' ? 'Create ID' : 'Login'}</button></div></div>`; break;
-                case 'english-selection': shell.innerHTML = `<div class="p-6 h-full flex flex-col bg-white view-transition"><button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button><h2 class="text-3xl font-black mb-6 font-sans tracking-tight">Tracks</h2><div onclick="window.navigateTo('topics-grid', {currentType:'grammar'})" class="premium-card border rounded-2xl mb-4 bg-white font-bold flex justify-between shadow-sm font-sans uppercase text-sm font-black"><span class="z-10">Grammar</span> <span class="z-10 text-xl">🔡</span></div><div onclick="window.navigateTo('topics-grid', {currentType:'vocabulary'})" class="premium-card border rounded-2xl bg-white font-bold flex justify-between shadow-sm font-sans uppercase text-sm font-black"><span class="z-10">Vocabulary</span> <span class="z-10 text-xl">📖</span></div></div>`; break;
-                case 'topics-grid': shell.innerHTML = `<div class="p-6 h-full overflow-y-auto flex flex-col bg-white view-transition"><button onclick="window.navigateTo('english-selection')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button><h2 class="text-3xl font-black mb-6 capitalize tracking-tight font-sans text-sm font-black text-slate-400 uppercase font-sans">${state.currentType} Hub</h2><div class="grid grid-cols-2 gap-3">${(topicsData[state.currentType] || []).map(t => `<div onclick="window.navigateTo('levels-grid', {currentTopic:'${t.id}', currentTopicTitle:'${t.title}', currentType: state.currentType})" class="p-6 border rounded-2xl bg-white text-center shadow-sm font-sans uppercase text-[10px] font-black"><span class="text-3xl block mb-2">${t.icon}</span><span>${t.title}</span></div>`).join('')}</div></div>`; break;
-                case 'levels-grid': shell.innerHTML = window.renderLevelsGrid(); break;
-                case 'exams-pyq': shell.innerHTML = `<div class="p-6 h-full flex flex-col bg-white view-transition"><button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button><h2 class="text-3xl font-black mb-6 font-sans">Exam Hub</h2><div class="space-y-3"><div onclick="window.navigateTo('shift-grid', {currentExam:'SSC CGL 2023', isSSC:true})" class="premium-card flex justify-between shadow-sm p-6 font-bold border border-slate-100 rounded-2xl font-sans uppercase text-sm font-black"><span class="z-10">SSC CGL 2023</span> <span class="z-10 text-xl">⚔️</span></div><div onclick="window.navigateTo('shift-grid', {currentExam:'SSC GD 2025', isSSC:true})" class="premium-card flex justify-between shadow-sm p-6 font-bold border border-slate-100 rounded-2xl font-sans uppercase text-sm font-black"><span class="z-10">SSC GD 2025</span> <span class="z-10 text-xl">🛡️</span></div><div onclick="window.navigateTo('shift-grid', {currentExam:'SSC GD 2023', isSSC:true})" class="premium-card flex justify-between shadow-sm p-6 font-bold border border-slate-100 rounded-2xl font-sans uppercase text-sm font-black"><span class="z-10">SSC GD 2023</span> <span class="z-10 text-xl">⚔️</span></div></div></div>`; break;
-                case 'shift-grid': shell.innerHTML = window.renderShiftGrid(); break;
-                case 'upsc-tests-grid': shell.innerHTML = window.renderUPSCTestsGrid(); break;
-                case 'results': shell.innerHTML = window.renderResults(); break;
-                case 'content-view': shell.innerHTML = `<div id="content-container" class="app-container"></div>`; window.loadGenericContent(); break;
-                case 'mistakes-book': 
-                    if (state.mistakes.length === 0) shell.innerHTML = `<div class="p-10 text-center font-bold flex flex-col justify-center h-full bg-white view-transition">All Mastered! 🏆<br><button onclick="window.navigateTo('home')" class="mt-4 bg-indigo-600 text-white p-4 rounded-xl mx-auto uppercase text-xs font-bold font-sans">Home</button></div>`;
-                    else {
-                        const current = state.mistakes[state.currentAnkiIndex]; const ans = state.ankiSelection;
-                        shell.innerHTML = `<div class="app-container" ontouchstart="window.handleTouchStart(event)" ontouchend="window.handleTouchEnd(event)">
-                            <div class="flex justify-between items-center mb-4">
-                                <p class="text-[9px] font-black uppercase text-slate-400 tracking-tighter">Mistake ${state.currentAnkiIndex + 1}/${state.mistakes.length}</p>
-                                <div class="bg-rose-50 text-rose-600 px-4 py-1.5 rounded-full font-black text-xs flex items-center gap-1 border border-rose-100 shadow-sm">
-                                    <span>${state.masteryBookPoints}</span> ❤️
-                                </div>
-                            </div>
-                            <div class="bg-white p-4 rounded-3xl border h-full flex flex-col overflow-hidden shadow-sm">
-                                <div class="scroll-content"><h3 class="text-base font-bold mb-4 leading-tight font-sans">${current.question}</h3><div class="flex flex-col gap-2 ${ans ? 'pointer-events-none' : ''}">${current.options.map(o => {
-                                    const isCorrect = o.trim() === current.answer.trim(); let cls = "p-3 border-2 rounded-xl text-xs font-bold transition-all ";
-                                    if (ans) { if (isCorrect) cls += "option-correct"; else if (ans.selected === o.trim()) cls += "option-wrong"; else cls += "border-slate-50 opacity-40"; }
-                                    else { cls += "border-slate-50 bg-slate-50/30"; }
-                                    return `<div onclick="window.state.ankiSelection = {selected: '${o.trim().replace(/'/g, "\\'")}', isCorrect: ${isCorrect}}; window.render();" class="${cls}">${o}</div>`;
-                                }).join('')}</div>${ans ? `<div class="mt-4 p-4 bg-slate-50 rounded-2xl border-l-4 border-rose-500 text-[11px] font-kannada view-transition">${current.explanation || ''}</div>` : ''}</div>
-                                ${ans ? `<div class="mt-2 flex gap-2 h-14"><button onclick="window.resolveAnki(${ans.isCorrect})" class="flex-1 ${ans.isCorrect ? 'bg-emerald-600' : 'bg-rose-600'} text-white rounded-xl font-bold text-xs uppercase shadow-md font-sans">${ans.isCorrect ? 'Got it ✅ (+1)' : 'Hard ❌ (-1)'}</button></div>` : `<div class="mt-2 text-center text-slate-300 text-[9px] uppercase tracking-widest py-2">Select answer to review</div>`}
-                            </div>
-                        </div>`;
-                    }
-                    break;
+        // --- MASTERY LOGIC ---
+        window.resolveAnki = async (correct) => {
+            const current = state.mistakes[state.currentAnkiIndex];
+            const refMistake = doc(db, 'artifacts', appId, 'users', state.userId, 'mistakes', current.id);
+            const refMastery = doc(db, 'artifacts', appId, 'users', state.userId, 'profile', 'mastery');
+            
+            if (correct) {
+                await deleteDoc(refMistake);
+                await setDoc(refMastery, { points: increment(1) }, { merge: true });
+            } else {
+                await setDoc(refMastery, { points: increment(-1) }, { merge: true });
             }
+            
+            state.ankiSelection = null;
+            if (state.mistakes.length > 1) {
+                let nextIdx;
+                do {
+                    nextIdx = Math.floor(Math.random() * state.mistakes.length);
+                } while (nextIdx === state.currentAnkiIndex && state.mistakes.length > 1);
+                state.currentAnkiIndex = nextIdx;
+            } else {
+                state.currentAnkiIndex = 0;
+            }
+            window.render();
         };
 
         onAuthStateChanged(auth, async (user) => { 
