@@ -224,10 +224,18 @@
         const caMonthsList = Array.from({length: 10}, (_, i) => `Current Affairs Month-${i + 1}`);
 
         function navigateTo(view, params = {}, fromPopState = false) {
-            // Safety: Reset Indices when switching views to prevent out of bounds crashes
+            // Reset indices when switching views to prevent out of bounds crashes
             if (view === 'mistakes-book' || view === 'home') {
                 state.currentAnkiIndex = 0;
                 state.ankiSelection = null;
+            }
+            // Explicitly clean context flags to prevent bleeding state between different hubs
+            if (['home', 'english-selection', 'exams-pyq', 'topics-grid', 'levels-grid', 'shift-grid', 'upsc-tests-grid', 'kea-tests-grid', 'current-affairs-grid'].includes(view)) {
+                state.isSSC = false;
+                state.isUPSC = false;
+                state.isKEA = false;
+                state.isCurrentAffairs = false;
+                state.isRulesMode = false;
             }
             Object.assign(state, params);
             state.view = view;
@@ -359,7 +367,7 @@
         }
 
         async function triggerReattempt() {
-            const { currentTopic, currentLevel, isSSC, isUPSC, isKEA, isCurrentAffairs, currentUPSCTest, currentKEATest, currentCAMonth, currentShift, currentExam } = state;
+            const { currentTopic, currentLevel, isSSC, isUPSC, isKEA, isCurrentAffairs, currentUPSCTest, currentKEATest, currentShift, currentExam } = state;
             let progressId = "";
             if (isCurrentAffairs) {
                 progressId = `ca_month_${currentCAMonth}`;
@@ -396,7 +404,7 @@
             if(data) { window.activeQuestionsData = data; state.currentQuizIndex = 0; state.currentQuizAnswers = {}; state.activeMode = 'quiz'; window.renderQuizUI(); }
         }
 
-        // Clean & Robust Choice selection utilizing Option Indices to prevent nested quote bugs
+        // Safe Choice selection utilizing Option Indices to prevent quote-breaking syntax errors
         function handleChoiceIndex(index) {
             if(state.currentQuizAnswers[state.currentQuizIndex] || state.isReviewMode) return;
             const q = window.activeQuestionsData[state.currentQuizIndex];
@@ -715,7 +723,7 @@
                         <div class="text-7xl mb-6">${item.emoji || '📗'}</div><h3 class="text-3xl font-black text-slate-900 mb-8 break-word-custom tracking-tighter font-sans">${item.word}</h3>
                         <div class="space-y-4 text-left">
                             <div class="bg-slate-50 p-4 rounded-2xl border border-slate-100 font-sans"><p class="text-[9px] font-bold text-slate-400 uppercase mb-2">Meaning</p><p class="text-xl font-bold text-indigo-900 font-kannada">${item.meaning_kannada}</p></div>
-                            <div class="bg-indigo-50/50 p-4 rounded-2xl border border-indigo-100 font-sans"><p class="text-[9px] font-bold text-indigo-400 uppercase mb-2">English</p><p class="text-base font-medium text-indigo-900 italic leading-relaxed font-kannada">${item.meaning_english}</p></div>
+                            <div class="bg-indigo-50/50 p-4 rounded-2xl border border-indigo-100 font-sans"><p class="text-[9px] font-bold text-slate-400 uppercase mb-2">English</p><p class="text-base font-medium text-indigo-900 italic leading-relaxed font-kannada">${item.meaning_english}</p></div>
                         </div>
                     </div>
                 </div>
