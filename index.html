@@ -230,6 +230,13 @@
         function navigateTo(view, params = {}, fromPopState = false) {
             Object.assign(state, params);
             state.view = view;
+            
+            // Safeguard reset to prevent out of bounds when switching books
+            if (view === 'mistakes-book') {
+                state.currentAnkiIndex = 0;
+                state.ankiSelection = null;
+            }
+            
             if (!fromPopState) history.pushState({ view, params: JSON.parse(JSON.stringify(params)) }, '', "");
             window.render();
             document.body.style.overflow = (['content-view', 'mistakes-book', 'results'].includes(view)) ? 'hidden' : 'auto';
@@ -498,8 +505,8 @@
                 <div class="grid grid-cols-2 gap-3 mb-6">
                     <div onclick="window.navigateTo('english-selection')" class="premium-card font-bold border-indigo-100 flex flex-col items-center justify-center py-6"><span class="text-3xl mb-1">🇬🇧</span><span>English</span></div>
                     <div onclick="window.navigateTo('exams-pyq', { currentCategory: 'ssc' })" class="premium-card font-bold border-amber-100 flex flex-col items-center justify-center py-6"><span class="text-3xl mb-1">⚔️</span><span>SSC Hub</span></div>
-                    <div onclick="window.navigateTo('upsc-tests-grid')" class="premium-card font-bold border-purple-100 flex flex-col items-center justify-center py-6"><span class="text-3xl mb-1">🏛️</span><span>UPSC Hub</span></div>
-                    <div onclick="window.navigateTo('kea-tests-grid')" class="premium-card font-bold border-emerald-100 flex flex-col items-center justify-center py-6"><span class="text-3xl mb-1">🏛️</span><span>KEA Hub</span></div>
+                    <div onclick="window.navigateTo('upsc-tests-grid')" class="premium-card font-bold border-purple-100 flex flex-col items-center justify-center py-8"><span class="text-3xl mb-1">🏛️</span><span>UPSC Hub</span></div>
+                    <div onclick="window.navigateTo('kea-tests-grid')" class="premium-card font-bold border-emerald-100 flex flex-col items-center justify-center py-8"><span class="text-3xl mb-1">🏛️</span><span>KEA Hub</span></div>
                     <div onclick="window.navigateTo('current-affairs-grid')" class="premium-card font-bold border-orange-100 flex flex-col items-center justify-center py-6 col-span-2"><span class="text-3xl mb-1">🌐</span><span>Current Affairs</span></div>
                 </div>
                 
