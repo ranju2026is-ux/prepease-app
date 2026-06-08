@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>PrepEase | Aspirants Hub</title>
+    <title>PrepEase | Karnataka State Aspirants Hub</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -137,6 +137,8 @@
             mistakes: [],
             totalPoints: 0,
             masteryBookPoints: 0,
+            upscMasteryPoints: 0,
+            keaMasteryPoints: 0,
             authMode: 'login',
             currentAnkiIndex: 0,
             ankiSelection: null,
@@ -150,7 +152,13 @@
             currentType: '',
             isRulesMode: false,
             isUPSC: false,
+            isKEA: false,
+            isCurrentAffairs: false,
             currentUPSCTest: 1,
+            currentKEATest: 1,
+            currentCAMonth: 1,
+            activeMasteryCategory: 'general', // 'general', 'upsc', 'kea'
+            isReviewMode: false,
             activeMode: 'none',
             quizResults: null,
             authError: null
@@ -175,9 +183,17 @@
         window.renderLevelsGrid = renderLevelsGrid;
         window.renderShiftGrid = renderShiftGrid;
         window.renderUPSCTestsGrid = renderUPSCTestsGrid;
+        window.renderKEATestsGrid = renderKEATestsGrid;
+        window.renderCAGrid = renderCAGrid;
         window.renderQuizUI = renderQuizUI;
         window.renderResults = renderResults;
         window.renderStudyCardUI = renderStudyCardUI;
+        window.triggerReattempt = triggerReattempt;
+        window.handleAnkiChoice = (sel, cor) => {
+            if(state.ankiSelection) return;
+            state.ankiSelection = { selected: sel.trim(), isCorrect: sel.trim() === cor.trim() };
+            window.render();
+        };
 
         const topicsData = {
             grammar: [
@@ -207,6 +223,8 @@
 
         const gd2023Shifts = Array.from({length: 77}, (_, i) => `SSC GD 2023 Shift-${i + 1}`);
         const upscTestsList = Array.from({length: 20}, (_, i) => `UPSC General Studies Mock Test-${i + 1}`);
+        const keaTestsList = Array.from({length: 40}, (_, i) => `KEA General Studies Mock Test-${i + 1}`);
+        const caMonthsList = Array.from({length: 10}, (_, i) => `Current Affairs Month-${i + 1}`);
 
         function navigateTo(view, params = {}, fromPopState = false) {
             Object.assign(state, params);
@@ -225,9 +243,12 @@
         }
 
         function moveNext() {
-            if (state.view === 'mistakes-book' && state.mistakes.length > 0) {
-                state.currentAnkiIndex = (state.currentAnkiIndex + 1) % state.mistakes.length;
-                state.ankiSelection = null; window.render();
+            if (state.view === 'mistakes-book') {
+                const filtered = getFilteredMistakes();
+                if (filtered.length > 0) {
+                    state.currentAnkiIndex = (state.currentAnkiIndex + 1) % filtered.length;
+                    state.ankiSelection = null; window.render();
+                }
             } else if (state.activeMode === 'study') {
                 if (state.currentStudyIndex < (window.activeStudyData || []).length - 1) { 
                     state.currentStudyIndex++; window.renderStudyCardUI(); 
@@ -240,9 +261,12 @@
         }
 
         function movePrev() {
-            if (state.view === 'mistakes-book' && state.mistakes.length > 0) {
-                state.currentAnkiIndex = (state.currentAnkiIndex - 1 + state.mistakes.length) % state.mistakes.length;
-                state.ankiSelection = null; window.render();
+            if (state.view === 'mistakes-book') {
+                const filtered = getFilteredMistakes();
+                if (filtered.length > 0) {
+                    state.currentAnkiIndex = (state.currentAnkiIndex - 1 + filtered.length) % filtered.length;
+                    state.ankiSelection = null; window.render();
+                }
             } else if (state.activeMode === 'study' && state.currentStudyIndex > 0) {
                 state.currentStudyIndex--; window.renderStudyCardUI();
             } else if (state.activeMode === 'quiz' && state.currentQuizIndex > 0) {
@@ -261,7 +285,7 @@
                     const fullName = document.getElementById('name-input').value;
                     const res = await createUserWithEmailAndPassword(auth, email, passIn);
                     await setDoc(doc(db, 'artifacts', appId, 'users', res.user.uid, 'profile', 'info'), { name: fullName, username: userIn });
-                    await setDoc(doc(db, 'artifacts', appId, 'users', res.user.uid, 'profile', 'mastery'), { points: 0 });
+                    await setDoc(doc(db, 'artifacts', appId, 'users', res.user.uid, 'profile', 'mastery'), { points: 0, upsc_points: 0, kea_points: 0 });
                 } else {
                     await signInWithEmailAndPassword(auth, email, passIn);
                 }
@@ -273,24 +297,32 @@
             state.isAuthenticated = false; state.userId = null; window.navigateTo('login');
         }
 
-        async function fetchJSON(url) {
-            try { const res = await fetch(url); if (!res.ok) return null; return await res.json(); } catch (e) { return null; }
-        }
-
-        async function multiPathFetch(paths) {
-            for (let path of paths) { const data = await fetchJSON(path); if (data) return data; }
-            return null;
+        function getFilteredMistakes() {
+            return state.mistakes.filter(m => {
+                if (state.activeMasteryCategory === 'upsc') return m.category === 'upsc';
+                if (state.activeMasteryCategory === 'kea') return m.category === 'kea';
+                return !m.category || m.category === 'general' || m.category === 'ssc';
+            });
         }
 
         async function loadGenericContent() {
-            const { currentTopic, currentLevel, isSSC, isUPSC, currentUPSCTest, currentShift, currentExam, currentType, isRulesMode } = state;
+            const { currentTopic, currentLevel, isSSC, isUPSC, isKEA, isCurrentAffairs, currentUPSCTest, currentKEATest, currentCAMonth, currentShift, currentExam, currentType, isRulesMode } = state;
             let paths = [];
+            let progressId = "";
             
-            if (isUPSC) {
+            if (isCurrentAffairs) {
+                paths = [`./content/current-affairs/month-${currentCAMonth}.json`, `./content/current-affairs/month${currentCAMonth}.json`, `./content/current-affairs/month-${currentCAMonth}-test.json`, `./content/current-affairs/month${currentCAMonth}-test.json` ];
+                progressId = `ca_month_${currentCAMonth}`;
+            } else if (isKEA) {
+                paths = [`./content/kea/test-${currentKEATest}-test.json`, `./content/kea/test${currentKEATest}-test.json`];
+                progressId = `kea_test_${currentKEATest}`;
+            } else if (isUPSC) {
                 paths = [`./content/upsc/test-${currentUPSCTest}-test.json`, `./content/upsc/test${currentUPSCTest}-test.json`];
+                progressId = `upsc_test_${currentUPSCTest}`;
             } else if (isSSC) {
                 let folder = (currentExam === 'SSC GD 2025') ? 'gd2024' : (currentExam === 'SSC GD 2023' ? 'gd2023' : 'cgl2023');
                 paths = [`./content/ssc/${folder}/shift-${currentShift}-test.json`, `./content/ssc/${folder}/shift${currentShift}-test.json` ];
+                progressId = `${folder}_shift_${currentShift}`;
             } else {
                 const typeFolder = currentType === 'grammar' ? 'grammar' : 'vocabulary';
                 const basePath = `./content/general-english/${typeFolder}/${currentTopic}`;
@@ -299,11 +331,23 @@
                 } else {
                     paths = [`${basePath}/level-${currentLevel}.json`, `${basePath}/level${currentLevel}.json`, `${basePath}/level-${currentLevel}-test.json`, `${basePath}/level${currentLevel}-test.json` ];
                 }
+                progressId = `${currentTopic}_level_${currentLevel}`;
             }
+
+            // Check if attempt exists for View Mode / Reattempt Engine
+            const existingProgress = state.progress[progressId];
+            if (existingProgress && existingProgress.savedAnswers && !isRulesMode) {
+                state.currentQuizAnswers = JSON.parse(existingProgress.savedAnswers || '{}');
+                state.isReviewMode = true;
+            } else {
+                state.isReviewMode = false;
+                state.currentQuizAnswers = {};
+            }
+
             const data = await multiPathFetch(paths);
             if (data && data.length) {
                 if (data[0].question) { 
-                    window.activeQuestionsData = data; state.currentQuizIndex = 0; state.currentQuizAnswers = {}; state.activeMode = 'quiz'; window.renderQuizUI(); 
+                    window.activeQuestionsData = data; state.currentQuizIndex = 0; state.activeMode = 'quiz'; window.renderQuizUI(); 
                 } else { 
                     window.activeStudyData = data; state.currentStudyIndex = 0; state.activeMode = 'study'; window.renderStudyCardUI(); 
                 }
@@ -312,12 +356,40 @@
             }
         }
 
+        async function triggerReattempt() {
+            const { currentTopic, currentLevel, isSSC, isUPSC, isKEA, isCurrentAffairs, currentUPSCTest, currentKEATest, currentCAMonth, currentShift, currentExam } = state;
+            let progressId = "";
+            if (isCurrentAffairs) {
+                progressId = `ca_month_${currentCAMonth}`;
+            } else if (isKEA) {
+                progressId = `kea_test_${currentKEATest}`;
+            } else if (isUPSC) {
+                progressId = `upsc_test_${currentUPSCTest}`;
+            } else if (isSSC) {
+                let folder = (currentExam === 'SSC GD 2025') ? 'gd2024' : (currentExam === 'SSC GD 2023' ? 'gd2023' : 'cgl2023');
+                progressId = `${folder}_shift_${currentShift}`;
+            } else {
+                progressId = `${currentTopic}_level_${currentLevel}`;
+            }
+
+            state.currentQuizAnswers = {};
+            state.isReviewMode = false;
+            state.currentQuizIndex = 0;
+            delete state.progress[progressId];
+
+            if (state.userId) {
+                const ref = doc(db, 'artifacts', appId, 'users', state.userId, 'progress', progressId);
+                await deleteDoc(ref);
+            }
+            window.renderQuizUI();
+        }
+
         async function loadQuiz() {
-            const { currentTopic, currentLevel, isSSC, currentShift, currentExam, currentType } = state;
+            const { currentTopic, currentLevel, isSSC, isCurrentAffairs, currentCAMonth, currentShift, currentExam, currentType } = state;
             let folder = (currentExam === 'SSC GD 2025') ? 'gd2024' : (currentExam === 'SSC GD 2023' ? 'gd2023' : 'cgl2023');
             const typeFolder = currentType === 'grammar' ? 'grammar' : 'vocabulary';
-            let basePath = isSSC ? `./content/ssc/${folder}` : `./content/general-english/${typeFolder}/${currentTopic}`;
-            let fileName = isSSC ? `shift-${currentShift}-test.json` : `level-${currentLevel}-test.json`;
+            let basePath = isCurrentAffairs ? `./content/current-affairs` : (isSSC ? `./content/ssc/${folder}` : `./content/general-english/${typeFolder}/${currentTopic}`);
+            let fileName = isCurrentAffairs ? `month-${currentCAMonth}-test.json` : (isSSC ? `shift-${currentShift}-test.json` : `level-${currentLevel}-test.json`);
             let data = await multiPathFetch([`${basePath}/${fileName}`, `${basePath}/${fileName.replace('-', '')}`]);
             if(data) { window.activeQuestionsData = data; state.currentQuizIndex = 0; state.currentQuizAnswers = {}; state.activeMode = 'quiz'; window.renderQuizUI(); }
         }
@@ -337,16 +409,25 @@
             });
             const isSSC = !!state.isSSC;
             const isUPSC = !!state.isUPSC;
+            const isKEA = !!state.isKEA;
+            const isCurrentAffairs = !!state.isCurrentAffairs;
             
-            const multiplier = isUPSC ? 2.0 : (isSSC ? 2.0 : 1.0);
-            const penalty = isUPSC ? -0.66 : (isSSC ? -0.5 : 0.0);
+            const multiplier = (isUPSC || isKEA || isCurrentAffairs) ? 2.0 : (isSSC ? 2.0 : 1.0);
+            const penalty = (isUPSC || isKEA || isCurrentAffairs) ? -0.66 : (isSSC ? -0.5 : 0.0);
             const score = (correctCount * multiplier) + (wrong * penalty);
             state.quizResults = { score, correct: correctCount, wrong, total: questions.length };
             
             if (state.userId) {
                 let progressId = "";
-                if (state.isUPSC) {
+                let category = "general";
+                if (state.isCurrentAffairs) {
+                    progressId = `ca_month_${state.currentCAMonth}`;
+                } else if (state.isKEA) {
+                    progressId = `kea_test_${state.currentKEATest}`;
+                    category = "kea";
+                } else if (state.isUPSC) {
                     progressId = `upsc_test_${state.currentUPSCTest}`;
+                    category = "upsc";
                 } else if (state.isSSC) {
                     let folder = (state.currentExam === 'SSC GD 2025') ? 'gd2024' : (state.currentExam === 'SSC GD 2023' ? 'gd2023' : 'cgl2023');
                     progressId = `${folder}_shift_${state.currentShift}`;
@@ -354,34 +435,48 @@
                     progressId = `${state.currentTopic}_level_${state.currentLevel}`;
                 }
                 
-                setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'progress', progressId), { score, correct: correctCount, total: questions.length, points: Math.max(0, Math.round(score)), completedAt: new Date().toISOString() });
+                setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'progress', progressId), { 
+                    score, 
+                    correct: correctCount, 
+                    total: questions.length, 
+                    points: Math.max(0, Math.round(score)), 
+                    completedAt: new Date().toISOString(),
+                    savedAnswers: JSON.stringify(state.currentQuizAnswers)
+                });
                 mistakesFound.forEach(m => {
                     const safeId = m.question.toLowerCase().replace(/[^a-z0-9]/gi, '_').substring(0, 50);
-                    setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'mistakes', safeId), { ...m, masteryCount: 0 }, { merge: true });
+                    setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'mistakes', safeId), { ...m, category, masteryCount: 0 }, { merge: true });
                 });
             }
             window.navigateTo('results');
         }
 
         async function resolveAnki(correct) {
-            const current = state.mistakes[state.currentAnkiIndex];
+            const filtered = getFilteredMistakes();
+            const current = filtered[state.currentAnkiIndex];
             const refMistake = doc(db, 'artifacts', appId, 'users', state.userId, 'mistakes', current.id);
             const refMastery = doc(db, 'artifacts', appId, 'users', state.userId, 'profile', 'mastery');
             
+            let fieldToIncrement = 'points';
+            if (current.category === 'upsc') fieldToIncrement = 'upsc_points';
+            else if (current.category === 'kea') fieldToIncrement = 'kea_points';
+
             if (correct) {
                 await deleteDoc(refMistake);
-                await setDoc(refMastery, { points: increment(1) }, { merge: true });
+                await setDoc(refMastery, { [fieldToIncrement]: increment(1) }, { merge: true });
             } else {
-                await setDoc(refMastery, { points: increment(-1) }, { merge: true });
+                await setDoc(refMastery, { [fieldToIncrement]: increment(-1) }, { merge: true });
             }
             
             state.ankiSelection = null;
-            if (state.mistakes.length > 1) {
-                let nextIdx;
-                do {
-                    nextIdx = Math.floor(Math.random() * state.mistakes.length);
-                } while (nextIdx === state.currentAnkiIndex && state.mistakes.length > 1);
-                state.currentAnkiIndex = nextIdx;
+            const updatedFiltered = state.mistakes.filter(m => {
+                if (state.activeMasteryCategory === 'upsc') return m.category === 'upsc';
+                if (state.activeMasteryCategory === 'kea') return m.category === 'kea';
+                return !m.category || m.category === 'general' || m.category === 'ssc';
+            });
+
+            if (updatedFiltered.length > 0) {
+                state.currentAnkiIndex = Math.min(state.currentAnkiIndex, updatedFiltered.length - 1);
             } else {
                 state.currentAnkiIndex = 0;
             }
@@ -389,18 +484,38 @@
         }
 
         function renderHome() {
-            const rank = (p) => p < 500 ? '🌱 Junior' : p < 2000 ? '⚔️ Warrior' : '🏛️ Officer';
+            const coreMistakesCount = state.mistakes.filter(m => !m.category || m.category === 'general' || m.category === 'ssc').length;
+            const upscMistakesCount = state.mistakes.filter(m => m.category === 'upsc').length;
+            const keaMistakesCount = state.mistakes.filter(m => m.category === 'kea').length;
+
             return `<div class="p-6 h-full overflow-y-auto bg-white view-transition">
                 <h1 class="text-3xl font-black mb-4 tracking-tighter">Hello, <span class="text-indigo-600 font-sans">${state.userName || 'Aspirant'}</span></h1>
                 <div class="bg-indigo-600 p-6 rounded-3xl text-white shadow-xl mb-6">
                     <p class="text-[8px] opacity-70 uppercase font-bold tracking-widest font-sans">Total Mastery Points</p><p class="text-5xl font-black">${state.totalPoints || 0}</p>
                     <div class="mt-2 inline-block bg-white/10 px-3 py-1 rounded-full text-[10px] border border-white/20 uppercase font-bold font-sans">${state.totalPoints < 500 ? '🌱 Junior' : state.totalPoints < 2000 ? '⚔️ Warrior' : '🏛️ Officer'}</div>
                 </div>
-                <div class="grid grid-cols-2 gap-3 mb-4">
-                    <div onclick="window.navigateTo('english-selection')" class="premium-card font-bold border-indigo-100 flex flex-col items-center justify-center py-8"><span class="text-3xl mb-2">🇬🇧</span><span>English</span></div>
-                    <div onclick="window.navigateTo('exams-pyq', { currentCategory: 'ssc' })" class="premium-card font-bold border-amber-100 flex flex-col items-center justify-center py-8"><span class="text-3xl mb-2">⚔️</span><span>SSC Hub</span></div>
-                    <div onclick="window.navigateTo('upsc-tests-grid')" class="premium-card font-bold border-purple-100 flex flex-col items-center justify-center py-8"><span class="text-3xl mb-2">🏛️</span><span>UPSC Hub</span></div>
-                    <div onclick="window.navigateTo('mistakes-book')" class="premium-card font-bold border-rose-100 bg-rose-50/30 flex flex-col items-center justify-center py-8"><span class="text-3xl mb-2">🏆</span><span>Mastery Book (${state.mistakes.length})</span></div>
+                <div class="grid grid-cols-2 gap-3 mb-6">
+                    <div onclick="window.navigateTo('english-selection')" class="premium-card font-bold border-indigo-100 flex flex-col items-center justify-center py-6"><span class="text-3xl mb-1">🇬🇧</span><span>English</span></div>
+                    <div onclick="window.navigateTo('exams-pyq', { currentCategory: 'ssc' })" class="premium-card font-bold border-amber-100 flex flex-col items-center justify-center py-6"><span class="text-3xl mb-1">⚔️</span><span>SSC Hub</span></div>
+                    <div onclick="window.navigateTo('upsc-tests-grid')" class="premium-card font-bold border-purple-100 flex flex-col items-center justify-center py-6"><span class="text-3xl mb-1">🏛️</span><span>UPSC Hub</span></div>
+                    <div onclick="window.navigateTo('kea-tests-grid')" class="premium-card font-bold border-emerald-100 flex flex-col items-center justify-center py-6"><span class="text-3xl mb-1">🏛️</span><span>KEA Hub</span></div>
+                    <div onclick="window.navigateTo('current-affairs-grid')" class="premium-card font-bold border-orange-100 flex flex-col items-center justify-center py-6 col-span-2"><span class="text-3xl mb-1">🌐</span><span>Current Affairs</span></div>
+                </div>
+                
+                <h3 class="text-xs font-black text-slate-300 uppercase tracking-widest mb-4">Dedicated Mastery Books</h3>
+                <div class="grid grid-cols-1 gap-2 mb-6">
+                    <div onclick="window.navigateTo('mistakes-book', { activeMasteryCategory: 'general' })" class="premium-card font-bold border-rose-100 flex justify-between p-4 text-sm">
+                        <div class="flex items-center gap-3"><span>🏆</span><span>Core Mastery Book</span></div>
+                        <span class="bg-rose-50 text-rose-600 px-3 py-1 rounded-full text-xs font-black border border-rose-100">${coreMistakesCount}</span>
+                    </div>
+                    <div onclick="window.navigateTo('mistakes-book', { activeMasteryCategory: 'upsc' })" class="premium-card font-bold border-purple-100 flex justify-between p-4 text-sm">
+                        <div class="flex items-center gap-3"><span>🏛️</span><span>UPSC Mastery Book</span></div>
+                        <span class="bg-purple-50 text-purple-600 px-3 py-1 rounded-full text-xs font-black border border-purple-100">${upscMistakesCount}</span>
+                    </div>
+                    <div onclick="window.navigateTo('mistakes-book', { activeMasteryCategory: 'kea' })" class="premium-card font-bold border-emerald-100 flex justify-between p-4 text-sm">
+                        <div class="flex items-center gap-3"><span>🔰</span><span>KEA Mastery Book</span></div>
+                        <span class="bg-emerald-50 text-emerald-600 px-3 py-1 rounded-full text-xs font-black border border-emerald-100">${keaMistakesCount}</span>
+                    </div>
                 </div>
             </div>`;
         }
@@ -411,7 +526,7 @@
                 <button onclick="window.navigateTo('topics-grid', {currentType:state.currentType})" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button>
                 <h2 class="text-3xl font-black mb-6 tracking-tight font-sans text-sm font-black text-slate-400 uppercase">${state.currentTopicTitle}</h2>
                 
-                ${isGrammar ? `<div onclick="window.navigateTo('content-view', {currentTopic: state.currentTopic, isSSC:false, isUPSC:false, currentType: 'grammar', isRulesMode: true})" class="mb-6 p-5 border-2 border-indigo-100 bg-indigo-50/30 rounded-2xl flex items-center justify-between font-black text-indigo-700 shadow-sm active:scale-95 transition-all"><div class="flex items-center gap-3"><span class="text-2xl">📝</span><span class="uppercase text-xs tracking-wider">Study Rules & Notes</span></div><span>→</span></div>` : ''}
+                ${isGrammar ? `<div onclick="window.navigateTo('content-view', {currentTopic: state.currentTopic, isSSC:false, isUPSC:false, isKEA:false, isCurrentAffairs:false, currentType: 'grammar', isRulesMode: true})" class="mb-6 p-5 border-2 border-indigo-100 bg-indigo-50/30 rounded-2xl flex items-center justify-between font-black text-indigo-700 shadow-sm active:scale-95 transition-all"><div class="flex items-center gap-3"><span class="text-2xl">📝</span><span class="uppercase text-xs tracking-wider">Study Rules & Notes</span></div><span>→</span></div>` : ''}
 
                 <p class="text-[10px] font-black text-slate-300 uppercase tracking-widest mb-4">Practice Levels</p>
                 <div class="grid grid-cols-4 gap-3">
@@ -419,7 +534,7 @@
                         const progKey = `${state.currentTopic}_level_${lv}`;
                         const data = state.progress[progKey];
                         const pct = data ? Math.min(100, Math.round((data.correct / (data.total || 1)) * 100)) : 0;
-                        return `<div onclick="window.navigateTo('content-view', {currentTopic: state.currentTopic, currentLevel:${lv}, isSSC:false, isUPSC:false, currentType: state.currentType, isRulesMode: false})" class="h-16 border-2 rounded-xl flex items-center justify-center font-bold text-lg hover:border-indigo-500 transition-all font-sans premium-card p-0"><div class="progress-fill-bg" style="width: ${pct}%"></div><div class="card-inner-text">${lv}</div></div>`;
+                        return `<div onclick="window.navigateTo('content-view', {currentTopic: state.currentTopic, currentLevel:${lv}, isSSC:false, isUPSC:false, isKEA:false, isCurrentAffairs:false, currentType: state.currentType, isRulesMode: false})" class="h-16 border-2 rounded-xl flex items-center justify-center font-bold text-lg hover:border-indigo-500 transition-all font-sans premium-card p-0"><div class="progress-fill-bg" style="width: ${pct}%"></div><div class="card-inner-text">${lv}</div></div>`;
                     }).join('')}
                 </div>
             </div>`;
@@ -433,7 +548,7 @@
                 const progKey = `${folder}_shift_${idx}`;
                 const data = state.progress[progKey];
                 const pct = data ? Math.min(100, Math.round((data.correct / (data.total || 1)) * 100)) : 0;
-                return `<div onclick="window.navigateTo('content-view', {isSSC:true, isUPSC:false, currentShift:${idx}, currentExam:'${state.currentExam}', currentTopic:'${folder}'})" class="p-4 border rounded-xl font-bold flex justify-between items-center text-xs shadow-sm bg-white font-sans premium-card"><div class="progress-fill-bg" style="width: ${pct}%"></div><div class="card-inner-text justify-between w-full flex px-2 text-left font-sans"><span>${s}</span><span>${pct > 0 ? pct+'%' : '→'}</span></div></div>`;
+                return `<div onclick="window.navigateTo('content-view', {isSSC:true, isUPSC:false, isKEA:false, isCurrentAffairs:false, currentShift:${idx}, currentExam:'${state.currentExam}', currentTopic:'${folder}'})" class="p-4 border rounded-xl font-bold flex justify-between items-center text-xs shadow-sm bg-white font-sans premium-card"><div class="progress-fill-bg" style="width: ${pct}%"></div><div class="card-inner-text justify-between w-full flex px-2 text-left font-sans"><span>${s}</span><span>${pct > 0 ? pct+'%' : '→'}</span></div></div>`;
             }).join('')}</div></div>`;
         }
 
@@ -447,7 +562,51 @@
                         const progKey = `upsc_test_${testNum}`;
                         const data = state.progress[progKey];
                         const pct = data ? Math.min(100, Math.round((data.correct / (data.total || 1)) * 100)) : 0;
-                        return `<div onclick="window.navigateTo('content-view', {isSSC:false, isUPSC:true, currentUPSCTest:${testNum}})" class="p-4 border rounded-xl font-bold flex justify-between items-center text-xs shadow-sm bg-white font-sans premium-card">
+                        return `<div onclick="window.navigateTo('content-view', {isSSC:false, isUPSC:true, isKEA:false, isCurrentAffairs:false, currentUPSCTest:${testNum}})" class="p-4 border rounded-xl font-bold flex justify-between items-center text-xs shadow-sm bg-white font-sans premium-card">
+                            <div class="progress-fill-bg" style="width: ${pct}%"></div>
+                            <div class="card-inner-text justify-between w-full flex px-2 text-left font-sans">
+                                <span>${s}</span>
+                                <span>${pct > 0 ? pct+'%' : '→'}</span>
+                            </div>
+                        </div>`;
+                    }).join('')}
+                </div>
+            </div>`;
+        }
+
+        function renderKEATestsGrid() {
+            return `<div class="p-6 h-full flex flex-col overflow-hidden bg-white view-transition">
+                <button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button>
+                <h2 class="text-xl font-black mb-4 tracking-tighter uppercase text-sm font-black text-slate-400 font-sans">KEA General Studies Hub</h2>
+                <div class="grid grid-cols-1 gap-2 flex-grow overflow-y-auto pr-1">
+                    ${keaTestsList.map((s, idx) => {
+                        const testNum = idx + 1;
+                        const progKey = `kea_test_${testNum}`;
+                        const data = state.progress[progKey];
+                        const pct = data ? Math.min(100, Math.round((data.correct / (data.total || 1)) * 100)) : 0;
+                        return `<div onclick="window.navigateTo('content-view', {isSSC:false, isUPSC:false, isKEA:true, isCurrentAffairs:false, currentKEATest:${testNum}})" class="p-4 border rounded-xl font-bold flex justify-between items-center text-xs shadow-sm bg-white font-sans premium-card">
+                            <div class="progress-fill-bg" style="width: ${pct}%"></div>
+                            <div class="card-inner-text justify-between w-full flex px-2 text-left font-sans">
+                                <span>${s}</span>
+                                <span>${pct > 0 ? pct+'%' : '→'}</span>
+                            </div>
+                        </div>`;
+                    }).join('')}
+                </div>
+            </div>`;
+        }
+
+        function renderCAGrid() {
+            return `<div class="p-6 h-full flex flex-col overflow-hidden bg-white view-transition">
+                <button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button>
+                <h2 class="text-xl font-black mb-4 tracking-tighter uppercase text-sm font-black text-slate-400 font-sans">Current Affairs Hub</h2>
+                <div class="grid grid-cols-1 gap-2 flex-grow overflow-y-auto pr-1">
+                    ${caMonthsList.map((s, idx) => {
+                        const monthNum = idx + 1;
+                        const progKey = `ca_month_${monthNum}`;
+                        const data = state.progress[progKey];
+                        const pct = data ? Math.min(100, Math.round((data.correct / (data.total || 1)) * 100)) : 0;
+                        return `<div onclick="window.navigateTo('content-view', {isSSC:false, isUPSC:false, isKEA:false, isCurrentAffairs:true, currentCAMonth:${monthNum}})" class="p-4 border rounded-xl font-bold flex justify-between items-center text-xs shadow-sm bg-white font-sans premium-card">
                             <div class="progress-fill-bg" style="width: ${pct}%"></div>
                             <div class="card-inner-text justify-between w-full flex px-2 text-left font-sans">
                                 <span>${s}</span>
@@ -463,19 +622,35 @@
             const q = window.activeQuestionsData[state.currentQuizIndex];
             const ans = state.currentQuizAnswers[state.currentQuizIndex];
             const container = document.getElementById('content-container'); if(!q) return;
+            
+            // Reattempt toggle banner if in review mode
+            const reviewBanner = state.isReviewMode ? `
+                <div class="bg-indigo-50 border border-indigo-100 rounded-2xl p-3.5 mb-3 flex justify-between items-center text-xs view-transition">
+                    <span class="text-indigo-800 font-extrabold flex items-center gap-1.5">
+                        <span class="relative flex h-2 w-2">
+                          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-400 opacity-75"></span>
+                          <span class="relative inline-flex rounded-full h-2 w-2 bg-indigo-500"></span>
+                        </span>
+                        👀 REVIEW MODE
+                    </span>
+                    <button onclick="window.triggerReattempt()" class="bg-indigo-600 hover:bg-indigo-700 text-white font-extrabold px-3 py-1.5 rounded-lg uppercase tracking-wider transition-all">Reattempt 🔄</button>
+                </div>
+            ` : '';
+
             container.innerHTML = `<div class="bg-white p-4 rounded-3xl border h-full flex flex-col overflow-hidden" ontouchstart="window.handleTouchStart(event)" ontouchend="window.handleTouchEnd(event)">
                 <div class="flex justify-between items-center mb-3"><span class="text-[10px] font-black text-slate-400 font-sans uppercase">Q${state.currentQuizIndex+1}/${window.activeQuestionsData.length}</span><button onclick="window.navigateTo('home')" class="text-rose-500 font-bold text-[10px] uppercase">Exit</button></div>
+                ${reviewBanner}
                 <div class="scroll-content"><p class="text-base font-bold mb-4 leading-snug font-sans whitespace-pre-wrap">${q.question}</p>
-                    <div class="flex flex-col gap-2 ${ans ? 'pointer-events-none' : ''}">${q.options.map(o => {
+                    <div class="flex flex-col gap-2 ${ (ans && !state.isReviewMode) ? 'pointer-events-none' : '' }">${q.options.map(o => {
                         const isCorrect = o.trim() === q.answer.trim(); const isSelected = ans?.selected === o.trim();
                         let cls = "p-3.5 border-2 rounded-xl text-sm font-bold transition-all ";
-                        if (ans) { if (isCorrect) cls += "option-correct"; else if (isSelected) cls += "option-wrong"; else cls += "border-slate-50 opacity-40"; }
-                        else { cls += "border-slate-50 bg-slate-50/30 active:bg-indigo-50"; }
-                        return `<div onclick="window.handleChoice('${o.trim().replace(/'/g, "\\'")}', '${q.answer.trim().replace(/'/g, "\\'")}')" class="${cls}">${o}</div>`;
+                        if (ans || state.isReviewMode) { if (isCorrect) cls += "option-correct"; else if (isSelected) cls += "option-wrong"; else cls += "border-slate-50 opacity-40"; }
+                        else { cls += "border-slate-50 bg-slate-50/30 active:bg-indigo-50 cursor-pointer"; }
+                        return `<div onclick="${ (!ans && !state.isReviewMode) ? `window.handleChoice('${o.trim().replace(/'/g, "\\'")}', '${q.answer.trim().replace(/'/g, "\\'")}')" class="${cls}"` : '' }" class="${cls}">${o}</div>`;
                     }).join('')}</div>
-                    ${ans ? `<div class="mt-4 p-4 bg-slate-50 rounded-2xl border-l-4 border-indigo-500 text-[11px] leading-relaxed font-kannada view-transition">${q.explanation || ''}</div>` : ''}
+                    ${(ans || state.isReviewMode) ? `<div class="mt-4 p-4 bg-slate-50 rounded-2xl border-l-4 border-indigo-500 text-[15px] md:text-[17px] leading-relaxed font-kannada view-transition">${q.explanation || ''}</div>` : ''}
                 </div>
-                <div class="mt-2 flex gap-2 h-14">${state.currentQuizIndex === window.activeQuestionsData.length - 1 ? `<button onclick="window.submitFinalResults()" class="flex-grow bg-emerald-600 text-white rounded-xl font-bold uppercase text-xs" ${!ans ? 'disabled opacity-30' : ''}>Finish 🏁</button>` : `<button onclick="window.moveNext()" class="flex-grow bg-indigo-600 text-white rounded-xl font-bold uppercase text-xs" ${!ans ? 'disabled opacity-30' : ''}>Next</button>`}</div>
+                <div class="mt-2 flex gap-2 h-14">${state.currentQuizIndex === window.activeQuestionsData.length - 1 ? `<button onclick="window.submitFinalResults()" class="flex-grow bg-emerald-600 text-white rounded-xl font-bold uppercase text-xs" ${!ans && !state.isReviewMode ? 'disabled opacity-30' : ''}>Finish 🏁</button>` : `<button onclick="window.moveNext()" class="flex-grow bg-indigo-600 text-white rounded-xl font-bold uppercase text-xs" ${!ans && !state.isReviewMode ? 'disabled opacity-30' : ''}>Next</button>`}</div>
             </div>`;
         }
 
@@ -490,7 +665,7 @@
                         <div class="bg-rose-50 p-6 rounded-3xl text-center"><p class="text-3xl font-black text-rose-600 font-sans">${res.wrong}</p><p class="text-[8px] font-bold text-rose-400 uppercase">Wrong</p></div>
                         <div class="bg-emerald-50 p-4 rounded-3xl text-center col-span-2"><p class="text-4xl font-black text-emerald-600 font-sans">${res.score.toFixed(1)}</p><p class="text-[9px] font-bold text-emerald-400 uppercase">Final Marks</p></div>
                     </div>
-                    <button onclick="window.navigateTo('home')" class="w-full py-4 bg-slate-900 text-white rounded-2xl font-bold uppercase text-xs tracking-widest shadow-lg active:scale-95 transition-all font-sans">Return Hub</button>
+                    <button onclick="window.navigateTo('home')" class="w-full mt-2 py-4 bg-slate-900 text-white rounded-2xl font-bold uppercase text-xs tracking-widest shadow-lg active:scale-95 transition-all font-sans">Return Hub</button>
                 </div>
             </div>`;
         }
@@ -517,22 +692,28 @@
         }
 
         function renderMasteryBook() {
-            if (state.mistakes.length === 0) return `<div class="p-10 text-center font-bold flex flex-col justify-center h-full bg-white view-transition">All Mastered! 🏆<br><button onclick="window.navigateTo('home')" class="mt-4 bg-indigo-600 text-white p-4 rounded-xl mx-auto uppercase text-xs font-bold font-sans">Home</button></div>`;
-            const current = state.mistakes[state.currentAnkiIndex]; const ans = state.ankiSelection;
+            const filtered = getFilteredMistakes();
+            if (filtered.length === 0) return `<div class="p-10 text-center font-bold flex flex-col justify-center h-full bg-white view-transition">All Mastered! 🏆<br><button onclick="window.navigateTo('home')" class="mt-4 bg-indigo-600 text-white p-4 rounded-xl mx-auto uppercase text-xs font-bold font-sans">Home</button></div>`;
+            const current = filtered[state.currentAnkiIndex]; const ans = state.ankiSelection;
+            
+            let trackerPoints = state.masteryBookPoints;
+            if (state.activeMasteryCategory === 'upsc') trackerPoints = state.upscMasteryPoints;
+            else if (state.activeMasteryCategory === 'kea') trackerPoints = state.keaMasteryPoints;
+
             return `<div class="app-container" ontouchstart="window.handleTouchStart(event)" ontouchend="window.handleTouchEnd(event)">
                 <div class="flex justify-between items-center mb-4 px-1">
-                    <p class="text-[9px] font-black uppercase text-slate-400 tracking-tighter">Mistake ${state.currentAnkiIndex + 1}/${state.mistakes.length}</p>
+                    <p class="text-[9px] font-black uppercase text-slate-400 tracking-tighter">Mistake ${state.currentAnkiIndex + 1}/${filtered.length}</p>
                     <div class="bg-rose-50 text-rose-600 px-4 py-1.5 rounded-full font-black text-xs flex items-center gap-1 border border-rose-100 shadow-sm">
-                        <span>${state.masteryBookPoints}</span> ❤️
+                        <span>${trackerPoints}</span> ❤️
                     </div>
                 </div>
                 <div class="bg-white p-4 rounded-3xl border h-full flex flex-col overflow-hidden shadow-sm">
                     <div class="scroll-content"><h3 class="text-base font-bold mb-4 leading-tight font-sans">${current.question}</h3><div class="flex flex-col gap-2 ${ans ? 'pointer-events-none' : ''}">${current.options.map(o => {
-                        const isCorrect = o.trim() === current.answer.trim(); let cls = "p-3 border-2 rounded-xl text-xs font-bold transition-all ";
+                        const isCorrect = o.trim() === current.answer.trim(); let cls = "p-3 border-2 rounded-xl text-xs font-bold transition-all cursor-pointer";
                         if (ans) { if (isCorrect) cls += "option-correct"; else if (ans.selected === o.trim()) cls += "option-wrong"; else cls += "border-slate-50 opacity-40"; }
                         else { cls += "border-slate-50 bg-slate-50/30"; }
                         return `<div onclick="window.handleAnkiChoice('${o.trim().replace(/'/g, "\\'")}', '${current.answer.trim().replace(/'/g, "\\'")}')" class="${cls}">${o}</div>`;
-                    }).join('')}</div>${ans ? `<div class="mt-4 p-4 bg-slate-50 rounded-2xl border-l-4 border-rose-500 text-[11px] font-kannada view-transition">${current.explanation || ''}</div>` : ''}</div>
+                    }).join('')}</div>${ans ? `<div class="mt-4 p-4 bg-slate-50 rounded-2xl border-l-4 border-rose-500 text-[15px] md:text-[17px] leading-relaxed font-kannada view-transition">${current.explanation || ''}</div>` : ''}</div>
                     ${ans ? `<div class="mt-2 flex gap-2 h-14"><button onclick="window.resolveAnki(${ans.isCorrect})" class="flex-1 ${ans.isCorrect ? 'bg-emerald-600' : 'bg-rose-600'} text-white rounded-xl font-bold text-xs uppercase shadow-md font-sans">${ans.isCorrect ? 'Got it ✅ (+1)' : 'Hard ❌ (-1)'}</button></div>` : `<div class="mt-2 text-center text-slate-300 text-[9px] uppercase tracking-widest py-2">Select answer to review</div>`}
                 </div>
             </div>`;
@@ -572,6 +753,8 @@
                 </div></div>`; break;
                 case 'shift-grid': shell.innerHTML = window.renderShiftGrid(); break;
                 case 'upsc-tests-grid': shell.innerHTML = window.renderUPSCTestsGrid(); break;
+                case 'kea-tests-grid': shell.innerHTML = window.renderKEATestsGrid(); break;
+                case 'current-affairs-grid': shell.innerHTML = window.renderCAGrid(); break;
                 case 'results': shell.innerHTML = window.renderResults(); break;
                 case 'content-view': shell.innerHTML = `<div id="content-container" class="app-container"></div>`; window.loadGenericContent(); break;
                 case 'mistakes-book': shell.innerHTML = window.renderMasteryBook(); break;
@@ -599,9 +782,14 @@
 
                 onSnapshot(doc(db, 'artifacts', appId, 'users', state.userId, 'profile', 'mastery'), (doc) => {
                     if (doc.exists()) {
-                        state.masteryBookPoints = doc.data().points || 0;
+                        const data = doc.data();
+                        state.masteryBookPoints = data.points || 0;
+                        state.upscMasteryPoints = data.upsc_points || 0;
+                        state.keaMasteryPoints = data.kea_points || 0;
                     } else {
                         state.masteryBookPoints = 0;
+                        state.upscMasteryPoints = 0;
+                        state.keaMasteryPoints = 0;
                     }
                     window.render();
                 });
