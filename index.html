@@ -176,7 +176,7 @@
         window.handleLogout = handleLogout;
         window.loadGenericContent = loadGenericContent;
         window.loadQuiz = loadQuiz;
-        window.handleChoice = handleChoice;
+        window.handleChoiceIndex = handleChoiceIndex;
         window.submitFinalResults = submitFinalResults;
         window.resolveAnki = resolveAnki;
         window.renderHome = renderHome;
@@ -190,11 +190,7 @@
         window.renderStudyCardUI = renderStudyCardUI;
         window.renderMasteryBook = renderMasteryBook;
         window.triggerReattempt = triggerReattempt;
-        window.handleAnkiChoice = (sel, cor) => {
-            if(state.ankiSelection) return;
-            state.ankiSelection = { selected: sel.trim(), isCorrect: sel.trim() === cor.trim() };
-            window.render();
-        };
+        window.handleAnkiChoiceIndex = handleAnkiChoiceIndex;
 
         const topicsData = {
             grammar: [
@@ -228,15 +224,13 @@
         const caMonthsList = Array.from({length: 10}, (_, i) => `Current Affairs Month-${i + 1}`);
 
         function navigateTo(view, params = {}, fromPopState = false) {
-            Object.assign(state, params);
-            state.view = view;
-            
-            // Safeguard reset to prevent out of bounds when switching books
-            if (view === 'mistakes-book') {
+            // Safety: Reset Indices when switching views to prevent out of bounds crashes
+            if (view === 'mistakes-book' || view === 'home') {
                 state.currentAnkiIndex = 0;
                 state.ankiSelection = null;
             }
-            
+            Object.assign(state, params);
+            state.view = view;
             if (!fromPopState) history.pushState({ view, params: JSON.parse(JSON.stringify(params)) }, '', "");
             window.render();
             document.body.style.overflow = (['content-view', 'mistakes-book', 'results'].includes(view)) ? 'hidden' : 'auto';
@@ -402,9 +396,15 @@
             if(data) { window.activeQuestionsData = data; state.currentQuizIndex = 0; state.currentQuizAnswers = {}; state.activeMode = 'quiz'; window.renderQuizUI(); }
         }
 
-        function handleChoice(sel, cor) {
-            if(state.currentQuizAnswers[state.currentQuizIndex]) return;
-            state.currentQuizAnswers[state.currentQuizIndex] = { selected: sel.trim(), isCorrect: sel.trim() === cor.trim() };
+        // Clean & Robust Choice selection utilizing Option Indices to prevent nested quote bugs
+        function handleChoiceIndex(index) {
+            if(state.currentQuizAnswers[state.currentQuizIndex] || state.isReviewMode) return;
+            const q = window.activeQuestionsData[state.currentQuizIndex];
+            const selectedOption = q.options[index];
+            state.currentQuizAnswers[state.currentQuizIndex] = { 
+                selected: selectedOption.trim(), 
+                isCorrect: selectedOption.trim() === q.answer.trim() 
+            };
             window.renderQuizUI();
         }
 
@@ -462,6 +462,8 @@
         async function resolveAnki(correct) {
             const filtered = getFilteredMistakes();
             const current = filtered[state.currentAnkiIndex];
+            if (!current) return;
+
             const refMistake = doc(db, 'artifacts', appId, 'users', state.userId, 'mistakes', current.id);
             const refMastery = doc(db, 'artifacts', appId, 'users', state.userId, 'profile', 'mastery');
             
@@ -477,7 +479,7 @@
             }
             
             state.ankiSelection = null;
-            const updatedFiltered = state.mistakes.filter(m => {
+            const updatedFiltered = state.mistakes.filter(m => m.id !== current.id).filter(m => {
                 if (state.activeMasteryCategory === 'upsc') return m.category === 'upsc';
                 if (state.activeMasteryCategory === 'kea') return m.category === 'kea';
                 return !m.category || m.category === 'general' || m.category === 'ssc';
@@ -488,6 +490,20 @@
             } else {
                 state.currentAnkiIndex = 0;
             }
+            window.render();
+        }
+
+        function handleAnkiChoiceIndex(index) {
+            if(state.ankiSelection) return;
+            const filtered = getFilteredMistakes();
+            const current = filtered[state.currentAnkiIndex];
+            if (!current) return;
+            
+            const selectedOption = current.options[index];
+            state.ankiSelection = { 
+                selected: selectedOption.trim(), 
+                isCorrect: selectedOption.trim() === current.answer.trim() 
+            };
             window.render();
         }
 
@@ -505,8 +521,8 @@
                 <div class="grid grid-cols-2 gap-3 mb-6">
                     <div onclick="window.navigateTo('english-selection')" class="premium-card font-bold border-indigo-100 flex flex-col items-center justify-center py-6"><span class="text-3xl mb-1">🇬🇧</span><span>English</span></div>
                     <div onclick="window.navigateTo('exams-pyq', { currentCategory: 'ssc' })" class="premium-card font-bold border-amber-100 flex flex-col items-center justify-center py-6"><span class="text-3xl mb-1">⚔️</span><span>SSC Hub</span></div>
-                    <div onclick="window.navigateTo('upsc-tests-grid')" class="premium-card font-bold border-purple-100 flex flex-col items-center justify-center py-8"><span class="text-3xl mb-1">🏛️</span><span>UPSC Hub</span></div>
-                    <div onclick="window.navigateTo('kea-tests-grid')" class="premium-card font-bold border-emerald-100 flex flex-col items-center justify-center py-8"><span class="text-3xl mb-1">🏛️</span><span>KEA Hub</span></div>
+                    <div onclick="window.navigateTo('upsc-tests-grid')" class="premium-card font-bold border-purple-100 flex flex-col items-center justify-center py-6"><span class="text-3xl mb-1">🏛️</span><span>UPSC Hub</span></div>
+                    <div onclick="window.navigateTo('kea-tests-grid')" class="premium-card font-bold border-emerald-100 flex flex-col items-center justify-center py-6"><span class="text-3xl mb-1">🏛️</span><span>KEA Hub</span></div>
                     <div onclick="window.navigateTo('current-affairs-grid')" class="premium-card font-bold border-orange-100 flex flex-col items-center justify-center py-6 col-span-2"><span class="text-3xl mb-1">🌐</span><span>Current Affairs</span></div>
                 </div>
                 
@@ -649,7 +665,7 @@
                 <div class="flex justify-between items-center mb-3"><span class="text-[10px] font-black text-slate-400 font-sans uppercase">Q${state.currentQuizIndex+1}/${window.activeQuestionsData.length}</span><button onclick="window.navigateTo('home')" class="text-rose-500 font-bold text-[10px] uppercase">Exit</button></div>
                 ${reviewBanner}
                 <div class="scroll-content"><p class="text-base font-bold mb-4 leading-snug font-sans whitespace-pre-wrap">${q.question}</p>
-                    <div class="flex flex-col gap-2 ${ (ans && !state.isReviewMode) ? 'pointer-events-none' : '' }">${q.options.map(o => {
+                    <div class="flex flex-col gap-2 ${ (ans && !state.isReviewMode) ? 'pointer-events-none' : '' }">${q.options.map((o, i) => {
                         const isCorrect = o.trim() === q.answer.trim(); const isSelected = ans?.selected === o.trim();
                         let cls = "p-3.5 border-2 rounded-xl text-sm font-bold transition-all ";
                         
@@ -661,13 +677,10 @@
                             cls += "border-slate-50 bg-slate-50/30 active:bg-indigo-50 cursor-pointer"; 
                         }
 
-                        const clickHandler = (!ans && !state.isReviewMode) 
-                            ? `window.handleChoice('${o.trim().replace(/'/g, "\\'")}', '${q.answer.trim().replace(/'/g, "\\'")}')` 
-                            : '';
-                        
+                        const clickHandler = (!ans && !state.isReviewMode) ? `window.handleChoiceIndex(${i})` : '';
                         return `<div onclick="${clickHandler}" class="${cls}">${o}</div>`;
                     }).join('')}</div>
-                    ${(ans || state.isReviewMode) ? `<div class="mt-4 p-4 bg-slate-50 rounded-2xl border-l-4 border-indigo-500 text-[15px] md:text-[17px] leading-relaxed font-kannada view-transition">${q.explanation || ''}</div>` : ''}
+                    ${(ans || state.isReviewMode) ? `<div class="mt-4 p-4 bg-slate-50 rounded-2xl border-l-4 border-indigo-500 text-[16px] md:text-[18px] leading-relaxed font-kannada text-slate-800 view-transition">${q.explanation || ''}</div>` : ''}
                 </div>
                 <div class="mt-2 flex gap-2 h-14">${state.currentQuizIndex === window.activeQuestionsData.length - 1 ? `<button onclick="window.submitFinalResults()" class="flex-grow bg-emerald-600 text-white rounded-xl font-bold uppercase text-xs" ${!ans && !state.isReviewMode ? 'disabled opacity-30' : ''}>Finish 🏁</button>` : `<button onclick="window.moveNext()" class="flex-grow bg-indigo-600 text-white rounded-xl font-bold uppercase text-xs" ${!ans && !state.isReviewMode ? 'disabled opacity-30' : ''}>Next</button>`}</div>
             </div>`;
@@ -713,8 +726,15 @@
         function renderMasteryBook() {
             const filtered = getFilteredMistakes();
             if (filtered.length === 0) return `<div class="p-10 text-center font-bold flex flex-col justify-center h-full bg-white view-transition">All Mastered! 🏆<br><button onclick="window.navigateTo('home')" class="mt-4 bg-indigo-600 text-white p-4 rounded-xl mx-auto uppercase text-xs font-bold font-sans">Home</button></div>`;
-            const current = filtered[state.currentAnkiIndex]; const ans = state.ankiSelection;
             
+            // Safety bounds enforcement during real-time database transitions
+            if (state.currentAnkiIndex >= filtered.length) {
+                state.currentAnkiIndex = 0;
+            }
+            const current = filtered[state.currentAnkiIndex]; 
+            if (!current) return `<div class="p-10 text-center font-bold flex flex-col justify-center h-full bg-white view-transition">Loading...</div>`;
+            
+            const ans = state.ankiSelection;
             let trackerPoints = state.masteryBookPoints;
             if (state.activeMasteryCategory === 'upsc') trackerPoints = state.upscMasteryPoints;
             else if (state.activeMasteryCategory === 'kea') trackerPoints = state.keaMasteryPoints;
@@ -727,12 +747,14 @@
                     </div>
                 </div>
                 <div class="bg-white p-4 rounded-3xl border h-full flex flex-col overflow-hidden shadow-sm">
-                    <div class="scroll-content"><h3 class="text-base font-bold mb-4 leading-tight font-sans">${current.question}</h3><div class="flex flex-col gap-2 ${ans ? 'pointer-events-none' : ''}">${current.options.map(o => {
+                    <div class="scroll-content"><h3 class="text-base font-bold mb-4 leading-tight font-sans">${current.question}</h3>
+                    <div class="flex flex-col gap-2 ${ans ? 'pointer-events-none' : ''}">${current.options.map((o, i) => {
                         const isCorrect = o.trim() === current.answer.trim(); let cls = "p-3 border-2 rounded-xl text-xs font-bold transition-all cursor-pointer";
                         if (ans) { if (isCorrect) cls += "option-correct"; else if (ans.selected === o.trim()) cls += "option-wrong"; else cls += "border-slate-50 opacity-40"; }
                         else { cls += "border-slate-50 bg-slate-50/30"; }
-                        return `<div onclick="window.handleAnkiChoice('${o.trim().replace(/'/g, "\\'")}', '${current.answer.trim().replace(/'/g, "\\'")}')" class="${cls}">${o}</div>`;
-                    }).join('')}</div>${ans ? `<div class="mt-4 p-4 bg-slate-50 rounded-2xl border-l-4 border-rose-500 text-[15px] md:text-[17px] leading-relaxed font-kannada view-transition">${current.explanation || ''}</div>` : ''}</div>
+                        return `<div onclick="window.handleAnkiChoiceIndex(${i})" class="${cls}">${o}</div>`;
+                    }).join('')}</div>
+                    ${ans ? `<div class="mt-4 p-4 bg-slate-50 rounded-2xl border-l-4 border-rose-500 text-[16px] md:text-[18px] leading-relaxed font-kannada text-slate-800 view-transition">${current.explanation || ''}</div>` : ''}</div>
                     ${ans ? `<div class="mt-2 flex gap-2 h-14"><button onclick="window.resolveAnki(${ans.isCorrect})" class="flex-1 ${ans.isCorrect ? 'bg-emerald-600' : 'bg-rose-600'} text-white rounded-xl font-bold text-xs uppercase shadow-md font-sans">${ans.isCorrect ? 'Got it ✅ (+1)' : 'Hard ❌ (-1)'}</button></div>` : `<div class="mt-2 text-center text-slate-300 text-[9px] uppercase tracking-widest py-2">Select answer to review</div>`}
                 </div>
             </div>`;
@@ -797,6 +819,8 @@
                         }
                     });
                     window.render();
+                }, (error) => {
+                    console.error("Progress fetch error:", error);
                 });
 
                 onSnapshot(doc(db, 'artifacts', appId, 'users', state.userId, 'profile', 'mastery'), (doc) => {
@@ -811,10 +835,14 @@
                         state.keaMasteryPoints = 0;
                     }
                     window.render();
+                }, (error) => {
+                    console.error("Mastery score fetch error:", error);
                 });
 
                 onSnapshot(collection(db, 'artifacts', appId, 'users', state.userId, 'mistakes'), (snap) => {
                     state.mistakes = []; snap.forEach(doc => state.mistakes.push({ id: doc.id, ...doc.data() })); window.render();
+                }, (error) => {
+                    console.error("Mistakes real-time fetch error:", error);
                 });
                 
                 if (state.view === 'login' || state.view === 'booting') window.navigateTo('home');
