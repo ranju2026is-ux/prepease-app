@@ -705,21 +705,29 @@
                 ${reviewBanner}
                 <div class="scroll-content"><p class="text-base font-bold mb-4 leading-snug font-sans whitespace-pre-wrap">${q.question}</p>
                     <div class="flex flex-col gap-2 ${ (ans && !state.isReviewMode) ? 'pointer-events-none' : '' }">${q.options.map((o, i) => {
-                        const isCorrect = o.trim() === q.answer.trim(); const isSelected = ans?.selected === o.trim();
+                        const isCorrect = o.trim() === q.answer.trim(); 
+                        const isSelected = ans?.selected === o.trim();
                         let cls = "p-3.5 border-2 rounded-xl text-sm font-bold transition-all ";
                         
-                        if (ans || state.isReviewMode) { 
+                        if (state.isReviewMode) { 
+                            // Review Mode styling
                             if (isCorrect) cls += "option-correct"; 
                             else if (isSelected) cls += "option-wrong"; 
                             else cls += "border-slate-50 opacity-40"; 
                         } else { 
-                            cls += "border-slate-50 bg-slate-50/30 active:bg-indigo-50 cursor-pointer"; 
+                            // Active Test / Reattempt Mode styling
+                            if (ans) {
+                                if (isSelected) cls += "border-indigo-600 bg-indigo-50 text-indigo-900";
+                                else cls += "border-slate-100 opacity-50";
+                            } else {
+                                cls += "border-slate-100 bg-slate-50/30 active:bg-indigo-50 cursor-pointer";
+                            }
                         }
 
                         const clickHandler = (!ans && !state.isReviewMode) ? `window.handleChoiceIndex(${i})` : '';
                         return `<div onclick="${clickHandler}" class="${cls}">${o}</div>`;
                     }).join('')}</div>
-                    ${(ans || state.isReviewMode) ? `<div class="mt-4 p-4 bg-slate-50 rounded-2xl border-l-4 border-indigo-500 text-[16px] md:text-[18px] leading-relaxed font-kannada text-slate-800 view-transition">${q.explanation || ''}</div>` : ''}
+                    ${(state.isReviewMode) ? `<div class="mt-4 p-4 bg-slate-50 rounded-2xl border-l-4 border-indigo-500 text-[16px] md:text-[18px] leading-relaxed font-kannada view-transition">${q.explanation || ''}</div>` : ''}
                 </div>
                 <div class="mt-2 flex gap-2 h-14">${state.currentQuizIndex === window.activeQuestionsData.length - 1 ? `<button onclick="window.submitFinalResults()" class="flex-grow bg-emerald-600 text-white rounded-xl font-bold uppercase text-xs" ${!ans && !state.isReviewMode ? 'disabled opacity-30' : ''}>Finish 🏁</button>` : `<button onclick="window.moveNext()" class="flex-grow bg-indigo-600 text-white rounded-xl font-bold uppercase text-xs" ${!ans && !state.isReviewMode ? 'disabled opacity-30' : ''}>Next</button>`}</div>
             </div>`;
