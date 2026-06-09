@@ -110,23 +110,26 @@
 
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-app.js";
-        import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
+        import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, onAuthStateChanged, signInAnonymously, signInWithCustomToken } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-auth.js";
         import { getFirestore, doc, setDoc, getDoc, collection, onSnapshot, query, deleteDoc, updateDoc, increment } from "https://www.gstatic.com/firebasejs/11.6.1/firebase-firestore.js";
 
-        const firebaseConfig = {
-            apiKey: "AIzaSyAh6pjj_eOmw2I6FMM63bDmwj5eIlbvZAI",
-            authDomain: "prepease-app.firebaseapp.com",
-            projectId: "prepease-app",
-            storageBucket: "prepease-app.firebasestorage.app",
-            messagingSenderId: "200948432412",
-            appId: "1:200948432412:web:de0582b6437305c822a9d9",
-            measurementId: "G-5673GJ545C"
-        };
+        // Global variables provided by environment if available
+        const appId = typeof __app_id !== 'undefined' ? __app_id : 'prepease-app';
+        const firebaseConfig = typeof __firebase_config !== 'undefined' 
+            ? JSON.parse(__firebase_config) 
+            : {
+                apiKey: "AIzaSyAh6pjj_eOmw2I6FMM63bDmwj5eIlbvZAI",
+                authDomain: "prepease-app.firebaseapp.com",
+                projectId: "prepease-app",
+                storageBucket: "prepease-app.firebasestorage.app",
+                messagingSenderId: "200948432412",
+                appId: "1:200948432412:web:de0582b6437305c822a9d9",
+                measurementId: "G-5673GJ545C"
+            };
         
         const app = initializeApp(firebaseConfig);
         const auth = getAuth(app);
         const db = getFirestore(app);
-        const appId = 'prepease-app';
 
         const state = {
             view: 'booting',
@@ -164,6 +167,11 @@
             authError: null
         };
         window.state = state;
+
+        // Helper to check if database operations are permitted
+        function isUserAuthenticated() {
+            return auth.currentUser && state.userId && state.userId !== 'guest_user';
+        }
 
         // --- ASSIGN HOISTED FUNCTIONS IMMEDIATELY TO WINDOW TO PREVENT RACE CONDITIONS ---
         window.render = render;
@@ -224,12 +232,10 @@
         const caMonthsList = Array.from({length: 10}, (_, i) => `Current Affairs Month-${i + 1}`);
 
         function navigateTo(view, params = {}, fromPopState = false) {
-            // Safety: Reset Indices when switching views to prevent out of bounds crashes
             if (view === 'mistakes-book' || view === 'home') {
                 state.currentAnkiIndex = 0;
                 state.ankiSelection = null;
             }
-            // Explicitly clean context flags to prevent bleeding state between different hubs
             if (['home', 'english-selection', 'exams-pyq', 'topics-grid', 'levels-grid', 'shift-grid', 'upsc-tests-grid', 'kea-tests-grid', 'current-affairs-grid'].includes(view)) {
                 state.isSSC = false;
                 state.isUPSC = false;
@@ -268,6 +274,16 @@
                     state.currentQuizIndex++; window.renderQuizUI(); 
                 }
             }
+        }
+
+        // Custom index-safe Kannada hash function to avoid collision and keep Mastery partition clean
+        function getSafeId(str) {
+            let hash = 0;
+            for (let j = 0; j < str.length; j++) {
+                hash = (hash << 5) - hash + str.charCodeAt(j);
+                hash |= 0;
+            }
+            return 'mistake_' + Math.abs(hash);
         }
 
         function movePrev() {
@@ -403,7 +419,7 @@
             state.currentQuizIndex = 0;
             delete state.progress[progressId];
 
-            if (state.userId) {
+            if (isUserAuthenticated()) {
                 const ref = doc(db, 'artifacts', appId, 'users', state.userId, 'progress', progressId);
                 await deleteDoc(ref);
             }
@@ -449,24 +465,26 @@
             const score = (correctCount * multiplier) + (wrong * penalty);
             state.quizResults = { score, correct: correctCount, wrong, total: questions.length };
             
-            if (state.userId) {
-                let progressId = "";
-                let category = "general";
-                if (state.isCurrentAffairs) {
-                    progressId = `ca_month_${state.currentCAMonth}`;
-                } else if (state.isKEA) {
-                    progressId = `kea_test_${state.currentKEATest}`;
-                    category = "kea";
-                } else if (state.isUPSC) {
-                    progressId = `upsc_test_${state.currentUPSCTest}`;
-                    category = "upsc";
-                } else if (state.isSSC) {
-                    let folder = (state.currentExam === 'SSC GD 2025') ? 'gd2024' : (state.currentExam === 'SSC GD 2023' ? 'gd2023' : 'cgl2023');
-                    progressId = `${folder}_shift_${state.currentShift}`;
-                } else {
-                    progressId = `${state.currentTopic}_level_${state.currentLevel}`;
-                }
-                
+            let progressId = "";
+            let category = "general";
+            if (state.isCurrentAffairs) {
+                progressId = `ca_month_${state.currentCAMonth}`;
+            } else if (state.isKEA) {
+                progressId = `kea_test_${state.currentKEATest}`;
+                category = "kea";
+            } else if (state.isUPSC) {
+                progressId = `upsc_test_${state.currentUPSCTest}`;
+                category = "upsc";
+            } else if (state.isSSC) {
+                let folder = (state.currentExam === 'SSC GD 2025') ? 'gd2024' : (state.currentExam === 'SSC GD 2023' ? 'gd2023' : 'cgl2023');
+                progressId = `${folder}_shift_${state.currentShift}`;
+                category = "ssc";
+            } else {
+                progressId = `${state.currentTopic}_level_${state.currentLevel}`;
+                category = "general";
+            }
+
+            if (isUserAuthenticated()) {
                 setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'progress', progressId), { 
                     score, 
                     correct: correctCount, 
@@ -477,14 +495,7 @@
                 });
                 
                 mistakesFound.forEach(m => {
-                    // Safe name hashing to ensure unique, persistent document IDs for Kannada questions
-                    let hash = 0;
-                    for (let j = 0; j < m.question.length; j++) {
-                        hash = (hash << 5) - hash + m.question.charCodeAt(j);
-                        hash |= 0;
-                    }
-                    const safeId = 'mistake_' + Math.abs(hash);
-                    
+                    const safeId = getSafeId(m.question);
                     setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'mistakes', safeId), { 
                         question: m.question,
                         options: m.options,
@@ -493,6 +504,31 @@
                         category: category, 
                         masteryCount: 0 
                     }, { merge: true });
+                });
+            } else {
+                // Fallback local memory save (prevents Permission Denied error for guests)
+                state.progress[progressId] = { 
+                    score, 
+                    correct: correctCount, 
+                    total: questions.length, 
+                    points: Math.max(0, Math.round(score)), 
+                    completedAt: new Date().toISOString(),
+                    savedAnswers: JSON.stringify(state.currentQuizAnswers)
+                };
+                
+                mistakesFound.forEach(m => {
+                    const safeId = getSafeId(m.question);
+                    if (!state.mistakes.find(x => x.id === safeId)) {
+                        state.mistakes.push({
+                            id: safeId,
+                            question: m.question,
+                            options: m.options,
+                            answer: m.answer,
+                            explanation: m.explanation || '',
+                            category: category,
+                            masteryCount: 0
+                        });
+                    }
                 });
             }
             window.navigateTo('results');
@@ -510,11 +546,25 @@
             if (current.category === 'upsc') fieldToIncrement = 'upsc_points';
             else if (current.category === 'kea') fieldToIncrement = 'kea_points';
 
-            if (correct) {
-                await deleteDoc(refMistake);
-                await setDoc(refMastery, { [fieldToIncrement]: increment(1) }, { merge: true });
+            if (isUserAuthenticated()) {
+                if (correct) {
+                    await deleteDoc(refMistake);
+                    await setDoc(refMastery, { [fieldToIncrement]: increment(1) }, { merge: true });
+                } else {
+                    await setDoc(refMastery, { [fieldToIncrement]: increment(-1) }, { merge: true });
+                }
             } else {
-                await setDoc(refMastery, { [fieldToIncrement]: increment(-1) }, { merge: true });
+                // Fallback guest update in memory
+                state.mistakes = state.mistakes.filter(m => m.id !== current.id);
+                let pointField = 'masteryBookPoints';
+                if (current.category === 'upsc') pointField = 'upscMasteryPoints';
+                else if (current.category === 'kea') pointField = 'keaMasteryPoints';
+
+                if (correct) {
+                    state[pointField] = (state[pointField] || 0) + 1;
+                } else {
+                    state[pointField] = (state[pointField] || 0) - 1;
+                }
             }
             
             state.ankiSelection = null;
@@ -710,24 +760,24 @@
                         let cls = "p-3.5 border-2 rounded-xl text-sm font-bold transition-all ";
                         
                         if (state.isReviewMode) { 
-                            // Review Mode styling
+                            // Review Mode: Show correct/wrong colors instantly
                             if (isCorrect) cls += "option-correct"; 
                             else if (isSelected) cls += "option-wrong"; 
                             else cls += "border-slate-50 opacity-40"; 
                         } else { 
-                            // Active Test / Reattempt Mode styling
+                            // Active Test Mode: Only highlight blue outline on click, no green/red or leaks
                             if (ans) {
                                 if (isSelected) cls += "border-indigo-600 bg-indigo-50 text-indigo-900";
                                 else cls += "border-slate-100 opacity-50";
                             } else {
-                                cls += "border-slate-100 bg-slate-50/30 active:bg-indigo-50 cursor-pointer";
+                                cls += "border-slate-50 bg-slate-50/30 active:bg-indigo-50 cursor-pointer"; 
                             }
                         }
 
                         const clickHandler = (!ans && !state.isReviewMode) ? `window.handleChoiceIndex(${i})` : '';
                         return `<div onclick="${clickHandler}" class="${cls}">${o}</div>`;
                     }).join('')}</div>
-                    ${(state.isReviewMode) ? `<div class="mt-4 p-4 bg-slate-50 rounded-2xl border-l-4 border-indigo-500 text-[16px] md:text-[18px] leading-relaxed font-kannada view-transition">${q.explanation || ''}</div>` : ''}
+                    ${(state.isReviewMode) ? `<div class="mt-4 p-4 bg-slate-50 rounded-2xl border-l-4 border-indigo-500 text-[16px] md:text-[18px] leading-relaxed font-kannada text-slate-800 view-transition">${q.explanation || ''}</div>` : ''}
                 </div>
                 <div class="mt-2 flex gap-2 h-14">${state.currentQuizIndex === window.activeQuestionsData.length - 1 ? `<button onclick="window.submitFinalResults()" class="flex-grow bg-emerald-600 text-white rounded-xl font-bold uppercase text-xs" ${!ans && !state.isReviewMode ? 'disabled opacity-30' : ''}>Finish 🏁</button>` : `<button onclick="window.moveNext()" class="flex-grow bg-indigo-600 text-white rounded-xl font-bold uppercase text-xs" ${!ans && !state.isReviewMode ? 'disabled opacity-30' : ''}>Next</button>`}</div>
             </div>`;
@@ -774,7 +824,6 @@
             const filtered = getFilteredMistakes();
             if (filtered.length === 0) return `<div class="p-10 text-center font-bold flex flex-col justify-center h-full bg-white view-transition">All Mastered! 🏆<br><button onclick="window.navigateTo('home')" class="mt-4 bg-indigo-600 text-white p-4 rounded-xl mx-auto uppercase text-xs font-bold font-sans">Home</button></div>`;
             
-            // Safety bounds enforcement during real-time database transitions
             if (state.currentAnkiIndex >= filtered.length) {
                 state.currentAnkiIndex = 0;
             }
@@ -801,7 +850,7 @@
                         else { cls += "border-slate-50 bg-slate-50/30"; }
                         return `<div onclick="window.handleAnkiChoiceIndex(${i})" class="${cls}">${o}</div>`;
                     }).join('')}</div>
-                    ${ans ? `<div class="mt-4 p-4 bg-slate-50 rounded-2xl border-l-4 border-rose-500 text-[16px] md:text-[18px] leading-relaxed font-kannada text-slate-800 view-transition">${current.explanation || ''}</div>` : ''}</div>
+                    ${ans ? `<div class="mt-4 p-4 bg-slate-50 rounded-2xl border-l-4 border-rose-500 text-[15px] md:text-[17px] leading-relaxed font-kannada text-slate-800 view-transition">${current.explanation || ''}</div>` : ''}</div>
                     ${ans ? `<div class="mt-2 flex gap-2 h-14"><button onclick="window.resolveAnki(${ans.isCorrect})" class="flex-1 ${ans.isCorrect ? 'bg-emerald-600' : 'bg-rose-600'} text-white rounded-xl font-bold text-xs uppercase shadow-md font-sans">${ans.isCorrect ? 'Got it ✅ (+1)' : 'Hard ❌ (-1)'}</button></div>` : `<div class="mt-2 text-center text-slate-300 text-[9px] uppercase tracking-widest py-2">Select answer to review</div>`}
                 </div>
             </div>`;
@@ -849,52 +898,96 @@
             }
         }
 
+        function setupFirestoreListeners(userId) {
+            // Guard to completely prevent permission errors for unauthenticated guest sessions
+            if (!userId || userId === 'guest_user') return;
+
+            onSnapshot(collection(db, 'artifacts', appId, 'users', userId, 'progress'), (snap) => {
+                state.progress = {};
+                state.totalPoints = 0;
+                snap.forEach(doc => {
+                    const data = doc.data();
+                    state.progress[doc.id] = data;
+                    if (data.type !== 'mastery') {
+                       state.totalPoints += (data.points || 0);
+                    }
+                });
+                window.render();
+            }, (error) => {
+                console.error("Progress fetch error:", error);
+            });
+
+            onSnapshot(doc(db, 'artifacts', appId, 'users', userId, 'profile', 'mastery'), (docSnap) => {
+                if (docSnap.exists()) {
+                    const data = docSnap.data();
+                    state.masteryBookPoints = data.points || 0;
+                    state.upscMasteryPoints = data.upsc_points || 0;
+                    state.keaMasteryPoints = data.kea_points || 0;
+                } else {
+                    state.masteryBookPoints = 0;
+                    state.upscMasteryPoints = 0;
+                    state.keaMasteryPoints = 0;
+                }
+                window.render();
+            }, (error) => {
+                console.error("Mastery score fetch error:", error);
+            });
+
+            onSnapshot(collection(db, 'artifacts', appId, 'users', userId, 'mistakes'), (snap) => {
+                state.mistakes = []; 
+                snap.forEach(doc => state.mistakes.push({ id: doc.id, ...doc.data() })); 
+                window.render();
+            }, (error) => {
+                console.error("Mistakes real-time fetch error:", error);
+            });
+        }
+
+        // Initialize Auth with Custom Token priority, falling back gracefully
+        const initAuth = async () => {
+            try {
+                if (typeof __initial_auth_token !== 'undefined' && __initial_auth_token) {
+                    await signInWithCustomToken(auth, __initial_auth_token);
+                } else {
+                    await signInAnonymously(auth);
+                }
+            } catch (err) {
+                console.warn("Auth initialization failed. Fallback to guest mode session:", err);
+                if (!auth.currentUser) {
+                    state.isAuthenticated = true;
+                    state.userId = "guest_user";
+                    state.userName = "Guest Aspirant";
+                    window.render();
+                    if (state.view === 'login' || state.view === 'booting') window.navigateTo('home');
+                }
+            }
+        };
+
         onAuthStateChanged(auth, async (user) => { 
             if (user) { 
                 state.userId = user.uid; state.isAuthenticated = true;
-                const profileSnap = await getDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'profile', 'info'));
-                if (profileSnap.exists()) state.userName = profileSnap.data().name;
+                try {
+                    const profileSnap = await getDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'profile', 'info'));
+                    if (profileSnap.exists()) state.userName = profileSnap.data().name;
+                } catch (e) {
+                    console.warn("Could not load profile info, proceeding with defaults:", e);
+                }
                 
-                onSnapshot(collection(db, 'artifacts', appId, 'users', state.userId, 'progress'), (snap) => {
-                    state.progress = {};
-                    state.totalPoints = 0;
-                    snap.forEach(doc => {
-                        const data = doc.data();
-                        state.progress[doc.id] = data;
-                        if (data.type !== 'mastery') {
-                           state.totalPoints += (data.points || 0);
-                        }
-                    });
-                    window.render();
-                }, (error) => {
-                    console.error("Progress fetch error:", error);
-                });
-
-                onSnapshot(doc(db, 'artifacts', appId, 'users', state.userId, 'profile', 'mastery'), (doc) => {
-                    if (doc.exists()) {
-                        const data = doc.data();
-                        state.masteryBookPoints = data.points || 0;
-                        state.upscMasteryPoints = data.upsc_points || 0;
-                        state.keaMasteryPoints = data.kea_points || 0;
-                    } else {
-                        state.masteryBookPoints = 0;
-                        state.upscMasteryPoints = 0;
-                        state.keaMasteryPoints = 0;
-                    }
-                    window.render();
-                }, (error) => {
-                    console.error("Mastery score fetch error:", error);
-                });
-
-                onSnapshot(collection(db, 'artifacts', appId, 'users', state.userId, 'mistakes'), (snap) => {
-                    state.mistakes = []; snap.forEach(doc => state.mistakes.push({ id: doc.id, ...doc.data() })); window.render();
-                }, (error) => {
-                    console.error("Mistakes real-time fetch error:", error);
-                });
+                setupFirestoreListeners(state.userId);
                 
                 if (state.view === 'login' || state.view === 'booting') window.navigateTo('home');
-            } else { state.isAuthenticated = false; state.userId = null; state.view = 'login'; window.render(); }
+            } else { 
+                if (state.userId !== 'guest_user') {
+                    state.isAuthenticated = false; 
+                    state.userId = null; 
+                    if (state.view !== 'login' && state.view !== 'booting') {
+                        window.navigateTo('login');
+                    }
+                }
+            }
         });
+
+        // Trigger Auth initialization on bootstrap
+        initAuth();
 
         window.addEventListener('popstate', (e) => { if (e.state && e.state.view) window.navigateTo(e.state.view, e.state.params, true); else window.navigateTo('home', {}, true); });
         setInterval(() => { const el = document.getElementById('floating-quote'); if (el) { el.style.opacity = '0'; setTimeout(() => { el.innerText = ["Believe. Achieve. Qualify. 🏛️", "Focus leads to mastery. 🎯", "Consistency wins. 🏆", "Learn from errors. 📚"][Math.floor(Math.random()*4)]; el.style.opacity = '1'; }, 400); } }, 8000);
