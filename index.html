@@ -224,7 +224,7 @@
         const caMonthsList = Array.from({length: 10}, (_, i) => `Current Affairs Month-${i + 1}`);
 
         function navigateTo(view, params = {}, fromPopState = false) {
-            // Reset indices when switching views to prevent out of bounds crashes
+            // Safety: Reset Indices when switching views to prevent out of bounds crashes
             if (view === 'mistakes-book' || view === 'home') {
                 state.currentAnkiIndex = 0;
                 state.ankiSelection = null;
@@ -315,6 +315,22 @@
             });
         }
 
+        async function fetchJSON(url) {
+            try { 
+                const res = await fetch(url); 
+                if (!res.ok) return null; 
+                return await res.json(); 
+            } catch (e) { 
+                console.error("Fetch failed for " + url, e);
+                return null; 
+            }
+        }
+
+        async function multiPathFetch(paths) {
+            for (let path of paths) { const data = await fetchJSON(path); if (data) return data; }
+            return null;
+        }
+
         async function loadGenericContent() {
             const { currentTopic, currentLevel, isSSC, isUPSC, isKEA, isCurrentAffairs, currentUPSCTest, currentKEATest, currentCAMonth, currentShift, currentExam, currentType, isRulesMode } = state;
             let paths = [];
@@ -367,7 +383,7 @@
         }
 
         async function triggerReattempt() {
-            const { currentTopic, currentLevel, isSSC, isUPSC, isKEA, isCurrentAffairs, currentUPSCTest, currentKEATest, currentShift, currentExam } = state;
+            const { currentTopic, currentLevel, isSSC, isUPSC, isKEA, isCurrentAffairs, currentUPSCTest, currentKEATest, currentCAMonth, currentShift, currentExam } = state;
             let progressId = "";
             if (isCurrentAffairs) {
                 progressId = `ca_month_${currentCAMonth}`;
@@ -404,7 +420,7 @@
             if(data) { window.activeQuestionsData = data; state.currentQuizIndex = 0; state.currentQuizAnswers = {}; state.activeMode = 'quiz'; window.renderQuizUI(); }
         }
 
-        // Safe Choice selection utilizing Option Indices to prevent quote-breaking syntax errors
+        // Safe Choice selection utilizing Option Indices to prevent nested quote breaking
         function handleChoiceIndex(index) {
             if(state.currentQuizAnswers[state.currentQuizIndex] || state.isReviewMode) return;
             const q = window.activeQuestionsData[state.currentQuizIndex];
@@ -461,13 +477,13 @@
                 });
                 
                 mistakesFound.forEach(m => {
-                    // Simple hash generation from Kannada / English text to prevent duplicate underscores overwrite
+                    // Safe name hashing to ensure unique, persistent document IDs for Kannada questions
                     let hash = 0;
                     for (let j = 0; j < m.question.length; j++) {
                         hash = (hash << 5) - hash + m.question.charCodeAt(j);
                         hash |= 0;
                     }
-                    const safeId = 'mistake_' + Math.abs(hash) + '_' + crypto.randomUUID().substring(0, 8);
+                    const safeId = 'mistake_' + Math.abs(hash);
                     
                     setDoc(doc(db, 'artifacts', appId, 'users', state.userId, 'mistakes', safeId), { 
                         question: m.question,
