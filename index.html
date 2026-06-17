@@ -229,7 +229,7 @@
         const gd2023Shifts = Array.from({length: 77}, (_, i) => `SSC GD 2023 Shift-${i + 1}`);
         const upscTestsList = Array.from({length: 20}, (_, i) => `UPSC General Studies Mock Test-${i + 1}`);
         const keaTestsList = Array.from({length: 40}, (_, i) => `KEA General Studies Mock Test-${i + 1}`);
-        const caMonthsList = Array.from({length: 10}, (_, i) => `Current Affairs Month-${i + 1}`);
+        const caMonthsList = Array.from({length: 15}, (_, i) => `Current Affairs Month-${i + 1}`);
 
         function navigateTo(view, params = {}, fromPopState = false) {
             if (view === 'mistakes-book' || view === 'home') {
@@ -353,7 +353,14 @@
             let progressId = "";
             
             if (isCurrentAffairs) {
-                paths = [`./content/current-affairs/month-${currentCAMonth}.json`, `./content/current-affairs/month${currentCAMonth}.json`, `./content/current-affairs/month-${currentCAMonth}-test.json`, `./content/current-affairs/month${currentCAMonth}-test.json` ];
+                paths = [
+                    `./content/current-affairs/month-${currentCAMonth}.json`, 
+                    `./content/current-affairs/month${currentCAMonth}.json`, 
+                    `./content/current-affairs/month-${currentCAMonth}-test.json`, 
+                    `./content/current-affairs/month${currentCAMonth}-test.json`,
+                    `./content/current-affairs/${currentCAMonth}.json`,
+                    `./content/current-affairs/${currentCAMonth}-test.json`
+                ];
                 progressId = `ca_month_${currentCAMonth}`;
             } else if (isKEA) {
                 paths = [`./content/kea/test-${currentKEATest}-test.json`, `./content/kea/test${currentKEATest}-test.json`];
@@ -433,6 +440,12 @@
             let basePath = isCurrentAffairs ? `./content/current-affairs` : (isSSC ? `./content/ssc/${folder}` : `./content/general-english/${typeFolder}/${currentTopic}`);
             let fileName = isCurrentAffairs ? `month-${currentCAMonth}-test.json` : (isSSC ? `shift-${currentShift}-test.json` : `level-${currentLevel}-test.json`);
             let data = await multiPathFetch([`${basePath}/${fileName}`, `${basePath}/${fileName.replace('-', '')}`]);
+            
+            // Special non-monthly fallback logic for budgets and special tests
+            if (isCurrentAffairs && !data) {
+                data = await multiPathFetch([`${basePath}/${currentCAMonth}-test.json`, `${basePath}/${currentCAMonth}.json`]);
+            }
+            
             if(data) { window.activeQuestionsData = data; state.currentQuizIndex = 0; state.currentQuizAnswers = {}; state.activeMode = 'quiz'; window.renderQuizUI(); }
         }
 
@@ -710,19 +723,25 @@
         }
 
         function renderCAGrid() {
+            // Expanded list: Month 1 to 15, State Budget, Union Budget
+            const caItemsList = [
+                ...Array.from({length: 15}, (_, i) => ({ id: i + 1, label: `Current Affairs Month-${i + 1}`, icon: "📅" })),
+                { id: "state-budget", label: "Karnataka State Budget 2026", icon: "🏛️" },
+                { id: "union-budget", label: "Union Budget 2026", icon: "🌐" }
+            ];
+
             return `<div class="p-6 h-full flex flex-col overflow-hidden bg-white view-transition">
                 <button onclick="window.navigateTo('home')" class="text-xs font-bold mb-4 opacity-40 uppercase text-left font-sans">← BACK</button>
                 <h2 class="text-xl font-black mb-4 tracking-tighter uppercase text-sm font-black text-slate-400 font-sans">Current Affairs Hub</h2>
                 <div class="grid grid-cols-1 gap-2 flex-grow overflow-y-auto pr-1">
-                    ${caMonthsList.map((s, idx) => {
-                        const monthNum = idx + 1;
-                        const progKey = `ca_month_${monthNum}`;
+                    ${caItemsList.map((item) => {
+                        const progKey = `ca_month_${item.id}`;
                         const data = state.progress[progKey];
                         const pct = data ? Math.min(100, Math.round((data.correct / (data.total || 1)) * 100)) : 0;
-                        return `<div onclick="window.navigateTo('content-view', {isSSC:false, isUPSC:false, isKEA:false, isCurrentAffairs:true, currentCAMonth:${monthNum}})" class="p-4 border rounded-xl font-bold flex justify-between items-center text-xs shadow-sm bg-white font-sans premium-card">
+                        return `<div onclick="window.navigateTo('content-view', {isSSC:false, isUPSC:false, isKEA:false, isCurrentAffairs:true, currentCAMonth:'${item.id}'})" class="p-4 border rounded-xl font-bold flex justify-between items-center text-xs shadow-sm bg-white font-sans premium-card">
                             <div class="progress-fill-bg" style="width: ${pct}%"></div>
                             <div class="card-inner-text justify-between w-full flex px-2 text-left font-sans">
-                                <span>${s}</span>
+                                <span class="flex items-center gap-2"><span>${item.icon}</span><span>${item.label}</span></span>
                                 <span>${pct > 0 ? pct+'%' : '→'}</span>
                             </div>
                         </div>`;
